@@ -7,7 +7,7 @@ on:
     inputs:
       days:
         description: "Days to refresh"
-        default: "2"
+        default: "7"
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: python static_data/build.py --recent --days "${{ inputs.days || '2' }}"
+      - run: python static_data/build.py --recent --days "${{ inputs.days || '7' }}"
 
       - name: Save refreshed data
         run: |
