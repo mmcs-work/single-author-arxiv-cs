@@ -5,6 +5,69 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Linear Hashing is Not That Awesome</title>
+      <link>http://arxiv.org/abs/2608.23502v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23502v1</guid>
+      <pubDate>Mon, 24 Aug 2026 17:04:20 +0000</pubDate>
+      <description>Consider the canonical universal hash family $h(x)= ((ax+b)\text{ mod } p)\text{ mod } m$, where $a,b$ are chosen uniformly from $\mathbb Z_p$, which we call linear hashing, being used to hash $n$ elements into $m=Θ(n)$ buckets. For any universal family, the expected size of the largest bucket is at least $Ω(\log n / \log\log n)$ and at most $O(\sqrt{n})$. The only improvement upon these trivial bounds for linear hashing is a 2019 upper bound of $\tilde{O}(n^{1/3})$ by Knudsen. We show that for any $p$ sufficiently larger than $n$, there is a set of $n$ keys whose expected maximum load is $n^{Ω(1/\log\log n)}$, proving linear hashing does not have a polylogarithmic maximum load. We extend the same bounds to the classical multiply-shift hash family of Dietzfelbinger, Hagerup, Katajainen, and Penttonen. We prove an equivalence between the maximum load problem to a density variant of arithmetic Kakeya sets. We then complete the lower bound using a construction of Green and Ruzsa of a small set containing long arithmetic progressions with every difference in a prescribed range. Surprisingly, our equivalence also implies that any substantial improvement over Knudsen's upper bound would imply new results about standard arithmetic Kakeya sets.</description>
+    </item>
+    <item>
+      <title>A Geometric Derivation of the Bitner--Ehrlich--Reingold Loopless Gray Code Algorithm</title>
+      <link>http://arxiv.org/abs/2608.23357v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23357v1</guid>
+      <pubDate>Mon, 24 Aug 2026 15:06:48 +0000</pubDate>
+      <description>The Bitner--Ehrlich--Reingold algorithm generates the binary reflected Gray code with constant work per codeword, using a focus-pointer array. Its compact update is easy to state but gives little indication of why such pointers should exist. This note reconstructs a geometric route to the algorithm. The sequence of flipped bit positions is the ruler sequence, OEIS A007814. We realize its finite prefixes as in-order traversals of recursively expanding trees, decorate each activation with its nearest ancestor to the right, contract all stack operations between successive outputs into successor jumps, and prepare the bounded level-indexed stack by predicting its future slot values. This gives and proves a branch-based loopless generator. The construction grew from an earlier informal public exposition by the author. Viewing horizontal position in the tree as time then explains each stack-slot write as a prediction for the next activation at the same level. Finally, the two possible future roles---an inherited continuation for a right child and a default continuation for a left child---are scheduled together, leading to the two assignments of the published focus-pointer algorithm. The account is a reconstructed derivation, not a claim about the historical reasoning of Bitner, Ehrlich, or Reingold.</description>
+    </item>
+    <item>
+      <title>Asymptotically Tight Fractional Online Matching Under Edge Arrivals</title>
+      <link>http://arxiv.org/abs/2608.23350v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23350v1</guid>
+      <pubDate>Mon, 24 Aug 2026 15:00:26 +0000</pubDate>
+      <description>In this brief note, we close the asymptotic gap between known upper and lower bounds for fractional online matching under edge arrivals. We prove that the optimal competitive ratio for this problem is $1/2+Θ(1/n)$. The algorithm was suggested and analyzed by OpenAI's ChatGPT Sol based on a single prompt. The presentation was streamlined over a few hours, based on a back and forth discussion with the author, who assumes responsibility for any errors.</description>
+    </item>
+    <item>
+      <title>Exact Finite-Length Theory of Uniform Car Parking: Spatial Laws, Absorption, and Aggregation</title>
+      <link>http://arxiv.org/abs/2608.22671v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22671v1</guid>
+      <pubDate>Mon, 24 Aug 2026 00:14:49 +0000</pubDate>
+      <description>The uniform car-parking process is the one-dimensional random sequential adsorption of unit cars on a segment of finite length $s$: cars arrive at uniformly random positions and park wherever they fit, until no gap admits another. This paper develops the exact finite-$s$ theory. The joint density of the parked positions is resolved into jamming cells, on each of which it is a rational function, and evaluated by a subset recursion in $O(2^n n)$ operations; the marginal and gap order statistics are obtained as hyperlogarithms whose weight is fixed by the number of coordinates integrated out; and the absorption count and the aggregate quantities are treated through the integral equation descending from Rényi.</description>
+    </item>
+    <item>
+      <title>Near-Optimal Bounds for Sketching the Schatten--1 Norm</title>
+      <link>http://arxiv.org/abs/2608.22247v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22247v1</guid>
+      <pubDate>Sun, 23 Aug 2026 07:10:28 +0000</pubDate>
+      <description>Let $k_ε(n)$ be the smallest number of real linear measurements needed by a randomized, oblivious sketch that estimates the nuclear norm of every fixed real $n\times n$ matrix within a factor $1\pmε$, with probability at least $2/3$. For every fixed $0&lt;ε&lt;1$, the proved result is $$ \frac{n^2}{(\log n)^{A_ε}} \;\le\; k_ε(n) \;\le\; C_ε\frac{n^2\{\log\log(e^e n)\}^2}{\log(e n)} $$ for all sufficiently large $n$, where $A_ε,C_ε$ depend only on $ε$. Previously, the best bounds for general linear sketches were $Ω(n)$ and the trivial $O(n^2)$ upper bound (Li, Nguyen, Woodruff, 2019). The theorem therefore nearly resolves the open measurement-complexity question left by that work: the displayed lower and upper bounds are tight up to polylogarithmic factors. In particular, the complexity is $n^{2-o(1)}$, and for every fixed $c&gt;0$, $O(n^{2-c})$ measurements are impossible. The upper bound is obtained by a fixed Gaussian sketch whose decoder combines implicit low-rank recovery with moment estimation on a high-stable-rank residual. The lower bound constructs moment-matched spectra, randomizes their singular vectors, and compares every low-dimensional observation through an odd-order tensor estimate and a Fisher-information path argument.</description>
+    </item>
+    <item>
+      <title>Optimal Mixing of Glauber Dynamics for the Sherrington-Kirkpatrick Model at $β&lt; 1/2$</title>
+      <link>http://arxiv.org/abs/2608.22159v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22159v1</guid>
+      <pubDate>Sun, 23 Aug 2026 01:18:21 +0000</pubDate>
+      <description>We prove that for every fixed inverse temperature $β&lt; 1 / 2$, with high probability over the disorder, the single-site Glauber dynamics for the $n$-spin Sherrington-Kirkpatrick model mixes from every initial configuration to within total variation distance $\varepsilon$ in $O_β\left(n \log\left(n / \varepsilon\right)\right)$ steps. The bound holds uniformly over all external fields and is optimal up to constants depending only on $β$. The main ingredient is a deterministic criterion for optimal-order Poincaré inequalities in general Ising models, established via the integrated Bakry-Émery criterion together with a new two-spin estimate. A standard application of the localization-scheme framework of Chen and Eldan then upgrades the Poincaré inequality to a modified log-Sobolev inequality, yielding the optimal mixing-time bound. The main ideas underlying the proof of the Poincaré inequality were generated by GPT-5.6 Sol Ultra.</description>
+    </item>
+    <item>
+      <title>Computing the Determinant via the Generalized Euclidean Algorithm</title>
+      <link>http://arxiv.org/abs/2608.21932v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21932v1</guid>
+      <pubDate>Sat, 22 Aug 2026 11:58:25 +0000</pubDate>
+      <description>We present an algorithm with a natural geometric interpretation for computing the determinant of a matrix $B\in\mathbb{Z}^{d\times d}$. It improves upon the current fastest deterministic algorithms by a factor of $d^{ω(1)+1-ω(2)}\approx d^{0.1213}$, where $ω(k)$ denotes the exponent required for multiplying a $d\times d$ matrix with a $d\times d^k$ matrix. Our approach builds on a recent result of Klein and Reuter (STOC 2025), who introduced a novel algorithmic idea for lattice basis computation that can be viewed as extending the Euclidean algorithm from $\mathbb{Z}$ to $\mathbb{Z}^d$. By adapting their techniques, we compute the determinant with the same bit complexity as applying the generalized Euclidean algorithm to an input matrix $A\in\mathbb{Z}^{d\times 2d}$ with $\|A\| = \|B\|$, namely $\tilde{O}(d^{ω(2)}\log\|B\|)$. Prior to this work, the fastest deterministic algorithm for computing the determinant required $\tilde{O}(d^{ω(1)+1}\log\|B\|)$ bit operations.</description>
+    </item>
+    <item>
+      <title>An 8/5 Rounding for Half-Integral Forest-BCR via Root Supports and Circuit Rank</title>
+      <link>http://arxiv.org/abs/2608.21739v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21739v1</guid>
+      <pubDate>Sat, 22 Aug 2026 02:42:08 +0000</pubDate>
+      <description>We study the rounding of a supplied half-integral feasible solution of the root-assignment bidirected cut relaxation for Steiner Forest (Forest-BCR). Byrka, Grandoni, and Traub [IPCO 2025] proved a $16/9$ guarantee for a recursive framework that normalizes the LP point, selects a vertex set of maximum projected LP density, buys a minimum spanning tree on that set, contracts it, and recurses. We prove that the same framework has guarantee $8/5$. The new analysis keeps the orientation and the root label of each projected half-unit of LP mass. In a simple projection, the cut constraints at a terminal of degree two determine the root-assignment vector of every demand incident with it, and half-integrality leaves only two possibilities: a unit assignment to one root, which forces excess outdegree inside that root's support, or a split assignment to two roots, which forces overlap between their supports. For every connected component $C$ of the split-root graph this yields $ β_C\ \ge\ \frac{L_C}{2}$, where $β_C$ is the circuit rank of the union of the root supports in $C$ and $L_C$ is the number of its vertices of degree two in the full projection. Balancing the density certificate obtained from this inequality against the ordinary degree sum gives a vertex set of density at least $5/8$, and the inherited contraction lemma turns that into the $8/5$ rounding. For every $q\ge3$ we also construct a normalized half-integral point whose maximum projected density is exactly $5q/[2(4q-1)]$, so the universal projected-density bound is asymptotically tight.</description>
+    </item>
+    <item>
+      <title>A new analysis of the randomly pivoted Cholesky algorithm</title>
+      <link>http://arxiv.org/abs/2608.20633v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.20633v1</guid>
+      <pubDate>Fri, 21 Aug 2026 00:15:20 +0000</pubDate>
+      <description>The randomly pivoted Cholesky algorithm is one of the leading methods for computing a low-rank approximation to a large positive-semidefinite matrix. However, while it consistently achieves accuracy comparable to or better than competing methods of its type in experiments, its theoretical analysis lags somewhat behind other methods. This paper closes this gap, proving that randomly pivoted Cholesky produces an approximation with expected error within a $1+\varepsilon$ factor of the optimal rank-$r$ approximation in $\mathcal{O}(r/\varepsilon + r\sqrt{\log r})$ steps. This result nearly matches the optimal complexity $Θ(r/\varepsilon)$ for any low-rank approximation method based on a partial Cholesky decomposition (also known as a column Nyström approximation). The paper also presents bounds on the randomly pivoted Cholesky trace and spectral-norm errors that hold with high probability. The mathematical argument is largely due to GPT 5.6-Sol (Pro), with some refinements by the author.</description>
+    </item>
+    <item>
       <title>Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width</title>
       <link>http://arxiv.org/abs/2608.20175v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20175v1</guid>
@@ -31,6 +94,20 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.19538v1</guid>
       <pubDate>Thu, 20 Aug 2026 01:18:46 +0000</pubDate>
       <description>Computing shortest paths in large graphs is, and remains, a fundamental and practically motivated problem. While many algorithms were proposed to calculate shortest path between pairs of vertices efficiently, many of them (index-based methods) require substantial preprocessing, while others (traversal-based methods) have higher time complexity. In this paper, we propose and analyze Pruned Bidirectional Search (PBS), a simple sublinear approximation algorithm for power-law graphs with parameter $β\in[2,3)$: our algorithm does not require any preprocessing, yet exhibits performance comparable to light index-based algorithms (of linear or sublinear index size): that is, PBS runs in time $O(n^{(1-1/\log\log n)/2})$ and, with high probability, returns a path with length within $\frac{41}{32}$ of the shortest path. Moreover, if one does allow a $n^{Θ(2-1/\log\log n)}$-time preprocessing step, its query time improves to $n^{Θ(1/\log\log n})$. We complement our theoretical results by experiments on both real-world and synthetic power-law graphs, which show that PBS is typically $1.84\times$-$7.76\times$ times faster than existing alternatives, while achieving an approximation ratio at most 1.05.</description>
+    </item>
+    <item>
+      <title>Breaking the $2^n$ Barrier for Counting Linear Extensions with a Short Elementary Algorithm</title>
+      <link>http://arxiv.org/abs/2608.19505v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19505v1</guid>
+      <pubDate>Wed, 19 Aug 2026 23:47:36 +0000</pubDate>
+      <description>A linear extension of a finite partially ordered set is a total ordering that respects the partial order. We give a deterministic exact algorithm that counts the linear extensions of an arbitrary $n$-element poset in time $O^*(1.89^n)$, where $O^*(\cdot)$ suppresses polynomial factors. This breaks the $2^n$ barrier for the general problem and resolves a question explicitly posed by Koivisto at Dagstuhl 2013. The proof refines an argument of Kozma for two-dimensional posets. A chain partition handles the case in which the poset is sufficiently far from an antichain. Otherwise, fix a maximum antichain (a largest set of pairwise incomparable elements). For each of its elements that has a comparable element above it outside the antichain, we record only which such element appears first. A decoding lemma enumerates the resulting patterns from their multiplicities. Once a pattern is fixed, each antichain element has a release condition and at most one deadline, so the dynamic program stores only the number of released elements in each deadline class. A stars-and-bars count bounds the total number of states.</description>
+    </item>
+    <item>
+      <title>Fast Algorithms for Stoquastic Spin Systems</title>
+      <link>http://arxiv.org/abs/2608.19489v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19489v1</guid>
+      <pubDate>Wed, 19 Aug 2026 22:58:31 +0000</pubDate>
+      <description>We establish a general framework for developing fast sampling and counting algorithms for stoquastic spin systems at high temperature. Our framework is based on a rapidly mixing Markov chain for polymer models and a subcritical percolation process for sampling individual polymers. We apply our framework to obtain fast algorithms for approximating the partition function and sampling from the thermal distribution of (1) general stoquastic spin systems, (2) ferromagnetic Heisenberg models, and (3) antiferromagnetic Heisenberg models on bipartite graphs. For the Heisenberg models, we obtain an improved bound on the inverse temperature by using their respective cycle and loop representations.</description>
     </item>
     <item>
       <title>Optimal Deterministic Fully Sparse Matrix Multiplication</title>
@@ -626,83 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2501.10102</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
       <description>We present a new content-agnostic algorithm for iterating over all permutations of a sequence. The algorithm leverages elementary~$O(1)$ operations on recursive lists. As a result, no new nodes are allocated during the computation. Instead, all elements are rearranged within the original nodes of the singly linked list throughout the process. While permutations are generated in an unusual order, the transitions between consecutive permutations remain smooth. A proof of concept written in the Lisp programming language is referenced and discussed.</description>
-    </item>
-    <item>
-      <title>Incremental Optimal Assignment for Real-Time Crowd Tracking</title>
-      <link>https://arxiv.org/abs/2607.21368</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.21368</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Multi-object tracking in dense crowds requires solving a bipartite assignment problem between detections and trajectories at every video frame. The classical Hungarian algorithm solves this in $O(N^3)$ time, which becomes a bottleneck for large scenes with hundreds of people. We propose an \emph{incremental} assignment algorithm that exploits the block-sparse structure of crowd tracking cost matrices --- dense within each crowd cluster, near-zero between clusters. We compute the exact same optimal $N \times N$ assignment as the Hungarian algorithm, but via an incremental strategy: we add one person at a time, exploiting the fact that after step $n-1$ the dual potentials are \emph{exactly optimal} for the $(n-1)\times(n-1)$ subproblem --- a strictly stronger condition than the intermediate feasibility maintained by the Hungarian algorithm during its $N$ outer iterations. Each new step therefore requires only a single augmenting path search from a certified optimal starting point. This avoids repeated full-matrix scans while guaranteeing an identical globally optimal result. A diagonal-reordering invariant keeps the data structure compact and cache-friendly. On realistic crowd benchmarks with $N \in [200, 5000]$ people organised into dense clusters, our algorithm achieves \textbf{3.7--6.5$\times$ speedup} over the Hungarian baseline while producing provably optimal matchings identical to those of Hungarian. The speedup grows with $N$ and remains stable beyond $N=3000$, making the method especially attractive for large-scale crowd scenes such as stadium exits and mass public events.</description>
-    </item>
-    <item>
-      <title>A note on rounding fractional matchings with constant-factor strong negative correlation</title>
-      <link>https://arxiv.org/abs/2606.07820</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.07820</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We describe new dependent-rounding algorithms for bipartite graphs. Given a fractional matching $x$ of graph $G = (U \cup V, E)$, the algorithms return an integral solution $X$ such that each right-node $v \in V$ has at most one edge, and where the variables $X_e$ also satisfy broad non-positive correlation properties. In particular, for any edges $e_1, e_2$ sharing a left-node $u \in U$, the variables $X_{e_1}, X_{e_2}$ have *strong* negative-correlation, i.e. the expectation of $X_{e_1} X_{e_2}$ is significantly below $x_{e_1} x_{e_2}$. Dependent rounding schemes with these properties have been used for a approximation algorithms for job-scheduling on unrelated machines to minimize weighted completion times, among other applications. Our new algorithm achieves simpler and qualitatively stronger bounds compared to prior algorithms. In particular, we achieve a negative-correlation property $$\mathbb E[X_{e_1} X_{e_2}] \leq 0.79751 \ x_{e_1} x_{e_2}, $$ which is a significant constant-factor improvement over Baveja, Qu &amp; Srinivasan (2023).</description>
-    </item>
-    <item>
-      <title>Algorithmic Approaches to Sequential Decision-Making and Social Epistemology</title>
-      <link>https://arxiv.org/abs/2607.20636</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.20636</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>As humans, we face many decisions that require us to choose between sticking to something and giving up. This thesis uses algorithmic tools to derive insights about such decision-making problems in theoretical models, studying both near-optimal methods and outcomes of social and behavioral influences. Along the way, this thesis sheds light on what we gain and what we lose as we move from a messy and complex real world setting to a very general abstract model by studying various points along this spectrum. In Part I, we study algorithms for sequential decision-making in the improving multi-armed bandits problem. We provide nearly matching upper and lower bounds in the general case. Then, we then ask what is possible if we have access to similar instances to the one we wish to deploy our algorithm on. To that end, we provide guarantees in the data-driven algorithm design framework, showing that a polynomial number of samples is sufficient for learning good algorithms from a class of algorithms. In Part II, we study algorithmic approaches for problems in social epistemology. We start by analyzing what role theoretical models can play in the study of social problems. We then study social and behavioral influences in decision-making requiring investment. First, we provide mathematical formalism in which to study the formation of pessimism traps, a phenomenon identified by philosophers in which agents are influenced by their predecessors to engage in less-ambitious goals. We develop financial interventions to sustainably shift communities out of these traps. The second problem we study is the influence of grit as a behavioral trait in ambitious decision-making. Overall, these works seek to theoretically model phenomena in social epistemology and provide a framework for intervening algorithmically.</description>
-    </item>
-    <item>
-      <title>The Polynomial-Time Low-Degree Conjecture is False</title>
-      <link>https://arxiv.org/abs/2607.20318</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.20318</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The low-degree method and its associated lower bounds are widely used to guide algorithm design and to provide evidence of computational hardness in average-case inference, high-dimensional statistics, random optimization, and related problems. This led to the low-degree conjecture, which predicts that when the low-degree advantage between a planted distribution and a uniform null distribution remains bounded, no efficient distinguisher can succeed after independent noise, provided that the planted distribution has permutation symmetry. Several works have produced counterexamples to variants of this conjecture or to versions for algorithms with higher time complexity, but the conjecture remained open in its standard binary, polynomial-time formulation. We disprove the polynomial-time low-degree conjecture by giving a family of examples in this setting. For every fixed integer $r\geq3$, we construct a permutation-invariant distribution $\mathbb{P}_n$ on simple graphs, with $\mathbb{Q}_n=G(n,1/2)$, such that every marginal of $\mathbb{P}_n$ on at most $D_n=Θ((\log n)^{r-1})$ edges is uniform. Therefore, the low-degree advantage is zero through degree $D_n$. Nevertheless, after every edge is independently resampled at a fixed positive rate, a deterministic rank test strongly distinguishes the resulting distribution from $\mathbb{Q}_n$ in polynomial time. The construction chooses a subspace of a Reed--Muller code whose nonzero polynomials have small absolute bias, selects points whose evaluation vectors have no short linear dependencies, and evaluates a random alternating bilinear form on pairs of these vectors. Our result shows that low-degree indistinguishability, a uniform null distribution, permutation invariance, and independent resampling do not by themselves imply polynomial-time hardness, and suggests that a valid general conjecture must impose an additional condition.</description>
-    </item>
-    <item>
-      <title>An \(O(\log n)\)-Approximation for Three-Terminal Reachability-Preserving Minimum Edge Cut</title>
-      <link>https://arxiv.org/abs/2607.20114</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.20114</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In the three-terminal Reachability-Preserving Minimum Edge Cut problem, the input is an undirected edge-weighted graph with terminals \(s_1,s_2,t\). The objective is to delete a minimum-cost set of edges that separates \(t\) from both \(s_1\) and \(s_2\), while preserving connectivity between \(s_1\) and \(s_2\). We give a polynomial-time \(O(\log n)\)-approximation algorithm. The algorithm uses a probabilistic distribution of cut-dominating decomposition trees. A direct transfer of a connected tree solution to the original graph is not valid because a connected tree cluster may induce a disconnected vertex set in the graph. We overcome this obstruction by expanding every rooted tree cluster into the connected components it induces in the original graph. These components form a node-weighted auxiliary graph. A minimum node-weighted path in this auxiliary graph produces a connected feasible source side. The main structural observation is that the total graph-boundary cost of all connected components of a rooted tree cluster is no greater than the capacity of the corresponding tree edge. This permits the auxiliary path to be compared with a tree cut separating an optimal preserved \(s_1\)-\(s_2\) path from \(t\). Combining this comparison with the expected \(O(\log n)\) cut distortion of the decomposition trees proves the approximation guarantee.</description>
-    </item>
-    <item>
-      <title>Sorting as Gradient Flow on the Permutohedron</title>
-      <link>https://arxiv.org/abs/2504.16706</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.16706</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We investigate how sorting algorithms navigate the complexity of permutation space. Our main contribution is a continuous-time geometric model that casts sorting as directed motion on the permutohedron. A quadratic potential generates an ambient gradient flow that contracts toward the fixed sorted vertex $v_s=(1,2,\ldots,n)$. This dynamical picture is set against two discrete descriptions of the same problem. One follows adjacent-swap paths along the $1$-skeleton, while the other uses comparison half-spaces to refine the feasible order types. Together, they provide the combinatorial foils used to evaluate the continuous trajectory. Comparisons remove informational ambiguity, whereas the flow removes metric distance. The two mechanisms are complementary. To support this analysis, we present decision-tree arguments and local paths with $Θ(n^2)$ behavior. We also show that the quadratic potential decreases strictly under every inversion-removing adjacent swap and formulate global half-space constraints on candidate rank maps. The maximal fixed-threshold relaxation time is determined exactly by the Euclidean diameter of the permutohedron, and the product of this relaxation time with the dimension is $Θ(n\log n)$. Under a normalized comparison clock, this intrinsic geometric quantity has the same asymptotic scale as classical optimal comparison sorting.</description>
-    </item>
-    <item>
-      <title>Local search for valued constraint satisfaction parameterized by treedepth</title>
-      <link>https://arxiv.org/abs/2405.12410</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2405.12410</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Sometimes local search algorithms cannot efficiently find even local peaks. To understand why, I look at the structure of ascents in fitness landscapes from valued constraint satisfaction problems (VCSPs) parameterized by the treedepth of their constraint graphs. There are existing constructions of VCSPs with logarithm treedepth that represent fitness landscapes where all ascents are exponential from some initial assignment. I improve these bounds by showing that with loglog treedepth, superpolynomial ascents exist; and for polylog treedepth, there are initial assignments from which all ascents are superpolynomial. My hope is that these examples of sparse VCSPs can help us better understand the barriers to efficient local search.</description>
-    </item>
-    <item>
-      <title>Approximating $δ$-Dispersion</title>
-      <link>https://arxiv.org/abs/2607.19053</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.19053</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We consider a continuous facility location problem called $δ$-Dispersion. For some fixed $δ&gt; 0$, the goal is to place as many facilities on a graph as possible with pairwise distance at least $δ$. The facilities may be located on the vertices of the graph, or the interior of the edges. This problem can be interpreted as a continuous version of the well-known Independent Set problem. Its approximation behavior is very similar for large values of $δ$. Notably, Grigoriev et al. [Algorithmica 21] showed that $δ$-Dispersion is solvable in polynomial time when $δ= 1/x$ or $δ= 2/x$ for a natural number $x$ and NP-hard otherwise. We study the approximability of $δ$-Dispersion depending on the value of $δ$. For $δ&gt; 2$, we show poly-APX-hardness, while for all $δ&lt; 2$ that are not solvable in polynomial time we show APX-hardness. Thanks to a translation theorem for $δ$ due to Hartmann et al. [MFCS 22], we may focus our attention for approximation algorithms on the intervals $(2/3 , 1)$ and $(1, 2)$. We provide several approximation algorithms with an approximation factor approaching $1$ as $δ$ approaches one of the interval boundaries. Surprisingly, the behavior as $δ$ approaches $2/3$ from above is different: As our hardness reductions reveal, it is impossible (under standard complexity-theoretic assumptions) to construct an approximation algorithm with an approximation factor approaching $1$ as $δ$ approaches $2/3$ from above.</description>
-    </item>
-    <item>
-      <title>Simulation of Non-Hermitian Hamiltonians with Bivariate Quantum Signal Processing</title>
-      <link>https://arxiv.org/abs/2605.12450</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.12450</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We achieve query-optimal quantum simulations of non-Hermitian Hamiltonians $H_{\mathrm{eff}} = H_R + iH_I$, where $H_R$ is Hermitian and $H_I \succeq 0$, using a bivariate extension of quantum signal processing (QSP) with non-commuting signal operators. The algorithm encodes the interaction-picture Dyson series as a polynomial on the bitorus, implemented through a structured multivariable QSP (M-QSP) circuit. A constant-ratio condition guarantees scalar angle-finding for M-QSP circuits with arbitrary non-commuting signal operators. A degree-preserving sum-of-squares spectral factorization permits scalar complementary polynomials in two variables. Angles are deterministically calculated in a classical precomputation step, running in $\mathcal{O}(d_R \cdot d_I)$ classical operations. Operator norms $α_R\,,β_I$ contribute additively with query complexity $\mathcal{O}((α_R + β_I)T + \log(1/\varepsilon)/\log\log(1/\varepsilon))$ matching an information-theoretic lower bound in the separate-oracle model, where $H_R$ and $H_I$ are accessed through independent block encodings. The postselection success probability is $e^{-2β_I T}\|e^{-iH_{\mathrm{eff}}T}|ψ_0\rangle\|^2\cdot (1 - \mathcal{O}(\varepsilon))$, decomposing into a state-dependent factor $\|e^{-iH_{\mathrm{eff}}T}|ψ_0\rangle\|^2$ from the intrinsic barrier and an $e^{-2β_I T}$ overhead from polynomial block-encoding.</description>
-    </item>
-    <item>
-      <title>3/2-Approximation for the Forest Augmentation Problem</title>
-      <link>https://arxiv.org/abs/2407.11101</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2407.11101</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We describe a $\frac{3}{2}$-approximation algorithm for the Forest Augmentation Problem (\textsf{FAP}), which is a special case of the Weighted 2-Edge-Connected Spanning Subgraph Problem (\textsf{Weighted 2-ECSS}). This significantly improves upon the previous best ratio $1.9973$, and proceeds toward the goal of a $\frac{3}{2}$-approximation algorithm for \textsf{Weighted 2-ECSS}.</description>
-    </item>
-    <item>
-      <title>9/7-Approximation for Two-Edge-Connectivity and Two-Vertex-Connectivity</title>
-      <link>https://arxiv.org/abs/2407.10526</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2407.10526</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We provide algorithms for the minimum 2-edge-connected spanning subgraph problem and the minimum 2-vertex-connected spanning subgraph problem with approximation ratio $\frac{9}{7}$. This improves upon a recent algorithm with ratio slightly smaller than $\frac{4}{3}$ for 2-edge-connectivity, and another one with ratio $\frac{4}{3}$ for 2-vertex-connectivity.</description>
     </item>
   </channel>
 </rss>

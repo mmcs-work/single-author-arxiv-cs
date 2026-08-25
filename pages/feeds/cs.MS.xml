@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Decomposing Grassmann Monomials for Superfield Expansions</title>
+      <link>http://arxiv.org/abs/2608.20455v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.20455v1</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:03 +0000</pubDate>
+      <description>Superspace extends spacetime by anticommuting Grassmann coordinates, whose indices may transform under spin and flavour groups. Decomposing Grassmann monomials into independent invariant structures is a central step in constructing superfield expansions, but becomes increasingly difficult in extended superspace. We present a general representation-theoretic procedure for decomposing the space $Λ^n(\mathbb{C}^{d_S}\otimes \mathbb{C}^{d_F})$, where $d_S$ and $d_F$ are the dimensions of the spin and flavour representations. The branching multiplicities for $\mathrm{GL}(m)\downarrow{\mathrm{Sp}(m)}$ and $\mathrm{GL}(m)\downarrow{\mathrm{SO}(m)}$ are computed by exact Weyl-character comparison at deterministic rational sample points, avoiding Littlewood-Richardson modification rules. We establish completeness of the character ansatz and analyse the computational complexity, showing that it is polynomial in the number of partitions of $n$ and in the group rank, without dependence on Littlewood-Richardson combinatorics. We validate the resulting decompositions via dimension checks. We provide an accompanying standalone Julia script which implements this algorithm for groups of arbitrary rank, and produces the explicit contractions with invariant tensors.</description>
+    </item>
+    <item>
+      <title>Alakazam: Symbolic Tensor Algebra for Field Theory in Julia</title>
+      <link>http://arxiv.org/abs/2608.20452v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.20452v1</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:01 +0000</pubDate>
+      <description>We present "Alakazam", a Julia package for performing symbolic manipulations of tensor expressions arising in the study of field theories and quantum mechanics. This will serve as a powerful tool for studying spacetime and supersymmetric structures, including support for calculations in superspace. The package implements many key features such as raising and lowering indices, simplification of terms with dummy indices, replacement patterns, differential and variational calculus, bosonic and fermionic grading, gamma matrix identities, and Lie brackets and commutators. We present notable speed improvements over established systems. Some possible applications include the study of descendants and invariants.</description>
+    </item>
+    <item>
+      <title>A rock-paper-scissors Mandelbrot set</title>
+      <link>http://arxiv.org/abs/2608.19424v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19424v1</guid>
+      <pubDate>Wed, 19 Aug 2026 20:22:42 +0000</pubDate>
+      <description>The titular object of this paper is an analogue of the Mandelbrot set over the 3-dimensional real algebra whose multiplication is the bilinear extension of the rock-paper-scissors operation. In order to study the dynamics of the mappings $x\mapsto x^2+c$ in this setting, a notion of holomorphy for functions on general finite-dimensional real algebras is introduced. Under a mild assumption it is shown that for such algebras holomorphy is always equivalent to solving a finite system of linear first-order PDEs generalizing the Cauchy-Riemann equations. Code is provided for generating animations of these fractals and for exploring them in a video game format.</description>
+    </item>
+    <item>
       <title>Performance evaluation of branch-free fused multiply-add algorithms for multi-component-type multiple-precision floating-point arithmetic</title>
       <link>https://arxiv.org/abs/2607.11391</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2607.11391</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2412.02004</guid>
       <pubDate>Mon, 02 Dec 2024 00:00:00 -0000</pubDate>
       <description>When it was first introduced, the Chips-n-Salsa Java library provided stochastic local search and related algorithms, with a focus on self-adaptation and parallel execution. For the past four years, we expanded its scope to include evolutionary computation. This paper concerns the evolutionary algorithms that Chips-n-Salsa now provides, which includes multiple evolutionary models, common problem representations, a wide range of mutation and crossover operators, and a variety of benchmark problems. Well-defined Java interfaces enable easily integrating custom representations and evolutionary operators, as well as defining optimization problems. Chips-n-Salsa's evolutionary algorithms include implementations with adaptive mutation and crossover rates, as well as both sequential and parallel execution. Source code is maintained on GitHub, and immutable artifacts are regularly published to the Maven Central Repository to enable easily importing into projects for reproducible builds. Effective development processes such as test-driven development, as well as a variety of static analysis tools help ensure code quality.</description>
-    </item>
-    <item>
-      <title>Jaya R Package -- A Parameter-Free Solution for Advanced Single and Multi-Objective Optimization</title>
-      <link>https://arxiv.org/abs/2411.16509</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2411.16509</guid>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0000</pubDate>
-      <description>The Jaya R package offers a robust and versatile implementation of the parameter-free Jaya optimization algorithm, suitable for solving both single-objective and multi-objective optimization problems. By integrating advanced features such as constraint handling, adaptive population management, Pareto front tracking for multi-objective trade-offs, and parallel processing for computational efficiency, the package caters to a wide range of optimization challenges. Its intuitive design and flexibility allow users to solve complex, real-world problems across various domains. To demonstrate its practical utility, a case study on energy modeling explores the optimization of renewable energy shares, showcasing the package's ability to minimize carbon emissions and costs while enhancing system reliability. The Jaya R package is an invaluable tool for researchers and practitioners seeking efficient and adaptive optimization solutions.</description>
-    </item>
-    <item>
-      <title>The Python LevelSet Toolbox (LevelSetPy)</title>
-      <link>https://arxiv.org/abs/2411.03501</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2411.03501</guid>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 -0000</pubDate>
-      <description>This paper describes open-source scientific contributions in python surrounding the numerical solutions to hyperbolic Hamilton-Jacobi (HJ) partial differential equations viz., their implicit representation on co-dimension one surfaces; dynamics evolution with levelsets; spatial derivatives; total variation diminishing Runge-Kutta integration schemes; and their applications to the theory of reachable sets. They are increasingly finding applications in multiple research domains such as reinforcement learning, robotics, control engineering and automation. We describe the library components, illustrate usage with an example, and provide comparisons with existing implementations. This GPU-accelerated package allows for easy portability to many modern libraries for the numerical analyses of the HJ equations. We also provide a CPU implementation in python that is significantly faster than existing alternatives.</description>
-    </item>
-    <item>
-      <title>Antiassociative algebra in R: introducing the evitaicossa package</title>
-      <link>https://arxiv.org/abs/2412.16161</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2412.16161</guid>
-      <pubDate>Thu, 31 Oct 2024 00:00:00 -0000</pubDate>
-      <description>In this short article I introduce the evitaicossa package which provides functionality for antiassociative algebras in the R programming language; it is available on CRAN at https://CRAN.R-project.org/package=evitaicossa.</description>
     </item>
   </channel>
 </rss>

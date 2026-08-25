@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Riesz Energy Subset Selection in the Euclidean Plane is NP-Hard</title>
+      <link>http://arxiv.org/abs/2608.23506v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23506v1</guid>
+      <pubDate>Mon, 24 Aug 2026 17:09:26 +0000</pubDate>
+      <description>We prove that minimum Riesz $s$-energy subset selection in the Euclidean plane is NP-complete already for the fixed exponent $s=2$. To our knowledge, this is the first Euclidean hardness result for exact Riesz-energy subset selection in which both the ambient dimension and the exponent are fixed. The reduction uses Barahona's planar cubic Ising model with uniform field. A spin is encoded by one diagonal of a four-point square. Axis-aligned selector chains implement ferromagnetic consistency, while a $45^\circ$ terminal geometry yields an antiferromagnetic source interaction. Rational diagonal perturbations realize the magnetic field, and all remaining interactions are dominated by polynomial separation. Because $s=2$ and all coordinates are rational, every constructed energy and the decision threshold are rational exactly.</description>
+    </item>
+    <item>
+      <title>Linear-Time Transformations Between Connectivity Maintenance and Points Spreading on Linear and Cyclic Domains</title>
+      <link>http://arxiv.org/abs/2608.22219v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22219v1</guid>
+      <pubDate>Sun, 23 Aug 2026 04:46:39 +0000</pubDate>
+      <description>Given $n$ points on a line or closed cycle and a threshold $r&gt;0$, the connectivity-maintenance problem is to move the points so that every gap between consecutive points is at most $r$, whereas the points-spreading problem requires every gap to be at least $r$. Li and Wang [CCCG 2015; CGT 2025] and Chen, Gu, Li, and Wang [SWAT 2012; DCG 2013] gave $O(n)$-time algorithms for the cyclic versions of min-max points-spreading and min-max connectivity-maintenance, respectively. Ghadiri and Yazdanbod [CCCG 2016] gave an $O(n\log n)$-time algorithm for the linear version of min-sum points-spreading. In this paper, we show that the two problems can be reduced in linear time to each other for both objectives and on both linear and cyclic domains. As an implication, min-sum connectivity-maintenance is solvable in $O(n\log n)$ time on both domains. Finally, we extend the reduction to points on a line with individual thresholds when their initial order is preserved.</description>
+    </item>
+    <item>
+      <title>Magnitude Homology Is the Associated Graded of the Length Filtration</title>
+      <link>http://arxiv.org/abs/2608.21479v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21479v1</guid>
+      <pubDate>Fri, 21 Aug 2026 08:30:30 +0000</pubDate>
+      <description>Magnitude homology is graded by length and knows nothing of persistence. Its persistent refinement knows nothing of where its bars begin and end. We show that the two are one construction: filtering the length nerve by sublevel sets of the length yields the persistence module, and the associated graded of that filtration is the magnitude complex. A long exact sequence exchanges them, and each side gains what it lacked. Magnitude homology locates the critical values of the barcode, so a graded computation lists the lengths at which an endpoint can occur, and the barcode acquires a stability estimate of $(n+1)δ$ in degree $n$ under a perturbation of size $δ$, while a computed perturbation moves a barcode by more than $δ$, so the factor cannot be dropped. We apply this to quantitative equational theories, whose free algebras are metric spaces built from syntax: an inclusion of theories induces a morphism of the presenting monads and a comparison of barcodes with an explicit bound, so the invariant measures axiomatic strength. Four examples are computed, one in every degree.</description>
+    </item>
+    <item>
+      <title>The Sharp Dimension Bound in the Johnson--Lindenstrauss Lemma</title>
+      <link>http://arxiv.org/abs/2608.13782v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.13782v1</guid>
+      <pubDate>Thu, 13 Aug 2026 21:21:35 +0000</pubDate>
+      <description>The Johnson--Lindenstrauss lemma asserts that every set of $n$ points in $d$-dimensional Euclidean space embeds into $O(\varepsilon^{-2}\log n)$-dimensional Euclidean space with distortion at most $1+\varepsilon$. Larsen and Nelson conjectured that the optimal target dimension throughout the full range of the parameters $n,d, \varepsilon$ is \[ Θ\left(\min\left\{d,n-1,\frac{\log(2+\varepsilon^2n)}{\varepsilon^2}\right\}\right). \] We resolve this conjecture in the affirmative. In fact, we prove the stronger statement that the upper bound is attained by a linear map. The matching lower bound, due to Larsen--Nelson and Alon--Klartag, holds even for nonlinear embeddings.</description>
+    </item>
+    <item>
       <title>Construction, Transformation and Structures of 2x2 Space-Filling Curves</title>
       <link>https://arxiv.org/abs/2412.16962</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2412.16962</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2602.18653</guid>
       <pubDate>Fri, 20 Feb 2026 00:00:00 -0000</pubDate>
       <description>Chan [JACM, 2010] gave a data structure for maintaining the convex hull of a dynamic set of 3D points under insertions and deletions, supporting extreme-point queries. Subsequent refinements by Kaplan, Mulzer, Roditty, Seiferth, and Sharir [DCG, 2020] and Chan [DCG, 2020] preserved the framework while improving bounds. The current best result achieves $O(\log^2 n)$ amortized insertion time, $O(\log^4 n)$ amortized deletion time, and $O(\log^2 n)$ worst-case query time. These techniques also yield dynamic 2D Euclidean nearest neighbor searching via duality, where the problem becomes maintaining the lower envelope of 3D planes for vertical ray-shooting queries. Using randomized vertical shallow cuttings, Kaplan et al. [DCG, 2020] and Liu [SICOMP, 2022] extended the framework to dynamic lower envelopes of general 3D surfaces, obtaining the same asymptotic bounds and enabling nearest neighbor searching under general distance functions. We revisit Chan's framework and present a modified structure that reduces the deletion time to $O(\log^3 n \log\log n)$, while retaining $O(\log^2 n)$ amortized insertion time, at the cost of increasing the query time to $O(\log^3 n / \log\log n)$. When the overall complexity is dominated by deletions, this yields an improvement of roughly a logarithmic factor over previous results.</description>
-    </item>
-    <item>
-      <title>Approximately: Independence Implies Vertex Cover</title>
-      <link>https://arxiv.org/abs/2308.00840</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2308.00840</guid>
-      <pubDate>Fri, 20 Feb 2026 00:00:00 -0000</pubDate>
-      <description>$\newcommand{\eps}{\varepsilon}$ We observe that a $(1-\eps)$-approximation algorithm to Independent Set, that works for any induced subgraph of the input graph, can be used, via a polynomial time reduction, to provide a $(1+\eps)$-approximation to Vertex Cover. This basic observation was made before, see [BHR11]. As a consequence, we get a PTAS for VC for unweighted pseudo-disks, QQPTAS for VC for unweighted axis-aligned rectangles in the plane, and QPTAS for MWVC for weighted polygons in the plane. To the best of our knowledge all these results are new.</description>
-    </item>
-    <item>
-      <title>Minimum Selective Subset on Unit Disk Graphs and Circle Graphs</title>
-      <link>https://arxiv.org/abs/2510.01931</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.01931</guid>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0000</pubDate>
-      <description>In a connected simple graph G = (V(G),E(G)), each vertex is assigned one of c colors, where V(G) can be written as a union of a total of c subsets V_{1},...,V_{c} and V_{i} denotes the set of vertices of color i. A subset S of V(G) is called a selective subset if, for every i, every vertex v in V_{i} has at least one nearest neighbor in $S \cup (V(G) \setminus V_{i})$ that also lies in V_{i}. The Minimum Selective Subset (MSS) problem asks for a selective subset of minimum size. We show that the MSS problem is log-APX-hard on general graphs, even when c=2. As a consequence, the problem does not admit a polynomial-time approximation scheme (PTAS) unless P = NP. On the positive side, we present a PTAS for unit disk graphs, which works without requiring a geometric representation and applies for arbitrary c. We further prove that MSS remains NP-complete in unit disk graphs for arbitrary c. In addition, we show that the MSS problem is log-APX-hard on circle graphs, even when c=2.</description>
-    </item>
-    <item>
-      <title>Pathwidth of 2-Layer $k$-Planar Graphs</title>
-      <link>https://arxiv.org/abs/2507.21864</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.21864</guid>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 -0000</pubDate>
-      <description>A bipartite graph $G = (X \cup Y, E)$ is a 2-layer $k$-planar graph if it admits a drawing on the plane such that the vertices in $X$ and $Y$ are placed on two parallel lines respectively, edges are drawn as straight-line segments, and every edge involves at most $k$ crossings. Angelini, Da Lozzo, Förster, and Schneck [GD 2020; Comput. J., 2024] showed that every 2-layer $k$-planar graph has pathwidth at most $k + 1$. In this paper, we show that this bound is sharp by giving a 2-layer $k$-planar graph with pathwidth $k + 1$ for every $k \geq 0$. This improves their lower bound of $(k+3)/2$.</description>
-    </item>
-    <item>
-      <title>A New Approach in Plane Kinematics</title>
-      <link>https://arxiv.org/abs/2602.12733</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.12733</guid>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 -0000</pubDate>
-      <description>The kinematics of particles and rigid bodies in the plane are investigated up to higher-order accelerations. Discussion of point trajectories leads from higher-order poles to higher-order Bresse circles of the moving plane. Symplectic geometry in vector space R^2 is used here as a new approach and leads to some new recursive vector formulas. This article is dedicated to the memory of Professor Pennestri.</description>
     </item>
   </channel>
 </rss>

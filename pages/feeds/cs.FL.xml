@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A characterization of the reversibility of linear cellular automata</title>
+      <link>http://arxiv.org/abs/2608.20600v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.20600v1</guid>
+      <pubDate>Thu, 20 Aug 2026 22:40:19 +0000</pubDate>
+      <description>Let $G$ be a group, let $\mathbb{K}$ be a field, and let $V$ be a $\mathbb{K}$-vector space. We prove that there exists a bijective linear cellular automaton $V^G\to V^G$ whose inverse is not a cellular automaton if and only if $G$ is not locally finite and $\dim_{\mathbb{K}}V \geq |\mathbb{K}|^{\aleph_0}$. This answers an open problem proposed by T. Ceccherini-Silberstein and M. Coornaert.</description>
+    </item>
+    <item>
       <title>Spectrum of the refined Diophantine exponent</title>
       <link>http://arxiv.org/abs/2608.20191v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20191v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2308.01174</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 -0000</pubDate>
       <description>We study Ramsey like theorems for infinite trees and similar combinatorial tools. As an application we consider the expansion problem for tree algebras.</description>
-    </item>
-    <item>
-      <title>Formal Analysis of the Contract Automata Runtime Environment with Uppaal: Modelling, Verification and Testing</title>
-      <link>https://arxiv.org/abs/2501.12932</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2501.12932</guid>
-      <pubDate>Wed, 04 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Recently, a distributed middleware application called contract automata runtime environment (CARE) has been introduced to realise service applications specified using a dialect of finite-state automata. In this paper, we detail the formal modelling, verification and testing of CARE. We provide a formalisation as a network of stochastic timed automata. The model is verified against the desired properties with the tool Uppaal, utilising exhaustive and statistical model checking techniques. Abstract tests are generated from the Uppaal models that are concretised for testing CARE. This research emphasises the advantages of employing formal modelling, verification and testing processes to enhance the dependability of an open-source distributed application. We discuss the methodology used for modelling the application and generating concrete tests from the abstract model, addressing the issues that have been identified and fixed.</description>
     </item>
   </channel>
 </rss>

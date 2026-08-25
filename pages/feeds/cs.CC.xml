@@ -5,11 +5,46 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Riesz Energy Subset Selection in the Euclidean Plane is NP-Hard</title>
+      <link>http://arxiv.org/abs/2608.23506v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23506v1</guid>
+      <pubDate>Mon, 24 Aug 2026 17:09:26 +0000</pubDate>
+      <description>We prove that minimum Riesz $s$-energy subset selection in the Euclidean plane is NP-complete already for the fixed exponent $s=2$. To our knowledge, this is the first Euclidean hardness result for exact Riesz-energy subset selection in which both the ambient dimension and the exponent are fixed. The reduction uses Barahona's planar cubic Ising model with uniform field. A spin is encoded by one diagonal of a four-point square. Axis-aligned selector chains implement ferromagnetic consistency, while a $45^\circ$ terminal geometry yields an antiferromagnetic source interaction. Rational diagonal perturbations realize the magnetic field, and all remaining interactions are dominated by polynomial separation. Because $s=2$ and all coordinates are rational, every constructed energy and the decision threshold are rational exactly.</description>
+    </item>
+    <item>
+      <title>Step Recursion: Resource Profiles and Descent Quotients</title>
+      <link>http://arxiv.org/abs/2608.22662v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22662v1</guid>
+      <pubDate>Sun, 23 Aug 2026 23:48:09 +0000</pubDate>
+      <description>We develop a resource representation for step recursion in which mutable-state width and recursion descent are explicit and independent parameters. A width bound $u$ controls the size of the encoded machine state, while an effective descent $ρ$ determines the available recursion depth $δ_ρ(u)$. For generalized-inverse descents, we derive the depth directly from generator growth and characterize the increasing sequences that can occur as generator orbits. We then connect this depth--width geometry to standard finite-branching computation. Every deterministic bounded-state dynamics is realizable by a single ordinary bounded step recursion over a fixed finite numerical basis. Using deterministic, existential, universal, or alternating aggregation on the same local dynamics yields the corresponding machine semantics. After closure under the width reparameterizations needed to absorb fixed local cost, the resulting language classes are exactly the machine time--space classes on profiles $(δ_ρ(u),u)$. Finally, profile domination quotients effective descents by admissible width reparameterization. Some depth curves collapse, yet polynomial widths support an explicit infinite strict hierarchy between the canonical polynomial- and exponential-depth profiles. Thus descent remains a nonredundant resource coordinate after polynomial width reparameterization; standard complexity classes are calibration points.</description>
+    </item>
+    <item>
+      <title>Near-Optimal Bounds for Sketching the Schatten--1 Norm</title>
+      <link>http://arxiv.org/abs/2608.22247v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22247v1</guid>
+      <pubDate>Sun, 23 Aug 2026 07:10:28 +0000</pubDate>
+      <description>Let $k_ε(n)$ be the smallest number of real linear measurements needed by a randomized, oblivious sketch that estimates the nuclear norm of every fixed real $n\times n$ matrix within a factor $1\pmε$, with probability at least $2/3$. For every fixed $0&lt;ε&lt;1$, the proved result is $$ \frac{n^2}{(\log n)^{A_ε}} \;\le\; k_ε(n) \;\le\; C_ε\frac{n^2\{\log\log(e^e n)\}^2}{\log(e n)} $$ for all sufficiently large $n$, where $A_ε,C_ε$ depend only on $ε$. Previously, the best bounds for general linear sketches were $Ω(n)$ and the trivial $O(n^2)$ upper bound (Li, Nguyen, Woodruff, 2019). The theorem therefore nearly resolves the open measurement-complexity question left by that work: the displayed lower and upper bounds are tight up to polylogarithmic factors. In particular, the complexity is $n^{2-o(1)}$, and for every fixed $c&gt;0$, $O(n^{2-c})$ measurements are impossible. The upper bound is obtained by a fixed Gaussian sketch whose decoder combines implicit low-rank recovery with moment estimation on a high-stable-rank residual. The lower bound constructs moment-matched spectra, randomizes their singular vectors, and compares every low-dimensional observation through an odd-order tensor estimate and a Fisher-information path argument.</description>
+    </item>
+    <item>
+      <title>Target-Dependent Local Verification: Information--Proof-Length Tradeoffs</title>
+      <link>http://arxiv.org/abs/2608.21793v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21793v1</guid>
+      <pubDate>Sat, 22 Aug 2026 06:29:46 +0000</pubDate>
+      <description>We study fixed-layout local verification with target-dependent local tests. Let $M$ be a random variable on $\{0,1\}^K$, and let $S$ record the test selected at each coordinate. For each $s\in\operatorname{supp}(S)$, let $F_s$ be the corresponding target fiber and set $D_{\mathrm{fib}}=\max_s\operatorname{VCdim}(F_s)$. We prove $H(M\mid S)\le \log_2\!\left(\sum_{j=0}^{D_{\mathrm{fib}}}\binom Kj\right)$. A fiber that shatters $d$ coordinates yields a weak relaxed locally decodable code with message length $d$ and block length $d+P$ over the original proof alphabet. For a uniform $K$-bit target and fixed proof alphabet, $Q$, and $σ$, the Goldberg--Gur--Saraogi lower bound implies that $I(M;S)\leγK$, for fixed $γ&lt;1$, forces $P=Ω\!\left(K^{1+1/a}/(\log K)^{2+2/a}\right)$, where $a=\lceil Q/σ\rceil$. If $P\le K(\log K)^c$, then $I(M;S)\ge K-O\!\left(K^{a/(a+1)}(\log K)^{3+ac/(a+1)}\right)=K-o(K)$. Any discrete verifier state $T$ determining $S$ satisfies the same information lower bound. Bounded-randomness adaptive branches can be simulated nonadaptively by exposing their decision trees. A branch using at most $r$ random bits and $q$ adaptive proof queries yields a decoder with perfect completeness and at most $1+2^{r+1}\sum_{j&lt;q}A^j$ queries. Under $I(M;S)\leγK$, near-linear proof length requires this quantity to be $Ω(\log K/\log\log K)$; the binary one-query case gives $P=2^{Ω(K)}$. Applied to a global list-sound dPCP interface of Gur--Minzer--Weissenberg--Zheng, our bound shows that a fixed target-independent menu of $L$ test profiles must satisfy $\log_2L\ge K-o(K)$. Proof-dependent lists and additional target-dependent selection data must be included in the measured state.</description>
+    </item>
+    <item>
       <title>Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width</title>
       <link>http://arxiv.org/abs/2608.20175v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20175v1</guid>
       <pubDate>Thu, 20 Aug 2026 15:28:11 +0000</pubDate>
       <description>We introduce $\mathsf{AmCMSO}$, an extension of counting monadic second-order logic ($\mathsf{CMSO}$) with predicates that refer to minimum- and maximum-value satisfying assignments. We establish fixed-parameter tractable model-checking meta-theorems for $\mathsf{AmCMSO}_1$ on graphs of bounded clique-width and for $\mathsf{AmCMSO}_2$ on graphs of bounded treewidth. These meta-theorems yield fixed-parameter tractable algorithms for several bilevel graph optimization problems, including interdiction and preassignment problems for solution uniquification, as well as algorithms for maximizing the diversity of optimal solutions without parameterizing by the optimum value. In contrast, allowing an optimality predicate to depend on an external set variable makes model checking hard for every level of the polynomial hierarchy, even on trees of fixed depth.</description>
+    </item>
+    <item>
+      <title>Fast Algorithms for Stoquastic Spin Systems</title>
+      <link>http://arxiv.org/abs/2608.19489v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19489v1</guid>
+      <pubDate>Wed, 19 Aug 2026 22:58:31 +0000</pubDate>
+      <description>We establish a general framework for developing fast sampling and counting algorithms for stoquastic spin systems at high temperature. Our framework is based on a rapidly mixing Markov chain for polymer models and a subcritical percolation process for sampling individual polymers. We apply our framework to obtain fast algorithms for approximating the partition function and sampling from the thermal distribution of (1) general stoquastic spin systems, (2) ferromagnetic Heisenberg models, and (3) antiferromagnetic Heisenberg models on bipartite graphs. For the Heisenberg models, we obtain an improved bound on the inverse temperature by using their respective cycle and loop representations.</description>
     </item>
     <item>
       <title>Structure and Complexity of 2-Nilpotent Mal'cev Algebras</title>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.10473</guid>
       <pubDate>Sat, 11 Jul 2026 00:00:00 -0000</pubDate>
       <description>Given two dense multivectors of the Clifford algebra $C\ell(V, Q)$ with $N=2^{p+q}$ coefficients, the fastest known classical algorithms compute their geometric product in $O(N^{ω/2})$ arithmetic operations, where $ω$ denotes the matrix multiplication exponent. I show that, under amplitude encoding, a quantum computer executes the geometric product in $O(\operatorname{polylog} N)$ time, using logarithmic space with sublogarithmic circuit depth. This exponential speedup establishes Clifford multiplication as a quantum primitive, providing an efficient computational foundation for quantum geometric algorithms and relativistic simulations.</description>
-    </item>
-    <item>
-      <title>The Complexity of Computing Path Length Distributions with Edges i.i.d. Random via Local Uniformity</title>
-      <link>https://arxiv.org/abs/2607.10195</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.10195</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We investigate the problem of computing the distribution function for the shortest and longest path lengths in a directed graph with random edge lengths. Specifically, when these lengths are uniformly distributed, the problem reduces to computing the volume of a polytope defined by the graph structure. We establish that the problem is $\#P$-hard, even under the restricted condition that the random edge lengths are identically and independently distributed (i.i.d.) according to any continuous probability distribution with certain natural conditions, the local uniformity. This hardness result applies broadly: while the uniform distribution provides an essential case for the reduction, other distributions -- such as exponential or normal -- are similarly hard because they contain uniform distributions in every arbitrarily small interval. Furthermore, we show that the problem is contained within $\mathrm{XP}$ with respect to the treewidth $k$ of the underlying undirected graph. For the specific case of i.i.d. uniform edge lengths, we present a novel dynamic programming algorithm that processes a tree decomposition by iteratively performing convolutions to propagate distribution functions. Our approach achieves a time complexity of $n^{O(k^2)}$ for any fixed treewidth $k$.</description>
-    </item>
-    <item>
-      <title>Closing the Complexity Gap for Exact Domatic Number at Three and Four</title>
-      <link>https://arxiv.org/abs/2607.09442</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.09442</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The exact domatic-number problem asks, for a fixed integer k, whether a given graph G satisfies dom(G) = k. Riege and Rothe proved DP-completeness for every fixed k &gt;= 5, while the cases k = 3 and k = 4 remained open. We close this classification gap. The main ingredient is a polynomial-time reduction from 3SAT whose output graphs have domatic number 4 in the satisfiable case and domatic number 2 in the unsatisfiable case; in particular, the reduction never produces a graph of domatic number 3. This directly realizes the route suggested by Riege and Rothe for closing the remaining cases. Together with a simpler three-versus-two reduction, this yields DP-completeness of Exact-3-DNP and Exact-4-DNP. The proofs are constructive and give explicit graph gadgets whose local domination constraints encode truth assignments and clause satisfaction. The soundness arguments show conversely that any sufficiently large domatic partition enforces the intended consistency conditions and therefore yields a satisfying assignment. Consequently, Exact-k-DNP is DP-complete for every fixed k &gt;= 3, completing the fixed-value classification from k = 3 onward.</description>
-    </item>
-    <item>
-      <title>Strong Refutation of Random Ordering CSPs</title>
-      <link>https://arxiv.org/abs/2607.09410</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.09410</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In this work, we initiate the study of strongly refuting the satisfiability of random ordering constraint satisfaction problems. We show that there is a polynomial-time $\varepsilon$-refutation algorithm for random ordering CSP with predicate $P$ when the number of clauses is above the threshold $\tildeΩ\left(n^{d/2}/\varepsilon^2\right)$, where $d$ is the coordinate degree of the predicate $P$. We further give a smooth three-way tradeoff between the running time, the clause density, and the refutation strength $\varepsilon$ using the Kikuchi method. Finally, we complement our algorithmic results with a computational lower bound based on the class of low coordinate degree algorithms, providing evidence that the established three-way tradeoff is near optimal.</description>
-    </item>
-    <item>
-      <title>Graph-Based Deterministic Polynomial Framwork for NP Problems</title>
-      <link>https://arxiv.org/abs/2508.13166</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.13166</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The P versus NP problem asks whether every language verifiable in polynomial time can also be decided in deterministic polynomial time. In this paper, we present a constructive proof that P=NP by introducing a universal, graph-based deterministic framework applicable to all NP problems without requiring reduction to an NP-complete problem. We model computational transitions as edges within a unified graph structure, where edges correspond to the steps of a deterministic verifier Turing machine for all possible certificates. Due to the overlap of edges among computation paths, the total cardinality of the edge set remains polynomially bounded. Furthermore, by employing a certificate--oblivious verifier Turing machine--whose head movement is independent of the certificate contents--we force all computation paths to align their edge transitions. A key feature of our approach is that each extension step enforces global consistency via a local infeasibility trimming tool. This mechanism systematically preserves valid NP paths that lead to the target edge under polynomial verification, ensuring the graph remains globally feasible at every stage without explicit enumeration. This represents a paradigm shift from searching over exponential certificates to the incremental extension of verified edges. Since our construction decides all NP problems in deterministic polynomial time, it provides a direct resolution to the P versus NP question and demonstrates that every NP problem can be solved in deterministic polynomial time via incremental graph edge extension.</description>
-    </item>
-    <item>
-      <title>Polynomial Binary Optimization</title>
-      <link>https://arxiv.org/abs/2607.08908</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.08908</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In a binary polynomial optimization problem (BPO, in short) we are maximizing a multilinear polynomial expression depending on n binary variables. This is a hard optimization class, containing many NP-hard problems, including unconstrained quadratic binary optimization. Several tractable special classes were considered in the literature, including problems with bounded tree-width (Crama, Hansen, Jaumard, 1990), Berge-acyclic problems (Buchheim, Crama, and Heck, 2019), $β$-acyclic problems (Del Pia and Di Gregorio, 2022, 2023), limited reach problems (Clausen, Crama, Lusby, Rodríguez, and Ropke, 2024), and $α$-acyclic problems with bounded rank (Del Pia and Khajavirad, 2025). We focus on a general variable elimination scheme for BPO, and develop the unique explicit multi-linear polynomial form for the equivalent BPO problem obtained after the elimination of a given subset of the variables. The obtained closed form representation of such an equivalent BPO problem allows us to characterize new special classes for which this elimination method, when applied recursively, provides a computationally efficient solution. Our approach is elementary1, algebraic, and provides efficient solution to a wide problem class that properly generalizes all of the above mentioned tractable special cases.</description>
     </item>
   </channel>
 </rss>

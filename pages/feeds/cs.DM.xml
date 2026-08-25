@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Quantitative Logarithmic Chowla Correlations Uniformly over Growing Shifts</title>
+      <link>http://arxiv.org/abs/2608.23500v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23500v1</guid>
+      <pubDate>Mon, 24 Aug 2026 17:03:54 +0000</pubDate>
+      <description>Let $λ(n)=(-1)^{Ω(n)}$ be the Liouville function. Pilatte proved a fixed power saving for the logarithmically weighted two-point correlation at shift one. More recently, Tao and Teräväinen obtained power-logarithmic two-point estimates uniform over polylogarithmically growing shifts and coefficients outside a common exceptional set of scales; their result in particular implies, after logarithmic integration, a growing-shift logarithmic estimate with some unspecified positive exponent. We give a direct all-scales logarithmic estimate with an explicit shift range. For every fixed $0&lt;κ&lt;1/700$, there are constants $c_κ&gt;0$ and $x_0(κ)$ such that $\displaystyle \sup_{1\le h\le(\log x)^κ}\left|\sum_{n\le x}\frac{λ(n)λ(n+h)}{n}\right|\ll_κ(\log x)^{1-c_κ}\qquad (x\ge x_0(κ)).$ The explicit endpoint is inherited from the $(\log N)^{-1/700}$ term in the short exponential-sum estimate of Matomäki, Radziwiłł and Tao. The key quantitative step is a scale-flexible version of Pilatte's circle-method uncentring: dilation by $h$ preserves the relevant fourth moment, while the short sums cost $h^{1/5}$. A flexible dyadic cutoff recovers every $κ&lt;1/700$. For completeness we also record, in the specialised notation needed here, a residue-uniform arbitrary-interval transfer for the centred non-backtracking operator; a more general decoupling statement appears in the work of Tao and Teräväinen. The result is logarithmically weighted and does not prove the ordinary Cesàro two-point Chowla conjecture.</description>
+    </item>
+    <item>
+      <title>Domination versus edge domination in regular graphs of degree at least seven</title>
+      <link>http://arxiv.org/abs/2608.22498v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22498v1</guid>
+      <pubDate>Sun, 23 Aug 2026 16:33:40 +0000</pubDate>
+      <description>Baste et al. (2020) conjectured that every regular graph of positive degree has domination number at most its edge domination number, the least size of a maximal matching. Combining published bounds settles the inequality for every degree at least nine. A reduction proves the inequality whenever one endpoint of each edge of a minimum maximal matching can be chosen to form a dominating set, and the Lovász Local Lemma shows such a choice exists for every degree at least seven, newly closing degrees seven and eight and leaving degrees three through six open. The reduction settles each open degree up to a bounded number of vertices, forty-eight for cubic graphs. At fifty vertices, however, the reduction meets an explicit cubic graph it cannot settle, though the inequality holds there too. The inequality cannot be tightened, since infinitely many cubic graphs have equal domination and edge domination numbers. The cubic case stays open, and even linear arguments from the local structure cannot close it. The middle degrees stay open beyond the graphs already settled.</description>
+    </item>
+    <item>
+      <title>Thermal Recurrence Orders of the Potts Model Partition Function in Grid Graphs</title>
+      <link>http://arxiv.org/abs/2608.21789v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21789v1</guid>
+      <pubDate>Sat, 22 Aug 2026 06:00:34 +0000</pubDate>
+      <description>We study the linear recurrence order of the Potts model partition function on thermal 2D grid graphs. By restricting the transfer matrix (TM) to the real coupling axis, the physical operator maintains diagonalizability under the Spectral Theorem. We show that this thermal regularization allows the Krylov subspace to saturate the unconstrained planar state capacity, locking the recurrence order to the Dyck path up to reversal (OEIS A007123) for $q \ge 4$. Furthermore, the recurrence order collapses to height-restricted Dyck paths up to reversal (OEIS A001998) for $q=3$ due to finite-index Jones-Wenzl projections, and to the zero-magnetization conservation sector (OEIS A001405) for $q=2$. This framework bridges graph-theoretic combinatorics with the representation theory of physical loop gas models.</description>
+    </item>
+    <item>
       <title>Broadcast Domination Number is at Most Twice the Multipacking Number</title>
       <link>http://arxiv.org/abs/2608.20036v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20036v1</guid>
@@ -17,6 +38,20 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.19623v1</guid>
       <pubDate>Thu, 20 Aug 2026 04:16:33 +0000</pubDate>
       <description>We prove a palette sparsification theorem for general $r$-uniform hypergraphs. For all sufficiently large $n$, every $r\ge 3$, and every $α\ge 7.1$, we show that an $n$-vertex $r$-uniform hypergraph of maximum degree $Δ$ is w.h.p. colorable from independently sampled lists of size $O(\sqrt{\log n})$ drawn from an ambient palette of size $\lceil αΔ^{1/(r-1)}\rceil$. The $\sqrt{\log n}$ dependence is asymptotically tight.</description>
+    </item>
+    <item>
+      <title>Large Finite Point Sets Have 4 Collinear Points or a 6-Clique</title>
+      <link>http://arxiv.org/abs/2608.19468v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19468v1</guid>
+      <pubDate>Wed, 19 Aug 2026 21:51:34 +0000</pubDate>
+      <description>We prove that every finite point set of size at least $10^{11055931}$ has four collinear points or six points that pairwise see each other. This resolves the first open case of the big-line-big-clique conjecture of Kára, Pór, and Wood.</description>
+    </item>
+    <item>
+      <title>The Non-Cancelling-Intersections Conjecture Fails for Left-Linear Trees</title>
+      <link>http://arxiv.org/abs/2608.19414v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.19414v1</guid>
+      <pubDate>Wed, 19 Aug 2026 19:53:03 +0000</pubDate>
+      <description>First formulated by Amarilli, Monet, and Suciu (arXiv:2401.16210, 2024), the Non-Cancelling Intersections (NCI) conjecture is an open problem in combinatorics stating that any set union can be constructively built from its algebraically non-cancelling intersections using only disjoint unions and subset complements. In the same paper, two orthogonal possible strengthenings are proposed: using only left-linear trees, and using non-trivial intersections only positively or only negatively depending on the sign of their Möbius value. Here we show that using only left-linear trees, the conjecture is false (independent of the other strengthening). Our argument is non-constructive. We prove the existence of a counterexample, though it is of immense size.</description>
     </item>
     <item>
       <title>Completing the Boundary Case of the Mahmoodian-Mirzakhani Conjecture and 117 New Computational 5-Cycle Decompositions of Complete Tripartite Graphs</title>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.30184</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 -0000</pubDate>
       <description>A multiset of $n$ unordered points in $\mathbb{R}^r$ -- a point cloud, or, for $r=2$, a persistence barcode of birth-death pairs -- is a point of the orbit space $\mathbb{R}^{nr}/S_n$ for the symmetric group $S_n$ permuting the rows of an $n \times r$ matrix; a separating family of invariants on this space is exactly a complete set of permutation-independent coordinates. We provide one that is explicit, small, and stable, in the max-plus (tropical) setting: for all $n \geq 1$ and $r \geq 1$, the $\binom{n+r}{r}$ basic $r$-symmetric tropical polynomials, of degree at most $n$, separate the orbits of $S_n$ on $\mathbb{R}^{nr}$. This settles in full a problem left open in [Kubo, J. Pure Appl. Algebra 223 (2019) 72-85], where separation was known only for $r=2$ and special cases of $r \geq 3$, and yields a family far smaller and of lower degree than the general separating sets from Derksen's recent theory of tropical invariants for permutation actions ($nr + (nr)!/n!$ invariants of degree $O(n^2 r^2)$). The proof is elementary and constructive: the basic values are identified with a transportation problem, and the multiset is recovered from the dual by an explicit algorithm. We further show the coordinate map is a bi-Lipschitz embedding for all $n$ and $r$, being an injective max filter bank (via the bi-Lipschitz theory of max filtering), with an explicit Lipschitz constant for the forward bound and a fully explicit, dimension-free distortion when $r=1$. Finally we determine when the pairwise values suffice (exactly $n \leq 3$) and show that invariants on at least three columns and of degree less than $n$ are necessary in general, the obstruction being a standard non-uniqueness configuration from discrete tomography.</description>
-    </item>
-    <item>
-      <title>An annihilation-number Caro-Wei bound: a TxGraffiti conjecture and an independence-number bracket</title>
-      <link>https://arxiv.org/abs/2606.29553</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.29553</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Automated conjecturing programs scan collections of graphs for inequalities between invariants that no stored graph violates, then offer the survivors for proof or refutation. TxGraffiti, one such program, conjectured that every nontrivial connected graph $G$ satisfies $α(G) \ge \bigl(a(G) + R(G)\bigr)/Δ(G)$, where $α$ is the independence number, $a$ the annihilation number, $R$ the residue, and $Δ$ the maximum degree. Established only for two special families of graphs, the conjecture has otherwise remained open. The note proves the degree-sequence inequality $a \le \tfrac{Δ+1}{2}W$, where $W$ is the Caro-Wei sum; the same inequality is known for the independence number in place of $a$. Combined with the classical lower bounds $α\ge R$ and $α\ge W$, it proves the conjecture for every connected graph of maximum degree at least three, and a direct argument settles maximum degree two; the conjecture fails only for the single edge, of maximum degree one. The inequality also brackets the independence number between the polynomial-time quantities $R$ and $a$, within a factor $(Δ+1)/2$. The conjecture's bound is sharp, with equality attained, for instance, by the complete graph on four vertices.</description>
-    </item>
-    <item>
-      <title>Chamber geometry and specification numbers of Boolean threshold functions</title>
-      <link>https://arxiv.org/abs/2606.29477</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.29477</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 -0000</pubDate>
-      <description>The specification number $σ_n(f)$ of a Boolean threshold function $f$ on $n$ variables is the least number of points whose $f$-values determine $f$ uniquely among all threshold functions. Its essential points form the unique minimum such set. We develop Zuev's geometric interpretation: the threshold functions are the chambers of a central hyperplane arrangement in the $(n+1)$-dimensional space of weights and thresholds, and the essential points of a function correspond exactly to the facets of its chamber, so the specification number is the chamber's facet number. The lower bound $σ_n(f)\ge n+1$ becomes the fact that a pointed full-dimensional cone has at least $n+1$ facets, with equality for simplicial chambers. The average specification number $\overlineσ_n$ becomes an average facet count. We evaluate this average exactly via the resonance arrangement and bound it through a theorem of Fukuda, Tamura, and Tokuyama, obtaining $\overlineσ_n\le 2n$; hence $\overlineσ_n=Θ(n)$. This settles a question of Gutekunst, Mészáros, and Petersen. The method also extends to polynomial threshold functions. The same geometry links threshold functions with a threshold zonotope, whose vertices are modified Chow vectors. Its one-skeleton is the one-inclusion graph, and a vertex's degree is the specification number of that function. Finally, we treat the operations of Lozin et al. on functions of minimum specification number. Adding a variable and extending on a variable both take the product of a chamber closure with a half-line, preserving simpliciality. For the symmetric-variables extension we give an exact thresholdness criterion and show that minimum specification number is preserved whenever the extension is a threshold function. We also resolve a question they pose concerning a fourth operation.</description>
-    </item>
-    <item>
-      <title>Toward a KKL Theorem for any HDX</title>
-      <link>https://arxiv.org/abs/2606.29449</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.29449</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 -0000</pubDate>
-      <description>The KKL Theorem, a seminal result in boolean function analysis, characterizes the structure of low-influence (non-expanding) functions on the hypercube. While recent years have seen breakthrough results across a variety of areas relying on analogs of the KKL Theorem beyond the cube (e.g., on product spaces, Grassmann graphs), further progress has been inhibited by our poor understanding of the phenomenon across more general domains. Motivated in this context, Bafna, Hopkins, Kaufman, and Lovett (STOC 2022) and Gur, Lifshitz, and Liu (STOC 2022) proved a generalized KKL-type Theorem for spectral high dimensional expanders (HDX). Their results, however, remain highly restricted due to strong quantitative expansion requirements on the underlying complex. In this work, we introduce a simple local-to-global method for analyzing low influence functions on simplicial complexes. Using this method we prove a local-to-global KKL-type Theorem: any simplicial complex whose links satisfy a KKL-Theorem also satisfies such a result globally. Building on Gotlib and Kaufman (RANDOM 2023), we also prove a weaker dimension-dependent KKL-type Theorem for simplicial complexes with any non-trivial (two-sided) expansion. As concrete applications of our framework, we give the first characterization of non-expanding functions on `combinatorial' HDX such as dense clique complexes and a corresponding Kruskal-Katona Theorem, as well as a small-set expansion theorem for the Ramanujan Complexes of Lubotzky, Samuels, and Vishne (EJC '05).</description>
-    </item>
-    <item>
-      <title>The Optimal Knight Exchange Puzzle is NP-Hard</title>
-      <link>https://arxiv.org/abs/2606.29153</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.29153</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 -0000</pubDate>
-      <description>This paper explores the hardness of two popular recreational chess puzzles: The Knight's Tour and the Knight Exchange (Swap). The problem of finding a Knight's Tour is known to be NP-hard for any chessboard with holes and constant-time decidable for rectangular chessboards, so a natural direction is to explore the hardness of the problem for intermediate chessboard restrictions. In this paper, we show that Knight's Tour is NP-hard for connected boards. We also give a short polynomial-time reduction between the two problems, showing that the optimality version of Knight Exchange is NP-hard.</description>
-    </item>
-    <item>
-      <title>Equitable coloring of large bipartite graphs</title>
-      <link>https://arxiv.org/abs/2604.05146</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.05146</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 -0000</pubDate>
-      <description>For a graph $G$, the \emph{equitable chromatic number} of $G$, denoted by $χ_e(G)$, is the smallest integer $k$ such that $G$ admits a proper $k$-coloring whose color classes differ in size by at most one. We prove that for every $ζ&gt;41/2$, there exists a constant $c=c(ζ)\in\mathbb{N}$ such that every bipartite graph $G$ with maximum degree $Δ(G)\ge c$ and $|V(G)|\ge ζΔ(G)$ satisfies $χ_e(G)\le \left\lceilΔ(G)/2\right\rceil+1$. The leading term $Δ(G)/2$ in this bound is best possible for upper bounds stated solely in terms of $Δ(G)$ for bipartite graphs. Our proof yields an $O(|V(G)|^2)$-time algorithm for constructing such a coloring.</description>
     </item>
   </channel>
 </rss>

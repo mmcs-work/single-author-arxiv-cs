@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>mold: A Massively Parallel Linker</title>
+      <link>http://arxiv.org/abs/2608.23228v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23228v1</guid>
+      <pubDate>Mon, 24 Aug 2026 13:20:03 +0000</pubDate>
+      <description>Linking is a critical step in the software build process that combines compiled object files into a single executable or shared library. Despite decades of engineering effort, link times remain a significant bottleneck in the edit-compile-debug cycle, particularly for large C++ programs. Existing linkers exploit limited parallelism, leaving most CPU cores idle during linking. We present mold, a Unix/Linux linker that applies data parallelism systematically across the entire linking pipeline. We first analyze the architectural constraints that prevent existing linkers from scaling, including entangled symbol resolution and archive processing, and then show how a clean-slate design that decouples them overcomes these limitations. On large real-world programs, mold links multi-gigabyte debug binaries in at most a few seconds, and often in under a second. It is 2.4-16.1x faster than the state-of-the-art lld linker, and up to 112x faster than the traditional GNU ld. An ablation study shows that no single optimization dominates; the speedup comes from the cumulative effect of parallelizing all passes.</description>
+    </item>
+    <item>
       <title>Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control</title>
       <link>https://arxiv.org/abs/2608.12123</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2608.12123</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1810.04309</guid>
       <pubDate>Wed, 10 Oct 2018 00:00:00 -0000</pubDate>
       <description>In this work, we present an approach towards constructing executable specifications of existing filesystems and verifying their functional properties in a theorem proving environment. We detail an application of this approach to the FAT32 filesystem. We also detail the methodology used to build up this type of executable specification through a series of models which incrementally add features of the target filesystem. This methodology has the benefit of allowing the verification effort to start from simple models which encapsulate features common to many filesystems and which are thus suitable for reuse.</description>
-    </item>
-    <item>
-      <title>Fast &amp; Flexible IO : A Compositional Approach to Storage Construction for High-Performance Devices</title>
-      <link>https://arxiv.org/abs/1807.09696</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1807.09696</guid>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 -0000</pubDate>
-      <description>Building storage systems has remained the domain of systems experts for many years. They are complex and difficult to implement. Extreme care is needed to ensure necessary guarantees of performance and operational correctness. Furthermore, because of restrictions imposed by kernel-based designs, many legacy implementations have traded software flexibility for performance. Their implementation is restricted to compiled languages such as C and assembler, and reuse tends to be difficult or constrained. Nevertheless, storage systems are implicitly well-suited to software reuse and compositional software construction. There are many logical functions, such as block allocation, caching, partitioning, metadata management and so forth, that are common across most variants of storage. In this paper, we present Comanche, an open-source project that considers, as first-class concerns, both compositional design and reuse, and the need for high-performance.</description>
     </item>
   </channel>
 </rss>

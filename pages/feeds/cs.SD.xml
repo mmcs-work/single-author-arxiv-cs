@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Vibrato Matching for Modulation Control and Blending in Sound Mixtures</title>
+      <link>http://arxiv.org/abs/2608.22057v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22057v1</guid>
+      <pubDate>Sat, 22 Aug 2026 17:51:09 +0000</pubDate>
+      <description>In sound mixtures of more than one musical source, different vibrato patterns act as a cue that multiple sources are present for both human listeners and source separation algorithms. Matching the vibrato patterns of the signals in the mixture reduces the perception of multiple sources, particularly when the sources play in unison. This work introduces the vibrato matching algorithm, which first suppresses vibrato in a target signal and then transfers vibrato from a source signal to the target. An existing vibrato suppression algorithm is combined with a new algorithm for vibrato transfer, which imparts frequency modulation and amplitude modulation to the harmonics of the target signal, and amplitude modulation onto the spectral envelope of the non-harmonic residual component. Examples demonstrate the algorithm's utility as a vibrato control mechanism and as a tool for blending sound sources. Matching vibrato degrades the performance of source separation algorithms, suggesting a similar degradation in listeners ability to detect the presence of multiple sources.</description>
+    </item>
+    <item>
       <title>Why GPT-Style Models Do Not Directly Transfer to Symbolic Music: Compression in the Wrong Coordinate System</title>
       <link>http://arxiv.org/abs/2608.18025v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.18025v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.27279</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 -0000</pubDate>
       <description>Audio-based stuttering systems to date have been trained for detection -- what disfluency is present now -- leaving prediction, the capability needed for closed-loop intervention, unstudied at deployable scale. We train a 616K-parameter CNN on SEP-28k (Apple, 20,131 three-second clips) to predict whether the next contiguous clip contains any disfluency. (1) Severity-selective precursor signal: on the episode-grouped test set, aggregate preblock AUC is modest (0.581 [0.542, 0.619]), but stratifying by upcoming event type reveals concentration on clinically severe events -- blocks 0.601 [0.554, 0.651] and sound repetitions 0.617 [0.567, 0.667] both exclude chance, while fillers (0.45) and word repetitions (0.49) are at chance. The aggregate objective converges to a severity-selective predictor because severe events carry prosodic precursors; fillers do not. (2) Cross-population transfer: without fine-tuning, the same checkpoint applied to 1,024 pediatric Children-Who-Stutter utterances (FluencyBank Teaching) attains AUC 0.674 detection and 0.655 prediction; DisfluencySpeech and LibriStutter reach 0.58-0.60 AUC. (3) Deployable on-device: lossless export to CoreML (1.19 MB), ONNX (40 KB), TFLite. Neural-Engine latency per 3 s window: 0.25 ms (iPhone 17 Pro Max, A19 Pro) to 0.55 ms (iPhone SE 3rd-gen and M1 Max). A 4 Hz streaming simulation uses 0.54% of the real-time budget. Platt-calibrated outputs (test ECE 0.010, from 0.177 raw). Five negative ablations -- output-level Future-Guided Learning, multi-clip GRU, time-axis concatenation, asymmetric focal loss, direct block-targeted training -- none improved over the vanilla baseline.</description>
-    </item>
-    <item>
-      <title>Recurrence-Based Nonlinear Vocal Dynamics as Digital Biomarkers for Depression Detection from Conversational Speech</title>
-      <link>https://arxiv.org/abs/2604.26242</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.26242</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Digital biomarkers for depression have largely relied on static acoustic descriptors, pooled summary statistics, or conventional machine learning representations. Such approaches may miss nonlinear temporal organization embedded in conversational vocal dynamics. We hypothesized that depression is associated with altered recurrence structure in vocal state trajectories, reflecting changes in how the vocal system revisits acoustic states over time. Using the depression subset of the DAIC-WOZ corpus with 142 labeled participants, we modeled frame-level COVAREP trajectories as nonlinear dynamical systems and derived recurrence-based biomarkers from 74 vocal channels. Logistic regression with feature selection and stratified cross-validation evaluated classification performance. Recurrence-based biomarkers achieved a mean cross-validated AUC of 0.689, exceeding static acoustic baselines, entropy-dynamics features, Hurst exponent features, determinism features, and Lyapunov-like instability proxies. Permutation testing indicated statistical significance with $p=0.004$. Pooled cross-validated predictions yielded AUC 0.665 with a 95\% bootstrap confidence interval of [0.568, 0.758]. These findings suggest that depression may be characterized by altered recurrence structure in conversational vocal dynamics and support nonlinear state-space analysis as a promising direction for digital psychiatric biomarkers.</description>
     </item>
   </channel>
 </rss>

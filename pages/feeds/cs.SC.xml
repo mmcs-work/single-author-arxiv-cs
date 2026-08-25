@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Exact Finite-Length Theory of Uniform Car Parking: Spatial Laws, Absorption, and Aggregation</title>
+      <link>http://arxiv.org/abs/2608.22671v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22671v1</guid>
+      <pubDate>Mon, 24 Aug 2026 00:14:49 +0000</pubDate>
+      <description>The uniform car-parking process is the one-dimensional random sequential adsorption of unit cars on a segment of finite length $s$: cars arrive at uniformly random positions and park wherever they fit, until no gap admits another. This paper develops the exact finite-$s$ theory. The joint density of the parked positions is resolved into jamming cells, on each of which it is a rational function, and evaluated by a subset recursion in $O(2^n n)$ operations; the marginal and gap order statistics are obtained as hyperlogarithms whose weight is fixed by the number of coordinates integrated out; and the absorption count and the aggregate quantities are treated through the integral equation descending from Rényi.</description>
+    </item>
+    <item>
+      <title>Computing the Determinant via the Generalized Euclidean Algorithm</title>
+      <link>http://arxiv.org/abs/2608.21932v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21932v1</guid>
+      <pubDate>Sat, 22 Aug 2026 11:58:25 +0000</pubDate>
+      <description>We present an algorithm with a natural geometric interpretation for computing the determinant of a matrix $B\in\mathbb{Z}^{d\times d}$. It improves upon the current fastest deterministic algorithms by a factor of $d^{ω(1)+1-ω(2)}\approx d^{0.1213}$, where $ω(k)$ denotes the exponent required for multiplying a $d\times d$ matrix with a $d\times d^k$ matrix. Our approach builds on a recent result of Klein and Reuter (STOC 2025), who introduced a novel algorithmic idea for lattice basis computation that can be viewed as extending the Euclidean algorithm from $\mathbb{Z}$ to $\mathbb{Z}^d$. By adapting their techniques, we compute the determinant with the same bit complexity as applying the generalized Euclidean algorithm to an input matrix $A\in\mathbb{Z}^{d\times 2d}$ with $\|A\| = \|B\|$, namely $\tilde{O}(d^{ω(2)}\log\|B\|)$. Prior to this work, the fastest deterministic algorithm for computing the determinant required $\tilde{O}(d^{ω(1)+1}\log\|B\|)$ bit operations.</description>
+    </item>
+    <item>
+      <title>Conscious Access as Continuous-to-Discrete Translation</title>
+      <link>http://arxiv.org/abs/2608.20723v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.20723v1</guid>
+      <pubDate>Fri, 21 Aug 2026 04:02:29 +0000</pubDate>
+      <description>The scientific study of consciousness frequently stalls on ontological debates regarding the "Hard Problem." This paper proposes a pragmatic pivot. Rather than asking what consciousness is metaphysically, we ask how modeling conscious access as a specific computational transformation may address existing bottlenecks in neuroscience and artificial intelligence. We introduce the Continuous/Discrete (C/D) framework, which holds that the brain implements two distinct processing regimes: System C, a distributed sensory-motor network operating over continuous, high-dimensional manifolds, and System D, a centralized engine structured around discrete, scale-invariant symbols. We argue that conscious access requires a structure-preserving translation between these regimes, which maps localized continuous states onto discrete symbolic tokens, coupled with an inverse projection that grounds those tokens back into sensorimotor dynamics. By formalizing conscious access as this continuous-to-discrete conversion, we derive a unified set of testable predictions centered on representational geometry, specifically, on a measurable collapse from graded similarity structures to low-dimensional categorical equivalence classes. These predictions explicitly differentiate our account from Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Processing, and Higher-Order Theories, shifting the focus from ontological status to computational mechanism. Beyond neuroscience, the framework provides a principled architecture for neuro-symbolic artificial intelligence. We argue that treating conscious access as translational computation offers a pragmatic, empirically tractable pathway forward, clarifying what conscious states functionally accomplish without requiring resolution of the hard problem of phenomenology.</description>
+    </item>
+    <item>
+      <title>Alakazam: Symbolic Tensor Algebra for Field Theory in Julia</title>
+      <link>http://arxiv.org/abs/2608.20452v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.20452v1</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:01 +0000</pubDate>
+      <description>We present "Alakazam", a Julia package for performing symbolic manipulations of tensor expressions arising in the study of field theories and quantum mechanics. This will serve as a powerful tool for studying spacetime and supersymmetric structures, including support for calculations in superspace. The package implements many key features such as raising and lowering indices, simplification of terms with dummy indices, replacement patterns, differential and variational calculus, bosonic and fermionic grading, gamma matrix identities, and Lie brackets and commutators. We present notable speed improvements over established systems. Some possible applications include the study of descendants and invariants.</description>
+    </item>
+    <item>
       <title>Stationarity is not enough: tightness of the quantum mechanical bootstrap and the copositive cone</title>
       <link>https://arxiv.org/abs/2608.07047</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2608.07047</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2506.10686</guid>
       <pubDate>Thu, 12 Jun 2025 00:00:00 -0000</pubDate>
       <description>Optimal control in general, and flatness-based control in particular, of robotic arms necessitate to compute the first and second time derivatives of the joint torques/forces required to achieve a desired motion. In view of the required computational efficiency, recursive $O(n)$-algorithms were proposed to this end. Aiming at compact yet efficient formulations, a Lie group formulation was recently proposed, making use of body-fixed and hybrid representation of twists and wrenches. In this paper a formulation is introduced using the spatial representation. The second-order inverse dynamics algorithm is accompanied by a fourth-order forward and inverse kinematics algorithm. An advantage of all Lie group formulations is that they can be parameterized in terms of vectorial quantities that are readily available. The method is demonstrated for the 7 DOF Franka Emika Panda robot.</description>
-    </item>
-    <item>
-      <title>Primender Sequence: A Novel Mathematical Construct for Testing Symbolic Inference and AI Reasoning</title>
-      <link>https://arxiv.org/abs/2506.10585</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.10585</guid>
-      <pubDate>Thu, 12 Jun 2025 00:00:00 -0000</pubDate>
-      <description>This paper introduces the Primender sequence, a novel integer sequence defined by a hybrid rule that combines classical primality with modular digit-based conditions. Specifically, a number n is included in the sequence if it is prime or ends with a prime number of unit digit or any length. In other words, numbers which are primes or have at least one prime suffix. The resulting sequence exhibits a deterministic yet non-trivial structure, blending number-theoretic properties with symbolic patterning. We propose the Primender sequence as a benchmark for evaluating the symbolic reasoning capabilities of Large Language Models (LLMs). The study is motivated by the need for interpretable, rule-based testbeds that can assess an LLM's ability to infer hidden rules, validate mathematical hypotheses, and generalize symbolic logic at scale. A key hypothesis explored is: Whenever a number in the Primender sequence is exactly one more than the largest prime less than or equal to it, the difference between it and the previous number in the sequence is also 1. We design a structured prompt and evaluation framework to test this hypothesis across multiple state-of-the-art LLMs, including ChatGPT, Copilot, DeepSeek, Gemini, Grok, and LLaMA. The models are tasked with identifying the underlying rule, validating the hypothesis, and generating the next 100,000 terms of the sequence. Comparative metrics such as rule inference accuracy, hypothesis evaluation, sequence validity, and symbolic explanation quality are used to assess model performance. This work contributes a novel mathematical construct and a reproducible methodology for benchmarking LLMs in symbolic reasoning, hypothesis testing, and scalable pattern generalization - bridging the domains of number theory, artificial intelligence, and software engineering.</description>
-    </item>
-    <item>
-      <title>Directional Non-Commutative Monoidal Structures with Interchange Law via Commutative Generators</title>
-      <link>https://arxiv.org/abs/2505.24533</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.24533</guid>
-      <pubDate>Fri, 30 May 2025 00:00:00 -0000</pubDate>
-      <description>We introduce a novel framework consisting of a class of algebraic structures that generalize one-dimensional monoidal systems into higher dimensions by defining per-axis composition operators subject to non-commutativity and a global interchange law. These structures, defined recursively from a base case of vector-matrix pairs, model directional composition in multiple dimensions while preserving structural coherence through commutative linear operators. We show that the framework that unifies several well-known linear transforms in signal processing and data analysis. In this framework, data indices are embedded into a composite structure that decomposes into simpler components. We show that classic transforms such as the Discrete Fourier Transform (DFT), the Walsh transform, and the Hadamard transform are special cases of our algebraic structure. The framework provides a systematic way to derive these transforms by appropriately choosing vector and matrix pairs. By subsuming classical transforms within a common structure, the framework also enables the development of learnable transformations tailored to specific data modalities and tasks.</description>
-    </item>
-    <item>
-      <title>Towards LLM-based Generation of Human-Readable Proofs in Polynomial Formal Verification</title>
-      <link>https://arxiv.org/abs/2505.23311</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.23311</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 -0000</pubDate>
-      <description>Verification is one of the central tasks in circuit and system design. While simulation and emulation are widely used, complete correctness can only be ensured based on formal proof techniques. But these approaches often have very high run time and memory requirements. Recently, Polynomial Formal Verification (PFV) has been introduced showing that for many instances of practical relevance upper bounds on needed resources can be given. But proofs have to be provided that are human-readable. Here, we study how modern approaches from Artificial Intelligence (AI) based on Large Language Models (LLMs) can be used to generate proofs that later on can be validated based on reasoning engines. Examples are given that show how LLMs can interact with proof engines, and directions for future work are outlined.</description>
-    </item>
-    <item>
-      <title>Fractal Attractors in Random Nonlinear Iterated Function Systems: Existence, Stability, and Dimensional Properties</title>
-      <link>https://arxiv.org/abs/2505.18849</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.18849</guid>
-      <pubDate>Sat, 24 May 2025 00:00:00 -0000</pubDate>
-      <description>This study develops a comprehensive theoretical and computational framework for Random Nonlinear Iterated Function Systems (RNIFS), a generalization of classical IFS models that incorporates both nonlinearity and stochasticity. We establish mathematical guarantees for the existence and stability of invariant fractal attractors by leveraging contractivity conditions, Lyapunov-type criteria, and measure-theoretic arguments. Empirically, we design a set of high-resolution simulations across diverse nonlinear functions and probabilistic schemes to analyze the emergent attractors geometry and dimensionality. A box-counting method is used to estimate the fractal dimension, revealing attractors with rich internal structure and dimensions ranging from 1.4 to 1.89. Additionally, we present a case study comparing RNIFS to the classical Sierpiński triangle, demonstrating the generalization's ability to preserve global shape while enhancing geometric complexity. These findings affirm the capacity of RNIFS to model intricate, self-similar structures beyond the reach of traditional deterministic systems, offering new directions for the study of random fractals in both theory and applications.</description>
     </item>
   </channel>
 </rss>

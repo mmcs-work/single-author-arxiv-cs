@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Enhanced Artificial Neural Networks Using QHAdamW in Air Quality Forecasting</title>
+      <link>http://arxiv.org/abs/2608.21463v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21463v1</guid>
+      <pubDate>Thu, 20 Aug 2026 23:59:41 +0000</pubDate>
+      <description>The study employed an Artificial Neural Network in combination with the optimized Adaptive Moment Estimation (Adam) algorithm, currently the only AQI forecasting model available in the Philippines. The modified QHAdamW - Quasi-Hyperbolic Momentum (QHAdam) and Adam with decoupled weight decay (AdamW) were both extensions of the Adam optimizer, and both offer unique advantages for training ANN. The proposed QHAdamW optimizer addresses the issues on convergence, generalization, and forecasting performance of Adam. Hyperparameter tuning results revealed that 0.01 and 0.001 were the most effective optimal values for the generalization performance of QHAdamW. The comparative analysis results using seven evaluation metrics revealed that the error value range is lower, and the regression coefficient, having a value approximately equal to 1, improved the model accuracy performance. Likewise, the model converges to a satisfactory level of performance with the convergence performance results of lower loss values as obtained from training and validation losses. Based on data from a real-time air quality tracking station in Manila, a feed-forward neural network is used to predict the AQI of PM2.5 and PM10 separately. This model can be used to forecast Particulate Matter (PM), to help the Department of Environment and Natural Resources-Environmental Monitoring Bureau (DENR-EMB) implement a comprehensive air quality management.</description>
+    </item>
+    <item>
       <title>BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs</title>
       <link>https://arxiv.org/abs/2608.13046</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2608.13046</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.16216</guid>
       <pubDate>Tue, 17 Mar 2026 00:00:00 -0000</pubDate>
       <description>We review thirteen generative systems and five supporting datasets for quantum circuit and quantum code generation, identified through a structured scoping review of Hugging Face, arXiv, and provenance tracing (January-February 2026). We organize the field along two axes: artifact type (Qiskit code, OpenQASM programs, circuit graphs); crossed with training regime (supervised fine-tuning, verifier-in-the-loop RL, diffusion/graph generation, agentic optimization); and systematically apply a three-layer evaluation framework covering syntactic validity, semantic correctness, and hardware executability. The central finding is that while all reviewed systems address syntax and most address semantics to some degree, none reports end-to-end evaluation on quantum hardware (Layer 3b), leaving a significant gap between generated circuits and practical deployment. Scope note: quantum code refers throughout to quantum program artifacts (QASM, Qiskit); we do not cover generation of quantum error-correcting codes (QEC).</description>
-    </item>
-    <item>
-      <title>PolyGLU: State-Conditional Activation Routing in Transformer Feed-Forward Networks</title>
-      <link>https://arxiv.org/abs/2603.13347</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.13347</guid>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Biological neural systems employ diverse neurotransmitters -- glutamate, GABA, dopamine, acetylcholine -- to implement distinct signal-processing modalities within shared neural circuits. In contrast, modern transformers apply a single fixed activation function across all feed-forward neurons. We introduce PolyGLU (Polychromatic Gated Linear Unit), a drop-in replacement for SwiGLU that enables each FFN neuron to dynamically route among K=4 activation functions via a differentiable mechanism combining learned static preferences with input-conditioned gating, trained end-to-end with Gumbel-Softmax. We train PolychromaticLM, a 597M-parameter transformer, on ~10B tokens using a single NVIDIA A100 GPU. Our key finding is emergent routing behavior: without any explicit sparsity loss or entropy regularization, the routing mechanism converges to near-deterministic activation selections (mean dynamic entropy = 0.030% of maximum), with a striking depth-dependent specialization pattern -- early layers prefer GELU while deep layers strongly favor Tanh. Three layers maintain elevated routing entropy, suggesting computational flexibility points. The routing architecture adds only 0.23% parameter overhead (~1.4M parameters) and proves fully robust to supervised fine-tuning: routing entropy remains constant at ln(4) throughout 13,067 SFT steps. On standard benchmarks, PolychromaticLM achieves 62-89% of Qwen3-0.6B-Base performance despite training on 3,600x fewer tokens. All code, weights, and training infrastructure are released under Apache 2.0.</description>
     </item>
   </channel>
 </rss>

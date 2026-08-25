@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Data Quality Assessments: A Theoretically Structured Overview of Approaches and Methods</title>
+      <link>http://arxiv.org/abs/2608.22474v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22474v1</guid>
+      <pubDate>Sun, 23 Aug 2026 15:53:39 +0000</pubDate>
+      <description>The quality of data is crucial for both practice and academia, and this holds for descriptive statistics, AI and advanced analytics alike. This study addresses an apparent gap in the literature and as such presents a full and theoretically grounded overview of data quality assessment approaches and methods, as well as their defining characteristics and inter-relationships. For this purpose a broad typology is introduced that employs two theoretical dimensions, namely the evaluation logic (formal versus informal) and the assessment driver (norms versus data). This yields four high-level approaches and 15 methods for assessing data quality. The research results are relevant for academia, as they provide a theory-based overview and definition of the ways that data quality can be evaluated. The study is also relevant for practice because it allows professionals to make informed decisions on using these methods, e.g. as part of an audit or broad data quality assessment strategy.</description>
+    </item>
+    <item>
+      <title>From SQL Generation to Tool Selection: A Domain-Oriented Pattern for MCP Servers</title>
+      <link>http://arxiv.org/abs/2608.22063v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.22063v1</guid>
+      <pubDate>Sat, 22 Aug 2026 18:08:59 +0000</pubDate>
+      <description>Agents built on Large Language Models (LLMs) increasingly reach enterprise data through the Model Context Protocol (MCP), and many MCP database servers maximize flexibility by exposing a single generic SQL execution tool. This paper proposes the Domain-Oriented Tooling Pattern: instead of generating SQL at query time, the model selects from a small set of domain-aligned tools whose parameterized queries encapsulate schema navigation, joins and business rules on the server side. We formalize the pattern around three architectural invariants and introduce Model Demotion, the observation that replacing SQL synthesis with intent classification lowers the model tier required to serve routine requests. As a reference implementation we present MCP Blueprint, an open-source framework in which domain tools are defined declaratively as YAML metadata plus external parameterized SQL files. We evaluate the pattern with a public reproducibility benchmark comparing three MCP server designs - raw SQL execution, a thin generic tool pack, and a verticalized domain pack - on four local models (3B-8B) across seventeen customer-facing tasks over the Sakila database (609 completed cells; temperature 0; three repetitions per cell). The verticalized pack reaches a pooled mean score of 0.939 versus 0.666 for raw SQL and 0.605 for the generic pack; the smallest model improves from 0.583 to 0.929, matching or exceeding every larger configuration while cutting cost per correct answer by an order of magnitude. All harness code, prompts, gold answers, frozen packs and per-cell results are publicly available.</description>
+    </item>
+    <item>
+      <title>Consistency Is Not Coherence: Orientation Search for Certified Alignments Between 4D Defence Upper Ontologies</title>
+      <link>http://arxiv.org/abs/2608.21914v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21914v1</guid>
+      <pubDate>Sat, 22 Aug 2026 10:55:39 +0000</pubDate>
+      <description>We align three upper ontologies that sit under UK and NATO defence data infrastructure: the Information Exchange Standard (IES), the Higher Quality Data Model (HQDM) that underpins the National Digital Twin, and Basic Formal Ontology (BFO). No public alignment between IES and HQDM existed. Promoting a hand-curated 17-correspondence crosswalk to OWL and reasoning over the complete merged ontologies with HermiT produces three results that we believe matter beyond this pair.</description>
+    </item>
+    <item>
+      <title>Indexing Long Documents for LLM-Based Analysis</title>
+      <link>http://arxiv.org/abs/2608.21237v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.21237v1</guid>
+      <pubDate>Fri, 21 Aug 2026 15:46:20 +0000</pubDate>
+      <description>Long documents such as clinical records, legal contracts, and scientific papers are increasingly analyzed with large language models (LLMs). Naturally, feeding the full document to the model for every question can eventually become slow, expensive, prone to hallucination, and it reuses no work across questions. We explore an indexing-based solution for document analysis and propose a hierarchical plain-text index that is built once per document and consulted by subsequent queries. Inspired by the classic B+ tree, the index organizes a document into pages arranged from general summaries at the root to specific ones at the leaves, but it departs from the B+ tree in three ways suited to LLM access: content lives at every level, the index is plain text rather than attribute values, and navigation follows relevance between page summaries rather than comparing a search key. Its structure is discovered per document by the LLM rather than being hand-designed. In a preliminary evaluation on the NarrativeQA dataset, the index reaches accuracy comparable to DocETL, the strongest baseline, while being 40\% cheaper to answer questions.</description>
+    </item>
+    <item>
       <title>Quipu: A Governed Bitemporal Knowledge Graph Store</title>
       <link>http://arxiv.org/abs/2608.16813v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.16813v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.22587</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
       <description>As AI agents become the primary consumers of retrieval APIs, there is an opportunity to expose more of the retrieval pipeline to the caller. flexvec is a retrieval kernel that exposes the embedding matrix and score array as a programmable surface, allowing arithmetic operations on both before selection. We refer to composing operations on this surface at query time as Programmatic Embedding Modulation (PEM). This paper describes a set of such operations and integrates them into a SQL interface via a query materializer that facilitates composable query primitives. On a production corpus of 240,000 chunks, three composed modulations execute in 19 ms end-to-end on a desktop CPU without approximate indexing. At one million chunks, the same operations execute in 82 ms.</description>
-    </item>
-    <item>
-      <title>The Semantic Ladder: A Framework for Progressive Formalization of Natural Language Content for Knowledge Graphs and AI Systems</title>
-      <link>https://arxiv.org/abs/2603.22136</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22136</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Semantic data and knowledge infrastructures must reconcile two fundamentally different forms of representation: natural language, in which most knowledge is created and communicated, and formal semantic models, which enable machine-actionable integration, interoperability, and reasoning. Bridging this gap remains a central challenge, particularly when full semantic formalization is required at the point of data entry. Here, we introduce the Semantic Ladder, an architectural framework that enables the progressive formalization of data and knowledge. Building on the concept of modular semantic units as identifiable carriers of meaning, the framework organizes representations across levels of increasing semantic explicitness, ranging from natural language text snippets to ontology-based and higher-order logical models. Transformations between levels support semantic enrichment, statement structuring, and logical modelling while preserving semantic continuity and traceability. This approach enables the incremental construction of semantic knowledge spaces, reduces the semantic parsing burden, and supports the integration of heterogeneous representations, including natural language, structured semantic models, and vector-based embeddings. The Semantic Ladder thereby provides a foundation for scalable, interoperable, and AI-ready data and knowledge infrastructures.</description>
-    </item>
-    <item>
-      <title>Computer-Orchestrated Design of Algorithms: From Join Specification to Implementation</title>
-      <link>https://arxiv.org/abs/2603.19434</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.19434</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Equipping query processing systems with provable theoretical guarantees has been a central focus at the intersection of database theory and systems in recent years. However, the divergence between theoretical abstractions and system assumptions creates a gap between an algorithm's high-level logical specification and its low-level physical implementation. Ensuring the correctness of this logical-to-physical translation is crucial for realizing theoretical optimality as practical performance gains. Existing database testing frameworks struggle to address this need because necessary algorithm-specific inputs such as join trees are absent from standard test case generation, and integrating complex algorithms into these frameworks imposes prohibitive engineering overhead. Fallback solutions, such as using macro-benchmark queries, are inherently too noisy for isolating intricate defects during this translation. In this experience paper, we present a retrospective analysis of $\mathsf{CODA}$, a computer-orchestrated testing framework utilized during the logical-physical co-design of TreeTracker Join ($\mathsf{TTJ}$), a theoretically optimal yet practical join algorithm recently published in ACM TODS. By synthesizing minimal reproducible examples, $\mathsf{CODA}$ successfully isolates subtle translation defects, such as state mismanagement and mapping conflicts between join trees and bushy plans. We demonstrate that this logical-to-physical translation process is a bidirectional feedback loop: early structural testing not only hardened $\mathsf{TTJ}$'s physical implementation but also exposed a boundary condition that directly refined the formal precondition of $\mathsf{TTJ}$ itself. Finally, we detail how confronting these translation challenges drove the architectural evolution of $\mathsf{CODA}$ into a robust, structure-aware test generation pipeline for join-tree-dependent algorithms.</description>
-    </item>
-    <item>
-      <title>Query Optimization in the Wild: Realities and Trends</title>
-      <link>https://arxiv.org/abs/2510.20082</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.20082</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
-      <description>For nearly half a century, the core design of query optimizers in industrial database systems has remained remarkably stable, relying on foundational principles from System R and the Volcano/Cascades framework. However, the rise of cloud computing, massive data volumes, and unified data platforms has exposed the limitations of this traditional, monolithic architecture. Taking an industrial perspective, this paper reviews the past and present of query optimization in production systems and identifies the challenges they face today. Then this paper highlights three key trends gaining momentum in the industry that promise to address these challenges. First, a tighter feedback loop between query optimization and query execution is being used to improve the robustness of query performance. Second, the scope of optimization is expanding from a single query to entire workloads through the convergence of query optimization and workload optimization. Third, and perhaps most transformatively, the industry is moving from monolithic designs to composable architectures that foster agility and cross-engine collaboration. Together, these trends chart a clear path toward a more dynamic, holistic, and adaptable future for query optimization in practice.</description>
-    </item>
-    <item>
-      <title>Personalized Federated Sequential Recommender</title>
-      <link>https://arxiv.org/abs/2603.22349</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22349</guid>
-      <pubDate>Sun, 22 Mar 2026 00:00:00 -0000</pubDate>
-      <description>In the domain of consumer electronics, personalized sequential recommendation has emerged as a central task. Current methodologies in this field are largely centered on modeling user behavior and have achieved notable performance. Nevertheless, the inherent quadratic computational complexity typical of most existing approaches often leads to inefficiencies that hinder real-time recommendation. Moreover, these methods face challenges in being effectively adapted to the personalized requirements of users across diverse scenarios. To tackle these issues, we propose the Personalized Federated Sequential Recommender (PFSR). In this framework, an Associative Mamba Block is introduced to capture user profiles from a global perspective while improving prediction efficiency. In addition, a Variable Response Mechanism is developed to enable fine-tuning of parameters in accordance with individual user needs. A Dynamic Magnitude Loss is further devised to preserve greater amounts of localized personalized information throughout the training process.</description>
     </item>
   </channel>
 </rss>
