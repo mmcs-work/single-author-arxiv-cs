@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
+      <link>http://arxiv.org/abs/2608.24520v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24520v1</guid>
+      <pubDate>Tue, 25 Aug 2026 13:09:38 +0000</pubDate>
+      <description>It is shown in this manuscript that a random graph $G$ drawn from the Erdős--Rényi model $\mathcal{G}(n,p)$ with \[ p=p(n)\leq 1/2, \qquad \lim_{n\to+\infty}(np-\log n-\log\log n)=+\infty, \] is a homomorphic core, i.e., every homomorphism from $G$ to itself is an automorphism. This implies tight ETH-based lower bounds of the subgraph isomorphism problem for almost all $k$-vertex patterns with polynomial average degree.</description>
+    </item>
+    <item>
+      <title>Partial Optimal Transport on the Circle for All Transported Masses in O(N log N)</title>
+      <link>http://arxiv.org/abs/2608.23910v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23910v1</guid>
+      <pubDate>Mon, 24 Aug 2026 23:32:24 +0000</pubDate>
+      <description>Partial optimal transport compares two measures while leaving part of the mass unmatched, which is what makes it robust to outliers, occlusion, and clutter. The quantity of interest is usually the whole profile - the optimal cost at every transported cardinality - because the right amount to transport is rarely known in advance, and on the real line the PAWL algorithm returns that profile in $O(N\log N)$. Much data is periodic rather than linear: angles, phases, orientations, time of day, hue, and every direction obtained by projecting onto a great circle. On the circle the same problem acquires a global circulation, or equivalently an optimized cut, which the naive exact method handles by running the line algorithm once per support gap, at $O(N^{2}\log N)$. We show that this factor $N$ is unnecessary. The line structure survives in cut-free form, and a free-gap invariant supplies, at every step, a cut at which all previous local updates remain valid line updates. This yields PAWC: an exact $O(N\log N)$ time, $O(N)$ memory algorithm returning all $K+1$ costs, nested active sets and plans in one run, together with a single gap that is simultaneously optimal for every cardinality. Slicing over great circles extends it to $\mathbb{S}^{d-1}$. Empirically the whole profile costs $0.56$ms at $N=4096$ against $1.5$s for a single transported fraction from a general solver; on occluded, cluttered mpeg-7 shapes, holding the descriptor fixed and varying only the cost, it retains $66\%$ of the clean-data retrieval score against $16\%$ for balanced circular OT, and on $\mathbb{S}^{2}$ it halves the fitting error of spherical sliced Wasserstein against contaminated targets, synthetic and real. Code is available at https://github.com/mint-vu/Partial_Wasserstein_on_Circles.</description>
+    </item>
+    <item>
       <title>Linear Hashing is Not That Awesome</title>
       <link>http://arxiv.org/abs/2608.23502v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.23502v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.22312</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
       <description>Given an $n\times n$ matrix $A$, a saddlepoint of $A$ is an entry that is the maximum in its row and the minimum in its column. It is a strict saddlepoint if no other entry in its row or column has the same value. Finding a non-strict saddlepoint requires $Θ(n^2)$ matrix queries in the worst case. In contrast, a strict saddlepoint can be found with only $O(n)$ queries. In 1991, Bienstock, Chung, Fredman, Schäffer, Shor, and Suri---and, independently, Byrne and Vaserstein---showed that one can find a strict saddlepoint (or certify that none exists) in $O(n\log n)$ time using $O(n)$ matrix queries. In 2024, Dallant, Haagensen, Jacob, Kozma, and Wild gave an $O(n\log^* n)$-time algorithm, followed shortly after by an optimal randomized algorithm running in $O(n)$ time with high probability. Whether $O(n)$ time could also be achieved deterministically was left open by these works. Here we resolve this question by presenting a simple deterministic algorithm that finds a strict saddlepoint, or reports that none exists, in optimal $O(n)$ time. Our algorithm combines elementary ingredients from previous approaches with linear-time selection from a collection of sorted lists.</description>
-    </item>
-    <item>
-      <title>HyperLogLog for probabilists</title>
-      <link>https://arxiv.org/abs/2607.22063</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.22063</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
-      <description>HyperLogLog is a now classic probabilistic algorithm that provides an approximation of the number of distinct elements in a massive dataset, using only one pass over the data. In the original article, Flajolet, Fusy, Gandouet, Meunier (2007) provided a sharp analysis of the expectation and variance of the output, using explicit formulas analyzed using poissonization and Mellin transform. In this short article, we revisit the analysis of HyperLogLog with a more probabilistic viewpoint. This allows us to establish exponential deviation inequalities for the HyperLogLog estimator. The methods are elementary, but the estimates are non-asymptotic and totally explicit.</description>
-    </item>
-    <item>
-      <title>An Efficient Algorithm for Permutation Iteration Using a Singly Linked List</title>
-      <link>https://arxiv.org/abs/2501.10102</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2501.10102</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present a new content-agnostic algorithm for iterating over all permutations of a sequence. The algorithm leverages elementary~$O(1)$ operations on recursive lists. As a result, no new nodes are allocated during the computation. Instead, all elements are rearranged within the original nodes of the singly linked list throughout the process. While permutations are generated in an unusual order, the transitions between consecutive permutations remain smooth. A proof of concept written in the Lisp programming language is referenced and discussed.</description>
     </item>
   </channel>
 </rss>

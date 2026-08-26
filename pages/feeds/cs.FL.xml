@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On existential Büchi arithmetic in two coprime bases</title>
+      <link>http://arxiv.org/abs/2608.24410v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24410v1</guid>
+      <pubDate>Tue, 25 Aug 2026 11:21:53 +0000</pubDate>
+      <description>For multiplicatively independent natural numbers $α$ and $β$, Villemaire showed in 1992 that the first-order theory of Presburger arithmetic expanded with both Büchi predicates $V_α$ and $V_β$ is undecidable, as it encodes multiplication. In recent years, Hieronymi and Schulz showed that Presburger arithmetic expanded with the weaker power predicates $α^\mathbb{N} = \{α^n: n \in \mathbb{N}\}$ and $β^\mathbb{N}$ is also undecidable, while Karimov et al. showed that the existential fragment of this theory is decidable. These results left open the natural problem of determining the decidability of the existential fragment of Villemaire's original expansion. We settle this question for coprime $α$ and $β$. Specifically, we give a quantifier-elimination argument that proves the decidability of the existential fragment of $\mathsf{FO}(\mathbb{Z};&lt;,+, V_α, V_β)$.</description>
+    </item>
+    <item>
+      <title>Weighted Alternating Tree Automata</title>
+      <link>http://arxiv.org/abs/2608.24262v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24262v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:50:35 +0000</pubDate>
+      <description>We define weighted alternating tree automata â a generalization of weighted (non-alternating) tree automata, (unweighted) alternating tree automata, and weighted alternating (string) automata â over commutative semirings. We study their expressive power, and show that it is equivalent to that of weighted tree automata exactly when the employed semiring is locally finite. In our main result, we characterize the class of weighted tree languages defined by weighted alternating tree automata as the closure of the recognizable weighted tree languages under inverse tree homomorphisms.</description>
+    </item>
+    <item>
+      <title>Turn Complexity and Bounded Languages</title>
+      <link>http://arxiv.org/abs/2608.24259v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24259v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:50:01 +0000</pubDate>
+      <description>A turn or reversal in a computation of a pushdown automaton is a switch from a phase in which the height of the pushdown store increases to a phase in which it decreases. Given a pushdown automaton, we first consider, for each string in its language, the minimum number of turns made in accepting computations (weak measure). We prove that it is decidable whether a pushdown automaton accepts a bounded language in a constant number of turns and whether it accepts a bounded language in k turns, for any given k&gt;=0. This is in contrast to the general case, in which these problems are known to be undecidable, with the exception of acceptance in 0 turns, which is decidable. Furthermore, we prove that when the number of turns sufficient to accept a bounded language is not limited by any constants, it linearly grows with respect to the input length. Also this is in contrast with the general case where, for each nonnegative k, there exists a language for which the number of turns necessary and sufficient is of the order of log^(k), the k times composition of the logarithm with itself. We also prove that, when the costs of all accepting computations are taken into account (accept measure), a linear lower bound for the number of turns, if not limited by any constants, holds even removing the restriction to bounded languages.</description>
+    </item>
+    <item>
+      <title>Reverse Post Correspondence Problem and Undecidability of $5' \rightarrow 3'$ String Assembly Systems</title>
+      <link>http://arxiv.org/abs/2608.24257v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24257v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:49:44 +0000</pubDate>
+      <description>The Post Correspondence Problem is as follows: having a set of dominoes, is there any (maybe repeating) sequence of them such that the words formed by the upper parts and the lower parts by the sequence of dominoes are identical. It is one of the most known problems that is algorithmically undecidable. In this paper, the reverse Post Correspondence Problem is defined, that is, where the two assembled words of the dominos are reversals of each other. Undecidability about this new, modified problem is proven. Further, based on this result, it is also proven that the emptiness problem for 5'-&gt;3' String Assembly Systems is undecidable too. 5'-&gt;3' String Assembly Systems belong to String Assembly Systems type formal language generating models. The 5'-&gt;3' denotes that, in these variants, the derivations of the generated words start from the two extremes. The notation and the new model are bio-motivated as any double stranded DNA has two opposite oriented 5'-&gt;3' strands.</description>
+    </item>
+    <item>
+      <title>Independent Languages and Witnesses of Dependence (Non-satisfaction)</title>
+      <link>http://arxiv.org/abs/2608.24254v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24254v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:49:11 +0000</pubDate>
+      <description>We consider the independent language property defined by the language equation Ï(X)=\emptyset, where the expression Ï involves the language variable X, constant languages, and standard regular operations including transductions, but not complementation. This property consists of all languages L satisfying Ï(L)=\emptyset. Depending on the choice of the operations in Ï, the equation defines a broad class of codes, including combinations of standard variable-length codes and error-detecting codes. We show that any Ï-independence is a JÃ¼rgensen independence, we define what a witness of non-satisfaction of Ï(X)=\emptyset is, for a language L, and we show how to compute a witness of non-satisfaction when L is regular. We also discuss the complexity of the problem, showing that the decision version of the problem is PSPACE-complete.</description>
+    </item>
+    <item>
+      <title>Synchronizing Automata: Open Problems</title>
+      <link>http://arxiv.org/abs/2608.24245v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24245v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:46:45 +0000</pubDate>
+      <description>We survey selected open problems in the theory of synchronizing automata, centered around the famous ÄernÃ½ conjecture. A deterministic finite automaton is called synchronizing if it admits a reset word whose action maps all states to a single state. The ÄernÃ½ conjecture states that every synchronizing automaton with n states possesses a reset word of length at most (n-1)^2. We discuss avoiding words, compressing a state with another, synchronization of a (given or any) subset, complexity of deciding the synchronizability, average reset threshold, and linear-algebraic methods. Some new auxiliary results are also presented.</description>
+    </item>
+    <item>
       <title>A characterization of the reversibility of linear cellular automata</title>
       <link>http://arxiv.org/abs/2608.20600v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20600v1</guid>
@@ -661,48 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2505.15605</guid>
       <pubDate>Tue, 17 Mar 2026 00:00:00 -0000</pubDate>
       <description>For a terminal alphabet $Σ$ and an attribute alphabet $Γ$, a $(Σ, Γ)$-extractor is a function that maps every string over $Σ$ to a table with a column per attribute and with sets of positions of $w$ as cell entries. This rather general information extraction framework extends the well-known document spanner framework, which has intensively been investigated in the database theory community over the last decade. Moreover, our framework is based on formal language theory in a particularly clean and simple way. In addition to this conceptual contribution, we investigate closure properties, different representation formalisms and the complexity of natural decision problems for extractors.</description>
-    </item>
-    <item>
-      <title>Dynamic direct (ranked) access of MSO query evaluation over SLP-compressed strings</title>
-      <link>https://arxiv.org/abs/2603.13058</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.13058</guid>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We present an algorithm that, given an index $t$, produces the $t$-th (lexicographically ordered) answer of an MSO query over a string. The algorithm requires linear-time preprocessing, and builds a data structure that answers each of these calls in logarithmic time. We then show how to extend this algorithm for a string that is compressed by a straight-line program (SLP), also with linear-time preprocessing in the (compressed encoding of the) string, and maintaining direct access in logtime of the original string. Lastly, we extend the algorithm by allowing complex edits on the SLP after the direct-access data structure has been processsed, which are translated into the data structure in logtime. We do this by adapting a document editing framework introduced by Schmid and Schweikardt (PODS 2022). This work improves on a recent result of dynamic direct access of MSO queries over strings (Bourhis et. al., ICDT 2025) by a log-factor on the access procedure, and by extending the results to SLPs.</description>
-    </item>
-    <item>
-      <title>Words with factor complexity $2n+1$ and minimal critical exponent</title>
-      <link>https://arxiv.org/abs/2507.09387</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.09387</guid>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Word ${\mathbf G}$ is the fixed point of the morphism $γ=[01,2,02]$. In 2019, Shallit and Shur showed that ${\mathbf G}$ has factor complexity $2n+1$. They also showed that ${\mathbf G}$ has critical exponent $μ=2+\frac{1}{λ^2-1}= 2.4808726\cdots$, where $λ=1.7548777$ is the real zero of $x^3-2x+x-1=0$. They conjectured that this was the least possible critical exponent among words with factor complexity $2n+1$. We confirm their conjecture. The proof, using an intricate case analysis, is by computer. The relevant program generates a `human readable' proof.</description>
-    </item>
-    <item>
-      <title>Probabilistic Disjunctive Normal Forms in Temporal Logic and Automata Theory</title>
-      <link>https://arxiv.org/abs/2603.11083</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.11083</guid>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0000</pubDate>
-      <description>This article introduces probabilistic disjunctive normal forms (PDNFs) as a framework for representing and reasoning about uncertainty in logical systems. Unlike classical DNFs, PDNFs assign real-valued weights to variables, encoding probabilistic information about their presence, absence, or negation. Then we construct a vector space of PDNFs that allows algebraic evidence combination. PDNFs are interpreted as probability distributions over venjunctions (temporal logic constructs) and as integrable functions over partitioned intervals, where the integrals determine variable probabilities. This dual perspective allows for a Banach space structure and the application of functional analysis. We demonstrate that, under exponential parametrisation, PDNF addition aligns with Bayesian evidence fusion and derive bounds for outcome identification from random samples. The formalism thus bridges logic, numerical methods, and continuous probability.</description>
-    </item>
-    <item>
-      <title>Context-Free Trees</title>
-      <link>https://arxiv.org/abs/2603.08624</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.08624</guid>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Muller and Schupp introduced the concept of context-free graphs (originating from Cayley graphs of context-free groups). These graphs are always tree-like (i.e. quasi-isometric to a tree) and in this paper we investigate the subclass of bona fide context-free trees. We show that they have a finite-state description using multi-edge NFAs and that this specializes to certain partial DFAs in the case of deterministic graphs. We investigate this form of encoding algorithmically and show that the isomorphism problem for deterministic context-free trees is NL-complete in the rooted and the non-rooted case.</description>
-    </item>
-    <item>
-      <title>Turn Complexity of Context-free Languages, Pushdown Automata and One-Counter Automata</title>
-      <link>https://arxiv.org/abs/2603.08331</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.08331</guid>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 -0000</pubDate>
-      <description>A turn in a computation of a pushdown automaton is a switch from a phase in which the height of the pushdown store increases to a phase in which it decreases. Given a pushdown or one-counter automaton, we consider, for each string in its language, the minimum number of turns made in accepting computations. We prove that it cannot be decided if this number is bounded by any constants. Furthermore, we obtain a non-recursive trade-off between pushdown and one-counter automata accepting in a finite number of turns and finite-turn pushdown automata, that are defined requiring that the constant bound is satisfied by each accepting computation. We prove that there are languages accepted in a sublinear but not constant number of turns, with respect to the input length. Furthermore, there exists an infinite proper hierarchy of complexity classes, with the number of turns bounded by different sublinear functions. In addition, there is a language requiring a number of turns which is not constant but grows slower than each of the functions defining the above hierarchy.</description>
-    </item>
-    <item>
-      <title>The Expansion Problem for Infinite Trees</title>
-      <link>https://arxiv.org/abs/2308.01174</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2308.01174</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We study Ramsey like theorems for infinite trees and similar combinatorial tools. As an application we consider the expansion problem for tree algebras.</description>
     </item>
   </channel>
 </rss>

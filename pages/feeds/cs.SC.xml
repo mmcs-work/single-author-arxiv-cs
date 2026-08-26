@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Standard bases for shift-stable groups and Subgroup Membership in wreath products</title>
+      <link>http://arxiv.org/abs/2608.24620v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24620v1</guid>
+      <pubDate>Tue, 25 Aug 2026 14:38:53 +0000</pubDate>
+      <description>We develop a notion of standard bases for subgroups of the restricted direct product $G^{(\mathbb{N}^n)}$ that are stable under translation by $\mathbb{N}^n$, where $G$ is an arbitrary finite group. We construct an algorithm that computes standard bases for such subgroups and use them to solve several algorithmic problems, including membership, saturation, and variable elimination. Our approach is inspired by Buchberger's algorithm and the theory of Gröbner bases for ideals in polynomial rings. Building on the standard bases and our solutions to the algorithmic problems above, we prove that Subgroup Membership is decidable in wreath products $G \wr \mathbb{Z}^n$ for finite $G$ and $n \in \mathbb{N}$.</description>
+    </item>
+    <item>
       <title>Exact Finite-Length Theory of Uniform Car Parking: Spatial Laws, Absorption, and Aggregation</title>
       <link>http://arxiv.org/abs/2608.22671v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.22671v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2506.22113</guid>
       <pubDate>Fri, 27 Jun 2025 00:00:00 -0000</pubDate>
       <description>We explore new approaches for finding matrix multiplication algorithms in the commutative setting by adapting the flip graph technique: a method previously shown to be effective for discovering fast algorithms in the non-commutative case. While an earlier attempt to apply flip graphs to commutative algorithms saw limited success, we overcome both theoretical and practical obstacles using two strategies: one inspired by Marakov's algorithm to multiply 3x3 matrices, in which we construct a commutative tensor and approximate its rank using the standard flip graph; and a second that introduces a fully commutative variant of the flip graph defined via a quotient tensor space. We also present a hybrid method that combines the strengths of both. Across all matrix sizes up to 5x5, these methods recover the best known bounds on the number of multiplications and allow for a comparison of their efficiency and efficacy. Although no new improvements are found, our results demonstrate strong potential for these techniques at larger scales.</description>
-    </item>
-    <item>
-      <title>An $O(n$)-Algorithm for the Higher-Order Kinematics and Inverse Dynamics of Serial Manipulators using Spatial Representation of Twists</title>
-      <link>https://arxiv.org/abs/2506.10686</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.10686</guid>
-      <pubDate>Thu, 12 Jun 2025 00:00:00 -0000</pubDate>
-      <description>Optimal control in general, and flatness-based control in particular, of robotic arms necessitate to compute the first and second time derivatives of the joint torques/forces required to achieve a desired motion. In view of the required computational efficiency, recursive $O(n)$-algorithms were proposed to this end. Aiming at compact yet efficient formulations, a Lie group formulation was recently proposed, making use of body-fixed and hybrid representation of twists and wrenches. In this paper a formulation is introduced using the spatial representation. The second-order inverse dynamics algorithm is accompanied by a fourth-order forward and inverse kinematics algorithm. An advantage of all Lie group formulations is that they can be parameterized in terms of vectorial quantities that are readily available. The method is demonstrated for the 7 DOF Franka Emika Panda robot.</description>
     </item>
   </channel>
 </rss>

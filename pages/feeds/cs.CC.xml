@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
+      <link>http://arxiv.org/abs/2608.24520v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24520v1</guid>
+      <pubDate>Tue, 25 Aug 2026 13:09:38 +0000</pubDate>
+      <description>It is shown in this manuscript that a random graph $G$ drawn from the Erdős--Rényi model $\mathcal{G}(n,p)$ with \[ p=p(n)\leq 1/2, \qquad \lim_{n\to+\infty}(np-\log n-\log\log n)=+\infty, \] is a homomorphic core, i.e., every homomorphism from $G$ to itself is an automorphism. This implies tight ETH-based lower bounds of the subgraph isomorphism problem for almost all $k$-vertex patterns with polynomial average degree.</description>
+    </item>
+    <item>
+      <title>Reverse Post Correspondence Problem and Undecidability of $5' \rightarrow 3'$ String Assembly Systems</title>
+      <link>http://arxiv.org/abs/2608.24257v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24257v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:49:44 +0000</pubDate>
+      <description>The Post Correspondence Problem is as follows: having a set of dominoes, is there any (maybe repeating) sequence of them such that the words formed by the upper parts and the lower parts by the sequence of dominoes are identical. It is one of the most known problems that is algorithmically undecidable. In this paper, the reverse Post Correspondence Problem is defined, that is, where the two assembled words of the dominos are reversals of each other. Undecidability about this new, modified problem is proven. Further, based on this result, it is also proven that the emptiness problem for 5'-&gt;3' String Assembly Systems is undecidable too. 5'-&gt;3' String Assembly Systems belong to String Assembly Systems type formal language generating models. The 5'-&gt;3' denotes that, in these variants, the derivations of the generated words start from the two extremes. The notation and the new model are bio-motivated as any double stranded DNA has two opposite oriented 5'-&gt;3' strands.</description>
+    </item>
+    <item>
+      <title>Coronavirus Optimization Algorithm: A Success-History Adaptive Evolutionary Framework with Archive-Assisted Search and Stagnation Recovery for Global Optimization</title>
+      <link>http://arxiv.org/abs/2608.23847v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23847v1</guid>
+      <pubDate>Mon, 24 Aug 2026 21:37:13 +0000</pubDate>
+      <description>This paper proposes the Coronavirus Optimization Algorithm (COA), a SARS-CoV-2-inspired success-history adaptive evolutionary optimizer for box-constrained continuous global optimization. COA does not model disease transmission; instead, it maps selected coronavirus mechanisms to explicit search operators, including elite-guided attraction, trial-vector generation, adaptive parameter variation, stagnation recovery, and population-size scheduling. The algorithm combines opposition-based initialization, current-to-pbest mutation, binomial crossover, an external archive, success-history adaptation, population reduction, and partial restart. COA is evaluated on 29 CEC 2017 benchmark functions at 10, 30, and 50 dimensions against 15 competitive optimizers. Results show that COA achieves the best overall Friedman rank across all dimensions, with particularly strong performance on composition functions. The findings demonstrate that COA is a compact, transparent, and competitive adaptive evolutionary optimizer, while also highlighting limitations on some hybrid functions and the need for further high-dimensional validation.</description>
+    </item>
+    <item>
       <title>Riesz Energy Subset Selection in the Euclidean Plane is NP-Hard</title>
       <link>http://arxiv.org/abs/2608.23506v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.23506v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2601.15571</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
       <description>Every irreversible recorded distinction has a positive thermodynamic work floor. Landauer's principle supplies the ideal bound $\varepsilon\ge k_B T\ln 2$ per irreversible bit, experimentally verified to $\pm 10\%$. Proof available to an agent is checkable information for that agent: some substrate must produce, retain, and expose evidence that excludes answer-changing alternatives. A finite detector array operating at temperature $T$ for finite time has finite signal-acquisition capacity. Combining finite causal access, positive retained-record cost, and exact lower bounds on required records gives the Physical Counting Impossibility Theorem: no fixed-budget substrate can provide universal exact proof once the retained-record lower bound exceeds the declared budget. The theorem requires exactly $B&lt;\infty$ and $\varepsilon&gt;0$. An answer reports a value; proof supplies checkable grounds for accepting it. A reversible device may compute an answer and erase its scratch history, but proof requires retained, inspectable records. A global answer register, oracle response, entanglement witness, finite survey catalog, or trusted device output supplies proof only through an interface that exposes the relevant grounds to the verifier. A proposed interface must identify the retained-record lower-bound family $R(n)$ it induces. Sound operational claims about efficient solvability inherit the same finite-budget obstruction when their acceptance would license universal exact proof. Substrate-free derivability has proof status only when a physical verification event makes it available to an agent.</description>
-    </item>
-    <item>
-      <title>Machine-Checked Formalization of Earlier Arguments on $\mathbb{P}$ versus $\mathbb{NP}$ Using Isabelle/HOL</title>
-      <link>https://arxiv.org/abs/cs/0310060</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/cs/0310060</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This letter revisits an earlier argument concerning $\mathbb{P}$ versus $\mathbb{NP}$ based on the SUBSET-SUM problem and examines its formalization in Isabelle/HOL. The formal development clarifies the argument's logical structure by separating its deductive combinatorial core from the broader universality principle required to extend it to all exact deterministic algorithms.</description>
-    </item>
-    <item>
-      <title>Implementation of Polynomial NP-Complete Algorithms Based on the NP Verifier Simulation Framework</title>
-      <link>https://arxiv.org/abs/2602.10991</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.10991</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 -0000</pubDate>
-      <description>While prior work established a verifier-based polynomial-time framework for NP, explicit deterministic machines for concrete NP-complete problems have remained elusive. In this paper, we construct fully specified deterministic certificate-oblivious verifier Turing machines for SAT and Subset-Sum within an improved NP verifier simulation framework. A key contribution of this work is the development of a functional implementation that bridges the gap between theoretical proofs and executable software. Our improved feasible-graph construction yields a theoretical reduction in the asymptotic polynomial degree, while enhanced edge extension mechanisms significantly improve practical execution speed. We show that these machines generate valid witnesses, extending the framework to deterministic FNP computation without increasing complexity. The complete Python implementation behaves in accordance with the predicted polynomial-time bounds, and the source code, along with sample instances, is available in a public online repository.</description>
-    </item>
-    <item>
-      <title>Quantum algorithm for Clifford multiplication</title>
-      <link>https://arxiv.org/abs/2607.10473</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.10473</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Given two dense multivectors of the Clifford algebra $C\ell(V, Q)$ with $N=2^{p+q}$ coefficients, the fastest known classical algorithms compute their geometric product in $O(N^{ω/2})$ arithmetic operations, where $ω$ denotes the matrix multiplication exponent. I show that, under amplitude encoding, a quantum computer executes the geometric product in $O(\operatorname{polylog} N)$ time, using logarithmic space with sublogarithmic circuit depth. This exponential speedup establishes Clifford multiplication as a quantum primitive, providing an efficient computational foundation for quantum geometric algorithms and relativistic simulations.</description>
     </item>
   </channel>
 </rss>

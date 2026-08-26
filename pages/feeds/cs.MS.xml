@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Opals.jl: a comprehensive, composable framework for data assimilation in Julia</title>
+      <link>http://arxiv.org/abs/2608.24265v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24265v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:54:03 +0000</pubDate>
+      <description>Data assimilation (DA) and inverse modelling are indispensable tools for combining physics-based models with observations, yet the software that implements them is often fragmented: sequential (Kalman and particle) filters and variational (3D/4D-Var) estimators are typically developed as separate codebases, each tied to a specific class of forward model -- for example, simple time-marching schemes for ordinary differential equations (ODEs), or full finite element (FE) discretisations of partial differential equations (PDEs). In this work, we present Opals.jl, a Julia package that overcomes this fragmentation by providing a unified environment for a wide range of DA methods and forward model backends, all accessible behind a single high-level interface. Starting from a handful of basic methods, complex inference tools can be built by composing them with advanced capabilities, such as covariance localisation/inflation, online noise covariance estimation, bias-aware correction, and kriging-based calibration of reduced-order surrogates. The package integrates natively with the SciML ecosystem for ODE-governed systems, and with Gridap/GridapROMs for both full-order and reduced-order discretisations of PDEs. Notably, the API is designed to allow a reduced-order surrogate to replace a full-order solver with no change to the code, even at the driver level. We demonstrate the library on a Lorenz-63 benchmark, on a Van der Pol oscillator problem with biased observations, on a turbulent Navier-Stokes flow past a square cavity, where the unknown Reynolds number is inferred from sparse velocity and pressure measurements, and finally on a heat equation using a reduced-order surrogate instead of a more standard full-order model.</description>
+    </item>
+    <item>
       <title>Decomposing Grassmann Monomials for Superfield Expansions</title>
       <link>http://arxiv.org/abs/2608.20455v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20455v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2409.06752</guid>
       <pubDate>Tue, 10 Dec 2024 00:00:00 -0000</pubDate>
       <description>Automatic differentiation is everywhere, but there exists only minimal documentation of how it works in complex arithmetic beyond stating "derivatives in $\mathbb{C}^d$" $\cong$ "derivatives in $\mathbb{R}^{2d}$" and, at best, shallow references to Wirtinger calculus. Unfortunately, the equivalence $\mathbb{C}^d \cong \mathbb{R}^{2d}$ becomes insufficient as soon as we need to derive custom gradient rules, e.g., to avoid differentiating "through" expensive linear algebra functions or differential equation simulators. To combat such a lack of documentation, this article surveys forward- and reverse-mode automatic differentiation with complex numbers, covering topics such as Wirtinger derivatives, a modified chain rule, and different gradient conventions while explicitly avoiding holomorphicity and the Cauchy--Riemann equations (which would be far too restrictive). To be precise, we will derive, explain, and implement a complex version of Jacobian-vector and vector-Jacobian products almost entirely with linear algebra without relying on complex analysis or differential geometry. This tutorial is a call to action, for users and developers alike, to take complex values seriously when implementing custom gradient propagation rules -- the manuscript explains how.</description>
-    </item>
-    <item>
-      <title>Open Source Evolutionary Computation with Chips-n-Salsa</title>
-      <link>https://arxiv.org/abs/2412.02004</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2412.02004</guid>
-      <pubDate>Mon, 02 Dec 2024 00:00:00 -0000</pubDate>
-      <description>When it was first introduced, the Chips-n-Salsa Java library provided stochastic local search and related algorithms, with a focus on self-adaptation and parallel execution. For the past four years, we expanded its scope to include evolutionary computation. This paper concerns the evolutionary algorithms that Chips-n-Salsa now provides, which includes multiple evolutionary models, common problem representations, a wide range of mutation and crossover operators, and a variety of benchmark problems. Well-defined Java interfaces enable easily integrating custom representations and evolutionary operators, as well as defining optimization problems. Chips-n-Salsa's evolutionary algorithms include implementations with adaptive mutation and crossover rates, as well as both sequential and parallel execution. Source code is maintained on GitHub, and immutable artifacts are regularly published to the Maven Central Repository to enable easily importing into projects for reproducible builds. Effective development processes such as test-driven development, as well as a variety of static analysis tools help ensure code quality.</description>
     </item>
   </channel>
 </rss>

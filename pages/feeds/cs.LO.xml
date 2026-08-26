@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On existential Büchi arithmetic in two coprime bases</title>
+      <link>http://arxiv.org/abs/2608.24410v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24410v1</guid>
+      <pubDate>Tue, 25 Aug 2026 11:21:53 +0000</pubDate>
+      <description>For multiplicatively independent natural numbers $α$ and $β$, Villemaire showed in 1992 that the first-order theory of Presburger arithmetic expanded with both Büchi predicates $V_α$ and $V_β$ is undecidable, as it encodes multiplication. In recent years, Hieronymi and Schulz showed that Presburger arithmetic expanded with the weaker power predicates $α^\mathbb{N} = \{α^n: n \in \mathbb{N}\}$ and $β^\mathbb{N}$ is also undecidable, while Karimov et al. showed that the existential fragment of this theory is decidable. These results left open the natural problem of determining the decidability of the existential fragment of Villemaire's original expansion. We settle this question for coprime $α$ and $β$. Specifically, we give a quantifier-elimination argument that proves the decidability of the existential fragment of $\mathsf{FO}(\mathbb{Z};&lt;,+, V_α, V_β)$.</description>
+    </item>
+    <item>
+      <title>A Non-CDCL SAT Solver with Early Conflict Detection: The Watched-Literal-Based CSFLOC Solver</title>
+      <link>http://arxiv.org/abs/2608.24255v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24255v1</guid>
+      <pubDate>Tue, 25 Aug 2026 08:49:28 +0000</pubDate>
+      <description>CSFLOC is a non-CDCL SAT decision procedure based on counting subsumed full-length ordered clauses. The classical CSFLOC loop traverses the ordered space of full-length clauses by a monotone counter: if the current full-length clause is not subsumed by the input formula, its negation is a satisfying assignment; otherwise, a subsuming clause determines a counter jump. The main bottleneck is the repeated search for such a subsuming clause. This paper presents CSFLOC-WL, and its current implementation CSFLOC-WL3, in which this search is replaced by watched-literal prefix propagation over the negation of the current full-length clause represented by the counter. The central mechanism is early conflict detection: if propagation under a common prefix derives opposite unit consequences for the same variable, then the two reason clauses are resolved immediately and the resolvent is used as a new counter-jump cause. The resulting solver is not a CDCL solver: it has no CDCL decision tree, no restart policy, and no first-UIP backjumping loop. It remains a counter-guided full-length-clause-counting solver, but it imports the watched-literal data structure and reason clauses as engineering tools for discovering jumps. Experiments on selected UNSAT SATLIB instances compare CSFLOC-WL3 with CSFLOC21TU and CaDiCaL 3.0.0. The results are mixed: CSFLOC-WL3 is strong on several random 3-SAT instances near the random-3-SAT satisfiability threshold, whereas CSFLOC21TU remains faster on several structured cases, apparently because it contains a more mature cache mechanism that is not yet present in CSFLOC-WL3.</description>
+    </item>
+    <item>
+      <title>Effective quasi-Polish categories of overt discrete spaces and compact Hausdorff spaces</title>
+      <link>http://arxiv.org/abs/2608.23648v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.23648v1</guid>
+      <pubDate>Mon, 24 Aug 2026 09:54:18 +0000</pubDate>
+      <description>We construct the category of overt discrete quasi-Polish spaces and the category of compact Hausdorff quasi-Polish spaces (and some of their subcategories) as internal categories of the category of effective quasi-Polish spaces and computable maps. To demonstrate that the constructions are natural, we show that Stone duality is computable, in the sense that the dual contravariant functors and the natural transformations demonstrating their adjointness are computable.</description>
+    </item>
+    <item>
       <title>Nonstandard Axiomatic Semantics</title>
       <link>http://arxiv.org/abs/2608.22998v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.22998v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.18942</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
       <description>A tree is a partially ordered set that is downwards linear and downwards connected. A tree is called bounded when each of its paths (i.e. maximal linearly ordered subsets) contains a greatest element. In a bounded tree, each path can be defined by a first-order formula using the leaf of the path as parameter. Bounded trees can be used to model computational systems such as Zeno machines whereby the leaf of a path represents the state to which an infinitely long sequence of computations converges, or a state that is assigned to a computational sequence that loops. We identify a sufficient condition under which certain trees that are not bounded, can be elementarily embedded in trees that are bounded. Several tree operations are also given, and Feferman-Vaught style preservation properties for these operations are proved.</description>
-    </item>
-    <item>
-      <title>Quantifying Diversity of Thought: A Predictive Law of Weighted LLM Ensemble Lift</title>
-      <link>https://arxiv.org/abs/2607.17384</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.17384</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This paper provides an experimentally verified formal law for calculating the uplift that diversity of thought provides in Large Language Model (LLM) ensembles. From first principles, we derive an exact decomposition of LLM ensemble lift into rescue and damage masses, which yields a compact heuristic for calculating uplift. From this we extract the metrics which predict ensemble performance: an accuracy-adjusted correctness correlation, $ϕ_{\mathrm{adj}}$, together with the accuracy gap and collective accuracy of the pair. We test the law on 767,520 inferences from ten open-weight models over two graduate-level science benchmarks, together with a novel agentic cybersecurity benchmark in which each model conducts digital-forensics investigations by multi-turn tool use in a network-isolated sandbox (23,520 graded trials including abstentions); all votes are released openly. Calibrated once on SuperGPQA at a 40:60 vote split, the heuristic predicts lift on the calibration set with Spearman's $ρ=0.84$ and, with its coefficients frozen, transfers to two datasets never used in calibration ($ρ=0.51$ on GPQA Diamond and $0.84$ on the forensic tasks), whilst the measured swap mass tracks realised lift with $R^2\ge 0.96$ throughout. Raw $ϕ$ has almost no predictive power ($R^2\le 0.09$ throughout); the accuracy-adjusted $ϕ_{\mathrm{adj}}$ is markedly superior ($R^2=0.67$ on SuperGPQA), and the heuristic combining these metrics is the most stable pre-pooling predictor across the three datasets.</description>
-    </item>
-    <item>
-      <title>Towards realistic large random models of labeled transition systems and their 0-1 laws</title>
-      <link>https://arxiv.org/abs/2607.15029</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.15029</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Model checking is the automated verification of properties (specified in some modal logic) in labeled transition systems (LTSs); it is an essential tool in ensuring software systems function as intended. State spaces of software grow exponentially, and heuristics are needed to ensure model checking remains feasible in real-world applications. Heuristics, in turn, require a good understanding on the typical behaviour of LTSs. In this paper, we use random graph theory to create a probabilistic model of large LTSs. From a theoretical analysis of the creation of large LTSs, backed by empirical data from the Model Checking Contest, we endow these models with realistic parameter values. Then, we analyze the asymptotic behaviour of this model under LTL and CTL, two modal logics popular in model checking. We show that, depending on the precise model, as the size grows to infinity we either have a convergence law (for every formula, the probability that it holds converges to a limit) or a 0-1 law (...and this limit is 0 or 1). We also discuss the theoretical complexity of determining these limits, and give algorithms for doing so. These results are the starting point towards a deep theoretical understanding of typical LTS behaviour, and highlight the promising applicability of random graph theory to model checking. \keywords{Model checking \and Random graphs \and 0-1 laws</description>
-    </item>
-    <item>
-      <title>Interpreting De Finetti's theorem in the Category of Integrable Cones (long version)</title>
-      <link>https://arxiv.org/abs/2605.15402</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.15402</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We establish a connection between two results in the literature on probabilistic semantics: a formulation of De Finetti's theorem in the language of category theory due to Jacobs and Staton, and the generic construction of the free exponential of Linear Logic by Melliès et al, that has been instantiated in the model of probabilistic coherence spaces by Crubillé et al. The structural proximity of these two constructions is manifest, but making this connection formal requires technical developments on the relationship between the category of stochastic kernels and the category of integrable cones, two well-known categories in probabilistic semantics. We then use this connection to give a characterization of the total elements of the probabilistic coherence space !Bool.</description>
     </item>
   </channel>
 </rss>
