@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 API_URL = "https://export.arxiv.org/api/query"
 ATOM = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
 TIMEOUT = 60
-RETRY_DELAYS = (5, 15, 45)
+RETRY_DELAYS = (15, 45, 120)
 
 
 def text(entry, name):
@@ -46,7 +46,8 @@ def fetch_category(category, start, end, max_results):
         except (TimeoutError, socket.timeout, urllib.error.URLError, ConnectionError) as error:
             last_error = error
         if delay is None:
-            raise last_error
+            print(f"arXiv request for {category} failed ({last_error}); skipping until the next refresh.", flush=True)
+            return []
         print(f"arXiv request for {category} failed ({last_error}); retrying in {delay}s…", flush=True)
         time.sleep(delay)
 
