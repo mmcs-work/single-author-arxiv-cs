@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>FoldPipe: Bounded Remote Streaming of Native Molecular Shards with Asynchronous Prefetch</title>
+      <link>http://arxiv.org/abs/2608.27029v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27029v1</guid>
+      <pubDate>Thu, 27 Aug 2026 12:15:16 +0000</pubDate>
+      <description>Training molecular machine-learning models on ephemeral or memory-constrained accelerator instances can require repeatedly retrieving preprocessed molecular graphs from remote storage. FoldPipe is a lightweight Python orchestration layer for already-sharded PyTorch and PyTorch Geometric data. It retrieves one shard ahead in a background thread while the consumer trains on the current shard, keeping the number of live shard payloads bounded with respect to total dataset size. Asynchronous prefetch and bounded buffering are established systems techniques rather than novel scheduling algorithms. FoldPipe's contribution is a small integration targeted at native .pt molecular shards together with a source-pinned empirical characterization of its operating regime. We evaluate a SchNet energy-and-force workload on MD17 aspirin using 20 paired, order-alternating benchmark passes on a Tesla T4. Each pass processes five pinned shards containing 25,000 structures. FoldPipe records 16.33 s mean I/O-compute overlap, compared with zero by construction for the sequential bounded baseline. Mean pass time is 76.78 s for FoldPipe and 83.37 s for the baseline. However, the geometric mean paired speedup is $1.059\times$ with a 95% bootstrap interval from $0.878\times$ to $1.288\times$. The experiment therefore verifies the overlap mechanism but is inconclusive about a reliable wall-clock speed advantage under the observed public-network variability.</description>
+    </item>
+    <item>
+      <title>Direct-Operable SIMD Bit-Slicing: A Framework for Memory-Efficient Predicate Evaluation</title>
+      <link>http://arxiv.org/abs/2608.26368v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.26368v1</guid>
+      <pubDate>Wed, 26 Aug 2026 19:53:19 +0000</pubDate>
+      <description>Traditional Java object models introduce significant memory overhead due to object headers and internal padding, often leading to performance bottlenecks in data-intensive distributed systems. This paper presents a novel framework that utilizes the Project Panama Vector API to perform predicate evaluation directly over bit-sliced, compressed data streams. By transposing standard row-oriented data into parallel bit-planes, we demonstrate a mechanism to evaluate complex filters using SIMD (Single Instruction, Multiple Data) instructions without requiring prior decompression. The framework supports integers, longs (timestamps), doubles (via IEEE 754 order-preserving transformation), and strings (via dictionary encoding). Our benchmarks indicate a reduction in memory footprint by up to 8x while maintaining or exceeding the throughput of uncompressed standard Java collections. End-to-end evaluation on TPCDS-modeled data at 50M rows demonstrates 2.4-10.8x speedup over scalar scans across five representative filter-heavy query patterns, with extended type benchmarks on TPCDS columns showing 1.5-43x speedups for timestamps, decimals, and dictionary-encoded strings.</description>
+    </item>
+    <item>
       <title>Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression</title>
       <link>http://arxiv.org/abs/2608.24070v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24070v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.04311</guid>
       <pubDate>Sun, 05 Apr 2026 00:00:00 -0000</pubDate>
       <description>An $N$-point FFT admits many valid implementations that differ in radix choice, stage ordering, and register-blocking strategy. These alternatives use different SIMD instruction mixes with different latencies, yet produce the same mathematical result. We show that finding the fastest implementation is a shortest-path problem on a directed acyclic graph. We formalize two variants of this graph. In the \emph{context-free} model, nodes represent computation stages and edge weights are independently measured instruction costs. In the \emph{context-aware} model, nodes are expanded to encode the \emph{predecessor edge type}, so that edge weights capture inter-operation correlations such as cache warming -- the cost of operation~B depends on which operation~A preceded it. This addresses a limitation identified but deliberately bypassed by FFTW \citep{FrigoJohnson1998}: that optimal-substructure assumptions break down ``because of the different states of the cache.'' Applied to Apple M1 NEON, the context-free Dijkstra finds an arrangement at 22.1~GFLOPS (74\% of optimal). The context-aware Dijkstra discovers $\text{R4} \to \text{R2} \to \text{R4} \to \text{R4} \to \text{Fused-8}$ at 29.8~GFLOPS -- a $5.2\times$ improvement over pure radix-2 and 34\% faster than the context-free result. This arrangement includes a radix-2 pass \emph{sandwiched between} radix-4 passes, exploiting cache residuals that only exist in context. No context-free search can discover this.</description>
-    </item>
-    <item>
-      <title>A new $1/(1-ρ)$-scaling bound for multiserver queues via a leave-one-out technique</title>
-      <link>https://arxiv.org/abs/2510.11015</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.11015</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Bounding the queue length in a multiserver queue is a central challenge in queueing theory. Even for the classical $G/G/n$ queue with homogeneous servers, it is highly non-trivial to derive a simple and accurate bound for the steady-state queue length that holds for all problem parameters. A recent breakthrough by Li and Goldberg (2025) establishes a universal bound of order $O(1/(1-ρ))$ that holds for any load $ρ&lt; 1$ and any number of servers $n$. This order is tight in many well-known scaling regimes, including classical heavy-traffic, Halfin-Whitt and Nondegenerate-Slowdown. However, their bounds entail large constant factors and a highly intricate proof, suggesting room for further improvement. In this paper, we present a new universal bound of order $O(1/(1-ρ))$ for the $G/G/n$ queue. Our bound, while restricted to the light-tailed case and the first moment of the queue length, has a more interpretable and often tighter leading constant. Our proof is relatively simple, utilizing a modified $G/G/n$ queue, the stationarity of a quadratic test function, and a novel leave-one-out coupling technique. Finally, we also extend our method to $G/G/n$ queues with fully heterogeneous service-time distributions.</description>
-    </item>
-    <item>
-      <title>Performance Evaluation of Subroutines Call in PHP</title>
-      <link>https://arxiv.org/abs/2604.03600</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.03600</guid>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 -0000</pubDate>
-      <description>One of the most popular and basic principles in programming is the DRY principle (don't repeat yourself). According to it, code duplication should be avoided within a single application. Instead of duplicating it, the code can be exported to/as a subroutine, which can be called as many times as needed and where needed. The same principle is fully adopted and integrated in the object-oriented design as well. It makes the code better structured and more flexible, and significantly facilitates future updates and development of the application. However, there is one problem - cascaded methods calls. Each subroutine call has a price - the code execution time increases and the application performance decreases. The aim of this paper is to conduct a series of experimental analyses to determine how much the performance of a PHP application decreases when the code is exported to subroutines and their subsequent call.</description>
     </item>
   </channel>
 </rss>

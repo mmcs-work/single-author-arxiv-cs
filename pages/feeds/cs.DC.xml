@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>MeshReduce-U: Compiler-Guided Communication Reduction for Irregular Neural Reductions on Mesh NoCs</title>
+      <link>http://arxiv.org/abs/2608.26220v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.26220v1</guid>
+      <pubDate>Wed, 26 Aug 2026 12:39:14 +0000</pubDate>
+      <description>Many irregular neural workloads induce skewed many-to-one reductions with repeated neighborhoods and nonlocal communication. Conventional NoC mappers optimize placement and routes for a fixed communication graph, even though associative reductions expose legal opportunities to eliminate traffic before routing. We present MeshReduce-U, a compiler-guided communication-reduction and routing framework for mesh-NoC-based spatial accelerators. MeshReduce-U coalesces colocated sources, forms local aggregation islands, blocks channels with compatible fan-in structure, selects capacity-feasible sinks, and routes the remaining fixed-width carriers using fused usage-aware costs. A deterministic route-replay model reports schedule-derived communication latency, total link usage (TLU), and fused link usage (FusedTLU) separately. Across a 20-workload lowerable neural-network zoo, MeshReduce-U reduces mean latency, TLU, and FusedTLU by 40.3%, 56.0%, and 48.7%, respectively, relative to an ABC-style source-aggregation baseline, improving all three metrics on every workload. Across 40 synthetic irregular reductions, it reduces mean latency and TLU by 12.3% and 19.7%. A new 30-instance pass-by-pass study further shows that the structural rewrites reduce the global carrier count by 60.9% and replay latency by 63.0%. These results show that rewriting reducible neural communication before routing can be more effective than searching harder over an unreduced traffic graph.</description>
+    </item>
+    <item>
       <title>pigzpp: Fast, Parallel, Portable Compression for the Whole Stack</title>
       <link>http://arxiv.org/abs/2608.24153v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24153v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.07313</guid>
       <pubDate>Wed, 08 Jul 2026 00:00:00 -0000</pubDate>
       <description>Pairwise comparison (PC) via pairwise reciprocal matrices (PRMs) is central to the Analytic Hierarchy Process (AHP). Although the traditional eigenvector method is widely applied to derive priorities, its theoretical robustness in reflecting true priority vectors remains debated. Building upon a previous iteration of this study, this research develops the revised Least Penalty-Squared Prioritization (LPSP) optimization models, including the revised Least Product of Penalty and Direct Squares (LPPDS) and revised Weighted Squares (LPPWS), to minimize the revised Root Mean Penalty-Squared Variance (RMPSV) and the revised Root Mean Penalty-Weighted Square Variance (RMPSWV). However, solving these non-linear formulations is computationally complex for decision-makers. To overcome these limitations, this study proposes the Parallel Osprey Optimized Least Penalty-Squared Prioritization (POO-LPSP) method. By integrating an improved bio-inspired metaheuristic Parallel Osprey Optimization Algorithm (POOA), this framework efficiently solves complex LPSP models to minimize RMPSV and RMPSWV, thereby enhancing prioritization reliability. The practical utility and computational efficiency of the POO-LPSP method are validated through a numerical application focusing on a Generative AI (GAI) vendor selection problem. To extend, POO-LPSP can serve as a robust alternative to Saaty's Eigen system method for AHP applications.</description>
-    </item>
-    <item>
-      <title>Progressive Crystallization: Turning Agent Exploration into Deterministic, Lower-Cost Workflows in Production</title>
-      <link>https://arxiv.org/abs/2607.07052</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.07052</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 -0000</pubDate>
-      <description>AI agents deployed for IT operations are typically permanent cost centers because every execution requires full LLM inference, even for previously solved problems. This paper introduces progressive crystallization, a lifecycle that treats agent exploration as a discovery mechanism rather than a permanent execution model. It defines a three-stage execution taxonomy, from fully agent-orchestrated to hybrid to fully deterministic workflows, together with an evidence-based promotion mechanism that converts repeatedly validated agent behaviors into cheaper and more reproducible deterministic workflows, while automatically demoting workflows that regress. Evaluated on a production cloud networking AIOps system processing tens of thousands of incidents per month, the approach increased deterministic execution from 0% to 45% over eight months, reduced per-incident agent costs by more than 70% despite doubling incident volume, and improved safety through greater reproducibility and auditability. The paper also presents the execution taxonomy, promotion and demotion criteria, trace extraction methodology, economic model, safety considerations, and discusses limitations and threats to validity.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Acoustic Echo Control Based on Sound Object Identification for Suppressing Howling Caused by Complicated Acoustic Paths</title>
+      <link>http://arxiv.org/abs/2608.25413v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.25413v1</guid>
+      <pubDate>Wed, 26 Aug 2026 06:15:22 +0000</pubDate>
+      <description>This paper proposes acoustic echo control based on sound object identification for suppressing acoustic echo and howling in conferencing environments with complicated acoustic paths, where multiple hands-free terminals coexist in the same room. Conventional acoustic echo cancellers target fixed intra-device echo paths; however, unintended paths, for example, those formed via inter-terminal communication, are difficult to control and can lead to howling. Instead of estimating echo paths, the proposed approach identifies sound objects and keeps channels muted by default, allowing pass/playback only when the signal is judged not dentical to recently observed objects. This breaks echo loops caused by repeated reproduction of the same sound object and can be viewed as an extension of classical voice switching toward conditional half-duplex operation. Technical challenges and connections to related techniques are discussed, and a simulation shows howling suppression together with a trade-off against speech quality.</description>
+    </item>
+    <item>
       <title>The ISCSLP 2026 Real-World Audio-Visual Speech Enhancement Challenge</title>
       <link>http://arxiv.org/abs/2608.23759v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.23759v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.03039</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 -0000</pubDate>
       <description>Continuous monitoring of bipolar disorder agitation via voice biomarkers requires disentangling stable speaker traits from volatile affective states on resource-constrained edge devices. We introduce MP-IB, the first framework to treat mixed-precision quantization as an information bottleneck for clinical trait-state separation. The core insight is that numerical precision itself controls capacity: an FP16 trait head (1,024 bits) encodes speaker identity, while an INT4 state head (128 bits) captures agitation, yielding 8x information asymmetry without adversarial training. We augment this with Dynamic Precision Scheduling and Multi-Scale Temporal Fusion. On Bridge2AI-Voice (N=833, 4 sessions/participant, strict speaker-independent CV), MP-IB achieves rho = 0.117 (95\% CI: [0.089, 0.145], p=0.003 vs. chance), outperforming 94M-parameter WavLM-Adapter with in-domain SSL continuation (rho = -0.042), beta VAE disentanglement (rho = 0.089), and hand-crafted prosody (rho = 0.031) by 2.8--15.9 points absolute. Zero-shot transfer to CREMA-D achieves AUC=0.817. Identity leakage is suppressed to near-random (EER=0.42, MIA-AUC=0.52). End-to-end latency is 23.4 ms with a 617 KB footprint, enabling real-time monitoring on sub 20 dollar devices.</description>
-    </item>
-    <item>
-      <title>LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation</title>
-      <link>https://arxiv.org/abs/2605.00777</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.00777</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
-      <description>A speaker encoder used in multilingual voice cloning should treat the same speaker identically regardless of which script the audio was uttered in. Off-the-shelf encoders do not, and the failure is accent-conditional. On a 1043-pair Western-accented voice corpus across English, Hindi, Telugu, and Tamil, WavLM-base-plus-sv loses 0.082 absolute cosine similarity when the same voice changes script and ECAPA-TDNN loses 0.105. On a 1369-pair Indian-accented voice corpus, the gap shrinks to 0.006 (WavLM-SV) and 0.044 (ECAPA-TDNN). The leak is largest where it matters most for cross-script TTS: when a system projects a non-Indic-trained voice into Indic scripts. We present LASE (Language-Adversarial Speaker Encoder), a small projection head over frozen WavLM-base-plus trained with two losses: a supervised contrastive loss over voice identity, and a gradient-reversal cross-entropy against a 4-language classifier that pushes the embedding to be language-uninformative while remaining speaker-informative. Trained on 1118 quality-gated cross-script pairs synthesised from 8 commercial multilingual voices, LASE's residual gap is consistent with zero on both corpora (Delta = 0.013 Western, Delta = 0.026 Indian; both bootstrap 95% CIs include zero) and amplifies the cross-script-vs-floor margin 2.4-2.7x over both baselines. An ECAPA+GRL ablation shows the GRL objective improves either backbone but the WavLM choice contributes too. In synthetic multi-speaker diarisation, LASE matches ECAPA-TDNN on cross-script speaker recall (0.788 vs 0.789) with ~100x less training data. We release the r1 checkpoint, both corpora, and the bootstrap recipe.</description>
     </item>
   </channel>
 </rss>

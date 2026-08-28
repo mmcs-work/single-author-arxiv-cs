@@ -5,11 +5,32 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On the Instance Optimality of Bidirectional Dijkstra's Algorithm</title>
+      <link>http://arxiv.org/abs/2608.26952v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.26952v1</guid>
+      <pubDate>Thu, 27 Aug 2026 10:53:12 +0000</pubDate>
+      <description>Recent work by Haeupler, Hladík, Rozhon, Tarjan, and Tětek on the instance optimality of shortest-path algorithms established several results concerning Dijkstra's algorithm and bidirectional Dijkstra's algorithm in weighted and unweighted graphs. Motivated by these results, we revisit the question of instance optimality for shortest $st$-path algorithms in the standard query model. We identify several issues in the analysis of the instance optimality of both unidirectional and bidirectional Dijkstra's algorithms and provide corresponding counterexamples. We then propose a minimal simple modification of the bidirectional Dijkstra algorithm and prove that the resulting variant is instance optimal in the weighted setting. Furthermore, we revisit the unweighted case, provide a simplified proof of the lower bound showing that no algorithm can achieve instance optimality up to a factor better than $O(Δ)$, where $Δ$ denotes the maximum degree of the graph, and discuss the implications of this result for approximation algorithms. Finally, we make progress on the open problem of instance optimality in simple graphs. We show that if the problem instance satisfies $n\ge m/16$, where $n$ is the number of nodes and $m$ is the number of edges queried by our algorithm, then it is optimal up to a constant factor. Additionally, we show instance optimality for a broad class of instances, in particular when the largest degree in the graph is at most the square root of the number of explored edges, our algorithm exhibits optimality up to a constant factor.</description>
+    </item>
+    <item>
+      <title>The Time-Dependent Traveling Salesman Problem with Loose Time Windows</title>
+      <link>http://arxiv.org/abs/2608.26360v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.26360v1</guid>
+      <pubDate>Wed, 26 Aug 2026 19:42:16 +0000</pubDate>
+      <description>The time-dependent traveling salesman problem with time windows (TDTSPTW) generalizes the well-known traveling salesman problem with time windows by accounting the effects of congestion on travel times. In this paper, we develop an exact framework for the TDTSPTW with a makespan objective that extends the range of instances solvable to optimality under loose time windows while remaining effective across all levels of time-window tightness. Our framework relies on a dynamic-programming labeling algorithm and combines column generation, ng-memory augmentation, and exact search, using completion bounds for state-space sparsification, variable fixing, and exact search pruning. Embedded within a branch-and-price method, the framework solves all instances with up to 45 customers in a benchmark comprising more than 10,000 instances, including all instances without time windows with up to 50 customers.</description>
+    </item>
+    <item>
       <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
       <link>http://arxiv.org/abs/2608.24520v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24520v1</guid>
       <pubDate>Tue, 25 Aug 2026 13:09:38 +0000</pubDate>
       <description>It is shown in this manuscript that a random graph $G$ drawn from the Erdős--Rényi model $\mathcal{G}(n,p)$ with \[ p=p(n)\leq 1/2, \qquad \lim_{n\to+\infty}(np-\log n-\log\log n)=+\infty, \] is a homomorphic core, i.e., every homomorphism from $G$ to itself is an automorphism. This implies tight ETH-based lower bounds of the subgraph isomorphism problem for almost all $k$-vertex patterns with polynomial average degree.</description>
+    </item>
+    <item>
+      <title>HCC+: Hyperbolic Guarding for Certified Attention Retrieval</title>
+      <link>http://arxiv.org/abs/2608.24971v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.24971v1</guid>
+      <pubDate>Tue, 25 Aug 2026 09:52:28 +0000</pubDate>
+      <description>We study the Lipschitz stability of attention retrieval in hyperbolic spaces. Existing methods lack deterministic guarantees on attention-weight preservation under finite-precision representations. We introduce HCC+, a theoretical framework exploiting three properties of the Poincaré ball: exponential volume growth enabling query-independent boundary truncation; logarithmic covering radius of hyperbolic 1-centers enabling dimension-independent critical-key identification; and a packing bound with constants independent of the embedding dimension. We prove two deterministic guarantees: for exact retrieval, the per-layer attention deviation is bounded by 10\% of its ideal value; for soft attention, the total variation distance decays as $O(1/\sqrt{n})$, the rate of finite-sample variance. As a consequence of the guarding mechanism, the framework achieves a storage reduction factor of $6.1\times$ relative to FP16. We provide the first deterministic, query-independent retrieval certificate in non-Euclidean geometry.</description>
     </item>
     <item>
       <title>Partial Optimal Transport on the Circle for All Transported Masses in O(N log N)</title>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.23460</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
       <description>We study a one-dimensional exact-cover problem parameterized by three integers $(L,V,W)$: given an integer profile $a_0,\dots,a_{n-1}$, write it as a nonnegative integer combination of a length-$L$ ``horizontal'' block $[1,\dots,1]$, a value-$V$ ``vertical'' block, and a value-$W$ block, while minimizing the number of value-$W$ blocks. We give an $O(n)$ algorithm that eliminates the horizontal-block coupling by a class-wise difference recurrence and then matches residues modulo $V$ on the last $L$ columns. We prove that its output is always a valid \emph{lower bound} on the optimum, via a mod-$L$ class invariant. We then prove the main result: once the profile is dense enough --- a \emph{heavy base} $\min_c a_c \ge B(L,V,W)$ with \[ B(L,V,W)=\Big\lceil \tfrac{(L-1)\lcm(V,W)}{LW}-1\Big\rceil\,W+(L-1)(V-1), \] the bound is \emph{exact}. The exactness proof is a branch-cut argument on the exact dynamic program: two structural equivalences (a horizontal-to-vertical exchange modulo $V$, and a vertical reduction modulo $\lcm(V,W)/W$) collapse the DP to the residue computation, and the two summands of $B$ are exactly the reserves that keep both equivalences from producing a negative residual. We further show the threshold is sharp: for $(L,V,W)=(3,6,4)$, $B=14$, and the profile $(17,16,13,16,17)$ with $\min_c a_c=13$ makes the algorithm strictly undercount, so $B-1$ does not suffice. An independent exact dynamic program agrees with the algorithm on every tested profile with $\min_c a_c\ge B$ across many parameter triples, and the test harness \texttt{test\_general.c} is released for reproduction. The contribution is the algorithm, the branch-cut exactness proof, and the sharp threshold $B(L,V,W)$.</description>
-    </item>
-    <item>
-      <title>Improved Hardness Results for Nash Social Welfare, Budgeted Allocation and GAP via the Unique Games Conjecture</title>
-      <link>https://arxiv.org/abs/2605.27098</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.27098</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We consider the problem of dividing a set of indivisible goods among agents with additive valuations. This problem has been studied under various objectives in both the computer science and the operations research literature. Our main contribution is a novel dictator test using this problem, which can separate a dictator from any function sufficiently far from a dictator. We use this test to prove the following hardness results (assuming the unique games conjecture is true): (1) We show that it is NP-hard to approximate the max Nash welfare by a factor better than $\sqrt[3]{\frac{81}{65}} - \varepsilon \approx 1.0761$. This improves on the previous best known inapproximability factor of $\sqrt{\frac87} - \varepsilon \approx 1.069$. (2) We show that it is NP-hard to approximate the maximum budgeted allocation by a factor better than $\frac{243}{227} - \varepsilon \approx 1.07$. This improves on the previous best known inapproximability factor of $\frac{16}{15} - \varepsilon \approx 1.067$. (3) We show that it is NP-hard to approximate the max generalized assignment problem (GAP) by a factor better than $\frac{145}{129} - \varepsilon \approx 1.124$. This improves on the previous best known inapproximability factor of $\frac{11}{10} - \varepsilon \approx 1.10$.</description>
-    </item>
-    <item>
-      <title>Level-set entropy and sparse randomized embeddings</title>
-      <link>https://arxiv.org/abs/2607.23017</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23017</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Let $Π$ be a $k\times n$ sparse random matrix. For a fixed $r$-dimensional subspace $V\subset{\mathbb R}^n$, let $U_V:{\mathbb R}^r\to{\mathbb R}^n$ denote an isometry from ${\mathbb R}^r$ onto $V$. The product $ΠU_V$ is a central model in randomized dimension reduction and has been studied primarily through trace and Gaussian comparison inequalities. In this work, we develop an approach to the spectral norm of the matrix product $ΠU_V$, based on entropy estimates for level sets of vectors $x\in V$. Combining the method with existing estimates, we show the following. Assume that \[ k\ge C\,r(\log\log r)^2,\qquad p\ge (\log k)/k. \] Let $Π$ be a $k\times n$ matrix with i.i.d. entries equidistributed with the product $b\,ξ$, where $b$ is a Bernoulli($p$) random variable and $ξ$ is mean-zero, independent of $b$, and satisfies $|ξ|\le1$ almost surely. Then with high probability \[ \|ΠU_V\|\le C\sqrt{kp}. \] Matching results hold for other random models with negatively associated entries.</description>
-    </item>
-    <item>
-      <title>An optimal deterministic algorithm for finding a strict saddlepoint</title>
-      <link>https://arxiv.org/abs/2607.22312</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.22312</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Given an $n\times n$ matrix $A$, a saddlepoint of $A$ is an entry that is the maximum in its row and the minimum in its column. It is a strict saddlepoint if no other entry in its row or column has the same value. Finding a non-strict saddlepoint requires $Θ(n^2)$ matrix queries in the worst case. In contrast, a strict saddlepoint can be found with only $O(n)$ queries. In 1991, Bienstock, Chung, Fredman, Schäffer, Shor, and Suri---and, independently, Byrne and Vaserstein---showed that one can find a strict saddlepoint (or certify that none exists) in $O(n\log n)$ time using $O(n)$ matrix queries. In 2024, Dallant, Haagensen, Jacob, Kozma, and Wild gave an $O(n\log^* n)$-time algorithm, followed shortly after by an optimal randomized algorithm running in $O(n)$ time with high probability. Whether $O(n)$ time could also be achieved deterministically was left open by these works. Here we resolve this question by presenting a simple deterministic algorithm that finds a strict saddlepoint, or reports that none exists, in optimal $O(n)$ time. Our algorithm combines elementary ingredients from previous approaches with linear-time selection from a collection of sorted lists.</description>
     </item>
   </channel>
 </rss>

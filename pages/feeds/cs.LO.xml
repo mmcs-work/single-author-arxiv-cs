@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>You may implement this later: Cofunctors as partial implementations</title>
+      <link>http://arxiv.org/abs/2608.27180v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27180v1</guid>
+      <pubDate>Thu, 27 Aug 2026 14:28:11 +0000</pubDate>
+      <description>A functor is a familiar model of an implementation, where every operation in a specification is assigned a concrete instantiation at the outset. But some tasks are less eager: we often want to assemble systems while leaving backend choices such as data representations and algorithms for later. We observe that cofunctors admit a direct reading as such partial implementations, which are implementations whose extra argument is a state-dependent family of deferred choices. While cofunctors (also called retrofunctors) are not novel, their conceptual and purposive reading in this manner appears to be</description>
+    </item>
+    <item>
+      <title>Jump Closure and Limit Uniformization in the Ideal Completion of the Turing Degrees</title>
+      <link>http://arxiv.org/abs/2608.25925v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.25925v1</guid>
+      <pubDate>Wed, 26 Aug 2026 15:36:51 +0000</pubDate>
+      <description>The Turing jump has no fixed point on the Turing degrees: $\mathbf a &lt;_T \mathbf a'$ for every degree $\mathbf a$. After passing to the ideal completion, however, a natural fixed-point phenomenon appears. We study the Scott-continuous lifting $Γ:\operatorname{Idl}(\mathbf D_T)\to\operatorname{Idl}(\mathbf D_T)$, given by $Γ(I)=\downarrow\{\mathbf a':\mathbf a\in I\}$. Starting from the computable degree, Kleene iteration reaches its first fixed point at stage $ω$, namely the Turing ideal of arithmetical degrees; more generally, above $\mathbf a$ the least fixed point is the ideal of degrees arithmetical in $\mathbf a$. To pass beyond this fixed point, we introduce a limit-uniformization operator. Although the ideal of finite jumps contains every $\mathbf 0^{(n)}$, it does not contain the uniform limit oracle $\mathbf 0^{(ω)}=°_T\!\left(\bigoplus_{n &lt; ω}0^{(n)}\right)$. The uniformization operator adjoins this oracle only when all finite jump degrees are present. It is monotone but not Scott-continuous. Composing jump closure with one such gate yields closure ordinal $ω\cdot 2$; gates at $ω,2ω,3ω,\ldots$ yield closure ordinal $ω^2$. Thus non-uniform closure under relativized halting problems is Scott-continuous and reaches fixed ideals, while uniform coding of an entire prior hierarchy is infinitary, discontinuous, and reopens diagonalization. This gives a domain-theoretic semantics for the successor/limit distinction in transfinite Turing-jump hierarchies and links failures of Scott continuity with closure ordinals.</description>
+    </item>
+    <item>
       <title>On existential Büchi arithmetic in two coprime bases</title>
       <link>http://arxiv.org/abs/2608.24410v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24410v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2602.14904</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
       <description>Models of High-level Computation (MHCs) provide effective means to describe complex real-world computing systems because they offer formal foundations for the specification of interacting computing devices, as opposed to describing individual ones, which has been the focus of classical models such as Turing machines or the lambda calculus itself. Despite numerous proposals over the past half century, there is still no canonical MHC akin to Turing machines for (compositionally) reasoning about computation in the large. One of the major drawbacks of state- and data-oriented MHCs is that they extensively neglect control flow, a well-known semantic property that defines computation order. Only control-oriented MHCs treat control explicitly at the expense of ignoring data flow or assuming that data follows control. Mixing data and control within the same framework leads to inefficient methods for formal analysis and verification. To address this, the computon model has recently emerged as a category-theoretic MHC that separates data and control and makes control explicit by supporting composition operators characterised as finite colimit constructions. Such constructions allow the formation of sequential, parallel, branching and iterative computing devices. Unfortunately, the computon model is still a generic reference rather than a concrete realisation. In this paper, we provide a variation of it to enable functional computing devices, introduce a new branching operator, discuss how to define synchronous parallelising out of sequencing and asynchronous parallelising, describe concrete operational semantics for computon execution and provide the first implementation of the model. The implementation yields an open-source programming environment that realises the underlying categorical semantics with partial type-level guarantees. This tool is publicly available for building complex computing devices with a high degree of structural correctness by construction.</description>
-    </item>
-    <item>
-      <title>$Δ$-Nets: Interaction-Based System for Optimal Parallel $λ$-Reduction</title>
-      <link>https://arxiv.org/abs/2505.20314</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.20314</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>I present a model of universal parallel computation called $Δ$-Nets, and a method to translate $λ$-terms into $Δ$-nets and back. Together, the model and the method constitute an algorithm for optimal parallel $λ$-reduction, solving the longstanding enigma with groundbreaking clarity. I show that the $λ$-calculus can be understood as a projection of $Δ$-Nets$-$one that severely restricts the structure of sharing, among other drawbacks. Unhindered by these restrictions, the $Δ$-Nets model opens the door to new parallel programming language implementations and computer architectures that are more efficient and performant than previously possible.</description>
-    </item>
-    <item>
-      <title>Bounded elementary extensions of trees with unbounded paths</title>
-      <link>https://arxiv.org/abs/2607.18942</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.18942</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A tree is a partially ordered set that is downwards linear and downwards connected. A tree is called bounded when each of its paths (i.e. maximal linearly ordered subsets) contains a greatest element. In a bounded tree, each path can be defined by a first-order formula using the leaf of the path as parameter. Bounded trees can be used to model computational systems such as Zeno machines whereby the leaf of a path represents the state to which an infinitely long sequence of computations converges, or a state that is assigned to a computational sequence that loops. We identify a sufficient condition under which certain trees that are not bounded, can be elementarily embedded in trees that are bounded. Several tree operations are also given, and Feferman-Vaught style preservation properties for these operations are proved.</description>
     </item>
   </channel>
 </rss>

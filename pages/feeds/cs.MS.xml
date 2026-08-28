@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Pauli Lightcone: Information-Theoretic Error Mitigation Beyond the Autocorrelation</title>
+      <link>http://arxiv.org/abs/2608.25254v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.25254v1</guid>
+      <pubDate>Wed, 26 Aug 2026 00:31:09 +0000</pubDate>
+      <description>We introduce the wavemap: a spatial portrait of noise effects that assigns each site a per-noise-level arrival delay l_γ(v) and cross-entropy loss L_γ(v). These observables are exact at the lightcone frontier, where bond dimension χis small and the simulation is most faithful. Eigenvalue analysis of the composed gate-plus-noise Pauli transfer matrices confirms that the studied noise is pure amplitude damping: the spatial propagation pattern is entirely determined by the gate, making the wavemap a model-free noise diagnostic. We apply the multi-product formula (MPF) to recover the noiseless Pauli weight field from the noisy samples, subject to the Lieb-Robinson causal constraint nMPF &lt;= nnl . Fitting time-adaptive coefficients α(t) over the frontier recovers up to 55% of the information loss relative to the best noisy sample, exploiting the fact that the frontier is where truncation error is smallest. On an IBM heavy-hex lattice with heterogeneous hardware noise the method identifies an information-starved regime, pointing to calibrated synthetic noise as the next required experiment.</description>
+    </item>
+    <item>
       <title>Opals.jl: a comprehensive, composable framework for data assimilation in Julia</title>
       <link>http://arxiv.org/abs/2608.24265v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24265v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2412.10420</guid>
       <pubDate>Tue, 10 Dec 2024 00:00:00 -0000</pubDate>
       <description>Boids, developed by Craig W. Reynolds in 1986, is one of the earliest emergent models where the global pattern emerges from the interaction between many individuals within the local scale. In the original model, Boids follow three rules: separation, alignment, and cohesion; which allow them to move around and create a flock without intention in the empty environment. In the real world, however, the Boids' movement also faces obstacles preventing the flock's direction. In this project, I propose two new simple rules of the Boids model to represent the more realistic movement in nature and analyze the model from the physics perspective using the Monte Carlo method. From those results, the physics metrics related to the forming of the flocking phenomenon show that it is reasonable to explain why birds or fishes prefer to move in a flock, rather than sole movement.</description>
-    </item>
-    <item>
-      <title>A tutorial on automatic differentiation with complex numbers</title>
-      <link>https://arxiv.org/abs/2409.06752</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2409.06752</guid>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 -0000</pubDate>
-      <description>Automatic differentiation is everywhere, but there exists only minimal documentation of how it works in complex arithmetic beyond stating "derivatives in $\mathbb{C}^d$" $\cong$ "derivatives in $\mathbb{R}^{2d}$" and, at best, shallow references to Wirtinger calculus. Unfortunately, the equivalence $\mathbb{C}^d \cong \mathbb{R}^{2d}$ becomes insufficient as soon as we need to derive custom gradient rules, e.g., to avoid differentiating "through" expensive linear algebra functions or differential equation simulators. To combat such a lack of documentation, this article surveys forward- and reverse-mode automatic differentiation with complex numbers, covering topics such as Wirtinger derivatives, a modified chain rule, and different gradient conventions while explicitly avoiding holomorphicity and the Cauchy--Riemann equations (which would be far too restrictive). To be precise, we will derive, explain, and implement a complex version of Jacobian-vector and vector-Jacobian products almost entirely with linear algebra without relying on complex analysis or differential geometry. This tutorial is a call to action, for users and developers alike, to take complex values seriously when implementing custom gradient propagation rules -- the manuscript explains how.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A lone divider allocation algorithm with subjective divisibility</title>
+      <link>http://arxiv.org/abs/2608.26801v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.26801v1</guid>
+      <pubDate>Thu, 27 Aug 2026 08:41:07 +0000</pubDate>
+      <description>In the subjective divisibility allocation model, all goods are divisible, every agent $i$ has a non-negative additive valuation function $v_i$, where for some goods $v_i$ is additive over fractions of the good, and for some goods, any fraction smaller than~1 has value~0. Previous work established the existence of $\frac{5}{9}$-MMS allocations in this setting. We show that $\frac{3}{5}$-MMS allocations exist. Our proof is based on an adaptation of the lone divider framework.</description>
+    </item>
+    <item>
       <title>Optimal Rank Lotteries for Truthful Unit-Interval Covering</title>
       <link>http://arxiv.org/abs/2608.24193v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24193v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.04382</guid>
       <pubDate>Sun, 05 Jul 2026 00:00:00 -0000</pubDate>
       <description>Language models increasingly mediate paid advice: agents submit open-ended forecasts, recommendations, plans, and evidence; a principal acts on the reports; and the mechanism later pays the contributors. Advice should influence the public decision, but no adviser should write the answer key used to evaluate it. We formalize the separation as settlement factorization: reports are hardened into official records, a public decision record Z may use all advice, and each paid adviser is scored against a label whose production is externalized from their own report, conditional on Z. The central result is an analogue of the revelation principle for this setting: resampling the paid report from a committed ghost distribution inside the settlement channel equips every mechanism with an influence-free reference within a factor of two of the best achievable, so factorization is a normal form, and own-report leakage varepsilon -- measured in total variation -- is an intrinsic invariant of any mechanism, identified behaviorally by worst-case incentive erosion. The invariant has an exact price: with payment kernels of label sensitivity L, truthful margins degrade by at most 2L varepsilon, and the constant is tight -- half own-label manipulation, half pandering to a biased evaluator -- so faithful advice survives outside decision interests D whenever the externalized margin satisfies gamma &gt;D+2L varepsilon. Settling a growing crowd on the shared decision record dilutes every margin exponentially in the informational redundancy, while a factorized leave-one-out label sustains a constant margin at unit stakes. Stakes outbid decision interests but never evaluator capture; randomized reference settlement makes integrity a threshold good priced per unit of total variation; and differential privacy of the evaluator in the paid report certifies varepsilon by construction.</description>
-    </item>
-    <item>
-      <title>Existence of Pure Strategy Nash Equilibria in Finite Noncooperative Games</title>
-      <link>https://arxiv.org/abs/2606.26564</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.26564</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The classical existence result of Nash guarantees that every finite noncooperative game admits an equilibrium in mixed strategies, but it leaves open the question of when pure strategy equilibria exist. This paper develops a structural approach to that question by exploiting properties of the best-response correspondence on finite strategy sets. Building on recent work, we derive new sufficient conditions for the existence of pure strategy Nash equilibria in finite games. We introduce several broad classes of finite games for which pure equilibria are guaranteed, including a class of generalized potential games that generalizes unilaterally competitive games and a class characterized by the existence of an aggregate-payoff maximizer over an ordered set. Our results clarify the role of acyclicity, and aggregation in producing pure equilibria and connect disparate sufficient-condition results in the literature into a unified framework.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>How AI Experiences Art: Emergent Aesthetic Structure in a Self-Supervised Multimodal Embedding Space</title>
+      <link>http://arxiv.org/abs/2608.27121v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27121v1</guid>
+      <pubDate>Thu, 27 Aug 2026 13:34:18 +0000</pubDate>
+      <description>Aesthetics are an important part of the symbolism of artistic works. Although subjective, humans categorize art based on the emotion evoked regardless of modality. What remains under-explored is how AI models form their own aesthetic categorization of human-produced media without explicit labels or cross-modal supervision. We present a self-supervised framework that projects four modalities (text, audio, image and video) into a shared 256-dimensional embedding space and applies iterative clustering to discover aesthetic structure. We discuss the divergence between AI-generated cluster assignments and human affective register labels on a weakly supervised multimodal dataset. This work has applications in understanding how AI structures cross-modal similarity, organizing heterogeneous media collections for Retrieval-Augmented Generation (RAG), and automated data labeling.</description>
+    </item>
+    <item>
       <title>On computational approaches to Pop music culture</title>
       <link>http://arxiv.org/abs/2608.17812v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.17812v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2410.07415</guid>
       <pubDate>Wed, 09 Oct 2024 00:00:00 -0000</pubDate>
       <description>Three-dimensional (3D) reconstruction has emerged as a prominent area of research, attracting significant attention from academia and industry alike. Among the various applications of 3D reconstruction, facial reconstruction poses some of the most formidable challenges. Additionally, each individuals facial structure is unique, requiring algorithms to be robust enough to handle this variability while maintaining fidelity to the original features. This article presents a comprehensive dataset of 3D meshes featuring a diverse range of facial structures and corresponding facial landmarks. The dataset comprises 188 3D facial meshes, including 73 from female candidates and 114 from male candidates. It encompasses a broad representation of ethnic backgrounds, with contributions from 45 different ethnicities, ensuring a rich diversity in facial characteristics. Each facial mesh is accompanied by key points that accurately annotate the relevant features, facilitating precise analysis and manipulation. This dataset is particularly valuable for applications such as facial re targeting, the study of facial structure components, and real-time person representation in video streams. By providing a robust resource for researchers and developers, it aims to advance the field of 3D facial reconstruction and related technologies.</description>
-    </item>
-    <item>
-      <title>IWN: Image Watermarking Based on Idempotency</title>
-      <link>https://arxiv.org/abs/2409.19506</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2409.19506</guid>
-      <pubDate>Sun, 29 Sep 2024 00:00:00 -0000</pubDate>
-      <description>In the expanding field of digital media, maintaining the strength and integrity of watermarking technology is becoming increasingly challenging. This paper, inspired by the Idempotent Generative Network (IGN), explores the prospects of introducing idempotency into image watermark processing and proposes an innovative neural network model - the Idempotent Watermarking Network (IWN). The proposed model, which focuses on enhancing the recovery quality of color image watermarks, leverages idempotency to ensure superior image reversibility. This feature ensures that, even if color image watermarks are attacked or damaged, they can be effectively projected and mapped back to their original state. Therefore, the extracted watermarks have unquestionably increased quality. The IWN model achieves a balance between embedding capacity and robustness, alleviating to some extent the inherent contradiction between these two factors in traditional watermarking techniques and steganography methods.</description>
     </item>
   </channel>
 </rss>

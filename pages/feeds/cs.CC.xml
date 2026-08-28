@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Pseudodeterminism and MA != NP^BPP in Communication Complexity</title>
+      <link>http://arxiv.org/abs/2608.26425v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.26425v1</guid>
+      <pubDate>Wed, 26 Aug 2026 21:58:11 +0000</pubDate>
+      <description>We prove an exponential separation between zero-sided-error randomized and two-sided-error pseudodeterministic communication complexities of partial boolean functions. This qualitatively improves and simplifies the proof of the separation by Göös, Harms, Riazanov, Sofronova, Sokolov, and Yuan (STOC 2026), which had a two-sided-error randomized upper bound. Then, we generalize our technique to separate the communication complexity analogues of MA and NP^BPP.</description>
+    </item>
+    <item>
       <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
       <link>http://arxiv.org/abs/2608.24520v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24520v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.04048</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
       <description>We study some properties of the parity based bit-counting complexity classes ${\bf B_{|0| \oplus}P}$ and ${\bf B_{|1| \oplus}P}$. We first prove that both of these complexity classes are closed under complement and ${\bf B_{|1|\oplus}P}\subseteq {\bf B_{|0|\oplus}P}$. We then prove that ${\bf US}\subseteq {\bf P}^{{\bf B_{|1|\oplus}P}}$ and ${\bf US}\subseteq {\bf P}^{{\bf B_{|0|\oplus}P}}$. We then study the class defining characteristic functions of the parity based bit-counting complexity classes, where the one associated with ${\bf B_{|1| \oplus}P}$ produces the Prouhet-Thue-Morse sequence. We then prove that a finite contiguous block of these sequences yield the parity of the starting number and then prove that ${\bf \oplus P}\subseteq {\bf P}^{{\bf B_{|0|\oplus}P}}$ and ${\bf \oplus P}\subseteq {\bf P}^{{\bf B_{|1|\oplus}P}}$. We then use the parity based bit-counting complexity classes to define various hierarchies and show that they all contain ${\bf PH}$ and are contained in ${\bf CH}$.</description>
-    </item>
-    <item>
-      <title>Thermodynamic Limits of Proof</title>
-      <link>https://arxiv.org/abs/2601.15571</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.15571</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Every irreversible recorded distinction has a positive thermodynamic work floor. Landauer's principle supplies the ideal bound $\varepsilon\ge k_B T\ln 2$ per irreversible bit, experimentally verified to $\pm 10\%$. Proof available to an agent is checkable information for that agent: some substrate must produce, retain, and expose evidence that excludes answer-changing alternatives. A finite detector array operating at temperature $T$ for finite time has finite signal-acquisition capacity. Combining finite causal access, positive retained-record cost, and exact lower bounds on required records gives the Physical Counting Impossibility Theorem: no fixed-budget substrate can provide universal exact proof once the retained-record lower bound exceeds the declared budget. The theorem requires exactly $B&lt;\infty$ and $\varepsilon&gt;0$. An answer reports a value; proof supplies checkable grounds for accepting it. A reversible device may compute an answer and erase its scratch history, but proof requires retained, inspectable records. A global answer register, oracle response, entanglement witness, finite survey catalog, or trusted device output supplies proof only through an interface that exposes the relevant grounds to the verifier. A proposed interface must identify the retained-record lower-bound family $R(n)$ it induces. Sound operational claims about efficient solvability inherit the same finite-budget obstruction when their acceptance would license universal exact proof. Substrate-free derivability has proof status only when a physical verification event makes it available to an agent.</description>
     </item>
   </channel>
 </rss>

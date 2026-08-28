@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Refutation of the Non-Cancelling-Intersections Conjecture</title>
+      <link>http://arxiv.org/abs/2608.27416v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27416v1</guid>
+      <pubDate>Thu, 27 Aug 2026 17:42:42 +0000</pubDate>
+      <description>The Non-Cancelling Intersections (NCI) conjecture of Amarilli, Monet and Suciu [arXiv:2401.16210] states that the union of a finite family of sets can always be built from its algebraically non-cancelling intersections using only disjoint unions and subset complements. In Wilhelm [arXiv:2608.19414] the conjecture was shown to fail when the witnessing dot-algebra expression is required to be left-linear. Here we remove that restriction and show that the conjecture is false in general: there is a finite lattice admitting no dot-algebra representation of its top element whatsoever. The counterexample is a lattice $P_{p,\mathfrak{m}}$ as in Wilhelm [arXiv:2608.19414], and the argument differs in only two ways. First, we replace the sequential "toggle game" of Wilhelm [arXiv:2608.19414] by a corresponding tree-shaped object, the plane tree, which stands to dot-algebra trees as the toggle game stands to left-linear ones. Second, we use a marked plane in which there is no admissible set of any size between $2p$ and $4p$, which also removes the need for the Erdős--Beck theorem and for the arithmetic Nullstellensatz. Consequently $p$ need not be astronomically large: every prime $p \ge 10^{5}$ works.</description>
+    </item>
+    <item>
+      <title>Five improved lower bounds for Zarankiewicz numbers z(m,n;3,3)</title>
+      <link>http://arxiv.org/abs/2608.26603v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.26603v1</guid>
+      <pubDate>Thu, 27 Aug 2026 04:38:08 +0000</pubDate>
+      <description>We record five improved lower bounds for Zarankiewicz numbers with s = t = 3: z(13,19;3,3) &gt;= 118, z(14,19;3,3) &gt;= 126, z(16,18;3,3) &gt;= 136, z(14,20;3,3) &gt;= 126, z(16,19;3,3) &gt;= 136. The first three are certified by explicit K_{3,3}-free 0/1 matrices; the last two follow from the second and third by monotone padding. Compared with the lower bounds compiled in Figure 2 of arXiv:2605.01120, namely 114, 121, 130, 125 and 132, the improvements are +4, +5, +6, +1 and +4 respectively. The three matrices were produced by a kicked-greedy local search operated autonomously by a discovery system and were verified exactly, by exhaustive inspection of every 3x3 row/column triple, in several mutually independent implementations; they were also re-verified independently by the authors of arXiv:2605.01120 using their own verifier in July 2026. All three witnesses are printed in full in Appendix A and accompany this note as machine-readable ancillary files together with standalone, dependency-free verifiers.</description>
+    </item>
+    <item>
       <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
       <link>http://arxiv.org/abs/2608.24520v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24520v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.02613</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 -0000</pubDate>
       <description>We compute the number of unlabeled chordal graphs on $n$ vertices, both the total count (OEIS A048193) and the connected count (OEIS A048192), extending two sequences whose published values had remained at $n=15$. The method is a Polya-Burnside enumeration: the number of unlabeled graphs in a class closed under relabeling is the average over $S_n$ of the number of labeled graphs fixed by each permutation. The technical core is the evaluation, for an arbitrary permutation $π$, of the number of $π$-invariant labeled chordal graphs. We give a dynamic program for this quantity that lifts the evaporation-based labeled chordal counting of Hebert-Johnson, Lokshtanov and Vigoda to the equivariant setting. Its central structural ingredient is a divisor-bundle decomposition: when a connected piece spans a cyclic orbit of size $c$, it forms, for each divisor $d \mid c$, a $d$-fold bundle whose constituent is an object of the same kind in the cyclic world of order $c/d$, computed by the same program recursively. We prove the decomposition and the correctness of the resulting recurrences, and we prove that the full Burnside computation runs in sub-exponential time $n^{O(\sqrt{n})}$. We report the new terms through $n=20$ and describe four independent validations, including exact agreement with all previously known values of both sequences and an Euler-transform consistency check.</description>
-    </item>
-    <item>
-      <title>List $3$-coloring $C_4$-free graphs of diameter-$2$ in polynomial-time</title>
-      <link>https://arxiv.org/abs/2606.30282</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.30282</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We show that list $3$-coloring a~$C_4$-free graph of diameter-$2$ can be done in polynomial-time. Our algorithm is based on a structural characterization showing that many such graphs are not~$3$-colorable. In particular, we show that~$C_4$-free graphs of diameter-$2$ without universal vertices, where the maximum degree is at least~$17$, are not~$3$-colorable.</description>
-    </item>
-    <item>
-      <title>Hop-Constrained Metric Embeddings and their Applications</title>
-      <link>https://arxiv.org/abs/2106.14969</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2106.14969</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In network design problems, such as compact routing, the goal is to route packets between nodes using the (approximated) shortest paths. A desirable property of these routes is a small number of hops, which makes them more reliable, and reduces the transmission costs. Following the overwhelming success of stochastic tree embeddings for algorithmic design, Haeupler, Hershkowitz, and Zuzic (STOC'21) studied hop-constrained Ramsey-type metric embeddings into trees. Specifically, embedding $f:G(V,E)\rightarrow T$ has Ramsey hop-distortion $(t,M,β,h)$ (here $t,β,h\ge1$ and $M\subseteq V$) if $\forall u,v\in M$, $d_G^{(β\cdot h)}(u,v)\le d_T(u,v)\le t\cdot d_G^{(h)}(u,v)$. $t$ is called the distortion, $β$ is called the hop-stretch, and $d_G^{(h)}(u,v)$ denotes the minimum weight of a $u-v$ path with at most $h$ hops. Haeupler {\em et al.} constructed embedding where $M$ contains $1-ε$ fraction of the vertices and $β=t=O(\frac{\log^2 n}ε)$. They used their embedding to obtain multiple bicriteria approximation algorithms for hop-constrained network design problems. In this paper, we first improve the Ramsey-type embedding to obtain parameters $t=β=\frac{\tilde{O}(\log n)}ε$, and generalize it to arbitrary distortion parameter $t$ (in the cost of reducing the size of $M$). This embedding immediately implies polynomial improvements for all the approximation algorithms from Haeupler {\em et al.}. Further, we construct hop-constrained clan embeddings (where each vertex has multiple copies), and use them to construct bicriteria approximation algorithms for the group Steiner tree problem, matching the state of the art of the non constrained version. Finally, we use our embedding results to construct hop constrained distance oracles, distance labeling, and most prominently, the first hop constrained compact routing scheme with provable guarantees.</description>
     </item>
   </channel>
 </rss>

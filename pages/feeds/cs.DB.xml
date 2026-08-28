@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Data Citation for Large Language Models: A Challenge</title>
+      <link>http://arxiv.org/abs/2608.25663v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.25663v1</guid>
+      <pubDate>Wed, 26 Aug 2026 11:44:55 +0000</pubDate>
+      <description>Large language models increasingly mediate access to information, and a growing body of work asks whether they cite the sources behind their outputs. That work treats citation as a verification device and applies it to textual documents. Scholarly citation serves two further functions, credit and provenance, and it applies to data as much as to text. This paper argues that data citation for large language models is an open challenge, distinct from document-level citation grounding and harder to solve. We ask how such models should cite data so that outputs stay verifiable, provenance stays traceable, and credit reaches data creators and curators. We set out three research directions. Training data attribution has to turn influence estimates into references for corpora absorbed into model parameters. Data citation at inference time has to identify datasets, subsets, and query results at the right granularity and fixity. Citing knowledge graph facts has to define what a reference to a single triple denotes and how credit propagates along provenance. Progress on all three depends on joint work across the database, information retrieval, knowledge representation, and artificial intelligence communities.</description>
+    </item>
+    <item>
       <title>SQLite is Enough. Lexical, Semantic, and Hybrid Search with scrydb</title>
       <link>http://arxiv.org/abs/2608.24060v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.24060v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2601.11808</guid>
       <pubDate>Thu, 26 Mar 2026 00:00:00 -0000</pubDate>
       <description>GPU-accelerated Inverted File (IVF) index is one of the industry standards for large-scale vector search but relies on static VRAM layouts that hinder real-time mutability. Our benchmark and analysis reveal that existing designs of GPU IVF necessitate expensive CPU-GPU data transfers for index updates, causing system latency to spike from milliseconds to seconds in streaming scenarios. We present SIVF, a GPU-native index that enables high-velocity, in-place mutation via a series of new data structures and algorithms, such as conflict-free slab allocation and coalesced search on non-contiguous memory. SIVF has been implemented and integrated into the open-source vector search library, Faiss. Evaluation against baselines with diverse vector datasets demonstrates that SIVF reduces deletion latency by orders of magnitude compared to the state-of-the-arts. Furthermore, distributed experiments on a 12-GPU cluster demonstrate that SIVF exhibits near perfect linear scalability, achieving an aggregate ingestion throughput of 4.07 million vectors/s and a deletion throughput of 108.5 million vectors/s.</description>
-    </item>
-    <item>
-      <title>Where Do Your Citations Come From? Citation-Constellation: A Free, Open-Source, No-Code, and Auditable Tool for Citation Network Decomposition with Complementary BARON and HEROCON Scores</title>
-      <link>https://arxiv.org/abs/2603.24216</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.24216</guid>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Standard citation metrics treat all citations as equal, obscuring the social and structural pathways through which scholarly influence propagates. I introduce Citation-Constellation, a freely available no-code tool for citation network analysis with two complementary bibliometric scores that decompose a researcher's citation profile by network proximity between citing and cited authors. BARON (Boundary-Anchored Research Outreach Network score) is a strict binary metric counting only citations from outside the detected collaborative network. HEROCON (Holistic Equilibrated Research Outreach CONstellation score) applies graduated weights assigning partial credit to in-group citations based on relationship proximity. The gap between scores serves as a diagnostic of inner-circle dependence. An extended abstract with full details appears in the paper. The tool implements this through a phased architecture: (1) self-citation analysis, (2) co-authorship graph traversal, (3) temporal institutional affiliation matching via ROR, and (4) AI-agent-driven venue governance extraction using a local LLM. Phases 1-3 are fully operational; Phase 4 is under development. Key design choices include ORCID-validated author identity resolution, an UNKNOWN classification for citations with insufficient metadata, and comprehensive audit trails documenting every classification decision. A no-code web interface enables researchers to compute scores without programming, installation, or registration. I present these scores as structural diagnostics, not quality indicators. BARON and HEROCON describe where in the social graph citations originate. They should not be used for hiring, promotion, or funding decisions. HEROCON weights are experimental and require empirical calibration.</description>
     </item>
   </channel>
 </rss>
