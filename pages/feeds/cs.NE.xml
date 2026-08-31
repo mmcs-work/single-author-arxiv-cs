@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The thermodynamic freedom of a thermodynamic computer</title>
+      <link>http://arxiv.org/abs/2608.27938v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27938v1</guid>
+      <pubDate>Fri, 28 Aug 2026 05:27:01 +0000</pubDate>
+      <description>Thermodynamic computers are stochastic physical devices designed to perform calculations at the thermal energy scale. Their operation is constrained by the equations of stochastic thermodynamics, among which are a set of bounds, known as speed limits, that relate a thermodynamic computer's run time to its computational progress and the heat it dissipates. Using the Wasserstein speed limit we assess the thermodynamic efficiency of a simulation model of a thermodynamic computer trained to perform a standard machine-learning classification task. On this task the thermodynamic computer is as capable as a simple multilayer perceptron. We show that different inference protocols allow the computer to operate within 40\% of the thermodynamic limit of efficiency without loss of accuracy, or to perform inference increasingly rapidly at fixed accuracy and thermodynamic efficiency. These results indicate that a thermodynamic computer designed for a particular task retains considerable freedom in its thermodynamic operation.</description>
+    </item>
+    <item>
       <title>Beyond Edge Cuts: Activity-Weighted Multicast Hypergraph Mapping for Spiking Neural Networks on Mesh NoCs</title>
       <link>http://arxiv.org/abs/2608.26223v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.26223v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.03026</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
       <description>Spiking language models expose activation sparsity that dense Transformer runtimes do not directly exploit. This paper studies that property from a systems perspective. Building on the SymbolicLight V1 spike-gated language model family, we implement a C++ CPU inference runtime that treats sparse binary spike states as an execution primitive rather than only applying post-hoc weight compression. The runtime combines a manifest-driven weight loader, mixed row/column memory layout, AVX2/FMA kernels, per-channel symmetric INT8 quantization, and integer-domain accumulation for spike-conditioned sparse paths. On an AMD Ryzen 7 5800X, an early scalar FP32 baseline decodes at 9.5 tokens/s. Mixed-layout AVX2 FP32 raises this to 14.7 tokens/s, and AVX2 INT8 reaches 19.9 tokens/s on the same step-30k export while reducing the weight footprint from 3.49 GB to 1.06 GB. For the available 186k-step 874M-parameter INT8 export, the C++ runtime decodes at 22.63 tokens/s in a single-thread CPU benchmark, compared with 16.31 tokens/s for TinyLlama-1.1B Q8_0, 11.26 tokens/s for Falcon3-1B Q8_0, and 9.70 tokens/s for Qwen2.5-1.5B Q8_0 under llama.cpp. Thread scaling reaches 47.90 tokens/s at four CPU threads, and 512-token prefill improves from 29.86 to 94.68 tokens/s from one to eight threads. The throughput result comes with a quality cost: the SNN reports WikiText-2 perplexity 24.80, worse than the dense baselines in the same benchmark. We frame the result as an inference-systems study for sparse language runtimes, with longer-term motivation in embodied and edge agents that may benefit from local, low-core inference near sensors and actuators. Spike-aware execution can improve CPU throughput and memory behavior for sparse spiking language models, while model quality, controlled dense training baselines, embodied-task evaluation, and measured CPU energy remain open problems.</description>
-    </item>
-    <item>
-      <title>Self-Regulation through Communication in Evolved Neural Agents</title>
-      <link>https://arxiv.org/abs/2606.02840</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.02840</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Communication is typically understood as indication: signals that transfer information from sender to receiver. We present a minimal predator avoidance task in which pairs of evolved CTRNN agents use communication for robust survival, and in which agents hear their own vocalizations, as in natural systems. Across 112 perfect-fitness agents from over 2,000 evolutionary runs, three dominant strategies emerge (accounting for 81% of agents): safety calling (39%), where agents signal from safe cover; alarm indication (22%), where agents vocalize when a threat is present without relying on self-hearing; and self-regulatory calling (20%), where agents depend on hearing their own call to sustain escape behavior. Self-hearing dependency is common among agents that call during an active threat (47%), but rare among agents that call only after reaching safe cover (10%; p &lt; 10^-4). This pattern is consistent with a difference in causal order: safety callers act then communicate, while self-regulatory callers communicate in order to act. Removing self-hearing selectively impairs self-regulatory callers (fitness 0.40) while safety callers remain functional (0.90; p &lt; 10^-9). These results show that communication can evolve to serve the caller's own behavioral regulation, not just information transfer to others.</description>
     </item>
   </channel>
 </rss>

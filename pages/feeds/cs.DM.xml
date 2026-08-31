@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Improved Subexponential Upper Bounds for $3$-Restricted Matching Vector Families</title>
+      <link>http://arxiv.org/abs/2608.27859v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27859v1</guid>
+      <pubDate>Fri, 28 Aug 2026 03:08:39 +0000</pubDate>
+      <description>Matching Vector families (MVFs) are defined by two ordered lists of vectors in $\mathbb{Z}_m^n$ whose inner products satisfy specific residue patterns modulo an integer $m$. Most famously, restricted MVFs are used to construct the best-known constant-query Locally Decodable codes (LDCs). We prove an upper bound of $2^{O\left(\sqrt{n\log n \log m}\right)}$ on the size of $3$-restricted MVFs in $\mathbb{Z}_m^n$ for $m \leq \sqrt{n}$, substantially improving on the previous best bound of $2^{O(n/\log n)}$ by Bhowmick, Dvir and Lovett (STOC'13, SICOMP'14). Our proof relies on a new polynomial method argument that controls collisions in sumsets of matching vectors.</description>
+    </item>
+    <item>
       <title>Refutation of the Non-Cancelling-Intersections Conjecture</title>
       <link>http://arxiv.org/abs/2608.27416v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27416v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2508.08119</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 -0000</pubDate>
       <description>We prove that graphs that do not contain a totally odd immersion of $K_t$ are $\mathcal{O}(t)$-colorable. In particular, we show that any graph with no totally odd immersion of $K_t$ is the union of a bipartite graph and a graph which forbids an immersion of $K_{\mathcal{O}(t)}$. Our results are algorithmic, and we give a fixed-parameter tractable algorithm (in $t$) to find such a decomposition.</description>
-    </item>
-    <item>
-      <title>Counting Unlabeled Chordal Graphs by Equivariant Evaporation</title>
-      <link>https://arxiv.org/abs/2607.02613</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.02613</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We compute the number of unlabeled chordal graphs on $n$ vertices, both the total count (OEIS A048193) and the connected count (OEIS A048192), extending two sequences whose published values had remained at $n=15$. The method is a Polya-Burnside enumeration: the number of unlabeled graphs in a class closed under relabeling is the average over $S_n$ of the number of labeled graphs fixed by each permutation. The technical core is the evaluation, for an arbitrary permutation $π$, of the number of $π$-invariant labeled chordal graphs. We give a dynamic program for this quantity that lifts the evaporation-based labeled chordal counting of Hebert-Johnson, Lokshtanov and Vigoda to the equivariant setting. Its central structural ingredient is a divisor-bundle decomposition: when a connected piece spans a cyclic orbit of size $c$, it forms, for each divisor $d \mid c$, a $d$-fold bundle whose constituent is an object of the same kind in the cyclic world of order $c/d$, computed by the same program recursively. We prove the decomposition and the correctness of the resulting recurrences, and we prove that the full Burnside computation runs in sub-exponential time $n^{O(\sqrt{n})}$. We report the new terms through $n=20$ and describe four independent validations, including exact agreement with all previously known values of both sequences and an Euler-transform consistency check.</description>
     </item>
   </channel>
 </rss>

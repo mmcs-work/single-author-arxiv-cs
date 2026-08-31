@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Improved $\ell_0$-Isoperimetry for Convex Bodies via Mass Transport</title>
+      <link>http://arxiv.org/abs/2608.27854v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27854v1</guid>
+      <pubDate>Fri, 28 Aug 2026 02:58:16 +0000</pubDate>
+      <description>We study $\ell_0$ isoperimetry for a convex body $K\subset \mathbb{R}^n$, $n\ge2$. For a Borel set $S\subset K$, let $\partial_0^K S$ be the set of points in $K \setminus S$ that can be reached from $S$ by changing at most one coordinate (i.e. the $\ell_0$ boundary of $S$). Suppose that, for some unconditional convex body $Q \subset \mathbb{R}^n$, numbers $r,R&gt;0$, and possibly different centers $x_0,y_0$, \[ x_0+rQ \subset K\subset y_0+RQ. \] Writing $s=\text{vol}(S)/\text{vol}(K)$, we prove that whenever $0&lt;s \le 1/2$, \[ \frac{\text{vol}(\partial_0^K S)}{\text{vol}(S)} \ge \frac{cr}{nR} \min\left\{1,\frac{\log(e/s)}{n}\right\}, \] where $c &gt; 0$ is an absolute constant. Consequently, the associated $\ell_0$-isoperimetric coefficient is at least $cr/(n^2R)$. Previous direct lower bounds were only known for $\ell_2$ and $\ell_\infty$ regularity whereas our lower bound holds directly for any $Q$-regularity, where $Q$ is an unconditional convex body. Compared to $\ell_2$ and $\ell_\infty$ regularity, our lower bound result improves upon the previously best known lower bounds, for any $s$, by a factor of $n$. As an application of our result, we give improved mixing time bounds for the Coordinate Hit and Run walk (CHAR). Our proof of the lower bound is based on a modification of the method of canonical paths applied to a continuous Hamming graph over our convex body. Our construction of canonical paths can be viewed as a suitable coordinate discretization of certain mass transport maps from $S$ to $S^c$. We also give complementary upper-bounds for any $Q$-regularity, with an overall factor of $n$ gap between the two.</description>
+    </item>
+    <item>
+      <title>Optimal exponential memory for sequential Euclidean connection: edge-power costs and phase transitions</title>
+      <link>http://arxiv.org/abs/2608.27777v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27777v1</guid>
+      <pubDate>Thu, 27 Aug 2026 23:16:12 +0000</pubDate>
+      <description>We consider an online geometric connection rule that stores one point of state. After processing $p_i$, the state is updated by $x_i=γx_{i-1}+(1-γ)p_i$, and the two segments from $x_{i-1}$ to $x_i$ and from $x_i$ to $p_i$ are retained. The design parameter $γ$ controls the persistence of the state. We minimize the sum of the $α$-powers of the resulting edge lengths under independent uniform input and under arbitrary input sequences. For uniform points in the unit ball, the stationary problem has a transition at $α=1$. Its continuous extension is minimized at the boundary for $0&lt;α\leq1$, and every global minimizer is interior for $α&gt;1$. The main result determines the finite optimizer in the joint window $α_N=1+\varepsilon_N$, $\varepsilon_N\log N\toλ$. Below an explicit threshold it lies on the $N^{-1/2}$ scale. At the threshold its scale is $\sqrt{\log N/(N\log\log N)}$, and above the threshold it approaches an explicit stationary root with two computable corrections. A second threshold identifies which correction governs the location, and differentiated estimates prove eventual uniqueness. At $α=3d+8$, the linear coefficient at the stationary endpoint changes sign and a branch of strict local maxima enters the parameter interval. Under arbitrary input sequences, the optimal parameter and asymptotic worst-case edge-power cost per processed point are explicit for $0&lt;α\leq3$. At high powers, periodic blocks and a separation argument show that this optimized cost is asymptotic to $2\log2/\logα$. Exact results for powers two and four, a rational recursion for all even powers, and a high-dimensional expansion provide additional descriptions of the optimizer.</description>
+    </item>
+    <item>
       <title>Quadratic Complexity of Voronoi Diagrams in $\mathbb{R}^3$ for Lines in a Single Ruling of a Regulus</title>
       <link>http://arxiv.org/abs/2608.27114v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27114v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.07948</guid>
       <pubDate>Mon, 09 Mar 2026 00:00:00 -0000</pubDate>
       <description>The Li-Chao tree (LICT) was first introduced in lecture as an efficient data structure for dynamic lower envelope maintenance. In the years since, it has achieved widespread adoption within the competitive programming community, yet no formal specification has appeared in the peer-reviewed literature. This paper provides the definitive formalization of the Li-Chao tree, serving as both the official specification and an expansion of the original lecture. We present complete algorithmic specifications, establish formal correctness proofs, analyze theoretical complexity, and provide empirical performance characterization. The LICT offers distinct advantages in implementation simplicity, numerical stability, and extensibility to advanced variants such as persistence and line segments.</description>
-    </item>
-    <item>
-      <title>An Optimal Algorithm for Computing Many Faces in Line Arrangements</title>
-      <link>https://arxiv.org/abs/2603.04863</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.04863</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Given a set of $m$ points and a set of $n$ lines in the plane, we consider the problem of computing the faces of the arrangement of the lines that contain at least one point. In this paper, we present an $O(m^{2/3}n^{2/3}+(n+m)\log n)$ time algorithm for the problem. We also show that this matches the lower bound under the algebraic decision tree model and thus our algorithm is optimal. In particular, when $m=n$, the runtime is $O(n^{4/3})$, which matches the worst case combinatorial complexity $Ω(n^{4/3})$ of all output faces. This is the first optimal algorithm since the problem was first studied more than three decades ago [Edelsbrunner, Guibas, and Sharir, SoCG 1988].</description>
-    </item>
-    <item>
-      <title>Incomplete Open Platonic Solids</title>
-      <link>https://arxiv.org/abs/2602.20425</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.20425</guid>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 -0000</pubDate>
-      <description>Sol LeWitt famously enumerated all the incomplete open cubes, finding 122 of these connected, non-planar subsets of the edges of the cube. Since then, while several projects have revisited the cube enumeration, no such enumeration has been published for any other interesting solid. In this paper we present work on enumerating all the incomplete open platonic solids, finding 6 tetrahedra, 122 cubes (just like LeWitt), 185 octahedra, 2\,423\,206 dodecahedra and 16\,096\,166 icosahedra.</description>
     </item>
   </channel>
 </rss>

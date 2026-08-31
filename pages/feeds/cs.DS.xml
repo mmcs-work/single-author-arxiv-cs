@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Analysis of Polynomial Threshold Functions on Random Regular Graphs: Computational Complexity of Detecting Noisy Random Lift</title>
+      <link>http://arxiv.org/abs/2608.28539v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28539v1</guid>
+      <pubDate>Fri, 28 Aug 2026 17:14:45 +0000</pubDate>
+      <description>In this work, we present the first analysis of low degree polynomial threshold functions for the natural hypothesis testing problem of detecting the noisy random lift of a base $d$-regular graph from a uniformly random $d$-regular graph. Along the way, we obtain a new result for the distribution of short cycle counts in noisy random lift up to logarithmic lengths, which generalizes results by McKay, Wormald, and Wysocka and by Johnson in the case of random regular graphs, and the result by Fortin and Rudinsky in the case of random lift.</description>
+    </item>
+    <item>
+      <title>Beyond the Bethe Approximation of the Permanent</title>
+      <link>http://arxiv.org/abs/2608.28031v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28031v1</guid>
+      <pubDate>Fri, 28 Aug 2026 07:47:23 +0000</pubDate>
+      <description>The canonical Bethe approximation gives a deterministic approximation to the permanent of every nonnegative matrix within a factor of $(\sqrt{2})^n$. We improve the base of this exponential factor: for some absolute constant $c&lt;\sqrt{2}$, there is a deterministic polynomial-time $c^n$-approximation for the permanent of every nonnegative matrix. This shows that the canonical Bethe guarantee is not a barrier for deterministic approximation of the permanent. The proof augments the Bethe lower bound with a new certificate tailored to matrices on which that lower bound loses nearly the full factor. The author supplied the high-level plan of attack, and the proof was developed in an interaction with ChatGPT 5.6 Sol Pro. The author subsequently verified the results. Codex assisted with proof checking, manuscript assembly, and typesetting.</description>
+    </item>
+    <item>
+      <title>The Power of Local Marginals: An $O(\varepsilon^{-1})$-Aspect-Ratio Reduction for Dynamic Weighted Matching</title>
+      <link>http://arxiv.org/abs/2608.27805v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27805v1</guid>
+      <pubDate>Fri, 28 Aug 2026 00:46:09 +0000</pubDate>
+      <description>We study dynamic maximum weight matching (MWM) under edge insertions and deletions in two settings: maintaining a $(1\pm\varepsilon)$-approximation to the optimum weight, and maintaining an explicit $(1-\varepsilon)$-approximate matching. Our main result is a reduction that transforms instances of polynomial aspect ratio into instances of aspect ratio $O(\varepsilon^{-1})$. The reduction applies to general graphs in both settings and is compatible with partially dynamic updates. The reduction is based on a structural property of local marginals. After grouping edges into weight classes, the global marginal contribution of one class relative to all lower classes is approximated by its marginal contribution within a local weight window of aspect ratio $O(\varepsilon^{-1})$. Summing these local marginals yields a value composition lemma that uses only approximate optimum values of the local windows. This improves the value reduction of Gupta and Peng (FOCS 2013), whose local aspect ratio is $\varepsilon^{-Θ(\varepsilon^{-1})}$. The same structural property yields an improved matching composition lemma for explicit matchings, reducing the local aspect ratio of Bernstein--Chen--Dudeja--Langley--Sidford--Tu (SODA 2025) from $O(\varepsilon^{-2})$ to $O(\varepsilon^{-1})$.</description>
+    </item>
+    <item>
+      <title>A Note on Approximating the Rural Postman Problem below 3/2</title>
+      <link>http://arxiv.org/abs/2608.27607v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27607v1</guid>
+      <pubDate>Thu, 27 Aug 2026 18:41:07 +0000</pubDate>
+      <description>We give an approximation algorithm for the rural postman problem with approximation ratio strictly smaller than $3/2$. We obtain this result by adapting to the rural postman problem the technique of sampling from maximum entropy distributions for the metric traveling salesman problem of Karlin, Klein, and Oveis Gharan. We also observe that, for every fixed $\varepsilon&gt;0$, any $α$-approximation algorithm for the metric traveling salesman problem yields an $(α+\varepsilon)$-approximation algorithm for the rural postman problem; this implication is already implicit in the treatment of edges that must be traversed in the work of Lampis on the inapproximability of the traveling salesman problem.</description>
+    </item>
+    <item>
       <title>On the Instance Optimality of Bidirectional Dijkstra's Algorithm</title>
       <link>http://arxiv.org/abs/2608.26952v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.26952v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.06145</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
       <description>The textbook choice B=sqrt(n) for square-root decomposition is asymptotically natural, but it is not always the fastest implementation choice. We study block-size autotuning as a reproducible algorithm-engineering problem. On 3,840 generated workloads with repeated grouped cross-validation, the selected KNN-9 policy reduces mean regret from 1.2769 to 1.0478 and yields a paired geometric-mean speedup of 1.158x over fixed sqrt(n) blocking. A separate Docker/Linux confirmation over 960 workloads gives the same direction of effect (1.112x). We retain two trace-derived checks: the six-window Baleen study improves by 1.104x, whereas the three-workload Wikidata smoke study is slower than fixed blocking. These contrasting results delimit the contribution: workload-aware selection can improve an already chosen block-decomposition implementation, but it is neither a universal replacement for fixed blocking nor a replacement for BIT.</description>
-    </item>
-    <item>
-      <title>Symmetry-initialized quantum Gibbs sampling: a non-Abelian asymmetry cascade</title>
-      <link>https://arxiv.org/abs/2608.00055</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.00055</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>For a quantum Gibbs sampler whose mixing bottleneck is a weakly broken symmetry, I show that the correct initialization is determined by representation theory. I first prove a general speedup-versus-prefactor dichotomy: by exactly eliminating slow-mode overlap, I convert a nominal prefactor reduction into a fundamental, asymptotic acceleration of the system's mixing time. I then show that when the bottleneck is a weakly broken symmetry, the otherwise exponentially expensive bottleneck eigenvector is the symmetry charge.For a non-Abelian group $G$, I prove that the correct initialization target is the group-averaging asymmetry. Projecting this asymmetry out requires a $G$-invariant input. Partial, subgroup-invariant inputs produce a cascade of mixing-time speedups indexed by the subgroup lattice. Conversely, matching first moments alone is provably insufficient.The asymmetry is a directly measurable initialization target. I verify these results analytically and numerically in an $SU(2)$ Davies sampler where total-spin multiplets constitute the slow modes. The predicted speedup cascade emerges with relaxation rates scaling linearly with the symmetry-breaking parameter. Finally, the model maps the boundaries of the asymmetry target, illustrating where the separate matching of conserved logical data becomes necessary.</description>
-    </item>
-    <item>
-      <title>Dynamic Averaging on Regular Graphs</title>
-      <link>https://arxiv.org/abs/2607.00966</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.00966</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study a dynamic averaging process on finite regular graphs with bounded, time-varying load arrivals. At each discrete time $t$, an edge is chosen uniformly at random, a load $0\le w_t \le 1$ is introduced, and the total load of its two endpoints together with $w_t$ is divided equally between them. Starting from the flat configuration, we obtain a pairwise concentration bound governed by the effective resistance between vertices and use generic chaining to derive a general upper bound on the expected gap between the largest and smallest loads. As a consequence, we show that every $d$-regular graph has expected gap $O_d(\sqrt n)$, uniformly in time and over all deterministic arrival sequences. Applying our general bound to the discrete two-dimensional torus yields the sharp $O(\log n)$ upper bound, improving the best previously known bound. For the cycle, whenever the arriving loads are bounded away from zero, we prove that the expected gap is $Ω(\sqrt n)$ for all sufficiently large times. Together with our upper bound, this confirms the conjecture of Alistarh, Nadiradze, and Sabour that the expected gap on the cycle is of order $\sqrt n$.</description>
-    </item>
-    <item>
-      <title>Flip Distance Between Triangulations of Convex Polygons is NP-Complete</title>
-      <link>https://arxiv.org/abs/2602.22874</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.22874</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The complexity of determining the minimum number of flips that transform one triangulation of a convex polygon into another has been raised as an open problem by Culik and Wood [Inf. Proc. Letters 1982] and has been popularized through the study of extremal pairs of triangulations by Sleator, Tarjan, and Thurston [STOC 1986 &amp; J. Am. Math. Society 1988]. The search for a hardness proof for the flip distance problem has yielded many (weaker) hardness-results in more general settings. Lubiw and Pathak [CCCG 2012, Comp. Geom. 2014] and Pilz [Comp. Geom. 2014] proved that computing the flip distance between triangulations of point sets in general position is NP-complete. Further, Aichholzer, Mulzer, and Pilz [ESA 2013, DCG 2015] proved that computing the flip distance between triangulations of simple polygons is NP-complete. The methods used to obtain these previous hardness results rely heavily on the geometric positioning of the vertices of the point set or the vertices of the polygon and are thus not feasible to prove NP-hardness for the flip distance problem of triangulations of convex polygons, where vertices are placed on a circle. We formulate a notion of conflict graphs for flip sequences between triangulations of convex polygons that allows us to use both geometric and combinatorial tools to study flip sequences. Large acyclic subsets of the conflict graph will correspond to short flip sequences. We show NP-completeness of the flip distance problem by proving that finding the largest acyclic subset of our conflict graphs is NP-complete.</description>
-    </item>
-    <item>
-      <title>A Linear-Time Residue Bound for a One-Dimensional (L,V,W) Block-Cover Problem, and a Sharp Heavy-Base Threshold for its Exactness</title>
-      <link>https://arxiv.org/abs/2607.23460</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23460</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study a one-dimensional exact-cover problem parameterized by three integers $(L,V,W)$: given an integer profile $a_0,\dots,a_{n-1}$, write it as a nonnegative integer combination of a length-$L$ ``horizontal'' block $[1,\dots,1]$, a value-$V$ ``vertical'' block, and a value-$W$ block, while minimizing the number of value-$W$ blocks. We give an $O(n)$ algorithm that eliminates the horizontal-block coupling by a class-wise difference recurrence and then matches residues modulo $V$ on the last $L$ columns. We prove that its output is always a valid \emph{lower bound} on the optimum, via a mod-$L$ class invariant. We then prove the main result: once the profile is dense enough --- a \emph{heavy base} $\min_c a_c \ge B(L,V,W)$ with \[ B(L,V,W)=\Big\lceil \tfrac{(L-1)\lcm(V,W)}{LW}-1\Big\rceil\,W+(L-1)(V-1), \] the bound is \emph{exact}. The exactness proof is a branch-cut argument on the exact dynamic program: two structural equivalences (a horizontal-to-vertical exchange modulo $V$, and a vertical reduction modulo $\lcm(V,W)/W$) collapse the DP to the residue computation, and the two summands of $B$ are exactly the reserves that keep both equivalences from producing a negative residual. We further show the threshold is sharp: for $(L,V,W)=(3,6,4)$, $B=14$, and the profile $(17,16,13,16,17)$ with $\min_c a_c=13$ makes the algorithm strictly undercount, so $B-1$ does not suffice. An independent exact dynamic program agrees with the algorithm on every tested profile with $\min_c a_c\ge B$ across many parameter triples, and the test harness \texttt{test\_general.c} is released for reproduction. The contribution is the algorithm, the branch-cut exactness proof, and the sharp threshold $B(L,V,W)$.</description>
     </item>
   </channel>
 </rss>

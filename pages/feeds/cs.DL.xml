@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Measuring the Installed Base: Nordic Health Dataset Catalogues Against HealthDCAT-AP Release 7</title>
+      <link>http://arxiv.org/abs/2608.27720v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27720v1</guid>
+      <pubDate>Thu, 27 Aug 2026 21:23:18 +0000</pubDate>
+      <description>The European Health Data Space requires member states to publish machine readable descriptions of the health datasets available for secondary use, and the European Commission publishes HealthDCAT-AP as the metadata profile those descriptions are meant to satisfy. The profile has been designed and validated against curated examples, never against the catalogues already live. We report that measurement for the Nordic region. On 25 August 2026 the 11 Nordic national catalogues harvested by the European data portal held 2,811 dataset descriptions carrying the EU health theme, and none satisfies all eight properties HealthDCAT-AP Release 7 makes mandatory on a dataset. Three of the eight are present on exactly zero records across five countries. Set beside the portal's own quality assessment, which validates DCAT-AP and never mentions the health profile, this is not a health extension skipped on top of sound generic practice: no Nordic catalogue reaches the assessment's top rating band, 5 of the 11 are reported at zero per cent DCAT-AP compliant, and the properties surviving in both layers are the ones a human types into a form, not the ones needing a value bound to a controlled vocabulary. Two further results follow. Finland contributes 2,259 descriptions to the European portal of which 1,146 carry a theme, and not one uses the EU theme authority vocabulary, so a European health filter returns no Finnish dataset at all. Separately, the authority namespace answers HTTP 200 with a well formed empty document for terms it never defined, letting 1,238 datasets across the wider portal carry theme IRIs that resolve to nothing while passing any status code check. We publish the vocabulary, the shapes and the harvesters, record every verdict as a dated observation rather than a property of the dataset, and report the five errors this discipline caught before publication.</description>
+    </item>
+    <item>
       <title>Data Citation for Large Language Models: A Challenge</title>
       <link>http://arxiv.org/abs/2608.25663v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.25663v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2506.18616</guid>
       <pubDate>Tue, 17 Mar 2026 00:00:00 -0000</pubDate>
       <description>We describe the formalization of the Ionescu-Tulcea theorem, showing the existence of a probability measure on the space of trajectories of a Markov chain, in the proof assistant Lean using the integrated library Mathlib. We first present a mathematical proof before exposing the difficulties which arise when trying to formalize it, and how they were overcome. We then build on this work to formalize the construction of the product of an arbitrary family of probability measures.</description>
-    </item>
-    <item>
-      <title>Trajectories and Comparative Analysis of Global Countries Dominating AI Publications, 2000-2025</title>
-      <link>https://arxiv.org/abs/2509.25298</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.25298</guid>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 -0000</pubDate>
-      <description>This study investigates the shifting global dynamics of Artificial Intelligence (AI) research by analysing the trajectories of countries dominating AI publications between 2000 and 2025. Drawing on the comprehensive OpenAlex datasets and employing fractional counting to avoid double attribution in co-authored work, the research maps the relative shares of AI publications across major global players. The analysis reveals a profound restructuring of the international AI research landscape. The US and the European Union (representing EU27), once the undisputed and established leaders, have experienced a notable decline in relative dominance, with their combined share of publications falling from over 57% in 2000 to less than 25% in 2025. In contrast, China has undergone a dramatic ascent, expanding its global share of AI publications from under 5% in 2000 to nearly 36% by 2025, therefore emerging as the single most dominant contributor. Alongside China, India has also risen substantially, consolidating a multipolar Asian research ecosystem. These empirical findings highlight the strategic implications of concentrated research output, particularly China's capacity to shape the future direction of AI innovation and standard-setting. Beyond publication volume, the study further examines research quality by comparing each country's share of high-impact publications against its overall output, and analyses citation impact trajectories across major players. The findings show that in addition to China leading in volume, the country has also recently led in high-impact publications. Such an observation challenges the general assumption that Western powers retain dominance in high-impact AI scholarship.</description>
     </item>
   </channel>
 </rss>

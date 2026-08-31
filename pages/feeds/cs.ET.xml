@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Between Algorithm (AI) and Intuition (Human): Preserving Designer Agency in AI-Assisted Sensemaking of Qualitative UX Data</title>
+      <link>http://arxiv.org/abs/2608.28420v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28420v1</guid>
+      <pubDate>Fri, 28 Aug 2026 15:05:48 +0000</pubDate>
+      <description>The integration of AI into qualitative design research presents a fundamental tension: how do we leverage AI while preserving the subjective, intuitive judgments that define design expertise? This paper examines this question through a case study of analyzing 20 user responses about video conferencing platforms for educational contexts. We argue that AI sensemaking tools risk flattening the rich data patterns, amplifying contradictory textures of user feedback into sterile categories thereby transforming design research from an interpretive craft into a mechanical sorting exercise (rigid and formal). Through comparative analysis of AI-assisted sensemaking versus human-centered approaches to the same dataset, we identify when algorithmic efficiency enhances understanding and when it diminishes the designer's interpretive agency (uncovering hidden needs, critical enquiry, what if enquiries, making decisions, having trade-offs). We present a framework for augmented sensemaking that positions AI as an instrument for amplifying human judgment rather than replacing it. Our findings suggest that the most valuable role for AI in design research is not to eliminate subjectivity, but to make it more intentional, reflective, and accountable.</description>
+    </item>
+    <item>
       <title>Ankhdjet: An Open-Source Compiler for Mask-Programmed Ternary Compute-in-ROM on an Open PDK</title>
       <link>http://arxiv.org/abs/2608.26206v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.26206v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.21797</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
       <description>This paper emphasizes the critical role of interoperability in enabling efficient and secure communication for the fragmented distributed ledger ecosystem, particularly within on-chain finance. The purpose of this study is to streamline and accelerate empirical research on the intersection of cross-chain interoperability solutions and their impact within on-chain finance. The analysis examines the relationship between financial use and interoperability while comparing the properties of novel cross-chain interoperability protocols (LayerZero, Wormhole, Connext, Chainlink Cross-Chain Interoperability Protocol, Circle Cross-chain Transfer Protocol, Hop Protocol, Across, Polkadot, and Cosmos), focusing on their design, mechanisms, consensus, and limitations. To encourage further empirical study, the paper proposes a set of network metrics and sample statistical models and provides a framework for evaluating the performance and financial implications of interoperability solutions.</description>
-    </item>
-    <item>
-      <title>QR-SPPS: Quantum-Native Retail Supply Chain Risk Simulation via VQE, ADAPT-VQE Counterfactual Policy Ranking, and DOS-QPE Boltzmann Tail Risk Quantification</title>
-      <link>https://arxiv.org/abs/2604.00035</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.00035</guid>
-      <pubDate>Sat, 21 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Classical supply chain risk models treat node failures as statistically independent events, systematically underestimating cascade probabilities when supplier dependencies are strongly correlated. At n=40 nodes, the full correlated failure distribution requires O(2^n) classical samples, a regime where exact simulation demands 17.6 TB of memory and over 369,000 hours of computation on a standard workstation. We present QR-SPPS (Quantum-Native Retail Shock Propagation and Policy Stress Simulator), a three-algorithm quantum pipeline implemented using the Qiskit framework with the Aer statevector_simulator backend. First, a 40-node, 4-tier retail supply network is encoded as a 40-qubit Ising Hamiltonian using OpenFermion QubitOperator, where ZZ coupling terms encode correlated cascade probabilities structurally absent from classical Monte Carlo. Second, a hardware-efficient VQE circuit finds the ground-state stress distribution with zero error, detecting entangled cascade failures in 14/40 nodes with max|ΔP|=0.637 versus classical Monte Carlo. Third, we introduce the first application of ADAPT-VQE gradient screening to counterfactual macroeconomic policy evaluation: six crisis interventions are ranked in O(1) Qiskit operator evaluations per policy, a 287x speedup over sequential VQE re-optimisation. Fourth, Density-of-States QPE (DOS-QPE) reconstructs the full eigenspectrum via 32-step Trotter evolution and introduces a novel mapping of the Boltzmann catastrophe probability P_cat(T) to VIX-equivalent market volatility temperature, enabling direct integration into regulatory Value-at-Risk frameworks. Qiskit Aer scaling benchmarks confirm exponential classical intractability at 40 qubits.</description>
     </item>
   </channel>
 </rss>

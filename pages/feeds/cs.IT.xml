@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Classical Commitment over Quantum Channels with Limited Entanglement Assistance</title>
+      <link>http://arxiv.org/abs/2608.28500v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28500v1</guid>
+      <pubDate>Fri, 28 Aug 2026 16:33:11 +0000</pubDate>
+      <description>We study classical string commitment over quantum channels with limited preshared entanglement. For noninteractive protocols, we determine the commitment capacity of a class of channels with input dimension $d$ that, at each use, sample a pair of classical random variables $(F,Z)$, apply one of the $d^2$ Heisenberg--Weyl operators indexed by $Z$ to the input, and deliver the transformed quantum system together with $F$ to the receiver. If $E$ is the available entanglement rate in bits per channel use, then the capacity is $\min\{H(Z|F),\log_2d+E\}$. This class of channels encompasses quantum erasure and depolarizing channels, as well as families of Pauli channels. Additionally, for interactive protocols, we show that the commitment rate cannot exceed $\log_2d+E$ bits per channel use, so that when $H(Z|F)\geq\log_2d+E$, interactive communication does not increase the capacity. As a consequence, for interactive protocols, we determine the capacity of the quantum erasure channel.</description>
+    </item>
+    <item>
+      <title>Fine Difference Structure and Prime-Power Depth of Bent Partitions</title>
+      <link>http://arxiv.org/abs/2608.28133v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28133v1</guid>
+      <pubDate>Fri, 28 Aug 2026 09:50:18 +0000</pubDate>
+      <description>A $p$-ary bent partition of $\mathbb{F}_p^n$ is a partition into $K$ nonempty cells such that every balanced assignment of its cells to $\mathbb{F}_p$ produces a bent function. It was asked whether every possible depth $K$ is a power of $p$; for general $p$, previous affirmative results required regularity or cell-symmetry hypotheses. We prove the stronger unconditional statement that, for every nonzero $h$, exactly $p^n/K$ points remain in the same fine cell under translation by $h$. Thus the fine cells form a partitioned difference family and the fine label map is zero-difference balanced. Consequently $K\mid p^n$, so $K=p^t$; nonempty cells further give $1\le t&lt;n$. In even dimension, the classical cell-size theorem yields $K\mid p^{n/2}$. Together with the known odd-dimensional ternary three-fibre parameter restriction, this gives the global bound $t\le\lfloor n/2\rfloor$. The proof is an exact finite average over balanced coarsenings. The main counting identity and selected consequences are formalized and kernel-checked in Lean 4.</description>
+    </item>
+    <item>
+      <title>Improved Subexponential Upper Bounds for $3$-Restricted Matching Vector Families</title>
+      <link>http://arxiv.org/abs/2608.27859v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27859v1</guid>
+      <pubDate>Fri, 28 Aug 2026 03:08:39 +0000</pubDate>
+      <description>Matching Vector families (MVFs) are defined by two ordered lists of vectors in $\mathbb{Z}_m^n$ whose inner products satisfy specific residue patterns modulo an integer $m$. Most famously, restricted MVFs are used to construct the best-known constant-query Locally Decodable codes (LDCs). We prove an upper bound of $2^{O\left(\sqrt{n\log n \log m}\right)}$ on the size of $3$-restricted MVFs in $\mathbb{Z}_m^n$ for $m \leq \sqrt{n}$, substantially improving on the previous best bound of $2^{O(n/\log n)}$ by Bhowmick, Dvir and Lovett (STOC'13, SICOMP'14). Our proof relies on a new polynomial method argument that controls collisions in sumsets of matching vectors.</description>
+    </item>
+    <item>
       <title>A note on shifting distributions via Poisson races</title>
       <link>http://arxiv.org/abs/2608.26996v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.26996v1</guid>
@@ -17,6 +38,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.26515v1</guid>
       <pubDate>Thu, 27 Aug 2026 01:31:46 +0000</pubDate>
       <description>We study online prediction for a specific finite-alphabet, exogenously driven source with infinite input memory. Independent Rademacher inputs $(U_t)$ are observed sequentially, and the next binary mark has logit $\sum_{j=1}^{t}θ_jU_{t+1-j}$, where $\abs{θ_j}\leq r_j$ and $\sum_jr_j\leq B$. Regret is expected cumulative excess log loss. Lag $j$ can affect prediction by scale $r_j$ and enters only $n_{T,j}=T-j+1$ prediction rounds, leading to the lag-resolved spectrum $Γ_T(r)=\sum_{j=1}^{T}\log\!\left(1+n_{T,j}r_j^2\right)$. For every summable envelope, a localized Bayesian mixture proves $\cR_T(r)\leq CΓ_T(r)$. For exponential and polynomial envelopes, under the stated finite-sample dimension condition, a Toeplitz-design converse proves $\cR_T(r)\geq cΓ_T(r)$, with constants allowed to depend on the fixed decay parameters and the logit bound. Thus $Γ_T(r)$ is the minimax cumulative-regret scale for this source class in these canonical regimes, giving $Θ(α^{-1}\log^2T)$ for $r_j=Ae^{-αj}$ and $Θ(T^{1/(2s)})$ for $r_j=Aj^{-s}$, $s&gt;1$. The converse is specific to the exogenous lagged model and is not a profile-only theorem for arbitrary stationary infinite-memory sources. Retaining only the most recent $h$ inputs costs order $\sum_{j&gt;h}n_{T,j}θ_j^2$, yet the same worst-case truncation profile can correspond to polynomially different regret. A scaled online Newton predictor attains the spectrum upper bound.</description>
+    </item>
+    <item>
+      <title>Covering 1024 syndromes with 50 columns</title>
+      <link>http://arxiv.org/abs/2608.27494v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.27494v1</guid>
+      <pubDate>Wed, 26 Aug 2026 17:59:00 +0000</pubDate>
+      <description>We exhibit a binary linear $[50,40]_2$ code of covering radius $2$, so $\ell_2(10,2)\le 50$, one column below the Kaikkonen--Rosendahl length $51$ that has stood since 2003 and that still seeds the $R=2$ family of Davydov--Marcugini--Pambianco (arXiv:2511.02542). The new matrix admits a $(2,0)$-partition into ten blocks, so Construction $\mathrm{QM}_2^2$ propagates it to exhaustively verified codes of lengths $815$ and $1631$ at $r=18$ and $r=20$, and to the family $n=51\cdot 2^{r/2-5}-1$ of asymptotic density $2601/2048$. The matrices, verifiers, and source are at https://github.com/wustep/maths, pin problems/covering/share/2026-08-24/ at commit 736a38f.</description>
     </item>
     <item>
       <title>Exact Common Information and Exact Channel Synthesis for Correlated Gaussian Sources</title>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.15404</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
       <description>Interleaving mitigates burst errors but introduces decoding delay and removes temporal error structure that a channel-aware decoder could exploit. We consider packet-level selection between a random linear code and the same code used with cross-codeword interleaving, over a channel with an unknown number of on/off interferers. The receiver uses Guessing Random Additive Noise Decoding (GRAND) with a replaceable noise model and feeds aggregate channel statistics back to a Bayesian estimator at the transmitter. Once the interference amplitudes and timing parameters are estimated, the receiver's noise model is replaced: it computes hidden-Markov-model posterior bit-flip probabilities and uses them to order GRAND queries. A discounted Thompson sampler selects between the two transmission modes using a goodput-minus-latency reward whose distribution is endogenously nonstationary: receiver adaptation, rather than channel change, alters the value of each mode. Across five simulation seeds, the interleaved mode is preferred before channel estimation converges. After the learned decoder is activated, the non-interleaved mode becomes preferable because it achieves lower block error rate without interleaving delay. In the reference configuration, the learned noise model reduces block error rate by approximately one order of magnitude relative to ORBGRAND. Using partial channel estimates before full convergence reduces pre-convergence block error rate by up to $4.5\times$. Adding model-predicted utilities as confidence-weighted pseudo-observations reduces post-transition selection of the inferior arm by approximately $65\%$. Under an idealized airtime conversion at a 100~MHz 5G~NR-like symbol rate, the learning transient corresponds to a few milliseconds of occupied symbol time.</description>
-    </item>
-    <item>
-      <title>An RDT based confirmation of Lehner's formula for Kronecker-Gaussian matrices</title>
-      <link>https://arxiv.org/abs/2607.26551</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.26551</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Remarkable breakthroughs [25,43] established the so-called strong asymptotic freeness between classical Gaussian random ensembles and their semicircular free counterparts. Along the same lines, the Lehner formula [31], associated with the free counterpart, precisely determines the spectral edges of Kronecker-Gaussian matrices. We here revisit and study this formula without the utilization of random matrix theory and spectral methods. In particular, relying on concepts utilized within \emph{Random Duality Theory} (RDT) [45,46,51], we reconfirm Lehner's formula and effectively reprove the key asymptotic freeness results obtained via spectral methods in [25,43].</description>
-    </item>
-    <item>
-      <title>Universal Individual-Sequence Prediction with a Primitive-Recursive Superpredictor</title>
-      <link>https://arxiv.org/abs/2607.25712</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.25712</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study sequential prediction of individual binary sequences under zero-one loss. No computable master can compete on every sequence with all total computable predictors. We therefore consider rational-valued primitive-recursive forecasters, a broad syntactically enumerable class containing finite-state, context-based, and Prediction by Partial Matching (PPM) rules. We construct a computable probabilistic predictor with an explicit sublinear regret bound relative to every primitive-recursive forecaster on every individual sequence. We further prove that the PPM predictor is primitive recursive. Consequently, our predictor attains the infinite-past Bayes error on every Martin-Löf random realization of every computable stationary ergodic binary source. This optimality extends to finitely many independent such sources interleaved according to an arbitrary primitive-recursive schedule. Finally, we establish strict separations from finite-state prediction and from every fixed primitive-recursive predictor. keywords: Universal prediction, individual sequences, prediction with expert advice, primitive recursive functions, Kolmogorov complexity, PPM.</description>
-    </item>
-    <item>
-      <title>Breakdown of Perturbative Expansions and Exact Algebraic Absorption of Finite-Size Fluctuations in Statistical Mechanics</title>
-      <link>https://arxiv.org/abs/2603.22358</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22358</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In statistical mechanics, evaluating finite-size macroscopic fluctuations typically relies on Edgeworth expansions. However, these perturbative methods append additive polynomial corrections that break down in the large deviation regime, yielding unphysical negative probabilities. We propose a structural resolution: rather than relying on additive polynomials, we absorb finite-size skewness using a globally stable $q$-deformed framework. By introducing a dynamic scaling law $1-q_n = O(n^{-1})$ for the nonextensivity parameter, we prove this $q$-deformed framework captures macroscopic higher-order fluctuations in independent and identically distributed (i.i.d.) systems. Specifically, this algebraic tuning absorbs third-order skewness while guaranteeing probability density nonnegativity across the entire domain. Furthermore, the $k$-th degree term of this $q$-logarithmic expansion corresponds to the $O(n^{1-k/2})$ asymptotic order of classical $(k+1)$-th moment Edgeworth corrections. This correspondence functions as a stable resummation of divergent asymptotic expansions, establishing a mathematical bridge between finite-size i.i.d. fluctuations and the Tsallis statistics governing complex systems.</description>
-    </item>
-    <item>
-      <title>A Primer on Zadoff Chu Sequences</title>
-      <link>https://arxiv.org/abs/2211.05702</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2211.05702</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Zadoff-Chu (ZC) sequences are an important manifestation of spread spectrum in modern cellular systems, including LTE and 5G NR. They have to some extent displaced PN and Walsh sequences which were the mainstays of 3G cellular (WCDMA and cdma2000) and the 2G-era IS-95. ZC sequences are complex sequences with unit amplitude and particular phase shifts, as opposed to Walsh and PN codes which are real and binary valued, most commonly $\pm1$. ZC sequences have a number of remarkable and desirable properties that we define in the next section. Because of these properties, they are used for many key functions in current cellular systems, and are likely to be prevalent in future cellular systems as well. In LTE and 5G NR, they are widely used for a number of important initial access and overhead channel functions that are often overlooked by engineers who focus on data transmission. For example, ZC sequences are used for initial access in both the downlink (synchronization sequences) and uplink (random access premables). They are also used for transmitting uplink control information, and as pilot symbols for both uplink channel sounding and fine-grained channel estimation. It is not an exaggeration to say that most types of signals other than the data transmissions in modern cellular standards utilize ZC sequences. In this primer, we define ZC sequences and introduce their key properties, and provide some examples. We also discuss modified ZC sequences that are commonly used in practice, but are not, strictly speaking, ZC sequences. We also overview their uses in LTE and 5G.</description>
     </item>
   </channel>
 </rss>
