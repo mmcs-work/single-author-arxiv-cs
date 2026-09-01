@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Algorithmic Simplification for Million-Vertex Diffusion History Reconstruction</title>
+      <link>http://arxiv.org/abs/2608.28955v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28955v1</guid>
+      <pubDate>Fri, 28 Aug 2026 23:56:26 +0000</pubDate>
+      <description>Diffusion history reconstruction infers latent node states between sparse observations of SI or SIR processes. HERMES combines parameter fitting, a learned graph-neural proposal, and feasibility-aware Markov chain Monte Carlo. We remove these stages one at a time and evaluate each version on all 12 canonical datasets. The final method uses deterministic mean-field forward-backward inference, threshold decoding, and fixed rates. This fixed-rate variant, Battus-Z, achieves mean macro-F1 of 0.8726 and NRMSE of 0.1010, compared with published HERMES aggregates of 0.8692 and 0.1483. The benchmark pins the final observed frame before scoring, so we also exclude all observed frames. Under this metric, Battus-Z obtains macro-F1 0.8431 and NRMSE 0.1181. Thus, the learned proposal, MCMC, and fitting stages can be removed while retaining the published aggregate quality on the evaluated HERMES benchmark and scoring protocol. A CUDA implementation processes generated histories with up to 4.84M vertices on LiveJournal and 117M edges on Orkut. On the same CUDA backend, Battus-Z reduces the geometric-mean algorithm interval relative to fitted Battus by 5.1x for SI and 20.3x for SIR. Its event-weighted causal-violation rates are 7.50% for SI and 8.77% for SIR; graph-constrained decoding remains future work.</description>
+    </item>
+    <item>
       <title>When Interference Graphs Evolve: Doubly Robust Estimation of Dynamic Peer Effects</title>
       <link>http://arxiv.org/abs/2608.27187v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27187v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.24470</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
       <description>Every year, 10 million pets enter shelters, separated from their families. Despite desperate searches by both guardians and lost animals, 70% never reunite, not because matches do not exist, but because current systems look only at appearance, while animals recognize each other through sound. We ask, why does computer vision treat vocalizing species as silent visual objects? Drawing on five decades of cognitive science showing that animals perceive quantity approximately and communicate identity acoustically, we present the first multimodal reunification system integrating visual and acoustic biometrics. Our species-adaptive architecture processes vocalizations from 10Hz elephant rumbles to 4kHz puppy whines, paired with probabilistic visual matching that tolerates stress-induced appearance changes. This work demonstrates that AI grounded in biological communication principles can serve vulnerable populations that lack human language.</description>
-    </item>
-    <item>
-      <title>A Formal Framework for Critical-Mass Collapse in Online Multiplayer Games</title>
-      <link>https://arxiv.org/abs/2604.13390</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.13390</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Online multiplayer games are population-dependent systems whose playability depends on the continued presence of an active player base. We propose a formal framework for reasoning about viability collapse in such systems under explicit scope conditions. The framework introduces a conditional Critical Mass Threshold $Φ$, below which queue times, match quality, or role balance render a game operationally non-viable under a fixed operational profile; an uninhabited runtime taxonomy spanning pre-launch and post-decline states; and a Nostalgia Inversion Point $ψ$, at which cultural memory exceeds active participation. We model post-peak decline using a threshold-sensitive hazard model and show how games in the modeled class can cross below viability under finite official-service horizons or bounded novelty under continuing exposure. Case studies based on public concurrent-player data are used illustratively rather than as formal validation. The contribution of the paper is not a universal law, but a formal vocabulary, a collapse model, and an empirical agenda for studying online game decline, preservation risk, and uninhabited virtual worlds.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Evoking Harmony via Convolution</title>
+      <link>http://arxiv.org/abs/2608.28851v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28851v1</guid>
+      <pubDate>Fri, 28 Aug 2026 20:41:51 +0000</pubDate>
+      <description>I show how to evoke the pitch-class content of a chord from an arbitrary source sound by convolving the source with an impulse response whose grains are one windowed sinusoid per pitch-class, across each octave of hearing range; while, at the same time, minimizing artifacts. A Csound user-defined opcode, chord_convolver, mixes a dry Dirac component into that response, and applies partitioned convolution once. I contrast the effect with a linear-frequency comb filter and with a generic constant-Q resonator bank, and I demonstrate musical use on a twilight field recording alongside the ruins of Chateau de Lagarde.</description>
+    </item>
+    <item>
       <title>Auditing Generative Audio Calls for Known-Task Audio-LLM Evaluation</title>
       <link>http://arxiv.org/abs/2608.27817v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27817v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.13824</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
       <description>Recent advances in text-to-audio generation enable models to translate natural-language descriptions into diverse musical output. However, the robustness of these systems under semantically equivalent prompt variations remains largely unexplored. Small linguistic changes may lead to substantial variation in generated audio, raising concerns about reliability in practical use. In this study, we evaluate the semantic fragility of text-to-audio systems under controlled prompt perturbations. We selected MusicGen-small, MusicGen-large, and Stable Audio 2.5 as representative models, and we evaluated them under Minimal Lexical Substitution (MLS), Intensity Shifts (IS), and Structural Rephrasing (SR). The proposed dataset contains 75 prompt groups designed to preserve semantic intent while introducing localized linguistic variation. Generated outputs are compared through complementary spectral, temporal, and semantic similarity measures, enabling robustness analysis across multiple representational levels. Experimental results show that larger models achieve improved semantic consistency, with MusicGen-large reaching cosine similarities of 0.77 under MLS and 0.82 under IS. However, acoustic and temporal analyses reveal persistent divergence across all models, even when embedding similarity remains high. These findings indicate that fragility arises primarily during semantic-to-acoustic realization rather than multi-modal embedding alignment. Our study introduces a controlled framework for evaluating robustness in text-to-audio generation and highlights the need for multi-level stability assessment in generative audio systems.</description>
-    </item>
-    <item>
-      <title>Not that Groove: Zero-Shot Symbolic Music Editing</title>
-      <link>https://arxiv.org/abs/2505.08203</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.08203</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
-      <description>While recent advancements in AI music generation have predominantly focused on direct audio synthesis, these systems suffer from inherent rigidity, limiting their utility for professional music producers who require granular, highly malleable creative control. Symbolic music (e.g., MIDI) resolves this constraint by providing editable note-level parameters, yet the natural progression to instruction-driven symbolic music editing remains critically under-explored due to a severe scarcity of paired instruction-MIDI datasets. In this paper, we bypass this data bottleneck by formalizing zero-shot symbolic music editing as a structured reasoning task. We introduce a novel text-based "drumroll" notation that translates musical mechanics into a spatial, syntax-driven grid, empowering off-the-shelf Large Language Models (LLMs) to logically deduce and apply complex edits to drum grooves using only zero-shot prompting. To rigorously evaluate this paradigm, we propose Not that Groove, a comprehensive benchmark comprising thousands of drum grooves paired with specific, descriptive, and stylistic natural language instructions. Crucially, to overcome the prohibitive cost and subjectivity of human musical evaluation, we introduce a scalable, domain-informed automated unit-testing framework that symbolically verifies whether an edited groove satisfies the core constraints of the user's request. Our extensive experiments across eight state-of-the-art LLMs demonstrate the high efficacy of this approach, with the top-performing model achieving a 68% success rate on our automated unit tests. Furthermore, listening tests confirm that our programmatic unit tests align highly with the subjective judgments of professional musicians, establishing a robust, data-efficient, and scalable foundation for the future of controllable AI music production.</description>
     </item>
   </channel>
 </rss>

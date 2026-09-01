@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Unconditional $V^0_1$-independence of a certified hitting-set principle</title>
+      <link>http://arxiv.org/abs/2608.28813v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28813v1</guid>
+      <pubDate>Fri, 28 Aug 2026 19:23:31 +0000</pubDate>
+      <description>We show that a certified formalization of the hitting-set-existence axiom of Atserias and Tzameret, instantiated on the parity-based Nisan-Wigderson compression class of Khaniki, is independent of the two-sorted theory $V^0_1$ of $\mathrm{AC}^0$-reasoning, unconditionally: $V^0_1$ proves neither it nor its negation. The same holds for the corresponding certified dual weak pigeonhole principle, whose refutation is witnessed by a single seed that certified-computes every string of the model simultaneously. The mechanism is a bounded-arithmetic transfer of Atserias-Tzameret's reduction from hitting sets to the dual weak pigeonhole principle: the amplification half of that reduction, the sole source of its NP-oracle, is unnecessary at the native stretch of the Nisan-Wigderson map, and the compression half becomes a $V^0_1$-provable implication once circuit evaluation is replaced by its certified $Σ^B_0$ unfolding. This is, to our knowledge, the first independence result for a derandomization-flavoured existence principle at the $\mathrm{AC}^0$-reasoning level, and it makes explicit the bridge between the Khaniki Nisan-Wigderson line and the Atserias-Tzameret reverse mathematics of hitting sets.</description>
+    </item>
+    <item>
       <title>Analysis of Polynomial Threshold Functions on Random Regular Graphs: Computational Complexity of Detecting Noisy Random Lift</title>
       <link>http://arxiv.org/abs/2608.28539v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28539v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.14375</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
       <description>We study exact verification of ReLU networks in an adversarial smoothed model. Every network weight and bias is independently perturbed by Gaussian noise, clipped to $[-2,2]$, and rounded to the exact dyadic grid determined by the input bit complexity. We show that, under the standard assumption $\mathrm{NP}\not\subseteq\mathrm{BPP}$, there is no sound and complete verifier whose expected running time is polynomial in network size, bit complexity, and inverse noise level for every base instance. The conclusion already holds at the fixed noise level $σ_\star=2^{-11}$ for one-hidden-layer networks over a unit box, with hidden fan-in at most three and base coefficients in $[-1,1]$. The proof combines an exact gap embedding with a quantitative robustness argument. For every E3SAT formula $Φ$ with $m$ clauses, a four-ReLU-per-clause construction satisfies $\max_{x\in[0,1]^n} g_Φ(x)=(m-\operatorname{unsat}(Φ))/3$, and coordinatewise threshold rounding never decreases the objective. A weighted parameter-sensitivity inequality and Gaussian concentration then show that a verification gap linear in $m$ survives the aggregate perturbation of all coefficients with probability at least $1-e^{-m/8}$. The proof includes clipping, exact dyadic rounding, output-layer perturbations, polynomial-bit sampling of the rounded Gaussian law, and the conversion from expected smoothed running time to a BPP algorithm. Computational checks test the exact identity and illustrate the different scaling of extensive and constant gaps; they are diagnostics rather than evidence for the complexity theorem. The result concerns worst-case base networks in the stated absolute-noise model, but it shows that parameter nondegeneracy alone does not yield a universal smoothed-polynomial guarantee for exact verification.</description>
-    </item>
-    <item>
-      <title>A proof complexity perspective on effectively zero-knowledge proofs</title>
-      <link>https://arxiv.org/abs/2607.13540</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.13540</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Ilango (FOCS 2025) invented effectively zero-knowledge proofs, a new variant of zero-knowledge. We reformulate it in the language of logic and give simple proofs (under the same assumptions as Ilango (FOCS 2025)) of its existence and of the key property defined in Ilango (FOCS 2025) that it is "indistinguishable from true" (that property is in Ilango (FOCS 2025) a part of the definition of the prover, not its consequence). Using the theory of proof complexity generators we show that the concept can be turned it into a genuinely zero-knowledge proofs, assuming a conjecture from the theory about the existence of a hard generator and allowing the parties to share a common random string.</description>
     </item>
   </channel>
 </rss>

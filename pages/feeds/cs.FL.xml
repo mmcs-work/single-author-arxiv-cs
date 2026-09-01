@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Finite-Monoid Compression in Syntactic Concept Lattices: Arity Hierarchies and a Pseudovariety Trichotomy</title>
+      <link>http://arxiv.org/abs/2608.29639v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.29639v1</guid>
+      <pubDate>Sun, 30 Aug 2026 08:02:10 +0000</pubDate>
+      <description>Clark's syntactic concept lattice (SCL) records two-sided distributional structure, and Wurm extended it to tuples of arbitrary finite arity. We study \(\operatorname{cmp}_f(L)\), the minimum image size of a finite-monoid observation that preserves guarded tuple substitution through arity \(f\) on the principal layer. For regular languages, we characterize \(\operatorname{cmp}_f(L)\) exactly as the least cardinality of the codomain of an \(f\)-separating relational morphism from the pointed syntactic monoid. Let \(\operatorname{ch}(\mathbf V)\) denote the least arity at which these compression numbers stabilize uniformly over a pseudovariety \(\mathbf V\). Our main result is the following trichotomy of possible uniform heights: \(\operatorname{ch}(\mathbf V)\in\{1,2,\infty\}\), with \(\operatorname{ch}(\mathbf V)=\infty\) if and only if \(\operatorname{Synt}(\{ab\})\in\mathbf V\). Thus no finite uniform compression height \(3,4,\ldots\) occurs. The infinite case is sharp: inside \(\langle\operatorname{Synt}(\{ab\})\rangle\), every boundary \(d\to d+1\) admits unbounded compression gaps, and arbitrary finite strict prefixes of the arity hierarchy are realizable. On the finite side, commutative monoids and bands stabilize at arity one, while every completely regular syntactic monoid stabilizes by arity two; finite group kernels show that the binary bound is sharp. At unary arity, every nonempty finite simple graph is realized by an explicit length-three language, yielding an exact chromatic-number formula and NP-completeness of deciding \(\operatorname{cmp}_1(L)\le 3\) for explicitly listed length-three languages. The structural boundary between compression heights one and two remains open.</description>
+    </item>
+    <item>
+      <title>Defining the Crick-Franklin-Watson genes of any robot (equals a finite state machine) and defining the Shannon genetic code attached to each gene. We also define the Krohn-Rhodes complexity of any regular maximal prefix code</title>
+      <link>http://arxiv.org/abs/2608.29094v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.29094v1</guid>
+      <pubDate>Sat, 29 Aug 2026 06:56:06 +0000</pubDate>
+      <description>This paper will discuss the relationships among three pillars of mathematics: important research in codes and automata by Marcel-Paul Schutzenberger and others; random walks on finite semigroups by Persi Diaconis and others; and advanced techniques from finite semigroup theory used in proving Krohn-Rhodes complexity c is decidable by Stuart Margolis, Anne Schilling, and myself. Very surprising connections exist between the Fundamental Lemma of Complexity c (epimorphisms between finite semigroups that are one-to-one on subgroups preserve c) and coupling from the past in Markov chains, Diaconis' strong stationary time, and the Crick-Franklin-Watson genes of a finite automaton (which will be defined in the paper).</description>
+    </item>
+    <item>
       <title>Separating Words with Automata in the Half-adversarial Case</title>
       <link>http://arxiv.org/abs/2608.28385v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28385v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.23570</guid>
       <pubDate>Tue, 24 Mar 2026 00:00:00 -0000</pubDate>
       <description>Hochman asked whether there exists a cellular automaton $F$ such that every cellular automaton is a factor of $F$ in the dynamical sense. In particular, we do not require the factor map to commute with the spatial shifts. We show that no such cellular automaton exists. More generally, if $F$ weakly factors onto the radius-zero $q$-clock automaton $C_q^{(k)}$, then every periodic point of $F$ has period divisible by $q$. For a cellular automaton $F:A^{\mathbb Z^d}\to A^{\mathbb Z^d}$, define $φ_F:A\to A$ by $F(\underline a)=\underline{φ_F(a)}$, and let $g_F$ be the greatest common divisor of the cycle lengths of $φ_F$. We prove that if $C_q^{(k)}$ is a weak factor of $F$, then $q\mid g_F$ holds. It follows that the action of $F$ on constant configurations yields an explicit divisibility obstruction to clock weak factors.</description>
-    </item>
-    <item>
-      <title>Unconditional Time and Space Complexity Lower Bounds for Intersection Non-Emptiness</title>
-      <link>https://arxiv.org/abs/2512.00297</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.00297</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We reinvestigate known lower bounds for the Intersection Non-Emptiness Problem for Deterministic Finite Automata (DFA's). We first strengthen conditional time complexity lower bounds from T. Kasai and S. Iwata (1985) which showed that Intersection Non-Emptiness is not solvable more efficiently unless there exist more efficient algorithms for non-deterministic logarithmic space ($\texttt{NL}$). Next, we apply a recent breakthrough from R. Williams (2025) on the space efficient simulation of deterministic time to show an unconditional $Ω(\frac{n^2}{\log^3(n) \log\log^2(n)})$ time complexity lower bound for Intersection Non-Emptiness. Finally, we consider implications that would follow if Intersection Non-Emptiness for a fixed number of DFA's is computationally hard for a fixed polynomial time complexity class. These implications include $\texttt{PTIME} \subseteq \texttt{DSPACE}(n^c)$ for some $c \in \mathbb{N}$ and $\texttt{PSPACE} = \texttt{EXPTIME}$.</description>
-    </item>
-    <item>
-      <title>Logic-Gated Time-Shared Feedforward Networks for Alternating Finite Automata: Exact Simulation and Learnability</title>
-      <link>https://arxiv.org/abs/2604.01228</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.01228</guid>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We present a formal and constructive framework for simulating Alternating Finite Automata (AFAs) using Logic-Gated Time-Shared Feedforward Networks (LG-TS-FFNs). Unlike prior neural automata models limited to Nondeterministic Finite Automata (NFAs) and existential reachability, our architecture integrates learnable, state-dependent biases that function as differentiable logic gates, enabling the representation of both Existential \textsc{\textsc{OR}} and Universal \textsc{\textsc{AND}} aggregation within a shared-parameter linear recurrence. We prove that this architectural modification upgrades the network's computational class to be structurally isomorphic to AFAs, thereby inheriting their exponential succinctness: the network can represent regular languages requiring $2^n$ states in an NFA with only $n$ neurons. We rigorously establish that the forward pass of an LG-TS-FFN exactly simulates the reachability dynamics of an AFA, including instantaneous $\varepsilon$-closures. Furthermore, we demonstrate empirical learnability: a continuous relaxation of the logic gates allows the network to simultaneously recover the automaton's topology and logical semantics from binary labels via standard gradient descent. Extensive experiments confirm that our model achieves perfect recovery of ground-truth automata, bridging the gap between statistical learning and succinct, universal logical reasoning.</description>
     </item>
   </channel>
 </rss>

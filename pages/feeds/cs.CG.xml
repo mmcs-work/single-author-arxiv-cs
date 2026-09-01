@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Bellman--Shoreline Search in Arbitrary Dimension: Exponential Vector Oscillators, Active Memory, Precession, and Effective Computability</title>
+      <link>http://arxiv.org/abs/2608.29060v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.29060v1</guid>
+      <pubDate>Sat, 29 Aug 2026 05:29:35 +0000</pubDate>
+      <description>We study online search for an unknown affine hyperplane in $\mathbb{R}^D$, for arbitrary fixed finite dimension. Building on a companion self-similar cell reduction and support-function formulation, we ask how the mechanism changes as the normal space grows from $\mathbb{S}^0$ to $\mathbb{S}^{D-1}$. In $D=1$, alternation and productivity yield an equal-ripple principle and the exact stationary constant $9$. In $D=2$, the analogous relative equilibrium is a logarithmic spiral whose bottleneck chord imposes tangency and selects the pitch. For exponential orbits $Γ(σ)=e^{κσ}ω(σ)$, we develop log-directional geometry, exponentially discounted memory, gauges, and recursive hyperspherical parametrizations. Without a shape ansatz, the bottleneck admits a certificate supported by at most $D$ historical suppliers, and at globally worst phases the current point lies on the active face. Within regular chambers we derive exact variation, tangency, pitch, age, and, in $D=3$, delay-system identities. Odd-dimensional obstructions, antipodal subclasses, and harmonic towers provide constraints and explicit candidate families but are not claimed globally optimal. Finally, the N-COMP theorem shows that $C_D^*$ is a computable real for every fixed finite $D$ and that algebraic polygonal $\varepsilon$-optimal cells can in principle be synthesized. Numerical screening through $D=10$ is kept separate from the proved results.</description>
+    </item>
+    <item>
+      <title>Bellman Search in Arbitrary Finite Dimension: A Self-Similar Cell Theorem and Effective Computability of Planar Shoreline Search</title>
+      <link>http://arxiv.org/abs/2608.29032v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.29032v1</guid>
+      <pubDate>Sat, 29 Aug 2026 03:56:29 +0000</pubDate>
+      <description>A shoreline-search path starts at the origin and must meet an unknown affine line, without knowing either its normal or its distance. We first establish a self-similar reduction theorem for homogeneous search problems whose historical information is a record profile updated by pointwise maximum. Two quasi-returns of the normalized state delimit a block that renews the required profile by itself; a short connector closes this block into a cell. Every finite-ratio path can therefore be approximated, with arbitrarily small loss, by repetitions of a single cell at all scales. The main chain is then made effective. A finite coding of the state space computably bounds the scale factor and normalized length of a nearly optimal cell. For planar Shoreline search, the support function of the convex hull gives an exact cell functional. A one-sided polygonalization then reduces the problem to a computable number of vertices, after which quantifier elimination decides whether a polygonal cell exists below a rational threshold. It follows that the optimal deterministic planar Shoreline value $C_2^*$ is a computable real: for every rational $ε&gt;0$, an algorithm terminates with a rational interval of width at most $ε$ containing $C_2^*$. Additional results---sliding memory, Bellman transitions, deadlines, geometric filters, and relative equilibria---are presented separately as a toolbox for certified computation and for the study of spiral rigidity; they are not used in the computability proof.</description>
+    </item>
+    <item>
       <title>Improved $\ell_0$-Isoperimetry for Convex Bodies via Mass Transport</title>
       <link>http://arxiv.org/abs/2608.27854v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27854v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2112.07573</guid>
       <pubDate>Thu, 12 Mar 2026 00:00:00 -0000</pubDate>
       <description>Simplicial approximation provides a framework for constructing simplicial complexes that are homotopy equivalent to a given manifold, provided a CW structure is explicitly known. However, its conventional implementation quickly becomes intractable on a computer: barycentric subdivision produces poorly shaped simplices, and the star condition introduces many vertices. To address these limitations, this article develops a subdivision scheme based on spherical Delaunay triangulations, which attains better refinement properties than barycentric subdivisions. Moreover, the star condition is reframed as two independent problems, one geometric and the other combinatorial, respectively tackled in the language of locally equiconnected spaces and the list homomorphism problem, allowing an exponential reduction in the number of vertices. Via a prototype implementation, we obtain simplicial complexes homotopy equivalent to Grassmannians and Stiefel manifolds up to dimension 5.</description>
-    </item>
-    <item>
-      <title>NP-membership for the boundary-boundary art-gallery problem</title>
-      <link>https://arxiv.org/abs/2511.01562</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.01562</guid>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0000</pubDate>
-      <description>The boundary-boundary art-gallery problem asks, given a polygon $P$ representing an art-gallery, for a minimal set of guards that can see the entire boundary of $P$ (the wall of the art gallery), where the guards must be placed on the boundary. That is, for each point on the boundary, there should be a line segment connecting it to one of the guards that is contained in $P$. We show that this art-gallery variant is in NP, even if the polygon can have holes. In order to prove this, we develop a constraint-propagation procedure for continuous constraint satisfaction problems where each constraint involves at most 2 variables. The X-Y variant of the art-gallery problem is the one where the guards must lie in X and need to see all of Y. Each of X and Y can be either the vertices of the polygon, the boundary of the polygon, or the entire polygon, giving 9 different variants. Previously, it was known that X-vertex and vertex-Y variants are all NP-complete and that the point-point, point-boundary, and boundary-point variants are $\exists \mathbb{R}$-complete [Abrahamsen, Adamaszek, and Miltzow, JACM 2021][Stade, SoCG 2025]. However, the boundary-boundary variant was only known to lie somewhere between NP and $\exists \mathbb{R}$. The X-vertex and vertex-Y variants can be straightforwardly reduced to discrete set-cover instances. In contrast, we give example to show that a solution to an instance of the boundary-boundary art-gallery problem sometimes requires placing guards at irrational coordinates, so it unlikely that the problem can be easily discretized.</description>
-    </item>
-    <item>
-      <title>The Li-Chao Tree: Algorithm Specification and Analysis</title>
-      <link>https://arxiv.org/abs/2603.07948</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.07948</guid>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 -0000</pubDate>
-      <description>The Li-Chao tree (LICT) was first introduced in lecture as an efficient data structure for dynamic lower envelope maintenance. In the years since, it has achieved widespread adoption within the competitive programming community, yet no formal specification has appeared in the peer-reviewed literature. This paper provides the definitive formalization of the Li-Chao tree, serving as both the official specification and an expansion of the original lecture. We present complete algorithmic specifications, establish formal correctness proofs, analyze theoretical complexity, and provide empirical performance characterization. The LICT offers distinct advantages in implementation simplicity, numerical stability, and extensibility to advanced variants such as persistence and line segments.</description>
     </item>
   </channel>
 </rss>

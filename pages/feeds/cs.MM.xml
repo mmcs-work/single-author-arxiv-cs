@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Conceptual Framework for Modeling Team Adaptation in Cooperative Games Through Ludic Knowledge</title>
+      <link>http://arxiv.org/abs/2608.28729v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.28729v1</guid>
+      <pubDate>Fri, 28 Aug 2026 17:20:45 +0000</pubDate>
+      <description>With the increasing importance of teamwork skills for modern workplaces, development of teamwork training programs has received substantial attention. Game-based teamwork training is one promising approach that is engaging, cost-effective, and well-suited to increasingly decentralized workplaces. However, design of effective game-based teamwork training requires understanding how a game elicits specific desired teamwork behaviors. Significant progress has been made in characterizing these relationships. However, despite its critical importance, little work has examined how a game's design influences team adaptability behaviors. This paper presents a preliminary framework for analyzing adaptability in cooperative games by conceptualizing adaptive stimuli as retrieval or disruption of players' ludic knowledge. We illustrate this framework through a qualitative case study that applies interaction analysis methods to gameplay videos of a Overcooked!, a cooperative cooking game. We examined instances where game events led to players altering their behavior and connected the game's design features that resulted in each event with three adaptive stimulus cue categories. Although exploratory and limited to a small case study of a single game, the proposed framework is grounded in established theories across teamwork research and game studies, and it offers an initial vocabulary for describing how cooperative games can be designed to create demands for team adaptation. With this continued development, the framework may provide an analytic tool to help inform the design and evaluation of purpose-built game-based teamwork training environments.</description>
+    </item>
+    <item>
       <title>How AI Experiences Art: Emergent Aesthetic Structure in a Self-Supervised Multimodal Embedding Space</title>
       <link>http://arxiv.org/abs/2608.27121v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27121v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2407.19340</guid>
       <pubDate>Fri, 11 Oct 2024 00:00:00 -0000</pubDate>
       <description>Major Depressive Disorder (MDD) is a pervasive mental health condition that affects 300 million people worldwide. This work presents a novel, BiLSTM-based tri-modal model-level fusion architecture for the binary classification of depression from clinical interview recordings. The proposed architecture incorporates Mel Frequency Cepstral Coefficients, Facial Action Units, and uses a two-shot learning based GPT-4 model to process text data. This is the first work to incorporate large language models into a multi-modal architecture for this task. It achieves impressive results on the DAIC-WOZ AVEC 2016 Challenge cross-validation split and Leave-One-Subject-Out cross-validation split, surpassing all baseline models and multiple state-of-the-art models. In Leave-One-Subject-Out testing, it achieves an accuracy of 91.01%, an F1-Score of 85.95%, a precision of 80%, and a recall of 92.86%.</description>
-    </item>
-    <item>
-      <title>3D2M Dataset: A 3-Dimension diverse Mesh Dataset</title>
-      <link>https://arxiv.org/abs/2410.07415</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2410.07415</guid>
-      <pubDate>Wed, 09 Oct 2024 00:00:00 -0000</pubDate>
-      <description>Three-dimensional (3D) reconstruction has emerged as a prominent area of research, attracting significant attention from academia and industry alike. Among the various applications of 3D reconstruction, facial reconstruction poses some of the most formidable challenges. Additionally, each individuals facial structure is unique, requiring algorithms to be robust enough to handle this variability while maintaining fidelity to the original features. This article presents a comprehensive dataset of 3D meshes featuring a diverse range of facial structures and corresponding facial landmarks. The dataset comprises 188 3D facial meshes, including 73 from female candidates and 114 from male candidates. It encompasses a broad representation of ethnic backgrounds, with contributions from 45 different ethnicities, ensuring a rich diversity in facial characteristics. Each facial mesh is accompanied by key points that accurately annotate the relevant features, facilitating precise analysis and manipulation. This dataset is particularly valuable for applications such as facial re targeting, the study of facial structure components, and real-time person representation in video streams. By providing a robust resource for researchers and developers, it aims to advance the field of 3D facial reconstruction and related technologies.</description>
     </item>
   </channel>
 </rss>

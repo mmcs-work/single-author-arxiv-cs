@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On systematicity of linear function-correcting codes</title>
+      <link>http://arxiv.org/abs/2608.29389v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.29389v1</guid>
+      <pubDate>Sat, 29 Aug 2026 17:57:42 +0000</pubDate>
+      <description>The standard formulation of function-correcting codes uses systematic encodings. We study the redundancy cost of this constraint when both the prescribed function and the encoding are linear. We introduce the function-separation distance and show that several classical unequal error protection parameters are special cases. For linear functions and encodings, this distance is the first relative generalized Hamming weight of the code relative to the encoded kernel. We formulate free and systematic linear separation problems. We prove that the optimal free redundancy depends only on the rank of the function, and determine the optimal systematic redundancy for prescribed separations $d\leq3$.</description>
+    </item>
+    <item>
+      <title>Sharp Restricted Isometry Thresholds for Global Minima of Rank-Restricted Matrix LASSO</title>
+      <link>http://arxiv.org/abs/2608.29018v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.29018v1</guid>
+      <pubDate>Sat, 29 Aug 2026 03:13:24 +0000</pubDate>
+      <description>We determine the sharp restricted isometry threshold for recovery at global minima of the rank-restricted matrix LASSO. For target rank $r_{\star}$, if the rank-$k$ RIP constant satisfies $δ&lt;δ_{\mathrm{sharp}}(k/r_{\star})$, where $δ_{\mathrm{sharp}}(t)=t/(4-t)$ for $0&lt;t&lt;4/3$ and $δ_{\mathrm{sharp}}(t)=\sqrt{(t-1)/t}$ for $t\ge4/3$, then every global minimizer has Frobenius error $\lesssim\sqrt{r_{\star}}λ$ for all $λ\gtrsim\|\mathcal{A}^{*}(ξ)\|_{\mathrm{op}}$ and at every search rank $r\ge r_{\star}$. The constants depend only on the RIP constant and $t=k/r_{\star}$, and in particular are independent of the search rank. When the rank restriction is inactive, the result specializes to the ordinary convex matrix LASSO. We also obtain the analogous results for sparsity-restricted vector LASSO. Conversely, we show that the threshold $δ&lt;δ_{\mathrm{sharp}}(k/r_{\star})$ cannot be improved, due to the existence of counterexamples whose global minimizers fail to recover the ground truth.</description>
+    </item>
+    <item>
       <title>Classical Commitment over Quantum Channels with Limited Entanglement Assistance</title>
       <link>http://arxiv.org/abs/2608.28500v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28500v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.27719</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
       <description>Determining the minimal number of intensity measurements required for phase retrieval in $\mathbb{C}^4$ has been a long-standing open problem. Prior to this work, the best-known results implied that this minimum was either $10$ or $11$. In this paper, we leverage characteristic classes and cohomology groups from differential topology to prove that no family of $10$ vectors in $\mathbb{C}^4$ possesses the phase retrieval property. Combining our lower bound with Vinzant's explicit eleven-vector construction establishes that the exact minimum is $11$. Our result yields a significant consequence for pure state quantum tomography, namely, a rank-one POVM on $\mathbb{C}^4$ requires exactly $11$ elements to be informationally complete for pure states. This further implies that three orthonormal bases are insufficient to uniquely distinguish all pure states in $\mathbb{C}^4$. Because four orthonormal bases are already known to be sufficient, we conclude that exactly four bases are required, thereby completely resolving the problem left in [C. Carmeli, T. Heinosaari, J. Schultz, A. Toigo, Eur. Phys. J. D].</description>
-    </item>
-    <item>
-      <title>Perfect $2$-codes over arbitrary alphabets</title>
-      <link>https://arxiv.org/abs/2607.27555</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27555</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The classification of perfect $e$-codes over an arbitrary alphabet of size $q$ is complete for $e &gt; 2$. In the case of non prime power $q$, it is conjectured that no perfect $2$-codes exist. We confirm this conjecture in a number of situations, including the case where $q=2^αp^β$ with $p$ prime, $α$ and $β$ positive integers, and either $α\leq 20$, or $α$ sufficiently large.</description>
-    </item>
-    <item>
-      <title>Closed-Loop Bayesian Bandit Encoder with GRAND Receiver for a Bursty Interference Channel</title>
-      <link>https://arxiv.org/abs/2607.15404</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.15404</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Interleaving mitigates burst errors but introduces decoding delay and removes temporal error structure that a channel-aware decoder could exploit. We consider packet-level selection between a random linear code and the same code used with cross-codeword interleaving, over a channel with an unknown number of on/off interferers. The receiver uses Guessing Random Additive Noise Decoding (GRAND) with a replaceable noise model and feeds aggregate channel statistics back to a Bayesian estimator at the transmitter. Once the interference amplitudes and timing parameters are estimated, the receiver's noise model is replaced: it computes hidden-Markov-model posterior bit-flip probabilities and uses them to order GRAND queries. A discounted Thompson sampler selects between the two transmission modes using a goodput-minus-latency reward whose distribution is endogenously nonstationary: receiver adaptation, rather than channel change, alters the value of each mode. Across five simulation seeds, the interleaved mode is preferred before channel estimation converges. After the learned decoder is activated, the non-interleaved mode becomes preferable because it achieves lower block error rate without interleaving delay. In the reference configuration, the learned noise model reduces block error rate by approximately one order of magnitude relative to ORBGRAND. Using partial channel estimates before full convergence reduces pre-convergence block error rate by up to $4.5\times$. Adding model-predicted utilities as confidence-weighted pseudo-observations reduces post-transition selection of the inferior arm by approximately $65\%$. Under an idealized airtime conversion at a 100~MHz 5G~NR-like symbol rate, the learning transient corresponds to a few milliseconds of occupied symbol time.</description>
     </item>
   </channel>
 </rss>
