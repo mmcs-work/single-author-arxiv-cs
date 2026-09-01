@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Curves of constant width and Lebesgue's covering problem</title>
+      <link>http://arxiv.org/abs/2608.30538v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30538v1</guid>
+      <pubDate>Mon, 31 Aug 2026 10:06:10 +0000</pubDate>
+      <description>A universal cover is a convex set in the plane that contains a congruent copy of every planar set of diameter one. Lebesgue asked in 1914 for one of least area, and the value is not known. We prove that every convex universal cover has area at least 0.8344, improving on 0.832, published in 2005, and 0.833, in a 2026 preprint, both of which come from a disc together with an equilateral triangle and a regular pentagon. Our test sets are instead curves of constant width: the disc, the Reuleaux triangle and the Reuleaux pentagon. Each contains the regular polygon it is built on, so the family is strictly larger at the same number of bodies and the same number of placement parameters, and we show that the classical configuration admits an arrangement whose hull has area below 0.8336, so no bound drawn from those three sets by this argument reaches ours. Curves of constant width were proposed for this role, and explored numerically, by Gibbs in 2014; what is added here is a proof. It consists of an analytic reduction followed by one finite computation. The reduction bounds the hull area from below over an entire box of placements at once, by eroding each Reuleaux polygon to a fixed set contained in every placement that box allows. The computation is an exhaustive subdivision of the resulting five-dimensional space, recorded as a certificate of 486,799,600 nodes and checked by a verifier independent of the search, with a rigorous bound on its floating point error some thousands of times smaller than the margin the verification attains.</description>
+    </item>
+    <item>
       <title>Bellman--Shoreline Search in Arbitrary Dimension: Exponential Vector Oscillators, Active Memory, Precession, and Effective Computability</title>
       <link>http://arxiv.org/abs/2608.29060v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.29060v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2508.04603</guid>
       <pubDate>Sun, 15 Mar 2026 00:00:00 -0000</pubDate>
       <description>We show a new construction for square packing, and prove that it is more efficient than previous results.</description>
-    </item>
-    <item>
-      <title>Simplicial approximation to CW complexes with spherical Delaunay triangulations</title>
-      <link>https://arxiv.org/abs/2112.07573</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2112.07573</guid>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Simplicial approximation provides a framework for constructing simplicial complexes that are homotopy equivalent to a given manifold, provided a CW structure is explicitly known. However, its conventional implementation quickly becomes intractable on a computer: barycentric subdivision produces poorly shaped simplices, and the star condition introduces many vertices. To address these limitations, this article develops a subdivision scheme based on spherical Delaunay triangulations, which attains better refinement properties than barycentric subdivisions. Moreover, the star condition is reframed as two independent problems, one geometric and the other combinatorial, respectively tackled in the language of locally equiconnected spaces and the list homomorphism problem, allowing an exponential reduction in the number of vertices. Via a prototype implementation, we obtain simplicial complexes homotopy equivalent to Grassmannians and Stiefel manifolds up to dimension 5.</description>
     </item>
   </channel>
 </rss>

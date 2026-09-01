@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Language of the Question Selects the Market: Query Language and Exit IP as Separable Factors in Commercial Recommendations from a Generative Search Interface</title>
+      <link>http://arxiv.org/abs/2608.30052v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30052v1</guid>
+      <pubDate>Sun, 30 Aug 2026 21:25:17 +0000</pubDate>
+      <description>When a generative search interface answers a commercial question, which market's products it names is decided before the model reasons about the products. We report a controlled probe of 234 runs against the logged-out ChatGPT web interface and the OpenAI API, collected on 29 and 30 August 2026 across four exit countries and six query languages, with six identical runs per cell. Three results. First, the top recommendation is unstable: it changed across six identical runs on four of six prompts, and that rate was identical in the browser interface and in the API with web search both enabled and disabled, so instability is a property of the system and not of the surface. Second, query language, and not location, decides whether local suppliers appear at all. Where the query language matched the country, a global brand won 1 of 24 runs; asked in English on the same connections, local brands took 0 of 6 runs in Estonia and Turkiye. Third, language and location are separable and act on different things: holding the query language fixed and moving only the exit IP moves the market whose brands are named while the answer stays in the query language. We show this on two unrelated pairs, Turkish asked from Berlin and Russian asked from Tallinn, and in both the answer names the resident country's suppliers. A minority language occupies a middle tier: Russian asked from Estonia names an Estonian supplier in 4 of 6 runs and a global one in all six, where Estonian names a local supplier in every run and English names none. A negative control in a second category, coded with the same instrument, shows no language effect at all, and disconfirms our own expectation: that category does have domestic suppliers and none was named in any language, which points the explanation at whether a category is nationally regulated rather than at whether it is nationally supplied.</description>
+    </item>
+    <item>
       <title>Nested Byte-Level Vocabularies Are Cheap to Deploy and Expensive to Share: A Pre-Registered Negative Result</title>
       <link>http://arxiv.org/abs/2608.28151v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28151v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.05424</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 -0000</pubDate>
       <description>The transmission chains (sanad) of Islamic Hadith literature encode relationships among tens of thousands of historical narrators whose biographical records are dispersed across independently maintained digital databases that share no common identifier. We present a two-phase entity resolution pipeline that links narrator names from the Sanadset 650K corpus - 650,986 Hadith records from 926 books containing 185,216 unique narrator name variants - to two biographical databases: Hadithtransmitters (Hawramani; 100,915 entries) and Muslimscholars (25,247 entries). Phase 1 matches Sanadset names to Hawramani using name-only similarity (Sanadset carries no metadata), yielding 94,628 links (51.1%; HIGH 39,938 / MED 54,690). Phase 2 cross-references Hawramani against Muslimscholars via a weighted multi-signal function combining name similarity, death-year proximity, and reliability grade polarity, yielding 95,573 links (94.7% of Hawramani; HIGH 18,245 / MED 71,546 / LOW 5,782). Chaining the two phases gives Sanadset narrators transitive access to Muslimscholars data. The linked data enable construction of a 185,216-node, 814,093-edge directed transmission graph enriched with cross-source biographical metadata. The annotated link corpora and enriched graph are released as open resources.</description>
-    </item>
-    <item>
-      <title>Towards Critical IR Theories and Practices</title>
-      <link>https://arxiv.org/abs/2606.30984</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.30984</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Belkin and Robertson urged us, half a century ago, to develop a theoretical foundation for understanding what constitutes societal good that can inform information retrieval (IR) research and serve as a basis for determining when we should limit our scientific inquiry in the face of demands that are contradictory to societal good. In this article, I argue that to achieve this, IR should embrace critical theories and practices in our work, and shift away from the dominant liberal frame through which much of the IR community today view societal concerns in context of our research. Unlike the liberal frame, the critical frame explicitly adopts nondomination as its stated goal which can clarify our conceptualization of societal good within the field, provide necessary theoretical underpinning that Belkin and Robertson urged the community to develop, and serve as a basis for critical appraisals of our progress in enacting desired societal change.</description>
     </item>
   </channel>
 </rss>

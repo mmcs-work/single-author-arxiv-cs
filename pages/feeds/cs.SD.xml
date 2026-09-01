@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>How Well Do Generative Music Models Follow Emotion Conditioning?</title>
+      <link>http://arxiv.org/abs/2608.29987v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.29987v1</guid>
+      <pubDate>Sun, 30 Aug 2026 19:24:54 +0000</pubDate>
+      <description>Recent generative music models offer increasingly fine-grained control through text and audio conditioning, yet how faithfully they follow intended emotional cues remains an open question. We address this gap with a unified evaluation pipeline for emotion-following in generated music. Using all 1000 tracks in GTZAN, we extract semantic audio descriptions with DashengLM, an audio captioning model, and estimate source-track valence and arousal with Music2Emotion, a music emotion recognition model. We construct affect-aware text prompts by combining descriptions with top-ranked emotion tags and generate 30-second outputs with three systems, Stable Audio Open, MusicGen, and InspireMusic, evaluating both text- and audio-conditioned generation. To measure emotion-following, we compute valence and arousal on generated audio and compare them with the source tracks using absolute error and Euclidean distance in valence-arousal space. Text-conditioned generation consistently outperforms audio conditioning, with MusicGen (text) and InspireMusic (text) achieving the best performance, while audio-conditioned variants prove less stable. We further find that valence is preserved more reliably than arousal and that emotion-following varies substantially across genres. These findings underscore the importance of evaluating affective controllability directly rather than relying solely on general quality or prompt-relevance metrics.</description>
+    </item>
+    <item>
       <title>Evoking Harmony via Convolution</title>
       <link>http://arxiv.org/abs/2608.28851v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28851v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.08786</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
       <description>Word error rate (WER) is the dominant metric for automatic speech recognition, yet it cannot detect a systematic failure mode: models that produce fluent output in the wrong writing system. We define Script Fidelity Rate (SFR), the fraction of hypothesis characters in the target script block, computable without reference transcriptions, and report a systematic measurement of script collapse across ten languages spanning six writing systems and ten models (seven Whisper sizes, MMS-1B, SeamlessM4T-v2, and Gemma 4 E2B) on FLEURS test sets. Across 100 evaluated model-language pairs, 21 (21%; 95% Wilson CI: 14-30%) exhibit script collapse (SFR less than 10%): 20 involve Whisper and one involves Gemma 4 E2B on Urdu under a generic transcription prompt. In a ten-language Gemma 4 probe, script-aware prompting raises mean SFR from 71.2% to 97.7%, fixes Urdu collapse (6.5% to 97.0%), and recovers 5.9 chrF on downstream NLLB translation for the six languages whose baseline SFR is below 90%. We identify four collapse patterns: Latin phonetic substitution, Arabic substitution for Somali, Devanagari substitution for Bengali/Malayalam, and unique-script Latin collapse for Georgian.</description>
-    </item>
-    <item>
-      <title>Evaluating Semantic Fragility in Text-to-Audio Generation Systems Under Controlled Prompt Perturbations</title>
-      <link>https://arxiv.org/abs/2603.13824</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.13824</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
-      <description>Recent advances in text-to-audio generation enable models to translate natural-language descriptions into diverse musical output. However, the robustness of these systems under semantically equivalent prompt variations remains largely unexplored. Small linguistic changes may lead to substantial variation in generated audio, raising concerns about reliability in practical use. In this study, we evaluate the semantic fragility of text-to-audio systems under controlled prompt perturbations. We selected MusicGen-small, MusicGen-large, and Stable Audio 2.5 as representative models, and we evaluated them under Minimal Lexical Substitution (MLS), Intensity Shifts (IS), and Structural Rephrasing (SR). The proposed dataset contains 75 prompt groups designed to preserve semantic intent while introducing localized linguistic variation. Generated outputs are compared through complementary spectral, temporal, and semantic similarity measures, enabling robustness analysis across multiple representational levels. Experimental results show that larger models achieve improved semantic consistency, with MusicGen-large reaching cosine similarities of 0.77 under MLS and 0.82 under IS. However, acoustic and temporal analyses reveal persistent divergence across all models, even when embedding similarity remains high. These findings indicate that fragility arises primarily during semantic-to-acoustic realization rather than multi-modal embedding alignment. Our study introduces a controlled framework for evaluating robustness in text-to-audio generation and highlights the need for multi-level stability assessment in generative audio systems.</description>
     </item>
   </channel>
 </rss>

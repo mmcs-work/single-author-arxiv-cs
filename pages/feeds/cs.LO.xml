@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Computational free will as global selection: from sheaf-theoretic gluing to a conditional separation of P and NP</title>
+      <link>http://arxiv.org/abs/2608.30797v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30797v1</guid>
+      <pubDate>Mon, 31 Aug 2026 13:50:39 +0000</pubDate>
+      <description>We formalise computational free will by separating locally constrained admissibility from the selection of one global continuation. Global sections of a finite choice presheaf form an admissible set, GLUE; SELECT singles out the continuation realised at a pre-identified occurrence. A uniform trace relation certifies that continuation efficiently after the act, although it is assumed not to be uniformly anticipable in polynomial time from the prior occurrence input. Under explicit uniformity, balance, historical-completeness, and unique-projection assumptions, this trace defines a total FNP search relation with no deterministic polynomial-time selector. Thus existence of computational free will in the stated sense implies a separation between polynomially verifiable and polynomially solvable search, and hence that P differs from NP. The result is conditional and gives no unconditional class separation.</description>
+    </item>
+    <item>
+      <title>Unary Functions, Automorphisms, and Unlabeled First-Order Model Counting</title>
+      <link>http://arxiv.org/abs/2608.30580v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30580v1</guid>
+      <pubDate>Mon, 31 Aug 2026 10:53:52 +0000</pubDate>
+      <description>Every fixed first-order sentence $\varphi$ determines an enumerative sequence $n\mapsto\mathrm{FOMC}(\varphi,n)$, counting its models on the labeled domain $[n]$. We study the complexity of these sequences when logical specifications may use genuine unary function symbols and hence nested terms $x,f(x),f^2(x),\ldots$. We first prove that, for every fixed sentence $\varphi\in\mathrm{C}^1_{=}[f]$, with one unary function and an arbitrary finite relational vocabulary, $\mathrm{FOMC}(\varphi,n)$ is computable in time polynomial in $n$. By contrast, permitting either a second variable or a second unary function already yields hardness. Without counting quantifiers, there is a fixed sentence in $\mathrm{FO}^2_{=}[f]$ whose model-counting function is $\#\mathrm{P}_1$-complete. With one variable and two unary functions, there is a fixed constant-free universal sentence in $\mathrm{FO}^1_{=}[f,g]$, using only unary predicates besides $f$ and $g$, whose model-counting function is again $\#\mathrm{P}_1$-complete. We also relate labeled and unlabeled enumeration exactly. For every relational sentence $\varphi$, we construct an extension $\varphi_{\mathrm{aut}}$ in which a unary function records an automorphism and $\mathrm{FOMC}(\varphi_{\mathrm{aut}},n)=n!\cdot\mathrm{UFOMC}(\varphi,n)$, where $\mathrm{UFOMC}(\varphi,n)$ denotes the number of $n$-element models of $\varphi$ up to isomorphism. Thus automorphism marking gives a one-query exact reduction from unlabeled to labeled model counting at the same domain size. Over relational vocabularies of maximum arity at most $k$, where $k\geq2$, eliminating the auxiliary function yields single-query reductions from unlabeled $\mathrm{FO}^k_{=}$ and $\mathrm{C}^k$ model counting to labeled $\mathrm{FO}^{k+1}_{=}$ and $\mathrm{C}^{k+1}$ model counting, respectively.</description>
+    </item>
+    <item>
       <title>Mechanizing Typed Regulatory Actions for Security Tokens: Semantics, Falsification, and Bounded EVM Evidence</title>
       <link>http://arxiv.org/abs/2608.29134v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.29134v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.20188</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
       <description>In this paper we continue assessing the feasibility of the approach to the mechanization of type theory by using classical syntax and Stoughton's multiple substitutions and report some substantial progress. We present formal proofs of confluence for beta-reduction and by using Takahashi's revision of Tait and Martin-Löf's proof, subject reduction for the entire family of the Pure Type Systems and consistency for some impredicative subclass, assuming normalization. As to the proof of confluence, we also develop a theory of alpha-commutative relations which, in our view, entails a clearer presentation and treatment of the problem than in similar developments. Finally, we assess general merits and drawbacks of the approach. The whole development has been machine-checked using Agda.</description>
-    </item>
-    <item>
-      <title>What is a Model of the Linear Lambda Calculus?</title>
-      <link>https://arxiv.org/abs/2607.20088</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.20088</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We investigate the notion of model of the linear $λ$-calculus from an algebraic perspective. Our starting point is the operad of linear $λ$-terms, whose algebras provide a natural candidate. We prove that this notion of model is equivalent to two other structures: a linear analogue of Curry's $λ$-algebras, and semiclosed operads, a class of operads equipped with an internal abstraction operation. The equivalence between these three approaches unifies three complementary answers to the question of what should be regarded as a model of the linear $λ$-calculus. As a second contribution, we give a finite equational presentation for the linear variant of $λ$-algebras using the linear combinators $\mathbf{B}$, $\mathbf{C}$, and $\mathbf{I}$. Finally, exploiting the equivalence with semiclosed operads, we establish a linear analogue of Scott's representation theorem by showing that every model arises as a reflexive object in a natural monoidal closed category of presheaves.</description>
-    </item>
-    <item>
-      <title>Neuro-Symbolic AI for Korean Criminal Law: Sentencing Prediction and Document Drafting</title>
-      <link>https://arxiv.org/abs/2607.19740</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.19740</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The Korean criminal justice system utilizes summary proceedings (guyaksik) to expedite high-volume minor infractions, such as simple driving under the influence (DUI), unlicensed driving, and minor traffic casualties. Although this mechanism improves judicial throughput, processing these cases creates a substantial administrative burden for prosecutors, driving the need for automated systems that can precisely translate unstructured legal text into deterministic statutory outcomes. While recent Large Language Models (LLMs) excel at semantic extraction, their probabilistic nature inherently limits their reliability in Legal Judgment Prediction tasks. Specifically, when confronted with the arithmetic constraints of legal statutes, LLMs can produce hallucinations. Given that legal accountability permits virtually no tolerance for stochastic errors, purely neural architectures remain limited in their direct judicial applications. To address these limitations, we propose a Neuro-Symbolic framework that bridges unstructured legal facts with formal verification. Our architecture restricts the LLM exclusively to semantic extraction, while offloading statutory fine calculations to a Satisfiability Modulo Theories solver. This division of labor reduces hallucination risks during computation. Furthermore, we incorporate a Human-in-the-Loop verification scheme to preserve professional legal oversight. We formalize the 2026 Sentencing Guidelines for Traffic Offenses within this pipeline, demonstrating a deterministic approach to supporting summary indictments.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Test or Run? Scheduling Jobs of Unknown Length</title>
+      <link>http://arxiv.org/abs/2608.30911v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30911v1</guid>
+      <pubDate>Mon, 31 Aug 2026 14:56:23 +0000</pubDate>
+      <description>A machine faces many jobs whose lengths are hidden. Spending one unit of time to inspect a job may reveal a short job that should be finished now, or it may reveal nothing useful while every other job waits. When should the machine keep looking, and when should it start working? We study natural variants of this question and provide optimal algorithms in both the worst-case and instance-optimal frameworks. The resulting algorithms are often quite simple, which may make them useful in practice.</description>
+    </item>
+    <item>
+      <title>Upper and lower bounds on the OBDD-width of a special integer multiplication</title>
+      <link>http://arxiv.org/abs/2608.30664v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30664v1</guid>
+      <pubDate>Mon, 31 Aug 2026 12:04:08 +0000</pubDate>
+      <description>We consider the Boolean function ${\rm SMul}_{n-1}^n(\boldsymbol{x},\boldsymbol{y})$, which computes the middle bit of the multiplication of two natural numbers represented as $n$-bit binary strings $\boldsymbol{x}$ and $\boldsymbol{y}$, drawn from a restricted domain. We investigate the width of OBDDs computing ${\rm SMul}_{n-1}^n$. We introduce a combinatorially defined function $s_*(n)$ and show that the width of such OBDDs is $Θ(2^{s_*(n)})$.</description>
+    </item>
+    <item>
+      <title>Unrestricted Boolean Multiplicative Complexity of Four-Term Binary Polynomial Multiplication: Rational Places, Hasse Jets, and the Failure of Nonlinear Feedback</title>
+      <link>http://arxiv.org/abs/2608.30238v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30238v1</guid>
+      <pubDate>Mon, 31 Aug 2026 04:45:12 +0000</pubDate>
+      <description>Classical lower bounds show that multiplying two degree-three polynomials over $\mathbb F_2$ requires nine scalar products in bilinear or quadratic models. They do not settle unrestricted Boolean multiplicative complexity: an XOR--AND circuit may reuse nonlinear intermediate wires, and Boolean equality is taken modulo $x_i^2=x_i$, so a multiplication can lower algebraic degree. Let $\operatorname{Mul}_4:\mathbb F_2^8\to\mathbb F_2^7$ output the seven coefficients of the product of two four-term binary polynomials. We prove that its unrestricted XOR--AND multiplicative complexity is exactly nine. This resolves, for a natural vector-valued quadratic function, the Boyar--Find question of whether a quadratic-circuit lower bound can persist against unrestricted nonlinear reuse. The proof is structural rather than exhaustive. A useful purely quadratic prefix is forced onto the three rational places of $\mathbb P^1(\mathbb F_2)$. In a hypothetical eight-AND circuit, the unique non-useful gate must carry a cubic high part. Any useful continuation then forces a rational tangent and exposes a first Hasse jet, while exterior jet separation together with Boolean idempotence prevents the same defect from exposing the second Hasse jet. The required useful suffix therefore cannot exist. A complete Lean 4 formalization verifies the Boolean-ANF semantics, the unrestricted circuit model, and the exact theorem; it uses no project-specific axiom or native decision procedure. The same zero-defect flag argument gives multiplicative complexity six for three-term multiplication, and the method isolates the multi-defect obstruction for five terms.</description>
+    </item>
+    <item>
       <title>Analysis of Polynomial Threshold Functions on Random Regular Graphs: Computational Complexity of Detecting Noisy Random Lift</title>
       <link>http://arxiv.org/abs/2608.28539v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28539v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.25973</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
       <description>We prove that $k$-coloring on $n$-vertex graphs has a randomized algorithm running in time $(2-\varepsilon_k)^n$, where $\varepsilon_k&gt;0$ for every fixed $k$. Previously, only the cases $k\leq 6$ were known to have faster solutions than the general $O^\star\bigl(2^n\bigr)$ time algorithm of [Björklund, Husfeldt, Koivisto, SICOMP 2009] that computes the chromatic number. We resolve this long-standing open problem by generalizing and combining tools from the $(k+2)$-coloring to $k$-list-coloring reduction of [Zamir, ICALP 2021] and the hypergraph-containers based approach in [Zamir, STOC 2023]. Together with new algorithms for list-coloring instances mixing long and short color lists, this yields an iterable reduction from $(k+1)$-list-coloring to $k$-list-coloring over fixed palettes.</description>
-    </item>
-    <item>
-      <title>Breaking the $4^k$ Barrier for the $k$-Distinct Language</title>
-      <link>https://arxiv.org/abs/2607.25381</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.25381</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>For integers $k\le n$, let $L_{k,n}$ be the set of words over $[n]$ of length at most $k$ in which no symbol is repeated. We present a nondeterministic finite automaton (NFA) of size $3.918^k n^{O(1)}$, improving on the $4^{k+o(k)}n^{O(1)}$ construction of Ben-Basat, Gabizon, and Zehavi. Our proof organizes several classical ingredients---product automata, hashing, and coefficient estimates---into a gadget-amplification framework: We take the product of many copies of a small local NFA gadget, whose language is a subset of $L_{r,c}$, and hash the $k$ input symbols to copies and local colors. The hash family guarantees that, for every repetition-free input, some hash sends at most $r$ symbols to each copy such that the resulting projection in every copy is accepted by the local gadget. Taking the nondeterministic union of the corresponding product NFAs yields a global NFA. Amplifying a $200$-state gadget for $L_{6,11}$ obtained from the small Witt design $S(4,5,11)$, this framework gives a $3.967^k n^{O(1)}$-size NFA. We then introduce the compose-and-compress technique, which deletes the expensive middle layers of these products and replaces paths across the deleted bands with sound one-symbol shortcut transitions. We apply it twice, once for enhancing the amplification framework and again for the local gadget, obtaining the stated result.</description>
-    </item>
-    <item>
-      <title>A Comparison of Two Dynamic k-d Trees</title>
-      <link>https://arxiv.org/abs/2607.22764</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.22764</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Two methods have been proposed for building and modifying a dynamic k-d tree. One method stores the dynamic tree as a single k-d tree and rebalances that tree by rebuilding subtrees within the tree when those subtrees become unbalanced due to insertion of a k-dimensional tuple into the tree or deletion of a tuple from the tree. A second method composes a dynamic tree as a set of static k-d trees whose sizes are increasing integer powers of two; this tree's balance is maintained by rebuilding a static tree within the set upon insertion or deletion of a tuple. This article describes insertion and deletion algorithms for the second method, and compares the performance of the second method to the performance of the first method.</description>
-    </item>
-    <item>
-      <title>Workload-Aware Autotuning of Block Size in Square-Root Decomposition</title>
-      <link>https://arxiv.org/abs/2606.06145</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.06145</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The textbook choice B=sqrt(n) for square-root decomposition is asymptotically natural, but it is not always the fastest implementation choice. We study block-size autotuning as a reproducible algorithm-engineering problem. On 3,840 generated workloads with repeated grouped cross-validation, the selected KNN-9 policy reduces mean regret from 1.2769 to 1.0478 and yields a paired geometric-mean speedup of 1.158x over fixed sqrt(n) blocking. A separate Docker/Linux confirmation over 960 workloads gives the same direction of effect (1.112x). We retain two trace-derived checks: the six-window Baleen study improves by 1.104x, whereas the three-workload Wikidata smoke study is slower than fixed blocking. These contrasting results delimit the contribution: workload-aware selection can improve an already chosen block-decomposition implementation, but it is neither a universal replacement for fixed blocking nor a replacement for BIT.</description>
     </item>
   </channel>
 </rss>

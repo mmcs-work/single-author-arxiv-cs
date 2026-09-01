@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Unary Functions, Automorphisms, and Unlabeled First-Order Model Counting</title>
+      <link>http://arxiv.org/abs/2608.30580v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30580v1</guid>
+      <pubDate>Mon, 31 Aug 2026 10:53:52 +0000</pubDate>
+      <description>Every fixed first-order sentence $\varphi$ determines an enumerative sequence $n\mapsto\mathrm{FOMC}(\varphi,n)$, counting its models on the labeled domain $[n]$. We study the complexity of these sequences when logical specifications may use genuine unary function symbols and hence nested terms $x,f(x),f^2(x),\ldots$. We first prove that, for every fixed sentence $\varphi\in\mathrm{C}^1_{=}[f]$, with one unary function and an arbitrary finite relational vocabulary, $\mathrm{FOMC}(\varphi,n)$ is computable in time polynomial in $n$. By contrast, permitting either a second variable or a second unary function already yields hardness. Without counting quantifiers, there is a fixed sentence in $\mathrm{FO}^2_{=}[f]$ whose model-counting function is $\#\mathrm{P}_1$-complete. With one variable and two unary functions, there is a fixed constant-free universal sentence in $\mathrm{FO}^1_{=}[f,g]$, using only unary predicates besides $f$ and $g$, whose model-counting function is again $\#\mathrm{P}_1$-complete. We also relate labeled and unlabeled enumeration exactly. For every relational sentence $\varphi$, we construct an extension $\varphi_{\mathrm{aut}}$ in which a unary function records an automorphism and $\mathrm{FOMC}(\varphi_{\mathrm{aut}},n)=n!\cdot\mathrm{UFOMC}(\varphi,n)$, where $\mathrm{UFOMC}(\varphi,n)$ denotes the number of $n$-element models of $\varphi$ up to isomorphism. Thus automorphism marking gives a one-query exact reduction from unlabeled to labeled model counting at the same domain size. Over relational vocabularies of maximum arity at most $k$, where $k\geq2$, eliminating the auxiliary function yields single-query reductions from unlabeled $\mathrm{FO}^k_{=}$ and $\mathrm{C}^k$ model counting to labeled $\mathrm{FO}^{k+1}_{=}$ and $\mathrm{C}^{k+1}$ model counting, respectively.</description>
+    </item>
+    <item>
+      <title>An Improved Bound for Smith's Longest Cycles Conjecture via a Forbidden Subdivision</title>
+      <link>http://arxiv.org/abs/2608.30353v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30353v1</guid>
+      <pubDate>Mon, 31 Aug 2026 07:09:24 +0000</pubDate>
+      <description>Smith's conjecture asserts that in every $k$-connected graph with $k\geq 2$, any two longest cycles intersect in at least $k$ vertices. In this work, we establish an $Ω(k^{8/11})$ bound for this conjecture, improving upon the $Ω(k^{2/3})$ bound of Ma and Zhao. Our proof combines a Ramsey theoretic refinement of the traditional Turán-type approach with computer search.</description>
+    </item>
+    <item>
       <title>Improved Subexponential Upper Bounds for $3$-Restricted Matching Vector Families</title>
       <link>http://arxiv.org/abs/2608.27859v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27859v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.08127</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 -0000</pubDate>
       <description>Let ${\bf x} = (a_i)_{i \geq 0}$ be an infinite word over a finite alphabet $Σ$. Let $ρ(n)$ be the factor complexity function for $\bf x$ and ${\rm Pal}(n)$ be the palindrome complexity function for $\bf x$. We give a new relationship between these two quantities; namely, if $\bf x$ is not ultimately periodic, then $$ \lim_{n \rightarrow \infty} {{ {\rm Pal} (n) \log ({\rm Pal} (n) + 1)} \over {ρ(n)}} = 0. $$ Furthermore, we prove that the numerator in this result is essentially optimal.</description>
-    </item>
-    <item>
-      <title>Trapping and commutative Boolean networks</title>
-      <link>https://arxiv.org/abs/2604.02303</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.02303</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A Boolean network (BN) is a transformation of the set of Boolean configurations of a given length. A trapspace of a BN is a subcube invariant by the BN; a principal trapspace is the smallest trapspace containing a given configuration; a minimal trapspace is one that does not contain any smaller trapspace. In an unrelated development, commutative BNs have been introduced as those networks where all local updates commute. In this paper, we relate those two aspects of BN theory via five main contributions. First, we introduce the trapping graph and the trapping closure of a BN. We also define trapping networks as the networks with transitive general asynchronous graphs and we prove that those are exactly the trapping closures. Second, we show that two BNs have the same collection of (principal) trapspaces if and only if they have the same trapping closure. We then characterise the collections of (principal) trapspaces of BNs. We finally give analogous results for the collections of minimal trapspaces. Third, we prove that commutative networks are trapping, and we classify the collections of principal trapspaces of commutative networks. Fourth, we focus on bijective commutative networks, which we call Marseille networks. We provide several alternative definitions for Marseille networks, and we classify them as special commutative or trapping networks. Fifth, we focus on idempotent commutative networks, which we call Lille networks. We provide several alternative definitions for Lille networks, we classify them as special commutative or trapping networks, and we relate them to globally idempotent networks. Our investigations of Marseille and Lille networks also highlight relations amongst the asynchronous, general asynchronous, and trapping graphs of Boolean networks, as well as the structure of trapping networks in general.</description>
-    </item>
-    <item>
-      <title>Coloring Graphs With No Totally Odd Clique Immersion</title>
-      <link>https://arxiv.org/abs/2508.08119</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.08119</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We prove that graphs that do not contain a totally odd immersion of $K_t$ are $\mathcal{O}(t)$-colorable. In particular, we show that any graph with no totally odd immersion of $K_t$ is the union of a bipartite graph and a graph which forbids an immersion of $K_{\mathcal{O}(t)}$. Our results are algorithmic, and we give a fixed-parameter tractable algorithm (in $t$) to find such a decomposition.</description>
     </item>
   </channel>
 </rss>

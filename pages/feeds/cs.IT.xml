@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Strengthening Recursive Constructions for Zero-Error Shannon Capacity</title>
+      <link>http://arxiv.org/abs/2608.30273v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2608.30273v1</guid>
+      <pubDate>Mon, 31 Aug 2026 05:38:05 +0000</pubDate>
+      <description>The exact Shannon capacity is unknown for every odd cycle beyond the five-cycle $C_5$, making odd cycles a central open problem in zero-error information theory. Improving the known lower bounds requires constructing large independent sets in strong powers of these graphs. Recent AI-assisted work has produced a rapid sequence of improvements: building on the construction of Itty et al., Gao developed a recursive product construction for combining structured independent sets, and Buys, Polak, and Zuiddam (BPZ) subsequently strengthened this through a richer recursion framework. We continue this line of AI-assisted exploration and introduce a heterogeneous refinement of these constructions. The central observation is that the usefulness of an intermediate construction depends not only on the size of its current main independent set, but also on the auxiliary structure it carries into subsequent recursion. Consequently, different parts of that auxiliary structure need not use the same independent set, and different occurrences in a recursion need not use the same intermediate representation. We formalize this for Gao's binary product and derive explicit propagation rules showing how heterogeneous choices strengthen the resulting gadget while leaving its current code size unchanged, then extend the principle to the more general BPZ framework, tailoring constructions to the distinct roles they play within the recursion. Applying these refinements to the seven-cycle $C_7$, we obtain an independent set in $C_7^{\boxtimes 500}$ yielding $Θ(C_7)\ge 3.25883262\ldots$, improving the best known lower bound. Beyond the numerical gain, the results illustrate a general principle for recursive zero-error constructions: intermediate structures with the same dimension and current code size can have different downstream value depending on where and how they are used in the recursion.</description>
+    </item>
+    <item>
       <title>On systematicity of linear function-correcting codes</title>
       <link>http://arxiv.org/abs/2608.29389v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.29389v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.27869</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
       <description>We give a recursive reformulation and extension of the independent set of size $134753$ in $C_7^{10}$ constructed by N. Itty, C. D. Rosin, C. Carstensen, and D. Reichman (arXiv:2607.21517v1). We prove a product lemma that combines gadgets of different dimensions while preserving the required independence conditions. Starting from the size-$367$ independent set in $C_7^5$ of S. C. Polak and A. Schrijver (Information Processing Letters 143 (2019), 37-40), the construction gives an explicitly specified independent set in $C_7^{200}$. Consequently, \[ Θ(C_7)\geq 3.2587891539086910161967650155\ldots . \] An accompanying program verifies the finite assertions about the five-dimensional base gadget and performs the exact integer computations used in the recursion.</description>
-    </item>
-    <item>
-      <title>Phase Retrieval in $\mathbb C^4$ Requires Exactly Eleven Measurements</title>
-      <link>https://arxiv.org/abs/2607.27719</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27719</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Determining the minimal number of intensity measurements required for phase retrieval in $\mathbb{C}^4$ has been a long-standing open problem. Prior to this work, the best-known results implied that this minimum was either $10$ or $11$. In this paper, we leverage characteristic classes and cohomology groups from differential topology to prove that no family of $10$ vectors in $\mathbb{C}^4$ possesses the phase retrieval property. Combining our lower bound with Vinzant's explicit eleven-vector construction establishes that the exact minimum is $11$. Our result yields a significant consequence for pure state quantum tomography, namely, a rank-one POVM on $\mathbb{C}^4$ requires exactly $11$ elements to be informationally complete for pure states. This further implies that three orthonormal bases are insufficient to uniquely distinguish all pure states in $\mathbb{C}^4$. Because four orthonormal bases are already known to be sufficient, we conclude that exactly four bases are required, thereby completely resolving the problem left in [C. Carmeli, T. Heinosaari, J. Schultz, A. Toigo, Eur. Phys. J. D].</description>
     </item>
   </channel>
 </rss>
