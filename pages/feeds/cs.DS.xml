@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Disproving the Greedy Superstring Conjecture</title>
+      <link>http://arxiv.org/abs/2609.01365v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01365v1</guid>
+      <pubDate>Tue, 01 Sep 2026 15:03:55 +0000</pubDate>
+      <description>The shortest common superstring problem is to find the shortest string that contains every string in a given set as a substring. It is conjectured that the greedy algorithm that repeatedly selects a pair of strings with maximum overlap and merges them is a $2$-approximation algorithm, and this conjecture had remained open for nearly four decades. In this paper, we disprove this conjecture and show that the approximation ratio of this algorithm is at least $9/4$.</description>
+    </item>
+    <item>
+      <title>Kernelization of 2-Club Cluster Edge Deletion on Interval Graphs</title>
+      <link>http://arxiv.org/abs/2609.01021v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01021v1</guid>
+      <pubDate>Tue, 01 Sep 2026 10:18:54 +0000</pubDate>
+      <description>The \emph{$s$-Club Cluster Edge Deletion} problem asks whether, given a graph $G$ and an integer $k$, one can delete at most $k$ edges so that every remaining connected component has diameter at most~$s$. This generalizes the classical \emph{Cluster Edge Deletion} problem by permitting components of bounded diameter instead of requiring cliques. On general graphs, $2$-Club Cluster Edge Deletion is known to be fixed-parameter tractable when parameterized by $k$, but it remains open whether it admits a polynomial kernel, as posed in~\cite{ABUKHZAM2023113864}. Motivated by this question, we study the problem on interval graphs and obtain a polynomial vertex kernel of size $\mathcal{O}(k^{5})$. As a complementary result, we also show that the \emph{$s$-Club Cluster Edge Deletion} problem is polynomial time solvable on unit interval graphs. We also show that $2$-Club Cluster Edge Deletion is NP-hard even on split graphs.</description>
+    </item>
+    <item>
+      <title>Random-Priority Frontier Routing: Tight $Θ(n^c)$ Bounds Against $c$-Node Cartels</title>
+      <link>http://arxiv.org/abs/2609.00893v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00893v1</guid>
+      <pubDate>Tue, 01 Sep 2026 08:22:15 +0000</pubDate>
+      <description>We study path diversification in trusted-node networks, where sensitive material is relayed through intermediate nodes, some of which may be compromised. Our randomized routing rule assigns each vertex an independent random priority and repeatedly expands the highest-priority vertex on the global frontier of the explored region. Let $G$ have $n$ vertices, let $s,t$ be honest endpoints, and let $C$ be a set of $c$ compromised intermediate vertices, called a cartel, whose deletion leaves $s$ and $t$ connected. For every fixed $c$ and every fixed target probability $q\in(0,1)$, we prove that $Θ(n^c)$ independent executions are sufficient in the worst case for some route to avoid $C$ with probability at least $q$.</description>
+    </item>
+    <item>
+      <title>Prediction-Assisted Pricing and Admission for LLM APIs with Stochastic Token Consumption</title>
+      <link>http://arxiv.org/abs/2609.00710v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00710v1</guid>
+      <pubDate>Tue, 01 Sep 2026 04:40:34 +0000</pubDate>
+      <description>An LLM application often sells or internally allocates several service products: a small or premium model, a short or long token cap, and possibly multiple posted prices. The operational decision is not merely which model answers a prompt. A price changes purchase probability, a token cap changes both user value and the tail of resource consumption, and accepted requests compete for shared compute and premium-model capacity. Demand and output length are initially uncertain, while an offline model may provide useful but imperfect predictions. We formulate sequential pricing and admission with stochastic resource consumption. Each arriving request belongs to an observable segment. The platform chooses a product--price pair or makes no offer; purchase, revenue, and resource use are then random. An offline predictor supplies a uniform, validated error radius for every segment--product cell. We propose Prediction-Clipped UCB (PCUCB), which intersects the offline prediction interval with an online confidence interval, evaluates products using resource shadow prices, and reserves a sample-path envelope before commitment. The prior gives a fast start when accurate, while online learning protects the platform when predictions are coarse. The analysis is modular. On a simultaneous confidence event, regret against a buffered fluid benchmark is bounded by a pacing term plus the cumulative diameter of the intersected intervals. For $J$ segment-product cells and prediction radius $\varepsilon$, this yields \[ \widetilde O\left( \sqrt{T}+(1+\barΛ) \min\{T\varepsilon,\sqrt{JT}\} \right), \] where $\barΛ$ bounds operational shadow prices. Thus the algorithm smoothly interpolates between an almost full-information regime and learning from scratch. Hard feasibility holds on every sample path through reservation envelopes.</description>
+    </item>
+    <item>
+      <title>Two-State Max-Plus Comparison Is Decidable</title>
+      <link>http://arxiv.org/abs/2609.00678v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00678v1</guid>
+      <pubDate>Tue, 01 Sep 2026 03:56:09 +0000</pubDate>
+      <description>Daviaud, Guillon, and Merlet proved that comparison of max-plus automata is undecidable under a fixed state bound of 553 and explicitly left the range from 2 to 552 states open. We resolve the two-state endpoint. More strongly, given an arbitrary finite max-plus automaton $A$ and a max-plus automaton $B$ with at most two states, it is decidable whether $[\![A]\!](w)\leq [\![B]\!](w)$ for every word $w$. The structural reason is a one-dimensional projective normal form for two-state dynamics. Outside an effective bounded region, a transition has one of three tail behaviors: it propagates the unbounded projective gap with gap-independent height increment, forgets the gap with gap-independent height increment, or reads the gap magnitude into the height increment and then forgets it. In particular, any transition whose output depends on the unbounded gap necessarily destroys that gap. This yields an exact one-counter realization of $B$. Effective semilinearity of context-free Parikh images then reduces comparison to Presburger arithmetic. As a consequence, two-state max-plus comparison, equivalence, and positivity are decidable.</description>
+    </item>
+    <item>
       <title>Test or Run? Scheduling Jobs of Unknown Length</title>
       <link>http://arxiv.org/abs/2608.30911v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30911v1</guid>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.27102</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
       <description>Many fundamental problems in multi-agent systems involve the arrangement of agents, who have preferences over each other, on a target graph. These problems include, for example, Stable Matching, Seat Arrangement, and Coalition Formation. However, guaranteeing game-theoretically desirable properties such as exchange-stability or envy-freeness is difficult, as such solutions may not exist, and even if they do, they are often intractable to find, even in highly constrained settings such as path or cycle target graphs. In this paper, we challenge the classical setup and investigate what can be achieved when the structure of the target graph is a designable object for the central planner, rather than a fixed part of the input. We study this in the context of a natural pairwise stability criterion, which is similar to having spare seats. In particular, we introduce a highly flexible framework to efficiently design approximately optimal target graphs and associated pairwise-stable agent arrangements. Our model assumes that agents have (weak or strict) ordinal preferences over other agents. We show that classical results from stable matching theory can be extended and adapted to this much more general setting and can serve as a useful tool for navigating the trade-off between stability and computational efficiency. Our results highlight strict boundaries between tractability and intractability, and between local and global optimality. We also uncover intriguing connections to classical computational problems such as subgraph isomorphism, disjoint path partitioning, and bin-packing.</description>
-    </item>
-    <item>
-      <title>Simultaneous Coverage and Efficiency Guarantee in Online Conformal Prediction</title>
-      <link>https://arxiv.org/abs/2607.26577</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.26577</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Adaptive conformal inference (ACI) of Gibbs and Cand{è}s and its variants are the standard approach to online conformal prediction under distribution shift, but they suffer from three fundamental limitations. First, their guarantees control only the \emph{signed} long-run coverage error: persistent miscoverage in one direction can be masked by compensating errors later, so a method can satisfy the theoretical guarantee while being badly wrong for extended periods. Second, existing guarantees say nothing about prediction-set size, so validity can be achieved trivially at the cost of unduly wide prediction sets. Third, the efficiency guarantees that do exist compare against a \emph{fixed} predictor chosen in hindsight, a benchmark that becomes increasingly less meaningful once the data-generating distribution shifts, since the very notion of an optimal threshold then changes over time. We consider a unified online learning framework that simultaneously controls absolute, non-cancelling coverage violation and prediction-set efficiency against a dynamically evolving benchmark for three important models. In the fully adversarial setting, exploiting the fact that the standard ACI update is exactly projected online gradient descent on the pinball loss, we derive simultaneous coverage and efficiency guarantees for arbitrary monotone Lipschitz efficiency objectives, with no distributional or {\it convexity} assumptions. In the stochastic setting with full-score feedback, we propose a sliding-window quantile tracker and establish a matching minimax lower bound showing our algorithm is rate-optimal. In the covariate-dependent stochastic setting, we develop a partitioned ACI algorithm that tracks a function-valued oracle threshold, and derive simultaneous coverage and efficiency guarantees.</description>
-    </item>
-    <item>
-      <title>When to Treeify Hash Table Buckets: A Reproducible C Study of List, Hybrid, and Red-Black Tree Chaining</title>
-      <link>https://arxiv.org/abs/2607.26530</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.26530</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Practitioner summary. Do not copy Java's threshold of eight alone: when bins grow long, hybrid-batch (convert after load) still walks lists during insert, while hybrid-incremental (convert as soon as a bin hits k) matches always-tree. Prefer hybrid-incremental or always-tree for overloaded bins; reserve hybrid-batch for pure bulk load then query when chains stay short after resize. Hybrid-incremental approximates Java conversion timing, not a HashMap port. Lead metrics below are strcmp counts and heap - more stable than long-list wall-clock. When individual hash buckets grow long, linked-list separate chaining incurs linear per-bucket cost. We show that when conversion runs (hybrid-batch finalize vs. hybrid-incremental) dwarfs the choice of threshold k for C implementers. Using one C separate-chaining API, we compare policies under uniform-hash FNV (including a fixed-m probe at alpha ~ 122), forced-bucket chaining stress, and a moderate-load same-API scale run (alpha = 16). Under stress, list lookup averages ~31,250 comparisons vs ~15 once treeified; mid-load probes need ~37M comparisons under hybrid-batch vs ~46k under hybrid-incremental; final post-load comparisons converge (~15). Tree buckets use about 1.7x more heap than lists. Stress wall-clock for long lists is illustrative and run-noisy; we therefore headline comparisons and memory. Replaying real trigram posting-list lengths through the same policies yields the same ranking. At alpha ~ 122 without resize, some tree wins are really deferred rehash - resize first when m is simply too small.</description>
-    </item>
-    <item>
-      <title>An $O(n^5)$-Time Algorithm for Optimal Broadcast Domination</title>
-      <link>https://arxiv.org/abs/2605.20526</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.20526</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Broadcast domination assigns a nonnegative integer power to every vertex of a graph so that every vertex is within the assigned power of some broadcasting vertex, and the objective is to minimize the sum of the powers. Heggernes and Lokshtanov proved that the problem is polynomial-time solvable on arbitrary connected unweighted graphs by showing that some optimal efficient broadcast has a domination graph that is a path or a cycle, and by reducing the general case to an $O(n^6)$-time algorithm. This paper gives an efficient algorithm of the path-case. Instead of building one auxiliary acyclic graph for every possible left endpoint vertex, we build a single directed acyclic graph whose states are oriented broadcast balls together with their two possible residual sides. The resulting path-case algorithm runs in $O(n^3)$ time and $O(n^3)$ space on an $n$-vertex graph. Combining this routine with the same peel-one-ball reduction of Heggernes and Lokshtanov yields an exact $O(n^5)$-time algorithm for optimal broadcast domination on arbitrary connected unweighted graphs. This resolves the quintic-time conjecture for general graphs attributed to Heggernes and Sæther and recorded in subsequent surveys of broadcast domination.</description>
-    </item>
-    <item>
-      <title>Randomizing the Number of Centers in k-means++</title>
-      <link>https://arxiv.org/abs/2607.26202</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.26202</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The $k$-means++ algorithm is a standard and widely used seeding method for $k$-means clustering, but for a fixed number $k$ of centers its worst-case expected approximation ratio is $Θ(\log k)$. We consider the same algorithm when an adversary first fixes the dataset and some $K$; the number of centers $k$ is then chosen uniformly from $\{K,\ldots,2K-1\}$. We prove that $k$-means++ is an $O(1)$-approximation with constant probability in this budget-smoothed setup.</description>
-    </item>
-    <item>
-      <title>k-Coloring is Faster than Computing the Chromatic Number</title>
-      <link>https://arxiv.org/abs/2607.25973</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.25973</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We prove that $k$-coloring on $n$-vertex graphs has a randomized algorithm running in time $(2-\varepsilon_k)^n$, where $\varepsilon_k&gt;0$ for every fixed $k$. Previously, only the cases $k\leq 6$ were known to have faster solutions than the general $O^\star\bigl(2^n\bigr)$ time algorithm of [Björklund, Husfeldt, Koivisto, SICOMP 2009] that computes the chromatic number. We resolve this long-standing open problem by generalizing and combining tools from the $(k+2)$-coloring to $k$-list-coloring reduction of [Zamir, ICALP 2021] and the hypergraph-containers based approach in [Zamir, STOC 2023]. Together with new algorithms for list-coloring instances mixing long and short color lists, this yields an iterable reduction from $(k+1)$-list-coloring to $k$-list-coloring over fixed palettes.</description>
     </item>
   </channel>
 </rss>

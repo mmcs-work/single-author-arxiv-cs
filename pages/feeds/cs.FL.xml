@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Behavioral Memory under Symmetry in One-Way Quantum Automata</title>
+      <link>http://arxiv.org/abs/2609.01451v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01451v1</guid>
+      <pubDate>Tue, 01 Sep 2026 15:56:26 +0000</pubDate>
+      <description>Under compact symmetry, observable behavior reduces to an invariant operator algebra, but its dimension is not yet classical memory: some coordinates are dynamically frozen, some invisible to threshold tests, and some already classical. We develop an operator-algebraic theory that separates these effects through three filters. For one automaton, behavior is the Hilbert--Schmidt pairing between prefix-reachable states and suffix-observable effects, whose rank equals the real Hankel rank without controllability or observability assumptions. Maximizing this invariant over a symmetry-constrained dynamical class gives a structural capacity controlled by the symmetry commutant: its center stores isotypic populations frozen by reversible dynamics, its traceless multiplicity blocks carry movable noncommutative coordinates, dissipation removes the unary spectral loss inside those blocks, and covariant mobility releases relative populations subject to component conservation. Operational realization then determines which surviving coordinates force probabilistic states. For a fixed nontrivial invariant readout, full mobility gives an exact dichotomy in worst-case state cost: a commutative invariant algebra costs exactly its dimension, whereas a noncommutative multiplicity block raises the unrestricted cost by exactly one state. Thus noncommutativity has a one-state worst-case classical price. The known four-letter quadratic-plus-one law at trivial symmetry is the fully mobile endpoint of this principle. Schur--Weyl duality further shows that different preserved symmetries on the same tensor-power Hilbert space can change the worst memory scale from polynomial to exponential, while fixed-weight modules give an exact Catalan law at half filling, with structural capacity equal to the Catalan count minus its central-sector correction.</description>
+    </item>
+    <item>
+      <title>Two-State Max-Plus Comparison Is Decidable</title>
+      <link>http://arxiv.org/abs/2609.00678v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00678v1</guid>
+      <pubDate>Tue, 01 Sep 2026 03:56:09 +0000</pubDate>
+      <description>Daviaud, Guillon, and Merlet proved that comparison of max-plus automata is undecidable under a fixed state bound of 553 and explicitly left the range from 2 to 552 states open. We resolve the two-state endpoint. More strongly, given an arbitrary finite max-plus automaton $A$ and a max-plus automaton $B$ with at most two states, it is decidable whether $[\![A]\!](w)\leq [\![B]\!](w)$ for every word $w$. The structural reason is a one-dimensional projective normal form for two-state dynamics. Outside an effective bounded region, a transition has one of three tail behaviors: it propagates the unbounded projective gap with gap-independent height increment, forgets the gap with gap-independent height increment, or reads the gap magnitude into the height increment and then forgets it. In particular, any transition whose output depends on the unbounded gap necessarily destroys that gap. This yields an exact one-counter realization of $B$. Effective semilinearity of context-free Parikh images then reduces comparison to Presburger arithmetic. As a consequence, two-state max-plus comparison, equivalence, and positivity are decidable.</description>
+    </item>
+    <item>
+      <title>A note on the reduction from LTLf to LTL</title>
+      <link>http://arxiv.org/abs/2609.00379v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00379v1</guid>
+      <pubDate>Mon, 31 Aug 2026 21:11:22 +0000</pubDate>
+      <description>LTLf, a finite word variant of LTL, can be reduced to LTL by introducing a new atomic proposition indicating the prefix of the infinite words that correspond to the finite words that the original LTLf formula was considering. Such a reduction was originally proposed by De Giacomo and Vardi (IJCAI'13). However, while any LTL formula reduced from LTLf describes an obligation property in the hierarchy of Manna and Pnueli (PODC'90), the aforementioned reduction does not provide an LTL formula that belongs to the syntactic obligation fragment of LTL. This note shows how the reduction was fixed in Spot in order to ensure that the resulting LTL formula is always a syntactic obligation. Doing so allows algorithms specialized to syntactic obligation to be used on LTLf formulas. For instance, in previous work (CAV'26) we described a specialized translation from syntactic obligations to minimal, weak, deterministic Büchi automata that would not be usable with the original reduction.</description>
+    </item>
+    <item>
       <title>Further Remarks on Separating Words</title>
       <link>http://arxiv.org/abs/2608.30928v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30928v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2001.09029</guid>
       <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
       <description>We develop a theory of rewriting for structured cospans in order to extend compositional methods for modeling open networks. First, we introduce a category whose objects are structured cospans, and establish conditions under which it is adhesive or a topos. These results guarantee that double pushout rewriting can be applied in this setting. We then define structured cospan grammars and construct their associated languages via a 2-categorical framework, capturing both network composition and rewrite dynamics. As an application, we show that for graphs, hypergraphs, Petri nets, and their typed variants, any grammar induces the same language as its corresponding discrete grammar. This equivalence enables an inductive characterization of rewriting, thereby generalizing classical results from graph transformation to a broader class of categorical models.</description>
-    </item>
-    <item>
-      <title>A language-theoretic approach to study the density of subsets in free groups</title>
-      <link>https://arxiv.org/abs/2603.28953</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.28953</guid>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we study the density of subsets of nonabelian free groups using relative densities of languages. We start by proving some basic properties about the density of a language $L_1$ relative to another language $L_2$ containing $L_1$. We then focus on the case where $L_2$ is the language of freely reduced words over an alphabet and prove an analogue of the Infinite Monkey Theorem for this language. This result, obtained as a corollary of a broader theorem on irreducible subshifts of finite type, allows for a language-theoretic characterization of rational subsets with positive density. As a consequence, we obtain a language-theoretic proof that the automorphic orbit of an element of a nonabelian free group has natural density zero, which generalizes a result by Burillo and Ventura concerning the density of primitive elements of free groups. We then describe rational subsets of free groups of positive density and explore in depth the case of finitely generated subgroups. We prove that if the rational subset is a subgroup, then it has positive density if and only if it has finite index and characterize those for which there is convergence. In cases where convergence fails due to parity constraints, we show that the density of the subset always exhibits weak convergence and that the average of its supremum and infimum densities converges to the expected value.</description>
-    </item>
-    <item>
-      <title>Stringological sequence prediction I: efficient algorithms for predicting highly repetitive sequences</title>
-      <link>https://arxiv.org/abs/2603.26852</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.26852</guid>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We propose novel algorithms for sequence prediction based on ideas from stringology. These algorithms are time and space efficient and satisfy mistake bounds related to particular stringological complexity measures of the sequence. In this work (the first in a series) we focus on two such measures: (i) the size of the smallest straight-line program that produces the sequence, and (ii) the number of states in the minimal automaton that can compute any symbol in the sequence when given its position in base k as input. These measures are interesting because multiple rich classes of sequences studied in combinatorics of words (automatic sequences, morphic sequences, Sturmian words) have low complexity and hence high predictability in this sense.</description>
-    </item>
-    <item>
-      <title>Simplicity and irreducibility in circular automata</title>
-      <link>https://arxiv.org/abs/2511.16611</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.16611</guid>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 -0000</pubDate>
-      <description>This paper investigates the conditions under which a given circular (synchronizing) DFA is \emph{simple} (sometimes referred to as \emph{primitive}) and when it is \emph{irreducible}. Our notion of irreducibility slightly differs from the classical one, since we are considering our monoid representations to be over $\mathbb{C}$ instead of $\mathbb{Q}$; nevertheless, several well-known results remain valid-for instance, the fact that every irreducible automaton is necessarily simple. We provide a complete characterization of simplicity in the circular case by means of the \emph{weak contracting property}. Furthermore, we establish necessary and sufficient conditions for a circular \emph{contracting automaton} (a stronger condition than the weakly contracting one) to be irreducible, and we present examples illustrating our results.</description>
     </item>
   </channel>
 </rss>

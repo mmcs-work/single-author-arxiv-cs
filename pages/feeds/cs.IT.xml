@@ -5,6 +5,62 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Multiplicative comparisons of Rényi entropies for weighted Bernoulli sums</title>
+      <link>http://arxiv.org/abs/2609.01529v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01529v1</guid>
+      <pubDate>Tue, 01 Sep 2026 16:57:41 +0000</pubDate>
+      <description>We establish improved multiplicative bounds relating the Rényi entropies of different orders for weighted sums of independent Bernoulli random variables. In particular, we prove a logarithmic bound between the zeroth-order and infinity-order Rényi entropies, which yields a polynomial improvement over the square-root bound of Jain, Sah, and Sawhney. Additionally, we obtain explicit constant-factor bounds for comparisons among Rényi entropies of nonzero orders.</description>
+    </item>
+    <item>
+      <title>Binary Multiple-Node-Erasure-Correcting Codes over Complete Graphs: Constructions, q-Ary Metric Balls, and Duality</title>
+      <link>http://arxiv.org/abs/2609.01474v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01474v1</guid>
+      <pubDate>Tue, 01 Sep 2026 16:09:14 +0000</pubDate>
+      <description>We study linear codes whose coordinates are the ordinary edges and self-loops of complete undirected graphs; a node erasure removes all coordinates incident with a failed vertex. The construction results are binary. For triple-node erasures, we extend the published cyclic construction by allowing a suitable cyclic check slope to depend on the prime graph length. An explicit determinant test proves that one of three fixed slope choices works at infinitely many prime lengths, unconditionally, and gives redundancy $3n-2$, one bit above the graph Singleton bound. We also give Singleton-optimal triple-node codes at $n=6,8,10,12$, together with a general ordinary-edge framework that isolates the remaining loop-completion problem. When $2$ is primitive modulo an odd prime $n$, a binary multi-slope construction corrects every $ρ$-node erasure for $2\leqρ&lt;n$, with redundancy $ρn-(ρ-1)$ in the range $2\leqρ\leq(n+1)/2$. Returning to arbitrary prime powers, we derive exact generating transforms and inclusion--exclusion formulas for node-metric ball volumes, fixed-radius asymptotics, and packing, existence, and covering bounds. Finally, for the complementary clique-erasure metric, we obtain an exact weight enumerator and a Singleton-optimal node--clique duality.</description>
+    </item>
+    <item>
+      <title>New classes of trace-form permutation polynomials and their compositional inverses</title>
+      <link>http://arxiv.org/abs/2609.01350v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01350v1</guid>
+      <pubDate>Tue, 01 Sep 2026 14:56:32 +0000</pubDate>
+      <description>We construct permutation polynomials of the form x + γTr^{q^2}_q(h(x)) over the finite field F_{q^2}. More precisely, we present two families ofpermutation polynomials whose coefficients range over all elements of the field rather than being restricted to a proper subfield. We also compute the compositional inverses of both families. Our techniques involve the evaluation of certain Kloosterman sums together with the analysis of some equations over finite fields, and we believe these can be of independent interest.</description>
+    </item>
+    <item>
+      <title>Quantum LDPC and High-Rate CSS Codes from Fair-Density Parity-Check Codes</title>
+      <link>http://arxiv.org/abs/2609.01181v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01181v1</guid>
+      <pubDate>Tue, 01 Sep 2026 12:55:58 +0000</pubDate>
+      <description>We construct quantum LDPC (qLDPC) and high-rate CSS codes from our recently introduced classical fair-density parity-check (FDPC) codes. To this end, we introduce a structured sparsification of FDPC parity-check matrices, which reduces their check weights while preserving the underlying combinatorial structure and distance guarantees. Combined with the hypergraph-product construction, this yields finite-length qLDPC codes with analytically controlled blocklength, dimension, certified distance, and stabilizer weight. For quantum blocklengths $N&lt;10^5$, the constructions introduced here span guaranteed rates from approximately $0.35\%$ to $25.8\%$ and certified quantum distances from $12$ to $69$, with stabilizer weights between $8$ and $16$. In the large-blocklength regime, allowing the FDPC order and sparsified check weight to scale moderately with blocklength yields a family of high-rate CSS codes, which we refer to as quantum FDPC (qFDPC) codes, with rate $R_Q$ and minimum distance $D$ satisfying \[ R_Q = 1-O\left(\frac{1}{\log\log N}\right), \ \ D=Ω(N^{1/4}), \] and stabilizer weight $O(\log N\log\log N)$. Finally, the analytically available FDPC weight distribution provides explicit information about the logical operators of the resulting hypergraph-product codes. Over the quantum erasure channel, this structure yields rigorous first-order maximum likelihood (ML) expressions and a higher-order weight-distribution approximation to the ML logical block error probability. This enables estimation of finite-length operating points and the onset of the error-floor regime. To the best of our knowledge, beyond surface-code-type constructions, this is the first finite-rate qLDPC framework to provide both finite-length certified minimum-distance information and an analytical characterization of low-weight logical multiplicities.</description>
+    </item>
+    <item>
+      <title>Generalized Tan-Arlery-Rabaste-Lehmann-Ovarlez Lower Bound on Ambiguity Function of a Set of Sequences With Mismatched Filters</title>
+      <link>http://arxiv.org/abs/2609.01112v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01112v1</guid>
+      <pubDate>Tue, 01 Sep 2026 11:51:46 +0000</pubDate>
+      <description>In this paper, a lower bound on the maximum ambiguity function (AF) sidelobes of a set of unimodular sequences is formulated for the desired low-ambiguity-zone (LAZ). Our main idea is to introduce a set of mismatched filters associated to a set of unimodular sequences and two weight vectors for the delay and Doppler shifts, respectively. The length of mismatched filter maybe different to the length of unimodular sequence. The proposed lower bound on the maximum AF sidelobes for the desired LAZ can be treated as an extension of Tan-Arlery-Rabaste-Lehmann-Ovarlez lower bound, published in 2020, which dealt with the conventional correlation of sequences.</description>
+    </item>
+    <item>
+      <title>Coding for Multiple Reverse-Complement and Palindromic Duplications</title>
+      <link>http://arxiv.org/abs/2609.00779v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00779v1</guid>
+      <pubDate>Tue, 01 Sep 2026 06:20:06 +0000</pubDate>
+      <description>Reverse-complement (RC) and palindromic (PAL) duplications copy a length-$k$ block, reverse the copy, and insert it next to the original block; an RC duplication also complements the copied symbols. We study $q$-ary codes correcting $t$ such operations performed sequentially, so a later operation may copy symbols created by an earlier one. For fixed $q,k,t$, every length-$n$ code $C$ for either channel satisfies $n-\log_q|C|\geq t\log_q n-O_{q,k,t}(1)$; for fixed $q,k$ and $t=o(n)$ the lower bound is $t\log_q(n/t)-O_{q,k}(t)$. For a single RC error over an even alphabet with a fixed-point-free complement, the previously known RC-specific lift applies at odd $k$ and does not cover even $k$. For every even $k$, we give a coordinate-wise bijection that turns each RC duplication into a PAL duplication. Applying this bijection to every codeword therefore converts any $t$-error-correcting RC code into a PAL code of the same size, and conversely; encoders and decoders transfer by adding linear-time coordinate passes. We also determine the maximum number of distinct descendants produced by exactly two errors from one source word. Words alternating between any two distinct alphabet symbols attain this maximum for PAL, and the bijection gives the RC maximizers. For both PAL and RC at even $k$, form a graph whose vertices are all $q$-ary words of length $n$, joining two distinct vertices exactly when they have a common exact-two descendant. Bounding the degree and greedily coloring this graph yields existential codes of redundancy $4\log_q n+O_{q,k}(1)$. In the binary two-error problem, the converse gives $2\log_2 n-O_k(1)$, leaving a factor-two gap in the best existence bounds.</description>
+    </item>
+    <item>
+      <title>Shannon's problem on the monotonicity of entropy and a Conjecture of Tao</title>
+      <link>http://arxiv.org/abs/2609.00399v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00399v1</guid>
+      <pubDate>Mon, 31 Aug 2026 21:31:51 +0000</pubDate>
+      <description>Let $X_1,X_2,\ldots$ be i.i.d. finitely supported random variables in a torsion-free abelian group, and write $S_k=X_1+\cdots+X_k$, and $H(S_k)$ is the Shannon entropy $S_k$, for all $k \ge 1$. We prove that, for every fixed $n\geq1$, \[ H(S_{n+1})-H(S_n) \geq \frac12\log\frac{n+1}{n} -o_{H(X_1)\to\infty}(1), \] uniformly over the ambient group and the input law. This proves a conjecture of Tao [29] in 2010.</description>
+    </item>
+    <item>
+      <title>An Algebraic Framework for Data Systems: Classification and Optimization of Algebraic Structures for Data Organization and Coding</title>
+      <link>http://arxiv.org/abs/2609.00273v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00273v1</guid>
+      <pubDate>Mon, 31 Aug 2026 19:15:29 +0000</pubDate>
+      <description>Modern data systems are commonly studied through computational and information-theoretic methods, while their algebraic properties remain largely unexplored. This paper introduces a mathematical framework for modelling data systems using algebraic structures drawn from group theory and coding theory. The central result is an axiomatic classifier: the coding-theoretic capability of a finite algebraic structure (group, ring, or field) is shown to be determined by its axiom signature (the set of algebraic axioms it satisfies), with each axiom acting as a gate that enables a specific capability (inverses enable the algebraic Hamming metric; commutativity enables syndrome decoding via quotient groups; field structure enables MDS codes via polynomial evaluation). Three types of results are presented. Proved: the axiomatic classification theorem; that ACID transactions form a monoid under sequential composition (not a group); that schema-preserving transformations form a finite group whose orbits, counted by Burnside's lemma, yield exact deduplication of equivalent configurations; and that every integrity-preserving bijection of a data system defines an algebraizable equivalence class under a finite group action. Demonstrated: explicit code constructions over $\mathbb{F}_5$, $\mathbb{Z}_4$ (yielding codes inaccessible to classical $\mathbb{F}_q$-linear theory), and $(2^U, \triangle)$ (yielding group-theoretic anomaly detection for set-valued data). Proposed: an encoding efficiency measure Ef and an optimization functional $Φ$ with tunable weights, whose induced ranking is verified computationally to be consistent with the axiomatic classification for the structures studied.</description>
+    </item>
+    <item>
       <title>Strengthening Recursive Constructions for Zero-Error Shannon Capacity</title>
       <link>http://arxiv.org/abs/2608.30273v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30273v1</guid>
@@ -647,62 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.01005</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 -0000</pubDate>
       <description>Solomonoff Induction, or SolInd, provides an ideal unbounded model of a priori sequence prediction but cannot naturally describe extrapolation from a given training dataset, as performed by Large Language Models. We apply de Finetti's theorem on exchangeable distributions to SolInd to produce what we call Hierarchical Solomonoff Induction, or HSI, which maintains a hyperprior over all Solomonoff priors that can be conditioned on previously observed sequences. We extend Wood et al.'s proof that universal mixtures of semimeasures are equivalent to SolInd to show that universal mixtures of these mixtures are also equivalent, proving that HSI=SolInd. We also prove that HSI's excess error on any distribution, compared to its true generator, is bounded by that generator's complexity in the hyperprior. This result is directly comparable to SolInd's prediction error being bounded by the Kolmogorov complexity of the sequence being predicted, and forces HSI's average excess error to converge to 0 as a dataset grows, leading to optimal prediction in the limit. We claim that HSI is an ideal unbounded model of sequence prediction given a dataset in the same way that SolInd is ideal over individual sequences.</description>
-    </item>
-    <item>
-      <title>Symplectic Barnes-Wall GKP Codes: Deterministic $O(N \log^2 N)$ Decoding and Logarithmic Rate Scaling</title>
-      <link>https://arxiv.org/abs/2608.00601</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.00601</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We construct an explicit symplectic realization of the Barnes-Wall lattice that yields a family of multimode Gottesman-Kitaev-Preskill (GKP) codes with encoding rate $R = \frac{1}{2}\log_2 N$ and a deterministic $O(N\log^2 N)$ bounded-distance decoder. The recursive generator $G_{m+1} = \bigl(\begin{smallmatrix} G_m &amp; 0 \\ G_m &amp; R_m G_m \end{smallmatrix}\bigr)$ with $R_m = I + Ω$ simultaneously guarantees symplectic integrality for valid quantum stabilizers and preserves the exact Barnes-Wall decoding structure through a chain of isometric isomorphisms. The code distance is constant at $Δ^2 = 1$ (in units of $2π$), representing an explicit distance--rate tradeoff in which logarithmic encoding efficiency is achieved at the cost of non-scaling protection. This construction provides a deterministic, space-efficient paradigm for GKP error correction in platforms supporting non-local modular connectivity.</description>
-    </item>
-    <item>
-      <title>The Entropic Sum-Product Phenomenon</title>
-      <link>https://arxiv.org/abs/2607.29042</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.29042</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Let $X,X'$ be independent and identically distributed discrete real-valued random variables of finite Shannon entropy, and write $H(X)$ for the Shannon entropy of $X$. We prove that \[ \max\{H(X+X'),\,H(XX')\} \ge \frac87 H(X)-O(\log H(X)). \] This is the entropic analog of the celebrated sum-product phenomenon, and answers a question of Goh, which simply asked for a coefficient strictly larger than 1. An example by the author, Gavalakis, and Kontoyiannis showed the coefficient cannot exceed $\frac43$. Previous work by Gavalakis, Goh, and Kontoyiannis was able to prove a result of a weaker form, which could not translate to a coefficient strictly larger than 1 because of examples where the min-entropy is significantly smaller than the Shannon entropy. By splitting the distribution of $X$ into uniform pieces, which costs $O(\log H(X))$ entropy, we obviate this issue, establishing a coefficient of $\frac{10}{9}$. We augment this to $\frac87$ by adapting the work of Solymosi, which established the combinatorial sum-product phenomenon with coefficient $\frac43$ by bounding the multiplicative energy, to the entropy setting, again via a uniformization technique.</description>
-    </item>
-    <item>
-      <title>Asymptotic Efficiency of the Global Maximum-Likelihood Estimator in Multi-Emitter Localization Microscopy</title>
-      <link>https://arxiv.org/abs/2607.28985</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.28985</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We realize the GML estimator by an expectation-maximization algorithm initialized near the true positions and verify the theory by simulation.</description>
-    </item>
-    <item>
-      <title>Partial Derandomization for Leakage-Resilient Shamir's Secret Sharing over Composite Order Fields</title>
-      <link>https://arxiv.org/abs/2607.28757</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.28757</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We make progress on the question of constructing explicit evaluation places for leakage-resilient Shamir's secret sharing, over composite order fields. Previously, Maji et al. (EUROCRYPT 2024) showed that random evaluation places yield Shamir's secret sharing over the composite order field $\mathbb{F}_{p^d}$ that is statistically secure against physical-bit leakage. Later, Nguyen (EUROCRYPT 2025) established a dichotomy that linear code-based secret-sharing scheme over the field $\mathbb{F}_{p^d}$ is either statistically secure or completely insecure against such leakage. Building upon Nguyen's dichotomy, we present a partial derandomization of evaluation places, improving upon the Maji et al. result for a restricted regime of parameters. We replace the random choice of $n$ independent evaluation places by the iterates $x_j = Φ^j(x_0)$ of a simple fixed rational function $Φ$, where the initial point $x_0 \in \mathbb{F}_{p^d}^*$ is randomly chosen. The randomness in the evaluation places thus drops from $nd \log p$ bits to $d\log p$ bits. Our construction is valid for the regime $n = O(d/\log_p d)$, and any reconstruction threshold $k \ge 2$; in fact, the scheme attains perfect security (statistical distance exactly zero) against single-block leakage. Our technique is a partial fraction nondegeneracy argument that exploits the distinct poles of the rational iterates.</description>
-    </item>
-    <item>
-      <title>Low-Pathwidth GRAND: Exact Likelihood-Ordered Enumeration for BPSK Transmission over Correlated Gaussian Noise</title>
-      <link>https://arxiv.org/abs/2607.28363</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.28363</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The finite-block maximum-likelihood (ML) guarantee of soft-input GRAND requires querying noise-effect patterns in nonincreasing conditional-likelihood order. Under correlated Gaussian noise, additive reliability metrics and independent-block approximations need not preserve this order because the matched metric contains cross-coordinate interactions; the first codebook hit need not induce an ML codeword. We develop Low-Pathwidth GRAND (LP-GRAND) for binary phase-shift keying (BPSK) with precision matrix $Q$. The candidate-dependent part of the Gaussian negative log-likelihood is an observation-dependent quadratic pseudo-Boolean energy whose interaction graph has edge $\{i,j\}$ exactly when $Q_{ij}\neq0$. If $Q$ has half-bandwidth at most $ν$, this energy admits a trellis with at most $2^ν$ states per layer; a path decomposition of width $w$ yields at most $2^{w+1}$ bag assignments per layer. In real arithmetic, suffix dynamic programming and best-first complete-path enumeration enumerate patterns in nondecreasing energy. With complete enumeration and no abandonment, the first codebook hit induces an ML codeword for any nonempty binary codebook with equiprobable codewords. LP-GRAND agreed with exhaustive codeword ML in all $10{,}000$ frames for two $[20,12]$ codes. At nominal $E_b/N_0=2$ dB, its empirical BLER was lower than that of each block-based approximation for six $[64,52]$ codes.</description>
-    </item>
-    <item>
-      <title>The Capacity of a Family of Sticky Channels</title>
-      <link>https://arxiv.org/abs/2607.28281</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.28281</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We determine the capacity of a family of $q$-ary sticky-insertion channels. Fix $q\geq2$ and $d\geq1$, and let $λ$ be the unique positive solution of $λ^d = (q-1) (λ^{d-1} + \cdots + λ+ 1 )$. We prove that, for every repetition law supported on $1+d\mathbb{Z}_{\geq0}$ and satisfying a coefficientwise-domination criterion with domination constant $γ\geqλ^{-d}$, the Shannon capacity equals the zero-error capacity, both being $\log_2λ$ bits per symbol. We also exhibit explicit repetition laws satisfying these conditions, one of which is given by the weighted Fuss--Catalan numbers. To the best of our knowledge, these are the first known cases of nontrivial repeat channels whose Shannon capacity has been determined exactly.</description>
-    </item>
-    <item>
-      <title>Persistent Gaussian Perturbations Prevent Oversmoothing in Recurrent Graph Neural Networks</title>
-      <link>https://arxiv.org/abs/2607.28185</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.28185</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Oversmoothing is a fundamental limitation of deep graph neural networks (GNNs), where repeated message passing causes node representations to become increasingly similar, eventually collapsing toward a low-dimensional subspace. This phenomenon limits the effective depth of message-passing architectures and motivates the search for mechanisms that preserve representation diversity. In this paper, we study a recurrent graph neural network in which independent Gaussian noise is injected after every propagation step and analyze the resulting architecture as a stochastic dynamical system. Under a standard global contraction assumption on the deterministic update, we prove that the hidden representations form a geometrically ergodic Markov chain admitting a unique invariant probability measure. Our main theoretical result establishes an explicit positive lower bound on the expected stationary Dirichlet energy, proportional to both the noise variance and the spectral gap of the underlying graph. Consequently, the stationary representations cannot collapse onto the constant manifold, providing a rigorous guarantee that asymptotic oversmoothing is prevented in the sense of non-vanishing Dirichlet energy. Our analysis reveals persistent stochastic perturbations as a fundamentally different mechanism for combating oversmoothing, complementing existing deterministic approaches based on residual connections, normalization, and graph rewiring. Finally, numerical experiments on both linear and nonlinear recurrent graph neural networks closely match the theoretical predictions, illustrating the emergence of a stationary distribution and the predicted dependence of the limiting Dirichlet energy on the noise intensity.</description>
-    </item>
-    <item>
-      <title>A Recursive Construction Improving the Lower Bound on the Shannon Capacity of $C_7$</title>
-      <link>https://arxiv.org/abs/2607.27869</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27869</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We give a recursive reformulation and extension of the independent set of size $134753$ in $C_7^{10}$ constructed by N. Itty, C. D. Rosin, C. Carstensen, and D. Reichman (arXiv:2607.21517v1). We prove a product lemma that combines gadgets of different dimensions while preserving the required independence conditions. Starting from the size-$367$ independent set in $C_7^5$ of S. C. Polak and A. Schrijver (Information Processing Letters 143 (2019), 37-40), the construction gives an explicitly specified independent set in $C_7^{200}$. Consequently, \[ Θ(C_7)\geq 3.2587891539086910161967650155\ldots . \] An accompanying program verifies the finite assertions about the five-dimensional base gadget and performs the exact integer computations used in the recursion.</description>
     </item>
   </channel>
 </rss>

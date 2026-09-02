@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Relational-Core Graph Analytics Querying graphs at SQL scale, and why the node/edge model is a performance tax, not a truer picture of connected data</title>
+      <link>http://arxiv.org/abs/2609.01525v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01525v1</guid>
+      <pubDate>Tue, 01 Sep 2026 16:55:11 +0000</pubDate>
+      <description>A durable assumption holds that graph analytics requires a purpose-built graph engine, and that relational systems are ill-suited to connected data. We argue the opposite for the workloads enterprises actually run. A columnar relational engine fronted by a graph query language matches or exceeds native graph engines on analytical graph queries, and - decisively - scales past the point where in-memory graph engines fail. We further argue that the node/edge property graph is not a more faithful model of connected data but a re-encoding of relationships that already exist explicitly in relational tables; reconstructing them at query time is pure overhead. We present ClickGraph and its Databricks-dialect sibling DeltaGraph, systems that translate Cypher directly onto the native relational schema - the tables, columns, and foreign keys as they already exist - and execute in place on ClickHouse, Databricks, or in-process on lakehouse files, with no import and no separate cluster. Because the output is ordinary SQL, an underperforming query is an open optimization surface: it can be rewritten, and the engine itself extended. We support the argument with a peer system's own published benchmark, in which a columnar engine outruns Neo4j by two-to-four orders of magnitude, and with reproducible measurements across the LDBC Social Network Benchmark suite.</description>
+    </item>
+    <item>
       <title>Tacet: A Language and Type System for Automatic Statistical Validity Accounting</title>
       <link>http://arxiv.org/abs/2608.27451v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27451v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.04034</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 -0000</pubDate>
       <description>Software exists at multiple levels of abstraction, where each more concrete level is an implementation of the more abstract level above, in a semantic tower of compilers and/or interpreters. First-class implementations are a reflection protocol to navigate this tower *at runtime*: they enable changing the underlying implementation of a computation *while it is running*. Key is a generalized notion of *safe points* that enable observing a computation at a higher-level than that at which it runs, and therefore to climb up the semantic tower, when at runtime most existing systems only ever allow but to go further down. The protocol was obtained by extracting the computational content of a formal specification for implementations and some of their properties. This approach reconciles two heretofore mutually exclusive fields: Semantics and Runtime Reflection.</description>
-    </item>
-    <item>
-      <title>Toka: A Systems Programming Language with Explicit Resource Semantics</title>
-      <link>https://arxiv.org/abs/2606.01974</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.01974</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Systems programming languages traditionally struggle with the tension between physical transparency and compile-time memory safety. C++ provides direct, zero-cost hardware access but lacks strict safety boundaries, whereas Rust guarantees safety at the cost of complex lifetime annotations and implicit dereferencing chains. In this paper, we present Toka, a native systems programming language that establishes physical transparency in resource management via Explicit Resource Semantics. At the core of Toka's design is the Handle-Soul Duality (informally referred to as the Hat-Soul model), which cleanly dissociates pointer identities (Handles) from their underlying values (Souls) at the syntactic level. By enforcing that bare identifiers always represent values (Souls) and explicit sigils represent pointer handles, Toka eliminates the semantic ambiguity between rebind operations and value mutations. We detail Toka's resource morphology (supporting unique, shared, borrowed, and raw semantics), its lifetime checking mechanism, and its implementation of a prototype compiler. Our evaluation demonstrates that Toka achieves competitive runtime performance and minimal binary size while drastically reducing the cognitive overhead of lifetime annotations.</description>
     </item>
   </channel>
 </rss>

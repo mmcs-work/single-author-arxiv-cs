@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Real-Time Neuromorphic Spectrum Intelligence Simulator</title>
+      <link>http://arxiv.org/abs/2609.00585v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00585v1</guid>
+      <pubDate>Tue, 01 Sep 2026 02:27:12 +0000</pubDate>
+      <description>We present the Real-Time Neuromorphic Spectrum Intelligence Simulator (RT-NuSIS), a modular framework to study spiking neural network (SNN) and memristor-inspired agents for dynamic spectrum access under constrained energy budgets and adversarial conditions. RT-NuSIS couples leaky integrate-and-fire neuronal dynamics, memristive synaptic models, physics-informed energy-harvesting models (triboelectric and RF), and adversary models including jamming and Byzantine behavior. We formalize the simulator mathematically, prove boundedness, present a mean-field adversary threshold, analyze per-step complexity, and provide a reproducible benchmark harness for energy-per-inference, latency, and robustness metrics. The codebase is modular, deterministic by seed, and designed for large-scale event-driven simulations.</description>
+    </item>
+    <item>
       <title>Sense Once, Serve Many: Common-Trace Factorized Constrained PPO for Online Sensing-Session Consolidation in Multi-Tenant ISAC Networks</title>
       <link>http://arxiv.org/abs/2608.29256v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.29256v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.02629</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 -0000</pubDate>
       <description>Understanding how online narratives travel through coalitions is critical for identifying information disorder, yet computational analyses often rely on conservative network constructions that erase initially sparse but salient signals. This paper proposes a novel multi-layer framework that captures low-frequency signals of emerging information disorder allowing for locating where online discourse is reframed and amplified over time. The use case is 14 years of Italian discourse on X regarding the Human Papillomavirus (HPV) vaccine across three pivotal epochs (2010-2024). Utilizing hashtag co-occurrence networks, we introduce a dual-layer approach. We first identify robust core discourse coalitions through conservative community detection, revealing a stable prevention-oriented backbone contrasted with increasingly separable skepticism coalitions. We then introduce a coverage layer and project fringe hashtags into core coalitions based on weighted connectivity. Using a manually labelled set of skeptical and conspiratorial seed tweets, we demonstrate that this core-coverage projection significantly improves the recovery of long-tail, problematic hashtags while preserving an interpretable coalition structure. Our findings characterize the structural maturation of polarized narratives and provide a methodology for mapping how discourse is reframed and amplified by information disorder over time.</description>
-    </item>
-    <item>
-      <title>Route Based Map Matching via a Structured Codebook and Token Sequence Decoding</title>
-      <link>https://arxiv.org/abs/2607.22543</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.22543</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 -0000</pubDate>
-      <description>This study proposes an efficient and computationally light route based map matching method for GPS track data on urban expressway networks. The key idea is to exploit a symbolic structure of named lines and named junctions that link level map matching leaves unused. We represent each candidate route as a sequence of line and junction names, take the set of such sequences as a route codebook, and formulate map matching as scored alignment of a probe trajectory against members of the codebook. Probes become token sequences via a mesh quantizer, a precomputed grid mapping each coordinate to a line or junction token, and the decoder returns a member of the codebook by construction. The codebook is indexed by a DAFSA $\times$ Levenshtein automaton, a fuzzy lookup technique from approximate string matching and speech recognition; the per query decoding cost is orders of magnitude lower than a brute force scan. We evaluate the method on a deformed replica of the Tokyo Metropolitan Expressway topology. The method recovers the exact route at moderate GPS noise and continues to identify the line and junction sequence under heavy noise; a sensitivity analysis maps the mesh resolution operating range. Real probe evaluation, channel model calibration, and a head to head HMM comparison are left to a forthcoming version.</description>
     </item>
   </channel>
 </rss>

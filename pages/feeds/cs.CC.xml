@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Subgroup Accessibility in Group Order Logic</title>
+      <link>http://arxiv.org/abs/2609.00499v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00499v1</guid>
+      <pubDate>Mon, 31 Aug 2026 23:58:47 +0000</pubDate>
+      <description>We investigate the expressive power of fixed-point logics (FP) and their extensions in defining generating sets for accessible subgroups of definable permutation groups. This operation, computable in polynomial time via the Schreier-Sims algorithm, plays a central role in the group-theoretic approach to Graph Isomorphism and Graph Canonisation. In particular, it underpins polynomial-time canonisation for bounded colour-class graphs--a class for which no natural logic capturing P is currently known. We first show that this operation cannot, in general, be expressed in any logic for P. This limitation arises from the fact that accessible subgroups need not admit symmetric generating sets of polynomial size. However, we prove that when the base group admits a definable ordered generating set, the accessible subgroup operation becomes definable in fixed-point logic with the group order operator (FP + ord). This is achieved by partially simulating the Schreier-Sims algorithm within FP + ord. As a corollary, we show that fixed-point logic with counting (FPC) can also define the operation when the base group is abelian. In particular, FPC can define the automorphism group of any graph with abelian colours--despite being unable to canonise such graphs.</description>
+    </item>
+    <item>
       <title>On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions</title>
       <link>http://arxiv.org/abs/2608.31120v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.31120v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.09417</guid>
       <pubDate>Sun, 19 Jul 2026 00:00:00 -0000</pubDate>
       <description>Fixing an arbitrary set $\mathcal{F}$ of complex-valued functions over Boolean variables yields a counting problem $\#\mathcal{F}$. Taking only functions from $\mathcal{F}$ to form a tensor network as the problem's input, the counting problem $\#\mathcal{F}$ asks for the value of the tensor network. These dichotomy or quasi-dichotomy theorems form a partial order according to the inclusion relations of the problem subclasses they characterize. As the number of known dichotomy theorems increases, the number of maximal elements in this partially ordered set first grows, and then shrinks when a new dichotomy theorem unifies several previous maximal ones; currently, there are about five or six. More can be artificially defined. However, it might be the timing to directly study the maximum element in the total partial order, namely, the entire class. This paper proposes such a framework, which observes that for the unresolved $\#\mathcal{F}$ problems, the binary functions must be a finite group, formed by 2-by-2 matrices over complex numbers. The framework, divides all unsolved problems according to the group categories, into 9 cases. This paper: introduces this grand framework; discusses the simplification of matrix forms brought by transposition closure property of the group; discusses the barrier reached by the great realnumrizing method, when a quaternion subgroup is involved; advances the order-1 cyclic group case to a position based on a dichotomy theorem conjecture; and resolves the higher-order cyclic group case. The current version 2 focuses on the order-1 cyclic group case with the decomposable quaternary condition.</description>
-    </item>
-    <item>
-      <title>A Proposed Characterization of p-Simulation Between Theories</title>
-      <link>https://arxiv.org/abs/2507.13576</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.13576</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This paper proposes a characterization of when one axiomatic theory, as a proof system for tautologies, $p$-simulates another, by showing: (i)~if c.e. theory $\mathcal{S}$ efficiently interprets $\mathcal{S}{+}ϕ$, then $\mathcal{S}$ $p$-simulates $\mathcal{S}{+}ϕ$ (Jeřábek in Pudlák17 proved simulation), since the interpretation maps an $\mathcal{S}{+}ϕ$-proof whose lines are all theorems into an $\mathcal{S}$-proof; (ii)~$\mathcal{S}$ proves ``$\mathcal{S}$ efficiently interprets $\mathcal{S}{+}ϕ$'' iff $\mathcal{S}$ proves ``$\mathcal{S}$ $p$-simulates $\mathcal{S}{+}ϕ$'' (if so, $\mathcal{S}$ already proves the $Π_1$ theorems of $\mathcal{S}{+}ϕ$). To explore whether this framework conceivably resolves other open questions, the paper formulates conjectures stronger than ``no optimal proof system exists'' that imply Feige's Hypothesis, the existence of one-way functions, and circuit lower bounds.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Discrete Harmonic Center of a Quadrilateral</title>
+      <link>http://arxiv.org/abs/2609.00917v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00917v1</guid>
+      <pubDate>Tue, 01 Sep 2026 08:44:27 +0000</pubDate>
+      <description>Triangulate a simple quadrilateral by connecting all vertices to an additional point. If the vertices carry values, the piecewise linear function can be assigned a Dirichlet energy. We show that the minimal Dirichlet energy as a function of the location of the inserted point is convex, and the location of the minimum is independent of the values at the corners - a quadrilateral has a discrete harmonic center, characterized by an equilibrium of currents across the inserted edges. It turns out that the fixed points of the Möbius involution swapping opposite corners of the quadrilateral are critical points of this energy, so the discrete harmonic center is Möbius-covariant. For tangential and cyclic quadrilaterals the center admits simple closed forms related to the circle centers. The center and its data-independence generalize to polytopes with d + 2 vertices in dimension d, but the conformal characterizations are special to four points in the plane.</description>
+    </item>
+    <item>
       <title>Curves of constant width and Lebesgue's covering problem</title>
       <link>http://arxiv.org/abs/2608.30538v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30538v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2401.16056</guid>
       <pubDate>Fri, 20 Mar 2026 00:00:00 -0000</pubDate>
       <description>We present some algorithms that provide useful topological information about curves in surfaces. One of the main algorithms computes the geometric intersection number of two properly embedded 1-manifolds $C_1$ and $C_2$ in a compact orientable surface $S$. The surface $S$ is presented via a triangulation or a handle structure, and the 1-manifolds are given in normal form via their normal coordinates. The running time is bounded above by a polynomial function of the number of triangles in the triangulation (or the number of handles in the handle structure), and the logarithm of the weight of $C_1$ and $C_2$. This algorithm represents an improvement over previous work, since its running time depends polynomially on the size of the triangulation of $S$ and it can deal with closed surfaces, unlike many earlier algorithms. Another algorithm, with similar bounds on its running time, can determine whether $C_1$ and $C_2$ are isotopic. We also present a closely related algorithm that can be used to place a standard 1-manifold into normal form.</description>
-    </item>
-    <item>
-      <title>Square packing with $O(x^{0.6})$ wasted area</title>
-      <link>https://arxiv.org/abs/2508.04603</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.04603</guid>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We show a new construction for square packing, and prove that it is more efficient than previous results.</description>
     </item>
   </channel>
 </rss>

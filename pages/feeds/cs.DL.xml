@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Do Large Language Models Favour Any Research Topics?</title>
+      <link>http://arxiv.org/abs/2609.00323v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00323v1</guid>
+      <pubDate>Mon, 31 Aug 2026 20:12:58 +0000</pubDate>
+      <description>Large Language Models (LLMs) can estimate the quality of published journal articles, potentially supporting human assessment when evaluations are needed. Whilst there are reasons to believe that LLMs may have biases in this role, there is no statistically strong evidence yet. The current article addresses this gap with an exploration of the types of articles that attract high or low LLM scores in 73,489 articles from 15 health and life sciences journals. Based on comparing the words in the titles and abstracts of higher and lower scoring articles for two LLMs in various ways, the results suggest that topics favoured by GPT-OSS-120B include viruses, genes and cells and its disfavoured topics include surveys, patients and students. It is not clear whether these patterns reflect underlying quality differences or AI biases, however. The same method found systematic differences between the topics favoured by GPT-OSS-120B and Gemma 3 27B, such as Gemma 3 27B giving relatively higher scores for machine learning research, proving that at least one of the two LLMs has AI bias. Finally, comparing the scores for full-text articles compared to scores for titles and abstracts also finds differences for both LLMs, showing that they both can exhibit AI bias for at least one of these two input types, and probably both. Overall, the results show that it is important to consider LLM biases when deciding whether to use them for research evaluation tasks.</description>
+    </item>
+    <item>
       <title>Measuring the Installed Base: Nordic Health Dataset Catalogues Against HealthDCAT-AP Release 7</title>
       <link>http://arxiv.org/abs/2608.27720v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.27720v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2508.08850</guid>
       <pubDate>Tue, 17 Mar 2026 00:00:00 -0000</pubDate>
       <description>This study first examines how APC expenditures, authorship patterns, and publishing venues of Ukrainian scholars changed between the pre-war (2020-2021) and wartime (2022-2023) periods. Second, it explores the extent to which APC levels are associated with the field-normalized citation impact (FNCI) of Gold Open Access articles authored by Ukrainian scholars. Statistical analysis revealed a small but significant correlation between APC amounts and citation impact, though the effect size was minimal, suggesting higher APCs did not substantially boost citations. APC waivers offered by major publishers such as Springer and Elsevier since 2022 resulted in only a slight increase in the number of articles authored solely by Ukrainian scholars. Despite these waivers, MDPI and Aluna maintained the largest shares. Between 2020 and 2023, the number of articles authored solely by Ukrainian scholars in foreign journals fell by 25.7 percent, and total APC spending declined by 24.6 percent, from 1.24 million EUR to 0.93 million EUR. Medicine accounted for the largest share of both articles and APC expenditure, with the majority published in Aluna journals.</description>
-    </item>
-    <item>
-      <title>A Formalization of the Ionescu-Tulcea Theorem in Mathlib</title>
-      <link>https://arxiv.org/abs/2506.18616</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.18616</guid>
-      <pubDate>Tue, 17 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We describe the formalization of the Ionescu-Tulcea theorem, showing the existence of a probability measure on the space of trajectories of a Markov chain, in the proof assistant Lean using the integrated library Mathlib. We first present a mathematical proof before exposing the difficulties which arise when trying to formalize it, and how they were overcome. We then build on this work to formalize the construction of the product of an arbitrary family of probability measures.</description>
     </item>
   </channel>
 </rss>

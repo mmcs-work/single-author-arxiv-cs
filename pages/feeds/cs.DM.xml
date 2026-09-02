@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Graphs with Long Pseudosimilarity Chains under Consecutive Vertex Deletions</title>
+      <link>http://arxiv.org/abs/2609.00394v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00394v1</guid>
+      <pubDate>Mon, 31 Aug 2026 21:23:53 +0000</pubDate>
+      <description>Pseudosimilar vertices are vertices in distinct automorphism orbits whose deletions produce isomorphic graphs. Classical work has studied the existence, group-theoretic origin, and construction of large sets of such vertices. We ask a different recursive question: how long can one repeatedly delete a vertex that is pseudosimilar at the moment of deletion? We define the pseudosimilarity depth of a graph and construct connected graphs in which this process continues through all but a sublinear number of vertices. A two-clock construction gives a square-root deficit uniformly in the order, while a Chinese-remainder construction with many cyclic clocks yields an infinite family of asymmetric graphs with only a polylogarithmic number of vertices left outside the active chain. The mechanism realizes pseudosimilarity by breaking a long hidden automorphism orbit and enlarging the break one vertex at a time. Thus pseudosimilarity can persist through an asymptotically full sequence of vertex deletions, even though every graph encountered in the main construction is asymmetric.</description>
+    </item>
+    <item>
       <title>Unary Functions, Automorphisms, and Unlabeled First-Order Model Counting</title>
       <link>http://arxiv.org/abs/2608.30580v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30580v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.03405</guid>
       <pubDate>Fri, 03 Jul 2026 00:00:00 -0000</pubDate>
       <description>We show that the existence of an oddomorphism from a graph $F$ to a graph $G$ does not imply that $G$ is a minor of $F$. This answers a question posed by Roberson (2022) and shows that the CFI graphs cannot be used to prove the Strong Roberson Conjecture. Additionally, we introduce the concept of a split-off minor and show that the existence of an oddomorphism from $F$ to $G$ implies that $G$ is a split-off minor of $F$. Consequently, every class that is closed under taking split-off minors and disjoint unions is homomorphism distinguishing closed. The split-off minor relation is the first minor-like structural relation shown to have this property, marking a meaningful advancement in our understanding of the interaction between structural graph containment and homomorphism indistinguishability relations.</description>
-    </item>
-    <item>
-      <title>Palindrome complexity versus factor complexity</title>
-      <link>https://arxiv.org/abs/2606.08127</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.08127</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Let ${\bf x} = (a_i)_{i \geq 0}$ be an infinite word over a finite alphabet $Σ$. Let $ρ(n)$ be the factor complexity function for $\bf x$ and ${\rm Pal}(n)$ be the palindrome complexity function for $\bf x$. We give a new relationship between these two quantities; namely, if $\bf x$ is not ultimately periodic, then $$ \lim_{n \rightarrow \infty} {{ {\rm Pal} (n) \log ({\rm Pal} (n) + 1)} \over {ρ(n)}} = 0. $$ Furthermore, we prove that the numerator in this result is essentially optimal.</description>
     </item>
   </channel>
 </rss>

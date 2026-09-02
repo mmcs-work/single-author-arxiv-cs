@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Closed Forms and Synthetic Twins: Predicting Approximate Nearest Neighbor Recall from Embedding Statistics</title>
+      <link>http://arxiv.org/abs/2609.00364v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.00364v1</guid>
+      <pubDate>Mon, 31 Aug 2026 20:58:38 +0000</pubDate>
+      <description>Embedding models are trained and evaluated as if retrieval were exact; in production they serve behind approximate indexes -- HNSW, IVF, product quantization, or the fixed-dimensional encodings (FDEs) of late-interaction models -- whose behavior the encoder's benchmarks never see: one modern encoder recovers just 14% of its exact top-10 through its raw FDE index. Such failures surface only after an index is built, and the standard patches -- corpus-fitted transforms such as whitening -- must be fitted, stored, and refit as the corpus changes, and can silently rewrite what the encoder returns. This paper shows that index behavior is predictable before anything is built, from label-free statistics of the raw embeddings, through a ladder of instruments matched to what each index family consumes: (1) closed-form moment statistics for the fixed-grid quantizers (PQ, FDE); (2) simulation on a synthetic twin corpus -- cluster statistics made generative, on which any index, composed production systems included, can be built and tested -- for partition indexes; (3) size-extrapolated, lightly calibrated twins for graph indexes at million-document scale. Predictions land within 0.03 of measured recall on an unseen million-document corpus. The same geometry is trainable: targeting the one statistic no post-hoc transform can move -- the score margin -- lifts recall for every index family at once, at a small measured task cost. The result: index choice, correction pricing, and production recall forecast from one cheap measurement pass, on new corpora and new indexes alike; serving without per-corpus transform machinery, suited to continuously changing corpora; and a recall-compute frontier pushed by adapting encoders to geometry rather than coupling them to any single index.</description>
+    </item>
+    <item>
       <title>The Language of the Question Selects the Market: Query Language and Exit IP as Separable Factors in Commercial Recommendations from a Generative Search Interface</title>
       <link>http://arxiv.org/abs/2608.30052v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30052v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.03611</guid>
       <pubDate>Fri, 03 Jul 2026 00:00:00 -0000</pubDate>
       <description>Recovering sparse signals from their subsampled Fourier representation is an important problem in communications, radar, and imaging. In this letter, we focus on reconstructing sparse 2D signals (matrices) under the constraint that only a fixed number of entries can be sampled from each channel, e.g., a row or a column in the Fourier domain. For a specified per-channel readout budget, we derive a lower bound on the mutual coherence of the corresponding compressed sensing matrix. We show that our bound is larger than the classical Welch bound, due to a limited readout budget. We also construct deterministic subsampling patterns that attain this bound for a class of matrix dimensions and readout budgets, and benchmark them against random subsampling through simulations.</description>
-    </item>
-    <item>
-      <title>Linking Hadith Narrator Identities Across Heterogeneous Arabic Biographical Databases: A Multi-Signal Entity Resolution Pipeline</title>
-      <link>https://arxiv.org/abs/2607.05424</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.05424</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 -0000</pubDate>
-      <description>The transmission chains (sanad) of Islamic Hadith literature encode relationships among tens of thousands of historical narrators whose biographical records are dispersed across independently maintained digital databases that share no common identifier. We present a two-phase entity resolution pipeline that links narrator names from the Sanadset 650K corpus - 650,986 Hadith records from 926 books containing 185,216 unique narrator name variants - to two biographical databases: Hadithtransmitters (Hawramani; 100,915 entries) and Muslimscholars (25,247 entries). Phase 1 matches Sanadset names to Hawramani using name-only similarity (Sanadset carries no metadata), yielding 94,628 links (51.1%; HIGH 39,938 / MED 54,690). Phase 2 cross-references Hawramani against Muslimscholars via a weighted multi-signal function combining name similarity, death-year proximity, and reliability grade polarity, yielding 95,573 links (94.7% of Hawramani; HIGH 18,245 / MED 71,546 / LOW 5,782). Chaining the two phases gives Sanadset narrators transitive access to Muslimscholars data. The linked data enable construction of a 185,216-node, 814,093-edge directed transmission graph enriched with cross-source biographical metadata. The annotated link corpora and enriched graph are released as open resources.</description>
     </item>
   </channel>
 </rss>
