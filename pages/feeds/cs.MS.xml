@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>GRADSOLVE: fast exact gradients for ODE ensembles on GPUs</title>
+      <link>http://arxiv.org/abs/2609.02876v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02876v1</guid>
+      <pubDate>Wed, 02 Sep 2026 17:56:10 +0000</pubDate>
+      <description>Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solvers built for differentiation solve more slowly. No single tool has yet offered a reverse-mode gradient at the speed of a fused-kernel solve. We present GRADSOLVE, an open-source JAX library for solving and reverse-mode differentiating low-dimensional ODE ensembles on NVIDIA GPUs. It records the steps an adaptive solver accepts and differentiates a fixed-step replay of them; the returned gradient is the exact discrete adjoint of those steps, the same derivative Diffrax returns by default, obtained more cheaply from a fixed-length chain than from an adaptive loop. It targets ensembles differentiated many times against one recorded mesh, keeps Diffrax as a fallback, and supports explicit and Rosenbrock integrators. Used as a solver, GRADSOLVE's forward-only kernel ran 2.8x faster than DiffEqGPU.jl; used for gradients, once a record exists, it computed them 5.6-14.1x faster than Diffrax's checkpointed adjoint at matched forward-state accuracy across three GPU generations, the advantage narrowing on large ensembles and, on stiff systems, down to parity at tight accuracy. GRADSOLVE is released at https://github.com/ECLIPSE-AI4Science/gradsolve.</description>
+    </item>
+    <item>
+      <title>Matrix-Aware Proper Scoring Rules and Significance Testing for Correlation and Covariance Forecasts in Python</title>
+      <link>http://arxiv.org/abs/2609.01648v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01648v1</guid>
+      <pubDate>Sun, 30 Aug 2026 05:13:37 +0000</pubDate>
+      <description>Forecasting a correlation or covariance matrix is common in risk management and portfolio construction, but evaluating such a forecast correctly is not routine: naive matrix-comparison metrics are not proper scoring rules, walk-forward evaluation windows are easy to overlap with the estimation window in ways that silently leak information, and significance testing on serially dependent forecast-error sequences needs machinery few analysts implement from scratch. corrscore is a Python package that provides matrix-aware implementations of two established proper scoring rules for this setting -- the energy score and the variogram score -- dispatched across a closed-form tractability spectrum (point, discrete-mixture, and isotropic-Gaussian-mixture forecasts are scored exactly; a general Monte Carlo ensemble falls back to sampling), a geometry-aware variant of the variogram score built from the affine-invariant distance on the correlation manifold, a zero-overlap-by-construction walk-forward backtest harness, and a bundled significance-testing suite (circular block bootstrap, the Diebold-Mariano test, and the Model Confidence Set). We describe the package's design, its point of departure from the existing scoringRules and properscoring packages, and walk through a complete worked example.</description>
+    </item>
+    <item>
       <title>The Pauli Lightcone: Information-Theoretic Error Mitigation Beyond the Autocorrelation</title>
       <link>http://arxiv.org/abs/2608.25254v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.25254v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2501.15856</guid>
       <pubDate>Mon, 27 Jan 2025 00:00:00 -0000</pubDate>
       <description>Efficient code writing is both a critical and challenging task, especially with the growing demand for computationally intensive algorithms in statistical and machine-learning applications. Despite the availability of significant computational power today, the need for optimized algorithm implementations remains crucial. Many R users rely on Rcpp to write performant code in C++, but writing and benchmarking C++ code presents its own difficulties. While R's benchmarking tools are insufficient for measuring the execution times of C++ code segments, C++'s native profiling tools often come with a steep learning curve. The rcpptimer package bridges this gap by offering a simple and efficient solution for timing C++ code within the Rcpp ecosystem. This novel package introduces a user-friendly tic-toc class that supports overlapping and nested timers and OpenMP parallelism, providing nanosecond-level time resolution. Results, including summary statistics, are seamlessly passed back to R without requiring users to write any C++ code. This paper contextualizes the rcpptimer package within the broader ecosystem of R and C++ profiling tools, explains the motivation behind its development, and offers a comprehensive overview of its implementation. Supplementary to this paper, we provide multiple vignettes that thoroughly explain this package's usage.</description>
-    </item>
-    <item>
-      <title>AD-HOC: A C++ Expression Template package for high-order derivatives backpropagation</title>
-      <link>https://arxiv.org/abs/2412.05300</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2412.05300</guid>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 -0000</pubDate>
-      <description>This document presents a new C++ Automatic Differentiation (AD) tool, AD-HOC (Automatic Differentiation for High-Order Calculations). This tool aims to have the following features: -Calculation of user specified derivatives of arbitrary order -To be able to run with similar speeds as handwritten code -All derivatives calculations are computed in a single backpropagation tree pass -No source code generation is used, relying heavily on the C++ compiler to statically build the computation tree before runtime -A simple interface -The ability to be used \textit{in conjunction} with other established, general-purpose dynamic AD tools -Header-only library, with no external dependencies -Open source, with a business-friendly license</description>
-    </item>
-    <item>
-      <title>Monte Carlo Analysis of Boid Simulations with Obstacles: A Physics-Based Perspective</title>
-      <link>https://arxiv.org/abs/2412.10420</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2412.10420</guid>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 -0000</pubDate>
-      <description>Boids, developed by Craig W. Reynolds in 1986, is one of the earliest emergent models where the global pattern emerges from the interaction between many individuals within the local scale. In the original model, Boids follow three rules: separation, alignment, and cohesion; which allow them to move around and create a flock without intention in the empty environment. In the real world, however, the Boids' movement also faces obstacles preventing the flock's direction. In this project, I propose two new simple rules of the Boids model to represent the more realistic movement in nature and analyze the model from the physics perspective using the Monte Carlo method. From those results, the physics metrics related to the forming of the flocking phenomenon show that it is reasonable to explain why birds or fishes prefer to move in a flock, rather than sole movement.</description>
     </item>
   </channel>
 </rss>

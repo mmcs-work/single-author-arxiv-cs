@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Causal Probabilistic Programming via Magmadic Do-Notation</title>
+      <link>http://arxiv.org/abs/2609.02873v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02873v1</guid>
+      <pubDate>Wed, 02 Sep 2026 17:54:57 +0000</pubDate>
+      <description>We introduce a do-notation metalanguage for causal probabilistic programming. The metalanguage is based on magmads: non-associative monads. We derive causal probabilistic programming constructs from non-associativity and the primitives of probabilistic programming.</description>
+    </item>
+    <item>
       <title>The Price of Remembering: A Calibrated Energy Law for Computation</title>
       <link>http://arxiv.org/abs/2609.00744v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.00744v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.21233</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 -0000</pubDate>
       <description>Motivated by challenging modelling issues in the life sciences, we investigate the relationship between logic programming semantics and the eventual states of causal processes compatible with those logic programs. More precisely, we show that while stable models of positive logic programs correspond to the eventual states of processes commencing from a neutral state and continuing undisturbed indefinitely, supported models describe the eventual states reachable from arbitrary starting points. This also contributes to the discussion of the appropriate semantics for logic programming as a causal rule language, adding a temporal perspective to recent interpretations of the stable and supported model semantics from an explanatory viewpoint of causality.</description>
-    </item>
-    <item>
-      <title>GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI</title>
-      <link>https://arxiv.org/abs/2607.21189</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.21189</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A grassroots platform is a multiagent distributed system in which multiple independent instances can form and operate independently of each other and of any global resource, yet may coalesce into ever larger instances, possibly resulting in a single global instance. Grassroots platforms aim to offer an egalitarian/democratic alternative to centralised/autocratic and decentralised/plutocratic global platforms. Here, we present Grassroots Logic Programs (GLP), a multiagent concurrent logic programming language designed for the implementation of grassroots platforms: we recall the standard operational semantics of logic programs; introduce the concurrent operational semantics of GLP as its restriction; recall multiagent atomic transactions; use them to introduce a multiagent operational semantics of GLP; and prove multiagent GLP to be grassroots. The grassroots social graphâ€”the foundational grassroots platform on which all others are basedâ€”serves as a GLP programming example.</description>
     </item>
   </channel>
 </rss>

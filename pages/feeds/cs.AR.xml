@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Batch Before You Time: Decision-Scoped Proxy Execution for Timing-Aware Logic Rewriting</title>
+      <link>http://arxiv.org/abs/2609.02470v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02470v1</guid>
+      <pubDate>Wed, 02 Sep 2026 11:39:48 +0000</pubDate>
+      <description>Standard Delay Format (SDF)-annotated switching simulation distinguishes delay-dependent activity among functionally equivalent rewrites, but evaluating every candidate repeats timing, compilation, and replay. A zero-delay proxy can remove timed evaluations, but generating that proxy candidate by candidate can cost more than the timed work it saves. We present Batch Before You Time (BBYT), which compiles all candidates of one rewrite decision into one scoped zero-delay image and either commits a well-separated proxy winner or invokes the unchanged timed chain. Across 12 counterbalanced holdout sequences, BBYT reduces complete candidate-selection time by 18.05% on average; the design-level reductions are 5.84% and 30.25%, with both confidence intervals above zero. On a counterbalanced 8,192-transition C6288 workload, BBYT is 9.24% faster than the same gate executed with candidate-wise proxy launches. In the five-workload corpus, BBYT removes 32.52% of timed candidate evaluations and matches exhaustive timed selection on all 250 evaluated decisions. For on-demand timing-aware rewrite selection, proxy execution and fidelity continuation should use the same decision scope.</description>
+    </item>
+    <item>
       <title>The Price of Remembering: A Calibrated Energy Law for Computation</title>
       <link>http://arxiv.org/abs/2609.00744v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.00744v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.20654</guid>
       <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
       <description>Classical Amdahl's Law conceptualized the limit of speedup for an era of fixed serial-parallel decomposition and homogeneous replication. Modern heterogeneous systems need a different conceptual framework: constrained resources must be allocated across heterogeneous hardware while workloads themselves change, with some stages becoming effectively bounded and others continuing to absorb additional effective compute. This paper reformulates Amdahl's Law around that shift. We replace processor count with an allocation variable, replace the classical parallel fraction with a value-scalable fraction, and model specialization by a relative efficiency ratio between dedicated and programmable compute. The resulting objective yields a finite collapse threshold. For a specialized efficiency ratio R, there is a critical scalable fraction S_c = 1 - 1/R beyond which the optimal allocation to specialization becomes zero. Equivalently, for a given scalable fraction S, the minimum efficiency ratio required to justify specialization is R_c = 1/(1-S). Thus, as value-scalable workload grows, over-customization faces a rising bar. The point is not that one hardware class simply defeats another, but that architecture must preserve a sufficiently programmable substrate against a moving frontier of work whose marginal gains keep scaling. In practice, that frontier is often sustained by software- and model-driven efficiency doublings rather than by fixed-function redesign alone. The model helps explain the migration of value-producing work toward learned late-stage computation and the shared design pressure that is making both GPUs and AI accelerators more programmable2</description>
-    </item>
-    <item>
-      <title>Direct Integer Division in RNS and its Hardware Solutions</title>
-      <link>https://arxiv.org/abs/2604.04796</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.04796</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Residue Number Systems (RNS) offer efficient modular arithmetic and natural parallelism, but direct integer division in RNS remains a difficult and comparatively underdeveloped operation. This paper builds on the type-II division algorithm of Szabo and Tanaka and reformulates it for more efficient hardware implementation. A principal contribution is the introduction of a power-based RNS, in which moduli are selected as powers of natural primes, increasing dynamic range, improving bit efficiency, and providing greater flexibility for scaling during division. The paper further formalizes three decomposition methods required by the division process: multi-factor scaling for modulus-based division, mixed-radix conversion for base extension and comparison, and a new divisor decomposition method introduced in this work. Each method is supported by mathematical development, including analysis of modulus invalidation during computation. These results simplify the hardware structure of the algorithm and improve its scalability. Supported by hardware diagrams and performance tables, the work advances both the theory and practical implementation of direct RNS division.</description>
     </item>
   </channel>
 </rss>

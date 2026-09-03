@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study</title>
+      <link>http://arxiv.org/abs/2609.02804v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02804v1</guid>
+      <pubDate>Wed, 02 Sep 2026 16:40:46 +0000</pubDate>
+      <description>For more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph. Together with a verified partition into 100 cliques of size 40, the witness proves that the maximum independent-set size is 100 and the minimum vertex-cover size is 3,900. The stochastic run that found the witness is kept separate from this proof. We evaluated its added pair and triple repair operators in a preregistered campaign comprising 8,668 valid runs. The primary comparison found no detectable acceleration over base ULSA (hazard ratio 0.967, 95% confidence interval 0.915-1.023; p=0.248), and the factorial ablation reached the same conclusion. On a smaller FRB suite, the group-aware CSP pipeline solved 2,500/2,500 runs, compared with 2,391/2,500 for LibMVC-NuMVC. On frb100-40, full ULSA, base ULSA, and NuMVC each produced 0/56 new certificates. With no events, the planned cross-solver hazard ratios remain unidentified. NuMVC ended with cover size 3,902 in 40 runs and 3,903 in 16. Exhaustive enumeration showed that none of the 108 unique recorded conflict-two states had a strictly improving group-aware CSP neighbor within Hamming radius three. The certificate settles the instance. The experiments characterize the search barrier, and the preregistered comparisons show no heuristic advantage.</description>
+    </item>
+    <item>
       <title>Extremal Asymmetric Depth of Planar Graphs and Hidden Near-Mirror Symmetries of IPR Fullerenes</title>
       <link>http://arxiv.org/abs/2609.02585v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.02585v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.08210</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 -0000</pubDate>
       <description>We introduce a categorical analogue of weak hypercube representations of finite posets by means of faithful embeddings into categories of subwords of finite words. For finite acyclic categories, we characterize those admitting such a weak subword representation: they are precisely the monic categories whose hom-sets carry a left-compatible local total order. The proof is constructive and gives an explicit word representation. We also introduce a query game for categories, generalizing a Boolean query game for posets, and show how winning sets produce explicit word representations and hence upper bounds for the weak word dimension.</description>
-    </item>
-    <item>
-      <title>Canonical Join Trees</title>
-      <link>https://arxiv.org/abs/2607.07992</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.07992</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A rooted join tree of an acyclic hypergraph is canonical if each of its nodes has minimum possible depth among all join trees with the same root. Luo et al. [ICDT 2026, article 17] introduce these trees and pose the open problem of characterizing acyclic hypergraphs according to whether they admit canonical join trees for none, some, or all hyperedges as root. In this paper, we resolve this question. We show that each canonical join tree is unique with respect to its root and give a first characterisation for such trees. Additionally, we characterise hypergraphs that admit a canonical join tree for none, some, or all their hyperedges as root. Lastly, we present a linear-time algorithm that constructs a canonical join tree whenever one exists.</description>
     </item>
   </channel>
 </rss>
