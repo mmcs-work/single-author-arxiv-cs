@@ -145,17 +145,16 @@ async function render() {
   });
 }
 async function load() {
-  const active = filters(); currentPage = 1; renderVersion += 1; paperList.replaceChildren(); status.textContent = "Loading archive…"; pagination.hidden = true;
+  const active = filters(), query = active.query.trim().toLowerCase(); currentPage = 1; renderVersion += 1; paperList.replaceChildren(); status.textContent = "Loading archive…"; pagination.hidden = true;
   try {
     let records;
-    if (active.query.trim()) {
-      const query = active.query.trim().toLowerCase();
-      const index = await data("data/search.json");
-      const matchedIndex = index.filter(item => `${item.title} ${item.author}`.toLowerCase().includes(query) && matches(item, active));
-      const months = [...new Set(matchedIndex.map(item => item.published.slice(0, 7)))];
-      const full = (await Promise.all(months.map(month => data(`data/months/${month}.json`)))).flat();
-      const ids = new Set(matchedIndex.map(item => item.arxiv_id));
-      records = full.filter(item => ids.has(item.arxiv_id));
+    if (query && (active.start || active.end)) {
+      const months = monthRange(active.start, active.end);
+      records = (await Promise.all(months.map(month => data(`data/months/${month}.json`)))).flat();
+    } else if (query && active.category) {
+      records = await data(`data/categories/${active.category}.json`);
+    } else if (query) {
+      records = await data("data/search.json");
     } else if (active.start || active.end) {
       const months = monthRange(active.start, active.end);
       status.textContent = `Loading ${months.length} monthly archive${months.length === 1 ? "" : "s"}…`;
@@ -165,7 +164,7 @@ async function load() {
     } else {
       records = await data("data/search.json");
     }
-    shown = records.filter(item => matches(item, active)).sort((a, b) => b.published.localeCompare(a.published));
+    shown = records.filter(item => matches(item, active) && (!query || `${item.title} ${item.author}`.toLowerCase().includes(query))).sort((a, b) => b.published.localeCompare(a.published));
     render();
   } catch (error) { status.textContent = error.message; }
 }
