@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Extremal Asymmetric Depth of Planar Graphs and Hidden Near-Mirror Symmetries of IPR Fullerenes</title>
+      <link>http://arxiv.org/abs/2609.02585v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02585v1</guid>
+      <pubDate>Wed, 02 Sep 2026 13:30:10 +0000</pubDate>
+      <description>Although almost all graphs are asymmetric -- having no nontrivial global automorphisms -- they may still possess local symmetries in the form of isomorphisms between induced subgraphs, i.e., partial automorphisms. We study such local symmetries via asymmetric depth, defined in terms of the maximum rank of a nontrivial partial automorphism. We prove a tight upper bound on asymmetric depth in the class of planar graphs and identify the extremal graphs: duals of IPR fullerenes attain the maximum already on $47$ vertices. Our main structural result concerns the IPR fullerenes that are neither maximally asymmetric nor symmetric. In such a cage no purely local action realises a low asymmetric depth, and we show that the map which does realise it cannot be confined to a small part of the cage either: neither to a single face, nor behind an interface of at most $5-k$ edges, $k \le 3$ being the deficiency. A cage of asymmetric depth $2$ or $3$ is therefore not asymmetric in one place; it carries a broken symmetry invisible to its automorphism group. Such cages are rare -- under $2\%$ of the asymmetric IPR fullerenes at $n = 118$. In all $727$ of them the largest partial automorphism is a near-mirror reflection, which we state as an explicit conjecture. We also extend the asymmetric depth bound to graphs of higher genus.</description>
+    </item>
+    <item>
+      <title>The Class Edge-Reconstruction Number of a Maximal Planar Graph Is One or Two</title>
+      <link>http://arxiv.org/abs/2609.02389v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02389v1</guid>
+      <pubDate>Wed, 02 Sep 2026 10:01:41 +0000</pubDate>
+      <description>An edge card of a graph is obtained by deleting one edge, and a class edge-reconstruction number asks for the fewest carefully selected cards that identify the graph when its class is known. We determine the sharp universal bound for maximal planar graphs. Two selected cards always suffice, and the octahedral graph shows that two can be necessary; some maximal planar graphs are already identified by one card. The argument exploits the fact that deleting a flippable edge leaves a single quadrilateral whose two diagonals give the only possible maximal-planar completions. Degree information then rules out the competing completion, with a separate argument for graphs containing a vertex of degree three. This settles a problem posed in a 2010 survey on reconstruction numbers.</description>
+    </item>
+    <item>
+      <title>Logarithmic basis number of graphs</title>
+      <link>http://arxiv.org/abs/2609.02080v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02080v1</guid>
+      <pubDate>Wed, 02 Sep 2026 04:09:29 +0000</pubDate>
+      <description>The basis number $\mathrm{bn}(G)$ of a graph $G$ is the minimum edge-congestion of a basis of its cycle space. We prove that every finite $n$-vertex multigraph satisfies \[ \mathrm{bn}(G)=O(\log n), \] resolving, for simple graphs, a question of Bazargani, Biedl, Bose, Maheshwari and Miraftab, subsequently stated as a conjecture by Miraftab, Morin and Yuditsky. The argument also yields the cycle-rank refinement \[ \mathrm{bn}(G)=O(\log β(G)), \] where $β(G)$ is the dimension of the cycle space, and a reduction of Lehner and Miraftab, based on a theorem of Richter and Shank, then gives \[ \mathrm{bn}(G)=O(\log g) \] for graphs of Euler genus $g$. These orders are best possible.</description>
+    </item>
+    <item>
+      <title>Albertson's Conjecture Holds for r at Most 26</title>
+      <link>http://arxiv.org/abs/2609.01682v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01682v1</guid>
+      <pubDate>Tue, 01 Sep 2026 13:05:28 +0000</pubDate>
+      <description>Albertson conjectured that every graph with chromatic number r has crossing number at least cr(K_r). The conjecture was verified for r &lt;= 12 by Albertson, Cranston and Fox, for r &lt;= 16 by Bar'at and T'oth, for r &lt;= 18 by Ackerman, and recently for r &lt;= 24 by Cranston, who reduced the remaining cases r in {25, 26} to three orders. We settle those three orders, so that Albertson's Conjecture holds for all r &lt;= 26. Only published results are used, and an appendix reproves the range 19 &lt;= r &lt;= 24 so that the case r &lt;= 26 does not rest on unpublished work. We also show that if chi(G) = 27 and cr(G) &lt; cr(K_27), then G has a 27-critical subgraph of order 53 or 54 whose complement is connected.</description>
+    </item>
+    <item>
       <title>Graphs with Long Pseudosimilarity Chains under Consecutive Vertex Deletions</title>
       <link>http://arxiv.org/abs/2609.00394v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.00394v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.07992</guid>
       <pubDate>Wed, 08 Jul 2026 00:00:00 -0000</pubDate>
       <description>A rooted join tree of an acyclic hypergraph is canonical if each of its nodes has minimum possible depth among all join trees with the same root. Luo et al. [ICDT 2026, article 17] introduce these trees and pose the open problem of characterizing acyclic hypergraphs according to whether they admit canonical join trees for none, some, or all hyperedges as root. In this paper, we resolve this question. We show that each canonical join tree is unique with respect to its root and give a first characterisation for such trees. Additionally, we characterise hypergraphs that admit a canonical join tree for none, some, or all their hyperedges as root. Lastly, we present a linear-time algorithm that constructs a canonical join tree whenever one exists.</description>
-    </item>
-    <item>
-      <title>RetractorDB: A Deterministic Edge Signal Processing Engine Based on Rational Beatty Sequences and Fraenkel's Partition</title>
-      <link>https://arxiv.org/abs/2607.07730</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.07730</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present RetractorDB, an open-source edge signal processing engine (ESPE) for regular time series whose query semantics is grounded in the number theory of covering systems. RetractorDB is designed to support, not replace, time-series databases (TSDB) and data stream management systems (DSMS): deployed close to the signal source, it pre-processes and filters high-frequency measurements on the edge device through a declarative signal-processing query language, maintains a partial, correctable record of past and scheduled future events in inspectable artifacts, and transmits exact, deterministic results upstream, so that only reduced, already-processed streams reach the central architecture. The data model is differential (a stream is a pair $(s_n, Δ)$ with a constant rational inter-arrival interval), and the core rate-conversion operators, interleave and de-interleave, are proved to be rational Beatty sequences satisfying the conditions of Fraenkel's partition theorem. This yields an algebra in which resampling is an exact, deterministic, first-class operator: de-interleaving inverts interleaving bit-for-bit using rational arithmetic alone, and algebraic rewrite rules license query-plan optimization without changing results. We describe the end-to-end realization of this algebra in a working engine: declarative query language (RQL), compilation to a dependency DAG with rational interval resolution, slot-based runtime scheduling, and an inspectable artifact format with schema and null/gap metadata. We validate the semantics on deterministic query examples drawn from the engine's integration tests, including a complete Pan-Tompkins QRS-detection pipeline over MIT-BIH ECG data expressed entirely within the algebra. A performance evaluation under a real-time operating environment is in progress and deferred to a subsequent version.</description>
-    </item>
-    <item>
-      <title>Numbering Combinations for Compact Representation of Many-to-Many Relationship Sets</title>
-      <link>https://arxiv.org/abs/2511.02096</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.02096</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In this paper we propose an approach to implement specific relation-ship set between two entities called combinatorial relationship set. For the combinatorial relationship set B between entity sets G and I the mapping cardinality is many-to-many. Additionally, entities from G can be uniquely encoded with a pair of values (h, k) generated with the procedure for numbering combinations of entities from I. The encoding procedure is based on combinatorial number system that provides a representation of all possible k -combinations of a set of n elements by a single number. In general many-to-many relationship sets are represented by a relation or table, while the combinatorial relationship is not physically stored as separate table. However, all information is encapsulated into a single column added to G. The new column is a candidate key in G. Additional operation named Rank-Join to fundamental relational-algebra is presented to combine information from g and i associated with a combinatorial relationship set. Motivation for combinatorial relationship originates from challenges in designing and implementing multivalued dimensions and bridge tables in data-warehouse models.</description>
-    </item>
-    <item>
-      <title>Sequential cable constructions and linear rank-width</title>
-      <link>https://arxiv.org/abs/2607.04141</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.04141</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We introduce split-free cable terms and cable plays, a sequential graph-construction language whose live cables impose uniform GF(2)-row behaviour across the current cut. Every play of width w gives a birth-order layout whose cutrank is at most half of w, rounded down, so the sequential split-free width is at least twice the linear rank-width. At the first nontrivial level we prove an exact characterization: a connected graph with at least two vertices has linear rank-width at most one exactly when it admits a stream, equivalently a singleton-birth play of width at most four. We show that unrestricted term width and sequential width differ unboundedly on trees, calibrate the construction on the net graph, and formulate an affine upper-bound conjecture relating sequential split-free width to linear rank-width. For the rank-two case we prove a two-accumulator scheduling criterion that yields width-six plays under a natural future-uniformity hypothesis.</description>
-    </item>
-    <item>
-      <title>Oddomorphisms, Split-Off Minors, and the Strong Roberson Conjecture</title>
-      <link>https://arxiv.org/abs/2607.03405</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.03405</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We show that the existence of an oddomorphism from a graph $F$ to a graph $G$ does not imply that $G$ is a minor of $F$. This answers a question posed by Roberson (2022) and shows that the CFI graphs cannot be used to prove the Strong Roberson Conjecture. Additionally, we introduce the concept of a split-off minor and show that the existence of an oddomorphism from $F$ to $G$ implies that $G$ is a split-off minor of $F$. Consequently, every class that is closed under taking split-off minors and disjoint unions is homomorphism distinguishing closed. The split-off minor relation is the first minor-like structural relation shown to have this property, marking a meaningful advancement in our understanding of the interaction between structural graph containment and homomorphism indistinguishability relations.</description>
     </item>
   </channel>
 </rss>

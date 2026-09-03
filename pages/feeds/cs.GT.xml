@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection</title>
+      <link>http://arxiv.org/abs/2609.01814v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01814v1</guid>
+      <pubDate>Tue, 01 Sep 2026 19:41:30 +0000</pubDate>
+      <description>Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person accuracy can coexist with different portfolio values. Under a registered incremental-sharing protocol, a sharing step improves discovery exactly when pooled residual error contracts faster than an independent rescue attempt. Exact bounded registries exhibit compression, aggregation, neutral curves, and a bounded zero mixed class. In a two-agent Bayesian game with a hidden mixture of common and independent signal sources, the registered selected equilibrium yields a strict positive sharing interval at signal accuracy 3/5, while alternative equilibria show that the result is selection-dependent rather than universal. The models are synthetic and finite; no human or organizational data are used.</description>
+    </item>
+    <item>
       <title>Weighted Fair Division of Indivisible Mixed Manna</title>
       <link>http://arxiv.org/abs/2609.01580v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.01580v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.02416</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
       <description>We introduce a graph-theoretic framework based on discrete sheaves to diagnose and localize inconsistencies in preference aggregation and, more broadly, in the fusion of partial rankings supplied by many overlapping sources. Unlike linearization methods such as HodgeRank, which embed comparisons into a numerical flow, this approach stays purely ordinal and locates conflict in the interaction structure via the Obstruction Locus, identifying which voter pairs fail to cohere. We formalize the Incompatibility Index to quantify these local conflicts and examine their behavior under stochastic variations using the Mallows model. We further develop a sheaf-theoretic pushforward operation to model voter merging, implemented via a polynomial-time constraint digraph algorithm. We demonstrate that graph quotients transform distributed edge conflicts into local impossibilities (empty stalks), showing topologically how aggregation paradoxes can persist across scales.</description>
-    </item>
-    <item>
-      <title>A Better-than-$e^{1/e}$ Approximation Algorithm for Nash Social Welfare under Additive Valuations</title>
-      <link>https://arxiv.org/abs/2607.13340</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.13340</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present an $(e^{1/e} - c)$-approximation algorithm for maximizing Nash social welfare under additive valuations, for some constant $c &gt; 0$. This result improves upon the previous best-known approximation factor of $e^{1/e}$ [Barman, Krishnamurthy and Vaish, EC 2018].</description>
     </item>
   </channel>
 </rss>

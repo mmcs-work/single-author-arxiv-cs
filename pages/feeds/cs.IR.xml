@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Adaptive Test-Time Inference for Text2Cypher with Trace Budgeting and Selective Refinement</title>
+      <link>http://arxiv.org/abs/2609.02324v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02324v1</guid>
+      <pubDate>Wed, 02 Sep 2026 09:07:24 +0000</pubDate>
+      <description>Large language models have enabled natural language interfaces for structured databases, but generated queries may still contain syntactic errors, violate database schemas, or fail during execution. Test-time inference strategies improve generation reliability without additional training, but existing approaches often use fixed inference budgets and uniform refinement strategies, leading to unnecessary computation across questions with different complexity levels. In this work, we investigate adaptive test-time inference for Text2Cypher and introduce two strategies: adaptive trace budgeting, which dynamically adjusts the candidate generation budget based on question difficulty, and selective execution-guided refinement, which applies correction only when additional inference is expected to be beneficial. Experiments on Gemma-2-9B and Qwen-2.5-7B show that adaptive trace budgeting reduces the average generation budget by 30.7% and wall-clock inference time by 21-25% while maintaining comparable generation quality. Selective refinement preserves nearly all execution success gains of full refinement, reducing execution success by only 0.2-0.5% while avoiding unnecessary refinement for simpler questions. Experiments show that a single correction model (Gemma-4) effectively refines outputs from a different model family, suggesting refinement transfers across families.</description>
+    </item>
+    <item>
+      <title>Beyond Context Windows: Persistent Discovery Context for Data-Centric Agents</title>
+      <link>http://arxiv.org/abs/2609.02129v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02129v1</guid>
+      <pubDate>Wed, 02 Sep 2026 05:37:09 +0000</pubDate>
+      <description>Data-centric agents repeatedly perform a discovery step before planning or execution: identifying the data objects relevant to a task. Yet successful discovery outcomes are typically discarded rather than reused. We introduce persistent discovery context, a lightweight memory layer that stores prior intent-to-object mappings and reuses them to augment future retrieval. Across three structured data environments, persistent discovery context consistently improves retrieval quality over metadata-only search, remains effective with automatically generated memories, and exposes a reproducible interference failure mode. In lexically sparse domains, memory-only retrieval can even outperform metadata-based retrieval. These findings suggest that discovery outcomes constitute a useful form of reusable context for data-centric agents.</description>
+    </item>
+    <item>
       <title>Closed Forms and Synthetic Twins: Predicting Approximate Nearest Neighbor Recall from Embedding Statistics</title>
       <link>http://arxiv.org/abs/2609.00364v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.00364v1</guid>
@@ -17,6 +31,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30052v1</guid>
       <pubDate>Sun, 30 Aug 2026 21:25:17 +0000</pubDate>
       <description>When a generative search interface answers a commercial question, which market's products it names is decided before the model reasons about the products. We report a controlled probe of 234 runs against the logged-out ChatGPT web interface and the OpenAI API, collected on 29 and 30 August 2026 across four exit countries and six query languages, with six identical runs per cell. Three results. First, the top recommendation is unstable: it changed across six identical runs on four of six prompts, and that rate was identical in the browser interface and in the API with web search both enabled and disabled, so instability is a property of the system and not of the surface. Second, query language, and not location, decides whether local suppliers appear at all. Where the query language matched the country, a global brand won 1 of 24 runs; asked in English on the same connections, local brands took 0 of 6 runs in Estonia and Turkiye. Third, language and location are separable and act on different things: holding the query language fixed and moving only the exit IP moves the market whose brands are named while the answer stays in the query language. We show this on two unrelated pairs, Turkish asked from Berlin and Russian asked from Tallinn, and in both the answer names the resident country's suppliers. A minority language occupies a middle tier: Russian asked from Estonia names an Estonian supplier in 4 of 6 runs and a global one in all six, where Estonian names a local supplier in every run and English names none. A negative control in a second category, coded with the same instrument, shows no language effect at all, and disconfirms our own expectation: that category does have domestic suppliers and none was named in any language, which points the explanation at whether a category is nationally regulated rather than at whether it is nationally supplied.</description>
+    </item>
+    <item>
+      <title>The Vocabulary Gap Is an Equity Gap: Register Mismatch in Retrieval Systems for Public-Benefits Access</title>
+      <link>http://arxiv.org/abs/2609.01645v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01645v1</guid>
+      <pubDate>Fri, 28 Aug 2026 21:56:18 +0000</pubDate>
+      <description>Retrieval-augmented question answering is increasingly used to help people navigate public-benefits eligibility, yet the documents these systems retrieve from are written in agency register while intended users often ask questions in plain, informal, or non-native English. We show that this register mismatch can turn a high-performing retrieval system into an inequitable one. We construct a controlled benchmark of 51 publicly documented federal benefit-eligibility rules and 25 information needs, each phrased in both agency register and plain user register while keeping the gold passage fixed. Across BM25, TF-IDF, and a term-graph retriever, formal-register evaluation is nearly perfect (Recall@5 96-100%), but plain-register retrieval collapses (Recall@5 36-44%). For BM25, Recall@1 falls from 84% to 16% and Recall@5 from 100% to 44%, a 56-point equity gap on identical information needs. We trace the mechanism to a measurable vocabulary gap: formal queries share 0.63 of their content terms with the gold passage, while plain queries share only 0.11, a 5.9x reduction. A deliberately simple, auditable plain-to-formal lexicon bridge recovers much of the failure, lifting plain-query BM25 Recall@5 from 44% to 80%. The contribution is not a new retriever; it is an evaluation protocol, benchmark, mechanistic diagnosis, and transparent mitigation for a high-stakes social-impact failure mode that standard retrieval evaluation hides.</description>
     </item>
     <item>
       <title>Nested Byte-Level Vocabularies Are Cheap to Deploy and Expensive to Share: A Pre-Registered Negative Result</title>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.29467</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
       <description>Medical question-answering benchmarks rarely cover the maternal, neonatal, child, and reproductive-health questions a nurse-midwife asks, and, to our knowledge, no public chunk-level relevance benchmark exists for maternal-health guideline retrieval. We release two benchmarks that fill these gaps. mamabench is a scope-filtered QA set of 25,949 items assembled from seven existing expert-authored sources across multiple-choice, short-answer, and rubric-graded tracks; to help users calibrate the LLM judge that scores the rubric track, we re-scope HealthBench's physician-labelled meta-evaluation to the domain. mamaretrieval pairs 3,185 clinical queries with graded (0-6) relevance labels over a 63,650-chunk maternal-health guideline corpus, using a decomposed rubric that distinguishes a chunk that answers a query from one merely on its topic. Three decisions shape both: assemble and filter expert sources rather than author questions, grade relevance rather than binarise it, and measure and disclose the limits of the labels -- scope-classifier agreement, a frontier-judge check, and a pooling-completeness audit -- rather than treat them as an oracle. A companion paper uses the benchmarks to evaluate a deployed on-device assistant; both are released openly for research.</description>
-    </item>
-    <item>
-      <title>Empirical Study of Pop and Jazz Mix Ratios for Genre-Adaptive Chord Generation</title>
-      <link>https://arxiv.org/abs/2605.04998</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.04998</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This revision updates a pop-to-jazz chord-generation rehearsal study. Best-epoch metrics still show that modest pop rehearsal preserves pop accuracy while improving jazz prediction, but v2 corrects released-checkpoint selection: the released F1 equals Phase 0, F2 had a transcription error, and ft-pop80-v2 restores a hash-distinct jazz-adapted F1 across 3 seeds.</description>
-    </item>
-    <item>
-      <title>Prediction Is Not Memory: Dual-Timescale Gated Profile Writing for Persistent User Modeling</title>
-      <link>https://arxiv.org/abs/2607.24798</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.24798</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Persistent user profiles increasingly serve as reusable memory in recommender systems, but common update pipelines conflate two decisions: predicting an interaction and deciding whether it should persist in the profile. After an interaction is observed, many systems treat it as evidence for updating durable user state. This assumption can be harmful when the event reflects transient context, exploration, exposure, or short-term satisfaction rather than stable preference formation. We formulate this boundary as selective profile-write control: after an observed interaction, a system should decide whether, and how strongly, to write it into the persistent profile. We introduce a chronological near/far offline protocol in which near-future evidence provides weak write-risk supervision and far-future evidence is reserved for evaluation. We instantiate the controller as SPW-Gate, a lightweight write-risk gate using long-term, short-term, and candidate-profile drift features. On MicroLens-100K, write-all updating hurts far-future profile alignment in 22.45% of test cases under the main protocol. SPW-Gate reduces far hurt to about 14.5% while preserving about 77% write coverage. Matched-coverage controls and prediction-confidence baselines show that the gain is not merely a by-product of writing less, and that next-item confidence is not a sufficient proxy for persistent write validity.</description>
-    </item>
-    <item>
-      <title>Two-dimensional Fourier compressed sensing under a fixed readout budget per channel</title>
-      <link>https://arxiv.org/abs/2607.03611</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.03611</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Recovering sparse signals from their subsampled Fourier representation is an important problem in communications, radar, and imaging. In this letter, we focus on reconstructing sparse 2D signals (matrices) under the constraint that only a fixed number of entries can be sampled from each channel, e.g., a row or a column in the Fourier domain. For a specified per-channel readout budget, we derive a lower bound on the mutual coherence of the corresponding compressed sensing matrix. We show that our bound is larger than the classical Welch bound, due to a limited readout budget. We also construct deterministic subsampling patterns that attain this bound for a class of matrix dimensions and readout budgets, and benchmark them against random subsampling through simulations.</description>
     </item>
   </channel>
 </rss>

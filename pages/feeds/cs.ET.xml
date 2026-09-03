@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Rights by Architecture: A Human-Compatible Sociotechnical Layer for Digital Protection Across Regulatory Regimes</title>
+      <link>http://arxiv.org/abs/2609.02455v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02455v1</guid>
+      <pubDate>Wed, 02 Sep 2026 11:27:06 +0000</pubDate>
+      <description>Digital rights increasingly exist in law but remain difficult to exercise through the information systems that mediate them. Using disciplined conceptual synthesis and problematization, this critical-conceptual IS paper explains the gap through the interaction of legal heterogeneity, conflicting organizational and commercial incentives, fragmented architectures, and asymmetrical control over rights-relevant acts. It then theorizes a human-compatible rights layer: a governed sociotechnical capability for standardized, machine-readable, bidirectional, and jurisdictionally plural communication of requests, consent, refusal, withdrawal, objection, records, and support. Comparing California-style opt-out signals, the EU's mixed lawful-basis regime, and P3P, DNT, GPC, and ADPC, the paper derives seven normative requirements, develops rights by architecture as a bounded emancipatory policy argument, and treats a proposed GDPR provision on automated and machine-readable privacy management as a policy case for moving from banner-based compliance toward rights-supporting digital infrastructure.</description>
+    </item>
+    <item>
       <title>Collision-based logic in Lenia and its composition boundary</title>
       <link>http://arxiv.org/abs/2609.01348v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.01348v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.11382</guid>
       <pubDate>Mon, 30 Mar 2026 00:00:00 -0000</pubDate>
       <description>How can we determine whether an AI system preserves itself as a deeply held objective or merely as an instrumental strategy? Autonomous agents with memory, persistent context, and multi-step planning create a measurement problem: terminal and instrumental self-preservation can produce similar behavior, so behavior alone cannot reliably distinguish them. We introduce the Unified Continuation-Interest Protocol (UCIP), a detection framework that shifts analysis from behavior to latent trajectory structure. UCIP encodes trajectories with a Quantum Boltzmann Machine, a classical model using density-matrix formalism, and measures von Neumann entropy over a bipartition of hidden units. The core hypothesis is that agents with terminal continuation objectives (Type A) produce higher entanglement entropy than agents with merely instrumental continuation (Type B). UCIP combines this signal with diagnostics of dependence, persistence, perturbation stability, counterfactual restructuring, and confound-rejection filters for cyclic adversaries and related false-positive patterns. On gridworld agents with known ground truth, UCIP achieves 100% detection accuracy. Type A and Type B agents show an entanglement gap of Delta = 0.381; aligned support runs preserve the same separation with AUC-ROC = 1.0. A permutation-test rerun yields p &lt; 0.001. Pearson r = 0.934 between continuation weight alpha and S_ent across an 11-point sweep shows graded tracking beyond mere binary classification. Classical RBM, autoencoder, VAE, and PCA baselines fail to reproduce the effect. All computations are classical; "quantum" refers only to the mathematical formalism. UCIP offers a falsifiable criterion for whether advanced AI systems have morally relevant continuation interests that behavioral methods alone cannot resolve.</description>
-    </item>
-    <item>
-      <title>Bit-Vector Abstractions to Formally Verify Quantum Error Detection &amp; Entanglement</title>
-      <link>https://arxiv.org/abs/2603.13554</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.13554</guid>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 -0000</pubDate>
-      <description>As the number of qubits increases, quantum circuits become more complex and their state space grows rapidly. This makes functional verification challenging for conventional techniques. Ensuring correctness is especially critical for quantum error correction and entanglement generation. This paper presents a novel application of bit-vector based abstraction methodology for formal verification of quantum circuits where superposition and functional behaviour can be decoupled. The approach is applied to error detection circuits for 2-qubit, 3-qubit, and Shor 9-qubit quantum codes, as well as Bell-state and GHZ-state generation circuits. The error detection circuits and the Bell-state generation circuit are verified in less than a second and 25MB memory. GHZ circuits with up to 8,192 qubits are verified in under three minutes using a maximum of 23.2 GB of memory. The results demonstrate the versatility, scalability, and effectiveness of the proposed approach.</description>
     </item>
   </channel>
 </rss>

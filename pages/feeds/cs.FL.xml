@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Neural Logic, Invariance, and the Retina---McCulloch and Pitts</title>
+      <link>http://arxiv.org/abs/2609.02183v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.02183v1</guid>
+      <pubDate>Wed, 02 Sep 2026 06:47:06 +0000</pubDate>
+      <description>This chapter reconstructs the McCulloch-Pitts program as a physics of neural computation rather than the familiar cartoon of a binary neuron. The 1943 logical calculus is developed in both directions: given a net, characterize the propositions realized by its activity; given an admissible logical expression, construct a net that realizes it. We recover the original distinction between thresholded excitatory summation and absolute inhibitory veto-one the weighted-threshold form cannot preserve for arbitrarily large excitatory inputs-and read unit-time delay as the physical realization of logical depth. Recurrence is treated exactly: an autonomous, deterministic network of finitely many binary units has a finite state space, so every trajectory eventually enters a periodic orbit-a fact about finite-state dynamics, not unbounded Turing computation. A single threshold element realizes only linearly separable Boolean functions, whereas finite feedforward networks of them synthesize any Boolean function on a finite domain. We then follows McCulloch and Pitts beyond threshold logic. The 1945 heterarchy paper turns cyclic preference into an obstruction to representation by a scalar utility. The 1947 work on universals asks how a physical network can identify inputs related by nuisance transformations, developed here via group averaging and feedback canonicalization. The 1959 frog-retina study makes the adequate-stimulus question experimental, revealing parallel invariant operations before the brain proper. Spike-triggered analysis shows how a nonlinearly driven neuron can have a vanishing first-order average while second-order statistics recover its hidden selectivity: methodological failure can masquerade as physiological absence. Modern mathematical tools are used without projecting their notation onto the historical papers, and limitations of the idealization are stated explicitly.</description>
+    </item>
+    <item>
       <title>Behavioral Memory under Symmetry in One-Way Quantum Automata</title>
       <link>http://arxiv.org/abs/2609.01451v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.01451v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.08577</guid>
       <pubDate>Fri, 10 Apr 2026 00:00:00 -0000</pubDate>
       <description>We introduce Psi-Turing Machines (Psi-TM): classical Turing machines equipped with a constant-depth introspection interface $ ι$ and an explicit per-step information budget $ B(d,n)=c\,d\log_2 n $. With the interface frozen, we develop an information-theoretic lower-bound toolkit: Budget counting, $ Ψ$-Fooling, and $ Ψ$-Fano, with worked examples $ L_k $ and $ L_k^{\mathrm{phase}} $. We prove an oracle-relative separation $ P^Ψ \neq NP^Ψ $ and a strict depth hierarchy, reinforced by an Anti-Simulation Hook that rules out polynomial emulation of $ ι_k $ using many calls to $ ι_{k-1} $ under the budget regime. We also present two independent platforms (Psi-decision trees and interface-constrained circuits IC-AC$^{0}$/IC-NC$^{1}$) and bridges that transfer bounds among machine, tree, and circuit with explicit poly/log losses. The model preserves classical computational power outside $ ι$ yet enables precise oracle-aware statements about barriers (relativization; partial/conditional progress on natural proofs and proof complexity). The aim is a standardized minimal introspection interface with clearly accounted information budgets.</description>
-    </item>
-    <item>
-      <title>Rewriting Structured Cospans</title>
-      <link>https://arxiv.org/abs/2001.09029</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2001.09029</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We develop a theory of rewriting for structured cospans in order to extend compositional methods for modeling open networks. First, we introduce a category whose objects are structured cospans, and establish conditions under which it is adhesive or a topos. These results guarantee that double pushout rewriting can be applied in this setting. We then define structured cospan grammars and construct their associated languages via a 2-categorical framework, capturing both network composition and rewrite dynamics. As an application, we show that for graphs, hypergraphs, Petri nets, and their typed variants, any grammar induces the same language as its corresponding discrete grammar. This equivalence enables an inductive characterization of rewriting, thereby generalizing classical results from graph transformation to a broader class of categorical models.</description>
     </item>
   </channel>
 </rss>

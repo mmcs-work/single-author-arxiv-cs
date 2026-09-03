@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Albertson's Conjecture Holds for r at Most 26</title>
+      <link>http://arxiv.org/abs/2609.01682v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.01682v1</guid>
+      <pubDate>Tue, 01 Sep 2026 13:05:28 +0000</pubDate>
+      <description>Albertson conjectured that every graph with chromatic number r has crossing number at least cr(K_r). The conjecture was verified for r &lt;= 12 by Albertson, Cranston and Fox, for r &lt;= 16 by Bar'at and T'oth, for r &lt;= 18 by Ackerman, and recently for r &lt;= 24 by Cranston, who reduced the remaining cases r in {25, 26} to three orders. We settle those three orders, so that Albertson's Conjecture holds for all r &lt;= 26. Only published results are used, and an appendix reproves the range 19 &lt;= r &lt;= 24 so that the case r &lt;= 26 does not rest on unpublished work. We also show that if chi(G) = 27 and cr(G) &lt; cr(K_27), then G has a 27-critical subgraph of order 53 or 54 whose complement is connected.</description>
+    </item>
+    <item>
       <title>The Discrete Harmonic Center of a Quadrilateral</title>
       <link>http://arxiv.org/abs/2609.00917v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.00917v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.19826</guid>
       <pubDate>Fri, 20 Mar 2026 00:00:00 -0000</pubDate>
       <description>The restricted Delaunay triangulation of a closed surface $Σ$ and a finite point set $V \subset Σ$ is a subcomplex of the Delaunay tetrahedralization of $V$ whose triangles approximate $Σ$. It is well known that if $V$ is a sufficiently dense sample of a smooth $Σ$, then the union of the restricted Delaunay triangles is homeomorphic to $Σ$. We show that an $ε$-sample with $ε\leq 0.3245$ suffices. By comparison, Dey proves it for a $0.18$-sample; our improved sampling bound reduces the number of sample points required by a factor of $3.25$. More importantly, we improve a related sampling bound of Cheng et al. for Delaunay surface meshing, reducing the number of sample points required by a factor of $21$. The first step of our homeomorphism proof is particularly interesting: we show that for a $0.44$-sample, the restricted Voronoi cell of each site $v \in V$ is homeomorphic to a disk, and the orthogonal projection of the cell onto $T_vΣ$ (the plane tangent to $Σ$ at $v$) is star-shaped.</description>
-    </item>
-    <item>
-      <title>Some fast algorithms for curves in surfaces</title>
-      <link>https://arxiv.org/abs/2401.16056</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.16056</guid>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We present some algorithms that provide useful topological information about curves in surfaces. One of the main algorithms computes the geometric intersection number of two properly embedded 1-manifolds $C_1$ and $C_2$ in a compact orientable surface $S$. The surface $S$ is presented via a triangulation or a handle structure, and the 1-manifolds are given in normal form via their normal coordinates. The running time is bounded above by a polynomial function of the number of triangles in the triangulation (or the number of handles in the handle structure), and the logarithm of the weight of $C_1$ and $C_2$. This algorithm represents an improvement over previous work, since its running time depends polynomially on the size of the triangulation of $S$ and it can deal with closed surfaces, unlike many earlier algorithms. Another algorithm, with similar bounds on its running time, can determine whether $C_1$ and $C_2$ are isotopic. We also present a closely related algorithm that can be used to place a standard 1-manifold into normal form.</description>
     </item>
   </channel>
 </rss>
