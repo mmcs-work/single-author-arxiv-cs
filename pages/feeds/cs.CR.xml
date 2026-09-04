@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI</title>
+      <link>http://arxiv.org/abs/2609.04086v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04086v1</guid>
+      <pubDate>Thu, 03 Sep 2026 16:53:22 +0000</pubDate>
+      <description>For every coherent and sufficiently expressive finite syntactic system S, we prove the existence of at least one theorem that S cannot produce autonomously. The result is a metatheorem: it proves the existence of a theorem, and applies to every finite syntactic system - security mechanisms, AI systems, formal verifiers, legal systems, economic models, and the formal system in which it is itself proved.</description>
+    </item>
+    <item>
+      <title>A Black Box for Agentic Processes: Blockchain-Anchored Evidence for AI Agent Communication, Human Oversight, and GRC Audits</title>
+      <link>http://arxiv.org/abs/2609.04017v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04017v1</guid>
+      <pubDate>Thu, 03 Sep 2026 15:55:39 +0000</pubDate>
+      <description>Autonomous AI agents increasingly communicate with other agents, invoke tools, exchange intermediate results, and request human approvals. These workflows create a new auditability problem: organizations must reconstruct what happened, when it happened, which agent or human was involved, which control or policy applied, and whether records were modified afterwards. Motivated by the 2026 OpenAI/Hugging Face incident, this position and architecture paper proposes a product- and vendor-neutral black-box architecture for agentic processes. The architecture creates blockchain-anchored cryptographic commitments for selected agent communications, human-in-the-loop approvals, tool calls, and process artifacts without placing sensitive content on-chain. We define an evidence model that distinguishes temporal anchoring and artifact integrity from event ordering, capture authenticity, authorized anchoring, and causal traceability. The latter properties require additional architectural controls. We then discuss practical use for Governance, Risk, and Compliance (GRC), including compliance testing, risk-based evidence selection, monitoring evidence streams, incident reconstruction, and regulatory reporting readiness under the EU AI Act, NIS2, and the Cyber Resilience Act (CRA). This position and architecture paper does not present an empirical performance or security evaluation. The approach does not prevent agent misbehavior or prove semantic truth. Rather, it strengthens the evidentiary basis for later verification of critical process traces.</description>
+    </item>
+    <item>
       <title>Supersingular Elliptic Curves Without Inseparable Small Degree Endomorphisms</title>
       <link>http://arxiv.org/abs/2609.03839v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.03839v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.05884</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
       <description>Existing guidance identifies excessive agency, excessive permission, weak task-bound authorization, and inadequate agent controls as important risks. Control frameworks also describe capabilities for constraining, authorizing, observing, validating, and responding to agent activity. Yet security programs still need a way to manage persistent deployed instances that span components and outlive any one event. We propose the agentic posture vulnerability (APV) as a task-conditioned vulnerability-management abstraction: a durable record for a composed agent-control exposure. One posture may produce different runtime manifestations across tasks; APV links those manifestations to the invariant posture and remains open until authority is narrowed, a missing control is added, risk is accepted, or closure is verified. APV is not proposed as a new root-cause class of risk; it operationalizes existing excessive-agency, authorization, and control-composition weaknesses. We distinguish APVs from CVE-addressable product defects, OWASP Excessive Agency, Agent Baseline control outcomes, and the runtime authorization-execution gap. We then provide a field vignette, a thresholded definition, six recurring APV patterns, a vulnerability lifecycle, a minimum record, a control-and-closure matrix, tooling implications, and a testable research agenda.</description>
-    </item>
-    <item>
-      <title>Quantum One-Way Functions and Related Cryptographic Primitives</title>
-      <link>https://arxiv.org/abs/2608.05754</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.05754</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Quantum cryptographic primitives beyond key distribution remain a less well understood area of research. In classical cryptography, one-way functions underpin nearly all standard cryptographic protocols, motivating the search for meaningful quantum analogues and for a clear understanding of the physical and computational mechanisms that could enforce one-wayness. In this article, we review quantum one-way functions and a range of closely related quantum-state primitives, including one-way state generators, pseudorandom quantum states, and efficiently indistinguishable pairs of states. We discuss both computational and information-theoretic notions of quantum one-wayness, emphasizing the different adversarial models and security assumptions that underlie these constructions. We compare and contrast the various proposed primitives, and clarify their conceptual relationships. Particular emphasis is placed on questions of physical realizability, experimental feasibility, and robustness to noise. Finally, we outline open problems and future directions toward the development of practical quantum cryptographic primitives beyond key distribution, and the emergence of a broader quantum-cryptographic ecosystem.</description>
-    </item>
-    <item>
-      <title>Detecting Safety Training Modification in Language Models via Activation Analysis</title>
-      <link>https://arxiv.org/abs/2608.05578</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.05578</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We introduce AMS (Activation-based Model Scanner), a tool that detects modifications to safety training in language models by measuring the geometric structure of safety-relevant concepts in activation space. Safety training creates measurable separation between harmful and benign content classes; certain safety modifications collapse or rotate this structure, while others leave it intact. We validate AMS across 14 model configurations spanning 4 architecture families (Llama, Gemma, Qwen, Mistral) and four safety-modification categories (instruction-tuned, base, abliterated, uncensored fine-tunes). Leave-one-out cross-validation of thresholds achieves 71% accuracy (10/14); bootstrap 95% confidence intervals on sigma point estimates have median width 3.4 sigma. We measure behavioral compliance on 20 stratified JailbreakBench prompts per model and find that sigma on the harmful-content concept predicts compliance with Pearson r = -0.546 (p = 0.043), directionally but with meaningful noise. Mechanistic analysis identifies a four-class taxonomy of safety-training modifications distinguished by activation-space signature: training removal collapses cluster separation; weight-orthogonalization abliteration both collapses separation and rotates the refusal direction; rotation-without-collapse abliteration preserves separation while rotating direction; and behavioral fine-tuning preserves both magnitude and direction. AMS's Tier 1 sigma-threshold detects the first two classes; Tier 2 direction-similarity verification detects the third. The fourth is undetectable by activation-only probing and represents a documented failure mode. We discuss threshold calibration, limitations of single-run measurement, and the open problem of detecting behavioral-only safety modifications.</description>
     </item>
   </channel>
 </rss>

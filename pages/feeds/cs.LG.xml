@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Hardware-Aware FP4 FlashAttention-4</title>
+      <link>http://arxiv.org/abs/2609.04105v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04105v1</guid>
+      <pubDate>Thu, 03 Sep 2026 17:12:35 +0000</pubDate>
+      <description>Blackwell's 4-bit floating-point (FP4) tensor cores do not automatically make attention faster because softmax conversion and on-chip dependencies dominate once its matrix products shrink. We address this with \emph{Direct-P} for noncausal inference and a causal path that passes the forward quantization directly into backward. Direct-P maps scores directly to FP4 probabilities and reaches up to 2.13$\times$ the bfloat16 (BF16) forward throughput on an NVIDIA GB200. The causal path reconstructs probabilities from saved quantized queries and keys and uses 8-bit floating-point (FP8) gradient operands, accelerating a complete single-GPU 8-billion-parameter update by up to 1.14$\times$. Matched distributed training retains FP8 probabilities and values; every tested MXFP4 probability/value training trajectory diverges.</description>
+    </item>
+    <item>
+      <title>VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch</title>
+      <link>http://arxiv.org/abs/2609.03949v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.03949v1</guid>
+      <pubDate>Thu, 03 Sep 2026 14:53:20 +0000</pubDate>
+      <description>The problem. A long-lived KV cache must be compressed before the queries that will read it exist; selection by observed attention (H2O, SnapKV) collapses there (0.00-0.33 needle retrieval on a NoPE MLA model), because a token's importance has not yet been observed. The method. On Kimi Linear, VestigeKV evicts by a query-independent signal the cache already carries: the 64-dimensional decoupled branch, a vestige of RoPE that NoPE training repurposes into a salience channel. Reading 11% of each row, it partitions the cache: the top-m rows stay in the attended tier; every other row moves -- exactly, never deleted -- to a GPU-resident archive reachable per step by a certified trigger. No training, no quantization, no weight or kernel change. Cost. Nothing measurable: retrieval holds at 1.00 under 8x and 0.92 under 32x from 8k to 65k context, zero gap to full-row selection. The attended tier is 0.25 KB of Kimi Linear's 8.1 KB per-token cache at 32x; the archive stays bit-exact and GPU-resident, with host offload as the VRAM-reclaiming variant. The recall tier -- the standard configuration -- holds 128x at 1.00. Kimi K3 is reported to use a NoPE Gated-MLA variant; if its cache layout matches, the method plausibly extends there -- we make no claim beyond the measured model. NoPE exclusivity. The identical operator on a RoPE MLA collapses to 0.08 (plain eviction: 0.42); query-independent salience itself exists only without rotation (top-1 targets span 2.3-6.7% of tokens vs. 10.2-46.8%), and query-universal exact merging is provably impossible under RoPE. All thresholds were frozen before data; 20 archived verdicts and 8 closed routes accompany the paper.</description>
+    </item>
+    <item>
       <title>Comparing Retrieval Methods for Academic Advisor Discovery: A Six-Method Study of 768 CS Faculty Profiles Across 9 US Universities</title>
       <link>http://arxiv.org/abs/2609.03901v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.03901v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28949v1</guid>
       <pubDate>Fri, 28 Aug 2026 23:38:39 +0000</pubDate>
       <description>We study a class of product-reference diffusion algorithms for sampling from a discrete distribution. We show that their sampling performance can be characterized using a path-based measure of data geometry that we call the interaction growth complexity (IGC). We show that a bivariate IGC kernel gives an exact representation of both the KL discretization error and a simple one-step upper bound. The simpler univariate IGC density can be used to study the effect of stepsize choices on the iteration complexity required to obtain $ε$-accurate samples in KL divergence. Samplers that traverse the path with equi-spaced steps in log-squared-reliability-odds have performance that depends on the aggregate IGC mass, whereas refined choices of stepsizes have a lower complexity depending on a square-root functional. In the fine-grid limit, both of these characterizations become sharp. We also allow general product reference distributions and show that the reference law can substantially reshape the IGC profile and the resulting sampling complexity; in particular, references far from both the uniform and the data marginals can yield dimension-dependent improvements. Finally, the aggregate IGC mass admits bounds in terms of total correlation and dual total correlation, thereby connecting the pathwise geometry to classical measures of multivariate dependence.</description>
-    </item>
-    <item>
-      <title>From the Loss Landscape to Diverse Feature Learning in Neural Networks</title>
-      <link>http://arxiv.org/abs/2608.28948v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.28948v1</guid>
-      <pubDate>Fri, 28 Aug 2026 23:38:20 +0000</pubDate>
-      <description>Over the course of the last decade, neural networks have grown from an academic curiosity to moving the markets of nations. Despite this explosion in both research and deployment, relatively little is understood about how they achieve the solutions they do. This is both scientifically relevant, and pressing for society. When neural networks make decisions across self-driving, construction, law, hiring and health, there have been and will continue to be unintended consequences. However, attempting to generalize the failures of the largest and most important production systems makes for a very difficult task. Yet signs of these failures exist at all scales of neural networks, so we should be able to study a much more tractable setting. All neural networks must undergo an optimization process, called training, to be useful. To a great degree, understanding neural networks is understanding their optimization: through what process and exposure to which data did they arrive at their results. Yet our knowledge on this topic as a field is quite imprecise. In particular, a curious phenomenon called mode connectivity, the ability to connect neural networks in the loss surface, defies explanation entirely. This dissertation elucidates, explains and exploits this special structure in the loss landscape...</description>
-    </item>
-    <item>
-      <title>RankShift: In-Database Detection and Explanation of Categorical Shifts</title>
-      <link>http://arxiv.org/abs/2608.28922v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.28922v1</guid>
-      <pubDate>Fri, 28 Aug 2026 22:43:34 +0000</pubDate>
-      <description>A login service can receive its usual number of failed sign-ins while one source grows from 2% to 30% of them. The same pattern appears in system logs when a rare event template becomes common while the message rate stays stable. These events change which categories are active without changing how many events occur. RankShift detects such changes inside the analytical database that stores the data. It compares each window's category shares with a benign reference using a Pearson score whose terms identify the categories responsible for the change. The same query returns the score, calibrated alert, and largest increasing contributions. We evaluate RankShift on HDFS, BGL, and Thunderbird. It matches the count-vector autoencoder within 0.001 AUROC on HDFS (0.999 versus 1.000) and leads on Thunderbird (0.983 versus 0.949). In a controlled fixed-volume experiment, RankShift detects rare-category shifts that are invisible to event-count monitoring, reaching 0.787 AUROC compared with 0.771 for the autoencoder. Across all three corpora, observed false-alarm rates track the requested operating levels. RankShift requires no model training or inference service, and the autoencoders deployed state is 137x larger.</description>
     </item>
   </channel>
 </rss>

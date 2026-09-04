@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI</title>
+      <link>http://arxiv.org/abs/2609.04086v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04086v1</guid>
+      <pubDate>Thu, 03 Sep 2026 16:53:22 +0000</pubDate>
+      <description>For every coherent and sufficiently expressive finite syntactic system S, we prove the existence of at least one theorem that S cannot produce autonomously. The result is a metatheorem: it proves the existence of a theorem, and applies to every finite syntactic system - security mechanisms, AI systems, formal verifiers, legal systems, economic models, and the formal system in which it is itself proved.</description>
+    </item>
+    <item>
       <title>AutoGraphForge: Towards Automated Graph Theory Discovery</title>
       <link>http://arxiv.org/abs/2609.03478v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.03478v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.17944</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
       <description>In this paper, we generalize Pearl's do-calculus to an Intuitionistic setting called $j$-stable causal inference inside a topos of sheaves. Our framework is an elaboration of the recently proposed framework of Topos Causal Models (TCMs), where causal interventions are defined as subobjects. We generalize the original setting of TCM using the Lawvere-Tierney topology on a topos, defined by a modal operator $j$ on the subobject classifier $Ω$. We introduce $j$-do-calculus, where we replace global truth with local truth defined by Kripke-Joyal semantics, and formalize causal reasoning as structure-preserving morphisms that are stable along $j$-covers. $j$-do-calculus is a sound rule system whose premises and conclusions are formulas of the internal Intuitionistic logic of the causal topos. We define $j$-stability for conditional independences and interventional claims as local truth in the internal logic of the causal topos. We give three inference rules that mirror Pearl's insertion/deletion and action/observation exchange, and we prove soundness in the Kripke-Joyal semantics. A companion paper in preparation will describe how to estimate the required entities from data and instantiate $j$-do with standard discovery procedures (e.g., score-based and constraint-based methods), and will include experimental results on how to (i) form data-driven $j$-covers (via regime/section constructions), (ii) compute chartwise conditional independences after graph surgeries, and (iii) glue them to certify the premises of the $j$-do rules in practice</description>
-    </item>
-    <item>
-      <title>Automating the Derivation of Unification Algorithms: A Case Study in Deductive Program Synthesis</title>
-      <link>https://arxiv.org/abs/2508.11136</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.11136</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The unification algorithm has long been a target for program synthesis research, but a fully automatic derivation remains a research goal. In deductive program synthesis, computer programming is phrased as a task in theorem proving; a declarative specification is expressed in logical form and presented to an automatic theorem prover, and a program meeting the specification is extracted from the proof. The correctness of the program is supported by the proof, which also provides an explanation of how the program works. The proof is conducted in an appropriate axiomatic subject-domain theory, which defines the concepts in the specification and the constructs in the target programming language and provides the background knowledge necessary to connect them. For the unification proof, we generalize and automate the manual proof presented in Manna and Waldinger [1981]. The new program unifies two given symbolic expressions (s-expressions) relative to a given "environment" substitution. The proof establishes the existence of an output substitution that is a most-general idempotent unifier of the given expressions and is an "extension" of the environment substitution. If no such substitution exists and the expressions are not unifiable, the program is to produce a failure indicator. Initially the environment substitution is the empty substitution, which makes no replacements at all; during execution of recursive calls, the environment substitution records the replacements that have been found so far. Our own unification algorithm employs an environment, and such algorithms appear in the literature [e.g., Luger and Stubblefield, 1997]. We suspect, in addition to being more efficient, the three-argument algorithm with an environment is easier to synthesize automatically than the two-argument version from the Manna-Waldinger paper.</description>
     </item>
   </channel>
 </rss>
