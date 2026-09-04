@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Relative Prime Factorization and Finite-State Presentations under Fixed Finite-Monoid Observation</title>
+      <link>http://arxiv.org/abs/2609.03643v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.03643v1</guid>
+      <pubDate>Thu, 03 Sep 2026 10:44:26 +0000</pubDate>
+      <description>Let $L\subseteqΣ^*$ and fix a morphism $h:Σ^*\to M$ into a finite monoid. We study exact factorization and canonical presentation in the relative syntactic congruence $θ_{L,h}:=\equiv_L\cap\ker h$. We separate unique factorization from finite direct presentation. An exhaustively computer-checked $36$-element quotient has a unique exact prime factorization for every live non-unit class, yet its valid prime-return rules contain an infinite family, so unique factorization does not imply the finite relative presentation property (FRP), even for a finite quotient. We lift the same defect to a nonregular context-free language with an infinite relative quotient and finite prime spectrum. To isolate the obstruction, we introduce the finite-state relative presentation property (FSRP), in which canonical valid right-hand-side languages are represented by finite residual controllers, and prove $\mathrm{FRP}\subsetneq\mathrm{FSRP}$. We then introduce prime-target left-division determinism (PTLD), which implies unique exact factorization, tail exactness, tail determinism, and a quadratic bound on valid rules. A nonregular deterministic context-free example with a finite group observer satisfies PTLD while lying outside every fixed $(k,\ell)$-substitutable class. Finally, for fixed $h$ we give a strong positive-data learner for the canonical PTLD presentation with polynomial-time hypothesis updates and a finite characteristic sample, together with a limit reconstruction of the canonical FSRP controller from weakly behaviorally correct CFG-valued learners.</description>
+    </item>
+    <item>
       <title>Neural Logic, Invariance, and the Retina---McCulloch and Pitts</title>
       <link>http://arxiv.org/abs/2609.02183v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.02183v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1512.06788</guid>
       <pubDate>Sat, 11 Apr 2026 00:00:00 -0000</pubDate>
       <description>A product of Moore machines with feedback published in 1962 by Juris Hartmanis and a class of primitive recursive functions on finite sequences published in a textbook by Roza Peter originally in 1950 are keys to a method for working with large scale networks of Moore type state machines. The product provides a basis for connecting Moore machines in an arbitrary network so they construct a new Moore machine in which they act as components that change state in parallel. The functions provide a means of defining machines, machine products, and abstract properties of the machines without enumerating states.</description>
-    </item>
-    <item>
-      <title>Psi-Turing Machines: Bounded Introspection for Complexity Barriers and Oracle Separations</title>
-      <link>https://arxiv.org/abs/2510.08577</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.08577</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We introduce Psi-Turing Machines (Psi-TM): classical Turing machines equipped with a constant-depth introspection interface $ ι$ and an explicit per-step information budget $ B(d,n)=c\,d\log_2 n $. With the interface frozen, we develop an information-theoretic lower-bound toolkit: Budget counting, $ Ψ$-Fooling, and $ Ψ$-Fano, with worked examples $ L_k $ and $ L_k^{\mathrm{phase}} $. We prove an oracle-relative separation $ P^Ψ \neq NP^Ψ $ and a strict depth hierarchy, reinforced by an Anti-Simulation Hook that rules out polynomial emulation of $ ι_k $ using many calls to $ ι_{k-1} $ under the budget regime. We also present two independent platforms (Psi-decision trees and interface-constrained circuits IC-AC$^{0}$/IC-NC$^{1}$) and bridges that transfer bounds among machine, tree, and circuit with explicit poly/log losses. The model preserves classical computational power outside $ ι$ yet enables precise oracle-aware statements about barriers (relativization; partial/conditional progress on natural proofs and proof complexity). The aim is a standardized minimal introspection interface with clearly accounted information budgets.</description>
     </item>
   </channel>
 </rss>

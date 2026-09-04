@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Local Chord Corruption Is Not Recognizer Replay: Chord-Condition Propagation in MIDI-SAG</title>
+      <link>http://arxiv.org/abs/2609.03584v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.03584v1</guid>
+      <pubDate>Thu, 03 Sep 2026 09:32:15 +0000</pubDate>
+      <description>Synthetic chord corruption provides a controlled stress test for singing accompaniment generation (SAG), whereas complete automatic chord recognition (ACR) replay measures the condition delivered to a deployed system. We compare them by replaying CNN-CRF and DeepChroma+CRF predictions through one fixed MIDI-SAG generator, holding track, seed, context, and scoring window constant. Across 30 paired tracks and three seeds, a central four-second tritone produced larger changed-target and inside-output effects than CNN-CRF replay in STFT, CQT, and CENS; the CENS target gap was positive on 29/30 tracks (mean 0.462). Matching replay support and relation composition reduced this mismatch, with joint matching giving the lowest replay distance in the full-30 analysis. Relative-root substitutions produced 2.88-fold larger CENS full-window output change than same-root quality flips at near-equal dose. The matched surrogate was closer to replay for both recognizer paths. We conclude that localized corruption tests mechanisms, whereas complete replay evaluates deployed chord-condition propagation.</description>
+    </item>
+    <item>
       <title>A Conceptual Framework for Modeling Team Adaptation in Cooperative Games Through Ludic Knowledge</title>
       <link>http://arxiv.org/abs/2608.28729v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28729v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2410.10178</guid>
       <pubDate>Mon, 14 Oct 2024 00:00:00 -0000</pubDate>
       <description>In the expanding field of generative artificial intelligence, integrating robust watermarking technologies is essential to protect intellectual property and maintain content authenticity. Traditionally, watermarking techniques have been developed primarily for rich information media such as images and audio. However, these methods have not been adequately adapted for graph-based data, particularly molecular graphs. Latent 3D graph diffusion(LDM-3DG) is an ascendant approach in the molecular graph generation field. This model effectively manages the complexities of molecular structures, preserving essential symmetries and topological features. We adapt the Gaussian Shading, a proven performance lossless watermarking technique, to the latent graph diffusion domain to protect this sophisticated new technology. Our adaptation simplifies the watermark diffusion process through duplication and padding, making it adaptable and suitable for various message types. We conduct several experiments using the LDM-3DG model on publicly available datasets QM9 and Drugs, to assess the robustness and effectiveness of our technique. Our results demonstrate that the watermarked molecules maintain statistical parity in 9 out of 10 performance metrics compared to the original. Moreover, they exhibit a 100% detection rate and a 99% extraction rate in a 2D decoded pipeline, while also showing robustness against post-editing attacks.</description>
-    </item>
-    <item>
-      <title>Integrating Large Language Models into a Tri-Modal Architecture for Automated Depression Classification on the DAIC-WOZ</title>
-      <link>https://arxiv.org/abs/2407.19340</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2407.19340</guid>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0000</pubDate>
-      <description>Major Depressive Disorder (MDD) is a pervasive mental health condition that affects 300 million people worldwide. This work presents a novel, BiLSTM-based tri-modal model-level fusion architecture for the binary classification of depression from clinical interview recordings. The proposed architecture incorporates Mel Frequency Cepstral Coefficients, Facial Action Units, and uses a two-shot learning based GPT-4 model to process text data. This is the first work to incorporate large language models into a multi-modal architecture for this task. It achieves impressive results on the DAIC-WOZ AVEC 2016 Challenge cross-validation split and Leave-One-Subject-Out cross-validation split, surpassing all baseline models and multiple state-of-the-art models. In Leave-One-Subject-Out testing, it achieves an accuracy of 91.01%, an F1-Score of 85.95%, a precision of 80%, and a recall of 92.86%.</description>
     </item>
   </channel>
 </rss>

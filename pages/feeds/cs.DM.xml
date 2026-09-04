@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Prime Clockwork: A Dynamic Representation of Modular and Multiplicative Arithmetic</title>
+      <link>http://arxiv.org/abs/2609.03896v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.03896v1</guid>
+      <pubDate>Thu, 03 Sep 2026 14:16:36 +0000</pubDate>
+      <description>The way numbers are represented strongly influences which arithmetic structures are easy to see. The \emph{prime clockwork} is a recursively growing discrete dynamical system: a list of autonomous two-hand clocks driven by one common $+1$ signal. No primes or primality labels are supplied. Starting empty, the process appends a clock of period $n$ whenever none already present rings; the primes are generated internally as its growth times. For each installed prime $p$, the seconds reading $R_p$ advances through $0,\ldots,p-1$, and each return to zero increments the minutes reading $M_p$, which counts completed $p$-cycles. The hands use only increment, comparison, reset, and carry, without explicit \texttt{mod} or \texttt{div} operations. At time $n$, $n=pM_p(n)+R_p(n)$. The valuation readout $V_p(n)=ν_p(n)$ is generated locally: it is zero when the seconds counter is non-zero (silent state) and otherwise (when the p-clock rings) one plus the earlier valuation addressed by the current minutes reading. The valuation vector gives the integer in unique prime-factorized form. Its coordinates add and subtract under multiplication and division, representing every positive rational uniquely; divisibility becomes weak componentwise order, and unique factorization is natural in this representation. Finite seconds arrays form Cartesian-product state spaces whose common orbit visits every joint state once before repeating; this \emph{grand cycle} is the order-sensitive dynamical counterpart of the Chinese remainder theorem. The same coordinates expose gcd, lcm, perfect powers, Bézout's identity, and Euler's totient. Rational valuation levels reach certain positive algebraic irrationalities, but not algebraic numbers in general.</description>
+    </item>
+    <item>
       <title>frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study</title>
       <link>http://arxiv.org/abs/2609.02804v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.02804v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.09442</guid>
       <pubDate>Fri, 10 Jul 2026 00:00:00 -0000</pubDate>
       <description>The exact domatic-number problem asks, for a fixed integer k, whether a given graph G satisfies dom(G) = k. Riege and Rothe proved DP-completeness for every fixed k &gt;= 5, while the cases k = 3 and k = 4 remained open. We close this classification gap. The main ingredient is a polynomial-time reduction from 3SAT whose output graphs have domatic number 4 in the satisfiable case and domatic number 2 in the unsatisfiable case; in particular, the reduction never produces a graph of domatic number 3. This directly realizes the route suggested by Riege and Rothe for closing the remaining cases. Together with a simpler three-versus-two reduction, this yields DP-completeness of Exact-3-DNP and Exact-4-DNP. The proofs are constructive and give explicit graph gadgets whose local domination constraints encode truth assignments and clause satisfaction. The soundness arguments show conversely that any sufficiently large domatic partition enforces the intended consistency conditions and therefore yields a satisfying assignment. Consequently, Exact-k-DNP is DP-complete for every fixed k &gt;= 3, completing the fixed-value classification from k = 3 onward.</description>
-    </item>
-    <item>
-      <title>Subword representations and weak hypercube dimension for acyclic categories</title>
-      <link>https://arxiv.org/abs/2607.08210</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.08210</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We introduce a categorical analogue of weak hypercube representations of finite posets by means of faithful embeddings into categories of subwords of finite words. For finite acyclic categories, we characterize those admitting such a weak subword representation: they are precisely the monic categories whose hom-sets carry a left-compatible local total order. The proof is constructive and gives an explicit word representation. We also introduce a query game for categories, generalizing a Boolean query game for posets, and show how winning sets produce explicit word representations and hence upper bounds for the weak word dimension.</description>
     </item>
   </channel>
 </rss>
