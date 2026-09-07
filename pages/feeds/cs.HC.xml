@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction</title>
+      <link>http://arxiv.org/abs/2609.05404v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05404v1</guid>
+      <pubDate>Fri, 04 Sep 2026 17:51:48 +0000</pubDate>
+      <description>Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences control the clarity of AI-generated images and sounds, metaphorically enacting the denoising process that underlies diffusion-based generation. Using the tuning knob, participants switch between three channels featuring AI-generated animals from the Past (extinct species), Present (endangered species), and Future (speculative creatures), situating the interaction within a temporal and ecological narrative. Through continuous audiovisual feedback and physical interaction, Diffusion TV foregrounds the generative process over final outputs, allowing audiences to explore intermediate states as experiential material. Rather than providing explicit technical explanation, the work presents an alternative, embodied mode of explainable AI that invites exploratory engagement with and reflection on generative technologies.</description>
+    </item>
+    <item>
+      <title>Matched Starts, Divergent Objects: How Human-AI Collaboration Forms What It Explains</title>
+      <link>http://arxiv.org/abs/2609.04542v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04542v1</guid>
+      <pubDate>Thu, 03 Sep 2026 23:00:09 +0000</pubDate>
+      <description>Scholarly knowledge is typically encountered in stabilized form, while the process histories through which research objects, claims, and contributions acquire form remain largely hidden. This study examines how human-AI scholarly collaboration develops under matched starting conditions and whether those conditions stabilize the inquiry itself. Using a longitudinal corpus of 843 turns, the same expert researcher developed branch-isolated scholarly trajectories with different generative AI systems from the same corpus, frozen research problem, starting prompt, publication objective, and conduct rules. Two eligible trajectories were reconstructed ex post through scholarly trajectory analysis, source-faithful interaction reconstruction, a Socioduality relational-process overlay, and downstream propagation analysis. Both trajectories independently shifted the initial continuity problem from recall toward usability, but subsequently formed different research objects. One trajectory culminated in an endpoint manuscript on continuity labour, the distributed work required to sustain usable collaboration; the other in an endpoint manuscript on distributed, evolving, and unevenly usable project state. Their analytic genealogies involved failed analytical units, rejected explanations, changes in scale, counterexamples, and conceptual stabilization, and propagated into different research questions, findings, methods, evidence logics, and scholarly contributions. Relational analysis further showed that consequential scholarly change, reciprocal continuity, and local substantive re-formation were distinct process structures, and that continuation did not necessarily constitute epistemic endorsement. The findings demonstrate empirically constrained research-object formation within human-AI scholarly collaboration and show how process histories shape the scholarly objects and products that emerge.</description>
+    </item>
+    <item>
       <title>Beyond Blur: A Semantic Tri-view Pipeline for Teledermatology Gradability via Skin Micro-relief</title>
       <link>http://arxiv.org/abs/2609.03095v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.03095v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2504.20342</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
       <description>Reflexion is an AI-powered prototype designed to explore structured emotional self-reflection. By integrating emotion detection, layered reflective prompting, and metaphorical storytelling generation, Reflexion was intended to support users in autonomous emotional exploration beyond basic sentiment categorization. Grounded primarily in expressive writing, cognitive restructuring, and self-determination theory, the system was designed to organize reflection as a progressive pathway from surface-level emotional recognition toward value-aligned action planning. Its final action-planning layer is additionally informed by broader questions of agency and empowerment, which remain future directions rather than fully implemented mechanisms in the current prototype. Informal design feedback indicated that some reviewers found the layered interaction model understandable and potentially useful; no empirical efficacy claims are made. As an early prototype, Reflexion documents one direction in theory-informed affective computing.</description>
-    </item>
-    <item>
-      <title>Interaction Readiness: A Framework for Building and Evaluating AI Agents in Human Roles</title>
-      <link>https://arxiv.org/abs/2608.12358</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12358</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Product and engineering teams building role-bearing AI agents face an evaluation gap: an agent can produce accurate, safe, and fluent content while still failing the behavioral requirements of its assigned role. This paper introduces Interaction Readiness as a framework for specifying and evaluating that missing layer of performance. The framework separates content specifications, which govern what an agent knows and says, from interaction specifications, which define how an agent should conduct itself in a role-governed exchange. Interaction specifications require teams to define role purpose, authority boundaries, recurring situations, boundary cases, repair behaviors, and audit criteria before deployment. We operationalize interaction readiness through four agent operations: understanding purpose, calibrating authority, managing tone, and repairing breakdowns. Using StudyChat, a public dataset of student interactions with an AI tutoring agent, we show that content accuracy and interaction quality are independent dimensions: an agent may be factually correct while failing as a tutor, or interactionally sound while technically wrong. The most persistent failure is authority miscalibration: the agent often knows how to answer, but not whether, when, or how the tutor role permits it to answer. The paper translates these findings into a specification template and audit procedures that product and engineering teams can apply before and after deployment</description>
-    </item>
-    <item>
-      <title>DrawTalking It Out: Creativity-Support Research as Creative Process Itself</title>
-      <link>https://arxiv.org/abs/2608.12357</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12357</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 -0000</pubDate>
-      <description>I think the creative process in conducting open-ended creativity-adjacent research is itself part of the creative process (including ideation, pivots, and tangents excluded from the final work) that deserves greater emphasis. how might we bridge multiple open-ended projects and serve broader non-technical audiences? We may choose to emphasize interaction techniques rather than singular tools in isolation. We may grow a community based on our shareable experiences in creativity interactions, to draw more complete pictures of how we creatively solve creativity problems (or satisfy curiosities). This may lead to new directions. I briefly elaborate on this using the example of "DrawTalking" a drawing+talking interactions work. DrawTalking itself resulted from a winding creative process exploring spontaneous interactive world-building and storytelling when drawing and talking.</description>
     </item>
   </channel>
 </rss>

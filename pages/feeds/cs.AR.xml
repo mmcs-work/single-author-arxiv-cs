@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Huawei's $τ$ Chip Was Supposed to Melt?</title>
+      <link>http://arxiv.org/abs/2609.04287v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04287v1</guid>
+      <pubDate>Thu, 03 Sep 2026 09:01:14 +0000</pubDate>
+      <description>Heat is the sharpest concern on $τ$ scaling law --- the time-scaling principle behind Huawei's folded silicon, named for the delay $τ$ (``Tao'') it sets out to shrink. Our Kirin measurements turned that objection upside down. The reason is one every commuter already knows: on a chip, as in a workday, it is the travel that burns the majority of the energy, not the work at the desk.</description>
+    </item>
+    <item>
+      <title>Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation</title>
+      <link>http://arxiv.org/abs/2609.04263v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04263v1</guid>
+      <pubDate>Wed, 02 Sep 2026 13:37:04 +0000</pubDate>
+      <description>Low-bit key--value (KV) caches reduce the memory required for autoregressive decoding, but the resulting quality loss depends on the model and quantizer. We keep the quantizer fixed and distill the floating-cache model's behavior into low-rank Q/K/V projection updates while the student executes a physically packed incremental cache. Across three seeds, 4-bit affine-cache adapters recover $54.24\%\pm2.47\%$ of the held-out perplexity gap on TinyLlama-1.1B and $75.96\%\pm4.04\%$ on Gemma-4-12B. On the same frozen NF4 Llama-3.1-8B base, one validation-selected run per quantizer recovers $60.42\%$ under KIVI K2V2 and $37.61\%$ under KVarN K4V2, while preserving 180-case associative retrieval. Gemma's score on an official 4K/8K RULER subset rises from 42.80 with the unadapted 4-bit cache to 48.33 after adaptation (46.15 floating), with substantial task heterogeneity. Finally, a 2-bit rank--token sweep reduces TinyLlama's 2-bit PPL from 576.10 to $11.4000\pm0.0059$ across three seeds, versus 10.3988 floating, but restores only 11--12 of 180 retrieval cases. These results show that low-rank projection adaptation can recover held-out quality across fixed cache formats, while perplexity recovery need not restore long-context retrieval.</description>
+    </item>
+    <item>
       <title>Batch Before You Time: Decision-Scoped Proxy Execution for Timing-Aware Logic Rewriting</title>
       <link>http://arxiv.org/abs/2609.02470v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.02470v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.29068</guid>
       <pubDate>Sun, 19 Apr 2026 00:00:00 -0000</pubDate>
       <description>This paper presents ARCS (Autoregressive Circuit Synthesis), a system for amortized analog circuit generation. ARCS produces complete, SPICE-simulatable designs (topology and component values) in milliseconds rather than the minutes required by search-based methods. A hybrid pipeline combines two learned generators, a graph VAE and a flow-matching model, with SPICE-based ranking. It achieves 99.9% simulation validity (reward 6.43/8.0) across 32 topologies using only 8 SPICE evaluations, 40x fewer than genetic algorithms. For single-model inference, a topology-aware Graph Transformer with Best-of-3 candidate selection reaches 85% simulation validity in 97ms, over 600x faster than random search. The key technical contribution adapts Group Relative Policy Optimization (GRPO) to multi-topology circuit reinforcement learning. GRPO resolves a critical failure mode of REINFORCE, cross-topology reward distribution mismatch, through per-topology advantage normalization. This improves simulation validity by +9.6 percentage points over REINFORCE in only 500 RL steps (10x fewer). Grammar-constrained decoding additionally guarantees 100% structural validity by construction via topology-aware token masking.</description>
-    </item>
-    <item>
-      <title>Photonic AI: A Hybrid Diffractive Holographic Neural System for Passive Optical Real-Time Image Classification</title>
-      <link>https://arxiv.org/abs/2604.15364</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.15364</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Edge intelligence is constrained by the energy and latency costs of shuttling data through electronic memory hierarchies. Optical systems offer a fundamentally different computational regime: once an input wavefront is launched into a structured medium, propagation, diffraction, and interference jointly enact a linear transformation whose cost is determined by wave physics rather than by clocked arithmetic. This paper develops a rigorous systems-level treatment of that regime and introduces a hybrid diffractive holographic architecture for image classification. The proposed model couples a Diffractive Optical Neural Network (DONN) with a Holographic Interference-Based Learning (HIBL) operator a formal map from digitally optimized phase distributions to physically realizable, fabrication-compatible interference patterns embeddable in passive optical elements. We express the full inference pipeline as a composition of encoding, phase modulation, free-space propagation, and intensity measurement operators, making explicit which quantities are learned, which are fixed by design, and where nonlinearity enters through photodetection. This operator-theoretic view resolves a persistent gap in the optical-ML literature between learning a transformation and physically realizing it. In physics-informed simulation on MNIST, a three-layer system with approximately 25,000 phase elements achieves 91.2% test accuracy with propagation-limited nanosecond-scale latency. The primary contribution is not a performance claim but a precise computational framework: learned representations can be physically embedded into structured optical media so that inference is executed by wavefront transformation through a passive, fabricated object rather than by sequential electronic multiply accumulate operations.</description>
-    </item>
-    <item>
-      <title>Modernizing Amdahl's Law: How AI Scaling Laws Shape Computer Architecture</title>
-      <link>https://arxiv.org/abs/2603.20654</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.20654</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Classical Amdahl's Law conceptualized the limit of speedup for an era of fixed serial-parallel decomposition and homogeneous replication. Modern heterogeneous systems need a different conceptual framework: constrained resources must be allocated across heterogeneous hardware while workloads themselves change, with some stages becoming effectively bounded and others continuing to absorb additional effective compute. This paper reformulates Amdahl's Law around that shift. We replace processor count with an allocation variable, replace the classical parallel fraction with a value-scalable fraction, and model specialization by a relative efficiency ratio between dedicated and programmable compute. The resulting objective yields a finite collapse threshold. For a specialized efficiency ratio R, there is a critical scalable fraction S_c = 1 - 1/R beyond which the optimal allocation to specialization becomes zero. Equivalently, for a given scalable fraction S, the minimum efficiency ratio required to justify specialization is R_c = 1/(1-S). Thus, as value-scalable workload grows, over-customization faces a rising bar. The point is not that one hardware class simply defeats another, but that architecture must preserve a sufficiently programmable substrate against a moving frontier of work whose marginal gains keep scaling. In practice, that frontier is often sustained by software- and model-driven efficiency doublings rather than by fixed-function redesign alone. The model helps explain the migration of value-producing work toward learned late-stage computation and the shared design pressure that is making both GPUs and AI accelerators more programmable2</description>
     </item>
   </channel>
 </rss>

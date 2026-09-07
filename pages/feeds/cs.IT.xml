@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Has MIMO decoding been proved hard from lattice problems?</title>
+      <link>http://arxiv.org/abs/2609.05013v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05013v1</guid>
+      <pubDate>Fri, 04 Sep 2026 11:23:49 +0000</pubDate>
+      <description>Multiple-input multiple-output (MIMO) technology is fundamental to modern wireless communication. Physical layer security seeks to protect transmitted information by exploiting properties of the noisy communication channel. Dean and Goldsmith proposed a polynomial time reduction from lattice problems to MIMO decoding by adapting Regev's reduction for learning with errors (LWE). If valid, this reduction would give physical layer security a strong computational foundation based on the hardness of established lattice problems. Subsequent works presented attacks and counterexamples against the resulting construction, casting doubt on its security but leaving the precise validity and limitations of the underlying reduction incompletely understood. We provide a theoretical examination of the revised reduction and identify the structural features of the LWE reduction that fail to carry over to the non-modular MIMO setting, hence showing that its published proof does not establish the claimed hardness of MIMO decoding. Our results distinguish flaws in the hardness proof from direct attacks on particular parameter choices and clarify what would be required of any attempted repair. We do not rule out physical layer security for MIMO systems in general, but show that the claimed lattice hardness guarantee does not follow from the existing reduction.</description>
+    </item>
+    <item>
+      <title>Decoding Error Probability of the Random Code Ensemble over the Erasure Channel</title>
+      <link>http://arxiv.org/abs/2609.04688v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.04688v1</guid>
+      <pubDate>Fri, 04 Sep 2026 03:38:26 +0000</pubDate>
+      <description>In this paper, we provide explicit formulas for the average decoding error probabilities of the ensemble of all $(n,M)_q$ codes over the erasure channel under unambiguous, list and maximum-likelihood decoding principles. Moreover, we derive the asymptotic error exponents for the ensemble of all $(n,q^{Rn})_q$ codes.</description>
+    </item>
+    <item>
       <title>A Quantization Problem Posed by Adaptive Streaming</title>
       <link>http://arxiv.org/abs/2609.03745v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.03745v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.26744</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 -0000</pubDate>
       <description>The input side of the Information Bottleneck may contain task-irrelevant variation that still costs rate. We identify this cost exactly. Let T be a source and C a relevance variable. Suppose the deterministic statistic Z = phi(T) satisfies C-Z-T. For any encoder p(X|T), its conditional average over the fibres of phi preserves I(X;C) and lowers the rate by I(X;T|Z). The reverse pullback preserves both coordinates. These maps establish equality of the relevance-rate curves and Lagrangian infima on standard Borel spaces for every tradeoff parameter. They also characterise all attained optima. Every full-source minimiser factors through Z, and every reduced minimiser pulls back to T. When C is finite and distortion is logarithmic loss, replacement of T^n by Z^n also preserves the optimal remote distortion at every blocklength and message budget. The operational rate-distortion functions are therefore equal.</description>
-    </item>
-    <item>
-      <title>Native Non-Clifford Gates in Quantum LDPC Codes: Conditions, Synthesis, and Scaling Limits</title>
-      <link>https://arxiv.org/abs/2601.22489</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.22489</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Native constant-depth non-Clifford gates on quantum low-density parity-check (qLDPC) codes can substantially reduce the space-time overhead of magic-state distillation. This paper investigates the underlying parity and structural conditions governing parallel non-Clifford gate implementations. By analyzing their invariance, algebraic forms, and circuit synthesis, we establish fundamental limits on code scaling: strict saturated implementations cannot achieve constant-depth realization as code distance grows due to tight distance-depth bounds. We evaluate alternative scaling routes, showing that scalable designs must either relax strict subspace requirements or manage gate congestion. Through analytical bounds and code searches, we demonstrate that reconciling parallel non-Clifford operations with linear distance requires navigating these fundamental structural trade-offs.</description>
-    </item>
-    <item>
-      <title>Bayesian ICA for Causal Discovery</title>
-      <link>https://arxiv.org/abs/2601.11815</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.11815</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 -0000</pubDate>
-      <description>LiNGAM identifies causal orders by exploiting the non-Gaussianity and mutual independence of structural disturbances. Several extensions allow particular forms of latent confounding, but a general criterion for comparing complete causal orders when the disturbances are dependent remains lacking. We formulate ICA in a Bayesian manner and propose Bayesian LiNGAM. For each candidate order, we use total correlation, or multivariate mutual information, among the order-dependent disturbances as a quantitative measure of confounding and estimate it from data by Bayesian marginal likelihoods. The causal order is selected by globally minimizing this estimate. We prove the consistency of the estimator and implement the global optimization using shortest-path search and dynamic programming. In the no-confounding large-sample regime, the search asymptotically requires the same number of score evaluations as Direct-LiNGAM. Bayesian LiNGAM therefore directly and globally optimizes the original ICA dependence criterion, rather than relying on greedy local decisions or a negentropy-based surrogate. Numerical experiments show that it generally achieves better causal-order recovery, particularly when latent confounding is present.</description>
     </item>
   </channel>
 </rss>

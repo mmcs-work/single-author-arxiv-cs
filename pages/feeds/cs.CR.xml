@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Conformal Prediction for Offensive Security</title>
+      <link>http://arxiv.org/abs/2609.05165v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05165v1</guid>
+      <pubDate>Fri, 04 Sep 2026 14:07:47 +0000</pubDate>
+      <description>Despite its introduction more than a quarter century ago, Conformal Prediction (CP) has seen surprisingly few applications to the cyber security world thus far. In particular, we observe that, while CP has been employed as a defensive measure in many recent works, its use for carrying out attacks (i.e., for offensive security) is hard to trace in the literature. We explore this gap, by presenting initial findings in two key areas of offensive security: Privacy-Preserving Machine Learning, and network traffic analysis.</description>
+    </item>
+    <item>
+      <title>Has MIMO decoding been proved hard from lattice problems?</title>
+      <link>http://arxiv.org/abs/2609.05013v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05013v1</guid>
+      <pubDate>Fri, 04 Sep 2026 11:23:49 +0000</pubDate>
+      <description>Multiple-input multiple-output (MIMO) technology is fundamental to modern wireless communication. Physical layer security seeks to protect transmitted information by exploiting properties of the noisy communication channel. Dean and Goldsmith proposed a polynomial time reduction from lattice problems to MIMO decoding by adapting Regev's reduction for learning with errors (LWE). If valid, this reduction would give physical layer security a strong computational foundation based on the hardness of established lattice problems. Subsequent works presented attacks and counterexamples against the resulting construction, casting doubt on its security but leaving the precise validity and limitations of the underlying reduction incompletely understood. We provide a theoretical examination of the revised reduction and identify the structural features of the LWE reduction that fail to carry over to the non-modular MIMO setting, hence showing that its published proof does not establish the claimed hardness of MIMO decoding. Our results distinguish flaws in the hardness proof from direct attacks on particular parameter choices and clarify what would be required of any attempted repair. We do not rule out physical layer security for MIMO systems in general, but show that the claimed lattice hardness guarantee does not follow from the existing reduction.</description>
+    </item>
+    <item>
       <title>A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI</title>
       <link>http://arxiv.org/abs/2609.04086v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.04086v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.06508</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
       <description>Cryptographic systems operate on bytes but mean semantic objects. The translation between the two is rarely unique. Where this uniqueness is not enforced, an attack surface opens up as soon as a hash, a signature, replay protection, or consensus identity depends on the representation. The same class of failure has been discovered independently and named locally across many ecosystems, as transaction malleability, non-deterministic value encoding, message malleability, or hash chain malleability, without its common root being tracked as a cross-ecosystem grid. This work organizes the scattered findings systematically: it shows that they are instances of one violated uniqueness condition, along two basic directions: multiple valid codes for one object (object-side multiple representation) or one code for multiple objects (code-side semantic collapse). The contribution is explicitly not the discovery of the phenomenon, but is threefold: the systematization by representation mechanism rather than by affected system, the bridge between classical canonicalization security and a representation- and computability-theoretic foundation, and the translation into an applicable review procedure (a canonicalization obligation with a sequence of review steps, a field-type classification, and an operational boundary model) with which the risk can be recognized preventively. We substantiate the class with worked-out cases, delimit it against incidents that are not representation problems, and deliberately keep the claims to what is demonstrable: enforced uniqueness can reduce the exploitability of a failure class, but it neither replaces further protective measures or makes any statement about cryptographic security in the narrower sense</description>
-    </item>
-    <item>
-      <title>A Note on the Influence of a Zero Length Nonce on GCM and GMAC</title>
-      <link>https://arxiv.org/abs/2608.06061</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.06061</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In this note, we show a simple attack that can recover the hash key of GCM and GMAC by using a zero length nonce. After recovering the hash key, the adversary can forge an arbitrary ciphertext or message as she wants. We note that the ISO/IEC version of GCM and GMAC allows the nonce to be a zero length string, while the NIST version of GCM and GMAC explicitly requires the nonce to be at least one bit. Hence, our attack works for the ISO/IEC version and cannot work for the NIST version.</description>
-    </item>
-    <item>
-      <title>The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents</title>
-      <link>https://arxiv.org/abs/2608.05884</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.05884</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Existing guidance identifies excessive agency, excessive permission, weak task-bound authorization, and inadequate agent controls as important risks. Control frameworks also describe capabilities for constraining, authorizing, observing, validating, and responding to agent activity. Yet security programs still need a way to manage persistent deployed instances that span components and outlive any one event. We propose the agentic posture vulnerability (APV) as a task-conditioned vulnerability-management abstraction: a durable record for a composed agent-control exposure. One posture may produce different runtime manifestations across tasks; APV links those manifestations to the invariant posture and remains open until authority is narrowed, a missing control is added, risk is accepted, or closure is verified. APV is not proposed as a new root-cause class of risk; it operationalizes existing excessive-agency, authorization, and control-composition weaknesses. We distinguish APVs from CVE-addressable product defects, OWASP Excessive Agency, Agent Baseline control outcomes, and the runtime authorization-execution gap. We then provide a field vignette, a thresholded definition, six recurring APV patterns, a vulnerability lifecycle, a minimum record, a control-and-closure matrix, tooling implications, and a testable research agenda.</description>
     </item>
   </channel>
 </rss>
