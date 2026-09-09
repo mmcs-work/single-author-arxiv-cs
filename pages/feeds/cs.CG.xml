@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An explicit mono-monostatic polyhedron</title>
+      <link>http://arxiv.org/abs/2609.07827v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07827v1</guid>
+      <pubDate>Mon, 07 Sep 2026 18:00:10 +0000</pubDate>
+      <description>A convex body is mono-monostatic if, resting under gravity on a horizontal plane, it has exactly one stable and one unstable equilibrium position. Smooth mono-monostatic homogeneous bodies exist (the Gömböc of Domokos and Várkonyi), and Lángi proved that (homogeneous) mono-monostatic polyhedra exist; although no explicit example appears to have been published, to the author's knowledge. We construct explicitly two such mono-monostatic polytopes, the smaller one having $56946$ faces; importantly, we certify them: the polytope is presented as an intersection of half-spaces with rational data, and a certifying verification establishes, using exact rational arithmetic for every decisive comparison, that the body has equilibrium signature $(S,H,U)=(1,0,1)$ with respect to its own exact centroid, with explicit nondegeneracy margins. We describe the geometric obstructions that make naive discretisations of smooth mono-monostatic bodies fail, the adaptive construction that overcomes them, and the certification strategy. While the result itself is not strikingly novel, we emphasise the non-standard (but increasingly more common) methodology: the entire programme, i.e. experiments, constructions and the verifier itself, was implemented by AI agents under human mathematical direction. We argue that exact certification of numerically discovered objects is the natural contract between such AI-assisted workflows and mathematical standards of rigour.</description>
+    </item>
+    <item>
+      <title>Quantum Query Complexity of Persistence Statistics in Graph Zigzags</title>
+      <link>http://arxiv.org/abs/2609.05813v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05813v1</guid>
+      <pubDate>Sat, 05 Sep 2026 02:16:28 +0000</pubDate>
+      <description>We study the query complexity of estimating scalar summaries of zigzag bar lifetimes from snapshot-adjacency bits. For graphs $G_1,\ldots,G_m$ on $n$ labeled vertices, let $\ell_b$ be the snapshot lifetime of a degree-one bar $b$ of the intersection zigzag. For a probability generating function $φ(x)=\mathbb{E}[x^R]$, the statistic $F_φ=\sum_bφ(\ell_b/m)$ includes normalized degree-$r$ total persistence and the mean generalized rank over a uniform time window. An exact identity underlies our algorithm: sample $R$ uniform times; the expected generalized rank between their minimum and maximum equals $F_φ$. For graphs that rank is the circuit rank of an intersection graph, so a nonlinear barcode functional becomes an average of edge and component counts, and no barcode is computed. Without spectral-gap, homology-state, or QRAM assumptions, this gives a quantum estimator with additive error $\varepsilon n$ and $\widetilde O(\sqrt{m(K+n)}/\varepsilon)$ queries when a bound $K\ge F_φ$ is supplied, against $\widetilde O(m\min\{n^2,(K+n)/\varepsilon^2\})$ classically, and an adaptive quantum variant with the same instance dependence. These estimators are optimal in two regimes. For every fixed power weight $x^r$, $r\ge2$, and for the uniform-window mean, the worst-case complexities are $\widetildeΘ(n\sqrt m/\varepsilon)$ quantum and $Θ(n^2m)$ classical. On sparse instances, under an explicit split-leakage promise met by power and binomial weights of logarithmic degree and the promise $F_φ\le K$, they are $\widetildeΘ(\sqrt{mK}/\varepsilon)$ and $\widetildeΘ(m\min\{n^2,K/\varepsilon^2\})$. The classical lower bounds hold against fully adaptive algorithms, and fewer than $m$ such statistics cannot determine the positive-lifetime histogram. All bounds concern snapshot access; with an explicit update stream, near-linear full-barcode algorithms are known.</description>
+    </item>
+    <item>
       <title>Albertson's Conjecture Holds for r at Most 26</title>
       <link>http://arxiv.org/abs/2609.01682v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.01682v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.21617</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
       <description>We consider the problem of triangulating a polygon with $n$ vertices and $h$ holes, or relatedly the problem of computing the trapezoidal decomposition of a collection of $h$ disjoint simple polygonal chains with $n$ vertices total. Clarkson, Cole, and Tarjan (1992) and Seidel (1991) gave randomized algorithms running in $O(n\log^*n + h\log h)$ time, while Bar-Yehuda and Chazelle (1994) described deterministic algorithms running in $O(n+h\log^{1+\varepsilon}h)$ or $O((n+h\log h)\log\log h)$ time, for an arbitrarily small positive constant $\varepsilon$. No improvements have been reported since. We describe a new $O(n + h\log h)$-time algorithm, which is optimal and deterministic. More generally, when the given polygonal chains are not necessarily simple and may intersect each other, we show how to compute their trapezoidal decomposition (and in particular, compute all intersections) in optimal $O(n + h\log h)$ deterministic time when the number of intersections is at most $n^{1-\varepsilon}$. To obtain these results, Chazelle's linear-time algorithm for triangulating a simple polygon is used as a black box.</description>
-    </item>
-    <item>
-      <title>Prismatoid Band-Unfolding Revisited</title>
-      <link>https://arxiv.org/abs/2603.09813</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.09813</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
-      <description>It remains unknown if every prismatoid has a nonoverlapping edge-unfolding, a special case of the long-unsolved "Dürer's problem." Recently nested prismatoids have been settled [Rad24] by mixing (in some sense) the two natural unfoldings, petal-unfolding and band-unfolding. Band-unfolding fails due to a specific counterexample [O'R13b]. The main contribution of this paper is a characterization when a band-unfolding of a nested prismatoid does in fact result in a nonoverlapping unfolding. In particular, we show that the mentioned counterexample is in a sense the only possible counterexample. Although this result does not expand the class of shapes known to have an edge-unfolding, its proof expands our understanding in several ways, developing tools that may help resolve the non-nested case.</description>
-    </item>
-    <item>
-      <title>Better Sampling Bounds for Restricted Delaunay Triangulations and a Star-Shaped Property for Restricted Voronoi Cells</title>
-      <link>https://arxiv.org/abs/2603.19826</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.19826</guid>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 -0000</pubDate>
-      <description>The restricted Delaunay triangulation of a closed surface $Σ$ and a finite point set $V \subset Σ$ is a subcomplex of the Delaunay tetrahedralization of $V$ whose triangles approximate $Σ$. It is well known that if $V$ is a sufficiently dense sample of a smooth $Σ$, then the union of the restricted Delaunay triangles is homeomorphic to $Σ$. We show that an $ε$-sample with $ε\leq 0.3245$ suffices. By comparison, Dey proves it for a $0.18$-sample; our improved sampling bound reduces the number of sample points required by a factor of $3.25$. More importantly, we improve a related sampling bound of Cheng et al. for Delaunay surface meshing, reducing the number of sample points required by a factor of $21$. The first step of our homeomorphism proof is particularly interesting: we show that for a $0.44$-sample, the restricted Voronoi cell of each site $v \in V$ is homeomorphic to a disk, and the orthogonal projection of the cell onto $T_vΣ$ (the plane tangent to $Σ$ at $v$) is star-shaped.</description>
     </item>
   </channel>
 </rss>

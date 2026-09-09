@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes</title>
+      <link>http://arxiv.org/abs/2609.07936v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07936v1</guid>
+      <pubDate>Mon, 07 Sep 2026 19:52:20 +0000</pubDate>
+      <description>As geopolitical tensions, energy crises, and energy-intensive AI infrastructure intensify concerns about demand, affordability, and resilience, communities increasingly encounter these challenges through everyday energy practices, particularly winter heating. Against this background, the doctoral exposé, "Designing Human-HVAC Interaction for Healthy, Affordable, and Sustainable Heating in Smart Homes", is structured around four chapters. First, a multidisciplinary literature review defines and positions Human-HVAC Interaction, focusing on heating in smart homes. Second, longitudinal living lab studies with design probes examine everyday heating practices, thermal comfort, and indoor environmental quality, with attention to thermally vulnerable groups such as older adults, pregnant or menopausal women, parents with infants, and people affected by allergies or airborne pollutants. Third, a VR-based smart home demonstrator explores how heating and IEQ scenarios can be prototyped and evaluated as a virtual living lab, while critically examining the limits of representing bodily indoor climate conditions through VR. Fourth, follow-up design studies examine how VR-based insights can be translated into physical-digital prototypes that combine digital fabrication, distributed environmental sensing, and diverse interface forms for critical heating and IEQ contexts. The thesis aims to contribute a design-oriented understanding of Human-HVAC Interaction by building from a multidisciplinary literature review to empirical living lab and co-design studies, VR-based prototyping, and physical system development, examining how smart home users make sense of, negotiate, and respond to smart HVAC system.</description>
+    </item>
+    <item>
+      <title>Reddit Community Interventions and Cross-Platform Response: Migration and Policy-Response Discourse on Voat</title>
+      <link>http://arxiv.org/abs/2609.05704v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05704v1</guid>
+      <pubDate>Fri, 04 Sep 2026 20:22:15 +0000</pubDate>
+      <description>Platform moderation can disrupt online communities, but the responses that follow do not necessarily take the form of direct migration. Communities may relocate, reorganize, discuss moderation decisions, express censorship concerns, or continue activity on alternative platforms without clear evidence of user-level movement. This study examines Reddit community bans and quarantines and their relationship with activity and migration-related discourse on Voat. Using data from the Multi-Platform Aggregated Dataset of Online Communities (MADOC), we analyze interventions affecting FatPeopleHate, GreatAwakening, MillionDollarExtreme, and CringeAnarchy. We combine computational discourse screening with a stratified independent human-validation procedure and population-adjusted estimates across 90-day pre- and post-intervention windows. The results reveal heterogeneous cross-platform responses. FatPeopleHate experienced a substantial increase in overall Voat activity while the relative prevalence of policy-response and broader relevant discourse declined. CringeAnarchy showed declines in direct migration and policy-response discourse following its permanent ban, although some estimates were sensitive to uncertain human labels. GreatAwakening instead exhibited a modest increase in policy-response discourse without clear evidence of increased direct migration. These findings suggest that platform interventions do not produce a uniform migration process. Overall destination-platform activity and migration-related discourse may move in different directions, highlighting the importance of distinguishing behavioral migration from broader discussion of moderation, censorship, governance, and community rebuilding.</description>
+    </item>
+    <item>
       <title>Algorithmic Simplification for Million-Vertex Diffusion History Reconstruction</title>
       <link>http://arxiv.org/abs/2608.28955v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28955v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.19514</guid>
       <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
       <description>The consensus that GCN, GraphSAGE, GAT, and EvolveGCN outperform feature-only baselines on the Elliptic Bitcoin Dataset is widely cited but has not been rigorously stress-tested under a leakage-free evaluation protocol. We perform a seed-matched inductive-versus-transductive comparison and find that this consensus does not hold. Under a strictly inductive protocol, Random Forest on raw features achieves F1 = 0.821 and outperforms all evaluated GNNs, while GraphSAGE reaches F1 = 0.689 +/- 0.017. A paired controlled experiment reveals a 39.5-point F1 gap attributable to training-time exposure to test-period adjacency. Additionally, edge-shuffle ablations show that randomly wired graphs outperform the real transaction graph, indicating that the dataset's topology can be misleading under temporal distribution shift. Hybrid models combining GNN embeddings with raw features provide only marginal gains and remain substantially below feature-only baselines. We release code, checkpoints, and a strict-inductive protocol to enable reproducible, leakage-free evaluation.</description>
-    </item>
-    <item>
-      <title>Community Detection with the Canonical Ensemble</title>
-      <link>https://arxiv.org/abs/2604.19291</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.19291</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Network community detection is usually considered as an unsupervised learning problem. Given a network, the aim is to partition it using some general purpose algorithm. In this paper we instead treat community detection as a hypothesis testing problem. Given a network, we examine the evidence for specific community structure in the observed network compared to a null model. To do this we define an appropriate test statistic, analogous to a z-score, and several null models derived from maximising entropy under different constraints in the canonical ensemble. We demonstrate the application of this method on real and synthetic data and contrast our method to Bayesian approaches based on the stochastic block model. We demonstrate that this method gives definitive answers to concrete questions, which can be more useful to analysts than the output of a generic algorithm.</description>
-    </item>
-    <item>
-      <title>Counting Without Numbers and Finding Without Words</title>
-      <link>https://arxiv.org/abs/2603.24470</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.24470</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Every year, 10 million pets enter shelters, separated from their families. Despite desperate searches by both guardians and lost animals, 70% never reunite, not because matches do not exist, but because current systems look only at appearance, while animals recognize each other through sound. We ask, why does computer vision treat vocalizing species as silent visual objects? Drawing on five decades of cognitive science showing that animals perceive quantity approximately and communicate identity acoustically, we present the first multimodal reunification system integrating visual and acoustic biometrics. Our species-adaptive architecture processes vocalizations from 10Hz elephant rumbles to 4kHz puppy whines, paired with probabilistic visual matching that tolerates stress-induced appearance changes. This work demonstrates that AI grounded in biological communication principles can serve vulnerable populations that lack human language.</description>
     </item>
   </channel>
 </rss>

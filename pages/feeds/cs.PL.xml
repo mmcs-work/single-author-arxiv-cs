@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Erased Postulates, Identity Types and Quotients</title>
+      <link>http://arxiv.org/abs/2609.08578v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08578v1</guid>
+      <pubDate>Tue, 08 Sep 2026 11:16:19 +0000</pubDate>
+      <description>This text is concerned with the question of whether, in type theory with erasure annotations, one can postulate that some type is inhabited and still have a guarantee that a program will not get stuck. Previous work has provided such guarantees for consistent erased postulates, i.e. postulates that are restricted to be used in erased contexts. Here those guarantees are extended to type theory with identity types. Similar ideas provide a simple way to support quotient types: it is shown that one can let things like "the equivalence classes for two related values are equal" be erased postulates and have an eliminator that only computes for the equivalence class constructor, and still get a guarantee that programs will compute correctly. Another question is whether programs compute correctly if one is allowed to transport (cast) using erased identity proofs. It is shown that this is safe in the absence of quotients and postulates, and in the presence of quotients and erased postulates that can be implemented using equality reflection. However, unrestricted transports of this kind are not compatible with erased, postulated univalence. For that reason the text includes a study of the function []-cong, which encapsulates a limited form of transport for erased identity proofs. The text is accompanied by machine-checked Agda proofs.</description>
+    </item>
+    <item>
       <title>Towards a universal language of concepts: A survey</title>
       <link>http://arxiv.org/abs/2609.04528v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.04528v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.04903</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 -0000</pubDate>
       <description>We introduce the LLM agent architecture Agentic Redux, intended for use with nontrivial problem domains that require linear auditability. Using the typed lambda calculus, we prove that, run on appropriate domains, Agentic Redux executions are semantically guaranteed to be correct, with all decisions recorded in an append-only ledger. We present two production-grade appropriate domains, in healthcare billing compliance, and security vulnerability disclosure. Working code for Agentic Redux run on both domains is available in a supporting code repository. We also introduce Ontology-First Agent Design, a methodology for creation of agent frameworks on a problem domain, in which a human expert ontologizes the problem domain with Basic Formal Ontology, and then assigns an LLM to derive roles that agents and humans-in-the-loop can fill, in order to work the problems in the domain.</description>
-    </item>
-    <item>
-      <title>Token Budgets: An Empirical Catalog of 63 LLM-Agent Budget-Overrun Incidents, with an Affine-Typed Rust Mitigation as a Case Study</title>
-      <link>https://arxiv.org/abs/2606.04056</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.04056</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
-      <description>LLM-agent budget overruns are a documented production failure class: a single retry loop can spend thousands of dollars before an operator notices, and the in-process integrity properties that would prevent it (no aliasing, no double-spend, no use-after-delegation of a cost-bearing value) are enforced, if at all, by ad-hoc wrappers rather than by the type system. Our central contribution is empirical: a catalog of 63 confirmed production incidents from 21 orchestration frameworks (2023-2026), each backed by a quoted GitHub issue and, where reported, a dollar loss, organized into an eight-cluster failure taxonomy (inter-rater Cohen's kappa = 0.837, N = 113), plus 47 supplementary structural entries. As one mitigation evaluated against this taxonomy, we build token-budgets, an 1,180-line Rust crate (no unsafe) that operationalizes affine ownership so that cloning, double-spending, or using a budget after delegating it are compile errors rather than runtime hazards an operator must remember to avoid. The dollar cap is runtime arithmetic under an estimator assumption; the affine layer makes that arithmetic non-bypassable. On single-agent workloads a 4-line Python counter matches the crate at 0/30 overshoot, so the distinguishing value is non-bypassability under operator error in multi-agent delegation: the delegation-fanout race documented in 11 incidents is rejected by the borrow checker at compile time, while the same pattern under asyncio overshoots 30/30 and three disciplined alternatives overshoot 0/30. Across five runtimes, three providers, and a temperature-stratified live-API test (N = 160), the approach reports zero cap violations and zero false refusals, at operational parity with concurrent work. Static over-reservation is 4-6x (2.11x adaptive). Binary-level cap-soundness on the running binary is left open.</description>
     </item>
   </channel>
 </rss>

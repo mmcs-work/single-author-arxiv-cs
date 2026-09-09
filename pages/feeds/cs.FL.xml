@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Graph-based automata</title>
+      <link>http://arxiv.org/abs/2609.08843v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08843v1</guid>
+      <pubDate>Tue, 08 Sep 2026 14:59:23 +0000</pubDate>
+      <description>We study graph-based automata: nondeterministic finite automata obtained from edge-colored or oriented graphs by taking every vertex as both initial and accepting, and every edge as a pair of opposite transitions. The language of these automata corresponds to the set of edge-colored or oriented paths mapping to their corresponding graphs. We develop an analogous notion for trees and characterise the languages recognised by these models. For tree languages we prove the existence of a unique size- minimal graph and, more generally, a homomorphism-minimal graph for both word and tree languages using duality methods. In order to further motivate these models, we showcase a few results at the inter- section between graph theory and automata theory: We relate graph-based automata to reversible automata, give a decomposition of graph-based languages into reversible languages, and introduce the remanent language of an undirected graph as the inter- section of all its orientations. This remanent language captures structural information on the graph such as chromatic number.</description>
+    </item>
+    <item>
+      <title>An Elementary Proof of the $\widetilde O(n^{1/3})$ Bound for Separating Words</title>
+      <link>http://arxiv.org/abs/2609.08191v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08191v1</guid>
+      <pubDate>Tue, 08 Sep 2026 03:26:15 +0000</pubDate>
+      <description>For two distinct binary words of length $n$, the separating words problem asks for a small deterministic finite automaton that accepts exactly one of them. Chase proved a $\widetilde O(n^{1/3})$ upper bound using a complex-analytic estimate for sparse polynomials. We replace that estimate by a finite-difference argument and a second-order real recurrence cutoff. The resulting elementary proof gives an explicit bound of $O(n^{1/3}(\log n)^{7/3})$ states.</description>
+    </item>
+    <item>
+      <title>Braids on the Stranded Cellular Automata Model</title>
+      <link>http://arxiv.org/abs/2609.08091v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08091v1</guid>
+      <pubDate>Tue, 08 Sep 2026 01:07:21 +0000</pubDate>
+      <description>The Stranded Cellular Automata (SCA) model is a grid of cells such that each cell can contain 0, 1, or 2 strands, together with two cellular automata that control when and how strands turn and cross. It was developed to study patterns occurring in fiber arts. We define a notion of what it means for a braid, in the sense of an element of a braid group, to be represented by an SCA pattern, and provide several algorithms to determine when a braid has an SCA representation with certain additional properties.</description>
+    </item>
+    <item>
+      <title>Automatic constraints with few subpowers and graphoid recognition</title>
+      <link>http://arxiv.org/abs/2609.07891v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07891v1</guid>
+      <pubDate>Mon, 07 Sep 2026 18:56:03 +0000</pubDate>
+      <description>Finite automata can describe relations of unbounded arity that are exponentially larger than their descriptions. We prove that constraint satisfaction for such relations is solvable in polynomial time whenever their length slices are preserved by a common fixed edge operation on a finite domain. The algorithm computes compact representations of the complete solution relation and its projections. Its main ingredient is a polynomial-time compilation of nondeterministic finite automata into the fork witnesses and small projections required by the few-subpowers algorithm. In the Mal'tsev case, a direct proof is polynomial also when the domain and operation table are supplied as input, answering the Mal'tsev tractability question for automatic constraint satisfaction. We also characterize all invariant relations of a family of 3-edge algebras with neither Mal'tsev nor near-unanimity terms. Their normal forms combine Boolean activity constraints with affine value spaces and yield canonical quadratic-bit representations constructible from NFAs or arbitrary generators. For graphoid automata, these results give polynomial-time recognition without a graph-width restriction, effective boundary composition, and comparison of finite graph relations. The quadratic boundary bounds are optimal in the worst case. A fixed three-state example separates polynomial-time recognition from hard exact counting.</description>
+    </item>
+    <item>
       <title>On the equivalence between generating functions computed by memory transducers and enumerating functions produced by indexed grammars</title>
       <link>http://arxiv.org/abs/2609.05002v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.05002v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.20253</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 -0000</pubDate>
       <description>One of the advantages of LTL over CTL is that the notion of a counterexample is easy to grasp, visualise and process: it is a trace that violates the property at hand. In this paper we propose a notion of evidence for CTL properties on explicit-state models -- which equally serves as witness for satisfied properties and counterexample for violated ones -- and how to visualise it, with the main aim of (human) comprehension. The main contribution consists of a formal model of evidence, a characterisation of minimal evidence per temporal operator, and a concrete, implemented proposal for its visualisation. This is the extended version of a paper published in SPIN 2026, containing the proofs of all results.</description>
-    </item>
-    <item>
-      <title>A Myhill-Nerode Theorem for Generalized Automata, with Applications to Pattern Matching and Compression</title>
-      <link>https://arxiv.org/abs/2302.06506</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2302.06506</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
-      <description>The model of generalized automata, introduced by Eilenberg in 1974, allows representing a regular language more concisely than conventional automata by allowing edges to be labeled not only with characters, but also strings. Giammarresi and Montalbano introduced a notion of determinism for generalized automata [STACS 1995]. While generalized deterministic automata retain many properties of conventional deterministic automata, the uniqueness of a minimal generalized deterministic automaton is lost. In the first part of the paper, we show that the lack of uniqueness can be explained by introducing a set $ \mathcal{W(A)} $ associated with a generalized automaton $ \mathcal{A} $. In this way, we derive for the first time a full Myhill-Nerode theorem for generalized automata, which contains the textbook Myhill-Nerode theorem for conventional automata as a degenerate case. In the second part of the paper, we show that the set $ \mathcal{W(A)} $ leads to applications for pattern matching and data compression. We show that a Wheeler generalized automata can be stored using $ \mathfrak{e} \log σ(1 + o(1)) + O(e) $ bits so that pattern matching queries can be solved in $ O(m \log \log σ) $ time, where $ \mathfrak{e} $ is the total length of all edge labels, $ e $ is the number of edges, $ σ$ is the size of the alphabet and $ m $ is the length of the pattern.</description>
-    </item>
-    <item>
-      <title>Standard Automata Theory and Process Algebra</title>
-      <link>https://arxiv.org/abs/2205.03515</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2205.03515</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Classical automata theory is far more capable of modeling complex digital systems than is widely acknowledged in the ``formal methods'' literature. This paper takes a second look at automata theory methods that were mostly developed in the 1950s and 1960s to show how they can be applied to problems of current era specification and verification of systems, including concurrent systems. The explication is partly guided by taking a second look at the critique of automata theory in early formal methods, particularly from the early process algebra literature, Since much of the classic automata theory literature is not well known anymore, the paper also provides brief historical literature survey.</description>
-    </item>
-    <item>
-      <title>Graded Symbolic Verification with a Fuzzy Dolev-Yao Attacker Model</title>
-      <link>https://arxiv.org/abs/2604.15402</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.15402</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Classical symbolic protocol verification under Dolev--Yao uses binary attacker knowledge (known/unknown). This abstraction misses cumulative side-channel settings, where repeated noisy observations progressively improve attacker knowledge. We model this process with a graded attacker view \(μ_K\in[0,1]\), product T-norm leak updates, and finite-grid explicit-state execution in Modified Murphi. The method is optimised with exact concept-lattice attribute reducts and exposes threshold-driven safe-to-fail transitions that are not represented in corresponding binary runs under the same bounded assumptions. Executed results on symmetric and asymmetric protocols, including Needham--Schroeder--Lowe (NSL), show that baseline models passing under crisp semantics can fail once cumulative side-channel leakage is enabled.</description>
-    </item>
-    <item>
-      <title>CBCL: Safe Self-Extending Agent Communication</title>
-      <link>https://arxiv.org/abs/2604.14512</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.14512</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Agent communication languages (ACLs) enable heterogeneous agents to share knowledge and coordinate across diverse domains. This diversity demands extensibility, but expressive extension mechanisms can push the input language beyond the complexity classes where full validation is tractable. We present CBCL (Common Business Communication Language), an agent communication language that constrains all messages, including runtime language extensions, to the deterministic context-free language (DCFL) class. CBCL allows agents to define, transmit, and adopt domain-specific "dialect" extensions as first-class messages; three safety invariants (R1--R3), machine-checked in Lean 4 and enforced in a Rust reference implementation, prevent unbounded expansion, applying declared resource limits, and preserving core vocabulary. We formalize the language and its safety properties in Lean 4, implement a reference parser and dialect engine in Rust with property-based and differential tests, and extract a verified parser binary. Our results demonstrate that homoiconic protocol design, where extension definitions share the same representation as ordinary messages, can be made provably safe. As autonomous agents increasingly extend their own communication capabilities, formally bounding what they can express to each other is a precondition for oversight.</description>
     </item>
   </channel>
 </rss>

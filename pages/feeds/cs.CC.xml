@@ -5,6 +5,69 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An Elementary Proof of the $\widetilde O(n^{1/3})$ Bound for Separating Words</title>
+      <link>http://arxiv.org/abs/2609.08191v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08191v1</guid>
+      <pubDate>Tue, 08 Sep 2026 03:26:15 +0000</pubDate>
+      <description>For two distinct binary words of length $n$, the separating words problem asks for a small deterministic finite automaton that accepts exactly one of them. Chase proved a $\widetilde O(n^{1/3})$ upper bound using a complex-analytic estimate for sparse polynomials. We replace that estimate by a finite-difference argument and a second-order real recurrence cutoff. The resulting elementary proof gives an explicit bound of $O(n^{1/3}(\log n)^{7/3})$ states.</description>
+    </item>
+    <item>
+      <title>Accelerating Fourier--Motzkin elimination: redundancy removal and the choice of variable elimination order</title>
+      <link>http://arxiv.org/abs/2609.07960v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07960v1</guid>
+      <pubDate>Mon, 07 Sep 2026 20:39:13 +0000</pubDate>
+      <description>Fourier-Motzkin elimination computes an inequality description of the projection of a polyhedron onto a subset of its coordinates by eliminating one variable at a time. It is used in several areas of optimisation and computer science, and it is a standard way of obtaining the entropic constraints of a causal structure, where the marginalisation over the latent variables produces such a projection. Its limitation is the growth of the intermediate systems of inequalities, which can be doubly exponential in the number of eliminated variables even though the projection itself grows only as a single exponential. In practice the computational overload of the method therefore depends on two choices: how the redundant inequalities are removed after each step, and the order in which the variables are eliminated. We consider both. We first show, by an explicit example, that Imbert's redundancy test cannot be interleaved with redundancy removal by linear programming. We show that the two methods, however, can be combined soundly if the derivation records used by Imbert's test are re-initialised after every step at which linear programming is used. We then propose a rule for choosing the elimination order of the variables that gives a significant computational advantage, however, at the cost of increased resource usage. We demonstrate this advantage on some random polytopes, where the rule reduces the running time by factors of between 6 and 25 compared with the same elimination under a fixed order. For entropic descriptions of causal structures, with more than 250 inequalities and more than 100 variables to eliminate, our rule keeps the number of inequalities handled at each step one to two orders of magnitude lower than a fixed order.</description>
+    </item>
+    <item>
+      <title>The Fine-Grained Complexity of Approximate Nash Equilibrium and Free Games</title>
+      <link>http://arxiv.org/abs/2609.07136v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07136v1</guid>
+      <pubDate>Mon, 07 Sep 2026 07:34:51 +0000</pubDate>
+      <description>We study the fine-grained complexity of computing approximate Nash equilibria and approximating the value of free games in the regime where the approximation error vanishes. Under the PCP for PPAD and ETH for PPAD conjectures, we show that computing $\varepsilon$-approximate Nash equilibria in 2-player $N$-action normal-form games requires time $N^{(\log(N)/\varepsilon^2)^{1-o(1)}}$, thus showing that the classical Lipton-Markakis-Mehta algorithm (2003) is optimal through all regimes of $\varepsilon = ω(1/\sqrt{N})$. While such optimality was known in the constant-$\varepsilon$ regime (Rubinstein, 2016), previous work could only rule out significantly smaller running times of $N^{O(\log(N)/\varepsilon)}$ in the regime $\varepsilon = o(1)$. Using similar techniques, we then establish an analogous tight lower bound of $N^{(\log(N)/\varepsilon^2)^{1-o(1)}}$ under ETH for $\varepsilon$-additive value estimation in free games, when $\varepsilon \geq 2^{-o(\sqrt{\log N})}$, answering a question of Aaronson, Impagliazzo, and Moshkovitz (2014).</description>
+    </item>
+    <item>
+      <title>Complexity Amplification from Compression in Quantum Random Access Optimization</title>
+      <link>http://arxiv.org/abs/2609.07090v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07090v1</guid>
+      <pubDate>Mon, 07 Sep 2026 06:28:48 +0000</pubDate>
+      <description>Compressed quantum encodings aim to overcome hardware limitations towards tackling challenging problems at scale, with many classical variables mapped onto noncommuting observables of fewer qubits. Classically, relaxations such as the semidefinite program formulation of MaxCut trade solution quality for computational efficiency. By contrast, quantum relaxations based on compression can amplify the worst-case complexity of the problem being solved. We study quantum random access optimization (QRAO), a special case of the Pauli correlation encoding (PCE) framework that assigns up to three binary variables to the Pauli $X$, $Y$, and $Z$ observables of each qubit, with the packing choices determining the compressed Hamiltonian to be optimized. We identify explicit QRAO optimal energy promise problems complete for NP, StoqMA, and QMA, with inverse-polynomial promise gaps for the latter two. Our problem reductions preserve inverse-polynomial promise gaps without requiring gadgets or ancillas. For any prescribed packing, we show that weighted MaxCut instances compress, up to a known shift and rescaling, to arbitrary nonnegative-weight pairwise Pauli couplings allowed by the packing. For QRAO, using one aligned axis gives an NP-complete energy problem. Using two or three positive aligned Pauli axes generally gives QMA-complete problems, while their bipartite restrictions lie in StoqMA. We show that this computational hardness survives compilation and is practically relevant. Notably, this result applies directly to the current QRAO compiler implementation in Qiskit Optimization 0.7.0, confirming our hardness results are not artifacts of artificial or contrived packing rules. Altogether our results identify worst-case complexity barriers arising from quantum compression, while making no broad claims about typical cases or the performance and trainability of algorithm pipelines that use it.</description>
+    </item>
+    <item>
+      <title>2-Fold Forrelation is in QAC$^0$</title>
+      <link>http://arxiv.org/abs/2609.07060v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07060v1</guid>
+      <pubDate>Mon, 07 Sep 2026 05:31:45 +0000</pubDate>
+      <description>We show that 2-fold Forrelation with inverse-polylogarithmic promise gap can be solved, with bounded error, by polynomial-size QAC$^0$ circuits. Unlike the standard oracle-based Forrelation algorithm, our circuits receive the input explicitly, in the same form as the AC$^0$ circuits against which Forrelation is known to be hard. At constant gap, this yields a natural promise-problem separation between QAC$^0$ and AC$^0$.</description>
+    </item>
+    <item>
+      <title>Resilience in labeled real-time automata</title>
+      <link>http://arxiv.org/abs/2609.07054v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07054v1</guid>
+      <pubDate>Mon, 07 Sep 2026 05:21:23 +0000</pubDate>
+      <description>In this paper, we characterize resilience for a labeled real-time automaton (LRTA). An LRTA is resilient if whenever a faulty event occurs, after sufficiently many events occur, the LRTA returns to normalcy and the occurrence of the faulty event is not leaked. The notion of resilience reflects the ability of an LRTA recovering from a faulty behavior, and hence can model an intelligent agent. We formulate one definition of resilience for an LRTA and give verification algorithms for the definition based on two basic tools --- concurrent composition and observer.</description>
+    </item>
+    <item>
+      <title>A Lower Bound of 21 for $3\times3$ Matrix Multiplication over $\mathbb{F}_2$</title>
+      <link>http://arxiv.org/abs/2609.06725v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.06725v1</guid>
+      <pubDate>Sun, 06 Sep 2026 16:56:45 +0000</pubDate>
+      <description>We prove that $3\times3$ matrix multiplication over $\mathbb{F}_2$ has bilinear complexity at least $21$, improving the lower bound $20$. Lower bounds for restrictions of the first input constrain how many first factors of a decomposition can lie in each subspace. The strengthened restriction bounds force all first factors of matrix rank at least two into one coset of a three-dimensional rank-one subspace. An exhaustive computation finds no admissible first-factor profile with $20$ terms. We also prove that $2\times3$ by $3\times3$ matrix multiplication over $\mathbb{F}_3$ has rank exactly $15$: three profiles survive the corresponding computation, and short restriction arguments exclude them. We combine Wang's automated framework for tensor-rank lower bounds with D'Ambrosio's capacity-and-profile strategy. Our computational contributions are rank-one-span searches that strengthen the subspace lower-bound table and a direct, symmetry-reduced profile enumerator that enforces all subspace capacities simultaneously.</description>
+    </item>
+    <item>
+      <title>Exponential Sampling Lower Bounds for Polynomial Sources</title>
+      <link>http://arxiv.org/abs/2609.06371v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.06371v1</guid>
+      <pubDate>Sun, 06 Sep 2026 04:04:27 +0000</pubDate>
+      <description>A degree-$d$ polynomial source is the output of a polynomial map of degree at most $d$ over $\mathbb{F}_2$ on arbitrarily many uniform random bits. Khodabandeh and Shinkar (FOCS '26) proved that $\mathrm{Ber}(1/3)^{\otimes N}$ has statistical distance $1-o(1)$ from every constant-degree polynomial source and conjectured exponentially small overlap. Independently of Khodabandeh and Shinkar, Byramji, Kane, Morris, and Ostuni (RANDOM '26) asked for an explicit target distribution at distance $1-\exp(-N^{Ω_d(1)})$. We resolve both questions. For every fixed $d\geq1$, every degree-$d$ polynomial source has overlap at most $\exp(-c_dN)$ with $\mathrm{Ber}(1/3)^{\otimes N}$, where $c_d&gt;0$ is independent of the seed length. For quadratics, $c_2=2^{-26}$ suffices. We amplify Khodabandeh and Shinkar's uniform separation of acceptance probabilities from non-dyadic parameters (numbers not of the form $a/2^b$ for integers $a$ and $b\geq0$). The result extends to other non-dyadic Bernoulli parameters and to coordinates that are Boolean functions of boundedly many bounded-degree polynomials. We also give a uniform deterministic hierarchy between adjacent degrees. Appending the outputs of disjoint AND gates on $d+1$ inputs to uniform seed bits yields flat degree-$(d+1)$ target distributions of entropy $k$ with overlap $\exp(-Ω_d(\min\{k,N-k\}))$ against every degree-$d$ source, for $\min\{k,N-k\}\geq2(d+1)$. This entropy dependence is optimal up to constants in the exponent among flat target distributions for fixed $d$. The construction has locality $d+1$ and uses $O(N)$ field operations to sample. At $k=\lfloor N/2\rfloor$, it handles $d\leq(1-\varepsilon)\log_2N/3$ with overlap $\exp(-N^{\varepsilon-o(1)})$ for fixed $0&lt;\varepsilon&lt;1$. The proof combines monotonicity of Gowers uniformity norms, pairwise independence of points in a random affine cube, and relative entropy.</description>
+    </item>
+    <item>
+      <title>On the sample complexity of the generalized hidden shift problem over arbitrary finite groups</title>
+      <link>http://arxiv.org/abs/2609.05828v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05828v1</guid>
+      <pubDate>Sat, 05 Sep 2026 02:47:33 +0000</pubDate>
+      <description>We formulate the generalized hidden shift problem over arbitrary finite groups and obtain upper and lower bounds for the sample complexity in terms of group theoretic data.</description>
+    </item>
+    <item>
       <title>Beyond Distance Ordering: Resource Complexity and Universal Optimality of Exact Labeled Directed Shortest Paths</title>
       <link>http://arxiv.org/abs/2609.04825v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.04825v1</guid>
@@ -640,69 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.20318</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
       <description>The low-degree method and its associated lower bounds are widely used to guide algorithm design and to provide evidence of computational hardness in average-case inference, high-dimensional statistics, random optimization, and related problems. This led to the low-degree conjecture, which predicts that when the low-degree advantage between a planted distribution and a uniform null distribution remains bounded, no efficient distinguisher can succeed after independent noise, provided that the planted distribution has permutation symmetry. Several works have produced counterexamples to variants of this conjecture or to versions for algorithms with higher time complexity, but the conjecture remained open in its standard binary, polynomial-time formulation. We disprove the polynomial-time low-degree conjecture by giving a family of examples in this setting. For every fixed integer $r\geq3$, we construct a permutation-invariant distribution $\mathbb{P}_n$ on simple graphs, with $\mathbb{Q}_n=G(n,1/2)$, such that every marginal of $\mathbb{P}_n$ on at most $D_n=Θ((\log n)^{r-1})$ edges is uniform. Therefore, the low-degree advantage is zero through degree $D_n$. Nevertheless, after every edge is independently resampled at a fixed positive rate, a deterministic rank test strongly distinguishes the resulting distribution from $\mathbb{Q}_n$ in polynomial time. The construction chooses a subspace of a Reed--Muller code whose nonzero polynomials have small absolute bias, selects points whose evaluation vectors have no short linear dependencies, and evaluates a random alternating bilinear form on pairs of these vectors. Our result shows that low-degree indistinguishability, a uniform null distribution, permutation invariance, and independent resampling do not by themselves imply polynomial-time hardness, and suggests that a valid general conjecture must impose an additional condition.</description>
-    </item>
-    <item>
-      <title>NP-hardness of SVP in Euclidean Space</title>
-      <link>https://arxiv.org/abs/2603.27398</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.27398</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In 1981, van Emde Boas conjectured that computing a shortest non-zero vector of a lattice in a Euclidean space is $\mathbf{NP}$-hard. In this paper, we prove this conjecture, thereby derandomizing Ajtai's classical randomized hardness result (1998). We follow the derandomization program formulated by Micciancio (1998--2014) who conjectured the existence of an efficient deterministic construction of locally dense lattices. The key is to resolve this conjecture. Our proof builds on the candidate construction via Reed-Solomon codes by Bennett and Peikert (2023), and depends crucially on Deligne's work on the Weil conjectures for higher-dimensional varieties over finite fields.</description>
-    </item>
-    <item>
-      <title>The Complexity of Domatic Criticality</title>
-      <link>https://arxiv.org/abs/2607.18878</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.18878</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The domatic number dom(G) of a graph G is the maximum number of dominating sets in a partition of its vertex set. A graph is domatically critical if deleting any edge lowers its domatic number. We determine the complexity of recognizing domatically critical graphs both when the domatic number is prescribed and when it is unrestricted. The problems DomCrit_1 and DomCrit_2 are polynomial-time decidable; in particular, DomCrit_2 consists precisely of the nonempty disjoint unions of nontrivial stars. In contrast, for every fixed integer k &gt;= 3, the problem DomCrit_k is DP-complete under polynomial-time many-one reductions. The hardness proof at target value three uses a switch construction that reduces from edge-minimal 3-uncolorability and controls the effect of deleting every edge of the constructed graph. Clique addition then lifts the target-three result to every larger fixed target value. For the unrestricted recognition problem, we prove DP-hardness and membership in Theta_2^p.</description>
-    </item>
-    <item>
-      <title>Simulation of Non-Hermitian Hamiltonians with Bivariate Quantum Signal Processing</title>
-      <link>https://arxiv.org/abs/2605.12450</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.12450</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We achieve query-optimal quantum simulations of non-Hermitian Hamiltonians $H_{\mathrm{eff}} = H_R + iH_I$, where $H_R$ is Hermitian and $H_I \succeq 0$, using a bivariate extension of quantum signal processing (QSP) with non-commuting signal operators. The algorithm encodes the interaction-picture Dyson series as a polynomial on the bitorus, implemented through a structured multivariable QSP (M-QSP) circuit. A constant-ratio condition guarantees scalar angle-finding for M-QSP circuits with arbitrary non-commuting signal operators. A degree-preserving sum-of-squares spectral factorization permits scalar complementary polynomials in two variables. Angles are deterministically calculated in a classical precomputation step, running in $\mathcal{O}(d_R \cdot d_I)$ classical operations. Operator norms $α_R\,,β_I$ contribute additively with query complexity $\mathcal{O}((α_R + β_I)T + \log(1/\varepsilon)/\log\log(1/\varepsilon))$ matching an information-theoretic lower bound in the separate-oracle model, where $H_R$ and $H_I$ are accessed through independent block encodings. The postselection success probability is $e^{-2β_I T}\|e^{-iH_{\mathrm{eff}}T}|ψ_0\rangle\|^2\cdot (1 - \mathcal{O}(\varepsilon))$, decomposing into a state-dependent factor $\|e^{-iH_{\mathrm{eff}}T}|ψ_0\rangle\|^2$ from the intrinsic barrier and an $e^{-2β_I T}$ overhead from polynomial block-encoding.</description>
-    </item>
-    <item>
-      <title>Scheme-Theoretic Approach to Computational Complexity. IV. A New Perspective on Hardness of Approximation</title>
-      <link>https://arxiv.org/abs/2305.05676</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2305.05676</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We provide a new approach for establishing hardness of approximation results, based on the theory recently introduced by the author. It allows one to directly show that approximating a problem beyond a certain threshold requires super-polynomial time. To exhibit the framework, we revisit two famous problems in this paper. The particular results we prove are: MAX-3-SAT$(1,\frac{7}{8}+ε)$ requires exponential time for any constant $ε$ satisfying $\frac{1}{8} \geq ε&gt; 0$. In particular, the gap exponential time hypothesis (Gap-ETH) holds. MAX-3-LIN-2$(1-ε, \frac{1}{2}+ε)$ requires exponential time for any constant $ε$ satisfying $\frac{1}{4} \geq ε&gt; 0$.</description>
-    </item>
-    <item>
-      <title>Scheme-Theoretic Approach to Computational Complexity. III. SETH</title>
-      <link>https://arxiv.org/abs/2305.05415</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2305.05415</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We show that there exist infinitely many $n \in \mathbb{Z}^+$ such that for any constant $ε&gt; 0$, any deterministic algorithm to solve $k$-\textsf{SAT} for $k \geq 3$ must perform at least $(2^{k-\frac{3}{2}-ε})^{\frac{n}{k+1}}$ operations, where $n$ is the number of variables in the $k$\textsf{-SAT} instance.</description>
-    </item>
-    <item>
-      <title>Scheme-theoretic Approach to Computational Complexity II. The Separation of P and NP over $\mathbb{C}$, $\mathbb{R}$, and $\mathbb{Z}$</title>
-      <link>https://arxiv.org/abs/2107.07387</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.07387</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We show that the problem of determining the feasibility of quadratic systems over $\mathbb{C}$, $\mathbb{R}$, and $\mathbb{Z}$ requires exponential time. This separates P and NP over these fields/rings in the BCSS model of computation.</description>
-    </item>
-    <item>
-      <title>Scheme-theoretic Approach to Computational Complexity I. The Separation of P and NP</title>
-      <link>https://arxiv.org/abs/2107.07386</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.07386</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We lay the foundations of a new theory for algorithms and computational complexity by parameterizing the instances of a computational problem as a moduli scheme. Considering the geometry of the scheme associated to 3-SAT, we separate P and NP. In particular, we show that no deterministic algorithm can solve \textsf{3-SAT} in time less than $1.296839^n$ in the worst case.</description>
-    </item>
-    <item>
-      <title>Improved Inapproximability Results for Steiner Tree via Long Code Based Reductions</title>
-      <link>https://arxiv.org/abs/1702.02882</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1702.02882</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The best algorithm for approximating Steiner tree has performance ratio $\ln(4)+ε\approx 1.386$ [J. Byrka et al., \textit{Proceedings of the 42th Annual ACM Symposium on Theory of Computing (STOC)}, 2010, pp. 583-592], whereas the inapproximability result stays at the factor $\frac{96}{95} \approx 1.0105$ [M. Chlebík and J. Chlebíková, \textit{Proceedings of the 8th Scandinavian Workshop on Algorithm Theory (SWAT)}, 2002, pp. 170-179]. In this article, we take a step forward to bridge this gap and show that there is no polynomial time algorithm approximating Steiner tree with constant ratio better than $\frac{19}{18} \approx 1.0555$ unless \textsf{P = NP}. We also relate the problem to the Unique Games Conjecture by showing that it is \textsf{UG}-hard to find a constant approximation ratio better than $\frac{17}{16} = 1.0625$. In the special case of quasi-bipartite graphs, we prove an inapproximability factor of $\frac{25}{24} \approx 1.0416$ unless \textsf{P = NP}, which improves upon the previous bound of $\frac{128}{127} \approx 1.0078$. The reductions that we present for all the cases are of the same spirit with appropriate modifications. Our main technical contribution is an adaptation of a Set-Cover type reduction in which the Long Code is used to the geometric setting of the problems we consider.</description>
-    </item>
-    <item>
-      <title>Completeness of Canonical Closure Representations Is coNP-Complete</title>
-      <link>https://arxiv.org/abs/2607.18534</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.18534</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A finite closure system on a finite set $U$ is a family of subsets that contains $U$ and is closed under intersections. It can be specified in two elementary ways: an implicational specification lists rules $A \to b$ and consists of all $X \subseteq U$ satisfying every rule, while an intersection specification lists subsets $M_1, \ldots, M_t$ and consists of all intersections of subfamilies of that list. We ask whether one specification of each kind defines the same family. This question has remained open in several guises for about thirty years: Khardon (1995) showed that translating between Horn formulas and their characteristic models is equivalent to deciding completeness of a proposed list of characteristic models, leaving the exact complexity open; at ISAAC 2025, enumerating irreducible closed sets from implications was still described as "widely open," even for acyclic convex geometries; closely related questions concerned pseudo-intents and the Duquenne-Guigues basis in Formal Concept Analysis, and functional dependencies and Armstrong relations in databases. We prove that the equivalence test is coNP-complete. Hardness holds for acyclic implications with premises of size at most three, even when every listed subset is correct and none can be removed without changing the closure system generated by the list; the hard part is deciding whether a required set is missing. Unless $P = NP$, the complete canonical lists cannot be generated in time polynomial in the input plus the total output size, even for acyclic convex geometries. Through standard correspondences, the theorem makes Characteristic Models Identification and FD-Relation Equivalence coNP-complete and rules out output-polynomial algorithms for Horn characteristic models, all pseudo-intents of a given formal context (equivalently, its Duquenne-Guigues basis), and premises of minimum functional-dependency covers.</description>
     </item>
   </channel>
 </rss>

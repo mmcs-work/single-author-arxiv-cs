@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations</title>
+      <link>http://arxiv.org/abs/2609.08954v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08954v1</guid>
+      <pubDate>Tue, 08 Sep 2026 16:10:55 +0000</pubDate>
+      <description>This note gives an instance demonstrating that the pairwise maximin share (PMMS) property cannot be satisfied by any allocation in certain fair division problems with indivisible goods and additive valuations. The instance requires only $n=3$ agents and $m=9$ goods, and is accompanied by a proof that no PMMS allocation exists. A separate instance shows (certified by exhaustive enumeration with a computer) that PMMS cannot be approximated within a ratio above $78/79 \approx 0.987$.</description>
+    </item>
+    <item>
+      <title>The Complexity of Membership, Uniqueness, and Counting for Optimal Proportional Approval Voting Committees</title>
+      <link>http://arxiv.org/abs/2609.08884v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08884v1</guid>
+      <pubDate>Tue, 08 Sep 2026 15:24:50 +0000</pubDate>
+      <description>Proportional Approval Voting (PAV) chooses committees that maximize a sum of harmonic utilities. We study the set of maximizing committees: whether a candidate belongs to some or all of them, whether the optimum is unique, and how many optima exist. When the committee size is part of the input, the three decision problems are $Δ_2^\mathrm{P}$-complete. Uniqueness remains hard for instances with at most two optimal committees. Counting optimal committees is $\#\!\cdot\!\mathrm{OptP}$-complete under metric reductions: every function $f$ in this class reduces to an election with exactly $f(x)+1$ optimal committees. The reductions encode satisfying assignments directly as committees and use harmonic marginal rewards to realize binary objectives with polynomially many voters. Each satisfying assignment has a unique committee representation, and fixed clause ballots give these representations the same clause score. We also prove Turing equivalence with $\#\mathrm{SAT}$ and show that membership of the counting problem in $\#\mathrm{P}$ would imply $\\mathrm{NP}=\mathrm{coNP}$.</description>
+    </item>
+    <item>
+      <title>Last-Iterate Convergence of Policy Dynamics in Zero-Sum Networked Separable Markov Games</title>
+      <link>http://arxiv.org/abs/2609.08823v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08823v1</guid>
+      <pubDate>Tue, 08 Sep 2026 14:46:35 +0000</pubDate>
+      <description>Solving Nash equilibria for general multi-player Markov games is computationally intractable, while two-player zero-sum Markov games admit fast last-iterate policy-optimization methods. Finite-horizon zero-sum networked separable Markov games occupy an important middle ground: they retain global competition structure through pairwise interactions, while preserving computational tractability of Nash equilibria (NE) in the full-information and known-transition setting. Existing algorithms for this class either proceed through equilibrium-collapse arguments for a simplified setting where a single controller determines the transition probability, or backward dynamic programming that relies on equilibrium solvers at each stage. However, the design and analysis of direct policy-update approaches remain inadequate. To address this issue, we propose the entropy-regularized optimistic multiplicative weights update (ER-OMWU), a complementary single-loop policy dynamic that updates players' policies symmetrically and returns an approximate NE in the last iteration. We provide a first last-iterate convergence analysis of policy dynamics in the games of interest: after $\widetilde{O}(1/ε)$ iterations, the returned policy is an $ε$-approximate Nash equilibrium. The result preserves the near-linear convergence rate achieved by policy optimization in two-player zero-sum Markov games, but extends the policy-dynamics viewpoint to a more complicated but structured multi-player setting.</description>
+    </item>
+    <item>
+      <title>Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting</title>
+      <link>http://arxiv.org/abs/2609.08357v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08357v1</guid>
+      <pubDate>Tue, 08 Sep 2026 07:27:43 +0000</pubDate>
+      <description>An open problem in approval-based multiwinner voting concerns whether we can efficiently compute committees that satisfy both justified representation and Pareto optimality. We answer this question negatively by proving that, on the domain of all profiles, outputting a committee satisfying both axioms is NP-hard. An initial proof was found by ChatGPT Astra. This was then verified and rewritten by the author.</description>
+    </item>
+    <item>
+      <title>The Fine-Grained Complexity of Approximate Nash Equilibrium and Free Games</title>
+      <link>http://arxiv.org/abs/2609.07136v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.07136v1</guid>
+      <pubDate>Mon, 07 Sep 2026 07:34:51 +0000</pubDate>
+      <description>We study the fine-grained complexity of computing approximate Nash equilibria and approximating the value of free games in the regime where the approximation error vanishes. Under the PCP for PPAD and ETH for PPAD conjectures, we show that computing $\varepsilon$-approximate Nash equilibria in 2-player $N$-action normal-form games requires time $N^{(\log(N)/\varepsilon^2)^{1-o(1)}}$, thus showing that the classical Lipton-Markakis-Mehta algorithm (2003) is optimal through all regimes of $\varepsilon = ω(1/\sqrt{N})$. While such optimality was known in the constant-$\varepsilon$ regime (Rubinstein, 2016), previous work could only rule out significantly smaller running times of $N^{O(\log(N)/\varepsilon)}$ in the regime $\varepsilon = o(1)$. Using similar techniques, we then establish an analogous tight lower bound of $N^{(\log(N)/\varepsilon^2)^{1-o(1)}}$ under ETH for $\varepsilon$-additive value estimation in free games, when $\varepsilon \geq 2^{-o(\sqrt{\log N})}$, answering a question of Aaronson, Impagliazzo, and Moshkovitz (2014).</description>
+    </item>
+    <item>
+      <title>Input-to-State Stability Framework for Fully Distributed Primal-Dual Dynamics for Quadratic GNEPs Without Multiplier Consensus</title>
+      <link>http://arxiv.org/abs/2609.06983v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.06983v1</guid>
+      <pubDate>Mon, 07 Sep 2026 03:19:36 +0000</pubDate>
+      <description>Generalized Nash Equilibrium Problems (GNEPs) often arise in multi-agent engineering applications that require distributed algorithms. Unlike traditional approaches that enforce consensus on multipliers, our method removes the need to share multipliers, reducing communication and improving privacy. As a result, different initializations can lead to different GNEs, including non-variational ones. We establish convergence under sufficient conditions using an input-to-state stability (ISS) framework.</description>
+    </item>
+    <item>
+      <title>Pairwise Maximin Share Allocations Need Not Exist</title>
+      <link>http://arxiv.org/abs/2609.06282v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.06282v1</guid>
+      <pubDate>Sat, 05 Sep 2026 22:33:48 +0000</pubDate>
+      <description>We study the fair allocation of indivisible goods among agents with strictly positive additive valuations. Pairwise maximin share fairness (PMMS) asks that, for every ordered pair of agents, the first agent value her own bundle at least as highly as the best worst-case share she could secure by repartitioning the two agents' combined bundles into two parts. Whether a PMMS allocation always exists for positive additive valuations has remained open since the notion was introduced. We resolve this question in the negative. We construct an instance with four agents and strictly positive additive valuations that admits no complete PMMS allocation.</description>
+    </item>
+    <item>
       <title>Sparse Disapproval Guarantees a Nonempty Hare Core</title>
       <link>http://arxiv.org/abs/2609.04537v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.04537v1</guid>
@@ -654,55 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.18045</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
       <description>Organizations often pool dispersed information into one ranking and then allow many agents to act on that shared view. In a discovery problem, this can improve beliefs while reducing coverage. We develop an exactly solvable benchmark with sixteen boxes, one target, eight searchers, and noisy private clues. Pooling raises the accuracy of the best single recommendation from 0.20 to 0.3835, but repeating that recommendation lowers group discovery from 0.8322 under decentralized clue-following to 0.3835. A coordinated eight-action portfolio using the same pooled reports reaches 0.8594, and seven coordinated actions recover the decentralized benchmark. The paradox is a protocol failure, not an information failure: a one-answer rule compresses a portfolio of available actions into one repeated choice. We then replace the planner with self-interested searchers who split a prize. The equal-split game is a potential game. Its anonymous symmetric equilibrium obeys a water-filling rule. In the canonical instance it achieves 0.5991: strictly above consensus, but below both private search and the planner. The exact mixed price of anarchy is 2 - 1/N. A sole-rescue reward, which pays only an agent who covers the target alone, makes every pure Nash equilibrium first-best. Finally, a latent common-cue model shows how correlated reports collapse effective discovery channels. The centralized planner gain rises strictly with copying, and in the canonical environment the symmetric market overtakes decentralized report-following at copying probability c = 0.788462. In a proportional large-market limit the five-protocol ordering survives exactly: consensus discovery vanishes while blind, market, private, and portfolio search converge to 0.500, 0.547, 0.847, and 0.874. The contribution is a compact benchmark that separates information, allocation, incentives, and dependence into exact, reusable quantities.</description>
-    </item>
-    <item>
-      <title>Monotonicity and Frank-Wolfe Dynamics in Atomic Splittable Congestion Games</title>
-      <link>https://arxiv.org/abs/2607.17684</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.17684</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study universal monotonicity and Frank--Wolfe stability properties for atomic splittable congestion games. Specifically, we characterize the largest resource cost class for which the associated variational inequality operator is monotone for every game. This characterization is given by a curvature inequality involving the first two derivatives of the allowable cost functions and the number of players. Our framework yields exact characterizations for universal monotonicity, strict monotonicity, and strong monotonicity; the strict and strong variants require corresponding stricter curvature conditions. We then draw a perhaps surprising connection to learning dynamics in atomic splittable congestion games. We show that the very same curvature condition also characterizes universal \emph{local and global stability} of the Euclidean-regularized Frank--Wolfe dynamics on arbitrary convex strategy spaces, provided the cost class is closed under positive affine transformations. Finally, we study games on simplices and show that an interior equilibrium of the regularized Frank--Wolfe dynamic is locally exponentially stable, even without the curvature condition.</description>
-    </item>
-    <item>
-      <title>The Curvature Shadow: An Apparent Failure of Maximum-Entropy Equilibrium Selection is a Removable Artifact</title>
-      <link>https://arxiv.org/abs/2607.17543</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.17543</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In two-player zero-sum games whose Nash equilibria form a convex set, regularized solvers such as Regularized Nash Dynamics (R-NaD) empirically select the maximum-entropy member: the information projection (I-projection) of a uniform reference onto the Nash set. On a panel of small games this match is exact, with one apparent exception: in Kuhn poker R-NaD lands at bluff coordinate 0.180 while the maximum-entropy member sits at 0.201, a coordinate gap of about 0.021, even though R-NaD attains 99.7 percent of the maximum entropy. We ask whether this gap is a genuine selection bias or an artifact, and answer it quantitatively. We show that for selection on a one-dimensional Nash manifold the coordinate gap factorizes as $\mathrm{gap} \approx \sqrt{2δ/κ}$, where $δ$ is the entropy shortfall of the solver and $κ$ is the curvature of the entropy landscape at its peak. Across five games this relation holds to within $2 \times 10^{-4}$ (under 1 percent relative error). The four matrix games have $δ\approx 0$ (R-NaD reaches the maximum-entropy member exactly) and therefore no gap regardless of curvature; only the sequential game (Kuhn) has $δ&gt; 0$. A causal sweep of the magnet strength drives $δ\to 0$ and the gap toward zero along the predicted curve (fitted scaling exponent 0.50, $R^2 &gt; 0.999999$, against the exact prediction of 1/2), until the dynamics destabilize at a stability floor: behavior consistent with a removable shortfall and inconsistent with a fixed bias. We quantify the curvature half of the law from measured curvatures and flag a moving-target pitfall in the natural Tsallis-entropy experiment. The Kuhn gap is thus the curvature shadow of a small, removable entropy shortfall on an unusually flat peak; the I-projection account is upheld up to a flatness-limited residual.</description>
-    </item>
-    <item>
-      <title>A Practical Guide to Budget Pacing Algorithms in Digital Advertising</title>
-      <link>https://arxiv.org/abs/2503.06942</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.06942</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A typical real-time ad-serving funnel comprises ad targeting, conversion modeling (e.g., click-through rate prediction), budget pacing (bidding), and auction processes. While there is a wealth of research and articles on ad targeting and conversion modeling, budget pacing,a crucial component,lacks a systematic treatment specifically tailored for engineers in existing literature. This book aims to provide engineers with a practical yet relatively comprehensive introduction to budget pacing algorithms within the digital advertising domain.</description>
-    </item>
-    <item>
-      <title>Honest Reporting in Scored Oversight: True-KL0 Property via the Prekopa Principle</title>
-      <link>https://arxiv.org/abs/2605.03793</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.03793</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We prove the True-KL$_0$ property for a parametric family of heterogeneous scoring rules arising in scored elicitation mechanisms (AI oversight, forecasting, expert surveys). An agent with private type $M&gt;1$, scored through a $d$-dimensional outcome interface, reports to a principal who evaluates via a power-$p$ pseudospherical scoring rule, $p \in (d,d+1)$; $M$ captures the agent's information quality relative to a reference. Honest reporting is dominant-strategy optimal for every $d$ and every $p&gt;1$, without a prior over the agent's type: a consequence of strict properness and identifiability, with a quadratic misreport-loss rate. True-KL$_0$, the property $R(M,p,d)&lt;1$ for all $M&gt;1$, $d \in \{2,3,4\}$, $p \in (d,d+1)$, is the quantitative core: $R$ is the Rayleigh quotient of the radial misreport channel of an annular oversight model, and True-KL$_0$ certifies a uniform curvature-domination margin for that channel: $1-R \ge 0.26$ ($R \le 0.7324$, semi-rigorous numerical certificate). Two structural tools drive the proof: (i) a substitution $y=(x+1)/(x-1)$ rewrites the loss integral $I_L$ as $\int_1^M F(y)(M^2-y^2)^{d/2} dy$ with $M$-independent weight $F(y)&gt;0$; (ii) log-concavity of $I_L$ in $M$: algebraic for $d=2$ up to a small certified compact verification, via Prekopa's theorem plus semi-rigorous certificates for $d \in \{3,4\}$. True-KL$_0$ then follows from elementary tail bounds plus a certified bound on $M \in [1.001, 20]$. We also characterise the dimensional boundary: True-KL$_0$ holds for all $p \in (d,d+1)$ when $d \le 4$; $d=5$ is the unique transition, with $p_{crit}(5) \in [5.5718, 5.5750]$ (mpmath, not interval-certified); for $d=6,7$ (and conjecturally all $d \ge 6$) no threshold exists: the bound fails at every sampled $p \in (d,d+1)$.</description>
-    </item>
-    <item>
-      <title>Game Theory in Social Media: A Stackelberg Model of Collaboration, Conflict, and Algorithmic Incentives</title>
-      <link>https://arxiv.org/abs/2506.05373</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.05373</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This research models the social media content creation and the choices that creators make as a Stackelberg game. The platform's algorithms, such as TikTok's and YouTube's, function as leaders, and they set rules to maximize users' engagement with their platforms. Then, content creators, who function as followers in this Stackelberg Game, respond to this by selecting strategies; in this instance, we are specifically focusing on collaboration or conflict, referred to in this paper as 'beefing.' They do this in order to maximize views and personal payoffs. The viewer's preferences are already placed within the algorithmic utility function, while the external sponsors will impose penalties on high-risk strategies, namely, beefing multiple times. This paper ultimately demonstrates, through the use of math, how shifts in algorithmic weights determine equilibrium creator behavior.</description>
-    </item>
-    <item>
-      <title>Efficient, traceable, and numerically error-free implementation of the MMS voting rule</title>
-      <link>https://arxiv.org/abs/2309.15104</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.15104</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We propose an alternative algorithm to compute the MMS voting rule. Instead of using linear programming, in this new algorithm the maximin support value of a committee is computed using a sequence of maximum flow problems.</description>
-    </item>
-    <item>
-      <title>When Is Delegated Play Truthful? Within-Range Regret and the Trilemma of Aligned Delegation</title>
-      <link>https://arxiv.org/abs/2607.14357</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.14357</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Advertisers delegate bidding to autobidders; users delegate tasks to language-model agents. A person describes what they want to an automated proxy that acts in a mechanism on their behalf. This is the revelation principle in production, and it forces a question classical theory assumes away: when is it optimal to describe yourself honestly to your own proxy? We show the answer turns on one quantity, the proxy's within-range regret. The most a principal can gain by misreporting equals the regret of the proxy's honest-report action against those the principal could have steered it to take. Honest self-description is optimal exactly when the proxy already plays the best action it can reach, that is, when it is loyal (Theorem 1). The identity unifies auction-specific autobidding results and pins down when the faithful-communication assumption behind language-model elicitation proxies (Huang et al.) holds. The identity constrains guardrails placed on proxies, from bid caps to a model's alignment layer. No guardrail can be at once binding (it displaces the truthful action from the proxy's best reachable outcome), truthful (honest reporting stays optimal), and capability-preserving (that outcome stays reachable through some report); any two preclude the third (Theorem 2). A safety constraint that alters what a model does while leaving its best output reachable makes honest description of intent suboptimal, so a sharper report can gain. This is the incentive behind prompt-engineering and jailbreaking. Because within-range regret is #P-hard to compute exactly, we estimate it from samples and maintain it as a model is updated, at a cost set by how far the model drifts, not how often it changes. Running it on production language models from five providers under an alignment-style cap, we find honest reporting leaves surplus unclaimed on every model, recovered by inflating the report.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Maximal rank of $4\times 4\times 4$ and $k\times 4\times 3$ tensors over $\mathbb{F}_2$</title>
+      <link>http://arxiv.org/abs/2609.05648v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05648v1</guid>
+      <pubDate>Fri, 04 Sep 2026 18:30:23 +0000</pubDate>
+      <description>We determine the maximum rank of $4\times 4\times 4$ and $k\times 4\times 3$ multidimensional arrays over the finite field $\mathbb{F}_2$. These results are made possible by a new method of enumerating non-isomorphic tensors.</description>
+    </item>
+    <item>
       <title>Towards a universal language of concepts: A survey</title>
       <link>http://arxiv.org/abs/2609.04528v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.04528v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2507.10407</guid>
       <pubDate>Mon, 14 Jul 2025 00:00:00 -0000</pubDate>
       <description>I discuss a seemingly unlikely confluence of topics in algebra, numerical computation, and computer vision. The motivating problem is that of solving multiples instances of a parametric family of systems of algebraic (polynomial or rational function) equations. No doubt already of interest to ISSAC attendees, this problem arises in the context of robust model-fitting paradigms currently utilized by the computer vision community (namely "Random Sampling and Consensus", aka "RanSaC".) This talk will give an overview of work in the last 5+ years that aspires to measure the intrinsic difficulty of solving such parametric systems, and makes strides towards practical solutions.</description>
-    </item>
-    <item>
-      <title>A matrix criterion and algorithmic approach for the Peterson hit problem: Part I</title>
-      <link>https://arxiv.org/abs/2506.18392</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.18392</guid>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 -0000</pubDate>
-      <description>The Peterson hit problem in algebraic topology is to explicitly determine the dimension of the quotient space $Q\mathcal P_k = \mathbb F_2\otimes_{\mathcal A}\mathcal P_k$ in positive degrees, where $\mathcal{P}_k$ denotes the polynomial algebra in $k$ variables over the field $\mathbb{F}_2$, considered as an unstable module over the Steenrod algebra $\mathcal{A}$. Current approaches to this problem still rely heavily on manual computations, which are highly prone to errors due to the intricate nature of the underlying calculations. To date, no efficient algorithm implemented in any computer algebra system has been made publicly available to tackle this problem in a systematic manner. Motivated by the above, in this work, which is considered as Part I of our project, we first establish a criterion based entirely on linear algebra for determining whether a given homogeneous polynomial is "hit". Accordingly, we describe the dimensions of the hit spaces. This leads to a practical and reliable computational method for determining the dimension of $Q\mathcal{P}_k$ for arbitrary $k$ and any positive degrees, with the support of a computer algebra system. We then give a concrete implementation of the obtained results as novel algorithms in \textsc{SageMath}. As an application, our algorithm demonstrates that the manually computed result presented in the recent work of Sum and Tai [15] for the dimension of $Q\mathcal{P}_5$ in degree $2^{6}$ is not correct. Furthermore, our algorithm determines that $\dim(Q\mathcal{P}_5)_{2^{7}} = 1985,$ which falls within the range $1984 \leq \dim(Q\mathcal{P}_5)_{2^{7}} \leq 1990$ as estimated in [15].</description>
     </item>
   </channel>
 </rss>

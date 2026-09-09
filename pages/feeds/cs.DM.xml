@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The exact asymptotic constant in the metric dimension of Jaccard space</title>
+      <link>http://arxiv.org/abs/2609.09146v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.09146v1</guid>
+      <pubDate>Tue, 08 Sep 2026 17:58:36 +0000</pubDate>
+      <description>Let $X$ be a finite set with $|X|=n$ and let $\mathrm{Jac}(a,b)=|a\,\triangle\, b|/|a\cup b|$ be the Jaccard distance on the power set $2^X$. Lladser and Paradise recently proved that the metric dimension of $(2^X,\mathrm{Jac})$ is $Θ(n/\ln n)$, with the constant left open; their bounds are $(\ln 2)\,n/\ln n\lesssim β(2^X,\mathrm{Jac})\lesssim 2\ln(2e)\,n/\ln n$. We determine the constant: \[ β(2^X,\mathrm{Jac})=\frac{2n}{\log_2 n}\,(1+o(1))=(2\ln 2)\,\frac{n}{\ln n}\,(1+o(1)). \] The proof identifies the problem, on each ``slice'' of subsets of fixed cardinality, with the Erdős--Rényi coin-weighing problem for a spring scale (the problem of \emph{detecting matrices}). The lower bound is the Erdős--Rényi entropy argument applied to the middle slice; the upper bound follows from the explicit detecting families of Lindström and of Cantor and Mills, augmented by a single extra landmark that reveals cardinality.</description>
+    </item>
+    <item>
+      <title>Abelian Cayley High-Dimensional Expanders with Polylogarithmic Degree</title>
+      <link>http://arxiv.org/abs/2609.08937v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08937v1</guid>
+      <pubDate>Tue, 08 Sep 2026 16:00:26 +0000</pubDate>
+      <description>We construct an explicit infinite family of simple two-dimensional Cayley complexes over $\mathbb{F}_2^n$ whose degree is polynomial in $n$ and whose nontrivial vertex-link eigenvalues lie in $[-λ,λ]$ for every fixed $λ&gt;0$. For every fixed $d\ge2$, we also obtain an explicit infinite family of weighted $d$-dimensional Cayley complexes over $\mathbb{F}_2^n$ with codimension-two local spectral norm at most $1/d$ and Cayley degree $Θ_d(n)$. Our two-dimensional construction uses evaluation at rational points of algebraic curves to produce projective direction sets and many functions affine along these directions, which may be useful for further constructions and improvements.</description>
+    </item>
+    <item>
+      <title>A $(\log n)^{1/4}$ Bound for the Komlós Problem</title>
+      <link>http://arxiv.org/abs/2609.08885v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08885v1</guid>
+      <pubDate>Tue, 08 Sep 2026 15:25:52 +0000</pubDate>
+      <description>Let $A\in\mathbb{R}^{m\times n}$ have columns of Euclidean norm at most one. We prove that $\operatorname{disc}(A)\le2395\left(1+\log_+\frac n9\right)^{1/4}+2\sqrt2$. Here $\log_+t=\max\{0,\log t\}$. Building on Bansal and Jiang's affine spectral independence framework, we remove the $(\log\log n)^{7/4}$ factor from their bound. The fourth root comes from balancing the logarithmic decrease in the alive dimension against the fourth power of the row thresholds. Historical exponential sums control the covariance budget across size classes with summable thresholds. An exact threshold-sum certificate gives the coefficient $2395$, and rounding at most eight remaining fractional coordinates costs $2\sqrt2$. The finite construction also gives partial colourings from any prescribed starting point and at any prescribed depth, preserving existing signs. We formalize the partial- and full-colouring theorems in Lean, including the finite trajectory, exact threshold sum and final rounding, with Bansal--Jiang Theorem A.4 as the sole external research theorem assumption.</description>
+    </item>
+    <item>
+      <title>Coloring graphs with no long induced path</title>
+      <link>http://arxiv.org/abs/2609.08847v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.08847v1</guid>
+      <pubDate>Tue, 08 Sep 2026 15:01:34 +0000</pubDate>
+      <description>Let $P_t$ denote the induced path on $t$ vertices. Let $ω(G)$ denote the maximum number of vertices in a clique of a graph $G$. Previously Gyárfás (1987) proved that every $P_t$-free graph $G$ satisfies $χ(G)\le(t-1)^{ω(G)-1}$, and Gravier, Hoàng, and Maffray (2003) improved this to $χ(G)\le (t-2)^{ω(G)-1}$ for $t\ge4$. We prove that for $t\ge5$,every $P_t$-free graph $G$ satisfies $χ(G)&lt;c_tλ_t^{ω(G)-1}$, where $λ_t=\tfrac12\bigl(t-2+\sqrt{t(t-4)}\bigr)&lt;t-2$ and $c_t=\sqrt{1+4/(t(t-4))}=1+O(t^{-2})$ as $t\to\infty$. The proof is based on a refinement of the Gyárfás path argument and was found by Claude Fable 5.1 of Anthropic.</description>
+    </item>
+    <item>
+      <title>The list size of random linear codes at capacity</title>
+      <link>http://arxiv.org/abs/2609.06570v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.06570v1</guid>
+      <pubDate>Sun, 06 Sep 2026 12:31:30 +0000</pubDate>
+      <description>Let $C \le \mathbb{F}_q^n$ be a uniformly random $\mathbb{F}_q$-linear code of rate $1 - h_q(ρ) - \varepsilon$, and let $L^*(C,ρ)$ be the least $L$ such that every Hamming ball of relative radius $ρ$ contains at most $L$ codewords of $C$. That $L^* = Θ_{q,ρ}(1/\varepsilon)$ has been known since work of Guruswami, Håstad and Kopparty and of Guruswami and Narayanan. Guruswami, Li, Mosheiff, Resch, Silas and Wootters proved that the constant in front of $1/\varepsilon$ is at least $h_q(ρ)$ for all $q$, along with an upper bound special to $q = 2$ which narrowed $L^*$ to within three consecutive integers in that case. But for $q \ge 3$ no upper bound with the correct constant was known. We determine $L^*$ for every prime power $q$. Let $ζ:= h_q(ρ)/\varepsilon$. For every sufficiently small $\varepsilon$, with probability $1-o(1)$ over the choice of $C$, $$L^*(C,ρ) = \lceil ζ\rceil,$$ unless the fractional part of $ζ$ is at most $q^{-Ω_{q,ρ}(ζ)}$, in which case $L^*(C,ρ)$ is $\lfloor ζ\rfloor$ or $\lfloor ζ\rfloor + 1$. By the threshold characterization of random linear codes due to Mosheiff, Resch, Ron-Zewi, Silas and Wootters, both bounds reduce to a two-sided estimate of a single quantity $V(q,L,ρ)$, where $1-V(q,L,ρ)$ is the threshold rate for $(ρ,L)$-list-decodability. We prove for all large $L$: $$h_q(ρ)(1 + 1/L) - q^{-Ω_{q,ρ}(L)} \le V(q,L,ρ) \le h_q(ρ)(1 + 1/L).$$ The upper bound rests on a new entropy inequality for sparse random vectors under pairwise non-proportional linear constraints, proved with the Erdős-Rado sunflower lemma. The lower bound is an exact analysis of the distribution introduced by Guruswami, Li, Mosheiff, Resch, Silas and Wootters.</description>
+    </item>
+    <item>
+      <title>An infinite walk in $\mathbb{N}^{16}$, using only unit steps, with no three collinear points</title>
+      <link>http://arxiv.org/abs/2609.05780v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.05780v1</guid>
+      <pubDate>Sat, 05 Sep 2026 00:21:41 +0000</pubDate>
+      <description>Is it possible to walk to infinity, avoiding three collinear points, using as steps only the standard unit basis vectors $(0,0,\ldots, 0, 1, 0, \ldots, 0)$? We prove this is possible in $16$ dimensions.</description>
+    </item>
+    <item>
       <title>Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs</title>
       <link>http://arxiv.org/abs/2609.05368v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.05368v1</guid>
@@ -661,48 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.13895</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
       <description>For an oriented graph $G$, denote by $fvs(G)$ the minimum number of vertices whose deletion from $G$ makes it acyclic. We show that an oriented graph $G$ on $n$ vertices and $m$ arcs satisfies $fvs(G) \le \frac{2n+m+h}{9}$ where $h$ denotes the number of connected components of $G$ that belong to a special class of oriented graphs. This result has three consequences. First, when $G$ is planar, we obtain that $fvs(G) \le \frac{2n+m}{9}$. In particular, this implies that $fvs(G) \le \frac{5n-6}{9}$ for any planar oriented graph $G$, improving the best known upper bound of $\frac{3n}{5}$~[Borodin, Discrete Mathematics, 1979]. Then, applying this inequality to the planar digraphs without directed triangles, we get that $fvs(G) \le \frac{6n-8}{13}$, which improves the current best bound of $\frac{n}{2}$~[Li and Mohar, SIAM Journal on Discrete Mathematics, 2017]. Finally, when $G$ has maximum degree 6, we have $fvs(G) \le \frac{4n}{7}$ and this bound is tight, answering a conjecture of Ai, Gutin, Liu, Yeo and Zhou~[arXiv:2512.01676, 2025].</description>
-    </item>
-    <item>
-      <title>Domination-packing ratio for planar and unit disk graphs</title>
-      <link>https://arxiv.org/abs/2607.13424</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.13424</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The domination number $γ(G)$ of a graph $G$ is the smallest possible size of a vertex set that intersects every radius-$1$ ball of $G$, and the packing number $ρ(G)$ is the maximum number of pairwise vertex-disjoint radius-$1$ balls. We prove that $\frac{γ(G)}{ρ(G)}\le 5$ for every planar graph and $\frac{γ(G)}{ρ(G)} \le \frac{18\sqrt3}π\approx 9.924$ for every unit disk graph, thus yielding Erdős-Pósa-type bounds for the hypergraph of radius-$1$ balls in the two graph classes. This improves upon results of Gutiérrez and Paul, and Dúcz and Gujgiczer, who in turn lowered bounds of Bonamy, Csikós, Gujgiczer and Yuditsky, and Böhme and Mohar. For both graph classes, the best known lower bound on the optimal constant remains $3$.</description>
-    </item>
-    <item>
-      <title>Localizing Preference Aggregation Conflicts: A Graph-Theoretic Approach Using Sheaves</title>
-      <link>https://arxiv.org/abs/2512.02416</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.02416</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We introduce a graph-theoretic framework based on discrete sheaves to diagnose and localize inconsistencies in preference aggregation and, more broadly, in the fusion of partial rankings supplied by many overlapping sources. Unlike linearization methods such as HodgeRank, which embed comparisons into a numerical flow, this approach stays purely ordinal and locates conflict in the interaction structure via the Obstruction Locus, identifying which voter pairs fail to cohere. We formalize the Incompatibility Index to quantify these local conflicts and examine their behavior under stochastic variations using the Mallows model. We further develop a sheaf-theoretic pushforward operation to model voter merging, implemented via a polynomial-time constraint digraph algorithm. We demonstrate that graph quotients transform distributed edge conflicts into local impossibilities (empty stalks), showing topologically how aggregation paradoxes can persist across scales.</description>
-    </item>
-    <item>
-      <title>A 64-Rectangle Counterexample to Wegner's Conjecture and LP Gaps up to $5/2$</title>
-      <link>https://arxiv.org/abs/2607.11318</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.11318</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Wegner conjectured that every finite family $\mathcal R$ of axis-parallel rectangles satisfies $τ(\mathcal R)\le 2ν(\mathcal R)-1$, where $ν$ is the packing number and $τ$ is the piercing number. Ajwani, Gajjala, Raman, and Ray recently disproved this by constructing a triangle-free counterexample on $2196\cdot 8^9$ rectangles and, using a computer-assisted package-and-port recursion, obtained a standard LP gap of $17891/8064$ for Maximum Independent Set of Rectangles. We give a simpler and hand-checkable counterexample with $64$ rectangles. It is built from an eight-rectangle gadget whose independent sets inject into four ordered slots; we then use four horizontal and four vertical copies of this gadget to form a triangle-free family with $ν=16$ and $τ\ge 32$. We use the same horizontal-vertical step to define recursive families of rectangles $P_r$ with $ν(P_r)=4^{2^r}$. For the standard clique, equivalently point, relaxation we obtain a finite gap $73/32$ at $P_3$, improving the previous benchmark of $17891/8064$. We then construct recursive fractional solutions and matching piercing sets showing $\lim_r α^*(P_r)/ν(P_r)=\lim_r τ(P_r)/ν(P_r)=5/2$. Finally, by disjoint union with isolated rectangles, we show that every rational $t\in[1,5/2)$ occurs as a standard LP gap and also as a packing-piercing ratio for suitable rectangle families.</description>
-    </item>
-    <item>
-      <title>A tight single-change covering design with block size 6</title>
-      <link>https://arxiv.org/abs/2607.10978</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.10978</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We give a tight single-change covering design with $v=26$ and $k=6$. This answers Problem 1 of the Nineteenth British Combinatorial Conference, which asked whether such a design exists with block size greater than $5$. We also describe the satisfiability search that found the design, including negative search results at the smallest admissible order $v=21$.</description>
-    </item>
-    <item>
-      <title>One construction for the Miura-ori flip-graph degree sequence</title>
-      <link>https://arxiv.org/abs/2607.05567</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.05567</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The flip graph of an origami crease pattern has the flat-foldable mountain-valley assignments as vertices, and an edge joins two of them that differ by a single face flip. A basic invariant of this graph is the degree sequence, which counts the vertices of each degree. On the $m\times n$ Miura-ori, this sequence is known as a bivariate polynomial only for small degrees, each count obtained by a separate argument. This paper gives one uniform construction that expresses, for every degree $d$, the number of degree-$d$ vertices as a single symmetric polynomial in $(m,n)$ for all sufficiently large $m,n$. Subject to a single degree bound, this polynomial has total degree $d-2$, growing for $d\ge5$ as an explicit multiple of $m^{d-2}+n^{d-2}$; the bound is proved here when the count splits into independent row and column factors, and open otherwise. The region is $m,n\ge\max(d-1,2)$; the polynomials are computed in closed form through $d=10$, and the bound is verified in every case through $d=7$. Below this region, the count departs from the polynomial by a correction whose leading coefficient, through degree eleven, is $-4$ times a Baxter number. Each such polynomial thus counts the Miura-ori's flat-foldable assignments admitting exactly $d$ single face flips.</description>
-    </item>
-    <item>
-      <title>Deterministic method of data sequence processing</title>
-      <link>https://arxiv.org/abs/2607.10444</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.10444</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A data management system can be separated in typical data processing systems. Unfortunately, relational data management systems are not efficient enough to handle the on-line signal processing task in a monitoring system. The main current in research into database management system model for the needs of monitoring systems is connected with a data stream model. However, these systems are non-deterministic. This paper presents the developed methods of data stream processing for signal processing tasks in medical database management systems, as well as the developed theorems of data sequences (stream) algebra with formal proofs. A direct link between some introduced operators and Beatty and Fraenkel theorems has been proved</description>
     </item>
   </channel>
 </rss>
