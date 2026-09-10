@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions</title>
+      <link>http://arxiv.org/abs/2609.09306v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.09306v1</guid>
+      <pubDate>Tue, 08 Sep 2026 18:01:23 +0000</pubDate>
+      <description>This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure of phenomenal experience. It does so in an idealized world inhabited by neural networks, Gradland, where the physics are known and the functions are (mostly) differentiable. The paper introduces two measures of Jacobian structure: effective rank and cohesion, based on Kirchhoff complexity. Applying the measures to a series of worked examples shows the hypothesis accounts for: (1) the duration of experience, that it can prolong over hundreds of milliseconds; (2) the difference between what is experienced vividly and obscurely; (3) the experience of texture; (4) the blooming buzzing confusion presumably experienced by newborns; (5) the difference between ideas that are held distinctly in mind and ideas that are confused; (6) what learning is like; and finally (7) the paper explains the function of rich, dense experience.</description>
+    </item>
+    <item>
       <title>Why shared attention vectors fail: a case for outcome-indexed tuning</title>
       <link>http://arxiv.org/abs/2609.08615v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.08615v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2408.04207</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 -0000</pubDate>
       <description>The field of multiobjective evolutionary algorithms (MOEAs) often emphasizes its popularity for optimization problems with conflicting objectives. However, it is still theoretically unknown how MOEAs perform compared with typical approaches outside this field. This paper conducts such a systematic theoretical comparison on problem classes with different degrees of conflict. With OneMaxMin$_k$ depicting $k\in[0..n]$ degrees of conflict, we show the difficulties of two typical non-MOEA approaches, the scalarization (weighted-sum) and {the} $ε-$constraint approach. We prove that for any set of weights, the set of optima formed by {the} scalarization approach cannot cover its full Pareto front for $k&gt;2$. Although constrained problems constructed from $ε-$constraint approach ensure the full coverage, general ways (via exterior or nonparameter penalty functions) to solve these constrained problems encounter difficulties. The nonparameter penalty function way cannot guarantee the full coverage, and the exterior way covers the Pareto front with expected $O(\max\{k,1\}n\ln n)$ number of function evaluations, but only with careful settings of $ε$ and $r$ ($r&gt;1/(ε+1-\lceil ε\rceil)$). In contrast, MOEAs efficiently solve OneMaxMin$_k$ without careful designs. We prove the same expected runtime of $O(\max\{k,1\}n\ln n)$ for the (G)SEMO, MOEA/D, NSGA-II, and SMS-EMOA. Our brief discussions on a bi-objective LeadingOnes variant with different degrees of conflict show similar findings.</description>
-    </item>
-    <item>
-      <title>Quantitative Promise Theory: Intentionality and Inference in Autonomous Agents</title>
-      <link>https://arxiv.org/abs/2606.08552</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.08552</guid>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 -0000</pubDate>
-      <description>I discuss some quantitative representations of Promise Theory for processes involving autonomous agents. Agent models are common in software systems, machine learning, and biology, for example, but may also apply to physics and other forms of engineering. I describe how Bayesian probability and information theoretic optimization, including Active Inference, may be incorporated with promise semantics -- as well as how Promise Theory supplements solutions, helping to avoid probability's pitfalls, which include non-local coordination, calibrating, and normalizing probabilistic computations. The role of boundary conditions in constraining allowed states and selecting decision thresholds is a form of promise, and agent alignment provides a scalable definition of intent. Autonomous agents may congeal into swarms with superagent characteristics by trying to minimize their information, despite uncertainty that works to maximize it. The use of Promise Theory involves some research challenges as well as stylistic preferences.</description>
     </item>
   </channel>
 </rss>

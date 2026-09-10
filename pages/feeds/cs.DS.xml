@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Minimum-makespan completion and vertex selection leave the Wang-Sitters constant at 11/6</title>
+      <link>http://arxiv.org/abs/2609.10004v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10004v1</guid>
+      <pubDate>Wed, 09 Sep 2026 10:32:39 +0000</pubDate>
+      <description>The 11/6 worst-case constant of the Wang-Sitters rounding scheme, which a companion note establishes, can naturally be attributed to the freedom in Step 3, where an arbitrary valid slot matching is permitted. We show that eliminating that freedom does not improve the constant. A minimum-makespan completion oracle still has worst-case constant exactly 11/6 against the optimum; both natural 7/4 statements about it are false; and restricting Step 1 to vertices of the relaxation does not help. The loss therefore cannot be attributed solely to the freedom in Step 3. We also record what structure survives: a reduction confining every overload to two shapes, a seven-machine instance defeating the natural two-phase repair, and a strict 7/4 bound on the generalized three-path family.</description>
+    </item>
+    <item>
+      <title>Online Inverse Integer Linear Optimization via Small-Gradient Skipping: Constant Regret and Finite Mistakes</title>
+      <link>http://arxiv.org/abs/2609.09809v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.09809v1</guid>
+      <pubDate>Wed, 09 Sep 2026 07:05:17 +0000</pubDate>
+      <description>In online inverse linear optimization, the learner predicts a weight at each round, observes the optimal action of the agent, and updates its prediction. In the general setting, the gap of $\log T$ between the regret upper bound $O(d \log T)$ and the lower bound $Ω(d)$ is unresolved (here $T$ is the total number of rounds and $d$ is the dimension). When the action set is M-convex, the regret is known to be bounded by $O(d \log d)$, but the method attaining it computes a center of gravity at every round. This paper therefore proposes Small-Gradient Skipping (SGS), a mechanism that skips the update at rounds without a mistake in the case where the correct action is uniformly separated from the other candidates, and applies it to online gradient descent, the online Newton step, and MetaGrad. The number of mistakes is then bounded, for all three, by a quantity independent of $T$; and for the online Newton step and for MetaGrad with SGS, the dimension dependence of the regret becomes $O(d^2)$ when the forward problem is an integer linear program, that is, the factor $\log T$ is removed. Moreover, when the action set is M-convex, the regret is bounded efficiently without computing a center of gravity.</description>
+    </item>
+    <item>
+      <title>Streaming Algorithms for Gaussian Kernel Density Statistics</title>
+      <link>http://arxiv.org/abs/2609.09622v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.09622v1</guid>
+      <pubDate>Wed, 09 Sep 2026 02:30:57 +0000</pubDate>
+      <description>Motivated by data produced by generative systems, \cite{LZ26b} formulates similarity-aware statistics via a weighted similarity graph, replacing equality with similarity in classical frequency-based statistics. Although this framework captures semantic relationships between nonidentical items, under general similarity functions even coarse one-pass approximation can require linear space. We therefore ask whether the geometric structure present in natural vector similarities can overcome this barrier. We answer this question affirmatively for the Gaussian kernel. For fixed-dimensional Euclidean vector streams, we study similarity-aware analogues of classical frequency statistics, including the number of distinct elements and frequency moments, through the diversity index and Gaussian density moments. We give one-pass sublinear-space approximation algorithms that exploit the geometric and analytic properties of the Gaussian kernel, and complement them with lower bounds. Our results show that geometric structure can fundamentally change the streaming complexity of similarity-aware statistical analysis.</description>
+    </item>
+    <item>
       <title>A $(\log n)^{1/4}$ Bound for the Komlós Problem</title>
       <link>http://arxiv.org/abs/2609.08885v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.08885v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.06820</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
       <description>For a finite hypergraph H, the complements of the models of its associated definite Horn CNF are exactly the stopping sets of H; hence the complements of its coatoms are the inclusion-minimal nonempty stopping sets. We study their output-sensitive enumeration from the hypergraph incidence representation. Our main result is a representation of arbitrary Horn model posets whose incidence size is linear in the incidence length of the normalized Horn input. Given a Horn CNF $Γ$, we construct a hypergraph $C(Γ)$ of rank at most three whose proper-model poset is inclusion-order isomorphic to the model poset of $Γ$; equivalently, each source model has a unique extension to a proper target model. Thus maximal models of $Γ$ correspond bijectively to target coatoms. Combining this representation with the maximal-model construction of Kavvadias, Sideri, and Stavropoulos shows that coatom enumeration is not in OutputP unless P=NP, even when all hyperedges have size two or three. Incidence splitting reduces maximum element frequency to three while preserving the stopping-set poset, and a local replacement of two-element hyperedges yields the same lower bound for three-uniform hypergraphs of maximum element frequency at most three. These thresholds are conditionally sharp for arbitrary-order enumeration: rank at most two and maximum element frequency at most two both admit output-linear total-time generation; in the frequency-two case, a polynomial-delay, polynomial-space algorithm is also available. In contrast, coatom extension is NP-complete already for three-uniform hypergraphs of exact element frequency two.</description>
-    </item>
-    <item>
-      <title>On the Hardness of Strong Metric Dimension</title>
-      <link>https://arxiv.org/abs/2608.06747</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.06747</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Let \(G\) be a connected simple undirected graph. A vertex \(w\) is said to \emph{strongly resolve} a pair of distinct vertices \(u, v \in V(G)\) if either there exists an isometric path (i.e.~a shortest path) from \(w\) to \(u\) that contains \(v\), or there exists an isometric path from \(w\) to \(v\) that contains \(u\). A subset \(S \subseteq V(G)\) is said to \emph{strongly resolve} \(G\) if every pair of distinct vertices of \(G\) is strongly resolved by at least one vertex in \(S\). In the \textsc{Strong Metric Dimension} problem, the input consists of a graph \(G\) and a positive integer \(k\), and the objective is to determine whether there exists a subset \(S \subseteq V(G)\) of size at most \(k\) that strongly resolves \(G\). In this article, we show that \textsc{Strong Metric Dimension} is \NP-complete even on \((i)\) graphs of diameter two, and \((ii)\) graphs of constant pathwidth and constant feedback vertex set number.</description>
-    </item>
-    <item>
-      <title>On the Structure of Unique Shortest Paths in Graphs</title>
-      <link>https://arxiv.org/abs/1804.09745</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1804.09745</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We study the combinatorial structure of systems of unique shortest paths in real-weighted graphs. We say that such a path system is \emph{strongly metrizable}. A folklore fact is that every strongly metrizable path system must be \emph{simple} and \emph{consistent}, meaning that it avoids paths that repeat nodes, and it also avoids the pattern where a pair of its paths intersect, split apart, and then intersect again later. Our contribution is to fully characterize strong metrizability via an expanded list of forbidden subsystems, beyond the two implied by simplicity and consistency. That is: -- We define a new family of patterns that we call \emph{polyhedral pairs}, which are derived from 2-colored abstract polyhedra, -- We prove that a directed path system is strongly metrizable via a directed graph if and only if it is simple, consistent, and it does not contain the nontrivial image of either side of an \emph{oriented} polyhedral pair as a subsystem, -- We prove that an undirected path system is strongly metrizable via an undirected graph if and only if it is simple, consistent, and it does not contain the nontrivial image of either side of a \emph{non-oriented} polyhedral pair as a subsystem. We also discuss some aesthetic structural properties that can be forced for these polyhedra, and we discuss improvements to the characterization that can be obtained in the directed acyclic setting.</description>
-    </item>
-    <item>
-      <title>Vertex cover number of valued constraints is a structural parameter for efficient local search</title>
-      <link>https://arxiv.org/abs/2608.06502</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.06502</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Many local search methods for problems in artificial intelligence can be viewed as an uphill climb on a corresponding discrete fitness landscapes. Finding even local peaks in these fitness landscapes is computationally intractable in theory, but often works in practice. So what features of fitness landscapes allow for efficient local search? Since any fitness landscapes can be represented by a (hyper)graph of valued constraints, I re-frame this as a question of parameterized complexity: what structural parameter of a valued constraint graph guarantees that a strict local search will find a local peak in the corresponding fitness landscape efficiently? Given a valued constrain graph of vertex cover number k, I prove that greedy local search will find the a local fitness peak in at most $2^{2k}\cdot(n - k + 1)$ steps and random uphill local search will find a local fitness peak in an expected number of at most $2^k\cdot n(n - k)$ steps. I also show that these results are asymptotically good for strict local search because there are valued constraint graphs of vertex cover number $k$ where every ascent from some initial assignment has a length of $\frac{9}{128} \cdot 2^k \cdot (n - k)$ or greater. This suggests vertex cover number as a good structural parameter for the complexity of local search.</description>
     </item>
   </channel>
 </rss>

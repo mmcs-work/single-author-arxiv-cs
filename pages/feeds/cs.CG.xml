@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A 2.37332-Competitive Algorithm for Online Square Packing with Gravity</title>
+      <link>http://arxiv.org/abs/2609.10101v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10101v1</guid>
+      <pubDate>Wed, 09 Sep 2026 12:25:24 +0000</pubDate>
+      <description>We consider online packing of axis-parallel squares into a unit-width strip under the Tetris and gravity constraints: An incoming square must be lowered from above along a monotonic downwards path until it reaches support from below. Fekete, Kamphans, and Schweer [Algorithmica, 2014] gave an algorithm with asymptotic competitive ratio $34/13\approx2.6154$ in this model. We present $\mathrm{AsymmetricSlots}$, a recursive algorithm based on splitting each slot into a wide and narrow subslot. The proof uses a local charging argument: squares that are large relative to its associated slot pay for the height they create with their own area, while smaller squares are balanced between the two subslots and may use a bounded temporary credit. For a suitable split parameter $p^\star$, we prove $\mathrm{AsymmetricSlots}{p^\star}(σ)\le 2.37332 \operatorname{OPT} (σ)+O(1)$ for every input sequence $σ$. Additionally, we show that the same framework gives an algorithm with asymptotic competitive ratio $O(κ)$ for rectangles of aspect ratio at most $κ$, and a matching $ Ω(κ)$ lower bound shows that the dependence on $κ$ is asymptotically optimal. For the square algorithm, we give a lower bound of $2$ on its asymptotic competitive ratio.</description>
+    </item>
+    <item>
       <title>An explicit mono-monostatic polyhedron</title>
       <link>http://arxiv.org/abs/2609.07827v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.07827v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.22010</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
       <description>In 1992, Bollobás and Meir showed that for every $k \geq 1$ there exists a constant $c_k$ such that, for any $n$ points in the $k$-dimensional unit cube $[0, 1]^k$, one can find a tour $x_1, \dots, x_n$ through these $n$ points with $\sum_{i = 1}^n |x_i - x_{i + 1}|^k \leq c_k$, where $x_{n + 1} = x_1$ and $|x - y|$ is the Euclidean distance between $x$ and $y$. Remarkably, this bound does not depend on $n$, the number of points. They conjectured that the optimal constant is $c_k = 2 \cdot k^{k / 2}$ and showed that it cannot be taken lower than that. This conjecture was recently revised for $k = 3$ by Balogh, Clemen and Dumitrescu, who showed that $c_3 \geq 2^{7/2} &gt; 2 \cdot 3^{3/2}$. It remains open for all $k &gt; 2$, with the best known upper bound $c_k \leq 2.65^k \cdot k^{k / 2} \cdot (1 + o_k(1))$. We significantly narrow the gap between lower and upper bounds on $c_k$, reducing it from exponential to linear. Specifically, we prove that $c_k \leq 2\mathrm{e}(k + 1) \cdot k^{k / 2}$ and $c_k = k^{k / 2} \cdot (2 + o_k(1))$, the latter establishing the conjecture asymptotically. We also obtain analogous results for related problems on Hamiltonian paths, spanning trees and perfect matchings in the unit cube. Our main tool is a new generalization of the ball packing argument used in earlier works.</description>
-    </item>
-    <item>
-      <title>Triangulating a Polygon with Holes in Optimal (Deterministic) Time</title>
-      <link>https://arxiv.org/abs/2603.21617</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.21617</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
-      <description>We consider the problem of triangulating a polygon with $n$ vertices and $h$ holes, or relatedly the problem of computing the trapezoidal decomposition of a collection of $h$ disjoint simple polygonal chains with $n$ vertices total. Clarkson, Cole, and Tarjan (1992) and Seidel (1991) gave randomized algorithms running in $O(n\log^*n + h\log h)$ time, while Bar-Yehuda and Chazelle (1994) described deterministic algorithms running in $O(n+h\log^{1+\varepsilon}h)$ or $O((n+h\log h)\log\log h)$ time, for an arbitrarily small positive constant $\varepsilon$. No improvements have been reported since. We describe a new $O(n + h\log h)$-time algorithm, which is optimal and deterministic. More generally, when the given polygonal chains are not necessarily simple and may intersect each other, we show how to compute their trapezoidal decomposition (and in particular, compute all intersections) in optimal $O(n + h\log h)$ deterministic time when the number of intersections is at most $n^{1-\varepsilon}$. To obtain these results, Chazelle's linear-time algorithm for triangulating a simple polygon is used as a black box.</description>
     </item>
   </channel>
 </rss>
