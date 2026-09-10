@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Testing the Binary Rank with Polynomial Query Complexity</title>
+      <link>http://arxiv.org/abs/2609.10496v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10496v1</guid>
+      <pubDate>Wed, 09 Sep 2026 17:34:01 +0000</pubDate>
+      <description>We provide an adaptive two-sided error testing algorithm for the binary rank of a $0,1$ matrix $M$ with query complexity $O(d^3\log(d+1)/ε^2)$, where $d$ is the tested binary rank bound and $ε$ is the distance parameter. This answers an open question posed by Parnas, Ron and Shraibman~\cite{parnas2021property}, who asked whether the binary rank can be tested with query complexity polynomial in $d$ and $1/ε$. Furthermore, our testing algorithm can be used to find an approximate binary decomposition of $M$ with an additional $d(n+m)$ queries. That is, under the promise that the binary rank of $M$ is at most $d$, we show how to find, with probability at least $5/6$, two $0,1$ matrices $A',B'$ such that $M' = A' \cdot B'$ is a $0,1$ matrix which differs from $M$ on at most an $O(ε)$ fraction of its entries.</description>
+    </item>
+    <item>
       <title>The exact asymptotic constant in the metric dimension of Jaccard space</title>
       <link>http://arxiv.org/abs/2609.09146v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.09146v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.14302</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
       <description>A uniformly random $m$-subset of $[n]=\{0,\ldots,n-1\}$ has entropy $\log_2\binom{n}{m}$. Standard without-replacement procedures often expose an additional ordering coordinate that is absent from the returned set. We show that Floyd's subset sampler admits an exact round-local factorization of this coordinate. In round $r$, let $S$ be an $(r-1)$-subset of $[j]$, let $T\sim\operatorname{Unif}([j+1])$, and let $S'$ be the result of Floyd's transition. If $D$ is the zero-based rank of the original draw $T$ in $S'$, then $(S,T)\leftrightarrow(S',D)$ is a bijection between $\binom{[j]}{r-1}\times[j+1]$ and $\binom{[j+1]}{r}\times[r]$. Consequently, $S'$ and $D$ are independent and uniform on their respective spaces. The digit $D$ can therefore be merged immediately into a residual uniform random state; an induction shows that the partial subset remains independent of that state after every round. For $k=\min(m,n-m)$, the sampling phase uses $O(k\log k)$ time and $O(k)$ auxiliary space with an order-statistic tree; explicitly materializing a complement incurs the unavoidable output cost. The combinatorial layer avoids binomial-coefficient arithmetic and recovers the complete $k!$ state-space factor exactly. We also give a finite counterexample showing that analogous immediate rank recycling in a partial Fisher-Yates array is invalid because the unselected suffix retains a correlated ordering. A 64-bit Rust implementation is checked by exhaustive state-space enumeration for all $n\leq 8$ and by an entropy-accounting trace for choosing $20{,}000$ of $30{,}000$ items. We make no claim of runtime superiority over existing subset samplers.</description>
-    </item>
-    <item>
-      <title>Feedback vertex sets in oriented graphs</title>
-      <link>https://arxiv.org/abs/2607.13895</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.13895</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>For an oriented graph $G$, denote by $fvs(G)$ the minimum number of vertices whose deletion from $G$ makes it acyclic. We show that an oriented graph $G$ on $n$ vertices and $m$ arcs satisfies $fvs(G) \le \frac{2n+m+h}{9}$ where $h$ denotes the number of connected components of $G$ that belong to a special class of oriented graphs. This result has three consequences. First, when $G$ is planar, we obtain that $fvs(G) \le \frac{2n+m}{9}$. In particular, this implies that $fvs(G) \le \frac{5n-6}{9}$ for any planar oriented graph $G$, improving the best known upper bound of $\frac{3n}{5}$~[Borodin, Discrete Mathematics, 1979]. Then, applying this inequality to the planar digraphs without directed triangles, we get that $fvs(G) \le \frac{6n-8}{13}$, which improves the current best bound of $\frac{n}{2}$~[Li and Mohar, SIAM Journal on Discrete Mathematics, 2017]. Finally, when $G$ has maximum degree 6, we have $fvs(G) \le \frac{4n}{7}$ and this bound is tight, answering a conjecture of Ai, Gutin, Liu, Yeo and Zhou~[arXiv:2512.01676, 2025].</description>
     </item>
   </channel>
 </rss>

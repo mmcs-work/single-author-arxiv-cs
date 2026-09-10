@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Testing the Binary Rank with Polynomial Query Complexity</title>
+      <link>http://arxiv.org/abs/2609.10496v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10496v1</guid>
+      <pubDate>Wed, 09 Sep 2026 17:34:01 +0000</pubDate>
+      <description>We provide an adaptive two-sided error testing algorithm for the binary rank of a $0,1$ matrix $M$ with query complexity $O(d^3\log(d+1)/ε^2)$, where $d$ is the tested binary rank bound and $ε$ is the distance parameter. This answers an open question posed by Parnas, Ron and Shraibman~\cite{parnas2021property}, who asked whether the binary rank can be tested with query complexity polynomial in $d$ and $1/ε$. Furthermore, our testing algorithm can be used to find an approximate binary decomposition of $M$ with an additional $d(n+m)$ queries. That is, under the promise that the binary rank of $M$ is at most $d$, we show how to find, with probability at least $5/6$, two $0,1$ matrices $A',B'$ such that $M' = A' \cdot B'$ is a $0,1$ matrix which differs from $M$ on at most an $O(ε)$ fraction of its entries.</description>
+    </item>
+    <item>
       <title>Minimum-makespan completion and vertex selection leave the Wang-Sitters constant at 11/6</title>
       <link>http://arxiv.org/abs/2609.10004v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10004v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.07272</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
       <description>We consider the following problems: Given two $n \times n$ tables defining binary operations $+$ and $\cdot$ on a set $S$ of $n$ elements, decide whether $(S,+,\cdot)$ forms a ring or, respectively, a field. Recently, Dudek, Fischer, Gokaj, Jin, Künnemann, Mao, and Redzic (STOC 2026) obtained the following two (near-)optimal results: (1) A randomized $O(n^2\log(1/δ))$-time algorithm for verifying rings. (2) A deterministic $O(n^2)$-time algorithm for verifying fields. Their algorithms build on machinery of Evra, Gadot, Klein, and Komargodski (FOCS 2024), which relies on Classification of Finite Simple Groups (CFSG). In this work, we give a deterministic $O(n^2)$-time algorithm for ring verification, resolving the deterministic complexity of this problem. As a corollary, we also obtain a deterministic $O(n^2)$-time algorithm for field verification. Our algorithms are elementary and avoid CFSG machinery entirely.</description>
-    </item>
-    <item>
-      <title>Coatom Enumeration in Hypergraph Horn Functions: Rank-Three Representations of Horn Model Posets</title>
-      <link>https://arxiv.org/abs/2608.06820</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.06820</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>For a finite hypergraph H, the complements of the models of its associated definite Horn CNF are exactly the stopping sets of H; hence the complements of its coatoms are the inclusion-minimal nonempty stopping sets. We study their output-sensitive enumeration from the hypergraph incidence representation. Our main result is a representation of arbitrary Horn model posets whose incidence size is linear in the incidence length of the normalized Horn input. Given a Horn CNF $Γ$, we construct a hypergraph $C(Γ)$ of rank at most three whose proper-model poset is inclusion-order isomorphic to the model poset of $Γ$; equivalently, each source model has a unique extension to a proper target model. Thus maximal models of $Γ$ correspond bijectively to target coatoms. Combining this representation with the maximal-model construction of Kavvadias, Sideri, and Stavropoulos shows that coatom enumeration is not in OutputP unless P=NP, even when all hyperedges have size two or three. Incidence splitting reduces maximum element frequency to three while preserving the stopping-set poset, and a local replacement of two-element hyperedges yields the same lower bound for three-uniform hypergraphs of maximum element frequency at most three. These thresholds are conditionally sharp for arbitrary-order enumeration: rank at most two and maximum element frequency at most two both admit output-linear total-time generation; in the frequency-two case, a polynomial-delay, polynomial-space algorithm is also available. In contrast, coatom extension is NP-complete already for three-uniform hypergraphs of exact element frequency two.</description>
     </item>
   </channel>
 </rss>

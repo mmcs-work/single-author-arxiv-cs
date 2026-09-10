@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Compact totally separated types</title>
+      <link>http://arxiv.org/abs/2609.10447v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10447v1</guid>
+      <pubDate>Wed, 09 Sep 2026 16:58:50 +0000</pubDate>
+      <description>Perhaps surprisingly, there are infinite types that can be exhaustively searched mechanically in finite time. We use ideas from topology to build plenty of them, referring to searchable types as compact types, and we use ordinals to measure their logical complexity. We consider two systems of ordinal notations under which a single notation denotes both a discrete ordinal and a compact one, with an embedding of the former into the latter whose image has empty complement. A boolean valued function decides which points in the image of the embedding are isolated and which are topological limit points. The first system consists of the traditional Brouwer codes and the second is an inductive-recursive universe generalizing them. The discrete ordinals so obtained are trichotomous, and the compact ones have the least element property for complemented subsets, but these two desirable properties cannot be fulfilled simultaneously in a constructive setting. The ordinals obtained from Brouwer codes further enjoy a boolean Leibniz principle, which has the notion of total separatedness as its topological counterpart. This extends previous work from Gödel's system T to intensional Martin-Löf type theory with univalent universes, and is formalized in Agda in the TypeTopology repository.</description>
+    </item>
+    <item>
       <title>Fitting and Learning Basis-Restricted Propositional Formulas</title>
       <link>http://arxiv.org/abs/2609.08961v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.08961v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1704.04474</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
       <description>A presentation records not only a categorical structure but also how it is assembled. This matters for rewriting, coherence, and minimality: freely adjoining a cell with prescribed boundary is different from imposing an equation between cells already constructed. We show that these two operations are governed, respectively, by coinserters and coequifiers, giving a uniform account of computadic presentations from ordinary categories to strict higher categories. For a graph $G$, the free category on $G$ is the coinserter in $\mathsf{Cat}$ of its domain and codomain maps between discrete categories. More generally, for every $n\geq1$, freely adjoining $n$-cells with prescribed parallel boundaries to a strict $(n-1)$-category is a coinserter in the $2$-category of strict $n$-categories, strict $n$-functors, and $n$-icons. This construction is left adjoint to the underlying derivation-scheme functor. It recovers free strict $n$-categories from computads, while coequifiers impose equations between freely generated cells. In dimension two, it also satisfies a bicategorical universal property for normal pseudofunctors and icons. Replacing the walking arrow by the unit interval yields the topological coinserter of a graph. For a groupoidal $2$-computad $C$, attaching one disk for each relation produces a presentation complex $X_C$ whose fundamental groupoid is the groupoid presented by $C$. Consequently, the rank-finite deficiency of a connected groupoid is the classical deficiency of any isotropy group. Homology gives a sharp lower bound on the relations required to present a thin groupoid over a fixed graph, while crossed modules extend the comparison to relations among relations. Finally, for the descent computad, the identity and associativity confluences form a homotopy basis and attain the corresponding homological lower bounds.</description>
-    </item>
-    <item>
-      <title>Interpolation via Generalized Splitting</title>
-      <link>https://arxiv.org/abs/2607.23798</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23798</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We propose a new proof theoretical method for proving Lyndon interpolation. Our proof does not use the sequent calculus but is based on a generalization of the splitting lemma in deep inference. We then formulate the interpolation theorem as a decomposition of a derivation into an up-fragment and a down-fragment. This can be seen as (i) a strengthening of the standard formulation of the interpolation theorem, and (ii) a generalization of the cut elimination theorem. We demonstrate the flexibility of our approach by applying it to linear logic, classical logic, and modal logics. For this, we also introduce novel cut-free proof systems for several modal logics in deep inference.</description>
     </item>
   </channel>
 </rss>

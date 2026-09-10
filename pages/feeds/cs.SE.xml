@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>dexamine: A Python package for Uniswap event data on Ethereum</title>
+      <link>http://arxiv.org/abs/2609.10407v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10407v1</guid>
+      <pubDate>Wed, 09 Sep 2026 16:25:36 +0000</pubDate>
+      <description>Decentralized exchanges record trading and liquidity provision on public blockchains, but empirical analysis requires interpreting these records and linking them to execution metadata. dexamine is a Python package that parses Uniswap v2 and v3 events on Ethereum. It converts transaction receipt logs into observations of trades and liquidity changes, with token quantities, pool state, transaction order, and gas information. The package separates data retrieval, contract metadata, protocol interpretation, and output construction. The repository provides recorded Ethereum responses and an offline reproducible example, and version 1 has been used to construct data for an empirical study of price discovery in decentralized markets.</description>
+    </item>
+    <item>
       <title>Socio-technical and Ethical Dimensions of Architecture Practices in FLOSS</title>
       <link>http://arxiv.org/abs/2609.09975v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.09975v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2409.18048</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 -0000</pubDate>
       <description>Although model-driven software engineering (MDSE) has proven effective in managing complex systems, its industrial adoption remains limited by the substantial maintenance overhead required for models and the specialised skills demanded of developers. Meanwhile, advances in artificial intelligence (AI), particularly generative and agentic AI, have shown great promise in automating code-related tasks such as comprehension, generation, and defect detection. These capabilities are largely powered by 'big code': vast repositories of open-source software that now form the basis of data-driven, empirical SE and automated quality assurance. This paper aims to synthesise these two domains by exploring the integration of AI into model-driven practices. It provides a comprehensive overview of the current state of AI-augmented software engineering and introduces a novel taxonomy 'ai4se' to classify and connect diverse AI applications within the field. On this basis, the paper proposes a vision for 'big models' in software engineering (SE), an approach designed to leverage the structural advantages of MDSE alongside the scalability of AI. Finally, the paper discusses the pair modelling paradigm as a collaborative framework for the MDSE industry, designed to enhance software quality through human-AI partnership.</description>
-    </item>
-    <item>
-      <title>GenOS: Compositional Certificates for Semantic Robustness in AI Code Generation</title>
-      <link>https://arxiv.org/abs/2608.03588</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.03588</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 -0000</pubDate>
-      <description>AI coding agents are stochastic workflows: prompts are interpreted, artifacts are sampled, validators produce observations, and orchestrators commit or repair. Small prompt or specification changes can therefore alter program-behavior distributions even when the texts appear synonymous. Existing systems evaluate correctness, but lack a compositional criterion for safely replacing a prompt, contract, generator, or program inside a complete agentic workflow. We introduce GenOS, a probabilistic operational semantics for this replacement problem. Each layer is modeled as a Markov kernel, and each interface carries an observer-relative equivalence. We prove that equivalence-compatible kernels descend to quotient classes and that quotienting commutes with distributional extension and sequential composition. Hence, equivalent prompts induce equal probabilities for all downstream equivalence-closed events, including verified commit. We also establish workflow bisimulation, guarded-commit safety under sound validation, total-variation non-expansiveness, and an additive robustness bound that attributes approximation error to individual pipeline layers. An executable insertion-sort audit instantiates the theory with natural-language paraphrases, a formal contract, six programs, two observers, and exhaustive execution on 121 inputs. Equivalent prompts yield identical code-class and commit distributions; a prompt assigning 5% probability to an in-place contract is distinguished by a mutation observer, while downstream distances remain within the predicted bound. Across 20,000 randomized finite-kernel trials, no exact or approximate law is violated. GenOS is model-parametric: compatibility is a measurable property to test, not an assumption about language-model behavior.</description>
     </item>
   </channel>
 </rss>

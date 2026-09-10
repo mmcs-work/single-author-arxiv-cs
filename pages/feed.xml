@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Likelihood-free inference with nuisance parameters through normalizing flows</title>
+      <link>http://arxiv.org/abs/2609.10534v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10534v1</guid>
+      <pubDate>Wed, 09 Sep 2026 17:58:15 +0000</pubDate>
+      <description>We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the sense of minimum average KL-divergence of its $p$-values versus uniform and we argue that it can be expected to have good power when the dimension of the statistic equals the dimension of the parameter. It is able to incorporate prior knowledge about group invariances such as translation and scale. It can discover the one-sample $t$-test almost exactly, outperforms the Welch test in terms of worst-case size over a constrained variance-ratio range and achieves good calibration on partial biserial correlations, while showing higher power (and being much faster) on small-to-moderate samples than profile likelihood-ratio techniques.</description>
+    </item>
+    <item>
+      <title>Testing the Binary Rank with Polynomial Query Complexity</title>
+      <link>http://arxiv.org/abs/2609.10496v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10496v1</guid>
+      <pubDate>Wed, 09 Sep 2026 17:34:01 +0000</pubDate>
+      <description>We provide an adaptive two-sided error testing algorithm for the binary rank of a $0,1$ matrix $M$ with query complexity $O(d^3\log(d+1)/ε^2)$, where $d$ is the tested binary rank bound and $ε$ is the distance parameter. This answers an open question posed by Parnas, Ron and Shraibman~\cite{parnas2021property}, who asked whether the binary rank can be tested with query complexity polynomial in $d$ and $1/ε$. Furthermore, our testing algorithm can be used to find an approximate binary decomposition of $M$ with an additional $d(n+m)$ queries. That is, under the promise that the binary rank of $M$ is at most $d$, we show how to find, with probability at least $5/6$, two $0,1$ matrices $A',B'$ such that $M' = A' \cdot B'$ is a $0,1$ matrix which differs from $M$ on at most an $O(ε)$ fraction of its entries.</description>
+    </item>
+    <item>
+      <title>Nonmaximal sums of maximally monotone operators under Rockafellar's constraint qualification</title>
+      <link>http://arxiv.org/abs/2609.10487v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10487v1</guid>
+      <pubDate>Wed, 09 Sep 2026 17:26:26 +0000</pubDate>
+      <description>We construct counterexamples to Rockafellar's sum conjecture in which two maximally monotone operators satisfy the interior-domain condition but their sum is not maximally monotone. We give one counterexample on $c_0$ and another on $\ell^1$ with its usual norm. We establish a general construction theorem that computes the entire monotone polar of a class of graphs, gives a necessary and sufficient condition for their maximal monotonicity, and shows how a positive rank-one perturbation yields a nonmaximal sum under this condition. We verify the theorem's hypotheses and its maximality criterion on $c_0$, thereby obtaining a counterexample to the conjecture. Furthermore, we construct a bounded linear surjection from $\ell^1$ onto $c_0$ and use it to obtain the counterexample on $\ell^1$.</description>
+    </item>
+    <item>
+      <title>Compact totally separated types</title>
+      <link>http://arxiv.org/abs/2609.10447v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10447v1</guid>
+      <pubDate>Wed, 09 Sep 2026 16:58:50 +0000</pubDate>
+      <description>Perhaps surprisingly, there are infinite types that can be exhaustively searched mechanically in finite time. We use ideas from topology to build plenty of them, referring to searchable types as compact types, and we use ordinals to measure their logical complexity. We consider two systems of ordinal notations under which a single notation denotes both a discrete ordinal and a compact one, with an embedding of the former into the latter whose image has empty complement. A boolean valued function decides which points in the image of the embedding are isolated and which are topological limit points. The first system consists of the traditional Brouwer codes and the second is an inductive-recursive universe generalizing them. The discrete ordinals so obtained are trichotomous, and the compact ones have the least element property for complemented subsets, but these two desirable properties cannot be fulfilled simultaneously in a constructive setting. The ordinals obtained from Brouwer codes further enjoy a boolean Leibniz principle, which has the notion of total separatedness as its topological counterpart. This extends previous work from Gödel's system T to intensional Martin-Löf type theory with univalent universes, and is formalized in Agda in the TypeTopology repository.</description>
+    </item>
+    <item>
+      <title>dexamine: A Python package for Uniswap event data on Ethereum</title>
+      <link>http://arxiv.org/abs/2609.10407v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10407v1</guid>
+      <pubDate>Wed, 09 Sep 2026 16:25:36 +0000</pubDate>
+      <description>Decentralized exchanges record trading and liquidity provision on public blockchains, but empirical analysis requires interpreting these records and linking them to execution metadata. dexamine is a Python package that parses Uniswap v2 and v3 events on Ethereum. It converts transaction receipt logs into observations of trades and liquidity changes, with token quantities, pool state, transaction order, and gas information. The package separates data retrieval, contract metadata, protocol interpretation, and output construction. The repository provides recorded Ethereum responses and an offline reproducible example, and version 1 has been used to construct data for an empirical study of price discovery in decentralized markets.</description>
+    </item>
+    <item>
+      <title>Fundamental limits to identifying node and tie memory in temporal networks: marginal artefacts and spreading dynamics</title>
+      <link>http://arxiv.org/abs/2609.10399v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10399v1</guid>
+      <pubDate>Wed, 09 Sep 2026 16:20:09 +0000</pubDate>
+      <description>Temporal-network models attribute memory in contact data to either node self-excitation (branching ratio n_node) or tie reinforcement (kappa), carrying major consequences for epidemic spreading. We prove that when event initiators are observed, the two mechanisms are orthogonal: the Fisher information is block-diagonal and neither trades off against the other. In undirected proximity data, where initiators are unobserved, marginalising over them couples the mechanisms into a structural confound that survives posterior smoothing. On empirical proximity, messaging, and email records, however, a cruder failure dominates: fitted node memory is pinned to the inter-event marginal law and remains virtually invariant across latent label posterior samples (coefficient of variation below 1%). An inter-event-order shuffle test and burstiness-memory diagnostics reveal that exponential-Hawkes node memory is recovered from none, while tie reinforcement remains identifiable throughout. This near-unidentifiability is intrinsic, not an artefact of the exponential kernel: refitting flexible scale-free (sum-of-exponentials) kernels on synthetic power-law self-exciting processes fails to distinguish genuine node memory from memoryless renewal controls, with identical collapses recurring on algorithmic networks (edit bots, cloud microservices) and cortical spiking. Downstream epidemic consequences are quantitative: simulations fitted to empirical contact records under-predict outbreak sizes by up to a factor of 2.5 and shift the epidemic threshold. We conclude that observational temporal networks face a two-fold identifiability boundary: contact directionality is essential to decouple tie reinforcement, whereas heavy-tailed node self-excitation is intrinsically unidentifiable from contact timings alone.</description>
+    </item>
+    <item>
       <title>Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System</title>
       <link>http://arxiv.org/abs/2609.10350v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10350v1</guid>
@@ -661,48 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.08271v1</guid>
       <pubDate>Tue, 08 Sep 2026 05:26:43 +0000</pubDate>
       <description>In various data models, the classical triple is a typical semantic data model. However, due to the design of the triple as a simple structure for representing positive assertions, it cannot sufficiently express different forms of negation present in the triple and its elements. This paper conceptually proposes that there are three distinct forms of negation within triples and their elements: contradictory negation, opposite negation and intermediary negation. Based on the the set SCOI and the logic LCOI+PLCOI with three kinds of negation, we propose an extension of triple that can distinguish and express these three different negations in the triple and its elements, called the TCOI triple with contradictory negation, opposite negation and intermediary negation. The TCOI triple is a semantic and structural extension of the classical triple. While retaining the ability to express positive assertions, it systematically introduces the three semantic dimensions of three negations, allowing these negations to independently act on the elements of the triple and on the whole triple. This significantly enhances the triple model capability to represent and reasoning about complex negative information. This paper also explores the expressive power and reasoning of the TCOI triple, as well as the application of TCOI triple implication reasoning in counterfactuals and counterfactual reasoning. We propose a truth-value (continuous value) algorithm for TCOI triple implication reasoning and perform its calculation through an example of the counterfactuals and counterfactual reasoning.</description>
-    </item>
-    <item>
-      <title>Transversal Fanout for Fault Tolerant Distributed Quantum Computing: Analysis and Application</title>
-      <link>http://arxiv.org/abs/2609.08233v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08233v1</guid>
-      <pubDate>Tue, 08 Sep 2026 04:26:44 +0000</pubDate>
-      <description>We study a resource-efficient approach for implementing logical fanout operations in fault-tolerant distributed quantum computing using transversal operations on quantum error-correcting code blocks. Logical fanout, comprising multiple controlled-NOT operations from a common control qubit to target qubits located at remote nodes, is an important primitive for distributed quantum computation but can require substantial non-local communication when implemented directly between encoded blocks. We exploit the structure of encoded blocks and the availability of transversal logical operations to construct distributed fanout circuits that reduce the required non-local operations while preserving the logical action of the fanout operation. The construction is developed for encoded quantum information and illustrated using Bivariate Bicycle (BB)-code blocks. We analyze the resulting physical gate, entanglement, circuit-depth, and ancilla requirements. The approach provides a systematic method for implementing large logical fanout operations across distributed error-corrected quantum processors. Also, we study a distributed implementation of the global gate GCZ involving logical qubits (encoded using BB-code blocks), exploiting the concurrency in transversal distributed fanouts.</description>
-    </item>
-    <item>
-      <title>Asymptotically good binary triorthogonal codes and higher-level transversal gates</title>
-      <link>http://arxiv.org/abs/2609.08203v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08203v1</guid>
-      <pubDate>Tue, 08 Sep 2026 03:41:36 +0000</pubDate>
-      <description>For each level of the Clifford hierarchy from the third level onward, we construct explicit asymptotically good binary CSS codes supporting diagonal transversal gates in that level. We achieve this using algebraic geometry codes over binary extension fields and performing an alphabet reduction that translates orthogonality conditions over the extension field to binary overlap conditions. In particular, we obtain the first asymptotically good family of binary triorthogonal codes. We also give a stronger construction with worse parameters for which no subsequent correction is required. Finally, adapting an error-correction-based distillation protocol, our binary $T$-gate families yield constant-overhead $T$-state block distillation under sufficiently weak input noise and ideal stabilizer operations.</description>
-    </item>
-    <item>
-      <title>An Elementary Proof of the $\widetilde O(n^{1/3})$ Bound for Separating Words</title>
-      <link>http://arxiv.org/abs/2609.08191v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08191v1</guid>
-      <pubDate>Tue, 08 Sep 2026 03:26:15 +0000</pubDate>
-      <description>For two distinct binary words of length $n$, the separating words problem asks for a small deterministic finite automaton that accepts exactly one of them. Chase proved a $\widetilde O(n^{1/3})$ upper bound using a complex-analytic estimate for sparse polynomials. We replace that estimate by a finite-difference argument and a second-order real recurrence cutoff. The resulting elementary proof gives an explicit bound of $O(n^{1/3}(\log n)^{7/3})$ states.</description>
-    </item>
-    <item>
-      <title>A Note on Sphere Packing Bounds for Tuple Lattice Sieving</title>
-      <link>http://arxiv.org/abs/2609.08190v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08190v1</guid>
-      <pubDate>Tue, 08 Sep 2026 03:20:53 +0000</pubDate>
-      <description>A finite set of unit vectors is $k$-irreducible if every signed sum of between two and $k$ distinct elements has norm greater than one. Let $\mathcal{R}_k$ be the maximal asymptotic rate of such sets, and let $κ(α)$ be the maximal asymptotic rate of spherical codes with pairwise inner products at most $α$. For $k \ge 2$ we show: \begin{align} \mathcal{R}_k \le \min_{1 \le r \le \lfloor k/2 \rfloor} \frac{1}{r} \, κ\!\left(1 - \frac{1}{2r}\right) \, . \end{align} Combining this with standard sphere packing bounds, for large $k$ we obtain an almost-tight asymptotic comparison with the known lower bounds: \begin{align} \left(\tfrac{1}{2}-o(1)\right) \, \frac{\log_2 k}{k} \le \mathcal{R}_k \le (1 + o(1)) \, \frac{\log_2 k}{k} \, . \end{align}</description>
-    </item>
-    <item>
-      <title>Beyond Cut Balance: Spectral Sparsification of the Nonlinear Directed Laplacian</title>
-      <link>http://arxiv.org/abs/2609.08177v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08177v1</guid>
-      <pubDate>Tue, 08 Sep 2026 03:05:06 +0000</pubDate>
-      <description>Digraphs with constant cut balance admit nearly linear directed cut sparsifiers. This condition requires the total arc weights in the two directions of every cut to be within a constant factor of each other. We ask whether this condition also permits nearly linear spectral sparsification with respect to the energy of the nonlinear directed Laplacian. For a weighted digraph $G=(V,E,w)$, let \[ Q_G^+(x)=\sum_{(u,v)\in E}w_{uv}(x_u-x_v)_+^2, \qquad (t)_+:=\max\{t,0\}. \] This energy agrees with the outgoing-cut function on binary vectors. A spectral sparsifier is a nonnegatively reweighted subgraph that preserves $Q_G^+(x)$ within a factor of $1\pm\varepsilon$ simultaneously for all $x\in\mathbb R^V$. We show that cut balance alone does not yield nearly linear spectral sparsifiers: for constant error, the worst-case support size for simple unweighted Eulerian digraphs is $\widetildeΘ(n^{3/2})$, although Eulerian digraphs are perfectly cut-balanced and admit nearly linear directed cut sparsifiers. In contrast, we prove that every $n$-vertex tournament has a spectral sparsifier with $\widetilde O(n/\varepsilon^3)$ arcs, without any assumption on its cut balance. This includes the transitive tournament, whose cut balance is unbounded. Thus perfect balance does not guarantee nearly linear spectral sparsification, while unbounded imbalance does not preclude it. Finally, we use convex duality to show that preserving $Q_G^+$ also preserves, for every feasible demand vector, the optimum quadratic cost of a nonnegative flow. Hence the guarantee contains information beyond directed cut values.</description>
-    </item>
-    <item>
-      <title>Optimal Slice-Adaptive Tuning of Hybrid Slice Sampling</title>
-      <link>http://arxiv.org/abs/2609.08172v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08172v1</guid>
-      <pubDate>Tue, 08 Sep 2026 03:01:25 +0000</pubDate>
-      <description>Slice sampling is a Markov chain Monte Carlo algorithm that draws its next state uniformly from a "slice"---a super-level set of the target density function---at each iteration, thereby providing automatic local adaptivity to the scale of the target. In practice the exact slice is not known, so general-purpose implementations use an approximate slice that is grown from a starting interval of length $w&gt;0$, with a computational cost that depends on $w$. This work presents an analysis of the average per-iteration number of target density evaluations, as a function of $w$, of hybrid slice sampling with various slice-finding schemes for targets with contiguous slices. The paper uses the results of the analysis to develop automated, slice-adaptive tuning schemes along with suboptimality bounds and asymptotic convergence guarantees. Simulations demonstrate that the tuning schemes reliably yield near-optimal slice-adaptive tuning with essentially no dependence on the initial setting of $w$.</description>
     </item>
   </channel>
 </rss>
