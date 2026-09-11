@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>EFI Pairs Without One-Way Puzzles: Oracle Separations from Communication Complexity</title>
+      <link>http://arxiv.org/abs/2609.11901v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.11901v1</guid>
+      <pubDate>Thu, 10 Sep 2026 17:54:55 +0000</pubDate>
+      <description>EFI pairs (Brakerski, Canetti, and Qian, ITCS 2023) and one-way puzzles (Khurana and Tomer, STOC 2024) are the leading candidates for the minimal assumption of quantum cryptography. The first are efficiently preparable quantum states, statistically far yet computationally indistinguishable; the second are classical puzzles, easy to sample and hard to solve. One-way puzzles imply EFI pairs, and whether the converse holds is open. We construct a single classical oracle relative to which one-way puzzles do not exist, even with an unbounded verifier, while an EFI pair survives every distinguisher that queries the oracle classically throughout and holds advice about it, making its one superposition query at the end. The oracle answers every question about the output probabilities of quantum samplers, which removes the puzzles, and hides a Haar-random half-dimensional subspace. To prove security we reduce it to communication complexity. An adversary whose knowledge of the subspace arrives as classical query answers can be simulated inside a two-party protocol against the party holding it, so it does no better than the best classical protocol for Vector-in-Subspace (Klartag and Regev, STOC 2011), whatever the oracle computes. That argument does not cover the superposition query, which we bound instead using tools from random matrix theory. The same attack gives a classical simulation of any quantum party in a classical-message protocol with no entanglement shared in advance, so relative to the oracle there is no proof of quantumness either. Quantum polynomial time therefore offers no advantage on any task with classical inputs and outputs, while the two quantum states stay indistinguishable. We state conjectures on removing the restriction on superposition queries.</description>
+    </item>
+    <item>
       <title>Beyond the Turing threshold: Productive grammars generate essentially undecidable languages</title>
       <link>http://arxiv.org/abs/2609.11385v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11385v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.13227</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
       <description>Aggregating logical quantum information encoded in continuous-variable phase space is essential for distributed quantum computing. However, passive linear optics fail for non-Gaussian Gottesman-Kitaev-Preskill (GKP) codes due to symplectic lattice compression and entanglement-induced decoherence. We present an active, measurement-based framework for the homomorphic aggregation of multi-node GKP states. Utilizing GKP Bell states and homodyne feed-forward, we construct a completely positive trace-preserving map that computes the logical sum of distributed states while preserving the logical code space geometry up to correctable finite-squeezing deformations. We prove this protocol operates as an approximate quantum non-demolition measurement, bound its cryptographic leakage for continuous one-time pads, and derive analytical logical fidelity limits under finite-squeezing constraints.</description>
-    </item>
-    <item>
-      <title>Correct Is Not Governed: Provenance Integrity in Agentic Workflows</title>
-      <link>https://arxiv.org/abs/2608.12761</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12761</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Agentic workflows are commonly evaluated by whether they reach the correct outcome. That is insufficient in institutional settings, where a correct action may rely on the wrong authority, an unsupported completion claim, or work made stale by a later change. We define governed execution as work whose decisions, completion, and response to change are supported by inspectable provenance. We present Matrix, a deterministic causal-state layer that records authority and fact dependencies, verifies completion evidence, and selectively invalidates affected work. Across controlled comparisons, governed and direct workflows often reached the same outcomes, but only the governed path consistently preserved governing evidence, refused unsupported closure, and limited recovery to dependent tasks. A role-separated transfer challenge then failed: a deterministically enforced completeness contract severely over-blocked synthetic packets produced outside its authoring context. These results do not establish Matrix as a general accuracy enhancer; they support its primary role as an institutional integrity layer for making agentic work auditable and independently verifiable.</description>
     </item>
   </channel>
 </rss>

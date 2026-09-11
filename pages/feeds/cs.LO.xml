@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Warrant Theory</title>
+      <link>http://arxiv.org/abs/2609.11667v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.11667v1</guid>
+      <pubDate>Thu, 10 Sep 2026 15:06:30 +0000</pubDate>
+      <description>In this paper, we develop warrant theory as a philosophical discipline concerned with the inferential legitimacy of propositions within logical analysis. Warrant theory reconceptualises logic as a normative framework governing the conditions under which propositions may be introduced, accepted, rejected, and inferentially employed. Warrant is understood as inferential entitlement and is distinguished from truth, belief, and other psychological attitudes, while its relation to inferential use and meaning is examined. Warrant-theoretic analysis is then developed as a systematic method for investigating how propositions acquire inferential standing, how that standing develops, and how inferential positions interact through relations of dependence, compatibility, incompatibility, and exclusion. Acceptance and rejection provide the bilateral vocabulary for representing positive and negative inferential positions and the consequences and commitments associated with them. Finally, these elements are brought together in a warrant-theoretic definition of logic as the formal and normative study of the conditions under which propositions may be legitimately accepted or rejected and of the inferential transitions that such legitimacy warrants. On this account, logical consequence and logical failure are understood through the presence, preservation, or absence of inferential entitlement, thus locating the philosophical subject matter of logic in the systematic governance of inferential legitimacy.</description>
+    </item>
+    <item>
       <title>Medvedev Logic is Not Decidable. It is π01 -complete. Who Would Have Guessed?</title>
       <link>http://arxiv.org/abs/2609.11576v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11576v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.25793</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
       <description>Automatic deduction tools such as automatic theorem provers, SAT (satisfiability) solvers, SMT (satisfiability modulo theories) solvers, and termination analyzers can be connected to proof assistants using various approaches, notably by certification and verification. This chapter reviews and compares the approaches available, and mentions several successful applications.</description>
-    </item>
-    <item>
-      <title>Universal Individual-Sequence Prediction with a Primitive-Recursive Superpredictor</title>
-      <link>https://arxiv.org/abs/2607.25712</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.25712</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study sequential prediction of individual binary sequences under zero-one loss. No computable master can compete on every sequence with all total computable predictors. We therefore consider rational-valued primitive-recursive forecasters, a broad syntactically enumerable class containing finite-state, context-based, and Prediction by Partial Matching (PPM) rules. We construct a computable probabilistic predictor with an explicit sublinear regret bound relative to every primitive-recursive forecaster on every individual sequence. We further prove that the PPM predictor is primitive recursive. Consequently, our predictor attains the infinite-past Bayes error on every Martin-Löf random realization of every computable stationary ergodic binary source. This optimality extends to finitely many independent such sources interleaved according to an arbitrary primitive-recursive schedule. Finally, we establish strict separations from finite-state prediction and from every fixed primitive-recursive predictor. keywords: Universal prediction, individual sequences, prediction with expert advice, primitive recursive functions, Kolmogorov complexity, PPM.</description>
     </item>
   </channel>
 </rss>
