@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Quasilinear multiplication in the real Cayley--Dickson tower</title>
+      <link>http://arxiv.org/abs/2609.11588v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.11588v1</guid>
+      <pubDate>Thu, 10 Sep 2026 14:19:20 +0000</pubDate>
+      <description>Direct evaluation of the defining product in the real Cayley--Dickson algebra $A_n$, of dimension $N=2^n$, has quadratic arithmetic complexity. This paper gives a uniform algorithm for multiplication using $O(N\log N)$ real arithmetic operations and $O(N)$ auxiliary storage. The algorithm reduces multiplication to the alternating product on the imaginary subspace, then evaluates that product by a two-call recursion over one fixed quadratic coefficient extension. For $n\ge1$, the resulting bilinear algorithm uses at most $(9n-15)2^{n-1}+10$ input-dependent real multiplications, and for $n\ge3$, the specified arithmetic schedule uses $(34n-83)2^{n-1}+50$ real operations in total. Under this counting convention, the quasilinear schedule uses fewer operations than direct multiplication for $N\ge16$ and than the uniform Cariow--Cariowa method for $N\ge32$. The algorithm is implemented in the MIT-licensed C11 library fastCD, with a NumPy-backed Python interface, and its results are checked against an independent implementation of the defining recursion. In single-core benchmarks against direct multiplication and the uniform Cariow--Cariowa method, the quasilinear implementation had the lowest mean time of the three at every tested dimension $N\ge32$, for both single and batched products, and was roughly $16$ times faster than direct multiplication at $N=1024$.</description>
+    </item>
+    <item>
+      <title>Diversity of EML-type operators</title>
+      <link>http://arxiv.org/abs/2609.11210v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.11210v1</guid>
+      <pubDate>Thu, 10 Sep 2026 08:14:40 +0000</pubDate>
+      <description>The discovery of the EML operator, sufficient to evaluate the standard explicit purely transcendental elementary functions, has led to considerable interest and discussion across multiple scientific disciplines. However, most authors have focused on the binary EML itself, while numerous similar variants with slightly different properties are now known. This article attempts to close this gap by enumerating and classifying them. We also take this opportunity to clarify common misconceptions related to the EML operator. The principal goal, symbolic regression within an architecture as close as possible to proven neural networks which combine matrix multiplication with a single univariate non-linear activation function, remains beyond reach. Instead, we propose a Möbius layer, with rational functions replacing matrix operations, and showcase the recently discovered activation function eml(x,1/x), which allows exp(x) and ln(x) to be recovered separately, and hence all elementary functions to be evaluated within a rational generalization of the neural network.</description>
+    </item>
+    <item>
       <title>Maximal rank of $4\times 4\times 4$ and $k\times 4\times 3$ tensors over $\mathbb{F}_2$</title>
       <link>http://arxiv.org/abs/2609.05648v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.05648v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2508.03366</guid>
       <pubDate>Tue, 05 Aug 2025 00:00:00 -0000</pubDate>
       <description>General logical reasoning, defined as the ability to reason deductively on domain-agnostic tasks, continues to be a challenge for large language models (LLMs). Current LLMs fail to reason deterministically and are not interpretable. As such, there has been a recent surge in interest in neurosymbolic AI, which attempts to incorporate logic into neural networks. We first identify two main neurosymbolic approaches to improving logical reasoning: (i) the integrative approach comprising models where symbolic reasoning is contained within the neural network, and (ii) the hybrid approach comprising models where a symbolic solver, separate from the neural network, performs symbolic reasoning. Both contain AI systems with promising results on domain-specific logical reasoning benchmarks. However, their performance on domain-agnostic benchmarks is understudied. To the best of our knowledge, there has not been a comparison of the contrasting approaches that answers the following question: Which approach is more promising for developing general logical reasoning? To analyze their potential, the following best-in-class domain-agnostic models are introduced: Logic Neural Network (LNN), which uses the integrative approach, and LLM-Symbolic Solver (LLM-SS), which uses the hybrid approach. Using both models as case studies and representatives of each approach, our analysis demonstrates that the hybrid approach is more promising for developing general logical reasoning because (i) its reasoning chain is more interpretable, and (ii) it retains the capabilities and advantages of existing LLMs. To support future works using the hybrid approach, we propose a generalizable framework based on LLM-SS that is modular by design, model-agnostic, domain-agnostic, and requires little to no human input.</description>
-    </item>
-    <item>
-      <title>On Automating Proofs of Multiplier Adder Trees using the RTL Books</title>
-      <link>https://arxiv.org/abs/2507.19010</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.19010</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We present an experimental, verified clause processor ctv-cp that fits into the framework used at Arm for formal verification of arithmetic hardware designs. This largely automates the ACL2 proof development effort for integer multiplier modules that exist in designs ranging from floating-point division to matrix multiplication.</description>
-    </item>
-    <item>
-      <title>Numerically Computing Galois Groups of Minimal Problems</title>
-      <link>https://arxiv.org/abs/2507.10407</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.10407</guid>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 -0000</pubDate>
-      <description>I discuss a seemingly unlikely confluence of topics in algebra, numerical computation, and computer vision. The motivating problem is that of solving multiples instances of a parametric family of systems of algebraic (polynomial or rational function) equations. No doubt already of interest to ISSAC attendees, this problem arises in the context of robust model-fitting paradigms currently utilized by the computer vision community (namely "Random Sampling and Consensus", aka "RanSaC".) This talk will give an overview of work in the last 5+ years that aspires to measure the intrinsic difficulty of solving such parametric systems, and makes strides towards practical solutions.</description>
     </item>
   </channel>
 </rss>

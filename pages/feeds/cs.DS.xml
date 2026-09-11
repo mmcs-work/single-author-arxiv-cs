@@ -5,11 +5,25 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Convex Optimization with Nested Evolving Feasible Sets (CONES) under Time-Varying Loss Functions</title>
+      <link>http://arxiv.org/abs/2609.11207v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.11207v1</guid>
+      <pubDate>Thu, 10 Sep 2026 08:13:27 +0000</pubDate>
+      <description>Convex Optimization with Nested Evolving Feasible Sets (CONES)} was introduced in \cite{CONESVaze} where the objective function \(f\) remains fixed but the feasible region evolves over time as a nested sequence \(S_1 \supseteq S_2 \supseteq \cdots \supseteq S_T\). The goal of an online algorithm is to simultaneously minimize the regret with respect to hindsight static optimal benchmark and the total movement cost $M_\cA(T)$ while ensuring feasibility at all times. CONES is an optimization-oriented generalization of the well-known \emph{nested convex body chasing} (NCBC). In this paper, we extend CONES to allow for loss functions $f_t'$s to also change over time. When all loss functions are convex, we show that the projected proximal algorithm achieves $O(T^{1-β}), O(T^β)$ simultaneous regret and movement cost, respectively, for any $β\in [0,1)$, over a time horizon of $T$. We also show that any {\it weakly adaptive} online algorithm with $O(T^β)$ regret has a movement cost of $Ω\left(T^{\frac{1-β}{2}}\right)$ for any $β\in [0,1)$. When all loss functions are strongly convex, we show that the projected proximal algorithm simultaneously achieves $O(1)$ regret and a movement cost of $O(\log T)$. To complement this, we show that any online algorithm with sublinear {\it anytime} regret has a movement cost of $Ω\left(\log T\right)$.</description>
+    </item>
+    <item>
       <title>Testing the Binary Rank with Polynomial Query Complexity</title>
       <link>http://arxiv.org/abs/2609.10496v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10496v1</guid>
       <pubDate>Wed, 09 Sep 2026 17:34:01 +0000</pubDate>
       <description>We provide an adaptive two-sided error testing algorithm for the binary rank of a $0,1$ matrix $M$ with query complexity $O(d^3\log(d+1)/ε^2)$, where $d$ is the tested binary rank bound and $ε$ is the distance parameter. This answers an open question posed by Parnas, Ron and Shraibman~\cite{parnas2021property}, who asked whether the binary rank can be tested with query complexity polynomial in $d$ and $1/ε$. Furthermore, our testing algorithm can be used to find an approximate binary decomposition of $M$ with an additional $d(n+m)$ queries. That is, under the promise that the binary rank of $M$ is at most $d$, we show how to find, with probability at least $5/6$, two $0,1$ matrices $A',B'$ such that $M' = A' \cdot B'$ is a $0,1$ matrix which differs from $M$ on at most an $O(ε)$ fraction of its entries.</description>
+    </item>
+    <item>
+      <title>A Deadline-Driven Algorithm for Polyamorous Scheduling</title>
+      <link>http://arxiv.org/abs/2609.10641v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10641v1</guid>
+      <pubDate>Wed, 09 Sep 2026 11:36:52 +0000</pubDate>
+      <description>In Polyamorous Scheduling Problem, we are given an edge-weighted graph and must find a periodic schedule of matchings in this graph which minimizes the maximal weighted waiting time between consecutive occurrences of the same edge. This NP-hard problem generalises Bamboo Garden Trimming and is motivated by the need to find schedules of pairwise meetings in a complex social group. We present a $4 G^*$ algorithm for Polyamorous Scheduling, improving the previously known bound of $3 + \sqrt{5} \approx 5.236$. Our algorithm is inspired by the Deadline-Driven Heuristic which is optimal for Bamboo Garden Trimming (BGT).</description>
     </item>
     <item>
       <title>Minimum-makespan completion and vertex selection leave the Wang-Sitters constant at 11/6</title>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.07903</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
       <description>Web and social graphs are analyzed repeatedly for community structure, yet many of their edges are redundant for this purpose, which motivates sparsification. Existing sparsifiers preserve spectral quantities, cuts, local similarity, or a single clustering, but none preserves the thresholded connectivity structure of an edge-relevance filtration, the multiscale pattern by which groups form at high relevance and merge through weaker bridges. We study persistent-connectivity-preserving sparsification: given a graph, an edge-relevance filtration, and a proxy partition computed once during preprocessing, select a budgeted subgraph that preserves the labeled component partition at every threshold, and hence the zero-dimensional persistence diagram, while retaining community evidence for later analyses. Our method, TopoBudget, first extracts a tie-aware persistence backbone that enforces this constraint, then allocates the residual edge budget by greedily maximizing a backbone-conditioned submodular objective that rewards balanced recovery of proxy-internal degree. We prove exact preservation of the component partition at every threshold, and that the conditioned objective is monotone and submodular, so greedy attains a (1-1/e) guarantee for the fixed-backbone residual problem. On held-out synthetic benchmarks and six real Web and social graphs at equal budget, TopoBudget gives the strongest community preservation among topology-preserving methods under Louvain, remains competitive under Infomap, incurs zero topology mismatch, and runs substantially faster than an effective-resistance baseline. A no-backbone ablation shows that, on the real graphs, the mandatory backbone improves average quality while providing the exact guarantee. TopoBudget thus couples exact multiscale connectivity with budgeted, reusable community preservation.</description>
-    </item>
-    <item>
-      <title>Sharp Analysis of Gaussian Rounding for Boolean Max k-CSP</title>
-      <link>https://arxiv.org/abs/2608.07800</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.07800</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In this note, we show that the approximation algorithm for Boolean Max $k$-CSP presented in [Makarychev and Makarychev 2014] yields a $(1-o_k(1))k/2^k$ approximation, as conjectured in [Makarychev and Makarychev 2017]. This improves the previous guarantee of $(0.626612-o_k(1))k/2^k$ from [Makarychev and Makarychev 2014] and asymptotically matches the known hardness results. The result is a short corollary of the Gaussian stochastic domination theorem of Mulgund.</description>
-    </item>
-    <item>
-      <title>Linear-Time Verification of Rings and Fields</title>
-      <link>https://arxiv.org/abs/2608.07272</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.07272</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We consider the following problems: Given two $n \times n$ tables defining binary operations $+$ and $\cdot$ on a set $S$ of $n$ elements, decide whether $(S,+,\cdot)$ forms a ring or, respectively, a field. Recently, Dudek, Fischer, Gokaj, Jin, Künnemann, Mao, and Redzic (STOC 2026) obtained the following two (near-)optimal results: (1) A randomized $O(n^2\log(1/δ))$-time algorithm for verifying rings. (2) A deterministic $O(n^2)$-time algorithm for verifying fields. Their algorithms build on machinery of Evra, Gadot, Klein, and Komargodski (FOCS 2024), which relies on Classification of Finite Simple Groups (CFSG). In this work, we give a deterministic $O(n^2)$-time algorithm for ring verification, resolving the deterministic complexity of this problem. As a corollary, we also obtain a deterministic $O(n^2)$-time algorithm for field verification. Our algorithms are elementary and avoid CFSG machinery entirely.</description>
     </item>
   </channel>
 </rss>

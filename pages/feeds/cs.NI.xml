@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>terms.txt: A Consent and Compensation Protocol for Agentic Web Access</title>
+      <link>http://arxiv.org/abs/2609.11152v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.11152v1</guid>
+      <pubDate>Thu, 10 Sep 2026 07:01:08 +0000</pubDate>
+      <description>The open web ran on an unwritten bargain: sites admitted crawlers, and search engines sent visitors back. Public measurements show that bargain breaking under AI crawlers and agents. Automated clients now make up most requests, training dominates Cloudflare-classified crawling, and the largest AI platforms fetch thousands of pages for each visitor they return. The web's common control, robots.txt, cannot express identity, purpose, terms, or price, can be circumvented, and newer alternatives are largely proprietary CDN features. We specify terms.txt, a robots.txt-style file for per-path, per-purpose machine-access terms, plus an origin-enforced exchange using Web Bot Auth signatures, signed intent, delegation tokens, HTTP 402 negotiation, and signed receipts. We define what the exchange can enforce, audit, and leave to contract. A dependency-free implementation adds 0.20 to 0.65 ms per request on one vCPU.</description>
+    </item>
+    <item>
       <title>Hybrid Continuous DoA Estimation with Shared-Radius Co-Prime Circular Arrays</title>
       <link>http://arxiv.org/abs/2609.08827v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.08827v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.08944</guid>
       <pubDate>Sat, 09 May 2026 00:00:00 -0000</pubDate>
       <description>This paper discusses how latency guarantees for non-cyclic (feedforward) First-In-First-Out (FIFO) networks with shapers can be computed within the Network Calculus (NC) framework. Shapers are methods implemented in software or hardware and may reside inside the network and at the endpoint which constrain the rate and maximum packet sizes for the transmission of specific data streams (flows) or groups thereof. Shaping can improve latencies and is an important aspect of Time-Sensitive Networking (TSN). Several methods in NC exist to analyze FIFO networks. Among them is the Least Upper Delay Bound (LUDB) methodology. So far, LUDB does not incorporate shaping assumptions into its analysis. This paper addresses this gap resulting in the new methodology called LUDB++. The evaluation on a set of different line topologies and a tree topology with a total of 130 configurations shows that LUDB++ delivers more accurate latency bounds compared to LUDB. Moreover, the Exponential Linear Program (ELP) method, which considers FIFO and shaping inside the network, yields the most accurate bounds to this date. ELP is superseded by LUDB++ for most of cases by a margin of up to 9.13%.</description>
-    </item>
-    <item>
-      <title>Unconsented Sensing: A Sociotechnical Governance Framework for 6G ISAC</title>
-      <link>https://arxiv.org/abs/2605.07328</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.07328</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 -0000</pubDate>
-      <description>The forthcoming deployment of 6G Integrated Sensing and Communication (ISAC) will transform cellular infrastructure into pervasive, continuous environmental and biometric sensing grids. While current telecom standardization efforts (e.g., 3GPP, ETSI) have formally recognized privacy and trustworthiness as critical pillars for 6G, their proposed mitigations remain overwhelmingly technocentric, relying on cryptographic anonymization and physical layer security. This approach critically underestimates the sociotechnical and legal complexities of the downstream machine learning (ML) models required to interpret raw sensing data, creating a profound collision with existing digital rights legislation. This position paper argues that technical security is insufficient. ISAC trustworthiness must be redefined as mandatory regulatory and sociotechnical compliance. We identify the specific legal friction points between continuous ISAC surveillance and the mandates of emerging global digital rights regimes, using the stringent requirements of the EU AI Act and GDPR as our primary regulatory baselines. To bridge this gap, we propose a governance framework centered on three pillars: Purpose-bound sensing activation, citizen transparency mechanisms, and algorithmic accountability for ISAC-driven ML models. Ultimately, this paper provides a regulatory roadmap to prevent the illegal deployment of 6G sensing infrastructures and ensure they remain viable before physical deployment.</description>
     </item>
   </channel>
 </rss>

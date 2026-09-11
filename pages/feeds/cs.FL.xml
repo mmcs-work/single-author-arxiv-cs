@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Beyond the Turing threshold: Productive grammars generate essentially undecidable languages</title>
+      <link>http://arxiv.org/abs/2609.11385v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.11385v1</guid>
+      <pubDate>Thu, 10 Sep 2026 11:20:29 +0000</pubDate>
+      <description>Emil Post's productive sets are not even semi-computable, let alone computable, being thus essentially incomputable. Accordingly, formal languages whose set of words is a (completely) productive set are essentially undecidable. In this article, I elaborate on Post productivity from the viewpoint of formal language theory: I design formal grammars that emulate the construction of productive sets of natural numbers and are thus beyond Turing-decidability.</description>
+    </item>
+    <item>
       <title>Graph-based automata</title>
       <link>http://arxiv.org/abs/2609.08843v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.08843v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2602.09896</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 -0000</pubDate>
       <description>An $ω$-regular language is Eve-positional if, in all games with this language as objective, the existential player can play optimally without keeping any information from the previous moves. This notion plays a crucial role in verification, automata theory and synthesis. Casares and Ohlmann recently gave several characterisations of Eve-positionality of $ω$-regular languages. For this, they introduce the notion of $\varepsilon$-complete parity automaton and show (among other results) that an $ω$-regular language is Eve-positional if and only if it can be recognised by some $\varepsilon$-completion of a deterministic parity automaton. Colcombet and Idir built on their work, and obtained a more direct algebraic characterisation of Eve-positionality. We introduce a new formalism that characterises the Eve-positional languages, consisting of a restriction of non-deterministic Büchi automata. This allows us to complete a missing implication in Casares and Ohlmann's work. We then use this formalism to describe a determinization procedure for non-deterministic Büchi automata recognising such languages, with size blow-up at most factorial. We also show that this construction is state-wise optimal for languages over sufficiently complete alphabets.</description>
-    </item>
-    <item>
-      <title>Visualising CTL Witnesses and Counterexamples -- Extended Version</title>
-      <link>https://arxiv.org/abs/2604.20253</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.20253</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 -0000</pubDate>
-      <description>One of the advantages of LTL over CTL is that the notion of a counterexample is easy to grasp, visualise and process: it is a trace that violates the property at hand. In this paper we propose a notion of evidence for CTL properties on explicit-state models -- which equally serves as witness for satisfied properties and counterexample for violated ones -- and how to visualise it, with the main aim of (human) comprehension. The main contribution consists of a formal model of evidence, a characterisation of minimal evidence per temporal operator, and a concrete, implemented proposal for its visualisation. This is the extended version of a paper published in SPIN 2026, containing the proofs of all results.</description>
     </item>
   </channel>
 </rss>

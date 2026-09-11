@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Almost Linear Universal Point Sets for Planar Graphs</title>
+      <link>http://arxiv.org/abs/2609.10916v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.10916v1</guid>
+      <pubDate>Thu, 10 Sep 2026 00:03:29 +0000</pubDate>
+      <description>A point set is universal for planar graphs on $n$ vertices if every such graph has a straight-line drawing without crossings whose vertices belong to the set. We construct universal point sets of size $n^{1+o(1)}$, improving the previous quadratic upper bound. Our construction uses the reduction of Bannister, Cheng, Devanny, and Eppstein from universal point sets to superpatterns for $213$-avoiding permutations. We represent these permutations by ordered rooted forests and construct a small family of intervals containing every such forest. The result follows from a straightforward bound on the size of the family of intervals. GPT-6 Astra assisted in developing the construction and proof.</description>
+    </item>
+    <item>
       <title>A 2.37332-Competitive Algorithm for Online Square Packing with Gravity</title>
       <link>http://arxiv.org/abs/2609.10101v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10101v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2601.03954</guid>
       <pubDate>Wed, 25 Mar 2026 00:00:00 -0000</pubDate>
       <description>Every surface that is intrinsically polyhedral can be represented by a portalgon: a collection of polygons in the Euclidean plane with some pairs of equally long edges abstractly identified. While this representation is arguably simpler than meshes (flat polygons in R3 forming a surface), it has unbounded happiness: a shortest path in the surface may visit the same polygon arbitrarily many times. This pathological behavior is an obstacle towards efficient algorithms. On the other hand, Löffler, Ophelders, Staals, and Silveira (SoCG 2023) recently proved that the (intrinsic) Delaunay triangulations have bounded happiness. In this paper, given a closed polyhedral surface S, represented by a triangular portalgon T, we provide an algorithm to compute the Delaunay triangulation of S whose vertices are the singularities of S (the points whose surrounding angle is distinct from 2pi). The time complexity of our algorithm is polynomial in the number of triangles and in the logarithm of the aspect ratio r of T. Within our model of computation, we show that the dependency in log(r) is unavoidable. Our algorithm can be used to pre-process a triangular portalgon before computing shortest paths on its surface, and to determine whether the surfaces of two triangular portalgons are isometric.</description>
-    </item>
-    <item>
-      <title>Bollobás-Meir TSP Conjecture Holds Asymptotically</title>
-      <link>https://arxiv.org/abs/2603.22010</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22010</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 -0000</pubDate>
-      <description>In 1992, Bollobás and Meir showed that for every $k \geq 1$ there exists a constant $c_k$ such that, for any $n$ points in the $k$-dimensional unit cube $[0, 1]^k$, one can find a tour $x_1, \dots, x_n$ through these $n$ points with $\sum_{i = 1}^n |x_i - x_{i + 1}|^k \leq c_k$, where $x_{n + 1} = x_1$ and $|x - y|$ is the Euclidean distance between $x$ and $y$. Remarkably, this bound does not depend on $n$, the number of points. They conjectured that the optimal constant is $c_k = 2 \cdot k^{k / 2}$ and showed that it cannot be taken lower than that. This conjecture was recently revised for $k = 3$ by Balogh, Clemen and Dumitrescu, who showed that $c_3 \geq 2^{7/2} &gt; 2 \cdot 3^{3/2}$. It remains open for all $k &gt; 2$, with the best known upper bound $c_k \leq 2.65^k \cdot k^{k / 2} \cdot (1 + o_k(1))$. We significantly narrow the gap between lower and upper bounds on $c_k$, reducing it from exponential to linear. Specifically, we prove that $c_k \leq 2\mathrm{e}(k + 1) \cdot k^{k / 2}$ and $c_k = k^{k / 2} \cdot (2 + o_k(1))$, the latter establishing the conjecture asymptotically. We also obtain analogous results for related problems on Hamiltonian paths, spanning trees and perfect matchings in the unit cube. Our main tool is a new generalization of the ball packing argument used in earlier works.</description>
     </item>
   </channel>
 </rss>
