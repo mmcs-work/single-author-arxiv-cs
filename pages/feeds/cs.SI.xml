@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Exact Community Recovery in Bipartite Networks</title>
+      <link>http://arxiv.org/abs/2609.12445v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12445v1</guid>
+      <pubDate>Fri, 11 Sep 2026 05:08:15 +0000</pubDate>
+      <description>Community detection in bipartite networks is a fundamental problem in modern data analysis, with applications in recommendation systems, biological networks, and social network analysis. Unlike conventional unipartite graphs, bipartite networks consist of two distinct types of nodes with edges only connecting across types, so recovering latent communities requires estimating labels on the two node types. The stochastic co-blockmodel is a classical probabilistic framework for such networks, yet theoretical guarantees for exact community recovery in this setting remain limited, especially when the number of communities grows, the community sizes are unbalanced, or the degrees are heterogeneous. In this work, we prove that a simple spectral clustering algorithm based on the diagonal-deleted Gram matrix achieves exact recovery with high probability under mild conditions on sparsity, community balance, and the number of clusters. We further extend the result to the degree-corrected stochastic co-blockmodel, where each node carries its own degree heterogeneity parameter, and show that a row-normalized version of the same algorithm maintains the exact recovery guarantee. Extensive experiments validate our theoretical findings.</description>
+    </item>
+    <item>
       <title>Fundamental limits to identifying node and tie memory in temporal networks: marginal artefacts and spreading dynamics</title>
       <link>http://arxiv.org/abs/2609.10399v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10399v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2505.01651</guid>
       <pubDate>Sat, 25 Apr 2026 00:00:00 -0000</pubDate>
       <description>This paper introduces the Human-AI Governance (HAIG) framework, contributing to the AI Governance (AIG) field by foregrounding the relational dynamics between human and AI actors rather than treating AI systems as objects of governance alone. Current categorical frameworks (e.g., human-in-the-loop models) inadequately capture how AI systems evolve from tools to partners, particularly as foundation models demonstrate emergent capabilities and multi-agent systems exhibit autonomous goal-setting behaviours. As systems are deployed across contexts, agency redistributes in complex patterns that are better represented as positions along continua rather than discrete categories. The HAIG framework operates across three levels: dimensions (Decision Authority, Process Autonomy, and Accountability Configuration), continua (continuous positional spectra along each dimension), and thresholds (critical points along the continua where governance requirements shift qualitatively). The framework's dimensional architecture is level-agnostic, applicable from individual deployment decisions and organisational governance through to sectorial comparison and national and international regulatory design. Unlike risk-based or principle-based approaches that treat governance primarily as a constraint on AI deployment, HAIG adopts a trust-utility orientation - reframing governance as the condition under which human-AI collaboration can realise its potential, calibrating oversight to specific relational contexts rather than predetermined categories. Case studies in healthcare and European regulation demonstrate how HAIG complements existing frameworks while offering a foundation for adaptive regulatory design that anticipates governance challenges before they emerge.</description>
-    </item>
-    <item>
-      <title>Shape of Memory: a Geometric Analysis of Machine Unlearning in Second-Order Optimizers</title>
-      <link>https://arxiv.org/abs/2604.23046</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.23046</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We argue that current definitions of machine unlearning are underspecified for second-order optimizers. We compare first-order and second-order learners for their ability to handle the data deletion task with varying degrees of eigendecomposition to mimic the loss model memory. While both first and second-order methods realign with the ideal counterfactul in terms of performance and gradient, the second-order optimizer shows significant volatility in the optimizer state. This indicates residual information, supposedly deleted, that isn't detectable by first-order analysis. Various eigendecay treatments show that stability and information loss is regained only under controlled state pertubation where geometric information (or memory) is erased.</description>
     </item>
   </channel>
 </rss>

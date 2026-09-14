@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Exact Community Recovery in Bipartite Networks</title>
+      <link>http://arxiv.org/abs/2609.12445v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12445v1</guid>
+      <pubDate>Fri, 11 Sep 2026 05:08:15 +0000</pubDate>
+      <description>Community detection in bipartite networks is a fundamental problem in modern data analysis, with applications in recommendation systems, biological networks, and social network analysis. Unlike conventional unipartite graphs, bipartite networks consist of two distinct types of nodes with edges only connecting across types, so recovering latent communities requires estimating labels on the two node types. The stochastic co-blockmodel is a classical probabilistic framework for such networks, yet theoretical guarantees for exact community recovery in this setting remain limited, especially when the number of communities grows, the community sizes are unbalanced, or the degrees are heterogeneous. In this work, we prove that a simple spectral clustering algorithm based on the diagonal-deleted Gram matrix achieves exact recovery with high probability under mild conditions on sparsity, community balance, and the number of clusters. We further extend the result to the degree-corrected stochastic co-blockmodel, where each node carries its own degree heterogeneity parameter, and show that a row-normalized version of the same algorithm maintains the exact recovery guarantee. Extensive experiments validate our theoretical findings.</description>
+    </item>
+    <item>
       <title>Artificial Id: Drive and Persistent Alignment in Agentic AI</title>
       <link>http://arxiv.org/abs/2609.11911v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11911v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.09902v1</guid>
       <pubDate>Wed, 09 Sep 2026 09:01:09 +0000</pubDate>
       <description>Reading a transformer's internal states in token space is easy to do and hard to trust: a logit lens on a single hidden state is dominated, at intermediate layers, by the generic tokens the model would predict for almost any input. We read the difference instead. Subtracting two closely matched prompts' hidden states and projecting through the unembedding cancels the shared component and surfaces what separates them, an operation equivalent to reading a RepE/ActAdd steering vector through a logit lens. Built into a training-free tracer that reads at every position, sub-layer, and head and averages over designed baselines, it traces a compound- noun MLP-&gt;attention chain in Phi-2, confirmed there by activation patching, with the same distinction recovered across three architectures by readout and probe rather than by patching; it reads what retrieval surfaces for real versus fictional entities, and reads metaphor as a set of domain-to-domain mappings rather than a single figurativity feature. A cross-seed control marks the boundary: across five networks differing only in initialization, the same distinction surfaces as almost entirely different tokens (top-10 overlap 0.08). What a computation looks like in token space is network-specific; the distinction it draws is not</description>
-    </item>
-    <item>
-      <title>When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors</title>
-      <link>http://arxiv.org/abs/2609.09887v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.09887v1</guid>
-      <pubDate>Wed, 09 Sep 2026 08:43:34 +0000</pubDate>
-      <description>LLMs have been used to simulate human decision-making in professional settings, yet their behaviors in common-law jury trials remain unexplored. We study when and how a defendant's courtroom statement affects LLM-simulated jurors, focusing on persuasion, ideological bias, and background-based affinity. To support the analysis, we introduce JuryBench, a benchmark containing controversial criminal cases in U.S. criminal law. In each case, a defendant can claim various plausible justifications to support acquittal or reduced liability. We fix the base case and design defendants of different backgrounds, who give courtroom statements with varying emotional appeal or rebuttal. Jurors with diverse ideological profiles across the spectrum are simulated. We examine 20 frontier LLMs, resulting in a total of 432K decisions and rationales, and quantify changes in verdict severity. Our findings show that LLM-jury simulation echoes many human-jury findings. First, emotional persuasion can be detrimental, since jurors may perceive it as evidence of guilt or inconsistency. Next, we show that background fit between jurors and defendants is a stronger and significant factor than other isolated factors, and that jurors are in general harsher toward opposite-background defendants and lenient toward same-background ones. Finally, we find that juror ideology also strongly shapes severity judgments. These findings highlight both the promise and risks of using LLMs to model jury reasoning and call for careful evaluation. The data and code are available at https://github.com/choyingw/JuryBench</description>
     </item>
   </channel>
 </rss>
