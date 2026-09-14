@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Low-Individual-Degree Test Without the Diagonal-Lines Test Is Not Quantum-Sound</title>
+      <link>http://arxiv.org/abs/2609.12346v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12346v1</guid>
+      <pubDate>Fri, 11 Sep 2026 02:12:55 +0000</pubDate>
+      <description>To prove the quantum soundness of the classical low-individual-degree test, the authors of \cite{JNVWY20LID} defined three subtests, namely the axis-parallel lines test, the self-consistency test, and the diagonal-lines test. An interesting question is whether the diagonal-lines test can be removed. In this paper, we show that the diagonal-lines test cannot simply be removed without another compatibility mechanism. Consequently, replacing the "conditional linear functions" by "coordinate deletion functions" in the proof of MIP*=RE, as mentioned in \cite{JNVWY20LID}, does not by itself preserve the required soundness. The authors of \cite{JNVWY20LID} found an example that requires the diagonal-lines test when \((m, d, q) = (2, 2, 4)\); we give an example when \((m, d) = (2, 2)\) and \(q\) is any odd prime.</description>
+    </item>
+    <item>
+      <title>Learning Sparse Quantum States</title>
+      <link>http://arxiv.org/abs/2609.12219v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12219v1</guid>
+      <pubDate>Thu, 10 Sep 2026 21:28:21 +0000</pubDate>
+      <description>We study the problem of tomography for $k$-sparse quantum states. In contrast to classical distribution learning, where tight sample and time complexity bounds in terms of support size are well understood, no non-trivial bounds were previously shown for this problem. We give the first near optimal algorithm for learning $n$-qubit $k$-sparse pure quantum states, obtaining fidelity at least $1-\varepsilon$ with high probability using $\tilde{O}(k/\varepsilon)$ copies of the state and $\tilde{O}(kn/\varepsilon)$ time. Both bounds are optimal up to polylogarithmic factors. As an implication, we also obtain an algorithm with near optimal $\tilde{O}(kr/\varepsilon)$ sample complexity for learning $k$-sparse rank-$r$ mixed states, via the random purification channel technique. Obtaining time complexity nearly matching the sample complexity, for $r&gt;1$, remains an important open question.</description>
+    </item>
+    <item>
       <title>Oracle Separations in the Fourier Hierarchy</title>
       <link>http://arxiv.org/abs/2609.11830v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11830v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.23577</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
       <description>We formulate classical simulation of quantum correlations as coordination across a spacetime separator. All past-dependent information capable of influencing the future must cross the separator either through communicated messages or through a persistent classical state. We prove a general lower bound on this classical coordination cost in terms of the nonnegative rank of the separator correlation matrix, with approximate and amortized extensions governed by approximate nonnegative rank and Wyner common information. For sequential processes, we introduce a causal positive-realization rank that enforces consistent response and state-update maps, and we explain how bounded local computation and support-covering models arise as restricted cases. We apply the framework to genuine global Kochen--Specker contextuality, in which local subsystems are noncontextual and the tested multipartite blocks are generalized-Bell-local, while the complete empirical model has no global noncontextual explanation. At the symmetric point of a polarization--path Hardy construction, exact classical simulation requires two coordination bits, whereas the corresponding quantum separator requires one qubit. Under exact repetition, the classical lower bound is the base-two logarithm of three bits per copy; with asymptotically vanishing error, it becomes one and a half classical bits per copy, compared with one qubit per copy. We further construct a finite stabilizer--Peres--Mermin family for which the exact classical coordination cost grows quadratically with system size, while the quantum boundary cost grows only linearly. The separation applies to arbitrary finite-state causal online simulators. Establishing a constant-error quadratic separation and an intrinsic construction without flag conditioning remain open.</description>
-    </item>
-    <item>
-      <title>Ice Walk is ASP-Complete</title>
-      <link>https://arxiv.org/abs/2607.22224</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.22224</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We prove that the solution-search problem for the pencil puzzle Ice Walk is ASP-complete. Our reduction maps Hamiltonian cycles in an undirected maximum-degree-3 spanning subgraph of a rectangular grid graph bijectively to Ice Walk solutions.</description>
-    </item>
-    <item>
-      <title>Another approach to the equivalence of measure-many one-way quantum finite automata and its application</title>
-      <link>https://arxiv.org/abs/1106.2481</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1106.2481</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we present a much simpler, more direct, and more elegant approach to the equivalence problem for {\it measure-many one-way quantum finite automata} (MM-1QFAs). The approach is essentially a generalization of the work of Carlyle [J.~Math.~Anal.~Appl.~7 (1963) 167--175]. Specifically, we reduce the equivalence problem for MM-1QFAs to the equivalence of two (initial) vectors. As an application of this approach, we use it to solve the equivalence problem for {\it enhanced one-way quantum finite automata} (E-1QFAs) introduced by Nayak [Proceedings of the 40th Annual IEEE Symposium on Foundations of Computer Science, 1999, pp.~369--376]. We prove that two E-1QFAs $\mathcal{A}_1$ and $\mathcal{A}_2$ over $Σ$ are equivalent if and only if they are $(n_1^2 + n_2^2 - 1)$-equivalent, where $n_1$ and $n_2$ are the numbers of states in $\mathcal{A}_1$ and $\mathcal{A}_2$, respectively.</description>
     </item>
   </channel>
 </rss>

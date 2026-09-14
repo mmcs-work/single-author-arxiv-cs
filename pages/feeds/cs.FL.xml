@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Non-constant Lower Bound for Grammar-Based Compression with Greedy</title>
+      <link>http://arxiv.org/abs/2609.12106v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12106v1</guid>
+      <pubDate>Thu, 10 Sep 2026 18:33:25 +0000</pubDate>
+      <description>We prove a lower bound of Ω(log n/ log log n) on the approximation ratio of the global grammar-based compression algorithm Greedy. To our knowledge, the previously best lower bound was a constant, and the existence of a nonconstant lower bound had remained open for more than twenty years. Our bound holds on an infinite family of words of length n, over alphabets of growing size, for every execution using left-to-right occurrence replacement and arbitrary tie-breaking. The lower bound is also formally verified in Lean 4.</description>
+    </item>
+    <item>
       <title>An analysis of the relationship of input metrics</title>
       <link>http://arxiv.org/abs/2609.11824v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11824v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.26753</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 -0000</pubDate>
       <description>Runtime verification is a lightweight verification technique that complements model checking by analyzing system executions at runtime rather than exploring a complete system model in advance. It is particularly useful for partially observable or black-box systems, where uncertainty can only be resolved through observation. These lecture notes present automata-theoretic, temporal-logical, and epistemic foundations of runtime verification. They cover specification formalisms, diagnosis, opacity, and monitorability, and explain how offline analysis can be used to construct monitors that operate online on observed executions. The notes also discuss timed extensions and the additional algorithmic and semantic challenges that arise in the real-time setting.</description>
-    </item>
-    <item>
-      <title>Verification of Neural Networks (Lecture Notes)</title>
-      <link>https://arxiv.org/abs/2604.25733</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.25733</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 -0000</pubDate>
-      <description>These lecture notes provide an introduction to the verification of neural networks from a theoretical perspective. We discuss feed-forward neural networks, recurrent neural networks, attention mechanisms, and transformers, together with specification languages and algorithmic verification techniques.</description>
     </item>
   </channel>
 </rss>

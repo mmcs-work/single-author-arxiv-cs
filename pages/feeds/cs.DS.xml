@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Learning Sparse Quantum States</title>
+      <link>http://arxiv.org/abs/2609.12219v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12219v1</guid>
+      <pubDate>Thu, 10 Sep 2026 21:28:21 +0000</pubDate>
+      <description>We study the problem of tomography for $k$-sparse quantum states. In contrast to classical distribution learning, where tight sample and time complexity bounds in terms of support size are well understood, no non-trivial bounds were previously shown for this problem. We give the first near optimal algorithm for learning $n$-qubit $k$-sparse pure quantum states, obtaining fidelity at least $1-\varepsilon$ with high probability using $\tilde{O}(k/\varepsilon)$ copies of the state and $\tilde{O}(kn/\varepsilon)$ time. Both bounds are optimal up to polylogarithmic factors. As an implication, we also obtain an algorithm with near optimal $\tilde{O}(kr/\varepsilon)$ sample complexity for learning $k$-sparse rank-$r$ mixed states, via the random purification channel technique. Obtaining time complexity nearly matching the sample complexity, for $r&gt;1$, remains an important open question.</description>
+    </item>
+    <item>
+      <title>A Non-constant Lower Bound for Grammar-Based Compression with Greedy</title>
+      <link>http://arxiv.org/abs/2609.12106v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12106v1</guid>
+      <pubDate>Thu, 10 Sep 2026 18:33:25 +0000</pubDate>
+      <description>We prove a lower bound of Ω(log n/ log log n) on the approximation ratio of the global grammar-based compression algorithm Greedy. To our knowledge, the previously best lower bound was a constant, and the existence of a nonconstant lower bound had remained open for more than twenty years. Our bound holds on an infinite family of words of length n, over alphabets of growing size, for every execution using left-to-right occurrence replacement and arbitrary tie-breaking. The lower bound is also formally verified in Lean 4.</description>
+    </item>
+    <item>
+      <title>Computing the Shortest Even Directed-Cycle Length in $\widetilde{O}(n^4)$ Time</title>
+      <link>http://arxiv.org/abs/2609.12021v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12021v1</guid>
+      <pubDate>Thu, 10 Sep 2026 10:58:00 +0000</pubDate>
+      <description>Björklund, Husfeldt, and Kaski gave a randomized $\widetilde{O}(n^{ω+3})$-time algorithm for computing the length of a shortest even cycle in an $n$-vertex directed graph, where $ω$ is the square matrix multiplication exponent. Their algebraic framework evaluates a parity cycle-cover enumerator over a field of characteristic two by lifting the computation to a ring of characteristic four. We give a direct evaluator for nonsingular matrices that stays in characteristic two. If $A$ is nonsingular over a field of characteristic two, the sum of the monomials indexed by odd permutations can be computed deterministically using $O(n^3)$ field operations. The key is an inverse-based closed form for a matrix with two proportional rows, combined with row elimination and dynamic inverse maintenance. For a directed graph, we apply the evaluator to $I+zW$, where $W$ is a randomly weighted adjacency matrix. The determinant $\det(I+zW)$ has constant coefficient one, so among any $2n+1$ distinct field elements at least $n+1$ yield nonsingular matrices. Evaluating at these points and interpolating gives a Monte Carlo algorithm that computes the shortest even-cycle length in $\widetilde{O}(n^4)$ time, with error probability $O(n^{-3})$. The error is one-sided with respect to existence: on a graph without an even cycle the algorithm always reports that fact. The result concerns the length; the standard self-reduction produces a cycle in $\widetilde{O}(n^5)$ time.</description>
+    </item>
+    <item>
       <title>Convex Optimization with Nested Evolving Feasible Sets (CONES) under Time-Varying Loss Functions</title>
       <link>http://arxiv.org/abs/2609.11207v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11207v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.08348</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
       <description>We consider standard top-down recursive Mergesort, where we do a single comparison before calling merge to check if the two recursively sorted subproblems happens to already be correctly ordered. (If so, we can skip the merging step). We show for any input $A[0..n)$ of elements consisting of $r$ runs (maximal increasing contiguous subranges in $A$) of respective lengths $L_1,\ldots, L_r$, the mergecost $M$ (the sum of output sizes of all merges) satisfies $M \le (\mathcal H+3)n$ for $\mathcal H = \sum_{i=1}^r (L_i / n) \log_2(n/L_i)$ the runlength entropy.</description>
-    </item>
-    <item>
-      <title>An $O\big((5/3)^n\mathrm{poly}(n)\big)$ One-Sided Monte Carlo Algorithm for Equal Subset Sum</title>
-      <link>https://arxiv.org/abs/2608.08260</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.08260</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We give a randomised algorithm for Equal Subset Sum that runs in time $O\big((5/3)^n\mathrm{poly}(n)+n^2m\big)$ on $n$ integers of at most $m\le2^n$ bits, never outputs a non-solution, and outputs a solution with probability $1-2^{-Ω(n)}$ whenever one exists.</description>
-    </item>
-    <item>
-      <title>A Degree Threshold for Independent Domination in Generalized Prisms</title>
-      <link>https://arxiv.org/abs/2608.07956</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.07956</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We study per-colour independent (k)-rainbow domination and its connection with independent domination in generalized prisms. Building on the known prism identity and the trivial regime above the maximum degree, we focus on the boundary case where the number of colours equals the maximum degree. For every fixed (k\ge 3), we prove that the decision problem remains NP-complete even on a highly restricted class of graphs: (C_4)-free, bipartite, ((k,2))-biregular subdivision graphs arising from simple (k)-regular graphs. The reduction gives an exact correspondence between optimal rainbow-independent dominating functions on the subdivision graph and proper (k)-edge-colourings of the original graph. We also introduce an excess parameter measuring how far the domination number lies above its natural lower bound. For cubic graphs, this excess coincides with the classical edge-colouring degree and therefore with standard resistance parameters for subcubic graphs. These results reveal a sharp one-unit threshold: above the maximum degree the problem becomes trivial for every graph, while at the boundary NP-hard instances already occur within a very narrow structural family.</description>
-    </item>
-    <item>
-      <title>TopoBudget: Persistent-Connectivity-Preserving Web Graph Sparsification for Reusable Community Analytics</title>
-      <link>https://arxiv.org/abs/2608.07903</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.07903</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Web and social graphs are analyzed repeatedly for community structure, yet many of their edges are redundant for this purpose, which motivates sparsification. Existing sparsifiers preserve spectral quantities, cuts, local similarity, or a single clustering, but none preserves the thresholded connectivity structure of an edge-relevance filtration, the multiscale pattern by which groups form at high relevance and merge through weaker bridges. We study persistent-connectivity-preserving sparsification: given a graph, an edge-relevance filtration, and a proxy partition computed once during preprocessing, select a budgeted subgraph that preserves the labeled component partition at every threshold, and hence the zero-dimensional persistence diagram, while retaining community evidence for later analyses. Our method, TopoBudget, first extracts a tie-aware persistence backbone that enforces this constraint, then allocates the residual edge budget by greedily maximizing a backbone-conditioned submodular objective that rewards balanced recovery of proxy-internal degree. We prove exact preservation of the component partition at every threshold, and that the conditioned objective is monotone and submodular, so greedy attains a (1-1/e) guarantee for the fixed-backbone residual problem. On held-out synthetic benchmarks and six real Web and social graphs at equal budget, TopoBudget gives the strongest community preservation among topology-preserving methods under Louvain, remains competitive under Infomap, incurs zero topology mismatch, and runs substantially faster than an effective-resistance baseline. A no-backbone ablation shows that, on the real graphs, the mandatory backbone improves average quality while providing the exact guarantee. TopoBudget thus couples exact multiscale connectivity with budgeted, reusable community preservation.</description>
     </item>
   </channel>
 </rss>

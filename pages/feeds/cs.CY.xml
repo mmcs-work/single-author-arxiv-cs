@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Global maps of travel time to emergency and tertiary hospitals</title>
+      <link>http://arxiv.org/abs/2609.12696v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12696v1</guid>
+      <pubDate>Fri, 11 Sep 2026 10:43:58 +0000</pubDate>
+      <description>Global estimates of access to health care treat every facility alike. Drive time was routed on the OpenStreetMap network from all 217,841 of its hospitals and 15-, 30- and 60-minute isochrones dissolved for nested capability tiers, weighted with GHS-POP 2025. 96.2% of the world's population lives within an hour's drive of a hospital, 78.5% of a hospital with a documented emergency department, and 40.3% of one with a helipad or university name marking tertiary care. The 1.45 billion people within an hour of a hospital but not of an emergency hospital live mainly in South and East Asia and Nigeria; the 312 million beyond an hour of any hospital lie in a belt from the Sahel to Madagascar. Defining the tertiary tier by helipad alone leaves its estimate unchanged, and the isochrone construction shifts the 60-minute figures by a few percent. Counting every facility as equivalent overstates access to time-critical care.</description>
+    </item>
+    <item>
+      <title>Tact: A Zero-Cost, Browser-Based Pipeline for On-Demand Tactile Braille Storybooks</title>
+      <link>http://arxiv.org/abs/2609.12272v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12272v1</guid>
+      <pubDate>Thu, 10 Sep 2026 23:07:06 +0000</pubDate>
+      <description>Braille literacy among blind school-age children has fallen sharply, in part because producing illustrated braille pages still requires specialized software and trained labor. We present Tact, a browser-based pipeline that converts a spoken or typed story idea into printable braille with a matching raised tactile illustration, without an account or mandatory cost and with an offline-capable path. The paper documents the engineering history of the system: its sighted-operator ethical model; hardware rationale for consumer fused-deposition modeling; physical braille geometry and printer calibration; local, hosted, and fallback language-model paths; a deterministic Grade 1 braille translator; verified page layout and pagination; a 93-shape hand-drawn tactile illustration library; and synthesized sound design for a voice-first interface. We report engineering verification, ethical commitments, limitations, and the work required before the system is ready for real blind and low-vision readers.</description>
+    </item>
+    <item>
       <title>Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase</title>
       <link>http://arxiv.org/abs/2609.11728v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11728v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.08022</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
       <description>Recent incidents involving Artificial Intelligence (AI) agents, which were reported escaping their containment `unintentionally' to gain unauthorized access, pose looming questions about who or what should be held legally responsible for resultant criminal or negligent damage. As the independent capabilities of agents expand, Promise Theory suggests a systematic method to resolve these questions, based on the Downstream Principle for causal influence. Responsibility can easily be expanded to include AI agents where tracing responsibility becomes impactical, and agents' freedoms to act can be limtied by policy choices.</description>
-    </item>
-    <item>
-      <title>China RealDID: Verifiable Credentials Anchored in Legal Identity</title>
-      <link>https://arxiv.org/abs/2608.07846</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.07846</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Verifiable credentials (VCs) and decentralized identifiers (DIDs) enable selective disclosure but lack legal anchoring: without a trusted identity root, verifiers cannot distinguish a genuine holder from a fabricated identity. State identity systems provide biometric-grounded verification but impose three costs: verifiers must collect subjects' full personally identifiable information, infrastructure concentrates on a single API, and the state observes every transaction. We present China RealDID, a three-layer architecture -- CTID (centralized legal identity), RealDID (decentralized anchor on an open permissioned blockchain), and VCs with SD-JWT-based selective disclosure -- evaluated against five adversary classes and six security goals. The central mechanism is a content-blind government relay: the state authenticates participants and counter-signs every credential but cannot read the payload, encrypted by the issuer to the holder's public key. We describe the VC lifecycle, triple-signature chain, open template registry, and the architecture's metadata-level privacy limits, including the credential graph at the relay and presentation linkability from single-DID reuse. The design yields an asymmetric, state-bounded trust model: the state cannot impersonate or read contents; the user cannot fabricate identity or evade metadata observation. We analyze alignment with China's Personal Information Protection Law and the EU's GDPR, including the tension between immutable registries and erasure rights, and discuss generalizability through cross-border deployments with Singapore and Hong Kong.</description>
-    </item>
-    <item>
-      <title>Against Explainable Artificial Intelligence In Law: Why Justifiable Ai Matters. A Credit Scoring Example</title>
-      <link>https://arxiv.org/abs/2608.07452</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.07452</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Artificial intelligence-based solutions offer new efficiency-increasing possibilities in many applications, including credit scoring. Yet, the increasing sophistication of machine-learning models in use raises concerns regarding many of their aspects, explainability notwithstanding. We review the relevant EU legal background and integrate this review with insights from technical sciences to interpret relevant legal provisions in the light of technological possibilities. We reject the narrow interpretations of the right to explanation and suggest the broad one, which encompasses not only a technical explanations but also a legal justification as the only one that allows to safeguard the creditors rights in an operative manner.</description>
     </item>
   </channel>
 </rss>

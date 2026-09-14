@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On the Critical Window for Adaptable 2-Colorability</title>
+      <link>http://arxiv.org/abs/2609.12214v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12214v1</guid>
+      <pubDate>Thu, 10 Sep 2026 21:14:23 +0000</pubDate>
+      <description>We determine a sharp threshold for the adaptable 2-colorability of a random graph equipped with a uniformly random, not necessarily proper, red/blue coloring of the edges. To accomplish this, we characterize a family of subgraphs along with edge colorings whose inclusion or exclusion determines adaptable $2$-colorability. We further show that above the threshold, a long path with alternating edge colors is formed. We use this path to prove the existence of such a subgraph in the supercritical regime. We then provide and prove symmetric bounds on the critical window for $2$-adaptable colorability. Particularly, we prove bounds matching that of the critical windows for the giant component in the Erd$ő$s-R$é$nyi random graph model as well as the satisfiability of a random $2$-SAT instance. Finally, we show that below the critical window, the solution space of adaptable $2$-colorings remains connected, that is one can travel from one adaptable $2$-coloring to another by a sequence of $2$-colorings which differ on $O(\log{n})$ many vertices.</description>
+    </item>
+    <item>
       <title>Testing the Binary Rank with Polynomial Query Complexity</title>
       <link>http://arxiv.org/abs/2609.10496v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10496v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.10255</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 -0000</pubDate>
       <description>Min-wise hashing and its $k$-min-wise variant are standard tools in similarity estimation, sampling, sketching, and streaming. A $k$-min-wise family requires every prescribed $r$-subset of a fixed set, for $r\le k$, to appear as the $r$ smallest hash values with approximately the fully random probability, up to multiplicative error $δ$. Previous analyses show that $O(\log(1/δ)+k\log\log(1/δ))$-wise independence suffices. Consequently, for $k=Θ(\log N)$ and $δ=N^{-c}$, the standard polynomial construction uses $O(k\log N\log\log N)$ seed bits. Recent work of Chen, Huang, and Li achieves the optimal $O(k\log N)$ seed length for $k=\log^{O(1)}N$, but only with almost-polynomial error $2^{-O(\log N/\log\log N)}$, leaving open whether polynomially small error is possible with the same seed length. We prove that the standard $s$-wise independent polynomial hash family is $k$-min-wise with multiplicative error $δ$ for $s=O(k+\log(1/δ)).$ Thus, when $k=Ω(\log(1/δ))$, only $O(k)$-wise independence is required. In particular, for $k=Θ(\log N)$ and $δ=N^{-c}$, this gives an explicit family with seed length $O(k\log N)$, matching the support-size lower bound up to constant factors. The proof conditions on the prescribed bottom set and bounds the error only after averaging over the random threshold given by its largest hash value, rather than controlling every threshold separately.</description>
-    </item>
-    <item>
-      <title>Exact Online Rank Recycling in Floyd's Uniform Subset Sampler</title>
-      <link>https://arxiv.org/abs/2607.14302</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.14302</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>A uniformly random $m$-subset of $[n]=\{0,\ldots,n-1\}$ has entropy $\log_2\binom{n}{m}$. Standard without-replacement procedures often expose an additional ordering coordinate that is absent from the returned set. We show that Floyd's subset sampler admits an exact round-local factorization of this coordinate. In round $r$, let $S$ be an $(r-1)$-subset of $[j]$, let $T\sim\operatorname{Unif}([j+1])$, and let $S'$ be the result of Floyd's transition. If $D$ is the zero-based rank of the original draw $T$ in $S'$, then $(S,T)\leftrightarrow(S',D)$ is a bijection between $\binom{[j]}{r-1}\times[j+1]$ and $\binom{[j+1]}{r}\times[r]$. Consequently, $S'$ and $D$ are independent and uniform on their respective spaces. The digit $D$ can therefore be merged immediately into a residual uniform random state; an induction shows that the partial subset remains independent of that state after every round. For $k=\min(m,n-m)$, the sampling phase uses $O(k\log k)$ time and $O(k)$ auxiliary space with an order-statistic tree; explicitly materializing a complement incurs the unavoidable output cost. The combinatorial layer avoids binomial-coefficient arithmetic and recovers the complete $k!$ state-space factor exactly. We also give a finite counterexample showing that analogous immediate rank recycling in a partial Fisher-Yates array is invalid because the unselected suffix retains a correlated ordering. A 64-bit Rust implementation is checked by exhaustive state-space enumeration for all $n\leq 8$ and by an entropy-accounting trace for choosing $20{,}000$ of $30{,}000$ items. We make no claim of runtime superiority over existing subset samplers.</description>
     </item>
   </channel>
 </rss>

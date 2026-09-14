@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Invisible Yet Dominant: Big Stalls of Kernel I/O Mechanisms in Cloud OLTP Databases</title>
+      <link>http://arxiv.org/abs/2609.12597v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12597v1</guid>
+      <pubDate>Fri, 11 Sep 2026 08:49:32 +0000</pubDate>
+      <description>Most databases, including PostgreSQL, RocksDB, and recent AI KV-cache middleware, rely on buffered I/O, delegating write-back to the Linux kernel. On the distributed block storage standard in the cloud, this delegation inherits a hidden bottleneck: each device is drained by a single kernel flusher thread over a high-latency, shallow-queue path. When the drain falls behind, dirty throttling pauses write() system calls, and even reads that must evict dirty pages stall. These stalls are invisible to iostat and every standard counter. This poster observes the stall from inside the kernel, using the multi-volume data placement proposed in SteelDB as the experimental lever. eBPF probes on writeback and block tracepoints separate write-back by issuing context and count every throttle pause. Across three configurations with identical provisioned IOPS and bandwidth but 1, 2, and 4 devices, we show that adding drains, not bandwidth, cuts throttle pauses by 70%, reduces maximum transaction latency by 59%, and raises throughput by 23%.</description>
+    </item>
+    <item>
       <title>mold: A Massively Parallel Linker</title>
       <link>http://arxiv.org/abs/2608.23228v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2608.23228v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1812.09920</guid>
       <pubDate>Mon, 24 Dec 2018 00:00:00 -0000</pubDate>
       <description>One of the main issues in the OS security is to provide trusted code execution in an untrusted environment. During executing, kernel-mode drivers allocate and process memory data: OS internal structures, users private information, and sensitive data of third-party drivers. All this data and the drivers code can be tampered with by kernel-mode malware. Microsoft security experts integrated new features to fill this gap, but they are not enough: allocated data can be stolen and patched and the drivers code can be dumped without any security reaction. The proposed hypervisor-based system (MemoryRanger) tackles this issue by executing drivers in separate kernel enclaves with specific memory attributes. MemoryRanger protects code and data using Intel VT-x and EPT features with low performance degradation on Windows 10 x64.</description>
-    </item>
-    <item>
-      <title>Formalising Filesystems in the ACL2 Theorem Prover: an Application to FAT32</title>
-      <link>https://arxiv.org/abs/1810.04309</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1810.04309</guid>
-      <pubDate>Wed, 10 Oct 2018 00:00:00 -0000</pubDate>
-      <description>In this work, we present an approach towards constructing executable specifications of existing filesystems and verifying their functional properties in a theorem proving environment. We detail an application of this approach to the FAT32 filesystem. We also detail the methodology used to build up this type of executable specification through a series of models which incrementally add features of the target filesystem. This methodology has the benefit of allowing the verification effort to start from simple models which encapsulate features common to many filesystems and which are thus suitable for reuse.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Tact: A Zero-Cost, Browser-Based Pipeline for On-Demand Tactile Braille Storybooks</title>
+      <link>http://arxiv.org/abs/2609.12272v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12272v1</guid>
+      <pubDate>Thu, 10 Sep 2026 23:07:06 +0000</pubDate>
+      <description>Braille literacy among blind school-age children has fallen sharply, in part because producing illustrated braille pages still requires specialized software and trained labor. We present Tact, a browser-based pipeline that converts a spoken or typed story idea into printable braille with a matching raised tactile illustration, without an account or mandatory cost and with an offline-capable path. The paper documents the engineering history of the system: its sighted-operator ethical model; hardware rationale for consumer fused-deposition modeling; physical braille geometry and printer calibration; local, hosted, and fallback language-model paths; a deterministic Grade 1 braille translator; verified page layout and pagination; a 93-shape hand-drawn tactile illustration library; and synthesized sound design for a voice-first interface. We report engineering verification, ethical commitments, limitations, and the work required before the system is ready for real blind and low-vision readers.</description>
+    </item>
+    <item>
       <title>Design Reflections on Transition to LLM-Aided Novel Visualizations</title>
       <link>http://arxiv.org/abs/2609.11503v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11503v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.20711</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
       <description>AI-assisted consultation can speed large-scale public engagement, but concise summaries may reflect some submissions more closely than others. This paper introduces participatory provenance, a framework for auditing how semantic coverage is distributed from submissions to summary sentences. Applied to two topics in Canada's 2025 AI Strategy consultation (5,253 records; 2,861 participants), official summaries had higher observed mean coverage than exact-length random text, although statistical significance depended on the embedding model. Low coverage concentrated in semantic regions, especially those centered on criticism of educational technology and distrust of technology and oversight, whereas few or no records crossed the operational threshold in several better-covered regions. Same-budget, cross-fitted extractive benchmarks improved mean and lower-tail coverage on held-out submissions, showing that better semantic coverage was feasible without longer summaries. Consultation summaries should be evaluated not only for coherence and factual support, but also for how coverage is distributed across the range of submitted views.</description>
-    </item>
-    <item>
-      <title>More Electrodes, Faster Minds? Rethinking Bandwidth in Brain-Computer Interfaces</title>
-      <link>https://arxiv.org/abs/2607.24820</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.24820</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 -0000</pubDate>
-      <description>High-bandwidth brain--computer interfaces (BCIs) can bypass damaged pathways, reduce motor costs, and improve communication and control. They also inspire visions of accelerated thought output, mind reading, and instant skill acquisition. This Perspective asks how gains in meaningful human I/O scale with interface capacity. We distinguish bandwidth, decodable neural states, neural states, and information a person can use, confirm, and express. Slowly updated task states can unfold into complex behavior through the body, neural control, sensory feedback, the environment, and shared context. Decodable neural activity can support prediction and control; subject-level communication depends on selection, confirmation, and authorization. On the input side, stimulation may guide plasticity and accelerate learning, while embodied skills arise through coordination of a brain, body, and environment. The scaling relationship is likely nonlinear: higher-capacity interfaces can yield real gains, while extreme increases in meaningful human I/O encounter constraints rooted in embodiment, learning, and subject expression.</description>
     </item>
   </channel>
 </rss>

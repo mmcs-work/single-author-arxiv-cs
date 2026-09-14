@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs</title>
+      <link>http://arxiv.org/abs/2609.12582v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.12582v1</guid>
+      <pubDate>Fri, 11 Sep 2026 08:35:43 +0000</pubDate>
+      <description>When an autonomous AI agent does something consequential, what can be proven about what it did? Agent-observability platforms capture traces, but a trace is mutable: alterable undetected, with no recipe for re-executing it, silent on whether captured secrets were removed. Regulation (EU AI Act, ISO 42001, NIST AI RMF) presumes records an independent party can check. We present NovaFabric, producing audit-grade execution evidence: provider-neutral, tamper-evident, replayable, shareable. It records an agent run, without modifying agent logic, into a portable Run Capsule (fifteen-entity schema), sealed with a holistic DSSE signature, RFC 3161 timestamp, Merkle log and redaction attestation. Sealed runs are re-executable under a four-mode replay protocol and exportable as an Evidence Bundle for third-party verification with stock tooling (specified, not evaluated). The contribution is integration, not new cryptography: OpenTelemetry, DSSE/in-toto and W3C PROV. We evaluate eight research questions at measured scope. Mocked replay serves every model response from the capsule (no live model call, 10/10) but is offline w.r.t. models, not the network; only 2/10 tool-using workloads completed; the gap is missing tool-response substitution. Tampering is rejected across three tested classes. Declared-stream completeness is 0.652 (95% CI +/-0.064, ten scenarios). A repaired rule pack redacts 14/14 credential types, preserving 9/9 decoys; diff localises 140/140 mutations. Blast-radius queries: 45.5ms p99 over 10M edges (3.3x faster than a columnar baseline), 167.9ms over 100M (1 client, n=30). A 314-machine, ten-region run finds capsule REST ingest lossless but capped at 61.6 req/s (p99 26.8s) by per-worker serialisation. Six defects found in NovaFabric and its evaluation corpus: four fixed, one withdrawn, one open. Verification is conditional on a stated trusted computing base.</description>
+    </item>
+    <item>
       <title>Ozaki 2.5: Engineering the Deconstruction Path of fp64-Emulated Dense Matrix Multiplication on FP8 Tensor Cores</title>
       <link>http://arxiv.org/abs/2609.09095v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.09095v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.14172</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
       <description>This paper evaluates whether large-scale AI data centers deployed in low-Earth orbit (LEO) could become a cost-effective alternative to terrestrial facilities. The analysis compares orbital and ground-based systems across launch cost, power generation, cooling, radiation exposure, and atmospheric reentry, as well as compute-network performance. A key distinction is the shift from terrestrial Clos networks to space-based mesh networks using laser inter-satellite links. Using bisection bandwidth, bisection intensity, and roofline-style models, we show that while LEO-based inference may be feasible, training frontier-scale LLMs in orbit is unlikely to be competitive with terrestrial data centers.</description>
-    </item>
-    <item>
-      <title>RepliCore: Reproducible Parallel Simulation under Asynchronous Browser Runtimes</title>
-      <link>https://arxiv.org/abs/2607.02529</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.02529</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Browser-based simulations execute over asynchronous runtime mechanisms including event loops, rendering callbacks, and independently scheduled Web Workers, causing simulation progression to depend on runtime timing and callback scheduling behavior. RepliCore addresses this problem by separating asynchronous runtime progression from externally observable logical-state visibility. Runtime-visible simulation states are exposed only after logical-state progression becomes externally stable, preventing asynchronous runtime activities from observing partially updated simulation progression. The framework prevents rendering callbacks and asynchronous runtime tasks from observing transient intermediate logical states during parallel progression. This organization maintains consistency between parallel and sequential execution. Based on this model, we implement RepliCore, a browser-oriented deterministic parallel simulation framework for reproducible large-scale simulation under asynchronous browser runtimes. Experiments in real browser environments produce bitwise-identical outputs across varying worker configurations, scheduling conditions, and rendering frequencies while remaining practical for large-scale browser-oriented workloads. Additional ablation experiments show systematic state divergence after relaxing key execution constraints. These results indicate that reproducible asynchronous parallel simulation can be achieved through controlled logical-state visibility stabilization without relying on execution replay or explicit schedule control.</description>
     </item>
   </channel>
 </rss>
