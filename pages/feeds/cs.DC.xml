@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Deterministic Temporal Reconciliation for Effective-Dated Identity Lifecycle Events</title>
+      <link>http://arxiv.org/abs/2609.14017v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14017v1</guid>
+      <pubDate>Sat, 12 Sep 2026 16:03:12 +0000</pubDate>
+      <description>Identity lifecycle automation processes workforce changes that carry two distinct notions of time: when a business fact becomes effective and when an authoritative source last revised it. Corrections, cancellations, future-dated changes, duplicate delivery, and out-of-order arrival can therefore produce divergent account states when processors rely on transport order or effective time alone. This paper presents a deterministic temporal reconciliation method for effective-dated identity events. The method separates logical business facts from their physical revisions, deduplicates exact replays, selects the authoritative revision of each fact using transaction-time freshness, removes canceled facts, and then applies surviving facts in valid-time order. We establish permutation invariance, replay idempotence, revision dominance, and deterministic snapshot construction under explicit source assumptions. A reproducible synthetic fault-injection benchmark compares the method with arrival-order, effective-time, and transaction-time processing. Across 250,000 generated identity histories and 1,585,589 delivered records, the proposed method reconstructed the separately retained authoritative final state in all tested cases. At 75% delivery disorder, exact-state accuracy was 42.35% for arrival-order processing, 85.38% for effective-time sorting, 76.61% for transaction-time sorting, and 100% for the proposed method. A separate 40,000-permutation experiment produced the same final state for every tested permutation under the proposed reconciliation contract.</description>
+    </item>
+    <item>
       <title>NovaFabric: Tamper-Evident, Replayable Evidence for Autonomous AI Agent Runs</title>
       <link>http://arxiv.org/abs/2609.12582v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12582v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.14413</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
       <description>We prove that every randomized synchronous Byzantine Agreement protocol in the full-information, strongly adaptive adversary model, secure against $t$ corrupt parties, has worst-case expected round complexity \[ Ω\!\left(\frac{t^2}{n\log(n+1)}\right). \] This improves upon the seminal $Ω(\frac{t}{\sqrt{n\log n}})$ bound of [Bar-Joseph, Ben-Or 98]. Our result matches the recent upper bound of $O\left(\min\left\{\frac{t^2\log n}{n},\frac{t}{\log n}\right\}\right)$ of [Dufoulon, Pandurangan 25], up to a $\log^2 n$ factor in the $t\ll n$ regime. Our proof takes inspiration from the recent works of [Etesami, Mahloujifar, Mahmoody 20] and [Haitner, Karidi-Heller 26]. Specifically, we prove a multi-round concentration lemma showing that any transcript event of probability $p$ can be forced with probability one by corrupting $O(\sqrt{n\log(\frac1p)})$ parties in expectation. From there, tools from [Chor, Merritt, Shmoys 89] allow us to lower-bound the probability of the protocol not concluding in $R$ rounds by $\frac{1}{n^{O(R)}}$, using a crash schedule involving at most $R$ parties. The combination of these techniques yields the desired bound.</description>
-    </item>
-    <item>
-      <title>The Cost and Network Limits of Space-Based AI Compute</title>
-      <link>https://arxiv.org/abs/2607.14172</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.14172</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This paper evaluates whether large-scale AI data centers deployed in low-Earth orbit (LEO) could become a cost-effective alternative to terrestrial facilities. The analysis compares orbital and ground-based systems across launch cost, power generation, cooling, radiation exposure, and atmospheric reentry, as well as compute-network performance. A key distinction is the shift from terrestrial Clos networks to space-based mesh networks using laser inter-satellite links. Using bisection bandwidth, bisection intensity, and roofline-style models, we show that while LEO-based inference may be feasible, training frontier-scale LLMs in orbit is unlikely to be competitive with terrestrial data centers.</description>
     </item>
   </channel>
 </rss>
