@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Turkish MMLU Pro: Traceable Option Augmentation and Its Validity Limits in Turkish Multiple-Choice Evaluation</title>
+      <link>http://arxiv.org/abs/2609.15467v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15467v1</guid>
+      <pubDate>Mon, 14 Sep 2026 12:28:09 +0000</pubDate>
+      <description>Adding answer options can lower multiple-choice scores without improving assessment validity. Turkish MMLU Pro examines this distinction using 12,000 Turkish-source questions across 58 sections. Each question retains its stem, five original options and source key, and receives five options copied from other questions in the same section. Sentence-embedding retrieval proposes candidates; a language model selects existing identifiers. Deterministic verification reconstructs all 60,000 additions. A 25-model calibration exposes scoring and generation-budget effects. Five evaluations produce source-key accuracies of 34.8%-81.4%. On 981 shared questions, one API-served model falls from 93.7% with five choices to 83.1% with ten; 102 of 115 lost correct responses select borrowed options. The decrease is 24.4 percentage points on heuristically flagged negative stems and 5.9 points elsewhere. A completed human-checked audit of 200 sampled questions, with undocumented reviewer tool use, yields 47 and 31 multiple-answer judgments across the two record sets, 25 of the latter unresolved. These records support concern about ambiguity, while their dependence and incomplete reviewer-method documentation limit validation. Because order and labels also change, the paired comparison measures augmentation as implemented. The contribution is a traceable construction and an analysis of its validity limits, not evidence that lower ten-choice scores measure knowledge better.</description>
+    </item>
+    <item>
+      <title>Validating Hybrid-State Cache Recovery for GLM-5.3-Flash with vLLM and LMCache</title>
+      <link>http://arxiv.org/abs/2609.15030v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15030v1</guid>
+      <pubDate>Mon, 14 Sep 2026 04:46:09 +0000</pubDate>
+      <description>External cache transfers can succeed while a hybrid language model resumes from an inconsistent state. We examine the full 45-layer GLM-5.3-Flash model, using the RedHatAI/ GLM-5.3-Flash-NVFP4 quantized checkpoint with vLLM and LMCache under four-way tensor parallelism. A complete-hit recovery mismatch restored state for the full prompt while the scheduler credited one fewer token. We aligned recovery through strict-prefix lookup and established a numerical comparison using shared computation corrections, matched checkpoint scheduling, and fixed per-rank kernel configurations. In a nine-length serial workload, agreement with the modified recomputation control improved from 34/36 to 36/36 generations, each containing 64 token IDs. A separate instrumented run passed recorded transfer-page, effective-tail, and delayed-save checks. Three additional synthetic templates passed 72 paired 256-token continuations across two fresh-container runs. A subsequent serial performance study preserved output equality across 120 requests; among the measured trials, CPU reload reduced time to first token by 46-64% and total request time by 1.9-7.0% relative to modified cold recomputation. The contribution is an experimentally validated integration repair applying an existing checkpoint-alignment principle. The evidence is confined to one model revision and controlled configuration; it does not establish general determinism, task-quality equivalence, concurrent-serving gains, or capacity beyond GPU memory.</description>
+    </item>
+    <item>
       <title>LoRA-RC: Reservoir Computing with Low-Rank Adaptation</title>
       <link>http://arxiv.org/abs/2609.12327v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12327v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.04504v1</guid>
       <pubDate>Thu, 03 Sep 2026 21:45:18 +0000</pubDate>
       <description>Cardiac, neural, behavioral, and speech measurements from wearable and mobile devices provide partial, noise-sensitive views of physiological state. BioSync combines these measurements into the \textbf{BioSync Index (BSI)}, a continuous composite digital biomarker defined under the BEST framework. The model applies multi-head self-attention to modality tokens and adds a linear branch whose hypothesis class includes standard feature concatenation. This architecture is motivated by latent-variable measurement theory and by the possibility that joint observations contain information unavailable from individual modalities. We evaluated BioSync on two literature-informed synthetic cohorts: a four-modality cognitive-decline cohort using HRV, EEG, actigraphy, and speech, and a metabolic-autonomic cohort structured around the public AI-READI wearable schema. In the cognitive cohort, BioSync and concatenation obtained AUCs of 0.928 and 0.926, respectively. In the metabolic cohort, BioSync obtained accuracy/F1 of 0.764/0.766, compared with 0.756/0.758 for concatenation. The BSI correlated with latent severity in both cohorts ($r=0.91$ and $r=0.68$). A pure-attention ablation obtained cognitive-cohort AUC 0.911, locating the increase to 0.928 in the combined wide-and-deep architecture. With matched modality-dropout training, BioSync led concatenation at five of six cognitive-cohort corruption rates and at the highest metabolic-cohort rate. Its cognitive-cohort AUC was also higher than five published digital-biomarker reference values, although differences in datasets and tasks preclude a controlled benchmark claim. Comparison with single-modality, early-fusion, and late-fusion designs across six prespecified criteria identifies the model's computational properties; validation on real cohorts remains necessary.</description>
-    </item>
-    <item>
-      <title>From Deceptive Outputs to Deceptive Mechanisms: A Causal Framework for Language-Model Deception Research</title>
-      <link>http://arxiv.org/abs/2609.04166v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.04166v1</guid>
-      <pubDate>Thu, 03 Sep 2026 17:52:19 +0000</pubDate>
-      <description>Research and news coverage of language-model deception increasingly attributes human-like mental-state concepts to language models. Such claims can blur the distinction between behavior that looks deceptive and a mechanism that is actually deceptive. We introduce a causal taxonomy separating prior commitment from retrospective report, model preference from realized output, false preference from sensitivity to the utility of misleading a recipient, and deceptive behavior from the provenance of the objective or strategy producing it. We test these distinctions in two open-weight model families. Across controlled guessing-game and stock-trading experiments, we find that deceptive-looking behavior can arise without the corresponding proposed mechanism, while other interventions provide direct evidence that recipient information state can causally affect deceptive preference. These results show that deceptive behavior can provide evidence for a deceptive mechanism. But even evidence for such a mechanism does not establish model agency in the deception.</description>
-    </item>
-    <item>
-      <title>A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI</title>
-      <link>http://arxiv.org/abs/2609.04086v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.04086v1</guid>
-      <pubDate>Thu, 03 Sep 2026 16:53:22 +0000</pubDate>
-      <description>For every coherent and sufficiently expressive finite syntactic system S, we prove the existence of at least one theorem that S cannot produce autonomously. The result is a metatheorem: it proves the existence of a theorem, and applies to every finite syntactic system - security mechanisms, AI systems, formal verifiers, legal systems, economic models, and the formal system in which it is itself proved.</description>
     </item>
   </channel>
 </rss>
