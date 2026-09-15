@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Protected tails and polynomial-time enumeration of permutations avoiding a direct sum of an increasing pattern and 231</title>
+      <link>http://arxiv.org/abs/2609.15642v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15642v1</guid>
+      <pubDate>Mon, 14 Sep 2026 14:30:11 +0000</pubDate>
+      <description>We give an exact algorithm counting the permutations that avoid a fixed pattern from the following family: the direct sum of an increasing pattern and the pattern 231. The first members of the family are 1342 and 12453. For each member, the algorithm computes the number of avoiding permutations of every length up to a given bound using polynomially many arithmetic operations and polynomially many stored integers, with degrees that grow linearly in the length of the pattern. We first obtain an exact recurrence by reading a permutation from left to right and recording, at each step, the constraints that the letters read so far impose on those still unread. Its state space grows exponentially, so evaluating it directly takes exponential time. We then show that part of the state is protected: later steps carry it along unchanged and do not depend on it. Factoring the protected part out turns the recurrence into a dynamic program with polynomially many stored transfer entries, and this gives the polynomial bounds for every member of the family. For the pattern 12453, a translation symmetry sharpens the bounds to degree seven for the operations and degree four for the storage. Separately written implementations and exact Chinese-remainder certification determine the number of 12453-avoiding permutations of every length up to 150. The previously published series reached length 38. The same tables also generate uniformly random avoiders in polynomial time. We illustrate this with a heatmap of one million 12453-avoiding permutations of length 300 sampled with floating-point tables. The counting recurrences for 1342 and 12453 are verified in the Lean 4 proof assistant.</description>
+    </item>
+    <item>
+      <title>A 3-regular counterexample to the Bilu--Linial signing conjecture</title>
+      <link>http://arxiv.org/abs/2609.15591v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15591v1</guid>
+      <pubDate>Mon, 14 Sep 2026 13:57:45 +0000</pubDate>
+      <description>We construct a finite connected simple cubic graph $F$ such that every signing of its edges yields an adjacency matrix with an eigenvalue outside $[-2\sqrt2,2\sqrt2]$. This disproves the Bilu--Linial signing conjecture for general regular graphs. The proof is elementary, using a four-vertex calculation and a scalar recurrence.</description>
+    </item>
+    <item>
+      <title>Minimum blockers for nonnested perfect matchings</title>
+      <link>http://arxiv.org/abs/2609.14484v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14484v1</guid>
+      <pubDate>Sun, 13 Sep 2026 12:49:22 +0000</pubDate>
+      <description>A perfect matching in an ordered graph is nonnested if no edge lies strictly inside another. We classify the smallest edge sets meeting every nonnested perfect matching on $2k$ ordered vertices. For $k\ge2$, these blockers have $k$ edges and belong to three explicit families, with $2^k+k-2$ members in total. The proof uses a minimum spanning tree of an auxiliary interval cut; its equality case also classifies the minimum blockers for concatenations of crossing matchings. The argument gives a deterministic algorithm that, from at most $k$ deleted edges, returns a minimum blocker description or an avoiding nonnested perfect matching in $O(k^2)$ word operations and $O(k)$ auxiliary words. We also give an injection from one of the blocker families into minimum blockers of $123$-avoiding permutation matrices. Beyond the perfect case, an explicit construction gives graphs with $(k-1)n+1$ edges and no nonnested $k$-matching for every $k\ge5$ and $n\ge2k+1$.</description>
+    </item>
+    <item>
+      <title>A Four-Connected Graph without a Legal System</title>
+      <link>http://arxiv.org/abs/2609.13419v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.13419v1</guid>
+      <pubDate>Fri, 11 Sep 2026 18:33:01 +0000</pubDate>
+      <description>In a 2021 paper, Jankiewicz, Norin, and Wise asked whether there exists a finite $4$-connected graph of girth at least four and nonnegative Charney--Davis curvature such that no $4$-connected ordinary subgraph admits a legal system. We construct such a graph by starting from the hexagonal prism and attaching three $K_{3,4}$-based caps along pairwise disjoint induced $4$-cycles. The key structural input is a restriction theorem showing that a legal system on an induced-$4$-cycle amalgam restricts to each side, so the obstruction carried by the negatively curved prism survives the attachments. The resulting $33$-vertex graph is $4$-regular and $4$-connected, has girth four and Charney--Davis curvature one, and, by $4$-regularity, is its own unique $4$-connected ordinary subgraph.</description>
+    </item>
+    <item>
       <title>On the Critical Window for Adaptable 2-Colorability</title>
       <link>http://arxiv.org/abs/2609.12214v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12214v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.16463</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 -0000</pubDate>
       <description>Fulek defined the $0$-$1$ matrix \[ L_3=\begin{pmatrix} 1&amp;0&amp;0&amp;1&amp;0\\ 0&amp;0&amp;0&amp;0&amp;1\\ 0&amp;1&amp;1&amp;0&amp;0 \end{pmatrix} \] and asked whether $\text{ex}(n,L_3) = O(n)$. We prove that every $r\times s$ $0$-$1$ matrix avoiding $L_3$ has at most $27r+2s$ $1$ entries. Fulek's general lower bound construction has $6n-8$ $1$ entries, so \[ 6n-8\leq \text{ex}(n,L_3)\leq29n \] for $n\geq5$. The same argument applies to an infinite family. If $Q_{a,b,k,\ell}$ is the light three-row matrix with column word $1^a3^k1^b2^\ell$, where $a,b,\ell\geq1$ and $k\geq2$, then \[ \text{ex}(r,s,Q_{a,b,k,\ell}) \leq\bigl(5(k-1)(4b+1)+a+b+\ell-1\bigr)r+2s. \] This verifies a conjecture of Pettie and Tardos on linear light patterns for an infinite family that includes the previously unresolved weight-five pattern $L_3$. The proof assigns matrix entries to edges of a bar $1$-visibility hypergraph, cuts gaps to control the multiplicity of these edges, and charges the cuts to a noncrossing graph on the rows.</description>
-    </item>
-    <item>
-      <title>New bounds on the Graham-Pollak theorem for hypergraphs</title>
-      <link>https://arxiv.org/abs/2607.15658</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.15658</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 -0000</pubDate>
-      <description>For a fixed $r$, let $f_r(n)$ denote the minimum number of complete $r$-partite $r$-uniform hypergraphs required to partition the edge set of the complete $r$-uniform hypergraph on $n$ vertices. The Graham-Pollak theorem states that $f_2(n)=n-1$. It was known that $f_r(n) \leq (1+o(1)){n \choose \lfloor{\frac{r}{2}}\rfloor}$, which was subsequently improved to $f_r(n)\le \left[ \frac{r}{2} \left(\frac{14}{15}\right)^{r/4} +o(1) \right] \binom{n}{\lfloor r/2\rfloor}$. Let $c_r$ be $\displaystyle \lim_{n \to \infty}\frac{f_r(n)}{\binom{n}{\lfloor r/2 \rfloor}}$. It was known that $c_r&lt;1$ for every even $r \geq 4$, while for odd $r$ the smallest known value satisfying $c_r&lt;1$ was $113$. In this note we lower this to $85$ and also provide a constant-factor improvement in the known bounds for $f_r(n)$.</description>
-    </item>
-    <item>
-      <title>The order of long rainbow arithmetic progressions</title>
-      <link>https://arxiv.org/abs/2607.15116</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.15116</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Let $T_k$ be the minimum positive integer $t$ such that, for every positive integer $n$, every equinumerous $t$-coloring of $[tn]$ contains a rainbow $k$-term arithmetic progression. Jungić, Licht, Mahdian, Nešetřil and Radoičić conjectured that $T_k=Θ(k^2)$, while Conlon, Fox and Sudakov proved that $T_k=O(k^2\log k)$. We prove the matching lower bound $T_k=Ω(k^2\log k)$, and hence $T_k=Θ(k^2\log k)$.</description>
-    </item>
-    <item>
-      <title>A lower bound of 4 for online graph exploration</title>
-      <link>https://arxiv.org/abs/2607.15113</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.15113</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In the online graph exploration problem, a single agent needs to visit every vertex of an initially unknown graph, which is learned over time in an online fashion, and return to its starting position. We prove that the competitive ratio of this problem is at least 4, improving on the previously best known lower bound of 10/3. A key ingredient of our proof is showing that several restrictions can be imposed on the agent's behavior without affecting the competitive ratio. As a byproduct, we also obtain that certain graph properties, such as the triangle inequality or being subcubic, can be assumed without affecting the competitive ratio.</description>
-    </item>
-    <item>
-      <title>Limited Independence Suffices for Large-k Min-wise Hashing</title>
-      <link>https://arxiv.org/abs/2607.10255</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.10255</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Min-wise hashing and its $k$-min-wise variant are standard tools in similarity estimation, sampling, sketching, and streaming. A $k$-min-wise family requires every prescribed $r$-subset of a fixed set, for $r\le k$, to appear as the $r$ smallest hash values with approximately the fully random probability, up to multiplicative error $δ$. Previous analyses show that $O(\log(1/δ)+k\log\log(1/δ))$-wise independence suffices. Consequently, for $k=Θ(\log N)$ and $δ=N^{-c}$, the standard polynomial construction uses $O(k\log N\log\log N)$ seed bits. Recent work of Chen, Huang, and Li achieves the optimal $O(k\log N)$ seed length for $k=\log^{O(1)}N$, but only with almost-polynomial error $2^{-O(\log N/\log\log N)}$, leaving open whether polynomially small error is possible with the same seed length. We prove that the standard $s$-wise independent polynomial hash family is $k$-min-wise with multiplicative error $δ$ for $s=O(k+\log(1/δ)).$ Thus, when $k=Ω(\log(1/δ))$, only $O(k)$-wise independence is required. In particular, for $k=Θ(\log N)$ and $δ=N^{-c}$, this gives an explicit family with seed length $O(k\log N)$, matching the support-size lower bound up to constant factors. The proof conditions on the prescribed bottom set and bounds the error only after averaging over the random threshold given by its largest hash value, rather than controlling every threshold separately.</description>
     </item>
   </channel>
 </rss>

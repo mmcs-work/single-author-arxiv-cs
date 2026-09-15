@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>nBMS, a Neuromorphic Battery Management System with a Silicon-Validated Spiking State-of-Charge Core for eVTOL Aircraft</title>
+      <link>http://arxiv.org/abs/2609.13506v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.13506v1</guid>
+      <pubDate>Fri, 11 Sep 2026 20:12:16 +0000</pubDate>
+      <description>State-of-charge (SoC) estimation for electric vertical take-off and landing (eVTOL) aircraft must run on the vehicle under hard energy and certification budgets, on a duty cycle unlike anything in the automotive literature. In this study an event-driven spiking network, the state-estimation core of the nBMS neuromorphic battery management architecture, is designed for per-timestep SoC estimation and evaluated on a public 22-cell eVTOL dataset with an automotive cross-check. A delta and population encoder, a second-order sigma-delta spiking layer, and a rate-accumulator readout hold 34{,}433 int16 parameters with zero dense multiply-accumulate (MAC) operations. The estimator reaches 2.45\% root-mean-square error (RMSE) against 1.74\% for a tuned long short-term memory (LSTM) baseline, a gap characterized as a temporal-mixing limit in cruise; in exchange it degrades 1.6 times slower than an adaptive leaky integrate-and-fire control under sensor noise and needs roughly 3{,}500 additions per step where the LSTM needs 67{,}700 multiply-accumulates. The full core is deployed on a low-cost automotive-qualified Artix-7 field-programmable gate array at 87\% block-RAM utilization, meets timing at 50~MHz, and reproduces the frozen fixed-point reference bit-exactly over a real 491-step flight segment on silicon. Fully annotated post-implementation analysis gives 1.30~$μ$J per inference, an average of 0.65~$μ$W at the 0.5~Hz mission cadence.</description>
+    </item>
+    <item>
       <title>Signed Sensitivity of Expected Hitting Time to Mutation Rate in the (1+1) EA: Per-State Sign Theorems and Verifiable Certificates for Non-Lumpable Families</title>
       <link>http://arxiv.org/abs/2609.12510v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12510v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.10008</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 -0000</pubDate>
       <description>Spiking Neural Networks (SNNs) provide a naturally temporal machine-learning framework. Their neurons maintain an internal state and propagate information through discrete spikes, enabling low-latency temporal inference. Although SNNs are often associated with asynchronous neuromorphic processors, many scientific real-time inference systems rely on conventional synchronous field-programmable gate arrays (FPGAs) and high-level synthesis (HLS) workflows. In this paper we present an extension of hls4ml that enables clock-driven deployment of SNNs trained in pytorch onto FPGA firmware. We demonstrate the workflow using a dense quantised SNN trained on the Heidelberg Spiking Digits dataset where it achieves inference latencies of approximately $34μ$s. We validate the generated design through software reference comparisons, HLS C simulation, HLS synthesis, export, and Vivado synthesis reports. This work opens up the hls4ml toolkit to neuromorphic computing, allowing streamlined optimisation, synthesis, and deployment of SNN models for real-time inference.</description>
-    </item>
-    <item>
-      <title>Hybrid Metaheuristic Combining the Dragonfly Algorithm and Tabu Search for the Traveling Salesman Problem</title>
-      <link>https://arxiv.org/abs/2606.09529</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.09529</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 -0000</pubDate>
-      <description>The Traveling Salesman Problem (TSP) is a classical NP-hard combinatorial optimization problem that aims to find the shortest Hamiltonian cycle visiting each city exactly once and returning to the starting point. This paper proposes a hybrid metaheuristic for the TSP by combining the Dragonfly Algorithm (DA), a swarm-intelligence-based global search method, with Tabu Search (TS), a memory-based local search technique. The proposed method follows a High-Level Relay Hybridization (HRH) scheme, in which DA is first used to explore the solution space and generate a promising initial tour, while TS subsequently refines this solution through neighbourhood-based improvement and tabu memory. The hybrid approach is evaluated on standard TSPLIB benchmark instances, including burma14, att48, and ch150, and compared with standalone DA, standalone TS, and several classical metaheuristics such as Genetic Algorithm, Ant Colony Optimization, Particle Swarm Optimization, and Random Search. A systematic grid-search procedure is also conducted to study the influence of the main hyperparameters on solution quality and execution time. The experimental results indicate that the proposed hybrid can improve tour quality compared with the standalone DA and TS on the tested instances, highlighting the benefit of combining global exploration with local exploitation. However, the results also suggest that performance remains sensitive to parameter settings and problem size, motivating further validation on larger benchmarks and stronger TSP-specific baselines.</description>
     </item>
   </channel>
 </rss>

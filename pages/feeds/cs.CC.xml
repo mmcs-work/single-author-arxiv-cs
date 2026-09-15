@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>NP-hardness of ideal lattice problems</title>
+      <link>http://arxiv.org/abs/2609.15813v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15813v1</guid>
+      <pubDate>Mon, 14 Sep 2026 16:20:35 +0000</pubDate>
+      <description>We establish the worst-case hardness of several ideal lattice problems (including SVP and CVP) in the $\ell_2$ norm by providing a dimension-preserving, deterministic polynomial time reduction from their generic lattice versions. The reduction constructs an ideal lattice in the canonical embedding of a number field that approximates some input lattice up to scaling and orthogonal transformation. The integers defining the ideal and the ambient number ring, in particular its discriminant, are all polynomial in bit length relative to the generic input lattice. Furthermore, the ideal is invertible, the ring is monogenic, and the number field is totally real. If the number ring is also required to be a full ring of integers, the reduction conjecturally succeeds in bounded-error quantum polynomial time.</description>
+    </item>
+    <item>
+      <title>The Exact Growth Rate of Space-Optimal Reversible Pebbling on Chains</title>
+      <link>http://arxiv.org/abs/2609.15062v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15062v1</guid>
+      <pubDate>Mon, 14 Sep 2026 05:28:10 +0000</pubDate>
+      <description>We determine the exact time exponent of space-optimal reversible pebbling on chains as $1.331742379256310\ldots$. The growth rate of space-optimal reach exists as a limit and admits a variational formula. The same exponent governs complete computations at minimal space, uniformly in the chain length.</description>
+    </item>
+    <item>
+      <title>Nullstellensatz degree under Hajós joins and vertex identifications</title>
+      <link>http://arxiv.org/abs/2609.14865v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14865v1</guid>
+      <pubDate>Mon, 14 Sep 2026 00:32:38 +0000</pubDate>
+      <description>We study the minimum coefficient degree $N_{k,\F}(G)$ of a Nullstellensatz certificate for Bayer's $k$-coloring equations, where the characteristic of $\F$ does not divide $k$. If $J$ is a \HJ\ join of non-$k$-colorable graphs $G,H$ and $m=\max\{N_{k,\F}(G),N_{k,\F}(H)\}$, then $N_{k,\F}(J)\leq m+k$. When deletion of the selected edge makes each input $k$-colorable, we also have $N_{k,\F}(J)\geq m$; the degree congruence then gives $N_{k,\F}(J)\in\{m,m+k\}$. This partially answers a question of Li, Lowenstein, and Omar. For three-coloring over $\F_2$, we construct an infinite $4$-critical family of exact degree seven, attaining the bound at input degree four. In contrast, every graph constructed from $K_4$ solely by \HJ\ joins has degree $O(\log n)$ and a certificate with polynomially many terms: joins preserve treewidth at most three, and balanced separators yield low-degree certificates. Additional vertex identifications are excluded from this obstruction. We classify all single identifications of the $25$-vertex base graph; exactly $36$ preserve degree seven, producing $24$-vertex $4$-critical graphs of treewidth four. A compressed self-join at adjacent true twins prevents degree loss and gives a repeatable rule adding four vertices per round. The rule does not establish degree amplification or preservation of criticality. Exact witnesses and standalone verification programs accompany the finite results.</description>
+    </item>
+    <item>
+      <title>Linear equations mod $n$ are pseudo-telepathic</title>
+      <link>http://arxiv.org/abs/2609.14632v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14632v1</guid>
+      <pubDate>Sun, 13 Sep 2026 16:04:54 +0000</pubDate>
+      <description>We prove that the quantum monad in dimension $2n$ admits no natural transformation to the polymorphism clone of linear equations modulo $n$. Consequently, for every $n\geq 2$, there exists an unsatisfiable system of linear equations over $\mathbb{Z}_n$ whose constraint system game admits a perfect finite-dimensional quantum strategy. As a corollary, we completely characterise pseudo-telepathic constraint languages in finite dimension. The proof combines a result of Harding, Jager, and Smith on group-valued measures on subspaces of Hilbert spaces with the polymorphism-minion characterisation of quantum pseudo-telepathy.</description>
+    </item>
+    <item>
+      <title>New lower bounds on tensor rank of $(2,n,m)$ matrix multiplication with GPT-6</title>
+      <link>http://arxiv.org/abs/2609.14393v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14393v1</guid>
+      <pubDate>Sun, 13 Sep 2026 09:06:39 +0000</pubDate>
+      <description>The tensor rank of $2\times n$-with-$n\times m$ matrix multiplication is at least $(n+2)m$ if $n\ge 4$ and at least $\left\lceil \frac{24}{5}m \right\rceil$ if $n=3$. Both lower bounds apply over arbitrary fields.</description>
+    </item>
+    <item>
+      <title>Torsion detection in clique complexes is conditionally $QMA_1$-hard</title>
+      <link>http://arxiv.org/abs/2609.14110v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14110v1</guid>
+      <pubDate>Sat, 12 Sep 2026 19:14:49 +0000</pubDate>
+      <description>Quantum algorithms for topological data analysis compute Betti numbers, the ranks of the homology groups of a simplicial complex, which can be read off from the kernel of a combinatorial Laplacian. Deciding whether a Betti number of a clique complex is nonzero is $QMA_1$-hard, and remains so under a spectral gap promise on vertex-weighted graphs. Integral homology, however, contains information inaccessible to the Laplacian spectrum. A new part that appears in integral homology is torsion: cycles that become boundaries only after being traversed several times, as in a projective plane or a Klein bottle. We ask how hard it is to detect torsion, and we answer with a simple reduction. We attach to an arbitrary clique complex a fixed $31$-vertex triangulation of the projective plane. The $k$th mod-$2$ Betti number of the input then reappears as $2$-torsion two degrees up, while all rational homology disappears and every combinatorial Laplacian acquires a constant spectral gap. We conclude that detecting torsion in clique complexes of unweighted graphs is $NP$-hard, even under a constant gap promise, and that it is $QMA_1$-hard if mod-$2$ clique homology is.</description>
+    </item>
+    <item>
+      <title>Certified local rank and uniqueness barriers for a 48-term matrix-multiplication decomposition</title>
+      <link>http://arxiv.org/abs/2609.13596v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.13596v1</guid>
+      <pubDate>Fri, 11 Sep 2026 23:06:05 +0000</pubDate>
+      <description>We study replacements in fixed bilinear tensor decompositions, counting changes to complete rank-one summands, including output factors. The shortening frontier records the maximum rank defect of a fixed-size subset and determines the minimum length attainable within a change budget. For the rational 48-term Li--Wang--Hu decomposition \(D(2)\) of \(4\times4\) matrix multiplication over \(\mathbb{C}\), we prove rank radius at least 12, strong radius exactly 11, and border radius at least 8. Every shorter complex decomposition therefore changes at least thirteen original summands. An exact rational twelve-term replacement attains the equal-length barrier. The proofs combine exhaustive support reductions with saturated projected kernels and zero-corner completion arguments controlling arbitrary minimal competitors. A reduced-incidence argument transfers kernel certificates to tensor-space neighborhoods. A Laurent normal form gives strong radius exactly 11 for the sixteen-term core at every nonzero complex parameter. On a nonempty Zariski-open subset of the actual parameter curve, the rank radius is at least 12, the strong radius exactly 11, and the border radius at least 8. We also prove incomparability of the full Kothari--Moitra--Wein sufficient criterion and the Sylvester-equipped kernel criterion. These results describe local decomposition structure rather than a new rank bound for full matrix multiplication.</description>
+    </item>
+    <item>
       <title>The Low-Individual-Degree Test Without the Diagonal-Lines Test Is Not Quantum-Sound</title>
       <link>http://arxiv.org/abs/2609.12346v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12346v1</guid>
@@ -654,55 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.27277</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
       <description>In a hedonic game, agents need to be partitioned into coalitions, and have a preference order over partitions. A partition is called strongly popular if it beats any other partition in a majority vote among the agents. We focus on the fundamental class of additively separable hedonic games (ASHGs), where agents have additive valuations that induce their preferences. We prove that determining the existence of strongly popular partitions in ASHGs is complete for PCW, a recently introduced complexity class which lies in between $P^{NP}$ and $S_2^P$ (Gilboa et al., 2025). This settles an open problem by Brandt and Bullinger (2022) and Bullinger and Gilboa (2025).</description>
-    </item>
-    <item>
-      <title>Upper bounds for the monotone rank of the unique disjointness matrix</title>
-      <link>https://arxiv.org/abs/2607.27014</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27014</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>It is shown that the $\mathsf{OR}$-rank (covering rank) of the $2^n \times 2^n$ unique disjointness matrix is $n^{O(1)}(3/2)^n$, hence the known lower bound $1.5^n$ turns out to be essentially tight. By the way, an upper bound $1.89^n$ is obtained for the $\mathsf{SUM}$-rank (partition rank) of this matrix.</description>
-    </item>
-    <item>
-      <title>A literature review of recent advances in software design and architecture</title>
-      <link>https://arxiv.org/abs/2607.26110</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.26110</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Software architecture has evolved considerably in response to the increasing complexity of modern software systems, particularly those based on cloud computing, microservices, artificial intelligence (AI), and distributed computing environments. This literature review synthesizes recent studies published between 2024 and 2025 to examine emerging trends, challenges, and future directions in software design and architecture. The review adopts a thematic synthesis approach to analyse contemporary research across five major areas: architectural modelling and representation, software quality attributes and self-adaptive architectures, architectural evolution and complexity management, artificial intelligence-assisted architectural decision-making, and existing research gaps. The findings indicate that modern software architecture extends beyond traditional structural design to support continuous architectural governance, stakeholder communication, runtime observability, resilience, and intelligent decision support throughout the software lifecycle. Furthermore, the reviewed studies demonstrate that multiple architectural views, continuous monitoring, domain-driven decomposition, and AI-assisted design techniques contribute significantly to improving scalability, maintainability, adaptability, and long-term software sustainability. Despite these advances, several research gaps remain, including limited empirical validation of proposed approaches, insufficient integration of security and privacy into architectural decision-making, inadequate exploration of emerging paradigms such as edge and serverless computing, and the absence of standardized frameworks for trustworthy AI-assisted architecture.</description>
-    </item>
-    <item>
-      <title>Breaking the $4^k$ Barrier for the $k$-Distinct Language</title>
-      <link>https://arxiv.org/abs/2607.25381</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.25381</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>For integers $k\le n$, let $L_{k,n}$ be the set of words over $[n]$ of length at most $k$ in which no symbol is repeated. We present a nondeterministic finite automaton (NFA) of size $3.918^k n^{O(1)}$, improving on the $4^{k+o(k)}n^{O(1)}$ construction of Ben-Basat, Gabizon, and Zehavi. Our proof organizes several classical ingredients---product automata, hashing, and coefficient estimates---into a gadget-amplification framework: We take the product of many copies of a small local NFA gadget, whose language is a subset of $L_{r,c}$, and hash the $k$ input symbols to copies and local colors. The hash family guarantees that, for every repetition-free input, some hash sends at most $r$ symbols to each copy such that the resulting projection in every copy is accepted by the local gadget. Taking the nondeterministic union of the corresponding product NFAs yields a global NFA. Amplifying a $200$-state gadget for $L_{6,11}$ obtained from the small Witt design $S(4,5,11)$, this framework gives a $3.967^k n^{O(1)}$-size NFA. We then introduce the compose-and-compress technique, which deletes the expensive middle layers of these products and replaces paths across the deleted bands with sound one-symbol shortcut transitions. We apply it twice, once for enhancing the amplification framework and again for the local gadget, obtaining the stated result.</description>
-    </item>
-    <item>
-      <title>Flip Distance Between Triangulations of Convex Polygons is NP-Complete</title>
-      <link>https://arxiv.org/abs/2602.22874</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.22874</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The complexity of determining the minimum number of flips that transform one triangulation of a convex polygon into another has been raised as an open problem by Culik and Wood [Inf. Proc. Letters 1982] and has been popularized through the study of extremal pairs of triangulations by Sleator, Tarjan, and Thurston [STOC 1986 &amp; J. Am. Math. Society 1988]. The search for a hardness proof for the flip distance problem has yielded many (weaker) hardness-results in more general settings. Lubiw and Pathak [CCCG 2012, Comp. Geom. 2014] and Pilz [Comp. Geom. 2014] proved that computing the flip distance between triangulations of point sets in general position is NP-complete. Further, Aichholzer, Mulzer, and Pilz [ESA 2013, DCG 2015] proved that computing the flip distance between triangulations of simple polygons is NP-complete. The methods used to obtain these previous hardness results rely heavily on the geometric positioning of the vertices of the point set or the vertices of the polygon and are thus not feasible to prove NP-hardness for the flip distance problem of triangulations of convex polygons, where vertices are placed on a circle. We formulate a notion of conflict graphs for flip sequences between triangulations of convex polygons that allows us to use both geometric and combinatorial tools to study flip sequences. Large acyclic subsets of the conflict graph will correspond to short flip sequences. We show NP-completeness of the flip distance problem by proving that finding the largest acyclic subset of our conflict graphs is NP-complete.</description>
-    </item>
-    <item>
-      <title>Randomness Conservation Inequalities; Information and Independence in Mathematical Theories</title>
-      <link>https://arxiv.org/abs/2607.23830</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23830</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The article develops further Kolmogorov's Algorithmic Complexity Theory. The definition of Randomness is modified to satisfy strong invariance properties (conservation inequalities). This allows definitions of concepts such as Mutual Information in individual infinite sequences. Applications to several areas, like Probability Theory, Theory of Algorithms, Intuitionistic Logic are considered. These theories are simplified substantially with the postulate that the objects they consider are independent of (have small mutual information with) any sequence specified by a mathematical property.</description>
-    </item>
-    <item>
-      <title>Trellis State Complexity as an Exact Tropical Factorization Rank</title>
-      <link>https://arxiv.org/abs/2607.23471</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23471</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Let $C\subseteq\F_2^m$ be a binary linear code and let $[m]=L\sqcup R$ be a bipartition of its coordinates. The \emph{conditional decoding matrix} of $C$ at this cut is the matrix $W$ indexed by $\F_2^{L}\times\F_2^{R}$ whose entry $W(x_L,x_R)$ is the coset-leader weight $d\bigl((x_L,x_R),C\bigr)$, the minimum Hamming distance from the word $(x_L,x_R)$ to the code. We prove that the min-plus factorization rank (Barvinok rank) of $W$, and likewise its tropical rank, equal $2^{s}$ exactly, where $s=\dim C-\dim C_L-\dim C_R$ is the classical state complexity of the minimal trellis of $C$ at the cut. The upper bound is a two-party reading of Viterbi decoding on the minimal trellis; the contribution is the matching lower bound, which holds against arbitrary min-plus factorizations rather than only sequential trellis realizations, and is obtained from an explicit $2^{s}\times 2^{s}$ tropically nonsingular submatrix built from a transversal of codewords. Specializing $C$ to the cut space of a graph identifies $W$ with the conditional ground-state energy of Ising signings (the frustration index), and yields natural graph families whose conditional matrices have min-plus rank exponential in the number of vertices; for these families we also record the contrasting local statement that all bounded-radius views of a signing are switching-trivial, so the exponential rank is carried entirely by non-local structure. We note explicitly that this rank measures representational incompressibility, not computational hardness: planar families attain the same exponential rank while their ground states are computable in polynomial time.</description>
-    </item>
-    <item>
-      <title>Genuine Global Kochen-Specker Contextuality as Classical Coordination Cost</title>
-      <link>https://arxiv.org/abs/2606.23577</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.23577</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We formulate classical simulation of quantum correlations as coordination across a spacetime separator. All past-dependent information capable of influencing the future must cross the separator either through communicated messages or through a persistent classical state. We prove a general lower bound on this classical coordination cost in terms of the nonnegative rank of the separator correlation matrix, with approximate and amortized extensions governed by approximate nonnegative rank and Wyner common information. For sequential processes, we introduce a causal positive-realization rank that enforces consistent response and state-update maps, and we explain how bounded local computation and support-covering models arise as restricted cases. We apply the framework to genuine global Kochen--Specker contextuality, in which local subsystems are noncontextual and the tested multipartite blocks are generalized-Bell-local, while the complete empirical model has no global noncontextual explanation. At the symmetric point of a polarization--path Hardy construction, exact classical simulation requires two coordination bits, whereas the corresponding quantum separator requires one qubit. Under exact repetition, the classical lower bound is the base-two logarithm of three bits per copy; with asymptotically vanishing error, it becomes one and a half classical bits per copy, compared with one qubit per copy. We further construct a finite stabilizer--Peres--Mermin family for which the exact classical coordination cost grows quadratically with system size, while the quantum boundary cost grows only linearly. The separation applies to arbitrary finite-state causal online simulators. Establishing a constant-error quadratic separation and an intrinsic construction without flag conditioning remain open.</description>
     </item>
   </channel>
 </rss>

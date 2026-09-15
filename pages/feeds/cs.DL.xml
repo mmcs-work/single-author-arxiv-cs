@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Ending the NIH embargo accelerated public access to funded research, but substantial delays remain</title>
+      <link>http://arxiv.org/abs/2609.14842v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14842v1</guid>
+      <pubDate>Sun, 13 Sep 2026 23:22:34 +0000</pubDate>
+      <description>On 1 July 2025 the National Institutes of Health began requiring that funded articles be publicly available in PubMed Central on the day they are published, ending the 12-month embargo that had applied since 2008. Comparing NIH-supported articles with articles in the same journals and months that reported no US federal support, before and after the policy, the share available in PubMed Central within a week of publication rose by 5.6 percentage points more for NIH-supported articles (95% CI 1.9 to 9.6). The change was concentrated in journals outside the Directory of Open Access Journals, where the share of NIH-supported articles in PubMed Central within a week doubled from 11% to 22%, with no differential change in DOAJ-listed journals. A pre-policy comparison showed no difference. For articles published in early 2026, the policy had made NIH-supported research available sooner, and most NIH-supported articles in journals outside the Directory were still not in PubMed Central a week after publication.</description>
+    </item>
+    <item>
       <title>Do Reviewers Still Reward Lexical Complexity? A Frozen-Rater Study of Preference Drift in 124K ICLR Reviews</title>
       <link>http://arxiv.org/abs/2609.08475v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.08475v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.16407</guid>
       <pubDate>Tue, 31 Mar 2026 00:00:00 -0000</pubDate>
       <description>This paper investigates how generative AI produces and propagates hallucinated academic references, focusing on the recurring non-existent citation 'Education Governance and Datafication' attributed to Ben Williamson and Nelli Piattoeva. Drawing on 137 accessible source papers identified through Google Scholar and Google searches, the study analyses the structure, recurrence, and onward citation of this phantom reference. It shows that hallucinated citations are not random inventions but patterned recombinations of real authors, journals, dates, and keywords, with duplication occurring in nearly 30% of cases. The paper also reports a structured interrogation of ChatGPT 5-mini about how it generates citations and finds that, absent verification, the model reconstructs plausible references from learned patterns rather than factual recall. Finally, ten AI-generated essays on datafication and school governance were examined: while most references were genuine or partly accurate, 9.2% remained hallucinated, including an exact match to the most common phantom citation. The findings highlight ongoing risks to academic integrity and show that web-enabled AI still does not fully eliminate fabricated references.</description>
-    </item>
-    <item>
-      <title>Where Do Your Citations Come From? Citation-Constellation: A Free, Open-Source, No-Code, and Auditable Tool for Citation Network Decomposition with Complementary BARON and HEROCON Scores</title>
-      <link>https://arxiv.org/abs/2603.24216</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.24216</guid>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Standard citation metrics treat all citations as equal, obscuring the social and structural pathways through which scholarly influence propagates. I introduce Citation-Constellation, a freely available no-code tool for citation network analysis with two complementary bibliometric scores that decompose a researcher's citation profile by network proximity between citing and cited authors. BARON (Boundary-Anchored Research Outreach Network score) is a strict binary metric counting only citations from outside the detected collaborative network. HEROCON (Holistic Equilibrated Research Outreach CONstellation score) applies graduated weights assigning partial credit to in-group citations based on relationship proximity. The gap between scores serves as a diagnostic of inner-circle dependence. An extended abstract with full details appears in the paper. The tool implements this through a phased architecture: (1) self-citation analysis, (2) co-authorship graph traversal, (3) temporal institutional affiliation matching via ROR, and (4) AI-agent-driven venue governance extraction using a local LLM. Phases 1-3 are fully operational; Phase 4 is under development. Key design choices include ORCID-validated author identity resolution, an UNKNOWN classification for citations with insufficient metadata, and comprehensive audit trails documenting every classification decision. A no-code web interface enables researchers to compute scores without programming, installation, or registration. I present these scores as structural diagnostics, not quality indicators. BARON and HEROCON describe where in the social graph citations originate. They should not be used for hiring, promotion, or funding decisions. HEROCON weights are experimental and require empirical calibration.</description>
     </item>
   </channel>
 </rss>

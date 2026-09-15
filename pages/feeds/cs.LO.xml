@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Finite Dependence and Invariance Hierarchies for Finitely Supported Structures</title>
+      <link>http://arxiv.org/abs/2609.15879v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15879v1</guid>
+      <pubDate>Mon, 14 Sep 2026 17:08:37 +0000</pubDate>
+      <description>Finite support indicates that the dependence is limited, but not how each finite context controls what can be observed. For a data symmetry G \leq Sym(A) and a finitely supported G-set X, we study the finite-dependence profile X^S = {x : Fix_G(S) fixes x}, indexed by finite contexts S \subseteq A. For relations on A^n this yields Boolean algebras B^{(n)}_{G,S} = Inv_n(Fix_G(S)), forming the invariance hierarchy. The hierarchy separates several nominal principles. Its meet law is the relation-algebra form of the Bojanczyk-Klin-Lasota least-support criterion, while level injectivity is fungibility. The independent join law governs composition across unions of contexts; it holds for locally oligomorphic automorphism groups of ultrahomogeneous structures in purely relational languages of arity at most two, but can fail for unary observations over ternary data. Freshness remains valid sort by sort, and its unrestricted some/any form characterizes full equality symmetry among closed groups. With least supports, orbit-finiteness implies finite context levels and a uniform support bound; under local oligomorphicity the converse also holds. Pointwise closure does not change the profile, and standard atomic-site presentations show that suitable ultrahomogeneous structures with the same age have equivalent action topoi, even though their material FSS universes may retain different external cardinal data. Contextual orientability gives a complementary pointed invariant whose threshold is the least support size of choice from unordered pairs. For countable omega-categorical structures with degenerate algebraic closure, the meet law is equivalent to weak elimination of imaginaries.</description>
+    </item>
+    <item>
+      <title>Protected tails and polynomial-time enumeration of permutations avoiding a direct sum of an increasing pattern and 231</title>
+      <link>http://arxiv.org/abs/2609.15642v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15642v1</guid>
+      <pubDate>Mon, 14 Sep 2026 14:30:11 +0000</pubDate>
+      <description>We give an exact algorithm counting the permutations that avoid a fixed pattern from the following family: the direct sum of an increasing pattern and the pattern 231. The first members of the family are 1342 and 12453. For each member, the algorithm computes the number of avoiding permutations of every length up to a given bound using polynomially many arithmetic operations and polynomially many stored integers, with degrees that grow linearly in the length of the pattern. We first obtain an exact recurrence by reading a permutation from left to right and recording, at each step, the constraints that the letters read so far impose on those still unread. Its state space grows exponentially, so evaluating it directly takes exponential time. We then show that part of the state is protected: later steps carry it along unchanged and do not depend on it. Factoring the protected part out turns the recurrence into a dynamic program with polynomially many stored transfer entries, and this gives the polynomial bounds for every member of the family. For the pattern 12453, a translation symmetry sharpens the bounds to degree seven for the operations and degree four for the storage. Separately written implementations and exact Chinese-remainder certification determine the number of 12453-avoiding permutations of every length up to 150. The previously published series reached length 38. The same tables also generate uniformly random avoiders in polynomial time. We illustrate this with a heatmap of one million 12453-avoiding permutations of length 300 sampled with floating-point tables. The counting recurrences for 1342 and 12453 are verified in the Lean 4 proof assistant.</description>
+    </item>
+    <item>
+      <title>Ontological free will as incompressible information adjunction: A noncomputability boundary beyond P versus NP</title>
+      <link>http://arxiv.org/abs/2609.15464v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.15464v1</guid>
+      <pubDate>Mon, 14 Sep 2026 12:26:55 +0000</pubDate>
+      <description>We study a conditional model of ontological free will in which a pre-act state structures several coherent global continuations without intrinsically distinguishing one as the future actualisation. The topos-theoretic component is formalised by a choice sheaf and by the action of automorphisms preserving the pre-act data: the absence of a fixed point rules out any natural equivariant selection. An act changes an unpointed object into a pointed one and reduces its symmetry group to a stabiliser. Independently, a causal algorithmic incompressibility axiom imposes nearly maximal online description complexity on the actual choices. Uniformly observable post-act traces then allow their reconstruction. We prove a conditional transfer result: such traces must carry asymptotically all the singularisation information unavailable in the pre-act regime, and no uniform Turing predictor computes the choices from causal histories alone. The formalism proves neither that human beings satisfy the model nor a separation of P from NP; it identifies a boundary at which prediction concerns the existence of a computable function rather than its time complexity.</description>
+    </item>
+    <item>
+      <title>Linear equations mod $n$ are pseudo-telepathic</title>
+      <link>http://arxiv.org/abs/2609.14632v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14632v1</guid>
+      <pubDate>Sun, 13 Sep 2026 16:04:54 +0000</pubDate>
+      <description>We prove that the quantum monad in dimension $2n$ admits no natural transformation to the polymorphism clone of linear equations modulo $n$. Consequently, for every $n\geq 2$, there exists an unsatisfiable system of linear equations over $\mathbb{Z}_n$ whose constraint system game admits a perfect finite-dimensional quantum strategy. As a corollary, we completely characterise pseudo-telepathic constraint languages in finite dimension. The proof combines a result of Harding, Jager, and Smith on group-valued measures on subspaces of Hilbert spaces with the polymorphism-minion characterisation of quantum pseudo-telepathy.</description>
+    </item>
+    <item>
+      <title>Simplified proofs of Weak Normalization for propositional logic</title>
+      <link>http://arxiv.org/abs/2609.14314v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14314v1</guid>
+      <pubDate>Sun, 13 Sep 2026 06:18:21 +0000</pubDate>
+      <description>We present a new proof of weak normalization for intuitionistic natural deduction. The distinguishing features of this proof are that it works only with cuts rather than cut segments, provides explicit local rules for determining whether to contract a whole proof or reduce one of its subproofs, and in the latter case, which subproof to reduce. We also discuss a formalization of the entire proof in Lean, and present a deterministic algorithm for weak normalization.</description>
+    </item>
+    <item>
+      <title>On the Number of Distinct Topological Bases of a Finite Set of Size $N$</title>
+      <link>http://arxiv.org/abs/2609.14102v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14102v1</guid>
+      <pubDate>Sat, 12 Sep 2026 18:56:14 +0000</pubDate>
+      <description>For a finite set $S$ with $\lvert S\rvert = N$, the number of families $\mathcal{B} \subseteq \mathcal{P}(S)$ that are topological bases is $\#(N) = \sum_{\mathcal{T} \in \operatorname{Top}(S)} 2^{\lvert\mathcal{T}\rvert - \lvert\mathcal{M}_{\mathcal{T}}\rvert}$, where $\mathcal{M}_{\mathcal{T}}$ is the canonical minimal basis of minimal open neighborhoods. The identity is proved in Lean 4 / Mathlib (`CARDB.lean`): bases generating $\mathcal{T}$ are exactly the sets with $\mathcal{M}_{\mathcal{T}} \subseteq \mathcal{B} \subseteq \mathcal{T}$. The small-$N$ table and the discrete-dominance sandwich are proved in `CARDB/SmallN.lean` and `CARDB/Asymptotics.lean`.</description>
+    </item>
+    <item>
+      <title>A Catalogue of Properties of Binary Relations: Entailments, Incompatibilities, and Independence Results</title>
+      <link>http://arxiv.org/abs/2609.13317v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.13317v1</guid>
+      <pubDate>Thu, 10 Sep 2026 18:41:39 +0000</pubDate>
+      <description>We study fifteen properties of binary relations that have established uses in modal logic, order and preference theory, and relation algebra. The organising question is pragmatic: once some properties of a relation are known, which further properties follow, which combinations force degeneracy, and which properties remain independent? We give a proved Horn basis of elementary and compound entailments, explicit countermodels for non-entailments, and a relation-algebraic translation of all fifteen properties. The modal discussion includes the usual Scott--Lemmon correspondences and the logic of transitive dense frames studied by Ghilardi and Mints. Exhaustive finite enumeration and targeted model search are used for discovery, while the catalogue is certified in Lean. A kernel-checked coverage calculation ranges over all 2^15 = 32,768 antecedent sets and all fifteen possible consequents. Its 51-rule Horn manifest is coupled definitionally to Lean proofs of semantic soundness, and its 49 witness rows are coupled definitionally to Lean-certified finite or infinite relations. Consequently, over non-empty domains, the Horn closure is complete for positive entailment among the fifteen selected properties, and the consistency classification is complete for their positive combinations.</description>
+    </item>
+    <item>
       <title>Warrant Theory</title>
       <link>http://arxiv.org/abs/2609.11667v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11667v1</guid>
@@ -654,55 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2504.01847</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
       <description>Sets of equations E play an important computational role in rewriting-based systems R. The equivalence relation =E induced by E introduces a partition of terms into E-equivalence classes on which rewriting computations, denoted -&gt;R/E and called rewriting modulo E, are issued. This paper investigates confluence of -&gt;R/E, usually called E-confluence, for conditional rewriting-based systems, where rewriting steps are determined by conditional rules. We rely on Jouannaud and Kirchner's framework to investigate confluence of an abstract relation R modulo an abstract equivalence relation E on a set A. We show how to particularize such a framework to be used with conditional systems. Then, we show how to define appropriate finite sets of conditional pairs to prove and disprove E-confluence. We introduce (i) Logic-based Conditional Critical Pairs, which do not require the use of (often infinitely many) E-unifiers to provide a finite representation of the local peaks considered in the abstract framework. We also introduce (ii) parametric Conditional Variable Pairs which are essential to deal with conditional rules in the analysis of E-confluence. Finally, we introduce (iii) Down Conditional Pairs which are often necessary to disprove E-confluence. Our results apply to well-known classes of rewriting-based systems, improving on previous results. As for unconditional systems, our results apply to Equational Term Rewriting Systems, first investigated by Huet and then by Jouannaud, and Jouannaud and Kirchner, among others. As for conditional systems, our results also apply to conditional rewrite theories and Maude.</description>
-    </item>
-    <item>
-      <title>Extension Types for Free</title>
-      <link>https://arxiv.org/abs/2607.27387</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27387</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Extension types are a concept in dependent type theory that has appeared in various contexts. The idea is to have types whose terms are partially determined, e.g. via a strict boundary condition. Standard examples are path types of cubical type theories (paths with fixed endpoints), Riehl and Shulman's name-giving extension types (terms fixed on subshapes), as well as the controlled-unfolding mechanism of cooltt and Agda (terms that are fixed if a condition is met). In each case, the type theory is equipped with a (meta-theoretic) face calculus, or shape layer, that governs their rules, and comes with intended semantics. We unify all these occurrences in a single framework where no new axioms or model constructions are needed, namely two-level type theory. This step, too, is free (semantically): the standard models of HoTT are automatically models of 2LTT, and the theory is conservative over HoTT. Extension types are definable, and the definition validates Riehl and Shulman's entire extension-type calculus: the rules hold strictly, and the postulated axioms, such as relative function extensionality, become theorems. In this way, every model of the base theory (HoTT) gives rise to a model of the same theory with extension types; the only genuine assumptions are which maps count as cofibrations. Conservativity makes the framework a tool for comparing type theories. We prove that cubical gluing, in a suitable formulation, is equivalent to univalence. On this basis, we suggest an approach toward the conjecture that cubical type theories are conservative over book HoTT, one of the central open problems of homotopy type theory. All results of the main body of the paper are auto-formalized in Agda --two-level, in a development that combines HoTT-internal arguments with reasoning that is external to HoTT.</description>
-    </item>
-    <item>
-      <title>Possibilistic operators in Formal Concept Analysis as Kan extensions</title>
-      <link>https://arxiv.org/abs/2607.26776</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.26776</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In this paper we prove that Dubois--Prade's eight possibilistic operators in Formal Concept Analysis arise canonically from Kan extensions of the underlying boolean profunctor. This provides a conceptual explanation for the result that $NΠ$-pairs are the formal concepts of the complement context. We further prove that the FCA closure operator and the $NΠ$-pairs are the only symmetric or asymmetric operator compositions that give formal concepts. Finally we use these eight possibilistic operators to construct new closure operators on a formal context via standard categorical arguments.</description>
-    </item>
-    <item>
-      <title>Setoids in Intensional Type Theory</title>
-      <link>https://arxiv.org/abs/2607.23671</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23671</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We show that a certain notion of displayed setoid (family of setoids) in intensional type theory can be used to give a semantics for extensional type theory with universes (ETU). Safe Agda serves as a machine-checkable formalization of intentional type theory augmented with a universe closed under inductive-recursive definitions (IRU). The syntax of ETU is defined in IRU in a traditional extrinsic form, using a well-scoped locally nameless representation of its terms. Giving the semantics of ETU in terms of displayed setoids is complicated by the very limited means of expression afforded by IRU. As a corollary we obtain a proof within IRU of the consistency of ETU.</description>
-    </item>
-    <item>
-      <title>An Unofficial FastLAS Tutorial: A Programmer's Guide</title>
-      <link>https://arxiv.org/abs/2607.23557</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23557</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>FastLAS is a scalable system for Inductive Logic Programming (ILP): you give it some background knowledge, a language bias, and a set of examples, and it searches for a set of logic program rules (a hypothesis) that explains the examples. These notes are a hands-on introduction to writing FastLAS programs. They are organised as a programmer's guide: syntax first, then a ladder of worked, numbered examples of increasing difficulty. Every self-contained example here has been run against FastLAS 2.2.0 and shows the tool's actual output. We keep theory to the minimum needed to write correct programs; throughout, set-off notes flag where FastLAS differs from its sibling system ILASP, and where the two learning algorithms (--opl and --nopl) behave differently. The document is intended as an unofficial tutorial to FastLAS 2.2.0, not as an official language specification.</description>
-    </item>
-    <item>
-      <title>From Phase Semantics to Base-extension Semantics (and back)</title>
-      <link>https://arxiv.org/abs/2606.13855</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.13855</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Linear logic admits a wide range of semantic presentations reflecting its resource-sensitive notion of consequence. One well-known example is phase semantics: an algebraic semantics in which formulas are interpreted in phase models, consisting of a phase space formed by a commutative monoid and a fixed subset, with respect to which an orthogonality relation is defined, and a valuation. A rather different and much more recent approach is given by base-extension semantics, which defines validity by inductively extending a provability relation on a base -- a set of inference rules over atomic propositions. We establish an equivalence between the two semantics by first defining bidirectional maps between bases and phase models, and then constructing an isomorphism between a phase model (resp. base) and its image under the composition of these maps. As a further contribution, we define the base-extension semantics clauses for the exponentials of linear logic.</description>
-    </item>
-    <item>
-      <title>Towards Verifiable Transformers: Solver-Checkable Circuit Explanations</title>
-      <link>https://arxiv.org/abs/2605.24033</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.24033</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Mechanistic interpretability typically discovers circuits and then argues what they do from examples and ablations. We introduce Verifiable Transformers, a framework for turning task-localized circuits into bounded, solver-checkable claims: projected functional equivalence, task-relevant invariance, edge necessity, and robustness to continuous final-residual perturbations. At small scale, we directly verify all four properties for quote-closing and bracket-type circuits, including program-mediated circuits whose attention selection is entirely symbolic. At GPT-2 scale, we remove LayerNorm from a sparsemax/LeakyReLU model after training with a +0.0087 OpenWebText loss increase, replace retained attention heads with synthesized restricted-DSL programs, and calibrate only program-local readouts while freezing and hashing every other parameter. The resulting three-edge quote circuit (embedding $\to$ MLP 0 $\to$ program head $\to$ logits) verifies all four properties over a hash-pinned 1,280-prompt domain in linear real arithmetic: 1,280/1,280 equivalence and invariance, 640 edge-necessity witnesses per edge, and robustness at $ε= 0.01$ with minimum certified radius 0.01515. For two alphabet variants of the same opener-detection/copy-type task, untouched gates expose a localization frontier: bracket-type extraction is exact only with all 144 heads, while the constructed quote artifact verifies with three edges. Naive discovery-based verification failed for measured reasons; at scale, we find we must build the object we can verify. The verified object is a calibrated artifact, not the unmodified model, and all claims are bounded to declared domains.</description>
-    </item>
-    <item>
-      <title>Verification of Provers and Solvers</title>
-      <link>https://arxiv.org/abs/2607.25793</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.25793</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Automatic deduction tools such as automatic theorem provers, SAT (satisfiability) solvers, SMT (satisfiability modulo theories) solvers, and termination analyzers can be connected to proof assistants using various approaches, notably by certification and verification. This chapter reviews and compares the approaches available, and mentions several successful applications.</description>
     </item>
   </channel>
 </rss>
