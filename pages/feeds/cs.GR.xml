@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Opacity Is Not Just Opacity</title>
+      <link>http://arxiv.org/abs/2609.14971v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14971v1</guid>
+      <pubDate>Mon, 14 Sep 2026 03:23:56 +0000</pubDate>
+      <description>Opacity is commonly understood as how much an object obscures its background, with full opacity as the endpoint. Yet alpha compositing scales the color difference between the object and its background, with transparency corresponding to contraction. At $α=1$, the output reaches the source color, but difference scaling need not stop there. We retain the compositing equation and extend the coefficient domain from $[0,1]$ to $[0,+\infty)$, adding expansion while preserving contraction. Each object carries a fixed source color and coefficient; the actual background determines the direction of enhancement. Contrast enhancement that adapts to the background thus becomes part of the object's compositing properties. The same graphical object can be reused across web contexts, reducing the design and maintenance of separate color variants. Implementation reuses the original equation without increasing the arithmetic operation count within the same pipeline. Across all 8-bit sRGB source colors and 16 predefined light and dark backgrounds, a fixed $α=1.1$ increases the contrast ratio in 99.8145% of combinations. It also moves 4.8346% of all combinations from below $3:1$ to at least $3:1$, meeting this contrast threshold without changing their source colors. Coefficient sweeps and background stress tests identify conditions under which clipping reduces color separation or the contrast ratio decreases. Output validation and timing across three browsers demonstrate implementation in a common WebGL pipeline, with no sustained runtime increase for $α&gt;1$.</description>
+    </item>
+    <item>
+      <title>The optimal-transport cartogram: world population as a Brenier map</title>
+      <link>http://arxiv.org/abs/2609.14089v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14089v1</guid>
+      <pubDate>Sat, 12 Sep 2026 18:15:43 +0000</pubDate>
+      <description>A contiguous cartogram is a map whose area is proportional to a quantity such as population. The defining condition, that the Jacobian determinant of the deformation equals the density, is one equation for two unknown functions, so every cartogram method adds a tie-breaker, usually implicitly. Optimal transport makes the tie-breaker explicit: among all density-equalising maps of the frame onto itself, take the one that moves the population least in the mean-square sense. By Brenier's theorem that map is the gradient of a convex potential, so it has no local rotation anywhere and cannot fold. We compute this map for the world population of 2025 on a 4096 by 4096 Mercator grid (10 km cells) from the GHS-POP raster, using the fixed-point Monge-Ampère iteration of Benamou, Froese and Oberman with spectral Poisson solves, continuation in the population share and an ocean-only buffer, on a laptop GPU. Against a Gastner-Newman diffusion cartogram of the same density we find the same transport cost to within 0.4 per cent and density errors of a few per cent for both, but a median local rotation of 8.8 degrees for diffusion against 0.01 for transport, and a median anisotropy of 6.30 against 3.93. The construction extends to local refinement, by transporting a city's 100 m population onto the area measure the global map assigns to it, and to a semi-discrete counterpart: 8,192 Laguerre cells of 1.00 million people each. Code, data provenance and every figure's inputs are public.</description>
+    </item>
+    <item>
+      <title>A Sharp Conservative Offset for Marching Cubes</title>
+      <link>http://arxiv.org/abs/2609.13430v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.13430v1</guid>
+      <pubDate>Fri, 11 Sep 2026 18:47:03 +0000</pubDate>
+      <description>Given a grid-sampled 1-Lipschitz function $f:\mathbb{R}^3 \rightarrow \mathbb{R}$ (such as a signed distance function) sampled on a regular grid, we determine the sharp infimum $σ_\star$ such that for every $σ&gt; σ_\star$ the true zero-level set $f^{-1}(0)$ is contained in the marching cubes mesh for $f = σ$. For grids with spacing $h$, the sharp infimum is $σ_\star = \frac{\sqrt{3}}{2} h$. This result is proven \emph{despite} the planar marching cube faces potentially lying on either side of the level set of the trilinearly interpolated approximation of $f$ (which shares the same infimum). The proof instead constructs a convex lift of the corner samples and shows that the high-side portion of each marching-cubes cell lies in the projection of its $σ$-superlevel portion, which cannot contain a point of $f^{-1}(0)$.</description>
+    </item>
+    <item>
       <title>Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts</title>
       <link>http://arxiv.org/abs/2609.05661v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.05661v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2506.23406</guid>
       <pubDate>Sun, 29 Jun 2025 00:00:00 -0000</pubDate>
       <description>The analysis of 3D symmetric second-order tensor fields often relies on topological features such as degenerate tensor lines, neutral surfaces, and their generalization to mode surfaces, which reveal important structural insights into the data. However, uncertainty in such fields is typically visualized using derived scalar attributes or tensor glyph representations, which often fail to capture the global behavior. Recent advances have introduced uncertain topological features for tensor field ensembles by focusing on degenerate tensor locations. Yet, mode surfaces, including neutral surfaces and arbitrary mode surfaces are essential to a comprehensive understanding of tensor field topology. In this work, we present a generalization of uncertain degenerate tensor features to uncertain mode surfaces of arbitrary mode values, encompassing uncertain degenerate tensor lines as a special case. Our approach supports both surface and line geometries, forming a unified framework for analyzing uncertain mode-based topological features in tensor field ensembles. We demonstrate the effectiveness of our method on several real-world simulation datasets from engineering and materials science.</description>
-    </item>
-    <item>
-      <title>3Description: An Intuitive Human-AI Collaborative 3D Modeling Approach</title>
-      <link>https://arxiv.org/abs/2506.21845</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.21845</guid>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 -0000</pubDate>
-      <description>This paper presents 3Description, an experimental human-AI collaborative approach for intuitive 3D modeling. 3Description aims to address accessibility and usability challenges in traditional 3D modeling by enabling non-professional individuals to co-create 3D models using verbal and gesture descriptions. Through a combination of qualitative research, product analysis, and user testing, 3Description integrates AI technologies such as Natural Language Processing and Computer Vision, powered by OpenAI and MediaPipe. Recognizing the web has wide cross-platform capabilities, 3Description is web-based, allowing users to describe the desired model and subsequently adjust its components using verbal and gestural inputs. In the era of AI and emerging media, 3Description not only contributes to a more inclusive and user-friendly design process, empowering more people to participate in the construction of the future 3D world, but also strives to increase human engagement in co-creation with AI, thereby avoiding undue surrender to technology and preserving human creativity.</description>
-    </item>
-    <item>
-      <title>Hybridizing Expressive Rendering: Stroke-Based Rendering with Classic and Neural Methods</title>
-      <link>https://arxiv.org/abs/2506.00870</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.00870</guid>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 -0000</pubDate>
-      <description>Non-Photorealistic Rendering (NPR) has long been used to create artistic visualizations that prioritize style over realism, enabling the depiction of a wide range of aesthetic effects, from hand-drawn sketches to painterly renderings. While classical NPR methods, such as edge detection, toon shading, and geometric abstraction, have been well-established in both research and practice, with a particular focus on stroke-based rendering, the recent rise of deep learning represents a paradigm shift. We analyze the similarities and differences between classical and neural network based NPR techniques, focusing on stroke-based rendering (SBR), highlighting their strengths and limitations. We discuss trade offs in quality and artistic control between these paradigms, propose a framework where these approaches can be combined for new possibilities in expressive rendering.</description>
-    </item>
-    <item>
-      <title>Parametric/direct CAD integration</title>
-      <link>https://arxiv.org/abs/2203.02252</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2203.02252</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 -0000</pubDate>
-      <description>In the history of computer-aided design (CAD), feature-based parametric modeling and boundary representation-based direct modeling are two of the most important CAD paradigms, developed respectively in the late 1980s and the late 2000s. They have complementary advantages and limitations, thereby offering huge potential for improvement towards an integrated CAD modeling scheme. Some believe that their integration will be the key characteristic of next generation CAD software. This paper provides a brief review on current parametric/direct integration approaches. Their basic ideas, advantages, and disadvantages will be discussed. The main result reads that existing integration approaches are far from being completed if seamless parametric/direct integration is desired. It is hoped that, by outlining what has already been made possible and what still remains problematic, more researchers will be attracted to work on this very important research topic of parametric/direct integration. This paper serves as a complement to the CAD paper titled ``Variational Direct Modeling: A Framework Towards Integration of Parametric Modeling and Direct Modeling in CAD." Cite this work as follows: Qiang Zou, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A Framework Towards Integration of Parametric Modeling and Direct Modeling in CAD. Computer-Aided Design 157 (2023): 103465.</description>
     </item>
   </channel>
 </rss>

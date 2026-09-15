@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Opacity Is Not Just Opacity</title>
+      <link>http://arxiv.org/abs/2609.14971v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14971v1</guid>
+      <pubDate>Mon, 14 Sep 2026 03:23:56 +0000</pubDate>
+      <description>Opacity is commonly understood as how much an object obscures its background, with full opacity as the endpoint. Yet alpha compositing scales the color difference between the object and its background, with transparency corresponding to contraction. At $α=1$, the output reaches the source color, but difference scaling need not stop there. We retain the compositing equation and extend the coefficient domain from $[0,1]$ to $[0,+\infty)$, adding expansion while preserving contraction. Each object carries a fixed source color and coefficient; the actual background determines the direction of enhancement. Contrast enhancement that adapts to the background thus becomes part of the object's compositing properties. The same graphical object can be reused across web contexts, reducing the design and maintenance of separate color variants. Implementation reuses the original equation without increasing the arithmetic operation count within the same pipeline. Across all 8-bit sRGB source colors and 16 predefined light and dark backgrounds, a fixed $α=1.1$ increases the contrast ratio in 99.8145% of combinations. It also moves 4.8346% of all combinations from below $3:1$ to at least $3:1$, meeting this contrast threshold without changing their source colors. Coefficient sweeps and background stress tests identify conditions under which clipping reduces color separation or the contrast ratio decreases. Output validation and timing across three browsers demonstrate implementation in a common WebGL pipeline, with no sustained runtime increase for $α&gt;1$.</description>
+    </item>
+    <item>
       <title>Tact: A Zero-Cost, Browser-Based Pipeline for On-Demand Tactile Braille Storybooks</title>
       <link>http://arxiv.org/abs/2609.12272v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12272v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.15523</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
       <description>Scene-centric visualization systems expose semantic components, such as marks, encodings, layouts, and axes, as first-class objects that can be directly manipulated. Existing interaction abstractions, however, are largely based on event streams, signals, and data selections rather than semantic scene components. This mismatch makes interactions involving scene components less natural to specify and limits the expressive power of scene-centric visualization systems. We present Interactive Mascot, a scene-centric interaction grammar for data visualizations. Interactive Mascot extends scene-centric representations for static visualizations by modeling interactive behavior as information flow among four interaction components (trigger, responder, evaluator, and updater) and two forms of context (event context and state context). To realize these semantics, we introduce a dependency-graph execution model that systematically transforms interaction specifications into executable dependency graphs using reusable graph patterns associated with semantic visualization components. We implement Interactive Mascot in the JavaScript library Mascot$.$js and evaluate its expressiveness, performance, and usability. Interactive Mascot naturally covers Vega-Lite's interaction design space while additionally supporting stateful interactions, direct manipulation of scene components, and freeform selection. It achieves runtime performance comparable to Vega-Lite, and a qualitative user study shows that the grammar is learnable and usable for interaction authoring.</description>
-    </item>
-    <item>
-      <title>Participatory provenance as representational auditing for AI-mediated public consultation</title>
-      <link>https://arxiv.org/abs/2604.20711</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.20711</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
-      <description>AI-assisted consultation can speed large-scale public engagement, but concise summaries may reflect some submissions more closely than others. This paper introduces participatory provenance, a framework for auditing how semantic coverage is distributed from submissions to summary sentences. Applied to two topics in Canada's 2025 AI Strategy consultation (5,253 records; 2,861 participants), official summaries had higher observed mean coverage than exact-length random text, although statistical significance depended on the embedding model. Low coverage concentrated in semantic regions, especially those centered on criticism of educational technology and distrust of technology and oversight, whereas few or no records crossed the operational threshold in several better-covered regions. Same-budget, cross-fitted extractive benchmarks improved mean and lower-tail coverage on held-out submissions, showing that better semantic coverage was feasible without longer summaries. Consultation summaries should be evaluated not only for coherence and factual support, but also for how coverage is distributed across the range of submitted views.</description>
     </item>
   </channel>
 </rss>

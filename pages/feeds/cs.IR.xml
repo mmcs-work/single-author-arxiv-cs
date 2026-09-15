@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>YOLO12-MambaScan: An Efficient Object Detector with High-Frequency Enhancement and State-Space Modeling</title>
+      <link>http://arxiv.org/abs/2609.13647v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.13647v1</guid>
+      <pubDate>Sat, 12 Sep 2026 01:58:35 +0000</pubDate>
+      <description>The rapid development of unmanned aerial vehicle (UAV) technology has made aerial-image object detection increasingly important for natural-resource monitoring, traffic management, and disaster response. Detecting small objects in aerial images remains difficult because objects occupy very few pixels, high-frequency cues are easily lost, and global context is hard to model in cluttered scenes. Existing detectors often retain insufficient edge, corner, and texture information. We propose \ours, an aerial-image detector built on the YOLO12 architecture. The model combines a triple-path high-frequency enhancement convolution module (TriPathHFConv), receptive-field coordinate-attention convolution (RFCAConv), and a Mamba-based global-context module. On VisDrone, at an input resolution of 960*960, ours achieves 60.0% mAP@50 and 38.6%mAP@50:95, demonstrating a favorable accuracy--efficiency trade-off for small-object detection. The benchmark and dataset protocol follow the VisDrone challenge setup.</description>
+    </item>
+    <item>
       <title>Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce</title>
       <link>http://arxiv.org/abs/2609.11190v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11190v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.14035</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
       <description>Generative Engine Optimization (GEO) seeks to increase content's presence, likelihood of citation, or influence in answers produced by generative engines. Since the foundational GEO paper, the field has expanded rapidly, but terminology, metrics, and evidence standards remain heterogeneous. This critical survey reviews 45 studies selected under a November 2023-July 2026 publication window, including one earlier preprint published at EMNLP after the window opened, plus relevant RAG and evaluation work. We argue that GEO is not a single ranking task but a stochastic, partially observable pipeline spanning search activation, crawling and indexing, retrieval, reranking and context allocation, citation, prominence, factual absorption, fidelity, and user behavior. The foundational paper's widely cited gains are valid within its experimental setting but conditional on a source already being present in a fixed context; they establish neither organic discoverability nor durable traffic effects. Reviewed work indicates that topical relevance and context position are the most reproducible levers, generic heuristics transfer poorly, competition can erode individual gains, and citation-oriented rewrites can impair retrieval. Commercial audits further reveal low source overlap, substantial run-to-run variability, and persistent fidelity gaps. We contribute a multistage formal model, a visibility vector separating discoverability, citation, absorption, and economic outcomes, an evidence hierarchy, and a reproducible protocol based on repeated measurements, paraphrases, controls, human validation, and multi-actor interference. Within this corpus, the evidence is narrow: already-retrieved content can causally alter its citation or use, but no reviewed technique shows a stable, longitudinal, cross-platform causal effect on organic discoverability or downstream behavior.</description>
-    </item>
-    <item>
-      <title>Gauge-Invariant, Parameter-Insensitive Regularization for Potential Recovery from Flow on Directed Graphs</title>
-      <link>https://arxiv.org/abs/2607.13609</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.13609</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Recovering a latent potential from observed flow on a directed graph (a discrete Poisson problem with Dirichlet boundaries) is ill-posed, and the standard fix backfires: ridge regularization shrinks toward a gauge-meaningless origin, collapsing and reversing the recovered ordering ($+0.81\to-0.42$ rank correlation against a planted ground truth). The gauge-invariant graph Dirichlet energy removes the hazard and delivers parameter-insensitivity: the estimate is stable across four orders of magnitude in $λ$, whereas ridge inverts the ordering for every $λ&gt;0$. We prove the reduced solve is SPD and preserves dynamic range exactly where ridge collapses it, and localize absorbing boundaries from flow alone via a Poisson residual. The $H^1$ seminorm is classical; what is new is the gauge diagnosis, the parameter-insensitivity it buys, and an ablation showing the result is robust to the extraction method. On three public clickstream corpora the gauge-invariant estimate retains $28$--$41\%$ of the interior dynamic range while ridge collapses to as little as $0.2\%$. The same gauge invariance carries into graph neural networks -- neutralizing the constant mode per layer prevents the oversmoothing that collapses a deep directed GCN -- linking this classical inverse problem to a central question in graph learning.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The optimal-transport cartogram: world population as a Brenier map</title>
+      <link>http://arxiv.org/abs/2609.14089v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14089v1</guid>
+      <pubDate>Sat, 12 Sep 2026 18:15:43 +0000</pubDate>
+      <description>A contiguous cartogram is a map whose area is proportional to a quantity such as population. The defining condition, that the Jacobian determinant of the deformation equals the density, is one equation for two unknown functions, so every cartogram method adds a tie-breaker, usually implicitly. Optimal transport makes the tie-breaker explicit: among all density-equalising maps of the frame onto itself, take the one that moves the population least in the mean-square sense. By Brenier's theorem that map is the gradient of a convex potential, so it has no local rotation anywhere and cannot fold. We compute this map for the world population of 2025 on a 4096 by 4096 Mercator grid (10 km cells) from the GHS-POP raster, using the fixed-point Monge-Ampère iteration of Benamou, Froese and Oberman with spectral Poisson solves, continuation in the population share and an ocean-only buffer, on a laptop GPU. Against a Gastner-Newman diffusion cartogram of the same density we find the same transport cost to within 0.4 per cent and density errors of a few per cent for both, but a median local rotation of 8.8 degrees for diffusion against 0.01 for transport, and a median anisotropy of 6.30 against 3.93. The construction extends to local refinement, by transporting a city's 100 m population onto the area measure the global map assigns to it, and to a semi-discrete counterpart: 8,192 Laguerre cells of 1.00 million people each. Code, data provenance and every figure's inputs are public.</description>
+    </item>
+    <item>
       <title>Almost Linear Universal Point Sets for Planar Graphs</title>
       <link>http://arxiv.org/abs/2609.10916v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10916v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.26652</guid>
       <pubDate>Fri, 27 Mar 2026 00:00:00 -0000</pubDate>
       <description>We construct a complete Riemannian surface $Σ$ that admits no triangulation $G\subset Σ$ such that the inclusion $G^{(1)} \hookrightarrow Σ$ is a quasi-isometry, where $G^{(1)}$ is the simplicial 1-skeleton of $G$. Our construction is without boundary, has arbitrarily large systole, and furthermore, there is no embedded graph $G\subsetΣ$ such that $G^{(1)} \hookrightarrow Σ$ is a quasi-isometry. This answers a question of Georgakopoulos.</description>
-    </item>
-    <item>
-      <title>Computing the Intrinsic Delaunay Triangulation of a Closed Polyhedral Surface</title>
-      <link>https://arxiv.org/abs/2601.03954</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.03954</guid>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 -0000</pubDate>
-      <description>Every surface that is intrinsically polyhedral can be represented by a portalgon: a collection of polygons in the Euclidean plane with some pairs of equally long edges abstractly identified. While this representation is arguably simpler than meshes (flat polygons in R3 forming a surface), it has unbounded happiness: a shortest path in the surface may visit the same polygon arbitrarily many times. This pathological behavior is an obstacle towards efficient algorithms. On the other hand, Löffler, Ophelders, Staals, and Silveira (SoCG 2023) recently proved that the (intrinsic) Delaunay triangulations have bounded happiness. In this paper, given a closed polyhedral surface S, represented by a triangular portalgon T, we provide an algorithm to compute the Delaunay triangulation of S whose vertices are the singularities of S (the points whose surrounding angle is distinct from 2pi). The time complexity of our algorithm is polynomial in the number of triangles and in the logarithm of the aspect ratio r of T. Within our model of computation, we show that the dependency in log(r) is unavoidable. Our algorithm can be used to pre-process a triangular portalgon before computing shortest paths on its surface, and to determine whether the surfaces of two triangular portalgons are isometric.</description>
     </item>
   </channel>
 </rss>

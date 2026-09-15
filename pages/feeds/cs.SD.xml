@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>POLARIS: Training-Free Audio Fingerprinting with Saliency-Based Landmarks and Delaunay Grouping</title>
+      <link>http://arxiv.org/abs/2609.14820v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.14820v1</guid>
+      <pubDate>Sun, 13 Sep 2026 22:23:25 +0000</pubDate>
+      <description>This work presents POLARIS, a training-free audio fingerprinting system that selects landmarks from a locally normalized saliency field and groups them into sparse fingerprints using Delaunay triangulation. To deal with query distortion, POLARIS adds fingerprints from two-hop Delaunay neighborhoods only at query time, without enlarging the reference index. An adaptive configuration applies this expansion only when the original fingerprints do not produce a confident match. We evaluate POLARIS on synthetic distortions from the public PEX Hard Medium benchmark, excluding queries with pitch or tempo shifts, and on a new benchmark of real re-recorded music. POLARIS achieves the best performance among the evaluated training-free methods on both benchmarks. On the real recordings, its adaptive configuration also outperforms the neural NMFP baseline with a comparable measured query time and a smaller logical reference payload. Code, dataset, and instructions for reproducing all experiments are available at https://github.com/JihengLi/POLARIS.git.</description>
+    </item>
+    <item>
       <title>Domain-Incremental Learning for Multi-Channel Replay Speech Detection</title>
       <link>http://arxiv.org/abs/2609.11194v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11194v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.26111</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
       <description>Generative artificial intelligence (GenAI) has enabled users to synthesize music with text prompts, combining copyrighted lyrics, AI-composed melodies, and synthetic vocals that imitate real artists. This paper examines the legal and technical dimensions of AI-based music creation (e.g., Google Gemini's music tools) under U.S. copyright law. We analyze whether a user who inputs one artist's protected lyrics into a GenAI system, directs it to use another artist's voice or style, publishes the resulting song, and monetizes it violates 17 U.S.C. Section 106's exclusive rights [3]. The analysis integrates Title 17 doctrine (rights of reproduction, derivative works, distribution), 17 U.S.C. Section 114's narrow sound recording protection [4], and the new voice-cloning laws emerging at the state level [20]. We argue that unauthorized lyric copying poses a high risk of infringement of the musical composition, whereas mere AI-generated voice imitation typically falls outside federal sound recording protection and instead implicates state publicity rights [12], [13]. Recent cases and legislation (Concord v. Anthropic [10]; Kadrey v. Meta [11]; Lehrman v. Lovo [12]; Tennessee's "ELVIS Act" [20]; UMG v. Uncharted Labs [14]; etc.) illustrate this split. We map AI technical components (prompt encoding, latent diffusion, neural vocoders, speaker embeddings) to legal risks and identify a regulatory gap: federal law robustly protects lyrics and melody but currently provides limited remedies for synthesized vocal likeness [22], [23]. The paper concludes with policy suggestions for clearer rules on AI music creation.</description>
-    </item>
-    <item>
-      <title>Instrumental Text-to-Music Generation with Auxiliary Conditioning Branches</title>
-      <link>https://arxiv.org/abs/2605.21433</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.21433</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
-      <description>Text-to-music generation has advanced rapidly, with modern autoregressive and diffusion-based models producing convincing music from natural-language prompts. However, much of this progress relies on large-scale training data and external pretraining, making it difficult to isolate which design choices remain effective when data and pretraining are controlled. We study this setting using a Diffusion Transformer backbone with lyric and timbre conditioning, adapted to an instrumental-only text-to-music task in which the auxiliary lyric and timbre branches receive only degenerate conditioning signals. Through controlled ablations, we find that models retrained without these branches score lower across AudioBox aesthetics, LLM-as-judge, and human MOS, and that reinvesting the saved parameters as additional DiT depth recovers only marginally. This suggests the auxiliary branches may act as training-time architectural anchors whose contribution goes beyond their explicit conditioning content. We validate the same model through comparisons with external instrumental baselines and through our submission to the ICME 2026 Academic Text-to-Music (ATTM) Grand Challenge, where our Performance submission ranked first under both the objective metrics and the subsequent organizer-administered MOS over 35 raters, attaining the highest overall MOS across all challenge submissions, while our Efficiency submission was a finalist that tied for second under the objective metrics.</description>
     </item>
   </channel>
 </rss>
