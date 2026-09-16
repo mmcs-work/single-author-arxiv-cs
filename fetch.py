@@ -40,7 +40,7 @@ def fetch_category(category, start, end, max_results):
             with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
                 return ET.parse(response).getroot().findall("atom:entry", ATOM)
         except urllib.error.HTTPError as error:
-            if error.code != 429 and not 500 <= error.code < 600:
+            if error.code not in (406, 429) and not 500 <= error.code < 600:
                 raise
             last_error = error
         except (TimeoutError, socket.timeout, urllib.error.URLError, ConnectionError) as error:
