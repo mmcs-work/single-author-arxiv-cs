@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Regularized barycentric Rényi divergences</title>
+      <link>http://arxiv.org/abs/2609.17517v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17517v1</guid>
+      <pubDate>Tue, 15 Sep 2026 17:53:27 +0000</pubDate>
+      <description>Barycentric Rényi divergences were introduced in [Mosonyi, Bunth, Vrana, Linear Algebra and its Applications, 2024] as an alternative to standard Kubo-Ando constructions to define multivariate quantum Rényi divergences. They are defined via a variational expression and depend on a finite collection of quantum relative entropies $D^{q_x}$. When all the relative entropies are monotone under CPTP maps then so are the corresponding barycentric Rényi divergences, and when all the relative entropies are additive then the corresponding barycentric Rényi divergences are subadditive under tensor product. Additivity has only been established before for the case where all $D^{q_x}$ are chosen to be the Umegaki relative entropy, which is also the only case where the barycentric Rényi divergence (called the minimal one) admits an explicit expression. Here we settle the problem of additivity by showing that for any choice of additive and monotone quantum relative entropies, the regularized barycentric Rényi divergence coincides with the minimal barycentric Rényi divergence on strictly positive inputs. This in turn implies that the only additive barycentric Rényi divergence is the minimal one.</description>
+    </item>
+    <item>
+      <title>A Multiuser Channel Capacity Region</title>
+      <link>http://arxiv.org/abs/2609.17212v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17212v1</guid>
+      <pubDate>Tue, 15 Sep 2026 14:00:13 +0000</pubDate>
+      <description>A finite structural characterization of the $U$-user multiuser channel-capacity region appears here. This region relies upon three concepts: (i) subset-based message atomization, (ii) synchronized receiver chain-rule/Fano reduction, and (iii) successive-decoding achievability via a finite-super-symbol closure. The resulting region is a finite union of order-indexed polytopes parameterized by the synchronized minimum mutual-information vector $\mathcal{I}_{\min}$. The framework removes auxiliary-random-variable proliferation and makes explicit the finite geometric structure underlying general multiuser converses, with the interference channel providing the primary illustration. For the linear matrix Gaussian multiuser-channel special case under per-user trace covariance constraints, Gaussian signaling is capacity-region-achieving within this framework. Also shown is that maximum rate sum for any Gaussian multiple-user-channel derives from simple iterative procedures.</description>
+    </item>
+    <item>
+      <title>CPM-LDPC Codes Attaining the Minimum-Distance Bound</title>
+      <link>http://arxiv.org/abs/2609.16836v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16836v1</guid>
+      <pubDate>Tue, 15 Sep 2026 08:32:52 +0000</pubDate>
+      <description>We study binary quasi-cyclic LDPC codes whose parity-check matrices are full arrays of single circulant permutation matrices (CPMs), referred to here as CPM-LDPC codes. Their minimum distance is at most $(J+1)!$, where $J$ is the column weight. For every fixed pair of column and row weights $2\le J&lt;L$, we show that this bound is attained for all sufficiently large integer lift sizes. First, we give one integer exponent matrix independent of the lift size $P$. Second, we show that independent uniform exponent choices attain the bound with probability $1-O_{J,L}(P^{-1})$. Both proofs use cycle conditions required by low-weight codewords and a lower bound on the number of terms in vectors satisfying polynomial check equations. Neither construction requires $P$ to be prime. We also give small-lift arrays attaining the bound 24 for $J=3$, $L=4,\ldots,8$, and arrays with distance at least 28 for $J=4$, $L=5,\ldots,8$, together with computational distance verification.</description>
+    </item>
+    <item>
+      <title>Strong converse for the quantum capacity of the pure-loss bosonic channel</title>
+      <link>http://arxiv.org/abs/2609.16608v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16608v1</guid>
+      <pubDate>Tue, 15 Sep 2026 04:10:13 +0000</pubDate>
+      <description>This paper reports the proof of a strong converse for the unconstrained quantum capacity of the pure-loss bosonic channel. At every fixed rate above capacity, the entanglement-generation fidelity of every code is bounded by a constant times the reciprocal of the number of channel uses. The bound holds without an energy constraint and for arbitrary encoded states, including states correlated across all input modes, and arbitrary joint decoders. The proof combines quantum Chebyshev and hockey-stick testing inequalities with a uniform relative-entropy-variance bound for the balanced pure-loss channel, corresponding to transmissivity $η=1/2$. The variance bound follows by expressing the balanced beam splitter in bright and dark modes: the dark modes are exactly in vacuum, and any state orthogonal to that vacuum contains at least one dark photon. For general transmissivity, dilating the degrading attenuator reduces the problem to this balanced-channel setting and bounds the decoder test by precisely the factor that produces the known quantum-capacity threshold. The resulting argument establishes the strong converse at the unconstrained quantum capacity for every pure-loss bosonic channel.</description>
+    </item>
+    <item>
       <title>The Capacity of the Relay Channel</title>
       <link>http://arxiv.org/abs/2609.15709v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15709v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.24861</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
       <description>What kind of physical object is an artificial-intelligence system: a machine in the sense a refrigerator is -- dissipating free energy while holding an order imposed from outside -- or a dissipative structure in the sense a convection cell is -- an ordered state that exists only under throughput and loses stability past a critical drive? We argue the answer is split -- the trained artifact is a machine, quenched and storable; the operating loop is a dissipative structure in the informational sense -- and develop the framework in which the loop's classification becomes decidable. Modeling adaptive systems that couple inference to irreversible action as finite-capacity decoders under sustained informational driving, we characterize recoverable operation by a feasibility margin and a stability diagnostic: the ratio of induced flux to integrative capacity is the dimensionless drive, unity its critical value. Making the feedback of uncertified output onto load explicit converts the continuous feasibility transition into a first-order one at mean-field level: lucid and collapsed states coexist inside a cusp-organized bistable region with closed-form spinodals, recovery is hysteretic, and for ungatedness alpha &gt;= 1 load reduction alone cannot restore operation. Cascades are subcritical branching with exponent 3/2 and a cutoff set by the grounded fraction of input. Event-driven simulations confirm the phase structure, and an instrumented real-workload pipeline experiment exhibits the collapse just below the mean-field spinodal computed from the measured service law, the backlog-delayed hysteretic recovery, and the cascade statistics. This supplies a statistical-mechanics account of the "metastable failures" documented in large-scale distributed systems, identifying recoverable dissipation as the stability criterion for decoders in sustained high-flux informational regimes.</description>
-    </item>
-    <item>
-      <title>The entanglement-assisted transmission capacity is a strong converse bound for identification</title>
-      <link>https://arxiv.org/abs/2608.11000</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.11000</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Classical identification via a noisy channel is a communication task in which the receiver is not required to reconstruct the full transmitted message, but only to decide whether it coincides with a message of interest. This relaxation allows the number of identifiable messages to grow doubly exponentially with the blocklength. For quantum channels, the resulting (doubly exponential) identification capacity $C_{\mathrm{ID}}$ can strictly exceed the ordinary (exponential) transmission capacity $C$. In this paper, we prove that the entanglement-assisted transmission capacity $C_E$ is a strong converse bound for this task: $C_{\mathrm{ID}}\leq C_E$. For sufficiently low-noise channels, this bound can also be achieved via the Hayden-Winter (quantum) identification + fingerprinting codes. This yields an exact characterization $C_{\mathrm{ID}}=C_E$ of identification capacity for such channels. However, for general channels, we prove that this upper bound can be strict. We exhibit an explicit family of transpose-depolarizing channels for which $C_{\mathrm{ID}}&lt;C_E$. As a consequence, we also obtain the first example of strict superadditivity of the identification capacity $C_{\mathrm{ID}}$.</description>
-    </item>
-    <item>
-      <title>Search-to-Decision Reductions for the Linear and General Code Equivalence Problems</title>
-      <link>https://arxiv.org/abs/2608.10967</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.10967</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we present efficient search-to-decision reductions for the Linear Code Equivalence (LCE) and Generalised Code Equivalence (GCE) problems. Our methodology is inspired by the recent search-to-decision reduction for Permutation Code Equivalence. We demonstrate how to recover the permutation component of the equivalence using a decision oracle, and subsequently show one way of recovering the diagonal and field automorphism components in deterministic polynomial time by leveraging the elegant Engel-Schneider algorithm for diagonal equivalence.</description>
-    </item>
-    <item>
-      <title>Exponentially Consistent Low Complexity Tests for Statistical Sequence Matching</title>
-      <link>https://arxiv.org/abs/2608.10455</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.10455</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Towards practical applications of statistical sequence matching, we propose low complexity tests that are exponentially consistent and bound the exponential decay rates for error probabilities of our proposed tests. In statistical sequence matching, one is given two databases of multiple sequences, where in each database, each sequence is generated i.i.d. from a distinct distribution. A pair of sequences, one from each database, is said matched if they are generated from the same distribution. The number of matched pairs of sequences, a.k.a, the number of matches, can be either zero or positive. We consider both cases of known and unknown number of matches. When the number of matches is known and positive, the task is to identify all matched pairs of sequences. To construct fixed-length tests, we calculate the scoring function values for all pairs of sequences across the two databases and identify the matched pairs as those having small enough pairwise scoring function values. We show that our proposed test is exponentially consistent, which strikes a better tradeoff between complexity and performance than existing fixed-length tests that use exhaustive search. To construct sequential tests, we need an additional positive threshold to determine the stopping time, and we show that our sequential test achieves strictly better performance than our fixed-length test. Subsequently, we generalize our results to the case with unknown number of matches.</description>
-    </item>
-    <item>
-      <title>Optimal Break-Resilient Codes</title>
-      <link>https://arxiv.org/abs/2607.19673</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.19673</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Break-resilient codes enable reliable communication in the presence of an omniscient adversary that may split a transmitted message at arbitrary boundaries between consecutive symbols, while the receiver observes only an unordered multiset of the resulting fragments. For binary codewords of length~$n$ subject to at most~$t$ breaks, the best known explicit construction has redundancy~$O(t\log_2 n\log_2\log_2\log_2 n)$, whereas the information-theoretic lower bound is~$Ω(t\log_2(n/t))$. In this paper, we extend the binary break model to any fixed finite field~$\bbF_q$ and establish a redundancy lower bound of~$Ω(t\log_q(n/t))$. We then give an explicit construction of~$q$-ary break-resilient codes with redundancy~$O(t\log_q n)$ when~$t\leq n^{1-\varepsilon}$ for a fixed constant~$\varepsilon\in(0,1)$, matching the information-theoretic lower bound up to a constant factor. The key idea is to compute a short algebraic fingerprint of the message, which enables the decoder to reject incorrect assemblies of the received fragments.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Intelligent Interaction Techniques (IIxT) - Proposal</title>
+      <link>http://arxiv.org/abs/2609.16295v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16295v1</guid>
+      <pubDate>Mon, 14 Sep 2026 19:52:26 +0000</pubDate>
+      <description>Interaction techniques (IxTs) are the low-level, reusable components out of which user interfaces are designed, including menus, scroll bars, text input fields, and also copy-paste, text-entry, and selecting objects. The IxTs for graphical user interfaces (GUIs) were well established in the 1980s, with relatively minor additions and tweaks for smartphones in the 2000s. Most of today's AI user interfaces involve a chat window, which is an excellent interaction for some tasks, but is generally considered separate from the GUI IxTs. I argue for making the IxTs themselves more intelligent, so users can freely mix modalities, even within the same interaction. This will require research into new IxTs, and also into the infrastructure that will enable these intelligent IxTs (IIxTs) to be built. There are also significant security, privacy and economic implications to this vision.</description>
+    </item>
+    <item>
       <title>Beyond AI Literacy: A Structured Review and Exploratory Meta-Analysis of Measures for Competent Generative-AI Use</title>
       <link>http://arxiv.org/abs/2609.15624v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15624v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.19992</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
       <description>tiny_schiller closes the small-language-model prototyping, fine-tuning, education, and research gap for German literary text, providing a single-file, drop-in counterpart to Karpathy's tiny_shakespeare. The available German literary corpora are larger and richer, but require parser engineering before a single line of training or fine-tuning code can run. tiny_schiller is a 2.07-megabyte single file of eleven public-domain Schiller dramas, sourced from DraCor's GerDraCor export (CC0) and processed by deterministic parser engineering. Character-level, GPT-2 byte-pair encoding, and cl100k_base tokenization splits, an instruction-formatted dialogue-completion split, and 89 per-character persona splits load from a single HuggingFace call. A small language model literally reaches German literary text in one line of code.</description>
-    </item>
-    <item>
-      <title>AI-Increased Talent Retention Strategies: Fostering Long-Term Employee Engagement and Development in Talent Management</title>
-      <link>https://arxiv.org/abs/2607.19733</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.19733</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The integration of AI in Talent Management is a change in the way that organizations are designing their strategies for Talent Retention (TR), engagement, and future strategy. New and innovative tools such as predictive models, sentiment analysis, and personalized career planning have come up, and they offer better ways of addressing retention issues, workforce engagement, and, in general, sustainability. Through the application of predictive analytics, organizations can determine employees' likelihood of leaving the organization, who is likely to leave, and when to act, thus minimizing the costs and time associated with the recruitment process and improving performance. Furthermore, AI solutions help the development of individualized learning plans that help to define employees' professional goals and link them with the organization's strategy to encourage the employees' continuous growth. This paper explained how AI is impacting the retention process and how it can be used to decrease attrition rates, create a loyal workforce, and promote sustainable management of human and other resources. Furthermore, the author discusses the ethical issues, such as privacy and fairness of algorithms, that are involved in the implementation of AI systems. Thus, the above challenges can be solved by developing a sustainable and inclusive ecosystem that can help in the development of the future workforce. Based on a systematic review of literature, the study presents a framework that can help organizations improve their talent management practices with the help of AI to support long-term sustainable growth. It can be used to help industry professionals and decision-makers understand the new technological shifts that are occurring.</description>
     </item>
   </channel>
 </rss>

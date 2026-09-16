@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Delayed-Light Rendering for Superluminal Objects</title>
+      <link>http://arxiv.org/abs/2609.16180v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16180v1</guid>
+      <pubDate>Mon, 14 Sep 2026 18:14:33 +0000</pubDate>
+      <description>We present a real-time rendering method for scenes perceived through signals of finite speed $c$ in a non-relativistic setting: $c$ is a property of the imaging signal, not the causal speed limit, so bodies may move faster than $c$. A superluminal body presents several simultaneous images; pairs are created and annihilated in caustic flashes, and some branches play backward in time. Rather than approximating these effects, we enumerate them as roots of an emission condition posed against recorded state history, exact at every point solved, up to one stated approximation for moving observers. Because a fixed-step simulation records piecewise-linear history, the emission condition restricted to one history segment is a quadratic whose discriminant detects image-pair creation and whose slope classifies each image's playback direction, rate, and brightness. Perception is not tied to a single reference point: a global perceived state is built for an arbitrary finite set of observation events, and the delay landscape is the upper envelope of their backward light cones. A monotonic emission clamp guarantees the picture never regresses to images older than those already shown. Per-vertex solves shear bodies straddling delay gradients, and pre-generated frame-sequence assets are adapted by treating them as $(x,y,t)$ volumes sliced by the solved emission surface, so playback rate, reversal, and intra-body de-phasing arise with no animation-specific code. The exposition and implementations are planar: the emission condition and its per-segment solve are norm conditions, independent of dimension, but the visibility and occlusion questions a 3D renderer must answer are out of scope. The method is deployed in a released real-time strategy game; we describe the optimizations that make it run at interactive rates, and measure the algorithms through independent reference implementations.</description>
+    </item>
+    <item>
       <title>Opacity Is Not Just Opacity</title>
       <link>http://arxiv.org/abs/2609.14971v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.14971v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2507.07000</guid>
       <pubDate>Wed, 09 Jul 2025 00:00:00 -0000</pubDate>
       <description>We propose a novel framework that enhances non-rigid 3D model deformations by bridging mesh representations with 3D Gaussian splatting. While traditional Gaussian splatting delivers fast, real-time radiance-field rendering, its post-editing capabilities and support for large-scale, non-rigid deformations remain limited. Our method addresses these challenges by embedding Gaussian kernels directly onto explicit mesh surfaces. This allows the mesh's inherent topological and geometric priors to guide intuitive editing operations -- such as moving, scaling, and rotating individual 3D components -- and enables complex deformations like bending and stretching. This work paves the way for more flexible 3D content-creation workflows in applications spanning virtual reality, character animation, and interactive design.</description>
-    </item>
-    <item>
-      <title>Uncertain Mode Surfaces in 3D Symmetric Second-Order Tensor Field Ensembles</title>
-      <link>https://arxiv.org/abs/2506.23406</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.23406</guid>
-      <pubDate>Sun, 29 Jun 2025 00:00:00 -0000</pubDate>
-      <description>The analysis of 3D symmetric second-order tensor fields often relies on topological features such as degenerate tensor lines, neutral surfaces, and their generalization to mode surfaces, which reveal important structural insights into the data. However, uncertainty in such fields is typically visualized using derived scalar attributes or tensor glyph representations, which often fail to capture the global behavior. Recent advances have introduced uncertain topological features for tensor field ensembles by focusing on degenerate tensor locations. Yet, mode surfaces, including neutral surfaces and arbitrary mode surfaces are essential to a comprehensive understanding of tensor field topology. In this work, we present a generalization of uncertain degenerate tensor features to uncertain mode surfaces of arbitrary mode values, encompassing uncertain degenerate tensor lines as a special case. Our approach supports both surface and line geometries, forming a unified framework for analyzing uncertain mode-based topological features in tensor field ensembles. We demonstrate the effectiveness of our method on several real-world simulation datasets from engineering and materials science.</description>
     </item>
   </channel>
 </rss>

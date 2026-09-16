@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On Models of the Planar Lambda Calculus</title>
+      <link>http://arxiv.org/abs/2609.16798v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16798v1</guid>
+      <pubDate>Tue, 15 Sep 2026 08:04:30 +0000</pubDate>
+      <description>We construct an adjunction relating two approaches to modelling the planar lambda calculus: semi-closed operads and planar lambda-models. We use this to obtain a planar version of Scott's representation theorem.</description>
+    </item>
+    <item>
       <title>Finite Dependence and Invariance Hierarchies for Finitely Supported Structures</title>
       <link>http://arxiv.org/abs/2609.15879v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15879v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.28551</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
       <description>Proof assistants are often used to validate that designs and implementations meet their expected security properties. A further motivation for using proof assistants is to support certification. This chapter focuses on their applications to system security, language-based security, secure compilation, and cryptography.</description>
-    </item>
-    <item>
-      <title>Confluence of conditional rewriting modulo</title>
-      <link>https://arxiv.org/abs/2504.01847</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.01847</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Sets of equations E play an important computational role in rewriting-based systems R. The equivalence relation =E induced by E introduces a partition of terms into E-equivalence classes on which rewriting computations, denoted -&gt;R/E and called rewriting modulo E, are issued. This paper investigates confluence of -&gt;R/E, usually called E-confluence, for conditional rewriting-based systems, where rewriting steps are determined by conditional rules. We rely on Jouannaud and Kirchner's framework to investigate confluence of an abstract relation R modulo an abstract equivalence relation E on a set A. We show how to particularize such a framework to be used with conditional systems. Then, we show how to define appropriate finite sets of conditional pairs to prove and disprove E-confluence. We introduce (i) Logic-based Conditional Critical Pairs, which do not require the use of (often infinitely many) E-unifiers to provide a finite representation of the local peaks considered in the abstract framework. We also introduce (ii) parametric Conditional Variable Pairs which are essential to deal with conditional rules in the analysis of E-confluence. Finally, we introduce (iii) Down Conditional Pairs which are often necessary to disprove E-confluence. Our results apply to well-known classes of rewriting-based systems, improving on previous results. As for unconditional systems, our results apply to Equational Term Rewriting Systems, first investigated by Huet and then by Jouannaud, and Jouannaud and Kirchner, among others. As for conditional systems, our results also apply to conditional rewrite theories and Maude.</description>
     </item>
   </channel>
 </rss>

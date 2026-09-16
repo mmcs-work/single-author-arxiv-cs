@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The price of anarchy in the max-distance network creation game is not constant</title>
+      <link>http://arxiv.org/abs/2609.17395v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17395v1</guid>
+      <pubDate>Tue, 15 Sep 2026 16:31:32 +0000</pubDate>
+      <description>At edge price $α=1$, we construct an infinite family of pure Nash equilibria of the unilateral max-distance network creation game with $\PoA\ge2^{\sqrt{\log_2 n}-O(\log\log n)}$. Together with the known upper bound, this gives $2^{Θ(\sqrt{\log n})}$ along the constructed sequence of population sizes. We subdivide every edge of the bipartite double cover of a distance-uniform graph with large diameter constructed by Lavrov, Loh and Messegué, and let each subdivision vertex buy its two incident edges. A distance calculation rules out every profitable unilateral deviation. The equilibria are not strict. We also give a short proof that the price of anarchy is constant for every polynomially vanishing edge price.</description>
+    </item>
+    <item>
+      <title>Constant Swap Regret in General-Sum Games via Optimistic Transition Matrices</title>
+      <link>http://arxiv.org/abs/2609.16751v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16751v1</guid>
+      <pubDate>Tue, 15 Sep 2026 07:27:34 +0000</pubDate>
+      <description>We give deterministic and uncoupled learning dynamics for finite multiplayer general-sum games under full-information feedback that achieve constant individual swap regret, independent of the horizon $T$. With $n$ players and at most $m$ actions each, the individual swap regret of every player is $O(\sqrt{n} m \log m \log^{5/2}(nm))$ at every finite horizon. Each player predicts the deviation gains, then uses these predictions to update a row-stochastic transition matrix, and plays its stationary distribution. The proof combines a potential argument exploiting stationarity with a two-scale higher-order prediction analysis, using rooted-tree representations to handle the nonlinear dependence of deviation gains on the stationary distributions. An adversarially robust variant, obtained through a generic common-prefix switching wrapper, preserves the self-play bound up to a universal constant and guarantees individual swap regret at most $7\sqrt{m T \log m}$ in the adversarial setting.</description>
+    </item>
+    <item>
+      <title>Symmetric solution of the Bellman optimality equation for repeated harmony game</title>
+      <link>http://arxiv.org/abs/2609.16289v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16289v1</guid>
+      <pubDate>Mon, 14 Sep 2026 19:43:38 +0000</pubDate>
+      <description>In social dilemma games, additional rewards or punishments have been studied as means of promoting cooperation. Therefore, it is important to investigate the ideal situation, in which such an additional payoff would change the game. In this study, we investigated the symmetric solution of the Bellman optimality equation for a repeated harmony game. The calculations showed that three types of symmetric solutions exist. One of them corresponds to the trivial All-C strategy, and another to the Win-stay Lose-shift strategy of the prisoners dilemma game. The nontrivial behavior of the strategy corresponding to the last solution is also discussed in detail. In addition, we numerically investigated which strategy the agents actually learn by the reinforcement learning algorithm.</description>
+    </item>
+    <item>
+      <title>The fixed-point bundle method over product-of-simplex domains arising from game equilibria</title>
+      <link>http://arxiv.org/abs/2609.16158v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16158v1</guid>
+      <pubDate>Mon, 14 Sep 2026 18:04:02 +0000</pubDate>
+      <description>This paper extends the fixed-point bundle framework for finite-dimensional variational inequalities (VIs) from the simplex domain to the product-of-simplex domain, which is directly applicable to solving Nash equilibria. The fixed-point bundle for VIs on the product-of-simplex domain reveals a composite fiber bundle structure. The key innovation is to construct an equivalent VI on the simplex domain and establish the equivalence between the two fixed-point bundle frameworks via a fiber bundle isomorphism. Exploiting this geometric equivalence, the predictor-corrector path-following algorithm for the VI on the product-of-simplex domain is shown to inherit the convergence guarantee of the simplex-domain framework, namely, global convergence with linear gap reduction near solutions. Numerical experiments on 5600 randomly generated instances with dimensions ranging from 2-player 128-action to 128-player 2-action demonstrate robust performance. The algorithm converges in every tested instance.</description>
+    </item>
+    <item>
       <title>Core Up-To-One for Participatory Budgeting with Additive Utilities</title>
       <link>http://arxiv.org/abs/2609.15928v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15928v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.10279</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
       <description>We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main algorithm is for two-player games, and we describe how it can be extended to multiplayer games. The algorithm is sound and computes all ESSs in nondegenerate games and a subset of them in degenerate games which contain an infinite continuum of symmetric Nash equilibria. The algorithm can be stopped early to find one or more ESSs. We experiment on an imperfect-information cancer signaling game as well as random games to demonstrate scalability.</description>
-    </item>
-    <item>
-      <title>Computing Evolutionarily Stable Strategies in Multiplayer Games</title>
-      <link>https://arxiv.org/abs/2511.20859</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.20859</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present an algorithm for computing all evolutionarily stable strategies in nondegenerate normal-form games with three or more players.</description>
-    </item>
-    <item>
-      <title>Consistent Opponent Modeling in Imperfect-Information Games</title>
-      <link>https://arxiv.org/abs/2508.17671</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.17671</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The goal of agents in multi-agent environments is to maximize total reward against the opposing agents that are encountered. Following a game-theoretic solution concept, such as Nash equilibrium, may obtain a strong performance in some settings; however, such approaches fail to capitalize on historical and observed data from repeated interactions against our opponents. Opponent modeling algorithms integrate machine learning techniques to exploit suboptimal opponents utilizing available data; however, the effectiveness of such approaches in imperfect-information games to date is quite limited. We show that existing opponent modeling approaches fail to satisfy a simple desirable property even against static opponents drawn from a known prior distribution; namely, they do not guarantee that the model approaches the opponent's true strategy even in the limit as the number of game iterations approaches infinity. We develop a new algorithm that is able to achieve this property and runs efficiently by solving a convex minimization problem based on the sequence-form game representation using projected gradient descent. The algorithm is guaranteed to efficiently converge to the opponent's true strategy under standard Bayesian identifiability and visitation assumptions, given observations from gameplay and possibly additional historical data if it is available.</description>
-    </item>
-    <item>
-      <title>Fair Division with Strictly Increasing Valuations: A Tight Threshold for Two-Agent EF1 and PO</title>
-      <link>https://arxiv.org/abs/2607.23367</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23367</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study whether strictly positive marginal values restore the compatibility of envy-freeness up to one good (EF1) and Pareto optimality (PO) for indivisible goods. For two agents, we identify the exact threshold in the number of goods. Every instance with at most seven goods and strictly increasing valuations admits an allocation that is both EF1 and PO, without any submodularity assumption. In contrast, we construct an eight-good instance with normalized, integer-valued, strictly increasing, submodular valuations in which every EF1 allocation is strictly Pareto dominated. Thus, eight goods are necessary and sufficient for a two-agent counterexample. Finally, we strengthen the three-agent NP-hardness result of Chandramouleeswaran and Nimbhorkar (2026): deciding whether an EF1 and PO allocation exists remains NP-hard for normalized, integer-valued, monotone submodular valuations even when zero marginals are confined to eight fixed agent-good pairs, all involving a single agent.</description>
-    </item>
-    <item>
-      <title>A scalable online machine learning approach for Stock Recommendation</title>
-      <link>https://arxiv.org/abs/2607.23120</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23120</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Stock recommendation systems face the dual challenge of adapting to rapidly changing market conditions while maintaining low-latency predictions for end users. Traditional batch-trained models fail to capture concept drift, and monolithic architectures struggle to provide fault tolerance under load. This paper presents a scalable online deep learning-based stock recommendation system built on a distributed microservices architecture using Kubernetes, Docker, and RabbitMQ. The system employs a hybrid leader-follower architecture where a primary model continuously trains on streaming financial data, including EPS, MACD, and price, from the Alpha Vantage API while multiple replica models serve user-facing recommendations in parallel. A multilayer perceptron implemented with TensorFlow Recommenders generates content-based recommendations using explicit user ratings (1-5) and transfer learning. The architecture ensures high availability. The leader persists model weights to Google Cloud Object Storage, allowing replicas to recover seamlessly upon failure, while RabbitMQ provides message durability and replay. Results demonstrate that the system serves stock recommendations in 23 seconds per request and processes up to 500 portfolio addition requests per second per follower. Key limitations include data staleness (up to 150 minutes due to API rate limits) and the absence of a service mesh for inter-cluster security. This work contributes a production-ready reference architecture for online recommender systems that balances consistency, availability, and scalability in a financial domain context</description>
     </item>
   </channel>
 </rss>

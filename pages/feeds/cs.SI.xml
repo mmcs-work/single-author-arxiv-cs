@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Local-to-Global AD-k Conjecture is Resolved</title>
+      <link>http://arxiv.org/abs/2609.16663v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16663v1</guid>
+      <pubDate>Tue, 15 Sep 2026 05:38:17 +0000</pubDate>
+      <description>AD-k stands for Alternating Differences through order k, and it is a property of set functions denoting that the first order difference of the set function is nonnegative (a.k.a. monotnocity), the second order difference is nonpositive (submodularity), and so on with signs alternating through order k. Chen et al. [1] conjectured that in an influence diffusion model called the general threshold model originally defined by Kempe et al. [2], if every local influence function is AD-k, then the global influence spread function is also AD-k, for any (possibly cyclic) directed graph and any k. This paper provides a complete proof showing that the conjecture is true. The proof utilizes Mobius inversion and decision tree partition method and extends the probability distribution of node triggering sets into a generalized algebraic structure allowing negative weights for triggering sets. The extension to negative-weighted triggering sets may be of independent interest.</description>
+    </item>
+    <item>
+      <title>On the Expressive Power of Implicit Line-Graph Higher-Order Weisfeiler--Leman</title>
+      <link>http://arxiv.org/abs/2609.16412v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16412v1</guid>
+      <pubDate>Mon, 14 Sep 2026 22:34:54 +0000</pubDate>
+      <description>Whitney's theorem allows isomorphism testing for connected simple graphs, apart from $K_3$ and $K_{1,3}$, to be formulated as distinguishing their line graphs. However, the relation between fixed-dimensional Weisfeiler--Leman (WL) expressivity on line graphs and on their roots remains unresolved. We study this relation through Implicit Line-Graph WL (ILG-$k$-WL), which is exactly $k$-WL on $L(G)$, executed over the edges of $G$ with line-graph relations derived from endpoint incidence and without explicitly constructing $L(G)$. On the Whitney-general class, the relation between root-domain and line-graph WL depends on $k$. For $k=1,2$, ILG-$k$-WL adds no distinguishing power beyond root-domain $1$-WL and misses some pairs that $1$-WL separates. For $k=3$, we prove the backward containment $L(G)\equiv_{3\text{-WL}}L(H)\Rightarrow G\equiv_{3\text{-WL}}H$. Strongly regular witness pairs, including the Shrikhande/rook pair, show that ILG-$3$-WL is strictly more expressive than $3$-WL. The backward containment also extends to disconnected graphs with no isolated vertices when every connected component is Whitney-general. Deterministic ILG-$3$-WL separates all three substructure-counting witness pairs, all $105$ pairs in SR25, and $359$ of $400$ BREC pairs. An untrained dense ILG-$3$-GNN gives the same pairwise verdicts on these evaluations.</description>
+    </item>
+    <item>
       <title>Forced Coincidence and Its Boundary in Finite Condition Structures</title>
       <link>http://arxiv.org/abs/2609.15349v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15349v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2505.07014</guid>
       <pubDate>Tue, 28 Apr 2026 00:00:00 -0000</pubDate>
       <description>We propose and analyze two agent-based models to investigate the dynamics of papal conclaves, focusing on how social influence, strategic voting, and ideological alignment affect the time required to elect a pope. In the first model, cardinals interact through two mechanisms: with probability $p$, they imitate the choice of a randomly selected peer, and with probability $q$, they shift support to the most voted candidate from the previous round. Additionally, strategic behavior is introduced via ``useful voting'', where agents abandon their preferred candidate if he receives less than a threshold fraction of the votes, switching instead to the most viable alternative. A candidate must secure a qualified majority of two-thirds to be elected. We then extend the framework by incorporating ideological blocs, assigning each cardinal and candidate to one of two groups (e.g., progressives and conservatives). Cardinals initially vote for candidates from their own group but may cross ideological lines for strategic reasons. We initialize the electorate with $20\%$ conservative cardinals, reflecting the current composition shaped by papal appointments. Numerical simulations show that ideological polarization tends to delay the election by increasing the number of voting rounds required. However, higher values of strategic responsiveness $q$ can restore efficiency even under polarization. We further validate the model by calibrating parameters to historical data from conclaves held between 1939 and 2025. The model reproduces observed convergence times with good agreement, supporting its explanatory power across institutional contexts. The rapid outcome of the 2025 conclave, despite ideological divisions, suggests the importance of informal consensus-building, possibly prior to voting, as a key mechanism for accelerating convergence.</description>
-    </item>
-    <item>
-      <title>When Annotators Agree but Labels Disagree: The Projection Problem in Stance Detection</title>
-      <link>https://arxiv.org/abs/2603.24231</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.24231</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Stance detection is nearly always formulated as classifying text into Favor, Against, or Neutral. This convention was inherited from debate analysis and has been applied without modification to social media since SemEval-2016. However, attitudes toward complex targets are not unitary. A person can accept climate science while opposing carbon taxes, expressing support on one dimension and opposition on another. When annotators must compress such multi-dimensional attitudes into a single label, different annotators may weight different dimensions, producing disagreement that reflects different compression choices rather than confusion. We call this the projection problem. We conduct an annotation study across five targets from three stance benchmarks (SemEval-2016, P-Stance, COVID-19-Stance), with the same three annotators labeling all targets. For each target, annotators assign both a standard stance label and per-dimension judgments along target-specific dimensions discovered through bottom-up analysis, using the same number of categories for both. Across all fifteen target--dimension pairs, dimensional agreement consistently exceeds label agreement. The gap appears to scale with target complexity: modest for a single-entity target like Joe Biden (AC1: 0.87 vs. 0.95), but large for a multi-faceted policy target like school closures (AC1: 0.21 vs. 0.71).</description>
-    </item>
-    <item>
-      <title>Temporal connection probabilities in real networks</title>
-      <link>https://arxiv.org/abs/2604.23714</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.23714</guid>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Principled prediction of when and where links form in complex networks is a fundamental problem. We derive a closed-form non-Markovian expression for next-step connection probabilities that unifies latent hyperbolic geometry with long-range memory of past interactions. This expression yields interpretable forecasts governed by a small set of parameters. Applied to large-scale real networks, we find quantitative agreement with empirical connection probabilities and reveal how geometry and memory jointly shape link dynamics. These results establish a minimal and extensible foundation for principled probabilistic forecasting of temporal network topology.</description>
     </item>
   </channel>
 </rss>

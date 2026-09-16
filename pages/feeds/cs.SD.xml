@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Self-Distilled Pronunciation and Accent Control for Neural Text-to-Speech</title>
+      <link>http://arxiv.org/abs/2609.17234v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17234v1</guid>
+      <pubDate>Tue, 15 Sep 2026 14:13:51 +0000</pubDate>
+      <description>Text-to-speech that reads raw text has no lexicon: a rare word is read as guessed. Remedies train a reading-and-accent channel on recorded speech or edit words one at a time from exemplars. We do neither. The frozen backbone reads a sentence containing a common word it already says correctly, and its own output then serves as the teacher for the same sentence, with that word replaced by a tagged, accented reading; this training pair is the whole idea. On Sarashina2.2-TTS, screened raters at Fleiss' kappa = 0.85 hear the prescribed accent on 0.89 of unseen words against 0.57 for kana, which cannot express one; kana wins no pair; naturalness is not measurably hurt. Moved untuned to autoregressive, diffusion, and encoder-decoder backbones, it transfers reading, 0.25 to 0.47 above no edit on 319 words, and on CosyVoice 2 accent on two words in three, but not on Irodori; the paper locates why.</description>
+    </item>
+    <item>
       <title>Sectional Structure and Emotional Dynamics in Chinese Pop Songs: An Empirical Analysis of Valence-Arousal Trajectories across 100 Songs</title>
       <link>http://arxiv.org/abs/2609.15675v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15675v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.23619</guid>
       <pubDate>Fri, 22 May 2026 00:00:00 -0000</pubDate>
       <description>Non-intrusive intelligibility prediction estimates how well hearing-impaired listeners understand hearing-aid-processed speech without a clean reference. We study this task in the 3rd Clarity Prediction Challenge using two frozen speech encoders, Canary and WavLM. The central question is not only whether complementary pretrained representations should be combined, but where their interaction should occur. We compare single-backbone baselines, uniform score averaging, pool-late fusion, cross-attention, frame-aligned fusion, and reverse alignment under a shared left/right-preserving binaural framework. Among the compared systems, the best model temporally prepares WavLM with a learnable strided convolution and fuses it with Canary on the coarser Canary timeline before pooling, reaching Eval RMSE 24.96$\pm$0.06 and Eval Corr 0.796$\pm$0.001. Severity, enhancement-system, layer-window, and temporal-shift analyses indicate that coarse local temporal correspondence before pooling is a useful inductive bias for this task.</description>
-    </item>
-    <item>
-      <title>Word-Level Modeling with Alignment-Aware Acoustic Fusion for Text-Assisted Intelligibility Prediction in Listeners with Hearing Loss</title>
-      <link>https://arxiv.org/abs/2605.23604</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.23604</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 -0000</pubDate>
-      <description>We address text-assisted speech intelligibility prediction for hearing-impaired listeners in CPC3. Although the target is a sentence-level percentage, it is determined by reference-word recognition outcomes. We formulate prediction as reference-conditioned word-level correctness modeling: a frozen Whisper encoder analyzes degraded speech, a teacher-forced decoder conditions on the canonical transcript, and sentence intelligibility is obtained by averaging predicted correctness probabilities over valid reference words. To complement transcript-conditioned decoder states, we add a word-aligned local acoustic branch based on character-level cross-attention alignment and an utterance-level global acoustic branch for calibration. On the official evaluation set, the decoder baseline obtains RMSE 24.92 and correlation 0.795, while joint fusion improves to incorrect-word F1 0.778, MCC 0.626, correlation 0.806, and RMSE 24.39. A similar trend with Whisper medium suggests that the gain comes from prediction granularity and alignment-aware fusion.</description>
     </item>
   </channel>
 </rss>

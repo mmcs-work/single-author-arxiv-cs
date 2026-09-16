@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Improved Separations between Quantum and Classical Communication Complexity of Total Functions</title>
+      <link>http://arxiv.org/abs/2609.16726v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16726v1</guid>
+      <pubDate>Tue, 15 Sep 2026 06:56:34 +0000</pubDate>
+      <description>We refine Gavinsky's framework (arXiv:2608.18784) for exponential separations between quantum and randomized communication complexity of total functions and obtain larger separations: polylogarithmic quantum communication versus $\tildeΩ(\sqrt n)$ randomized communication with two quantum messages, and versus $Ω(n^{1-\varepsilon})$ for every fixed $0&lt;\varepsilon&lt;1$ with more quantum messages.</description>
+    </item>
+    <item>
+      <title>Euclidean SVP is NP-hard for Cyclic Lattices</title>
+      <link>http://arxiv.org/abs/2609.16711v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16711v1</guid>
+      <pubDate>Tue, 15 Sep 2026 06:35:12 +0000</pubDate>
+      <description>We prove that exact Euclidean SVP is NP-hard under deterministic polynomial-time many-one reductions for full-rank cyclic integer lattices, equivalently full-rank ideals of $R_N:=\mathbb{Z}[X]/(X^N-1)$ in the coefficient norm. Hardness holds with $N=q-1$ for a varying odd prime $q$. As an application, we prove the same hardness for the algebraic class of NTRU-form lattices $\{(x,z)\in R_N^2:Hx\equiv z\pmod{QR_N}\}$, where $H,Q$ are unrestricted inputs. The decision problems are NP-complete, and the exact search problems are NP-hard under polynomial-time Turing reductions. No hardness claim is made for cryptographic NTRU parameter subclasses or key-generation distributions.</description>
+    </item>
+    <item>
       <title>NP-hardness of ideal lattice problems</title>
       <link>http://arxiv.org/abs/2609.15813v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15813v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.28355</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
       <description>We study the complexity of computing the Threshold dimension of a hypothesis class and its variant, the Extended threshold dimension. For the latter, we prove that it is both NP-hard and co-NP-hard, which (partially) answers an open question of Dmitriev et al. (SODA 2026). Furthermore, by relating the problem to a variant of Maximum Balanced Biclique, we prove strong hardness of approximation for both dimensions, including in the parameterized setting. As an intermediate result, we also prove hardness (of approximation) results for computing the ladder index and the semi-ladder index (Fabianski et al., STACS 2019), which have recently been used in the design of fixed-parameter tractable algorithms.</description>
-    </item>
-    <item>
-      <title>Automated Lower Bounds for Bilinear Complexity over Finite Fields</title>
-      <link>https://arxiv.org/abs/2603.07280</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.07280</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present a general, automated framework for proving lower bounds on the bilinear complexity (tensor rank) of multiplication problems over a finite field $\mathbb{F}_q$. The framework is parameterized only by the multiplication tensor and by a group of rank-preserving symmetries acting on one argument: it classifies the orbits of constraint subspaces under that group, runs a dynamic program over the orbits combining four lower-bound techniques, and emits a proof certificate that a verifier rechecks, typically faster than the search. Instantiating the framework for matrix multiplication, we improve the lower bounds for four small formats over $\mathbb{F}_2$, most notably showing that the bilinear complexity of multiplying two $3 \times 3$ matrices over $\mathbb{F}_2$ is at least $20$, raising the bound of $19$ that had stood since Bläser (2003). Instantiating it for polynomial multiplication -- full products, cyclic convolution, and the truncated (modulo $x^N$) and negacyclic (modulo $x^N+1$) products -- we obtain eighteen new lower bounds over $\mathbb{F}_2$ and $\mathbb{F}_3$. Every bound is backed by a machine-checkable certificate.</description>
-    </item>
-    <item>
-      <title>Complexity of Strong Popularity in Additively Separable Hedonic Games</title>
-      <link>https://arxiv.org/abs/2607.27277</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27277</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In a hedonic game, agents need to be partitioned into coalitions, and have a preference order over partitions. A partition is called strongly popular if it beats any other partition in a majority vote among the agents. We focus on the fundamental class of additively separable hedonic games (ASHGs), where agents have additive valuations that induce their preferences. We prove that determining the existence of strongly popular partitions in ASHGs is complete for PCW, a recently introduced complexity class which lies in between $P^{NP}$ and $S_2^P$ (Gilboa et al., 2025). This settles an open problem by Brandt and Bullinger (2022) and Bullinger and Gilboa (2025).</description>
     </item>
   </channel>
 </rss>

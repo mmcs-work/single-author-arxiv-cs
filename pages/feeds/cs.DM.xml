@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The price of anarchy in the max-distance network creation game is not constant</title>
+      <link>http://arxiv.org/abs/2609.17395v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17395v1</guid>
+      <pubDate>Tue, 15 Sep 2026 16:31:32 +0000</pubDate>
+      <description>At edge price $α=1$, we construct an infinite family of pure Nash equilibria of the unilateral max-distance network creation game with $\PoA\ge2^{\sqrt{\log_2 n}-O(\log\log n)}$. Together with the known upper bound, this gives $2^{Θ(\sqrt{\log n})}$ along the constructed sequence of population sizes. We subdivide every edge of the bipartite double cover of a distance-uniform graph with large diameter constructed by Lavrov, Loh and Messegué, and let each subdivision vertex buy its two incident edges. A distance calculation rules out every profitable unilateral deviation. The equilibria are not strict. We also give a short proof that the price of anarchy is constant for every polynomially vanishing edge price.</description>
+    </item>
+    <item>
+      <title>The forced colouring function of a graph</title>
+      <link>http://arxiv.org/abs/2609.17108v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17108v1</guid>
+      <pubDate>Tue, 15 Sep 2026 12:39:02 +0000</pubDate>
+      <description>The forced colouring function of a graph gives the probability that a random assignment of colours to a random subset of vertices can be extended, by a simple local process called forcing, to give a proper colouring of the whole graph using the same set of available colours. This is a polynomial for each fixed number of colours, and was introduced as a subject for research on the general theory of graph polynomials. In this paper we establish its fundamental properties and give combinatorial interpretations of its derivatives at two particular points. We also prove that the problem of computing its value at any specific point in a certain interval is #P-hard.</description>
+    </item>
+    <item>
       <title>Protected tails and polynomial-time enumeration of permutations avoiding a direct sum of an increasing pattern and 231</title>
       <link>http://arxiv.org/abs/2609.15642v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15642v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.17343</guid>
       <pubDate>Sun, 19 Jul 2026 00:00:00 -0000</pubDate>
       <description>For a signing $σ$ of a $d$-regular graph, the spectrum of $A_σ$ depends only on the signs of cycles. We study the affine $\mathbb F_2$ family of signings making every short even cycle unbalanced, and show that averaging over it converts the sign problem of the Bilu-Linial conjecture into a counting problem: a master identity expresses the family-averaged trace as a parity-weighted sum over wrap classes confined to the span $W$ of the constraint cycles, and the family-averaged Ihara $L$-function diagonalizes so that every prime whose parity escapes $W$ contributes the Ramanujan rate $\sqrt{d-1}$ automatically. Uniform averaging over all signings, by contrast, provably cannot certify a spectral radius below the Kesten profile. We prove matched upper and lower bounds for the confined walk counts, a doubling injection from below, and from above an ear-decomposition encoding in which the number of fresh runs of a non-backtracking walk equals the cycle rank of its support, combined with a window lemma for bicycle-free graphs and a rank bound via the Moore bound for irregular graphs. Consequences include $\varepsilon$-versions of the Bilu-Linial conjecture: every $d$-regular graph that is subcritical at scale $\log n$, and every $d$-regular graph bicycle-free at radius $C\log\log n/δ$, admits a signing in the parity family with $ρ(A_σ)\le2\sqrt{d-1}(1+Cδ\log(1/δ))(1+o(1))$. We further identify the necessary hypotheses exactly ($K_d$-trapping; tree-burst gadgets), give an exact certificate on the hypercube, and record a decisive obstruction to two-sided interlacing: $\mathbb E_σ\det(xI-A_σ^2)$ is not real-rooted, already for the quadrilateral, where it equals $(x^2-4x+2)^2+4$.</description>
-    </item>
-    <item>
-      <title>Treewidth of Products of Graphs with High Treewidth</title>
-      <link>https://arxiv.org/abs/2607.16778</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.16778</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Treewidth is the standard measure for how ``tree-like'' a graph is. This paper studies how the treewidth of a product graph depends on the treewidth of its factors. Kozawa, Otachi, and Yamazaki [2014] and Hickingbotham and Wood [2025] independently showed that $\text{tw}(G\boxtimes H)\geq (\text{tw}(G)+1)\text{had}(H)-1$ for all graphs $G$ and $H$, where $\text{had}(H)$ is the Hadwiger number of $H$. We improve this bound to $\text{tw}(G\boxtimes H)\geq (\text{tw}(G)+1)(\text{tw}(H)+1)-1$, thereby solving an open problem of Hickingbotham and Wood. We also prove analogous product inequalities for pathwidth, Cartesian products, and strict bramble number, which is a parameter that is tied to treewidth. As an application of our results, we show that products of expanders have large subgraphs that are expanders.</description>
-    </item>
-    <item>
-      <title>Linear extremal bounds for a family of forbidden $0$-$1$ matrices</title>
-      <link>https://arxiv.org/abs/2607.16463</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.16463</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Fulek defined the $0$-$1$ matrix \[ L_3=\begin{pmatrix} 1&amp;0&amp;0&amp;1&amp;0\\ 0&amp;0&amp;0&amp;0&amp;1\\ 0&amp;1&amp;1&amp;0&amp;0 \end{pmatrix} \] and asked whether $\text{ex}(n,L_3) = O(n)$. We prove that every $r\times s$ $0$-$1$ matrix avoiding $L_3$ has at most $27r+2s$ $1$ entries. Fulek's general lower bound construction has $6n-8$ $1$ entries, so \[ 6n-8\leq \text{ex}(n,L_3)\leq29n \] for $n\geq5$. The same argument applies to an infinite family. If $Q_{a,b,k,\ell}$ is the light three-row matrix with column word $1^a3^k1^b2^\ell$, where $a,b,\ell\geq1$ and $k\geq2$, then \[ \text{ex}(r,s,Q_{a,b,k,\ell}) \leq\bigl(5(k-1)(4b+1)+a+b+\ell-1\bigr)r+2s. \] This verifies a conjecture of Pettie and Tardos on linear light patterns for an infinite family that includes the previously unresolved weight-five pattern $L_3$. The proof assigns matrix entries to edges of a bar $1$-visibility hypergraph, cuts gaps to control the multiplicity of these edges, and charges the cuts to a noncrossing graph on the rows.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Twisted Rational Zeros and Local-Global Principles for Linear Recurrence Sequences</title>
+      <link>http://arxiv.org/abs/2609.16392v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.16392v1</guid>
+      <pubDate>Mon, 14 Sep 2026 21:58:42 +0000</pubDate>
+      <description>The Skolem Problem asks whether a given linear recurrence sequence (LRS) has a zero term, and is equivalent to proving an effective version of the Skolem-Mahler-Lech theorem, which states that a non-degenerate LRS has finitely many zeros. Decidability of the Skolem Problem however, has remained open for many decades. Bilu et al. (2022) showed that the Skolem Problem for simple LRS is decidable subject to the weak $p$-adic Schanuel Conjecture and the Skolem Conjecture (also known as the exponential local-global principle), the latter of which states that an LRS has an integer zero if and only if it has a zero modulo every integer $m$. This paper works towards understanding the Skolem Conjecture. We provide an example showing that a natural strengthening of the Skolem Conjecture, where we restrict $m$ to be a prime power, is false. This failure is accounted for by the relationship between $p$-adic zeros of LRS (which arise naturally in the proof of the Skolem--Mahler--Lech theorem and have been studied algorithmically by Bacik et al. (2026)) and twisted rational zeros (introduced by Bilu et al. (2025)). By studying this relationship further, we are able to prove the main result of this paper: a local-global principle for simultaneous zeros of two coprime LRS, subject to the $p$-adic Schanuel Conjecture. A fundamental step in proving this result is characterising when twisted rational zeros are (or are not) $p$-adic zeros for infinitely many primes $p$, which we do unconditionally. This also answers two open questions of Bilu et al. (2025). Finally, we conjecture that the existence of twisted rational zeros is the only way that the aforementioned strengthened Skolem Conjecture may fail, which is supported by a heuristic argument.</description>
+    </item>
+    <item>
       <title>Compressed Subsequence Checking is PSPACE-complete</title>
       <link>http://arxiv.org/abs/2609.14490v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.14490v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.21443</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
       <description>We develop a practical framework for livelock analysis in self-disabling unidirectional ring protocols. Klinkhamer and Ebnenasir established that livelock detection for parameterized rings is $Σ^0_1$-complete and livelock-freedom verification is $Π^0_1$-complete, via reduction from the periodic domino problem. We observe that lifting the analysis from the transition space to an \emph{equivariant product space} -- the space of transition-witness pairs -- reveals structure that supports effective verification. We construct a \emph{product transition graph} (at most $|T|^2$ nodes) that captures all livelocks: every livelock maps into this graph as a witness-closed subgraph. The maximal such subgraph $G^*(T)$ is computable in polynomial time ($O(|T|^8)$ worst case) via monotone fixed-point iteration. When $G^*(T) = \emptyset$, the protocol is \emph{provably livelock-free} for all ring sizes -- a sound and complete livelock-freedom verifier. When $G^*(T) \neq \emptyset$, we apply a backtracking search that backward-propagates each simple cycle through $G^*$ until the chain either closes into a torus (confirming a livelock) or dies (no livelock from that cycle). This two-phase algorithm -- polynomial-time pruning followed by finite combinatorial verification -- produces three outcomes: Free, Livelock, or Inconclusive. Across 4{,}349 protocols tested (including an adversarial protocol derived from Klinkhamer and Ebnenasir's tiling construction and Kari's 14-tile aperiodic set converted via their SE gadget), the algorithm is conclusive in every case with zero errors. We further demonstrate that the algorithm extends to non-self-disabling protocols via a protocol transformation. This extends the algorithm's applicability to all parameterized unidirectional ring protocols. Python implementation and usage instructions are at URL: https://github.com/cosmoparadox/mathematical-tools.</description>
-    </item>
-    <item>
-      <title>The speed of convergence in greedy Galois games</title>
-      <link>https://arxiv.org/abs/2605.00194</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.00194</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 -0000</pubDate>
-      <description>In 2013 Cooper and Dutle invented a dueling scenario where Alice and Bob shoot at each other until one is hit. Each shot is successful with some fixed probability $p$, $0 &lt; p &lt; 1$. The shooting order is given by a greedy algorithm, where at each step a shot is assigned to the player whose current probability of success is smaller. Cooper and Dutle observed that as $p \rightarrow 0$, the resulting sequence of shots (by Alice or Bob) converges to the infinite Thue-Morse sequence t, but left the speed of convergence as an open problem. In this note we determine the speed of this convergence.</description>
     </item>
   </channel>
 </rss>
