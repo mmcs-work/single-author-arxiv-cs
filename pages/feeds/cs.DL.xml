@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Is Luke the Author of a Gospel and the Acts of the Apostles?</title>
+      <link>http://arxiv.org/abs/2609.17762v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17762v1</guid>
+      <pubDate>Tue, 15 Sep 2026 19:11:16 +0000</pubDate>
+      <description>According to Christian tradition, Luke is credited with authoring a Gospel and the Acts of the Apostles, even if his name does not appear in either book, both originally written in Koine Greek. Several biblical scholars assume that both texts were written by a common author, while others deduce the presence of two authors. Different studies have been found to support either finding, some based on qualitative evaluation, while a few others consider the occurrence frequency differences between the two books. To propose an enhanced quantitative analysis, this study is grounded on two recent authorship attribution models. The Burrows' Delta, applied with eleven different feature sizes, demonstrates common authorship. An author verification model confirms this finding. The following experiments consider several stylistic representations, feature sizes, and distance functions to confirm that Luke is the true author of both books.</description>
+    </item>
+    <item>
+      <title>Evolution of US Oral Political Language</title>
+      <link>http://arxiv.org/abs/2609.17755v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17755v1</guid>
+      <pubDate>Tue, 15 Sep 2026 19:04:43 +0000</pubDate>
+      <description>The analysis of US political language is usually based on the written form (e.g. presidential addresses) or posts broadcasted on various social networks. Oral production, however, which is even more frequent, can better reveal the style and mode of thinking of the speaker. This study covers this mode of linguistic communication by considering 19 candidates from the presidential elections between 1960 to 2024. Our main research objectives are to disclose the main trends hidden in those presidential debates. Do we observe a clear simplification of the US political language over time? Does Trump have poor language compared to the other candidates? Do unusual stylistic features occur only with a single, specific president? Moreover, can we detect a pattern explaining the success or failure of some nominees? Over time, this study demonstrates a significant reduction in political language complexity, a decrease of the mean sentence length, and a noteworthy decline of complex terms. Moreover, the emotional tone increases over the decades, while logical and rational thinking tends to lessen.</description>
+    </item>
+    <item>
       <title>Ending the NIH embargo accelerated public access to funded research, but substantial delays remain</title>
       <link>http://arxiv.org/abs/2609.14842v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.14842v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.06236</guid>
       <pubDate>Sat, 04 Apr 2026 00:00:00 -0000</pubDate>
       <description>Scientific publishing systematically filters out negative results. We argue that this long-standing asymmetry has become an urgent problem in the era of large language models, which inherit the positive bias of the literature they are trained on, face an impending shortage of high-quality training data, and are increasingly deployed as both research tools and peer reviewers. We analyze three ways in which LLMs have changed the value of failure data and show that the systematic absence of such data degrades their utility as research tools, training data consumers, and peer reviewers alike. We outline experimental protocols to validate these claims and discuss the structural conditions under which a failure-inclusive publishing culture could emerge.</description>
-    </item>
-    <item>
-      <title>From Validity to Inter-Subjectivity: An Argument for Reliability Signals in Search Environments</title>
-      <link>https://arxiv.org/abs/2604.01186</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.01186</guid>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Search engines and information platforms are increasingly scrutinized for their role in spreading misinformation. Traditional responses often focus on detecting falsehoods or verifying the ultimate validity of claims. This paper argues that such a validity-centered framing is inadequate for the epistemic challenges of search environments.</description>
-    </item>
-    <item>
-      <title>How unique are hallucinated citations offered by generative Artificial Intelligence models?</title>
-      <link>https://arxiv.org/abs/2604.16407</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.16407</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 -0000</pubDate>
-      <description>This paper investigates how generative AI produces and propagates hallucinated academic references, focusing on the recurring non-existent citation 'Education Governance and Datafication' attributed to Ben Williamson and Nelli Piattoeva. Drawing on 137 accessible source papers identified through Google Scholar and Google searches, the study analyses the structure, recurrence, and onward citation of this phantom reference. It shows that hallucinated citations are not random inventions but patterned recombinations of real authors, journals, dates, and keywords, with duplication occurring in nearly 30% of cases. The paper also reports a structured interrogation of ChatGPT 5-mini about how it generates citations and finds that, absent verification, the model reconstructs plausible references from learned patterns rather than factual recall. Finally, ten AI-generated essays on datafication and school governance were examined: while most references were genuine or partly accurate, 9.2% remained hallucinated, including an exact match to the most common phantom citation. The findings highlight ongoing risks to academic integrity and show that web-enabled AI still does not fully eliminate fabricated references.</description>
     </item>
   </channel>
 </rss>

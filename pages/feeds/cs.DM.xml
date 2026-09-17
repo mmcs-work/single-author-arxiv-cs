@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Regular dyadic triangulations of delta-matroid polytopes</title>
+      <link>http://arxiv.org/abs/2609.18331v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.18331v1</guid>
+      <pubDate>Wed, 16 Sep 2026 08:55:15 +0000</pubDate>
+      <description>Backman and Liu proved that every integral generalized permutohedron of type $A$, and in particular every matroid base polytope, admits a regular unimodular triangulation. The analogous statement fails in type $B$: the delta-matroid simplex \[\operatorname*{conv}\{\mathbf{0},\ e_1+e_2,\ e_1+e_3,\ e_2+e_3\}\] has normalized volume $2$ and no lattice points other than its vertices, so it has no unimodular triangulation. We show moreover that, up to the natural symmetries of the $0/1$ cube and deletion of constant coordinates, it is the unique non-unimodular delta-matroid polytope that is a simplex. We prove instead that every delta-matroid polytope admits a regular dyadic triangulation, meaning a lattice triangulation whose maximal simplices have normalized volumes that are powers of two. More generally, every integral type $B$ generalized permutohedron admits such a triangulation. The main lattice-theoretic ingredient is that the type $B$ root configuration forms a totally dyadic system, a $2$-local analogue of total unimodularity. As a consequence, these polytopes satisfy a dyadic version of the integer decomposition property. In each dimension the corresponding exponent can be chosen uniformly, even though ordinary integer decomposition can fail for delta-matroid polytopes.</description>
+    </item>
+    <item>
+      <title>The Erdős--Sós Theorem</title>
+      <link>http://arxiv.org/abs/2609.17877v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17877v1</guid>
+      <pubDate>Tue, 15 Sep 2026 22:06:06 +0000</pubDate>
+      <description>We present an exposition of a proof, discovered by GPT-6 Astra, of the Erdős--Sós Conjecture, which states that every graph with average degree greater than $t-2$ contains every tree on $t\geq 2$ vertices.</description>
+    </item>
+    <item>
       <title>The price of anarchy in the max-distance network creation game is not constant</title>
       <link>http://arxiv.org/abs/2609.17395v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.17395v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.17829</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 -0000</pubDate>
       <description>This thesis investigates two central directions in algebraic graph theory, with an emphasis on spectral methods: spectral determination of graphs and transitivity properties of generalized-Hamming graphs and their complements. The first part focuses on graphs that are determined by the spectra of associated matrices. We study spectral determination with respect to the adjacency, Laplacian, signless Laplacian, and normalized Laplacian matrices, with particular emphasis on the adjacency spectrum. We survey existing results on graphs determined by their spectrum and develop new proof techniques for establishing spectral uniqueness. In particular, we present new proofs for the spectral characterization of complete bipartite graphs and Turán graphs, as well as some new results related to the spectral characterization of the important family of strongly regular graphs. In addition, we introduce a new family of graphs, called \emph{the graphs of pyramids}, and prove that they are determined by their adjacency spectrum using tools from matrix analysis, such as Cauchy's interlacing theorem and Schur complements. The second part of the thesis studies generalized-Hamming graphs, a family of Cayley graphs that generalize the sub-family of Hamming graphs, and their complements. We classify the parameters for which these graphs are edge-transitive or even distance-transitive. Our analysis combines spectral methods, group-theoretic arguments, and techniques from the theory of association schemes. As an application, we derive closed-form expressions for the Lovász $\vartheta$-function of generalized-Hamming graphs and their complements whenever either the graph or its complement is edge-transitive. Overall, the results demonstrate how spectral methods provide powerful tools for understanding the structure and symmetry of graphs, and they suggest several directions for further research.</description>
-    </item>
-    <item>
-      <title>Signed circulants at the Ramanujan bound</title>
-      <link>https://arxiv.org/abs/2607.18334</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.18334</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 -0000</pubDate>
-      <description>For the circulant graph $C_n(1,2)$ with $n\ge10$ even, the $\F_2$ system requiring every quadrilateral to be unbalanced is consistent and its solutions form exactly four switching classes. We show that the class containing the signing which is $+1$ on step-$1$ edges and $(-1)^i$ on step-$2$ edges has spectrum $\{\pm2\sqrt{\cos^2θ_k+\cos^2 2θ_k}\}$ and spectral radius exactly $2\sqrt2$, well below the Kesten bound $2\sqrt3$; that the quadrilateral system is equivalent to alternating triangle fluxes, so that the four classes are coordinatized by $(τ_0,α)$ and the spectral radius depends only on the Hamilton-cycle holonomy $α$; and that the two twisted classes attain $ρ_-(n)=2\sqrt{\cos^2(π/n)+\cos^2(2π/n)}&lt;2\sqrt2$. Exhaustive enumeration of all $2^{n+1}$ switching classes for $n\in\{8,10,12,14,16,18\}$ shows that $ρ_-(n)$ is the global minimum in every case, and we conjecture this for all even $n$; the lower bound is a flux-minimization statement in the sense of Lieb's flux-phase theorem. For odd $n$ the quadrilateral system is inconsistent.</description>
-    </item>
-    <item>
-      <title>Parity families and a kernel-averaged L-function for near-Ramanujan signings</title>
-      <link>https://arxiv.org/abs/2607.17343</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.17343</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 -0000</pubDate>
-      <description>For a signing $σ$ of a $d$-regular graph, the spectrum of $A_σ$ depends only on the signs of cycles. We study the affine $\mathbb F_2$ family of signings making every short even cycle unbalanced, and show that averaging over it converts the sign problem of the Bilu-Linial conjecture into a counting problem: a master identity expresses the family-averaged trace as a parity-weighted sum over wrap classes confined to the span $W$ of the constraint cycles, and the family-averaged Ihara $L$-function diagonalizes so that every prime whose parity escapes $W$ contributes the Ramanujan rate $\sqrt{d-1}$ automatically. Uniform averaging over all signings, by contrast, provably cannot certify a spectral radius below the Kesten profile. We prove matched upper and lower bounds for the confined walk counts, a doubling injection from below, and from above an ear-decomposition encoding in which the number of fresh runs of a non-backtracking walk equals the cycle rank of its support, combined with a window lemma for bicycle-free graphs and a rank bound via the Moore bound for irregular graphs. Consequences include $\varepsilon$-versions of the Bilu-Linial conjecture: every $d$-regular graph that is subcritical at scale $\log n$, and every $d$-regular graph bicycle-free at radius $C\log\log n/δ$, admits a signing in the parity family with $ρ(A_σ)\le2\sqrt{d-1}(1+Cδ\log(1/δ))(1+o(1))$. We further identify the necessary hypotheses exactly ($K_d$-trapping; tree-burst gadgets), give an exact certificate on the hypercube, and record a decisive obstruction to two-sided interlacing: $\mathbb E_σ\det(xI-A_σ^2)$ is not real-rooted, already for the quadrilateral, where it equals $(x^2-4x+2)^2+4$.</description>
     </item>
   </channel>
 </rss>

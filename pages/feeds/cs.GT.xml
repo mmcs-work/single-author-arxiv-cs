@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On the Role of Tie-Breaking Rules in the Convergence of Fictitious Play for Symmetric First-Price Auctions</title>
+      <link>http://arxiv.org/abs/2609.18848v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.18848v1</guid>
+      <pubDate>Wed, 16 Sep 2026 15:53:40 +0000</pubDate>
+      <description>We study continuous-time fictitious play in 2-bidder, symmetric first-price auctions with independently distributed discrete values and a discrete bid set. We first exhibit a minimal instance --- two bidders, two values, three positive bids --- on which fictitious play with the standard uniform-split tie-breaking rule does \emph{not} converge to the symmetric Bayes--Nash equilibrium: the equilibrium is unstable and the dynamics converge to a stable limit cycle far from the Nash equilibrium. We then show that a small modification of the tie-breaking rule --- awarding a payoff of zero to every bidder in case of a tie --- restores convergence: fictitious play converges to a Nash equilibrium of the modified game. This limit is an $ε$-equilibrium of the original auction in a broad range of settings.</description>
+    </item>
+    <item>
+      <title>A Robust Perceptron Cycling Theorem and Applications</title>
+      <link>http://arxiv.org/abs/2609.18342v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.18342v1</guid>
+      <pubDate>Wed, 16 Sep 2026 09:06:33 +0000</pubDate>
+      <description>The classical perceptron cycling theorem of Block and Levin \cite{BlockLevin1970} bounds correction sequences whose selected updates come from a finite set and have nonpositive inner product with the current state. We prove a robust variant for additive trajectories $z_{k+1}=z_k+u_k$, for all integers $k\geq0$, with increments in a finite set $U\subset E$, where $E$ is a finite-dimensional real inner-product space and $0\in\conv U$. Let $A\colon E\to E$ have positive-definite symmetric part, without requiring symmetry, and let $B\geq0$. If each $u_k$ is a $B$-approximate minimizer of $u\mapsto\ip{Az_k}{u}$ over $U$, then $\sup_{k\geq0}\norm{z_k}\leq C(1+\norm{z_0}+B)$, with $C=C(E,U,A)$ independent of the initial state, $B$, and all admissible update choices. Our central algorithmic consequence is an $O(k^{-1})$ last-iterate norm bound for harmonic vertex-returning Frank--Wolfe for affine strongly monotone variational inequalities on polytopes with relatively interior solutions. It extends the quadratic Frank--Wolfe/herding guarantee of Bach, Lacoste-Julien, and Obozinski \cite[Section~4.2]{BachEtAl2012} to nonsymmetric affine operators. We apply this bound to empirical best responses in strongly stable linear population games, quadratically regularized bilinear saddle problems, and traffic assignment with coercive affine asymmetric cost maps.</description>
+    </item>
+    <item>
+      <title>The Exact Approximation Ratio of Uniformly Rotated Coordinate-wise Median in the Euclidean Plane</title>
+      <link>http://arxiv.org/abs/2609.18152v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.18152v1</guid>
+      <pubDate>Wed, 16 Sep 2026 05:32:34 +0000</pubDate>
+      <description>Uniformly rotated coordinate-wise median chooses a random orthonormal coordinate system, takes a median in each coordinate, and maps the resulting point back to the Euclidean plane. We determine its exact worst-case expected approximation ratio when social cost is the $L_p$ norm of the agents' Euclidean distances and $1&lt;p&lt;2$. The ratio is \(\frac{2^{2-1/p}}π\int_0^{π/2}(\cos^pθ+\sin^pθ)^{1/p}\ddθ\). This expression was previously established as a lower bound by Chan, Lin, and Wang; our contribution is the matching upper bound. The proof establishes a strengthened coordinate-wise median inequality relative to an arbitrary reference point. Its right-hand side is linear in a sum of direction-dependent norms, which permits direct averaging over rotations without the loss incurred by passing through a $p$th-moment bound. We give all auxiliary inequalities and a self-contained proof of tightness using the established two-cluster-and-outlier construction. The upper bound holds for every finite profile and every measurable choice within the coordinate median intervals, while odd-size profiles suffice for the matching lower bound. The result characterizes this fixed mechanism, rather than the optimal approximation ratio among all randomized strategyproof mechanisms.</description>
+    </item>
+    <item>
+      <title>Research on the Price Prediction Algorithms of Major Cryptocurrencies and a Basic Transaction Framework</title>
+      <link>http://arxiv.org/abs/2609.18149v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.18149v1</guid>
+      <pubDate>Wed, 16 Sep 2026 05:30:19 +0000</pubDate>
+      <description>Through long-term observation and time series analysis of Bitcoin and Ethereum, we found the similarity in long-term consistent price trends, especially in the weekly K-line. We denoised and smoothed the historical data of their prices, and further derived the periodicity of their price change trends and the timing of buying and selling. We have for the first time proposed that the full application of central bank digital currencies (CBDC) is a key signal for investors to reduce their holdings of cryptocurrencies or even exit the market. In addition, we proposed momentum opening/closing prices to replace the traditional nominal opening/closing prices to accurately describe the price trends of the 24/7 financial trading market. We found that the cryptocurrency market can be regarded as a relatively independent financial market, thereby designing a safer and more efficient arbitrage strategy.</description>
+    </item>
+    <item>
+      <title>Dynamic Pooling and Regional Participation in Deceased-Donor Organ Allocation</title>
+      <link>http://arxiv.org/abs/2609.18147v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.18147v1</guid>
+      <pubDate>Wed, 16 Sep 2026 05:28:40 +0000</pubDate>
+      <description>Moving from geographically fragmented to pooled waiting lists in deceased-donor organ transplantation can improve efficiency, but it raises concerns about regional fairness and participation incentives. This paper studies Pareto gains from such transitions in a multi-class queueing model with impatient agents, perishable items, and a tractable homogeneous compatibility friction. Unlike standard approaches that focus on static match quality or ignore regional incentives in dynamic settings, our analysis identifies dynamic risk pooling as the main source of Pareto improvements for regions: pooling reduces organ waste due to stochastic supply-demand fluctuations, temporal mismatches, and random compatibility outcomes. Although this dynamic surplus theoretically permits Pareto improvements, a purely utilitarian policy that treats all patients equally across regions often fails to deliver them when regions are asymmetric. In such cases, utilitarian redistribution extracts too many organs from high-supply regions and violates their participation constraints. To resolve this conflict, we show that the set of achievable utilities can be described by mixtures of static priority index policies. Building on this structure, we propose the Constrained Pareto Frontier Search (CPFS), a polynomial-time procedure that computes an approximately optimal allocation policy with arbitrarily small participation-constraint violations. The results suggest that, by adjusting priority indices to keep redistribution within the gains from pooled supply, demand, and compatibility risk, policymakers can attain global efficiency while preserving local participation incentives.</description>
+    </item>
+    <item>
       <title>The price of anarchy in the max-distance network creation game is not constant</title>
       <link>http://arxiv.org/abs/2609.17395v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.17395v1</guid>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.25540</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
       <description>Rank aggregation is the task of combining $n$ input rankings (linear orders) of alternatives into a single output ranking. The Kemeny rank aggregation rule selects the output ranking that minimizes the total Kendall-tau distance to the input rankings, i.e., the total number of adjacent swaps that need to be performed across input rankings so that they are all equal to the output ranking. Dwork et al. (2001) proved that the problem of computing such a ranking is NP-complete for every even $n \ge 4$ and asked whether hardness holds even for $n = 3$. We give a hardness reduction from MAX CUT that proves the problem is NP-complete for $n = 3$. The reduction was found in July 2026 by GPT 5.6 Sol Ultra and simplified in part with help from Claude Fable 5.</description>
-    </item>
-    <item>
-      <title>Interactive Alignment</title>
-      <link>https://arxiv.org/abs/2607.25019</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.25019</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This paper studies the long-run alignment of interactive agents, including AI systems, teams, firms, and governments, with human welfare. It develops a farming game in which a population of agents makes planting, trading, and expansion decisions. Agents must allocate final output between transfers to humans and investment in their own expansion. Because transfers to humans reduce the resources available for expansion, evolutionary forces tend to select against aligned behavior. The central question is whether agents' constitutional principles governing sharing and trade can be designed so that alignment persists in the long run. The paper investigates this question using two complementary approaches. First, it develops an AI-agent simulation in which agents' preferences are specified by written constitutions and interpreted by a large language model. Second, it introduces a tractable evolutionary game-theoretic framework that permits rapid and intuitive exploration of alternative constitutional designs. The results suggest that evolutionary game theory provides a useful approximation to the dynamics of constitutional-agent economies. They also indicate that pragmatic norm enforcement, under which agents condition both human-facing altruism and agent-facing trade exclusion on the state of the population, can sustain long-run alignment more effectively than simple altruism or unconditional altruistic enforcement.</description>
-    </item>
-    <item>
-      <title>A Non-Probabilistic Game-Theoretic Information Theory Which Subsumes Probabilistic Channel Coding</title>
-      <link>https://arxiv.org/abs/2604.10868</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.10868</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Probabilistic settings (e.g., vanishing-error channel coding) and non-probabilistic settings (e.g., zero-error channel coding and adversarial channels) were considered two related but different branches of information theory which do not subsume each other. We propose a unifying non-probabilistic information theory based on game theory and dynamic hedging which subsumes the conventional probabilistic channel coding theorem (vanishing error, with or without feedback) and lossless source coding theorem, as well as zero-error and adversarial settings. Coding is modelled as a deterministic game between an encoder and an adversary, where the encoder may purchase insurance with a payoff that depends on the channel outputs. Our framework is based on a generalization of the works by Ville, Dawid, Shafer and Vovk on the game-theoretic formulation of probabilistic concepts, by relaxing the convex pricing cone to a nonconvex downward closed cone, which is precisely the relaxation needed to model information transmission. Pricing downward closed cone is a versatile tool for non-probabilistic coding results that can subsume their probabilistic counterparts, and provides a canonical form for probabilistic channels, adversarial channels and arbitrarily varying channels.</description>
-    </item>
-    <item>
-      <title>The Optimal Sample Complexity of Linear Contracts</title>
-      <link>https://arxiv.org/abs/2601.01496</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.01496</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we settle the problem of learning optimal linear contracts from data in the offline setting, where agent types are drawn from an unknown distribution and the principal's goal is to design a contract that maximizes her expected utility. Specifically, our analysis shows that the simple Empirical Utility Maximization (EUM) algorithm yields an $\varepsilon$-approximation of the optimal linear contract with probability at least $1-δ$, using just $O(\ln(1/δ) / \varepsilon^2)$ samples. This result improves upon previously known bounds and matches a lower bound from Dütting et al. 2025 up to constant factors, thereby proving its optimality. Furthermore, our result establishes the stronger guarantee of uniform convergence: the empirical utility of every linear contract is an $\varepsilon$-approximation of its true expectation with probability at least $1-δ$, using the same optimal $O(\ln(1/δ) / \varepsilon^2)$ sample complexity.</description>
-    </item>
-    <item>
-      <title>Improved Hardness Results for Nash Social Welfare, Budgeted Allocation and GAP via the Unique Games Conjecture</title>
-      <link>https://arxiv.org/abs/2605.27098</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.27098</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We consider the problem of dividing a set of indivisible goods among agents with additive valuations. This problem has been studied under various objectives in both the computer science and the operations research literature. Our main contribution is a novel dictator test using this problem, which can separate a dictator from any function sufficiently far from a dictator. We use this test to prove the following hardness results (assuming the unique games conjecture is true): (1) We show that it is NP-hard to approximate the max Nash welfare by a factor better than $\sqrt[3]{\frac{81}{65}} - \varepsilon \approx 1.0761$. This improves on the previous best known inapproximability factor of $\sqrt{\frac87} - \varepsilon \approx 1.069$. (2) We show that it is NP-hard to approximate the maximum budgeted allocation by a factor better than $\frac{243}{227} - \varepsilon \approx 1.07$. This improves on the previous best known inapproximability factor of $\frac{16}{15} - \varepsilon \approx 1.067$. (3) We show that it is NP-hard to approximate the max generalized assignment problem (GAP) by a factor better than $\frac{145}{129} - \varepsilon \approx 1.124$. This improves on the previous best known inapproximability factor of $\frac{11}{10} - \varepsilon \approx 1.10$.</description>
-    </item>
-    <item>
-      <title>Computing Evolutionarily Stable Strategies in Imperfect-Information Games</title>
-      <link>https://arxiv.org/abs/2512.10279</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.10279</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main algorithm is for two-player games, and we describe how it can be extended to multiplayer games. The algorithm is sound and computes all ESSs in nondegenerate games and a subset of them in degenerate games which contain an infinite continuum of symmetric Nash equilibria. The algorithm can be stopped early to find one or more ESSs. We experiment on an imperfect-information cancer signaling game as well as random games to demonstrate scalability.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Is Luke the Author of a Gospel and the Acts of the Apostles?</title>
+      <link>http://arxiv.org/abs/2609.17762v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17762v1</guid>
+      <pubDate>Tue, 15 Sep 2026 19:11:16 +0000</pubDate>
+      <description>According to Christian tradition, Luke is credited with authoring a Gospel and the Acts of the Apostles, even if his name does not appear in either book, both originally written in Koine Greek. Several biblical scholars assume that both texts were written by a common author, while others deduce the presence of two authors. Different studies have been found to support either finding, some based on qualitative evaluation, while a few others consider the occurrence frequency differences between the two books. To propose an enhanced quantitative analysis, this study is grounded on two recent authorship attribution models. The Burrows' Delta, applied with eleven different feature sizes, demonstrates common authorship. An author verification model confirms this finding. The following experiments consider several stylistic representations, feature sizes, and distance functions to confirm that Luke is the true author of both books.</description>
+    </item>
+    <item>
+      <title>Evolution of US Oral Political Language</title>
+      <link>http://arxiv.org/abs/2609.17755v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17755v1</guid>
+      <pubDate>Tue, 15 Sep 2026 19:04:43 +0000</pubDate>
+      <description>The analysis of US political language is usually based on the written form (e.g. presidential addresses) or posts broadcasted on various social networks. Oral production, however, which is even more frequent, can better reveal the style and mode of thinking of the speaker. This study covers this mode of linguistic communication by considering 19 candidates from the presidential elections between 1960 to 2024. Our main research objectives are to disclose the main trends hidden in those presidential debates. Do we observe a clear simplification of the US political language over time? Does Trump have poor language compared to the other candidates? Do unusual stylistic features occur only with a single, specific president? Moreover, can we detect a pattern explaining the success or failure of some nominees? Over time, this study demonstrates a significant reduction in political language complexity, a decrease of the mean sentence length, and a noteworthy decline of complex terms. Moreover, the emotional tone increases over the decades, while logical and rational thinking tends to lessen.</description>
+    </item>
+    <item>
       <title>When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control</title>
       <link>http://arxiv.org/abs/2609.17516v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.17516v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.06872v1</guid>
       <pubDate>Sun, 06 Sep 2026 23:25:58 +0000</pubDate>
       <description>When a user asks an assistant to forget a record, the test is whether the memory now matches the state it would hold if the record had never been stored. Independently encoded rows can be removed directly; a recurrent memory folds records into an evolving state. One hope is a receipt: save the difference the record made when it arrived, carry it forward through later updates, and subtract it, so that deletion costs one fixed-size edit no matter how long the conversation runs. We show that a transported receipt reaches exact omission if and only if the changes the record induces in later updates cancel out on net, and we measure whether they do on the released 48B Kimi Linear hybrid. They do not: after 4,096 further tokens the record still leaves an imprint of about 4.5% of the state norm that none of the tested receipt classes removes, recomputing half the suffix closes less than half the gap, and the per-token log a receipt needs costs more than a full checkpoint after 88 tokens. The same write-rule classification held on Mamba-2, Falcon-H1, and RWKV-7 with predictions recorded before the runs. Restoring a checkpoint from before the record and replaying the surviving suffix matches the never-stored state exactly on every array we check. In the hybrid suffix sweep, masking the record's attention rows brings sampled recovery close to the never-stored floor even though the recurrent imprint remains, and an auditor who rebuilds the reference can still detect it. Among the evaluated methods, checkpoint replay achieves exact omission, with work proportional to the replayed suffix.</description>
-    </item>
-    <item>
-      <title>Measuring GEO Visibility: Prompt Corpora Define the Answer Market</title>
-      <link>http://arxiv.org/abs/2609.06811v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06811v1</guid>
-      <pubDate>Sun, 06 Sep 2026 20:07:53 +0000</pubDate>
-      <description>GEO (generative engine optimization) visibility scores aggregate source appearances, citations, or brand mentions in generated answers. The prompt corpus selects the situations evaluated, while weights determine their relative importance. Together they define an "answer market" that need not represent actual user demand. Prompt wording can alter retrieval, competing sources, and generated answers. Scoring then requires identifying the appearances, citations, or mentions of interest. If a language model performs this task, its instruction can change the score assigned to an unchanged answer. Our critical survey examines how these choices help define what a GEO score measures. It draws on research into whether indicators measure the intended phenomenon, total survey error, and information retrieval evaluation. The framework specifies situation annotation, prompt formulations, execution conditions, weights, and scoring rules. When weights are unknown or remain to be chosen, the framework reports sets of admissible scores. It distinguishes values compatible with data and assumptions about a target population (partial identification) from variation across weighting conventions (normative sensitivity). A citation alone does not establish a source's contribution. The article defines a comparison of answers generated with and without a source in a controlled documentary context, distinct from an intervention on the full engine with competing sources. The framework is supported by reproducible calculations. No new experiments are reported; its general empirical validity remains to be assessed.</description>
-    </item>
-    <item>
-      <title>A Translational Note on AI Safety Evaluation</title>
-      <link>http://arxiv.org/abs/2609.06573v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06573v1</guid>
-      <pubDate>Sun, 06 Sep 2026 12:36:31 +0000</pubDate>
-      <description>Recent studies report that automated red-teaming finds more vulnerabilities, at lower cost, than human red-teaming on standard AI safety benchmarks, and some read this as evidence that human evaluators are becoming dispensable. The comparison measures one thing and the conclusion claims another. A benchmark measures how thoroughly an attacker searches a predefined set of harms, fixed in advance by the developers, and a harm left out of that set is invisible to any attacker working inside it, automated or not. The same blind spot appeared in academic cryptography and in clinical drug trials, where an evaluation that was internally valid stayed silent about the population it was never pointed at. We call the AI-safety version the \emph{threat-model coverage gap}, and find that it persists in a current open-weight model, where harms surface in non-English prompts that English benchmarks miss. Closing it requires evaluators whose deployment context differs from the developers'. The case for those evaluators is methodological, grounded in coverage, and the existing evaluation frame is unlikely to produce them on its own.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Composability rather than computation sets the cost of an analog EML hardware fabric</title>
+      <link>http://arxiv.org/abs/2609.17903v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.17903v1</guid>
+      <pubDate>Tue, 15 Sep 2026 22:46:50 +0000</pubDate>
+      <description>The operator eml(x, y) = exp(x) - ln(y) with the constant 1 generates the elementary functions, a continuous counterpart to NAND. Whether it yields a useful fabric had not been asked of hardware. We ask in network models, circuit simulation and SkyWater 130 nm layout. Four bipolar junctions evaluate the operator for 13 fJ, beating a width-matched digital datapath by 4-134x. The fabric assembled from them is not cheap: it loses to resource-matched baselines, and over the reals its grammar excludes trigonometry. Amplifiers holding those junctions' operating points take 74.5% of a cell's current, so a cell costs 3000 times what they spend. Extracted non-idealities cost 2.6x when a cell must hold a value and nothing when it need only be repeatable. Sharing them across cells recovers two of the three orders. The premise was that a universal primitive licenses a uniform machine. It survives in the primitive and fails in the machine.</description>
+    </item>
+    <item>
       <title>Nested Parallel von Neumann Architecture and Nested BSP</title>
       <link>http://arxiv.org/abs/2609.16787v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.16787v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.01902</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
       <description>While functional RISC-V implementations are readily available in academia, controlled empirical studies that extend a single baseline architecture along multiple design axes and quantify the resulting trade-offs at each step remain scarce. This paper presents RV-IM100, a family of 10 incremental FPGA-implemented microarchitectures derived from a common 5-stage pipeline baseline, systematically varying datapath width from RV32 to RV64, instruction set from I to IM, and pipeline depth from 5 to 8 stages under controlled conditions. The I-to-IM extension produced strongly benchmark-dependent effects at the 5-stage level: CoreMark throughput more than doubled while Dhrystone throughput decreased marginally despite improved per-MHz efficiency. Within the RV32IM configuration, an iterative timing-closure methodology combined with pipeline deepening from 5 to 8 stages raised max frequency from 43 to 126MHz, increasing both Dhrystone and CoreMark throughput by 71%, while per-MHz efficiency decreased by 41%. The 6-to-7-stage transition caused throughput regression in RV64 despite higher frequency, revealing that the outcome depends on available frequency headroom. Cross-width comparison showed RV32 outperforming RV64 in absolute throughput, with per-MHz efficiency diverging by benchmark: RV64 led by 2.3% in DMIPS/MHz while RV32 led by 4.6% in CoreMark/MHz. At 8 stages, RV32 required 59% fewer LUTs, 51% fewer FFs, and 80% fewer DSPs, indicating that the resource cost of width extension substantially exceeds the modest efficiency differences. These results provide a quantitative reference for design-space exploration in RISC-V microarchitectures. All RTL sources and benchmark configurations are publicly available.</description>
-    </item>
-    <item>
-      <title>A Synthesizable RTL Implementation of Predictive Coding Networks</title>
-      <link>https://arxiv.org/abs/2603.18066</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.18066</guid>
-      <pubDate>Sat, 02 May 2026 00:00:00 -0000</pubDate>
-      <description>Backpropagation has enabled modern deep learning but is difficult to realize as an online, fully distributed hardware learning system due to global error propagation, phase separation, and heavy reliance on centralized memory. Predictive coding offers an alternative in which inference and learning arise from local prediction-error dynamics between adjacent layers. This paper presents a digital architecture that implements a discrete-time predictive coding update directly in hardware. Each neural core maintains its own activity, prediction error, and synaptic weights, and communicates only with adjacent layers through hardwired connections. Supervised learning and inference are supported via a uniform per-neuron clamping primitive that enforces boundary conditions while leaving the internal update schedule unchanged. The design is a deterministic, synthesizable RTL substrate built around a sequential MAC datapath and a fixed finite-state schedule. Rather than executing a task-specific instruction sequence inside the learning substrate, the system evolves under fixed local update rules, with task structure imposed through connectivity, parameters, and boundary conditions. The contribution of this work is not a new learning rule, but a complete synthesizable digital substrate that executes predictive-coding learning dynamics directly in hardware.</description>
     </item>
   </channel>
 </rss>
