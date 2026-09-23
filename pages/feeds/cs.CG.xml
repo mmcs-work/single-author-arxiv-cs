@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Facility Advantage in the One-Round Discrete Voronoi Game on a Line</title>
+      <link>http://arxiv.org/abs/2609.24936v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.24936v1</guid>
+      <pubDate>Mon, 21 Sep 2026 17:31:27 +0000</pubDate>
+      <description>In the one-round discrete Voronoi game a multiset $V$ of $n$ voters on a line is given; player P places $k$ facilities, player Q then places $\ell$, and each voter is won by the nearer facility, ties going to P. P wins if it keeps at least $n/2$ voters. In the vocabulary of competitive location this is the absolute $(\ell|k)$-centroid problem on a path with unit demands, and the responder's problem is the $(\ell|X_k)$-medianoid, whose closed form on a path -- the sum of the $\ell$ largest of at most $2k$ explicit marginals -- is due to Spoerhase and Wirth. We record this structure, with complete proofs, and draw two consequences that we believe are new. First, we compute the value of the game against a single responding facility, $Γ_{k,1}(V)$, together with an optimal strategy for P, in $O(n\log n)$ time for arbitrary positive real demands and every $k$. This improves the $O(kn\log^2 n)$ bound of Lazar and Tamir for the absolute $(1|k)$-centroid on a path. Second, we study the facility advantage $k^*(\ell)$, the least $k$ for which P wins every instance against $\ell$ facilities. We prove $k^*(\ell)\le 2\ell-1$, exhibit instances proving $k^*(\ell)\ge\ell+1$ for $2\le\ell\le6$ (an exact, computer-assisted proof resting on a half-integer discretisation), determine $k^*(1)=1$ and $k^*(2)=3$, and show that on uniform instances $k=\ell$ already suffices, so the extremal instances are weighted and Q wins them by a single voter. We conjecture $k^*(\ell)=\ell+1$ for all $\ell\ge2$.</description>
+    </item>
+    <item>
       <title>Greedy Packing of Nested Rings: Placement Rules, a Golden Counterexample, and a Tribonacci Floor</title>
       <link>http://arxiv.org/abs/2609.15554v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15554v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.04097</guid>
       <pubDate>Sun, 05 Apr 2026 00:00:00 -0000</pubDate>
       <description>A unique sink orientation (USO) is an orientation of the edges of a polytope in which every face contains a unique sink. For a product of simplices $Δ_{m-1} \times Δ_{n-1}$, Felsner, Gärtner and Tschirschnitz (2005) characterize USOs which are induced by linear functions as the USOs on a $(m \times n)$-grid that correspond to a two-colored arrangement of lines. We generalize some of their results to products $Δ^1 \times\cdots\times Δ^r$ of $r$ simplices, USOs on $r$-dimensional grids and $(r+1)$-signotopes.</description>
-    </item>
-    <item>
-      <title>Separator for $c$-Packed Segments and Curves</title>
-      <link>https://arxiv.org/abs/2604.04011</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.04011</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We provide a simple algorithm for computing a balanced separator for a set of segments that is $c$-packed, showing that the separator cuts only $O(c)$ segments. While the result was known before, arguably our proof is simpler.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An Exponential Succinctness Gap between Three-Variable Logic and the Calculus of Relations</title>
+      <link>http://arxiv.org/abs/2609.26778v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.26778v1</guid>
+      <pubDate>Tue, 22 Sep 2026 17:55:06 +0000</pubDate>
+      <description>Three-variable first-order logic (FO3) and the calculus of relations (CoR) define the same binary queries, an equivalence going back to Tarski in the 1940s. While the classical translation $\text{FO3} \Rightarrow \text{CoR}$ is exponential, we prove that this blow-up is unavoidable, resolving a long-standing open question. We construct positive formulas $\varphi$ with a single quantifier whose equivalent terms require size $2^{Ω(|\varphi|)}$, even over finite structures and circuit representations with subterm sharing. Our proof uses a preservation argument over a single finite structure. This approach applies beyond our primary question, establishing the lower bound even for size-specific circuits and bounded-error randomized circuits, and yielding an analogous exponential gap for the matrix query language MATLANG.</description>
+    </item>
+    <item>
+      <title>Formalizing PARITY Circuit Lower Bounds in Lean</title>
+      <link>http://arxiv.org/abs/2609.24188v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.24188v1</guid>
+      <pubDate>Mon, 21 Sep 2026 07:00:51 +0000</pubDate>
+      <description>We formalize Hastad's PARITY lower bound in Lean using the switching lemma. For every fixed d &gt;= 2, formulas and DAG circuits of computation depth at most d computing PARITY on n inputs require size exp(Omega_d(n^(1/(d-1)))) for all sufficiently large n. This matches the classical upper bound up to constants in the exponent and implies that PARITY is not in nonuniform AC0. We also construct a polynomial-size, logarithmic-depth bounded-fan-in formula family for PARITY, providing a witness to NC1 is not a subset of AC0 for the formalized models. The Lean source code is available at https://github.com/formalcs/circuit-complexity and is checked with Lean 4.33.1 and mathlib 4.33.1.</description>
+    </item>
+    <item>
+      <title>An exponential lower bound for the bit pigeonhole principle in resolution over parities</title>
+      <link>http://arxiv.org/abs/2609.23015v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.23015v1</guid>
+      <pubDate>Sat, 19 Sep 2026 13:32:02 +0000</pubDate>
+      <description>Resolution over parities, $\mathrm{Res}(\oplus)$, is the characteristic-two version of resolution over linear equations: clauses are disjunctions of affine equations over $\mathbb F_2$. Superpolynomial size lower bounds were previously known only for restricted refutations: tree-like, regular, or of bounded depth. We prove that every DAG-like $\mathrm{Res} (\oplus)$ refutation of the bit pigeonhole principle with $n+1$ pigeons and $n=2^\ell$ holes has more than $\exp(n/(32768\ell^2))=2^{Ω(n/\log^2 n)}$ clauses, for every $\ell\ge32$, with no restriction on regularity or depth. The proof translates an arbitrary refutation with $S$ clauses into a polynomial calculus refutation of degree $O(\log n)$ over $O(S+n^2)$ groups of extension variables in the style of Buss, Impagliazzo, Krajicek, Pudlak, Razborov, and Sgall. One substitution then removes all extension variables at once and leaves a nonzero low-degree polynomial derived from the pigeonhole axioms alone at degree at most $n/2$; a degree lower bound in the style of Razborov, proved through the homology of chessboard complexes, shows that no such derivation exists. The argument also yields a general sufficient condition for $\mathrm{Res}(\oplus)$ size lower bounds. The main theorem, this condition, and all their dependencies are formalized in Lean 4, and every statement links to its formal proof. The proof was developed with substantial AI assistance within an open research framework described in the final section.</description>
+    </item>
+    <item>
+      <title>Metric Self-Dual Completion and Optimal Additive Hardness for Quantum and Graph-State Distance</title>
+      <link>http://arxiv.org/abs/2609.22669v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.22669v1</guid>
+      <pubDate>Sat, 19 Sep 2026 00:57:30 +0000</pubDate>
+      <description>We prove that the quantum code distance is NP-hard to approximate within an additive error of $c N$, for some constant $c &gt;0$, where $N$ is the number of qubits. Our reductions are deterministic. This improves the previous square-root additive gap to $Ω(N)$ and resolves the explicitly stated linear-gap question of Kapshikar and Kundu. Our result holds for CSS codes with identical $X$- and $Z$-check spaces, and with a constant rate and constant relative distance. For every fixed $λ&gt;1$, there is a constant $c&gt;0$ such that hardness still holds even when every nonidentity stabilizer has weight greater than $λ$ times the quantum distance. We also improve the hardness gap of graph state distance on $N$ vertices of Grigorescu, Jha, and Samperton from cube-root to $Ω(N)$, resolving their explicitly stated open question. Both hardness results are asymptotically optimal since both distances are at most $N$. Our graph state distance hardness result holds for balanced bipartite graphs with a binary adjacency matrix that is its own inverse (mod 2). Our main technique for both hardness bounds above is classical: we show how to convert any code $C$ of length $m$ into a self-dual code $A(C)$ of length $N=Θ(m)$ while exactly doubling the original coset metric. The conversion is deterministic and efficient. We call it the metric self-dual completion of $C$. It comes with a linear embedding $τ: \mathbb F_2^m \hookrightarrow \mathbb F_2^N$. The embedding doubles all Hamming distances between vectors in $\mathbb F_2^m$ and all pairwise distances between corresponding cosets. The embedding also guarantees that all codewords of $A(C)$ of weight at most $2m$ are exactly $τ(C)$.</description>
+    </item>
+    <item>
       <title>Improved Separations between Quantum and Classical Communication Complexity of Total Functions</title>
       <link>http://arxiv.org/abs/2609.16726v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.16726v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.00333</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 -0000</pubDate>
       <description>Assuming the Unique Games Conjecture, we show it is NP-hard to approximate MAX-3-CUT within a multiplicative factor of $α_3+ε$ for every $ε&gt;0$, where $α_3\approx.83600811464$ is the approximation ratio of Frieze-Jerrum's polynomial-time algorithm from 1995. That is, we prove sharp hardness of approximation for MAX-3-CUT. This result resolves a conjecture of Khot-Kindler-Mossel-O'Donnell from 2004 by proving the three candidate Plurality is Stablest Conjecture for correlations in $[-1/2,2/5]$ and generalizes the Majority is Stablest Theorem of Mossel-O'Donnell-Oleszkiewicz [Annals of Math, 2010]. With a similar strategy we prove: assuming the Unique Games Conjecture, it is NP-hard to approximate the product-state value of Quantum MAX-CUT within a multiplicative factor of $α_{\rm BOV}+ε$ for every $ε&gt;0$, where $α_{\rm BOV}\approx 0.9563372685$ is the approximation ratio of the Briët-de Oliveira Filho-Vallentin algorithm. This sharp hardness result completes the conjectured hardness of Hwang-Neeman-Parekh-Thompson-Wright from 2021 by proving their $S^{k-1}$-valued Borell inequality for correlations in $[-.5843,.5843]$ for all $k\geq3$.</description>
-    </item>
-    <item>
-      <title>On the Complexity of Computing Outputs of a Metric Turing Machine</title>
-      <link>https://arxiv.org/abs/2608.00283</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.00283</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The classes MidP, MedP, and $\small{\overline{\text{MedP}}}$ contain functions that compute the median solution for certain types of problems. In this paper, for these classes we introduce analogous classes of functions that compute the k-th solution, where k is an order function that depends on the input. We prove that the classes MidP, MedP, and $\small{\overline{\text{MedP}}}$ are polynomial-time 1-Turing inter-reducible with the corresponding classes, where the order function is from FP or FP$^{\text{#P}}$. For MedP we also prove that it coincides with the corresponding classes, where the order function is from FP or #P. For several inclusions between function classes we give equivalent inclusions between language classes. In particular, we establish inclusion relations between MaxP and median classes MidP, MedP, and $\small{\overline{\text{MedP}}}$. We also prove that NPSV$_{\text{t}} \subseteq$ MaxP $\subseteq$ FP$^{\text{NP}}$ and both inclusions are proper if and only if NP $\neq$ coNP.</description>
-    </item>
-    <item>
-      <title>Quantum Algorithms for Modular Factorials</title>
-      <link>https://arxiv.org/abs/2607.29453</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.29453</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We give a bounded-error quantum algorithm that, given a prime $p$, a divisor $q\mid(p-1)$, and an integer $0&lt;n&lt;p$, computes $n!\bmod p$ in expected time $\widetilde{O}(q^c+\sqrt{p/q})$ for some absolute constant $c\ge 1$. When $p-1$ has a divisor of size $q\approx p^{1/(2c+1)}$, this gives the exponent $c/(2c+1)&lt;1/2$. To our knowledge, this is the first algorithm to break the exponent $1/2$ barrier for modular factorials under such a divisor promise. The main technical ingredient is a quantum algorithm that reconstructs the relevant Jacobi sum exactly in compact algebraic form, with polynomial dependence on $q$ and $\log p$. We further extend the same asymptotic bound to the computation of $n!\bmod p^2$, uniformly over $0\le n&lt;p^2$. At $n=p-1$, this determines the Wilson quotient $\frac{(p-1)!+1}{p}\pmod p$. We conjecture that the condition $q\mid(p-1)$ is a technical limitation of the present method rather than an inherent obstruction, and that a uniform quantum algorithm exists for all primes.</description>
-    </item>
-    <item>
-      <title>The Complexity of Kemeny Aggregation with Three Rankings</title>
-      <link>https://arxiv.org/abs/2607.28588</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.28588</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The Kemeny rule aggregates rankings by minimizing their total Kendall-tau distance from an aggregate order. We prove that Kemeny Score is NP-complete for exactly three unweighted rankings, even when every candidate pair is split $2$-to-$1$. On the same profiles, the winner, unique-winner, and possible- and necessary-precedence problems are $Θ_2^p$-complete, while recognizing a Kemeny-optimal or uniquely Kemeny-optimal aggregate is coNP-complete. The hard instances induce tournaments of majority dimension exactly $3$. The reduction also determines the exact maximum-cut value from the optimal Kemeny score and recovers a maximum cut from any Kemeny-optimal aggregate. For every fixed $q\geq3$ and $\lceil q/2\rceil\leq s\leq q$, minimum pairwise support $s$ yields a sharp dichotomy: the score problem is NP-complete, the winner and precedence problems are $Θ_2^p$-complete, and the recognition problems are coNP-complete when $3s\leq2q$; for $3s&gt;2q$, the majority tournament is transitive and its unique topological order is the unique Kemeny-optimal aggregate. Exact support $s$ suffices in the hard case when $s&gt;q/2$, and supports in ${s,s+1}$ suffice when $s=q/2$. These results give complete fixed-profile-size classifications and transfer to Slater orders, permutation medians, and maximum-likelihood central rankings in the Mallows model. Finally, a six-copy construction proves NP-completeness of both Kemeny Score and Kendall--Tau Center for three pairwise-equidistant rankings that still split every pair $2$-to-$1$. For $N$ output candidates, their common distance is $\frac23\binom N2$, the largest possible for an equidistant triple. The construction gives affine formulas for both optimal values, characterizes all Kemeny-optimal output orders, and shows that the output has a unique Kemeny-optimal order and a unique center exactly when the input has a unique Kemeny-optimal order.</description>
-    </item>
-    <item>
-      <title>On the Computational Complexity of (Extended) Threshold Dimension and (Semi-)Ladder Index</title>
-      <link>https://arxiv.org/abs/2607.28355</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.28355</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study the complexity of computing the Threshold dimension of a hypothesis class and its variant, the Extended threshold dimension. For the latter, we prove that it is both NP-hard and co-NP-hard, which (partially) answers an open question of Dmitriev et al. (SODA 2026). Furthermore, by relating the problem to a variant of Maximum Balanced Biclique, we prove strong hardness of approximation for both dimensions, including in the parameterized setting. As an intermediate result, we also prove hardness (of approximation) results for computing the ladder index and the semi-ladder index (Fabianski et al., STACS 2019), which have recently been used in the design of fixed-parameter tractable algorithms.</description>
     </item>
   </channel>
 </rss>

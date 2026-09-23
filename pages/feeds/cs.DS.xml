@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Facility Advantage in the One-Round Discrete Voronoi Game on a Line</title>
+      <link>http://arxiv.org/abs/2609.24936v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.24936v1</guid>
+      <pubDate>Mon, 21 Sep 2026 17:31:27 +0000</pubDate>
+      <description>In the one-round discrete Voronoi game a multiset $V$ of $n$ voters on a line is given; player P places $k$ facilities, player Q then places $\ell$, and each voter is won by the nearer facility, ties going to P. P wins if it keeps at least $n/2$ voters. In the vocabulary of competitive location this is the absolute $(\ell|k)$-centroid problem on a path with unit demands, and the responder's problem is the $(\ell|X_k)$-medianoid, whose closed form on a path -- the sum of the $\ell$ largest of at most $2k$ explicit marginals -- is due to Spoerhase and Wirth. We record this structure, with complete proofs, and draw two consequences that we believe are new. First, we compute the value of the game against a single responding facility, $Γ_{k,1}(V)$, together with an optimal strategy for P, in $O(n\log n)$ time for arbitrary positive real demands and every $k$. This improves the $O(kn\log^2 n)$ bound of Lazar and Tamir for the absolute $(1|k)$-centroid on a path. Second, we study the facility advantage $k^*(\ell)$, the least $k$ for which P wins every instance against $\ell$ facilities. We prove $k^*(\ell)\le 2\ell-1$, exhibit instances proving $k^*(\ell)\ge\ell+1$ for $2\le\ell\le6$ (an exact, computer-assisted proof resting on a half-integer discretisation), determine $k^*(1)=1$ and $k^*(2)=3$, and show that on uniform instances $k=\ell$ already suffices, so the extremal instances are weighted and Q wins them by a single voter. We conjecture $k^*(\ell)=\ell+1$ for all $\ell\ge2$.</description>
+    </item>
+    <item>
+      <title>Budget-Independent Influence Maximization in Nearly Linear Time</title>
+      <link>http://arxiv.org/abs/2609.23604v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.23604v1</guid>
+      <pubDate>Sun, 20 Sep 2026 12:45:52 +0000</pubDate>
+      <description>Influence maximization asks for $k$ seed vertices that maximize the expected spread of a diffusion process in a network. Standard near-optimal-time algorithms based on reverse-reachable sampling achieve a $(1-1/e-\varepsilon)$ approximation, but their worst-case running-time bounds grow linearly with the seed budget $k$. We remove this multiplicative dependence: for the independent cascade model, our algorithm succeeds with probability at least $1-δ$ in $O((m+n)\varepsilon^{-3}\log(2n/δ))$ expected time. The result extends to triggering models with explicitly charged local sampling costs. We reserve $O(\varepsilon k)$ seed positions for cost-weighted random vertices, allowing reverse-reachable searches to stop as soon as they encounter a reserved seed. An independent sample-count estimation phase uses a statistic that also controls the expected search cost. Matching these quantities eliminates the multiplicative dependence on $k$ while preserving the approximation guarantee.</description>
+    </item>
+    <item>
       <title>Equitable Partition Realizability for Dynamics-preserving and Privacy-aware Network Reconstruction</title>
       <link>http://arxiv.org/abs/2609.16762v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.16762v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.22702</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
       <description>We initiate the study of distribution testing for probability distributions over the edges of a graph, motivated by the closely related question of ``edge-distribution-free'' graph property testing. The main results of this paper are nearly-tight bounds on testing bipartiteness, triangle-freeness and square-freeness of edge distributions, whose sample complexities are shown to scale as $Θ(n)$, $n^{4/3\pm o(1)}$ and $n^{9/8\pm o(1)}$, respectively. The technical core of our paper lies in the proof of the upper bound for testing square-freeness, wherein we develop new techniques based on certain birthday-paradox-type lemmas that may be of independent interest. We will discuss how our techniques fit into the general framework of distribution-free property testing. We will also discuss how our results are conceptually connected with Turán problems and subgraph removal lemmas in extremal combinatorics.</description>
-    </item>
-    <item>
-      <title>Matchings via Random Greedy Independent Set: A Simpler Algorithm and Analysis</title>
-      <link>https://arxiv.org/abs/2608.11163</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.11163</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We show that a simple extension of the randomized greedy maximal independent set algorithm yields a constant approximation for the maximum matching problem. The algorithm is a simplification of an algorithm used by Assadi et al. [JACM 2026] in the context of processing data streams in the dynamic setting where edges may be inserted and deleted. In contrast to the previous work, our analysis avoids consideration of fractional matchings and yields a significantly shorter and more direct proof of the approximation factor for the basic algorithm.</description>
-    </item>
-    <item>
-      <title>A 5/4 bound for graphic $s$-$t$ path TSP on subcubic graphs</title>
-      <link>https://arxiv.org/abs/2608.11038</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.11038</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We study the graphic $s$-$t$ path TSP on subcubic graphs (maximum degree 3): given two vertices $s,t$, find a shortest walk from $s$ to $t$ that visits every vertex. Our main result is that the optimal $5/4$ coefficient is attained for every terminal pair -- including the difficult case where deleting both $s$ and $t$ disconnects the graph. Concretely, every pair of distinct vertices $s,t$ in a simple 2-connected subcubic graph $G$ admits a spanning $s$-$t$ walk of length at most $\lfloor(5n+n_2(G))/4\rfloor-1$, where $n=|V(G)|$ and $n_2(G)$ is the number of degree-2 vertices; the asymptotic coefficient $5/4$ cannot be improved, and a simple $O(n^2)$ algorithm finds a walk of length at most $\lfloor(5n+n_2(G))/4\rfloor$. An edge-rooted even-cover theorem of Wigal, Yoo, and Yu, combined with a short conversion lemma proved here, gives a bound of this form only when $s$ and $t$ are the two endpoints of a given edge; we remove that adjacency restriction. For cubic graphs ($n_2(G)=0$) the bound reads $\lfloor 5n/4\rfloor-1$, to our knowledge the first $5/4$ bound for cubic path TSP proved directly rather than through the general path-to-tour reduction.</description>
     </item>
   </channel>
 </rss>

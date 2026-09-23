@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Qwen3.8-Omni: Towards Native Omni-Modal Agents</title>
+      <link>http://arxiv.org/abs/2609.25611v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.25611v1</guid>
+      <pubDate>Tue, 22 Sep 2026 03:07:59 +0000</pubDate>
+      <description>We introduce Qwen3.8-Omni-Flash, a natively multimodal agentic model for real-world multimodal productivity. Compared with previous omni models, which primarily emphasized perception and interaction, Qwen3.8-Omni-Flash substantially improves multimodal understanding and reasoning, as well as performance on long-horizon agentic tasks. These capabilities are supported by a native multimodal co-training strategy that preserves strong text-domain capabilities while facilitating the transfer of agentic capabilities from text to audio and video tasks. The model inherits the sparse mixture-of-experts (MoE) architecture of Qwen3.8-Next and extends the context window to one million tokens, supporting long-context multimodal reasoning and long-horizon planning. These advances enable integration into production workflows as a primary agent or a specialized sub-agent, supporting video editing, long-form audio and video translation, music-conditioned music video or movie generation, and video-based note or omni-skill creation. To address the lack of native audio and video support in existing agent harnesses, we release Qwen-MM-Plugins, a lightweight open-source plugin framework for multimodal productivity. We further frame real-time multimodal interaction as a system-level challenge requiring orchestration of context and memory management, tool use, and sub-agent delegation. Accordingly, we release Qwen-Live-Harness, an open-source framework for building responsive, real-time multimodal agents based on Qwen3.8-Omni-Flash. Extensive evaluations demonstrate that Qwen3.8-Omni-Flash achieves strong performance across multimodal understanding, reasoning, long-horizon agentic execution, and video productivity tasks. These results and the accompanying open-source tools support Qwen3.8-Omni-Flash as a practical foundation for deploying natively multimodal agents in research and production.</description>
+    </item>
+    <item>
       <title>Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes</title>
       <link>http://arxiv.org/abs/2609.07936v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.07936v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2411.14627</guid>
       <pubDate>Thu, 21 Nov 2024 00:00:00 -0000</pubDate>
       <description>Generative AI has been transforming the way we interact with technology and consume content. In the next decade, AI technology will reshape how we create audio content in various media, including music, theater, films, games, podcasts, and short videos. In this dissertation, I introduce the three main directions of my research centered around generative AI for music and audio: 1) multitrack music generation, 2) assistive music creation tools, and 3) multimodal learning for audio and music. Through my research, I aim to answer the following two fundamental questions: 1) How can AI help professionals or amateurs create music and audio content? 2) Can AI learn to create music in a way similar to how humans learn music? My long-term goal is to lower the barrier of entry for music composition and democratize audio content creation</description>
-    </item>
-    <item>
-      <title>GGAvatar: Reconstructing Garment-Separated 3D Gaussian Splatting Avatars from Monocular Video</title>
-      <link>https://arxiv.org/abs/2411.09952</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2411.09952</guid>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 -0000</pubDate>
-      <description>Avatar modelling has broad applications in human animation and virtual try-ons. Recent advancements in this field have focused on high-quality and comprehensive human reconstruction but often overlook the separation of clothing from the body. To bridge this gap, this paper introduces GGAvatar (Garment-separated 3D Gaussian Splatting Avatar), which relies on monocular videos. Through advanced parameterized templates and unique phased training, this model effectively achieves decoupled, editable, and realistic reconstruction of clothed humans. Comparative evaluations with other costly models confirm GGAvatar's superior quality and efficiency in modelling both clothed humans and separable garments. The paper also showcases applications in clothing editing, as illustrated in Figure 1, highlighting the model's benefits and the advantages of effective disentanglement. The code is available at https://github.com/J-X-Chen/GGAvatar/.</description>
     </item>
   </channel>
 </rss>

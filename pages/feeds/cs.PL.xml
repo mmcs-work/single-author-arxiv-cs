@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Modular Composition of Inductive Types Using Lean Meta-programming</title>
+      <link>http://arxiv.org/abs/2609.25427v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.25427v1</guid>
+      <pubDate>Mon, 21 Sep 2026 21:26:43 +0000</pubDate>
+      <description>Inductive types are ubiquitous building blocks in many programming and theorem proving languages. An inductive type is a closed set of constructors from which values of the type can be created. That set cannot be extended though once a type is defined. This limits extensibility, reuse, and modular separation of concerns when defining types and functions operating over their values. This limitation is manifested in the expression problem, where extending an expression language with new syntactic constructors without having to modify or re-compile existing ones is a challenge in almost all programming languages. This paper presents inductive type and function implementation composition algorithms based on meta-programming. In addition, a set of syntactic extensions to the Lean proof assistant implementing those algorithms are presented. This framework allows for modular reuse, composition, and extension of a subset of Lean type and function definitions. In addition, semantic subtyping relations between component and composite types are discussed both at the type theoretic and implementation levels. The framework is demonstrated on a case study, involving the composition of syntactic and semantic artifacts of three sublanguages into one language. The case study highlights both the features and limitations of the composition framework.</description>
+    </item>
+    <item>
       <title>Assurance Envelopes for Autonomous Coding Agents: Minimum-Cost Evidence for Software Change</title>
       <link>http://arxiv.org/abs/2609.16302v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.16302v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.17090</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <description>ANEForge is a Python package that programs the Apple Neural Engine (ANE), the fixed-function neural accelerator on every recent Apple device, directly and without CoreML. In production the engine is reachable only through CoreML, which treats it as a scheduling option: no configuration requires the ANE, and a model can silently run on the CPU or GPU instead. ANEForge compiles a lazy tensor graph, built from 58 fused operators and 19 native bridge operators, into a single ANE program. The program is dispatched through the same ANE daemon and kernel-driver stack as Apple's internal framework. Beyond inference, the package reaches the engine's native fused attention, streams int8, int4, and sparse weights, keeps decoder and optimizer state resident across steps, and runs the forward pass, backward pass, and optimizer update of training on the engine. A small fused program completes a call in about 90us, near the engine's 70us per-program dispatch floor, and a pretrained ResNet-18 forward runs end-to-end in 0.33ms. ResNet-18, a sentence encoder, and a Vision Transformer run end-to-end against framework references, and a Stable Diffusion U-Net validates its forward pass. ANEForge targets Apple Silicon under macOS 14 and later. Each release is verified against a recorded macOS and ANE-compiler version.</description>
-    </item>
-    <item>
-      <title>Quasilinear Equivalence Checking for Detector Error Models</title>
-      <link>https://arxiv.org/abs/2606.14677</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.14677</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
-      <description>A Detector Error Model (DEM) is a structured representation of error mechanisms in quantum circuits, which has gained popularity in quantum compilation pipelines for its ability to capture fault-tolerance at a circuit level. It lists error mechanisms as instructions targeting detectors and observables, specifying for each physical fault channel the probability that the fault fires, the detectors it triggers, and the observables it flips. In this paper, we develop an equational theory for DEMs, with its associated categorical semantics. We present a sound, terminating, confluent rewriting system for DEM terms, formulating it as a symmetric monoidal theory (a PROP) over the Giry monad. We prove that every DEM term has a unique normal form, which can be computed efficiently in quasilinear time $O(k|E|\log|E|)$, where $|E|$ is the number of instructions and $k$ bounds the size of a target set. This provides a complete set of invariants (via Tanner graphs) for structural DEM equivalence. We provide the first static decision procedure for DEM equivalence, with rigorous correctness guarantees. It is complete (decides full decoder-equivalence exactly) for non-adaptive quantum error correction (QEC) pipelines, and scales to a sound and applicable decision procedure for partially-adaptive circuits (lattice surgery, distributed QEC, ...) without suffering exponential overhead. We discuss its application to the verification and optimisation of quantum compilers.</description>
     </item>
   </channel>
 </rss>

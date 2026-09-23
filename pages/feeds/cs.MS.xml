@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Presolve heuristics in HiGHS: implementation and computational study</title>
+      <link>http://arxiv.org/abs/2609.22938v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.22938v1</guid>
+      <pubDate>Sat, 19 Sep 2026 10:29:35 +0000</pubDate>
+      <description>We present reference implementations of four published primal heuristics for mixed-integer programming inside the open-source solver HiGHS (Huangfu and Hall, 2018): Feasibility Jump (Luteberget and Sartor, 2023), fix-propagate-repair (FPR; Salvagnin, Roberti and Fischetti, 2025) with its LP-guided dive-time variant, LocalMIP (Lin, Zou and Cai, 2024), and the first-order-LP feasibility pump Scylla (Mexi et al., 2025). They share one integration interface with per-heuristic budgets and patiences, and each runs in parallel on independently seeded workers. The evaluation is on the mipfeas benchmark (Bussieck and Dirkse, 2026), 233 instances at 600 s, against a separately built unpatched HiGHS on the same machine. The primal integral improves by 23.7% over the full set and by 12.9% on the instances not used for tuning: the patched solver reaches a good solution sooner. At the time limit it is slightly ahead. It finds a solution on 4 instances where the unpatched solver finds none, against 1 the other way, and its final gap is smaller, significantly so only over the full set. Scylla and the LP-guided dive produced no accepted incumbent in any full-limit run that carried them and ship disabled; their implementations remain. The implementation is released as open source.</description>
+    </item>
+    <item>
       <title>Expressing NumPy Broadcasting via Verb Rank in J</title>
       <link>http://arxiv.org/abs/2609.16064v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.16064v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2502.17513</guid>
       <pubDate>Mon, 24 Mar 2025 00:00:00 -0000</pubDate>
       <description>This paper documents Int2Int, an open source code base for using transformers on problems of mathematical research, with a focus on number theory and other problems involving integers. Int2Int is a complete PyTorch implementation of a transformer architecture, together with training and evaluation loops, and classes and functions to represent, generate and decode common mathematical objects. Ancillary code for data preparation, and Jupyter Notebooks for visualizing experimental results are also provided. This document presents the main features of Int2Int, serves as its user manual, and provides guidelines on how to extend it. Int2Int is released under the MIT licence, at https://github.com/f-charton/Int2Int.</description>
-    </item>
-    <item>
-      <title>The Willing Kingdon Clifford Algebra Library</title>
-      <link>https://arxiv.org/abs/2503.10451</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.10451</guid>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 -0000</pubDate>
-      <description>Kingdon is an open-source Python package designed to seamlessly integrate Geometric Algebra (GA) into existing workflows. Unlike previous GA libraries, kingdon is input-type-agnostic, and hence supports GA's over e.g. PyTorch tensors, NumPy arrays, or SymPy symbolic expressions, to name but a few. Despite this refusal to specialize, it delivers high performance by symbolically optimizing operators and leveraging input sparsity for Just-In-Time compiled expressions. Additionally, its visualization capabilities in Jupyter notebooks using ganja align with the rapid prototyping workflow common to scientific research.</description>
     </item>
   </channel>
 </rss>
