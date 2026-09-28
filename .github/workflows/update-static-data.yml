@@ -2,7 +2,7 @@ name: Update static archive data
 
 on:
   schedule:
-    - cron: "22 * * * *"
+    - cron: "22 16 * * *"
   workflow_dispatch:
     inputs:
       days:
