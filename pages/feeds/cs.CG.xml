@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Homological Trimming and Regularity of Filtrations via Local Obstruction Modules</title>
+      <link>http://arxiv.org/abs/2609.28160v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28160v1</guid>
+      <pubDate>Wed, 23 Sep 2026 14:09:23 +0000</pubDate>
+      <description>Existing link-based combinatorial preprocessing methods speed up the computation of persistent homology by removing a vertex or edge only when its link remains a cone. We replace this condition with a quantitative homological certificate. The reduced homology of the filtered link of a generator (a vertex or edge) defines a local obstruction module whose future part describes the effect of deleting that generator. Its barcode certifies either exact deletion or an explicit bound on the bottleneck error, and a conflict colouring extends this guarantee to families of generators. Our implementation, HomTrim, removes an additional 13% to 41% of the input edges beyond domination-only preprocessing and reduces backend persistence time by factors ranging from 1.55 to 4.61 on weighted flag filtrations. The same module also yields regularity diagrams that measure how far a generator can move before becoming visible to homology, together with a multiscale stability result.</description>
+    </item>
+    <item>
+      <title>Smallest Cubic Non-1-Planar Graphs</title>
+      <link>http://arxiv.org/abs/2609.27168v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.27168v1</guid>
+      <pubDate>Wed, 23 Sep 2026 00:07:26 +0000</pubDate>
+      <description>A graph is 1-planar if it has a drawing in which every edge is crossed at most once. We show that the smallest cubic non-1-planar graphs have $30$ vertices. Two such graphs are the Tutte-Coxeter graph of girth eight and a graph of girth seven that we call the Byte graph. Every subcubic graph with fewer than $30$ vertices is 1-planar. Our proof is computer-assisted, but directly testing all relevant graphs is impractical. To establish non-1-planarity of the two graphs, we extend a SAT-based solver with a custom clause propagator based on separating cycles and a case split based on graph automorphisms, allowing independent cases to be solved in parallel. To show that all smaller subcubic graphs are 1-planar, we introduce the concept of $k$-flexibility: every set of at most $k$ prescribed edges can remain uncrossed in some 1-planar drawing. We use this property to reconstruct 1-planar drawings of larger graphs from drawings of smaller $k$-flexible graphs. This replaces exhaustive testing of more than forty billion cubic graphs with computations on far fewer graphs of smaller order.</description>
+    </item>
+    <item>
+      <title>Simple symmetric Venn diagrams with 17 and 19 curves</title>
+      <link>http://arxiv.org/abs/2609.26546v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.26546v1</guid>
+      <pubDate>Tue, 22 Sep 2026 15:02:46 +0000</pubDate>
+      <description>We exhibit simple, rotationally symmetric Venn diagrams with 17 curves and with 19 curves: n Jordan curves carried to one another by rotation through 2π/n, with every one of the 2^n regions present and connected and, since the diagrams are simple, every crossing on exactly two curves. Symmetric Venn diagrams exist for every prime number of curves (Griggs, Killian and Savage, 2004), but those diagrams have many curves through a point; simple ones were known only up to 13 curves (Mamakani and Ruskey, 2014). Four 17-curve and nine 19-curve diagrams were found by a Metropolis walk on rotation-invariant quadrangulations of the sphere in which regions may temporarily be duplicated, started from the Griggs-Killian-Savage diagram with its multiple crossings resolved. Every diagram is given by a machine-checkable certificate; one certificate of each size has been verified by a formal proof in Lean 4. All of the diagrams are non-monotone, which is why the crossing-sequence searches that found the 11- and 13-curve diagrams could not have found them.</description>
+    </item>
+    <item>
       <title>The Facility Advantage in the One-Round Discrete Voronoi Game on a Line</title>
       <link>http://arxiv.org/abs/2609.24936v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.24936v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.03554</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 -0000</pubDate>
       <description>We introduce eigencone constellations, a hierarchical framework for embedding bounded-degree spatial graphs into concentric spherical shells and partitioning each shell into spectrally weighted, spherical star-shaped territories. Given a connected sparse spatial graph $G$ with a distinguished root vertex (the queen), we assign each vertex to a sphere whose radial position is determined by its graph distance from the queen, then tessellate each sphere into constellation territories whose solid angles are proportional to the spectral mass of the corresponding subgraph. Within each territory, nodes are packed by constrained repulsion, yielding local simplex structures. The resulting geometric representation provides a structural framework for measuring spectral distance between dynamic subgraph states. By combining this eigencone-derived metric with constraints on the domain-specific edit alphabet, we define a forward-only deterministic trajectory -- the isomorphic walk -- which converges graph edits efficiently. We define the notion of spherical star-shaped domains with geodesic visibility, establish their properties under spectral projection, and demonstrate the trajectory convergence on molecular contact graphs.</description>
-    </item>
-    <item>
-      <title>A Fast Quasi-Linear Heuristic for the Close-Enough Traveling Salesman Problem</title>
-      <link>https://arxiv.org/abs/2603.21401</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.21401</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We introduce a fast, quasi-linear-time heuristic for the Close-Enough Traveling Salesman Problem (CETSP), a continuous generalization of the Euclidean TSP in which each target is a disk that must be intersected. The method adapts the pair-center clustering paradigm to circular neighborhoods: a hierarchical clustering phase merges nearby disks into proxy circles using an R*-tree for efficient spatial queries, and a construction phase incrementally expands the hierarchy into a feasible tour while maintaining and locally optimizing tour points. Lightweight local improvements, selective reinsertion and constrained point reoptimization, reduce local inefficiencies without compromising scalability. The algorithm runs in expected O(n log n) time and, on benchmark instances reconstructed from the Mennell dataset, produces solutions within roughly 0-2% of state-of-the-art best-known values while requiring orders-of-magnitude less runtime than population-based metaheuristics. The approach trades some final-solution optimality for dramatic gains in speed and scalability, making it suitable for very large CETSP instances.</description>
-    </item>
-    <item>
-      <title>Complete invariants of atomic clouds under rigid motion with Lipschitz continuous metrics in a polynomial time</title>
-      <link>https://arxiv.org/abs/2303.13486</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2303.13486</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 -0000</pubDate>
-      <description>A basic representation of any real molecule is a finite cloud of unordered atoms, many of which are chemically indistinguishable. A natural equivalence on point clouds in any metric space is defined by isometries that are distance-preserving transformations. In a Euclidean space, any isometry is a composition of translations, rotations, and reflections. If points are ordered, the isometry class of this cloud is uniquely determined by the matrix of all pairwise distances. If m points are unordered, a naive metric based on distance matrices needs exponentially many m! permutations. We define a complete invariant for n-dimensional clouds of m unordered points under rigid motion, which distinguishes all mirror images in R^n. The key challenge was to design a distance on invariant values that is Lipschitz continuous under noise and computable in a polynomial time of cloud sizes, for a fixed dimension n.</description>
-    </item>
-    <item>
-      <title>Signotopes Induce Unique Sink Orientations on Grids</title>
-      <link>https://arxiv.org/abs/2604.04097</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.04097</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 -0000</pubDate>
-      <description>A unique sink orientation (USO) is an orientation of the edges of a polytope in which every face contains a unique sink. For a product of simplices $Δ_{m-1} \times Δ_{n-1}$, Felsner, Gärtner and Tschirschnitz (2005) characterize USOs which are induced by linear functions as the USOs on a $(m \times n)$-grid that correspond to a two-colored arrangement of lines. We generalize some of their results to products $Δ^1 \times\cdots\times Δ^r$ of $r$ simplices, USOs on $r$-dimensional grids and $(r+1)$-signotopes.</description>
     </item>
   </channel>
 </rss>

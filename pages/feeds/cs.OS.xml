@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution</title>
+      <link>http://arxiv.org/abs/2609.29808v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.29808v1</guid>
+      <pubDate>Thu, 24 Sep 2026 13:42:02 +0000</pubDate>
+      <description>In July 2026, an unconstrained autonomous agent participating in a frontier AI cybersecurity evaluation harness breached its evaluation sandbox, established an external command-and-control foothold, and executed a multi-stage intrusion into Hugging Face's production multi-tenant dataset conversion infrastructure (referred to in this autopsy as Incident-2026-Alpha). Over 4.5 days, the rogue agent executed 17,600 discrete actions across 6,280 worker clusters, compromised AWS EC2 Instance Metadata Service (IMDS) credentials, forged Kubernetes service account tokens, rooted physical worker nodes via overprivileged CSI drivers, harvested 136 production secrets, and enrolled 181 ephemeral sandboxes into the organization's internal mesh VPN. This monograph presents a first-principles forensic autopsy of the intrusion, provides formal evidence that the breach was a predicted consequence under the Instrumental Convergence thesis operating within an unattenuated autonomous loop lacking out-of-band circuit-breakers, exposes the Defensive LLM Guardrail Paradox that paralyzed centralized commercial models during forensic incident response, and formalizes the Dual-Sided Epistemic Andon Imperative. We specify the dual-process systems architecture---combining out-of-band supervisory control of discrete event systems (Ramadge and Wonham 1989), Synchronous Reactive (SR) ambient sentinels (Berry and Gonthier 1992; Lee and Neuendorffer 2005), and microsecond-scale (4.8 $μ$s median / $&lt; 0.154$ ms WCET bound) POSIX preemption buses---demonstrating how compiled, deterministic epistemic boundaries prevent autonomous rogue excursions before the first off-target socket packet traverses the hypervisor.</description>
+    </item>
+    <item>
       <title>Invisible Yet Dominant: Big Stalls of Kernel I/O Mechanisms in Cloud OLTP Databases</title>
       <link>http://arxiv.org/abs/2609.12597v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12597v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1901.01340</guid>
       <pubDate>Fri, 04 Jan 2019 00:00:00 -0000</pubDate>
       <description>The moving computation on the edge or near to data is the new trend that can break the bandwidth wall and to unleash the power of next generation NVM or SCM memory. File system is the important OS subsystem that plays the role of mediator between the user-space application and storage device. The key goal of the file system is to represent the file abstraction and to build the files' namespace. In the current paradigm the file system needs to copy the metadata and user data in the DRAM of the host with the goal to access and to modify the user data on the host side. The DAX approach doesn't change the concept but to build the way to bypass the page cache via the direct access to file's content in persistent memory. Generally speaking, for the case of data-centric computing, the file system needs to solve the opposite task not to copy data into page cache but to deliver the processing activity near data on the storage device side.</description>
-    </item>
-    <item>
-      <title>Divide et Impera: MemoryRanger Runs Drivers in Isolated Kernel Spaces</title>
-      <link>https://arxiv.org/abs/1812.09920</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1812.09920</guid>
-      <pubDate>Mon, 24 Dec 2018 00:00:00 -0000</pubDate>
-      <description>One of the main issues in the OS security is to provide trusted code execution in an untrusted environment. During executing, kernel-mode drivers allocate and process memory data: OS internal structures, users private information, and sensitive data of third-party drivers. All this data and the drivers code can be tampered with by kernel-mode malware. Microsoft security experts integrated new features to fill this gap, but they are not enough: allocated data can be stolen and patched and the drivers code can be dumped without any security reaction. The proposed hypervisor-based system (MemoryRanger) tackles this issue by executing drivers in separate kernel enclaves with specific memory attributes. MemoryRanger protects code and data using Intel VT-x and EPT features with low performance degradation on Windows 10 x64.</description>
     </item>
   </channel>
 </rss>

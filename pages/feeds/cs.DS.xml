@@ -5,6 +5,125 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Faster Linear Programming with $\sqrt{\mathrm{rank}}$ Linear System Solves</title>
+      <link>http://arxiv.org/abs/2609.30853v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30853v1</guid>
+      <pubDate>Fri, 25 Sep 2026 05:59:48 +0000</pubDate>
+      <description>Lee and Sidford [LS19] showed that the linear program $\min\{c^\top x\ :\ A^\top x=b,\ l\leq x\leq u\}$ over $x\in\mathbb{R}^m$, where $A\in\mathbb{R}^{m\times n}$, can be solved to accuracy $ε$ using $O(\sqrt n\log^{13}m\cdot\log(mU/ε))$ solves of linear systems in $A^\top\mathbf DA$ for positive diagonal matrices $\mathbf D$, where $U$ bounds the magnitudes of the input and of the initial point. Theirs is the first such bound governed by $\mathrm{rank}(A)=n$ rather than by the number of constraints $m$. Song [Son19] mentioned that reducing the $\log^{13}m$ factor is an interesting future direction. Given an interior point and a finite certified magnitude bound $U$, we give an algorithm that uses $O(\sqrt n\log^{4}m\cdot\log(mU/ε))$ solves of such linear systems, improving the Lee--Sidford bound by a factor of $\log^{9}m$. We conjecture that $O(\sqrt n\log(mU/ε))$ such linear-system solves suffice.</description>
+    </item>
+    <item>
+      <title>An $n^{8/5+o(1)}$-Time $Ω(λ^3)$-Approximation for Longest Common Subsequence</title>
+      <link>http://arxiv.org/abs/2609.30778v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30778v1</guid>
+      <pubDate>Fri, 25 Sep 2026 04:01:48 +0000</pubDate>
+      <description>Let $λ$ denote the ratio of the length of a longest common subsequence of two length-$n$ strings to $n$. Rubinstein, Seddighin, Song and Sun [RSSS19] gave an $Ω(λ^3)$-approximation for LCS running in $\widetilde O(n^{39/20})$ time, where $39/20=1.95$. Song [Son19] mentioned that improving the $n^{1.95}$ running time is an interesting open question. We give an algorithm that computes an $Ω(λ^3)$-approximation of the longest common subsequence in $n^{8/5+o(1)}$ time. This improves the exponent $1.95$ to $1.6+o(1)$.</description>
+    </item>
+    <item>
+      <title>Settling the Matroid Secretary Problem</title>
+      <link>http://arxiv.org/abs/2609.30421v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30421v1</guid>
+      <pubDate>Thu, 24 Sep 2026 18:17:26 +0000</pubDate>
+      <description>This paper settles the Matroid Secretary Problem with an $e$-probability-competitive algorithm. The algorithm is ordinal and accesses arrived elements only through comparison and independence oracles, and has expected polynomial time and oracle complexity.</description>
+    </item>
+    <item>
+      <title>A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model</title>
+      <link>http://arxiv.org/abs/2609.30215v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30215v1</guid>
+      <pubDate>Thu, 24 Sep 2026 17:45:58 +0000</pubDate>
+      <description>We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear lower bound. Our construction also implies the same lower bound for volume estimation.</description>
+    </item>
+    <item>
+      <title>Spanning Trees with Many Leaves in Graphs of Minimum Degree at Least 7</title>
+      <link>http://arxiv.org/abs/2609.30354v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30354v1</guid>
+      <pubDate>Thu, 24 Sep 2026 17:38:48 +0000</pubDate>
+      <description>We give a polynomial-time algorithm that constructs, in every connected $n$-vertex graph of minimum degree at least $7$, a spanning tree with at least $\frac{25200}{46189}n&gt;0.5455\,n$ leaves. No bound specific to minimum degree $7$ was known: the best bound available for this class was $\frac{11}{21}n\approx0.5238\,n$, inherited from Simarova's theorem for minimum degree~$6$. The algorithm and its analysis are carried out for an arbitrary minimum degree $δ$, and yield a recursion that gives an explicit lower bound on the number of leaves for every $δ$. The resulting bounds improve all previously known ones for every $δ\ge7$; for $δ=8,9,10$ they are $0.5850\,n$, $0.6151\,n$ and $0.6413\,n$, and they are tabulated for $δ\le25$ at the end of the paper.</description>
+    </item>
+    <item>
+      <title>Fast Spectral Signing for Vector Balancing</title>
+      <link>http://arxiv.org/abs/2609.30044v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30044v1</guid>
+      <pubDate>Thu, 24 Sep 2026 16:09:59 +0000</pubDate>
+      <description>The Komlós conjecture, now a theorem, asserts that whenever the columns of a matrix $A\in\mathbb{R}^{m\times n}$ have Euclidean norm at most one, some signs $\varepsilon\in\{-1,1\}^n$ make every coordinate of $A\varepsilon$ bounded by an absolute constant. Guo, Fang, and Lu gave the first polynomial-time algorithm for finding such signs, a deterministic spectral signing procedure with discrepancy $8272$ and running time $O((mn^9+n^{10})\log(m+n))$. We give a deterministic algorithm that finds signs with $\|A\varepsilon\|_\infty&lt;99$ using $O(mn+n^{ω+2}\log^3 n)$ arithmetic operations, where $ω&gt;2$ is any fixed attainable matrix-multiplication exponent; with the current bounds on $ω$ this is $\widetilde O(mn+n^{4.372})$. Our algorithm uses the same framework: it rounds a single fractional coloring and watches all rows through the top eigenvalue of a Gram matrix of energy-corrected barriers. Steps follow flat directions, rescaled so that no barrier near its threshold moves faster than a constant, and the regularizer grows as coordinates freeze; together these bound the number of updates by $O(n^2\log n)$. A weak quadratic charge on the tracked row sums leaves $O(n\log^2 n)$ rows to evaluate at any time, and a motion clock bounds when any other row could approach its barrier. Each update is a short sequence of matrix products. Its direction is read off by conditional expectations from a polynomial soft projector, its small constraint residual is repaired in affine row representations, and one identity accounts for every change of representation. For rational input the algorithm has polynomial bit complexity.</description>
+    </item>
+    <item>
+      <title>A New Gap Sequence for Shellsort: RL-Driven Algorithm Discovery Beyond $N^{4/3}$</title>
+      <link>http://arxiv.org/abs/2609.29881v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.29881v1</guid>
+      <pubDate>Thu, 24 Sep 2026 14:33:05 +0000</pubDate>
+      <description>Choosing Shellsort gaps is a well-known open problem. For over sixty years, successful sequences have relied on human-designed formulas, numerical searches, or number-theoretic constructions. Although stronger general bounds exist for dense or mainly theoretical families, the worst-case upper bound for a short, sparse, and practically competitive construction has not advanced beyond $N^{4/3}$ for decades. We ask whether the sequence itself can instead be learned from execution. We present an RL-driven, self-supervised system that searches over executable gap generators. Every proposal is valid by construction, and executed candidates return exact comparison and move counts; no classical sequence is used as a target. Across five independent searches, the system discovers a common rational-geometric family. A second self-supervised stage tunes only a finite prefix, producing the practical sequence $1,3,8,20,47,116,300,585,1416,3303,\ldots$. Once frozen, it obtains the lowest equal-task average operation count among seven classical baselines on 25 large tasks with $10^7&lt;N\leq 10^8$. We complete the learned tail without changing its practical behavior: only beyond $10^{1000}$, a zero-density set of unit companions $h_s+1$ removes the remaining congruence barriers. The resulting sparse sequence has matching polynomial upper and lower exponents, up to polylogarithmic factors: $Ω(N^{1.024296451657\ldots}) \leq T(N) \leq O(N^{1.024296451657\ldots}\operatorname{polylog} N)$. The lower bound follows from Zang's recent theorem for rational-geometric sequences; our contribution is the matching upper bound. Thus one exact sequence connects self-supervised discovery, large-scale practical performance, and a substantial step below the classical $N^{4/3}$ bound for sparse practical Shellsort sequences.</description>
+    </item>
+    <item>
+      <title>Eigenvalue and Eigenvector Approximation for Random Matrices Using Low-Degree Polynomials</title>
+      <link>http://arxiv.org/abs/2609.28781v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28781v1</guid>
+      <pubDate>Wed, 23 Sep 2026 20:56:20 +0000</pubDate>
+      <description>We initiate the study of approximating the top eigenvalue and eigenvector of a random symmetric matrix $ A \in \mathbb{R}^{n\times n} $ using $ q(A)b $ where $q$ is a degree-$d$ polynomial and $b$ is a standard Gaussian vector independent of $A$. For spiked GOE $ Y = λvv^\top + X $, we identify $ d_\star = \frac{\log(n)}{2\log(λ)} $ to be the critical degree threshold above which accurate approximation of the top eigenvalue and eigenvector is possible. This sharpens the common belief that spectral methods can be implemented by $ O(\log(n)) $-step power iterations and offers a precise connection between spectral methods and low-degree polynomial algorithms, a popular proxy for all polynomial-time algorithms. For GOE $X$, we identify $ d_\star = n^{1/3+o(1)} $ to be the critical degree threshold for top eigenvector approximation, whereas constant degree suffices for top eigenvalue approximation. Moreover, in the limit where $ d/n^{1/3} $ converges to a positive finite constant, we compute the exact asymptotic eigenvector approximation accuracy in terms of the expected squared overlap. These results significantly improve upon predictions made in randomized numerical linear algebra for deterministic data matrices that the iteration count of power methods is governed by the inverse spectral gap. Technically, our analyses leverage extremal properties of Chebyshev polynomials and draw upon the rich literature of random matrix theory.</description>
+    </item>
+    <item>
+      <title>Transposition achieves OPT$+O(1)$ in polynomial time for IID list update</title>
+      <link>http://arxiv.org/abs/2609.28397v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28397v1</guid>
+      <pubDate>Wed, 23 Sep 2026 17:03:25 +0000</pubDate>
+      <description>In the classical list update problem, a set of items must be stored in a list-type structure, where accessing the $i$-th element costs $i$. Items will be queried in an IID manner according to some probability distribution $p$ on the items. We want to minimize the expected cost of each query. The optimal order is to place the items in decreasing order of probability $p_1 \geq p_2 \geq \cdots$ with expected cost $\mathsf{OPT} = \sum_j j p_j$, but the probability vector $p$ is generally unknown. Thus we use a self-organizing list following the transposition rule: an item is transposed 1 position forward whenever it is queried. Coester (2026) proved that, at stationarity measure for the transposition rule, the expected cost of a query is at most $\mathsf{OPT} + 1$. However, this Markov chain may have arbitrarily slow mixing time. We prove that, for arbitrary $p$ and arbitrary initial orderings $σ$, after polynomially many queries in the number of items, the expected cost of a query is at most $\mathsf{OPT} + O(1)$.</description>
+    </item>
+    <item>
+      <title>A 27 x 27 x 27 counterexample to Comon's conjecture</title>
+      <link>http://arxiv.org/abs/2609.28292v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28292v1</guid>
+      <pubDate>Wed, 23 Sep 2026 15:37:17 +0000</pubDate>
+      <description>We report an explicit construction of a 27 x 27 x 27 symmetric tensor with rational entries that has tensor rank 55 over the rational numbers and symmetric tensor rank 56 over the complex numbers, providing a small counterexample to Comon's conjecture over the rational, real, and complex numbers. The construction follows the framework of symmetric adjoins introduced by Shitov. The primary technical contribution of this work is to prove a special case of Conjecture 6 appearing in Shitov's seminal 2018 work.</description>
+    </item>
+    <item>
+      <title>Homological Trimming and Regularity of Filtrations via Local Obstruction Modules</title>
+      <link>http://arxiv.org/abs/2609.28160v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28160v1</guid>
+      <pubDate>Wed, 23 Sep 2026 14:09:23 +0000</pubDate>
+      <description>Existing link-based combinatorial preprocessing methods speed up the computation of persistent homology by removing a vertex or edge only when its link remains a cone. We replace this condition with a quantitative homological certificate. The reduced homology of the filtered link of a generator (a vertex or edge) defines a local obstruction module whose future part describes the effect of deleting that generator. Its barcode certifies either exact deletion or an explicit bound on the bottleneck error, and a conflict colouring extends this guarantee to families of generators. Our implementation, HomTrim, removes an additional 13% to 41% of the input edges beyond domination-only preprocessing and reduces backend persistence time by factors ranging from 1.55 to 4.61 on weighted flag filtrations. The same module also yields regularity diagrams that measure how far a generator can move before becoming visible to homology, together with a multiscale stability result.</description>
+    </item>
+    <item>
+      <title>Sampling Line-Graph Colorings with Constant Extra Colors</title>
+      <link>http://arxiv.org/abs/2609.27440v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.27440v1</guid>
+      <pubDate>Wed, 23 Sep 2026 07:02:46 +0000</pubDate>
+      <description>Let $G$ be the line graph of a finite simple graph, with $n\geq1$ vertices and maximum degree $Δ$. We prove that single-site Glauber dynamics for uniform proper $q$-colorings mixes in $O_Δ(n\log(n/\varepsilon))$ steps for every integer $q\geqΔ+5$. Our proof uses the Bochner framework of Chen and Liu (2026).</description>
+    </item>
+    <item>
+      <title>Backtracking Candidate Elimination: A One-Pass Algorithm for the Chip Testing Problem</title>
+      <link>http://arxiv.org/abs/2609.26995v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.26995v1</guid>
+      <pubDate>Tue, 22 Sep 2026 19:33:45 +0000</pubDate>
+      <description>In the chip testing problem, we are given $n$ chips, strictly more than half of which are good. Chips can test one another in pairs; a good chip always reports the status of the other chip correctly, whereas a bad chip may report arbitrarily and adversarially. The goal is to identify a single chip that is guaranteed to be good. The problem originates in system-level fault diagnosis and is closely related to the "knights and spies" puzzle. The standard textbook solution is a halving recursion that tests disjoint pairs in rounds and keeps one chip from each consistent pair. We present the Backtracking Candidate Elimination (BCE) algorithm, a sequential alternative that scans the chips once while maintaining a current candidate and a stack of retained chips. Every chip is tested at most once as the incoming chip; when a test is inconclusive the candidate and the incoming chip are discarded together, and the algorithm backtracks to the most recently retained chip. BCE uses at most $n-1$ tests and $O(n)$ time, needs no parity case analysis, and works online. Its correctness follows from two invariants: the retained chips all have the same type, and every discarded pair contains at least one bad chip. We explain how BCE can be viewed as the Boyer-Moore majority vote algorithm with its counter replaced by a stack of physical witnesses, and why that replacement is needed. We also give an early termination rule and a variant for the weaker model of one-directional tests.</description>
+    </item>
+    <item>
+      <title>Tight Regret Bound for Online Inverse Linear Optimization via Multiscale Matrix Weights</title>
+      <link>http://arxiv.org/abs/2609.26978v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.26978v1</guid>
+      <pubDate>Tue, 22 Sep 2026 19:13:53 +0000</pubDate>
+      <description>We study online inverse linear optimization with a fixed unknown linear utility: in each round, an environment presents a compact action set, the learner recommends an action from it, and the environment returns an action that maximizes the utility over the same set. When the utility vector and the actions lie in the $d$-dimensional Euclidean unit ball, we give a randomized algorithm whose regret---the cumulative utility shortfall relative to optimal actions---is $O(\sqrt d)$ in expectation for every time horizon, without knowledge of the horizon. The dependence on $d$ is optimal up to a constant factor by the known $Ω(\sqrt d)$ lower bound for horizons $T\ge d$. Our algorithm maintains matrix multiplicative weights on polynomial feature spaces at geometrically spaced scales. It selects a recommendation distribution by solving a linear program and updates its score matrices by comparing the available actions with the feedback action. With rational oracle outputs and feedback actions, an implementation computable relative to a linear-optimization oracle preserves the $O(\sqrt d)$ regret bound. Whether the same rate is attainable with running time polynomial in the dimension, horizon, and input length remains open.</description>
+    </item>
+    <item>
+      <title>An Exposition of GPT Astra's Proof of Lower Bound on DP Continual Counting</title>
+      <link>http://arxiv.org/abs/2609.28528v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28528v1</guid>
+      <pubDate>Tue, 22 Sep 2026 17:21:01 +0000</pubDate>
+      <description>The goal of this note is to give a detailed proof, to the best of our understanding, of the recent presentation by Harrison and Leeman (arXiv:2609.17650v01 and arXiv:2609.17650v02) of the proof by Astra on the lower bound for differentially private continual counting. We believe a more natural and easy proof is possible and hope that this note will help in that effort. Prior to the initial preprint by Harrison and Leeman (arXiv:2609.17650v01), Bairaktari and Larsen (arXiv:2607.00876) gave an elegant proof to show a lower bound of $Ω(\log^{3/2}(n))$ for both pure and approximate-DP continual counting, and in personal communication had informed us that they have a proof of optimal $Ω(\log^{2}(n))$ for pure-differential private continual counting as well. They have subsequently published their $Ω(\log^{2}(n))$ bound, which is now a joint work of Bairaktari, Dahl, and Larsen (arXiv:2607.00876v3). Their new result is an elegant extension of their technique for approximate-differential privacy. Although the two proofs are technically different, the Astra argument uses related tree geometry introduced in Bairaktari and Larsen.</description>
+    </item>
+    <item>
+      <title>Exponential Quantum Advantage in Testing Fourier Dimensionality</title>
+      <link>http://arxiv.org/abs/2609.25816v2</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.25816v2</guid>
+      <pubDate>Tue, 22 Sep 2026 07:45:23 +0000</pubDate>
+      <description>A boolean function $f$ has Fourier dimension $k$ if its nonzero Fourier coefficients span a subspace of dimension $k$. We consider the property testing task of determining whether a function has Fourier dimension at most $k$, or is $ε$-far from being so. We show that there is a $O(k/ε)$-query quantum property tester for this problem, which we show to be almost optimal. Combined with Gopalan et al.'s classical lower bound of $Ω(2^{k/2})$, this demonstrates an exponential quantum advantage for this task. We complement this result with a $\tilde{O}(2^{k/2}/ε)$ classical tester, giving a quadratic improvement over the previous best tester, and essentially settling the classical query complexity.</description>
+    </item>
+    <item>
+      <title>Improved Algorithms for the Remote Point Problem</title>
+      <link>http://arxiv.org/abs/2609.25765v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.25765v1</guid>
+      <pubDate>Tue, 22 Sep 2026 06:57:59 +0000</pubDate>
+      <description>The Remote Point Problem (RPP) is an algorithmic problem that asks, given a linear subspace $L \subseteq \mathbb{F}^n$ of dimension $k$, to deterministically find a vector $v \in \mathbb{F}^n$ far in Hamming distance from $L$. This problem was introduced by Alon, Panigrahy and Yekhanin [APY09], motivated in part by the matrix rigidity approach for proving circuit lower bounds. An algorithm is said to achieve remoteness $d$ if it finds a vector $v$ whose Hamming distance from $L$ is at least $d$. We observe that over the rational numbers, the problem admits a deterministic polynomial-time algorithm that achieves optimal remoteness $n-k$. Over finite fields, we obtain a (modest) improvement of a result of Alon, Panigrahy and Yekhanin [APY09], and give an algorithm that achieves remoteness $Ω\left(\frac{n}{\max\{k, \log n\}} \log n\right)$.</description>
+    </item>
+    <item>
       <title>The Facility Advantage in the One-Round Discrete Voronoi Game on a Line</title>
       <link>http://arxiv.org/abs/2609.24936v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.24936v1</guid>
@@ -584,125 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.19489v1</guid>
       <pubDate>Wed, 19 Aug 2026 22:58:31 +0000</pubDate>
       <description>We establish a general framework for developing fast sampling and counting algorithms for stoquastic spin systems at high temperature. Our framework is based on a rapidly mixing Markov chain for polymer models and a subcritical percolation process for sampling individual polymers. We apply our framework to obtain fast algorithms for approximating the partition function and sampling from the thermal distribution of (1) general stoquastic spin systems, (2) ferromagnetic Heisenberg models, and (3) antiferromagnetic Heisenberg models on bipartite graphs. For the Heisenberg models, we obtain an improved bound on the inverse temperature by using their respective cycle and loop representations.</description>
-    </item>
-    <item>
-      <title>Optimal Deterministic Fully Sparse Matrix Multiplication</title>
-      <link>http://arxiv.org/abs/2608.18496v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.18496v1</guid>
-      <pubDate>Wed, 19 Aug 2026 03:40:38 +0000</pubDate>
-      <description>We give the first deterministic algorithm for fully sparse matrix multiplication that attains the optimal running-time exponent. This result matches the best previously known randomized algorithm running-time exponent. Given compatible matrices $A$ and $B$ over an arbitrary associative ring with identity, with $\operatorname{nnz}(A),\operatorname{nnz}(B)=O(n^{δ_{\mathrm{in}}})$ and $\operatorname{nnz}(AB)=O(n^{δ_{\mathrm{out}}})$, our algorithm finds the support of $AB$ and computes the product exactly in $$O\!\left(n^{β_R(δ_{\mathrm{in}},\min\{δ_{\mathrm{out}},2δ_{\mathrm{in}}\})+\varepsilon}\right)$$ operations, where $β_R(δ_{\mathrm{in}},δ)$ denotes the maximum of $δ_{\mathrm{in}}$ and $ω_{δ_{\mathrm{in}},R}(a,1,b)$ over all $a,b\in[0,1]$ satisfying $a+b=δ$. For dense inputs over a commutative ring, this bound simplifies to $O(n^{ω_R((δ_{\mathrm{out}}-1)_+,1,1)+\varepsilon})$. With the current rectangular matrix multiplication bounds, this is nearly quadratic, namely $O(n^{2+\varepsilon})$, for every $δ_\mathrm{out}\le1.321334$, improving the previous deterministic range of $δ_{\mathrm{out}}\le 0.642668$. To prove this result, we develop a general deterministic recovery technique that finds and fixes sparse parts of an unknown matrix while keeping temporary errors in denser parts under control.</description>
-    </item>
-    <item>
-      <title>Parameterized complexity of $k$-Coloring in graphs with no long induced paths</title>
-      <link>http://arxiv.org/abs/2608.17835v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.17835v1</guid>
-      <pubDate>Tue, 18 Aug 2026 14:34:48 +0000</pubDate>
-      <description>We study the parameterized complexity of $k$-Coloring in $H$-free graphs, when $H$ is a linear forest (i.e., a disjoint union of paths) as an induced subgraph. We show two hardness results: * $k$-Coloring is W[1]-hard in $2P_2$-free graphs when parameterized by $k$. * $3$-Coloring is W[1]-hard in $P_t$-free graphs when parameterized by $t$. Moreover, assuming the ETH, these problems admit no algorithms solving $n$-vertex instances in time $f(k) \cdot n^{o(k)}$ and $f(t) \cdot n^{o(t/\log t)}$, respectively, for any computable function $f$. The first result resolves in a strong form a long-standing open problem, originally posed by Hoàng, Kamiński, Lozin, Sawada, and Shu [Algorithmica, 2010]. The second result answers a question of Golovach, Johnson, Paulusma, and Song [Journal of Graph Theory, 2017].</description>
-    </item>
-    <item>
-      <title>Integer Quadratic Programming is W[1]-Hard Parameterized by the Number of Variables</title>
-      <link>http://arxiv.org/abs/2608.17818v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.17818v1</guid>
-      <pubDate>Tue, 18 Aug 2026 14:18:26 +0000</pubDate>
-      <description>We show that Integer Quadratic Programming is W[1]-hard parameterized by the number of variables. Thus, under standard complexity assumptions, Integer Quadratic Programming cannot be solved in f(n)|I|^{O(1)} time for any computable function f where |I| is the size of the encoding and n is the number of variables.</description>
-    </item>
-    <item>
-      <title>A Simple Las Vegas Algorithm for Sparse Nonnegative Convolution</title>
-      <link>http://arxiv.org/abs/2608.16123v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16123v1</guid>
-      <pubDate>Mon, 17 Aug 2026 05:28:01 +0000</pubDate>
-      <description>Let $A, B \in \mathbb{Z}_{\ge 0}^n$ be nonnegative vectors and let $t = |\operatorname{supp}(A \star B)|$. We give a Las Vegas algorithm that computes $A \star B$ in $O(t \log t)$ expected time. More generally, for every $0 &lt; δ\le \frac{1}{2}$, the algorithm terminates within $O(t \log t \log \frac{1}δ)$ time with probability at least $1 - δ$. The algorithm uses dense convolution, linear hashing, and the length reduction of \cite{BFN22}. Its main ingredient is a carry-free representation of the indices as vectors of constant dimension $d$ whose coordinates have size $O(t / \log t)$. We can then take our hash function to be the inner product with a random element of $\mathbb{F}_p^d$ for a prime $p$ of size $Ω(t / \log t)$: this preserves addition and gives collision probability exactly $1/p$, while identities regarding the moments of the vectors identify and recover the isolated terms as in \cite{BFN22}. Our expected running time matches that of Jin and Xu~\cite{JX24} while using substantially different tools and yielding a simpler algorithm. Note that their algorithm also terminates within $O(t \log t)$ time with probability at least $1 - \frac{1}{t}$, while our tail bound is weaker.</description>
-    </item>
-    <item>
-      <title>A Near-Optimal Lower Bound for $\ell_p$-Subspace Embeddings, $1\leq p&lt;2$</title>
-      <link>http://arxiv.org/abs/2608.14201v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.14201v1</guid>
-      <pubDate>Fri, 14 Aug 2026 11:18:38 +0000</pubDate>
-      <description>For $d \geq 2$, $p \geq 1$ and $ε&gt; 0$, let $N_p(d,ε)$ be the smallest integer $N$ such that for every integer $n$ and every $A\in\mathbb{R}^{n\times d}$, there exists a matrix $Φ\in\mathbb{R}^{N\times n}$ satisfying $(1-ε)\lVert Ax\rVert_p\leq \lVertΦA x\rVert_p\leq (1+ε)\lVert Ax\rVert_p$ for all $x\in\mathbb{R}^d$. For every constant $p\geq 1$ with $p\not\in 2\mathbb{Z}$, when $d\gtrsim_p \log(1/ε)$, the bound \[ N_p(d,ε) \gtrsim_{p} \frac{d}{ε^2 \operatorname{polylog}(d/ε)} \] is established. This improves the previous lower bound $Ω(1/(ε^2\operatorname{polylog}(1/ε)))$ due to Li et al. (SICOMP 2021) and is optimal up to logarithmic factors for $1\leq p&lt;2$. The central technical idea originated from ChatGPT 5.6 Sol.</description>
-    </item>
-    <item>
-      <title>Horospherically convex optimization for fractional subspace packing and its applications</title>
-      <link>http://arxiv.org/abs/2608.13972v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.13972v1</guid>
-      <pubDate>Fri, 14 Aug 2026 05:32:26 +0000</pubDate>
-      <description>In this paper, we address a semi-infinite LP relaxation of the vector-subspace packing problem. This is a higher-dimensional generalization of the fractional linear matroid parity problem and is closely related to Brascamp-Lieb polytopes. We show that the dual of this LP can be formulated as ``linear programming on a Euclidean building," namely, the problem of minimizing a Busemann function over an intersection of horoballs. This provides a natural example of horospherically convex optimization, recently introduced by Goodwin et al. (2026) and Criscitiello and Kim (2025). By applying the incremental Busemann subgradient method, we obtain an additive FPTAS for the problem. As applications, we obtain a new and simpler polynomial-time algorithm for fractional linear matroid parity, and new algorithms for the membership problem of Brascamp-Lieb polytopes.</description>
-    </item>
-    <item>
-      <title>CavityRank: Zero-Extra-Byte Residual Routing for Cuckoo Filters</title>
-      <link>http://arxiv.org/abs/2608.13970v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.13970v1</guid>
-      <pubDate>Fri, 14 Aug 2026 05:31:51 +0000</pubDate>
-      <description>Near capacity, a cuckoo filter may reject an insertion even though a legal placement still exists: the table remains structurally feasible, but a bounded policy fails to find an augmenting path. Random kick-out keeps each step cheap but leaves no persistent direction; breadth-first search recovers direction by expanding a frontier and maintaining table-scaled state. CavityRank exploits a resource already present in four-slot packed buckets. Lookup observes only the fingerprint multiset, so query-equivalent lane orders can encode two comparison bits without widening the 64-bit bucket or changing the two-bucket query. The bits form a four-level ordinal residual rank. Insertion follows a minimum-rank edge and re-encodes each modified bucket from its outgoing edges after relocation, propagating the rank actually realized by the packed word. An exact capacity-four orientation oracle separates structural infeasibility from bounded-search loss. In a paired 4,096-bucket XOR16 ladder, CR2 closes 86.47% of Random CF's oracle gap and CavityRank leaves 1.39% of that original gap. A canonical-tie CR2-versus-CavityRank ablation isolates the second implicit bit, which closes 89.95% and 90.69% of CR2's residual gap; the corresponding closures at 65,536 buckets are 83.95% and 84.27%. A separate packed implementation study at 64 MiB and 97.75% load records 42.53 logical reads per insertion, versus 62.67 for explicit labels and 355.74 for depth-10 BFS, with zero extra bytes per bucket and no table-scaled workspace. CavityRank therefore occupies a practical design point between unguided eviction and frontier search.</description>
-    </item>
-    <item>
-      <title>The Sharp Dimension Bound in the Johnson--Lindenstrauss Lemma</title>
-      <link>http://arxiv.org/abs/2608.13782v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.13782v1</guid>
-      <pubDate>Thu, 13 Aug 2026 21:21:35 +0000</pubDate>
-      <description>The Johnson--Lindenstrauss lemma asserts that every set of $n$ points in $d$-dimensional Euclidean space embeds into $O(\varepsilon^{-2}\log n)$-dimensional Euclidean space with distortion at most $1+\varepsilon$. Larsen and Nelson conjectured that the optimal target dimension throughout the full range of the parameters $n,d, \varepsilon$ is \[ Θ\left(\min\left\{d,n-1,\frac{\log(2+\varepsilon^2n)}{\varepsilon^2}\right\}\right). \] We resolve this conjecture in the affirmative. In fact, we prove the stronger statement that the upper bound is attained by a linear map. The matching lower bound, due to Larsen--Nelson and Alon--Klartag, holds even for nonlinear embeddings.</description>
-    </item>
-    <item>
-      <title>Bagging Robustly Learns VC Classes with Linear Sample Complexity</title>
-      <link>https://arxiv.org/abs/2608.13514</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.13514</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversarially robustly learnable with sample complexity linear in the VC dimension $d$, providing an exponential improvement over the previous upper bound of Montasser, Hanneke, and Srebro (2019). Remarkably, this result is achieved with a simple improper algorithm that combines the classic heuristic bagging (bootstrap aggregation) of Breiman (1996) with robust empirical risk minimization (RERM). Our algorithm computes RERMs on $O(d^\star)$ independent bootstrap samples and outputs their majority vote, where $d^\star$ denotes the dual VC dimension. We complement this result with a lower bound showing that this is unavoidable: in general, any learner in this oracle model requires $Ω(d^\star)$ calls to an RERM oracle, even when given arbitrarily many training examples.</description>
-    </item>
-    <item>
-      <title>Hit-and-Run Mixes as Fast as the Ball Walk</title>
-      <link>https://arxiv.org/abs/2608.13487</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.13487</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Let $K\subset\mathbb{R}^n$ be an isotropic convex body. We prove that the hit-and-run walk, started from any $M$-warm distribution, reaches total-variation distance $\varepsilon$ from the uniform distribution on $K$ in $O\!\left(n^2ψ_n^{-2}\log^3(M/\varepsilon)\right)$ steps, where $ψ_n^{-1}$ is the Kannan-Lovász-Simonovits (KLS) constant. Up to logarithmic factors, this matches the best-known warm-start mixing time for the ball walk. Chen and Eldan [Discrete Comput. Geom. 2026] obtained the same $n^2ψ_n^{-2}$ dependence for hit-and-run, but with polynomial dependence on $M/\varepsilon$. Our result improves that polynomial dependence to a polylogarithmic one, fully resolving their open question about warm-start mixing of hit-and-run in isotropic convex bodies.</description>
-    </item>
-    <item>
-      <title>A minimum witness for the 3/2 configuration-linear-program gap in two-weight graph balancing, unique at its size</title>
-      <link>https://arxiv.org/abs/2608.13318</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.13318</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In restricted assignment - makespan minimization where each job has one size and a set of allowed machines - the configuration LP is the tightest studied relaxation, and its integrality gap is open in general. On two-weight graph balancing - each job allowed on at most two machines, sizes from two values - the value is known, both bounds due to Jansen, Land, and Maack (2016): their Table 1 instance attains 3/2, and their Corollary 11 bound of 2 - s/b for sizes s &lt; b meets it at {1,2}. We ask how small such an instance - a witness - can be. We give I*, a six-job witness: the complete graph on four machines, unit jobs on a Hamiltonian cycle, weight-2 jobs on the complementary perfect matching, with integral optimum 3 against relaxation value 2. That is one job fewer than the smallest previously in print, and we prove it minimum and unique at its size. No instance of the class with at most five jobs reaches gap 3/2, on any number of machines; at six jobs, again on any number of machines, I* is the only witness, up to relabeling machines and adding machines no job can use. At seven jobs uniqueness fails: exactly thirteen witnesses, classified - the Jansen-Land-Maack instance among them - and at eight jobs exactly 154. Three machines never suffice, at any size: four are necessary for the gap. Results of this shape are in print for the same relaxation in one-dimensional cutting stock, where the extremal non-round-up instances have been enumerated and classified for small demand; the Discussion sets out the relation. Recognizing witnesses at relaxation value 2 - where all of ours live - is coNP-complete, so no min-max characterization exists unless NP = coNP. Every feasibility decision behind the exhaustive claims was made twice, in floating point and in exact rational arithmetic, with full agreement, and the pipeline must rediscover I* before its negatives are believed.</description>
-    </item>
-    <item>
-      <title>New Approximation Algorithms for Maximum Asymmetric Traveling Salesman and Shortest Superstring</title>
-      <link>https://arxiv.org/abs/2005.10800</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2005.10800</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In the maximum asymmetric traveling salesman problem (Max ATSP) we are given a complete directed graph with nonnegative weights on the edges and we wish to compute a traveling salesman tour of maximum weight. In this paper we give a fast combinatorial $\frac{7}{10}$-approximation algorithm for Max ATSP. It is based on techniques of {\em eliminating} and {\em diluting} problematic subgraphs with the aid of {\it half-edges} and a method of edge coloring. (A {\it half-edge} of edge $(u,v)$ is informally speaking "either a head or a tail of $(u,v)$".) A novel technique of {\em diluting} a problematic subgraph $S$ consists in a seeming reduction of its weight, which allows its better handling. The current best approximation algorithms for Max ATSP, achieving the approximation guarantee of $\frac 23$, are due to Kaplan, Lewenstein, Shafrir, Sviridenko (2003) and Elbassioni, Paluch, van Zuylen (2012). Using a result by Mucha, which states that an $α$-approximation algorithm for Max ATSP implies a $(2+\frac{11(1-α)}{9-2α})$-approximation algorithm for the shortest superstring problem (SSP), we obtain also a $(2 \frac{33}{76} \approx 2,434)$-approximation algorithm for SSP, beating the previously best known (having an approximation factor equal to $2 \frac{11}{23} \approx 2,4782$.)</description>
-    </item>
-    <item>
-      <title>Arithmetic Variable LogLog: Advancing the Memory-Variance Frontier</title>
-      <link>https://arxiv.org/abs/2608.12575</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12575</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Cardinality estimation - counting the number of distinct elements in a data stream - requires a tradeoff between memory and accuracy. ExaLogLog recently established the state of the art for this tradeoff by combining wide registers with a Fisher-information-optimal maximum likelihood (ML) estimator, achieving the best known memory-variance product (MVP) among HyperLogLog variants. Here we present Arithmetic Variable LogLog (AVLL), which surpasses ExaLogLog at every memory point tested using arithmetic encoding and eliminating uncommon states to consume 64-bit words completely with 11 registers each, yielding a 5.5x register-count advantage. Its four-component blended estimator, HLDLC, exploits this density advantage to surpass ExaLogLog's ML accuracy without iterative solving. At 1 KB, AVLL achieves 1.63% width-weighted mean absolute error compared to ExaLogLog's 1.71% - a 4.7% improvement. The corresponding empirical MVP is 3.4, surpassing ExaLogLog's practical MVP of 3.78 and its theoretical optimum of 3.67. This holds at every tested size from 0.25 to 4 KB. AVLL inherits DynamicLogLog's early exit mechanism, which filters most elements before any register is touched. With thousands of simultaneous sketches per thread, AVLL is 2.7-4.5x faster than ExaLogLog due to the reduced memory bandwidth from early exits. Like DynamicLogLog, AVLL stores relative NLZ values with a shared offset, so its memory scales as O(B + log log C) rather than O(B x log log C) - decoupling maximum representable cardinality from register width. These results hold under both high-complexity (all-unique) and low-complexity (nonuniformly high duplication rate) data distributions, with zero accuracy degradation from duplication. AVLL is implemented as a single self-contained Java class with all correction formulas embedded, available in the BBTools suite at https://bbmap.org.</description>
-    </item>
-    <item>
-      <title>Online balancing of vectors with small coordinates</title>
-      <link>https://arxiv.org/abs/2608.12490</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12490</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Let $v_1,\ldots,v_T\in B_2^m$ be fixed in advance and revealed sequentially, and assume that $\|v_t\|_\infty\leqslant d^{-1/2}$ for some $d\geqslant 1$ and every $1\leqslant t\leqslant T$. There are absolute constants $L,C,c&gt;0$ and a randomized online signing such that $$\mathbb{P}\left\{\max_{k\leqslant T}\left\|\sum_{t=1}^k\varepsilon_t v_t\right\|_\infty&gt;6L\right\} \leqslant CT\exp\left(-\frac{cd}{\ln^2(ed)}\right).$$ Consequently, constant prefix discrepancy holds with probability at least $1-\varepsilon$ once $d$ is at least $C\ln\frac{3T}{\varepsilon}\left[\ln\left(e+\ln\frac{3T}{\varepsilon}\right)\right]^2$. In particular, every fixed sequence of vectors $a_t\in[-1,1]^m$ with at most $d$ nonzero coordinates admits an online signing with prefix discrepancy $O(\sqrt d)$ and failure probability at most $CT\exp[-cd/\ln^2(ed)]$. We also prove a nonuniform version in which the failure probability depends on the individual parameters $d_t=\|v_t\|_\infty^{-2}$, and a lower bound showing that a universal constant prefix discrepancy is impossible when $d=o(\ln T)$. We identify the corresponding $\ln^2 d$ barrier for the compact-potential method and extend the argument to general symmetric target bodies admitting a quadratic smoothness estimate.</description>
-    </item>
-    <item>
-      <title>Asymmetric Palette Sparsification, Slightly Simplified</title>
-      <link>https://arxiv.org/abs/2608.12289</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12289</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We present a slightly simplified analysis of the asymmetric palette sparsification result by Assadi and Yazdanyar [TheoretiCS, 2026]. The motivation is mainly pedagogical; our approach avoids hypergeometric concentration bounds and extra constant factors in the palette size.</description>
-    </item>
-    <item>
-      <title>A Tight Scale-Locality Bound for Partial Detection in Non-Adaptive Group Testing</title>
-      <link>https://arxiv.org/abs/2608.11858</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.11858</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We give a lower bound for randomized non-adaptive group testing when the goal is to find any $\ell$ defective items but the total number $d$ of defectives is unknown. Bshouty and Haddad-Zaknoon proved an upper bound of $O(\ell\log^2 n)$ tests and a lower bound of $$Ω\!\left(\frac{\ell\log^2 n}{\log \ell+\log\log n}\right).$$ We prove the matching lower bound. More generally, we show that every randomized non-adaptive algorithm that succeeds with constant probability for every defective set must use $$Ω\!\left(\ell\log^2(n/\ell)\right)$$ tests. The proof is as follows. At a fixed value of $d$, finding $\ell$ defectives requires about $\ell\log(n/d)$ bits of information. On the other hand, one fixed group test is informative only when its size is tuned to the scale of $d$; across all logarithmic scales of $d$, a single test contributes only $O(1)$ bits. Summing over all scales gives the lower bound. We also record the matching upper bound $$O\!\left(\ell\log^2(n/\ell)\right),$$ obtained by running the known-$d$ algorithm in parallel over dyadic guesses for $d$. Thus the randomized non-adaptive complexity of unknown-$d$ partial detection is $Θ\!\left(\ell\log^2(n/\ell)\right)$ for constant success probability.</description>
-    </item>
-    <item>
-      <title>Testing Properties of Edge Distributions</title>
-      <link>https://arxiv.org/abs/2603.22702</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.22702</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We initiate the study of distribution testing for probability distributions over the edges of a graph, motivated by the closely related question of ``edge-distribution-free'' graph property testing. The main results of this paper are nearly-tight bounds on testing bipartiteness, triangle-freeness and square-freeness of edge distributions, whose sample complexities are shown to scale as $Θ(n)$, $n^{4/3\pm o(1)}$ and $n^{9/8\pm o(1)}$, respectively. The technical core of our paper lies in the proof of the upper bound for testing square-freeness, wherein we develop new techniques based on certain birthday-paradox-type lemmas that may be of independent interest. We will discuss how our techniques fit into the general framework of distribution-free property testing. We will also discuss how our results are conceptually connected with Turán problems and subgraph removal lemmas in extremal combinatorics.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>AgentRecommender: LLM Agents Enable Customizable Recommender Systems on the User Side</title>
+      <link>http://arxiv.org/abs/2609.31166v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.31166v1</guid>
+      <pubDate>Fri, 25 Sep 2026 11:58:23 +0000</pubDate>
+      <description>Recommender systems have traditionally been developed for platforms. However, this has given rise to many phenomena that may be advantageous for platform lock-in but are a nuisance to users, such as clickbait, filter bubbles, and the spread of fake news. Recently, user-side recommender systems have been proposed as a new paradigm for solving this problem. If users deploy their own recommender systems, they are no longer at the mercy of the platform's interests. However, building a user-side recommender system is not trivial; in particular, customizing one for oneself requires additional data. We propose AgentRecommender, a method that leverages the investigation capability and internal knowledge of LLM agents to flexibly build user-side recommender systems without additional data. AgentRecommender allows users to easily create recommender systems tailored to their own preferences.</description>
+    </item>
+    <item>
       <title>Is Luke the Author of a Gospel and the Acts of the Apostles?</title>
       <link>http://arxiv.org/abs/2609.17762v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.17762v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.28816</guid>
       <pubDate>Mon, 06 Apr 2026 00:00:00 -0000</pubDate>
       <description>The global landscape of art-technology institutions, including festivals, biennials, research labs, conferences, and hybrid organizations, has grown increasingly diverse, yet systematic frameworks for analyzing their multidimensional characteristics remain scarce. This paper proposes ASTRA (Art-technology Institution Spatial Taxonomy and Relational Analysis), a computational methodology combining an eight-axis conceptual framework (Curatorial Philosophy, Territorial Relation, Knowledge Production Mode, Institutional Genealogy, Temporal Orientation, Ecosystem Function, Audience Relation, and Disciplinary Positioning) with a text-embedding and clustering pipeline to map 78 cultural-technology institutions into a unified analytical space. Each institution is characterized through qualitative descriptions along the eight axes, encoded via E5-large-v2 sentence embeddings and quantized through a word-level codebook into TF-IDF feature vectors. Dimensionality reduction using UMAP, followed by agglomerative clustering (Average linkage, k=10), yields a composite score of 0.825, a silhouette coefficient of 0.803, and a Calinski-Harabasz index of 11196. Non-negative matrix factorization extracts ten latent topics, and a neighbor-cluster entropy measure identifies boundary institutions bridging multiple thematic communities. An interactive React-based tool enables curators, researchers, and policymakers to explore institutional similarities and cross-disciplinary connections. Results reveal coherent groupings such as an art-science hub cluster anchored by ZKM and ArtScience Museum, an innovation and industry cluster including Ars Electronica, transmediale, and Sonar, an ACM academic cluster comprising TEI, DIS, and NIME, and an electronic music cluster including CTM Festival, MUTEK, and Sonic Acts. Code and data: https://github.com/joonhyungbae/astra</description>
-    </item>
-    <item>
-      <title>LLMs Have Made Failure Worth Publishing</title>
-      <link>https://arxiv.org/abs/2604.06236</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.06236</guid>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Scientific publishing systematically filters out negative results. We argue that this long-standing asymmetry has become an urgent problem in the era of large language models, which inherit the positive bias of the literature they are trained on, face an impending shortage of high-quality training data, and are increasingly deployed as both research tools and peer reviewers. We analyze three ways in which LLMs have changed the value of failure data and show that the systematic absence of such data degrades their utility as research tools, training data consumers, and peer reviewers alike. We outline experimental protocols to validate these claims and discuss the structural conditions under which a failure-inclusive publishing culture could emerge.</description>
     </item>
   </channel>
 </rss>

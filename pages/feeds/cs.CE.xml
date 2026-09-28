@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Adaptive Interaction Graphs for Particle Simulation</title>
+      <link>http://arxiv.org/abs/2609.30822v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30822v1</guid>
+      <pubDate>Fri, 25 Sep 2026 05:02:48 +0000</pubDate>
+      <description>Learned particle simulators based on graph neural networks achieve strong one-step accuracy, but errors compound over long horizons. An underexplored variable is the interaction graph: existing methods fix its topology via k-nearest neighbors or a static radius rule, regardless of local model confidence. We propose making this graph adaptive: a per-particle variance head, trained jointly with the acceleration head under a heteroscedastic Gaussian NLL loss, drives a trajectory in which high-uncertainty particles receive an expanded neighborhood. This is done at little extra inference cost by using the previous step's uncertainty estimate. A key discovery is that the variance head learns a meaningful notion of uncertainty: high-variance particles concentrate near complex regions, such as splash zones or free surfaces. When this signal drives graph topology, the resulting AdaptGNS simulator achieves a strict Pareto improvement on WaterDrop and a modest gain on Sand. Given the model's stronger performance on WaterDrop, we hypothesize that adaptive graphs are most useful when complexity is concentrated in space. Our code can be found at https://github.com/aidenzhou8/AdaptGNS.</description>
+    </item>
+    <item>
+      <title>The conductance filtration: sink-relative persistence and exact edge sensitivity for heat transport in particle-filled composites</title>
+      <link>http://arxiv.org/abs/2609.30810v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30810v1</guid>
+      <pubDate>Fri, 25 Sep 2026 04:40:52 +0000</pubDate>
+      <description>We formulate the thermal conductance $g_e$ of a particle pair as three branch types -- contact, near-contact and bond -- within a single construction, and we introduce the filtration that takes this $g_e$ as its axis (the conductance filtration) together with persistence taken relative to the sink boundary. We then show that the dissipation share is exactly the logarithmic sensitivity of the effective conductance, and that a finite change of a single edge is predicted exactly in closed form. The allocation of the dissipation among branch types, and the idealisation ratio of each mechanism (interface, matrix and particle), are thereby obtained as diagnostic quantities on one and the same graph representation.</description>
+    </item>
+    <item>
       <title>The Exact Approximation Ratio of Uniformly Rotated Coordinate-wise Median in the Euclidean Plane</title>
       <link>http://arxiv.org/abs/2609.18152v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.18152v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.00426</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
       <description>Understanding HPC facilities users' behaviors and how computational resources are requested and utilized is not only crucial for the cluster productivity but also essential for designing and constructing future exascale HPC systems. This paper tackles Challenge 4, 'Analyzing Resource Utilization and User Behavior on Titan Supercomputer', of the 2021 Smoky Mountains Conference Data Challenge. Specifically, we dig deeper inside the records of Titan to discover patterns and extract relationships. This paper explores the workload distribution and usage patterns from resource manager system logs, GPU traces, and scientific areas information collected from the Titan supercomputer. Furthermore, we want to know how resource utilization and user behaviors change over time. Using data science methods, such as correlations, clustering, or neural networks, our findings allow us to investigate how projects, jobs, nodes, GPUs and memory are related. We provide insights about seasonality usage of resources and a predictive model for forecasting utilization of Titan Supercomputer. In addition, the described methodology can be easily adopted in other HPC clusters.</description>
-    </item>
-    <item>
-      <title>Modular Photobioreactor Facade Systems for Sustainable Architecture -- A case study</title>
-      <link>https://arxiv.org/abs/2503.06769</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.06769</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 -0000</pubDate>
-      <description>This paper proposes an innovative solution to the growing issue of greenhouse gas emissions: a closed photobioreactor (PBR) facade system to mitigate greenhouse gas (GHG) concentrations. With digital fabrication technology, this study explores the transition from traditional, single function building facades to multifunctional, integrated building systems. It introduces a photobioreactor facade system to mitigate greenhouse gas (GHG) concentrations while addressing the challenge of large-scale prefabricated components transportation. This research introduces a novel approach by designing the facade system as modular, user-friendly and transportation-friendly bricks, enabling the creation of a user-customized and self-assembled photobioreactor system. The single module in the system is proposed to be "neutralization bricks", which embedded with algae and equipped with an air circulation system, facilitating the photobioreactor's functionality. A connection system between modules allows for easy assembly by users, while a limited variety of brick styles ensures modularity in manufacturing without sacrificing customization and diversity. The system is also equipped with an advanced microalgae status detection algorithm, which allows users to monitor the condition of the microalgae using monocular camera. This functionality ensures timely alerts and notifications for users to replace the algae, thereby optimizing the operational efficiency and sustainability of the algae cultivation process.</description>
-    </item>
-    <item>
-      <title>VEHRON: A Configuration-Driven BEV Simulation Framework for Subsystem-Level Studies</title>
-      <link>https://arxiv.org/abs/2604.24726</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.24726</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 -0000</pubDate>
-      <description>In practical early-stage battery-electric vehicle studies, analysis workflows may become fragmented across spreadsheets, notebooks, and project-specific scripts, making reuse, audit, and extension harder. VEHRON is an open-source Python framework for a deterministic, traceable workflow built around prescribed-speed longitudinal simulation of battery-electric vehicles using validated YAML configuration, packaged drive-cycle resources, interchangeable subsystem models, and auditable case outputs. VEHRON currently runs as a command-line workflow in which a vehicle definition and a testcase definition are combined to execute a simulation, emit a flat time series, and write a case package containing copied inputs, resolved configuration, summary metadata, and standard plots. Architecturally, VEHRON is organized around a small simulation engine, a shared state bus, a registry of model selections, schema-based configuration loading, and extension points for custom battery and HVAC models loaded from external Python files. VEHRON currently focuses on battery-electric longitudinal simulation with low-order battery, thermal, auxiliary-load, and HVAC models. This paper explains how VEHRON is structured, how it is used, which models it implements, and where its present limits lie. Source code is available at https://github.com/vehron-dev/vehron, with archived release metadata recorded under DOI https://doi.org/10.5281/zenodo.19820111.</description>
     </item>
   </channel>
 </rss>

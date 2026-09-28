@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The existence of polyhedral invariants is undecidable for linear systems</title>
+      <link>http://arxiv.org/abs/2609.31146v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.31146v1</guid>
+      <pubDate>Fri, 25 Sep 2026 11:37:38 +0000</pubDate>
+      <description>The existence of polyhedral inductive invariants suitable for proving that a given control location is unreachable is undecidable for programs using only linear arithmetic over Z or Q, by reduction from 2-counter machines.</description>
+    </item>
+    <item>
+      <title>Two applications of the point-free coderivative</title>
+      <link>http://arxiv.org/abs/2609.29436v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.29436v1</guid>
+      <pubDate>Thu, 24 Sep 2026 11:55:36 +0000</pubDate>
+      <description>We present two new applications of Simmons' point-free Cantor-Bendixson coderivative operator in intuitionistic logic. First, we use it to give a simplified proof of the recent result of Xu and Ye that the free Heyting algebra on two generators does not occur as the Heyting algebra of subterminal objects in any elementary topos. Then we use it to prove that complete Heyting algebra semantics is not strongly complete for intuitionistic second-order propositional logic: semantic consequence from an arbitrary set of assumptions does not coincide with ordinary syntactic consequence.</description>
+    </item>
+    <item>
+      <title>Biplanar graphs with independence number two are 9-colorable</title>
+      <link>http://arxiv.org/abs/2609.28102v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28102v1</guid>
+      <pubDate>Wed, 23 Sep 2026 13:33:04 +0000</pubDate>
+      <description>A graph is biplanar if it is the union of two planar graphs on the same vertex set. The largest chromatic number of a biplanar graph is known to lie between 9 and 12. The lower bound comes from Sulanke's graph, which has independence number 2, and a biplanar graph on 19 vertices with independence number 2 would have chromatic number at least 10. Gethner and Sulanke asked in 2009 whether such a graph exists. We show that it does not, and more generally that every biplanar graph with independence number at most 2 is 9-colorable. The proof embeds a hypothetical counterexample in the union of two sphere triangulations, enumerates with SAT modulo symmetries the 3271 graphs that pass a necessary filter for the complement of such a union, and shows with a SAT solver that none of them is such a complement; a matching argument reduces the general statement to this computation and one further case on 18 vertices. The computational part of the proof, including the completeness of the enumeration and every refutation, is checked in Lean 4, assuming three classical facts about planar graphs. The Lean development, the SAT instances, and the enumeration certificates are available on Zenodo.</description>
+    </item>
+    <item>
+      <title>Substantive Agency and Computational Non-Anticipability: An Axiomatic Route to a Conditional Separation of P and N P</title>
+      <link>http://arxiv.org/abs/2609.28040v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.28040v1</guid>
+      <pubDate>Wed, 23 Sep 2026 13:00:40 +0000</pubDate>
+      <description>This paper characterises substantive agency and identifies the additional bridges under which it has a standard complexity-theoretic consequence: conditionally, P __ = N P . The constitutive core separates coherent plurality, causal openness, anticipatory non-pointing, act-level singularisation, and endogenous sourcehood. Its temporal claim yields a two-sided modal result: exact passive pre-act selection is incompatible with jointly retaining singularising priority and invariance under causally inert informational extension. If every standard polynomial procedure is deployable in that passive form, the actualisation map $α$ has no polynomial-time selector. On an effective presentation, $α$ is therefore either computable outside FP or noncomputable. A separate certifiedactualisation protocol supplies polynomially bounded, polynomially verifiable traces with extensional unique projection. This is the constructive interface that turns historical actualisation into a total standard search relation; combined with the modal result, it places that relation in TFNP search \ FP search , from which a self-contained search argument yields P __ = N P . The result is a domain-relative conditional transfer theorem: it neither assumes polynomial non-anticipability in the definition of agency nor proves that human decision-making satisfies the bridge and certification premises.</description>
+    </item>
+    <item>
+      <title>The Complexity of Interference: When Rely/Guarantee Does Not Work</title>
+      <link>http://arxiv.org/abs/2609.27392v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.27392v1</guid>
+      <pubDate>Wed, 23 Sep 2026 05:47:00 +0000</pubDate>
+      <description>Rely/Guarantee is a well-known verification technique for reasoning about concurrent programs. However, for some algorithms, devising suitable rely and guarantee conditions is challenging, due to the strong interference exhibited in these algorithms. The Ben-Ari concurrent garbage collector is an algorithm where the complex interactions between the components prevent the construction of compositional rely and guarantee conditions. This paper investigates an approach for verifying the Ben-Ari algorithm, which enables reasoning to be performed in a more compositional manner in cases where compositional reasoning would not otherwise be possible. This is accomplished by reasoning that a given property holds for all instances of a particular variable and then instantiating the variable to the local variable required. As well as providing a reasoning approach which is more compositional, the result is the identification of the core property required of a component, thus enabling a deeper understanding about the reasons why the algorithm works correctly. This helps to reveal the reasons why the rely/guarantee approach does not work directly for some problems.</description>
+    </item>
+    <item>
+      <title>Fine Selection for Intuitionistic Modal Logic</title>
+      <link>http://arxiv.org/abs/2609.27078v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.27078v1</guid>
+      <pubDate>Tue, 22 Sep 2026 21:18:56 +0000</pubDate>
+      <description>We extend Fine's selection method to the setting of intuitionistic modal logic and use it to provide a model-theoretic proof that Fischer Servi-style intuitionistic $\sf K4$ has the finite model property.</description>
+    </item>
+    <item>
       <title>An Exponential Succinctness Gap between Three-Variable Logic and the Calculus of Relations</title>
       <link>http://arxiv.org/abs/2609.26778v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.26778v1</guid>
@@ -661,48 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2601.10564</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 -0000</pubDate>
       <description>In this paper, we introduce monoidal rewriting systems (MRS), an abstraction of string rewriting in which reductions are defined over an arbitrary ambient monoid rather than a free monoid of words. This shift is partly motivated by logic: the class of free monoids is not first-order axiomatizable, so ``working in the free setting'' cannot be treated internally when applying first-order methods to rewriting presentations. To analyze these systems categorically, we define $\mathbf{NCRS_2}$ as the 2-category of Noetherian Confluent MRS. We then prove the existence of a canonical 2-adjunction between $\mathbf{NCRS_2}$ and $\mathbf{Mon}$. Finally, we study all MRS that present a given fixed monoid $M$. For this, we introduce Generalized Elementary Tietze Transformations (GETTs) and, among other results, we prove the property that any presentation of $M$ can be obtained from any other using GETTs is equivalent to $M$ being a free monoid, further strengthening the bridge between the algebraic behavior of monoids and rewriting theory.</description>
-    </item>
-    <item>
-      <title>Exploiting Structure in the Boolean Weighted Constraint Satisfaction Problem: A Constraint Composite Graph-Based Approach</title>
-      <link>https://arxiv.org/abs/2608.10005</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.10005</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>What is "structure," and how can we exploit it in combinatorial optimization? Reasoning tasks such as system design, state estimation, and prediction can be cast as combinatorial optimization problems (COPs), traditionally attacked by dedicated algorithms that fail outside their narrow subclass, while communities working on equivalent problems reinvent each other's techniques. The weighted constraint satisfaction problem (WCSP) is a general framework that subsumes COPs from many communities and represents complex physical and non-physical systems, from spin glasses to social networks. Is such generality a curse? Our answer is to exploit "structure": a general-purpose WCSP algorithm should automatically imitate the specialized algorithm for whatever subclass its input belongs to. A WCSP has macro (graphical) structure, which variables interact, and micro (numerical) structure, how they interact. Separate schools of thought exploit one or the other, never both. The constraint composite graph (CCG), introduced in 2008, unifies them: it is an undirected graph over a WCSP instance's variables plus auxiliary ones, on which minimum weighted vertex cover (MWVC) solves the original instance. It is efficiently constructible, but largely unexploited. This dissertation answers three questions affirmatively. The CCG has theoretical advantages beyond identifying tractable classes (new properties proved here); it is practically useful (efficient implementation and experiments); and it extends promisingly to non-Boolean variables (new encodings). We use the CCG to (a) kernelize a WCSP instance, fixing optimal values of some variables by maxflow before search begins, (b) improve min-sum message passing, (c) exploit integer linear programming solvers, and (d) solve COPs on quantum annealers. Solving general COPs faster classically also yields better baselines for the debated quantum advantage.</description>
-    </item>
-    <item>
-      <title>Classification of $σ$-validity in iterated announcements</title>
-      <link>https://arxiv.org/abs/2607.04685</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.04685</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In their 2018 paper, Agotnes, van Ditmarsch, and Wang extended the notions of success and self-refutation in public announcements to true lies, impossible lies, and $σ$-validity in general. Here, $σ$ is a finite or infinite sequence of $0$s and $1$s. For example, successful formulas and self-refuting formulas are $11$-valid and $10$-valid, respectively. They then posed a conjecture on the classification of such sequences in terms of $σ$-validity. In this paper, we disprove the conjecture and give corrected classifications for multi-agent K45, single-agent KD45, multi-agent KD45 with more than one agents, and multi-agent S5 after reformulating the statement more explicitly. The results indicate that there is an asymmetry between truthful announcements and false announcements: the former are stable while the latter are fragile in general. In particular, all successful formulas remain true forever while some impossible lies can be true at some point when repeatedly announced. Also, although some self-refuting formulas can become true again after following the truth pattern $10$, all $100$-valid formulas are destructive in the sense that they remain false forever once they become false. On the other hand, some true lies are fragile in the sense that truths created by lying can become false again.</description>
-    </item>
-    <item>
-      <title>Non-Termination of Logic Programs Using Patterns</title>
-      <link>https://arxiv.org/abs/2507.09390</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.09390</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we consider an approach introduced in term rewriting for the automatic detection of non-looping non-termination from patterns of rules. We adapt it to logic programming by defining a new unfolding technique that produces patterns describing possibly infinite sets of finite rewrite sequences. We present an experimental evaluation of our contributions that we implemented in our tool NTI.</description>
-    </item>
-    <item>
-      <title>Sequential-Innovation Reducibility and the Innovation Spectrum</title>
-      <link>https://arxiv.org/abs/2608.05443</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.05443</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Sequential prediction naturally induces an innovation sequence consisting of the prediction errors produced by a causal predictor. We use the collection of all such innovation sequences to define the \emph{innovation spectrum} of an individual binary sequence and, from it, a new reducibility based on sequential information extraction. We show that this reducibility refines truth-table reducibility while exhibiting a fundamentally different geometry. The degree structure decomposes into two canonical regions: a truth-table spine, whose induced order is isomorphic to the truth-table degrees, and a complementary reservoir-immune region, consisting of sequences from which no infinite computable predictable reservoir can be extracted. We establish bridge constructions connecting the two regions, prove that reservoir immunity is preserved under sequential innovation, and show that the Martin--Löf-random degrees form a proper downward-closed substructure inside the reservoir-immune region. These results reveal a new geometric organization of individual sequences based on causal predictability rather than classical oracle computation.</description>
-    </item>
-    <item>
-      <title>Step Recursion: A Three-Parameter Refinement of the Grzegorczyk Hierarchy</title>
-      <link>https://arxiv.org/abs/2608.04871</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.04871</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We introduce bounded step recursion and a three-parameter hierarchy refining the Grzegorczyk hierarchy. For a strictly increasing function $φ:\mathbb N\to\mathbb N$ with $φ(x)\ge x+1$, its generalized inverse $$ρ_φ(y)=\min\{z:φ(z)\ge y\}$$ replaces the ordinary predecessor and generates the descent schedule $y,ρ_φ(y),ρ_φ^{[2]}(y),\ldots,0$. From a Grzegorczyk basis $B_m$, composition, and bounded step recursion with step $g_n^{[l]}$, we define classes $H^m_{n,l}$, where $m$ measures the initial-function strength, $n$ selects a growth scale, and $l$ fixes the stride through its canonical layers. For all $n,n'\ge2$, we obtain an exact criterion for $H^a_{n,l}\subseteq H^b_{n',l'}$. Below horizontal collapse, fixed strides are ordered by reverse divisibility: inclusion at equal row is governed by $l'\mid l$, not by the numerical order of $l$ and $l'$. All fixed strides collapse from initial basis $m=n$, and the common class equals the ordinary bounded-recursion class $E^m$ exactly from $m=n+1$. Positive inclusions use exact-depth simulations; separations use a direct piecewise-monotone trace theorem and a canonical-zone invariant for selected dependency chains. The doubling row $g_1(x)=2x+1$ is exceptional at low bases. We prove $H^m_{1,l}=E^m$ for all $m\ge3$, construct the first vertical bridge at basis $2$, and show that every fixed-arity function in $H^2_{1,l}$ is binary polynomial-time computable, with $H^2_{1,l}\subsetneq FP$. Equality $H^2_{1,l}=E^2$ would imply $P=NP$.</description>
-    </item>
-    <item>
-      <title>Locality in Residuated-Lattice Structures</title>
-      <link>https://arxiv.org/abs/2506.16206</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.16206</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Many-valued models generalise the structures from classical model theory by defining truth values for a model with an arbitrary algebra. Just as algebraic varieties provide semantics for many non-classical propositional logics, models defined over algebras in a variety provide the semantics for the corresponding non-classical predicate logics. In particular, models defined over varieties of residuated lattices represent the model theory for first-order substructural logics. In this paper we study the extent to which the classical locality theorems from Hanf and Gaifman hold true in the residuated lattice setting. We demonstrate that the answer is sensitive both to how locality is understood in the generalised context and the behaviour of the truth-defining algebra. In the case of Hanf's theorem, we will show that the theorem fails for the natural understanding of local neighbourhoods, but is recoverable with an alternative understanding for well-connected residuated lattices. For Gaifman's theorem, rather than consider Gaifman normal forms directly we focus on the main lemma of the theorem from textbook proofs - that models which satisfy the same basic local sentences are elementarily equivalent. We prove that for a number of different understandings of locality, provided the algebra is well-behaved enough to express locality in its syntax, this main lemma can be recovered. In each case we will see the importance of an order-interpreting connective which creates a link between the modelling relation for models and formulas and the valuation function from formulas into the algebra. This link enables a syntactic encoding of back-and-forth systems providing the main technical ingredient to proofs of the main locality results.</description>
     </item>
   </channel>
 </rss>

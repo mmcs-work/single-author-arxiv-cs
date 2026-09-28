@@ -2,6 +2,7 @@
 
 import re
 import socket
+import subprocess
 import time
 import urllib.error
 import urllib.parse
@@ -40,6 +41,15 @@ def fetch_category(category, start, end, max_results):
             with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
                 return ET.parse(response).getroot().findall("atom:entry", ATOM)
         except urllib.error.HTTPError as error:
+            if error.code == 406:
+                try:
+                    response = subprocess.run(
+                        ("curl", "--fail", "--silent", "--show-error", "--max-time", str(TIMEOUT), "-A", request.get_header("User-agent"), request.full_url),
+                        check=True, capture_output=True,
+                    )
+                    return ET.fromstring(response.stdout).findall("atom:entry", ATOM)
+                except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+                    pass
             if error.code not in (406, 429) and not 500 <= error.code < 600:
                 raise
             last_error = error

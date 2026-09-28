@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A 120-State Binary Turing Machine Equivalent to the Riemann Hypothesis</title>
+      <link>http://arxiv.org/abs/2609.30306v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.30306v1</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:41 +0000</pubDate>
+      <description>We construct an explicit deterministic one-tape, two-symbol Turing machine with 120 working states whose blank-tape computation halts if and only if the Riemann hypothesis is false. The machine uses the same binary blank-tape model and state-counting convention as the widely cited 744-state Matiyasevich-O'Rear-Aaronson construction. The reduction from 744 to 120 working states removes 624 states, or 83.87%. Subject to independent end-to-end verification, our machine is a new state-count record for the Riemann hypothesis.</description>
+    </item>
+    <item>
       <title>Twisted Rational Zeros and Local-Global Principles for Linear Recurrence Sequences</title>
       <link>http://arxiv.org/abs/2609.16392v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.16392v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.02957</guid>
       <pubDate>Sat, 02 May 2026 00:00:00 -0000</pubDate>
       <description>We investigate the nondeterministic state complexity of the square-root operation $\sqrt{L}=\{\,w \mid ww\in L\,\}$ on regular languages represented by nondeterministic finite automata. For an $n$-state NFA accepting $L$, it was previously known that $\sqrt{L}$ can be accepted by an NFA with at most $n^{3}$ states, while the best lower bound was only (n-1)(n-2)(n-3). In this paper, we close this gap completely and prove that $n^{3}$ states are sufficient and necessary in the worst case.</description>
-    </item>
-    <item>
-      <title>Practical Livelock Analysis in Parameterized Unidirectional Rings</title>
-      <link>https://arxiv.org/abs/2603.21443</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.21443</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
-      <description>We develop a practical framework for livelock analysis in self-disabling unidirectional ring protocols. Klinkhamer and Ebnenasir established that livelock detection for parameterized rings is $Σ^0_1$-complete and livelock-freedom verification is $Π^0_1$-complete, via reduction from the periodic domino problem. We observe that lifting the analysis from the transition space to an \emph{equivariant product space} -- the space of transition-witness pairs -- reveals structure that supports effective verification. We construct a \emph{product transition graph} (at most $|T|^2$ nodes) that captures all livelocks: every livelock maps into this graph as a witness-closed subgraph. The maximal such subgraph $G^*(T)$ is computable in polynomial time ($O(|T|^8)$ worst case) via monotone fixed-point iteration. When $G^*(T) = \emptyset$, the protocol is \emph{provably livelock-free} for all ring sizes -- a sound and complete livelock-freedom verifier. When $G^*(T) \neq \emptyset$, we apply a backtracking search that backward-propagates each simple cycle through $G^*$ until the chain either closes into a torus (confirming a livelock) or dies (no livelock from that cycle). This two-phase algorithm -- polynomial-time pruning followed by finite combinatorial verification -- produces three outcomes: Free, Livelock, or Inconclusive. Across 4{,}349 protocols tested (including an adversarial protocol derived from Klinkhamer and Ebnenasir's tiling construction and Kari's 14-tile aperiodic set converted via their SE gadget), the algorithm is conclusive in every case with zero errors. We further demonstrate that the algorithm extends to non-self-disabling protocols via a protocol transformation. This extends the algorithm's applicability to all parameterized unidirectional ring protocols. Python implementation and usage instructions are at URL: https://github.com/cosmoparadox/mathematical-tools.</description>
     </item>
   </channel>
 </rss>
