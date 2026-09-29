@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Process Mining of Patient Flow in an Emergency Department: Bottlenecks, Variant Fragmentation, and Data-Driven Redesign</title>
+      <link>http://arxiv.org/abs/2609.32010v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.32010v1</guid>
+      <pubDate>Fri, 25 Sep 2026 21:16:05 +0000</pubDate>
+      <description>Emergency departments (EDs) run some of the least standardized processes in healthcare, and long stays are often attributed to demand rather than measured on data. We analyze an anonymised event log of 1{,}820 ED stays (25{,}115 events) through a full process mining pipeline: preprocessing resolves burst logging and missing values, performance analysis quantifies flow at the case and transition level, and Inductive Miner with token-based conformance checking assesses process structure. The filtered log (1{,}754 cases, 16{,}376 events) exhibits a mean throughput of 6.58 hours with a heavy tail, 884 distinct control-flow variants whose most frequent one covers only 4.3\% of cases, and an inversion of clinical priority in which urgent patients (acuity 2, 8.03 h) stay 38\% longer than critical ones (acuity 1, 5.83 h). Perfect fitness (1.0) combined with low precision (0.71) reveals absence of normative pathways rather than deviance. Two redesign scenarios, acuity-based care pathways and anticipatory discharge, are derived with quantified targets.</description>
+    </item>
+    <item>
       <title>AgentRecommender: LLM Agents Enable Customizable Recommender Systems on the User Side</title>
       <link>http://arxiv.org/abs/2609.31166v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.31166v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.00676</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
       <description>Databases, and datasets more generally, evolve continuously through updates, transformations, versioning, schema changes, streaming operations, and other mechanisms. While prior work has noted connections among some of these areas, they have traditionally been studied in isolation, each with its own abstractions, algorithms, and system implementations. In this paper, we argue for unifying these diverse functionalities under a single abstraction and a common set of computational primitives. We present such an abstraction, powerful enough to encompass existing use cases and to support new ones. Going beyond previous approaches, our framework seamlessly integrates provenance tracking for system-visible operations, conditional propagation of updates, and configurable alerts on change events. It also offers a principled treatment of dependent objects such as views and derived artifacts like machine learning models, by providing declarative mechanisms to control their evolution. Finally, we sketch a prototype implementation in a relational-like database system based on an adaptation of the "Prolly Tree", a Merkle tree-inspired data structure with tunable parameters to meet varying performance requirements, and present some initial experimental results.</description>
-    </item>
-    <item>
-      <title>Graphify: Automated Synthesis of Type-Safe Graph Backends via $O(S)$ GraphQL-to-Gremlin Transpilation</title>
-      <link>https://arxiv.org/abs/2604.27223</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.27223</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Graph databases offer unparalleled flexibility for managing interconnected data, yet the lack of strict schema enforcement often leads to runtime uncertainties and complex query development. This paper introduces Graphify, an end-to-end framework that enables developers to visually model graph data schemas and automatically synthesize a fully functional, type-safe backend. This paper proposes a formal mapping of GraphQL artifacts to the Gremlin traversal machine, supporting complete CRUD operations and arbitrarily nested queries. The system generates a transpiler capable of converting complex GraphQL requests into a single, optimized Gremlin query, including advanced features such as nested logical predicates, multi-key sorting, and pagination. At the core of the framework is a recursive state machine algorithm that processes GraphQL Abstract Syntax Trees (ASTs) with linear time complexity $O(S)$ relative to the number of selected fields. This paper demonstrates the practical efficiency and theoretical robustness of the approach through formal complexity analysis and empirical evaluation using the MovieLens 100k dataset. The result is a system that enables the generation of graph interfaces in minutes, bridging the gap between flexible graph storage and type-safe API consumption.</description>
     </item>
   </channel>
 </rss>

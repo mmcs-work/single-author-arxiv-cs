@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Harmonizing Spectral Evolution in Conditional Flow Matching for TTS</title>
+      <link>http://arxiv.org/abs/2609.34431v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.34431v1</guid>
+      <pubDate>Mon, 28 Sep 2026 06:51:49 +0000</pubDate>
+      <description>Conditional Flow Matching (CFM) models for text-to-speech (TTS) suffer from incoherent frequency evolution during inference. While similar spectral imbalances are addressed in diffusion models for other domains, those generic solutions fail to generalize to the inherently uncoordinated acoustic dynamics of CFM. We demonstrate that this issue can be effectively mitigated by introducing a novel training-free frequency-selective boosting strategy. Using the Discrete Wavelet Transform (DWT), our method dynamically modulates mel-spectrogram sub-bands during ODE integration, synchronizing spectral development by penalizing aggressive low-frequency growth and boosting lagging high-frequency details. Validated across diverse architectures (Matcha-TTS, F5-TTS, IndicF5), our approach reduces the required Number of Function Evaluations (NFE) from 32 to 26 and improves Frechet Audio Distance (FAD) by up to 61%, all without compromising mean opinion scores, speaker similarity, and speech intelligibility.</description>
+    </item>
+    <item>
       <title>I-Parakeet: Integer-Only Conformer ASR on Mobile NPU</title>
       <link>http://arxiv.org/abs/2609.30846v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.30846v1</guid>
@@ -24,6 +31,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.29320v1</guid>
       <pubDate>Thu, 24 Sep 2026 09:59:53 +0000</pubDate>
       <description>Recent work on synthesizer inversion shows that generative models outperform deterministic approaches by explicitly modeling the ambiguity in mapping audio to parameters. Training such models, however, requires audio-parameter pairs, which are typically obtained by rendering sampled or preset parameters through the synthesizer itself. This creates a train-test mismatch that can degrade performance on off-manifold real-world recordings, for which ground-truth parameter annotations do not exist. To circumvent this obstacle, we propose to model the joint distribution of audio and parameters with a multi-modal continuous normalizing flow using independent noise schedules for each modality. This formulation allows us to train joint and conditional densities with paired synthesizer data, while unpaired real recordings can train the audio marginal alone, exposing the model to off-manifold signals without requiring parameter labels. Further, because the model learns to map from audio to parameters at all noise levels, we find that partially noising the audio reference at inference improves real-audio reconstruction, consistent with reducing sensitivity to distribution-specific detail while preserving coarse structure. Evaluating on Surge XT and Dexed, we find that modelling the joint distribution substantially improves both inversion of real-world and in-domain audio.</description>
+    </item>
+    <item>
+      <title>Oracle Complementarity Is Not Realizable Complementarity in Frozen-Encoder Audio-Visual Emotion Recognition</title>
+      <link>http://arxiv.org/abs/2609.31764v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.31764v1</guid>
+      <pubDate>Thu, 24 Sep 2026 07:22:51 +0000</pubDate>
+      <description>Complementarity analyses of multimodal systems commonly report an oracle ceiling (the fraction of examples on which at least one unimodal branch is correct) and interpret the gap between it and realized fusion accuracy as recoverable headroom. We show that this ceiling is not a fusion target. Using frozen self-supervised audio and visual encoders with a trained head, we measure the ceiling and realized gain on CREMA-D under two audio encoders (one whose fine-tuning lineage includes CREMA-D, one clean) and on EAV under the contaminated encoder. Replacing the fine-tuned encoder with a self-supervised one triples the headroom, from +0.055to +0.186. A second clean encoder and a controlled degradation of the contaminated one fall on the same curve, so provenance moves the headroom by changing audio-branch accuracy. Concatenation realizes at most about half of the headroom (converted fraction 0.55), and on EAV the converted fraction is indistinguishable from zero despite larger headroom. A learned router is beaten by plain concatenation everywhere. Oracle headroom measures branch disagreement, not a fusion budget.</description>
     </item>
     <item>
       <title>Fast Time-Varying Exponentiated Convolution Methods for Generative Direction Dependent Reverberation</title>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.07293</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 -0000</pubDate>
       <description>Speech Emotion Conversion (SEC) aims to transform the emotion of a source utterance into a target emotion while preserving content and speaker identity. SEC on in-the-wild data is challenging due to the non-parallel nature of training data and complex real-world acoustics. Existing fixed-duration approaches either struggle to shift the emotion effectively (high quality, low conversion) or degrade speech naturalness (low quality, high conversion). We propose TargetSEC, an embedding-driven latent diffusion framework that generates emotion-focused style embeddings conditioned on speaker identity and continuous emotion. Unlike methods that diffuse over spectrograms, TargetSEC operates in a compact latent space. Experiments on the MSP-Podcast dataset show that TargetSEC outperforms current non-duration baselines in conversion accuracy while maintaining high speech quality, and achieves performance comparable to duration-prediction systems without explicit temporal modeling.</description>
-    </item>
-    <item>
-      <title>Absorbing Discrete Diffusion for Speech Enhancement</title>
-      <link>https://arxiv.org/abs/2602.22417</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.22417</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Inspired by recent developments in neural speech coding and diffusion-based language modeling, we tackle speech enhancement by modeling the conditional distribution of clean speech codes given noisy speech codes using absorbing discrete diffusion. The proposed approach, which we call ADDSE, leverages both the expressive latent space of neural audio codecs and the non-autoregressive sampling procedure of diffusion models. To efficiently model the hierarchical structure of residual vector quantization codes, we propose RQDiT, which combines techniques from RQ-Transformer and diffusion Transformers for non-autoregressive modeling. Results show competitive performance in terms of non-intrusive objective metrics on two datasets, especially at low signal-to-noise ratios and with few sampling steps. Code and audio examples are available online.</description>
-    </item>
-    <item>
-      <title>A Second-Order Cepstral Signature of Contact-Vibration Sounds Reproduced by Laptop Loudspeakers: A Synthetic Case Study</title>
-      <link>https://arxiv.org/abs/2606.04475</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.04475</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 -0000</pubDate>
-      <description>A mobile phone vibrating on a hard surface often sounds qualitatively unlike ordinary audiovisual recordings when reproduced through laptop loudspeakers. We propose that part of this perceptual distinctiveness can be described as a nested periodicity: a first-order cepstral structure reflecting the vibration period and its multiples, and a second-order cepstral structure reflecting repeated spacing within the first-order cepstrum. Treating the perceptual effect as real and using a deliberately transparent synthetic signal chain, we model six stages: mechanical generation, surface and air propagation, microphone capture, encoding and decoding, laptop-speaker playback, and re-recording or post-processing. The synthetic analysis shows that the first-order cepstral periodicity is preserved across the chain, whereas a cleaner bimodal or quasi-bimodal second-order cepstral signature is most evident at the mechanical source and at laptop-speaker playback. The result supports, but does not prove, the hypothesis that laptop reproduction can re-emphasize a latent contact-vibration periodicity that is less cleanly expressed in intermediate recorded and encoded forms. We frame second-order cepstral bimodality as an exploratory descriptor of contact-vibration playback rather than as a completed perceptual metric. Required validation includes recordings of real devices, controlled playback transfer functions, perceptual judgments, and comparisons against ordinary speech, music, and environmental recordings.</description>
     </item>
   </channel>
 </rss>

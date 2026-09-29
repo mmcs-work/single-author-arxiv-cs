@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Practical Approach To Verifying Structural Invariants In Colored Petri Nets</title>
+      <link>http://arxiv.org/abs/2609.34928v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.34928v1</guid>
+      <pubDate>Mon, 28 Sep 2026 11:26:39 +0000</pubDate>
+      <description>Structural analysis is a core method in Petri Net (PN) research, offering a perspective complementary to state-space techniques while avoiding many of their limitations. It is well studied for classical PNs but far less for High-Level Petri Nets (HLPN). Symmetric Nets (SN), a common HLPN formalism, use compact annotations to encode behavioral symmetries, enabling the construction of a symbolic reachability graph (and a lumped Markov chain in stochastic SN) and the execution of symbolic discrete-event simulations. During the past two decades, structural techniques tailored to SN have been developed, notably supported by the SNexpression tool. This tool implements a formal calculus designed for the computation of symbolic structural relations, including, but not limited to, conflict relations and causal dependencies. Here, we focus on using this calculus to verify semi-automatically symbolic structural invariants, a task currently feasible only for certain restricted SN subclasses. We focus specifically on (semi)flows and briefly discuss an approach through which a flow generative family can be generated, at least theoretically. We further briefly outline a framework for the formal verification of a broader class of invariant properties. An extended formulation of the SN formalism is employed, which demonstrably satisfies the closure property with respect to fundamental functional operators. The core concepts are elucidated by means of representative examples throughout the exposition.</description>
+    </item>
+    <item>
+      <title>Semi-automated Verification of Symbolic Invariants In Extended Symmetric Nets</title>
+      <link>http://arxiv.org/abs/2609.34891v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.34891v1</guid>
+      <pubDate>Mon, 28 Sep 2026 10:59:34 +0000</pubDate>
+      <description>Structural analysis is central to Petri Net (PN) research, complementing state-space methods while avoiding their combinatorial issues. It is well studied for classical PNs but much less for High-Level Petri Nets (HLPN). Symmetric Nets (SN), a common HLPN formalism, use compact annotations to encode behavioral symmetries, allowing symbolic reachability graphs and associated lumped Markov chains for stochastic SN. In the past two decades, specific structural techniques for SN have emerged, notably the SNexpression tool, which implements a calculus for symbolic structural relations such as conflict and causality. We propose using this calculus to semi-automatically verify symbolic structural invariants, currently possible only for restricted SN subclasses, for an extended SN formalism (ESN) closed under key functional operators. We focus on flows and outline, at least in theory, how to construct a flow-generating family. We also sketch a framework for formally verifying a wider range of invariant properties. Representative examples illustrate the main concepts.</description>
+    </item>
+    <item>
       <title>Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning</title>
       <link>http://arxiv.org/abs/2609.28442v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.28442v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2406.02122</guid>
       <pubDate>Fri, 26 Sep 2025 00:00:00 -0000</pubDate>
       <description>The Model-Constructing Satisfiability Calculus (MCSAT) framework has been applied to SMT problems over various arithmetic theories. NLSAT, an implementation using cylindrical algebraic decomposition (CAD) for explanation, is especially competitive for nonlinear real arithmetic (NRA) constraints. However, current Conflict-Driven Clause Learning (CDCL)-style algorithms only consider literal information when making decisions, and thus ignore the influence of clauses on arithmetic variables. This limitation may lead NLSAT to encounter unnecessary conflicts due to suboptimal literal choices. To address this issue, we analyze conflicts caused by literal decisions and incorporate clause-level information that directly affects arithmetic variables. We propose two main algorithmic improvements: a clause-level feasible-set-based look-ahead mechanism and an arithmetic propagation-based branching heuristic. We implement our solver, named clauseSMT, based on a dynamic variable ordering framework. Experiments indicate that clauseSMT is competitive on nonlinear real arithmetic problems compared with existing SMT solvers (CVC5, Z3, YICES2), and it outperforms all of them on satisfiable instances of SMT(QF_NRA) in SMT-LIB. We also evaluate the effectiveness of our proposed methods.</description>
-    </item>
-    <item>
-      <title>A Category Theoretic Approach to Approximate Game Theory</title>
-      <link>https://arxiv.org/abs/2509.20932</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.20932</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 -0000</pubDate>
-      <description>This paper uses category theory to develop an entirely new approach to approximate game theory. Game theory is the study of how different agents within a multi-agent system take decisions. At its core, game theory asks what an optimal decision is in a given scenario. Thus approximate game theory asks what is an approximately optimal decision in a given scenario. This is important in practice as -- just like in much of computing -- exact answers maybe too difficult to compute or even impossible to compute given inherent uncertainty in input. We consider first "Selection Functions" which are functions and develop a simple yet robust model of approximate equilibria. We develop the algebraic properties of approximation wrt selection functions and also relate approximation to the compositional structure of selection functions. We then repeat this process successfully for Open Games -- a more advanced model of game theory.</description>
-    </item>
-    <item>
-      <title>Un cadre paraconsistant pour l'{é}valuation de similarit{é} dans les bases de connaissances</title>
-      <link>https://arxiv.org/abs/2509.08433</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.08433</guid>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 -0000</pubDate>
-      <description>This article proposes a paraconsistent framework for evaluating similarity in knowledge bases. Unlike classical approaches, this framework explicitly integrates contradictions, enabling a more robust and interpretable similarity measure. A new measure $ S^* $ is introduced, which penalizes inconsistencies while rewarding shared properties. Paraconsistent super-categories $ Ξ_K^* $ are defined to hierarchically organize knowledge entities. The model also includes a contradiction extractor $ E $ and a repair mechanism, ensuring consistency in the evaluations. Theoretical results guarantee reflexivity, symmetry, and boundedness of $ S^* $. This approach offers a promising solution for managing conflicting knowledge, with perspectives in multi-agent systems.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A performance enhancement of the Payne-Hanek range reduction algorithm</title>
+      <link>http://arxiv.org/abs/2609.35015v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.35015v1</guid>
+      <pubDate>Mon, 28 Sep 2026 12:16:35 +0000</pubDate>
+      <description>Range reduction plays a crucial role in the accuracy and performance of evaluating trigonometric functions, and is often the primary bottleneck for large floating-point inputs. While fast algorithms such as Cody--Waite work efficiently over narrow intervals, the Payne--Hanek algorithm remains the standard technique for accurate reduction across large floating-point inputs. However, existing implementations of Payne--Hanek suffer from high latency due to heavy branching, conversion overheads, and the use of multi-word integer arithmetic, which hinders SIMD vectorization. In this paper, we analyze and present a branch-free variation of the Payne--Hanek algorithm using only floating-point arithmetic. Our method operates directly over large double-precision inputs ($|x| \ge 2^{16}$) and is well suited to hardware with FMA instructions. We formulate the precision constraints in terms of a truncation error budget, construct a compact lookup table indexed by the input exponent, and prove that the reduced argument is accurate to within one ulp for every input. The same routine can serve both as the complete range reduction of a single-stage implementation and as the fast path of a correctly rounded one, and it improves both latency and throughput over existing implementations. The algorithm is currently implemented in the LLVM libc project.</description>
+    </item>
+    <item>
       <title>GLASS: Architecture-Tuned, Composable, Device-Side Linear Algebra for Edge Robotics and Beyond</title>
       <link>http://arxiv.org/abs/2609.28179v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.28179v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2505.00736</guid>
       <pubDate>Wed, 30 Apr 2025 00:00:00 -0000</pubDate>
       <description>OSMnx is a Python package for downloading, modeling, analyzing, and visualizing urban networks and any other geospatial features from OpenStreetMap data. A large and growing body of literature uses it to conduct scientific studies across the disciplines of geography, urban planning, transport engineering, computer science, and others. The OSMnx project has recently developed and implemented many new features, modeling capabilities, and analytical methods. The package now encompasses substantially more functionality than was previously documented in the literature. This article introduces OSMnx's modern capabilities, usage, and design -- in addition to the scientific theory and logic underlying them. It shares lessons learned in geospatial software development and reflects on open science's implications for urban modeling and analysis.</description>
-    </item>
-    <item>
-      <title>Construct accurate multi-continuum micromorphic homogenisations in multi-D space-time with computer algebra</title>
-      <link>https://arxiv.org/abs/2407.03483</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2407.03483</guid>
-      <pubDate>Sun, 06 Apr 2025 00:00:00 -0000</pubDate>
-      <description>Homogenisation empowers the efficient macroscale system level prediction of physical scenarios with intricate microscale structures. Here we develop an innovative powerful, rigorous and flexible framework for asymptotic homogenisation of dynamics at the \emph{finite} scale separation of real physics, with proven results underpinned by modern dynamical systems theory. The novel systematic approach removes most of the usual assumptions, whether implicit or explicit, of other methodologies. By no longer assuming averages the methodology constructs so-called multi-continuum or micromorphic homogenisations systematically informed by the microscale physics. The developed framework and approach enables a user to straightforwardly choose and create such homogenisations with clear physical and theoretical support, and of highly controllable accuracy and fidelity.</description>
     </item>
   </channel>
 </rss>

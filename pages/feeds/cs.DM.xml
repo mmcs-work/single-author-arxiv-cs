@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Objective Transfer in Single-Node Network Criticality: Optimal Constants and Exact Separation Thresholds</title>
+      <link>http://arxiv.org/abs/2609.34394v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.34394v1</guid>
+      <pubDate>Mon, 28 Sep 2026 06:09:23 +0000</pubDate>
+      <description>When a vertex is selected as the most damaging single attack target under one damage objective, how much of the optimal damage under a different objective does it retain? We study this for the three objectives commonly used in critical node detection -- pairwise connectivity (PC), size of the largest surviving component (LCC) and number of components (NC) -- for single-vertex attacks on connected graphs, with the attacked vertex counted in the damage and ties resolved optimistically. For the pair PC, LCC the loss is bounded: a PC-optimal vertex retains at least a $2-\sqrt2$ fraction of the optimal LCC damage, an LCC-optimal vertex at least 2/3 of the optimal PC damage, and both constants are best possible. Neither bound depends on the choice among tied optimal vertices or on whether the attacked vertex is counted, and both remain valid as lower bounds for attack sets of any fixed size. For the four directions involving NC no positive constant exists; explicit families have ratios decaying like 1/k, and no single attack set retains a positive fraction of all three optima uniformly. We also determine the smallest orders at which the sets of optimal vertices become disjoint: 7 for LCC/NC, 8 for PC/NC, 9 for PC/LCC and 11 for all three pairwise, with trees realising the triple separation for every n&gt;=11; these values rest on an exhaustive enumeration of the 11,989,762 connected graphs with 3&lt;=n&lt;=10. Finally, the most critical vertex in a Birnbaum-type sense may depend on the failure probability: a six-vertex graph, of smallest possible order, changes leader once, at $p^*=3-\sqrt5$. Adding universal vertices lifts the budget-one examples to every fixed budget, so over all connected graphs the same constants are optimal at every fixed budget; behaviour within restricted classes such as trees is left open.</description>
+    </item>
+    <item>
+      <title>Flip-packability: uniform characterisations of tame graph classes</title>
+      <link>http://arxiv.org/abs/2609.33705v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.33705v1</guid>
+      <pubDate>Sun, 27 Sep 2026 16:07:30 +0000</pubDate>
+      <description>A class of graphs is monadically dependent if one cannot encode all graphs in coloured graphs from the class using a fixed first-order formula, and monadically stable if one cannot even encode arbitrarily long linear orders. Bonnet et al. (ICALP 2025) characterised monadic dependence by flip-separability: for every vertex weighting, boundedly many flips - complementations of the adjacency relation within a vertex subset - make every ball of radius $r$ carry at most an $\varepsilon$-fraction of the weight, so that every set carrying an $\varepsilon$-fraction has two elements pulled apart. We introduce flip-packability: boundedly many graphs, each obtained from the input by boundedly many flips and all determined by the weighting before any set is presented, such that every set carrying an $\varepsilon$-fraction of the weight has $m$ elements pairwise far apart in one of them. The number of flips producing each graph depends on the radius alone; only the number of graphs depends on $\varepsilon$ and $m$. We prove that a class of graphs is flip-packable if and only if it is monadically stable, and $2$-flip-packable, that is, flip-packable with $m=2$, if and only if it is monadically dependent. The passage from two scattered elements to $m$ is thus exactly what separates the two notions. For monadically stable classes we show that the flipped graphs can be computed from the weighting in cubic time. Varying the three parameters of the definition - the sparsifying operation, the radius, and the number $m$ of elements scattered - produces eight known characterisations of sparse and dense graph classes from the same template. In each case $m$ separates a depth-like notion from its width-like relaxation: treedepth from treewidth, shrubdepth from cliquewidth, and monadic stability from monadic dependence.</description>
+    </item>
+    <item>
+      <title>On the Guo-Fang-Lu Algorithm for Komlos Discrepancy</title>
+      <link>http://arxiv.org/abs/2609.33215v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.33215v1</guid>
+      <pubDate>Sun, 27 Sep 2026 04:54:47 +0000</pubDate>
+      <description>We give an exposition of the recent polynomial time algorithm of Guo, Fang, and Lu for the Komlos problem. We simplify various arguments, and highlight the key new spectral potential idea and how the algorithm follows naturally from it.</description>
+    </item>
+    <item>
+      <title>A quadratic upper bound on the Chvátal rank of polytopes in the 0/1-cube</title>
+      <link>http://arxiv.org/abs/2609.32210v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.32210v1</guid>
+      <pubDate>Sat, 26 Sep 2026 04:13:37 +0000</pubDate>
+      <description>We show that every polytope $P\subseteq[0,1]^n$, and more generally every compact convex set, has Chvátal rank at most $12.22n^2+n\log_2 n+2n+4$. This improves the $O(n^2\log n)$ bound of Eisenbrand and Schulz and, together with the $Ω(n^2)$ lower bound of Rothvoß and Sanità, shows that the maximum Chvátal rank of a polytope in $[0,1]^n$ is $Θ(n^2)$. More precisely, if $P$ contains an integer point, then for every $c\in\mathbb{Z}^n\setminus\{0\}$ the inequality $cx\le\max\{cy: y\in P\cap\mathbb{Z}^n\}$ is valid for the $k$-th Chvátal closure of $P$ for some $k\le 12.22n^2+2n+2\log_2\|c\|_\infty+4$. Following Eisenbrand and Schulz, we derive this inequality along a chain of coarser and coarser integer vectors, but instead of halving the vector in each step, we round $τc$ for a scale $τ$ chosen freely in each dyadic window $[2^{-t-1},2^{-t}]$. The main new ingredient is a multiscale version of Dirichlet's approximation theorem, proved by an elementary volume argument: for every $c\in\mathbb{R}^n$, the $\ell_1$-distances of $τc$ to $\mathbb{Z}^n$, minimized within each dyadic window and summed over all windows, total less than $1.222n^2$, independently of $\|c\|_\infty$.</description>
+    </item>
+    <item>
       <title>Proof of the Kahn Saks Conjecture</title>
       <link>http://arxiv.org/abs/2609.30895v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.30895v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2601.18071</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
       <description>The connection Laplacian L and the Dirac matrix D are both n x n matrices defined from a given finite simplicial complex G with n sets. In both cases, there is interlacing of the eigenvalues for subcomplexes. This gives general upper bounds of the eigenvalues both for L and D in terms of inclusion or intersection degrees. We conjecture that L always dominates both D and the inverse of L in a weak Loewner sense. In a second part we look at dynamical systems (G,T), where T is a simplicial map on G. Both L and D generalize to dynamical versions of L and D. The modified L is still unimodular with an explicit Green function inverse and modified Dirac part still comes from an exterior derivative d. We also review the Lefschetz fixed point theorem for a simplicial map T on a simplicial complex G which implies the Brouwer fixed point theorem: any simplicial map on a contractible finite abstract simplicial complex G has a fixed simplex.</description>
-    </item>
-    <item>
-      <title>Edge open packing on subclasses of chordal graphs</title>
-      <link>https://arxiv.org/abs/2510.16236</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.16236</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Packing problems in graphs are fundamental in combinatorial optimization and arise naturally in applications such as resource allocation, scheduling, and communication networks. A classical example is the \emph{induced matching} problem, where one seeks a set of edges whose endpoints induce a matching. In 2022, Chelladurai et al. introduced the notion of \emph{edge open packing}, which can be viewed as a relaxation of induced matching: instead of forcing the selected edges to induce only isolated edges, edge open packing allows them to induce disjoint stars. For a graph \(G=(V,E)\), two edges \(e_1,e_2\in E(G)\) are said to have a common edge if there exists an edge \(e\in E(G)\setminus\{e_1,e_2\}\) joining an endpoint of \(e_1\) to an endpoint of \(e_2\). A set \(D\subseteq E(G)\) is an \emph{edge open packing set} if no two edges in \(D\) have a common edge, and the maximum cardinality of such a set is the \emph{edge open packing number} \(ρ_e^o(G)\). The corresponding optimization problem is the \textsc{Maximum Edge Open Packing Problem}. In this paper, we study the computational complexity of the \textsc{Maximum Edge Open Packing Problem}. Motivated by an open question posed by Brešar and Samadi concerning chordal graphs, we investigate the problem on three subclasses of chordal graphs. We give an \(O(n^2)\)-time algorithm for proper interval graphs, an \(O(n+m)\)-time algorithm for block graphs, where \(n=|V(G)|\) and \(m=|E(G)|\), and an \(O(n^3)\)-time algorithm for split graphs. These results provide partial answers to the open question and contribute to the algorithmic understanding of edge packing parameters in chordal graph classes.</description>
-    </item>
-    <item>
-      <title>Karp's patching algorithm on dense digraph</title>
-      <link>https://arxiv.org/abs/2505.21645</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.21645</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We consider the following question. We are given a dense digraph $D$ with $n$ vertices and minimum in- and out-degree at least $αn$, where $α&gt;1/2$ is a constant. The edges $E(D)$ of $D$ are given independent edge costs $C(e),e\in E(D)$, such that (i) $C$ has a density $f$ that satisfies $f(x)=a+bx+O(x^2)$, for constants $a&gt;0,b$ as $x\to 0$ and such that in general either (ii) $\Pr(C\geq x)\leq \a e^{-\b x}$ for constants $\a,\b&gt;0$, or $f(x)=0$ for $x&gt;\n$ for some constant $\n&gt;0$. Let $C(i,j),i,j\in[n]$ be the associated $n\times n$ cost matrix where $C(i,j)=\infty$ if $(i,j)\notin E$. We show that w.h.p. (a small modification to) the patching algorithm of Karp finds a tour for the asymmetric traveling salesperson problem that is asymptotically equal to that of the associated assignment problem. The algorithm runs in polynomial time.</description>
-    </item>
-    <item>
-      <title>Euler Characteristics of Random Manifolds</title>
-      <link>https://arxiv.org/abs/2607.24322</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.24322</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We prove that the expectation of the Euler characteristic X(H) of random level surface H in a given simplicial complex G is E[X(H)] =2-2K(G)-X(G), where K(G)=1-f_0/2+f_1/3- ... is the curvature functional of G and X(G)=f_0-f_1+f_2-... is the Euler characteristics. More generally, the expectation of the f-vector of a submanifold is explicitly linked to the f-vector of the host manifold.</description>
-    </item>
-    <item>
-      <title>Flip Distance Between Triangulations of Convex Polygons is NP-Complete</title>
-      <link>https://arxiv.org/abs/2602.22874</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.22874</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The complexity of determining the minimum number of flips that transform one triangulation of a convex polygon into another has been raised as an open problem by Culik and Wood [Inf. Proc. Letters 1982] and has been popularized through the study of extremal pairs of triangulations by Sleator, Tarjan, and Thurston [STOC 1986 &amp; J. Am. Math. Society 1988]. The search for a hardness proof for the flip distance problem has yielded many (weaker) hardness-results in more general settings. Lubiw and Pathak [CCCG 2012, Comp. Geom. 2014] and Pilz [Comp. Geom. 2014] proved that computing the flip distance between triangulations of point sets in general position is NP-complete. Further, Aichholzer, Mulzer, and Pilz [ESA 2013, DCG 2015] proved that computing the flip distance between triangulations of simple polygons is NP-complete. The methods used to obtain these previous hardness results rely heavily on the geometric positioning of the vertices of the point set or the vertices of the polygon and are thus not feasible to prove NP-hardness for the flip distance problem of triangulations of convex polygons, where vertices are placed on a circle. We formulate a notion of conflict graphs for flip sequences between triangulations of convex polygons that allows us to use both geometric and combinatorial tools to study flip sequences. Large acyclic subsets of the conflict graph will correspond to short flip sequences. We show NP-completeness of the flip distance problem by proving that finding the largest acyclic subset of our conflict graphs is NP-complete.</description>
     </item>
   </channel>
 </rss>
