@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization</title>
+      <link>http://arxiv.org/abs/2609.38161v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.38161v1</guid>
+      <pubDate>Tue, 29 Sep 2026 17:59:16 +0000</pubDate>
+      <description>Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number from below and the symmetric difference from above, each scaled by $2/n$ where $n$ is the number of vertices. The bracket is sharp: its two ends coincide exactly when the reconstruction only adds edges or only deletes them, and on that class the distance is a rescaled edge count that says nothing about which edges changed. When the ends differ, the residual between the distance and the lower end is positive only if the reconstruction both invented and lost edges, which turns it into a certificate of mixed editing computable from the reported summaries alone. We characterize these regimes in 135 reconstructions produced by three open-weight models over 45 synthetic graphs. Seventy-seven outputs are one-sided and 29 mixed outputs have $X &gt; 0$, including cases where edge count is exactly preserved while nineteen edges were simultaneously invented and lost. The three models differ in editing policy, ranging from copying the input to attempting completion at the cost of large hallucination volume, a distinction that aggregate distortion does not reveal.</description>
+    </item>
+    <item>
       <title>Objective Transfer in Single-Node Network Criticality: Optimal Constants and Exact Separation Thresholds</title>
       <link>http://arxiv.org/abs/2609.34394v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.34394v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.27057</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
       <description>Given two $m$-ary predicates $P,Q$, an $n$-ary polymorphism is a tuple $(f_1,\dots,f_m)$ of functions such that $x^{(1)},\dots,x^{(n)} \in P$ implies $(f_1(y_1),\dots,f_m(y_m)) \in Q$, where $y_i = (x^{(1)}_i,\dots,x^{(m)}_i)$. This generalizes the usual definition in universal algebra, in which $P = Q$ and $f_1 = \cdots = f_m$. In earlier work, we studied when all polymorphisms of a single predicate are "trivial": either all depend on a single coordinate (common to all of them), or they constitute a "certificate" for the predicate. We showed that it suffices to check this condition for $2$-ary polymorphisms, and even for $1$-ary polymorphisms, modulo an explicit list of obstructions. In this paper we generalize the first result to the $P,Q$ setting, for a relaxed notion of certificate. We also generalize the second result in the promise setting, in which $P,Q$ range over the same alphabets and $P \subseteq Q$.</description>
-    </item>
-    <item>
-      <title>Remarks about Connection and Dirac matrices</title>
-      <link>https://arxiv.org/abs/2601.18071</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.18071</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The connection Laplacian L and the Dirac matrix D are both n x n matrices defined from a given finite simplicial complex G with n sets. In both cases, there is interlacing of the eigenvalues for subcomplexes. This gives general upper bounds of the eigenvalues both for L and D in terms of inclusion or intersection degrees. We conjecture that L always dominates both D and the inverse of L in a weak Loewner sense. In a second part we look at dynamical systems (G,T), where T is a simplicial map on G. Both L and D generalize to dynamical versions of L and D. The modified L is still unimodular with an explicit Green function inverse and modified Dirac part still comes from an exterior derivative d. We also review the Lefschetz fixed point theorem for a simplicial map T on a simplicial complex G which implies the Brouwer fixed point theorem: any simplicial map on a contractible finite abstract simplicial complex G has a fixed simplex.</description>
     </item>
   </channel>
 </rss>

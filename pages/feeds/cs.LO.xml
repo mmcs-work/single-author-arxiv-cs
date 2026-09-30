@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Proofs Without Nominals: Gödel's Ontological Argument, its Shallow Embedding, and the Open Questions of the Monatshefte Notes</title>
+      <link>http://arxiv.org/abs/2609.36279v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.36279v1</guid>
+      <pubDate>Mon, 28 Sep 2026 21:09:57 +0000</pubDate>
+      <description>The shallow embedding of higher-order modal logic in classical higher-order logic, used in Benzmüller and Scott's Notes on Gödel's and Scott's variants of the ontological argument (2025), reaches beyond the modal object language of the arguments: its property quantifiers range over terms that may also express nominals and satisfaction operators of hybrid logic, and a proof using one proves a theorem of the embedding that need not be one of the modal logic. That the framework affords this is not new, and whether a result is one of the modal logic can be settled in two ways: by replaying it in an explicit proof calculus, done by hand for chosen theorems, or by analysing the proofs the embedding itself produces, which this article does mechanically, for every result at once. Every statement the Notes prove has a proof inside the object language: 294 written out by hand and machine-checked, none using a nominal. The proofs the Notes themselves give instantiate no nominal either; what the detector flags there are terms a prover substituted. The three questions the Notes leave open are settled too, and without nominals, but the conjunction axiom has to be emended: generalised in the Notes to Gödel's "any number of summands", it covers the conjunction of no properties, and of one; the empty one alone settles all three, and the two together yield what a separate axiom of Gödel's is for. This article restricts the conjunction axiom to at least two different conjuncts, the reading Gödel's footnote suggests, and the questions are settled again, by proofs that turn on the argument rather than a degenerate instance. The restriction holds of the object language only: with a nominal the axioms make the accessibility relation the identity and the readings coincide. Every theorem is verified in Isabelle/HOL and independently in Lean 4; the countermodels are Nitpick's, certified by the build.</description>
+    </item>
+    <item>
       <title>Jev thinks "I don't know'', but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration</title>
       <link>http://arxiv.org/abs/2609.35342v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.35342v1</guid>
@@ -87,6 +94,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.31146v1</guid>
       <pubDate>Fri, 25 Sep 2026 11:37:38 +0000</pubDate>
       <description>The existence of polyhedral inductive invariants suitable for proving that a given control location is unreachable is undecidable for programs using only linear arithmetic over Z or Q, by reduction from 2-counter machines.</description>
+    </item>
+    <item>
+      <title>A constructive ATLAS of finite simple groups in Lean</title>
+      <link>http://arxiv.org/abs/2609.35847v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.35847v1</guid>
+      <pubDate>Fri, 25 Sep 2026 04:51:06 +0000</pubDate>
+      <description>We present a constructive atlas of finite simple groups with proofs of their orders, simplicity, and structural properties. The eight completed families are cyclic groups of prime order, alternating groups, the classical series $A_r(q)$, $B_r(q)$, $C_r(q)$, $D_r(q)$, and the exceptional series $G_2(q)$ and the small Ree groups $ {}^2G_2(3^{2m+1})$, $m\geq1$. The fifteen sporadic entries are $M_{11}$, $M_{12}$, $M_{22}$, $M_{23}$, $M_{24}$, $\mathrm{Co}_1$, $\mathrm{Co}_2$, $\mathrm{Co}_3$, $\mathrm{McL}$, $\mathrm{HS}$, $\mathrm{Suz}$, $J_2$, and $\mathrm{Fi}_{22}$, $\mathrm{Fi}_{23}$, $\mathrm{Fi}_{24}'$. The simple parameter ranges and exceptional cases are stated explicitly. The models arise from codes, lattices, forms, algebras, and finite geometries, including the split octonions and the Conway--Parker algebra. They retain natural actions, stabilizers, central quotients, and comparison maps for subsequent group theory. Several classical comparison isomorphisms relate the models, while involution-class counts distinguish the equal-order orthogonal and symplectic families in odd characteristic and rank at least three. Drawing on classical sources and companion mathematical work, the project develops the construction side of finite simple group theory, not the exhaustiveness proof of the classification. The completed models and stated proofs are formalized in Lean for verification and reuse.</description>
     </item>
     <item>
       <title>Two applications of the point-free coderivative</title>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2602.02091</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
       <description>Higher-order beta-matching is the following decision problem: given two simply typed lambda-terms, can the first term be instantiated to be beta-equivalent to the second term? This problem was formulated by Huet in the 1970s and shown undecidable by Loader in 2003 by reduction from lambda-definability. The present work provides a novel undecidability proof for higher-order beta-matching, found in an effort to verify this result by means of a proof assistant. Rather than starting from lambda-definability, the presented proof encodes a restricted form of string rewriting as higher-order beta-matching. The particular approach is similar to Urzyczyn's approach showing undecidability of intersection type inhabitation. The presented approach has several advantages. First, the proof is simpler to verify in full detail due to the simple form of rewriting systems, which serve as a starting point. Second, undecidability of the considered problem in string rewriting is already certified using the Rocq Prover. As a consequence, we obtain a certified many-one reduction from the Halting Problem to higher-order beta-matching. Third, the presented approach identifies a uniform construction which shows undecidability of higher-order beta-matching, lambda-definability, and intersection type inhabitation. The presented undecidability proof is mechanized in the Rocq Prover and contributed to the existing Coq Library of Undecidability Proofs.</description>
-    </item>
-    <item>
-      <title>A Kruskal Decision Procedure for Intuitionistic Modal Logic IK4</title>
-      <link>https://arxiv.org/abs/2608.10283</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.10283</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We prove decidability of Simpson's intuitionistic modal logic IK$ by working directly with cut-free nested proofs. Once the end formula is fixed, only finitely many combinations of input and output formulae can occur at a node, although the modal tree itself remains unbounded. We order these nested sequents by rooted homeomorphic embedding: weakening may add input formulae, while transitivity allows a modal edge to be stretched into a non-empty path. Kruskal's theorem makes rooted homeomorphic embedding a well-quasi-order, but does not by itself make backward application of the rules effective: an inference may still occur inside an arbitrarily large context. The finite-support lemma shows that a minimal predecessor need retain only the positions used by the inference, the images of the chosen basis elements, and the branch points joining them. Together with an effective enumeration of bounded rule instances, this bound makes the minimal predecessors computable. Backward closure from the initial sequents gives an increasing sequence of finitely based upward-closed sets. The sequence eventually stabilises, and its stable value is the set of provable nested sequents. At that point, finitely many cut-free proofs suffice: every other provable nested sequent is obtained from one of them by weakening along an embedding. Their maximum height gives a uniform proof-height bound.</description>
-    </item>
-    <item>
-      <title>Dilatations of categories, via their lean formalization</title>
-      <link>https://arxiv.org/abs/2608.09305</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.09305</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Given a category $\calC$ and a center, that is a collection of pairs $(d_i, N_i)$ consisting of a morphism $d_i$ and a sieve $N_i$ over its codomain, the dilatation of $\calC$ is a new category $\calC'$ in which every $n \in N_i$ factors, uniquely and functorially, through $d_i$. This paper presents the theory of dilatations of categories through a full formalization of the construction and its main theorems in the Lean~4 proof assistant, on top of the Mathlib library. An appendix collects a systematic dictionary between the mathematical statements and the Lean declarations that formalize them.</description>
     </item>
   </channel>
 </rss>

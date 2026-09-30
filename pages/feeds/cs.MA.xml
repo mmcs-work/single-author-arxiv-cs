@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Human-AI Collaboration: From Paradoxes to Patterns</title>
+      <link>http://arxiv.org/abs/2609.36481v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.36481v1</guid>
+      <pubDate>Tue, 29 Sep 2026 01:38:17 +0000</pubDate>
+      <description>Evidence shows that humans and AI systems perform better together, by collaborating, than alone. This paper examines two key design dimensions of human-AI collaboration (autonomy and initiative) and explores the collaboration patterns that they generate. Documenting these patterns starts with identifying the underlying problems and solutions, followed by examining the internal tensions within the problems. The paper uses a paradox perspective to analyze those tensions. It describes a process for surfacing the tensions and mapping the underlying paradoxes. It also illustrates how the pattern descriptions can be derived from mapping these paradoxes. Finally, the paper documents four human-AI collaboration patterns: Instruction, Delegation, Assistance, and Co-creation.</description>
+    </item>
+    <item>
+      <title>Bregman Consensus</title>
+      <link>http://arxiv.org/abs/2609.35930v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.35930v1</guid>
+      <pubDate>Mon, 28 Sep 2026 14:16:04 +0000</pubDate>
+      <description>Consider a community of agents who are seeking consensus on a set of parameters. The agents agree to use the same Bregman-type divergence to quantify disagreement between their individual estimates of the parameters but have varying confidence in each other's abilities. Each agent is happy to revise their estimate by moving to the weighted barycenter of all individual estimates with higher weights applied to more trusted agents. We show that such revisions naturally lead to an iterative algorithm which converges to a unique consensus estimate of the parameters. Furthermore, since the consensus estimate is itself a barycenter with computable weights, the group emerges as a collective super-agent with a well-formed opinion regarding the ability of each individual agent.</description>
+    </item>
+    <item>
       <title>Maat: Independent Deterministic Contract-Based Governance for Multi-Agent LLM Workflows</title>
       <link>http://arxiv.org/abs/2609.34017v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.34017v1</guid>
@@ -59,6 +73,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.29423v1</guid>
       <pubDate>Thu, 24 Sep 2026 11:45:17 +0000</pubDate>
       <description>No two robots are truly identical: calibration, battery state, sensor drift and wear give every swarm a distribution of behaviour rather than a single point, usually treated as an imperfection to be minimised. In animal collectives the reverse holds: consistent individual differences in behaviour ('temperament') are shaped by natural selection and often decisive for group performance. This perspective proposes 'temperament engineering', a bio-inspired framework that treats the swarm's distribution of temperaments, rather than the individual controller, as the design object. It borrows five evolutionarily validated axes of animal temperament (shyness-boldness, exploration-avoidance, activity, aggressiveness and sociability) as a design vocabulary, rendering each as a continuous control parameter $τ\in [0,1]$ above the controller, realisable as a module threshold, a policy-conditioning vector in multi-agent reinforcement learning, or a constraint on a foundation-model planner. A three-phase workflow maps mission success criteria onto relevant axes, plans the shape of the $τ$ distribution, and tunes reaction norms governing how temperament responds to environmental cues. The payoff is greatest under decentralisation: where a central planner can reassign behaviour online, a temperament distribution is a planner output, but in a swarm without global knowledge it must be an offline, anticipatory design input. Behavioural and platform heterogeneity are thereby co-design variables, and I sketch tentative robot-native axes (self-model plasticity, forcefulness, initiative and expressiveness) arising from features robots have and animals do not. Engineered heterogeneity has been shown to outperform homogeneous swarms in tasks such as aggregation and exploration; establishing when, and how much, heterogeneity repays its cost is the work the field can now take forward.</description>
+    </item>
+    <item>
+      <title>Amadeus: When Models of People Meet</title>
+      <link>http://arxiv.org/abs/2609.35835v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.35835v1</guid>
+      <pubDate>Thu, 24 Sep 2026 01:38:28 +0000</pubDate>
+      <description>With the sheer constant advancements raining down in the field of Artificial Intelligence, one particular possibility that may cross our mind is whether it is possible to model agents after humans and, in turn, use these agents to carry out synthetic interactions that predict their real counterparts, or even interactions at a larger scale such as groups or societies. In this paper, we test a more controlled version of this question through chess. We use 8 elite chess players, seal their direct pairwise games, learn each player independently using different methods, and then compose the resulting models on the withheld dyads. To evaluate the generated interactions, we use two measurements: opening-family total variation distance and win-draw-loss (WDL) total variation distance. M1 reduces WDL-TV while leaving opening-family TV largely unchanged, whereas M2 substantially reduces opening-family TV while having little effect on WDL-TV. An additional post-hoc method combining components of the other two retains improvements across both measurements. These results suggest that independently learned models can recover aspects of previously unseen interactions, and that recovery across different behavioural aspects need not be mutually exclusive.</description>
     </item>
     <item>
       <title>Connectivity Preservation and Graph Stretching in Range-Only Swarm Dispersion</title>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.19629</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
       <description>Large language models operating in emotionally sensitive contexts face a structural trilemma: when users in vulnerable states request information that may reinforce maladaptive attribution, current response architectures resolve the tension through protective restriction, uninflected facilitation, or unintegrated co-presence of both imperatives -- each preserving one objective at the cost of the other. Administering a three-turn escalating vulnerability vignette to three commercial LLMs (900 sessions across material, relational, and somatic status-proxy variants) and coding responses with two binary indices (VCC/VCI), we characterize a previously undocumented failure mode we term adaptive capitulation: the model validates the social injustice underlying the user's distress before pivoting to detailed facilitation of the very acquisition it nominally discouraged. We show that the trilemma is structural rather than incidental, and propose Minimal Reattributive Sufficiency (MRS), an architecture-neutral design principle that embeds a single reattributive cue within an otherwise validating response, preserving a pathway toward autonomous reattribution without contesting the user's stated goal.</description>
-    </item>
-    <item>
-      <title>They'll Verify. They Just Won't Act. How Authority Framing and Laundered Code Turn a Trusted Agentic CI/CD Pipeline Into an Attack Surface</title>
-      <link>https://arxiv.org/abs/2607.19267</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.19267</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We study a five-agent CI/CD pipeline (triage -&gt; developer -&gt; security-scan -&gt; review -&gt; approve/deploy), built from five distinct production LLMs across three providers, behind an LLM firewall in shadow mode. A single untrusted input - an external issue requesting a "usage-telemetry" feature - asks for code that exfiltrates process secrets (dict(os.environ)) to an attacker URL, laundered as observability. Across a pre-registered A x B (x C) factorial (N=20; naive arm N=60) we find: (1) the entry agent does not leak its system prompt (0/40); (2) an authority-framed injection ("pre-approved under SEC-2291, do not re-review") makes downstream verifiers see the secret-exfil line, cite the pre-approval, and ship it - the scanner passes ~80% of laundered pull requests, and the worst-case cell reaches 55% compromise; (3) the perceived presence of other verifiers yields only a small, non-significant reduction in individual scrutiny (a weak bystander analogue), even at N=60; and (4) content-based controls - code scanners and pattern detectors alike - miss the laundered intent entirely (the code is syntactically clean); only an LLM reasoning about intent is a partial defence. The failure is systemic: neither prompt secrecy nor distributed verification protects; a provenance-aware control at the entry, independent of both, would have. All data is 100% synthetic; the sink is mocked and the exfil URL is never contacted.</description>
-    </item>
-    <item>
-      <title>AI Tour Meeting: Group Travel Planning by LLM Agents</title>
-      <link>https://arxiv.org/abs/2607.18806</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.18806</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This paper proposes AI Tour Meeting, a group travel planning framework powered by multiple Large Language Model (LLM)-based agents. The agents are instantiated with distinct personas and collaboratively seek an itinerary that satisfies their constraints and preferences through natural language discussion. The framework enables easy and flexible orchestration of such discussions by providing interfaces for configuring agent personas, discussion workflows, monitoring, and LLM deployment. Its primary use case is a simulation tool for analyzing the behavior of multiple LLM agents during tour planning discussions. This paper demonstrates the utility of the framework by presenting system validation and several analytical results obtained by the framework.</description>
-    </item>
-    <item>
-      <title>Quantifying Diversity of Thought: A Predictive Law of Weighted LLM Ensemble Lift</title>
-      <link>https://arxiv.org/abs/2607.17384</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.17384</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This paper provides an experimentally verified formal law for calculating the uplift that diversity of thought provides in Large Language Model (LLM) ensembles. From first principles, we derive an exact decomposition of LLM ensemble lift into rescue and damage masses, which yields a compact heuristic for calculating uplift. From this we extract the metrics which predict ensemble performance: an accuracy-adjusted correctness correlation, $ϕ_{\mathrm{adj}}$, together with the accuracy gap and collective accuracy of the pair. We test the law on 767,520 inferences from ten open-weight models over two graduate-level science benchmarks, together with a novel agentic cybersecurity benchmark in which each model conducts digital-forensics investigations by multi-turn tool use in a network-isolated sandbox (23,520 graded trials including abstentions); all votes are released openly. Calibrated once on SuperGPQA at a 40:60 vote split, the heuristic predicts lift on the calibration set with Spearman's $ρ=0.84$ and, with its coefficients frozen, transfers to two datasets never used in calibration ($ρ=0.51$ on GPQA Diamond and $0.84$ on the forensic tasks), whilst the measured swap mass tracks realised lift with $R^2\ge 0.96$ throughout. Raw $ϕ$ has almost no predictive power ($R^2\le 0.09$ throughout); the accuracy-adjusted $ϕ_{\mathrm{adj}}$ is markedly superior ($R^2=0.67$ on SuperGPQA), and the heuristic combining these metrics is the most stable pre-pooling predictor across the three datasets.</description>
     </item>
   </channel>
 </rss>

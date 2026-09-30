@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Encoding and Node Choices in Transversal Fault-Tolerant Distributed Quantum Computations: An Initial Study</title>
+      <link>http://arxiv.org/abs/2609.37210v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.37210v1</guid>
+      <pubDate>Tue, 29 Sep 2026 10:28:23 +0000</pubDate>
+      <description>We compare and study different Bivariate-Bicycle (BB) encodings and node choices for distributed quantum operations such as transversal non-local CNOTs. We observe that while some encodings have more physical qubits requiring more ebits for a distributed computation, reducing ebit consumption alone might not be the best criterion for selecting an encoding for the logical qubits, if the goal is to reduce the logical error rate of the distributed computation; for example, one should also consider encodings with a larger distance, which using more physical qubits can provide. We consider distributed, or non-local, CNOTs and computation of the global gate (GCZ) over distributed logical qubits as examples. The choice of encoding enables particular concurrent operations; e.g., we show that a transversal physical GCZ on a self-dual $[[120,8,12]] BB$ code can realize eight concurrent logical GCZ operations after accounting for the logical permutation induced by transversal Hadamard.</description>
+    </item>
+    <item>
       <title>WavePP: High-Throughput Pipeline Parallel LLM Prefill under Prefix Reuse</title>
       <link>http://arxiv.org/abs/2609.35263v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.35263v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.19053</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
       <description>Federated learning enables collaborative training on IoT gateways without sharing raw data, yet gradients remain susceptible to inversion attacks. Existing Secure Multiparty Computation defenses impose prohibitive communication overhead, exceeding strict IoT latency and energy budgets. We propose CHRONOS, a hardware-assisted framework that decouples cryptographic setup from active training. During idle windows, CHRONOS executes a once-per-epoch server-relayed Diffie-Hellman exchange within an ARM TrustZone enclave, sealing shared secrets and distributing Shamir shares to peers. During training, clients mask gradients via a single stream-cipher evaluation and transmit in one round; a hardware-backed counter enforces mask freshness. If clients drop mid-round, the server reconstructs masks from peer-held shares (k x 32 bytes/client), preserving aggregation without round repetition. Evaluation on a 32-node heterogeneous testbed (Rock Pi 4 and Orange Pi 5) shows that CHRONOS reduces active-phase latency by up to 74\% over synchronous secure aggregation. It mitigates gradient inversion while maintaining a persistent Secure World footprint under 1.1 KB, independent of model dimension and training horizon.</description>
-    </item>
-    <item>
-      <title>A scalable online machine learning approach for Stock Recommendation</title>
-      <link>https://arxiv.org/abs/2607.23120</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.23120</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Stock recommendation systems face the dual challenge of adapting to rapidly changing market conditions while maintaining low-latency predictions for end users. Traditional batch-trained models fail to capture concept drift, and monolithic architectures struggle to provide fault tolerance under load. This paper presents a scalable online deep learning-based stock recommendation system built on a distributed microservices architecture using Kubernetes, Docker, and RabbitMQ. The system employs a hybrid leader-follower architecture where a primary model continuously trains on streaming financial data, including EPS, MACD, and price, from the Alpha Vantage API while multiple replica models serve user-facing recommendations in parallel. A multilayer perceptron implemented with TensorFlow Recommenders generates content-based recommendations using explicit user ratings (1-5) and transfer learning. The architecture ensures high availability. The leader persists model weights to Google Cloud Object Storage, allowing replicas to recover seamlessly upon failure, while RabbitMQ provides message durability and replay. Results demonstrate that the system serves stock recommendations in 23 seconds per request and processes up to 500 portfolio addition requests per second per follower. Key limitations include data staleness (up to 150 minutes due to API rate limits) and the absence of a service mesh for inter-cluster security. This work contributes a production-ready reference architecture for online recommender systems that balances consistency, availability, and scalability in a financial domain context</description>
     </item>
   </channel>
 </rss>

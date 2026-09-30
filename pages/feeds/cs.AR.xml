@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Hardware-Aware Functional Kolmogorov-Arnold Networks for Efficient Medical Image Enhancement and Segmentation</title>
+      <link>http://arxiv.org/abs/2609.36134v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.36134v1</guid>
+      <pubDate>Mon, 28 Sep 2026 19:08:15 +0000</pubDate>
+      <description>Functional Kolmogorov-Arnold Networks (FunKAN) achieve state-of-the-art accuracy on MRI Gibbs artifact removal and anatomical segmentation, but their 11.6 M parameters and 8.7 GFLOPs are too large for edge medical devices. We present FunKANLite, a two-stage, hardware-aware compression of FunKAN for point-of-care use. FunKANLite-TR reduces the spatial prior and replaces the ResBlock offset predictor with a depthwise-separable block. It has 1.9x fewer parameters than FunKAN and no loss in accuracy. We then distill FunKANLite-TR into FunKANLite-ST, which lowers the Hermite basis rank, factorizes the spatial prior into a low-rank form, and halves the filter widths. FunKANLite-ST has 5.6x fewer parameters and 3.7x fewer GFLOPs than FunKAN. It stays within 1.4 percentage points IoU of FunKAN on BUSI, GlaS, and CVC-ClinicDB, and reaches 33.95 dB PSNR on IXI. On an NVIDIA Jetson Orin Nano and a Raspberry Pi 5, FunKANLite-ST reduces energy per inference by up to 68% and raises throughput by 2.9x.</description>
+    </item>
+    <item>
       <title>Analog Computing revisited: A fully analog and minimalistic Damage Detector for Ultrasonic Testing enabling Material-Integrated Structural Health Monitoring</title>
       <link>http://arxiv.org/abs/2609.35478v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.35478v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.28113</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 -0000</pubDate>
       <description>Advertising uses love to sell stuff, like nylons. It also uses the word "love" in trivialising ways -- do you "love" your oven? When I hear about trust in the context of AI, especially agentic, I hope we don't do to trust what advertising has done to love. But what is trust? Can we discuss it in actionable and measurable ways in the context of AI? Thus I suggest a number of "trust pillars", hoping to start a communal conversation, across computing and beyond, to civil society. I also suggest that agentic systems may be a blessing in disguise, as we may be able to turn their explicit interfaces into "trust vectors".</description>
-    </item>
-    <item>
-      <title>Emerging 2D Materials for Beyond von Neumann Computing: A Perspective</title>
-      <link>https://arxiv.org/abs/2605.09695</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.09695</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 -0000</pubDate>
-      <description>The end of conventional Dennard scaling and the widening gap between memory bandwidth and arithmetic throughput have made the von Neumann partition a structural bottleneck rather than a transient one. Two-dimensional (2D) materials, with atomically thin geometries, electrically tunable carrier densities, and large optical responses, offer a unified platform on which to build devices that compute where they store, process events rather than clock cycles, and shift workload into the optical domain. This perspective surveys progress along three converging thrusts, graphene and graphene nanoribbon transistors as scalable channel materials, oxide and 2D-integrated memristors for in-memory analog compute, and silicon-compatible 2D photonic and thermal-emitter structures for optical computing primitives. Our central argument is that the 2D-materials community has spent a decade producing record devices, and the next decade will be decided by who first integrates three of them on a single semiconductor wafer.</description>
     </item>
   </channel>
 </rss>

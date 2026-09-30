@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Dual lattice attacks for bounded distance decoding, revisited</title>
+      <link>http://arxiv.org/abs/2609.37483v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.37483v1</guid>
+      <pubDate>Mon, 28 Sep 2026 02:05:02 +0000</pubDate>
+      <description>Analyses of dual lattice attacks have often assumed that the individual scores associated with short dual vectors are mutually independent. Laarhoven-Walter used this heuristic to derive explicit trade-offs between the target radius and query time for bounded distance decoding (BDD) with preprocessing. Ducas-Pulles subsequently demonstrated theoretical and experimental failures of this heuristic and proposed an alternative model conditioned on the target norm. In this note, we prove an explicit asymptotic trade-off for (decision-)BDD with preprocessing in the Haar-random lattice model, without heuristic assumptions. Using moment identities of Siegel and Rogers, we analyze cosine scores over complete dual balls and bound both error probabilities when distinguishing targets planted at a prescribed radius from uniform targets modulo the lattice. Optimizing the dual radius yields a trade-off between target radius and query time that matches the asymptotic prediction from the conditional model of Ducas-Pulles.</description>
+    </item>
+    <item>
       <title>Homological Trimming and Regularity of Filtrations via Local Obstruction Modules</title>
       <link>http://arxiv.org/abs/2609.28160v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.28160v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.07160</guid>
       <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
       <description>This paper presents a novel space-filling polyhedron (SFPH), here named the Josehedron, derived from the extremal points of the Fischer-Koch S triply periodic minimal surface (TPMS). The Josehedron is a plesiohedron with 12 faces (4 isosceles triangles and 8 mirror-symmetric quadrilaterals), 12 vertices, and 22 edges. It tiles three-dimensional space with 12 instances per cubic unit cell in 6 distinct orientations. The generating point set exhibits a remarkable connection to the pentagonal Cairo tiling when projected onto any coordinate plane. Several additional geometric properties are described, including integer vertex coordinates, interwoven labyrinths, and chiral symmetry between the polyhedra obtained from the combined minima and maxima of the function. Finally, the paper presents a general method for finding novel SFPHs based on any periodic function, TPMS, or other functions. The described method is applied to a selection of TPMS, and 7 additional, previously undocumented SFPH are shown in the Appendix.</description>
-    </item>
-    <item>
-      <title>Eigencone Constellations on Ranked Spheres</title>
-      <link>https://arxiv.org/abs/2604.03554</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.03554</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We introduce eigencone constellations, a hierarchical framework for embedding bounded-degree spatial graphs into concentric spherical shells and partitioning each shell into spectrally weighted, spherical star-shaped territories. Given a connected sparse spatial graph $G$ with a distinguished root vertex (the queen), we assign each vertex to a sphere whose radial position is determined by its graph distance from the queen, then tessellate each sphere into constellation territories whose solid angles are proportional to the spectral mass of the corresponding subgraph. Within each territory, nodes are packed by constrained repulsion, yielding local simplex structures. The resulting geometric representation provides a structural framework for measuring spectral distance between dynamic subgraph states. By combining this eigencone-derived metric with constraints on the domain-specific edit alphabet, we define a forward-only deterministic trajectory -- the isomorphic walk -- which converges graph edits efficiently. We define the notion of spherical star-shaped domains with geodesic visibility, establish their properties under spectral projection, and demonstrate the trajectory convergence on molecular contact graphs.</description>
     </item>
   </channel>
 </rss>

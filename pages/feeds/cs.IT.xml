@@ -5,11 +5,46 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An information identity reveals the geometry of deviation events</title>
+      <link>http://arxiv.org/abs/2609.38159v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.38159v1</guid>
+      <pubDate>Tue, 29 Sep 2026 17:59:13 +0000</pubDate>
+      <description>In a deviation event, the empirical measure of $n$ independent draws lands in a set of distributions. The exponent of its probability splits, at every $n$, into two nonnegative terms. The first is the rate: $n$ times the relative entropy, from the population, of the distribution of a typical draw under the event. The second is the dependence that conditioning induces among the draws, measured by their total correlation. Their relative sizes depend on the geometry of the set. This paper focuses on this exact split and on the geometry that the interplay of its two terms reveals. The dependence vanishes exactly when the event confines every draw to a single set, and the classical rate of that constraint is exact. On a set invariant under a compact group that fixes the population and leaves no invariant set of intermediate probability, the rate vanishes; uniform convergence over a hypothesis class that such a group permutes is one. On a half-space whose threshold sits a fixed number of standard errors above the mean, the fraction of the exponent that is dependence tends to a function of the event's probability alone. On a set split into pieces, the dependence is the pieces' average plus $n$ times the Jensen-Shannon divergence of their marginals, minus the entropy of their weights. The split extends to a general reference law. When the information projection is such a law, the split gives the exact value of the expectation in the exponential change of measure to the projection.</description>
+    </item>
+    <item>
+      <title>Resonance Breaking in Noisy Shor's Algorithm</title>
+      <link>http://arxiv.org/abs/2609.37636v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.37636v1</guid>
+      <pubDate>Tue, 29 Sep 2026 14:05:35 +0000</pubDate>
+      <description>We argue that the exponential quantum advantage in Shor's algorithm is broken under one-layer depolarizing noise of arbitrary small error rate, by analyzing a resonance breaking phenomenon in noisy quantum circuits. First, we express the distribution of measurements on $n$-qubit strings as the superposition of the $4^n$ wave functions in the Pauli path integral. In the noiseless case, the bit-strings achieving resonant peaks guaranteed a constant rate of successful measurements to factor a large number. Secondly, when the middle layer of the quantum circuit has independent depolarizing noise of rate $λ$, for any Hamming weight $d$, we obtain corresponding measurement rate bounded by $2(1-λ)^d$ for higher frequency terms and by $O(n^d)/2^{n/2}$ for low frequency terms. The rate approaches to zero as $n$ and $d$ approaches to infinity. Resonance breaking destroys the exponential quantum advantage. Furthermore, we design a classical factoring algorithm in polynomial time $O(n^d)$ to substitute the low frequency contribution.</description>
+    </item>
+    <item>
+      <title>Conditional-Coverage Contributor Selection for Regional Digital Twins Under Mobility</title>
+      <link>http://arxiv.org/abs/2609.36459v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.36459v1</guid>
+      <pubDate>Tue, 29 Sep 2026 01:19:16 +0000</pubDate>
+      <description>Regional digital twins (DTs) under mobility must coordinate contributor admission over congested broadcast networks without fixed infrastructure. Per-sender redundancy mitigation cannot make this set-level decision because only the host has a region-wide coverage map. Treating regional state as a public good, this letter develops a host-coordinated protocol admitting contributors whose timely, non-redundant coverage gain exceeds a congestion price within a cycle deadline. A 13-byte beacon digest enables pre-transmission scoring. Standards-based simulation shows the protocol reduces the timely actionable coverage deficit from 5.6\% to 1.4\% at load comparable to ETSI redundancy mitigation and by 26\% versus random admission at matched tight-budget load.</description>
+    </item>
+    <item>
+      <title>LDPC Fractus Codes: Sparse Codes with Recursive Structure</title>
+      <link>http://arxiv.org/abs/2609.36249v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.36249v1</guid>
+      <pubDate>Mon, 28 Sep 2026 20:41:58 +0000</pubDate>
+      <description>We introduce a new family of recursively constructed sparse matrices, termed Fractus matrices, and investigate their use in constructing low-density parity-check (LDPC) codes. Generated through a self-similar recursive process, these matrices yield regular sparse parity-check matrices while preserving key structural properties across successive iterations. This recursive structure enables an efficient encoding algorithm with computational complexity that is nearly linear in the block length. Decoding is performed using standard iterative message-passing algorithms, thereby retaining the low-complexity decoding characteristic of LDPC codes. The proposed construction produces Tanner graphs with girth six and guarantees a minimum Hamming distance of at least $\ell+1$. We establish several algebraic properties of Fractus matrices, including sparsity, regularity, recursive decomposition, and symmetry under the flip-transpose operation. In addition, we show that the family of Fractus matrices admits a natural lattice structure and that the associated LDPC codes inherit corresponding lattice-theoretic properties. These results establish a connection between order theory and coding theory. Overall, the proposed framework integrates recursive matrix constructions, efficient encoding, graph-theoretic analysis, and lattice theory into a unified algebraic approach to the design and analysis of scalable LDPC codes.</description>
+    </item>
+    <item>
       <title>Competitive optimality in testing by betting via Bell-Cover randomization</title>
       <link>http://arxiv.org/abs/2609.35714v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.35714v1</guid>
       <pubDate>Mon, 28 Sep 2026 17:46:18 +0000</pubDate>
       <description>Bell and Cover showed that an investor who multiplies the initial unit of capital by an independent uniform random variable on $(0,2)$, and then uses the log-optimal portfolio, wins a head-to-head wealth comparison with probability at least one half against every independently randomized competitor. We explain very simply how this result transfers to testing by betting: for any composite null $\mathcal P$ and simple alternative $Q$, denoting $E^*$ as the corresponding numeraire e-variable, we show that $UE^*$ exceeds any other e-variable $E$ with probability at least half. Interestingly, we show that this competitive optimality result is actually equivalent to the numeraire inequality $\mathbb E_Q[E/E^*]\leq1$, and in general randomization only helps the numeraire and fails to improve the competitive advantage of an arbitrary e-variable. Under optional stopping with or without knowledge of $U$, we emphasize a key distinction between e-process validity and competitive optimality. We also show that competitive optimality comes at the price of expected log wealth and power: thresholding $UE^*$ at $1/α$ has sharp size at most $α/2$, but the factor of two actually disappears under optional stopping. Even after correcting for this factor of two, the test is dominated in conditional rejection probability by randomizing the testing threshold (randomized Markov's inequality). Thus, Bell-Cover randomization is optimal for a specific competitive objective, at the cost of others.</description>
+    </item>
+    <item>
+      <title>Bregman Consensus</title>
+      <link>http://arxiv.org/abs/2609.35930v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.35930v1</guid>
+      <pubDate>Mon, 28 Sep 2026 14:16:04 +0000</pubDate>
+      <description>Consider a community of agents who are seeking consensus on a set of parameters. The agents agree to use the same Bregman-type divergence to quantify disagreement between their individual estimates of the parameters but have varying confidence in each other's abilities. Each agent is happy to revise their estimate by moving to the weighted barycenter of all individual estimates with higher weights applied to more trusted agents. We show that such revisions naturally lead to an iterative algorithm which converges to a unique consensus estimate of the parameters. Furthermore, since the consensus estimate is itself a barycenter with computable weights, the group emerges as a collective super-agent with a well-formed opinion regarding the ability of each individual agent.</description>
     </item>
     <item>
       <title>A proof of the Braun-Etzion-Vardy bound for binary subspace codes</title>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.29389v1</guid>
       <pubDate>Sat, 29 Aug 2026 17:57:42 +0000</pubDate>
       <description>The standard formulation of function-correcting codes uses systematic encodings. We study the redundancy cost of this constraint when both the prescribed function and the encoding are linear. We introduce the function-separation distance and show that several classical unequal error protection parameters are special cases. For linear functions and encodings, this distance is the first relative generalized Hamming weight of the code relative to the encoded kernel. We formulate free and systematic linear separation problems. We prove that the optimal free redundancy depends only on the rank of the function, and determine the optimal systematic redundancy for prescribed separations $d\leq3$.</description>
-    </item>
-    <item>
-      <title>Sharp Restricted Isometry Thresholds for Global Minima of Rank-Restricted Matrix LASSO</title>
-      <link>http://arxiv.org/abs/2608.29018v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.29018v1</guid>
-      <pubDate>Sat, 29 Aug 2026 03:13:24 +0000</pubDate>
-      <description>We determine the sharp restricted isometry threshold for recovery at global minima of the rank-restricted matrix LASSO. For target rank $r_{\star}$, if the rank-$k$ RIP constant satisfies $δ&lt;δ_{\mathrm{sharp}}(k/r_{\star})$, where $δ_{\mathrm{sharp}}(t)=t/(4-t)$ for $0&lt;t&lt;4/3$ and $δ_{\mathrm{sharp}}(t)=\sqrt{(t-1)/t}$ for $t\ge4/3$, then every global minimizer has Frobenius error $\lesssim\sqrt{r_{\star}}λ$ for all $λ\gtrsim\|\mathcal{A}^{*}(ξ)\|_{\mathrm{op}}$ and at every search rank $r\ge r_{\star}$. The constants depend only on the RIP constant and $t=k/r_{\star}$, and in particular are independent of the search rank. When the rank restriction is inactive, the result specializes to the ordinary convex matrix LASSO. We also obtain the analogous results for sparsity-restricted vector LASSO. Conversely, we show that the threshold $δ&lt;δ_{\mathrm{sharp}}(k/r_{\star})$ cannot be improved, due to the existence of counterexamples whose global minimizers fail to recover the ground truth.</description>
-    </item>
-    <item>
-      <title>Classical Commitment over Quantum Channels with Limited Entanglement Assistance</title>
-      <link>http://arxiv.org/abs/2608.28500v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.28500v1</guid>
-      <pubDate>Fri, 28 Aug 2026 16:33:11 +0000</pubDate>
-      <description>We study classical string commitment over quantum channels with limited preshared entanglement. For noninteractive protocols, we determine the commitment capacity of a class of channels with input dimension $d$ that, at each use, sample a pair of classical random variables $(F,Z)$, apply one of the $d^2$ Heisenberg--Weyl operators indexed by $Z$ to the input, and deliver the transformed quantum system together with $F$ to the receiver. If $E$ is the available entanglement rate in bits per channel use, then the capacity is $\min\{H(Z|F),\log_2d+E\}$. This class of channels encompasses quantum erasure and depolarizing channels, as well as families of Pauli channels. Additionally, for interactive protocols, we show that the commitment rate cannot exceed $\log_2d+E$ bits per channel use, so that when $H(Z|F)\geq\log_2d+E$, interactive communication does not increase the capacity. As a consequence, for interactive protocols, we determine the capacity of the quantum erasure channel.</description>
-    </item>
-    <item>
-      <title>Fine Difference Structure and Prime-Power Depth of Bent Partitions</title>
-      <link>http://arxiv.org/abs/2608.28133v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.28133v1</guid>
-      <pubDate>Fri, 28 Aug 2026 09:50:18 +0000</pubDate>
-      <description>A $p$-ary bent partition of $\mathbb{F}_p^n$ is a partition into $K$ nonempty cells such that every balanced assignment of its cells to $\mathbb{F}_p$ produces a bent function. It was asked whether every possible depth $K$ is a power of $p$; for general $p$, previous affirmative results required regularity or cell-symmetry hypotheses. We prove the stronger unconditional statement that, for every nonzero $h$, exactly $p^n/K$ points remain in the same fine cell under translation by $h$. Thus the fine cells form a partitioned difference family and the fine label map is zero-difference balanced. Consequently $K\mid p^n$, so $K=p^t$; nonempty cells further give $1\le t&lt;n$. In even dimension, the classical cell-size theorem yields $K\mid p^{n/2}$. Together with the known odd-dimensional ternary three-fibre parameter restriction, this gives the global bound $t\le\lfloor n/2\rfloor$. The proof is an exact finite average over balanced coarsenings. The main counting identity and selected consequences are formalized and kernel-checked in Lean 4.</description>
-    </item>
-    <item>
-      <title>Improved Subexponential Upper Bounds for $3$-Restricted Matching Vector Families</title>
-      <link>http://arxiv.org/abs/2608.27859v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.27859v1</guid>
-      <pubDate>Fri, 28 Aug 2026 03:08:39 +0000</pubDate>
-      <description>Matching Vector families (MVFs) are defined by two ordered lists of vectors in $\mathbb{Z}_m^n$ whose inner products satisfy specific residue patterns modulo an integer $m$. Most famously, restricted MVFs are used to construct the best-known constant-query Locally Decodable codes (LDCs). We prove an upper bound of $2^{O\left(\sqrt{n\log n \log m}\right)}$ on the size of $3$-restricted MVFs in $\mathbb{Z}_m^n$ for $m \leq \sqrt{n}$, substantially improving on the previous best bound of $2^{O(n/\log n)}$ by Bhowmick, Dvir and Lovett (STOC'13, SICOMP'14). Our proof relies on a new polynomial method argument that controls collisions in sumsets of matching vectors.</description>
-    </item>
-    <item>
-      <title>A note on shifting distributions via Poisson races</title>
-      <link>http://arxiv.org/abs/2608.26996v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.26996v1</guid>
-      <pubDate>Thu, 27 Aug 2026 11:43:02 +0000</pubDate>
-      <description>This expository note is about simulating a target distribution $Q$ from observations of a proposal distribution $P$. In the model suggested by Harsha, Jain, McAllester and Radhakrishnan, we observe an infinite sequence of i.i.d. samples $X_1,X_2,\ldots$ from $P$. The goal is to find some index $I \in \{1,2,\ldots\}$ such that $X_I$ is distributed like $Q$ while minimizing $\mathbb{E} \log I$. Following the Poisson-race approach developed by Maddison, Li and El Gamal, and others, this note shows that if $D(Q||P) &lt; \infty$ then there is a $P$ to $Q$ simulator $I$ such that $\mathbb{E} [\log I] \leq D(Q||P) + 1.45 \|Q-P\|_1$. In the other direction, for every $P$ to $Q$ simulator $I$, the cost is at least $\mathbb{E}[\log I] \geq \frac{1}{2} \max \{ D(Q||P), \|Q-P\|_1 \}$.</description>
     </item>
   </channel>
 </rss>
