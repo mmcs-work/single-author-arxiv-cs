@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Reclassified to Conform</title>
+      <link>http://arxiv.org/abs/2609.38754v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.38754v1</guid>
+      <pubDate>Wed, 30 Sep 2026 01:39:55 +0000</pubDate>
+      <description>A company's financial statements over many years must be assembled from many filings. Each filing may rename, combine, split or move its lines, and restates only the last two or three years to match. Filings provide no consistent, machine-readable mapping between successive statements, and neither a line's label nor its XBRL tag is fixed. We treat the reconstruction as an optimization problem. A tag that keeps its numbers from one filing to the next is taken to be the same line, and such runs are joined into strands before any edit is weighed. At each boundary between filings, the candidate edits that pass the check their kind requires are listed, each with the strand endpoints it would explain and a price for how much it asks the reader to believe beyond what the filings show. An integer program picks the cheapest set of the listed edits that accounts for every line exactly once, and the chosen edits trace each line through the filings. The result is a statement whose rows follow one line across every year, comparable within each filing's restated window and marked where a number was restated or derived, in any filing's layout, with each number cited to the filing that stated it and each declared total re-checked. On 200 companies drawn at random, 99.9% of the totals that can be checked add up. Among the 124 with a usable vendor comparison, the lines the method follows agree with the vendor's series on 96% of the cells both fill, reach 10% more cells than a tag alone and agree with the vendor on 90% of those. The method also yields a record of what each company changed in its reporting.</description>
+    </item>
+    <item>
       <title>Making Duplicate Reimbursement Unrepresentable: A Verified Ethereum E-Invoice System for Humans and AI Agents</title>
       <link>http://arxiv.org/abs/2609.37819v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.37819v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.17332</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
       <description>We study stochastic processes on combinatorial state spaces with local transition constraints, as arise in local search algorithms. We show that asymmetry in local transitions induces a systematic drift in a distance process relative to a reference configuration. This drift results from the imbalance between inward and outward transitions, translating combinatorial multiplicities into directional bias. Analyzing the random walk on the Johnson graph, we derive explicit expressions for the drift and expected hitting times. We also show that locality constraints lead to trajectory-level differences that can hinder search trajectories from reaching the target, even under identical stationary distributions.</description>
-    </item>
-    <item>
-      <title>Perturbative Analytical Framework for Thermal Wave Diffusion in Non-linear Building Envelopes</title>
-      <link>https://arxiv.org/abs/2605.16310</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.16310</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 -0000</pubDate>
-      <description>Model Predictive Control (MPC) in building energy management requires transient thermal models balancing thermodynamic accuracy with computational efficiency. Standard spatial discretization triggers state-space inflation, paralyzing real-time solvers, while analytical Transfer Matrix Methods (TMM) suffer from high-frequency numerical overflow and assume material homogeneity. This paper introduces a frequency-domain framework based on the continuous spatial Riccati equation. A recursive admittance mapping strictly bounds exponential growth, preventing numerical instability. Regular perturbation theory analytically resolves continuous spatial property gradients ($λ$(x)) and non-linear T 4 radiative boundaries as equivalent harmonic source terms. This meshless approach eliminates spatial truncation errors. It analytically corrects peak heating load deviations of 21.9% in wetted media and mitigates artificial nocturnal cooling fluxes of 12.0 W/m 2 . Preserving an O(N ) spatial complexity, the framework structurally avoids state-space inflation, ensuring the high-speed execution demanded by multi-week MPC optimization.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Solving Multi-Agent Sokoban via LaCAM</title>
+      <link>http://arxiv.org/abs/2609.39889v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.39889v1</guid>
+      <pubDate>Wed, 30 Sep 2026 14:57:43 +0000</pubDate>
+      <description>Sokoban, a puzzle game in which an agent pushes boxes onto unlabelled target locations in a grid world, is a long-standing benchmark planning problem. While it is easy to see the connection to practical applications such as warehouse logistics with autonomous forklifts, its multi-agent counterpart has remained underdeveloped. This is because Multi-Agent Sokoban is substantially more difficult due to factors specific to multi-agent planning, such as the rapidly growing branching factor as the number of agents grows and the need to handle integrated task assignment and collision-free pathfinding. In this paper, we show that a scalable planner for Multi-Agent Sokoban can be designed by leveraging recent advances in multi-agent pathfinding (MAPF). Specifically, our Sokoban-LaCAM efficiently solves instances involving tens of agents and boxes while preserving both completeness and eventual optimality guarantees. This provides evidence that MAPF can serve as a powerful primitive for solving broader collective automation problems.</description>
+    </item>
+    <item>
+      <title>Where Do Multi-Agent Systems Fail? Evidence-Grounded Diagnosis of Collective Mechanisms</title>
+      <link>http://arxiv.org/abs/2609.38761v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.38761v1</guid>
+      <pubDate>Wed, 30 Sep 2026 01:45:41 +0000</pubDate>
+      <description>When a multi-agent system answers correctly, it is tempting to conclude that its agents shared, checked, and used information as intended. Yet a system can break one of its collective mechanisms, the rules that govern how agents route, admit, store, and act on shared information, and still return the right answer, while a wrong answer rarely reveals which mechanism failed. We ask what evidence from an execution is sufficient to conclude that a particular mechanism was violated. Our answer is a diagnostic contract, which separates what counts as a violation from which execution records can establish one, and concludes that a violation is supported, ruled out, or unknown; removing records can make this conclusion unknown but never reverse it. We test contracts for four mechanisms by replaying executions from the step where a mechanism acts, once unchanged, once with the mechanism broken, and once with it restored. Broken mechanisms often left the answer correct. An LLM diagnoser detected many more violations from internal records than from public outputs, yet with identical records a generic prompt often claimed certainty the records did not support, which prompts stating the contracts largely avoided. The contracts also applied, in narrow form, to mechanisms in independently developed systems, but a diagnostic behavior that was nearly perfect on our benchmark degraded on an independently developed workflow. A correct outcome is therefore no substitute for records of how collective mechanisms operated, and agreement on one benchmark does not show that a diagnoser transfers to another system.</description>
+    </item>
+    <item>
+      <title>Recursive Organization Improvement: A Modeling Specification for Human--Agent Organizations</title>
+      <link>http://arxiv.org/abs/2609.38643v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.38643v1</guid>
+      <pubDate>Tue, 29 Sep 2026 23:00:57 +0000</pubDate>
+      <description>Stronger AI agents do not automatically produce better organizations: teams must also learn which work arrangements to retain and when to reconsider them. We propose a modeling specification for recursive organization improvement and evaluate it through an executable checker, a public-record mapping, and controlled simulation. The specification connects actor-visible histories, organizational memory, decision rights, and evidence-carrying change contracts. The mechanism study crosses six decision rules, three memory conditions, and three task environments under fixed resource ceilings. In a stationary environment, cumulative evidence raises balanced evaluation's normalized net value per task from 0.45224 to 0.48007. Repeated reassessment's disadvantage relative to this comparator falls from 0.01702 with reset evidence to 0.00007 with cumulative evidence. A reversal of the best workflow reveals the opposite cost: indefinite retention delays adaptation, while a finite window restores eventual performance at a transition cost. In exploratory controls, matching trial acquisition and label reuse reduces the apparent reassessment gain from 0.00607 to 0.00191. Program replacement adds no stable benefit across the tested reversal times. The study identifies evidence acquisition, reuse, and timely updating as mechanisms that must be separated from evaluator replacement when assessing organizational improvement.</description>
+    </item>
+    <item>
       <title>Human-AI Collaboration: From Paradoxes to Patterns</title>
       <link>http://arxiv.org/abs/2609.36481v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.36481v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.21189</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 -0000</pubDate>
       <description>A grassroots platform is a multiagent distributed system in which multiple independent instances can form and operate independently of each other and of any global resource, yet may coalesce into ever larger instances, possibly resulting in a single global instance. Grassroots platforms aim to offer an egalitarian/democratic alternative to centralised/autocratic and decentralised/plutocratic global platforms. Here, we present Grassroots Logic Programs (GLP), a multiagent concurrent logic programming language designed for the implementation of grassroots platforms: we recall the standard operational semantics of logic programs; introduce the concurrent operational semantics of GLP as its restriction; recall multiagent atomic transactions; use them to introduce a multiagent operational semantics of GLP; and prove multiagent GLP to be grassroots. The grassroots social graphâ€”the foundational grassroots platform on which all others are basedâ€”serves as a GLP programming example.</description>
-    </item>
-    <item>
-      <title>Evolutionarily Stable Stackelberg Equilibrium</title>
-      <link>https://arxiv.org/abs/2603.18385</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.18385</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present a new solution concept called evolutionarily stable Stackelberg equilibrium (SESS). We study the Stackelberg evolutionary game setting in which there is a single leading player and a symmetric population of followers. The leader selects an optimal mixed strategy, anticipating that the follower population plays an evolutionarily stable strategy (ESS) in the induced subgame and may satisfy additional ecological conditions. We consider both leader-optimal and leader-pessimal selection among ESSs, which arise as special cases of our framework. Prior approaches to Stackelberg evolutionary games either define the follower response via evolutionary dynamics or assume rational best-response behavior, without explicitly enforcing stability against invasion by mutations. We present algorithms for computing SESS in discrete and continuous games, and validate the latter empirically. Our model applies naturally to biological settings; for example, in cancer treatment the leader represents the physician and the followers correspond to competing cancer cell phenotypes.</description>
-    </item>
-    <item>
-      <title>Dominated Actions in Imperfect-Information Games</title>
-      <link>https://arxiv.org/abs/2504.09716</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.09716</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Dominance is a fundamental concept in game theory. In normal-form games dominated strategies can be identified in polynomial time. As a consequence, iterative removal of dominated strategies can be performed efficiently as a preprocessing step for reducing the size of a game before computing a Nash equilibrium. For imperfect-information games in extensive form, we could convert the game to normal form and then iteratively remove dominated strategies in the same way; however, this conversion may cause an exponential blowup in game size. In this paper we define and study the concept of dominated actions in imperfect-information games. Our main result is a polynomial-time algorithm for determining whether an action is dominated (strictly or weakly) by any mixed strategy in two-player perfect-recall games with publicly observable actions, which can be extended to iteratively remove dominated actions. This allows us to efficiently reduce the size of the game tree as a preprocessing step for Nash equilibrium computation. We explore the role of dominated actions empirically in "All In or Fold" No-Limit Texas Hold'em poker.</description>
-    </item>
-    <item>
-      <title>Adaptive Capitulation: A Structural Failure Mode of LLM Responses in Vulnerability Contexts</title>
-      <link>https://arxiv.org/abs/2607.19629</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.19629</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Large language models operating in emotionally sensitive contexts face a structural trilemma: when users in vulnerable states request information that may reinforce maladaptive attribution, current response architectures resolve the tension through protective restriction, uninflected facilitation, or unintegrated co-presence of both imperatives -- each preserving one objective at the cost of the other. Administering a three-turn escalating vulnerability vignette to three commercial LLMs (900 sessions across material, relational, and somatic status-proxy variants) and coding responses with two binary indices (VCC/VCI), we characterize a previously undocumented failure mode we term adaptive capitulation: the model validates the social injustice underlying the user's distress before pivoting to detailed facilitation of the very acquisition it nominally discouraged. We show that the trilemma is structural rather than incidental, and propose Minimal Reattributive Sufficiency (MRS), an architecture-neutral design principle that embeds a single reattributive cue within an otherwise validating response, preserving a pathway toward autonomous reattribution without contesting the user's stated goal.</description>
     </item>
   </channel>
 </rss>

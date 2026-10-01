@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>When Does a Spoken Agent Have Enough Evidence to Act? The PACT-SLM Contract Test</title>
+      <link>http://arxiv.org/abs/2609.38232v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.38232v1</guid>
+      <pubDate>Mon, 28 Sep 2026 17:11:17 +0000</pubDate>
+      <description>Streaming spoken agents may take an external action before the available speech supports it, yet final-turn scores do not reveal whether each observed prefix supports that action. We introduce the Partial Speech Action Contract for Turn Taking in Speech Language Models (PACT-SLM), a controlled evaluation that assigns a first valid action time and measures action identity and timing separately. The primary diagnostic contains 80 paired contrast groups from four held-out semantic families and 1,600 prefix predictions across clean and 15 dB noise renderings. After correcting a mismatch between randomized branch codes and semantic labels, a refitted WavLM Base Plus probe reaches 26.03% pooled post-onset semantic-label accuracy (95% group-bootstrap interval: 22.14%-29.68%), exposes an action on 18.99% of pre-onset prefixes, and predicts 5.94% of complete trajectories exactly. It exceeds matched text, scalar-acoustic, and shuffled-representation probes in post-onset label accuracy, but its score is at the 96th percentile of 100 within-prefix label permutations and below the 97.5th-percentile reference (26.73%). Elapsed time is more onset-exact than WavLM Base Plus (36.25% vs. 23.13%) but less accurate about action identity (9.92% vs. 26.03%). These results show that action identity and timing measure distinct aspects of partial-speech decision behavior.</description>
+    </item>
+    <item>
       <title>Almost Human, Except When It Matters: VoxParity and the Decisions a Voice Should Change</title>
       <link>http://arxiv.org/abs/2609.35922v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.35922v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.08505</guid>
       <pubDate>Sun, 07 Jun 2026 00:00:00 -0000</pubDate>
       <description>Speech applications such as meeting transcription and voice agents would benefit from on-device speaker diarization, but practical adoption is limited by inference cost. We study how far a Pyannote 3.1-based pipeline can be accelerated on consumer hardware (an RTX 5070 Ti GPU and an Apple M4 laptop) while preserving diarization error rate (DER). A simple recipe: coarser segmentation stride and per-chunk embedding, yields multi-fold speedups and is DER-neutral on AMI, but degrades sharply on in-the-wild data: on VoxConverse, DER rises from 0.075 to 0.113. We trace the failure to speaker under-counting in the clustering stage, caused by a fixed minimum cluster size interacting with the reduced number of embeddings per speaker. We propose a relative minimum cluster size, mcs = round(f * n) with f = 0.01, which adapts to the embedding budget per recording. A single value of f recovers VoxConverse DER to 0.079 (about 89% of the lost accuracy) while keeping AMI flat, and the accelerated pipeline reaches up to 12.2x speedup on AMI (MPS) over our CAM++ baseline.</description>
-    </item>
-    <item>
-      <title>An Empirical Analysis of Task-Induced Encoder Bias in Fréchet Audio Distance</title>
-      <link>https://arxiv.org/abs/2602.23958</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.23958</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Fréchet Audio Distance (FAD) is the de facto standard for evaluating text-to-audio generation, yet its scores depend on the underlying encoder's embedding space. An encoder's training task dictates which acoustic features are preserved or discarded, causing FAD to inherit systematic task-induced biases. We decompose evaluation into Recall, Precision, and Alignment (split into semantic and structural dimensions), using log-scale normalization for fair cross-encoder comparison. Controlled experiments on six encoders across two datasets reveal a four-axis trade-off: reconstruction-based AudioMAE leads precision sensitivity; ASR-trained Whisper dominates structural detection but is blind to signal degradation; classification-trained VGGish maximizes semantic detection but penalizes legitimate intra-class variation. Since no single encoder is a universal evaluator, future metrics must shift toward evaluation-native encoders intrinsically aligned with human perception.</description>
     </item>
   </channel>
 </rss>

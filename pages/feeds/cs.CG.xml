@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Flexible discrete translational surfaces</title>
+      <link>http://arxiv.org/abs/2609.39517v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2609.39517v1</guid>
+      <pubDate>Wed, 30 Sep 2026 11:17:44 +0000</pubDate>
+      <description>We give a full list of translational nets which flex within their class of discrete surfaces of translation, by reducing the classification problem to the one of flexible complete bipartite frameworks on the sphere, for which the solution is known. We also obtained two novel classes which correspond to Bottema's spherical 16-bar mechanisms and the constant diagonal angle frameworks. Based on an algorithm for the construction of all flexible translational nets, we also discuss flexible translational tubes and toroids. Furthermore, we present novel results for both topologies which are implied by Bottema's spherical 16-bar mechanisms.</description>
+    </item>
+    <item>
       <title>Dual lattice attacks for bounded distance decoding, revisited</title>
       <link>http://arxiv.org/abs/2609.37483v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.37483v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.23297</guid>
       <pubDate>Wed, 15 Apr 2026 00:00:00 -0000</pubDate>
       <description>Given a polygon $H$ in the plane, the art gallery problem calls for fining the smallest set of points in $H$ from which every other point in $H$ is seen. We give a deterministic algorithm that, given any polygon $H$ with $h$ holes, $n$ rational veritces of maximum bit-length $L$, and a parameter $δ\in(0,1)$, is guaranteed to find a set of points in $H$ of size $O\big(\OPT\cdot\log(h+2)\cdot\log (\OPT\cdot\log(h+2)))$ that sees at least a $(1-δ)$-fraction of the area of the polygon. The running time of the algorithm is polynomial in $h$, $n$, $L$ and $\log(\frac{1}δ)$, where $\OPT$ is the size of an optimum solution.</description>
-    </item>
-    <item>
-      <title>The Josehedron: A space-filling plesiohedron based on the Fischer-Koch S Triply Periodic Minimal Surface</title>
-      <link>https://arxiv.org/abs/2604.07160</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.07160</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
-      <description>This paper presents a novel space-filling polyhedron (SFPH), here named the Josehedron, derived from the extremal points of the Fischer-Koch S triply periodic minimal surface (TPMS). The Josehedron is a plesiohedron with 12 faces (4 isosceles triangles and 8 mirror-symmetric quadrilaterals), 12 vertices, and 22 edges. It tiles three-dimensional space with 12 instances per cubic unit cell in 6 distinct orientations. The generating point set exhibits a remarkable connection to the pentagonal Cairo tiling when projected onto any coordinate plane. Several additional geometric properties are described, including integer vertex coordinates, interwoven labyrinths, and chiral symmetry between the polyhedra obtained from the combined minima and maxima of the function. Finally, the paper presents a general method for finding novel SFPHs based on any periodic function, TPMS, or other functions. The described method is applied to a selection of TPMS, and 7 additional, previously undocumented SFPH are shown in the Appendix.</description>
     </item>
   </channel>
 </rss>
