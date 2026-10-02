@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Ditto: Generalized Reconfigurable Linearizable Reads</title>
+      <link>http://arxiv.org/abs/2610.00702v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.00702v1</guid>
+      <pubDate>Wed, 30 Sep 2026 20:49:16 +0000</pubDate>
+      <description>Linearizability gives developers the illusion that operations on a distributed datastore execute sequentially on a single machine. Providing it is expensive, so numerous specialized reads algo- rithms have been proposed to make reads significantly faster without sacrificing linearizability, which matters because most workloads are read-dominant by orders of magnitude. Yet, none of these algorithms is the best choice for every deployment. We show why with a framework that classifies these algorithms into a generalized space together with a mathematical analysis of their latencies as a function of this generalization. The analysis exposes two fundamental tradeoffs, one between read and write latency and one between read and write tolerance to network variance, which together leave the best algorithm dependent on network and workload conditions that vary over time. It also exposes a gap: there is a way to minimize the delay a read incurs when it overlaps a concurrent write, at no cost to writes, yet exist- ing algorithms can apply it only for a subset of the tradeoff space, forcing any deployment that needs the full space to settle for a strictly worse solution. We close this gap with a new algorithm, Pairwise Quorums, and build a second, Ditto, that reconfigures across the space at runtime as conditions change. Together they subsume every existing algorithm under our model: against each, the combination is either strictly better, or reconfigures to match it where a genuine tradeoff applies.</description>
+    </item>
+    <item>
+      <title>On Enforcing Database Constraints Using MS VBA Event Driven Procedures and SQL Server</title>
+      <link>http://arxiv.org/abs/2610.00633v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.00633v1</guid>
+      <pubDate>Wed, 30 Sep 2026 19:34:54 +0000</pubDate>
+      <description>The goal of this paper is to provide a rigorous methodology for enforcing database constraints using MS VBA event-driven procedures for software applications built on top of MS SQL Server databases, in the framework of the software engineering Database Constraint-Driven Design and Development. The original contribution is a pseudo-code algorithm for assisting developers in this process. We exemplify the results of using it with some VBA code examples taken from a genealogy database software application designed and developed using this methodology. Consequently, it enforces all the database constraints -be they relational or not- which govern this sub-universe of discourse, thus guaranteeing the highest possible quality of its managed data. We also show that the proposed algorithm works fine not only for other relational database management systems, but even with NoSQL platform backends, and that the modifications needed to adapt it to other similar SQL embedding frontend platforms are minimal.</description>
+    </item>
+    <item>
       <title>Recommendation Systems for Exploratory Data Tasks</title>
       <link>http://arxiv.org/abs/2609.39412v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.39412v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.09184</guid>
       <pubDate>Sat, 09 May 2026 00:00:00 -0000</pubDate>
       <description>We present Open Ontologies, an open-source ontology engineering system implemented in Rust that integrates LLM-driven construction with formal OWL reasoning and ontology alignment via the Model Context Protocol. Our primary finding is that stable 1-to-1 matching is the dominant factor in ontology alignment quality: on the OAEI Anatomy track, it achieves F1 = 0.832 (P = 0.963, R = 0.733), competitive with state-of-the-art systems and exceeding all in precision. Ablation across five weight configurations shows that signal weights are irrelevant when stable matching is applied (F1 varies by less than 0.004), while removing stable matching drops F1 to 0.728. On the Conference track, the same method achieves F1 = 0.438. On tool-augmented ontology interaction, we find a surprising result: an LLM reading a raw OWL file (F1 = 0.323) performs worse than the same LLM with no file at all (F1 = 0.431), while structured MCP tool access achieves F1 = 0.717. This demonstrates that tool structure provides a qualitatively different mode of access that the LLM cannot replicate by reading raw syntax. The system ships as a single binary under the MIT licence.</description>
-    </item>
-    <item>
-      <title>Reconciling Consistency-Based Diagnosis with Actual-Causality-Based Explanations</title>
-      <link>https://arxiv.org/abs/2605.08688</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.08688</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 -0000</pubDate>
-      <description>We establish, from the point of view of Explainable AI (XAI), connections between Consistency-Based Diagnosis (CBD), on one side, and Actual Causality and Causal Responsibility, on the other. CBD has received little attention from the XAI community. Connections between these two areas could have a fruitful impact on XAI and Explainable Data Management.</description>
-    </item>
-    <item>
-      <title>Grokers: Bottom-Up Inductive Comprehension and Write-Time Intelligence over Typed Knowledge Graphs</title>
-      <link>https://arxiv.org/abs/2606.00050</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.00050</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 -0000</pubDate>
-      <description>We present Grokers, an architecture for building persistent, structured comprehension of typed knowledge graphs through bottom-up inductive traversal of dependency subgraphs. Unlike retrieval-augmented generation (RAG), which pays full comprehension cost at every query, Grokers pushes intelligence to write time: autonomous Groker agents analyze nodes in a typed stream graph, extract structured attributes via governed language model (LM) calls, and inductively compose that understanding upward through dependency relations, writing enriched typed attributes that serve all future queries at zero additional LM cost. We prove three formal properties: (1) the Byte-Identity Theorem, establishing that context blocks assembled from a transactionally-maintained denormalization index are byte-identical across LM turns between semantic changes, enabling KV-cache hit rates approaching 100%; (2) the Accumulation Monotonicity Theorem, establishing that the fraction of interactions resolved without LM calls is non-decreasing in the number of completed interactions under a governed wisdom library growth protocol; and (3) the Dual-Traversal Ordering Theorem, establishing that top-down generation and bottom-up comprehension are the unique correct traversal orderings for their respective tasks over a dependency DAG, and that their composition closes into a complete generation-comprehension cycle. We further present a deterministic alternative to embedding-based semantic search, with a synonym caching protocol whose LM fallback rate converges to zero for finite-vocabulary domains. A reference implementation is provided in the open-source Qbix / Safebox / Safebots stack.</description>
     </item>
   </channel>
 </rss>

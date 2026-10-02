@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Ditto: Generalized Reconfigurable Linearizable Reads</title>
+      <link>http://arxiv.org/abs/2610.00702v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.00702v1</guid>
+      <pubDate>Wed, 30 Sep 2026 20:49:16 +0000</pubDate>
+      <description>Linearizability gives developers the illusion that operations on a distributed datastore execute sequentially on a single machine. Providing it is expensive, so numerous specialized reads algo- rithms have been proposed to make reads significantly faster without sacrificing linearizability, which matters because most workloads are read-dominant by orders of magnitude. Yet, none of these algorithms is the best choice for every deployment. We show why with a framework that classifies these algorithms into a generalized space together with a mathematical analysis of their latencies as a function of this generalization. The analysis exposes two fundamental tradeoffs, one between read and write latency and one between read and write tolerance to network variance, which together leave the best algorithm dependent on network and workload conditions that vary over time. It also exposes a gap: there is a way to minimize the delay a read incurs when it overlaps a concurrent write, at no cost to writes, yet exist- ing algorithms can apply it only for a subset of the tradeoff space, forcing any deployment that needs the full space to settle for a strictly worse solution. We close this gap with a new algorithm, Pairwise Quorums, and build a second, Ditto, that reconfigures across the space at runtime as conditions change. Together they subsume every existing algorithm under our model: against each, the combination is either strictly better, or reconfigures to match it where a genuine tradeoff applies.</description>
+    </item>
+    <item>
+      <title>Progressive-Resolution Secure Aggregation for Federated Learning</title>
+      <link>http://arxiv.org/abs/2610.00695v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.00695v1</guid>
+      <pubDate>Wed, 30 Sep 2026 20:38:11 +0000</pubDate>
+      <description>Secure aggregation lets a server recover an aggregate of client updates without observing any individual update, but conventional protocols fix the aggregate precision when clients upload. We introduce and formulate a new progressive-resolution secure-aggregation functionality in which clients upload once and successively finer resolutions of the same aggregate can later be authorized without renewed client participation. To realize this functionality, we propose progressive-resolution secure aggregation (PSA): each clipped, dithered update is represented by compatible nested-lattice digits; separately releasable layers are protected by secure aggregation and an additional aggregate pad that remains unavailable to the server until a non-colluding release controller authorizes that layer.</description>
+    </item>
+    <item>
       <title>Reinforcement Learning-Guided Graph Transformations for SpTRSV Optimization</title>
       <link>http://arxiv.org/abs/2609.40159v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.40159v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.07248</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
       <description>Serial LLM inference backends process requests sequentially under First-Come-First-Served (FCFS) admission, causing Head-of-Line Blocking (HOLB) under mixed workloads: short factual queries can be delayed by minutes behind long generation jobs. While cloud-scale deployments mitigate HOLB via continuous batching (e.g., vLLM, Orca), these solutions require tens of gigabytes of VRAM for concurrent KV-caches, rendering them infeasible for memory-constrained edge and local deployments that rely on serial request dispatch. We present Clairvoyant, a drop-in sidecar proxy for serial OpenAI-compatible backends (e.g., Ollama, llama.cpp) that implements predictive Shortest-Job-First (SJF) admission. Clairvoyant predicts response length using 19 lightweight lexical features via an ONNX-exported XGBoost classifier, achieving 0.029 ms per-request latency. Because admission scheduling relies on relative ranking rather than exact token prediction, Clairvoyant captures over 95% of the ranking fidelity of fine-tuned transformers at a fraction of the computational cost. We also uncover a critical dataset bias: curated instruction datasets are degenerate training sources for length prediction, as GPT-imposed brevity constraints reduce Long-class representation to under 0.02% of examples, establishing natural conversation logs as the only viable training signal. End-to-end evaluations demonstrate substantial latency reductions across diverse hardware regimes: a 70-76% short-request P50 latency reduction on an RTX 4090, a 69.7% reduction on Apple M1 edge hardware, and an 83.6% reduction in Time-To-First-Token (TTFT) on a GCP NVIDIA L4 real-world trace replay (rho = 0.80). Clairvoyant is open-source, requires zero modifications to the inference backend, and provides a low-overhead mechanism to eliminate HOLB in edge LLM environments.</description>
-    </item>
-    <item>
-      <title>Route-Block Membership Selects Packed-AWQ Arithmetic: A Controlled Single-Fixture Mechanism Study</title>
-      <link>https://arxiv.org/abs/2607.26316</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.26316</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Mixture-of-experts (MoE) inference first aligns routed tokens into padded expert blocks, then executes packed quantized matrix multiplication over those blocks. This preprocessing is often treated as bookkeeping. In one pre-specified Qwen3-Coder AWQ layer-6 fixture on a pinned vLLM/Marlin build and RTX 3090 runtime, we show that the tested route-block interventions select exact packed arithmetic trajectories. Two fixed preconstruction histories produced distinct native alignments and exact trajectories. Injecting the opposite alignment transferred W13, activation, routed-W2, and final outputs. Permuting two routes within one block preserved each native trajectory, while exchanging two prior-data-selected routes across the boundary between expert-106 blocks 40 and 41 transferred the complete opposite trajectory. Source- and binary-derived schedule geometry maps those blocks to direct/full-K and split/global-reduction classes. Forcing a single-slice 200-block grid made W13 bitwise equal. Stable canonical construction made both histories converge to a third exact trajectory. The confirmatory cohort contains 70 valid cold processes and seven required perturbation rejections. This is a causal mechanism result for one fixture, not a prevalence, allocator, portability, or serving-impact claim.</description>
-    </item>
-    <item>
-      <title>Consensus In Asynchrony: Strictly Formal</title>
-      <link>https://arxiv.org/abs/2607.24095</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.24095</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we resolve the apparent contradiction between the proven possibility of deterministic crash-tolerant consensus in a fully asynchronous environment and the reconfirmation of the FLP impossibility result by Attiya, Castañeda, and Rajsbaum. With the use of a strictly formal framework that extends their reasoning, we close this fundamental gap in theory. Specifically, we demonstrate that a single protocol phase separates their findings from reaching the exact opposite conclusion. Another important outcome is a novel algorithm with ability to tolerate multiple crash faults. We provide a rigorous, strictly formal proof of correctness to validate our results.</description>
     </item>
   </channel>
 </rss>

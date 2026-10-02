@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Plate-Local River Generation: Deterministic, Terrain-Aware, Downhill-Flowing Rivers for Infinite Procedural Worlds</title>
+      <link>http://arxiv.org/abs/2610.00301v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.00301v1</guid>
+      <pubDate>Sun, 27 Sep 2026 17:34:12 +0000</pubDate>
+      <description>Existing procedural terrain generation methods produce coherent, downhill-flowing river networks only on fixed domains, whereas approaches that extend to infinite worlds typically sacrifice network coherence or downhill-flow guarantees. This work presents a deterministic, terrain-aware, downhill-flowing river algorithm for infinite procedural worlds. Tectonic plate seeds define both continuous terrain fields and corresponding bounded Voronoi-like plate domains, so localized river preprocessing can operate directly on the geometric domain without sampling terrain fields for the purpose of locating plate boundaries. Within each plate, the terrain field is sampled on a low-resolution grid, and rivers are traced downhill from highland source nodes to coastlines, local minima, or existing confluences. River heights are then monotonically adjusted along each path so that every stored segment descends. The resulting river network is generated and cached lazily per plate, so each plate is processed independently of its neighbors. During full-resolution terrain sampling, the distance to the cached river network is computed exactly, and river height is interpolated along nearby segments and blended with the locally evaluated terrain on demand, without caching the blended result itself. Because the warp of the plate borders is bounded below the river border margin, this guarantees downhill flow along every river channel of the final terrain. Together, these design choices make terrain-aware river generation practical for interactive procedural worlds by supporting efficient on-demand evaluation, as demonstrated by the performance analysis presented in this work.</description>
+    </item>
+    <item>
       <title>When is a closed-form RGB-&gt;S/P ratio adequate? A hyperspectral characterization on natural scenes for mesopic display</title>
       <link>http://arxiv.org/abs/2609.24819v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.24819v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2508.07726</guid>
       <pubDate>Mon, 11 Aug 2025 00:00:00 -0000</pubDate>
       <description>In this article, circular arcs are considered both individually and as elements of a piecewise circular curve. The endpoint parameterization proves to be quite advantageous here. The perspective of symplectic geometry provides new vectorial relationships for the circular arc. Curves are considered whose neighboring circular elements each have a common end point or, in addition, a common tangent. These arc splines prove to be a one-parameter curve family, whereby this parameter can be optimized with regard to various criteria.</description>
-    </item>
-    <item>
-      <title>A Scientist Question: Research on the Impact of Super Structured Quadrilateral Meshes on Convergence and Accuracy of Finite Element Analysis</title>
-      <link>https://arxiv.org/abs/2507.17184</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.17184</guid>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 -0000</pubDate>
-      <description>In the current practices of both industry and academia, the convergence and accuracy of finite element calculations are closely related to the methods and quality of mesh generation. For years, the research on high-quality mesh generation in the domestic academic field has mainly referred to the local quality of quadrilaterals and hexahedrons approximating that of squares and cubes. The main contribution of this paper is to propose a brand-new research direction and content: it is necessary to explore and study the influence of the overall global arrangement structure and pattern of super structured quadrilateral meshes on the convergence and calculation accuracy of finite element calculations. Through the research in this new field, it can help solve the non-rigorous state of serious reliance on "experience" in the mesh generation stage during simulation in the current industry and academia, and make clear judgments on which global arrangements of mesh generation can ensure the convergence of finite element calculations. In order to generate and design super-structured quadrilateral meshes with controllable overall arrangement structures, a large number of modern two-dimensional and three-dimensional geometric topology theories are required, such as moduli space, Teichmüller space, harmonic foliations, dynamical systems, surface mappings, meromorphic quadratic differentials, surface mappings, etc.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Q-MINO: A Minimal-Norm Method for Quantization-Aware Training</title>
+      <link>http://arxiv.org/abs/2610.00738v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.00738v1</guid>
+      <pubDate>Wed, 30 Sep 2026 21:31:05 +0000</pubDate>
+      <description>The Straight-Through Estimator (STE) is a widely used heuristic for Quantization-Aware Training (QAT), but its surrogate gradients can exhibit substantial mismatch with the underlying quantized objective, leading to noisy updates and parameter oscillations, particularly in ultra-low-bit regimes. We propose the Quantization-Aware Minimal-Norm Optimizer (Q-MINO), a temporal bundle method that combines gradient consensus, state-drift regularization, and an alignment constraint to construct stabilized, minimum-norm update directions from recent optimization states. Q-MINO solves the resulting constrained subproblem using a warm-started Frank--Wolfe procedure with a feasible fallback initialization. Theoretically, via a stochastic Lyapunov Kurdyka--Łojasiewicz (KL) framework, we show that Q-MINO achieves asymptotic neighborhood convergence. Moreover, we detail numerical experiments with Q-MINO at various quantizations.</description>
+    </item>
+    <item>
       <title>Hardware-Aware Functional Kolmogorov-Arnold Networks for Efficient Medical Image Enhancement and Segmentation</title>
       <link>http://arxiv.org/abs/2609.36134v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.36134v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.11860</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 -0000</pubDate>
       <description>In superconducting devices running variational workloads, gate and readout fidelities drift on hour timescales, while existing runtime schedulers treat backend quality as static. The temporal dimension of calibration remains unresolved. We formulate runtime calibration as a state-trajectory feedback-control problem under a fixed wall-clock budget, and investigate whether spending time on calibration now can improve the future optimization trajectory. Calibration quality proxy is represented as a drifting equivalent-age state, recovery action is modeled as costly state reset, and policies are evaluated by time-integrated optimization gap over the full execution window. Using a finite-horizon rollout controller, we compare feedback calibration against a strengthened family of open-loop baselines across three latency regimes: cloud-like (25 ms), local-millisecond (1 ms), and tight-loop (4 $\mathrmμ$s). The results show a clear ordering: cloud-like feedback is generally uncompetitive, while local-ms and tight-loop regimes open a positive-gain region that grows with workload quality-sensitivity and initial calibration age. Crucially, the gap between local-ms and tight-loop control is modest for single-target recovery. The advantage of tight-loop integration emerges under capacity pressure, when many calibration targets must be processed within the same control window.</description>
-    </item>
-    <item>
-      <title>I hope we don't do to trust what advertising has done to love</title>
-      <link>https://arxiv.org/abs/2604.28113</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.28113</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 -0000</pubDate>
-      <description>Advertising uses love to sell stuff, like nylons. It also uses the word "love" in trivialising ways -- do you "love" your oven? When I hear about trust in the context of AI, especially agentic, I hope we don't do to trust what advertising has done to love. But what is trust? Can we discuss it in actionable and measurable ways in the context of AI? Thus I suggest a number of "trust pillars", hoping to start a communal conversation, across computing and beyond, to civil society. I also suggest that agentic systems may be a blessing in disguise, as we may be able to turn their explicit interfaces into "trust vectors".</description>
     </item>
   </channel>
 </rss>
