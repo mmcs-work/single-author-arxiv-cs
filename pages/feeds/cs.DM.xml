@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Counterexamples to the Strong Roberson Conjecture</title>
+      <link>http://arxiv.org/abs/2610.03550v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.03550v1</guid>
+      <pubDate>Fri, 02 Oct 2026 16:33:02 +0000</pubDate>
+      <description>We refute the Strong Roberson Conjecture, which asserts that adding any graph outside a class closed under minors and disjoint unions strictly increases the distinguishing power of homomorphism counts from that class. More precisely, we construct connected graphs $H$ for which counts from graphs excluding $H$ as a minor determine the number of homomorphisms from $H$ to any target graph. We also refute the analogous conjecture with immersions in place of minors. We give explicit infinite families of excluded graphs, including cubic bipartite graphs that yield counterexamples for both relations. The proof introduces a method for deriving exact homomorphism count dependence from modular equivalences. We obtain these equivalences for infinitely many primes using prime-order automorphisms of graphs that exclude their orbit quotients as minors or immersions.</description>
+    </item>
+    <item>
+      <title>Typical growth of the Füredi-Hajnal and Stanley-Wilf limits</title>
+      <link>http://arxiv.org/abs/2610.02707v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02707v1</guid>
+      <pubDate>Fri, 02 Oct 2026 02:42:54 +0000</pubDate>
+      <description>We prove that the Füredi-Hajnal limit and the Stanley-Wilf limit of a uniformly random permutation matrix of order $k$ are at most $\exp\bigl(O(\sqrt{k}(\log k)^{5/2})\bigr)$ with probability tending to one as $k\to\infty$. This improves the bound $\exp\bigl(O(k^{2/3}(\log k)^{7/3}/(\log\log k)^{1/3})\bigr)$ of Cibulka and Kynčl. Together with the lower bound due to Fox, these bounds show that the logarithms of both limits are $k^{1/2+o(1)}$ for almost all permutations.</description>
+    </item>
+    <item>
       <title>A proof of Lehmer's permutation conjecture for neighbor-swap graphs</title>
       <link>http://arxiv.org/abs/2610.01240v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.01240v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.10453</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 -0000</pubDate>
       <description>We study synchronous Boolean dynamics on finite loopless directed graphs in which a vertex is active at the next time step exactly when its number of active in-neighbors is prime. We call these systems Pulse Graphs. Let $L(n)$ denote the largest attractor period realizable on $n$ vertices. Exhaustive enumeration gives \[ L(1),\ldots,L(5)=1,1,1,3,9. \] Our main result determines the exponential order of the maximum period: \[ 2^{n-3}-1\leq L(n)\leq2^n-n-1 \qquad(n\geq5). \] The lower bound is obtained by implementing a maximal-length affine feedback register using prime-count logic gates. For $n\geq6$, the construction is loopless, has maximum in-degree five, and uses only $O(n)$ edges. For odd $n\geq7$, a period-3 control module improves the lower bound to \[ 3(2^{n-4}-1). \] For complete directed graphs, we derive an exact update formula, classify all attractors as fixed points or complement two-cycles, prove that every orbit reaches its eventual attractor within three updates, and count the attractors explicitly. We also derive the activation probability under independent random inputs. For sparse random directed graphs, the associated prime-Poisson mean-field map undergoes a nondegenerate fold at \[ c_\ast\approx3.824963, \qquad ρ_\ast\approx0.368241, \] with local bistability immediately above the threshold.</description>
-    </item>
-    <item>
-      <title>Rational Jacobi Rotations and the Complexity of Approximating Mixed Integer Quadratic Programming</title>
-      <link>https://arxiv.org/abs/2607.29386</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.29386</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present an algorithm that finds an epsilon-approximate solution to a mixed integer quadratic programming (MIQP) problem, and that runs on a Turing machine in time polynomial in the size of the instance and in 1/epsilon, provided that the number of integer variables and the number of negative eigenvalues of the Hessian of the objective function are fixed. Unless P=NP, both restrictions are necessary, so this completes the characterization of the complexity of approximating MIQP in terms of the number of integer variables and the inertia of the Hessian; the result is new already in the purely continuous case. The main ingredient is a polynomial-time simultaneous diagonalization algorithm: it computes a rational change of basis that maps a given ellipsoid, presented in factored form, exactly to a ball, while making the objective function separable up to an arbitrarily small perturbation and preserving the inertia of its Hessian. The classical construction, in which the objective function is made exactly separable, requires a change of basis that is in general irrational, and cannot be carried out on a Turing machine; ours rests instead on rational Jacobi rotations, which we believe to be of independent interest.</description>
-    </item>
-    <item>
-      <title>About two results for new valid juggling sequences</title>
-      <link>https://arxiv.org/abs/2607.29255</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.29255</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 -0000</pubDate>
-      <description>In this note, we study two simple operations for extending juggling (siteswap) sequences, called first throws and last catches. Both constructions come from a natural question for a juggler: how can one add throws at the beginning or catches at the end of a pattern without creating a collision? Using landing times and the permutation test, we give necessary and sufficient conditions under which these constructions, when applied to an arbitrary valid siteswap, produce another valid siteswap. We complement our analysis with several examples. An interactive visualization of these extensions is available in [Para].</description>
     </item>
   </channel>
 </rss>

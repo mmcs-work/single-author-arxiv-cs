@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>VeriPy Source-Preserving Verification and Compatibility Checking for Python Components</title>
+      <link>http://arxiv.org/abs/2610.02814v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02814v1</guid>
+      <pubDate>Fri, 02 Oct 2026 05:02:06 +0000</pubDate>
+      <description>Keeping a Python program and its formal guarantees aligned is a continuing maintenance problem. Specifications must describe the implementation that actually runs, and updates must preserve the behavior on which existing callers depend. VeriPy brings these obligations into a common workflow for annotated Python components. Developers and agents express contracts, invariants, and proof hooks as Python comments, then refine checked auxiliary lemmas using source-located diagnostics. Direct encoders produce Dafny or Lean artifacts while retaining admitted executable bodies and explicit models of their dependencies. A relational product checks whether an updated component still admits old inputs and preserves returned values and modeled exceptions. The resulting workflow connects source-level proof development with functional verification and backward compatibility, recording the assumptions under which each guarantee applies. The code is available at https://github.com/astrio-labs/veripy.</description>
+    </item>
+    <item>
       <title>Freely Generated Categorical Structures and Automatic Differentiation, PhD Thesis (Introduction and Conclusion)</title>
       <link>http://arxiv.org/abs/2609.40046v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.40046v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.17508</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 -0000</pubDate>
       <description>Training a model to predict the next step in a concurrent program is harder than it looks: two runs of the same program from the same trace prefix can produce different next events, both valid, because the scheduler is nondeterministic. A model trained against a single label is learning to guess one outcome of a random process. We turn this around and use the nondeterminism as a training signal. We run each program many times, aggregate the observed next events into an empirical distribution, and fine-tune a 7B model to match that distribution with a KL objective. On 798 held-out predictions drawn from real production Go bugs (CockroachDB, Kubernetes, gRPC, etcd), fine-tuning on fewer than a thousand traces reaches 36.2% accuracy, ahead of Gemini 3.5 Flash used zero-shot (34.8%) and the same model without fine-tuning (28.6%). Distribution training matches cross-entropy on accuracy (35.8% vs. 36.2%) while reducing Expected Calibration Error from 0.205 to 0.169. We also derive a formal goroutine-leak signature for a class of select-blocked goroutines where P(GoUnblock)=0 holds by scheduler semantics, not by learning. We release the dataset, trained adapters, and all tooling.</description>
-    </item>
-    <item>
-      <title>Negative and Fractional Types in the Fidelity Framework</title>
-      <link>https://arxiv.org/abs/2606.04352</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.04352</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Our Native Type Universe (NTU) has been detailed through five previous papers establishing the substrate our framework's compilation pipeline targets across multiple hardware platforms. We have found in the course of that work a deeper reach this foundation makes available: negative and fractional types as native first-class constructs. James and Sabry established these dualities in 2012; Chen and Sabry later developed their categorical interpretation in compact closed categories. These dualities have practical benefit for compute modalities in our Fidelity Framework where extant general purpose compute framings lack the substrate to host them as native constructs. We see practicality with these type forms in preserving decidability and principal types through the abelian-group algebraic pattern Kennedy's dimensional types establish. The resulting isomorphisms would admit new, concise forms of resolution within our novel lowering strategy, and we sketch a notional Clef language syntax that would admit rational dimensional exponents into our algebra. We trace the implications across several problem spaces these type forms would open to our compilation and verification disciplines: Bayesian inference where fractional types would express conditioning obligations, quantum computation (and simulations) where negative types would provide the type-level adjoint, and finally adiabatic computation where the combined discipline would express Hamiltonian deformation as a reversible constraint-propagation process. The inherent structure of our NTU together with the supporting framework appears well-suited to problem spaces that current software ecosystems do not directly address, while keeping approachable development ergonomics and mature tooling aligned with operational guarantees the framework aspires to provide.</description>
     </item>
   </channel>
 </rss>

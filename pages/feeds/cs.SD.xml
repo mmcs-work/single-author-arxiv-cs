@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>How Far Back Should a Transformer Look? Repetition and Copying in Music Sequence Models</title>
+      <link>http://arxiv.org/abs/2610.02837v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02837v1</guid>
+      <pubDate>Fri, 02 Oct 2026 05:28:12 +0000</pubDate>
+      <description>We investigate how predictive performance depends on the maximum context available to an autoregressive model of symbolic music, and what information long-context models exploit. A small causal Transformer is trained separately at each context length T in {6, 18, 48, 96, 192, 336} and evaluated on the same target positions, both over raw tokens and over non-overlapping binary latent codes. On Nottingham folk tunes, the token predictor's test NLL decreases by 71% (0.986 bits per token) between 6 and 336 tokens, and by 71% on the O'Neill's tunes long enough for the same sweep (129 of 302 test tunes). Most of the long-context gain is explained by exact copying: the improvement appears when an earlier occurrence of the target's 16-token history enters the available context; overwriting that occurrence removes the gain, whereas equally large unrelated corruption does not; and a simple copy baseline recovers 94% of the reduction. A trained 336-token model likewise loses most of this gain when its history is restricted to recent tokens at test time. Because many repeats arise from written repeat signs expanded in the score, this result pertains specifically to these rendered score representations. By contrast, on MAESTRO performances and MusicNet scores, where exact repeats are substantially less frequent, the reduction is smaller (9% and 18%) and is largely attained by 96 tokens. Finally, an audit of an earlier draft that reported saturation at 16 tokens identified split leakage, overlapping latent receptive fields, an averaging predictor, and a per-file tempo grid; we present these as methodological checks for context-length measurements.</description>
+    </item>
+    <item>
+      <title>Correlation-Based Distillation Yields More Mergeable Speech-Music Encoders</title>
+      <link>http://arxiv.org/abs/2610.02836v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02836v1</guid>
+      <pubDate>Fri, 02 Oct 2026 05:27:57 +0000</pubDate>
+      <description>A single compact encoder for both speech and music removes the need to maintain a separate model per domain. A practical recipe distils a speech teacher and a music teacher into two small students, then merges them into one model. Two merging algorithms exist: interpolating the student weights from a shared initialisation, or permuting their channels into alignment before averaging. Prior work fixed the distillation loss in both, leaving open whether the loss itself affects how well the students merge. We show that it does. Holding architecture and evaluation fixed, we replace the DistilHuBERT loss \Lkd{} with a correlation-based loss \Lcl{}. Under weight interpolation, \Lcl{} students stay closer to their own better endpoint in $17$ of $18$ comparisons and lead on the speech tasks at every interpolated weight. Under activation permutation, they need fewer channels rearranged at three layers, their matched channels correlate more strongly, and they again lead on speech. The two merging algorithms share no mechanism, yet both improve under the same loss substitution. This suggests that the gain lies in the representation \Lcl{} produces rather than in either algorithm.</description>
+    </item>
+    <item>
       <title>When Does a Spoken Agent Have Enough Evidence to Act? The PACT-SLM Contract Test</title>
       <link>http://arxiv.org/abs/2609.38232v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.38232v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.10565</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 -0000</pubDate>
       <description>This paper presents a lightweight, cascaded GMM-DTW dual-factor voice lock system for resource-constrained edge environments. By utilizing a shared MFCC feature space, the framework implements a sequential defense mechanism combining GMM speaker screening and DTW passphrase verification. To counter presentation threats without extra hardware, a dynamic joint absolute-relative margin constraint is integrated into the GMM classification space, limiting the physical imposter and high-fidelity replay attack False Acceptance Rates (FAR) to 2.73% and 6.67%, respectively, with a legitimate False Rejection Rate (FRR) of 16.67%. Due to Sakoe-Chiba window optimization, the global end-to-end processing latency under temporal stress is rigidly bounded at 9.82ms on a single-core CPU, comprising 1.51ms for feature extraction, 0.54ms for GMM scoring, and 7.77ms for worst-case DTW matching. These empirical benchmarks demonstrate the viability of white-box acoustic cascades for secure, deterministic real-time deployment on low-power edge nodes.</description>
-    </item>
-    <item>
-      <title>Whisper-GPT -- Continuous Discrete Hybrid Representation Language Models For Speech And Music</title>
-      <link>https://arxiv.org/abs/2412.11449</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2412.11449</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 -0000</pubDate>
-      <description>We propose WHISPER-GPT: A generative large language model (LLM) for speech and music that allows us to work with continuous audio representations and discrete tokens simultaneously as part of a single architecture. There has been a huge surge in generative audio, speech, and music models that utilize discrete audio tokens derived from neural compression algorithms, e.g. ENCODEC. However, one of the major drawbacks of this approach is handling the context length. It blows up for high-fidelity generative architecture if one has to account for all the audio contents at various frequencies for the next token prediction. By combining continuous audio representation like the spectrogram and discrete acoustic tokens, we retain the best of both worlds: Have all the information needed from the audio at a specific time instance in a single token, yet allow LLM to predict the future token to allow for sampling and other benefits discrete space provides. We show how our architecture improves the perplexity and negative log-likelihood scores for the next token prediction compared to a token-based LLM for speech and music.</description>
-    </item>
-    <item>
-      <title>Fast and Robust On-Device Speaker Diarization: Relative Minimum Cluster Size for Stride-Accelerated Pipelines</title>
-      <link>https://arxiv.org/abs/2606.08505</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.08505</guid>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Speech applications such as meeting transcription and voice agents would benefit from on-device speaker diarization, but practical adoption is limited by inference cost. We study how far a Pyannote 3.1-based pipeline can be accelerated on consumer hardware (an RTX 5070 Ti GPU and an Apple M4 laptop) while preserving diarization error rate (DER). A simple recipe: coarser segmentation stride and per-chunk embedding, yields multi-fold speedups and is DER-neutral on AMI, but degrades sharply on in-the-wild data: on VoxConverse, DER rises from 0.075 to 0.113. We trace the failure to speaker under-counting in the clustering stage, caused by a fixed minimum cluster size interacting with the reduced number of embeddings per speaker. We propose a relative minimum cluster size, mcs = round(f * n) with f = 0.01, which adapts to the embedding budget per recording. A single value of f recovers VoxConverse DER to 0.079 (about 89% of the lost accuracy) while keeping AMI flat, and the accelerated pipeline reaches up to 12.2x speedup on AMI (MPS) over our CAM++ baseline.</description>
     </item>
   </channel>
 </rss>

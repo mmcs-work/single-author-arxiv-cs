@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Monge matrix searching for lot sizing with piecewise-concave production costs</title>
+      <link>http://arxiv.org/abs/2610.03277v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.03277v1</guid>
+      <pubDate>Fri, 02 Oct 2026 13:20:15 +0000</pubDate>
+      <description>We study single-item lot sizing with piecewise-concave production and holding--backlog costs over $T$ periods. Production has $m$ common positive finite breakpoints, and stock costs and domains have $K$ common finite boundary levels. For fixed $m,K$, we give an exact deterministic algorithm using $\OmK(T^{m+2}α(T+2))$ arithmetic operations and a Las Vegas algorithm using $\OmK(T^{m+2})$ expected operations, where $α$ is the inverse Ackermann function. The algorithms retain nonlinear concave cost pieces and cover backlogging, common-grid stock limits, and explicit terminal-stock policies. A structural decomposition at stock boundary levels yields breakpoint-only prefix and suffix tables. Batching transitions by a designated production period produces implicit matrices that are Monge double staircases on each production piece. Established matrix searches, merged state orders, and backward evaluation provide the bounds. A simpler rectangle/SMAWK variant requires $\OmK(T^{m+2}\log(T+2))$ operations. On 300 no-backlogging benchmark cases, its objectives agree exactly with the predecessor dynamic program and an inventory-state oracle. Geometric-mean paired time ratios are \GeoUncap\ for uncapacitated cases and \GeoCap\ for capacitated cases, with ratios above one favoring matrix searching. A 640-case base-model validation suite and a separate 624-case generalized-model suite pass. The timing study does not benchmark the generalized models or the stronger staircase routines. All bounds assume exact arithmetic, constant-time cost queries, and explicit closed-domain concavity conditions.</description>
+    </item>
+    <item>
+      <title>Simple analysis of an algorithm for multiple-source shortest paths in planar graphs</title>
+      <link>http://arxiv.org/abs/2610.02371v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02371v1</guid>
+      <pubDate>Thu, 01 Oct 2026 18:48:53 +0000</pubDate>
+      <description>This paper addresses the following problem: given a planar embedding graph, compute a representation of the shortest-path trees rooted at all the boundary nodes of the graph. Klein gave an $O(n \log n)$ algorithm for this problem; the algorithm subsequently became an essential ingredient in dozens of algorithms, addressing problems ranging from distance oracles to edit distance. However, the correctness and analysis in that original paper is complicated and messy and hard to understand. In this paper, we give a simple and clear analysis.</description>
+    </item>
+    <item>
       <title>A computational phase diagram for the transverse field Ising model</title>
       <link>http://arxiv.org/abs/2610.02079v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02079v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.01021v1</guid>
       <pubDate>Tue, 01 Sep 2026 10:18:54 +0000</pubDate>
       <description>The \emph{$s$-Club Cluster Edge Deletion} problem asks whether, given a graph $G$ and an integer $k$, one can delete at most $k$ edges so that every remaining connected component has diameter at most~$s$. This generalizes the classical \emph{Cluster Edge Deletion} problem by permitting components of bounded diameter instead of requiring cliques. On general graphs, $2$-Club Cluster Edge Deletion is known to be fixed-parameter tractable when parameterized by $k$, but it remains open whether it admits a polynomial kernel, as posed in~\cite{ABUKHZAM2023113864}. Motivated by this question, we study the problem on interval graphs and obtain a polynomial vertex kernel of size $\mathcal{O}(k^{5})$. As a complementary result, we also show that the \emph{$s$-Club Cluster Edge Deletion} problem is polynomial time solvable on unit interval graphs. We also show that $2$-Club Cluster Edge Deletion is NP-hard even on split graphs.</description>
-    </item>
-    <item>
-      <title>Random-Priority Frontier Routing: Tight $Θ(n^c)$ Bounds Against $c$-Node Cartels</title>
-      <link>http://arxiv.org/abs/2609.00893v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.00893v1</guid>
-      <pubDate>Tue, 01 Sep 2026 08:22:15 +0000</pubDate>
-      <description>We study path diversification in trusted-node networks, where sensitive material is relayed through intermediate nodes, some of which may be compromised. Our randomized routing rule assigns each vertex an independent random priority and repeatedly expands the highest-priority vertex on the global frontier of the explored region. Let $G$ have $n$ vertices, let $s,t$ be honest endpoints, and let $C$ be a set of $c$ compromised intermediate vertices, called a cartel, whose deletion leaves $s$ and $t$ connected. For every fixed $c$ and every fixed target probability $q\in(0,1)$, we prove that $Θ(n^c)$ independent executions are sufficient in the worst case for some route to avoid $C$ with probability at least $q$.</description>
-    </item>
-    <item>
-      <title>Prediction-Assisted Pricing and Admission for LLM APIs with Stochastic Token Consumption</title>
-      <link>http://arxiv.org/abs/2609.00710v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.00710v1</guid>
-      <pubDate>Tue, 01 Sep 2026 04:40:34 +0000</pubDate>
-      <description>An LLM application often sells or internally allocates several service products: a small or premium model, a short or long token cap, and possibly multiple posted prices. The operational decision is not merely which model answers a prompt. A price changes purchase probability, a token cap changes both user value and the tail of resource consumption, and accepted requests compete for shared compute and premium-model capacity. Demand and output length are initially uncertain, while an offline model may provide useful but imperfect predictions. We formulate sequential pricing and admission with stochastic resource consumption. Each arriving request belongs to an observable segment. The platform chooses a product--price pair or makes no offer; purchase, revenue, and resource use are then random. An offline predictor supplies a uniform, validated error radius for every segment--product cell. We propose Prediction-Clipped UCB (PCUCB), which intersects the offline prediction interval with an online confidence interval, evaluates products using resource shadow prices, and reserves a sample-path envelope before commitment. The prior gives a fast start when accurate, while online learning protects the platform when predictions are coarse. The analysis is modular. On a simultaneous confidence event, regret against a buffered fluid benchmark is bounded by a pacing term plus the cumulative diameter of the intersected intervals. For $J$ segment-product cells and prediction radius $\varepsilon$, this yields \[ \widetilde O\left( \sqrt{T}+(1+\barΛ) \min\{T\varepsilon,\sqrt{JT}\} \right), \] where $\barΛ$ bounds operational shadow prices. Thus the algorithm smoothly interpolates between an almost full-information regime and learning from scratch. Hard feasibility holds on every sample path through reservation envelopes.</description>
     </item>
   </channel>
 </rss>

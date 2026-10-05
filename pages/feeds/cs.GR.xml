@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Kinetic Theory of the Gated Self-Evolving LLM Agent</title>
+      <link>http://arxiv.org/abs/2610.03243v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.03243v1</guid>
+      <pubDate>Fri, 02 Oct 2026 12:55:38 +0000</pubDate>
+      <description>We find traces of fluid dynamics in the self-evolution of an LLM agent, and give the kinetic theory that predicts them. Gated self-evolution is the loop in which an agent rewrites its own skills under a validation gate. Self-evolution research has treated the agent as the unit; we study instead the individual instances inside it. Here the agent is DSH-plugin-based: it runs in production on DeepSeek Harness (DSH), and its plugins satisfy four architectural properties (permutation symmetry, reversibility, acyclicity, typed contracts), which license treating these instances as identical hard spheres; the theory is accordingly scoped to DSH-class plugin populations. On this scope the paper builds three theory layers. The rigorous layer, independent of any analogy, comprises an any-time hitting-time certificate bounding the expected rounds to any prescribed improvement, a resolution law that prices held-out validation budgets, and a separation theorem: the daemon must stay outside the population, because merging evaluator with evaluated voids the certificate. The kinetic layer is a master equation over the plugin x version x task grid with four operators (collision, reaction, external field, gate), where collision is co-activation. Its moment hierarchy, the step that turns a gas into fluid equations, generates the falsifiable statistical signatures. Throughout, the fluid reading is a bounded analogy: momentum is not conserved, so no Navier-Stokes limit exists. The measured layer runs on a faithful minimal instance, a large library of four-parameter skill plugins retrieved one per episode with a co-activation probe, in a one-model, one-task-family WebShop environment; every element maps to the DSH loop by architectural role. Population fluctuation scaling is density-gated: invisible at sparse edit density, it emerges at the predicted rate under tripled density, as directional evidence.</description>
+    </item>
+    <item>
+      <title>Budgeted-GS: Real-Time Large-Scale Gaussian Splatting via Factoring LOD</title>
+      <link>http://arxiv.org/abs/2610.03162v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.03162v1</guid>
+      <pubDate>Fri, 02 Oct 2026 11:42:49 +0000</pubDate>
+      <description>3D Gaussian Splatting achieves excellent visual quality with real-time rendering, but at the scale of entire cities it does not fit: a trained model carries millions of primitives and gigabytes of memory, and real-time rendering at high quality on a consumer GPU remains out of reach. We introduce Budgeted-GS, a post-hoc method that turns any trained 3DGS model into a factoring tree, a multi-resolution hierarchy of moment-matched aggregates. After a construction pass of a few seconds, a single quality parameter selects, for each view, the level of detail that fits the memory of the target device, so the same city-scale model serves GPUs with widely different memory capacities. When a new scene is to be trained, the same theory applies: instead of growing a full-sized model and compressing it afterwards, budget-centered training first measures how many primitives the scene needs and then trains the model directly at that size, avoiding the wasted effort of optimizing primitives that are later discarded. Both methods are grounded in a measurable capacity floor, a budget-error law derived from optimal transport in phase space; selection rules certified by recent covering theorems decide which primitives are redundant. The floor answers how many primitives a scene actually needs and how many can safely be given up. We validate the floor on 13 public scenes under a preregistered protocol, and exercise both methods from object scenes to an official city capture, rendering it at native 1920x1080, full SH, in real time on one consumer GPU.</description>
+    </item>
+    <item>
+      <title>Windfoil: Closed-Form Coverage for Real-Time and Differentiable Vector Graphics</title>
+      <link>http://arxiv.org/abs/2610.02468v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02468v1</guid>
+      <pubDate>Thu, 01 Oct 2026 20:46:05 +0000</pubDate>
+      <description>We present Windfoil, a GPU-friendly algorithm that treats rasterisation and differentiable vector graphics as two sides of the same problem by evaluating the box-filtered winding number of quadratic Bézier contours in closed form. We implement this in WebGPU, allowing it to run across a range of environments, including a web browser on a consumer laptop, and apply the system to real-time 2D rendering, high-resolution rasterisation for print media, and a differentiable renderer. We compare our renderer against Skia, a production-grade engine, and Slug, a popular GPU rasterisation algorithm for games and real-time applications, measuring fidelity to a reference box-filtered coverage. Our renderer matches the reference more closely than either, at performance comparable to Slug. We also compare our optimiser against DiffVG and Bézier Splatting, where it reaches equivalent or better reconstruction quality at a fraction of the per-step cost, scaling to tens of thousands of shapes at interactive rates.</description>
+    </item>
+    <item>
       <title>Plate-Local River Generation: Deterministic, Terrain-Aware, Downhill-Flowing Rivers for Infinite Procedural Worlds</title>
       <link>http://arxiv.org/abs/2610.00301v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.00301v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.01187</guid>
       <pubDate>Wed, 20 Aug 2025 00:00:00 -0000</pubDate>
       <description>Many STEM concepts pose significant learning challenges to students due to their inherent complexity and abstract nature. Visualizing complex problems through animations can significantly enhance learning outcomes. However, the creation of animations can be time-consuming and inconvenient. Hence, many educators illustrate complex concepts by hand on a board or a digital device. Although static graphics are helpful for understanding, they are less effective than animations. The free and open-source Python package Manim enables educators to create visually compelling animations easily. Python's straightforward syntax, combined with Manim's comprehensive set of built-in classes and methods, greatly simplifies implementation. This article presents a series of examples that demonstrate how Manim can be used to create animated video lessons for a variety of topics in computer science and mathematics. In addition, it analyzes viewer feedback collected across multiple social media platforms to evaluate the effectiveness and accessibility of these visualizations. The article further explores broader potentials of the Manim Python library by showcasing demonstrations that extend its applications to subject areas beyond computer science and mathematics.</description>
-    </item>
-    <item>
-      <title>Substepping the Material Point Method</title>
-      <link>https://arxiv.org/abs/2508.11722</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.11722</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 -0000</pubDate>
-      <description>Many Material Point Method implementations favor explicit time integration. However large time steps are often desirable for special reasons - for example, for partitioned coupling with another large-step solver, or for imposing constraints, projections, or multiphysics solves. We present a simple, plug-and-play algorithm that advances MPM with a large time step using substeps, effectively wrapping an explicit MPM integrator into a pseudo-implicit one.</description>
-    </item>
-    <item>
-      <title>A Fast Unsupervised Scheme for Polygonal Approximation</title>
-      <link>https://arxiv.org/abs/2506.04664</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.04664</guid>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 -0000</pubDate>
-      <description>This paper proposes a fast and unsupervised scheme for the polygonal approximation of a closed digital curve. It is demonstrated that the approximation scheme is faster than state-of-the-art approximation and is competitive with Rosin's measure and aesthetic aspects. The scheme comprises of three phases: initial segmentation, iterative vertex insertion, iterative merging, and vertex adjustment. The initial segmentation is used to detect sharp turns, that is, vertices that seemingly have high curvature. It is likely that some of the important vertices with low curvature might have been missed in the first phase; therefore, iterative vertex insertion is used to add vertices in a region where the curvature changes slowly but steadily. The initial phase may pick up some undesirable vertices, and thus merging is used to eliminate redundant vertices. Finally, vertex adjustment was used to enhance the aesthetic appearance of the approximation. The quality of the approximations was measured using the Rosin's method. The robustness of the proposed scheme with respect to geometric transformation was observed.</description>
-    </item>
-    <item>
-      <title>Symplectification of Circular Arcs and Arc Splines</title>
-      <link>https://arxiv.org/abs/2508.07726</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.07726</guid>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 -0000</pubDate>
-      <description>In this article, circular arcs are considered both individually and as elements of a piecewise circular curve. The endpoint parameterization proves to be quite advantageous here. The perspective of symplectic geometry provides new vectorial relationships for the circular arc. Curves are considered whose neighboring circular elements each have a common end point or, in addition, a common tangent. These arc splines prove to be a one-parameter curve family, whereby this parameter can be optimized with regard to various criteria.</description>
     </item>
   </channel>
 </rss>

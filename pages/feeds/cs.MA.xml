@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Performance of Zero-determinant Strategies in Repeated Games without Discounting</title>
+      <link>http://arxiv.org/abs/2610.02645v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02645v1</guid>
+      <pubDate>Fri, 02 Oct 2026 01:02:42 +0000</pubDate>
+      <description>Zero-determinant (ZD) strategies are a class of strategies in repeated games, which unilaterally control payoffs. It has been shown that several ZD strategies promote cooperation in social dilemma games. It has been widely believed that the performance of ZD strategies is expressed as ``unilaterally enforce linear relations between payoffs''. However, in order to interpret properties of ZD strategies in repeated games without discounting, previous studies assumed that the limit of the Cesaro average of the probability distribution of the action profile exists. Here, we explain the performance of ZD strategies without this assumption, which leads to a stronger result than previous ones.</description>
+    </item>
+    <item>
       <title>Fully Online Decentralized Learning in Stochastic Games with Unknown Independent Chains</title>
       <link>http://arxiv.org/abs/2610.01181v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.01181v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.18597</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
       <description>Counterfactual credit assignment has proven effective in multi-agent reinforcement learning (MARL) for discrete action spaces, yet its extension to continuous-action cooperative tasks remains challenging. Existing methods that approximate the counterfactual baseline via Monte Carlo sampling often introduce bias into policy gradients and fail to guarantee convergence to local optima, as the sampled actions may not have been sufficiently trained. To address these limitations, we propose SAFE, a novel MARL framework that employs a counterfactual baseline conditioned on a self-evolving default action sampled from each agent's experience buffer. This design naturally extends to continuous action spaces without relying on additional simulations, reward models, or environment-specific prior knowledge. The baseline accurately quantifies each agent's contribution, and introduces no bias into the deterministic policy gradient, ensuring convergence to local optima. Extensive experiments on cooperative vehicular tasks demonstrate that SAFE consistently outperforms state-of-the-art models.</description>
-    </item>
-    <item>
-      <title>When Coordination Is Avoidable: A Monotonicity Analysis of Organizational Tasks</title>
-      <link>https://arxiv.org/abs/2602.18673</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.18673</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Organizations devote substantial resources to coordination, yet which tasks actually require it for correctness remains unclear. The problem is acute in multi-agent AI systems, where coordination cost is directly measurable and can exceed the cost of the work itself. Distributed systems theory provides a precise criterion: coordination is required when a task specification is non-monotonic, meaning that as histories grow, new information can invalidate prior conclusions. Here we show that Thompson's classic taxonomy of interdependence maps to that criterion, yielding a decision rule for when coordination is required for correctness. We formalize the correspondence in a bridge theorem, apply the rule to 65 workflows from the American Productivity &amp; Quality Center (APQC) and, with a calibrated large language model (LLM), 13,417 Occupational Information Network (O*NET) tasks, and illustrate it in multi-agent AI simulations. Under our decompositions, 74% of workflows and 42% of O*NET tasks are monotonic, implying that up to 24-57% of coordination spending is unnecessary for correctness.</description>
     </item>
   </channel>
 </rss>

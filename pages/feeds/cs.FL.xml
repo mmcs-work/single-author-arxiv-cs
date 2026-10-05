@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Shuffle squares in smooth binary words and the Kolakoski sequence</title>
+      <link>http://arxiv.org/abs/2610.02262v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02262v1</guid>
+      <pubDate>Thu, 01 Oct 2026 02:47:59 +0000</pubDate>
+      <description>A binary word is a shuffle square if its positions can be partitioned into two identical subsequences. A finite word over $\{1,2\}$ is smooth if repeated finite run-length differentiation remains binary until the empty word is reached. This paper proves that every smooth binary word in which both letters have even multiplicity is a shuffle square once its length is at least $18$. There are exactly $34$ exceptions, all of length at most $16$. The infinite part of the proof is a parity-return atom induction: a smooth even-Parikh word factors uniquely into smooth parity atoms, and every such atom has length at most $8$. A finite, independently checkable certificate handles lengths $18$ through $40$. As a consequence, a nonempty prefix of the classical Kolakoski sequence is a shuffle square if and only if both symbols occur an even number of times and its length is not $4$ or $8$. There are infinitely many such prefixes. In fact, the entire infinite Kolakoski sequence can be partitioned into two identical infinite subsequences with monochromatic blocks of uniformly bounded length.</description>
+    </item>
+    <item>
       <title>A Practical Approach To Verifying Structural Invariants In Colored Petri Nets</title>
       <link>http://arxiv.org/abs/2609.34928v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.34928v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1409.6247</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 -0000</pubDate>
       <description>We study distributional learning of context-free languages under a fixed recognizable congruence $\sim_h$ given as the kernel of an explicit finite monoid homomorphism $h:Σ^*\to M$. For this fixed-$h$ setting, we develop a finite typed reconstruction theory for context-free $\sim_h$-substitutable languages. Starting from a reduced context-free grammar, we introduce a typed refinement that records both yield types and outer context types, show that the relevant structure is concentrated in a finite typed reconstruction basis, and prove that this basis is exposed by a finite observation set. Occurrences of the same nonterminal symbol may therefore have to be separated when their outer $h$-contexts differ. We then prove exact reconstruction from positive data. From any finite sample $K\subseteqΣ^*$, we construct a canonical hypothesis grammar $\hat G(K)$, and we show that once $K$ contains the finite observation set associated with the target typed grammar, $\hat G(K)$ generates the target language exactly. Consequently, for every explicit finite monoid homomorphism $h$, the class $\mathcal C_h^{\mathrm{cf}}$ of context-free $\sim_h$-substitutable languages is identifiable in the limit from positive data, with polynomial-time hypothesis construction and update. For the linear subclass $\mathcal C_h^{\mathrm{lin}}$, we further prove polynomial upper bounds on characteristic-sample size and word length. Thus the same learner gives a full polynomial time-and-data result for the linear subclass.</description>
-    </item>
-    <item>
-      <title>Deciding DFA-Primality is NP-Hard</title>
-      <link>https://arxiv.org/abs/2605.07031</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.07031</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 -0000</pubDate>
-      <description>A DFA $\mathcal{A}$ is composite if there exist DFAs $\mathcal{A}_1,\dots,\mathcal{A}_t$ with $\mathcal{L}(\mathcal{A}) = \bigcap_{i=1}^{t} \mathcal{L}(\mathcal{A}_i)$ such that each $\mathcal{A}_i$ has strictly less states than the minimal DFA deciding $\mathcal{L}(\mathcal{A})$. Otherwise, it is prime. Prime-DFA is the problem of deciding primality for a given DFA. It was defined by Kupferman and Mosheiff in 2015 and it was shown to be NL-hard and in ExpSpace. This paper proves the NP-hardness of Prime-DFA, thereby making the first progress in closing this doubly-exponential gap. It proves the NP-hardness by a reduction from the propositional logic satisfiability problem. The correctness of the reduction relies on an involved characterization of primality for a class of DFAs which contains those that can occur in the reduction.</description>
     </item>
   </channel>
 </rss>

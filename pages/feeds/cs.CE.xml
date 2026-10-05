@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Reformulating plastic instabilities within a damage-like variational framework</title>
+      <link>http://arxiv.org/abs/2610.03328v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.03328v1</guid>
+      <pubDate>Fri, 02 Oct 2026 14:02:33 +0000</pubDate>
+      <description>Yield point phenomena in metals, anticracks in soils and snows, or planewise collapses in lattice metamaterials, are different manifestations of plastic instabilities characterized by stress softening and strain localization. Several independent constitutive descriptions exist and suffer from similar challenges: experimental difficulties to link local events to global measurements, and computational lack of convergence, spurious localization and mesh sensitivity. This work proposes a minimal field-agnostic constitutive framework where plastic softening is represented by a damage-like internal variable which explicitly separates stable hardening behavior from unstable softening. The resulting formulation admits a variational structure and can leverage regularization tools originally developed by the ductile fracture community. The framework aims at emphasizing similarities within plastic instability phenomena and establishing a bridge with continuum damage mechanics, to open a path towards regularized variational formulations of localized plastic flows.</description>
+    </item>
+    <item>
+      <title>Nearest-neighbour baselines for fingerprint prediction from MS/MS spectra under different assumptions</title>
+      <link>http://arxiv.org/abs/2610.02249v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02249v1</guid>
+      <pubDate>Wed, 30 Sep 2026 18:41:00 +0000</pubDate>
+      <description>It has recently been shown that nearest-neighbour retrieval provides a strong baseline for molecular fingerprint prediction from MS/MS spectra, with several variants matching or outperforming current deep learning models (Khoo and Barzilay, 2026; Liu et al., 2026; Gupta et al., 2026). Importantly, "nearest neighbour" encompasses a family of retrieval methods that differ in the information assumed to be available at inference. In this report, we systematically compare several nearest-neighbour variants and show how these differing assumptions affect performance. Our goal is to establish stricter baselines that enable more rigorous benchmarking and better measure progress in this area.</description>
+    </item>
+    <item>
       <title>Reclassified to Conform</title>
       <link>http://arxiv.org/abs/2609.38754v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.38754v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2507.07107</guid>
       <pubDate>Sat, 09 May 2026 00:00:00 -0000</pubDate>
       <description>Rolling-window factor pipelines for Chinese A-share markets contain a subtle but costly flaw: daily price-move limits (+/-10% main-board, +/-20% STAR/ChiNext) render a fraction of closing prices non-executable, yet standard implementations ingest these values before any row-filtering runs. The contaminated aggregates propagate silently through moving averages, correlations, and ranks--a failure mode we term "upstream contamination". On real A-share data it inflates apparent information coefficient by 18% while reducing realised Sharpe by 0.44 points, because the model learns to predict returns it cannot trade. We resolve this with a mask-first design: a Boolean tradability mask is constructed at data load time and threaded through every operator, so that no window ever reads a non-tradable price. Built on this foundation, the system adds (i) a GPU-vectorised 213-factor engine via PyTorch unfold primitives (51x over pandas); (ii) an Adjusted-MSE loss penalising wrong-sign predictions 11x more heavily than magnitude errors; (iii) block-bootstrap GBM augmentation; and (iv) Markowitz-Ledoit-Wolf portfolio optimisation with cvxpy warm-start caching. On a calibrated 3,000-stock synthetic panel the system achieves annualised Sharpe 2.05; on proprietary real A-share data (2022-2024) it achieves Sharpe 1.63. Ablation shows the mask contract is the single largest contributor (+0.44), exceeding any model or loss choice. The full implementation is released under MIT licence at https://github.com/initial-d/ml-quant-trading.</description>
-    </item>
-    <item>
-      <title>Exactness Matters for Physical Rule Enforcement</title>
-      <link>https://arxiv.org/abs/2605.08285</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.08285</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 -0000</pubDate>
-      <description>Autoregressive scientific forecasters often enforce physical or structural constraints by repairing each predicted state before feeding it back into the model. However, it remains unclear when stronger physical rule enforcement becomes reliable and when it becomes a source of distribution shift. We study this question through operator exactness, meaning whether the repair map is the identity on the target manifold and is aligned with the target geometry. We compare raw forecasting, post hoc repair, and in-loop repair across periodic incompressible Navier--Stokes, non-periodic CFDBench flows, and a hierarchical-forecasting support task. In the exact periodic regime, Fourier projection substantially improves rollout accuracy. On the NS-128 benchmark, a strong Raw-FNO has a final-step rollout MSE at horizon 100 of $(9.390 \pm 6.290)\times 10^{-5}$, and post hoc and in-loop projection reduce it to $(1.130 \pm 0.165)\times 10^{-6}$ and $(5.370 \pm 0.113)\times 10^{-7}$. However, once an exact projection is unavailable and only approximate boundary-preserving cleanup is available, the ordering changes. Across cavity, tube, dam, and cylinder flow, stronger Poisson-based cleanup can reduce divergence while worsening rollout error; target-distortion MSE predicts this harm far better than a linear-system residual. Controlled mismatch, screened cleanup, adaptive gating, and external-backbone checks show that the best approximate-regime operating point can be raw or near-identity. Hierarchical forecasting gives the same broader pattern. Exact forecast reconciliation is a stable baseline, whereas blended top-down repair, a validation-tuned interpolation toward historical-proportion top-down reconciliation, is dataset-dependent. Thus, constraint enforcement should be benchmarked by operator--data alignment before enforcement strength.</description>
-    </item>
-    <item>
-      <title>Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation</title>
-      <link>https://arxiv.org/abs/2607.27210</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27210</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
-      <description>The exponential growth of scholarly publications requires automated tools for effective information synthesis. However, simple, single-shot prompting methods often lack the reliability and quality required for complex synthesis tasks. This paper introduces and empirically evaluates a multi-stage prompt chaining methodology as a more reliable architectural pattern for such tasks. This approach is implemented in our system, AI SciBrief, which automatically generates scholarly digests. We conducted a comparative experiment, measuring the performance of our prompt chaining method against a carefully optimized single-shot baseline. Both systems were evaluated against a human-authored "gold standard" report for the "Education" domain. The results demonstrate a significant difference in reliability: our prompt chaining method achieved a 100% success rate, whereas the optimized baseline failed in 50% of its runs. In terms of quality, the proposed method also demonstrated a clear advantage, achieving a superior ROUGE-L F1-score (0.507 vs. 0.486), driven primarily by higher precision. We conclude that prompt chaining is a more dependable and effective engineering approach for complex, multi-step generative tasks, significantly mitigating the risks of failure and inconsistency inherent in monolithic prompts.</description>
     </item>
   </channel>
 </rss>

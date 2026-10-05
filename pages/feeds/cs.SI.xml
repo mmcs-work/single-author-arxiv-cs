@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Measuring Diversity and Segregation with Convex Functions</title>
+      <link>http://arxiv.org/abs/2610.02446v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.02446v1</guid>
+      <pubDate>Thu, 01 Oct 2026 20:14:04 +0000</pubDate>
+      <description>The problem of segregation measurement is to quantitatively describe the interaction of a population's attributes (such as race, ethnicity, education level, or income) with a separating distinction (such as organizational rank, school district, or spatial location). This primarily expository article gives an opinionated tour of one mathematical approach to measuring segregation. We begin with some basic intuitions about diversity and unify these through the framework of convex functions on the probability simplex. Formalizing segregation as a local-to-global comparison of diversity measures, resulting in the general class of Jensen informations as segregation measurements. We describe and computationally illustrate three ways to incorporate spatial structure into segregation measurements: spatial smoothing, aggregation, and local Jensen information. We close with several suggestions for future work.</description>
+    </item>
+    <item>
       <title>Modeling Bipartite Dynamic Networks: An Additive and Multiplicative Effects Model</title>
       <link>http://arxiv.org/abs/2610.00900v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.00900v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.23983</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 -0000</pubDate>
       <description>We investigate growth dynamics in deterministic equational discovery substrates. Across three toy domains (arithmetic, boolean, higher-order list; n=592 trajectories), short-range substrate sizes fit a power-law N(t) proportional to t^b. Within each substrate b is architecture-sensitive (cross-validated R^2 approximately 0.82); the regression does not transfer across substrates (arith+bool to list yields R^2 approximately -0.84). A heuristic mean-field closure model predicts a saturating power-law dN/dt = K N^k exp(-mu N) of which the pure power-law is the short-range approximation. Three robustness checks: bootstrap intervals on (k, mu) are tight in 4/5 toy trajectories and degenerate in 1/5; out-of-sample forecasting on toy data (fit first 100 epochs, predict next 400) is won by pure power-law 5/5, indicating the toy trajectories do not reach saturation; on two real-world growth proxies the result splits. New Mathlib/*.lean file additions per month (mathlib4, 60 months, 9701 files) support the saturating form on OOS forecasting by approximately 7x over pure power-law; Coq mathcomp monthly commits (129 months, 3083 commits) favour pure power-law on both tests with mu collapsing to zero. The dynamics are substrate-conditional at two levels: within-substrate architecture-to-b regressions do not transfer, and the preferred functional family for N(t) itself (pure vs. saturating power-law) differs by substrate. We propose "saturating power-law growth with substrate-conditional (k, mu), observable when the substrate has reached its saturation regime" as a working framing.</description>
-    </item>
-    <item>
-      <title>The fitness landscape of social norms in social dilemmas</title>
-      <link>https://arxiv.org/abs/2605.18834</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.18834</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 -0000</pubDate>
-      <description>By specifying behaviour across multiple agents, social norms are a coordination approach to resolving social dilemmas. Decentralized and wide adoption can be achieved by norms whose prescription involves interpreting stochastic signals in the environment. Such signals must have enough correlation to orchestrate mutually beneficial coordination and enough disincentivizing uncertainty about the benefits of exploiting that coordination. Evolutionary game theory of matrix games has been used to describe how, by rational agents comparing and adopting norms, a norm can evolve to become dominant in a population. Morsky \&amp; Akçay (2019) classify norms according to a set of rationality criteria. Joint player strategies that adopt norms that are consistent with optimal single-player strategies with respect to expected reward naturally satisfy a correlated, rather than Nash game theoretic equilibrium condition. Here, we present a version of this theory that clarifies the basic ingredients. We formulate it in the more general Markov game setting more commonly used in reinforcement learning theory. We illustrate the theory by mapping norms over the signal and reward space, while also giving a detailed exposition of the underlying mechanics of the approach. Finally, we give a general solution and analysis of replicator dynamics, which Morsky \&amp; Akçay (2019) propose as a means by which these norms could emerge.</description>
     </item>
   </channel>
 </rss>
