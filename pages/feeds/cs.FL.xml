@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Recognizers for Graph-Encoding Languages</title>
+      <link>http://arxiv.org/abs/2610.06743v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.06743v1</guid>
+      <pubDate>Mon, 05 Oct 2026 17:22:19 +0000</pubDate>
+      <description>We introduce recurrent incidence automata (RIAs), a new automaton model motivated by a decomposition of certain two-stack visibly pushdown computations. The decomposition separates vertex-local finite-state computations from recurrent one-stack interfaces connecting consecutive vertices. The construction is motivated by a two-stack visibly pushdown encoding of arbitrary ordered graphs whose strings admit a unique factorization into center-foldable vertex-local factors and whose auxiliary stack is empty at every factor boundary. Folding each factor into a sequence of pair symbols yields a local interface transformation. An RIA consists of a finite-state unit that computes these transformations and a recurrent layer that composes them across consecutive factors. Rather than manipulating an internal pushdown store, RIAs externalize long-range stack memory into recurrent interfaces between local computations. We show that nondeterministic RIA languages are closed under union, intersection, concatenation, Kleene-*, and reversal. Deterministic RIAs are closed under Boolean operations, although emptiness remains undecidable.</description>
+    </item>
+    <item>
+      <title>Pumping Constants for Infinite Alphabets</title>
+      <link>http://arxiv.org/abs/2610.06716v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.06716v1</guid>
+      <pubDate>Mon, 05 Oct 2026 17:08:59 +0000</pubDate>
+      <description>It is well known that the pumping lemma for regular languages over finite alphabets does not extend to infinite alphabets. Instead, the generalized version of the pumping lemma for infinite alphabets states that the pumped patterns need not be identical, but only equivalent up to a finite-order permutation of the alphabet. This generalized variant of the pumping lemma involves two parameters: the length of the pumped pattern and an upper bound on the order of the permutation. We improve the known permutation-order bounds from factorial to tight bounds governed by Landau's function. We also show that, if the pumping length is sufficiently large, then permutations of order at most two always suffice. Our main structural result concerns the one-register case: every one-register automaton satisfies the classical pumping lemma, with no alphabet permutation. We prove a quadratic upper bound on the pumping length and give a matching quadratic lower bound up to constant factors. The same classical pumping phenomenon is shown for hierarchical register automata. Finally, we prove that, in general, deciding whether a quasi-regular language is pumpable for given constants is undecidable, while the minimal classical pumping length is computable for non-guessing one-register automata.</description>
+    </item>
+    <item>
+      <title>Proofs of some OEIS conjectures on Wythoff sums, Fibonacci and Lucas words</title>
+      <link>http://arxiv.org/abs/2610.04842v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.04842v1</guid>
+      <pubDate>Sun, 04 Oct 2026 00:55:49 +0000</pubDate>
+      <description>We prove several conjectures from the On-Line Encyclopedia of Integer Sequences about the lower and upper Wythoff sequences and the Fibonacci word. Among them are two of Kimberling's three conjectures on the number of ways to write $n=\lfloor h\varphi\rfloor+\lfloor k\varphi^2\rfloor$ with $h,k\ge1$ (A259598): exactly one way if and only if $n+1=2F$ for a Fibonacci number $F\ge2$, and exactly two ways if and only if $n+1\ge7$ is a Lucas number. The third conjecture, that no way exists if and only if $n+1$ is a Fibonacci number, was proved earlier by Kawsumarng et al. We also observe that Kimberling's conjecture on the gaps of the sums of two distinct terms of A003622 and of their complement (A333308, A333309) follows, after a shift by $2$, from earlier Walnut results of Shallit and of Bosma et al. on A260317, and we re-verify it. Next, we prove Kimberling's five 2025 conjectures on the gaps between positions where the Fibonacci word and the "Lucas word" take prescribed values (A383423-A383427). Finally, we prove a conjecture of Mathar on A285383, and we point out that a conjecture of Schmidt on A003250 follows from theorems of Carlitz, Scoville and Vaughan (1973); we also confirm it with Walnut. Most proofs are decision procedures run in the free prover Walnut, and we supply the complete command file.</description>
+    </item>
+    <item>
+      <title>Graphoid Automata, Frobenius PROPs, and Semiring Evaluation</title>
+      <link>http://arxiv.org/abs/2610.03897v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.03897v1</guid>
+      <pubDate>Fri, 02 Oct 2026 18:10:24 +0000</pubDate>
+      <description>Graphoid automata evaluate graphs by composing relations between words of states. We examine the equations that make this evaluation independent of the chosen graph expression, and what changes when relations are replaced by matrices over a commutative semiring. We prove that the classical graphoid equations are equivalent to the special commutative Frobenius equations together with the required symmetry laws. The known cospan and hypergraph presentations then describe equality of structural and labelled expressions, with the bone law deleting precisely the isolated internal vertices. We use established partition representations to compare this equality with equality of evaluated matrices. For any nonempty finite state set $Q$ and commutative semiring $K$, we give a uniform criterion for two structural expressions to have the same matrix. The criterion determines which isolated-vertex counts are distinguished and when a vanishing scalar makes matrices from different boundary partitions equal. For the canonical structure, the bone law holds precisely when $|Q|\cdot1_K=1_K$. Preserving all relational compositions is a separate requirement, equivalent to additive idempotency for $|Q|\geq2$. We then examine the characteristic matrices of the known relational structures on $Q$ given by disjoint unions of Abelian groups. Their Frobenius equations hold over every commutative semiring, whereas specialness depends on the order of each group and the bone law depends on the number of groups. These conditions specify which equations remain valid when weights are assigned to a graphoid automaton.</description>
+    </item>
+    <item>
       <title>Shuffle squares in smooth binary words and the Kolakoski sequence</title>
       <link>http://arxiv.org/abs/2610.02262v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02262v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.10852</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 -0000</pubDate>
       <description>This paper resolves the open larger-alphabet quotient case in the accepting-state complexity theory of permutation automata. Rauch and Holzer showed that, in the unary setting, the attainable right-quotient accepting-state complexities are exactly $[1,mn]$. We prove that over arbitrary alphabets the exact spectrum is $g^{\operatorname{asc}}_{-1,\mathrm{PFA}}(m,n)=\{0\}$ if $m=0$ or $n=0$, and $g^{\operatorname{asc}}_{-1,\mathrm{PFA}}(m,n)=\mathbb{N}_{&gt;0}$ if $m,n\ge 1$. Thus, once both input languages are nonempty, every positive accepting-state complexity is attainable for right quotient, and $0$ is the only unavoidable magic value. The proof has two parts. First, we show that if $m,n\ge 1$, then the quotient language $KL^{-1}$ cannot be empty when $K$ and $L$ are accepted by permutation automata with $\operatorname{asc}(K)=m$ and $\operatorname{asc}(L)=n$; this follows from the bijectivity of the transition action. Second, for every $m,n\ge 1$ and every $α\ge m$, we construct a ternary witness pair $(A^{\mathrm{q}}_{m,α},B^{\mathrm{q}}_{n,α})$ such that $\operatorname{asc}(L(A^{\mathrm{q}}_{m,α}))=m$, $\operatorname{asc}(L(B^{\mathrm{q}}_{n,α}))=n$, and $\operatorname{asc}(L(A^{\mathrm{q}}_{m,α})L(B^{\mathrm{q}}_{n,α})^{-1})=α$. The high-range construction is group-theoretic: the words accepted by $B^{\mathrm{q}}_{n,α}$ induce exactly a point stabilizer in a symmetric group, and the standard quotient construction then saturates the original final set of $A^{\mathrm{q}}_{m,α}$ to a full orbit, yielding a minimal quotient automaton with exactly $α$ final states. Combined with the known unary interval $[1,mn]$, this yields the complete spectrum and resolves the larger-alphabet right-quotient case for permutation automata.</description>
-    </item>
-    <item>
-      <title>Star Complexity of Parikh Images of Languages over Infinite Alphabets</title>
-      <link>https://arxiv.org/abs/2605.09435</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.09435</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 -0000</pubDate>
-      <description>It has been conjectured that the Parikh (commutative) image of every language over an infinite alphabet recognized by an automaton with registers is defined by a rational expression. This conjecture is known to hold for all languages recognized by one-register automata. We refine this result by proving that the star-height of the Parikh image of any language recognized by a one-register automaton is universally bounded by two. Furthermore, we show that one-register context-free languages have rational commutative images of arbitrarily high star height. We then disprove the conjecture for multiple registers, as well as disprove the equivalence of commutative expressive power between context-free grammars and automata over infinite alphabets. In other words, we show that Parikh's theorem fails for infinite alphabets.</description>
-    </item>
-    <item>
-      <title>Entropy of pebble automata and space complexity</title>
-      <link>https://arxiv.org/abs/2605.08555</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.08555</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 -0000</pubDate>
-      <description>Let L denote the class Logpsace and NL the class NLogspace. We use logCFL to denote the closure under logspace reductions of the set of context-free languages. We prove that NL is different from logCFL. This result implies L different from Ptime and the stronger separation NL different from Ptime.</description>
-    </item>
-    <item>
-      <title>Brik's sequence: a strange recursion</title>
-      <link>https://arxiv.org/abs/2605.07542</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.07542</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 -0000</pubDate>
-      <description>We study the properties of the sequence of words $(B_i)$, where $B_1 = 101$ and $B_{i+1} = B_i C_i$ for $i \geq 1$, where $C_i$ is $B_i$ with the first $i$ symbols removed, and the infinite binary sequence ${\bf b} = 10101101011011101 \cdots$ of which all the $B_i$ are prefixes. We show that $\bf b$ is recurrent, but not uniformly recurrent; it has exponential factor complexity; it is not morphic; and the density of $1$'s exists and is transcendental.</description>
-    </item>
-    <item>
-      <title>Distributional Learning of Context-Free Languages under Fixed Finite-Monoid Typing</title>
-      <link>https://arxiv.org/abs/1409.6247</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1409.6247</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 -0000</pubDate>
-      <description>We study distributional learning of context-free languages under a fixed recognizable congruence $\sim_h$ given as the kernel of an explicit finite monoid homomorphism $h:Σ^*\to M$. For this fixed-$h$ setting, we develop a finite typed reconstruction theory for context-free $\sim_h$-substitutable languages. Starting from a reduced context-free grammar, we introduce a typed refinement that records both yield types and outer context types, show that the relevant structure is concentrated in a finite typed reconstruction basis, and prove that this basis is exposed by a finite observation set. Occurrences of the same nonterminal symbol may therefore have to be separated when their outer $h$-contexts differ. We then prove exact reconstruction from positive data. From any finite sample $K\subseteqΣ^*$, we construct a canonical hypothesis grammar $\hat G(K)$, and we show that once $K$ contains the finite observation set associated with the target typed grammar, $\hat G(K)$ generates the target language exactly. Consequently, for every explicit finite monoid homomorphism $h$, the class $\mathcal C_h^{\mathrm{cf}}$ of context-free $\sim_h$-substitutable languages is identifiable in the limit from positive data, with polynomial-time hypothesis construction and update. For the linear subclass $\mathcal C_h^{\mathrm{lin}}$, we further prove polynomial upper bounds on characteristic-sample size and word length. Thus the same learner gives a full polynomial time-and-data result for the linear subclass.</description>
     </item>
   </channel>
 </rss>

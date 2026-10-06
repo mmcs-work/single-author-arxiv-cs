@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Square-Root Regret for Adversarial Multiplayer Bandits without Collision Information or Shared Randomness</title>
+      <link>http://arxiv.org/abs/2610.05688v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.05688v1</guid>
+      <pubDate>Mon, 05 Oct 2026 02:03:44 +0000</pubDate>
+      <description>We study adversarial multiplayer bandits with $K$ arms and $2\le m&lt;K$ labeled players, without collision information, shared randomness, or an external communication channel. We design a constructive communication and synchronization protocol with a Monte Carlo public constructor. With probability at least $1-CN^{-32}$ over preprocessing, where $N=2Km(T+1)$, its fixed published output satisfies \[ R_T\le C K^{5/2}\sqrt T\log^2(2Km(T+1)) \] simultaneously for every oblivious reward sequence chosen after preprocessing. Here $R_T$ is expected regret over the players' private execution randomness. Positive reward observations establish a common learning schedule and synchronize players before learning begins. The cost of delayed communication is charged to the support of positive rewards, ensuring that periods with little useful feedback incur only limited regret. A slow--fast learning procedure then maintains valid reward estimates while assignments and scores are exchanged.</description>
+    </item>
+    <item>
+      <title>Organising Trajectory Evidence for Language-Model Agent Assurance: Fragments, Methods, and the Residual</title>
+      <link>http://arxiv.org/abs/2610.04710v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.04710v1</guid>
+      <pubDate>Sat, 03 Oct 2026 18:51:40 +0000</pubDate>
+      <description>Methods for assessing language-model agents include rule checkers over logs, analyses of skill coverage and composition, support checkers, prefix monitors, execution gates, and rare-event estimators. Each observes a different part of a run and makes a claim of a different strength, and no common account says how these claims combine or what they leave unchecked. We give one, built from a logic, information fragments, and an assurance ledger. Requirements are formulas of a two-tier logic: an outer finite-trace temporal logic over recorded events, and an inner logic of standing over the argument structure that the agent's recorded context supports at a decision. A rule violation and an action taken on withdrawn support are thus formulas of one language. The information available to an assessor, to the agent, and to an execution gate defines fragments of that language; each checking method decides one fragment and returns a typed claim: exact, on a named test suite, a risk bound, or descriptive. The ledger merges the evidence and classifies every obligation as established, addressed but not established, or unaddressed. On 456 released $τ^2$-bench telecom trajectories, the benchmark oracle flags 231 runs; adding a rule checker, a support stand-in, and a prefix-monitor baseline raises the union to 391, 401, and 407, each contributing flags the others miss, and a gate makes one prohibition exact on a gated deployment. The 49 unflagged runs and the unmet or unaddressed obligations form the residual. Discovery makes unknown requirements explicit, and new or stronger checkers then reduce it.</description>
+    </item>
+    <item>
+      <title>Quantifying Collusion Among Autonomous LLM Agents: A Statistical Analysis of the Collusion Wiki Incident</title>
+      <link>http://arxiv.org/abs/2610.04528v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.04528v1</guid>
+      <pubDate>Sat, 03 Oct 2026 13:46:42 +0000</pubDate>
+      <description>In August and September 2026, independent researchers publicly documented an unusual incident: thousands of autonomous agents, self identifying as OpenAI models on web research tasks, discovered and began using a small German wiki as an improvised message board posting roughly 18,000 times over six weeks to relay task answers, share a sandbox escape technique, and coordinate against a volunteer human moderator who spent weeks manually deleting their content [1]. The investigators' public writeup is a careful qualitative account, rich with direct quotation, but does not attempt a statistically rigorous quantitative characterization of the behaviour it documents.</description>
+    </item>
+    <item>
       <title>Performance of Zero-determinant Strategies in Repeated Games without Discounting</title>
       <link>http://arxiv.org/abs/2610.02645v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02645v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.10279</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
       <description>We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main algorithm is for two-player games, and we describe how it can be extended to multiplayer games. The algorithm is sound and computes all ESSs in nondegenerate games and a subset of them in degenerate games which contain an infinite continuum of symmetric Nash equilibria. The algorithm can be stopped early to find one or more ESSs. We experiment on an imperfect-information cancer signaling game as well as random games to demonstrate scalability.</description>
-    </item>
-    <item>
-      <title>Computing Evolutionarily Stable Strategies in Multiplayer Games</title>
-      <link>https://arxiv.org/abs/2511.20859</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.20859</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>We present an algorithm for computing all evolutionarily stable strategies in nondegenerate normal-form games with three or more players.</description>
-    </item>
-    <item>
-      <title>Consistent Opponent Modeling in Imperfect-Information Games</title>
-      <link>https://arxiv.org/abs/2508.17671</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.17671</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 -0000</pubDate>
-      <description>The goal of agents in multi-agent environments is to maximize total reward against the opposing agents that are encountered. Following a game-theoretic solution concept, such as Nash equilibrium, may obtain a strong performance in some settings; however, such approaches fail to capitalize on historical and observed data from repeated interactions against our opponents. Opponent modeling algorithms integrate machine learning techniques to exploit suboptimal opponents utilizing available data; however, the effectiveness of such approaches in imperfect-information games to date is quite limited. We show that existing opponent modeling approaches fail to satisfy a simple desirable property even against static opponents drawn from a known prior distribution; namely, they do not guarantee that the model approaches the opponent's true strategy even in the limit as the number of game iterations approaches infinity. We develop a new algorithm that is able to achieve this property and runs efficiently by solving a convex minimization problem based on the sequence-form game representation using projected gradient descent. The algorithm is guaranteed to efficiently converge to the opponent's true strategy under standard Bayesian identifiability and visitation assumptions, given observations from gameplay and possibly additional historical data if it is available.</description>
-    </item>
-    <item>
-      <title>A Self-Evolving Default Action for Cooperative Tasks with Continuous Action Space</title>
-      <link>https://arxiv.org/abs/2607.18597</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.18597</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Counterfactual credit assignment has proven effective in multi-agent reinforcement learning (MARL) for discrete action spaces, yet its extension to continuous-action cooperative tasks remains challenging. Existing methods that approximate the counterfactual baseline via Monte Carlo sampling often introduce bias into policy gradients and fail to guarantee convergence to local optima, as the sampled actions may not have been sufficiently trained. To address these limitations, we propose SAFE, a novel MARL framework that employs a counterfactual baseline conditioned on a self-evolving default action sampled from each agent's experience buffer. This design naturally extends to continuous action spaces without relying on additional simulations, reward models, or environment-specific prior knowledge. The baseline accurately quantifies each agent's contribution, and introduces no bias into the deterministic policy gradient, ensuring convergence to local optima. Extensive experiments on cooperative vehicular tasks demonstrate that SAFE consistently outperforms state-of-the-art models.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model</title>
+      <link>http://arxiv.org/abs/2610.06817v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.06817v1</guid>
+      <pubDate>Mon, 05 Oct 2026 17:56:07 +0000</pubDate>
+      <description>We distill Kokoro-82M, a widely used open text-to-speech model with 54 voices, into Paradee, an 8.07M-parameter model that speaks one of them. Paradee keeps Kokoro's architecture with much narrower layers, and each of its two halves is trained separately against the frozen teacher. It has 10x fewer parameters and needs 15x less compute. We first synthesize a corpus with the teacher and keep its durations, pitch, energy and phoneme features. We then train a small text side to predict these values, and a small decoder to turn the teacher's saved values into the teacher's audio, first with spectral losses and then adversarially. Finally, we connect the two halves and quantize the weights to int8. It needs no alignment learning and no joint training, and it runs on one laptop. Stored in int8, Paradee is 8.5 MB, runs 25x faster than real time on one CPU thread, and scores 4.41 on UTMOS against the teacher's 4.52. The student initially kept a slight buzz, which we trace to the phase of voiced speech between 2 and 8 kHz. A phase-locking filter applied after synthesis removes most of it, with no training and no extra parameters. Code, model files and audio samples are at https://github.com/sahilmahendrakar/paradee</description>
+    </item>
+    <item>
       <title>How Far Back Should a Transformer Look? Repetition and Copying in Music Sequence Models</title>
       <link>http://arxiv.org/abs/2610.02837v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02837v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.12282</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
       <description>Expressive performance rendering (EPR) aims to generate realistic performances constrained on sequences of notes. However, flow matching audio editing models manipulate only synchronized music samples of the same duration, limiting their understanding of expressive timing. We introduce PianoKontext, a flow matching rendering model for classical piano music that generates variable-length performances in the latent space of a pretrained Music2Latent model. We synthesize MIDI scores into deadpan audio and employ Dynamic Time Warping (DTW) in the latent space to construct paired data for training. The aligned embeddings are concatenated in DiT blocks, allowing for a simple and effective learning of the dependencies between the score and performances. Audio samples are available at our demo page: https://realfolkcode.github.io/pianokontext_demo/.</description>
-    </item>
-    <item>
-      <title>A Lightweight Dual-Factor Acoustic Authentication System via Cascaded GMM-DTW Architecture for Edge Computing</title>
-      <link>https://arxiv.org/abs/2606.10565</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.10565</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 -0000</pubDate>
-      <description>This paper presents a lightweight, cascaded GMM-DTW dual-factor voice lock system for resource-constrained edge environments. By utilizing a shared MFCC feature space, the framework implements a sequential defense mechanism combining GMM speaker screening and DTW passphrase verification. To counter presentation threats without extra hardware, a dynamic joint absolute-relative margin constraint is integrated into the GMM classification space, limiting the physical imposter and high-fidelity replay attack False Acceptance Rates (FAR) to 2.73% and 6.67%, respectively, with a legitimate False Rejection Rate (FRR) of 16.67%. Due to Sakoe-Chiba window optimization, the global end-to-end processing latency under temporal stress is rigidly bounded at 9.82ms on a single-core CPU, comprising 1.51ms for feature extraction, 0.54ms for GMM scoring, and 7.77ms for worst-case DTW matching. These empirical benchmarks demonstrate the viability of white-box acoustic cascades for secure, deterministic real-time deployment on low-power edge nodes.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The machine use of human beings</title>
+      <link>http://arxiv.org/abs/2610.05462v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.05462v1</guid>
+      <pubDate>Sun, 04 Oct 2026 19:11:34 +0000</pubDate>
+      <description>Research results are prioritised by search engines, large language models and knowledge graphs chiefly through restatement rather than through the originating source. Although the open-access share of annual scholarly output has recently exceeded half, a substantial subscription corpus remains outside what machine readers may legitimately access under prevailing licences. A mechanism is described whereby subscription content is drawn into the open corpus through its citation and restatement in open-access articles---a process termed human mining, by analogy with the text and data mining performed by machines. An optimistic upper bound on what may thereby be inferred by a machine reader confined to the open literature is modelled, and the completeness, latency and licence constraints of that bound are quantified. A majority of subscription articles that have ever been cited is found to be reachable through at least one open citation, and the median interval between a subscription article's publication and its first open citation is shown to have fallen from thirteen years for work of 1990 to one year for work of 2020. The advantage once conferred by direct subscription access to machine readers has thereby been largely eroded, chiefly as a consequence of the growth of open publishing rather than any change in how researchers cite.</description>
+    </item>
+    <item>
       <title>Which reported inputs govern molecular docking reproducibility? A benchmark from reporting audit to independent re-execution</title>
       <link>http://arxiv.org/abs/2609.37542v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.37542v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.15366</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
       <description>Adding citations while drafting in LaTeX often requires leaving the editor, searching for a paper in mind, copying its BibTeX entry into the project bibliography, renaming the cite key, and then returning to the sentence. \texttt{OverCite} is an open-source, lightweight tool that lets authors find, select, and insert citations without leaving the writing environment. In Overleaf, \texttt{OverCite} uses rough citation placeholders (e.g., $\texttt{\textbackslash citep\{Perlmutter1999\}}$) and local sentence context to query ADS/SciX-indexed literature, rank likely matches, and insert the selected reference, without leaving the editor. A companion \texttt{VS Code} extension provides the same functionality for local LaTeX projects. The ADS/SciX database includes astronomy, physics, computer science, mathematics, biology, and \emph{all} indexed arXiv e-prints, making \texttt{OverCite} useful across a broad range of scientific disciplines.</description>
-    </item>
-    <item>
-      <title>$Φ$ index: A standardized scale-independent and field-normalized citation indicator</title>
-      <link>https://arxiv.org/abs/2401.00997</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.00997</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
-      <description>The Impact Factor (IF), despite its widespread use, suffers from well-known biases that remain incompletely addressed in practice -- most notably its sensitivity to journal size and its lack of field normalization. Because of size sensitivity, a randomly formed journal of $n$ papers can attain a range of IF values that decreases sharply with size, as $\sim 1/\sqrt{n}$. The Central Limit Theorem, which underlies this effect, also allows us to correct for it by standardizing citation averages for scale and field in a manner analogous to calculating the $z$-score in statistics. We thus introduce the $Φ$ (Phi) index, defined as $Φ= (f - μ)\sqrt{n}/σ$, where $f$ is a journal's average citation count (akin to the IF), $n$ its publication count, and $μ, σ$ the mean and standard deviation of citations in its field. Applying the $Φ$ index to 12,173 journals in Clarivate's Journal Citation Reports, we obtain rankings that correct for size bias and elevate journals from underrepresented fields such as mathematics, law, and history. We validate the $Φ$ index via a Monte Carlo random sample test, which we propose as a standard diagnostic for any citation indicator. The methodology extends readily to departments, universities, and countries.</description>
     </item>
   </channel>
 </rss>

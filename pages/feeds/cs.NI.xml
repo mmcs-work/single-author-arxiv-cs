@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Poor Privacy Practices Of The Apple App Store: Cookies, Advertising and Tracking Of Users</title>
+      <link>http://arxiv.org/abs/2610.05475v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.05475v1</guid>
+      <pubDate>Sun, 04 Oct 2026 19:34:37 +0000</pubDate>
+      <description>We analyse the data that the Apple App Store sends to and receives from Apple servers. We find that multiple cookies are sent by Apple servers and stored on the handset. Adverts with tracking identifiers are also stored on the handset, and we observe that adverts are selected by Apple servers using GDPR special category personal data such as sexuality, religious beliefs and health. User interactions with the Apple App Store (apps and adverts viewed, buttons clicked, searches made etc) are transmitted to Apple servers alongside identifiers linking this data to the individual user and device. We show that much of this data storage and transmission is not essential for the service requested by the user, namely to view, search and install apps. No consent is sought for any of this data storage and processing, and there is no opt out.</description>
+    </item>
+    <item>
       <title>Containing the Autonomous Operator: A Defense-in-Depth Framework and Reference Architecture for Securing AI Agents on Kubernetes</title>
       <link>http://arxiv.org/abs/2610.02861v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02861v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.26125</guid>
       <pubDate>Sun, 31 May 2026 00:00:00 -0000</pubDate>
       <description>Emerging 6G and edge-intelligent networks require effective and balanced routing algorithms among varied and spatially distributed devices. Existing federated routing systems often prioritize aggregate latency or throughput above fairness and the underlying geometric structure of network topologies. This paper describes Geo-FairFed, a geometric fairness-aware routing system that blends hyperbolic graph neural networks (HGNNs) and federated optimization to provide equal performance across edge nodes. Each node learns topology-aware representations on a negatively curved manifold, which include hierarchical relationships and connection asymmetries. A global aggregator next enforces fairness using a curvature-regularized aim that minimizes routing loss, geometric inconsistency, and an inequality penalty based on Jain's fairness index. A theoretical analysis develops convergence guarantees under limited curvature and shows that the proposed fairness term results in a Pareto-improving equilibrium in routing performance. Extensive simulations on dynamic 6G-edge and IoT topologies reveal that Geo-FairFed minimizes average latency by 20\%, reduces energy consumption by 17\%, and improves fairness by up to 21\% when compared to state-of-the-art federated and geometric routing protocols. The study found that embedding topology in a hyperbolic manifold and including fairness into federated updates can significantly enhance the efficiency and equity of large-scale network routing.</description>
-    </item>
-    <item>
-      <title>FLUID: Slack-based Low-latency Delivery</title>
-      <link>https://arxiv.org/abs/2605.23947</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.23947</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 -0000</pubDate>
-      <description>We introduce FLUID (Fountain LiqUId Delivery), a protocol that uses fountain coding and receiver feedback for low-latency delivery of data blocks over lossy networks. Idealized Automatic Repeat reQuest (ARQ) protocols are bandwidth-optimal, but must deliver every packet in a block and therefore can require additional rounds under packet loss. FLUID uses a controlled amount of slack to relax this all-packets requirement, allowing delivery to finish once enough encoded packets have been received. This yields substantially tighter delivery latency while remaining deterministically close to the ARQ bandwidth optimum. FLUID is controlled by a slack parameter $ε$. Under the Loss-Product Rule, delivery finishes once the product of packet loss fractions across transmission rounds falls below $ε$. Thus, FLUID can finish delivery in a small number of rounds even when every round experiences packet loss, while $ε$ controls the gap between FLUID and bandwidth-optimal ARQ.</description>
     </item>
   </channel>
 </rss>
