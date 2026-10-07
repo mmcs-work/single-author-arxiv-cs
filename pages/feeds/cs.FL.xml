@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Shuffle Squares in Differentiable Words</title>
+      <link>http://arxiv.org/abs/2610.07828v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07828v1</guid>
+      <pubDate>Tue, 06 Oct 2026 06:26:53 +0000</pubDate>
+      <description>Experiments on binary run-length differentiability lead to sharp computer-assisted criteria for shuffle squares. Every $C^3$-word of length greater than $16$ is a shuffle square exactly when both letter multiplicities are even. All $34$ nonempty even-Parikh exceptions are smooth and persist in every higher differentiability class. For $C^2$ the sharp threshold is $48$, with $212$ nonempty exceptions. At level $C^1$ no global parity threshold exists, but every even-Parikh non-shuffle-square of length at least $36$ has proper nonempty shuffle-square prefixes and suffixes. Exactly $230$ nonempty even-Parikh $C^1$-words have no nonempty shuffle-square prefix. The full tree avoiding such prefixes eventually consists of $422$ periodic rays. Consequently, a nonempty Kolakoski prefix is a shuffle square exactly when both multiplicities are even, apart from lengths $4$ and $8$. We also characterize classes of morphisms reflecting shuffle squares. For doubly binary words, we determine the exact deletion distance and largest twins, and prove sharp bounds for single local repairs. Exact recurrences, residual-state checks, and separate Python programs make the finite computations reproducible.</description>
+    </item>
+    <item>
       <title>Recognizers for Graph-Encoding Languages</title>
       <link>http://arxiv.org/abs/2610.06743v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06743v1</guid>
@@ -17,6 +24,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06716v1</guid>
       <pubDate>Mon, 05 Oct 2026 17:08:59 +0000</pubDate>
       <description>It is well known that the pumping lemma for regular languages over finite alphabets does not extend to infinite alphabets. Instead, the generalized version of the pumping lemma for infinite alphabets states that the pumped patterns need not be identical, but only equivalent up to a finite-order permutation of the alphabet. This generalized variant of the pumping lemma involves two parameters: the length of the pumped pattern and an upper bound on the order of the permutation. We improve the known permutation-order bounds from factorial to tight bounds governed by Landau's function. We also show that, if the pumping length is sufficiently large, then permutations of order at most two always suffice. Our main structural result concerns the one-register case: every one-register automaton satisfies the classical pumping lemma, with no alphabet permutation. We prove a quadratic upper bound on the pumping length and give a matching quadratic lower bound up to constant factors. The same classical pumping phenomenon is shown for hierarchical register automata. Finally, we prove that, in general, deciding whether a quasi-regular language is pumpable for given constants is undecidable, while the minimal classical pumping length is computable for non-guessing one-register automata.</description>
+    </item>
+    <item>
+      <title>The compress-with-another threshold of Szykuła's Figure 3 family</title>
+      <link>http://arxiv.org/abs/2610.07044v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07044v1</guid>
+      <pubDate>Mon, 05 Oct 2026 01:15:04 +0000</pubDate>
+      <description>We give a self-contained pair-automaton proof of the exact compress-with-another threshold of the corrected Figure 3 family from a recent survey of open problems in synchronizing automata. For every $p \geq 3$, the automaton has $n = 3p$ states and $μ(q_0) = 4p = 4n/3$. The word $(ba)^p(ab)^p$ attains this value. Two entrance potentials and an excluded region yield the lower bound, with the endpoint exception at $p = 3$ treated explicitly. A separate reset construction proves $\operatorname{rt}(A_p) \leq 3p^2 + 4p - 1$ for every parameter. Reproducible computations verify the transition and entrance identities; the all-parameter results follow from the explicit proofs.</description>
     </item>
     <item>
       <title>Proofs of some OEIS conjectures on Wythoff sums, Fibonacci and Lucas words</title>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.13385</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 -0000</pubDate>
       <description>We determine the accepting-state spectrum of reversal for permutation automata exactly, thereby proving the Rauch--Holzer conjecture on this operation. For every $m \ge 2$ and every $α\ge 2$, we construct a binary permutation automaton $A_{m,α}$ such that $\operatorname{asc}(L(A_{m,α}))=m$ and $\operatorname{asc}(L(A_{m,α})^R)=α$. Combined with the trivial cases $m=0$ and $m=1$, and with the previously known fact that $1$ is magic for every $m \ge 2$, this yields the exact spectrum $g^{\operatorname{asc}}_{R,\mathrm{PFA}}(0)=\{0\}$, $g^{\operatorname{asc}}_{R,\mathrm{PFA}}(1)=\{1\}$, and $g^{\operatorname{asc}}_{R,\mathrm{PFA}}(m)=\mathbb{N}_{\ge 2}$ for every $m \ge 2$. Thus reversal has, for permutation automata, the simplest possible exact accepting-state spectrum compatible with the single nontrivial obstruction at value $1$. The proof uses a uniform group-theoretic witness family: the states of the forward automaton are the $α$-subsets of $[n]$, where $n=m+α-1$, under the action generated by an $n$-cycle and a transposition, while the accepting states form a single star family. After reversal, the reachable subset-states are exactly the stars. This makes it possible to count the accepting reachable states precisely and to prove minimality of the reachable reverse automaton.</description>
-    </item>
-    <item>
-      <title>Commutative algebras of series</title>
-      <link>https://arxiv.org/abs/2601.19809</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.19809</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 -0000</pubDate>
-      <description>We consider a large family of product operations of formal power series in noncommuting indeterminates, the classes of automata they define, and the respective equivalence problems. A $P$-product of series is defined coinductively by a polynomial product rule $P$, which gives a recursive recipe to build the product of two series as a function of the series themselves and their derivatives. The first main result of the paper is a complete and decidable characterisation of all product rules $P$ giving rise to $P$-products which are bilinear, associative, and commutative. The characterisation shows that there are infinitely many such products, and in particular it applies to the notable Hadamard, shuffle, and infiltration products from the literature. Every $P$-product gives rise to the class of $P$-automata, an infinite-state model where states are terms. The second main result of the paper is that the equivalence problem for $P$-automata is decidable for $P$-products satisfying our characterisation. This explains, subsumes, and extends previous results on Hadamard, shuffle, and infiltration automata. We have formalised most results in the proof assistant Agda.</description>
-    </item>
-    <item>
-      <title>A Unary-to-Nonunary Transition in the Accepting-State Spectrum of Right Quotient for Permutation Automata</title>
-      <link>https://arxiv.org/abs/2605.10852</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.10852</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 -0000</pubDate>
-      <description>This paper resolves the open larger-alphabet quotient case in the accepting-state complexity theory of permutation automata. Rauch and Holzer showed that, in the unary setting, the attainable right-quotient accepting-state complexities are exactly $[1,mn]$. We prove that over arbitrary alphabets the exact spectrum is $g^{\operatorname{asc}}_{-1,\mathrm{PFA}}(m,n)=\{0\}$ if $m=0$ or $n=0$, and $g^{\operatorname{asc}}_{-1,\mathrm{PFA}}(m,n)=\mathbb{N}_{&gt;0}$ if $m,n\ge 1$. Thus, once both input languages are nonempty, every positive accepting-state complexity is attainable for right quotient, and $0$ is the only unavoidable magic value. The proof has two parts. First, we show that if $m,n\ge 1$, then the quotient language $KL^{-1}$ cannot be empty when $K$ and $L$ are accepted by permutation automata with $\operatorname{asc}(K)=m$ and $\operatorname{asc}(L)=n$; this follows from the bijectivity of the transition action. Second, for every $m,n\ge 1$ and every $α\ge m$, we construct a ternary witness pair $(A^{\mathrm{q}}_{m,α},B^{\mathrm{q}}_{n,α})$ such that $\operatorname{asc}(L(A^{\mathrm{q}}_{m,α}))=m$, $\operatorname{asc}(L(B^{\mathrm{q}}_{n,α}))=n$, and $\operatorname{asc}(L(A^{\mathrm{q}}_{m,α})L(B^{\mathrm{q}}_{n,α})^{-1})=α$. The high-range construction is group-theoretic: the words accepted by $B^{\mathrm{q}}_{n,α}$ induce exactly a point stabilizer in a symmetric group, and the standard quotient construction then saturates the original final set of $A^{\mathrm{q}}_{m,α}$ to a full orbit, yielding a minimal quotient automaton with exactly $α$ final states. Combined with the known unary interval $[1,mn]$, this yields the complete spectrum and resolves the larger-alphabet right-quotient case for permutation automata.</description>
     </item>
   </channel>
 </rss>

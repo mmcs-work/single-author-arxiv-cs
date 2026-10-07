@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Optimal bound for the polynomial Littlewood-Offord problem</title>
+      <link>http://arxiv.org/abs/2610.08708v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08708v1</guid>
+      <pubDate>Tue, 06 Oct 2026 17:17:50 +0000</pubDate>
+      <description>We present an exposition of an argument, discovered by GPT-6 Pro, that gives an optimal bound for the polynomial Littlewood-Offord problem. Namely, let $F$ be a degree-$d$ multilinear polynomial that contains $r$ degree-$d$ monomials involving disjoint sets of variables. Then, for i.i.d. Rademacher random variables $ξ_1, \ldots, ξ_n$, we have $\mathbb{P}[F(ξ_1, \ldots, ξ_n) = 0] = O_d(r^{-1/2})$. This improves upon the previous bound of $(\log r)^{O_d(1)} r^{-1/2}$ due to Meka, O. Nguyen, and Vu, and resolves a conjecture attributed to H. Nguyen and Vu. The key part of the proof is an estimate for the total influence of bounded-degree rational functions, which resolves a recent conjecture of Kothari, Kovacs-Deak, Wang, and Yang.</description>
+    </item>
+    <item>
+      <title>A Fast Algorithm for Maltsev Constraints</title>
+      <link>http://arxiv.org/abs/2610.08207v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08207v1</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:25 +0000</pubDate>
+      <description>The constraint satisfaction problem over a set of relations $Γ$ (CSP($Γ$)) is the computational problem of deciding if a set of constraints admits at least one solution. The classical complexity for finite-domain CSP($Γ$) is settled by the CSP dichotomy theorem: it is tractable if $Γ$ satisfies a non-trivial algebraic invariant and is NP-complete otherwise. However, not all these algebraic invariants result in efficient algorithms despite being theoretically tractable. A notable case that generalizes linear equations is that of Maltsev CSPs: an $n$-variable instance with $m$ constraints is solvable in roughly $O(n^8 \cdot m)$ time by Bulatov and Dalmau (SIAM J. Comput. 2006) or $O(n^4 \cdot m)$ time by Dyer and Richerby (SIAM J. Comput. 2013). At the same time, arguably, most "natural" and efficiently usable polynomial-time algorithms rarely exceed a quadratic or cubic time bound. In this paper we revisit Maltsev constraints with this question in mind and find a $O(n^2 \cdot m)$ algorithm (for finite languages, for infinite languages we in addition need to take the total size of the instance into account). The main novel idea is to not attempt to improve the bottleneck in Bulatov and Dalmau (the Fix-Values procedure) but to avoid it altogether with a slightly more refined approach that allows us to search through a smaller space.</description>
+    </item>
+    <item>
       <title>Recognizers for Graph-Encoding Languages</title>
       <link>http://arxiv.org/abs/2610.06743v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06743v1</guid>
@@ -59,6 +73,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02565v1</guid>
       <pubDate>Thu, 01 Oct 2026 22:58:33 +0000</pubDate>
       <description>Constraint satisfaction problems (CSPs) with operator assignments to the variables provide a well-structured setting to study the decision complexity of the entangled value of classes of nonlocal games. Due to the CSP dichotomy theorem, the complexity of constraint satisfaction problems with classical assignments can be fully understood by studying the symmetries of the CSP, in terms of the polymorphisms of the underlying relational structure. In this work, we show that the polymorphism-based reductions between CSPs can be generalised to gap-preserving reductions between entangled CSPs based on an entangled analogue of the polymorphisms. This reduction allows us to show undecidability of entangled graph colouring with more than three colours, a problem that has proved resistant to prior hardness reductions based on commutativity gadgets.</description>
+    </item>
+    <item>
+      <title>Complexity, Bounds, and Exact Algorithms for Rainbow $k$-Domination in Regular Graphs</title>
+      <link>http://arxiv.org/abs/2610.06906v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.06906v1</guid>
+      <pubDate>Thu, 01 Oct 2026 10:22:55 +0000</pubDate>
+      <description>A rainbow $k$-dominating function assigns the empty set or exactly one of the colors $\{1\},\{2\},\ldots,\{k\}$ to each vertex of a simple graph in such a way that every vertex receiving $\emptyset$ sees all $k$ colors in its neighborhood. This model has several facility-location interpretations where colored vertices represent sites hosting different types of services, and uncolored vertices represent the beneficiaries of those services who must have access to all of them. In this paper we study this domination variant in regular graphs. First, we develop lower and upper bounds for this class of graphs, and explore their structural consequences. Then, we use those results to prove NP-completeness of a decision formulation of this problem. Additionally, we derive exact formulas for the rainbow $k$-domination number of cycles, Möbius ladders and prisms. Lastly, we develop a dynamic-programming algorithm for generalized Petersen graphs of the form $P(6t, t)$ and state two conjectures based on the output of its implementation and related integer linear programming computations.</description>
     </item>
     <item>
       <title>Coloring 3-colorable graphs with $O(n^{4/23})$ colors via a Gaussian-cover recursion</title>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.17818v1</guid>
       <pubDate>Tue, 18 Aug 2026 14:18:26 +0000</pubDate>
       <description>We show that Integer Quadratic Programming is W[1]-hard parameterized by the number of variables. Thus, under standard complexity assumptions, Integer Quadratic Programming cannot be solved in f(n)|I|^{O(1)} time for any computable function f where |I| is the size of the encoding and n is the number of variables.</description>
-    </item>
-    <item>
-      <title>Tight Inapproximability of Pacing and Throttling Equilibria in Second-Price Auctions</title>
-      <link>http://arxiv.org/abs/2608.16682v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16682v1</guid>
-      <pubDate>Mon, 17 Aug 2026 15:06:35 +0000</pubDate>
-      <description>Budget-constrained advertisers commonly rely on two control mechanisms: pacing scales bids, whereas throttling randomizes participation. We prove that, in second-price auctions, these two different mechanisms share the same sharp approximation-hardness threshold. For pacing, computing a $γ$-approximate equilibrium is $\mathsf{PPAD}$-hard for every constant $γ\in[0,1)$. For throttling, computing a $δ$-approximate equilibrium is $\mathsf{PPAD}$-hard for every constant $δ\in(0,1)$. At parameter $1$, the complementarity requirement becomes vacuous and the all-zero solution is feasible. That is, approximation does not eliminate the fixed-point barrier at any nontrivial parameter value.</description>
-    </item>
-    <item>
-      <title>Bounds on the real tensor rank of octonion multiplication</title>
-      <link>http://arxiv.org/abs/2608.16649v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16649v1</guid>
-      <pubDate>Mon, 17 Aug 2026 14:48:05 +0000</pubDate>
-      <description>The tensor rank of a bilinear map is the least number of multiplications any bilinear algorithm needs to compute it; for the multiplication of an algebra it measures how cheaply the algebra can be multiplied at all. For the even-dimensional real normed division algebras it is $3$ for the complex numbers and $8$ for the quaternions, both classical, while for the octonions $\mathbb{O}$ only a range was known: at least $15$ (Fiduccia and Zalcstein, 1977) and at most $30$ (Cariow and Cariowa). We prove $$18 \le \operatorname{R}_{\mathbb{R}}(T_{\mathbb{O}}) \le 25.$$ The lower bound peels the eight slices of $T_{\mathbb{O}}$ down to two and bounds the rank of the surviving pencil through the octonion norm. Nothing in it is special to dimension $8$: the same steps give $\operatorname{R}_{\mathbb{R}}(T_A) \ge \frac{5}{2}n - 2$ for every real normed division algebra $A$ of even dimension $n$, sharp for $\mathbb{C}$ and $\mathbb{H}$ and the best bound we know for $\mathbb{O}$. The upper bound is a separate construction, an explicit rank-$25$ decomposition certified by a Krawczyk argument, in exact rational arithmetic, to sit within $10^{-6}$ of an exact one. The same two arguments pin down the rank of a smaller three-slice quaternion tensor $τ$, giving $\operatorname{R}_{\mathbb{R}}(τ) = 7$. The Lean 4 kernel checks the lower bounds and the Krawczyk existence principle; the accompanying scripts check the certificate's finitely many exact-rational inequalities.</description>
-    </item>
-    <item>
-      <title>The Value of a Prompt: An LLM-Relative Kolmogorov-Complexity Approach</title>
-      <link>http://arxiv.org/abs/2608.16438v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16438v1</guid>
-      <pubDate>Mon, 17 Aug 2026 11:35:59 +0000</pubDate>
-      <description>In a world where valuable artifacts are increasingly created, completed, or processed by LLMs, the central economic question is not only what the LLM can produce, but what \emph{value} remains in the inputs (i.e., the prompts) we provide to it. Given a prompt, hint, critique, problem statement, or partial solution that helps an LLM produce an artifact $z$---a proof, program, design, or scientific hypothesis---how should we measure the value of that input? Intuitively, an input is valuable when it makes the target artifact easier for the model to generate: either by increasing its sampling probability, or by reducing the thinking time needed to find it. We propose a computational Levin--Kolmogorov complexity approach to this problem, by appropriately replacing the universal Turing machine in the classical definitions by the LLM itself. Concretely, we introduce an LLM-relative notion of \emph{probabilistic Levin--Kolmogorov complexity} $pKt$---treating the model's thinking as the random tape of the program, and charging logarithmically for it in Levin's manner---and define prompt value as algorithmic mutual information with respect to $pKt$. This captures the intuition above: a prompt having $b$ bits of value for an artifact $z$ makes $z$ $2^b$ times ``easier to obtain'', by multiplying the success probability by $2^b$, by dividing the required computation by $2^b$, or by any corresponding tradeoff between probability and computation. In contrast to the classical notion of algorithmic mutual information, ours is efficiently estimable. We additionally show that, under a natural reproduction experiment, a prompt value of \(b\) bits means that reproducing \(z\) without the prompt has median token cost \(2^b\) times that of reproducing it with the prompt.</description>
     </item>
   </channel>
 </rss>

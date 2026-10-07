@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>When Weak Reports Matter: Staged Anchored Fusion for Cooperative UAV Sensing</title>
+      <link>http://arxiv.org/abs/2610.07747v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07747v1</guid>
+      <pubDate>Tue, 06 Oct 2026 04:41:11 +0000</pubDate>
+      <description>Local multipath rejection can erase evidence needed for cooperative sensing. We propose staged anchored recovery: preserve strong-only confirmations, then query compatible weak reports using unused strong anchors. For any number of sensing nodes, we prove lossless residual screening and derive corroboration and bidirectional cost laws. In 1,024 five-UAV drops, recovery adds 30 matched targets and three false outputs over strict consensus, matching one-pass anchored confirmation's detection counts while reducing weak uploads by 97.4%. Equal-sized cue/report records yield 4.5% less payload than uploading all eligible reports. Independent validation recovers four additional targets with no observed false outputs.</description>
+    </item>
+    <item>
+      <title>Evaluating Behavioral Context for Interpretable IAM Policy Risk Scoring in Cloud Environments</title>
+      <link>http://arxiv.org/abs/2610.07345v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07345v1</guid>
+      <pubDate>Mon, 05 Oct 2026 20:17:19 +0000</pubDate>
+      <description>IAM policy analysis typically emphasizes the authorization capabilities encoded in a policy, but security analyst review priority may also depend on the behavioral and environmental context surrounding a policy event. This paper evaluates whether contextual information provides measurable incremental value for interpretable IAM policy risk prioritization beyond policy and effective-authorization information. AWS is used as the experimental cloud provider because its IAM and audit-telemetry ecosystem enables controlled evaluation using AWS IAM Context Bench, a benchmark containing 534 real AWS experimental observations across policy, environment, and behavioral scenarios, including matched cases where policy and environment remain fixed while behavioral context changes. Three Explainable Boosting Machine models are evaluated under the same leakage-controlled grouped cross-validation protocol: a policy-centric baseline, a policy-plus-environment model, and a full-context model incorporating CloudTrail telemetry. The full-context model substantially reduces analyst-priority prediction error relative to the policy-centric baseline and closely tracks the reference priority ordering. In matched same-policy context pairs, the policy-centric model remains invariant, whereas the full-context model separates benign and suspicious behavioral conditions with high directional accuracy. The results also show improved concentration of high-priority cases at the top of simulated analyst review queues. These findings indicate that behavioral and environmental context can provide useful incremental information for analyst-oriented IAM risk prioritization while preserving an interpretable additive model structure. The formulation is applicable beyond AWS conceptually, although cross-provider validation remains future work.</description>
+    </item>
+    <item>
       <title>Poor Privacy Practices Of The Apple App Store: Cookies, Advertising and Tracking Of Users</title>
       <link>http://arxiv.org/abs/2610.05475v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.05475v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.03910</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
       <description>Disaggregated LLM inference forces the KV cache to traverse the datacenter network before decoding begins, so transfer time enters directly into the Time to First Token (TTFT) budget. Current schedulers route on compute load and prefix-cache locality alone, ignoring the topological distance and dynamic congestion between prefill and decode instances. We close this gap with a thin operator-to-scheduler interface, the network cost oracle, and we prove that ignoring the network term renders cache-aware-only scheduling arbitrarily suboptimal as context length grows. NetKV, the O(|D|) per-request greedy that consumes this oracle, has tier rankings that are provably robust to stale telemetry. On a 64-GPU four-tier fat-tree simulator driven by Mooncake traces, NetKV reduces mean TTFT by up to 21.2% over round-robin and 17.6% over a tuned cache+load-aware scheduler, lifts SLO attainment by up to 20.1 percentage points, and keeps the Time Between Tokens overhead below 0.5 ms in every condition tested, with no changes to the transport, inference engine, or hardware.</description>
-    </item>
-    <item>
-      <title>Latency Components in 5G for Edge Application Discovery and Proximity Services: Targets, Measurements, and Practical Working Points</title>
-      <link>https://arxiv.org/abs/2606.28341</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.28341</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 -0000</pubDate>
-      <description>This technical note surveys latency contributors that matter when deploying edge-enabled applications and proximity services in 5G. Rather than proposing a new mechanism, we focus on building a reproducible latency catalogue grounded on: (i) theoretical targets and ranges reported in standards, and (ii) representative empirical measurements from the literature (or explicit derivations from such measurements). We cover user-plane components (radio access, transport and core traversal, UPF processing, and direct sidelink data paths) as well as discovery and setup contributors (DNS and EASDF behavior, inter-NF signaling costs in the service-based core, proximity discovery timing, and security/link establishment). For several control-plane functions, standards define procedures and APIs but do not fix execution time in milliseconds; in these cases we document the gap and report only ranges or proxy instantiations with clear assumptions.</description>
-    </item>
-    <item>
-      <title>Geometric Fairness-Aware Routing for Federated Edge Networks</title>
-      <link>https://arxiv.org/abs/2606.26125</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.26125</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 -0000</pubDate>
-      <description>Emerging 6G and edge-intelligent networks require effective and balanced routing algorithms among varied and spatially distributed devices. Existing federated routing systems often prioritize aggregate latency or throughput above fairness and the underlying geometric structure of network topologies. This paper describes Geo-FairFed, a geometric fairness-aware routing system that blends hyperbolic graph neural networks (HGNNs) and federated optimization to provide equal performance across edge nodes. Each node learns topology-aware representations on a negatively curved manifold, which include hierarchical relationships and connection asymmetries. A global aggregator next enforces fairness using a curvature-regularized aim that minimizes routing loss, geometric inconsistency, and an inequality penalty based on Jain's fairness index. A theoretical analysis develops convergence guarantees under limited curvature and shows that the proposed fairness term results in a Pareto-improving equilibrium in routing performance. Extensive simulations on dynamic 6G-edge and IoT topologies reveal that Geo-FairFed minimizes average latency by 20\%, reduces energy consumption by 17\%, and improves fairness by up to 21\% when compared to state-of-the-art federated and geometric routing protocols. The study found that embedding topology in a hyperbolic manifold and including fairness into federated updates can significantly enhance the efficiency and equity of large-scale network routing.</description>
     </item>
   </channel>
 </rss>

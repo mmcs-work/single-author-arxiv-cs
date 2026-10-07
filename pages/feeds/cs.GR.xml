@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Local Content-Style Control for Diffusion-based Image Stylization</title>
+      <link>http://arxiv.org/abs/2610.08704v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08704v1</guid>
+      <pubDate>Tue, 06 Oct 2026 17:16:11 +0000</pubDate>
+      <description>Image stylization with latent-diffusion models entangles two independently refined axes: what a region depicts and how it is depicted. Such pipelines expose only global controls, yet professional retouching demands deliberate, region-specific control. We lift two conditioning weights already present in a ControlNet + IP-Adapter stylization pipeline from global scalars to per-location spatial maps, yielding local, per-axis control of content and style in a single generative pass. Because the two weights act on disjoint pathways, adjusting them independently spans a 2x2 retouching vocabulary, from free regeneration to identity preservation. We validate that edits stay confined to the retouched region and that each weight predominantly steers its own axis. Our approach requires no retraining and drops unchanged into any such pipeline.</description>
+    </item>
+    <item>
       <title>A Kinetic Theory of the Gated Self-Evolving LLM Agent</title>
       <link>http://arxiv.org/abs/2610.03243v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.03243v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2509.03542</guid>
       <pubDate>Mon, 01 Sep 2025 00:00:00 -0000</pubDate>
       <description>Due to its unique computing principles, quantum computing technology will profoundly change the spectacle of color art. Focusing on experimental exploration of color qubit representation, color channel processing, and color image generation via quantum computing, this article proposes a new technical path for color computing in quantum computing environment, by which digital color is represented, operated, and measured in quantum bits, and then restored for classical computers as computing results. This method has been proved practicable as an artistic technique of color qubit representation and quantum computing via programming experiments in Qiskit and IBM Q. By building a bridge between classical chromatics and quantum graphics, quantum computers can be used for information visualization, image processing, and more color computing tasks. Furthermore, quantum computing can be expected to facilitate new color theories and artistic concepts.</description>
-    </item>
-    <item>
-      <title>Manim for STEM Education: Visualizing Complex Problems Through Animation</title>
-      <link>https://arxiv.org/abs/2510.01187</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.01187</guid>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 -0000</pubDate>
-      <description>Many STEM concepts pose significant learning challenges to students due to their inherent complexity and abstract nature. Visualizing complex problems through animations can significantly enhance learning outcomes. However, the creation of animations can be time-consuming and inconvenient. Hence, many educators illustrate complex concepts by hand on a board or a digital device. Although static graphics are helpful for understanding, they are less effective than animations. The free and open-source Python package Manim enables educators to create visually compelling animations easily. Python's straightforward syntax, combined with Manim's comprehensive set of built-in classes and methods, greatly simplifies implementation. This article presents a series of examples that demonstrate how Manim can be used to create animated video lessons for a variety of topics in computer science and mathematics. In addition, it analyzes viewer feedback collected across multiple social media platforms to evaluate the effectiveness and accessibility of these visualizations. The article further explores broader potentials of the Manim Python library by showcasing demonstrations that extend its applications to subject areas beyond computer science and mathematics.</description>
     </item>
   </channel>
 </rss>

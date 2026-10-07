@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Stochastic Gradient Descent Ascent is Suboptimal for Nonconvex-PL Min-Max Games</title>
+      <link>http://arxiv.org/abs/2610.07814v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07814v1</guid>
+      <pubDate>Tue, 06 Oct 2026 06:08:34 +0000</pubDate>
+      <description>How far can stochastic gradient descent ascent (SGDA) go by tuning its timescale ratio and step sizes in nonconvex min-max games? We answer this question for nonconvex-PL (NC-PL) games by establishing the first tight complexity of two-timescale SGDA with a fixed timescale ratio and non-increasing step sizes. For $\ell$-smooth games with an inner $μ$-PL inequality, we prove a complexity lower bound $Ω(κ^2\ell\varepsilon^{-2}+κ^4\ellσ^2\varepsilon^{-4})$, where $κ=\ell/μ$ is the condition number, $σ^2$ is the gradient variance, and $\varepsilon$ measures the outer gradient norm. This matches existing SGDA upper bounds and establishes a complexity separation from Smoothed-AGDA (Yang et al., 22'). In addition, we show that SGDA can fail to find a stationary point when its timescale ratio is as small as $o(κ^2)$. Our negative results highlight the fundamental limitation of SGDA in NC-PL games, and justify the development of alternative methods.</description>
+    </item>
+    <item>
       <title>The Hardness of Dominant Strategy Mechanism Design, Revisited</title>
       <link>http://arxiv.org/abs/2610.06773v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06773v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.09894</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 -0000</pubDate>
       <description>Inspired by possible future markets of autonomous routing and driving (ARAD), we introduce competitive mediator games and their equilibria which generalize the (coarse) correlated equilibria, which have become a popular research area recently as they not only can be more socially efficient than Nash equilibria but also are limits of algorithmic no-regret multi-agent learning dynamics. We discuss the basic properties of competitive mediator games and prove that in the generic setting of anonymous congestion(routing) games with market-share maximizing mediators all competitive mediator equilibria are monopolies whenever one of the mediators is weakly preferred to other mediators by all users. We apply and interpret these results in the context of new markets of competing ARAD service providers. We also provide a comprehensive overview of these markets and discuss the future mechanism design thereof.</description>
-    </item>
-    <item>
-      <title>Balanced Fair Division for Three Agents under General Valuations and Laminar Constraints</title>
-      <link>https://arxiv.org/abs/2608.09437</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.09437</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We study fair allocations of indivisible items under general set valuations. We prove that every instance with three agents and arbitrary real-valued valuations admits a balanced allocation that is envy-free up to one good and one chore (EF$1^c_g$). This directly implies balanced EF$1$ when each valuation is either monotone nondecreasing or monotone nonincreasing. We also show that balanced EF$1$ cannot be guaranteed without monotonicity: there exists an instance with three agents, nine items, and identical nonmonotone valuations that admits no balanced EF$1$ allocation. We then consider a common laminar matroid constraint. Whenever a complete feasible allocation exists, we prove that there is a complete feasible allocation that is balanced and envy-free up to two goods and two chores (EF$2^c_g$) for arbitrary valuations. The allocation can additionally be chosen so that the numbers of items from every laminar set assigned to the three agents differ by at most two. Most proofs in this paper were obtained using GPT-5.6. We subsequently verified the proofs for correctness and refined their exposition and arguments, also with the aid of GPT-5.6.</description>
     </item>
   </channel>
 </rss>

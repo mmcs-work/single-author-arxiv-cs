@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Cyclic triorthogonal codes in prime dimension</title>
+      <link>http://arxiv.org/abs/2610.08012v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08012v1</guid>
+      <pubDate>Tue, 06 Oct 2026 09:09:32 +0000</pubDate>
+      <description>We study cyclic triorthogonal codes in prime dimension $p$, on which a transversal third-level diagonal gate acts as a logical non-Clifford gate. For odd $p$, we use a definition of triorthogonality that does not require self-orthogonality. For cyclic codes of length coprime to $p$, triorthogonality reduces to a sumset condition on the spectral support, which makes exhaustive search feasible: for two natural constructions, we enumerate all maximal codes of this kind for $p=3$ up to length $121$ and $p=5,7$ up to length $96$. For qubits, we prove that a cyclic code of odd length is triply even if and only if it is classically triorthogonal, giving a complete description of triply-even cyclic codes, and we determine all such codes up to length $763$. For qudits, we find codes such as $[[19,1,3]]_3$ and $[[7,1,3]]_7$, which improve on the shortest Reed-Muller and Reed-Solomon codes in both overhead exponent and distillation threshold. The latter is the first member of an infinite family of $[[p,1,2\lfloor p/6\rfloor+1]]_p$ codes.</description>
+    </item>
+    <item>
+      <title>Redundancy and synergy in multivariate Gaussians via the Blackwell order</title>
+      <link>http://arxiv.org/abs/2610.07360v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07360v1</guid>
+      <pubDate>Mon, 05 Oct 2026 20:27:00 +0000</pubDate>
+      <description>The goal of the partial information decomposition (PID) is to quantify the redundant and synergistic information that multiple sources provide about a target. PID has many applications in machine learning, neuroscience, and other fields, but defining and computing it for high-dimensional continuous systems remains challenging. Here, we define a PID for multivariate Gaussian systems based on the Blackwell order, which formalizes when one channel is more informative than another. We prove that Gaussian channels are optimal for extracting both redundant and union information, yielding an intuitive geometric interpretation and an efficient numerical algorithm for the PID. Our union information and synergy coincide with the well-known BROJA measures, and we derive closed-form expressions for both in the case of two sources. We also argue that Blackwell redundancy (which differs from BROJA) is the only existing redundancy measure that satisfies a set of natural desiderata. We demonstrate the scalability of our method on systems with up to a thousand dimensions or sources. Our approach is illustrated on an optimal control problem, where it identifies redundant and synergistic interactions between sensor and memory.</description>
+    </item>
+    <item>
       <title>Minimax Quantum State Tomography in a Known Trace-Distance Ball</title>
       <link>http://arxiv.org/abs/2610.05374v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.05374v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.09225v1</guid>
       <pubDate>Mon, 07 Sep 2026 05:38:47 +0000</pubDate>
       <description>This book develops algebraic and combinatorial methods for studying discrete structures. It brings together graph theory, Boolean functions, Fourier analysis on finite groups, coding theory, perfect colorings and perfect codes, association schemes, Latin squares, and related topics. A central theme is the interaction between different representations of the same object: combinatorial, algebraic, spectral, and coding-theoretic. The main mathematical object studied in this book is a perfect coloring of a graph, or, equivalently, an equitable partition of a graph. The book is intended for advanced undergraduate and graduate students in mathematics and computer science, as well as for researchers in discrete mathematics, combinatorics, coding theory, and related fields.</description>
-    </item>
-    <item>
-      <title>The list size of random linear codes at capacity</title>
-      <link>http://arxiv.org/abs/2609.06570v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06570v1</guid>
-      <pubDate>Sun, 06 Sep 2026 12:31:30 +0000</pubDate>
-      <description>Let $C \le \mathbb{F}_q^n$ be a uniformly random $\mathbb{F}_q$-linear code of rate $1 - h_q(ρ) - \varepsilon$, and let $L^*(C,ρ)$ be the least $L$ such that every Hamming ball of relative radius $ρ$ contains at most $L$ codewords of $C$. That $L^* = Θ_{q,ρ}(1/\varepsilon)$ has been known since work of Guruswami, Håstad and Kopparty and of Guruswami and Narayanan. Guruswami, Li, Mosheiff, Resch, Silas and Wootters proved that the constant in front of $1/\varepsilon$ is at least $h_q(ρ)$ for all $q$, along with an upper bound special to $q = 2$ which narrowed $L^*$ to within three consecutive integers in that case. But for $q \ge 3$ no upper bound with the correct constant was known. We determine $L^*$ for every prime power $q$. Let $ζ:= h_q(ρ)/\varepsilon$. For every sufficiently small $\varepsilon$, with probability $1-o(1)$ over the choice of $C$, $$L^*(C,ρ) = \lceil ζ\rceil,$$ unless the fractional part of $ζ$ is at most $q^{-Ω_{q,ρ}(ζ)}$, in which case $L^*(C,ρ)$ is $\lfloor ζ\rfloor$ or $\lfloor ζ\rfloor + 1$. By the threshold characterization of random linear codes due to Mosheiff, Resch, Ron-Zewi, Silas and Wootters, both bounds reduce to a two-sided estimate of a single quantity $V(q,L,ρ)$, where $1-V(q,L,ρ)$ is the threshold rate for $(ρ,L)$-list-decodability. We prove for all large $L$: $$h_q(ρ)(1 + 1/L) - q^{-Ω_{q,ρ}(L)} \le V(q,L,ρ) \le h_q(ρ)(1 + 1/L).$$ The upper bound rests on a new entropy inequality for sparse random vectors under pairwise non-proportional linear constraints, proved with the Erdős-Rado sunflower lemma. The lower bound is an exact analysis of the distribution introduced by Guruswami, Li, Mosheiff, Resch, Silas and Wootters.</description>
-    </item>
-    <item>
-      <title>The LQ Digital Mode Family: Protocol Architecture and Reference Specification for Weak-Signal Communications</title>
-      <link>http://arxiv.org/abs/2609.06427v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06427v1</guid>
-      <pubDate>Sun, 06 Sep 2026 06:59:59 +0000</pubDate>
-      <description>This paper introduces LQ8, an open-source weak-signal digital mode for amateur radio that completes structured two-way contacts in 4 transmissions (60 s), achieving a 1.50x speedup over canonical 6-transmission exchanges (90 s) and 1.25x over 5-transmission RR73 exchanges (75 s) while preserving complete bidirectional exchange of Maidenhead grid locators, signal reports, and mutual acknowledgments. By replacing fixed-width message-type headers with variable-length prefix codes matched to physical-layer bit budgets, LQ8 packs the answering station's grid locator and measured signal report into a single 77-bit reply. In multi-station pileup operations, LQ8 confirms up to two answering stations simultaneously within a single-carrier, constant-envelope 50.0 Hz transmission with a 0.0 dB RF power-splitting penalty, enabling a theoretical peak rate of up to 160 QSOs/h (scaling to 320 QSOs/h in dual-carrier operation) while retaining the -21.0 dB SNR sensitivity of continuous-phase 8-GFSK transport. The protocol family also defines three extended profiles (LQ16, LQ4, and LQ2) tailored for extreme sensitivity, VHF/UHF contesting, and fast-burst channels.</description>
     </item>
   </channel>
 </rss>

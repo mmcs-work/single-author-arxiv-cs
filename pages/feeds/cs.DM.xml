@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A note on the list chromatic number of two matroids</title>
+      <link>http://arxiv.org/abs/2610.07318v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07318v1</guid>
+      <pubDate>Mon, 05 Oct 2026 19:53:29 +0000</pubDate>
+      <description>We study list coloring of common independent sets of two matroids. We construct a graphic matroid $M_1$ and a partition matroid $M_2$ with common chromatic number two and common list chromatic number three, showing that the two parameters need not be equal. This resolves a question raised by Király, later stated as a conjecture by Aharoni, Berger, Guo, and Kotlar. We also show that if two strongly base-orderable matroids are each $2$-colorable, then their intersection is $2$-list-colorable.</description>
+    </item>
+    <item>
       <title>Recognizers for Graph-Encoding Languages</title>
       <link>http://arxiv.org/abs/2610.06743v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06743v1</guid>
@@ -26,6 +33,13 @@
       <description>A Moore graph simultaneously asks for two things that normally pull in opposite directions: every vertex should have many neighbors, while every pair of vertices should remain close. For diameter two and degree $k$, the Moore bound is $k^2+1$, and equality forces a remarkably rigid graph: it is strongly regular with parameters $(k^2+1,k,0,1)$. Hoffman and Singleton showed that such a graph can exist only for $k=2,3,7$, and possibly 57. The degree-57 case on 3,250 vertices remains open. This paper is not an attempt to settle that open problem. Instead, we ask a more algorithmic question: How efficiently can the defining Moore structure itself be searched exactly? We begin from a human-developed exhaustive search based on the radius-two Moore tree. Leaves fall into $k$ groups of size $k-1$, and the edges between every pair of such groups form a perfect matching - a permutation. For efficiency, a partial construction is abandoned immediately when it creates a triangle or quadrangle. We then describe a sequence of exact algorithm-engineering improvements developed through a human-guided AI process and accepted only after mathematical checking and controlled regression tests. The main steps are reversible short-cycle forbid counters, bit-parallel domains, minimum-remaining-value branching, singleton propagation, matching-based AllDifferent filtering, balanced replayable parallel frontiers, residual-symmetry orbit pruning, and canonical deduplication of frontier states. On the principal $k=9$ benchmark, stronger symmetry cuts wall time from 47.6 to 17.9 seconds on a six-core laptop setup. Further parallelization speedup is reported separately; on a 16-core/32-thread machine, median wall time is reduced to 5.28 seconds. Degrees 10 and 57 are used as stress tests, and a five-minute degree-57 run uses only 161 MiB peak resident memory, showing that state size is modest.</description>
     </item>
     <item>
+      <title>Removing $m$ from $m$-pile Divisor Nim</title>
+      <link>http://arxiv.org/abs/2610.06925v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.06925v1</guid>
+      <pubDate>Sat, 03 Oct 2026 00:05:03 +0000</pubDate>
+      <description>In Divisor Nim, a player removes from one heap a positive number of stones that divides the size of every other heap. We prove that the Sprague--Grundy (SG) value satisfies $g(P)\le 2h_{\min}+\lfloor\log_2h_{\min}\rfloor$, where $h_{\min}$ is the smallest nonempty heap, independently of the number and sizes of the other heaps. The proof starts with odd heaps and classifies removals by their factors of $2$. The largest heap in a starting board then supplies an SG bound valid throughout every successor chain. When one heap varies, we sharpen Morisawa's eventual-period bound: the smallest fixed heap controls the SG value range, the number of consecutive values compared, and an increase in the varying heap that repeats legal moves. The remaining dependence on the fixed board lies in the SG periods of direct successors. Using the largest fixed heap, we derive an explicit common period for all these recursive layers. Its possible prime divisors belong to a fixed finite set, independent of heap count; their exponents remain controlled by the total fixed stones. Finally, joining boards under one shared divisor rule preserves and can tighten the SG ceiling. Minimum 2-adic depth and its count parity determine every joined outcome, and a join with at least two odd heaps has exact SG value $0$ or $1$. We close with two conjectures: $g(P)\le2h_{\min}$, and that the least eventual SG period, when one heap varies, divides $2\operatorname{lcm}(1,\ldots,h_{\max})$. Here $h_{\max}$ is the largest fixed heap, excluding the varying heap. The second claim would remove heap-count dependence from the period bound as well.</description>
+    </item>
+    <item>
       <title>Counterexamples to the Strong Roberson Conjecture</title>
       <link>http://arxiv.org/abs/2610.03550v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.03550v1</guid>
@@ -45,6 +59,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.03808v1</guid>
       <pubDate>Thu, 01 Oct 2026 15:18:04 +0000</pubDate>
       <description>A reduced word of the longest permutation $w_0\in S_m$, taken up to commutations, encodes a wiring diagram of $m$ pseudolines, and a braid move $σ_iσ_{i+1}σ_i\leftrightarrowσ_{i+1}σ_iσ_{i+1}$ flips one of its triangles. We prove that deciding whether two wiring diagrams are within a given braid-move distance is NP-complete. Equivalently, deciding flip distance is NP-complete in the higher Bruhat order $B(m,2)$, for triangle flips of marked arrangements of pseudolines, and for rhombic tilings of a $2m$-gon; this answers an open question on flip graphs of pseudoline arrangements (SODA 2024). The reduction is from Vertex Cover: for every graph $G$ we construct two wiring diagrams at braid-move distance $|D|+2\,\mathrm{VC}(G)$, where $\mathrm{VC}(G)$ is the vertex cover number of $G$ and the Hamming distance $|D|$ is the number of triples of wires whose triangles are oriented differently. The construction glues copies of a seven-wire gadget whose braid-move distance exceeds its Hamming distance by $2$; flipping either of two disjoint triangles in both diagrams removes the excess. Adding a line at infinity transfers the construction to rank-$3$ uniform oriented matroids, where two oriented matroids are adjacent in the mutation graph if their chirotopes differ in one basis; so deciding mutation distance is NP-complete in rank $3$. An iterate of Rambau's expansion of signotopes amplifies the excess and gives NP-hardness in every fixed rank $r\ge 4$. By duality we obtain the corresponding results for every fixed corank at least $3$. The same instances show that flip distance in the higher Bruhat orders $B(n,k)$ is NP-complete for every fixed $k\ge 2$.</description>
+    </item>
+    <item>
+      <title>Complexity, Bounds, and Exact Algorithms for Rainbow $k$-Domination in Regular Graphs</title>
+      <link>http://arxiv.org/abs/2610.06906v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.06906v1</guid>
+      <pubDate>Thu, 01 Oct 2026 10:22:55 +0000</pubDate>
+      <description>A rainbow $k$-dominating function assigns the empty set or exactly one of the colors $\{1\},\{2\},\ldots,\{k\}$ to each vertex of a simple graph in such a way that every vertex receiving $\emptyset$ sees all $k$ colors in its neighborhood. This model has several facility-location interpretations where colored vertices represent sites hosting different types of services, and uncolored vertices represent the beneficiaries of those services who must have access to all of them. In this paper we study this domination variant in regular graphs. First, we develop lower and upper bounds for this class of graphs, and explore their structural consequences. Then, we use those results to prove NP-completeness of a decision formulation of this problem. Additionally, we derive exact formulas for the rainbow $k$-domination number of cycles, Möbius ladders and prisms. Lastly, we develop a dynamic-programming algorithm for generalized Petersen graphs of the form $P(6t, t)$ and state two conjectures based on the output of its implementation and related integer linear programming computations.</description>
     </item>
     <item>
       <title>A proof of Lehmer's permutation conjecture for neighbor-swap graphs</title>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.03522</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 -0000</pubDate>
       <description>A proper coloring of a graph is called a strong odd coloring if, for every vertex \(v\) and every color appearing in the open neighborhood of \(v\), that color appears an odd number of times in \(N(v)\). The corresponding minimum number of colors is the strong odd chromatic number, denoted by \(χ_{\mathrm{so}}(G)\). Caro et al.~\cite{CaroPetrusevskiSkrekovskiTuzaStrongOdd} proved that every planar graph has strong odd chromatic number at most \(388\). Manattu et al.~\cite{ManattuVinayLakshmanan2026} later constructed planar graphs with strong odd chromatic number \(17\) and asked whether larger values are possible and whether the upper bound \(388\) can be improved. We address these questions as follows. First, we improve the general upper bound by proving that every planar graph \(G\) satisfies \(χ_{\mathrm{so}}(G)\le 368\). This follows by improving the auxiliary proper facially odd coloring bound for loopless \(2\)-connected plane multigraphs from \(97\) colors to \(92\) colors and combining this with the reduction of Caro et al. and the Four Color Theorem. Second, we give a different explicit planar construction with \(χ_{\mathrm{so}}(G)=20\), together with a self-contained proof of the exact value. We emphasize that Goetze et al.~\cite{GoetzeKluteKnauerParadaPenaUeckerdt2025} had already posted an arXiv preprint in May 2025 containing a planar example with strong odd chromatic number \(20\). Thus our construction is not a priority claim for the value \(20\), but rather an independent and fully verified construction whose value exceeds \(17\), the value that motivated Problem~1 of Manattu et al.</description>
-    </item>
-    <item>
-      <title>Small Matrices with Large Inverses: Unimodular $4 \times 4$ Cases</title>
-      <link>https://arxiv.org/abs/2607.07688</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.07688</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 -0000</pubDate>
-      <description>How close to singularity can an $n \times n$ unimodular matrix be? For ternary cases as $n$ increases, exact expressions are unlikely, but upon fixing $n=4$ and assessing $(2k+1)$-ary cases as $k$ increases, we make significant progress; similarly for $(k+1)$-ary cases of $4\times 4$ nonnegative unimodular matrices.</description>
-    </item>
-    <item>
-      <title>The Unit Gap: How Sharing Works in Boolean Circuits</title>
-      <link>https://arxiv.org/abs/2603.08033</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.08033</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We study the gap between the minimum size of a Boolean circuit (DAG) and the minimum size of a formula (tree circuit) over the And-Inverter Graph (AIG) basis {AND, NOT} with free inversions. We prove that this gap is always 0 or 1 (Unit Gap Theorem), that sharing requires opt(f) &gt;= n essential variables (Threshold Theorem), and that no sharing is needed when opt(f) &lt;= 3 (Tree Theorem). Gate counts in optimal circuits satisfy an exact decomposition formula with a binary sharing term. When the gap equals 1, it arises from exactly one gate with fan-out 2, employing either dual-polarity or same-polarity reuse; we prove that no other sharing structure can produce a unit gap.</description>
-    </item>
-    <item>
-      <title>Elements of finite geometry I</title>
-      <link>https://arxiv.org/abs/2608.06405</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.06405</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 -0000</pubDate>
-      <description>This is a snapshot of a first part on a possibly much longer text on finite geometries, meaning graphs or finite abstract simplicial complexes. In in this first batch we review 12 subjects: Gauss-Bonnet, Poincare-Hopf, Index expectation, Euler's gem, Euler-Poincare,Unimodularity, Brouwer-Lefschetz, Sphere formula, Level sets, Index formula, Quadratic cohomology and Higher characteristic.</description>
     </item>
   </channel>
 </rss>

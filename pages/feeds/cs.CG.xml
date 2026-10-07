@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Exposition of an approximation algorithm for mixed volumes of a constant number of convex bodies</title>
+      <link>http://arxiv.org/abs/2610.08248v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08248v1</guid>
+      <pubDate>Tue, 06 Oct 2026 12:29:44 +0000</pubDate>
+      <description>We study $\varepsilon$-relative approximation of mixed volumes of a fixed number $k$ of full-dimensional convex bodies in $\mathbb{R}^n$, given membership oracles and a known bound $B_n\subseteq K_i\subseteq R_0B_n$. We present a randomized algorithm that estimates any prescribed mixed volume within relative error $\varepsilon$ with probability at least $1-δ$, using polynomially many oracle calls and bit operations in $n$, $\log R_0$, $\varepsilon^{-1}$, and $\logδ^{-1}$ for fixed $k$.</description>
+    </item>
+    <item>
+      <title>Tight Bounds for Tusnády's Problem in the Plane</title>
+      <link>http://arxiv.org/abs/2610.08130v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08130v1</guid>
+      <pubDate>Tue, 06 Oct 2026 10:45:33 +0000</pubDate>
+      <description>We show that the worst-case combinatorial discrepancy of $n$ points in the plane with respect to axis-parallel rectangles is $Θ(\log^{3/2}n)$. The known bounds were $Ω(\log n)$ and $O(\log^{3/2}n)$; we prove the matching lower bound. It holds for random point sets: for every $A&gt;0$, there is a constant $c_A&gt;0$ such that, with probability at least $1-e^{-An}$, every coloring of $n$ independent uniform points in the unit square has an anchored rectangle with imbalance at least $c_A(\log_2n)^{3/2}$. The proof is surprisingly simple and elementary. It reveals one coordinate digit by digit. With overwhelming probability over the points, the conditional gains of an oscillation potential add up to $Ω(\log^{3/2}n)$ over $Θ(\log n)$ digits. Bounded differences control the fluctuations well enough for a union bound over all colorings.</description>
+    </item>
+    <item>
       <title>Improved Upper and Lower Bounds for Quantum Convex-Body Volume Estimation</title>
       <link>http://arxiv.org/abs/2610.04987v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.04987v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.23021</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 -0000</pubDate>
       <description>Consider a stream of $n$ random points (say, from the unit square) arriving one by one, where a player has to make an irreversible immediate decision for each arriving point whether to pick it. The player has to pick a single point, and the payoff is the area of the cell of the picked point, in the final Voronoi diagram of \emph{all} the points. We show that there is a simple strategy so that with probability $\geq 1 - \tilde O(1/\sqrt{n})$, the player's payoff is only a constant factor smaller than the optimal choice (i.e., the one made by the prophet). This competitiveness is somewhat surprising, as this payoff is larger by a factor of $Θ( \log n)$ than the average payoff.</description>
-    </item>
-    <item>
-      <title>A continuum of Künneth theorems for persistence modules</title>
-      <link>https://arxiv.org/abs/2604.20004</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.20004</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We develop new aspects of the homological algebra theory for persistence modules, in both the one-parameter and multi-parameter settings. For a poset $P$ and an order preserving map $φ:P\times P\to P$, we introduce a novel tensor product of persistence modules indexed by $P$, $\otimes_φ$. We prove that each $\otimes_φ$ has a right adjoint, $\mathbf{Hom}^φ$, the internal hom of persistence modules that also depends on $φ$. We prove that every $\otimes_φ$ yields a Künneth short exact sequence of chain complexes of persistence modules. Dually, the $\mathbf{Hom}^φ$ also has an associated Künneth short exact sequence in cohomology. As special cases both of these short exact sequences yield Universal Coefficient Theorems. We show how to apply these to chain complexes of persistence modules arising from filtered CW complexes. For the special case of $P=\mathbb{R}_+$, the $p$-quasinorms for each $p\in (0,\infty]$ yield a distinct $\otimes_{\ell^p_c}$ and its adjoint $\mathbf{Hom}^{\ell^p_c}$. We compute their derived functors, $\mathbf{Tor}^{\ell^p_c}$ and $\mathbf{Ext}_{\ell^p_c}$ explicitly for interval modules. We show that the Universal Coefficient Theorem developed can be used to compute persistent Borel-Moore homology of a filtration of non-compact spaces. Finally, we show that for every $p\in [1,\infty]$ the associated Künneth short exact sequence can be used to significantly speed up and approximate persistent homology computations in a product metric space $(X\times Y,d^p)$ with the distance $d^p((x,y),(x',y'))=||d_X(x,x'),d_Y(y,y')||_p$.</description>
-    </item>
-    <item>
-      <title>Local Depth-Based Corrections to Maxmin Landmark Selection for Lazy Witness Persistence</title>
-      <link>https://arxiv.org/abs/2604.19450</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.19450</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We study a family of local depth-based corrections to maxmin landmark selection for lazy witness persistence. Starting from maxmin seeds, we partition the cloud into nearest-seed cells and replace or move each seed toward a deep representative of its cell. The principal implemented variant, \emph{support-weighted partial recentering}, scales the amount of movement by cell support. The contributions are both mathematical and algorithmic. On the mathematical side, we prove local geometric guarantees for these corrections: a convex-core robustness lemma derived from halfspace depth, a $2r$ cover bound for subset recentering, and projected cover bounds for the implemented partial-recentering rules. On the algorithmic side, we identify a practically effective variant through a layered empirical study consisting of planar synthetic benchmarks, a parameter-sensitivity study, and an MPEG-7 silhouette benchmark, together with a modest three-dimensional torus extension. The main planar experiments show that support-weighted partial recentering gives a consistent geometric improvement over maxmin while preserving the thresholded $H_1$ summary used in the study. The three-dimensional experiment shows the same geometric tendency but only mixed topological behavior. The paper should therefore be read as a controlled study of a local depth-based alternative to maxmin, rather than as a global witness-approximation theorem or a claim of uniform empirical superiority.</description>
     </item>
   </channel>
 </rss>

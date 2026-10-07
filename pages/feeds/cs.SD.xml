@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Geometric Representations for Transformed Pattern Matching in Music</title>
+      <link>http://arxiv.org/abs/2610.08236v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08236v1</guid>
+      <pubDate>Tue, 06 Oct 2026 12:22:18 +0000</pubDate>
+      <description>We review the notion of representing music using point sets and argue that such representations are better adapted than sequential representations for matching patterns in unvoiced, polyphonic music, such as keyboard music. Musical transformations such as transposition, inversion, diminution, augmentation and retrograde can be modelled by geometric transformations in pitch-time representations that combine translation with scaling parallel to and reflection in the time axis. We identify eight types of geometric pitch-time representation that use chromatic pitch, morphetic pitch, morph or chroma to represent pitch and either onset time or midtime to represent time. We illustrate how these types of representation allow us to characterise different types of musical transformation. For example, by using midtime instead of onset time, we can precisely characterise certain retrograde relationships; and by using morph and chroma pitch representations we can characterise transformations involving octave displacements and duplications. We present the concept of a transformation class and consider the three specific classes, $F_{\mathrm{2STR}}$, $F_{\mathrm{2STRMod7}}$ and $F_{\mathrm{2STRMod12}}$. We introduce the notion of an inter-pattern transformation graph for a set of patterns, $S$, and a transformation class, $F$. Each vertex in such a graph represents a pattern in $S$ and there is an edge in the graph from pattern $P_1$ to pattern $P_2$ if and only if $P_1$ can be mapped onto $P_2$ by a transformation in $F$. We show, with the aid of such graphs, that the musical relationships between the occurrences of the HAYDN theme in Ravel's Menuet sur le nom d'Haydn can be precisely described in terms of transformations in $F_{\mathrm{2STR}}$, $F_{\mathrm{2STRMod7}}$ and $F_{\mathrm{2STRMod12}}$ within the pitch-time representations considered.</description>
+    </item>
+    <item>
+      <title>Adapting a Latent Audio Diffusion Model to Historical Guqin Recordings: A Listening-Driven Case Study</title>
+      <link>http://arxiv.org/abs/2610.07486v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07486v1</guid>
+      <pubDate>Mon, 05 Oct 2026 22:49:40 +0000</pubDate>
+      <description>We report a small-data case study in adapting a pretrained latent audio diffusion model to the guqin, the seven-string Chinese zither, aiming at an "AI radio" that plays guqin-style music without end. From a library of historical recordings we curate 412 solo performances (42.5 h, 61 performers) and split them by composition. We fine-tune a rank-16 DoRA adapter on Stable Audio 3 Medium using its continuous latents, masking weighted towards continuation, captions that combine researched notes on each piece with mood tags and an automatically estimated pentatonic mode, and random-length crops, stopping when held-out loss stops improving. Seven blind listening studies by one expert listener guided every decision. The final adapter was rated highest for continuing unseen pieces (3.9/5, against 3.4 for the best earlier adapter) and 4.6/5 for generating from free-written scene descriptions. Negative results are equally informative: a from-scratch autoregressive model over the same latents produced no recognisable timbre, a signal-level friction-noise measure correlated with the listener's complaints in the wrong direction, and a pentatonic-fit measure tracked ratings overall but barely within a group of candidates. Chaining continuations for long playback exposed a silent tail on every generated clip and a loudness feedback loop, both with simple fixes. With one listener and at most ten clips per condition, no paired difference is statistically significant; we present an exploratory record of what helped, what did not, and why.</description>
+    </item>
+    <item>
       <title>Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model</title>
       <link>http://arxiv.org/abs/2610.06817v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06817v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.19987</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
       <description>This data report introduces PolSeT (Polish Semantic Timbre), a dataset designed to facilitate research in psychoacoustics and Music Information Retrieval (MIR) in Polish and cross-cultural contexts. The dataset contains data from two sequential experiments. Experiment 1 (N=60) was a free-verbalization task aimed at creating a lexicon of Polish semantic descriptors. Using 11 stimuli, a total of 1901 descriptors (701 unique) were gathered. Experiment 2 (N=105) utilized this lexicon to conduct a semantic differential study, where participants rated 18 instrument sounds on 8 bipolar scales, with repeated trials for reliability analysis. The released dataset includes raw listener responses, comprehensive demographics (experience, gender, age), audio stimuli, and extracted acoustic features with Python extraction code. This dataset addresses a gap in open timbre research data, providing both the qualitative linguistic groundwork and the quantitative ratings necessary for psychoacoustic research and the training of multilingual semantic embedding models.</description>
-    </item>
-    <item>
-      <title>Mathematical Foundations of Polyphonic Music Generation via Structural Inductive Bias</title>
-      <link>https://arxiv.org/abs/2601.03612</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.03612</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
-      <description>This monograph addresses the "Missing Middle" problem in AI music generation - the challenge of producing coherent, phrase-level musical structure. Using Beethoven's piano sonatas as a case study, I introduce the Smart Embedding architecture, a factorized representation grounded in the empirically verified independence of pitch and hand attributes (NMI=0.167). The architecture achieves a 48.3% reduction in embedding parameters while improving validation loss by 9.47%. Theoretically, I establish formal guarantees through information theory, Rademacher complexity analysis (yielding a 28.09% tighter generalization bound), and category-theoretic interpretation. These results are further supported by Singular Value Decomposition analysis and a blind expert listening study (N=53). Collectively, this work presents a dual contribution that combines architectural innovation with mathematical rigor, offering a principled framework for building more efficient, stable, and interpretable generative models for complex sequential data.</description>
-    </item>
-    <item>
-      <title>PianoKontext: Expressive Performance Rendering from Deadpan Context</title>
-      <link>https://arxiv.org/abs/2606.12282</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.12282</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Expressive performance rendering (EPR) aims to generate realistic performances constrained on sequences of notes. However, flow matching audio editing models manipulate only synchronized music samples of the same duration, limiting their understanding of expressive timing. We introduce PianoKontext, a flow matching rendering model for classical piano music that generates variable-length performances in the latent space of a pretrained Music2Latent model. We synthesize MIDI scores into deadpan audio and employ Dynamic Time Warping (DTW) in the latent space to construct paired data for training. The aligned embeddings are concatenated in DiT blocks, allowing for a simple and effective learning of the dependencies between the score and performances. Audio samples are available at our demo page: https://realfolkcode.github.io/pianokontext_demo/.</description>
     </item>
   </channel>
 </rss>

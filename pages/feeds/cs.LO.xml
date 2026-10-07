@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Essence and accident modalities meet Belnapian truth values</title>
+      <link>http://arxiv.org/abs/2610.08323v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08323v1</guid>
+      <pubDate>Tue, 06 Oct 2026 13:23:53 +0000</pubDate>
+      <description>This paper investigates many-valued generalisations of the classical essence and accident modalities. In two-valued logic, a proposition is essentially true (resp. false) if, whenever it is true (resp. false), it is necessarily true (resp. false); it is accidentally true (resp. false) if it is true (resp. false) but not necessarily so. Many-valued logics provide a natural setting for introducing further modalities of this kind. We focus on Belnap-Dunn's First-Degree Entailment (FDE), a four-valued system that generalises the classical truth values. More precisely, we consider an extension of FDE with Boolean negation and implication. In addition to modalities of essential and accidental truth and falsity, we define modalities of essential and accidental inconsistency and indeterminacy. We present a four-valued S5-based Kripke semantics and cut-free hypersequent calculi for the resulting logics. We then prove semantic and syntactic embedding theorems for these logics into a four-valued version of S5 with necessity and possibility modalities. These embeddings clarify the intended interpretation of the Belnapian essence and accident modalities and yield soundness, completeness, and cut-admissibility results.</description>
+    </item>
+    <item>
+      <title>On Three-Valued Dependence-Like Logics</title>
+      <link>http://arxiv.org/abs/2610.08293v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08293v1</guid>
+      <pubDate>Tue, 06 Oct 2026 13:00:53 +0000</pubDate>
+      <description>In this paper, we investigate connections between dependence logics, viewed as a subclass of relating logics, and three-valued logics. More specifically, we identify common features of Epstein's subject-matter semantics and the variable-inclusion conditions characteristic of some infectious many-valued logics. Inspired by Del Cerro and Lugardon's sequent calculi for dependence logics, in which classical connectives are combined with connectives satisfying Epstein-style conditions, we introduce two three-valued dependence-like logics that combine classical conjunction and disjunction with infectious negation and implication. We also provide sound, complete, and cut-free bisequent calculi for these logics.</description>
+    </item>
+    <item>
       <title>Recognizers for Graph-Encoding Languages</title>
       <link>http://arxiv.org/abs/2610.06743v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06743v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20175v1</guid>
       <pubDate>Thu, 20 Aug 2026 15:28:11 +0000</pubDate>
       <description>We introduce $\mathsf{AmCMSO}$, an extension of counting monadic second-order logic ($\mathsf{CMSO}$) with predicates that refer to minimum- and maximum-value satisfying assignments. We establish fixed-parameter tractable model-checking meta-theorems for $\mathsf{AmCMSO}_1$ on graphs of bounded clique-width and for $\mathsf{AmCMSO}_2$ on graphs of bounded treewidth. These meta-theorems yield fixed-parameter tractable algorithms for several bilevel graph optimization problems, including interdiction and preassignment problems for solution uniquification, as well as algorithms for maximizing the diversity of optimal solutions without parameterizing by the optimum value. In contrast, allowing an optimality predicate to depend on an external set variable makes model checking hard for every level of the polynomial hierarchy, even on trees of fixed depth.</description>
-    </item>
-    <item>
-      <title>ProofJudge: Tool-Grounded LLM Evaluation of Formal Proof Quality in Mathlib</title>
-      <link>http://arxiv.org/abs/2608.20432v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.20432v1</guid>
-      <pubDate>Thu, 20 Aug 2026 02:39:40 +0000</pubDate>
-      <description>Formal proofs in Lean 4 that pass the kernel's type checker can nonetheless vary widely in quality. We introduce ProofJudge, an agentic LLM-as-judge system that scores formal proof quality along five dimensions beyond correctness: library leverage, automation fit, structural clarity, statement quality, and Mathlib conventions. We evaluate ProofJudge on a novel dataset of 218 declarations drawn from distinct Mathlib PRs. The judge agent is grounded by tool access to the commit the PR is applied to, enabling it to query the library state when scoring. A judge is considered aligned with human preferences when it rates the version of the PR Mathlib accepted above the initial version that was sent back for revision. All six judge models evaluated recover the reviewers' preference well above chance, from 80.8% to 63.5%, and two open-weight judges reach roughly 70% at a tenth of the best judge's cost. We release the judge harness, evaluation dataset, and evaluation traces as open-source artifacts to support further research.</description>
-    </item>
-    <item>
-      <title>String Rewriting Systems: Brief Introduction and Sample of Open Problems</title>
-      <link>http://arxiv.org/abs/2608.19397v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.19397v1</guid>
-      <pubDate>Wed, 19 Aug 2026 19:29:18 +0000</pubDate>
-      <description>This document is the result of pulling together small parts of different lecture notes I have written over several decades for first-year graduate-level courses -- typically with the title Formal Methods -- which included many other topics of mathematical logic and theoretical computer science. After combining these materials, I updated the references and adjusted the text to account for progress accomplished in the intervening years. The sample of open problems in the last section is a small collection of special cases that are still unresolved up until the date of this writing.</description>
     </item>
   </channel>
 </rss>

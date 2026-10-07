@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>CNet: A Complex-Valued Deep Learning Framework with Wirtinger Autodifferentiation and FFT--Hadamard Convolution</title>
+      <link>http://arxiv.org/abs/2610.08592v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08592v1</guid>
+      <pubDate>Tue, 06 Oct 2026 15:57:33 +0000</pubDate>
+      <description>CNet is a C++/CUDA framework for building and training deep complex-valued neural networks (CVNNs) and, more generally, for optimizing complex-valued functions by gradient descent with Wirtinger (CR-calculus) derivatives. It takes a physics-native stance: a network is a cascade of complex -- and often unitary (the DFT) -- operations acting on an amplitude vector, and classification is a Born-rule measurement $p_k = |z_k|^2 / \|z\|^2$ rather than a softmax over real logits. Every layer ships a CPU reference and a CUDA kernel checked against finite differences, and the computation graph is cloned across the batch for GPU execution. On top of the base layers we add signal-processing primitives that turn the identity conv(x,k) = IFFT(FFT(x) . FFT(k)) into a learnable complex convolutional network, together with a true-Adam optimizer and a reduced-memory inference mode. We report three studies. First, a fully complex-valued, FNet-style causal sequence model built on a new $O(N \log N)$ causal Fourier mixer -- a triangular-masked DFT evaluated by a Bluestein / chirp-z factorization: once properly tuned it matches or exceeds a parameter-matched real-valued causal FNet on character-level language modeling, reaching the real model's converged quality in under half the training steps. Second and third, bottleneck analyses on radio-modulation classification (RML2016.10a) and the Fourier phase problem of coherent-diffraction imaging, which isolate exactly where complex-valued networks still need new operators. Across all three the complex formulation provably learns the physically correct structure. Code: https://github.com/crasmarum/CNet</description>
+    </item>
+    <item>
+      <title>quantum-group: Exact symbolic verification of R-matrix and Yang--Baxter identities for $U_q(\mathfrak{sl}_2)$ and $GL_q(2|1)$</title>
+      <link>http://arxiv.org/abs/2610.07867v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.07867v1</guid>
+      <pubDate>Tue, 06 Oct 2026 07:14:17 +0000</pubDate>
+      <description>Explicit R-matrices of quantum groups are routinely transcribed from the literature, yet whether they satisfy an identity depends on basis order, tensor placement, the coproduct and, for superalgebras, the Koszul sign rule. quantum-group is a Python package that builds such matrices exactly with SymPy and returns every identity as an exact residual matrix, whose nonzero entries locate the convention that disagrees. It covers U_q(sl_2) modules, tensor products and the fundamental R-matrix, and the graded Yang--Baxter equation for GL_q(2|1). Applied to the thesis it was written for, it exposed an R-matrix that satisfies the Yang--Baxter equation but intertwines the opposite coproduct.</description>
+    </item>
+    <item>
       <title>A performance enhancement of the Payne-Hanek range reduction algorithm</title>
       <link>http://arxiv.org/abs/2609.35015v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.35015v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2505.14790</guid>
       <pubDate>Tue, 20 May 2025 00:00:00 -0000</pubDate>
       <description>Based on the recently proposed character theory of projective representations of finite groups proposed, we generalise several algorithms for computing character tables and matrices of irreducible linear representations to projective representations. In particular, we present an algorithm based on that of Burnside to compute the characters of all irreducible projective representations of a finite group with a given Schur multiplier, and transpose it to exact integer arithmetic following Dixon's character table algorithm. We also describe an algorithm based on that of Dixon to split a projective representation into irreducible subspaces in floating-point arithmetic, and discuss how it can be used to compute matrices for all projective irreps with a given multiplier. Our algorithms bypass the construction of the representation group of the Schur multiplier, which makes them especially attractive for floating-point computations, where exact values of the multiplier are not necessarily available.</description>
-    </item>
-    <item>
-      <title>LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations</title>
-      <link>https://arxiv.org/abs/2507.11542</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.11542</guid>
-      <pubDate>Fri, 09 May 2025 00:00:00 -0000</pubDate>
-      <description>This article introduces a software package release for geometrically reasoning about the \textit{safety} desiderata of (complex) dynamical systems via level set methods. In emphasis, safety is analyzed with Hamilton-Jacobi equations. In scope, we provide implementations of numerical algorithms for the resolution of Hamilton-Jacobi-Isaacs equations: the spatial derivatives of the associated value function via upwinding, the Hamiltonian via Lax-Friedrichs schemes, and the integration of the Hamilton-Jacobi equation altogether via total variation diminishing Runge-Kutta schemes. Since computational speed and interoperability with other modern scientific computing libraries (typically written in the Python language) is of essence, we capitalize on modern computational frameworks such as \texttt{CUPY} and \texttt{NUMPY} and move heavy computations to GPU devices to aid parallelization and improve bring-up time in safety analysis. We hope that this package can aid users to quickly iterate on ideas and evaluate all possible safety desiderata of a system via geometrical simulation in modern engineering problems.</description>
-    </item>
-    <item>
-      <title>Modeling and Analyzing Urban Networks and Amenities with OSMnx</title>
-      <link>https://arxiv.org/abs/2505.00736</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.00736</guid>
-      <pubDate>Wed, 30 Apr 2025 00:00:00 -0000</pubDate>
-      <description>OSMnx is a Python package for downloading, modeling, analyzing, and visualizing urban networks and any other geospatial features from OpenStreetMap data. A large and growing body of literature uses it to conduct scientific studies across the disciplines of geography, urban planning, transport engineering, computer science, and others. The OSMnx project has recently developed and implemented many new features, modeling capabilities, and analytical methods. The package now encompasses substantially more functionality than was previously documented in the literature. This article introduces OSMnx's modern capabilities, usage, and design -- in addition to the scientific theory and logic underlying them. It shares lessons learned in geospatial software development and reflects on open science's implications for urban modeling and analysis.</description>
     </item>
   </channel>
 </rss>

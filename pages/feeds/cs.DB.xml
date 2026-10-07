@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>When Plans Change Answers: Formalizing Cost-Accuracy Optimization for Semantic Queries</title>
+      <link>http://arxiv.org/abs/2610.08089v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08089v1</guid>
+      <pubDate>Tue, 06 Oct 2026 10:19:43 +0000</pubDate>
+      <description>In semantic query engines, predicates are evaluated by machine-learned models, and the choice of a query plan affects not only the cost of a query but also its result. Existing systems either apply a fixed threshold to each semantic operator or tune accuracy per operator, without accounting for how errors propagate through joins. We give a formal problem definition for cost-accuracy optimization of such queries. Our starting point is the calibrated confidence that decision models such as Jev attach to each decision. It yields an expected error for every decision; weighting these errors by each decision's contribution to the output (in the simplest case, its fan-out) gives the expected output quality of a plan without any labeled data, and the same computation in reverse turns an output-level accuracy target into a price on each base or intermediate tuple. Building on this, we define an oracle semantics for relational algebra with semantic operators, physical plans as pairs of a logical plan and a decision policy, declarative output-level targets, and a hierarchy of plan equivalence. We show that accuracy is plan-invariant under pointwise-deterministic policies, and that selection pushdown is not quality-sound when escalation bands are calibrated on the plan's own candidates. Expected quality can be computed in polynomial time under bag semantics; under set semantics it follows the dichotomy of tuple-independent probabilistic databases when every relation carries a semantic predicate. Choosing which tuples to drop is NP-hard, while the optimization problem decomposes into per-tuple decisions through two Lagrange multipliers. Simulations on a synthetic workload illustrate these effects; an evaluation on real engines is left for future work.</description>
+    </item>
+    <item>
       <title>Axient: Manifest-Bound Evidence for On-Chain Financial Protocols: Seven-Layer Derivation, Correlation, Tamper Rejection, and Reproducible Claim Promotion</title>
       <link>http://arxiv.org/abs/2610.02838v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02838v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2603.28777</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
       <description>No matter how much the world of computing changes, system design remains crucial. While most people try to learn it through quick tutorials or AI-generated summaries, there is no better way to master the field than by studying the original research papers. This book serves as a roadmap through those foundational texts, covering seminal papers in distributed systems, operating systems, and big data. It doesn't just look at what these systems do; it digs deep into why they were built that way. Built from years of notes taken during discussions at top universities and industry meetups, this guide helps readers understand how systems work under the hood. It is for those who are tired of surface-level content and want to develop the technical patience to wrestle with complex problem-solving. Readers will find the journey long and challenging but highly rewarding, as it enables them to elevate their engineering craft to a truly professional level.</description>
-    </item>
-    <item>
-      <title>Fifty Years of Transaction Processing Research (extended)</title>
-      <link>https://arxiv.org/abs/2605.20466</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.20466</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 -0000</pubDate>
-      <description>In this short paper, I recount some early history of transaction research (including some of my own), explain why transaction research continues to this day (even though it seems to be a solved problem), and speculate about its future. This is an extended version of the paper that appeared in the Companion of the 2025 International Conference on Management of Data (SIGMOD-Companion '25).</description>
     </item>
   </channel>
 </rss>
