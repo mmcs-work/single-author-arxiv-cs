@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Rectangular matrix multiplication from shared-leg entropy</title>
+      <link>http://arxiv.org/abs/2610.10494v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10494v1</guid>
+      <pubDate>Wed, 07 Oct 2026 17:46:39 +0000</pubDate>
+      <description>In this note, we extend the analysis underlying a recent matrix-multiplication result by OpenAI to rectangular products and prove that $ω(1,k,1)\le 2$ for $0\le k\le \frac{1}{2}$ and $ω(1,k,1)\le 1+k+\frac{1}{4k}$ for $k\ge \frac{1}{2}$. In particular, $ω(1,\frac{1}{2},1)=2$ and the dual exponent satisfies $α\ge \frac{1}{2}$. We use the shared-leg entropy inequality and polynomial-multiplication degenerations from that work, retaining two-leg symmetry and the orientation of each sector. Logarithmic averaging produces homogeneous auxiliary profiles. Their powered versions have a common asymptotic slope, and bounding their intercepts gives the spectral constraint $b\le 4a(1-a)$. This yields the rectangular curve by tensor-spectrum duality. As an application, Zwick's algorithm for all-pairs shortest paths in directed unweighted graphs runs in $O(n^{2.5})$ time. Combining the rectangular bound with the $(\min,+)$-product improvement of Alman and Vassilevska Williams further gives $O(n^{2.4999})$ running time.</description>
+    </item>
+    <item>
+      <title>Settling the Sample Complexity of Rényi Entropy Estimation</title>
+      <link>http://arxiv.org/abs/2610.10389v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10389v1</guid>
+      <pubDate>Wed, 07 Oct 2026 16:46:51 +0000</pubDate>
+      <description>Rényi entropy estimation has been comprehensively investigated by Acharya, Orlitsky, Suresh and Tyagi (SODA 2015; IEEE Trans. Inf. Theory 2017) and consequent works, whereas only the sample complexity of Rényi entropy estimation of integer order has been settled. In this paper, we settle the sample complexity of Rényi entropy estimation of noninteger order, thereby completing the complexity picture of Rényi entropy estimation. Specifically, we show that for any noninteger $α&gt; 0$, it is sufficient and necessary to use \[ Θ\!\left(\frac{d^{\max\{1/α,1\}}}{\varepsilon^{1/α}\log(d)} + \frac{d^{|1-1/α|}}{\varepsilon^2}\right) \] samples to estimate the Rényi entropy of order $α$ of an unknown discrete distribution over an alphabet of size $d$ to within additive error $\varepsilon$. For the upper bound, we reduce the bias using a refined polynomial approximation estimator for large probabilities. For the lower bound, we employ a different hard instance equipped with a new moment matching construction. The constructive moment matching has constant bounded high-order moments, while attaining a fixed ratio between the $α$-th moments, which is of independent interest.</description>
+    </item>
+    <item>
+      <title>Truly Sub-$3^n$ Min-Sum Subset Convolution and Join Ordering</title>
+      <link>http://arxiv.org/abs/2610.10282v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10282v1</guid>
+      <pubDate>Wed, 07 Oct 2026 15:48:10 +0000</pubDate>
+      <description>We present a deterministic reduction from min-sum subset convolution to min-plus matrix product. We show that if the min-plus product of two $D\times D$ matrices with $β$-bit integer entries can be computed in $D^{3-δ}\operatorname{poly}(β,\log D)$ time for a fixed rational $0&lt;δ&lt;1$, then min-sum subset convolution on an $n$-element universe can be solved in $(2+2^{-δ})^n 2^{O(\sqrt n\log(n+1))}\operatorname{poly}(n,β)$ time. Instantiating this reduction with the recent breakthrough on subcubic min-plus matrix product by Alman and Vassilevska Williams gives a Las Vegas algorithm with expected running time $O^*(2.9987^n)$ and a deterministic algorithm with running time $O^*(2.9997^n)$, strictly breaking the longstanding $3^n$ computational barrier. Notably, these speedups translate directly to database query optimization, yielding the same expected and deterministic running-time bounds for join ordering under the $C_{\mathrm{out}}$ cost function.</description>
+    </item>
+    <item>
+      <title>A deterministic algorithm for signing bipartite graphs at the Ramanujan bound</title>
+      <link>http://arxiv.org/abs/2610.09972v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.09972v1</guid>
+      <pubDate>Wed, 07 Oct 2026 12:40:17 +0000</pubDate>
+      <description>We give a deterministic polynomial-time algorithm for the Bilu--Linial signing problem on bipartite graphs. For every finite simple bipartite graph of maximum degree at most an integer $Δ\ge3$, the algorithm assigns signs to its edges so that the signed adjacency matrix has operator norm strictly less than $2\sqrt{Δ-1}$. Our algorithm builds on the randomized recursive repair framework of Jadbabaie, Saberi, and Sra~\cite{JSS26}, with deterministic rules for sign selection and vertex deletion.</description>
+    </item>
+    <item>
+      <title>An $n^{0.3+\varepsilon}$-Approximation for Steiner $k$-Forest</title>
+      <link>http://arxiv.org/abs/2610.09932v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.09932v1</guid>
+      <pubDate>Wed, 07 Oct 2026 12:17:15 +0000</pubDate>
+      <description>We give an $n^{0.3+\varepsilon}$-approximation algorithm for the Steiner $k$-Forest problem, for any constant $\varepsilon&gt;0$. As a function of $n$, this improves over the $O(\min\{\sqrt{n},\sqrt{k}\})$-approximation of Gupta et al. [ESA'07, TALG'10] which has stood for nearly two decades for the general case, as well as the later $n^{0.448}$-approximation of Dinitz et. al [APPROX-RANDOM'14, TALG'17] for the uniform weight case. On the other hand, we show that, due to lower bounds on the Densest $k$-Subgraph problem, the $O(\sqrt k)$-approximation for Steiner $k$-Forest likely cannot be improved. Specifically, we show that for any sufficiently small $\varepsilon&gt;0$, an $O(k^{1/2-\varepsilon})$-approximation for Steiner $k$-Forest would surpass known degree-$n^{Ω(\varepsilon^2)}$ Sum-of-Squares integrality gaps for Densest k-Subgraph and refute the corresponding dense-versus-random conjecture.</description>
+    </item>
+    <item>
+      <title>Fine-Grained Hardness of Approximating Dynamic Time Warping</title>
+      <link>http://arxiv.org/abs/2610.09233v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.09233v1</guid>
+      <pubDate>Tue, 06 Oct 2026 23:51:01 +0000</pubDate>
+      <description>We prove conditional lower bounds for approximating dynamic time warping (DTW) over the uniform metric on three symbols. Let $N, M$ be the two string lengths and $n, m$ their respective numbers of runs. Under the Gap Block Disjointness (GBD) hypothesis, for every fixed $κ\in (0,1/6)$ and $δ\in (0,1)$, no deterministic algorithm $N^{κδ}$-approximates DTW on two explicit strings of length $N$ in $O(N^{2-δ})$ time. This matches the known tradeoff between approximation and running-time exponents for deterministic algorithms within any fixed factor greater than six in the approximation exponent. For run-length encoded strings, the Orthogonal Vectors Hypothesis (OVH) rules out any constant-factor approximation in $\widetilde{O}((nm)^{1-δ})$ time for every constant $δ&gt;0$. More generally, for every fixed $η\in (0,1)$, it rules out $(N+M)^{1-η}$-approximation in the same running time. These bounds extend to every fixed metric with at least three points, including absolute distance on $\{0,1,2\}$. Both reductions use long runs to force equal-symbol matches in low-cost alignments. For explicit strings, we combine Boolean gadgets with deterministic gap amplification to obtain a polynomial approximation gap. For run-length encoded strings, an encoding of regular-expression membership gives accepting instances an alignment whose cost does not increase as selected runs grow. Rejecting instances have distance at least the chosen run length, while the number of runs stays fixed.</description>
+    </item>
+    <item>
       <title>Explicit tensors beyond the linear flattening barrier</title>
       <link>http://arxiv.org/abs/2610.08504v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.08504v1</guid>
@@ -661,48 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.07949v1</guid>
       <pubDate>Mon, 07 Sep 2026 20:10:27 +0000</pubDate>
       <description>We improve the best known lower bound on the integrality gap for weighted unit-demand multicommodity flow on trees from $1/4$ to $2/5$, improving on the long-standing bound of Chekuri, Mydlarz, and Shepherd~\cite{CMS}. We give the proof in two stages. First, a surprisingly simple packing lemma and an inductive coloring argument give an intermediate bound of $4/11$. We then refine the argument to obtain $2/5$.</description>
-    </item>
-    <item>
-      <title>Parallelizing the Factorial Space: 3x SIMD Acceleration of the Steinhaus-Johnson-Trotter Algorithm via Dual-Lane AVX2 Execution</title>
-      <link>http://arxiv.org/abs/2609.07862v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.07862v1</guid>
-      <pubDate>Mon, 07 Sep 2026 18:21:01 +0000</pubDate>
-      <description>This paper presents a high-performance SIMD acceleration framework for the Steinhaus-Johnson-Trotter permutation generation algorithm, targeted at modern x86-64 architectures using the AVX2 instruction set. By exploiting a novel combinatorial space partitioning with pre-calculated index offsets combined with single-cycle vector byte shuffling (_mm256_shuffle_epi8), our dual-lane vectorized implementation processes two independent, concurrent permutation streams within a single 256-bit YMM register under a uniform execution mask. Empirical evaluations demonstrate a 3$x$ performance throughput increase over both Donald Knuth's Algorithm P (TAOCP Vol 4A), which we previously accelerated by 3$x$ in scalar code, and the recent Ring-Cascade algorithm by Yusheng Hu. The proposed software architecture maintains cross-compiler compliance, completely avoids store-forwarding memory stalls during hot loops, and is validated up to order $n=11$ with a benchmark performance of ~1.27 billion CPU cycles for $n=13$ on native hardware.</description>
-    </item>
-    <item>
-      <title>Dasgupta's Hierarchical Clustering Objective: Geometry and the Price of the Cardinality Constraint</title>
-      <link>http://arxiv.org/abs/2609.07205v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.07205v1</guid>
-      <pubDate>Mon, 07 Sep 2026 08:26:31 +0000</pubDate>
-      <description>The cost of a hierarchical clustering can be represented by an ultrametric whose lowest-common-ancestor labels are cluster cardinalities. We relate this known representation to the shortest-path geometry of a similarity graph. For a connected support graph $G$, let $d_G$ be its unit-length shortest-path metric and let the edge weights enter only the objective. We prove that the shifted Dasgupta optimum is exactly the minimum edge-weighted cost of a cardinality-realizable ultrametric that dominates $d_G$. Connectedification lemmas put this problem and its freely labeled dominating-ultrametric relaxation on the same class of connected binary hierarchies, labeled respectively by cardinality and graph diameter. As a sharp baseline, we determine the exact worst-case price of cardinality realizability: on every $n$-vertex instance the ratio of the two optima is at most $(2n-1)/3$, with equality on the unweighted complete graph; the sharp factor for the standard unshifted objective is $2(n+1)/3$. Our principal structural result bounds this gap by a hereditary weighted fragmentation profile defined through connected balanced cuts. Uniform local control gives an $O(\log n)$ gap, polynomial decay gives a constant gap, and the logarithmic order is tight even for unweighted trees of maximum degree $3$. On locally regular bounded-degree trees, the hierarchy can be constructed in $O(n\log n)$ time. An energy decomposition and a geometric density bound provide supporting instance-sensitive estimates. Thus the cardinality label has an unavoidable linear worst case but admits substantially smaller bounds on natural sparse graph classes.</description>
-    </item>
-    <item>
-      <title>Almost Sharp Equivalence between Approximate Message Passing and Low-Degree Polynomials</title>
-      <link>http://arxiv.org/abs/2609.06988v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06988v1</guid>
-      <pubDate>Mon, 07 Sep 2026 03:29:39 +0000</pubDate>
-      <description>We prove a sharp lower bound for growing-degree polynomial estimation in the Gaussian planted submatrix model. The observation is $$ \boldsymbol{Y}= \fracλ{\sqrt{n}} \boldsymbolθ \boldsymbolθ^{\top}+\boldsymbol{W}, $$ where the coordinates of $\boldsymbolθ$ are independent $\mathsf{Ber}(ρ)$ variables and $\boldsymbol{W}$ is symmetric with independent standard Gaussian upper-triangular entries. For every fixed $λ&gt;0$ and $ρ\in(0,1)$, we give an explicit finite-dimensional bound implying that every sequence of polynomial estimators of degree $D(n)=o(n^{1/60})$ has normalized mean-square error with limit inferior at least $ρ-q_{\mathsf{amp}}/λ$, the limiting error of Bayes approximate message passing (AMP). This extends the constant-degree result of Montanari and Wein~\cite{montanari2025equivalence} for the Bernoulli prior. Combined with their polynomial approximation of fixed-iteration AMP, the bound identifies the exact limiting low-degree MMSE whenever $D(n)\to\infty$ within this range. It therefore resolves the Bernoulli rank-one case of the growing-degree AMP-equivalence question discussed in~\cite{wein2025computational, maleki2026high}. The proof constructs a low-degree certificate using \emph{conditional} joint cumulants of the signal coordinates and their products. Specifically, we condition on an auxiliary Gaussian channel $\boldsymbol{R}$ calibrated to the AMP fixed point. This retains signal dependence that is lost in unconditional cumulant bounds and produces the cancellations needed for quantitative control as the degree grows. Most of the arguments in this paper were generated using GPT-6 Astra.</description>
-    </item>
-    <item>
-      <title>Frequency Moments Beyond Equality: Streaming Cosine Density Moments</title>
-      <link>http://arxiv.org/abs/2609.06925v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06925v1</guid>
-      <pubDate>Mon, 07 Sep 2026 01:48:22 +0000</pubDate>
-      <description>For a stream of nonzero vectors $x_1,\ldots,x_n\in\mathbb{R}^d$, let $u_i=x_i/\|x_i\|_2$. We define the cosine density of the $i$-th stream element by $D_i:=\sum_{j\in[n]}\langle u_i,u_j\rangle$ and study the density moments $M_p:=\sum_{i\in[n]}D_i^p$ in both the signed- and nonnegative-cosine regimes. These quantities are similarity-aware analogues of classical frequency moments: replacing cosine similarity by equality (that is, $D_i = \sum_{j\in[n]} \mathbf{1}\{u_j = u_i\}$) gives $M_p=F_{p+1}$ and, in particular, $M_{-1}=F_0$, the number of distinct elements. We give one-pass streaming algorithms and lower bounds that are tight or nearly tight in their dependence on the dimension $d$. Our results thus extend several fundamental statistics from the classical data stream literature to cosine similarity, a widely used measure for comparing vector embeddings in modern AI systems. The main challenge in proving a space lower bound for nonnegative cosine is to eliminate unwanted contributions without relying on pairs of opposite vectors. We address this through a construction that we call \emph{equal-sum moment isolation}: two insertion-only prefixes have the same cardinality and vector sum, and a finite-difference comparison cancels their common baseline while isolating the desired higher-order signal. This proof framework may be useful for other insertion-only streaming lower bounds, where direct cancellation is not possible.</description>
-    </item>
-    <item>
-      <title>A Lower Bound of 21 for $3\times3$ Matrix Multiplication over $\mathbb{F}_2$</title>
-      <link>http://arxiv.org/abs/2609.06725v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06725v1</guid>
-      <pubDate>Sun, 06 Sep 2026 16:56:45 +0000</pubDate>
-      <description>We prove that $3\times3$ matrix multiplication over $\mathbb{F}_2$ has bilinear complexity at least $21$, improving the lower bound $20$. Lower bounds for restrictions of the first input constrain how many first factors of a decomposition can lie in each subspace. The strengthened restriction bounds force all first factors of matrix rank at least two into one coset of a three-dimensional rank-one subspace. An exhaustive computation finds no admissible first-factor profile with $20$ terms. We also prove that $2\times3$ by $3\times3$ matrix multiplication over $\mathbb{F}_3$ has rank exactly $15$: three profiles survive the corresponding computation, and short restriction arguments exclude them. We combine Wang's automated framework for tensor-rank lower bounds with D'Ambrosio's capacity-and-profile strategy. Our computational contributions are rank-one-span searches that strengthen the subspace lower-bound table and a direct, symmetry-reduced profile enumerator that enforces all subspace capacities simultaneously.</description>
-    </item>
-    <item>
-      <title>Tunnelling with a reference</title>
-      <link>http://arxiv.org/abs/2609.06596v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06596v1</guid>
-      <pubDate>Sun, 06 Sep 2026 13:27:13 +0000</pubDate>
-      <description>We show how to modify Baier's tunnelling for the case in which we have a non-repetitive and relatively short reference for a highly repetitive and much longer text. Given a pattern that mostly matches only one substring of the reference, we can use fairly small auxiliary data structures to speed up backward searching with an r-index for the whole text.</description>
     </item>
   </channel>
 </rss>

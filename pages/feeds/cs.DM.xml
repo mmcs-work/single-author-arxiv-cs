@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Mixing Times of Switch Chains via High-Dimensional Expansion</title>
+      <link>http://arxiv.org/abs/2610.09506v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.09506v1</guid>
+      <pubDate>Wed, 07 Oct 2026 06:05:44 +0000</pubDate>
+      <description>The switch chain is a Markov chain defined on the set of labelled realizations of a given graphical degree sequence. At each step, a pair of vertex-disjoint edges is chosen at random and the process attempts to replace them with a uniformly chosen perfect matching of the same four vertices, rejecting any proposal that would create a multiple edge. The resulting process is reversible with respect to the uniform distribution on all realizations. We investigate the mixing time of this chain by viewing realizations as the facets of a simplicial complex and studying a variant of the original process called the simplicial switch chain, which we analyze using tools from the theory of high-dimensional expansion. Our technical contributions include a proof that links of faces of sufficiently high codimension are strong spectral expanders and a comparison between the Dirichlet energies of large block updates and two-edge updates. Our main result is an $O(Δ^{2}m\log m)$ bound on the mixing time of both simplicial and classical switch chains whenever $m\ge CΔ^{8}$, where $m$ is the number of edges, $Δ$ is the maximum prescribed degree, and $C&gt;0$ is an absolute constant. For sequences on $n$ vertices with fixed maximum degree, this proves that the chain mixes in $O(n\log n)$ steps, resolving a longstanding conjecture of Cooper, Dyer, and Greenhill and extending its conclusion to irregular degree sequences.</description>
+    </item>
+    <item>
+      <title>An Efficient Algorithm for the Quickest Path Reliability Problem</title>
+      <link>http://arxiv.org/abs/2610.09175v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.09175v1</guid>
+      <pubDate>Tue, 06 Oct 2026 22:18:52 +0000</pubDate>
+      <description>The quickest path reliability problem is to compute the probability that a given flow is transmitted along a single source-destination path within a given time limit. When a budget is imposed, path feasibility is jointly dependent on lead time, transmission cost, and capacity. Existing exact methods may require enumeration of all minimal paths a priori or examination of many partial paths that cannot be completed feasibly. In this paper, we propose an exact algorithm that generates the corresponding lower boundary state vectors without first enumerating minimal paths. Shortest-lead-time, least-cost, and widest-capacity information yield admissible destination-based bounds. Stronger capacity-aware bounds are derived from capacity-filtered subnetworks. These bounds allow early pruning of infeasible branches while keeping all solutions. The algorithm generates the exact complete set of lower bounds without any duplicates, and its correctness and computational complexity are proven.</description>
+    </item>
+    <item>
+      <title>Distinguishing graphs with simple spectrum by homomorphism counts</title>
+      <link>http://arxiv.org/abs/2610.09042v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.09042v1</guid>
+      <pubDate>Tue, 06 Oct 2026 19:43:12 +0000</pubDate>
+      <description>We study which graph classes determine every graph with simple spectrum up to isomorphism by homomorphism counts from their members. We show that such a class has unbounded treewidth and Euler genus and contains a graph with the complete graph on seven vertices as a minor. To prove these conditions, we construct pairs of non-isomorphic cospectral graphs with simple spectrum, each bipartite, nonsingular and of maximum degree at most six. The construction attaches rooted trees to Cai-Furer-Immerman graphs and preserves homomorphism indistinguishability over every minor-closed class. We then prove that subcubic homomorphism counts determine every graph whose adjacency matrix has kernel dimension at most one. This extends the known result for nonsingular graphs and applies to all graphs with simple spectrum. We also prove that two graphs have the same subcubic homomorphism counts if and only if they have the same number of vertices and there is a bijective linear isometry between the images of their adjacency matrices that intertwines the adjacency operators and preserves the coordinatewise trilinear forms. Finally, we prove that homomorphism counts from the single-vertex graph and from subdivisions of any sequence of connected cubic graphs have the same distinguishing power as subcubic homomorphism counts if every complete graph is a minor of some member of the sequence.</description>
+    </item>
+    <item>
+      <title>A symmetric conference matrix of order 86</title>
+      <link>http://arxiv.org/abs/2610.08893v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.08893v1</guid>
+      <pubDate>Tue, 06 Oct 2026 16:31:33 +0000</pubDate>
+      <description>We construct a symmetric conference matrix of order $86$, the smallest order for which existence was open. Equivalently, there exist a conference graph with parameters $(85,42,20,21)$, a regular two-graph on $86$ points, and a real equiangular tight frame of $86$ vectors in $\mathbb{R}^{43}$. The matrix is a $12\times12$ array of $7\times7$ circulants with two border rows, and it admits a group of automorphisms of order $21$. Its $86$ descendants give exactly ten nonisomorphic strongly regular graphs.</description>
+    </item>
+    <item>
       <title>A note on the list chromatic number of two matroids</title>
       <link>http://arxiv.org/abs/2610.07318v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.07318v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2402.15076</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
       <description>Given a graph $G$ with a vertex threshold function $τ$, consider a dynamic process in which any inactive vertex $v$ becomes activated whenever at least $τ(v)$ of its neighbors have been activated. A vertex set $S$ is called a target set if all vertices of $G$ would eventually be activated when initially activating exactly the vertices of $S$. In the Minmax Target Set Reconfiguration problem, for a graph $G$ and a pair of its target sets $X$ and $Y$, we wish to transform $X$ into $Y$ by repeatedly adding or removing a single vertex, using only target sets of $G$, so as to minimize the maximum size of any intermediate target set. We prove that it is $\mathbf{NP}$-hard to approximate Minmax Target Set Reconfiguration within a factor of $2-o\left(\frac{1}{\operatorname{polylog} n}\right)$, where $n$ is the number of vertices. Our result establishes a tight lower bound on approximability of Minmax Target Set Reconfiguration, which admits a simple $2$-factor approximation algorithm. The proof is based on a gap-preserving reduction from Target Set Selection to Minmax Target Set Reconfiguration, where $\mathbf{NP}$-hardness of approximation for the former problem is proven by Chen (SIDMA 2009) and Charikar, Naamad, and Wirth (APPROX/RANDOM 2016).</description>
-    </item>
-    <item>
-      <title>Symmetric lexicographic symmetric-subset reverse search for the enumeration of circuits, cocircuits, and triangulations up to symmetry</title>
-      <link>https://arxiv.org/abs/2607.05967</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.05967</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 -0000</pubDate>
-      <description>This paper introduces, analyzes, and applies variants of the enumeration framework symmetric lexicographic symmetric-subset reverse search for the enumeration of symmetric feasible subsets of a finite set up to symmetry. The framework is implemented in detail for three applications: cocircuits, circuits, and triangulations of point configurations. There are two new methods presented and analyzed to check the lexicographic minimality of a subset in its orbit: the critical-element method and the modified switch-table method. Moreover, new application-dependent methods to reduce the number of necessary enumeration nodes are introduced: rank-pruning for cocircuits and lex-pruning for triangulations. With a C++-implementation of the ideas in the software package TOPCOM, in all three applications known benchmarks can be computed faster by a large margin. The following new numbers could be computed for the first time (among others): the number of cocircuits of the 9-cube, the number of circuits of the 8-cube, and the number of all triangulations of the product of a 5- and a 3-simplex, as well as the number of all triangulations of a point configuration in dimension six with 17~points with disconnected flip-graph (constructed by Santos). Moreover, for Santos's triangulation it has computationally been checked that its flip-graph component is indeed purely non-regular. Furthermore, in another instance in dimension five with 26 points (also constructed by Santos), a flaw has been detected: Santos's triangulation can be heuristically flipped to a regular triangulation in the original point configuration. In a mildly modified version of the point configuration, the heuristics cannot flip Santos's triangulation to a regular triangulation anymore.</description>
-    </item>
-    <item>
-      <title>Branching $k$-path vertex cover of forests</title>
-      <link>https://arxiv.org/abs/2601.02685</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.02685</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We define a set $P$ to be a branching $k$-path vertex cover of an undirected forest $F$ if all leaves and isolated vertices (vertices of degree at most $1$) of $F$ belong to $P$ and every path on $k$ vertices (of length $k-1$) contains either a branching vertex (a vertex of degree at least $3$) or a vertex belonging to $P$. We define the branching $k$-path vertex cover number of an undirected forest $F$, denoted by $ψ_b(F,k)$, to be the number of vertices in the smallest branching $k$-path vertex cover of $F$. These notions for a rooted directed forest are defined similarly, with natural adjustments. We prove the lower bound $ψ_b(F,k) \geq \frac{n+3k-1}{2k}$ for undirected forests, the lower bound $ψ_b(F,k) \geq \frac{n+k}{2k}$ for rooted directed forests, and that both of them are tight.</description>
-    </item>
-    <item>
-      <title>A note on vector trifferent codes over the Sphere</title>
-      <link>https://arxiv.org/abs/2608.04256</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.04256</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Let $S^2\subset \mathbb R^3$ be the unit sphere. A set $C\subset (S^2)^n$ is called vector trifferent if for every three distinct $x,y,z\in C$ there is a coordinate $i$ for which $x_i,y_i,z_i$ are mutually orthogonal. Bhandari and Khetan recently introduced this vectorial analogue of trifferent codes and proved the upper bound $|C|\le (\sqrt 2+o(1))(3/2)^n$. We improve the bound to: \[ |C|\le (1+o(1))\left(\frac32\right)^n . \] The new ingredient in the proof is a local packing inequality obtained by two-coloring, around each codeword, the circles of vectors orthogonal to the corresponding coordinates. This replaces a global tensor-space bound by a centered estimate and gives exactly the missing factor in the leading constant.</description>
-    </item>
-    <item>
-      <title>An Improved Upper Bound for the Strong Odd Chromatic Number of Planar Graphs</title>
-      <link>https://arxiv.org/abs/2608.03522</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.03522</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 -0000</pubDate>
-      <description>A proper coloring of a graph is called a strong odd coloring if, for every vertex \(v\) and every color appearing in the open neighborhood of \(v\), that color appears an odd number of times in \(N(v)\). The corresponding minimum number of colors is the strong odd chromatic number, denoted by \(χ_{\mathrm{so}}(G)\). Caro et al.~\cite{CaroPetrusevskiSkrekovskiTuzaStrongOdd} proved that every planar graph has strong odd chromatic number at most \(388\). Manattu et al.~\cite{ManattuVinayLakshmanan2026} later constructed planar graphs with strong odd chromatic number \(17\) and asked whether larger values are possible and whether the upper bound \(388\) can be improved. We address these questions as follows. First, we improve the general upper bound by proving that every planar graph \(G\) satisfies \(χ_{\mathrm{so}}(G)\le 368\). This follows by improving the auxiliary proper facially odd coloring bound for loopless \(2\)-connected plane multigraphs from \(97\) colors to \(92\) colors and combining this with the reduction of Caro et al. and the Four Color Theorem. Second, we give a different explicit planar construction with \(χ_{\mathrm{so}}(G)=20\), together with a self-contained proof of the exact value. We emphasize that Goetze et al.~\cite{GoetzeKluteKnauerParadaPenaUeckerdt2025} had already posted an arXiv preprint in May 2025 containing a planar example with strong odd chromatic number \(20\). Thus our construction is not a priority claim for the value \(20\), but rather an independent and fully verified construction whose value exceeds \(17\), the value that motivated Problem~1 of Manattu et al.</description>
     </item>
   </channel>
 </rss>

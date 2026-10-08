@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Asymptotic Subsidies for Envy-Free Allocation</title>
+      <link>http://arxiv.org/abs/2610.10272v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10272v1</guid>
+      <pubDate>Wed, 07 Oct 2026 15:40:29 +0000</pubDate>
+      <description>We study the minimum monetary subsidy required for exact envy-freeness in allocating $m_n$ indivisible goods to $n$ agents. Valuations are additive, item values are i.i.d. from a distribution on $[0,1]$ with density bounded above and away from zero, and all agents value money equally. We consider $n\to\infty$ with $m_n=qn+r_n$, where $q\ge0$ is a fixed integer and $0\le r_n&lt;n$. For the nonzero-remainder case where $1\le r_n&lt;n$, we give a cubic-time algorithm based on a maximum-weight matching of balanced bundles and complementary dual prices. It returns an envy-free outcome for every instance. Under the random model, both its payment and the unrestricted minimum are $n-r_n+o_p(n)$ for $q\ge1$. When $q=0$ and $r_n/n$ converges to a limit below one, the error term improves to $O_p(1)$. For exact divisibility, where $r_n=0$, prior work gives zero subsidy with high probability for $q\ge2$. The square case $q=1$ is exceptional. Its minimum subsidy is $Θ_p(\log n)$ and, with high probability, equals the optimum over allocations in which every agent receives exactly one good. This restricted optimum can be computed in cubic time using a maximum-weight perfect matching and all-pairs shortest paths. Together, these results provide a unified asymptotic characterization of the minimum subsidy.</description>
+    </item>
+    <item>
       <title>Stochastic Gradient Descent Ascent is Suboptimal for Nonconvex-PL Min-Max Games</title>
       <link>http://arxiv.org/abs/2610.07814v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.07814v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.11500</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
       <description>Full justified representation (FJR) is among the strongest known satisfiable proportionality axioms for approval-based committee elections. Recent work has shown that an FJR committee can be found in polynomial time, but verifying whether a given committee satisfies FJR remains coNP-complete. We introduce FJR+, a strict strengthening of FJR and EJR+ that can be verified and satisfied in polynomial time. We then analyze the Residual-Budget Greedy (RBG) algorithm and prove that it selects a partial committee such that every size-$k$ completion satisfies FJR+. This freedom allows us to use sequential Phragmén to obtain a priceable completion. The resulting rule always satisfies FJR+ and the sub-core, and it is priceable whenever at least $k$ candidates receive an approval. We also obtain a Droop-quota version of FJR+. Finally, we extend FJR+ to approval-based participatory budgeting with arbitrary project costs. A project-specific version of RBG computes this property in polynomial time and can be continued to a priceable outcome satisfying a cost-based version of the sub-core.</description>
-    </item>
-    <item>
-      <title>Competitive mediator games and urban CAV routing markets</title>
-      <link>https://arxiv.org/abs/2608.09894</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.09894</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Inspired by possible future markets of autonomous routing and driving (ARAD), we introduce competitive mediator games and their equilibria which generalize the (coarse) correlated equilibria, which have become a popular research area recently as they not only can be more socially efficient than Nash equilibria but also are limits of algorithmic no-regret multi-agent learning dynamics. We discuss the basic properties of competitive mediator games and prove that in the generic setting of anonymous congestion(routing) games with market-share maximizing mediators all competitive mediator equilibria are monopolies whenever one of the mediators is weakly preferred to other mediators by all users. We apply and interpret these results in the context of new markets of competing ARAD service providers. We also provide a comprehensive overview of these markets and discuss the future mechanism design thereof.</description>
     </item>
   </channel>
 </rss>
