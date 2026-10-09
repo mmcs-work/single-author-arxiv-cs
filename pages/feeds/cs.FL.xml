@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Non-recursive trade-offs for two-way machines</title>
+      <link>http://arxiv.org/abs/2610.11969v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11969v1</guid>
+      <pubDate>Thu, 08 Oct 2026 13:46:21 +0000</pubDate>
+      <description>If the machines of some type A have enough resources to (i) solve problems that no machine of type B can solve, and (ii) simulate any unary two-way deterministic finite automaton that has access to a linearly-bounded counter, then typically no recursive function can upper bound the increase in the size of description when a machine of type A is replaced by an equivalent machine of type B.</description>
+    </item>
+    <item>
+      <title>From k+1 to k heads the descriptive trade-off is non-recursive</title>
+      <link>http://arxiv.org/abs/2610.11958v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11958v1</guid>
+      <pubDate>Thu, 08 Oct 2026 13:41:25 +0000</pubDate>
+      <description>We prove that no recursive function can upper bound the increase in the size of description when a two-way deterministic finite automaton with k+1 heads is replaced by an equivalent two-way deterministic finite automaton with k heads. This is true for all k, and remains true if the automata are unary and/or nondeterministic.</description>
+    </item>
+    <item>
+      <title>Conjugacy problems in higher-dimensional Thompson groups</title>
+      <link>http://arxiv.org/abs/2610.11124v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11124v1</guid>
+      <pubDate>Thu, 08 Oct 2026 02:50:27 +0000</pubDate>
+      <description>We prove that topological conjugacy of elements of the Brin--Thompson group $nV$ is undecidable for every $n\geq2$. From a Turing machine $T$, the reduction produces two elements of $nV$, which are conjugate by an involution in $nV$ if $T$ halts on the empty tape. If $T$ does not halt on the empty tape, the topological dynamics of the two group elements are distinguished by their visits to minimal subsystems of the set of (germ-)aperiodic points. In these groups, and any finitely-generated supergroups inside the homeomorphism group of Cantor space, we also obtain undecidability of the Whitehead problem (the problem of being in the same automorphism orbit), and undecidability of group-theoretic conjugacy.</description>
+    </item>
+    <item>
       <title>A repeating sequence of simple rules creates a universal computer</title>
       <link>http://arxiv.org/abs/2610.09879v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.09879v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.28570</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
       <description>We prove that every concatenation of $10$ or more binary squares contains an overlap. The bound $10$ is best possible. In contrast, over a ternary alphabet, there are infinitely long overlap-free words that consist of a concatenation of squares.</description>
-    </item>
-    <item>
-      <title>AGDES: Automatic Generation of Dependent Event Sequences</title>
-      <link>https://arxiv.org/abs/2605.23808</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.23808</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 -0000</pubDate>
-      <description>This note presents AGDES, a tool for Automatic Generation of Dependent Event Sequences. Each event sequence is either generated as the output word of a deterministic finite automaton (DFA), or produced as the output word of a DFA called transducer that reads events from one or more input sequences, and produces an output sequence.</description>
-    </item>
-    <item>
-      <title>Combinatorial manifolds and Kleene's theorem, homotopically</title>
-      <link>https://arxiv.org/abs/2605.21142</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.21142</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
-      <description>We give a general method to build categories of combinatorial manifolds, i.e. categories of combinatorial objects satisfying some local property at every "point", as coreflective subcategories of categories of relational presheaves. To do this, we crucially rely on unique factorization systems, and we can interpet our technique as a way of building a model category whose cofibrant objects are exactly the combinatorial manifolds. We then illustrate the usefulness of this point of view by two applications. First we build a category of euclidean precubical sets, i.e. precubical sets that locally look like a grid (of some fixed dimension), and show that it is coreflective in the category of relational precubical sets. This is the combinatorial analog of eulidean locally ordered spaces and the blowup construction from directed topology. Secondly, we show how to give an abstract proof of Kleene's theorem from automata theory by defining "manifold automata" that behave well with respect to concatenation.</description>
-    </item>
-    <item>
-      <title>The Generation-Recognition Asymmetry: Six Dimensions of a Fundamental Divide in Formal Language Theory</title>
-      <link>https://arxiv.org/abs/2603.10139</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.10139</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
-      <description>Every formal grammar defines a language and can in principle be used in three ways: to generate strings (production), to recognize them (parsing), or -- given only examples -- to infer the grammar itself (grammar induction). Generation and recognition are extensionally equivalent -- they characterize the same set -- but operationally asymmetric in multiple independent ways. Inference is a qualitatively harder problem: it does not have access to a known grammar. Despite the centrality of this triad to compiler design, natural language processing, and formal language theory, no survey has treated it as a unified, multidimensional phenomenon. We identify six dimensions along which generation and recognition diverge: computational complexity, ambiguity, directionality, information availability, grammar inference, and temporality. We show that the common characterization "generation is easy, parsing is hard" is misleading: unconstrained generation is trivial, but generation under constraints can be NP-hard. The real asymmetry is that parsing is always constrained (the input is given) while generation need not be. Two of these dimensions -- directionality and temporality -- have not previously been identified as dimensions of the generation-recognition asymmetry. We connect the temporal dimension to the surprisal framework of Hale (2001) and Levy (2008), arguing that surprisal formalizes the temporal asymmetry between a generator (surprisal = 0) and a parser that predicts under uncertainty (surprisal &gt; 0). We review bidirectional systems in NLP and observe that bidirectionality has been available for fifty years yet has not transferred to most domain-specific applications. We conclude with a discussion of large language models, which architecturally unify generation and recognition while operationally preserving the asymmetry.</description>
     </item>
   </channel>
 </rss>

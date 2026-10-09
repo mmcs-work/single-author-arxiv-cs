@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Bayes Rule for Conditioning Probabilistic Programs</title>
+      <link>http://arxiv.org/abs/2610.10792v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10792v1</guid>
+      <pubDate>Wed, 07 Oct 2026 18:51:37 +0000</pubDate>
+      <description>Probabilistic programs provide a rigorous programming-language foundation for expressing rich probabilistic models and offer language-level support for solving challenging statistical inference problems. A key theoretical challenge that probabilistic programs inherit from probability theory is conditioning a probability distribution on an observation that has probability zero. Many languages address this challenge by using computational rules for conditioning that may work well for some problems but are statistically unsound for others. This article introduces a principled mathematical approach for conditioning probabilistic programs. We first show that existing techniques based on "soft conditioning" and "neighborhood limits" exhibit semantic issues from the perspective of measure theory and produce inference results that disagree with sound statistical reasoning. By leveraging tools from geometric measure theory, we construct a novel disintegration-based semantics for probabilistic program traces that enables sound conditioning. The theory delivers an explicit Bayes rule representation of the conditional distribution, which is directly compatible with widely used probabilistic inference algorithms that require access to unnormalized posterior densities. Our Bayes rule handles probabilistic models with loops, branches, discrete, continuous, and mixed-type distributions, observations on manifolds, differentiable structure, and additional modeling motifs that arise in practice.</description>
+    </item>
+    <item>
       <title>A Complete, Formal Semantics for Rust Source Code</title>
       <link>http://arxiv.org/abs/2610.06003v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.06003v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.21167</guid>
       <pubDate>Fri, 19 Jun 2026 00:00:00 -0000</pubDate>
       <description>This experience report describes the Codex-assisted completion and stabilization of a substantial Rocq (formerly Coq) proof development for CertiGC, the verified generational garbage collector in the CertiGraph project. The development extends the collector from an effectively immutable setting to a mutable one by adding remembered-set forwarding to the collection path and re-establishing the top-level graph-isomorphism correctness theorem. The central technical issue was not low-level proof scripting alone: mutable updates invalidate the old global no-backward-edge assumption, so the proof had to be reorganized around a recorded-backward-edge invariant stating that every backward edge is recorded in the appropriate remembered-set component. This case differs from recent AI-assisted formal-proof accounts: unlike the adaptation of a nearby compilerproof architecture or a fresh metatheory formalization, it completes a long-running verification in a mature codebase built on the Verified Software Toolchain (VST) and CertiGraph, both mechanized in Rocq. The Rocq kernel remained the arbiter of correctness, while our role shifted toward adjudicating invariant proposals, constraining specification changes, reviewing theorem statements, and deciding when proof cleanup was justified. The Codex-assisted phase repaired the VST relation proofs first, then restored the mathematical graph-isomorphism theorem, and only then audited the premise path from the VST specification to the theorem. That audit found and removed a stale no-backward-edge condition from the VST-facing proof path. This report presents the workflow, resulting proof artifact, and lessons for agentic proof maintenance.</description>
-    </item>
-    <item>
-      <title>Effect Systems as Abstract Interpretations</title>
-      <link>https://arxiv.org/abs/2606.19686</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.19686</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Many forms of static reasoning about program behaviours are known in the literature, yet formal relationships are studied surprisingly infrequently. While most type systems are well-known to be captured by abstract interpretations, the situation for type-and-effect systems is, in the general case, unsettled despite strong hypotheses and occasional framing of effect systems as abstract interpretations. We develop a formal relationship between abstract interpretations and a general class of effect systems. First, we describe an embedding of effect quantales into abstract domains. Second, we recover the general form of an effect quantale as an abstract interpretation -- not on states or values, but on event occurrences.</description>
     </item>
   </channel>
 </rss>

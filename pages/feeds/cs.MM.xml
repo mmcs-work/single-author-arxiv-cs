@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Controlled Acquisition and Abstention in Three-Channel Score Conflicts</title>
+      <link>http://arxiv.org/abs/2610.10808v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10808v1</guid>
+      <pubDate>Wed, 07 Oct 2026 19:09:30 +0000</pubDate>
+      <description>When audio, video, and text disagree, accuracy alone does not show whether to acquire another source or abstain. We study these choices in a controlled three-score benchmark: a policy observes two signed scores, may request the third at a cost, and can abstain. The primary reward is mechanism-specific: abstention is correct only for one designated ambiguity mechanism and is penalized under mixed corruption. Matched controls show that a threshold policy matches always-request decisions with fewer requests; its advantage over always-answer fusion depends on the reward assigned to that ambiguity. On a partially held-out synthetic split, the threshold policy reaches 0.789 +/- 0.006 targeted decision accuracy and 0.481 +/- 0.014 utility across 83 seeds. A three-score majority reference reaches 0.626 +/- 0.008 and 0.252 +/- 0.016, but uses more information. In a matched-budget test, a train-only value selector improves utility over no-query and matched-random policies at 10% and 25% budgets, while pair uncertainty has higher utility at every budget. At 50% and 63.7% budgets, the selector lowers utility despite slightly higher non-ambiguous accuracy. If all abstentions are scored incorrect, majority outranks the threshold policy in utility. At a central temporal setting, full-trace controls match the neural models while position perturbations separate them. On held-out-actor emotion clips, eight-frame fusion has opposite-signed accuracy differences for two encoder pairs, with both actor intervals containing zero; matched-request routing gains are small and uncertain. These results separate full-modality accuracy from pre-request selection value and show that selection value depends on budget and the observed-pair ranking.</description>
+    </item>
+    <item>
+      <title>A Camera-Native Stereo VR180 Dataset</title>
+      <link>http://arxiv.org/abs/2610.10607v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10607v1</guid>
+      <pubDate>Wed, 07 Oct 2026 03:20:07 +0000</pubDate>
+      <description>Immersive VR180 video is increasingly produced with professional stereo fisheye cameras, yet public VR180 research resources are mostly collected from online platforms such as YouTube: already stitched, projected and compressed by unknown pipelines, and without lens calibration. We present a firsthand-captured stereo VR180 dataset recorded with two Blackmagic URSA Cine Immersive cameras. It contains 1,211 samples -- 636 stereo video clips (2,220.8 s, mostly 90 fps) and 575 stereo stills -- each released as camera-native Blackmagic RAW, separate-eye native fisheye HEVC (8160x7200 per eye) and half-equirectangular HEVC (7200x7200 per eye), together with the factory lens calibration, portable fisheye/half-equirectangular conversion tools and AI-generated scene and visual-challenge annotations. Re-encoding the released fisheye and half-equirectangular renders with x265 over 24 clips, both eyes, four rate points and nine viewing directions, native-fisheye coding needed more bitrate than half-equirectangular coding at equal viewport quality for all 24 clips (median +38%), in every part of the field of view. Data: https://huggingface.co/datasets/lulinxuan/VR180 ; code: https://github.com/lulinxuan/vr180-dataset-tools</description>
+    </item>
+    <item>
       <title>Qwen3.8-Omni: Towards Native Omni-Modal Agents</title>
       <link>http://arxiv.org/abs/2609.25611v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.25611v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2412.14176</guid>
       <pubDate>Tue, 03 Dec 2024 00:00:00 -0000</pubDate>
       <description>Big data visualization - the visual-spatial display of quantitative information culled from huge data sets - is now firmly embedded within the everyday experiences of people across the globe, yet scholarship on it remains surprisingly small. Within this literature, critical theorizations of big data visualizations are rare, as digital positivist perspectives dominate. This paper offers a critical, design-informed perspective on big data visualization in wearable health tracking ecosystems like FitBit. I argue that such visualizations are tools of individualized, neoliberal governance that operate largely through experiences of seduction and addiction to facilitate participation in the corporate capture and monetization of personal information. Exploration of my personal experience of the FitBit ecosystem illuminates this argument and emphasizes the capacity for harm to individuals using these ecosystems, leading to an exploration of the complex professional challenges for user experience designers working on visualizations within the ecosystems of wearables.</description>
-    </item>
-    <item>
-      <title>Embedded Blockchains: A Synthesis of Blockchains, Spread Spectrum Watermarking, Perceptual Hashing &amp; Digital Signatures</title>
-      <link>https://arxiv.org/abs/2009.00951</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2009.00951</guid>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0000</pubDate>
-      <description>In this paper we introduce a scheme for detecting manipulated audio and video. The scheme is a synthesis of blockchains, encrypted spread spectrum watermarks, perceptual hashing and digital signatures, which we call an Embedded Blockchain. Within this scheme, we use the blockchain for its data structure of a cryptographically linked list, cryptographic hashing for absolute comparisons, perceptual hashing for flexible comparisons, digital signatures for proof of ownership, and encrypted spread spectrum watermarking to embed the blockchain into the background noise of the media. So each media recording has its own unique blockchain, with each block holding information describing the media segment. The problem of verifying the integrity of the media is recast to traversing the blockchain, block-by-block, and segment-by-segment of the media. If any chain is broken, the difference in the computed and extracted perceptual hash is used to estimate the level of manipulation.</description>
-    </item>
-    <item>
-      <title>Generative AI for Music and Audio</title>
-      <link>https://arxiv.org/abs/2411.14627</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2411.14627</guid>
-      <pubDate>Thu, 21 Nov 2024 00:00:00 -0000</pubDate>
-      <description>Generative AI has been transforming the way we interact with technology and consume content. In the next decade, AI technology will reshape how we create audio content in various media, including music, theater, films, games, podcasts, and short videos. In this dissertation, I introduce the three main directions of my research centered around generative AI for music and audio: 1) multitrack music generation, 2) assistive music creation tools, and 3) multimodal learning for audio and music. Through my research, I aim to answer the following two fundamental questions: 1) How can AI help professionals or amateurs create music and audio content? 2) Can AI learn to create music in a way similar to how humans learn music? My long-term goal is to lower the barrier of entry for music composition and democratize audio content creation</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Universal Construction and Exact Self-Reproduction in Ternary McCulloch-Pitts Networks</title>
+      <link>http://arxiv.org/abs/2610.12251v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.12251v1</guid>
+      <pubDate>Thu, 08 Oct 2026 16:25:05 +0000</pubDate>
+      <description>A fixed network of McCulloch-Pitts threshold units with weights in {-1,0,1} can hold other threshold networks in its state and run them: the state is a ring of banks of records, each record a unit of a stored network, and each step evaluates one record. We use such a network to carry out von Neumann's universal construction and self-reproduction exactly. As a cellular automaton keeps its rule, the fixed network keeps its weights, and what reproduces is a stored network. A constructor of 143 records reads the description of a network from its tape, builds that network in the next bank, copies the description onto the next tape and hands control to what it built; started on its own description, it rebuilds itself, weights included, in every generation. The scheme scales to a universal computer. A SUBLEQ computer of 17,598 ternary units, stored as 36,080 records and running a program of 27 instructions, builds any network that fits a bank and reproduces itself in the same way, at every word width from eight bits on; run directly, it emits the serialization of its own weights, memory and tape. Integer pre-activations give every orbit a margin of 1/2, and replicating each unit r times multiplies it by r. That suffices against noise of any size on the pre-activations, but against von Neumann's output flips only below a threshold inversely proportional to the fan-in. These results are proved in Rocq.</description>
+    </item>
+    <item>
+      <title>Decomposition Profiles and Weisfeiler-Leman Dimension for Graphs of Bounded Rank Width</title>
+      <link>http://arxiv.org/abs/2610.10800v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10800v1</guid>
+      <pubDate>Wed, 07 Oct 2026 18:58:35 +0000</pubDate>
+      <description>The Weisfeiler-Leman (WL) algorithm tests graph isomorphism by assigning colours to $d$-tuples of vertices and iteratively refining the colouring according to neighbourhood configurations until it stabilizes. Increasing $d$ allows the test to detect finer structural differences between graphs, but the computational cost grows exponentially with $d$. The central question is which dimension allows us to distinguish nonisomorphic graphs. We relate a sufficient such dimension to the structure of a graph $G$ through a rank decomposition over $\mathbb F_2$. The two parameters governing the bound are the maximum cut rank $w$ and the fork load $\ell$, which is the largest sum of the parent and two child cut ranks at a fork in the decomposition tree. We prove that WL in dimension $\max\{\ell+1,2w+2\}$ distinguishes every finite nonempty vertex-coloured graph $G$ with such a decomposition from every graph not isomorphic to $G$. Consequently, for $k\geq1$, graphs of rank width at most $k$ can be distinguished from every nonisomorphic graph in dimension $3k+1$, graphs of linear rank width at most $k$ in dimension $2k+2$, and edgeless graphs in dimension one. Uncoloured Cai-Fürer-Immerman (CFI) constructions give linear lower bounds for both width parameters, so the upper bounds are tight up to constant factors.</description>
+    </item>
+    <item>
+      <title>Bayes Rule for Conditioning Probabilistic Programs</title>
+      <link>http://arxiv.org/abs/2610.10792v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10792v1</guid>
+      <pubDate>Wed, 07 Oct 2026 18:51:37 +0000</pubDate>
+      <description>Probabilistic programs provide a rigorous programming-language foundation for expressing rich probabilistic models and offer language-level support for solving challenging statistical inference problems. A key theoretical challenge that probabilistic programs inherit from probability theory is conditioning a probability distribution on an observation that has probability zero. Many languages address this challenge by using computational rules for conditioning that may work well for some problems but are statistically unsound for others. This article introduces a principled mathematical approach for conditioning probabilistic programs. We first show that existing techniques based on "soft conditioning" and "neighborhood limits" exhibit semantic issues from the perspective of measure theory and produce inference results that disagree with sound statistical reasoning. By leveraging tools from geometric measure theory, we construct a novel disintegration-based semantics for probabilistic program traces that enables sound conditioning. The theory delivers an explicit Bayes rule representation of the conditional distribution, which is directly compatible with widely used probabilistic inference algorithms that require access to unnormalized posterior densities. Our Bayes rule handles probabilistic models with loops, branches, discrete, continuous, and mixed-type distributions, observations on manifolds, differentiable structure, and additional modeling motifs that arise in practice.</description>
+    </item>
+    <item>
       <title>Relocating Nonlinearity: How a Downstream Learner Reshapes What Genetic Programming Must Evolve</title>
       <link>http://arxiv.org/abs/2610.09347v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.09347v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.22998v1</guid>
       <pubDate>Mon, 24 Aug 2026 09:00:33 +0000</pubDate>
       <description>Similar to Skolem's nonstandard models of Peano's naturals, we show that axiomatic semantics based on Hoare logic has nonstandard models and so does not specify a unique, well-defined, and formal operational semantics of programming languages. We propose to enrich axiomatic semantics with additional proof obligations to solve this ambiguity problem. These proof obligations are always satisfied for standard trace models so that Hoare logic proofs are unchanged for these standard models.</description>
-    </item>
-    <item>
-      <title>Step Recursion: Resource Profiles and Descent Quotients</title>
-      <link>http://arxiv.org/abs/2608.22662v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.22662v1</guid>
-      <pubDate>Sun, 23 Aug 2026 23:48:09 +0000</pubDate>
-      <description>We develop a resource representation for step recursion in which mutable-state width and recursion descent are explicit and independent parameters. A width bound $u$ controls the size of the encoded machine state, while an effective descent $ρ$ determines the available recursion depth $δ_ρ(u)$. For generalized-inverse descents, we derive the depth directly from generator growth and characterize the increasing sequences that can occur as generator orbits. We then connect this depth--width geometry to standard finite-branching computation. Every deterministic bounded-state dynamics is realizable by a single ordinary bounded step recursion over a fixed finite numerical basis. Using deterministic, existential, universal, or alternating aggregation on the same local dynamics yields the corresponding machine semantics. After closure under the width reparameterizations needed to absorb fixed local cost, the resulting language classes are exactly the machine time--space classes on profiles $(δ_ρ(u),u)$. Finally, profile domination quotients effective descents by admissible width reparameterization. Some depth curves collapse, yet polynomial widths support an explicit infinite strict hierarchy between the canonical polynomial- and exponential-depth profiles. Thus descent remains a nonredundant resource coordinate after polynomial width reparameterization; standard complexity classes are calibration points.</description>
-    </item>
-    <item>
-      <title>Consistency Is Not Coherence: Orientation Search for Certified Alignments Between 4D Defence Upper Ontologies</title>
-      <link>http://arxiv.org/abs/2608.21914v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.21914v1</guid>
-      <pubDate>Sat, 22 Aug 2026 10:55:39 +0000</pubDate>
-      <description>We align three upper ontologies that sit under UK and NATO defence data infrastructure: the Information Exchange Standard (IES), the Higher Quality Data Model (HQDM) that underpins the National Digital Twin, and Basic Formal Ontology (BFO). No public alignment between IES and HQDM existed. Promoting a hand-curated 17-correspondence crosswalk to OWL and reasoning over the complete merged ontologies with HermiT produces three results that we believe matter beyond this pair.</description>
-    </item>
-    <item>
-      <title>AI with Authority, from Application to Silicon</title>
-      <link>http://arxiv.org/abs/2608.21356v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.21356v1</guid>
-      <pubDate>Fri, 21 Aug 2026 17:59:16 +0000</pubDate>
-      <description>For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work at scale. In five weeks, one researcher on consumer AI subscriptions directed a small fleet of AI agents from application code, through a verified compiler and executive, to a RISC-V processor taped out on a community silicon shuttle; no proof passed through human review, and no RTL was written by a human. The working discipline --- the Salt method --- rests on a proof kernel no hallucinated proof can pass: mathematical claims travel between agents as kernel-checked artifacts, and human attention is reserved for statements, designs, and rulings. Verification is stated link by link, from the Lean 4 kernel to SAT-checked equivalence at the silicon boundary. We publish the complete accounting: theorem provenance, a pre-registered token meter, floor-bounded human time, and an error ledger whose catch numbering runs to #256 --- a monotone counter over the mathematics campaign's append-only flags ledger, maintained 2026-07-07 to 2026-07-20 (one number, #79, was never assigned; later catches are recorded un-numbered) --- against zero incorrect proofs reaching the record.</description>
     </item>
   </channel>
 </rss>

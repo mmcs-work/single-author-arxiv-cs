@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch</title>
+      <link>http://arxiv.org/abs/2610.10592v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10592v1</guid>
+      <pubDate>Tue, 06 Oct 2026 18:35:26 +0000</pubDate>
+      <description>Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We present Wieszcz-XIX, a corpus of 6.75 billion tokens (about 3.1 billion words) in 294,369 documents, most of them periodical issues, of Polish published from 1800 to 1918, assembled from Wolne Lektury and the Internet Archive by a pipeline that filters, deduplicates, audits for post-1918 leakage and splits at the document level. It is over three orders of magnitude larger than the annotated corpus of the same period, and we quantify its defects: recognition corruption against a false-positive floor, near-identical duplication, which is removed, and post-1918 leakage, which is excluded from the training corpus itself down to a known residue of 0.04 to 0.38% of its bytes, found in the transcribed source, so the published corpus is the trained one document for document. On a hand-corrected sample the character error rate is 0.68% where the text is legible, and 45% of the sampled passages cannot be corrected. On it we train a ladder of decoder-only models from 47M to 349M parameters from scratch, and measure their temporal boundedness. Against two modern Polish base models, one far larger, the 349M shows a crossover, as does the 107M against the comparator of its size: post-1918 vocabulary costs them about 3.1 bits per byte more than period vocabulary, a gap the comparators do not show, and period vocabulary costs them fewer bits than it costs the comparators. Shown period text, the models keep its spelling and the comparators only partly. Adding parameters gains about twice as much as a second pass over the data. We release the corpus, code and weights. Content warning: the models reproduce period prejudice, including antisemitic statements.</description>
+    </item>
+    <item>
       <title>The machine use of human beings</title>
       <link>http://arxiv.org/abs/2610.05462v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.05462v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.16872</guid>
       <pubDate>Sat, 18 Apr 2026 00:00:00 -0000</pubDate>
       <description>Large Language Models (LLMs) can be helpful for literature search and summarisation, but retracted articles can confuse them. This article asks three open weights (offline) LLMs whether 161 high profile retracted articles had been retracted, performing a similar check for a benchmark multidisciplinary set of 34,070 non-retracted articles. Based on titles and abstracts, in over 80% of cases the LLMs claimed that a retracted article had not been retracted (GPT OSS 120B: 82%; Gemma 3 27B: 84%; DeepSeek R1 72B: 88%). The reasons given for a correct retraction declaration were often wrong, even if detailed. This confirms that LLMs have little ability to distinguish between valid and retracted studies, unless they are allowed to, and do, check online. For the benchmark test, there were only 55 false retraction claims from 34,070 non-retracted full text articles, and 28 false claims when only the title and abstract were entered, suggesting that there is only a small chance that LLMs discount valid studies. When retractions are erroneously claimed, this does not seem to be due to mistakes in the article. Overall, the results give new reasons to be cautious about LLM claims about academic findings.</description>
-    </item>
-    <item>
-      <title>OverCite: Add citations in LaTeX without leaving the editor</title>
-      <link>https://arxiv.org/abs/2604.15366</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.15366</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Adding citations while drafting in LaTeX often requires leaving the editor, searching for a paper in mind, copying its BibTeX entry into the project bibliography, renaming the cite key, and then returning to the sentence. \texttt{OverCite} is an open-source, lightweight tool that lets authors find, select, and insert citations without leaving the writing environment. In Overleaf, \texttt{OverCite} uses rough citation placeholders (e.g., $\texttt{\textbackslash citep\{Perlmutter1999\}}$) and local sentence context to query ADS/SciX-indexed literature, rank likely matches, and insert the selected reference, without leaving the editor. A companion \texttt{VS Code} extension provides the same functionality for local LaTeX projects. The ADS/SciX database includes astronomy, physics, computer science, mathematics, biology, and \emph{all} indexed arXiv e-prints, making \texttt{OverCite} useful across a broad range of scientific disciplines.</description>
     </item>
   </channel>
 </rss>

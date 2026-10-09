@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Improved Approximations for Vehicle Routing with Nonuniform Speeds</title>
+      <link>http://arxiv.org/abs/2610.12195v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.12195v1</guid>
+      <pubDate>Thu, 08 Oct 2026 15:51:54 +0000</pubDate>
+      <description>We study vehicle routing with vehicles of different speeds on a complete undirected graph whose vertex set consists of a depot and a set of clients, where the distances satisfy the triangle inequality. Each vehicle has a specified speed, and if the total length traveled by a vehicle of speed $s$ is $L$, its completion time is $L/s$. In the heterogeneous traveling salesman problem (HetTSP), each vehicle executes one tour starting and ending at the depot, and the tours collectively visit all clients. The objective is to minimize the maximum completion time among the vehicles. We give a $6$-approximation algorithm for HetTSP, improving the previous $90(1+δ)$-approximation for any fixed $δ&gt;0$. We also consider two versions of the heterogeneous capacitated vehicle routing problem (HetCVRP). Each client has a demand, and the vehicles have identical capacities. A vehicle may execute several tours, each starting and ending at the depot, and reload at the depot between consecutive tours; the total demand delivered on each tour cannot exceed the vehicle capacity. In the split-delivery version of HetCVRP, the demand of a client may be divided among multiple visits, possibly by different vehicles. We give a $\frac92+2\sqrt3&lt;7.965$-approximation algorithm for this problem. In the unsplit-delivery version of HetCVRP, the entire demand of each client must be delivered in a single visit. We give a $\frac{11}{2}+3\sqrt2&lt;9.743$-approximation algorithm, improving the previous $450(1+δ)$-approximation for any fixed $δ&gt;0$.</description>
+    </item>
+    <item>
+      <title>A Refined Analysis for Matroid Secretary with Submodular Objectives</title>
+      <link>http://arxiv.org/abs/2610.11516v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11516v1</guid>
+      <pubDate>Thu, 08 Oct 2026 08:51:37 +0000</pubDate>
+      <description>We study the matroid secretary problem with a nonnegative monotone submodular objective. Elements arrive in uniformly random order, and every acceptance decision is immediate and irrevocable. We give an $8.699$-competitive algorithm for arbitrary matroids. The algorithm first rejects a randomly sized initial segment of the arrival sequence as a learning set and runs submodular greedy on all elements in this set. Each later element receives a fixed weight equal to the marginal value it would have when inserted into the stored greedy sequence. On these fixed weights, the algorithm runs a linear-objective matroid secretary subroutine. The algorithm uses $O(nr)$ value queries and $O(n^2)$ independence queries, where $r$ is the matroid rank.</description>
+    </item>
+    <item>
+      <title>A QPTAS for Stochastic Scheduling of Bernoulli Jobs</title>
+      <link>http://arxiv.org/abs/2610.11481v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11481v1</guid>
+      <pubDate>Thu, 08 Oct 2026 08:25:49 +0000</pubDate>
+      <description>We study the classical problem of scheduling jobs with random processing times on $m$ identical machines to minimize the expected sum of completion times, for Bernoulli jobs: job $j$ takes time $p_j$ with probability $q_j$ and time $0$ otherwise, and its outcome is revealed when it starts. The benchmark is an optimal adaptive policy. We give a quasi-polynomial-time approximation scheme for every number of machines. Previously, quasi-polynomial time was known to give an $O(\log N)$-approximation, and approximation schemes were known only for a constant number of distinct sizes. The scheme rests on a simple observation: it suffices to round the times at which machines become free, rather than the times at which jobs start, to a grid whose width is proportional to the job size, and an optimal policy stretched by a factor close to one already respects such grids. We also show that every policy that fixes the order of the jobs in advance loses a factor $Ω(\log N)$, already on two machines, so a constant factor requires adapting the order to the observed outcomes. Further results include a polynomial-time adaptive rule with ratio $\min\{m,1+\sum_j q_j\}$, a simpler approximation scheme for a constant number of sizes, and #P-hardness of computing the optimal expected cost on two machines.</description>
+    </item>
+    <item>
+      <title>Tight bounds and output sensitive algorithms for maximal clique enumeration in link streams</title>
+      <link>http://arxiv.org/abs/2610.11385v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11385v1</guid>
+      <pubDate>Thu, 08 Oct 2026 07:17:07 +0000</pubDate>
+      <description>A link stream is a set of interactions between pairs of vertices, each one lasting during some time interval, and a clique of a link stream is a set of vertices together with a time interval during which all of them interact. A clique is maximal if neither its vertex set nor its interval can be enlarged. All known algorithms listing the maximal cliques of a link stream may spend time exponential in the size of a clique for each clique they output. Here, we approach the question under the light of two parameters of the instantaneous graphs of the stream, their maximum degree $Δ$ and their degeneracy $k$. We prove that a link stream with $m$ links has $O(mΔ^2 3^{Δ/3})$ maximal cliques, and that a link stream with $n$ vertices and $|\mathcal{T}|$ distinct end times has $O(n|\mathcal{T}|k^2 3^{k/3})$ maximal cliques. Both bounds are tight up to a factor polynomial in $Δ$ and $k$ respectively, and the second one improves the factor $2^k$ of previous bounds to $3^{k/3}$. Then we present two algorithms. The first one has setup time $O(m\log m)$ and polynomial time delay $\mathrm{poly}(Δ)\log m$. The second one has setup time $O(m\log m+mk^2\log^3 n)$ and polynomial time delay $\mathrm{poly}(k)\log m$. To the best of our knowledge, these are the first algorithms with polynomial time delay for this problem. We also give an online version of the second algorithm, and we show that our results apply to the $Δ$-cliques and $(Δ,γ)$-cliques of temporal graphs.</description>
+    </item>
+    <item>
+      <title>Tight Bounds for Equivalence Testing with Non-Adaptive Conditional Samples</title>
+      <link>http://arxiv.org/abs/2610.11145v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11145v1</guid>
+      <pubDate>Thu, 08 Oct 2026 03:10:12 +0000</pubDate>
+      <description>We study distribution testing with access to non-adaptive conditional samples. Specifically, we give tight bounds for equivalence testing, determining whether two unknown distributions are equal to or $\varepsilon$-far from each other in total variation distance. Our algorithm and lower bound show that $\tilde Θ\left(\frac{\log n}{\varepsilon^2}\right)$ queries are necessary and sufficient for this problem. These results demonstrate that the complexity of uniformity, identity, and equivalence testing with non-adaptive conditional samples are all $\tilde Θ(\log n)$.</description>
+    </item>
+    <item>
+      <title>$Ω((\log n/\log\log n)^2)$ Lower Bounds for Dynamic Graph Problems</title>
+      <link>http://arxiv.org/abs/2610.10904v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10904v1</guid>
+      <pubDate>Wed, 07 Oct 2026 21:00:57 +0000</pubDate>
+      <description>We prove an $Ω((\log n/\log\log n)^2)$ unconditional lower bound on the maximum of the query time and update time for dynamic data structures supporting reachability queries in $n$-node directed acyclic graphs under edge insertions. This improves the $\widetildeΩ(\log^{3/2} n)$ lower bound of Larsen and Yu [SICOMP 2025], and matches the strongest lower bound known for any dynamic problem. The same bound holds for incremental undirected shortest paths and subgraph connectivity. To prove it, we bring the recent framework of Ko [FOCS 2026], which gave this bound for Pătraşcu's multiphase problem with Inner Product, to the multiphase problem with Disjointness. Our main technical contribution is to show that verification in Ko's 2.5-round multiphase communication game makes a one-sided corruption bound suffice in place of discrepancy, which Disjointness lacks.</description>
+    </item>
+    <item>
+      <title>Deterministic Distance Selection in $O(n^{4/3})$ Time</title>
+      <link>http://arxiv.org/abs/2610.10780v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10780v1</guid>
+      <pubDate>Wed, 07 Oct 2026 18:34:00 +0000</pubDate>
+      <description>Let $P$ be a set of $n$ points in the plane. Given an integer $K$ with $1\le K\le {n\choose 2}$, the distance selection problem asks for the $K$-th smallest distance among all pairwise distances of the points of $P$. The problem has been studied extensively over the past four decades. Recently, Chan and Zheng (2023) gave a randomized algorithm with $O(n^{4/3})$ expected running time, while the best known deterministic algorithm runs in $O(n^{4/3}\log n)$ time. In this paper, we present a deterministic $O(n^{4/3})$-time algorithm for the problem, matching the best known randomized complexity. We also consider the more general bichromatic version of the problem, where two point sets $A$ and $B$ are given, with $m=|A|$ and $n=|B|$, and the goal is to find the $K$-th smallest distance among the $mn$ distances between points of $A$ and points of $B$. For this problem, the best previously known algorithm runs in $O((m\log n+n\log m+m^{2/3}n^{2/3})\log(m+n))$ time. We present a new deterministic algorithm with running time $O(m\log^2 n+n\log^2 m+m^{2/3}n^{2/3})$.</description>
+    </item>
+    <item>
       <title>Rectangular matrix multiplication from shared-leg entropy</title>
       <link>http://arxiv.org/abs/2610.10494v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.10494v1</guid>
@@ -45,6 +94,20 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.09233v1</guid>
       <pubDate>Tue, 06 Oct 2026 23:51:01 +0000</pubDate>
       <description>We prove conditional lower bounds for approximating dynamic time warping (DTW) over the uniform metric on three symbols. Let $N, M$ be the two string lengths and $n, m$ their respective numbers of runs. Under the Gap Block Disjointness (GBD) hypothesis, for every fixed $κ\in (0,1/6)$ and $δ\in (0,1)$, no deterministic algorithm $N^{κδ}$-approximates DTW on two explicit strings of length $N$ in $O(N^{2-δ})$ time. This matches the known tradeoff between approximation and running-time exponents for deterministic algorithms within any fixed factor greater than six in the approximation exponent. For run-length encoded strings, the Orthogonal Vectors Hypothesis (OVH) rules out any constant-factor approximation in $\widetilde{O}((nm)^{1-δ})$ time for every constant $δ&gt;0$. More generally, for every fixed $η\in (0,1)$, it rules out $(N+M)^{1-η}$-approximation in the same running time. These bounds extend to every fixed metric with at least three points, including absolute distance on $\{0,1,2\}$. Both reductions use long runs to force equal-symbol matches in low-cost alignments. For explicit strings, we combine Boolean gadgets with deterministic gap amplification to obtain a polynomial approximation gap. For run-length encoded strings, an encoding of regular-expression membership gives accepting instances an alignment whose cost does not increase as selected runs grow. Rejecting instances have distance at least the chosen run length, while the number of runs stays fixed.</description>
+    </item>
+    <item>
+      <title>Dijkstra Is NOT Greedy: A Global-to-Local Proof of Correctness</title>
+      <link>http://arxiv.org/abs/2610.10596v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10596v1</guid>
+      <pubDate>Tue, 06 Oct 2026 20:45:17 +0000</pubDate>
+      <description>Dijkstra's algorithm is almost universally classified as a canonical greedy algorithm. This paper challenges that conventional interpretation and presents a simple, direct proof of correctness from a different viewpoint. Contrary to the widespread intuition that the algorithm repeatedly makes a local choice and thereby reaches a global optimum, we show that the logical direction can be read in exactly the opposite way: at each iteration, the algorithm identifies a globally shortest path among all paths whose destinations remain unsolved, and the endpoint of that globally shortest path is therefore solved as a ``local'' shortest-path problem. In other words, the local shortest path is obtained as an immediate consequence of a global minimum. Based on this observation, we formulate a Three-Step Exclusion Method that interprets Dijkstra's iteration as deterministic contraction of the global path space. The resulting proof highlights optimal substructure, boundary-state reduction, and dynamic-programming structure, and offers a conceptually simple alternative to the usual greedy explanation.</description>
+    </item>
+    <item>
+      <title>A faster matrix multiplication algorithm through structured optimization</title>
+      <link>http://arxiv.org/abs/2610.10593v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10593v1</guid>
+      <pubDate>Tue, 06 Oct 2026 18:36:24 +0000</pubDate>
+      <description>We present a new asymptotic matrix multiplication construction yielding $ω&lt;2.37115924$, and therefore an algorithm that multiplies two $n\times n$ matrices in $O(n^{2.37115924})$ arithmetic operations over the rationals, reals, or complex numbers. The construction improves the bound $2.371177$ of Dupont et al. within the combination-loss framework for the Coppersmith--Winograd tensor. Our approach combines a shared recursive parameter family with a conditioned optimization procedure that addresses two obstacles: weak gradients at low-mass constituents and competing bottlenecks in the retained exponent. A mass- and probability-dependent rescaling supports quasi-Newton optimization in $212\,820$ coordinates, while a six-control correction balances the three extraction roles at each relevant stage. Positive rational entropy-dual factors and an independent ordinary-string verifier turn the resulting construction into an exact certificate. The verified upper-bound expression lies in $[2.3711592385931075066123,\,2.3711592385931075066124]$. The complete witness and an offline verifier using only the Python standard library accompany the paper.</description>
     </item>
     <item>
       <title>Explicit tensors beyond the linear flattening barrier</title>
@@ -640,69 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.12021v1</guid>
       <pubDate>Thu, 10 Sep 2026 10:58:00 +0000</pubDate>
       <description>Björklund, Husfeldt, and Kaski gave a randomized $\widetilde{O}(n^{ω+3})$-time algorithm for computing the length of a shortest even cycle in an $n$-vertex directed graph, where $ω$ is the square matrix multiplication exponent. Their algebraic framework evaluates a parity cycle-cover enumerator over a field of characteristic two by lifting the computation to a ring of characteristic four. We give a direct evaluator for nonsingular matrices that stays in characteristic two. If $A$ is nonsingular over a field of characteristic two, the sum of the monomials indexed by odd permutations can be computed deterministically using $O(n^3)$ field operations. The key is an inverse-based closed form for a matrix with two proportional rows, combined with row elimination and dynamic inverse maintenance. For a directed graph, we apply the evaluator to $I+zW$, where $W$ is a randomly weighted adjacency matrix. The determinant $\det(I+zW)$ has constant coefficient one, so among any $2n+1$ distinct field elements at least $n+1$ yield nonsingular matrices. Evaluating at these points and interpolating gives a Monte Carlo algorithm that computes the shortest even-cycle length in $\widetilde{O}(n^4)$ time, with error probability $O(n^{-3})$. The error is one-sided with respect to existence: on a graph without an even cycle the algorithm always reports that fact. The result concerns the length; the standard self-reduction produces a cycle in $\widetilde{O}(n^5)$ time.</description>
-    </item>
-    <item>
-      <title>Convex Optimization with Nested Evolving Feasible Sets (CONES) under Time-Varying Loss Functions</title>
-      <link>http://arxiv.org/abs/2609.11207v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.11207v1</guid>
-      <pubDate>Thu, 10 Sep 2026 08:13:27 +0000</pubDate>
-      <description>Convex Optimization with Nested Evolving Feasible Sets (CONES)} was introduced in \cite{CONESVaze} where the objective function \(f\) remains fixed but the feasible region evolves over time as a nested sequence \(S_1 \supseteq S_2 \supseteq \cdots \supseteq S_T\). The goal of an online algorithm is to simultaneously minimize the regret with respect to hindsight static optimal benchmark and the total movement cost $M_\cA(T)$ while ensuring feasibility at all times. CONES is an optimization-oriented generalization of the well-known \emph{nested convex body chasing} (NCBC). In this paper, we extend CONES to allow for loss functions $f_t'$s to also change over time. When all loss functions are convex, we show that the projected proximal algorithm achieves $O(T^{1-β}), O(T^β)$ simultaneous regret and movement cost, respectively, for any $β\in [0,1)$, over a time horizon of $T$. We also show that any {\it weakly adaptive} online algorithm with $O(T^β)$ regret has a movement cost of $Ω\left(T^{\frac{1-β}{2}}\right)$ for any $β\in [0,1)$. When all loss functions are strongly convex, we show that the projected proximal algorithm simultaneously achieves $O(1)$ regret and a movement cost of $O(\log T)$. To complement this, we show that any online algorithm with sublinear {\it anytime} regret has a movement cost of $Ω\left(\log T\right)$.</description>
-    </item>
-    <item>
-      <title>Testing the Binary Rank with Polynomial Query Complexity</title>
-      <link>http://arxiv.org/abs/2609.10496v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.10496v1</guid>
-      <pubDate>Wed, 09 Sep 2026 17:34:01 +0000</pubDate>
-      <description>We provide an adaptive two-sided error testing algorithm for the binary rank of a $0,1$ matrix $M$ with query complexity $O(d^3\log(d+1)/ε^2)$, where $d$ is the tested binary rank bound and $ε$ is the distance parameter. This answers an open question posed by Parnas, Ron and Shraibman~\cite{parnas2021property}, who asked whether the binary rank can be tested with query complexity polynomial in $d$ and $1/ε$. Furthermore, our testing algorithm can be used to find an approximate binary decomposition of $M$ with an additional $d(n+m)$ queries. That is, under the promise that the binary rank of $M$ is at most $d$, we show how to find, with probability at least $5/6$, two $0,1$ matrices $A',B'$ such that $M' = A' \cdot B'$ is a $0,1$ matrix which differs from $M$ on at most an $O(ε)$ fraction of its entries.</description>
-    </item>
-    <item>
-      <title>A Deadline-Driven Algorithm for Polyamorous Scheduling</title>
-      <link>http://arxiv.org/abs/2609.10641v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.10641v1</guid>
-      <pubDate>Wed, 09 Sep 2026 11:36:52 +0000</pubDate>
-      <description>In Polyamorous Scheduling Problem, we are given an edge-weighted graph and must find a periodic schedule of matchings in this graph which minimizes the maximal weighted waiting time between consecutive occurrences of the same edge. This NP-hard problem generalises Bamboo Garden Trimming and is motivated by the need to find schedules of pairwise meetings in a complex social group. We present a $4 G^*$ algorithm for Polyamorous Scheduling, improving the previously known bound of $3 + \sqrt{5} \approx 5.236$. Our algorithm is inspired by the Deadline-Driven Heuristic which is optimal for Bamboo Garden Trimming (BGT).</description>
-    </item>
-    <item>
-      <title>Minimum-makespan completion and vertex selection leave the Wang-Sitters constant at 11/6</title>
-      <link>http://arxiv.org/abs/2609.10004v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.10004v1</guid>
-      <pubDate>Wed, 09 Sep 2026 10:32:39 +0000</pubDate>
-      <description>The 11/6 worst-case constant of the Wang-Sitters rounding scheme, which a companion note establishes, can naturally be attributed to the freedom in Step 3, where an arbitrary valid slot matching is permitted. We show that eliminating that freedom does not improve the constant. A minimum-makespan completion oracle still has worst-case constant exactly 11/6 against the optimum; both natural 7/4 statements about it are false; and restricting Step 1 to vertices of the relaxation does not help. The loss therefore cannot be attributed solely to the freedom in Step 3. We also record what structure survives: a reduction confining every overload to two shapes, a seven-machine instance defeating the natural two-phase repair, and a strict 7/4 bound on the generalized three-path family.</description>
-    </item>
-    <item>
-      <title>Online Inverse Integer Linear Optimization via Small-Gradient Skipping: Constant Regret and Finite Mistakes</title>
-      <link>http://arxiv.org/abs/2609.09809v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.09809v1</guid>
-      <pubDate>Wed, 09 Sep 2026 07:05:17 +0000</pubDate>
-      <description>In online inverse linear optimization, the learner predicts a weight at each round, observes the optimal action of the agent, and updates its prediction. In the general setting, the gap of $\log T$ between the regret upper bound $O(d \log T)$ and the lower bound $Ω(d)$ is unresolved (here $T$ is the total number of rounds and $d$ is the dimension). When the action set is M-convex, the regret is known to be bounded by $O(d \log d)$, but the method attaining it computes a center of gravity at every round. This paper therefore proposes Small-Gradient Skipping (SGS), a mechanism that skips the update at rounds without a mistake in the case where the correct action is uniformly separated from the other candidates, and applies it to online gradient descent, the online Newton step, and MetaGrad. The number of mistakes is then bounded, for all three, by a quantity independent of $T$; and for the online Newton step and for MetaGrad with SGS, the dimension dependence of the regret becomes $O(d^2)$ when the forward problem is an integer linear program, that is, the factor $\log T$ is removed. Moreover, when the action set is M-convex, the regret is bounded efficiently without computing a center of gravity.</description>
-    </item>
-    <item>
-      <title>Streaming Algorithms for Gaussian Kernel Density Statistics</title>
-      <link>http://arxiv.org/abs/2609.09622v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.09622v1</guid>
-      <pubDate>Wed, 09 Sep 2026 02:30:57 +0000</pubDate>
-      <description>Motivated by data produced by generative systems, \cite{LZ26b} formulates similarity-aware statistics via a weighted similarity graph, replacing equality with similarity in classical frequency-based statistics. Although this framework captures semantic relationships between nonidentical items, under general similarity functions even coarse one-pass approximation can require linear space. We therefore ask whether the geometric structure present in natural vector similarities can overcome this barrier. We answer this question affirmatively for the Gaussian kernel. For fixed-dimensional Euclidean vector streams, we study similarity-aware analogues of classical frequency statistics, including the number of distinct elements and frequency moments, through the diversity index and Gaussian density moments. We give one-pass sublinear-space approximation algorithms that exploit the geometric and analytic properties of the Gaussian kernel, and complement them with lower bounds. Our results show that geometric structure can fundamentally change the streaming complexity of similarity-aware statistical analysis.</description>
-    </item>
-    <item>
-      <title>A $(\log n)^{1/4}$ Bound for the Komlós Problem</title>
-      <link>http://arxiv.org/abs/2609.08885v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08885v1</guid>
-      <pubDate>Tue, 08 Sep 2026 15:25:52 +0000</pubDate>
-      <description>Let $A\in\mathbb{R}^{m\times n}$ have columns of Euclidean norm at most one. We prove that $\operatorname{disc}(A)\le2395\left(1+\log_+\frac n9\right)^{1/4}+2\sqrt2$. Here $\log_+t=\max\{0,\log t\}$. Building on Bansal and Jiang's affine spectral independence framework, we remove the $(\log\log n)^{7/4}$ factor from their bound. The fourth root comes from balancing the logarithmic decrease in the alive dimension against the fourth power of the row thresholds. Historical exponential sums control the covariance budget across size classes with summable thresholds. An exact threshold-sum certificate gives the coefficient $2395$, and rounding at most eight remaining fractional coordinates costs $2\sqrt2$. The finite construction also gives partial colourings from any prescribed starting point and at any prescribed depth, preserving existing signs. We formalize the partial- and full-colouring theorems in Lean, including the finite trajectory, exact threshold sum and final rounding, with Bansal--Jiang Theorem A.4 as the sole external research theorem assumption.</description>
-    </item>
-    <item>
-      <title>Beyond Cut Balance: Spectral Sparsification of the Nonlinear Directed Laplacian</title>
-      <link>http://arxiv.org/abs/2609.08177v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08177v1</guid>
-      <pubDate>Tue, 08 Sep 2026 03:05:06 +0000</pubDate>
-      <description>Digraphs with constant cut balance admit nearly linear directed cut sparsifiers. This condition requires the total arc weights in the two directions of every cut to be within a constant factor of each other. We ask whether this condition also permits nearly linear spectral sparsification with respect to the energy of the nonlinear directed Laplacian. For a weighted digraph $G=(V,E,w)$, let \[ Q_G^+(x)=\sum_{(u,v)\in E}w_{uv}(x_u-x_v)_+^2, \qquad (t)_+:=\max\{t,0\}. \] This energy agrees with the outgoing-cut function on binary vectors. A spectral sparsifier is a nonnegatively reweighted subgraph that preserves $Q_G^+(x)$ within a factor of $1\pm\varepsilon$ simultaneously for all $x\in\mathbb R^V$. We show that cut balance alone does not yield nearly linear spectral sparsifiers: for constant error, the worst-case support size for simple unweighted Eulerian digraphs is $\widetildeΘ(n^{3/2})$, although Eulerian digraphs are perfectly cut-balanced and admit nearly linear directed cut sparsifiers. In contrast, we prove that every $n$-vertex tournament has a spectral sparsifier with $\widetilde O(n/\varepsilon^3)$ arcs, without any assumption on its cut balance. This includes the transitive tournament, whose cut balance is unbounded. Thus perfect balance does not guarantee nearly linear spectral sparsification, while unbounded imbalance does not preclude it. Finally, we use convex duality to show that preserving $Q_G^+$ also preserves, for every feasible demand vector, the optimum quadratic cost of a nonnegative flow. Hence the guarantee contains information beyond directed cut values.</description>
-    </item>
-    <item>
-      <title>Improved Integrality Gap for Multicommodity Flow on Trees</title>
-      <link>http://arxiv.org/abs/2609.07949v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.07949v1</guid>
-      <pubDate>Mon, 07 Sep 2026 20:10:27 +0000</pubDate>
-      <description>We improve the best known lower bound on the integrality gap for weighted unit-demand multicommodity flow on trees from $1/4$ to $2/5$, improving on the long-standing bound of Chekuri, Mydlarz, and Shepherd~\cite{CMS}. We give the proof in two stages. First, a surprisingly simple packing lemma and an inductive coloring argument give an intermediate bound of $4/11$. We then refine the argument to obtain $2/5$.</description>
     </item>
   </channel>
 </rss>

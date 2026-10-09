@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The rank of $3\times 3$ matrix multiplication over $\mathbb{F}_2$ is 23</title>
+      <link>http://arxiv.org/abs/2610.11823v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11823v1</guid>
+      <pubDate>Thu, 08 Oct 2026 12:24:17 +0000</pubDate>
+      <description>The rank of the tensor of $3\times 3$ matrix multiplication over the field with two elements is at most $23$ by Laderman's algorithm, and Rudich and Rousseau recently proved that it is at least $22$. We prove that it equals $23$. Hence Laderman's algorithm uses the fewest multiplications among all bilinear algorithms over $\mathbb{F}_2$ and among all bilinear algorithms with integer coefficients. The proof uses the substitution method in the form developed in recent work of D'Ambrosio, Wang and Yang et al.: a subspace $S$ of the space of first factors contains at most $r-R(S)$ first factors of a decomposition of length $r$, where $R(S)$ is the rank of the tensor modulo $S$. We raise the known lower bounds on $R(S)$ for $111$ of Wang's $496$ symmetry classes of subspaces. One of these bounds, $R(S)\ge 21$ for a point spanned by a matrix of rank one, forces the $22$ first factors of a decomposition of length $22$ to be distinct. A $27\times 27$ flattening of the tensor gives further constraints on the ranks of the first factors, and a separate enumeration shows that, when at least $14$ first factors have rank one, no line in a certain orbit of lines contains two first factors. A computer search then lists, up to symmetry, all sets of $22$ matrices that satisfy these constraints, and an exact completion search shows that none of them is the set of first factors of a decomposition. The computation emits certificates, which are checked in the Lean 4 proof assistant by checkers whose soundness is proved in Lean. The largest checks are evaluated as compiled code, so the proof relies on the Lean compiler in addition to its kernel.</description>
+    </item>
+    <item>
+      <title>A QPTAS for Stochastic Scheduling of Bernoulli Jobs</title>
+      <link>http://arxiv.org/abs/2610.11481v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11481v1</guid>
+      <pubDate>Thu, 08 Oct 2026 08:25:49 +0000</pubDate>
+      <description>We study the classical problem of scheduling jobs with random processing times on $m$ identical machines to minimize the expected sum of completion times, for Bernoulli jobs: job $j$ takes time $p_j$ with probability $q_j$ and time $0$ otherwise, and its outcome is revealed when it starts. The benchmark is an optimal adaptive policy. We give a quasi-polynomial-time approximation scheme for every number of machines. Previously, quasi-polynomial time was known to give an $O(\log N)$-approximation, and approximation schemes were known only for a constant number of distinct sizes. The scheme rests on a simple observation: it suffices to round the times at which machines become free, rather than the times at which jobs start, to a grid whose width is proportional to the job size, and an optimal policy stretched by a factor close to one already respects such grids. We also show that every policy that fixes the order of the jobs in advance loses a factor $Ω(\log N)$, already on two machines, so a constant factor requires adapting the order to the observed outcomes. Further results include a polynomial-time adaptive rule with ratio $\min\{m,1+\sum_j q_j\}$, a simpler approximation scheme for a constant number of sizes, and #P-hardness of computing the optimal expected cost on two machines.</description>
+    </item>
+    <item>
+      <title>Near-Inverse-Linear Barriers for Explicit Affine Witness Isolation</title>
+      <link>http://arxiv.org/abs/2610.11432v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.11432v1</guid>
+      <pubDate>Thu, 08 Oct 2026 07:55:55 +0000</pubDate>
+      <description>We study randomized nonuniform polynomial-size transformations that output explicit binary affine filters for circuit inputs whose nonempty satisfying sets are affine. The filter may depend on the entire input description; no affine basis is supplied. For every fixed $δ&lt;1$, a worst-case singleton success guarantee $Ω(n^{-δ})$, where $n$ is the witness arity, implies $NP\subseteq P/poly$. More generally, any success guarantee $ω(\log n/n)$ yields satisfiability circuits of size $(s+2)^{O(1)}2^{o(v)}$ for length-$s$ descriptions with at most $v$ witness variables, hence subexponential in $v$ when $s=v^{O(1)}$. Conversely, SAT search-to-decision gives deterministic perfect isolation, making polynomial-resource fixed-exponent strong affine isolation equivalent to $NP\subseteq P/poly$. For explicit unions of at most $n^β$ affine components, success $Ω(n^{-δ})$ implies the same collapse whenever $β,δ\ge0$ and $β+δ&lt;1$. The inverse-linear endpoint is not claimed.</description>
+    </item>
+    <item>
+      <title>Integer programming on polytopes of Chvátal rank one is as hard as lattice problems</title>
+      <link>http://arxiv.org/abs/2610.10911v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10911v1</guid>
+      <pubDate>Wed, 07 Oct 2026 21:10:10 +0000</pubDate>
+      <description>A rational polyhedron has Chvátal rank at most one if a single round of Chvátal-Gomory cuts yields its integer hull. For such polyhedra, integer feasibility is in NP $\cap$ coNP by a result of Boyd and Pulleyblank from the early 1980s, so it is unlikely to be NP-hard. Whether it is polynomial has remained open since then. We answer this question negatively, under either of two standard assumptions from lattice-based cryptography. First, a polynomial-time algorithm for this problem would solve bounded distance decoding with polynomial factors in deterministic polynomial time, contradicting a widely believed conjecture. Second, assuming the hardness of learning with errors, an average-case analogue of bounded distance decoding, the problem is also hard on average, for an efficiently samplable distribution of polytopes. Both results rest on an elementary sufficient condition: a polyhedron has Chvátal rank at most one if its width is less than one along every row of some unimodular matrix. For our polytopes, such a matrix exists but is hard to find.</description>
+    </item>
+    <item>
+      <title>$Ω((\log n/\log\log n)^2)$ Lower Bounds for Dynamic Graph Problems</title>
+      <link>http://arxiv.org/abs/2610.10904v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10904v1</guid>
+      <pubDate>Wed, 07 Oct 2026 21:00:57 +0000</pubDate>
+      <description>We prove an $Ω((\log n/\log\log n)^2)$ unconditional lower bound on the maximum of the query time and update time for dynamic data structures supporting reachability queries in $n$-node directed acyclic graphs under edge insertions. This improves the $\widetildeΩ(\log^{3/2} n)$ lower bound of Larsen and Yu [SICOMP 2025], and matches the strongest lower bound known for any dynamic problem. The same bound holds for incremental undirected shortest paths and subgraph connectivity. To prove it, we bring the recent framework of Ko [FOCS 2026], which gave this bound for Pătraşcu's multiphase problem with Inner Product, to the multiphase problem with Disjointness. Our main technical contribution is to show that verification in Ko's 2.5-round multiphase communication game makes a one-sided corruption bound suffice in place of discrepancy, which Disjointness lacks.</description>
+    </item>
+    <item>
       <title>$\exists \mathbb{R} \subseteq \textsf{CH}$</title>
       <link>http://arxiv.org/abs/2610.10514v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.10514v1</guid>
@@ -33,6 +68,13 @@
       <description>Classical approximation complexity asks what solution quality can be guaranteed with polynomial-time computation. The classes APX, PTAS, and FPTAS distinguish a fixed approximation ratio, approximation to any fixed accuracy, and approximation schemes whose running time is also polynomial in inverse accuracy. Their randomized counterparts are R-APX, R-PTAS, and R-FPTAS. We define bounded-error quantum counterparts BQ-APX, BQ-PTAS, and BQ-FPTAS. Membership requires a uniform quantum algorithm that, on every input, returns a feasible classical solution achieving at least the claimed approximation ratio with probability at least 2/3. Scores (objective values) must be efficiently classically computable. Running time includes parameter selection, preparation, measurement, decoding, and repetition. Many quantum optimization methods are used heuristically, and high benchmark scores alone do not establish these guarantees. We further establish a conditional hierarchy for logarithmic, polynomial, and exponential approximation factors. Assuming NP $\nsubseteq$ BQP, the quantum classes form a strict hierarchy. Problems based on prime factorization and discrete logarithms give conditional quantum-classical separations. Certified Maximum Order has an exact quantum algorithm, while any randomized polynomial-time algorithm guaranteeing at least an inverse-polynomial approximation ratio on every input would yield efficient factoring. Discrete-Logarithm Fitting has an exact quantum algorithm and a deterministic one-half approximation, but any fixed improvement over one half would give a randomized polynomial-time algorithm for the safe-prime discrete logarithm problem. Our results show, under explicit complexity assumptions, that quantum computation can improve worst-case approximation guarantees. A quantum-classical gap for common problems such as MaxCut or MaxSAT remains open.</description>
     </item>
     <item>
+      <title>Verification and Self-Improvement in Agentic AI: Foundations and Limits</title>
+      <link>http://arxiv.org/abs/2610.10611v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10611v1</guid>
+      <pubDate>Wed, 07 Oct 2026 06:47:49 +0000</pubDate>
+      <description>Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal randomness. A stage specifies admissible transcripts, polynomial bounds, an alternating verification protocol, and a terminal checker. Its native reach uses default support; its closure frontier permits all support already admitted by the interface. Under a uniform pointwise probability gap and task-relative soundness, these are well-defined languages. We prove that independent majority amplification preserves both languages, whereas existential acceptance over random tapes can admit incorrect outputs. Exact verification is the zero-randomness case, with placement and completeness results. The randomized-verifier classes satisfy $Σ_k^{\mathrm{P}}\subseteqΣ_k^{\mathrm{RV}}\subseteqΣ_{k+1}^{\mathrm{P}}$; strict enlargement and depth separation require explicit complexity assumptions, while $\mathrm{BPP}=\mathrm{P}$ yields exact companions with the same frontiers. Representation analysis separates invariant acceptance from core-versus-support labels that can change under refactoring. For recursive self-improvement, uniformly bounded self-modification under a common sound interpreter and fixed verification protocol remains within the same verification class. A separate conditional-error budget controls false selection across adaptively chosen candidates. A quota-enforced XOR-synthesis family separates unbounded ratios of search success from changes in the accepted languages; exact and probabilistic audits check the resulting evidence requirements. The framework ties self-improvement claims to obligations on correctness, admissible evidence, verification resources, and selection error.</description>
+    </item>
+    <item>
       <title>Improving the Constant in the Aharonov--Regev Theorem</title>
       <link>http://arxiv.org/abs/2610.09290v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.09290v1</guid>
@@ -59,6 +101,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.08988v1</guid>
       <pubDate>Tue, 06 Oct 2026 18:46:57 +0000</pubDate>
       <description>SAT solvers are empirically known to perform poorly when reasoning about multiplication. Yet for over a decade we have lacked a theoretical explanation for this phenomenon. CDCL SAT solvers implicitly search for resolution proofs, and no lower bound on proof size has ruled out the existence of short proofs that solvers simply fail to find. We give the first lower bound of this kind by showing that general resolution proofs of the associativity of $n$-bit multiplication require size $2^{Ω((n/\log n)^{1/4})}$. This lower bound holds for a broad class of multiplier encodings based on partial product summation, including the standard array and Wallace-tree multipliers used to bit-blast multiplication in SMT solvers. This result resolves an open problem of Beame and Liew. The proof constructs a reduction from a perfect-matching principle on bounded-degree bipartite expander graphs to multiplier associativity. Itsykson, Slabodkin, and Sokolov proved that this principle is hard for resolution. The lower bound for multiplier associativity follows. The same reduction, when combined with Håstad's recent lower bound for the perfect-matching principle of the odd grid, yields an exponential lower bound for multiplier associativity in the stronger bounded-depth Frege proof systems.</description>
+    </item>
+    <item>
+      <title>A faster matrix multiplication algorithm through structured optimization</title>
+      <link>http://arxiv.org/abs/2610.10593v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10593v1</guid>
+      <pubDate>Tue, 06 Oct 2026 18:36:24 +0000</pubDate>
+      <description>We present a new asymptotic matrix multiplication construction yielding $ω&lt;2.37115924$, and therefore an algorithm that multiplies two $n\times n$ matrices in $O(n^{2.37115924})$ arithmetic operations over the rationals, reals, or complex numbers. The construction improves the bound $2.371177$ of Dupont et al. within the combination-loss framework for the Coppersmith--Winograd tensor. Our approach combines a shared recursive parameter family with a conditioned optimization procedure that addresses two obstacles: weak gradients at low-mass constituents and competing bottlenecks in the retained exponent. A mass- and probability-dependent rescaling supports quasi-Newton optimization in $212\,820$ coordinates, while a six-control correction balances the three extraction roles at each relevant stage. Positive rational entropy-dual factors and an independent ordinary-string verifier turn the resulting construction into an exact certificate. The verified upper-bound expression lies in $[2.3711592385931075066123,\,2.3711592385931075066124]$. The complete witness and an offline verifier using only the Python standard library accompany the paper.</description>
     </item>
     <item>
       <title>Optimal bound for the polynomial Littlewood-Offord problem</title>
@@ -654,55 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28539v1</guid>
       <pubDate>Fri, 28 Aug 2026 17:14:45 +0000</pubDate>
       <description>In this work, we present the first analysis of low degree polynomial threshold functions for the natural hypothesis testing problem of detecting the noisy random lift of a base $d$-regular graph from a uniformly random $d$-regular graph. Along the way, we obtain a new result for the distribution of short cycle counts in noisy random lift up to logarithmic lengths, which generalizes results by McKay, Wormald, and Wysocka and by Johnson in the case of random regular graphs, and the result by Fortin and Rudinsky in the case of random lift.</description>
-    </item>
-    <item>
-      <title>Improved Subexponential Upper Bounds for $3$-Restricted Matching Vector Families</title>
-      <link>http://arxiv.org/abs/2608.27859v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.27859v1</guid>
-      <pubDate>Fri, 28 Aug 2026 03:08:39 +0000</pubDate>
-      <description>Matching Vector families (MVFs) are defined by two ordered lists of vectors in $\mathbb{Z}_m^n$ whose inner products satisfy specific residue patterns modulo an integer $m$. Most famously, restricted MVFs are used to construct the best-known constant-query Locally Decodable codes (LDCs). We prove an upper bound of $2^{O\left(\sqrt{n\log n \log m}\right)}$ on the size of $3$-restricted MVFs in $\mathbb{Z}_m^n$ for $m \leq \sqrt{n}$, substantially improving on the previous best bound of $2^{O(n/\log n)}$ by Bhowmick, Dvir and Lovett (STOC'13, SICOMP'14). Our proof relies on a new polynomial method argument that controls collisions in sumsets of matching vectors.</description>
-    </item>
-    <item>
-      <title>Pseudodeterminism and MA != NP^BPP in Communication Complexity</title>
-      <link>http://arxiv.org/abs/2608.26425v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.26425v1</guid>
-      <pubDate>Wed, 26 Aug 2026 21:58:11 +0000</pubDate>
-      <description>We prove an exponential separation between zero-sided-error randomized and two-sided-error pseudodeterministic communication complexities of partial boolean functions. This qualitatively improves and simplifies the proof of the separation by Göös, Harms, Riazanov, Sofronova, Sokolov, and Yuan (STOC 2026), which had a two-sided-error randomized upper bound. Then, we generalize our technique to separate the communication complexity analogues of MA and NP^BPP.</description>
-    </item>
-    <item>
-      <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
-      <link>http://arxiv.org/abs/2608.24520v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.24520v1</guid>
-      <pubDate>Tue, 25 Aug 2026 13:09:38 +0000</pubDate>
-      <description>It is shown in this manuscript that a random graph $G$ drawn from the Erdős--Rényi model $\mathcal{G}(n,p)$ with \[ p=p(n)\leq 1/2, \qquad \lim_{n\to+\infty}(np-\log n-\log\log n)=+\infty, \] is a homomorphic core, i.e., every homomorphism from $G$ to itself is an automorphism. This implies tight ETH-based lower bounds of the subgraph isomorphism problem for almost all $k$-vertex patterns with polynomial average degree.</description>
-    </item>
-    <item>
-      <title>Reverse Post Correspondence Problem and Undecidability of $5' \rightarrow 3'$ String Assembly Systems</title>
-      <link>http://arxiv.org/abs/2608.24257v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.24257v1</guid>
-      <pubDate>Tue, 25 Aug 2026 08:49:44 +0000</pubDate>
-      <description>The Post Correspondence Problem is as follows: having a set of dominoes, is there any (maybe repeating) sequence of them such that the words formed by the upper parts and the lower parts by the sequence of dominoes are identical. It is one of the most known problems that is algorithmically undecidable. In this paper, the reverse Post Correspondence Problem is defined, that is, where the two assembled words of the dominos are reversals of each other. Undecidability about this new, modified problem is proven. Further, based on this result, it is also proven that the emptiness problem for 5'-&gt;3' String Assembly Systems is undecidable too. 5'-&gt;3' String Assembly Systems belong to String Assembly Systems type formal language generating models. The 5'-&gt;3' denotes that, in these variants, the derivations of the generated words start from the two extremes. The notation and the new model are bio-motivated as any double stranded DNA has two opposite oriented 5'-&gt;3' strands.</description>
-    </item>
-    <item>
-      <title>Coronavirus Optimization Algorithm: A Success-History Adaptive Evolutionary Framework with Archive-Assisted Search and Stagnation Recovery for Global Optimization</title>
-      <link>http://arxiv.org/abs/2608.23847v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23847v1</guid>
-      <pubDate>Mon, 24 Aug 2026 21:37:13 +0000</pubDate>
-      <description>This paper proposes the Coronavirus Optimization Algorithm (COA), a SARS-CoV-2-inspired success-history adaptive evolutionary optimizer for box-constrained continuous global optimization. COA does not model disease transmission; instead, it maps selected coronavirus mechanisms to explicit search operators, including elite-guided attraction, trial-vector generation, adaptive parameter variation, stagnation recovery, and population-size scheduling. The algorithm combines opposition-based initialization, current-to-pbest mutation, binomial crossover, an external archive, success-history adaptation, population reduction, and partial restart. COA is evaluated on 29 CEC 2017 benchmark functions at 10, 30, and 50 dimensions against 15 competitive optimizers. Results show that COA achieves the best overall Friedman rank across all dimensions, with particularly strong performance on composition functions. The findings demonstrate that COA is a compact, transparent, and competitive adaptive evolutionary optimizer, while also highlighting limitations on some hybrid functions and the need for further high-dimensional validation.</description>
-    </item>
-    <item>
-      <title>Riesz Energy Subset Selection in the Euclidean Plane is NP-Hard</title>
-      <link>http://arxiv.org/abs/2608.23506v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23506v1</guid>
-      <pubDate>Mon, 24 Aug 2026 17:09:26 +0000</pubDate>
-      <description>We prove that minimum Riesz $s$-energy subset selection in the Euclidean plane is NP-complete already for the fixed exponent $s=2$. To our knowledge, this is the first Euclidean hardness result for exact Riesz-energy subset selection in which both the ambient dimension and the exponent are fixed. The reduction uses Barahona's planar cubic Ising model with uniform field. A spin is encoded by one diagonal of a four-point square. Axis-aligned selector chains implement ferromagnetic consistency, while a $45^\circ$ terminal geometry yields an antiferromagnetic source interaction. Rational diagonal perturbations realize the magnetic field, and all remaining interactions are dominated by polynomial separation. Because $s=2$ and all coordinates are rational, every constructed energy and the decision threshold are rational exactly.</description>
-    </item>
-    <item>
-      <title>Step Recursion: Resource Profiles and Descent Quotients</title>
-      <link>http://arxiv.org/abs/2608.22662v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.22662v1</guid>
-      <pubDate>Sun, 23 Aug 2026 23:48:09 +0000</pubDate>
-      <description>We develop a resource representation for step recursion in which mutable-state width and recursion descent are explicit and independent parameters. A width bound $u$ controls the size of the encoded machine state, while an effective descent $ρ$ determines the available recursion depth $δ_ρ(u)$. For generalized-inverse descents, we derive the depth directly from generator growth and characterize the increasing sequences that can occur as generator orbits. We then connect this depth--width geometry to standard finite-branching computation. Every deterministic bounded-state dynamics is realizable by a single ordinary bounded step recursion over a fixed finite numerical basis. Using deterministic, existential, universal, or alternating aggregation on the same local dynamics yields the corresponding machine semantics. After closure under the width reparameterizations needed to absorb fixed local cost, the resulting language classes are exactly the machine time--space classes on profiles $(δ_ρ(u),u)$. Finally, profile domination quotients effective descents by admissible width reparameterization. Some depth curves collapse, yet polynomial widths support an explicit infinite strict hierarchy between the canonical polynomial- and exponential-depth profiles. Thus descent remains a nonredundant resource coordinate after polynomial width reparameterization; standard complexity classes are calibration points.</description>
     </item>
   </channel>
 </rss>

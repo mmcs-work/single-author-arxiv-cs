@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Deterministic Distance Selection in $O(n^{4/3})$ Time</title>
+      <link>http://arxiv.org/abs/2610.10780v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.10780v1</guid>
+      <pubDate>Wed, 07 Oct 2026 18:34:00 +0000</pubDate>
+      <description>Let $P$ be a set of $n$ points in the plane. Given an integer $K$ with $1\le K\le {n\choose 2}$, the distance selection problem asks for the $K$-th smallest distance among all pairwise distances of the points of $P$. The problem has been studied extensively over the past four decades. Recently, Chan and Zheng (2023) gave a randomized algorithm with $O(n^{4/3})$ expected running time, while the best known deterministic algorithm runs in $O(n^{4/3}\log n)$ time. In this paper, we present a deterministic $O(n^{4/3})$-time algorithm for the problem, matching the best known randomized complexity. We also consider the more general bichromatic version of the problem, where two point sets $A$ and $B$ are given, with $m=|A|$ and $n=|B|$, and the goal is to find the $K$-th smallest distance among the $mn$ distances between points of $A$ and points of $B$. For this problem, the best previously known algorithm runs in $O((m\log n+n\log m+m^{2/3}n^{2/3})\log(m+n))$ time. We present a new deterministic algorithm with running time $O(m\log^2 n+n\log^2 m+m^{2/3}n^{2/3})$.</description>
+    </item>
+    <item>
       <title>$\exists \mathbb{R} \subseteq \textsf{CH}$</title>
       <link>http://arxiv.org/abs/2610.10514v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.10514v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.24445</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 -0000</pubDate>
       <description>For a smooth irreducible curve $C$, its second gonality $d_2$ is defined to be the minimum integer $d$ such that $C$ admits a linear series $g_d^2$. In this paper, we compute the second gonality of a smooth aCM curve $C$ lying on a smooth quartic surface in $\mathbb{P}^3$, whose Clifford index is computed by a net on $C$.</description>
-    </item>
-    <item>
-      <title>New aspects of quantum topological data analysis: Betti number estimation, and testing and tracking of homology and cohomology classes</title>
-      <link>https://arxiv.org/abs/2506.01432</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.01432</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We introduce several new quantum algorithms for estimating homological invariants, specifically Betti numbers and persistent Betti numbers, of a simplicial complex given via a structured classical input. At the core of our algorithm lies the ability to efficiently construct the block-encoding of Laplacians (and persistent Laplacians) based on the classical description of the given complex. From such block-encodings, Betti numbers (and persistent Betti numbers) can be estimated. The complexity of our method is polylogarithmic in the number of simplices in both simplex-sparse and simplex-dense regimes, thus offering an advantage over existing works. Moreover, prior quantum algorithms based on spectral methods incur significant overhead due to their reliance on estimating the kernel of combinatorial Laplacians, particularly when the Betti number is small. We introduce a new approach for estimating Betti numbers based on homology tracking and homology property testing, which enables exponential quantum speedups over both classical and prior quantum approaches under sparsity and structure assumptions. We further initiate the study of homology triviality and equivalence testing as natural property testing problems in topological data analysis, and provide efficient quantum algorithms with time complexity nearly linear in the number of simplices when the rank of the boundary operator is large. In addition, we develop a cohomological approach based on block-encoded projections onto cocycle spaces, enabling rank-independent testing of homology equivalence. This yields the first quantum algorithms for constructing and manipulating r-cocycles in time polylogarithmic in the size of the complex. Together, these results establish a new direction in quantum topological data analysis and demonstrate that computing topological invariants can serve as a fertile ground for provable quantum advantage.</description>
     </item>
   </channel>
 </rss>
