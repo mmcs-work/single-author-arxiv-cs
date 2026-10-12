@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling</title>
+      <link>http://arxiv.org/abs/2610.13924v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.13924v1</guid>
+      <pubDate>Fri, 09 Oct 2026 17:54:16 +0000</pubDate>
+      <description>A parallel sampler can choose at random which coordinates to generate together. For a target $p$ and the output law $q_U$ of a schedule $U$ drawn afresh for each output, we compare the schedule-averaged divergence $\mathbb{E}_U D_{\mathrm{KL}}(p\|q_U)$ with the output-law divergence $D_{\mathrm{KL}}(p\|\mathbb{E}_U q_U)$, in nats. Rounds commit independent draws from exact conditional marginals frozen at the round's start, each output's schedule is drawn before sampling from a finite mixture of schedules, and every scheduled round is charged. For the uniform distribution on binary strings of even length $n$ with $n/2$ ones, the least expected number of rounds at a fixed tolerance $\varepsilon&gt;0$ is $Θ_\varepsilon((\log n)^2)$ under the first criterion but $(e^{-\varepsilon}+o(1))\log_2\ln n$ under the second, and the double-logarithmic order is attainable with the same round count on every run. For this target, a count-state recursion gives the exact least output divergence at every round cap over all causal randomized policies. The separation extends to weighted fixed-count targets with bounded weight ratios and quota fractions bounded away from zero and one, without permutation symmetry, and to the full-support Beta$(1,1)$--Bernoulli target, where the sharp expected cost under the output-law criterion is $(e^{-\varepsilon}/2+o(1))\log_2\log_2n$, attained with rare $n$-round runs. Prior work implies the order of the schedule-averaged cost on the balanced target and its $O_\varepsilon((\log n)^2)$ upper bounds on both extensions.</description>
+    </item>
+    <item>
+      <title>How far is Kolmogorov-Loveland randomness from Martin-Löf randomness?</title>
+      <link>http://arxiv.org/abs/2610.13585v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.13585v1</guid>
+      <pubDate>Fri, 09 Oct 2026 13:36:43 +0000</pubDate>
+      <description>We'll call a map from basic to clopen sets of binary sequences an \textit{encoding} if it preserves uniform Lebesgue measure and the disjointedness relation. For some notion of randomness $R$ we can ask if there is a computable encoding $E$ such that for every non-Martin-Löf-random (non-MLR) sequence $α$, the sequences in $E(α)$ are non-$R$. Thus we can use $E$ and randomness test for $R$ to construct a randomness test for MLR. We show that there is no such $E$ for partial computable randomness (PCR), but there is one for Kolmogorov-Loveland randomness. Indeed, there is a total computable $E$ and a pair of total computable non-monotonic betting strategies such that on every sequence in $E(α)$ at least one of the strategies wins whenever $α$ is non-MLR.</description>
+    </item>
+    <item>
+      <title>Certified Outage Dimensioning of Fluid Antenna Receivers: Required SNR, Aperture, and Port Count</title>
+      <link>http://arxiv.org/abs/2610.13094v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.13094v1</guid>
+      <pubDate>Fri, 09 Oct 2026 06:49:44 +0000</pubDate>
+      <description>We study the SNR, aperture, and port count needed to meet a target outage in a single-user downlink with a fixed transmit antenna and a single-RF fluid antenna receiver. For known spatially correlated Rayleigh channels and ideal port selection, a sampling-free residual certificate controls reduced-rank outage error over a continuous SNR interval. Positive Bessel features support large arrays, and bounded importance sampling converts the certificate into simultaneous design intervals. At 1 bit/s/Hz and outage $10^{-5}$, a four-wavelength, ten-port receiver requires 4.40--4.55 dB. Reducing its port count from 256 to ten costs 0.70--1.25 dB under a joint 95\% probability statement. At 3.5 wavelengths, ten ports require 4.90--5.05 dB. Integer-port screening across 3--8 dB shows how aperture and port requirements change with available SNR; an effective-SNR transformation extends these decisions to other rates. The reported intervals include model and sampling uncertainty under checked Gaussian covariance inputs. A constructive slow-growth rank bound and a 16--1024-port study support compact evaluation as port count grows.</description>
+    </item>
+    <item>
+      <title>A Simple Explicit Construction of Smaller Strong Blocking Sets</title>
+      <link>http://arxiv.org/abs/2610.12819v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.12819v1</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:23 +0000</pubDate>
+      <description>Alon, Bishnoi, Das and Neri constructed sequences of strong blocking sets in $(k-1)$-dimension projective space $P({\bf F}_q, k-1)$ with sizes at most $Cqk$, where $k$ goes to the infinity and $C$ is a fixed positive constant not depending on $q$, in their paper published in Transactions AMS, vol. 277, pp. 5389-5410, 2024. This is equivalent to a sequence of minimal $[n_i,k_i]_q$ codes with positive rate $\frac{k_i}{n_i} \geq c$, where $k_i$ goes to the infinity and $c$ is a fixed positive constant only depending on $q$. They solved one of the main open problems on minimal codes. The Alon-Bishnoi-Das-Neri construction was based on asymptotically good sequences of algebraic geometric codes and expander graphs. However, the constant $C$ is large for small prime power $q$. In this paper, based on a simple approach using $(q-1)$-power intersecting algebraic geometric codes via concatenation to construct minimal codes, we construct explicit strong blocking sets in $(k-1)$-dimension projective space with sizes around $2(q^2-1)k$, equivalently, explicit minimal $[n,k]_q$ codes with length around $2(q^2-1)k$. This is an essential improvement on the previous result of Alon-Bishnoi-Das-Neri, when $q \leq 11$. For large $q$, strong blocking sets and minimal codes in our construction are worse than the previous construction of Alon-Bishnoi-Das-Neri. However, our approach is much simpler and does not depend on expander graphs.</description>
+    </item>
+    <item>
       <title>Subspace Uncertainty and Sharp Sampling Thresholds on the Boolean Cube</title>
       <link>http://arxiv.org/abs/2610.12358v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.12358v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.14621v1</guid>
       <pubDate>Sun, 13 Sep 2026 15:50:01 +0000</pubDate>
       <description>The classical capacity of a quantum channel is the highest rate at which classical information can be transmitted with vanishing error. Although the capacities of many fundamental quantum channels have been established, the capacity of the generalized amplitude-damping channel remains an open problem in quantum Shannon theory. In this work, we revisit a converse bound introduced by Brandão et al. [Phys. Rev. Lett. 106, 230502 (2011)], which upper-bounds the classical capacity in terms of a correlation measure. For the generalized amplitude-damping channel, we derive a relaxation of this measure that makes the converse bound efficiently computable. Numerical comparisons demonstrate that our bound is pretty tight in general and nearly coincides with the Holevo information at nonzero temperatures, significantly improving upon existing bounds across the entire parameter range.</description>
-    </item>
-    <item>
-      <title>On Large-Scale Multiple Testing Over Networks: A Non-Asymptotic Approach</title>
-      <link>http://arxiv.org/abs/2609.14170v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.14170v1</guid>
-      <pubDate>Sat, 12 Sep 2026 22:05:15 +0000</pubDate>
-      <description>Distributed multiple testing asks $N$ sites to control a global false discovery rate (FDR) under a tight communication budget. The greedy interval-aggregation algorithm of Pournaderi and Xiang (2024) solves this asymptotically but can violate $\mathrm{FDR}\leα$ at finite samples. We trace the violation to a winner's-curse bias in the selected density statistics, of exact order $Θ(m^{-1/4}\sqrt{\log m})$ at the standard bandwidth $\varepsilon\asymp m^{-1/2}$, with $m$ the total number of p-values in the network. Cross-Fit Greedy Aggregation (CFGA) eliminates the curse by selecting the nested rejection family on one half of each node's data and scoring it on the other, achieving finite-sample $\mathrm{FDR}\leα$ when per-node null rates are known; an inflated variant covers the plug-in setting at a vanishing $η=1/m$ slack. BONuS-GA instead masks a bag of synthetic uniform nulls calibrated by counting knockoffs, so every p-value serves both selection and inference; a per-node budgeted variant removes all oracle input, controlling $\mathrm{FDR}\leα$ for any data-independent bag. Aggregating the CFGA folds by e-values over random splits (e-CFGA) removes the Bonferroni factor and averages the split randomness. All variants keep the $O(\sqrt{m}\log m)$ communication budget, up to e-CFGA's $O(\bar{R}\log m)$ reporting round; empirically, BONuS-GA dominates at moderate-to-large per-node samples and CFGA with adaptive bandwidth at small ones.</description>
-    </item>
-    <item>
-      <title>Finite-Mask Gaussian-Process Reconstruction on a Periodic Sensor Ring: Mask-Geometry Dependence, Fourier-Mode Coupling, and Posterior Trace</title>
-      <link>http://arxiv.org/abs/2609.14007v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.14007v1</guid>
-      <pubDate>Sat, 12 Sep 2026 15:45:41 +0000</pubDate>
-      <description>We analyze how an arbitrary observation mask on a finite periodic ring of equally spaced sensors affects the posterior covariance, Fourier-mode coupling, and normalized posterior trace in Gaussian-process reconstruction. Under a rotationally stationary prior and homogeneous independent measurement noise, complete observation gives independent scalar posterior formulas for the Fourier modes. For an arbitrary mask, however, the matrix $Q_M=F D_MF^\ast$ is generally non-diagonal; its off-diagonal entries are finite Fourier components of the realized mask and couple modes in the posterior precision. Consequently, masks with the same unavailable-channel fraction can have different normalized posterior traces because their geometries differ. A dimensionless 64-channel synthetic benchmark illustrates this finite-matrix effect. A circumferential array of equally spaced wall-mounted microphones at a fixed axial station of a circular fan or compressor duct provides one concrete mechanical-engineering interpretation: failed, saturated, corrupted, or dropped-out channels form the observation mask. The analysis is a finite-dimensional reference calculation under the stated rotational-stationarity and common-noise assumptions, not a performance claim for a nonuniform or unequally instrumented operating duct.</description>
-    </item>
-    <item>
-      <title>A lattice family with kissing constant $τ(\mathcal{L}_n) \ge e^{\sqrt{n}}$</title>
-      <link>http://arxiv.org/abs/2609.13608v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.13608v1</guid>
-      <pubDate>Fri, 11 Sep 2026 23:45:27 +0000</pubDate>
-      <description>For prime dimensions $n \ge 5$, we define integer lattices $\mathcal{L}_n$ with kissing constant \begin{align} τ(\mathcal{L}_n) \ge \left(\frac{1}{\sqrt{2 πe}} + o(1)\right) n^{3/4} e^{\sqrt n}. \notag \end{align} This improves on the growth rate $e^{Θ((\log n)^2)}$ of the Barnes-Wall lattices, which provided the previously best known asymptotic lower bound. The construction is an extension of a previous construction by Bennett-Peikert based on Reed-Solomon codes.</description>
-    </item>
-    <item>
-      <title>A New Upper Bound on the Binary Deletion Channel Capacity</title>
-      <link>http://arxiv.org/abs/2609.13351v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.13351v1</guid>
-      <pubDate>Fri, 11 Sep 2026 16:40:29 +0000</pubDate>
-      <description>We prove that the capacity of the binary deletion channel satisfies $C(d)\le (1-d)/4$ for every $13/20\le d&lt;1$. The proof describes the output from right to left, using a six-bit context to assign a description length. We bound the increase in expected description length minus output entropy when one input bit is added. A relative-entropy identity reduces this bound to finitely many linear inequalities. A potential on input windows of length 26 makes the inequalities telescope, giving a bound for every input word. Deletion composition extends the result from $d=13/20$ to all larger deletion probabilities. We also obtain finite-block bounds on mutual information and decoding error, with explicit $O(\log n/n)$ corrections. The finite certificate is checked using exact integer arithmetic, and the proof is formalized end to end in Lean.</description>
     </item>
   </channel>
 </rss>

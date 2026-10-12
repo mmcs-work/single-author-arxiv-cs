@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Deterministic Girth Approximation in Weighted Undirected Graphs</title>
+      <link>http://arxiv.org/abs/2610.13452v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.13452v1</guid>
+      <pubDate>Fri, 09 Oct 2026 11:52:02 +0000</pubDate>
+      <description>We give deterministic algorithms for approximating the girth~$g$ of an undirected graph with $n$ vertices, $m$ edges, and nonnegative real edge lengths. For every integer $k\geq2$, our algorithm returns a cycle of length at most $\frac{2k}{3}g$ in $O((m+n^{1+2/k})k\log n)$ worst-case time. For every constant~$k$, this matches the stretch and the expected running time of the randomized algorithms of Kadria, Roditty, Sidford, Vassilevska Williams, and Zwick [SODA'23, SICOMP'26] and Kadria, Roditty, and Vassilevska Williams [ESA'26]. In general, it loses only a factor of $O(\min\{k,\log n\})$ in the term that depends on~$m$. The best previous deterministic trade-off, of Kadria, Roditty, Sidford, Vassilevska Williams, and Zwick [SODA'22], has stretch~$k$ instead of $\frac{2k}{3}$ at the same exponent (for even~$k$) and requires integer edge lengths. In particular, for $k=3$ we obtain a deterministic $2$-approximation in $O((m+n^{5/3})\log n)$ time for real edge lengths, whereas the deterministic algorithm of Ducoffe [SIDMA'21] for real lengths has stretch $2+\varepsilon$. Our main technical idea is that a deterministic construction of the Thorup--Zwick hierarchy used by these algorithms may stop exploring as soon as it finds a cycle: the approximation analysis only needs clusters truncated at half the best cycle certificate found, so balls stopped in this way need not be hit. Together with a degree-weighted selection rule, this bounds the work of each level by its number of edges and stored ball entries. More generally, a ball need not be hit whenever the analysis only uses clusters up to a radius bounded by a certificate that the algorithm has already found.</description>
+    </item>
+    <item>
+      <title>Minimizing fuzzy Kripke models over residuated lattices</title>
+      <link>http://arxiv.org/abs/2610.13010v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.13010v1</guid>
+      <pubDate>Fri, 09 Oct 2026 05:14:19 +0000</pubDate>
+      <description>Model minimization is a fundamental problem in formal methods, as smaller models can substantially reduce the complexity of model analysis and reasoning while preserving relevant semantic properties. This work studies the minimization of finite fuzzy Kripke models over residuated lattices while preserving global or local assertions in fuzzy modal logics, which are either fuzzy propositional dynamic logic or a restriction thereof, optionally enriched with nominals, converse modalities, and/or the universal program constructor. We prove that, whenever the multiplication operator of the underlying residuated lattice is right-continuous, the quotient model induced by the greatest fuzzy auto-bisimulation is a minimal reduction preserving global assertions. If the underlying fuzzy modal logic includes the universal program constructor, this quotient model is also a minimal reduction preserving local assertions and a minimal fuzzy Kripke model bisimilar to the original model. In the case where the universal program constructor is absent and the multiplication operator is additionally strictly monotone with respect to~1, we present the first algorithm for constructing a minimal reduction preserving local assertions; the resulting model is also a minimal bisimilar model.</description>
+    </item>
+    <item>
+      <title>Improved classical optimization of fermionic Hamiltonians beyond Gaussian states</title>
+      <link>http://arxiv.org/abs/2610.12844v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.12844v1</guid>
+      <pubDate>Fri, 09 Oct 2026 01:07:06 +0000</pubDate>
+      <description>We give a polynomial-time randomized classical algorithm that approximates the largest eigenvalue $λ_{\max}$ of a traceless quartic fermionic Hamiltonian $H$ on $n$ modes. The algorithm achieves energy at least $λ_{\max}/O(\sqrt n)$ and outputs either a fermionic Gaussian state or a polynomially sparse state in the Fock basis. This is achieved through a new upper bound on $λ_{\max}$ in terms of the maximum energy of a Gaussian state and $\sqrt{2^{-n}\operatorname{Tr}(H^2)}$.</description>
+    </item>
+    <item>
+      <title>A Catalytic Algorithm for Transposing Unknown Qutrit Unitaries with Tight Query Bounds</title>
+      <link>http://arxiv.org/abs/2610.12664v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.12664v1</guid>
+      <pubDate>Thu, 08 Oct 2026 19:42:10 +0000</pubDate>
+      <description>We construct exact deterministic circuits for transposing and inverting an unknown qutrit unitary $U\in\mathrm{SU}(3)$ using only forward queries. Three queries prepare a catalyst independently of the input state. Four further queries implement transposition while returning the catalyst unchanged and uncorrelated with the output. Two uses within an antisymmetric encoding implement inversion with eight processing queries and return the same catalyst. Reusing the catalyst implements $m$ transpositions or inversions with $3+4m$ or $3+8m$ total queries, respectively. More generally, we prove that exact transposition and inversion of an unknown $U\in\mathrm{SU}(d)$, $d\ge2$, require at least $d+1$ and $d^2-1$ processing queries, respectively, in fixed causal order. These processing bounds hold for any program state prepared independently of the input state using finitely many forward queries, even if that state is consumed during processing. Both our catalytic qutrit algorithms attain their respective bounds. Moreover, exact qutrit transposition with four processing queries requires at least three preparation queries, and our construction attains this bound.</description>
+    </item>
+    <item>
       <title>Improved Approximations for Vehicle Routing with Nonuniform Speeds</title>
       <link>http://arxiv.org/abs/2610.12195v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.12195v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.13693v1</guid>
       <pubDate>Sat, 12 Sep 2026 04:03:29 +0000</pubDate>
       <description>Identifiability criteria certify that a given tensor decomposition is a unique rank decomposition. Kruskal's classical condition is one of the best-known deterministic criteria for identifiability. However, no polynomial-time decomposition algorithm is known under the Kruskal condition, and verifying the condition itself is NP-hard. Lovitz and Petrov introduced a strictly more general identifiability condition which, in contrast, is polynomial-time verifiable, but no polynomial-time decomposition algorithm was previously known under this condition. We give a polynomial-time algorithm for 3-way tensor decomposition under the Lovitz--Petrov condition. Moreover, combining our algorithm with polynomial-time verification of the Lovitz--Petrov condition yields an efficient end-to-end certification procedure: after computing a decomposition, one can deterministically certify in polynomial time that it is unique and therefore of minimum rank. This contrasts with an arbitrary tensor decomposition, which certifies only an upper bound on the tensor rank, while determining tensor rank is NP-hard in general.</description>
-    </item>
-    <item>
-      <title>Prefix Sharing Is a Sorting Problem</title>
-      <link>http://arxiv.org/abs/2609.13692v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.13692v1</guid>
-      <pubDate>Sat, 12 Sep 2026 04:02:31 +0000</pubDate>
-      <description>LLM serving reuses KV cache by exact prefix match, so when a prompt is assembled from a set of reusable pieces -- retrieved passages, tool definitions, few-shot exemplars -- the order chosen for those pieces determines how much computation can be shared. Every deployed system fixes that order by a single global convention. We prove this is optimal only when requests contain at most two pieces, and asymptotically wrong in general. Our main result is a structure theorem: the minimum prefix-trie cost equals min_H sum_x w(x) t_x(H) over binary hierarchies H on the requests, where t_x(H) is the canonical decomposition size of the set of requests needing chunk x. Choosing chunk orders is therefore equivalent to choosing one hierarchy over requests. The identity yields an O(3^m) exact algorithm, identifies the two-chunk case as minimum vertex cover, and shows that on the leave-one-out family the optimum is the minimum external path length of a binary tree -- the merge-sort recursion -- so a global order pays Theta(n^2) against a true cost of Theta(n log n). Agglomerative clustering by common intersection is a tight 1/2-approximation for the achievable saving. On BM25 retrieval traces over three BEIR corpora the resulting layout reduces prefill by 17-36% against production RAG ordering, and the margin widens with retrieval depth as the theory predicts. Serving requests in the hierarchy's DFS order finally lets a cache holding one request's context attain the unbounded-cache optimum exactly, so cache capacity and reorder window act as substitutes.</description>
-    </item>
-    <item>
-      <title>Learning Sparse Quantum States</title>
-      <link>http://arxiv.org/abs/2609.12219v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12219v1</guid>
-      <pubDate>Thu, 10 Sep 2026 21:28:21 +0000</pubDate>
-      <description>We study the problem of tomography for $k$-sparse quantum states. In contrast to classical distribution learning, where tight sample and time complexity bounds in terms of support size are well understood, no non-trivial bounds were previously shown for this problem. We give the first near optimal algorithm for learning $n$-qubit $k$-sparse pure quantum states, obtaining fidelity at least $1-\varepsilon$ with high probability using $\tilde{O}(k/\varepsilon)$ copies of the state and $\tilde{O}(kn/\varepsilon)$ time. Both bounds are optimal up to polylogarithmic factors. As an implication, we also obtain an algorithm with near optimal $\tilde{O}(kr/\varepsilon)$ sample complexity for learning $k$-sparse rank-$r$ mixed states, via the random purification channel technique. Obtaining time complexity nearly matching the sample complexity, for $r&gt;1$, remains an important open question.</description>
-    </item>
-    <item>
-      <title>A Non-constant Lower Bound for Grammar-Based Compression with Greedy</title>
-      <link>http://arxiv.org/abs/2609.12106v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12106v1</guid>
-      <pubDate>Thu, 10 Sep 2026 18:33:25 +0000</pubDate>
-      <description>We prove a lower bound of Ω(log n/ log log n) on the approximation ratio of the global grammar-based compression algorithm Greedy. To our knowledge, the previously best lower bound was a constant, and the existence of a nonconstant lower bound had remained open for more than twenty years. Our bound holds on an infinite family of words of length n, over alphabets of growing size, for every execution using left-to-right occurrence replacement and arbitrary tie-breaking. The lower bound is also formally verified in Lean 4.</description>
-    </item>
-    <item>
-      <title>Computing the Shortest Even Directed-Cycle Length in $\widetilde{O}(n^4)$ Time</title>
-      <link>http://arxiv.org/abs/2609.12021v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12021v1</guid>
-      <pubDate>Thu, 10 Sep 2026 10:58:00 +0000</pubDate>
-      <description>Björklund, Husfeldt, and Kaski gave a randomized $\widetilde{O}(n^{ω+3})$-time algorithm for computing the length of a shortest even cycle in an $n$-vertex directed graph, where $ω$ is the square matrix multiplication exponent. Their algebraic framework evaluates a parity cycle-cover enumerator over a field of characteristic two by lifting the computation to a ring of characteristic four. We give a direct evaluator for nonsingular matrices that stays in characteristic two. If $A$ is nonsingular over a field of characteristic two, the sum of the monomials indexed by odd permutations can be computed deterministically using $O(n^3)$ field operations. The key is an inverse-based closed form for a matrix with two proportional rows, combined with row elimination and dynamic inverse maintenance. For a directed graph, we apply the evaluator to $I+zW$, where $W$ is a randomly weighted adjacency matrix. The determinant $\det(I+zW)$ has constant coefficient one, so among any $2n+1$ distinct field elements at least $n+1$ yield nonsingular matrices. Evaluating at these points and interpolating gives a Monte Carlo algorithm that computes the shortest even-cycle length in $\widetilde{O}(n^4)$ time, with error probability $O(n^{-3})$. The error is one-sided with respect to existence: on a graph without an even cycle the algorithm always reports that fact. The result concerns the length; the standard self-reduction produces a cycle in $\widetilde{O}(n^5)$ time.</description>
     </item>
   </channel>
 </rss>

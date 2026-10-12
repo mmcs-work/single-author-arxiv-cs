@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Bicriteria Approximation Scheme for the Minimum Well-Separated Pair Decomposition</title>
+      <link>http://arxiv.org/abs/2610.13650v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.13650v1</guid>
+      <pubDate>Fri, 09 Oct 2026 14:27:23 +0000</pubDate>
+      <description>A well-separated pair decomposition (WSPD) of a set $P$ of $n$ points covers all $\binom{n}{2}$ pairs of points by a family of dumbbells $\{X,Y\}$, each covering the pairs of $X\times Y$, such that the diameters of $X$ and $Y$ are at most an $\varepsilon$-fraction of their distance. In $\mathbb{R}^d$, WSPDs with $O(n/\varepsilon^d)$ dumbbells always exist, but many inputs admit much smaller ones. However, computing a WSPD of minimum size is NP-hard in the plane. For $d\ge2$, the only known approximation that preserves the separation has a factor of $2^{O(d)}$, and Buchin et al. (ESA 2026) asked whether a $(1+δ)$-approximation exists. We give a bicriteria approximation scheme: for fixed $d$ and $δ\in(0,1]$, we compute in $f(d,δ)\cdot n^{6}$ time a $(1+δ)\varepsilon$-WSPD whose size is at most $(1+δ)$ times the minimum size of an $\varepsilon$-WSPD. The same holds in metric spaces of bounded doubling dimension. The algorithm combines shifting over scales with the local-growth technique of Nieberg, Hurink, and Kern, applied to a graph whose vertices are the pairs of points. In contrast, we show that in general metric spaces, relaxing the separation by a factor below $2$ keeps the problem hard: for every fixed rational $\varepsilon\le1/4$, it is NP-hard to compute such a relaxed WSPD whose size is within a factor $n^c$ of the minimum, for every $c&lt;2/3$.</description>
+    </item>
+    <item>
       <title>Deterministic Distance Selection in $O(n^{4/3})$ Time</title>
       <link>http://arxiv.org/abs/2610.10780v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.10780v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2403.01354</guid>
       <pubDate>Tue, 28 Apr 2026 00:00:00 -0000</pubDate>
       <description>We give a review of results on the minimum convex cover and maximum hidden set problems. In addition, we give some new results. First we show that it is NP-hard to determine whether a polygon has the same convex cover number as its hidden set number. We then give some important examples in which these quantities don't always coincide. Finally, We present some consequences of insights from Browne, Kasthurirangan, Mitchell and Polishchuk [FOCS, 2023] on other classes of simple polygons.</description>
-    </item>
-    <item>
-      <title>Second gonality of smooth aCM curves on quartic surfaces in $\mathbb{P}^3$</title>
-      <link>https://arxiv.org/abs/2604.24445</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.24445</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 -0000</pubDate>
-      <description>For a smooth irreducible curve $C$, its second gonality $d_2$ is defined to be the minimum integer $d$ such that $C$ admits a linear series $g_d^2$. In this paper, we compute the second gonality of a smooth aCM curve $C$ lying on a smooth quartic surface in $\mathbb{P}^3$, whose Clifford index is computed by a net on $C$.</description>
     </item>
   </channel>
 </rss>

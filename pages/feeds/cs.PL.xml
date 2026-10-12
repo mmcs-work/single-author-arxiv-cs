@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Coexponential Exploration in the Clef Programming Language</title>
+      <link>http://arxiv.org/abs/2610.12911v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.12911v1</guid>
+      <pubDate>Fri, 09 Oct 2026 03:03:03 +0000</pubDate>
+      <description>Clef was created as a concurrent programming language whose compiler tracks state ownership, waiting computations and request dependencies. We develop a coexponential account of stateful services and their client pools within this design. Delimited continuations retain the computation and resources needed to complete each interaction. These structures give our compiler premises for verifying service composition and preserving it through native lowering to multiple hardware targets. We connect finite actor state transitions to the initial, service and final rules of a coexponential server. A separate operational account relates actor dispatch to single-use continuation frames. We prove state-ownership and reply preservation for that translation, give a finite communication-summary analysis, and circular-wait exclusion from the conditions needed. A further result identifies when changing service order preserves both state and replies. Our Program Semantic Graph retains these facts through compilation. We are researching reusable proofs to confirm the ownership and communication interfaces, while our BAREWire implementation connects message meaning to its unboxed representation across respective endpoints. A distributed worker example preserves request identity across suspension, reordered replies and boundary conversion. Urschel's elimination-growth bounds supply quantitative premises for a solver service, whose accuracy and failure budget compose with the protocol contract. The design we envision connects automatic structural analysis, reusable proof terms and native realization. Protocols determine the admissible interactions, continuations expose their storage requirements, and retained dependencies support differential compilation. Developers can express ordinary stateful services while the compiler carries the conditions for their correct composition across execution targets.</description>
+    </item>
+    <item>
       <title>Bayes Rule for Conditioning Probabilistic Programs</title>
       <link>http://arxiv.org/abs/2610.10792v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.10792v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.22734</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 -0000</pubDate>
       <description>Variables are quite subtle and easy to get wrong. An approach is described to support rigid $α$ canonical variables in an e-graph. The lifting e-graph has a baked-in notion of functional lifting combinator. It is implemented by fattening the usual integer identifiers with thinning bitvectors, lift-pulling smart constructors, and a special thinning-aware union find variation. The approach is inspired by slotted e-graphs and Co-de Bruijn syntax.</description>
-    </item>
-    <item>
-      <title>AI-Assisted Completion of CertiGC Proofs: An Experience Report</title>
-      <link>https://arxiv.org/abs/2606.21167</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.21167</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 -0000</pubDate>
-      <description>This experience report describes the Codex-assisted completion and stabilization of a substantial Rocq (formerly Coq) proof development for CertiGC, the verified generational garbage collector in the CertiGraph project. The development extends the collector from an effectively immutable setting to a mutable one by adding remembered-set forwarding to the collection path and re-establishing the top-level graph-isomorphism correctness theorem. The central technical issue was not low-level proof scripting alone: mutable updates invalidate the old global no-backward-edge assumption, so the proof had to be reorganized around a recorded-backward-edge invariant stating that every backward edge is recorded in the appropriate remembered-set component. This case differs from recent AI-assisted formal-proof accounts: unlike the adaptation of a nearby compilerproof architecture or a fresh metatheory formalization, it completes a long-running verification in a mature codebase built on the Verified Software Toolchain (VST) and CertiGraph, both mechanized in Rocq. The Rocq kernel remained the arbiter of correctness, while our role shifted toward adjudicating invariant proposals, constraining specification changes, reviewing theorem statements, and deciding when proof cleanup was justified. The Codex-assisted phase repaired the VST relation proofs first, then restored the mathematical graph-isomorphism theorem, and only then audited the premise path from the VST specification to the theorem. That audit found and removed a stale no-backward-edge condition from the VST-facing proof path. This report presents the workflow, resulting proof artifact, and lessons for agentic proof maintenance.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Game Petri Nets: Compositional Modeling and Analysis of Large-Scale Strategic Systems</title>
+      <link>http://arxiv.org/abs/2610.12779v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.12779v1</guid>
+      <pubDate>Thu, 08 Oct 2026 22:36:29 +0000</pubDate>
+      <description>Large-scale strategic systems, such as maintenance workflows, cyber campaigns, and multi-agent AI pipelines, consist of many interactions whose outcomes determine which later interactions become possible, who takes part, and with what resources. We introduce game Petri nets, formalized as outcome-driven compositional game Petri nets (OCGPNs), to model and analyze such systems. Local games are attached to places of a colored Petri net, and a game-to-token interface converts each resolved game into typed tokens that enable, synchronize, or block subsequent games. For general, concurrent nets, we give an operational semantics and a structural theory based on invariants and Farkas certificates, which shows that guards can certify unreachability whereas incentive instruments can only change values. For sequential nets, the net induces a stochastic game on its game places. We prove that global equilibria are exactly collections of equilibria of local games augmented by continuation values, characterize through successor-level pivotality when downstream games change upstream behavior, and compute values place by place via a decomposition into strongly connected components, at a cost additive in local game sizes. A composition calculus based on place fusion glues certificates across subnets and summarizes downstream subnets by their entry values. Two running examples, a maintenance workflow and an intrusion campaign derived from multi-resolution cyber-defense games, illustrate the theory, including the composition of a newly discovered attack scenario with an existing campaign.</description>
+    </item>
+    <item>
       <title>Epistemic Disturbance in the Graph Model for Conflict Resolution: State-Preserving Actions, Four-Valued Assessments, and the Distinction between Capability and Intention</title>
       <link>http://arxiv.org/abs/2610.11690v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.11690v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.16252v1</guid>
       <pubDate>Mon, 17 Aug 2026 08:25:11 +0000</pubDate>
       <description>We study the group-fair distortion of metric facility assignment problems, where a set of agents, partitioned into unknown groups, must be assigned to a collection of facilities, possibly subject to capacity or other feasibility constraints. Given an assignment, each agent incurs a cost that depends on both its distance to its assigned facility and, via an affinity factor, the average distance of the other members in its group to their assigned facilities. We consider full-information algorithms, which have complete knowledge of the metric space, and ordinal-information algorithms, which know the distances between facilities and only the rankings of the agents over facilities (sorted by increasing distance). We establish worst-case distortion upper bounds in terms of the Max-of-Sum and Sum-of-Max social objectives, which combine the classic utilitarian and egalitarian social cost measures. We also derive informational lower bounds for one-sided matching and clustering, two fundamental and well-studied problems captured by our model, that match our upper bounds exactly for Max-of-Sum and asymptotically for Sum-of-Max.</description>
-    </item>
-    <item>
-      <title>A Repeated-Game Framework for Incentives in Decentralized Infrastructure Protocols</title>
-      <link>https://arxiv.org/abs/2608.12576</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12576</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We introduce a repeated dynamic incentive framework for characterizing when "compliance", or full-effort honest service provision, is incentive compatible in Decentralized Physical Infrastructure Networks (DePIN). We model quality control in this setting as a repeated moral-hazard problem between the protocol and each provider, where compliance is enforced by both slashing posted collateral and the discounted threat of demotion to probation tiers on a reputation ladder. Our main contribution is the "deterrence ratio" $Γ$, the worst-case ratio of a deviation's private gain to its marginal probability of detection. We find that if any profitable deviation does not increase the fail probability relative to compliance, then binary public-outcome protocols cannot deter it. When all profitable deviations have positive detection gaps and no weakly costlier action is less likely to fail, compliance is sequentially incentive compatible if and only if immediate slashing plus discounted reputation loss is at least $Γ$ at every reputation tier. We use this condition to formulate a protocol design problem mapping service primitives to stake requirements, reward schedules, probation rules, and audit frequency.</description>
     </item>
   </channel>
 </rss>
