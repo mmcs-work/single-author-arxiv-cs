@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>GpFlash: Maximizing Speed and Minimizing Memory for Gaussian Process Training and Prediction</title>
+      <link>http://arxiv.org/abs/2610.16861v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.16861v1</guid>
+      <pubDate>Mon, 12 Oct 2026 14:29:31 +0000</pubDate>
+      <description>This paper presents GpFlash, a Gaussian process library that is focused on fast training and posterior evaluations, minimal memory usage, and scalability to high-dimensional problems. GpFlash was compared to the popular GP libraries scikit-learn, GPy, GPflow, GPyTorch, and SMT on a MacBook Pro and the supercomputer Trillium. GpFlash was found to use less memory and to be faster for training and posterior evaluations relative to the other GP libraries for all cases considered. For example, when using $\nx = 10^4$ training points in a 10-dimensional space GpFlash required 9.6 to 35 times less memory and was 2.6 to 54 times faster than the other GP libraries for the evaluation of the marginal log likelihood and its gradient. The memory reduction was achieved by only using one matrix of size $\nx \times \nx$ to store different symmetric matrices in its lower and upper triangular entries. The computational speedup was the result of designing algorithms to access memory efficiently, using BLAS and LAPACK methods extensively, and factoring kernel equations so that expensive exponential calculations could be reused. GpFlash was more than 440 times faster than all of the other GP libraries considered when evaluating the posterior mean together with its gradient for the case with $10^4$ training points and 10 dimensions. GpFlash is available at https://github.com/marchildon/gpflash.</description>
+    </item>
+    <item>
+      <title>manylp: reproducible, exact, and batched linear programming for genome-scale dynamic flux balance analysis</title>
+      <link>http://arxiv.org/abs/2610.14566v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.14566v1</guid>
+      <pubDate>Sat, 10 Oct 2026 04:36:08 +0000</pubDate>
+      <description>Dynamic flux balance analysis (dFBA) and its community, spatial and ensemble variants predict microbial metabolism by solving one linear program (LP) per species and time step, often 10^6 to 10^8 LPs per study. These LPs share their constraint matrix and objective and differ only in their bounds, yet general-purpose solvers treat each one independently, and GPU first-order solvers struggle with the degenerate, badly scaled matrices of genome-scale models. Moreover, metabolic optima are usually faces rather than vertices, so solvers return arbitrary flux vectors and dFBA predictions depend on the solver used. We present manylp, a batched solver for such bounds-parametric LP families that returns certified vertex solutions. Building on the bunching technique of stochastic programming, manylp caches optimal bases and certifies whole batches with one dense matrix product per basis on CPUs or GPUs; LPs outside the cached critical regions are re-solved by a warm-started lexicographic dual simplex, and new bases are propagated across the batch. Each LP is certified optimal and unique under a lexicographic flux rule, or infeasible, in independent double-precision arithmetic. On a genome-scale dFBA workload, manylp certified 47,889 LPs per second on a CPU, 12 to 33 times faster than HiGHS, Gurobi, FICO Xpress, GLPK and OR-Tools (32 processes), and reached 682,000 LPs per second on one GPU for community ensembles, needing 76 simplex solves for 94.6 million LPs. Integrated into the muODE simulator, it accelerated single trajectories 84-fold and 16-member ensembles 635-fold, and made adaptive Runge-Kutta integration affordable, reducing biomass errors 83-fold. Integrating 49 equally optimal flux policies in one batched run showed that alternative optima change predicted acetate 4.2-fold and shift community composition. manylp is open source: https://github.com/cumbof/manylp.</description>
+    </item>
+    <item>
       <title>CNet: A Complex-Valued Deep Learning Framework with Wirtinger Autodifferentiation and FFT--Hadamard Convolution</title>
       <link>http://arxiv.org/abs/2610.08592v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.08592v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2506.19751</guid>
       <pubDate>Tue, 24 Jun 2025 00:00:00 -0000</pubDate>
       <description>Simulation-driven development of intelligent machines benefits from artificial terrains with controllable, well-defined characteristics. However, most existing tools for terrain generation focus on artist-driven workflows and visual realism, with limited support for parameterization, reproducibility, or scripting. We present a modular, Python-based library for procedural terrain generation that enables users to construct complex, parameterized terrains by chaining together simple modules. The system supports both structured and noise-based terrain elements, and integrates with Blender for rendering and object placement. The framework is designed to support applications such as generating synthetic terrains for training machine learning models or producing ground truth for perception tasks. By using a minimal but extensible set of modules, the system achieves high flexibility while remaining easy to configure and expand. We demonstrate that this enables fine-grained control over features such as slope, roughness, and the number of rocks, as well as extension to additional measures. This makes it well suited for workflows that demand reproducibility, variation, and integration with automated pipelines.</description>
-    </item>
-    <item>
-      <title>Transformations of Computational Meshes</title>
-      <link>https://arxiv.org/abs/2506.16341</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.16341</guid>
-      <pubDate>Thu, 19 Jun 2025 00:00:00 -0000</pubDate>
-      <description>Computational meshes, as a way to partition space, form the basis of much of PDE simulation technology, for instance for the finite element and finite volume discretization methods. In complex simulations, we are often driven to modify an input mesh, for example, to refine, coarsen, extrude, change cell types, or filter it. Mesh manipulation code can be voluminous, error-prone, spread over many special cases, and hard to understand and maintain by subsequent developers. We present a simple, table-driven paradigm for mesh transformation which can execute a large variety of transformations in a performant, parallel manner, along with experiments in the open source library PETSc which can be run by the reader.</description>
-    </item>
-    <item>
-      <title>Generalised Burnside and Dixon algorithms for irreducible projective representations</title>
-      <link>https://arxiv.org/abs/2505.14790</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.14790</guid>
-      <pubDate>Tue, 20 May 2025 00:00:00 -0000</pubDate>
-      <description>Based on the recently proposed character theory of projective representations of finite groups proposed, we generalise several algorithms for computing character tables and matrices of irreducible linear representations to projective representations. In particular, we present an algorithm based on that of Burnside to compute the characters of all irreducible projective representations of a finite group with a given Schur multiplier, and transpose it to exact integer arithmetic following Dixon's character table algorithm. We also describe an algorithm based on that of Dixon to split a projective representation into irreducible subspaces in floating-point arithmetic, and discuss how it can be used to compute matrices for all projective irreps with a given multiplier. Our algorithms bypass the construction of the representation group of the Schur multiplier, which makes them especially attractive for floating-point computations, where exact values of the multiplier are not necessarily available.</description>
     </item>
   </channel>
 </rss>

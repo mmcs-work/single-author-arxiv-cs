@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Are implicit schemes needed in adaptive time stepping for PDEs?</title>
+      <link>http://arxiv.org/abs/2610.14884v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.14884v1</guid>
+      <pubDate>Sat, 10 Oct 2026 12:57:50 +0000</pubDate>
+      <description>Implicit time integration is the standard way to overcome the tight CFL time step restriction when solving nonstationary PDEs numerically. However, within an adaptive time accurate integration, the time step size selection is governed not only by stability but also by accuracy requirements. Therefore, an eligible question to ask is: is (unconditionally) stable implicit time stepping really needed if the time step is restricted by accuracy considerations anyway? And how much do we then lose (in terms of the time step size) when switching from the expensive implicit time stepping to stabilized explicit schemes? An answer to this question is also important because such a switch is often done when solving large scale nonstationary PDEs on massively parallel computers. This paper attempts to answer these questions by numerical tests for two particular adaptive time accurate settings: (i)~nonstationary convection-diffusion equations and (ii)~nonlinear heat equations.</description>
+    </item>
+    <item>
       <title>Synchronization Reveals Market Structure That Classical Randomness Tests Cannot Detect</title>
       <link>http://arxiv.org/abs/2610.11028v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.11028v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.21707</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
       <description>We describe an adaptive market-making architecture that preserves the analytical structure of the Avellaneda--Stoikov framework while introducing a successor measure-style adaptation mechanism. In our paper we keep Avellaneda--Stoikov fast Hamilton--Jacobi--Bellman structure and make it adaptive to changing market regimes and trading objectives. The central idea is to separate market dynamics from the trading objective. The market state determines a low-dimensional set of Avellaneda--Stoikov parameters, while recent realized rewards determine a low-dimensional objective vector. The HJB forward map then converts this objective into optimal bid and ask quotes through a scalarization of future reward features.</description>
-    </item>
-    <item>
-      <title>Efficient generation of large-scale non-equilibrium distributions of particles</title>
-      <link>https://arxiv.org/abs/2605.18254</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.18254</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 -0000</pubDate>
-      <description>This work presents an efficient algorithm for generating statistically representative microstructures of particulate composites in periodic representative volume elements. The Swelling and Random Migration (SRM) algorithm combines collective particle rearrangements with an adaptive cell-based neighbor-search scheme, enabling near-linear computational scaling for low to intermediate volume fractions and allowing simulations with up to $10^7$ particles in two and three dimensions. SRM offers great flexibility, allowing the controlled generation of both equilibrium-like and strongly non-equilibrium particle arrangements. The method is readily extendable to non-spherical inclusions; this capability is demonstrated by modeling thin circular platelets and generating qualitatively distinct platelet microstructures, including highly interconnected "house-of-cards" networks and metastable quasi-nematic domains. The results highlight the importance of microstructural arrangement in structure-property relationships and establish SRM as a powerful tool for generating realistic, diverse, and computationally accessible particle configurations for composite material modeling.</description>
     </item>
   </channel>
 </rss>

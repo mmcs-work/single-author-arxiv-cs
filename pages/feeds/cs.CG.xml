@@ -5,11 +5,25 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Optimal Planar $k$ Nearest Neighbors Queries for Additively Weighted Euclidean Distances and Convex Metrics</title>
+      <link>http://arxiv.org/abs/2610.17430v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.17430v1</guid>
+      <pubDate>Mon, 12 Oct 2026 21:42:12 +0000</pubDate>
+      <description>Given a set $P$ of $n$ point sites in the plane, the $k$ nearest neighbors problem is to build a data structure that, for a query point $v$ and a query integer $k$, reports the $k$ nearest point sites of $v$ in $P$ efficiently. For the Euclidean metric, after four decades of efforts, an optimal data structure has been developed with $O(n)$ space, $O(\log n+k)$ query time and $O(n\log n)$ preprocessing time [Mat92b, Cha00, AC09, CT16]. In contrast, for a family of distance functions, the state-of-the-art data structure [AES99, KMR+20, Liu22] attains $O(n\log\log n)$ space, $O(\log n+k)$ query time and expected $O(n\log n)$ preprocessing time. An open question is the existence of an optimal data structure with $O(n)$ space and $O(\log n + k)$ query time for distance functions more general than the Euclidean metric. Such an optimal data structure also remains unknown for non-point sites in the Euclidean metric, even for disk sites or, more generally, additively weighted Euclidean distances. We develop an optimal $k$-nearest-neighbors data structure for additively weighted Euclidean distances with $O(n)$ space, $O(\log n + k)$ query time and expected $O(n\log n)$ preprocessing time. Since this data structure can be adjusted to disk sites, it serves as an initial result toward optimality for non-point sites. We also adapt our data structure to point sites under a family of convex metrics, including commonly used $L_p$ metrics and uniform orientation metrics. The data structure can be further extended to distance functions that satisfy certain axioms. Thus, we demonstrate the existence of optimal $k$-nearest-neighbors data structures for distance functions more general than point sites in the Euclidean metric. Our main technical advance is to generalize Matoušek's shallow partition theorem for hyperplanes [Mat92b] to these settings, while achieving a logarithmic crossing number.</description>
+    </item>
+    <item>
       <title>A Bicriteria Approximation Scheme for the Minimum Well-Separated Pair Decomposition</title>
       <link>http://arxiv.org/abs/2610.13650v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.13650v1</guid>
       <pubDate>Fri, 09 Oct 2026 14:27:23 +0000</pubDate>
       <description>A well-separated pair decomposition (WSPD) of a set $P$ of $n$ points covers all $\binom{n}{2}$ pairs of points by a family of dumbbells $\{X,Y\}$, each covering the pairs of $X\times Y$, such that the diameters of $X$ and $Y$ are at most an $\varepsilon$-fraction of their distance. In $\mathbb{R}^d$, WSPDs with $O(n/\varepsilon^d)$ dumbbells always exist, but many inputs admit much smaller ones. However, computing a WSPD of minimum size is NP-hard in the plane. For $d\ge2$, the only known approximation that preserves the separation has a factor of $2^{O(d)}$, and Buchin et al. (ESA 2026) asked whether a $(1+δ)$-approximation exists. We give a bicriteria approximation scheme: for fixed $d$ and $δ\in(0,1]$, we compute in $f(d,δ)\cdot n^{6}$ time a $(1+δ)\varepsilon$-WSPD whose size is at most $(1+δ)$ times the minimum size of an $\varepsilon$-WSPD. The same holds in metric spaces of bounded doubling dimension. The algorithm combines shifting over scales with the local-growth technique of Nieberg, Hurink, and Kern, applied to a graph whose vertices are the pairs of points. In contrast, we show that in general metric spaces, relaxing the separation by a factor below $2$ keeps the problem hard: for every fixed rational $\varepsilon\le1/4$, it is NP-hard to compute such a relaxed WSPD whose size is within a factor $n^c$ of the minimum, for every $c&lt;2/3$.</description>
+    </item>
+    <item>
+      <title>Maximally symmetric $(23_4)$ configurations and the end of the existence problem for geometric $(n_4)$ configurations</title>
+      <link>http://arxiv.org/abs/2610.14099v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.14099v1</guid>
+      <pubDate>Thu, 08 Oct 2026 19:59:18 +0000</pubDate>
+      <description>A geometric $(n_4)$ configuration is a set of $n$ points and $n$ lines in the real projective plane such that every point lies on exactly four of the lines and every line contains exactly four of the points. The question of which $n$ admit such a configuration was posed by Grünbaum in 2000, following his 1990 paper with Rigby that gave the first geometric $4$-configuration, a $(21_4)$. Successive work of Bokowski-Schewe, of Bokowski, Grünbaum and Schewe, of Bokowski-Pilaud, and of Cuntz settled every case but one. Cuntz's 2018 paper, which constructed $(22_4)$ and $(26_4)$ configurations, states that only $n=23$ remained open. We settle this last case. We prove that for every prime $n\equiv3\pmod4$, in particular for $n=23$, the group of projective symmetries of a geometric $(n_4)$ configuration has order at most four, which explains why $n=23$ resisted the symmetric constructions that settled the other values. Reducing the case of a Klein four-group of symmetries to a few thousand bilinear polynomial systems in $18$ unknowns, and solving all of them exactly with Gröbner bases and saturation, we show that exactly two geometric $(23_4)$ configurations reach this bound, up to projective equivalence, and that there are no others even over $\mathbb{C}$. Both are self-polar with respect to a conic. The first has integer homogeneous coordinates; the second is defined over $\mathbb{Q}(\sqrt{17})$, but not over $\mathbb{Q}$. Consequently geometric $(n_4)$ configurations exist if and only if $n\ge18$ and $n\ne19$. A third configuration, self-polar and defined over a real cubic field, has only a single symmetry of order two. The same classification at $n=22$ and $n=26$ recovers Cuntz's configurations and finds three new combinatorial types at $n=22$ and $94$ at $n=26$, among them a $(26_4)$ configuration that is self-polar with respect to a conic without real points.</description>
     </item>
     <item>
       <title>Deterministic Distance Selection in $O(n^{4/3})$ Time</title>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.26531</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 -0000</pubDate>
       <description>A convex polyhedron is Rupert if a hole can be cut into it (making its genus $1$) such that an identical copy of the polyhedron can pass through the hole. Resolving a conjecture of Jerrard-Wetzel-Yuan, Steininger and Yurkevich recently constructed a convex polyhedron which is not Rupert. We propose a search for the simplest possible non-Rupert polyhedron and provide numerical evidence suggesting that a particular stellated tetrahedron is not Rupert. The computational techniques utilize linear program solvers to compute the largest possible scalings of polygons that can be translated to fit in other polygons. The relative simplicity of the stellated tetrahedron as compared to other polyhedra allows this more rudimentary check to be computationally tractable. In particular, we show that over 88% of a particular encoding of $\text{SO}(3) \times \text{SO}(3)$ equipped with the standard measure does not yield a Rupert passage.</description>
-    </item>
-    <item>
-      <title>Calibrated Persistent Homology Tests for High-dimensional Collapse Detection</title>
-      <link>https://arxiv.org/abs/2604.26068</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.26068</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We study detection of collapse in high-dimensional point clouds, where mass concentrates near a lower-dimensional set relative to a non-collapsed geometry. We propose persistent homology-based test statistics under two well-studied filtrations, with cutoffs calibrated under a broad set of non-collapsed reference models. We benchmark power across three alternative collapse mechanisms (linear/spectral, nonlinear-support, and contamination/heterogeneity) and distill the results into a mechanism map guiding the choice of filtration and statistic.</description>
-    </item>
-    <item>
-      <title>An Overview of Minimum Convex Cover and Maximum Hidden Set</title>
-      <link>https://arxiv.org/abs/2403.01354</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2403.01354</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 -0000</pubDate>
-      <description>We give a review of results on the minimum convex cover and maximum hidden set problems. In addition, we give some new results. First we show that it is NP-hard to determine whether a polygon has the same convex cover number as its hidden set number. We then give some important examples in which these quantities don't always coincide. Finally, We present some consequences of insights from Browne, Kasthurirangan, Mitchell and Polishchuk [FOCS, 2023] on other classes of simple polygons.</description>
     </item>
   </channel>
 </rss>

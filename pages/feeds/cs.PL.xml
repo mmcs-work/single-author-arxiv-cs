@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>sGLP: Specifying Stochastic Agents that Simulate People</title>
+      <link>http://arxiv.org/abs/2610.14738v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.14738v1</guid>
+      <pubDate>Sat, 10 Oct 2026 08:58:21 +0000</pubDate>
+      <description>Grassroots platforms are designed to be owned, operated and governed by their participants, and thus are constituted from person-to-person smartphone apps that run on participants' smartphones. A grassroots app is specified using a grassroots social contract, which is compiled through an abstraction cascade into a volition-guarded Grassroots Logic Program (vGLP), a multiagent concurrent logic programming language. A vGLP program in turn specifies a smartphone UI via which people express their volitions and thus control the app. Prudence dictates large-scale evaluation and testing of grassroots platforms prior to deployment, but using the many people needed to do that is a contradiction in terms. Hence another solution is needed. Here, we present stochastic GLP (sGLP), designed to allow grassroots platforms to be simulated at scale from the vGLP programs that deploy them, with stochastic agents in place of people. sGLP is GLP with a rate extension for specifying stochastic behaviour. A stochastic agent is an sGLP program replacing both the vGLP UI and the person behind it. It is typed by the dual of the interactive type of the UI and specifies a stochastic profile of a person's behaviour. We demonstrate sGLP on the grassroots social graph, with a population of men and women drawn from four stochastic profiles --- homophile or indifferent, wary or sociable --- and on grassroots currencies, with four profiles --- spenders or savers, cautious or generous --- and report what the mix of profiles does to the social graph that forms and to the currencies that circulate. We prove that every run of a vGLP program in which sGLP agents replace the UI and the people behind it is a vGLP run. We implemented sGLP in GLP by Gillespie's method, and ran reproducible simulations with it.</description>
+    </item>
+    <item>
       <title>Coexponential Exploration in the Clef Programming Language</title>
       <link>http://arxiv.org/abs/2610.12911v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.12911v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.20615</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 -0000</pubDate>
       <description>AI agents now participate as first-class team members across the software development lifecycle, yet no specification language exists for expressing the human-agent responsibility boundaries, approval gates, and governance constraints this collaboration requires. Existing approaches encode process in agent prompts (subject to drift), target adjacent domains (workflow management, business processes), or address only fragments (access control, approval gates). We propose a domain-specific language for specifying AI-SDLC processes as protocols, with formal syntax, well-formedness conditions, operational semantics, and enforcement invariants. The language distinguishes policy (declared intent) from mechanism (structural enforcement), enabling implementations to bound process non-determinism through primitives such as validation tokens and capability boundaries. Three results follow. A failure rate analysis shows that structural enforcement bounds system failure rates at a weighted product of agent and validator rates, while behavioral compliance permits cumulative or near-saturating growth. The 2+N team pattern (two human-in-control roles plus N specialized agent members) formalizes classical Separation of Duties for AI-SDLC. Kleene closure of orchestration loops and reflexive protocol-adherence validation emerge as design properties rather than special-case constructs. We position the contribution against multi-agent frameworks (MetaGPT), workflow specification (FlowAgent, BPMN extensions), and capability-based security (SAGA): the novelty lies in the specific integration, not any single primitive. A working implementation demonstrates feasibility; empirical evaluation is future work.</description>
-    </item>
-    <item>
-      <title>Lifting E-Graphs: A Function Isn't a Constant</title>
-      <link>https://arxiv.org/abs/2606.22734</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.22734</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Variables are quite subtle and easy to get wrong. An approach is described to support rigid $α$ canonical variables in an e-graph. The lifting e-graph has a baked-in notion of functional lifting combinator. It is implemented by fattening the usual integer identifiers with thinning bitvectors, lift-pulling smart constructors, and a special thinning-aware union find variation. The approach is inspired by slotted e-graphs and Co-de Bruijn syntax.</description>
     </item>
   </channel>
 </rss>

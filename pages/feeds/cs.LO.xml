@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Prescribed and simultaneous failures of log-concavity in trees with perfect matchings</title>
+      <link>http://arxiv.org/abs/2610.18340v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.18340v1</guid>
+      <pubDate>Tue, 13 Oct 2026 13:12:39 +0000</pubDate>
+      <description>We construct trees with perfect matchings and independence sequences that fail log-concavity near the independence number $α$. For every integer $k\geq1$, one family fails at $α-k$ and has a witness of order $O(k^2\log(k+2))$. For every integer $t\geq2$, a single tree has simultaneous failures at $α-1,α-3,\ldots,α-(2t-1)$, with a witness of order $O(t^3)$. All these trees satisfy $α=N/2$, where $N$ is the number of vertices, and contradict Conjecture 4.2 of Ramos and Sun. A sufficient condition uses a fixed tree and the numbers of attached leaves. For fixed $k$ or $t$, explicit bounds give geometric decay of $a_j^2/(a_{j-1}a_{j+1})$ at these indices as the trees grow; $a_j$ counts independent $j$-sets. The proofs count independent sets by empty matching pairs. The Lean proof assistant checks formal proofs of the parameterized results and their quantitative bounds; exact 90- and 180-vertex examples illustrate the constructions.</description>
+    </item>
+    <item>
+      <title>The Nonlocal Nature of Natural Deduction &amp; the Introduction of Assumptions in Derivations</title>
+      <link>http://arxiv.org/abs/2610.17076v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.17076v1</guid>
+      <pubDate>Mon, 12 Oct 2026 16:43:08 +0000</pubDate>
+      <description>This concise manuscript investigates the nonlocal nature of natural deduction, particularly the possibility of introducing assumptions at intermediate stages of a derivation after those stages have already been passed. By examining the structural correspondence between natural deduction and sequent calculus, we demonstrate how the structural rule of left-weakening (LW) permits the enlargement of an antecedent after its corresponding succedent has been derived, without modifying the original inference. Through a number of symmetrical derivations, we establish the proof-theoretic relationship between the introduction of assumptions in natural deduction and antecedent expansion in sequent calculus. On this basis, we formulate the principle of Nonlocal Assumption Introduction (NAI), according to which assumptions may be introduced at any intermediate stage prior to the final conclusion, provided that the corresponding structural expansion is proof-theoretically valid. We further specify the conditions governing this operation, including the preservation of inferential validity, assumption dependencies, and the scope and discharge requirements of the resulting derivation.</description>
+    </item>
+    <item>
+      <title>A Lean formalisation of the disproof of Ramaekers's conjecture</title>
+      <link>http://arxiv.org/abs/2610.16323v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.16323v1</guid>
+      <pubDate>Mon, 12 Oct 2026 07:43:43 +0000</pubDate>
+      <description>We describe Redhill, a Lean formalisation of the major results in Hölzl, Kleine and Stephan's "Improved Lower Bounds for Strong $n$-Conjectures" (arXiv:2409.13439). Design decisions regarding types and data structures are justified as enabling canonical versions of the paper's claims, and from there the most direct proofs of said claims. The formalisation process also uncovered many errors, omissions and optimisation opportunities in the informal proof, all of which are addressed in the final library. Although Redhill is meant to stand alone, a few lemmas were upstreamed to the primary Lean mathematics library mathlib. We discuss the tension between upstreaming and leaving lemmas in separate libraries. Unlike many other contemporary formalisation projects, Redhill was completed without any assistance from large language models (LLMs). We compare our work with LLM-assisted projects, in particular an extension of arXiv:2409.13439 to $n=4$, aiming to establish design and style guidelines that define good Lean formalisations.</description>
+    </item>
+    <item>
+      <title>A characterization of the finite model property for $ω$-categorical theories</title>
+      <link>http://arxiv.org/abs/2610.16163v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.16163v1</guid>
+      <pubDate>Mon, 12 Oct 2026 04:36:33 +0000</pubDate>
+      <description>A first-order theory $T$ has the {\em finite model property} if every first-order sentence that is implied by $T$ has a finite model. We give a characterization of when a complete $ω$-categorical theory $T$ has the finite model property. The characterization makes it possible to transfer stability theoretic results in [29] to certain classes of finite structures. This approach also gives information concerning properties that a sequence of finite ``base structures'' of ever larger size must have in order for its random expansions to a larger vocabulary to have a chance to satisfy a convergence law for first-order logic.</description>
+    </item>
+    <item>
+      <title>Vision-Predictor-Action: Towards Efficient Embodied AI via Neuro-Symbolic JEPA Predictors</title>
+      <link>http://arxiv.org/abs/2610.15556v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.15556v1</guid>
+      <pubDate>Sun, 11 Oct 2026 11:59:18 +0000</pubDate>
+      <description>Vision-Language-Action (VLA) models commonly generate robot actions token by token through Large Language Model (LLM) decoders, causing inference latency to grow with action sequence length and limiting closed-loop control frequency. We present Goal-Conditioned Vision-Predictor-Action (VPA), which replaces autoregressive decoders with a lightweight latent control loop. A shared vision encoder and a frozen text encoder embed observations, goal images, and instructions; a neuro-symbolic selector chooses a discrete skill; a Joint-Embedding Predictive Architecture (JEPA) predictor forecasts the next latent state; and a flow-matching solver generates an entire action chunk in a few integration steps, so that sequential network evaluations per decision step do not depend on the action horizon. We analyze inference complexity, regularization against representation collapse, and conditions under which latent sub-goal thresholding limits error accumulation across task phases. As an initial proof of concept, we evaluated VPA on the LIBERO-10 suite. The trainable model has under 20M parameters (checkpoint under 75 MB, excluding a frozen 63.4M-parameter CLIP text encoder); a decision step of a single-camera reference configuration takes 10-14 ms on an Apple M4; and trained only on LIBERO-10 demonstrations in under three hours on a single GPU, a two-camera policy succeeded in 40.0% of 200 evaluation episodes. These preliminary results from a single training run suggest the approach is workable. Code and weights are available at https://github.com/ylee-sling/Vision-Predictor-Action and https://huggingface.co/ylee-sling/vpa-libero10, and archived at https://doi.org/10.5281/zenodo.22960920.</description>
+    </item>
+    <item>
       <title>Coexponential Exploration in the Clef Programming Language</title>
       <link>http://arxiv.org/abs/2610.12911v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.12911v1</guid>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28473v1</guid>
       <pubDate>Fri, 28 Aug 2026 16:00:52 +0000</pubDate>
       <description>We examine how the standard proof that left adjoints preserve colimits behaves in the setting of wild categories, a natural setting for synthetic homotopy theory inside homotopy type theory. We show that the proof may fail for adjunctions between wild categories and even produce a wild left adjoint that fails to preserve colimits. Our core contribution, however, is a sufficient condition on the left adjoint for the proof to go through. The condition, which we call 2-coherence, expresses that the naturality structure of the hom-isomorphism commutes with composition of morphisms. We present two useful examples of this condition in action. First, we use it, along with a new version of a known trick for homogeneous types, to show that the suspension functor, as well as a generalization thereof, preserves graph-indexed colimits. Second, we show that every modality, viewed as a functor on coslices of a type universe, is 2-coherent as a left adjoint to the forgetful functor from the subcategory of modal types, thereby proving this subcategory is cocomplete. We have formalized our main results in Agda.</description>
-    </item>
-    <item>
-      <title>You may implement this later: Cofunctors as partial implementations</title>
-      <link>http://arxiv.org/abs/2608.27180v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.27180v1</guid>
-      <pubDate>Thu, 27 Aug 2026 14:28:11 +0000</pubDate>
-      <description>A functor is a familiar model of an implementation, where every operation in a specification is assigned a concrete instantiation at the outset. But some tasks are less eager: we often want to assemble systems while leaving backend choices such as data representations and algorithms for later. We observe that cofunctors admit a direct reading as such partial implementations, which are implementations whose extra argument is a state-dependent family of deferred choices. While cofunctors (also called retrofunctors) are not novel, their conceptual and purposive reading in this manner appears to be</description>
-    </item>
-    <item>
-      <title>Jump Closure and Limit Uniformization in the Ideal Completion of the Turing Degrees</title>
-      <link>http://arxiv.org/abs/2608.25925v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.25925v1</guid>
-      <pubDate>Wed, 26 Aug 2026 15:36:51 +0000</pubDate>
-      <description>The Turing jump has no fixed point on the Turing degrees: $\mathbf a &lt;_T \mathbf a'$ for every degree $\mathbf a$. After passing to the ideal completion, however, a natural fixed-point phenomenon appears. We study the Scott-continuous lifting $Γ:\operatorname{Idl}(\mathbf D_T)\to\operatorname{Idl}(\mathbf D_T)$, given by $Γ(I)=\downarrow\{\mathbf a':\mathbf a\in I\}$. Starting from the computable degree, Kleene iteration reaches its first fixed point at stage $ω$, namely the Turing ideal of arithmetical degrees; more generally, above $\mathbf a$ the least fixed point is the ideal of degrees arithmetical in $\mathbf a$. To pass beyond this fixed point, we introduce a limit-uniformization operator. Although the ideal of finite jumps contains every $\mathbf 0^{(n)}$, it does not contain the uniform limit oracle $\mathbf 0^{(ω)}=°_T\!\left(\bigoplus_{n &lt; ω}0^{(n)}\right)$. The uniformization operator adjoins this oracle only when all finite jump degrees are present. It is monotone but not Scott-continuous. Composing jump closure with one such gate yields closure ordinal $ω\cdot 2$; gates at $ω,2ω,3ω,\ldots$ yield closure ordinal $ω^2$. Thus non-uniform closure under relativized halting problems is Scott-continuous and reaches fixed ideals, while uniform coding of an entire prior hierarchy is infinitary, discontinuous, and reopens diagonalization. This gives a domain-theoretic semantics for the successor/limit distinction in transfinite Turing-jump hierarchies and links failures of Scott continuity with closure ordinals.</description>
-    </item>
-    <item>
-      <title>On existential Büchi arithmetic in two coprime bases</title>
-      <link>http://arxiv.org/abs/2608.24410v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.24410v1</guid>
-      <pubDate>Tue, 25 Aug 2026 11:21:53 +0000</pubDate>
-      <description>For multiplicatively independent natural numbers $α$ and $β$, Villemaire showed in 1992 that the first-order theory of Presburger arithmetic expanded with both Büchi predicates $V_α$ and $V_β$ is undecidable, as it encodes multiplication. In recent years, Hieronymi and Schulz showed that Presburger arithmetic expanded with the weaker power predicates $α^\mathbb{N} = \{α^n: n \in \mathbb{N}\}$ and $β^\mathbb{N}$ is also undecidable, while Karimov et al. showed that the existential fragment of this theory is decidable. These results left open the natural problem of determining the decidability of the existential fragment of Villemaire's original expansion. We settle this question for coprime $α$ and $β$. Specifically, we give a quantifier-elimination argument that proves the decidability of the existential fragment of $\mathsf{FO}(\mathbb{Z};&lt;,+, V_α, V_β)$.</description>
-    </item>
-    <item>
-      <title>A Non-CDCL SAT Solver with Early Conflict Detection: The Watched-Literal-Based CSFLOC Solver</title>
-      <link>http://arxiv.org/abs/2608.24255v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.24255v1</guid>
-      <pubDate>Tue, 25 Aug 2026 08:49:28 +0000</pubDate>
-      <description>CSFLOC is a non-CDCL SAT decision procedure based on counting subsumed full-length ordered clauses. The classical CSFLOC loop traverses the ordered space of full-length clauses by a monotone counter: if the current full-length clause is not subsumed by the input formula, its negation is a satisfying assignment; otherwise, a subsuming clause determines a counter jump. The main bottleneck is the repeated search for such a subsuming clause. This paper presents CSFLOC-WL, and its current implementation CSFLOC-WL3, in which this search is replaced by watched-literal prefix propagation over the negation of the current full-length clause represented by the counter. The central mechanism is early conflict detection: if propagation under a common prefix derives opposite unit consequences for the same variable, then the two reason clauses are resolved immediately and the resolvent is used as a new counter-jump cause. The resulting solver is not a CDCL solver: it has no CDCL decision tree, no restart policy, and no first-UIP backjumping loop. It remains a counter-guided full-length-clause-counting solver, but it imports the watched-literal data structure and reason clauses as engineering tools for discovering jumps. Experiments on selected UNSAT SATLIB instances compare CSFLOC-WL3 with CSFLOC21TU and CaDiCaL 3.0.0. The results are mixed: CSFLOC-WL3 is strong on several random 3-SAT instances near the random-3-SAT satisfiability threshold, whereas CSFLOC21TU remains faster on several structured cases, apparently because it contains a more mature cache mechanism that is not yet present in CSFLOC-WL3.</description>
-    </item>
-    <item>
-      <title>Effective quasi-Polish categories of overt discrete spaces and compact Hausdorff spaces</title>
-      <link>http://arxiv.org/abs/2608.23648v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23648v1</guid>
-      <pubDate>Mon, 24 Aug 2026 09:54:18 +0000</pubDate>
-      <description>We construct the category of overt discrete quasi-Polish spaces and the category of compact Hausdorff quasi-Polish spaces (and some of their subcategories) as internal categories of the category of effective quasi-Polish spaces and computable maps. To demonstrate that the constructions are natural, we show that Stone duality is computable, in the sense that the dual contravariant functors and the natural transformations demonstrating their adjointness are computable.</description>
     </item>
   </channel>
 </rss>
