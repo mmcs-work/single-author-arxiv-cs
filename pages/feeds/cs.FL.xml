@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Full AFLs Closed under Nested Iterated $k$-Variate Substitution and Depth-k Storage Automata</title>
+      <link>http://arxiv.org/abs/2610.19584v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19584v1</guid>
+      <pubDate>Wed, 14 Oct 2026 04:55:10 +0000</pubDate>
+      <description>Greibach and Ginsburg (1969) studied abstract families of languages or AFLs. A full AFL is a class of languages closed under the following operations: homomorphism, inverse homomorphism, intersection with regular languages, union, concatenation, and Kleene star. Greibach (1970) used a restricted substitution, called nested iterated substitution, to introduce the notion of super AFLs, which are full AFLs that are further closed under nested iterated substitution. The smallest super AFL was shown to be the class of all context-free languages. From this fact, we focus on Greibach's limited, univariable application of nested iterated substitution and further generalize it into k-variate. This introduces the notion of nested iterated $k$-variate substitution whose definition does not rely on "machines". Recently, a "two-tape" version of Hibbard's (1967) rewriting systems, which were later reformulated by Pighizzini and Pisoni (2014) as k-limited automata with "single" input/work tapes, has been studied under the name of depth-k storage automata. This work unearths a few characteristics of the languages recognized by those automata under a restriction known as frozen blank sensitivity in terms of full AFLs and nested iterated k-variate substitution. This will promote a further abstract treatment of those languages.</description>
+    </item>
+    <item>
+      <title>Semi-Linearity and Generalized Stratified Semi-Linearity beyond Context-Free Languages</title>
+      <link>http://arxiv.org/abs/2610.19562v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19562v1</guid>
+      <pubDate>Wed, 14 Oct 2026 04:21:08 +0000</pubDate>
+      <description>Parikh's famous theorem relates to the semi-linearity of context-free languages. We seek for expanding the scope of the semi-linear property from context-free languages to languages beyond them. Of those languages, this work focuses on the languages that are particularly recognized by one-way nondeterministic depth-k storage automata under a natural restriction of frozen blank sensitivity. Those languages (which are called $k$-storable languages) have been already proven to satisfy a natural generalization of the well-known pumping lemmas for regular and context-free languages. The semi-linearity of k-storable languages generalizes Parikh's theorem on the semi-linearity of context-free languages. As for bounded languages, Ginsburg and Spanier's well-known theorem characterizes context-free languages in terms of stratified semi-linearity. This notion is further generalized and is used to characterize the k-storable languages as well. Such a generalization is interesting in its own right. This helps us take an abstract treatment of k-storable languages without relying on "machines". Our results strengthen the belief that those languages are "natural" generalizations of context-free languages.</description>
+    </item>
+    <item>
       <title>A note on Finiteness and Boundedness in Cartesian Products of Discrete and Well-Ordered Sets, Application to Transition Systems</title>
       <link>http://arxiv.org/abs/2610.16764v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.16764v1</guid>
@@ -17,6 +31,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.15875v1</guid>
       <pubDate>Sun, 11 Oct 2026 19:47:50 +0000</pubDate>
       <description>We prove that reachability for constraint automata over finite binary words is undecidable. Eight registers suffice, with conjunctive guards using only equality, proper prefix, proper suffix, and infix incomparability, without word constants or concatenation. Finite-run nonemptiness, Buechi nonemptiness, and bounded Buechi nonemptiness are undecidable as consequences. For Boolean guards over equality, prefix, suffix, and prefix and suffix incomparability, Buechi nonemptiness is PSPACE-complete with arbitrarily many registers and word constants. The upper bound also allows positive infix atoms and yields PSPACE-completeness of prefix--suffix LTL satisfiability.</description>
+    </item>
+    <item>
+      <title>A Factor-Two Lower Bound for Complementing Two-Way Deterministic Finite Automata</title>
+      <link>http://arxiv.org/abs/2610.18897v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.18897v1</guid>
+      <pubDate>Sat, 10 Oct 2026 18:58:47 +0000</pubDate>
+      <description>For every $n\ge22$, we construct a language over a fixed three-letter alphabet whose two-way deterministic state complexity is $n$ and whose complement has state complexity $2n$. Acceptance is at the left endmarker, and infinite computations reject. The lower bound holds for arbitrary deterministic recognizers. The proof uses the group of transformations induced by the witness to constrain the behavior of a smaller recognizer, then derives a contradiction from a permutation query problem. A matching halting complement follows from a $2n$-state construction for sources whose destination states determine the direction of each transition. Splitting states by incoming direction gives a $2n+2b$ upper bound for general sources, where $b$ counts states entered in both directions. In the acceptance-anywhere model of Geffert, Mereghetti, and Pighizzini, the same family has exact complexities $N$ and $2N-1$ for every $N\ge23$.</description>
     </item>
     <item>
       <title>Non-recursive trade-offs for two-way machines</title>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.07254</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 -0000</pubDate>
       <description>State tracking exposes a sharp limitation of sequence models: the relevant signal is often not a summary of observed tokens, but an ordered latent state that evolves through non-commutative transformations. We introduce a held-out transition-pair falsifier for finite non-Abelian group tracking. The protocol forbids selected ordered generator pairs during training and requires the same local patterns during evaluation, blocking one direct local-transition memorization pathway. In a controlled $S_3 \times S_3$ benchmark, a projected recurrent state model trained only on length-8 sequences produces error-free final-state predictions (perfect 250/250 per horizon) through evaluation horizons up to 1,048,576 tokens across five seeds. Matched native-readout baselines, including bag, GRU, and a single-configuration structured state-space model, remain near floor under the same protocol. Projection-matched GRU, structured SSM, and bag baselines equipped with analogous finite-group prototype readouts also remain near chance under the same split. Mechanism diagnostics show that hard projection coincides with low homomorphism error, low state-consistency drift, and non-trivial commutator separation, while softened projection collapses final-state accuracy. Clean-split audits verify zero verbatim reduced-word overlap and zero structural-template overlap between training and evaluation partitions. The evidence is scoped to this controlled finite-group falsifier rather than to a general architecture ranking. Within that regime, explicit projected non-commutative state composition acts as a useful inductive bias for long-horizon hidden-state tracking.</description>
-    </item>
-    <item>
-      <title>Half-flips are 5-avoidable</title>
-      <link>https://arxiv.org/abs/2605.18811</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.18811</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 -0000</pubDate>
-      <description>A word contains a \emph{half-flip} if it contains non-empty factors $uv$ and $vu$ where $|u|=|v|$. Fici reports a non-constructive proof of the existence of an infinite word over a finite alphabet avoiding half-flips and asks for the size of the smallest alphabet over which half-flips may be avoided. Currie and Rampersad have proposed a pure morphic word over 8 letters and a morphic word over 5 letters and conjecture that they avoid half-flips. We present a pure morphic word over 5 letters that avoids half-flips. We also show that half-flips with $|u|\ge2$ are 3-avoidable and that half-flips with $|u|\ge4$ are 2-avoidable.</description>
-    </item>
-    <item>
-      <title>Grid Programs: A Two-Dimensional, Variable-Free Model of Computation</title>
-      <link>https://arxiv.org/abs/2606.00692</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.00692</guid>
-      <pubDate>Sat, 30 May 2026 00:00:00 -0000</pubDate>
-      <description>We introduce Grid Programs, a novel model of computation in which programs are finite two-dimensional arrangements of instructions on an integer grid rather than linear sequences of statements. Three properties distinguish this model fundamentally from classical frameworks: (i) programs are planar structures through which an instruction pointer moves in the four cardinal directions; (ii) there are no syntax constraints, so any assignment of instructions to grid cells constitutes a valid program; and (iii) the model uses no named variables or explicit memory addresses. Program state is maintained through a data stack, an address stack, and a circularly doubly linked list accessed via three named pointers. Control flow is achieved spatially, with branching encoded as perpendicular turns of the instruction pointer. The address stack stores triplets (cell row, cell column, direction), enabling precise restoration of both position and heading after branches, loops, and function calls. We give a formal operational semantics, present a representative instruction set covering arithmetic, control flow, and linked-list manipulation, and work through several detailed examples, including an absolute-value function, a factorial computation, a linear-search algorithm, a string-reversal program, and a while-loop summation. We establish that Grid Programs are Turing-complete by simulating an arbitrary register machine, and we discuss their relationship to prior two-dimensional languages such as Befunge and Funge-98, to stack-based languages such as Forth and PostScript, and to dataflow and spatial computation models. Grid Programs offer a fresh vantage point for exploring the design space of computation, with potential applications in visual programming environments, cellular-automaton-inspired hardware, and obfuscation-resistant code.</description>
-    </item>
-    <item>
-      <title>The Inclusion Depth of Pattern Languages: An Open Problem in Algorithmic Learning Theory</title>
-      <link>https://arxiv.org/abs/2605.30389</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.30389</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
-      <description>Pattern languages are a classical model in formal language theory and algorithmic learning theory. This note formulates the problem of computing the inclusion depth of a pattern language: the length of the longest strict inclusion chain from the universal pattern language to the language generated by a given pattern. Inclusion depth captures the mind-change complexity of pattern identification from positive data. The central open question is whether the inclusion depth ID_Sigma(p) is computable for every pattern p over every finite alphabet Sigma with at least two symbols, and whether it is computable in polynomial time. A simple conjectured formula, ID_Sigma(p) = 2|p| - #var(p) - 1, would imply a linear-time algorithm. The problem connects pattern language inclusion, combinatorics on words, language identification in the limit, and mind-change-bounded learning.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>General Classification for Digital Knowledge: Algorithm, Identifiers and a First Benchmark</title>
+      <link>http://arxiv.org/abs/2610.19547v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19547v1</guid>
+      <pubDate>Wed, 14 Oct 2026 04:04:18 +0000</pubDate>
+      <description>Digital libraries and knowledge graphs need a way to organize very large collections so that related works are close and any work is quick to reach. The classifications libraries inherited for this, such as LCC and DDC, are maintained by editorial staff, are partly closed, and were not built against a stated, measurable objective. We propose the opposite: a general classification that is fitted, under the constraints that make a classification usable on a shelf or in a browse list, to the same quantity that a companion survey and benchmark (Awad, 2026) ranks existing schemes by. The objective is J = D + 0.005 N, where D is the normalized Dasgupta cost of the class tree on a fixed similarity graph (Dasgupta, 2016) and N is an expected navigation cost in bits with a per-level charge. Two constraints are hard: every class is a contiguous run of one fixed shelf order (the optimal-alphabetic-tree constraint of Hu and Tucker, 1971), and new works are filed by splitting leaf classes only, so that every existing class keeps its code, label and parent. On a corpus of 10,000 arXiv papers the fitted prototype has 110 hand-labelled classes and reaches cost 0.1722 in sample (average linkage 0.1518; arXiv's own categories 0.3333; the best existing scheme reached through the same lexical classifier 0.6414, from the survey). Filing 500 library books as new works created 16 classes and changed no existing identifier. Fit, filing and scoring share one embedding: the held-out skill of 0.922 falls to 0.896 when the same fit is scored on the graphs of the two other models, and on books the average falls from 0.806 to 0.731. The scheme has also seen only arXiv, and labels for inserted classes are weak. We state those limits plainly, release the scheme as CC0 open data, and ask whether a learned, open, order-preserving classification can become a general one.</description>
+    </item>
+    <item>
       <title>Governing Copyright Responsibly in the Era of Generative AI</title>
       <link>http://arxiv.org/abs/2610.17002v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.17002v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.04070</guid>
       <pubDate>Thu, 23 Apr 2026 00:00:00 -0000</pubDate>
       <description>The probability folder of Mathlib, Lean's mathematical library, makes a heavy use of Markov kernels. We present their definition and properties and describe the formalization of the disintegration theorem for Markov kernels. That theorem is used to define conditional probability distributions of random variables as well as posterior distributions. We then explain how Markov kernels are used in a more unusual way to get a common definition of independence and conditional independence and, following the same principles, to define sub-Gaussian random variables. Finally, we also discuss the role of kernels in our formalization of entropy and Kullback-Leibler divergence.</description>
-    </item>
-    <item>
-      <title>Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents</title>
-      <link>https://arxiv.org/abs/2601.08841</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.08841</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 -0000</pubDate>
-      <description>The increasing volume and complexity of scientific literature demand robust methods for organizing and understanding research documents. In this study, we investigate whether structured knowledge, specifically, subject-predicate-object triples-improves clustering and classification of scientific papers. We present a modular pipeline that combines unsupervised clustering and supervised classification across four document representations: abstract, triples, abstract+triples, and hybrid. Using a filtered arXiv corpus, we evaluate four transformer embeddings (MiniLM, MPNet, SciBERT, SPECTER) with KMeans, GMM, and HDBSCAN, and then train downstream classifiers for subject prediction. Across a five-seed benchmark (seeds 40-44), abstract-only inputs provide the strongest and most stable classification performance, reaching 0.923 accuracy and 0.923 macro-F1 (mean). Triple-only and knowledge-infused variants do not consistently outperform this baseline. In clustering, KMeans/GMM generally outperform HDBSCAN on external validity metrics, while HDBSCAN exhibits higher noise sensitivity. We observe that adding extracted triples naively does not guarantee gains and can reduce performance depending on representation choice. These results refine the role of knowledge infusion in scientific document modeling: structured triples are informative but not universally beneficial, and their impact is strongly configuration-dependent. Our findings provide a reproducible benchmark and practical guidance for when knowledge-augmented representations help, and when strong text-only baselines remain preferable.</description>
     </item>
   </channel>
 </rss>

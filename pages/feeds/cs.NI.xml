@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An Experimental Study on the Functional Correctness of Network Device Configurations Produced by Large Language Models</title>
+      <link>http://arxiv.org/abs/2610.19958v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19958v1</guid>
+      <pubDate>Wed, 14 Oct 2026 10:40:42 +0000</pubDate>
+      <description>This paper presents a preliminary study on the efficacy of network device configuration produced by Large Language Models (LLMs). Currently, the study focuses on routing protocol configurations in a predefined small internetwork with Cisco-based routing devices. The capability of three freely available LLMs with standard capabilities (i.e., with no enhanced features) to produce effective setups is investigated. Prompt engineering methods are excluded in order to assess the "first-response" configurations of the models under consideration. The assessment method is based on the contents of the resulting routing table, aiming at measuring the device functional correctness. For that purpose, the Jaccard index is used to indicate the percentage of correct network prefixes contained in the routing table constructed by the model-based configuration commands. The work provides insights on the maturity and limitations of modern LLMs on aiding network administrators with network device configurations in real deployments.</description>
+    </item>
+    <item>
       <title>Post-Quantum Session Establishment for Matter over Thread: Message Size, Transport, and Protocol Options</title>
       <link>http://arxiv.org/abs/2610.13026v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.13026v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.08886</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 -0000</pubDate>
       <description>Internet censorship affects over four billion people, and deployed circumvention systems share a common weakness: their endpoints are fixed and discoverable, so a patient censor can enumerate and block them. Moving-target circumvention systems instead rotate endpoints across commercial cloud address space faster than censors can react, but the field lacks a theory of when rotation works, leaving rotation intervals and pool sizes to intuition. We give the first formal account of moving-target censorship resistance by modeling the censor-defender interaction as a continuous-time timing game over a combinatorial address-domain space, generalizing FlipIt to a collateral-bounded adversary. We prove a sustainability frontier separating configurations a censor can defeat from those it cannot, and show that under the Great Firewall's 2024 shift to blocking QUIC and TLS by domain, raw rotation speed is not the binding constraint. Instead, availability is governed by the domain burn rate, $β=λ_{\mathrm{disc}}/λ_{\mathrm{intro}}$, the ratio between how quickly the censor blocks defender domains and how quickly the defender introduces fresh ones. We derive a closed-form availability law, prove that address rotation alone cannot sustain high availability when $β&gt;1$ regardless of endpoint rotation speed, and characterize the frontier $β^\star$. We validate the analysis with an open, model-level censor-defender simulator requiring no privileged access or cloud deployment. The simulator reproduces the predicted phase transition at $β^\star$ under adversary profiles representative of the GFW, Russia's TSPU, and Iran, and shows robustness to state-dependent discovery and bursty, provider-correlated burns. The result replaces the heuristic of ``rotate faster'' with a precise operating condition: keeping the domain economy ahead of the censor.</description>
-    </item>
-    <item>
-      <title>A 3GPP Perspective on Spectrum Sharing for 5G-to-6G Migration: From LTE-NR DSS Lessons to MRSS Design</title>
-      <link>https://arxiv.org/abs/2604.26853</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.26853</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Dynamic spectrum sharing (DSS) played an important role in the 4G-to-5G transition by allowing 5G new radio (NR) to reuse legacy spectrum without immediate static refarming. Yet practical deployments also exposed the cost of coexistence of NR with long-term evolution (LTE), including overheads, control-channel bottlenecks, neighbor-cell interference, etc. As 6G begins to take shape, spectrum scarcity below 7 GHz is again making 5G-6G spectrum sharing a migration tool of interest. Multi radio access technology spectrum sharing (MRSS) is being considered by the 3rd generation partnership project (3GPP) as a key mechanism for 5G-6G coexistence. This article reviews the lessons learned from LTE-NR DSS and examines how those lessons should shape MRSS design. The main challenge is no longer basic coexistence feasibility, but coexistence efficiency which determines whether MRSS will become a broadly usable framework for 5G-to-6G spectrum migration.</description>
     </item>
   </channel>
 </rss>

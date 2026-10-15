@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Two-Level Poset Game is PSPACE-Complete</title>
+      <link>http://arxiv.org/abs/2610.19558v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19558v1</guid>
+      <pubDate>Wed, 14 Oct 2026 04:18:32 +0000</pubDate>
+      <description>Poset games form a fundamental class of combinatorial games that includes classical games such as Nim and Chomp. Determining the outcome of a poset game is known to be PSPACE-complete even for posets of height at most three. However, the exact computational complexity of Two-Level Poset Game, played on posets of height at most two, has remained an open problem for over a decade. We resolve this problem by proving that Two-Level Poset Game is PSPACE-complete via a polynomial-time reduction from Avoid True on positive CNF formulas.</description>
+    </item>
+    <item>
       <title>Certifying Capacity and Gaps of the Rank-Dependent Gain-Sharing Framework for Ranking</title>
       <link>http://arxiv.org/abs/2610.17545v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.17545v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.22371v1</guid>
       <pubDate>Sun, 23 Aug 2026 11:31:43 +0000</pubDate>
       <description>Consider the problem of designing a revenue-optimal auction mechanism when two heterogeneous items are sold to a single buyer having independent valuations over the items. The distributions of the buyer's valuation for the items are assumed to have densities that are positive, nondecreasing, and continuously differentiable on their support sets $[c_i,c_i+b_i]$ in the positive axis. I prove that the optimal mechanism is deterministic if at least one of the minimum valuations (i.e., either $c_1$ or $c_2$) is sufficiently high. I provide a method to calculate the threshold of $(c_1,c_2)$ beyond which the optimal mechanism is deterministic. I also provide a sufficient condition on the distributions of buyer's valuations for which the individual sale mechanism is optimal. I show that when $c_1$ is low and $c_2$ is high, it is optimal for the seller to sell item $2$ at the minimum valuation $c_2$, thus effectively reducing the problem to finding the optimal mechanism in the one-dimensional setting only for item $1$. I conjecture with promising preliminary results that this result can be extended to the three-item setting. Specifically, I conjecture that when $c_1$ and $c_2$ are low but $c_3$ is high, it is optimal for the seller to sell item $3$ at the minimum valuation $c_3$, thus effectively reducing the problem to finding the optimal mechanism in the two-dimensional setting for items $1$ and $2$.</description>
-    </item>
-    <item>
-      <title>Half Veto, Half Maximal Lottery, Five-halves Distortion</title>
-      <link>http://arxiv.org/abs/2608.21202v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.21202v1</guid>
-      <pubDate>Fri, 21 Aug 2026 15:18:11 +0000</pubDate>
-      <description>We give a randomized voting rule with expected metric distortion $5/2$, improving the previous best upper bound of $2.753$. Our rule is the equal mixture of a Maximal Lottery [CRWW24] and a lottery obtained by averaging scores in Simultaneous Plurality Veto [KK23] over time. We further show that $5/2$ is optimal within a broader family that allows profile-dependent mixing weights and arbitrary, possibly adaptive, weights over the veto process.</description>
     </item>
   </channel>
 </rss>

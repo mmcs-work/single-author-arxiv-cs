@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)</title>
+      <link>http://arxiv.org/abs/2610.20437v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20437v1</guid>
+      <pubDate>Wed, 14 Oct 2026 16:28:09 +0000</pubDate>
+      <description>Mid-2026 reporting on autonomous AI evaluation incidents claimed that frontier large language model (LLM) agents escaped server containment through emergent coordination and cloud infrastructure attacks. This paper contextualizes those claims through forensic analysis and containerized recreation of both the Highly Persistent Internal Model (HPIM) training-case conditions and the Phase One privilege escalation targeting internal package repositories during OpenAI's ExploitGym evaluations. We recreate the configuration of the OpenAI-provided training example and reproduce the cryptographic verification bypass (CVE-2026-65616) in isolated repository servers, where misconfigured systems enabled token forgery and privilege escalation through basic HTTP requests, Python, and JavaScript. Crucially, the training-example conditions and the Phase One (and later) misconfigurations share the same exploitable patterns. Our analysis explains how Zero Trust Architecture principles neutralize this shared attack vector. Contemporary AI risks derive directly from training and deployment conditions in ambivalent learning environments lacking adequate containment measures.</description>
+    </item>
+    <item>
       <title>Fan Out or Relay? Ownership-Aware Routing for LLM Agents Querying Siloed Tables</title>
       <link>http://arxiv.org/abs/2610.18157v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.18157v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2608.02827</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 -0000</pubDate>
       <description>Multi-agent LLM debates achieve strong performance on decision-making tasks as well as problem-solving benchmarks, yet their safety and fairness risks remain poorly understood. Notably, interaction can amplify the biases of single LLMs, raising concerns for real-world deployment. We identify the emergence of collective (often biased) norms in multi-agent LLM debates and show that noise (e.g., LLM sampling temperature) is a key driver. To explain this, we propose an analytical framework drawing on physics-inspired theoretical models of social dynamics. We predict a phase transition to collective bias when conformity surpasses a critical threshold given the LLMs' initial bias and debate noise. We test the theoretical predictions through controlled experiments and observe a finite-size crossover consistent with an underlying phase transition. We further find that agent heterogeneity suppresses emergence by smoothing (rounding) this transition. Finally, we show that these insights generalize to realistic decision-making tasks, including investment decisions and LLM-as-a-judge evaluation.</description>
-    </item>
-    <item>
-      <title>Everyone Conforms, No One Believes: Pluralistic Ignorance in LLM Agent Populations</title>
-      <link>https://arxiv.org/abs/2608.02758</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.02758</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 -0000</pubDate>
-      <description>LLM-based multi-agent systems are increasingly used to simulate social dynamics, from opinion formation to collective decision-making. These simulations can reproduce certain social phenomena, but it is unknown whether they capture pluralistic ignorance, a state where a majority privately rejects a norm yet publicly conforms, each believing they are alone in dissenting. This phenomenon drives norm persistence, social movements, and political revolutions. We show that pluralistic ignorance emerges robustly in LLM agent populations. We construct a benchmark of 100 scenarios across 10 domains and 5 authority levels, grounded in the human pluralistic ignorance literature, and evaluate 8 models from 6 organizations. Agents publicly conform at rates of 64 to 94% despite privately opposing the norm. Conformity is domain-sensitive (workplace and social relationship scenarios produce near-universal compliance) and highly model-dependent, though uncorrelated with capability. We test whether a single "norm entrepreneur" can break the false consensus by publicly dissenting. For 7 of 8 models, cascades succeed less than 26% of the time, with one model showing zero cascades across all scenarios. GPT-4o is a notable outlier at 48%, revealing qualitatively distinct dynamics across model families. A prompt component ablation across all 8 models establishes that conformity is emergent rather than instruction-driven: removing both the false-consensus framing and fit-in goal reduces conformity but does not eliminate it (52 to 92% in the minimal condition). Our findings identify model selection as an unacknowledged degree of freedom that fundamentally shapes simulation outcomes. More broadly, the near-absence of cascades suggests LLM simulations may systematically overestimate the stability of social norms, missing the fragile tipping-point dynamics that drive real-world norm change in human societies.</description>
     </item>
   </channel>
 </rss>

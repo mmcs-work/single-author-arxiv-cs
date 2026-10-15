@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Body-Algorithm-Emotion Loop: Making Emotion AI Misrecognition Visible through Artistic Practice</title>
+      <link>http://arxiv.org/abs/2610.20161v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20161v1</guid>
+      <pubDate>Wed, 14 Oct 2026 13:15:11 +0000</pubDate>
+      <description>This pictorial presents The Body in Algorithmic Colonialism, a screen-based interactive installation that critically examines Emotion-AI through artistic practice. The work uses facial tracking to simulate how commercial Emotion-AI systems translate facial movement into emotional categories and verdicts of compliance or non-compliance. Rather than treating explainability as technical transparency alone, the installation approaches XAI as an embodied encounter with misrecognition: viewers experience how the body is measured, classified, and returned to itself through algorithmic thresholds. Drawing on critical AI studies, affect theory, and practice-as-research, the pictorial positions artistic practice as a method for making affective classification visible and contestable. It documents the conceptual framework, technical process, and critical context of a prototype developed in the first year of a practice-based PhD. No audience responses, interviews, or participant data are analysed in this submission.</description>
+    </item>
+    <item>
       <title>Agency as a New Organizing Abstraction for Computer Science</title>
       <link>http://arxiv.org/abs/2610.17410v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.17410v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.13604v1</guid>
       <pubDate>Tue, 11 Aug 2026 05:38:04 +0000</pubDate>
       <description>Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift cuts communicators off from the resources repair depends on faster than new means of detection are being built. In this paper we analyse misunderstanding as a layered process in which a divergence is generated, may then be amplified, and is either detected and repaired or left to persist unnoticed. Consolidating accounts from nine fields of research that do not ordinarily cite one another, we identify eleven exact failure modes and show that each operates at a specific point in a communicative process rather than anywhere within it. Those points give eight analytical layers, derived from the literature rather than adopted from an existing model. Eight of the mechanisms primarily generate a divergence, two primarily amplify one already present, and one governs whether a divergence is detected and repaired. We model the eight layers formally, extending information and communication theory from the transmission of signals to the reconstruction of meaning, and we supply a source-by-source evidence matrix that makes every rating auditable, a coding manual, and nine analysed dialogue cases. No prior classification of misunderstanding both locates mechanisms at points in the process and types them by function.</description>
-    </item>
-    <item>
-      <title>Socioduality: A Relational Process Framework for Human-AI Interaction</title>
-      <link>https://arxiv.org/abs/2608.11322</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.11322</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Human-AI research often evaluates individual capabilities, combined performance, or final outputs, but these approaches do not preserve how one party's response becomes part of the conditions under which the other party's next contribution is formed. This article introduces socioduality, a sequential, reciprocal, and history-carrying relational process between two distinguishable parties in which a response from one party becomes part of the observable conditions under which the other party's subsequent contribution, judgement, decision, or action is formed. Specified for human-AI dyads, the construct uses nested units: moves, confirmed sociodual episodes, linked pathways, and the broader interaction container. A minimum episode A1-B1-A2 requires evidence of response contingency and return contingency; candidate episodes are classified as confirmed, non-sociodual, or indeterminate before secondary coding of response orientation and substantive contribution re-formation. Three propositions address history-conditioned formation, pathway divergence, and robustness differences among endpoint-equivalent pathways. A frozen operational protocol was calibrated on three previously unseen natural human-AI records through two separately executed model-based evaluator series. Move and candidate reconstruction converged exactly in two cases and differed by one local multimodal unitisation decision in the third; remaining disagreement was concentrated at return-contingency boundaries. Socioduality therefore provides a bounded and empirically tractable process construct for analysing how human and AI contributions are formed through interaction while preserving pathway information that endpoint-centred analysis cannot recover.</description>
     </item>
   </channel>
 </rss>

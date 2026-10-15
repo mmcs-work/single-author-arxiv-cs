@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Claw-Free and Line Graph Edge Deletion on Block Graphs</title>
+      <link>http://arxiv.org/abs/2610.20510v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20510v1</guid>
+      <pubDate>Wed, 14 Oct 2026 17:13:24 +0000</pubDate>
+      <description>Edge deletion problems ask for the fewest edges whose deletion gives a graph with a specified property. We study two such problems on block graphs. First making the graph claw-free, and second making it a line graph. Since every line graph is claw-free, the second problem is at least as difficult as the first. We show that on block graphs the two optimum values are always equal, and both are attained by the line graph of a forest. The main step is a completion argument, in which starting from any claw-free solution, we put back edges to get some nice structure inside each block still maintaining the claw-free property. This reduces both edge-deletion problems to the same problem of selecting vertices within the blocks of the input graph. We solve it by dynamic programming in $O(n+m)$ time, which also produces an optimal deletion set and a forest whose line graph is what remains after the completion argument. We also extend the method to $K_{1,r+1}$-free edge deletion for every fixed $r$.</description>
+    </item>
+    <item>
+      <title>Nonlinear fixed-distance codes via real lifts of moment configurations</title>
+      <link>http://arxiv.org/abs/2610.19960v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19960v1</guid>
+      <pubDate>Wed, 14 Oct 2026 10:46:50 +0000</pubDate>
+      <description>Let $A_q(n,d)$ denote the largest size of a code of length $n$ and minimum Hamming distance $d$ over an alphabet of $q$ symbols. For fixed $q\ge2$ and $d\ge4$ we construct codes with redundancy $n-\log_q A_q(n,d)\le(d-3)\log_q n+O(\sqrt{\log n})$ for all large $n$. No algebraic structure is imposed on the alphabet, and the codes are not linear. For $d=4$ and $d=5$ the coefficient of $\log_q n$ matches the Hamming bound, so the redundancy is determined up to lower-order terms. At distance four the codes are provably better than every linear code: by the polynomial-method bound for cap sets, $\mathbb{F}_q$-linear codes with $q&gt;2$ require a strictly larger coefficient in front of $\log_q n$. The construction imposes moment checksums over an auxiliary finite field, as BCH codes do, but one fewer than the distance would normally require. The affine-line theorem from prior work describes the dependencies left by these checks. We exclude them by placing the code positions inside a specially structured subset of the field, built from Behrend's sphere construction with the help of algebraic number theory.</description>
+    </item>
+    <item>
+      <title>The Two-Level Poset Game is PSPACE-Complete</title>
+      <link>http://arxiv.org/abs/2610.19558v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19558v1</guid>
+      <pubDate>Wed, 14 Oct 2026 04:18:32 +0000</pubDate>
+      <description>Poset games form a fundamental class of combinatorial games that includes classical games such as Nim and Chomp. Determining the outcome of a poset game is known to be PSPACE-complete even for posets of height at most three. However, the exact computational complexity of Two-Level Poset Game, played on posets of height at most two, has remained an open problem for over a decade. We resolve this problem by proving that Two-Level Poset Game is PSPACE-complete via a polynomial-time reduction from Avoid True on positive CNF formulas.</description>
+    </item>
+    <item>
       <title>A Randomized Approximation Algorithm for Doubly Free-Boundary Macdonald Processes</title>
       <link>http://arxiv.org/abs/2610.18698v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.18698v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2503.00798</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
       <description>A graph $H$ is an \emph{induced minor} of a graph $G$ if $H$ can be obtained from $G$ by a sequence of edge contractions and vertex deletions. Otherwise, $G$ is \emph{$H$-induced minor-free}. In this paper, we provide a different proof of the fact that $K_{2,3}$-induced minor-free graphs admit a quasi-isometry with additive distortion to graphs with tree-width at most two. Our proof yields a $O(nm)$-time algorithm which takes as input a $K_{2,3}$-induced minor-free graph with $n$ vertices and $m$ edges, and outputs a tree-width two graph $H$ with the desired additive distortion. For \emph{universally signable} graphs, a subclass of $K_{2,3}$-induced minor-free graphs, the time complexity of our algorithm is linear. As a consequence, we obtain a truly sub-quadratic time additive constant factor approximation algorithm to compute the \emph{diameter} of a universally signable graph. In contrast, assuming the \emph{Strong Exponential Time Hypothesis} (\textsc{SETH}), the diameter of split graphs (a very restricted class of universally signable graphs), cannot be computed in truly sub-quadratic time [Borassi et al. (ENTCS, 2016)].</description>
-    </item>
-    <item>
-      <title>A 5/4 bound for graphic $s$-$t$ path TSP on subcubic graphs</title>
-      <link>https://arxiv.org/abs/2608.11038</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.11038</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We study the graphic $s$-$t$ path TSP on subcubic graphs (maximum degree 3): given two vertices $s,t$, find a shortest walk from $s$ to $t$ that visits every vertex. Our main result is that the optimal $5/4$ coefficient is attained for every terminal pair -- including the difficult case where deleting both $s$ and $t$ disconnects the graph. Concretely, every pair of distinct vertices $s,t$ in a simple 2-connected subcubic graph $G$ admits a spanning $s$-$t$ walk of length at most $\lfloor(5n+n_2(G))/4\rfloor-1$, where $n=|V(G)|$ and $n_2(G)$ is the number of degree-2 vertices; the asymptotic coefficient $5/4$ cannot be improved, and a simple $O(n^2)$ algorithm finds a walk of length at most $\lfloor(5n+n_2(G))/4\rfloor$. An edge-rooted even-cover theorem of Wigal, Yoo, and Yu, combined with a short conversion lemma proved here, gives a bound of this form only when $s$ and $t$ are the two endpoints of a given edge; we remove that adjacency restriction. For cubic graphs ($n_2(G)=0$) the bound reads $\lfloor 5n/4\rfloor-1$, to our knowledge the first $5/4$ bound for cubic path TSP proved directly rather than through the general path-to-tour reduction.</description>
-    </item>
-    <item>
-      <title>Connected Fair Detachments of Hypergraphs I</title>
-      <link>https://arxiv.org/abs/2009.09674</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2009.09674</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Let $\mathcal G$ be a hypergraph whose edges are colored. An {\it $(α,n)$-detachment} of $\mathcal G$ is a hypergraph obtained by splitting a vertex $α$ into $n$ vertices, say $α_1,\dots,α_n$, and sharing the incident edges among the subvertices. A detachment is {\it fair} if the degree of vertices and multiplicity of edges are shared as evenly as possible among the subvertices within the whole hypergraph as well as within each color class. In this paper we solve an open problem from the 1970s by finding necessary and sufficient conditions under which a $k$-edge-colored hypergraph $\cG$ has a fair detachment in which each color class is connected. Previously, this was not even known for the case when $\cG$ is an arbitrary graph (i.e. 2-uniform hypergraph). We exhibit the usefulness of our theorem by proving a variety of new results on hypergraph decompositions (in Part I), and completing partial regular combinatorial structures (in Part II).</description>
-    </item>
-    <item>
-      <title>A Necessary and Sufficient Hall Condition for Hypergraphs</title>
-      <link>https://arxiv.org/abs/2608.10193</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.10193</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 -0000</pubDate>
-      <description>We prove a necessary and sufficient Hall condition for a family $A=(A_e)_{e\in E(G)}$ of hypergraphs, possibly with loops, indexed by the edges of a forest $G$. We also show that acyclicity of the index graph is sharp for this Hall characterization. As an application, we prove that every $5$-tough chordal graph is Hamilton-connected, improving earlier sufficient toughness bounds for Hamiltonicity of $18$ in 1998 and $10$ in 2017.</description>
     </item>
   </channel>
 </rss>

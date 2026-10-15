@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Claw-Free and Line Graph Edge Deletion on Block Graphs</title>
+      <link>http://arxiv.org/abs/2610.20510v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20510v1</guid>
+      <pubDate>Wed, 14 Oct 2026 17:13:24 +0000</pubDate>
+      <description>Edge deletion problems ask for the fewest edges whose deletion gives a graph with a specified property. We study two such problems on block graphs. First making the graph claw-free, and second making it a line graph. Since every line graph is claw-free, the second problem is at least as difficult as the first. We show that on block graphs the two optimum values are always equal, and both are attained by the line graph of a forest. The main step is a completion argument, in which starting from any claw-free solution, we put back edges to get some nice structure inside each block still maintaining the claw-free property. This reduces both edge-deletion problems to the same problem of selecting vertices within the blocks of the input graph. We solve it by dynamic programming in $O(n+m)$ time, which also produces an optimal deletion set and a forest whose line graph is what remains after the completion argument. We also extend the method to $K_{1,r+1}$-free edge deletion for every fixed $r$.</description>
+    </item>
+    <item>
+      <title>Hypothesis Selection via Weighted Medians</title>
+      <link>http://arxiv.org/abs/2610.20375v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20375v1</guid>
+      <pubDate>Wed, 14 Oct 2026 15:45:01 +0000</pubDate>
+      <description>Given $n$ distributions (hypotheses) $\mathcal H=\{H_1,\ldots,H_n\}$ and samples from an unknown target distribution $P$, proper hypothesis selection seeks a distribution whose total variation distance to $P$ is close to the best achievable within the known distributions. We give an algorithm that, using $O(\varepsilon^{-2}\log(n/δ))$ target samples, running in $O(n\varepsilon^{-2}\log(n/δ))$ time, with probability at least $1-δ$, returns $H_{\hat i}$ satisfying $d_\mathrm{TV}(P,H_{\hat i})\leq 3\min_{i\in[n]}d_\mathrm{TV}(P,H_i)+\varepsilon.$ The algorithm achieves the optimal approximation factor and sample complexity. The running time improves the dependence on the failure probability from polynomial to logarithmic in the state-of-the-art bound $\tilde{O}(n\varepsilon^{-2}δ^{-1})$ of Aamand, Aliakbarpour, Chen, and Silwal (COLT 2026), thereby answering their Question~2.</description>
+    </item>
+    <item>
+      <title>With Leverage, the Gambler is Not the One Who Gets Ruined</title>
+      <link>http://arxiv.org/abs/2610.19239v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19239v1</guid>
+      <pubDate>Tue, 13 Oct 2026 21:57:12 +0000</pubDate>
+      <description>In this note we explore the following simple question: How does the classic \emph{gambler's ruin} phenomenon change if we allow the gambler \emph{financial leverage}? We show that, with a moderate amount of leverage, it is possible for an (idealized) gambler to sustain seemingly improbable profits over a remarkably long time horizon without ever going bankrupt, \emph{even} if the gambler makes only fair bets. With a leverage ratio of $L = 10$ (less than what Lehman Brothers Holdings had from 1995--2008), the probability of multiplying one's money by $1000\times$ without going bankrupt is roughly $50\%$. More generally, given $L$-fold leverage, and given the goal of multiplying one's money by a factor of $r &gt; 1$, the optimal gambling strategy has probability roughly $r^{-1/L}$ of success. The results in this note are designed as part of the course development for the CMU randomized algorithms course.</description>
+    </item>
+    <item>
       <title>Selecting the 7th Smallest of 16 Elements Takes Exactly 28 Comparisons</title>
       <link>http://arxiv.org/abs/2610.18740v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.18740v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.27440v1</guid>
       <pubDate>Wed, 23 Sep 2026 07:02:46 +0000</pubDate>
       <description>Let $G$ be the line graph of a finite simple graph, with $n\geq1$ vertices and maximum degree $Δ$. We prove that single-site Glauber dynamics for uniform proper $q$-colorings mixes in $O_Δ(n\log(n/\varepsilon))$ steps for every integer $q\geqΔ+5$. Our proof uses the Bochner framework of Chen and Liu (2026).</description>
-    </item>
-    <item>
-      <title>Backtracking Candidate Elimination: A One-Pass Algorithm for the Chip Testing Problem</title>
-      <link>http://arxiv.org/abs/2609.26995v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.26995v1</guid>
-      <pubDate>Tue, 22 Sep 2026 19:33:45 +0000</pubDate>
-      <description>In the chip testing problem, we are given $n$ chips, strictly more than half of which are good. Chips can test one another in pairs; a good chip always reports the status of the other chip correctly, whereas a bad chip may report arbitrarily and adversarially. The goal is to identify a single chip that is guaranteed to be good. The problem originates in system-level fault diagnosis and is closely related to the "knights and spies" puzzle. The standard textbook solution is a halving recursion that tests disjoint pairs in rounds and keeps one chip from each consistent pair. We present the Backtracking Candidate Elimination (BCE) algorithm, a sequential alternative that scans the chips once while maintaining a current candidate and a stack of retained chips. Every chip is tested at most once as the incoming chip; when a test is inconclusive the candidate and the incoming chip are discarded together, and the algorithm backtracks to the most recently retained chip. BCE uses at most $n-1$ tests and $O(n)$ time, needs no parity case analysis, and works online. Its correctness follows from two invariants: the retained chips all have the same type, and every discarded pair contains at least one bad chip. We explain how BCE can be viewed as the Boyer-Moore majority vote algorithm with its counter replaced by a stack of physical witnesses, and why that replacement is needed. We also give an early termination rule and a variant for the weaker model of one-directional tests.</description>
-    </item>
-    <item>
-      <title>Tight Regret Bound for Online Inverse Linear Optimization via Multiscale Matrix Weights</title>
-      <link>http://arxiv.org/abs/2609.26978v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.26978v1</guid>
-      <pubDate>Tue, 22 Sep 2026 19:13:53 +0000</pubDate>
-      <description>We study online inverse linear optimization with a fixed unknown linear utility: in each round, an environment presents a compact action set, the learner recommends an action from it, and the environment returns an action that maximizes the utility over the same set. When the utility vector and the actions lie in the $d$-dimensional Euclidean unit ball, we give a randomized algorithm whose regret---the cumulative utility shortfall relative to optimal actions---is $O(\sqrt d)$ in expectation for every time horizon, without knowledge of the horizon. The dependence on $d$ is optimal up to a constant factor by the known $Ω(\sqrt d)$ lower bound for horizons $T\ge d$. Our algorithm maintains matrix multiplicative weights on polynomial feature spaces at geometrically spaced scales. It selects a recommendation distribution by solving a linear program and updates its score matrices by comparing the available actions with the feedback action. With rational oracle outputs and feedback actions, an implementation computable relative to a linear-optimization oracle preserves the $O(\sqrt d)$ regret bound. Whether the same rate is attainable with running time polynomial in the dimension, horizon, and input length remains open.</description>
-    </item>
-    <item>
-      <title>An Exposition of GPT Astra's Proof of Lower Bound on DP Continual Counting</title>
-      <link>http://arxiv.org/abs/2609.28528v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.28528v1</guid>
-      <pubDate>Tue, 22 Sep 2026 17:21:01 +0000</pubDate>
-      <description>The goal of this note is to give a detailed proof, to the best of our understanding, of the recent presentation by Harrison and Leeman (arXiv:2609.17650v01 and arXiv:2609.17650v02) of the proof by Astra on the lower bound for differentially private continual counting. We believe a more natural and easy proof is possible and hope that this note will help in that effort. Prior to the initial preprint by Harrison and Leeman (arXiv:2609.17650v01), Bairaktari and Larsen (arXiv:2607.00876) gave an elegant proof to show a lower bound of $Ω(\log^{3/2}(n))$ for both pure and approximate-DP continual counting, and in personal communication had informed us that they have a proof of optimal $Ω(\log^{2}(n))$ for pure-differential private continual counting as well. They have subsequently published their $Ω(\log^{2}(n))$ bound, which is now a joint work of Bairaktari, Dahl, and Larsen (arXiv:2607.00876v3). Their new result is an elegant extension of their technique for approximate-differential privacy. Although the two proofs are technically different, the Astra argument uses related tree geometry introduced in Bairaktari and Larsen.</description>
     </item>
   </channel>
 </rss>

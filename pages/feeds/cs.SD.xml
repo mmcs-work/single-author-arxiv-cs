@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Quantizer Redundancy and Exact Index Recoding in a Frozen Neural Audio Codec</title>
+      <link>http://arxiv.org/abs/2610.20471v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20471v1</guid>
+      <pubDate>Wed, 14 Oct 2026 16:49:06 +0000</pubDate>
+      <description>Residual scalar quantization can produce highly dependent indices when successive stages reuse identical, unscaled grids. This case study examines that behavior in a frozen neural audio codec and develops an exact recoding procedure that reduces storage while preserving its decoder inputs. Analysis of the repeated-grid recurrence identifies predictable stage sequences; finite-precision checks motivate preserving every original index through explicit exception records. The model weights and reconstruction graph remain fixed. On the studied 62- and 512-file cohorts, a predictor, adaptive coding and explicit file selection reduce complete stored bytes. The final 512-file rate is 129.591 kbps including headers, 25.943% below an original-index XZ control. Original recorded CPU runs establish bitwise latent and waveform preservation; independent readers verify exact index and metadata recovery in subsequent saved-stream experiments. Later coding choices use previously studied cohorts, and fresh encoding requires generating three alternatives. The engineering result is implementation-specific storage reduction with exact index recovery; the underlying lossy reconstruction quality remains unchanged.</description>
+    </item>
+    <item>
+      <title>vst-bench-ml: Auditable Dataset Generation for Audio Plugins</title>
+      <link>http://arxiv.org/abs/2610.20465v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20465v1</guid>
+      <pubDate>Wed, 14 Oct 2026 16:46:39 +0000</pubDate>
+      <description>Generating datasets with audio plugins requires preserving how each audio observation was produced. vst-bench-ml is a Python package that samples plugin parameters, coordinates rendering through a separately installed host, and records software identities, rendering settings, and output hashes for later verification. A sealed manifest binds this evidence and supports offline integrity checks without loading the plugin. A companion repository provides a sample-free VST3 test plugin, a deterministic offline host, and additional checks linking rendering attempts to recorded outputs. On a pinned macOS arm64 and Python 3.12 stack, functional validation of the pre-release versions reproduced package and host tests. Two runs in fresh processes reproduced the same render-plan hash and all eight expected output hashes, covering four sampled parameter configurations and two fixed MIDI signals; 12 negative cases also passed. Later licensed 0.1.0 release candidates passed producer-run continuous integration and local validation. Version 0.1.1 adds public Git source repositories, package-index installation, and user documentation; a separate release check reproduced the expected plan and output hashes. These checks establish integrity and repeatability within the tested setup; they do not establish portability, scientific suitability, or perceptual quality.</description>
+    </item>
+    <item>
       <title>EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams</title>
       <link>http://arxiv.org/abs/2610.12248v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.12248v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.22708</guid>
       <pubDate>Sun, 21 Jun 2026 00:00:00 -0000</pubDate>
       <description>Generative music systems can now produce impressive audio from text prompts, but audio outputs are difficult to inspect, edit, and diagnose as musical structure. We introduce Libretto, an agent-facing framework for symbolic music generation and revision. Libretto uses an LLM-native grammar with explicit onset slots, voices, and bar-level organization, then evaluates each piece in a corpus-calibrated statistical space over rhythm, harmony, melody, texture, form, and variation. The same structural axes support retrieval, diagnosis, copy-risk control, and iterative self-revision. Across gap filling, reference-guided full-piece generation, gradual morphing, and educational music generation, Libretto turns symbolic music from a raw token sequence into a measurable and editable object for language-model agents.</description>
-    </item>
-    <item>
-      <title>Learning from Audio-Dependency Errors: Data Curation Strategies Based on Model Confusion Patterns in Audio Question Answering</title>
-      <link>https://arxiv.org/abs/2606.22276</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.22276</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 -0000</pubDate>
-      <description>We frame the system as diagnostic data curation for a large audio-language model: before fine-tuning, we probe Qwen3-Omni-30B-A3B-Instruct under normal, empty-audio, and shuffled-audio conditions to identify how the model's answers change when audio evidence is removed or mismatched. These model confusion patterns are used to bucket training samples into text-prior, shuffle-leak, strong audio-dependent, and hard or misleading cases. Our strongest train-only system fine-tunes only on strong-audio items, where the normal audio-question pair is correct but both counterfactual variants fail, plus a small number of empty-audio negatives and a text-only response normalizer for parse-failed generations. On the official development set, the best train-only system reaches 67.27% accuracy after response normalization, compared with 65.90% for our local Qwen3-Omni baseline. Final submissions additionally include models trained using train+development splits and a three-model ensemble.</description>
-    </item>
-    <item>
-      <title>TinyGiantALM: A Compact Audio-Language Model for Intent-Aware Reasoning under Resource Constraints</title>
-      <link>https://arxiv.org/abs/2606.08425</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.08425</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Current advancements in Audio Reasoning rely on massive Large Audio-Language Models (LALMs), hindering deployment in resource-constrained environments. We introduce TinyGiantALM, a compact 1.5B efficiency-oriented alternative. Instead of brute-force scaling, we propose an Instruction-Aware Feature Refinement framework using a Query-guided Projector and Semantic Gating to filter acoustic signals based on user intent. On the MMAR benchmark, TinyGiantALM achieves 46.4% zero-shot accuracy, significantly outperforming 7B-13B baselines. While a reasoning gap in logical narrative remains versus 30B+ models and certain trade-offs exist in overly dense or spatial scenes, our approach notably surpasses models up to 8x larger in disentangling mixed-modality environments. These findings demonstrate that architectural precision offers a tangible pathway to secure robust perception capabilities on edge-friendly scales.</description>
     </item>
   </channel>
 </rss>

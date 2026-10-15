@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Arithmetic Visibility in Polygons: Curved Sight in the Art Gallery</title>
+      <link>http://arxiv.org/abs/2610.19506v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.19506v1</guid>
+      <pubDate>Wed, 14 Oct 2026 03:23:22 +0000</pubDate>
+      <description>In the classical art gallery problem, a guard sees a target when the segment joining them lies entirely within the polygon. We explore what changes when sight may bend along regular arcs on absolutely irreducible curves, but only those defined by primitive integer polynomials of total degree at most \(d\) and coefficient height at most \(H\). We call such curves admissible sight carriers. Arcs can dramatically improve sight. In a one-sided comb, no straight-line guard sees selected targets in two different teeth, yet a single central guard sees a chosen target in every tooth along parabolic carriers. Sight can also fail in two different ways. Geometrically, the polygon may block every sight arc of the allowed degree between two points. For instance, in an alternating comb, the number of guards needed for a row of targets spanning the comb grows linearly with the number of sides at each fixed degree, even for carriers with arbitrary real coefficients. Arithmetically, no admissible carrier may pass through the points at all. Even in the unit square, at fixed \(d\) and \(H\), the proportion of rational targets that must guard themselves tends to one as the height bound grows. An algebraic target may lie on no rational curve of degree at most \(d\), however large \(H\) is. Both failures can be overcome for finite target sets by allowing the degree and coefficient height to grow. We show that every finite set of algebraic targets in a rational polygon becomes visible from any rational interior guard, with explicit bounds. We also construct, for every \(d\), arbitrarily large Galois orbits in the unit square, all of projective height \(4^{d+1}\), whose points must each guard themselves at degree \(d\) for every \(H\). Yet at degree \(d+1\) and coefficient height one, a single guard sees the whole orbit along \(Z(Y-X^{d+1})\).</description>
+    </item>
+    <item>
       <title>Optimal Planar $k$ Nearest Neighbors Queries for Additively Weighted Euclidean Distances and Convex Metrics</title>
       <link>http://arxiv.org/abs/2610.17430v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.17430v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.26812</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 -0000</pubDate>
       <description>We prove the Jordan curve theorem by generalizing the sweepline algorithm for trapezoidal decomposition of a polygon. Our proof uses Zorn's lemma (or, equivalently the axiom of choice). Though several proofs have been given for the Jordan curve theorem by various authors, ours is the {\bf first algorithmic proof} of Jordan curve theorem using computational geometry. Further, with some preparation, the proof can be taught as part of an undergraduate discrete mathematics course, where till now the proof of this theorem was considered inaccessible.</description>
-    </item>
-    <item>
-      <title>A stellated tetrahedron that is probably not Rupert</title>
-      <link>https://arxiv.org/abs/2604.26531</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.26531</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 -0000</pubDate>
-      <description>A convex polyhedron is Rupert if a hole can be cut into it (making its genus $1$) such that an identical copy of the polyhedron can pass through the hole. Resolving a conjecture of Jerrard-Wetzel-Yuan, Steininger and Yurkevich recently constructed a convex polyhedron which is not Rupert. We propose a search for the simplest possible non-Rupert polyhedron and provide numerical evidence suggesting that a particular stellated tetrahedron is not Rupert. The computational techniques utilize linear program solvers to compute the largest possible scalings of polygons that can be translated to fit in other polygons. The relative simplicity of the stellated tetrahedron as compared to other polyhedra allows this more rudimentary check to be computationally tractable. In particular, we show that over 88% of a particular encoding of $\text{SO}(3) \times \text{SO}(3)$ equipped with the standard measure does not yield a Rupert passage.</description>
     </item>
   </channel>
 </rss>
