@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Towards automatic digital garment assembly</title>
+      <link>http://arxiv.org/abs/2610.20651v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20651v1</guid>
+      <pubDate>Mon, 12 Oct 2026 16:16:09 +0000</pubDate>
+      <description>Creating digital garments from existing two-dimensional patterns remains a time-consuming process. Although patterns are widely available in digital form, their assembly in garment CAD software involves manual definition of sewing operations and arrangement of the pattern panels for drape simulation. We present two learning-based approaches that automate both tasks using the 2D vector pattern as their sole input. Our automatic sewing model operates at the segment level, leveraging a Transformer encoder with multiple prediction heads. Our novel architecture supports many-to-many, ordered segment correspondences, as well as hems, overlapping seams needed for multilayer garments, and construction properties such as seam allowances and stitch types, required for the finished virtual garment but neglected by previous methods. A complementary panel-level model predicts body-region assignments, layers, and placement coordinates to initialize the drape simulation. We evaluate both models on a curated dataset of 4,035 professionally assembled garment instances. The sewing model exactly recovers all seam and hem topologies of 63.3\% of test garments, while the arrangement model meets the specified placement criteria for all panels in 66.2\% of test garments. We also integrate both methods into garment CAD software, demonstrating automatic assembly of successfully predicted garments.</description>
+    </item>
+    <item>
       <title>Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos</title>
       <link>http://arxiv.org/abs/2610.14495v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.14495v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.07275</guid>
       <pubDate>Wed, 08 Oct 2025 00:00:00 -0000</pubDate>
       <description>Walk on stars (WoSt) is currently one of the most advanced Monte Carlo solvers for PDEs. Unfortunately, the lack of reliable geometric query approaches has hindered its applicability to boundaries defined by implicit surfaces. This work proposes a geometric query framework over closed implicit surfaces for WoSt, under the scope of walkin' Robin. Our key observation is that all WoSt queries can be formulated as constrained global optimization or constraint satisfaction problems. Based on our formulations, to solve the highly non-convex problems, we adopt a branch-and-bound approach based on interval analysis. To the best of our knowledge, our method is the first to study closest silhouette point queries and Robin radius bound queries on closed implicit surfaces. Our formulations and methods first enable mesh-free PDE solving via WoSt when boundaries are defined by closed implicit surfaces.</description>
-    </item>
-    <item>
-      <title>null2: Boundary-Dissolving Bodies and Architecture towards Digital Nature</title>
-      <link>https://arxiv.org/abs/2509.18498</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.18498</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 -0000</pubDate>
-      <description>This paper presents a case study of the thematic pavilion null2 at Expo 2025 Osaka-Kansai, contrasting with the static Jomon motifs of Taro Okamoto's Tower of the Sun from Expo 1970. The study discusses Yayoi-inspired mirror motifs and dynamically transforming interactive spatial configuration of null2, where visitors become integrated as experiential content. The shift from static representation to a new ontological and aesthetic model, characterized by the visitor's body merging in real-time with architectural space at installation scale, is analyzed. Referencing the philosophical context of Expo 1970 theme 'Progress and Harmony for Mankind,' this research reconsiders the worldview articulated by null2 in Expo 2025, in which computation is naturalized and ubiquitous, through its intersection with Eastern philosophical traditions. It investigates how immersive experiences within the pavilion, grounded in the philosophical framework of Digital Nature, reinterpret traditional spatial and structural motifs of the tea room, positioning them within contemporary digital art discourse. The aim is to contextualize and document null2 as an important contemporary case study from Expo practices, considering the historical and social background in Japan from the 19th to 21st century, during which world expositions served as pivotal points for the birth of modern Japanese concept of 'fine art,' symbolic milestones of economic development, and key moments in urban and media culture formation. Furthermore, this paper academically organizes architectural techniques, computer graphics methodologies, media art practices, and theoretical backgrounds utilized in null2, highlighting the scholarly significance of preserving these as an archival document for future generations.</description>
     </item>
   </channel>
 </rss>

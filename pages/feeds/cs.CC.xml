@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Parallel Repetition for Entangled Games via Conditional Relative Entropy</title>
+      <link>http://arxiv.org/abs/2610.21410v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21410v1</guid>
+      <pubDate>Thu, 15 Oct 2026 07:26:17 +0000</pubDate>
+      <description>We give a proof of the cubic parallel-repetition bound for finite two-player entangled games using quantum conditional relative entropy. For a game with entangled value $1-\varepsilon&lt;1$ and answer alphabets $\mathcal A,\mathcal B$, its $n$-fold repeated value is at most \[ \exp[-Ω(\varepsilon^3n/L)],\qquad L:=\max\{1,\log(|\mathcal A||\mathcal B|)\}, \] for every $n\ge1$. This recovers Song's cubic rate. We also prove a threshold bound: the probability of winning a fraction at least $1-\varepsilon+δ$ is at most $\exp[-Ω(δ^5n/(\varepsilon^2L))]$ for $0&lt;δ\le\varepsilon$. Our information charge is the decrease in relative entropy when a question reference is discarded. Our comparison states preserve the original conditional question law. A chain rule bounds the coordinate charges using the cost of conditioning on checked wins and retaining checked answers. Our main lemma converts small charges into nearby pure-state descriptions and local corrections, each depending only on one player's question. Together with Song's sampler, these enable approximate local preparation of the conditioned workspace.</description>
+    </item>
+    <item>
       <title>Full AFLs Closed under Nested Iterated $k$-Variate Substitution and Depth-k Storage Automata</title>
       <link>http://arxiv.org/abs/2610.19584v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.19584v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.06725v1</guid>
       <pubDate>Sun, 06 Sep 2026 16:56:45 +0000</pubDate>
       <description>We prove that $3\times3$ matrix multiplication over $\mathbb{F}_2$ has bilinear complexity at least $21$, improving the lower bound $20$. Lower bounds for restrictions of the first input constrain how many first factors of a decomposition can lie in each subspace. The strengthened restriction bounds force all first factors of matrix rank at least two into one coset of a three-dimensional rank-one subspace. An exhaustive computation finds no admissible first-factor profile with $20$ terms. We also prove that $2\times3$ by $3\times3$ matrix multiplication over $\mathbb{F}_3$ has rank exactly $15$: three profiles survive the corresponding computation, and short restriction arguments exclude them. We combine Wang's automated framework for tensor-rank lower bounds with D'Ambrosio's capacity-and-profile strategy. Our computational contributions are rank-one-span searches that strengthen the subspace lower-bound table and a direct, symmetry-reduced profile enumerator that enforces all subspace capacities simultaneously.</description>
-    </item>
-    <item>
-      <title>Exponential Sampling Lower Bounds for Polynomial Sources</title>
-      <link>http://arxiv.org/abs/2609.06371v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06371v1</guid>
-      <pubDate>Sun, 06 Sep 2026 04:04:27 +0000</pubDate>
-      <description>A degree-$d$ polynomial source is the output of a polynomial map of degree at most $d$ over $\mathbb{F}_2$ on arbitrarily many uniform random bits. Khodabandeh and Shinkar (FOCS '26) proved that $\mathrm{Ber}(1/3)^{\otimes N}$ has statistical distance $1-o(1)$ from every constant-degree polynomial source and conjectured exponentially small overlap. Independently of Khodabandeh and Shinkar, Byramji, Kane, Morris, and Ostuni (RANDOM '26) asked for an explicit target distribution at distance $1-\exp(-N^{Ω_d(1)})$. We resolve both questions. For every fixed $d\geq1$, every degree-$d$ polynomial source has overlap at most $\exp(-c_dN)$ with $\mathrm{Ber}(1/3)^{\otimes N}$, where $c_d&gt;0$ is independent of the seed length. For quadratics, $c_2=2^{-26}$ suffices. We amplify Khodabandeh and Shinkar's uniform separation of acceptance probabilities from non-dyadic parameters (numbers not of the form $a/2^b$ for integers $a$ and $b\geq0$). The result extends to other non-dyadic Bernoulli parameters and to coordinates that are Boolean functions of boundedly many bounded-degree polynomials. We also give a uniform deterministic hierarchy between adjacent degrees. Appending the outputs of disjoint AND gates on $d+1$ inputs to uniform seed bits yields flat degree-$(d+1)$ target distributions of entropy $k$ with overlap $\exp(-Ω_d(\min\{k,N-k\}))$ against every degree-$d$ source, for $\min\{k,N-k\}\geq2(d+1)$. This entropy dependence is optimal up to constants in the exponent among flat target distributions for fixed $d$. The construction has locality $d+1$ and uses $O(N)$ field operations to sample. At $k=\lfloor N/2\rfloor$, it handles $d\leq(1-\varepsilon)\log_2N/3$ with overlap $\exp(-N^{\varepsilon-o(1)})$ for fixed $0&lt;\varepsilon&lt;1$. The proof combines monotonicity of Gowers uniformity norms, pairwise independence of points in a random affine cube, and relative entropy.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design</title>
+      <link>http://arxiv.org/abs/2610.21570v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21570v1</guid>
+      <pubDate>Thu, 15 Oct 2026 09:24:01 +0000</pubDate>
+      <description>LLM agents can write directed tests that close functional coverage, but coverage only shows that a state was reached, not that the data on the way there was correct. This is a long-known point in verification and we do not claim it as new. We describe a small coverage-closure agent that applies it to an LLM loop: coverage is read from the report that the simulation itself exports (cocotb-coverage YAML) and never taken from the model's account, and data integrity is checked by scoreboards that are separate from the model. On three architecturally distinct RTL designs (an asynchronous FIFO, a UART transmitter and an AHB2APB bridge) the agent raised coverage from 91.7%, 88.9% and 67.4% to 100% within its 8-iteration budget in every logged run, using one design-agnostic agent. A reactive scoreboard monitor attached to the FIFO's base testbench also found a clock-domain-crossing bug in the author's own stimulus code. The monitor is not yet attached to the LLM-generated tests, so their data integrity is not independently checked; one manual check on a single FIFO test is reported as preliminary. We list the weaknesses of this evidence: three designs, no baseline, no ablation, and logged runs that come from several agent checkpoints.</description>
+    </item>
+    <item>
       <title>GarageWorks: A Shared Testbench Abstraction for Software Simulation and FPGA Testing</title>
       <link>http://arxiv.org/abs/2610.15925v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.15925v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.28451</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
       <description>Half precision (FP16) promises to double FFT throughput on GPUs, but the prevailing view is that its 10-bit mantissa makes it unsuitable for radar-grade signal processing. We show this framing is wrong on Apple Silicon: the binding constraint for FFT and Synthetic Aperture Radar (SAR) is not mantissa \emph{precision} but the 5-bit exponent's \emph{dynamic range}. We first measure that an FP16 FFT is mantissa-limited at 56--61~dB signal-to-quantization-noise ratio (SQNR) -- comfortably radar-usable -- yet a naïve FP16 SAR pipeline produces \emph{only} \texttt{NaN}, because the conjugate--FFT--conjugate inverse transform grows magnitudes by a factor of $N$, and the matched-filter product ($\sim\!5\times10^6$ at $N\!=\!4096$) overflows FP16's 65{,}504 ceiling. We resolve this with a fixed-shift \emph{block-floating-point} (BFP) schedule: a single $1/N$ scale applied before each inverse transform bounds every intermediate below 4096. A cascade follows: range-compression output becomes $O(1)$ instead of $O(N)$, which in turn keeps the downstream azimuth-FFT output FP16-loadable instead of overflowing at $O(N^2)$. The result is the first quality-preserving FP16 SAR pipeline: peak/integrated sidelobe ratios, target SNR, and resolution match the FP32 reference to within $0.1$~dB at $42$~dB end-to-end SQNR, while a radix-8 FP16 FFT reaches 306~GFLOPS -- $2.2\times$ over the 139~GFLOPS FP32 baseline -- on a fanless Apple~M1. Finally, we measure that FP8 (E4M3/E5M2) collapses to 14--20~dB SQNR, making FP16 \emph{today's} precision floor for FFT-based radar -- one that future precision-recovery methods may yet lower -- and showing that the lever for low precision here is range management, not mantissa bits.</description>
-    </item>
-    <item>
-      <title>Predictive Software Scheduling as an Early-Warning Hint Layer for Optical Engine Thermal Drift in Heterogeneous SoIC Packaging</title>
-      <link>https://arxiv.org/abs/2605.18612</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.18612</guid>
-      <pubDate>Sat, 23 May 2026 00:00:00 -0000</pubDate>
-      <description>As semiconductor scaling reaches the A16 / 2 nm node, the integration of co-packaged optics (CPO) via TSMC's Co-Packaged Optics Ultra Engine (COUPE) architecture introduces critical thermal-optical coupling challenges. Micro-ring resonators embedded in the Photonic Integrated Circuit (PIC) layer are exquisitely sensitive to temperature: a deviation of merely +-1.7 nm in resonant wavelength causes measurable Bit Error Rate (BER) degradation.</description>
     </item>
   </channel>
 </rss>

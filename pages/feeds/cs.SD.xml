@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Multiscale Generalized Sparse Plane Wave Decomposition in the Spherical Harmonic Domain</title>
+      <link>http://arxiv.org/abs/2610.21425v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21425v1</guid>
+      <pubDate>Thu, 15 Oct 2026 07:37:23 +0000</pubDate>
+      <description>Sparse plane wave decomposition (SPWD) is a physics-driven model-based approach for analyzing sound fields that is suitable for real-time operation. SPWD is used in different contexts such as direction of arrival (DOA) estimation and sound field separation. SPWD employs spherical Dirichlet kernels to decompose sound fields represented as steered response maps into a finite number of plane waves using sparse recovery techniques. This article proposes a multiscale generalized sparse plane wave decomposition approach that uses an optimal spherical kernel and a multiscale sparse decomposition method to improve recovery performance. The utility of the proposed approach is shown by comparisons with the original SPWD approach via extensive numerical simulations.</description>
+    </item>
+    <item>
+      <title>VoxTurn: Answering Several Turn-Taking Questions in One Pass with One Model</title>
+      <link>http://arxiv.org/abs/2610.21150v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21150v1</guid>
+      <pubDate>Thu, 15 Oct 2026 03:06:58 +0000</pubDate>
+      <description>A cascaded voice agent must decide, throughout each silence of its user, whether the user has finished their turn: answering too early cuts the user off, answering too late makes the agent slow. It often needs related decisions too: will the user soon go on, is speech during its own turn an interruption or a backchannel, is a sound speech at all. With open detectors, each extra decision costs another model or another call, and on the 14-language eot-bench they cut users off in more than a quarter of mid-turn pauses. Because they are trained on segmented utterances, this mismatch is the largest single source of error. We present VoxTurn, a 0.8B speech LLM that casts these decisions as multiple-choice questions, scores the hidden state of each option, and answers any set of them in one forward pass with a block-isolating attention mask, exactly as if asked one at a time. Trained on real conversational pauses with labels derived from their timing, and re-queried while a silence lasts, VoxTurn reaches 11.5% false cut-offs in English at a 300 ms latency budget, comparable to two commercial detectors, and a 14-language mean of 19.9%, the lowest among open models, at 8.3 ms per decision. In Pipecat and LiveKit it cuts off 17% and 9% of turns, and it ranks fifth of 24 in TurnBench end-of-turn detection without any TurnBench training data. The model, code and framework plugins are released.</description>
+    </item>
+    <item>
       <title>Quantizer Redundancy and Exact Index Recoding in a Frozen Neural Audio Codec</title>
       <link>http://arxiv.org/abs/2610.20471v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.20471v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.24714</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 -0000</pubDate>
       <description>Chinese news text contains dense written forms such as scores, hyphenated model names, ranges, unit symbols, percentages, English abbreviations, and mixed Chinese-Latin-digit names. These forms are frequent in real listening workflows, and a text-to-speech (TTS) system can preserve the written string while changing the spoken meaning. We introduce CN-NewsTTS Bench v0.1, an open target-level benchmark for evaluating whether Chinese news TTS products pronounce such targets correctly from raw text, without user-side rules, LLM rewriting, SSML hints, or manual edits. The release contains a 200-record development set, an 800-record public test set, 992 public auto-evaluable targets, fixed transcripts from a three-ASR ensemble, an automatic target scorer, and initial results for seven product TTS systems. We additionally report ASR-route diagnostics, ASR-subset ablations, category-level results, confidence intervals, and provider configuration metadata. The best system reaches 0.879 strict accuracy, while several systems remain below 0.60.</description>
-    </item>
-    <item>
-      <title>An Asymmetric Formula for Interval Consonance and its Relation to Harmonic Coincidence</title>
-      <link>https://arxiv.org/abs/2606.16412</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.16412</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Euler's Gradus Suavitatis (1739) assigns a dissonance value to a musical interval p/q by the formula G(p/q) = 1 + Ω^(p) + Ω^(q), where Ω^(n) = \sum_i e_i(p_i - 1) sums the weighted prime exponents of n. We propose the simpler asymmetric formula f(p/q) = p + Ω^(q), which treats numerator and denominator differently and performs comparably on standard consonance data. We also show that, under a model in which harmonics are integer-indexed and counted uniformly up to a fixed truncation level, Gradus is equivalent to a weighted harmonic coincidence count with weights w(n) = Ω^(n), connecting it to Galileo's earlier pulse-coincidence model (1638). The formula naturally generates a coprime integer triangle T(n,k) = n + Ω^(k), whose rightmost diagonal gives the two-stage dissonance of the superparticular (consecutive-harmonic) intervals. The formula f admits a simple two-stage interpretation in terms of harmonic context and partial recognition, which we offer as a speculative perceptual hypothesis.</description>
-    </item>
-    <item>
-      <title>Libretto: Giving LLM Agents a Sense of Musical Structure</title>
-      <link>https://arxiv.org/abs/2606.22708</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.22708</guid>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Generative music systems can now produce impressive audio from text prompts, but audio outputs are difficult to inspect, edit, and diagnose as musical structure. We introduce Libretto, an agent-facing framework for symbolic music generation and revision. Libretto uses an LLM-native grammar with explicit onset slots, voices, and bar-level organization, then evaluates each piece in a corpus-calibrated statistical space over rhythm, harmony, melody, texture, form, and variation. The same structural axes support retrieval, diagnosis, copy-risk control, and iterative self-revision. Across gap filling, reference-guided full-piece generation, gradual morphing, and educational music generation, Libretto turns symbolic music from a raw token sequence into a measurable and editable object for language-model agents.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Decoding What iOS Location Services Send to Apple: An LLM Is an Unreliable Analyst but a Useful Toolmaker</title>
+      <link>http://arxiv.org/abs/2610.21597v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21597v1</guid>
+      <pubDate>Thu, 15 Oct 2026 09:43:26 +0000</pubDate>
+      <description>Reverse engineering the data formats used by mobile software is skilled and slow, and using AI to assist with it is attractive. We evaluate this for the protobuf messages that an iPhone sends to Apple's location services. Working from Apple's binaries, we use two frontier models (Claude Opus 4.8, Codex GPT Sol 5.6) to reconstruct the schemas of protobufs observed in network traffic. The great majority of the schemas contain substantial errors, and these are hard to detect because the schemas are internally consistent. Direct AI use is therefore unsuitable for forensic and privacy analysis. AI can, however, write reliable analysis tools when their output can be validated. We use Claude to write a Python tool, Extractor, that reliably recovers protobuf schemas from Apple binaries. We validate it against binaries compiled from schemas with known answers, previously published schemas, and network measurements. We demonstrate the use of Extractor to decode and analyse the location services network traffic of a jailbroken iPhone 8 (iOS 16.7.11).</description>
+    </item>
+    <item>
       <title>An Experimental Study on the Functional Correctness of Network Device Configurations Produced by Large Language Models</title>
       <link>http://arxiv.org/abs/2610.19958v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.19958v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.09122</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 -0000</pubDate>
       <description>Cloud network infrastructure at hyperscale presents unique operational challenges where traditional human-driven incident response cannot keep pace with the volume, velocity, and complexity of failures. This paper presents an agentic AI architecture for autonomous incident resolution in large-scale network operations. Our system employs a multi-agent orchestration framework where specialized AI agents collaborate to detect, diagnose, and remediate network incidents without human intervention. We describe the architectural principles, including hierarchical agent decomposition, skills-based tool invocation via standardized protocols, structured knowledge encoding from operational runbooks, progressive autonomy with safety boundaries, and closed-loop verification. The architecture has been deployed in production at a major cloud provider, demonstrating that agentic AI systems can achieve autonomous resolution rates exceeding 90% for common incident categories while maintaining safety guarantees through layered authorization and rollback mechanisms. We discuss design tradeoffs, failure modes, and lessons learned from operating autonomous AI agents at scale.</description>
-    </item>
-    <item>
-      <title>Block-A-Mole: The Sustainability Frontier of Moving-Target Censorship Resistance</title>
-      <link>https://arxiv.org/abs/2606.08886</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.08886</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Internet censorship affects over four billion people, and deployed circumvention systems share a common weakness: their endpoints are fixed and discoverable, so a patient censor can enumerate and block them. Moving-target circumvention systems instead rotate endpoints across commercial cloud address space faster than censors can react, but the field lacks a theory of when rotation works, leaving rotation intervals and pool sizes to intuition. We give the first formal account of moving-target censorship resistance by modeling the censor-defender interaction as a continuous-time timing game over a combinatorial address-domain space, generalizing FlipIt to a collateral-bounded adversary. We prove a sustainability frontier separating configurations a censor can defeat from those it cannot, and show that under the Great Firewall's 2024 shift to blocking QUIC and TLS by domain, raw rotation speed is not the binding constraint. Instead, availability is governed by the domain burn rate, $β=λ_{\mathrm{disc}}/λ_{\mathrm{intro}}$, the ratio between how quickly the censor blocks defender domains and how quickly the defender introduces fresh ones. We derive a closed-form availability law, prove that address rotation alone cannot sustain high availability when $β&gt;1$ regardless of endpoint rotation speed, and characterize the frontier $β^\star$. We validate the analysis with an open, model-level censor-defender simulator requiring no privileged access or cloud deployment. The simulator reproduces the predicted phase transition at $β^\star$ under adversary profiles representative of the GFW, Russia's TSPU, and Iran, and shows robustness to state-dependent discovery and bursty, provider-correlated burns. The result replaces the heuristic of ``rotate faster'' with a precise operating condition: keeping the domain economy ahead of the censor.</description>
     </item>
   </channel>
 </rss>

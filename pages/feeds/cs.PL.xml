@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>FAOPs: Normal Forms and an Algebra for AI Agent Workflows</title>
+      <link>http://arxiv.org/abs/2610.22061v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.22061v1</guid>
+      <pubDate>Thu, 15 Oct 2026 15:24:46 +0000</pubDate>
+      <description>Organizations increasingly encode operational procedures as multi-step agent skills, here called Agent Operating Procedures (AOPs), that must be traceable, auditable, reproducible, access-controlled, and bounded in time and cost, requirements that regulated sectors make mandatory. Yet AOPs are typically kept as coarse-grained files, in which steps bundle actions, copied procedures drift apart, any step may reach any tool, and refactoring goes unchecked. We present Functional Agent Operating Procedures (FAOP), a formal theory that brings database-grade discipline to AI agent workflows. FAOP recasts each workflow as a typed function over scoped state and subjects an entire library to four progressive normal forms: Decomposed (FNF-1) splits a workflow into atomic steps, Typed (FNF-2) makes its data flow explicit and type-checked, Factored (FNF-3) gives each shared procedure a single canonical definition so a change propagates instead of drifting, and Scoped (FNF-4) confines every step to least-privilege tool access. Once normalized, every atomic step is a separate entity with a declared contract and can be type-checked, scope-confined, bounded, tested, traced, and audited on its own. A FAOP algebra of provably sound equalities turns refactoring and parallelization into compiler rewrites; orthogonal extensions add verified termination (+V), optimization (+O), and time and cost bounds (+B); and an architectural-level classifier (0-3) determines whether a workflow needs AI at all. Together, these make integrity, isolation, typing, termination, cost, and optimization compile-time concerns across the whole library, not runtime hopes. We implement the theory in SkillBase, an AOP management system (what PostgreSQL is to data, SkillBase is to AOPs), together with a separate executor that enforces these guarantees at run time. A worked financial workflow illustrates the approach end to end.</description>
+    </item>
+    <item>
+      <title>Normalization by Evaluation with Substitutions as Operations</title>
+      <link>http://arxiv.org/abs/2610.21131v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21131v1</guid>
+      <pubDate>Thu, 15 Oct 2026 02:39:37 +0000</pubDate>
+      <description>In previous works on normalization by evaluation (NbE) with an untyped domain model, explicit substitutions are a major decision choice, which, in retrospect, is taken to simplify subsequent semantic proofs. This choice hence is taken for a purely technical reason. In addition, there is no obvious lemma to test the completeness of the definition or the laws for explicit substitutions. In this technical report, we investigate NbE in a typical setting, i.e. defining substitutions as operations. We show that this setting brings simplifications in proving syntactic properties and soundness of NbE, though complications are introduced in the completeness proof of NbE.</description>
+    </item>
+    <item>
       <title>Verifying deployed bytecode against executable EVM semantics, with exact gas and no added axioms</title>
       <link>http://arxiv.org/abs/2610.19764v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.19764v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.27258</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 -0000</pubDate>
       <description>A core principle of object orientation -- that the functionality of a system can be partitioned amongst objects that correspond to individuals in the problem domain -- has influenced how software has been specified, designed and implemented for more than fifty years. Later developments in software engineering sought to build on this principle. But in fact this partitioning is neither natural nor straightforward, and the problems that these later developments sought to mitigate -- the fragmentation and conflation of functionality -- were often, in fact, the inevitable consequences of this founding principle. An easier path to addressing these problems therefore starts by going back, abandoning object orientation, and replacing it with an alternative approach that decouples the individuals of the problem domain from the modules that partition functionality.</description>
-    </item>
-    <item>
-      <title>Sutra: Tensor-Op RNNs as a Compilation Target for Vector Symbolic Architectures</title>
-      <link>https://arxiv.org/abs/2605.20919</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.20919</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Sutra is a typed, purely functional programming language whose compiled forward pass is a PyTorch neural network. The compiler beta-reduces the whole program -- primitives, control flow, string I/O -- to one fused tensor-op graph over a frozen embedding substrate. Rotation binding, unbind, bundle, polynomial Kleene three-valued logic, and tail-recursive loops all lower to tensor operations; the Kleene connectives are Lagrange-interpolated polynomials exact on the {-1, 0, +1} truth grid. Validation is one fact tested two ways. (1) The same program runs on four frozen embeddings spanning two modalities -- three text encoders (nomic-embed-text, all-minilm, mxbai-embed-large) and one protein language model (ESM-2) -- and decodes bundles at 100% accuracy through width k=8 on every substrate, where the textbook Hadamard product has already collapsed (2.5% on mxbai-embed-large, 7.5% on all-minilm). (2) PyTorch autograd flows through the actually compiled graph: a fuzzy-rule classifier written in .su trains from random init (18.7 +/- 9.5%; chance = 20%, five classes) to 100.0 +/- 0.0% (three seeds) by backpropagating through the emitted graph, the symbolic source unmodified. A weighted variant additionally trains a scalar cosine gain and writes it back into the .su source as a numeric literal; recompiling reproduces the trained behaviour to ~2e-7 per logit, so the trained model is itself legible, recompilable code. The same artifact is therefore both a logic program and a trainable neural network.</description>
-    </item>
-    <item>
-      <title>Information flow security on persistent memory</title>
-      <link>https://arxiv.org/abs/2606.25422</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.25422</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Persistent memory is a recently proposed memory paradigm that delivers many system-wide benefits, including improved runtime efficiency and the ability of programs to recover from power outages and system crashes. While recent research has investigated techniques for proving functional correctness of programs running on related architectures, this is not the case for the orthogonal concept of information flow security. In this paper, we provide an information flow logic for an unstructured language (i.e., with gotos rather than loops) modelling a simple assembly language. We apply this logic to x86 assembly using a notion of reordering interference freedom (rif) to reason about potential out-of-order propagation of instructions to memory. We then show how this same notion of rif can be used to similarly reason about information flow on persistent memory.</description>
     </item>
   </channel>
 </rss>

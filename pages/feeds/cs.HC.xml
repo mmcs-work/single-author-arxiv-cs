@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>OnBodyAI - Why the Next AI Needs a Body</title>
+      <link>http://arxiv.org/abs/2610.21137v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21137v1</guid>
+      <pubDate>Thu, 15 Oct 2026 02:47:49 +0000</pubDate>
+      <description>The next AI will not win by knowing more about the world. It will win because it knows you: because it lives on your body, works for you and answers to you. That is what the term OnBodyAI stands for. It describes what happens when large language models are given a body, and what research and industry need to make that happen. This article is based on my talk in the Industrial Panel at UbiComp/ISWC 2026 in Shanghai (October 13, 2026) and follows its ten key statements.</description>
+    </item>
+    <item>
       <title>The Body-Algorithm-Emotion Loop: Making Emotion AI Misrecognition Visible through Artistic Practice</title>
       <link>http://arxiv.org/abs/2610.20161v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.20161v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.23126</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
       <description>The rapid adoption of generative AI tools has created new literacy demands for designers who must verbalize tacit knowledge through natural language prompts. Yet the micro-level cognitive processes by which designers externalize implicit intentions during iterative AI dialogue remain underexplored. This exploratory qualitative study examined five expert designers (11-20 years UI/UX experience, M = 15.4 years) using think-aloud protocols. We identified "Strategic Oscillation" -- experts' intentional return to vague language (Vibe) after progressing toward operational specifications (Code), leveraging AI's probabilistic nature for creative exploration. We observed shifts from "instruction" to "consultation" mode, deep reflection triggered by semantic collisions, and one participant's disengagement revealing conceptual alignment as a tentative boundary condition. We propose the ECRT cycle (Expectation-Collision-Reflection-Transformation) operationalizing the SECI model's "externalization" phase for human-AI collaboration. These findings yield three design patterns for metacognitive support and position AI as a "probabilistic mirror" catalyzing tacit knowledge externalization.</description>
-    </item>
-    <item>
-      <title>Cross-Disciplinary Taxonomy and Modeling of Misunderstanding Generation, Amplification, and Detection, from Pragmatics to AI Agents</title>
-      <link>http://arxiv.org/abs/2608.13604v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.13604v1</guid>
-      <pubDate>Tue, 11 Aug 2026 05:38:04 +0000</pubDate>
-      <description>Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift cuts communicators off from the resources repair depends on faster than new means of detection are being built. In this paper we analyse misunderstanding as a layered process in which a divergence is generated, may then be amplified, and is either detected and repaired or left to persist unnoticed. Consolidating accounts from nine fields of research that do not ordinarily cite one another, we identify eleven exact failure modes and show that each operates at a specific point in a communicative process rather than anywhere within it. Those points give eight analytical layers, derived from the literature rather than adopted from an existing model. Eight of the mechanisms primarily generate a divergence, two primarily amplify one already present, and one governs whether a divergence is detected and repaired. We model the eight layers formally, extending information and communication theory from the transmission of signals to the reconstruction of meaning, and we supply a source-by-source evidence matrix that makes every rating auditable, a coding manual, and nine analysed dialogue cases. No prior classification of misunderstanding both locates mechanisms at points in the process and types them by function.</description>
     </item>
   </channel>
 </rss>

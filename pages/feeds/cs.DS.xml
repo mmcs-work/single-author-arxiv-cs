@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Decoding Failure Biases IBLT Count Measurements: A Gaussian-Selection Law at the Peeling Threshold</title>
+      <link>http://arxiv.org/abs/2610.21418v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21418v1</guid>
+      <pubDate>Thu, 15 Oct 2026 07:30:49 +0000</pubDate>
+      <description>In a self-sizing set-reconciliation protocol, a small first-round Invertible Bloom Lookup Table (IBLT) sketch attempts peeling decoding; after failure, the protocol estimates the difference count $d$ from the count energy and sizes the second round from a lower quantile of the measurement. This quantile must be computed conditionally on failure: the measurement and peeling success are determined by the same random mapping, so conditioning can shift the measurement law. In the ideal peeling model, inside the critical window where failure has nondegenerate probability, the standardized energy and a statistic of the unsigned mapping that governs the peeling outcome (the precritical score) have a joint Gaussian limit with correlation $η_kρ^2$, $ρ$ being the sign imbalance and $η_k$ a closed-form constant. The measurement conditional on failure is thus a bivariate normal truncated to a half-plane, which we call the Gaussian-selection law. Since $η_k$ changes sign between $k=4$ and $k=5$, under one-sided imbalance the unconditional threshold undercovers exactly when $k\ge5$ and is conservative for $k=3,4$. The key tool is a quenched CLT for a signed quadratic form on a random overlap graph; under asymptotically balanced signs, conditioning on any unsigned mapping event that is permutation-invariant and has probability bounded away from zero leaves the standard normal limit unchanged. After failure the protocol observes the total sign; inverting the selection law yields an upper confidence bound for $d$, asymptotically conservative in the critical window and, when $d/\sqrt M\to\infty$, along the whole load axis. The experiments use analytic constants, none fitted; the unconditional threshold carries a selection error that does not vanish with scale, while the corrected selection-law threshold matches per-configuration empirical quantiles.</description>
+    </item>
+    <item>
       <title>Claw-Free and Line Graph Edge Deletion on Block Graphs</title>
       <link>http://arxiv.org/abs/2610.20510v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.20510v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.28160v1</guid>
       <pubDate>Wed, 23 Sep 2026 14:09:23 +0000</pubDate>
       <description>Existing link-based combinatorial preprocessing methods speed up the computation of persistent homology by removing a vertex or edge only when its link remains a cone. We replace this condition with a quantitative homological certificate. The reduced homology of the filtered link of a generator (a vertex or edge) defines a local obstruction module whose future part describes the effect of deleting that generator. Its barcode certifies either exact deletion or an explicit bound on the bottleneck error, and a conflict colouring extends this guarantee to families of generators. Our implementation, HomTrim, removes an additional 13% to 41% of the input edges beyond domination-only preprocessing and reduces backend persistence time by factors ranging from 1.55 to 4.61 on weighted flag filtrations. The same module also yields regularity diagrams that measure how far a generator can move before becoming visible to homology, together with a multiscale stability result.</description>
-    </item>
-    <item>
-      <title>Sampling Line-Graph Colorings with Constant Extra Colors</title>
-      <link>http://arxiv.org/abs/2609.27440v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27440v1</guid>
-      <pubDate>Wed, 23 Sep 2026 07:02:46 +0000</pubDate>
-      <description>Let $G$ be the line graph of a finite simple graph, with $n\geq1$ vertices and maximum degree $Δ$. We prove that single-site Glauber dynamics for uniform proper $q$-colorings mixes in $O_Δ(n\log(n/\varepsilon))$ steps for every integer $q\geqΔ+5$. Our proof uses the Bochner framework of Chen and Liu (2026).</description>
     </item>
   </channel>
 </rss>

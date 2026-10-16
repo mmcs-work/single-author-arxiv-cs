@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>OnBodyAI - Why the Next AI Needs a Body</title>
+      <link>http://arxiv.org/abs/2610.21137v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21137v1</guid>
+      <pubDate>Thu, 15 Oct 2026 02:47:49 +0000</pubDate>
+      <description>The next AI will not win by knowing more about the world. It will win because it knows you: because it lives on your body, works for you and answers to you. That is what the term OnBodyAI stands for. It describes what happens when large language models are given a body, and what research and industry need to make that happen. This article is based on my talk in the Industrial Panel at UbiComp/ISWC 2026 in Shanghai (October 13, 2026) and follows its ten key statements.</description>
+    </item>
+    <item>
       <title>The Reconstructions of Konrad Zuse's Z3 Computer</title>
       <link>https://arxiv.org/abs/2607.13089</link>
       <guid isPermaLink="true">https://arxiv.org/abs/2607.13089</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/cs/0602045</guid>
       <pubDate>Sun, 12 Feb 2006 00:00:00 -0000</pubDate>
       <description>Emergence (macro-level effects from micro-level causes) is at the heart of the conflict between reductionism and functionalism. How can there be autonomous higher level laws of nature (the functionalist claim) if everything can be reduced to the fundamental forces of physics (the reductionist position)? We cut through this debate by applying a computer science lens to the way we view nature. We conclude (a) that what functionalism calls the special sciences (sciences other than physics) do indeed study autonomous laws and furthermore that those laws pertain to real higher level entities but (b) that interactions among such higher-level entities is epiphenomenal in that they can always be reduced to primitive physical forces. In other words, epiphenomena, which we will identify with emergent phenomena, do real higher-level work. The proposed perspective provides a framework for understanding many thorny issues including the nature of entities, stigmergy, the evolution of complexity, phase transitions, supervenience, and downward entailment. We also discuss some practical considerations pertaining to systems of systems and the limitations of modeling.</description>
-    </item>
-    <item>
-      <title>A General Methodology for Designing Self-Organizing Systems</title>
-      <link>https://arxiv.org/abs/nlin/0505009</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/nlin/0505009</guid>
-      <pubDate>Thu, 09 Feb 2006 00:00:00 -0000</pubDate>
-      <description>Our technologies complexify our environments. Thus, new technologies need to deal with more and more complexity. Several efforts have been made to deal with this complexity using the concept of self-organization. However, in order to promote its use and understanding, we must first have a pragmatic understanding of complexity and self-organization. This paper presents a conceptual framework for speaking about self-organizing systems. The aim is to provide a methodology useful for designing and controlling systems developed to solve complex problems. First, practical notions of complexity and self-organization are given. Then, starting from the agent metaphor, a conceptual framework is presented. This provides formal ways of speaking about "satisfaction" of elements and systems. The main premise of the methodology claims that reducing the "friction" or "interference" of interactions between elements of a system will result in a higher "satisfaction" of the system, i.e. better performance. The methodology discusses different ways in which this can be achieved. A case study on self-organizing traffic lights illustrates the ideas presented in the paper.</description>
     </item>
   </channel>
 </rss>
