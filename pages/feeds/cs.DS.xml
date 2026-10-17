@@ -12,6 +12,20 @@
       <description>In a self-sizing set-reconciliation protocol, a small first-round Invertible Bloom Lookup Table (IBLT) sketch attempts peeling decoding; after failure, the protocol estimates the difference count $d$ from the count energy and sizes the second round from a lower quantile of the measurement. This quantile must be computed conditionally on failure: the measurement and peeling success are determined by the same random mapping, so conditioning can shift the measurement law. In the ideal peeling model, inside the critical window where failure has nondegenerate probability, the standardized energy and a statistic of the unsigned mapping that governs the peeling outcome (the precritical score) have a joint Gaussian limit with correlation $η_kρ^2$, $ρ$ being the sign imbalance and $η_k$ a closed-form constant. The measurement conditional on failure is thus a bivariate normal truncated to a half-plane, which we call the Gaussian-selection law. Since $η_k$ changes sign between $k=4$ and $k=5$, under one-sided imbalance the unconditional threshold undercovers exactly when $k\ge5$ and is conservative for $k=3,4$. The key tool is a quenched CLT for a signed quadratic form on a random overlap graph; under asymptotically balanced signs, conditioning on any unsigned mapping event that is permutation-invariant and has probability bounded away from zero leaves the standard normal limit unchanged. After failure the protocol observes the total sign; inverting the selection law yields an upper confidence bound for $d$, asymptotically conservative in the critical window and, when $d/\sqrt M\to\infty$, along the whole load axis. The experiments use analytic constants, none fitted; the unconditional threshold carries a selection error that does not vanish with scale, while the corrected selection-law threshold matches per-configuration empirical quantiles.</description>
     </item>
     <item>
+      <title>A 0.4584-approximation for DR-submodular maximization over down-closed convex sets</title>
+      <link>http://arxiv.org/abs/2610.21072v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21072v1</guid>
+      <pubDate>Thu, 15 Oct 2026 01:20:11 +0000</pubDate>
+      <description>We obtain a $0.4584$-approximation for nonnegative, non-monotone, $L$-smooth DR-submodular maximization over compact convex down-closed subsets of the unit cube, improving the $4/9\approx0.4444$ ratio of Aggarwal's projection-based algorithm~\cite{aggarwal2026geometry}. A recovery map combining exponential and linear-fractional branches admits a cube-wide affine upper bound. The resulting continuous-time Frank--Wolfe-type algorithm with randomized output and its randomized discrete-time implementation both satisfy $\E F(\widehat x)\ge(0.4584-\varepsilon)\OPT-δLD^2$; the implementation uses polynomially many cube-wide value/full-gradient queries and ordinary linear maximization calls, where $D$ is the feasible diameter and $\varepsilon,δ&gt;0$ are accuracy parameters. Our guarantee and Aggarwal's hardness bound~\cite{aggarwal2026geometry} place the optimal approximation ratio for cube-wide value/full-gradient queries and linear maximization, with additive error $δLD^2$, in $[0.4584,0.4705)$. Standard multilinear sampling and pipage rounding imply an expected $(0.4584-\varepsilon)$-approximation for nonnegative submodular set-function maximization under a matroid constraint \cite[Lemma B.3]{vondrak2013symmetry}.</description>
+    </item>
+    <item>
+      <title>Near-Linear Preprocessing for Range Weighted Longest Increasing Subsequence Queries</title>
+      <link>http://arxiv.org/abs/2610.20983v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.20983v1</guid>
+      <pubDate>Wed, 14 Oct 2026 21:50:41 +0000</pubDate>
+      <description>We give a deterministic data structure for range weighted longest increasing subsequence (LIS) queries on $n$ values with positive weights. Preprocessing takes $O(n\log^2 n)$ time and space. Value queries take $O(\log n)$ time, and an optimal subsequence of $k$ elements can be reported in $O(k + \log n)$ time. This resolves an open question on truly subquadratic preprocessing with polylogarithmic query time. The key is a single-crossing property of envelopes for value-separated endpoint sets, enabling $O(\log n)$-time persistent merges. The bounds assume constant-time exact addition and comparison of weights.</description>
+    </item>
+    <item>
       <title>Claw-Free and Line Graph Edge Deletion on Block Graphs</title>
       <link>http://arxiv.org/abs/2610.20510v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.20510v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.28397v1</guid>
       <pubDate>Wed, 23 Sep 2026 17:03:25 +0000</pubDate>
       <description>In the classical list update problem, a set of items must be stored in a list-type structure, where accessing the $i$-th element costs $i$. Items will be queried in an IID manner according to some probability distribution $p$ on the items. We want to minimize the expected cost of each query. The optimal order is to place the items in decreasing order of probability $p_1 \geq p_2 \geq \cdots$ with expected cost $\mathsf{OPT} = \sum_j j p_j$, but the probability vector $p$ is generally unknown. Thus we use a self-organizing list following the transposition rule: an item is transposed 1 position forward whenever it is queried. Coester (2026) proved that, at stationarity measure for the transposition rule, the expected cost of a query is at most $\mathsf{OPT} + 1$. However, this Markov chain may have arbitrarily slow mixing time. We prove that, for arbitrary $p$ and arbitrary initial orderings $σ$, after polynomially many queries in the number of items, the expected cost of a query is at most $\mathsf{OPT} + O(1)$.</description>
-    </item>
-    <item>
-      <title>A 27 x 27 x 27 counterexample to Comon's conjecture</title>
-      <link>http://arxiv.org/abs/2609.28292v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.28292v1</guid>
-      <pubDate>Wed, 23 Sep 2026 15:37:17 +0000</pubDate>
-      <description>We report an explicit construction of a 27 x 27 x 27 symmetric tensor with rational entries that has tensor rank 55 over the rational numbers and symmetric tensor rank 56 over the complex numbers, providing a small counterexample to Comon's conjecture over the rational, real, and complex numbers. The construction follows the framework of symmetric adjoins introduced by Shitov. The primary technical contribution of this work is to prove a special case of Conjecture 6 appearing in Shitov's seminal 2018 work.</description>
-    </item>
-    <item>
-      <title>Homological Trimming and Regularity of Filtrations via Local Obstruction Modules</title>
-      <link>http://arxiv.org/abs/2609.28160v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.28160v1</guid>
-      <pubDate>Wed, 23 Sep 2026 14:09:23 +0000</pubDate>
-      <description>Existing link-based combinatorial preprocessing methods speed up the computation of persistent homology by removing a vertex or edge only when its link remains a cone. We replace this condition with a quantitative homological certificate. The reduced homology of the filtered link of a generator (a vertex or edge) defines a local obstruction module whose future part describes the effect of deleting that generator. Its barcode certifies either exact deletion or an explicit bound on the bottleneck error, and a conflict colouring extends this guarantee to families of generators. Our implementation, HomTrim, removes an additional 13% to 41% of the input edges beyond domination-only preprocessing and reduces backend persistence time by factors ranging from 1.55 to 4.61 on weighted flag filtrations. The same module also yields regularity diagrams that measure how far a generator can move before becoming visible to homology, together with a multiscale stability result.</description>
     </item>
   </channel>
 </rss>

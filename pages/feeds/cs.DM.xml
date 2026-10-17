@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Barrier Log-Concavity of Large Forests</title>
+      <link>http://arxiv.org/abs/2610.22098v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.22098v1</guid>
+      <pubDate>Thu, 15 Oct 2026 15:46:44 +0000</pubDate>
+      <description>We prove that the independence sequence of every sufficiently large forest is strictly barrier log-concave: whenever $i_{k+1}&gt;i_k$, one has $i_k^2&gt;i_{k-1}i_{k+1}$. Consequently, every common downward coefficient tilt is unimodal, with one order threshold valid simultaneously for all $0&lt;t\le1$. As an application, we prove that every sufficiently large well-covered tree has a strictly log-concave independence polynomial. More generally, the latter conclusion holds for well-covered forests with sufficiently large matching number. Every sufficiently large forest with a palindromic independence polynomial is also strictly log-concave, with its modes at the central ranks. The proof establishes local coefficient-curvature estimates uniformly over forests of unbounded maximum degree and over activities tending to zero. Combined with the fixed-density theorem of Fang, Lu, Nevo, Yao, and Zheng, these estimates complete the strict log-concavity interval down to rank one through $\lfloor17α/25\rfloor$; the terminal fraction is inherited. The classical decreasing tail then yields the barrier property. A cumulative-coefficient corona theorem transfers barrier log-concavity of the base forest to full strict log-concavity of its leaf corona.</description>
+    </item>
+    <item>
+      <title>A Linear-Time Algorithm for the Unbiased Claw Game on Graphs with Maximum Degree 4</title>
+      <link>http://arxiv.org/abs/2610.21878v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21878v1</guid>
+      <pubDate>Thu, 15 Oct 2026 13:45:29 +0000</pubDate>
+      <description>We study the unbiased Maker-Breaker $K_{1,3}$-game, the unbiased claw game, played on the edge set of a general graph $G$. In this game, Maker and Breaker alternatingly claim edges of $G$, and Maker wins if his claimed edges contain a claw once no more edges are available. Graphs with maximum degree at least 5 are Maker's win. A graph $G$ is claw-connected if the hypergraph modeling the unbiased claw game played on $G$ is connected. We characterize Maker's win in the unbiased claw game on every claw-connected graph whose maximum degree is different from 3. Our main structural result is a complete characterization of Maker's win for claw-connected graphs with exactly one vertex of degree 4. The analysis is based on the fact that vertices of degree 4 act as forcing structures. Our characterization results in a linear-time algorithm for the unbiased claw game on claw-connected graphs with maximum degree different from 3. We also obtain a linear-time decomposition algorithm reducing the game on general graphs to a collection of pairwise edge-disjoint claw-connected subgraphs of maximum degree exactly 3, thereby isolating the only remaining case. This decomposition yields an $\mathcal{O}(|V(G)|^3)$-time algorithm for the unbiased claw game on general graphs, improving on the $\mathcal{O}(|V(G)|^7)$-time algorithm implied by the work of Galliot, Gravier and Sivignon (arXiv 2026). For a lower bound on the decision complexity, we prove that any agent deciding the game in the adjacency-array model makes at least $Ω(|V(G)|)$ queries in the worst case, indicating the optimality of our linear-time algorithm.</description>
+    </item>
+    <item>
+      <title>Metric Dimension is NP-complete on Graphs of Treewidth Two</title>
+      <link>http://arxiv.org/abs/2610.21133v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.21133v1</guid>
+      <pubDate>Thu, 15 Oct 2026 02:43:54 +0000</pubDate>
+      <description>The metric dimension of a connected graph is the least number of vertices whose distance vectors distinguish all vertices. We show that deciding whether the metric dimension of a graph is at most a given integer is NP-complete on graphs of treewidth at most two. As the problem is polynomial on trees, the graphs of treewidth one, this settles the treewidth threshold of its hardness, which was known to lie between two and twenty-four. The reduction is from satisfiability of formulas in which every literal occurs at most twice. To such a formula with $n$ clauses and $r$ variables it associates a graph $G_\varphi$ of treewidth at most two with $O((n+r)^2)$ vertices, whose metric dimension is $2(n+r)+5$ if the formula is satisfiable and $2(n+r)+6$ otherwise.</description>
+    </item>
+    <item>
       <title>Claw-Free and Line Graph Edge Deletion on Block Graphs</title>
       <link>http://arxiv.org/abs/2610.20510v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.20510v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2005.10800</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
       <description>In the maximum asymmetric traveling salesman problem (Max ATSP) we are given a complete directed graph with nonnegative weights on the edges and we wish to compute a traveling salesman tour of maximum weight. In this paper we give a fast combinatorial $\frac{7}{10}$-approximation algorithm for Max ATSP. It is based on techniques of {\em eliminating} and {\em diluting} problematic subgraphs with the aid of {\it half-edges} and a method of edge coloring. (A {\it half-edge} of edge $(u,v)$ is informally speaking "either a head or a tail of $(u,v)$".) A novel technique of {\em diluting} a problematic subgraph $S$ consists in a seeming reduction of its weight, which allows its better handling. The current best approximation algorithms for Max ATSP, achieving the approximation guarantee of $\frac 23$, are due to Kaplan, Lewenstein, Shafrir, Sviridenko (2003) and Elbassioni, Paluch, van Zuylen (2012). Using a result by Mucha, which states that an $α$-approximation algorithm for Max ATSP implies a $(2+\frac{11(1-α)}{9-2α})$-approximation algorithm for the shortest superstring problem (SSP), we obtain also a $(2 \frac{33}{76} \approx 2,434)$-approximation algorithm for SSP, beating the previously best known (having an approximation factor equal to $2 \frac{11}{23} \approx 2,4782$.)</description>
-    </item>
-    <item>
-      <title>Online balancing of vectors with small coordinates</title>
-      <link>https://arxiv.org/abs/2608.12490</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12490</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Let $v_1,\ldots,v_T\in B_2^m$ be fixed in advance and revealed sequentially, and assume that $\|v_t\|_\infty\leqslant d^{-1/2}$ for some $d\geqslant 1$ and every $1\leqslant t\leqslant T$. There are absolute constants $L,C,c&gt;0$ and a randomized online signing such that $$\mathbb{P}\left\{\max_{k\leqslant T}\left\|\sum_{t=1}^k\varepsilon_t v_t\right\|_\infty&gt;6L\right\} \leqslant CT\exp\left(-\frac{cd}{\ln^2(ed)}\right).$$ Consequently, constant prefix discrepancy holds with probability at least $1-\varepsilon$ once $d$ is at least $C\ln\frac{3T}{\varepsilon}\left[\ln\left(e+\ln\frac{3T}{\varepsilon}\right)\right]^2$. In particular, every fixed sequence of vectors $a_t\in[-1,1]^m$ with at most $d$ nonzero coordinates admits an online signing with prefix discrepancy $O(\sqrt d)$ and failure probability at most $CT\exp[-cd/\ln^2(ed)]$. We also prove a nonuniform version in which the failure probability depends on the individual parameters $d_t=\|v_t\|_\infty^{-2}$, and a lower bound showing that a universal constant prefix discrepancy is impossible when $d=o(\ln T)$. We identify the corresponding $\ln^2 d$ barrier for the compact-potential method and extend the argument to general symmetric target bodies admitting a quadratic smoothness estimate.</description>
-    </item>
-    <item>
-      <title>Nonisomorphic Graphs Can Share an Arbitrarily Large Fraction of Their Vertex-Deleted Cards</title>
-      <link>https://arxiv.org/abs/2608.11930</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.11930</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>For a graph $G$, its vertex deck is the multiset of graphs obtained by deleting one vertex. Bowler, Brown, and Fenner (BBF) proposed $2\lfloor(n-1)/3\rfloor$ as the maximum possible overlap between the decks of two nonisomorphic $n$-vertex graphs, for all sufficiently large $n$. We first give an explicit pair of connected nonisomorphic graphs on $78$ vertices with at least $51$ common cards, exceeding BBF's predicted value of $50$. We then construct, for every even $r\ge4$, families at arbitrarily large orders whose overlap fraction is asymptotically at least $1-1/r$. Consequently, for every $α&lt;1$, infinitely many pairs have more than $αn$ common cards, so the attainable fraction is arbitrarily close to the full deck. For representative instances, the predicted overlaps were also checked by complete deck generation and isomorphism testing with Brendan McKay's nauty tools.</description>
-    </item>
-    <item>
-      <title>$K_{2,3}$-induced minor-free graphs admit quasi-isometry with additive distortion to graphs of tree-width at most two</title>
-      <link>https://arxiv.org/abs/2503.00798</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.00798</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 -0000</pubDate>
-      <description>A graph $H$ is an \emph{induced minor} of a graph $G$ if $H$ can be obtained from $G$ by a sequence of edge contractions and vertex deletions. Otherwise, $G$ is \emph{$H$-induced minor-free}. In this paper, we provide a different proof of the fact that $K_{2,3}$-induced minor-free graphs admit a quasi-isometry with additive distortion to graphs with tree-width at most two. Our proof yields a $O(nm)$-time algorithm which takes as input a $K_{2,3}$-induced minor-free graph with $n$ vertices and $m$ edges, and outputs a tree-width two graph $H$ with the desired additive distortion. For \emph{universally signable} graphs, a subclass of $K_{2,3}$-induced minor-free graphs, the time complexity of our algorithm is linear. As a consequence, we obtain a truly sub-quadratic time additive constant factor approximation algorithm to compute the \emph{diameter} of a universally signable graph. In contrast, assuming the \emph{Strong Exponential Time Hypothesis} (\textsc{SETH}), the diameter of split graphs (a very restricted class of universally signable graphs), cannot be computed in truly sub-quadratic time [Borassi et al. (ENTCS, 2016)].</description>
     </item>
   </channel>
 </rss>
