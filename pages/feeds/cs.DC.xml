@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Flash RNN-T: Memory-Efficient Joint Network and Transducer Loss Computation</title>
+      <link>http://arxiv.org/abs/2610.23409v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.23409v1</guid>
+      <pubDate>Fri, 16 Oct 2026 13:04:21 +0000</pubDate>
+      <description>The recurrent neural network transducer (RNN-T) remains a practical choice for streaming speech recognition, but training requires large intermediate tensors. We present Flash RNN-T, a joint and loss implementation combining specialized kernels with optional tiled recomputation over the full alignment space and vocabulary. Tiled and untiled Flash form the entire measured throughput-memory frontier on medium and long workloads. On H100, untiled Flash achieves 24-39% higher throughput with 26-56% less memory than the fastest baseline on these workloads wherever it fits. Tiling reduces memory further through recomputation. On medium, tiled Flash uses ninefold less memory than that baseline at 16% lower throughput when both use one backward call per batch. On long, it fits where all tested alternatives with that backward schedule run out of memory with 80 GB. These comparisons use each implementation's lowest-memory configuration reaching at least 95% of its peak throughput.</description>
+    </item>
+    <item>
+      <title>Encodings and Node Architecture: Lessons from the Fault-Tolerant Distributed Transversal Fanout</title>
+      <link>http://arxiv.org/abs/2610.22966v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.22966v1</guid>
+      <pubDate>Fri, 16 Oct 2026 05:38:37 +0000</pubDate>
+      <description>An encoding choice specifies the quantum error-correcting code used to encode logical qubits at a given node. Different encoding choices may differ in the number of physical qubits, the number of encoded logical qubits, the code distance, and the available fault-tolerant operations. We study different encodings for a distributed transversal fanout operation and look at its implications on node architecture. Our experiments suggest that an encoding with higher distance, even if requiring more ebits, can yield a lower logical error rate for distributed operations, and that ``upgrading'' an encoding prior to distributed operations and having a cache, as part of node architecture, for qubits can be useful for distributed operations.</description>
+    </item>
+    <item>
       <title>Exact Makespan Bounds and the GPipe Homogeneity Bias for Heterogeneous LLM Inference Pipelines</title>
       <link>http://arxiv.org/abs/2610.21815v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.21815v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.16504v1</guid>
       <pubDate>Mon, 17 Aug 2026 12:42:46 +0000</pubDate>
       <description>Digital signatures make blocks and votes transferable evidence: one party can prove to another what a third party said. Authenticated channels convince only the direct receiver, so existing high-throughput signature-free protocols complete an availability vote or a broadcast instance for each data block before any proposer may order it. We present Vantage, a partially synchronous Byzantine fault-tolerant protocol for $n \ge 3f+1$ parties that uses only authenticated channels and collision-resistant hashing. Parties publish blocks on hash-linked author lanes; each view's proposer pairs a quorum-available core manifest of lane frontiers with an optimistic tip manifest of freshly received blocks. A new primitive, Availability-Graded Broadcast (AGB), makes the core irrevocable on a quorum of first-hand responses while grading, rather than blocking on, the tip. Unresolved tips are sealed later through a signature-free control log, by resolutions each correct party checks against its own recorded responses; a crash-only silent view is skipped by a quorum of skip votes without the log. AGB makes a published block proposal-eligible one message delay after publication, matching signed optimistic-tip designs. When all parties are correct and message delays are $δ$, a data-only proposal seals within $2δ$ of its send on all $n$ first-hand acknowledgments, so a block is sequenced within $4δ$ of publication, and within $3δ$ when publication aligns with the next proposal. We prove safety under asynchrony; liveness holds after the Global Stabilization Time. On an emulated ten-region WAN with 100 parties, Vantage has the lowest median latency among the nearest signature-based and signature-free protocols at every accepted load and sequences 239k 512-byte transactions per second with median latency below 500 ms.</description>
-    </item>
-    <item>
-      <title>Stochastic Gradient Tracking over Time-Varying Networks: One-Step Lyapunov Analysis</title>
-      <link>http://arxiv.org/abs/2608.16271v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16271v1</guid>
-      <pubDate>Mon, 17 Aug 2026 08:44:34 +0000</pubDate>
-      <description>We study decentralized stochastic gradient tracking over a time-varying network of $N$ agents under a uniform window-mixing condition. Products of $τ$ consecutive doubly stochastic mixing matrices contract disagreement by a factor $λ&lt;1$, although individual matrices need not contract disagreement strictly and individual communication graphs may be disconnected. We construct a time-varying quadratic norm that turns this window contraction into an exact one-step Lyapunov identity. This leads to coupled one-step recursions for the centroid and disagreement errors, without unrolling the dynamics over communication windows. For smooth strongly convex objectives, the leading stochastic term is $\widetilde{\mathcal O}(1/(NK))$; for smooth convex objectives, it is $\mathcal O(1/\sqrt{NK})$. Both match their centralized mini-batch counterparts and yield linear speedup after a network-dependent transient.</description>
-    </item>
-    <item>
-      <title>A Scalable Pipeline for LLM-Teacher Distillation Labeling: Work-Stealing Job Scheduling and Memory-Aware GPU Concurrency</title>
-      <link>http://arxiv.org/abs/2608.15975v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.15975v1</guid>
-      <pubDate>Mon, 17 Aug 2026 00:02:25 +0000</pubDate>
-      <description>Labeling large text corpora with LLM teachers has become a practical route to training data at scale. At millions of items, hand-labeling every batch is not feasible, and two questions dominate: what label quality a teacher buys per dollar, and how to keep a fleet of GPU workers busy under skewed, failure-prone workloads. We present a simple, reproducible pipeline that addresses both. First, a work-stealing ring pool: each worker owns a queue, drains it first, and then steals from ring successors, with exactly-once task claims via atomic conditional writes and crash tolerance via stale-claim sweeping. The claim protocol requires only a compare-and-set primitive from its storage layer; we implement it on a single SQLite file, which makes the reference implementation dependency-free and the experiments reproducible on one machine. Second, a memory-aware concurrency rule that sizes per-node parallelism by how many model copies fit on the GPU, so the same code runs safely across device sizes. Third, a relabeling benchmark methodology in which the teacher relabels a public dataset that already has gold labels, so quality reduces to an agreement measurement and cost follows from measured throughput. Under skewed load the pool sustains up to 3.4 times the throughput of static sharding while matching it at zero skew, loses 0 of 2,000 tasks when half the workers are killed mid-run (static sharding loses 953), and yields measured quality and cost points for an instruction-tuned teacher on irony and sentiment tasks. All experiments run on public data and commodity hardware; code, tests, and run logs are released.</description>
     </item>
   </channel>
 </rss>

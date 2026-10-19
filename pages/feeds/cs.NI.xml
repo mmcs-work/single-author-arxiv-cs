@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Retrospective Evaluation of Bluetooth RSSI Fingerprinting for Bin Localization on an Industrial Shop Floor</title>
+      <link>http://arxiv.org/abs/2610.22680v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.22680v1</guid>
+      <pubDate>Thu, 15 Oct 2026 21:50:04 +0000</pubDate>
+      <description>This paper evaluates an archival Bluetooth Low Energy received signal strength indicator (RSSI) dataset collected for bin localization on an industrial shop floor. The installation used 24 fixed relays positioned on walls and Bluetooth beacons attached to bins, with each relay applying a Kalman filter to its own readings in firmware before publishing them. The primary survey produced 19,034 usable two-minute fingerprint samples across 90 known positions, with 23 relay measurements available as model features. We compare calibrated path-loss multilateration with two radio-map estimators: distance-weighted $k$-nearest neighbours and Random Forest regression. A random 70/30 row split measures recognition at surveyed positions, while a coordinate-grouped split reserves 27 entire positions for testing and measures interpolation to unseen positions. Random Forest achieved a median error of 0.66~m for surveyed positions, with 77.9% of estimates within 3~m and 96.3% within 10~m. For unseen positions, median error increased to 9.42~m and 55.5% of estimates were within 10~m. Path-loss multilateration produced a 19.41~m median error on unseen positions, close to the 19.62~m mean-position baseline. The results support RSSI fingerprinting for a fixed inventory of surveyed bin positions, but not precise continuous localization between survey points. Git history dates the original implementation to September 7, 2019. The evaluation code in this paper was written in October 2026 and is reported separately from the seven-year-old prototype.</description>
+    </item>
+    <item>
       <title>Decoding What iOS Location Services Send to Apple: An LLM Is an Unreliable Analyst but a Useful Toolmaker</title>
       <link>http://arxiv.org/abs/2610.21597v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.21597v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.10508</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
       <description>Internet of Things (IoT) deployments combine heterogeneous, resource-constrained devices with weak security configurations, exposed services, limited logging, patching constraints, and long lifecycles. Signature- and threshold-based controls remain useful baselines, but they are insufficient as standalone mechanisms in dynamic IoT networks. Likewise, offline artificial intelligence (AI) benchmark performance alone does not establish operational deployability. This article presents a conceptual framework and research agenda for a Linux-based IoT edge gateway that combines resource-aware flow-level AI-assisted risk scoring, event-level explainability, and bounded mitigation through eBPF/XDP. The controller applies reversible, time-limited actions subject to critical-device safeguards, updates packet-level enforcement state, and records structured logs. The architecture separates complex reasoning and policy control in user space from concise packet-handling decisions in the kernel. It also defines a future hardware-aware evaluation pathway covering detection quality, resource cost, response timing, rollback behaviour, and legitimate-traffic preservation. The paper does not report new experimental measurements or claim measured superiority or completed real-time performance.</description>
-    </item>
-    <item>
-      <title>Autonomous Incident Resolution at Hyperscale: An Agentic AI Architecture for Network Operations</title>
-      <link>https://arxiv.org/abs/2606.09122</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.09122</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Cloud network infrastructure at hyperscale presents unique operational challenges where traditional human-driven incident response cannot keep pace with the volume, velocity, and complexity of failures. This paper presents an agentic AI architecture for autonomous incident resolution in large-scale network operations. Our system employs a multi-agent orchestration framework where specialized AI agents collaborate to detect, diagnose, and remediate network incidents without human intervention. We describe the architectural principles, including hierarchical agent decomposition, skills-based tool invocation via standardized protocols, structured knowledge encoding from operational runbooks, progressive autonomy with safety boundaries, and closed-loop verification. The architecture has been deployed in production at a major cloud provider, demonstrating that agentic AI systems can achieve autonomous resolution rates exceeding 90% for common incident categories while maintaining safety guarantees through layered authorization and rollback mechanisms. We discuss design tradeoffs, failure modes, and lessons learned from operating autonomous AI agents at scale.</description>
     </item>
   </channel>
 </rss>

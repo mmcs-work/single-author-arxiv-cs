@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Uniform-Price Mechanism Design for Automated Market Makers</title>
+      <link>http://arxiv.org/abs/2610.23547v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.23547v1</guid>
+      <pubDate>Fri, 16 Oct 2026 14:40:13 +0000</pubDate>
+      <description>Automated market makers (AMMs) are central to decentralized exchanges, but their reserve curves make mechanism design different from classical double auctions. We study a batch double auction with buyers, sellers, and a liquidity-nondecreasing AMM: post-trade reserves must have weakly larger product than the initial reserves. Each user has two-dimensional private information: a unit value and a demand or supply quantity. User trades clear at one uniform price subject to AMM feasibility. The objective is user-side trading volume, benchmarked against the optimal feasible individually rational (IR) uniform-price allocation. We give a randomized uniform-price mechanism based on binary quantity buckets. It randomly chooses one of three clearing modes: peer-to-peer matching, AMM sales to buyers, and seller sales to the AMM. Every deterministic realization of the mechanism is ex-post feasible and satisfies IR and weak quantity incentive compatibility: conditional on any quantity report, truthful unit-value reporting is dominant whenever it gives a non-negative utility, no unit-value deviation gives a positive utility if the truthful one doesn't, and users cannot benefit by under-reporting the quantity together with their truthful unit value. Let $V^\ast$ be the optimal feasible IR uniform-price volume without incentive constraints, and let $γ=\bar q/\underline q$, where $\bar q$ and $\underline q$ are the quantity-domain bounds. For $γ\ge1$, the mechanism achieves an expected trading volume of $ Ω(1/(1+\logγ)^2)V^\ast - O(\bar q). $ We also show that full incentive compatibility over the two-dimensional type space forces a worst-case approximation ratio of $O(1/γ)$ at every prescribed initial reserve ratio, even when both AMM reserves are scaled by an arbitrarily large common factor and the optimal volume $V^\ast$ is arbitrarily large relative to $\bar q$.</description>
+    </item>
+    <item>
       <title>Market Incentives for AI Safety Investment</title>
       <link>http://arxiv.org/abs/2610.21607v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.21607v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.28722v1</guid>
       <pubDate>Fri, 28 Aug 2026 15:13:32 +0000</pubDate>
       <description>The VCG family and the AGV mechanism are two classical approaches to efficient implementation in the static social choice problem. In 2024, Csóka et al. showed that AGV has critical weaknesses. In contrast, the transferable-utility Guaranteed Utility Mechanism (TU-GUM) retains all the standard desirable properties of AGV while adding further ones, including collusion-proofness, because it implements efficiency in Guaranteed Utility Equilibrium. TU-GUM also applies to a more general dynamic setting with multiple extensions. Moreover, TU-GUM is a special case of an even more general and robust mechanism that combines contingent first-price tendering with the coordinated execution of dynamic stochastic multi-agent projects through a surprisingly simple rule. This paper summarizes and connects existing results from a different perspective, with some minor new observations.</description>
-    </item>
-    <item>
-      <title>A lone divider allocation algorithm with subjective divisibility</title>
-      <link>http://arxiv.org/abs/2608.26801v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.26801v1</guid>
-      <pubDate>Thu, 27 Aug 2026 08:41:07 +0000</pubDate>
-      <description>In the subjective divisibility allocation model, all goods are divisible, every agent $i$ has a non-negative additive valuation function $v_i$, where for some goods $v_i$ is additive over fractions of the good, and for some goods, any fraction smaller than~1 has value~0. Previous work established the existence of $\frac{5}{9}$-MMS allocations in this setting. We show that $\frac{3}{5}$-MMS allocations exist. Our proof is based on an adaptation of the lone divider framework.</description>
     </item>
   </channel>
 </rss>

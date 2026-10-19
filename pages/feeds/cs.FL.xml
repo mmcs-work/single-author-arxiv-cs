@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Model Checking for Noisy Toric Words</title>
+      <link>http://arxiv.org/abs/2610.23463v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.23463v1</guid>
+      <pubDate>Fri, 16 Oct 2026 13:42:04 +0000</pubDate>
+      <description>Toric words have recently gained attention as a means to model the behaviour of dynamical systems such as linear loops. This work is concerned with describing when the toric model is precise enough to decide whether the trace of a system is contained in an omega-regular language. Our contributions are threefold. (i) We use topological means to generalise a class of toric words by defining noise-robust dynamical systems and their sets of noisy traces. We prove that all noisy traces of a system are almost-periodic, and have the same set of recurrent factors. (ii) We apply the abstract techniques above to concrete sequences obtained as sign descriptions of real algebraic linear recurrence sequences (LRS), and show that the language-membership problem for sign descriptions of LRS with few dominant roots is decidable. (iii) We show that noisy traces of noise-robust dynamical systems are indistinguishable to a prefix-independent omega-regular language, and inclusion is decidable provided the common language of their recurrent factors is recursive. We incidentally obtain properties of prefix-independent omega-regular languages that may be of independent interest.</description>
+    </item>
+    <item>
       <title>Full AFLs Closed under Nested Iterated $k$-Variate Substitution and Depth-k Storage Automata</title>
       <link>http://arxiv.org/abs/2610.19584v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.19584v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.07701</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 -0000</pubDate>
       <description>We point out three inaccuracies in paper [M.V. Moreira, T.C. Jesus, and J.C. Basilio. Polynomial time verification of decentralized diagnosability of discrete event systems. IEEE Transactions on Automatic Control, 56(7):1679-1684, July 2011]. First, the authors wrongly claimed that their algorithm for verifying (co-)diagnosability of labeled finite-state automata (LFSAs) did not depend on assumptions. We give an LFSA that is not deadlock-free or divergence-free such that their algorithm cannot correctly verify its diagnosability. Because diagnosability is a special case of co-diagnosability, their algorithm cannot correctly verify co-diagnosability either when LFSAs are not deadlock-free or divergence-free. Second, they wrongly claimed that adding at each dead state an unobservable self-loop can help verifying diagnosability for an LFSA that is not deadlock-free or divergence-free, but this is wrong, because such a modification sometimes changes the diagnosability of an LFSA. Third, they wrongly claimed that their algorithm for verifying co-diagnosability ran in polynomial time. A polynomial-time algorithm unlikely exists, because the problem of verifying co-diagnosability of LFSAs is PSPACE-hard.</description>
-    </item>
-    <item>
-      <title>A Held-Out Transition-Pair Falsifier for Long-Horizon Non-Abelian State Tracking</title>
-      <link>https://arxiv.org/abs/2606.07254</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.07254</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 -0000</pubDate>
-      <description>State tracking exposes a sharp limitation of sequence models: the relevant signal is often not a summary of observed tokens, but an ordered latent state that evolves through non-commutative transformations. We introduce a held-out transition-pair falsifier for finite non-Abelian group tracking. The protocol forbids selected ordered generator pairs during training and requires the same local patterns during evaluation, blocking one direct local-transition memorization pathway. In a controlled $S_3 \times S_3$ benchmark, a projected recurrent state model trained only on length-8 sequences produces error-free final-state predictions (perfect 250/250 per horizon) through evaluation horizons up to 1,048,576 tokens across five seeds. Matched native-readout baselines, including bag, GRU, and a single-configuration structured state-space model, remain near floor under the same protocol. Projection-matched GRU, structured SSM, and bag baselines equipped with analogous finite-group prototype readouts also remain near chance under the same split. Mechanism diagnostics show that hard projection coincides with low homomorphism error, low state-consistency drift, and non-trivial commutator separation, while softened projection collapses final-state accuracy. Clean-split audits verify zero verbatim reduced-word overlap and zero structural-template overlap between training and evaluation partitions. The evidence is scoped to this controlled finite-group falsifier rather than to a general architecture ranking. Within that regime, explicit projected non-commutative state composition acts as a useful inductive bias for long-horizon hidden-state tracking.</description>
     </item>
   </channel>
 </rss>

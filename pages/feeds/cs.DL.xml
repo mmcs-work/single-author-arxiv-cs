@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On some unresolved issues in aggregate level comparative research evaluation</title>
+      <link>http://arxiv.org/abs/2610.23318v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.23318v1</guid>
+      <pubDate>Fri, 16 Oct 2026 11:23:03 +0000</pubDate>
+      <description>This short conceptual paper recalls to the attention of the scientometrics community some long-standing open methodological problems and proposes new directions that might be taken in renewed engagements with them. These problems are the differential dependency of the global reference score on the included units' observed scores and the dilution of impact measurement accuracy due to collaboration, which causes a global convergence in country citation impact due to international collaborative research. Advantages and disadvantages of existing and new solutions are discussed.</description>
+    </item>
+    <item>
+      <title>Star Light, Star Bright: Can Multimodal Models Parse an Astronomy Visual Question Answering Dataset Right?</title>
+      <link>http://arxiv.org/abs/2610.22474v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.22474v1</guid>
+      <pubDate>Thu, 15 Oct 2026 18:00:08 +0000</pubDate>
+      <description>Figures are essential for scientific communication, and the field of Visual Question Answering (VQA) aims to test the figure understanding capabilities of large multimodal models (LMMs). Here, we investigate the accuracy of several low-cost LMMs on domain-specific VQA tasks for astronomical images of the sky. As instrument for this task we build a domain-specific VQA dataset comprising 2001 partially-synthetic figures divided evenly between contour plots, real telescope images drawn from NASA's SkyView, and "fake" sky images which share the axes and angular scales of the real images but draw their colors from a gaussian mixture model, alongside 47357 questions. Each figure is released as pristine and with realistic page-aging degradations mimicking the historical astronomical corpus. Testing three low-cost proprietary LMMs, we find models frequently fail to answer domain-specific questions at high accuracy. An initial comparison with 104 human-verified, astrometrically tagged figures from historical journal publications shows similar median errors in angular extent. All code is available on GitHub: https://github.com/jnaiman/SkyImagesWASP2026 and dataset is available on HuggingFace: https://huggingface.co/datasets/ReadingTimeMachine/astro_sky_image_vqa.</description>
+    </item>
+    <item>
       <title>General Classification for Digital Knowledge: Algorithm, Identifiers and a First Benchmark</title>
       <link>http://arxiv.org/abs/2610.19547v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.19547v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2604.23699</guid>
       <pubDate>Sun, 26 Apr 2026 00:00:00 -0000</pubDate>
       <description>We present a semantic-structural atlas of transportation research built from 120{,}323 papers across 34 peer-reviewed journals published between 1967 and 2025, roughly an order of magnitude larger than and a decade beyond Sun and Rahwan's~(2017) coauthorship study. We use OpenAlex and Crossref as open, CC0-licensed data sources, resolve author identity through OpenAlex author IDs, ORCID records, and manual alias resolution, and embed every paper with SPECTER2 with Arora-style whitening concatenated with concept TF--IDF and venue linear-discriminant projections. On this substrate we report three findings. First, Leiden on the author-level semantic k-nearest-neighbor graph yields 23 topic communities that agree only weakly with the 172 coauthor communities (normalized mutual information $0.23$), opening room for a predictive layer that neither source encodes alone. Second, a multiplex Leiden partition combining both edge types recovers 181 communities and localizes where collaboration and topic structure decouple. Third -- the paper's core methodological contribution -- we define \emph{phantom collaborators}, pairs of authors who are top-$K$ semantic neighbors yet $\geq 3$ hops apart in the coauthor graph, and show via a temporal hold-out (training cutoff 2019) that phantom pairs become real coauthors in 2020--2025 at a rate $16$ to $33$ times above random, popularity-weighted, and same-venue baselines, with a $68$-fold monotone gradient between the highest- and lowest-similarity buckets. All artifacts are released as a live, reproducible web atlas at https://choi-seongjin.github.io/transport-atlas/.</description>
-    </item>
-    <item>
-      <title>Market Dynamics, Governance and Open Research Metadata in the AI Era</title>
-      <link>https://arxiv.org/abs/2604.19507</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.19507</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 -0000</pubDate>
-      <description>The debate about scholarly knowledge infrastructure has long been framed as a contest between openness and commercial enclosure. This framing distorts both policy and practice. The real tension lies between the persistent cost of producing and refining structured metadata under deep technological friction, and the differentiated demands distinct communities place on data quality, focus and granularity. We introduce the innovation annulus: the zone between freely available structured data and the advancing frontier of commercially refined knowledge products. This zone is a permanent, functional feature of the ecosystem -- not a pathology to eliminate. By analogy with the efficient market hypothesis, its width measures production inefficiency, set by the interplay of friction and demand. Artificial intelligence reshapes the annulus, lowering barriers to basic structuring, raising the threshold at which refinement adds value, and introducing systemic risks through unprovenanced AI-derived metadata. CRediT contributions, funding acknowledgements and AI disclosure statements illustrate the annulus lifecycle. Governance should calibrate the annulus, not abolish it: thin enough to serve research efficiently, wide enough to sustain innovation. A formal welfare framework, analogous to the Nordhaus optimal patent life, characterises the trade-offs and yields testable predictions. The Barcelona Declaration offers a promising forum for boundary governance.</description>
-    </item>
-    <item>
-      <title>Markov kernels in Mathlib's probability library</title>
-      <link>https://arxiv.org/abs/2510.04070</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.04070</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 -0000</pubDate>
-      <description>The probability folder of Mathlib, Lean's mathematical library, makes a heavy use of Markov kernels. We present their definition and properties and describe the formalization of the disintegration theorem for Markov kernels. That theorem is used to define conditional probability distributions of random variables as well as posterior distributions. We then explain how Markov kernels are used in a more unusual way to get a common definition of independence and conditional independence and, following the same principles, to define sub-Gaussian random variables. Finally, we also discuss the role of kernels in our formalization of entropy and Kullback-Leibler divergence.</description>
     </item>
   </channel>
 </rss>

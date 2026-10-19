@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Four New Single-Error-Correcting Binary Codes</title>
+      <link>http://arxiv.org/abs/2610.23626v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.23626v1</guid>
+      <pubDate>Fri, 16 Oct 2026 15:33:22 +0000</pubDate>
+      <description>We construct a $(16, 3072, 3)$-code, a $(17,6144,3)$-code, an $(18,12288,3)$-code and a $(19,24576,3)$-code. Consequently, we get four new lower bounds: $A(16,3) \geq 3072$, $A(17,3) \geq 6144$, $A(18,3) \geq 12288$ and $A(19,3) \geq~24576$. Each of the codes consists of a union of cosets of a linear code. The constructions are the result of a computer search executing a tabu search algorithm.</description>
+    </item>
+    <item>
+      <title>On MRD constacyclic codes over inseparable field extensions</title>
+      <link>http://arxiv.org/abs/2610.23459v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.23459v1</guid>
+      <pubDate>Fri, 16 Oct 2026 13:40:55 +0000</pubDate>
+      <description>In this paper, we construct MRD constacyclic codes of length $p$ over an inseparable field extension $L/K$, where $K$ has characteristic $p$. In particular, these codes cannot be obtained from known constructions.</description>
+    </item>
+    <item>
       <title>Controlled-Memory Identification with Shared Generators: Dimension--Horizon Tradeoffs and Quantum--Classical Separation</title>
       <link>http://arxiv.org/abs/2610.21797v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.21797v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.26650v1</guid>
       <pubDate>Tue, 22 Sep 2026 16:18:52 +0000</pubDate>
       <description>A length-$n$ binary $k$-deletion code is a set of binary strings such that if we delete any $k$ bits of a string, leaving a length-$(n-k)$ binary string, we can uniquely recover the codeword. In this paper, we consider $t$-list decodable deletion codes, where after $k$ bits of a codeword are deleted, we can identify a list of size at most $t$ such that the original codeword lies in the list. We prove a lower bound of $Ω_k(2^n t\log^{1/t}n/n^{k+k/t})$ on the optimal size of a $t$-list decodable $k$-deletion code, giving a $\sqrt{\log n}$ improvement over the previously best known bounds for $2$-list decodable $2$-deletion codes [GH21] and providing the first nontrivial lower bound when $t&gt;2$ or $k&gt;2$. Our bound holds for all $t\leq n^k$, showing that $t=Ω(\log n)-$list decodable deletion codes have optimal size $Θ_k(2^n t/n^k)$, asymptotically matching the known upper bound. We also prove upper bounds on the number of common subsequences and common supersequences of a given length for any two binary strings.</description>
-    </item>
-    <item>
-      <title>On the OpenAI whole-cube bound</title>
-      <link>http://arxiv.org/abs/2609.26050v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.26050v1</guid>
-      <pubDate>Tue, 22 Sep 2026 11:58:41 +0000</pubDate>
-      <description>This is an essentially derivative note, whose goal is to interpret the 'whole-cube' bound of OpenAI for binary codes in a possibly somewhat more accessible way. This is attained, in part, by connecting it to some previously known results. All of the heavy technical lifting in the interpretation below is also due to the OpenAI language models ChatGPT 5.6 and ChatGPT 6. With that, we hope that the statements of the main results, the ensuing discussion, and the arguments themselves may be of some interest.</description>
-    </item>
-    <item>
-      <title>Threshold Saturation from a Bounded Region in Multidimensional Spatially Coupled Codes over the BEC</title>
-      <link>http://arxiv.org/abs/2609.24568v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.24568v1</guid>
-      <pubDate>Mon, 21 Sep 2026 13:34:56 +0000</pubDate>
-      <description>We prove that a bounded shortened region initiates decoding throughout multidimensional spatially coupled regular LDPC and MacKay--Neal (MN) codes over the binary erasure channel (BEC). In every fixed finite dimension, uniform hypercube coupling permits the coupling width and shortened region to be chosen independently of the total number $V$ of spatial positions. At fixed widths and dimension $d&gt;1$, replacing a shortened slab by a bounded hypercube reduces the shortening fraction from order $V^{-1/d}$ to order $V^{-1}$, with the same improvement in the shortening term of the check-count rate bound. Regular LDPC codes decode below their uncoupled potential threshold. MN codes achieve capacity for every integer degree choice $\ell&gt;r\geq2$, $g\geq2$: their actual transmitted rates tend to $r/\ell$ and their average bit-erasure probabilities under sum-product decoding vanish below $1-r/\ell$. The proof combines an endpoint-potential identity, removal of an auxiliary constraint, finite-time estimates uniform in direction, and a curvature comparison that transfers flat-boundary progress to expanding balls. For MN codes, elementary inequalities establish fixed-point positivity for all these degrees. Two-dimensional density-evolution examples illustrate the dependence on the initial shortened region; the general sufficient constants are not evaluated numerically.</description>
     </item>
   </channel>
 </rss>
