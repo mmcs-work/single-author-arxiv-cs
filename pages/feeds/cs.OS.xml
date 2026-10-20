@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Connection Escrow: Holding AI-Agent Pod Egress in the Kernel Until an Isolated Verifier Rules</title>
+      <link>http://arxiv.org/abs/2610.26501v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26501v1</guid>
+      <pubDate>Mon, 19 Oct 2026 14:36:05 +0000</pubDate>
+      <description>AI agents in containers act by opening network connections, and the text that drives them can be hostile. Controls placed between the agent and its tools are bypassed by a child process or a direct socket, and their approval is not tied to the connection the kernel later opens. We present connection escrow: every outbound TCP connection from a supervised pod is parked inside the kernel's connect() path, before any packet exists, by a 98-instruction eBPF program on the pod's cgroup. A node interceptor attributes the held socket to its kernel socket cookie, process, executable digest, cgroup and pod identity, parks the first bytes the agent writes, and asks a verifier in a separate container with its own key. The connection is released only on a signed verdict naming that one socket cookie and destination, unexpired and unused; no verdict by the deadline resets it, and a late approval is refused. The agent is unmodified. A 36-check adversarial suite with real cgroups passes on the eBPF hold point (33 of the checks also apply, and pass, on an iptables hold point): refused connections never reach the destination; forged, rebound, replayed, expired and late verdicts are refused; the agent's attempt to reach the verifier is itself escrowed; child-process and renamed-binary bypasses fail; UDP is pinned to the resolver. On a Kubernetes cluster, unmodified pods are held per connection and attributed to their SPIFFE identity, a raw socket that bypasses a sidecar proxy is held, and 600 connections from six pods are gated. The hold adds 4.5 ms median per released connection, of which 24 us is policy. Finally, we gate on request content without terminating TLS: an eBPF uprobe reads the plaintext at the agent's TLS-library boundary (shared OpenSSL, static OpenSSL, Go crypto/tls), a model scores it, and the connection is held on that verdict while TLS stays end-to-end and the enforcer holds no key.</description>
+    </item>
+    <item>
+      <title>AgentLens: Framework-Aware Characterization and Resource Control for Heterogeneous LLM Agents</title>
+      <link>http://arxiv.org/abs/2610.25231v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25231v1</guid>
+      <pubDate>Sun, 18 Oct 2026 12:51:07 +0000</pubDate>
+      <description>LLM-based agents are increasingly deployed on shared hosts, yet their host-side resource demands remain poorly understood, limiting effective resource coordination. We present AgentLens, which combines a cross-framework workload characterization with a framework-aware resource controller for co-located agents. Across 10 frameworks and 11 matched coding tasks, we find that framework orchestration strongly shapes resource demand: framework identity explains 52.95% of peak RSS variance, compared with 4.22% for task identity, while execve events per tool call differ by 39x between MetaGPT and CAMEL. Resource dimensions are not interchangeable: peak RSS and subprocess count have a Spearman correlation of 0.13. Static budgets and framework-agnostic policies miss these structural differences and the alternation between API waiting and tool execution. AgentLens combines offline framework fingerprints with online execution-phase signals to coordinate memory through cgroup v2, without modifying framework internals. In trace-driven replay across three co-location pairs at a memory budget of 90% of aggregate peak demand, AgentLens keeps the protected worker's P95 allocation latency at 5.7-7.1 ms, improving on static allocation by 2.1-2.6x.</description>
+    </item>
+    <item>
       <title>Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution</title>
       <link>http://arxiv.org/abs/2609.29808v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2609.29808v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1903.03701</guid>
       <pubDate>Fri, 08 Mar 2019 00:00:00 -0000</pubDate>
       <description>The AI problem has no solution in the environment of existing hardware stack and OS architecture. CPU-centric model of computation has a huge number of drawbacks that originate from memory hierarchy and obsolete architecture of the computing core. The concept of mixing memory and logic has been around since 1960s. However, the concept of Processor-In-Memory (PIM) is unable to resolve the critical issues of the CPU-centric computing model because of inevitable replication of von Neumann architecture's drawbacks. The next generation of NVM/SCM memory is able to give the second birth to the data-centric computing paradigm. This paper presents a concept of Processor in Non-Volatile Memory (PiNVSM) architecture. The basis of PiNVSM architecture is the concept of DPU that contains the NVM memory and dedicated PU. All necessary PU's registers can be implemented in the space of NVM memory. NVM memory of DPU is the single space for storing and transformation of data. In the basis of PiNVSM architecture lies the DPU array is able to overcome the limitations as Turing machine model as von Neumann architecture. The DPU array hasn't a centralized computing core. Every data portion has dedicated computing core that excludes the necessity to transfer data to the place of data processing. Every DPU contains data portion that is associated with the set of keywords. Any complex data structure can be split on elementary items that can be stored into independent DPU with dedicated computing core(s). One DPU is able to apply the elementary transformation on one item. But the DPU array is able to make the transformation of complex structure by means of concurrent execution of elementary transformations in different DPUs. The PiNVSM architecture suggests a principally new architecture of the computing core that creates a new opportunity for data self-organization, data and code synthesis.</description>
-    </item>
-    <item>
-      <title>The Lustre Storage Architecture</title>
-      <link>https://arxiv.org/abs/1903.01955</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1903.01955</guid>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 -0000</pubDate>
-      <description>This lengthy document often referred to as the "Lustre Book", contains a detailed outline of Lustre file system architecture, as it was created between 2001 and 2005, in accordance with the requirements from various users. Now, in 2019, most features have been implemented, but some only recently, and some along different lines of thought.</description>
-    </item>
-    <item>
-      <title>File System in Data-Centric Computing</title>
-      <link>https://arxiv.org/abs/1901.01340</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1901.01340</guid>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 -0000</pubDate>
-      <description>The moving computation on the edge or near to data is the new trend that can break the bandwidth wall and to unleash the power of next generation NVM or SCM memory. File system is the important OS subsystem that plays the role of mediator between the user-space application and storage device. The key goal of the file system is to represent the file abstraction and to build the files' namespace. In the current paradigm the file system needs to copy the metadata and user data in the DRAM of the host with the goal to access and to modify the user data on the host side. The DAX approach doesn't change the concept but to build the way to bypass the page cache via the direct access to file's content in persistent memory. Generally speaking, for the case of data-centric computing, the file system needs to solve the opposite task not to copy data into page cache but to deliver the processing activity near data on the storage device side.</description>
     </item>
   </channel>
 </rss>

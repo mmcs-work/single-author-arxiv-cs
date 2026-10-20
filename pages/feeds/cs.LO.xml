@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Rózsa: Certified Equational Reasoning</title>
+      <link>http://arxiv.org/abs/2610.26467v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26467v1</guid>
+      <pubDate>Mon, 19 Oct 2026 14:16:17 +0000</pubDate>
+      <description>When does one equation imply another? Stage 2 of the SAIR Mathematics Distillation Challenge required teams to submit solvers to answer this question for sets equipped with a binary operation. For these sets, associativity, commutativity, or any other algebraic property was not assumed. Each answer required a proof or counterexample that could be verified by Lean. Programs also had to respect fixed resource limits. We present Rózsa, a Python solver that searches for both kinds of evidence. It begins with simple tests and considers more extensive searches when those fail. To find a proof, it applies a given equation and derives any further equations as needed, keeping a record of each step. To find a counterexample, it searches for operations on finite sets. It also tests one fixed infinite model. The given equation must hold for every assignment, while the target equation must fail for at least one. In either case, Rózsa turns the evidence into a Lean certificate. The submitted solver solved 199/200 problems (99.5%) in the official main evaluation getting the 6th overall position. Additional tests show that the solver can prove many implications linked by long chains of known results, but has limited success with infinite counterexamples. We explain the search methods, how they fit together, and what the unsolved cases reveal about their limits.</description>
+    </item>
+    <item>
+      <title>Formalization of Rényi Differential Privacy in Isabelle/HOL (Draft version)</title>
+      <link>http://arxiv.org/abs/2610.25636v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25636v1</guid>
+      <pubDate>Mon, 19 Oct 2026 01:27:16 +0000</pubDate>
+      <description>Differential privacy (DP) is a gold-standard definition of privacy designed to evaluate the privacy guarantee of databases. Rényi differential privacy (RDP) is an important variant of DP that gives tight evaluations of machine learning algorithms. These formulations are easy to understand, but evaluating privacy for actual databases is complicated. Even a small change in the database can break its privacy, and evaluations of DP and RDP themselves are complicated. In particular, RDP evaluations in recent studies have become much harder. Therefore, formal verification of them has been studied for over a decade. In this paper, we propose an Isabelle/HOL library for formalizing Rényi differential privacy in a general setting. We first formalize RDP for continuous distributions. As a technical basis, we formalize several properties of convex functions and $f$-divergences for nonnegative convex functions. We formalize basic properties of RDP, conversion laws from RDP to DP, the moment accountants in DP, and the Gaussian mechanism and its RDP. Finally, we discuss the stochastic gradient descent mechanism with Gaussian noise and formalize a rough evaluation of its RDP and DP.</description>
+    </item>
+    <item>
+      <title>Studying proof data with proof theory: the case of AI-generated mathematics</title>
+      <link>http://arxiv.org/abs/2610.25357v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25357v1</guid>
+      <pubDate>Sun, 18 Oct 2026 15:59:25 +0000</pubDate>
+      <description>I present a method for analyzing large collections of formally verified mathematical proofs (e.g. OpenAI's) grounded in some historical and philosophical musings on mathematics in the age of AI. Many of the quantities involved, such as the size of a proof term or the number of redundant steps, are already computed by work on improving automated provers, where they serve as targets. My aim is to turn them into measurements of proofs themselves: compared against a reference library and against each proof's own cut-free form, checked against theorems they must obey, and controlled for how the proofs were compiled. With these instruments, I measure how (much) machine-generated mathematics diverges from human mathematics, and find that AI-written formal proofs realize far less of the logical compression available to them than human mathematicians do (31% against 73% in mathlib, and 55% against 86% on proofs that call no automation). These figures are broadly in line with reports from those who build provers and proof-improvement tools that AI-written proofs are often longer than they need to be.</description>
+    </item>
+    <item>
       <title>LLM-Assisted Bi-Approximate CHC Solving</title>
       <link>http://arxiv.org/abs/2610.23771v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23771v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.00499v1</guid>
       <pubDate>Mon, 31 Aug 2026 23:58:47 +0000</pubDate>
       <description>We investigate the expressive power of fixed-point logics (FP) and their extensions in defining generating sets for accessible subgroups of definable permutation groups. This operation, computable in polynomial time via the Schreier-Sims algorithm, plays a central role in the group-theoretic approach to Graph Isomorphism and Graph Canonisation. In particular, it underpins polynomial-time canonisation for bounded colour-class graphs--a class for which no natural logic capturing P is currently known. We first show that this operation cannot, in general, be expressed in any logic for P. This limitation arises from the fact that accessible subgroups need not admit symmetric generating sets of polynomial size. However, we prove that when the base group admits a definable ordered generating set, the accessible subgroup operation becomes definable in fixed-point logic with the group order operator (FP + ord). This is achieved by partially simulating the Schreier-Sims algorithm within FP + ord. As a corollary, we show that fixed-point logic with counting (FPC) can also define the operation when the base group is abelian. In particular, FPC can define the automorphism group of any graph with abelian colours--despite being unable to canonise such graphs.</description>
-    </item>
-    <item>
-      <title>Exponential Gaps Between Intuitionistic Linear Extended Frege Systems</title>
-      <link>http://arxiv.org/abs/2609.00422v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.00422v1</guid>
-      <pubDate>Mon, 31 Aug 2026 21:59:35 +0000</pubDate>
-      <description>In this paper, we establish exponential separations between Extended Frege systems for a range of intuitionistic substructural and linear logics. More precisely, for any logic $L$ below the intuitionistic logic obtained by extending $\mathbf{ILL}$ with structural rules, and any logic $M$ not contained in $L$, we construct a family of $\mathsf{FL_e}$-provable formulas that have short proofs in $M$-Frege but require proofs of exponential size in $L$-Extended Frege. The same result holds in the $!$-free settings, using $\mathbf{IMALL}$ and $\mathbf{FL_e}$ in place of $\mathbf{ILL}$. The key ingredient in proving these separations is a variant of the feasible disjunction property for $L$-Frege, which may be of independent interest.</description>
-    </item>
-    <item>
-      <title>A note on the reduction from LTLf to LTL</title>
-      <link>http://arxiv.org/abs/2609.00379v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.00379v1</guid>
-      <pubDate>Mon, 31 Aug 2026 21:11:22 +0000</pubDate>
-      <description>LTLf, a finite word variant of LTL, can be reduced to LTL by introducing a new atomic proposition indicating the prefix of the infinite words that correspond to the finite words that the original LTLf formula was considering. Such a reduction was originally proposed by De Giacomo and Vardi (IJCAI'13). However, while any LTL formula reduced from LTLf describes an obligation property in the hierarchy of Manna and Pnueli (PODC'90), the aforementioned reduction does not provide an LTL formula that belongs to the syntactic obligation fragment of LTL. This note shows how the reduction was fixed in Spot in order to ensure that the resulting LTL formula is always a syntactic obligation. Doing so allows algorithms specialized to syntactic obligation to be used on LTLf formulas. For instance, in previous work (CAV'26) we described a specialized translation from syntactic obligations to minimal, weak, deterministic Büchi automata that would not be usable with the original reduction.</description>
-    </item>
-    <item>
-      <title>Computational free will as global selection: from sheaf-theoretic gluing to a conditional separation of P and NP</title>
-      <link>http://arxiv.org/abs/2608.30797v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.30797v1</guid>
-      <pubDate>Mon, 31 Aug 2026 13:50:39 +0000</pubDate>
-      <description>We formalise computational free will by separating locally constrained admissibility from the selection of one global continuation. Global sections of a finite choice presheaf form an admissible set, GLUE; SELECT singles out the continuation realised at a pre-identified occurrence. A uniform trace relation certifies that continuation efficiently after the act, although it is assumed not to be uniformly anticipable in polynomial time from the prior occurrence input. Under explicit uniformity, balance, historical-completeness, and unique-projection assumptions, this trace defines a total FNP search relation with no deterministic polynomial-time selector. Thus existence of computational free will in the stated sense implies a separation between polynomially verifiable and polynomially solvable search, and hence that P differs from NP. The result is conditional and gives no unconditional class separation.</description>
     </item>
   </channel>
 </rss>

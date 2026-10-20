@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>QRecoupling.jl: numerical and exact computation of classical and quantum recoupling coefficients</title>
+      <link>http://arxiv.org/abs/2610.24074v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24074v1</guid>
+      <pubDate>Fri, 16 Oct 2026 18:01:10 +0000</pubDate>
+      <description>QRecoupling.jl is a Julia package for numerical, exact and symbolic evaluation of classical and quantum recoupling coefficients and generic finite sums of quantum factorials, with one interface across the classical limit, principal unitary levels and real or complex deformation. A compact factorial rule and its cyclotomic exponents expose factor cancellation, polynomial structure and level support. The package covers quantum Clebsch-Gordan coefficients, 3j and 6j symbols and user-defined sums. Its adaptive numerical evaluation is combined with exact decisions for sums that cancel to zero. Classical 3j and 6j symbols are evaluated at a speed comparable to that of WIGXJPF, which is based on prime factorization tables, at the smallest spins, and about 6 and 10 times faster at spin cutoff 500. Under real, root-of-unity and complex deformation, the largest relative error measured against independent high-precision references is $3.5 \times 10^{-14}$ for spins up to 400. Fusion matrices with 401 channels are computed about 100 times faster than by loops over their entries.</description>
+    </item>
+    <item>
       <title>GpFlash: Maximizing Speed and Minimizing Memory for Gaussian Process Training and Prediction</title>
       <link>http://arxiv.org/abs/2610.16861v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.16861v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2404.05563</guid>
       <pubDate>Thu, 03 Jul 2025 00:00:00 -0000</pubDate>
       <description>As part of Mathematical Research Data Initiative (MaRDI), we have developed a way to preserve a software package into an easy to deploy and use sandbox environment we call a "runtime", via a program we developed called MaPS : MaRDI Packaging System. The program relies on Linux user namespaces to isolate a library environment from the host system, making the sandboxed software reproducible on other systems, with minimal effort. Moreover an overlay filesystem makes local edits persistent. This project will aid reproducibility efforts of research papers: both mathematical and from other disciplines. As a proof of concept, we provide runtimes for the OSCAR Computer Algebra System, polymake software for research in polyhedral geometry, and VIBRANT Virus Identification By iteRative ANnoTation. The software is in a prerelease state: the interface for creating, deploying, and executing runtimes is final, and an interface for easily publishing runtimes is under active development. We thus propose publishing predefined, distributable software environment runtimes along with research papers in an effort to make research with software based results reproducible.</description>
-    </item>
-    <item>
-      <title>A modular and extensible library for parameterized terrain generation</title>
-      <link>https://arxiv.org/abs/2506.19751</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.19751</guid>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 -0000</pubDate>
-      <description>Simulation-driven development of intelligent machines benefits from artificial terrains with controllable, well-defined characteristics. However, most existing tools for terrain generation focus on artist-driven workflows and visual realism, with limited support for parameterization, reproducibility, or scripting. We present a modular, Python-based library for procedural terrain generation that enables users to construct complex, parameterized terrains by chaining together simple modules. The system supports both structured and noise-based terrain elements, and integrates with Blender for rendering and object placement. The framework is designed to support applications such as generating synthetic terrains for training machine learning models or producing ground truth for perception tasks. By using a minimal but extensible set of modules, the system achieves high flexibility while remaining easy to configure and expand. We demonstrate that this enables fine-grained control over features such as slope, roughness, and the number of rocks, as well as extension to additional measures. This makes it well suited for workflows that demand reproducibility, variation, and integration with automated pipelines.</description>
     </item>
   </channel>
 </rss>

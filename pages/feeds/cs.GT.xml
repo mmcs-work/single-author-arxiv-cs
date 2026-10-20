@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Regularizing the Veto Core</title>
+      <link>http://arxiv.org/abs/2610.26535v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26535v1</guid>
+      <pubDate>Mon, 19 Oct 2026 14:58:48 +0000</pubDate>
+      <description>The metric distortion framework asks voting rules to elect a candidate close to the voters using only their rankings. SimultaneousPluralityVeto elects from the plurality veto core and achieves the optimal worst-case distortion of 3, but it is not Pareto-efficient: it can declare a tie between two candidates even when every voter prefers one of them. Removing Pareto-dominated candidates afterward would break the convexity of tied winner sets. We instead introduce regularization, which adds a small $\varepsilon$ to every candidate's weight, restoring Pareto-efficiency. To study its effect on distortion, we introduce the rank score veto core, whose candidate weights come from a positional scoring vector $\mathbf{s}$, and prove that its distortion lies in $[1 + 2(||\mathbf{s}|| - s_m),\, 1 + 2||\mathbf{s}||]$; we conjecture that the lower bound is tight. A fixed $\varepsilon$ can increase distortion, but letting $\varepsilon$ depend on the number of voters preserves the distortion guarantee of the original veto core. Regularized SimultaneousPluralityVeto thus has optimal distortion, is Pareto-efficient, and has convex tied winner sets, resolving an open question of Kızılkaya and Kempe.</description>
+    </item>
+    <item>
+      <title>Improved Approximation and Tight Competition for Simple Auctions</title>
+      <link>http://arxiv.org/abs/2610.24973v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24973v1</guid>
+      <pubDate>Sun, 18 Oct 2026 03:09:16 +0000</pubDate>
+      <description>We study simple auctions for one additive buyer whose values for $m$ items are independent. Write $\mathrm{REV}$ for optimal revenue, $\mathrm{SREV}$ and $\mathrm{BREV}$ for the revenues from separate selling and grand bundling, and $\mathrm{BSPA}_2$ for grand-bundle second-price revenue with two independent bidders. For independent regular items, we prove $\mathrm{REV}\le\mathrm{BSPA}_2\le2\mathrm{BREV}$. This establishes tight approximation and competition guarantees for bundling under regularity and answers an open question from Beyhaghi et al. (EC 2025). For general independent items, we prove $\mathrm{REV} \le \mathrm{SREV} + \frac{π^2}{6}\mathrm{BREV} \le 2.645 \max\{\mathrm{SREV}, \mathrm{BREV}\}$. This improves the previous approximation factors of $6$ from Babaioff, Immorlica, Lucier, and Weinberg (FOCS 2014, JACM 2020) and $5.2$ from Ma and Simchi-Levi (AISTATS 2021). On the lower bound side, we construct an instance in which prices for three disjoint bundles earn more than $2.11\max\{\mathrm{SREV},\mathrm{BREV}\}$, improving the previous lower bound of $2$ from Rubinstein (ITCS 2016). We also show that exact recovery of one buyer's optimal revenue by the better of separate selling and bundling requires $Θ(\log m)$ bidders in the worst case.</description>
+    </item>
+    <item>
       <title>Uniform-Price Mechanism Design for Automated Market Makers</title>
       <link>http://arxiv.org/abs/2610.23547v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23547v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.29308v1</guid>
       <pubDate>Sat, 29 Aug 2026 14:49:28 +0000</pubDate>
       <description>In metric social choice, each voter ranks a set of $m$ candidates by her distance to them in an unknown metric space. The cost of a candidate is its average distance to the voters. A randomized voting rule must use only the rankings to choose a lottery over candidates. Its distortion is the worst-case ratio between the expected cost under the lottery it returns and the cost of the best candidate. Charikar, Ramakrishnan, Wang, and Wu [JACM 2024] prove an upper bound of $2.753$, establishing a constant separation from deterministic rules, for which the best achievable distortion is $3$. Independently, Frank [arXiv:2608.17863] and Ye [arXiv:2608.21202] improve the bound to $2.5$, using an equal mixture of maximal lottery and Integrated Veto. The existing arguments do not yield a better bound with any mixture of these rules. We break this barrier with a new ingredient, a random-size stable lottery. Let $D$ be a random variable over the domain of positive integers. A random-size stable lottery $\mathrm{RSL}_D$ guarantees that the probability of a random voter preferring any fixed candidate $c$ to her favorite of $D$ i.i.d. draws from $\mathrm{RSL}_D$ is at most $\mathbb{E}[1/(D+1)]$, where the probability also averages over $D$. When $D=k$ deterministically, this reduces to the stable $k$-lottery of Charikar, Ramakrishnan, Tan, and Wang [EC 2025]; the case $k=1$ is precisely a maximal lottery. Their minimax argument for a fixed $k$ easily generalizes to a random $D$. Our main contribution is to show how stability with respect to a random $D$ can be used to bound distortion. By mixing a suitably chosen random-size stable lottery with Integrated Veto, we get distortion at most $11641/5000=2.3282$. The proof combines infinite-dimensional conic linear-programming duality, heuristic nonlinear optimization, and exact rational verification via the Bernstein basis.</description>
-    </item>
-    <item>
-      <title>PokaiTrainer: Scaling Belief-State Search to Competitive Pokémon VGC</title>
-      <link>http://arxiv.org/abs/2608.29197v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.29197v1</guid>
-      <pubDate>Sat, 29 Aug 2026 11:11:47 +0000</pubDate>
-      <description>Decision-time equilibrium search carried poker to superhuman play, but it has so far relied on tractable subgames: a handful of actions per decision, chance confined to card deals, one player moving at a time. Competitive Pokémon in its official doubles format (VGC) breaks all three assumptions at once. Both players act simultaneously from joint menus in the hundreds, each joint action resolves to hundreds of stochastic outcomes, and the opponent's reserves and stat allocations are hidden. We set out to build a strong VGC agent and report what that took. PokaiEngine, our Rust battle engine, enumerates a joint action's full weighted outcome distribution in one pass, at ${\sim}99\%$ parity with Pokémon Showdown and a fraction of the cost of sampling it. On top of the engine, PokaiTrainer adapts Student of Games to this scale, solving every decision as a Bayesian matrix game over public belief states and growing subgames under an explicit compute budget. On the live Showdown best-of-three ladder, the agent wins 59% of 150 sets against a human field averaging ${\sim}1320$ Elo. It settles into a 1350-1400 Elo band, and at its peak briefly entered the format's top 500.</description>
-    </item>
-    <item>
-      <title>From the Social Choice Problem to a Collusion-Proof Tendering Mechanism for Dynamic Stochastic Projects</title>
-      <link>http://arxiv.org/abs/2608.28722v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.28722v1</guid>
-      <pubDate>Fri, 28 Aug 2026 15:13:32 +0000</pubDate>
-      <description>The VCG family and the AGV mechanism are two classical approaches to efficient implementation in the static social choice problem. In 2024, Csóka et al. showed that AGV has critical weaknesses. In contrast, the transferable-utility Guaranteed Utility Mechanism (TU-GUM) retains all the standard desirable properties of AGV while adding further ones, including collusion-proofness, because it implements efficiency in Guaranteed Utility Equilibrium. TU-GUM also applies to a more general dynamic setting with multiple extensions. Moreover, TU-GUM is a special case of an even more general and robust mechanism that combines contingent first-price tendering with the coordinated execution of dynamic stochastic multi-agent projects through a surprisingly simple rule. This paper summarizes and connects existing results from a different perspective, with some minor new observations.</description>
     </item>
   </channel>
 </rss>

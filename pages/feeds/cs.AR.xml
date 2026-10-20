@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>MAC units for a 2x2 int8 systolic array on Tiny Tapeout</title>
+      <link>http://arxiv.org/abs/2610.24326v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24326v1</guid>
+      <pubDate>Fri, 16 Oct 2026 23:48:07 +0000</pubDate>
+      <description>We take the multiply-accumulate (MAC) unit of an open-source 2$\times$2 int8 systolic array taped out on Tiny Tapeout (GF180 process) and propose two replacements. The first one, \emph{hybrid}, uses a different arithmetic structure for each row of the array. It reduces the logic area of one MAC unit by 4--6\% and of the whole chip by 0.7--3.2\% after place and route. The second one, \emph{fused\_eq}, never builds the long carry chain of the accumulation. It shortens the critical path by 20\% for one MAC unit and by 14\% for the whole chip. All numbers come from the standard Tiny Tapeout flow (LibreLane) run in GitHub Actions. Correctness is checked by exhaustive simulation of all $2^{24}$ inputs, a formal equivalence proof, and the original test bench.</description>
+    </item>
+    <item>
       <title>Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design</title>
       <link>http://arxiv.org/abs/2610.21570v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.21570v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.29135</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
       <description>Large language models have achieved remarkable capabilities through scaling, and this paper does not challenge that. It instead investigates a different question: once large models already exist, can they become more accessible to environments with substantially smaller hardware resources? The motivation came from deployment concerns rather than architecture research. Many organizations operate under hardware, budget, security, or closed-network constraints that limit access to large accelerator clusters, and as models continue to improve, deployment accessibility may matter as much as capability itself. This paper presents Rotary GPU, an exploratory execution approach derived from a previously disclosed rotary-based accelerator residency concept. A public validation was conducted using a Qwen3.6-35B-A3B-class Mixture-of-Experts model executed locally on a consumer laptop with an RTX 4060 Laptop GPU containing 8 GB of VRAM. Under the primary configuration, the system generated 2048 output tokens while maintaining approximately 6.3 GB of VRAM usage and an observed decode throughput of 21.06 tokens per second. The goal is not to replace data-center infrastructure but to explore whether some capabilities of large models can be brought closer to environments where such infrastructure is unavailable. The results should be read as exploratory rather than definitive, but they suggest deployment accessibility deserves continued investigation as these models evolve.</description>
-    </item>
-    <item>
-      <title>OpenURMA: A Clean-Room Open Implementation of the Unified Bus Protocol</title>
-      <link>https://arxiv.org/abs/2605.28717</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.28717</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 -0000</pubDate>
-      <description>Modern datacenter RDMA is bottlenecked at the network interface, not the wire. A NIC running RoCE or InfiniBand holds per-connection state for every (application, remote-endpoint) pair - hundreds of megabytes at 1024-application fanout - and pays a four-traversal PCIe round trip on a 64-byte operation, inflating latency an order of magnitude beyond the wire. Both follow from the Queue Pair over PCIe abstraction RDMA inherits from InfiniBand. Huawei's Unified Bus (UB), a public 2025 specification, changes the abstraction: it decouples per-application endpoint state from per-host transport state so connection context grows additively, exposes ordering as opt-in, and reaches remote memory through native CPU load/store to an on-chip-bus controller. UB ships in Huawei's closed Ascend 950 silicon. OpenURMA is the first clean-room open implementation of UB's transport and transaction layers, realised at three tiers - synthesisable RTL on Alveo U50, a cycle-level two-node SystemC simulator, and a gem5 full-system scaffold - each with a matched OpenRoCE (RoCEv2 RC) baseline. The contribution is the implementation, harness, and controlled comparison closed silicon does not admit. On the canonical 64-byte remote fetch - LOAD on UB-spec Sec.8.3, READ on RoCEv2 RC - UB's load/store path delivers ~500 ns end-to-end, 4.37x below the matched baseline (2186 ns), sustains 2.80x higher throughput, and fits in ~14% of a U50's LUTs.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On Multi-label radio Labelings of Graphs</title>
+      <link>http://arxiv.org/abs/2610.25863v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25863v1</guid>
+      <pubDate>Mon, 19 Oct 2026 06:18:10 +0000</pubDate>
+      <description>We propose and study a multi-labeling generalization of the $k$-radio labeling problem of graphs: given a graph $G$ and integers $k$ and $m$, assign to each vertex of $G$ a set of $m$ integer labels such that distinct labels assigned to a vertex differ by at least $k+1$, and the labels of any two distinct vertices $x$ and $y$ pairwise differ by at least $k+1-d(x,y)$, with $d(x,y)$ being the distance between vertices $x$ and $y$. We prove general bounds on the minimum span of such a labeling and more refined results for the case $k=1$. For paths and cycles, we derive sharp bounds on the minimum span when $k$ is small. We finally propose a conjecture for the minimum span on the path and for an almost-tight bound on the cycle.</description>
+    </item>
+    <item>
+      <title>Euclidean Embeddings of Acyclic Hypergraph Line Metrics</title>
+      <link>http://arxiv.org/abs/2610.25658v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25658v1</guid>
+      <pubDate>Mon, 19 Oct 2026 02:05:50 +0000</pubDate>
+      <description>We study Euclidean embeddings of higher-order line metrics arising from hypergraphs. For a fixed threshold \(s\geq 1\), the \(s\)-line graph \(L_s(H)\) has one vertex for each hyperedge of \(H\), with two hyperedges adjacent when they intersect in at least \(s\) vertices; its shortest-path metric is the native \(s\)-line metric. In the unrestricted setting, every finite graph occurs as the \(s\)-line graph of some hypergraph, so the worst-case Euclidean distortion is \(Θ(\log n)\). We show that \(α\)-acyclicity yields a sharp improvement to \(Θ(\sqrt{\log\log n})\). Although the canonical join tree of an \(α\)-acyclic hypergraph may have arbitrarily large stretch relative to the native metric, we prove that for every \(s\), the \(s\)-line graphs of \(α\)-acyclic hypergraphs are exactly the dually chordal graphs. Using their constant-factor spanning-tree approximations together with classical tree-embedding bounds, we obtain an \(O(\sqrt{\log\log n})\) Euclidean embedding bound. We then show this is asymptotically tight by realizing every finite tree as the \(s\)-line graph of an \(α\)-acyclic hypergraph. Thus, the worst-case distortion is \(Θ(\sqrt{\log\log n})\), including for hypergraphs of rank at most \(3s+1\).</description>
+    </item>
+    <item>
+      <title>Optimal single-track Gray codes from Gray-ordered necklaces</title>
+      <link>http://arxiv.org/abs/2610.24758v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24758v1</guid>
+      <pubDate>Sat, 17 Oct 2026 15:55:59 +0000</pubDate>
+      <description>A single-track Gray code of length $n$ is a cyclic Gray code of $n$-bit words in which every column is a cyclic shift of the first. For prime $n$ the longest possible period is $2^n-2$. Whether it is attained for every prime has been open since Hiltgen, Paterson and Brandestini introduced these codes in 1996, and optimal codes were known for primes $n\le 19$. We show that a conjecture of Degni and Drisko (2007) on the reflected Gray code order of necklaces implies optimal single-track Gray codes for every prime. Their list of necklaces, conjecturally a Gray path for prime $n$, closes into a Hamilton cycle of the necklace graph after $(n-3)/2$ explicit Pósa rotations, and such a cycle lifts to an optimal code. This implication is formalized in Lean 4. Together with computation it gives optimal single-track Gray codes for every odd prime $n\le 47$: for $n\le 37$ explicit codes checked word by word by a program independent of the generator, and for $n=41$, $43$ and $47$ codes obtained from the implication after the Degni-Drisko property was verified at these lengths by two independently written programs.</description>
+    </item>
+    <item>
       <title>Barrier Log-Concavity of Large Forests</title>
       <link>http://arxiv.org/abs/2610.22098v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.22098v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.13964v1</guid>
       <pubDate>Fri, 14 Aug 2026 05:13:58 +0000</pubDate>
       <description>For a graph $G$, denote by $a(G)$ the number of vertices in the largest induced forest in $G$. The Albertson-Berman conjecture, which had been open since 1979, states that $a(G) \geq \frac{n}{2}$ for every simple planar graph $G$ on $n$ vertices. Although the Albertson-Berman conjecture was recently resolved in the negative by constructing a counterexample with the help of AI, we independently found a counterexample to the Albertson-Berman conjecture without AI and present it in this article. Our counterexample is on $39$ vertices with $a(G)=19$. Finally, we indicate, without a full proof, a variant of this construction with a larger number of vertices, but with a slightly smaller ratio $\frac{a(G)}{n}=\frac{37}{76}$.</description>
-    </item>
-    <item>
-      <title>On the Structure of $(\min,+)$ Convolution</title>
-      <link>https://arxiv.org/abs/2608.13310</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.13310</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>The $(\min,+)$ convolution is a central problem in fine-grained complexity, and whether it admits a truly subquadratic algorithm remains open. We study it through tropical polynomials, where $(\min,+)$ convolution is exactly polynomial multiplication. We introduce tropical decomposition width, a parameter measuring how finely a tropical polynomial can be decomposed into low-degree factors. We prove modular convexity theorems showing that bounded tropical decomposition width forces strong convexity on arithmetic subpolynomials. This yields deterministic algorithms for computing $a\otimes b$ in $O(n\max(\operatorname{tdw}(a),\operatorname{tdw}(b))^2)$ time when the width is given, and in $O(ne^{\min(\operatorname{tdw}(a),\operatorname{tdw}(b))(1+o(1))})$ time otherwise, without requiring a decomposition. For Multiple-Sequence $(\min,+)$ Convolution, we give a randomized algorithm running in $O(kn^2\sqrt{\min(k,n)}\log^{1.5}(kn))$ time for $k$ sequences of length at most $n$, improving the natural $O(k^2n^2)$ bound. We also obtain conditional lower bounds, a faster single-entry algorithm, and new upper bounds for Multiple-Choice Knapsack. Finally, bounded-decomposition-width classes admit interpolation algebras of finite generating rank, whereas distinguishing all tropical polynomials of degree at most $n$ requires rank exactly $\lfloor n/2\rfloor+1$. We further show that tropical decomposition width cannot decrease under any flat $\mathbb T$-algebra extension. These results connect efficient tropical multiplication with structural rigidity.</description>
-    </item>
-    <item>
-      <title>On the Gap of Finite Posets</title>
-      <link>https://arxiv.org/abs/2608.12678</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.12678</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>Let $P$ be a finite nonempty poset with $n$ elements, let $f:P\to\{1,\ldots,n\}$ be a uniformly random order-preserving bijection, and put $h_P(x)=\mathbb E[f(x)]$. Define $\operatorname{gap}(P)$ as the largest difference between consecutive values in the ordered list consisting of $0$, $n+1$, and all the expected ranks $h_P(x)$. Write $w(P)$ for the largest size of a pairwise incomparable subset. We prove three results. The first proves an old conjectural relation between width and expected-rank gaps that has appeared repeatedly, in increasingly general forms, in work of Brightwell and Trotter (2002), Biró and Trotter (2011), and Aires and Kahn (2025): $\operatorname{gap}(P)\le 2w(P)-1$. Second, for every $L&gt;0$ we construct a width-two poset such that every maximal chain has an expected-rank gap of at least $L$, where the two endpoint spacings are included when computing this gap. Finally, for every $r\in\mathbb N$, we construct a poset $P_r$ for which the relative order induced on every nonempty selected set $X$ has base-two entropy below $3|X|$, while $\operatorname{gap}(P_r)\ge(3/2)^r$. Thus the gap can be arbitrarily large while the induced order on every selected set has relatively small entropy. The key ideas behind all three results were found by ChatGPT 5.6 Sol.</description>
-    </item>
-    <item>
-      <title>New Approximation Algorithms for Maximum Asymmetric Traveling Salesman and Shortest Superstring</title>
-      <link>https://arxiv.org/abs/2005.10800</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2005.10800</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 -0000</pubDate>
-      <description>In the maximum asymmetric traveling salesman problem (Max ATSP) we are given a complete directed graph with nonnegative weights on the edges and we wish to compute a traveling salesman tour of maximum weight. In this paper we give a fast combinatorial $\frac{7}{10}$-approximation algorithm for Max ATSP. It is based on techniques of {\em eliminating} and {\em diluting} problematic subgraphs with the aid of {\it half-edges} and a method of edge coloring. (A {\it half-edge} of edge $(u,v)$ is informally speaking "either a head or a tail of $(u,v)$".) A novel technique of {\em diluting} a problematic subgraph $S$ consists in a seeming reduction of its weight, which allows its better handling. The current best approximation algorithms for Max ATSP, achieving the approximation guarantee of $\frac 23$, are due to Kaplan, Lewenstein, Shafrir, Sviridenko (2003) and Elbassioni, Paluch, van Zuylen (2012). Using a result by Mucha, which states that an $α$-approximation algorithm for Max ATSP implies a $(2+\frac{11(1-α)}{9-2α})$-approximation algorithm for the shortest superstring problem (SSP), we obtain also a $(2 \frac{33}{76} \approx 2,434)$-approximation algorithm for SSP, beating the previously best known (having an approximation factor equal to $2 \frac{11}{23} \approx 2,4782$.)</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>When Does UML Software Modeling Pay Off? A Contingency Model of Industrial Modeling Value</title>
+      <link>http://arxiv.org/abs/2610.24884v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24884v1</guid>
+      <pubDate>Sat, 17 Oct 2026 21:45:37 +0000</pubDate>
+      <description>With the emergence of specification-driven development (SDD), software modeling has regained strategic importance as a way to translate human intentions, requirements, and design decisions into precise specifications that can guide both developers and AI-assisted development tools. Despite the renewed relevance of modeling in SDD, empirical evidence remains limited on when its benefits outweigh the socio-technical effort required to create, communicate, synchronize, and maintain software models in industrial practice. This study investigates when software modeling generates value in industrial practice. We analyzed 405 survey responses collected from software practitioners. The questionnaire combined closed items concerning UML use, benefits, barriers, and improvement mechanisms with open-ended questions about current use, difficulties, and worthwhile contexts. Most respondents associated modeling with integration discussions (90 percent) and shared understanding (82 percent), but also reported time pressure (85 percent) and the effort required to create and maintain models (80 percent). Selective modeling, model-code synchronization, and collaborative support emerged as conditions that improve its viability, whereas only 24 percent reported daily UML use. Software modeling pays off when its expected contextual value exceeds the socio-technical friction required to create and sustain it. Its value is therefore contingent, not universal.</description>
+    </item>
+    <item>
       <title>Monitor-Validity Failures: LLM Safety Evidence Paths at Evolving Framework Boundaries</title>
       <link>http://arxiv.org/abs/2610.23362v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23362v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.11728v1</guid>
       <pubDate>Thu, 10 Sep 2026 15:43:34 +0000</pubDate>
       <description>Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible for verifying these artifacts and the scientific judgments they encode.</description>
-    </item>
-    <item>
-      <title>Deep Learning-based Bug Triage System</title>
-      <link>http://arxiv.org/abs/2609.11420v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.11420v1</guid>
-      <pubDate>Thu, 10 Sep 2026 11:49:28 +0000</pubDate>
-      <description>Effective bug triage is crucial for streamlining the software development lifecycle by accurately categorizing and assigning reported software defects. In this paper, we propose an automated bug triage system built upon the pre-trained RoBERTa-base transformer architecture. By leveraging deep contextual representations, our approach efficiently classifies incoming bug reports to optimize assignment. Experimental evaluation demonstrates that the proposed system achieves a strong bug identification accuracy of 0.90 within just five training epochs. These findings highlight the efficiency and high performance of fine-tuned transformer models for practical software engineering automation.</description>
     </item>
   </channel>
 </rss>

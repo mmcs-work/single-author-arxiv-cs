@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Bidirectionality is Necessary in Cellular Machines for Exact-Arrival Multi-Agent Path Finding</title>
+      <link>http://arxiv.org/abs/2610.26272v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26272v1</guid>
+      <pubDate>Mon, 19 Oct 2026 12:28:00 +0000</pubDate>
+      <description>On ranked directed acyclic graphs coupled by vertex conflicts we study exact-arrival multi-agent path finding (departure and arrival pinned in place and time) posed as a distributed output task: every cell must emit its own bit of a valid joint path-support mask. The machines are cellular: one automaton per cell, state factored over cells, communication only along a fixed local fabric, synchronous rounds, a query-independent output round, no central decoder, and a per-topology transition code. "Necessary" here means: on an explicit hard topology, over all its feasible queries, no universally correct local-only architecture can renounce either temporal orientation; with global flags, impossibility becomes a bandwidth-round trade-off. The class is not vacuous: a flooding machine solves every instance in as many rounds as the diameter of the local fabric. The bound survives two concessions: we supply every agent's exact individual cavity, which alone solves the single-agent problem in zero rounds and makes the single-agent direction theorem vacuous; and we allow $k$ one-bit global aggregate flags. On a twelve-cell, two-agent, depth-three topology no forward-only machine with $k=0$ is correct on two feasible queries, for any number of rounds; the time-reversed topology does the same to backward-only machines. Placing $p$ copies side by side gives, for forward-only machines, $J_R+kR\ge p$ at constant depth, where $J_R$ measures how much of the query reaches the targets' cones and is $0$ here. A backward-only machine solves that family in constant rounds and a flag-streaming one in $\lceil p/k\rceil+O(1)$, so the bound is tight in order; on the composite family neither orientation can be renounced. The finite lemmas of the gadget and the pair-invariance contradictions are checked in Lean 4; the semantic bridge, the cone lemma and the counting are paper proofs. We report no benchmarks.</description>
+    </item>
+    <item>
+      <title>On Pearl Blockchain's Proof of Useful Work: Systematization and Flexibility</title>
+      <link>http://arxiv.org/abs/2610.25347v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25347v1</guid>
+      <pubDate>Sun, 18 Oct 2026 15:44:04 +0000</pubDate>
+      <description>We revisit the proof-of-useful-work (PoUW) scheme in Pearl blockchain's white paper (Pearl Research Team), giving a systematic sensitivity characterization as an alternative to its Jackpot policy, along with efficient algorithm for verifying the sensitivity condition. Beyond its independent interest, our characterization yields a more flexible PoUW scheme that eenables miner autonomy: each miner can independently choose its noise magnitude to tailor the trade-off between computational accuracy and mining efficiency to its own needs.</description>
+    </item>
+    <item>
       <title>Toward Partitioned Reference Readout for Four-Level IGZO Memory: Device Statistics, Confusion Matrices, and INT4 Error Propagation</title>
       <link>http://arxiv.org/abs/2610.16255v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.16255v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2502.06618</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
       <description>This work presents a theoretical analysis of the probability of successfully retrieving data encoded with MDS codes (e.g., Reed-Solomon codes) in DNA storage systems. We study this probability under independent and identically distributed (i.i.d.) substitution errors, focusing on a common code design strategy that combines inner and outer MDS codes. Our analysis demonstrates how this probability depends on factors such as the total number of sequencing reads, their distribution across strands, the rates of the inner and outer codes, and the substitution error probabilities. These results provide actionable insights into optimizing DNA storage systems under reliability constraints, including determining the minimum number of sequencing reads needed for reliable data retrieval and identifying the optimal balance between the rates of inner and outer MDS codes.</description>
-    </item>
-    <item>
-      <title>Triple-Identity Authentication: The Future of Secure Access</title>
-      <link>https://arxiv.org/abs/2505.02004</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.02004</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
-      <description>In password-based authentication systems, the username fields are essentially unprotected, while the password fields are susceptible to attacks. In this article, we shift our research focus from traditional authentication paradigm to the establishment of gatekeeping mechanisms for the systems. To this end, we introduce a Triple-Identity Authentication scheme. First, we combine each user credential (i.e., login name, login password, and authentication password) with the International Mobile Equipment Identity (IMEI) and International Mobile Subscriber Identity (IMSI) of a user's smartphone to create a combined identity represented as "credential+IMEI+IMSI", defined as a system attribute of the user. Then, we grant the password-based local systems autonomy to use the internal elements of our matrix-like hash algorithm. Following a credential input, the algorithm hashes it, and then the local system, rather than the algorithm, creates an identifier using a set of elements randomly selected from the algorithm, which is used to verify the user's combined identity. This decentralized authentication based on the identity-identifier handshake approach is implemented at the system's interaction points, such as login name field, login password field, and server's authentication point. Ultimately, this approach establishes effective security gates, empowering the password-based local systems to autonomously safeguard user identification and authentication processes.</description>
-    </item>
-    <item>
-      <title>Introduction to QUDO, Tensor QUDO and HOBO formulations: Qudits, Equivalences, Knapsack Problem, Traveling Salesman Problem and Combinatorial Games</title>
-      <link>https://arxiv.org/abs/2508.01958</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.01958</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we present a brief review and introduction to Quadratic Unconstrained D-ary Optimization (QUDO), Tensor Quadratic Unconstrained D-ary Optimization (T-QUDO) and Higher-Order Unconstrained Binary Optimization (HOBO) formulations for combinatorial optimization problems. We also show explicit encodings between these formulations and discuss their limitations. To help their understanding, we make some examples for the knapsack problem, traveling salesman problem and different combinatorial games. The games chosen to exemplify are: Hashiwokakero, N-Queens, Kakuro, Inshi no Heya, and Peg Solitaire. Although some of these games have already been formulated in a QUBO formulation, we are going to approach them with more general formulations, allowing their execution in new quantum or quantum-inspired optimization algorithms. This can be an easier way to introduce these more complicated formulations for harder problems.</description>
     </item>
   </channel>
 </rss>

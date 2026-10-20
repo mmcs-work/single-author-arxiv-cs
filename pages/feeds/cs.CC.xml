@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Bidirectionality is Necessary in Cellular Machines for Exact-Arrival Multi-Agent Path Finding</title>
+      <link>http://arxiv.org/abs/2610.26272v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26272v1</guid>
+      <pubDate>Mon, 19 Oct 2026 12:28:00 +0000</pubDate>
+      <description>On ranked directed acyclic graphs coupled by vertex conflicts we study exact-arrival multi-agent path finding (departure and arrival pinned in place and time) posed as a distributed output task: every cell must emit its own bit of a valid joint path-support mask. The machines are cellular: one automaton per cell, state factored over cells, communication only along a fixed local fabric, synchronous rounds, a query-independent output round, no central decoder, and a per-topology transition code. "Necessary" here means: on an explicit hard topology, over all its feasible queries, no universally correct local-only architecture can renounce either temporal orientation; with global flags, impossibility becomes a bandwidth-round trade-off. The class is not vacuous: a flooding machine solves every instance in as many rounds as the diameter of the local fabric. The bound survives two concessions: we supply every agent's exact individual cavity, which alone solves the single-agent problem in zero rounds and makes the single-agent direction theorem vacuous; and we allow $k$ one-bit global aggregate flags. On a twelve-cell, two-agent, depth-three topology no forward-only machine with $k=0$ is correct on two feasible queries, for any number of rounds; the time-reversed topology does the same to backward-only machines. Placing $p$ copies side by side gives, for forward-only machines, $J_R+kR\ge p$ at constant depth, where $J_R$ measures how much of the query reaches the targets' cones and is $0$ here. A backward-only machine solves that family in constant rounds and a flag-streaming one in $\lceil p/k\rceil+O(1)$, so the bound is tight in order; on the composite family neither orientation can be renounced. The finite lemmas of the gadget and the pair-invariance contradictions are checked in Lean 4; the semantic bridge, the cone lemma and the counting are paper proofs. We report no benchmarks.</description>
+    </item>
+    <item>
+      <title>PSPACE-Completeness of the Reachability Relation of Robust Dynamical Systems</title>
+      <link>http://arxiv.org/abs/2610.26206v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26206v1</guid>
+      <pubDate>Mon, 19 Oct 2026 11:33:47 +0000</pubDate>
+      <description>Dynamical systems are a widely used model of computation and an intuitive representation of many natural phenomena in many applied fields. The last decades have seen an impressive use of computers in studying and analysing them, with several visible theoretical breakthroughs. The question of reachability for dynamical systems is central: given two points, is there a trajectory between them in the dynamical system? Reachability, in particular over the reals, is undecidable in the general case: it is only computably enumerable, even under reasonable hypotheses, e.g. for a computable dynamics in general. But it is known to become decidable, and even lies in PSPACE, under suitably quantified robustness assumptions. In this paper, we focus on PSPACE-completeness results over the reals, in the sense of computable analysis, regarding discrete-time and continuous-time robust dynamical systems. We prove that, under some additional and rather reasonable hypotheses, the reachability relation becomes even PSPACE-complete for both classical and second-order complexity second-order complexity, for an adapted notion of reduction. As a side-effect, we also prove an improvement of an algebraic Ordinary Differential Equations-based characterisation of PSPACE, removing one of the base functions of the algebra. By doing so, we link results from dynamical systems and complexity over the reals, including the models of computable analysis and second-order complexity.</description>
+    </item>
+    <item>
+      <title>Approximating Independent Sets Using Additive Combinatorics</title>
+      <link>http://arxiv.org/abs/2610.25047v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25047v1</guid>
+      <pubDate>Sun, 18 Oct 2026 06:09:59 +0000</pubDate>
+      <description>We give a deterministic quasi-polynomial time algorithm for approximating the largest independent set in a graph. We show that if an $N$-vertex graph contains an independent set of size $2^{-t} N$, then we can find an independent set of size $2^t$ in quasi-polynomial time, for all $t$ up to a constant factor of $(\log N)^{1/3}$. This gives an approximation factor of $N / \exp((\log N)^{1/3})$, which has the same shape as known hardness results for quasi-polynomial time algorithms, up to a different exponent of the logarithm. The algorithm builds on a structural principle: a graph containing a large independent set must also contain a large sparse structured set, and such a set can be found efficiently. A greedy algorithm then extracts an independent set from it. Our proof draws on tools in additive combinatorics, in particular spreadness and sifting, to obtain the combinatorial structural results. We then convert these to efficient algorithms using pseudo-marginals obtained by semidefinite programming.</description>
+    </item>
+    <item>
+      <title>BQP^cc is not contained in MA^cc</title>
+      <link>http://arxiv.org/abs/2610.24742v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24742v1</guid>
+      <pubDate>Sat, 17 Oct 2026 15:17:59 +0000</pubDate>
+      <description>We exhibit a bipartite language with a poly-logarithmic quantum communication protocol and polynomial Merlin-Arthur communication complexity.</description>
+    </item>
+    <item>
+      <title>Improved Space Bounds for Promise Graph Coloring in Adversarial Streams</title>
+      <link>http://arxiv.org/abs/2610.24644v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24644v1</guid>
+      <pubDate>Sat, 17 Oct 2026 11:45:05 +0000</pubDate>
+      <description>We study promise graph coloring in one pass insertion-only adversarial streams. We give a randomized algorithm that distinguishes 3-colorable graphs from graphs that are not 6-colorable using $O(n^{3/2}\log(n/\varepsilon)\log n)$ bits of space. This provides a truly subquadratic space algorithm for a constant coloring gap, answering an open problem posed by Assadi, Sundaresan, and Yazdanyar [SODA 2026] for $q=3$. Combining this algorithm with the vertex-sampling lemma of Assadi et al.\ yields, for any $144\lceil\log_2 n\rceil\le Q\le n$, a one-pass decision algorithm distinguishing $3$-colorable graphs from graphs that are not $Q$-colorable using $O((n/Q)^{3/2}\log^5 n)$ bits of space. This improves upon the $\widetilde{O}((n/Q)^2)$ bound achievable via dynamic streaming techniques. Setting $Q=\lceil n^{1/3}\rceil$ yields a semi-streaming decision algorithm, answering the decision version of another open problem posed by Assadi et al. On the negative side, we prove that distinguishing $χ(G)\le q$ from $χ(G)\ge(q-1)^2$ requires $Ω(n^2/q^5)$ bits of space, improving upon the previously established $q^2/4$ threshold using the same space complexity.</description>
+    </item>
+    <item>
       <title>Electrostatic Limits on Quantum Spatial Search</title>
       <link>http://arxiv.org/abs/2610.23560v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23560v1</guid>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.14632v1</guid>
       <pubDate>Sun, 13 Sep 2026 16:04:54 +0000</pubDate>
       <description>We prove that the quantum monad in dimension $2n$ admits no natural transformation to the polymorphism clone of linear equations modulo $n$. Consequently, for every $n\geq 2$, there exists an unsatisfiable system of linear equations over $\mathbb{Z}_n$ whose constraint system game admits a perfect finite-dimensional quantum strategy. As a corollary, we completely characterise pseudo-telepathic constraint languages in finite dimension. The proof combines a result of Harding, Jager, and Smith on group-valued measures on subspaces of Hilbert spaces with the polymorphism-minion characterisation of quantum pseudo-telepathy.</description>
-    </item>
-    <item>
-      <title>New lower bounds on tensor rank of $(2,n,m)$ matrix multiplication with GPT-6</title>
-      <link>http://arxiv.org/abs/2609.14393v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.14393v1</guid>
-      <pubDate>Sun, 13 Sep 2026 09:06:39 +0000</pubDate>
-      <description>The tensor rank of $2\times n$-with-$n\times m$ matrix multiplication is at least $(n+2)m$ if $n\ge 4$ and at least $\left\lceil \frac{24}{5}m \right\rceil$ if $n=3$. Both lower bounds apply over arbitrary fields.</description>
-    </item>
-    <item>
-      <title>Torsion detection in clique complexes is conditionally $QMA_1$-hard</title>
-      <link>http://arxiv.org/abs/2609.14110v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.14110v1</guid>
-      <pubDate>Sat, 12 Sep 2026 19:14:49 +0000</pubDate>
-      <description>Quantum algorithms for topological data analysis compute Betti numbers, the ranks of the homology groups of a simplicial complex, which can be read off from the kernel of a combinatorial Laplacian. Deciding whether a Betti number of a clique complex is nonzero is $QMA_1$-hard, and remains so under a spectral gap promise on vertex-weighted graphs. Integral homology, however, contains information inaccessible to the Laplacian spectrum. A new part that appears in integral homology is torsion: cycles that become boundaries only after being traversed several times, as in a projective plane or a Klein bottle. We ask how hard it is to detect torsion, and we answer with a simple reduction. We attach to an arbitrary clique complex a fixed $31$-vertex triangulation of the projective plane. The $k$th mod-$2$ Betti number of the input then reappears as $2$-torsion two degrees up, while all rational homology disappears and every combinatorial Laplacian acquires a constant spectral gap. We conclude that detecting torsion in clique complexes of unweighted graphs is $NP$-hard, even under a constant gap promise, and that it is $QMA_1$-hard if mod-$2$ clique homology is.</description>
-    </item>
-    <item>
-      <title>Certified local rank and uniqueness barriers for a 48-term matrix-multiplication decomposition</title>
-      <link>http://arxiv.org/abs/2609.13596v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.13596v1</guid>
-      <pubDate>Fri, 11 Sep 2026 23:06:05 +0000</pubDate>
-      <description>We study replacements in fixed bilinear tensor decompositions, counting changes to complete rank-one summands, including output factors. The shortening frontier records the maximum rank defect of a fixed-size subset and determines the minimum length attainable within a change budget. For the rational 48-term Li--Wang--Hu decomposition \(D(2)\) of \(4\times4\) matrix multiplication over \(\mathbb{C}\), we prove rank radius at least 12, strong radius exactly 11, and border radius at least 8. Every shorter complex decomposition therefore changes at least thirteen original summands. An exact rational twelve-term replacement attains the equal-length barrier. The proofs combine exhaustive support reductions with saturated projected kernels and zero-corner completion arguments controlling arbitrary minimal competitors. A reduced-incidence argument transfers kernel certificates to tensor-space neighborhoods. A Laurent normal form gives strong radius exactly 11 for the sixteen-term core at every nonzero complex parameter. On a nonempty Zariski-open subset of the actual parameter curve, the rank radius is at least 12, the strong radius exactly 11, and the border radius at least 8. We also prove incomparability of the full Kothari--Moitra--Wein sufficient criterion and the Sylvester-equipped kernel criterion. These results describe local decomposition structure rather than a new rank bound for full matrix multiplication.</description>
-    </item>
-    <item>
-      <title>The Low-Individual-Degree Test Without the Diagonal-Lines Test Is Not Quantum-Sound</title>
-      <link>http://arxiv.org/abs/2609.12346v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12346v1</guid>
-      <pubDate>Fri, 11 Sep 2026 02:12:55 +0000</pubDate>
-      <description>To prove the quantum soundness of the classical low-individual-degree test, the authors of \cite{JNVWY20LID} defined three subtests, namely the axis-parallel lines test, the self-consistency test, and the diagonal-lines test. An interesting question is whether the diagonal-lines test can be removed. In this paper, we show that the diagonal-lines test cannot simply be removed without another compatibility mechanism. Consequently, replacing the "conditional linear functions" by "coordinate deletion functions" in the proof of MIP*=RE, as mentioned in \cite{JNVWY20LID}, does not by itself preserve the required soundness. The authors of \cite{JNVWY20LID} found an example that requires the diagonal-lines test when \((m, d, q) = (2, 2, 4)\); we give an example when \((m, d) = (2, 2)\) and \(q\) is any odd prime.</description>
-    </item>
-    <item>
-      <title>Learning Sparse Quantum States</title>
-      <link>http://arxiv.org/abs/2609.12219v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12219v1</guid>
-      <pubDate>Thu, 10 Sep 2026 21:28:21 +0000</pubDate>
-      <description>We study the problem of tomography for $k$-sparse quantum states. In contrast to classical distribution learning, where tight sample and time complexity bounds in terms of support size are well understood, no non-trivial bounds were previously shown for this problem. We give the first near optimal algorithm for learning $n$-qubit $k$-sparse pure quantum states, obtaining fidelity at least $1-\varepsilon$ with high probability using $\tilde{O}(k/\varepsilon)$ copies of the state and $\tilde{O}(kn/\varepsilon)$ time. Both bounds are optimal up to polylogarithmic factors. As an implication, we also obtain an algorithm with near optimal $\tilde{O}(kr/\varepsilon)$ sample complexity for learning $k$-sparse rank-$r$ mixed states, via the random purification channel technique. Obtaining time complexity nearly matching the sample complexity, for $r&gt;1$, remains an important open question.</description>
     </item>
   </channel>
 </rss>

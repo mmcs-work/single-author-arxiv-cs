@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Tight Oracle Threshold for \(k\)-Submodular Maximization</title>
+      <link>http://arxiv.org/abs/2610.26677v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26677v1</guid>
+      <pubDate>Mon, 19 Oct 2026 16:25:37 +0000</pubDate>
+      <description>We prove that, for every \(\varepsilon&gt;0\), a \((\frac{k}{2k-1}+\varepsilon)\)-approximation algorithm for maximizing monotone \(k\)-submodular functions requires exponentially many value-oracle queries. This improves the \(\frac{k+1}{2k}\) oracle bound of Iwata, Tanigawa, and Yoshida. Their \(\frac{k}{2k-1}\)-approximation algorithm therefore gives the exact threshold in the monotone setting. For \(k\ge5\), our bound also matches, up to an arbitrarily small loss, Aggarwal's recent approximation guarantee for non-monotone \(k\)-submodular maximization.</description>
+    </item>
+    <item>
+      <title>Exact minimum Birkhoff decompositions of doubly stochastic matrices with finite precision</title>
+      <link>http://arxiv.org/abs/2610.25837v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25837v1</guid>
+      <pubDate>Mon, 19 Oct 2026 05:49:20 +0000</pubDate>
+      <description>The minimum Birkhoff decomposition problem asks for a representation of a doubly stochastic matrix as a convex combination of as few permutation matrices as possible. This NP-hard problem arises in the scheduling of switches in data centers and satellite systems, in random assignments in economics and in the statistics of rankings. We consider doubly stochastic matrices whose entries are given with a fixed number of decimal digits and look for exact decompositions whose weights have the same precision. We propose a parallel method with three parts. For matrices built from few permutation matrices, the first part reads the weights from the frequencies of the entries and places them on the matrix positions by a rule that, given the correct weights, never fixes a position wrongly. The second part computes lower bounds from pairs of rows or columns, which remain valid for real weights, and from certificates of a satisfiability solver. For matrices built from many permutation matrices, the third part runs a beam search over steps that each make at least one entry zero. On 375 test instances with up to 100 rows, the method proves optimality for 208 instances, and 197 of these proofs also hold for real weights. Of the 190 instances built from few permutation matrices, 187 are solved to proven optimality, 180 of them within one second. Compared with the best exact decompositions known before, the new decompositions are shorter for 278 instances and never longer.</description>
+    </item>
+    <item>
+      <title>Approximating Independent Sets Using Additive Combinatorics</title>
+      <link>http://arxiv.org/abs/2610.25047v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25047v1</guid>
+      <pubDate>Sun, 18 Oct 2026 06:09:59 +0000</pubDate>
+      <description>We give a deterministic quasi-polynomial time algorithm for approximating the largest independent set in a graph. We show that if an $N$-vertex graph contains an independent set of size $2^{-t} N$, then we can find an independent set of size $2^t$ in quasi-polynomial time, for all $t$ up to a constant factor of $(\log N)^{1/3}$. This gives an approximation factor of $N / \exp((\log N)^{1/3})$, which has the same shape as known hardness results for quasi-polynomial time algorithms, up to a different exponent of the logarithm. The algorithm builds on a structural principle: a graph containing a large independent set must also contain a large sparse structured set, and such a set can be found efficiently. A greedy algorithm then extracts an independent set from it. Our proof draws on tools in additive combinatorics, in particular spreadness and sifting, to obtain the combinatorial structural results. We then convert these to efficient algorithms using pseudo-marginals obtained by semidefinite programming.</description>
+    </item>
+    <item>
+      <title>Enumerating Small Potential Maximal Cliques with Fixed-Parameter Delay</title>
+      <link>http://arxiv.org/abs/2610.24856v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24856v1</guid>
+      <pubDate>Sat, 17 Oct 2026 20:15:34 +0000</pubDate>
+      <description>A potential maximal clique (PMC) of a graph $G$ is a nonempty vertex set that forms a maximal clique in some minimal triangulation of $G$. Listing the PMCs of a graph is a key step in exact algorithms for computing treewidth, minimum fill-in, and related graph parameters. We present a deterministic algorithm that enumerates all PMCs of cardinality at most $k$ in an $n$-vertex graph $G$, without repetition, with delay $2^{O(k^3)}n^4\log n$. This bound also covers the preprocessing time before the first output, the time from the last output to termination, and the total running time when no such PMC exists. At the core of our enumeration algorithm is a procedure that solves the following constrained search problem within the same time bound: given sets of required and excluded vertices $I,O\subseteq V(G)$, find a PMC $Ω$ of size at most $k$ satisfying $I\subseteqΩ$ and $Ω\cap O=\emptyset$, or determine that none exists. Our enumeration algorithm directly supports these inclusion and exclusion constraints as well. Our approach builds on the \emph{recursive understanding} technique of Chitnis et al.~\cite{chitnis2016} and the reduction to unbreakable graphs of Lokshtanov et al.~\cite{lokshtanov2018}. A graph is $(q,k)$-unbreakable if no removal of at most $k$ vertices leaves two disjoint unions of connected components that each contain more than $q$ vertices. We first solve constrained PMC search on $(q,k)$-unbreakable graphs, and then apply this procedure to replace separated subgraphs with graphs of size $2^{O(k^2)}$ that preserve the existence of a constrained solution for every graph attached along the shared boundary.</description>
+    </item>
+    <item>
+      <title>Improved Space Bounds for Promise Graph Coloring in Adversarial Streams</title>
+      <link>http://arxiv.org/abs/2610.24644v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24644v1</guid>
+      <pubDate>Sat, 17 Oct 2026 11:45:05 +0000</pubDate>
+      <description>We study promise graph coloring in one pass insertion-only adversarial streams. We give a randomized algorithm that distinguishes 3-colorable graphs from graphs that are not 6-colorable using $O(n^{3/2}\log(n/\varepsilon)\log n)$ bits of space. This provides a truly subquadratic space algorithm for a constant coloring gap, answering an open problem posed by Assadi, Sundaresan, and Yazdanyar [SODA 2026] for $q=3$. Combining this algorithm with the vertex-sampling lemma of Assadi et al.\ yields, for any $144\lceil\log_2 n\rceil\le Q\le n$, a one-pass decision algorithm distinguishing $3$-colorable graphs from graphs that are not $Q$-colorable using $O((n/Q)^{3/2}\log^5 n)$ bits of space. This improves upon the $\widetilde{O}((n/Q)^2)$ bound achievable via dynamic streaming techniques. Setting $Q=\lceil n^{1/3}\rceil$ yields a semi-streaming decision algorithm, answering the decision version of another open problem posed by Assadi et al. On the negative side, we prove that distinguishing $χ(G)\le q$ from $χ(G)\ge(q-1)^2$ requires $Ω(n^2/q^5)$ bits of space, improving upon the previously established $q^2/4$ threshold using the same space complexity.</description>
+    </item>
+    <item>
+      <title>Batch range mode in O(n+Q)^1.395</title>
+      <link>http://arxiv.org/abs/2610.24273v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24273v1</guid>
+      <pubDate>Fri, 16 Oct 2026 22:04:41 +0000</pubDate>
+      <description>We give a deterministic worst-case algorithm for exact Batched Range Mode on an arbitrary array of length n and a batch of Q intervals. The algorithm returns the mode frequency and the smallest mode identifier for each query in time (n+Q)^(tau+o(1)), where tau = 5 - sqrt(13) = 1.394448724536... . The algorithm combines virtual occurrence windows and block-boundary snapping with a query-restricted min-plus product whose first operand is column-monotone and whose second operand is row-monotone. A deterministic modular verifier uses geometric and query potentials to bound the same active regions; false modular matches are corrected by offline orthogonal range updates. The final analysis uses the sharper rectangular exponent curve of Uznanski (2026), together with exact rational parameter balancing and a transfer to prime fields. The analysis covers every frequency scale and arbitrary batch sizes. Exact frequencies and the smallest mode identifiers are recovered without increasing the exponent.</description>
+    </item>
+    <item>
+      <title>Budgeted Bayesian Bandits for Future Utilization</title>
+      <link>http://arxiv.org/abs/2610.24156v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24156v1</guid>
+      <pubDate>Fri, 16 Oct 2026 19:29:48 +0000</pubDate>
+      <description>The multi-armed bandit problem models the trade-off between exploration and exploitation. In this paper, we study the variant where exploration has a hard budget and precedes exploitation. Prior guarantees include a 1/3 approximation by Guha and Munagala using Lagrangian duality, and a 4/27 approximation by Ma against a primal linear programming relaxation for a more general model. We show that the analyses of both algorithms are tight, even when their relaxations are asymptotically exact. We provide a different efficient algorithm that achieves a 0.43 approximation. We then provide an efficient algorithm whose guarantee approaches 1-e^{-1} approx 0.63 for bounded exchangeable reward observations in a non-vanishing regime, which is asymptotically tight against natural linear programming relaxations. The technique also gives certificates for stopping sequential model evaluation.</description>
+    </item>
+    <item>
       <title>Approximating the Girth of an Undirected, Weighted Graph for Larger Approximation Factors</title>
       <link>http://arxiv.org/abs/2610.23698v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23698v1</guid>
@@ -654,55 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.32736v1</guid>
       <pubDate>Sat, 26 Sep 2026 15:55:08 +0000</pubDate>
       <description>We give a deterministic $(8+\varepsilon)$-approximation for minimum dominating set on planar graphs in a constant number of rounds of the LOCAL model, for every $\varepsilon&gt;0$. This improves the previous ratio $11+\varepsilon$ obtained by Heydt et al. The ratio is near-optimal in this model: its leading constant is only one above the known lower bound of $7$. Our result closes three quarters of the previous gap, reducing it from $4$ to $1$. Our main contribution is a sharp structural bound. For any dominating set $D$, assigning each vertex outside $D$ to a neighboring center gives disjoint owner blocks. If $k_x$ counts the other blocks containing a neighbor of $x$, then $\sum_{x\notin D}(k_x-2)^+\le(4|D|-12)^+$, where $z^+=\max\{z,0\}$. The bound holds for every such assignment, and equality holds for arbitrarily large minimum dominating sets. We use this bound in their three-phase framework, with new parameters and the same final linear-programming procedure. The algorithm requires neither a planar embedding nor the graph size, and its round bound depends only on $\varepsilon$. The transfer theorem of Bonamy et al. also gives a deterministic $(25+\varepsilon)$-approximation on graphs of bounded Euler genus, with a round bound depending only on $\varepsilon$ and the genus.</description>
-    </item>
-    <item>
-      <title>The Tight Upper Bound on the Number of Distinct Squares in Circular Words</title>
-      <link>http://arxiv.org/abs/2609.32084v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.32084v1</guid>
-      <pubDate>Fri, 25 Sep 2026 23:44:22 +0000</pubDate>
-      <description>A square is a word $xx$, where $x$ is nonempty. We show that a circular word of length $n$ contains at most $\lfloor 3n/2 \rfloor$ distinct squares of length at most $n$. The proof combines known results relating squares to circuits in Rauzy graphs. The coefficient $3/2$ agrees with the known lower bound.</description>
-    </item>
-    <item>
-      <title>Pathwidth-One Vertex Explosion and Co-Path Problems</title>
-      <link>http://arxiv.org/abs/2609.31962v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.31962v1</guid>
-      <pubDate>Fri, 25 Sep 2026 20:07:05 +0000</pubDate>
-      <description>In the Bipartite One-sided Vertex Explosion problem (BOVE), the input is a bipartite graph $G = (T, B, E)$ and a nonnegative integer $k$. The goal is to decide whether there is a set $S \subseteq B$ of size at most $k$ such that exploding every vertex in $S$ results in a graph with pathwidth at most one. The restricted Pathwidth One Vertex Explosion problem (restricted POVE) is a generalization of BOVE. The input to this problem is a graph $G$, a nonnegative integer $k$, and a set of vertices $X \subseteq V($ The goal is to decide whether there is a set $S \subseteq X$ of size at most $k$ such that exploding every vertex in $S$ results in a graph with pathwidth at most one. In this paper, we show parameter-preserving reductions in both directions between BOVE and Co-Path Set, and between restricted POVE and restricted Co-Path Packing. These reductions yield improved parameterized algorithms for BOVE and restricted POVE and an improved kernel for BOVE.</description>
-    </item>
-    <item>
-      <title>Faster Linear Programming with $\sqrt{\mathrm{rank}}$ Linear System Solves</title>
-      <link>http://arxiv.org/abs/2609.30853v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.30853v1</guid>
-      <pubDate>Fri, 25 Sep 2026 05:59:48 +0000</pubDate>
-      <description>Lee and Sidford [LS19] showed that the linear program $\min\{c^\top x\ :\ A^\top x=b,\ l\leq x\leq u\}$ over $x\in\mathbb{R}^m$, where $A\in\mathbb{R}^{m\times n}$, can be solved to accuracy $ε$ using $O(\sqrt n\log^{13}m\cdot\log(mU/ε))$ solves of linear systems in $A^\top\mathbf DA$ for positive diagonal matrices $\mathbf D$, where $U$ bounds the magnitudes of the input and of the initial point. Theirs is the first such bound governed by $\mathrm{rank}(A)=n$ rather than by the number of constraints $m$. Song [Son19] mentioned that reducing the $\log^{13}m$ factor is an interesting future direction. Given an interior point and a finite certified magnitude bound $U$, we give an algorithm that uses $O(\sqrt n\log^{4}m\cdot\log(mU/ε))$ solves of such linear systems, improving the Lee--Sidford bound by a factor of $\log^{9}m$. We conjecture that $O(\sqrt n\log(mU/ε))$ such linear-system solves suffice.</description>
-    </item>
-    <item>
-      <title>An $n^{8/5+o(1)}$-Time $Ω(λ^3)$-Approximation for Longest Common Subsequence</title>
-      <link>http://arxiv.org/abs/2609.30778v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.30778v1</guid>
-      <pubDate>Fri, 25 Sep 2026 04:01:48 +0000</pubDate>
-      <description>Let $λ$ denote the ratio of the length of a longest common subsequence of two length-$n$ strings to $n$. Rubinstein, Seddighin, Song and Sun [RSSS19] gave an $Ω(λ^3)$-approximation for LCS running in $\widetilde O(n^{39/20})$ time, where $39/20=1.95$. Song [Son19] mentioned that improving the $n^{1.95}$ running time is an interesting open question. We give an algorithm that computes an $Ω(λ^3)$-approximation of the longest common subsequence in $n^{8/5+o(1)}$ time. This improves the exponent $1.95$ to $1.6+o(1)$.</description>
-    </item>
-    <item>
-      <title>Settling the Matroid Secretary Problem</title>
-      <link>http://arxiv.org/abs/2609.30421v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.30421v1</guid>
-      <pubDate>Thu, 24 Sep 2026 18:17:26 +0000</pubDate>
-      <description>This paper settles the Matroid Secretary Problem with an $e$-probability-competitive algorithm. The algorithm is ordinal and accesses arrived elements only through comparison and independence oracles, and has expected polynomial time and oracle complexity.</description>
-    </item>
-    <item>
-      <title>A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model</title>
-      <link>http://arxiv.org/abs/2609.30215v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.30215v1</guid>
-      <pubDate>Thu, 24 Sep 2026 17:45:58 +0000</pubDate>
-      <description>We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear lower bound. Our construction also implies the same lower bound for volume estimation.</description>
-    </item>
-    <item>
-      <title>Spanning Trees with Many Leaves in Graphs of Minimum Degree at Least 7</title>
-      <link>http://arxiv.org/abs/2609.30354v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.30354v1</guid>
-      <pubDate>Thu, 24 Sep 2026 17:38:48 +0000</pubDate>
-      <description>We give a polynomial-time algorithm that constructs, in every connected $n$-vertex graph of minimum degree at least $7$, a spanning tree with at least $\frac{25200}{46189}n&gt;0.5455\,n$ leaves. No bound specific to minimum degree $7$ was known: the best bound available for this class was $\frac{11}{21}n\approx0.5238\,n$, inherited from Simarova's theorem for minimum degree~$6$. The algorithm and its analysis are carried out for an arbitrary minimum degree $δ$, and yield a recursion that gives an explicit lower bound on the number of leaves for every $δ$. The resulting bounds improve all previously known ones for every $δ\ge7$; for $δ=8,9,10$ they are $0.5850\,n$, $0.6151\,n$ and $0.6413\,n$, and they are tabulated for $δ\le25$ at the end of the paper.</description>
     </item>
   </channel>
 </rss>

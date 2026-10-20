@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The binomial distribution maximises entropy among sums of negatively related indicators with fixed mean and support</title>
+      <link>http://arxiv.org/abs/2610.26543v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26543v1</guid>
+      <pubDate>Mon, 19 Oct 2026 15:05:41 +0000</pubDate>
+      <description>We show that the binomial distribution supported on $\{0,1,\ldots,n\}$ and with mean $np$ for some $0&lt;p&lt;1$ maximises entropy within the class of sums of negatively related indicator random variables with this mean and support. Our results generalise the main result of Yu (2008), who showed that this binomial distribution maximises entropy within the smaller class of ultra-log-concave random variables of order $n$. Our proof makes use of a Markov chain construction of Yu (2008), together with a stochastic ordering argument.</description>
+    </item>
+    <item>
+      <title>Universal coding with the exhaustive peres transform</title>
+      <link>http://arxiv.org/abs/2610.26396v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26396v1</guid>
+      <pubDate>Mon, 19 Oct 2026 13:40:48 +0000</pubDate>
+      <description>Peres's iteration of von Neumann's procedure is completed into a bijection of $\bits^N$: the recursion runs to exhaustion, nothing is discarded, and every input splits into fair bits and residual bits. The residual strings form a complete prefix code that determines the number of ones of the input, so the fair bits are exactly uniform given the residual for every exchangeable law. For a Bernoulli source the likelihood factorises exactly, in decoding order, into a factor $1/2$ per fair bit and a Bernoulli factor per residual bit, with biases obtained by iterating two explicit maps. The number of fair bits per input symbol tends to the entropy almost surely, also on larger alphabets. Code B stores the fair bits and codes only the residual with an arithmetic coder; its ideal length is that of the two-part code, at most $\log\_2(N+1)+1$ bits above $-\log\_2\Pr\_θ(s)$ for every input $s$ and bias $θ$. Code C uses Rice codes instead. In experiments up to $N=2^{20}$ its mean regret stays below $200$ bits, where a Rice coder on the raw input loses a fixed fraction of the entropy on skewed sources. For sources with memory, the Burrows--Wheeler transform of the reversed string arranges all context orders in one tree of intervals; coding the leaves of a pruned tree as Bernoulli strings adapts to every Markov order up to its depth, and on suffix-closed trees the leaf weights determine the split points.</description>
+    </item>
+    <item>
+      <title>Corrections to ``The Method of Gaps: Exact Expressions for the Generalization Error of Supervised Learning Algorithms''</title>
+      <link>http://arxiv.org/abs/2610.26245v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26245v1</guid>
+      <pubDate>Mon, 19 Oct 2026 12:05:49 +0000</pubDate>
+      <description>In this paper, a counterexample to Lemma 5 of the paper referenced in the title is provided. Consequently, the formulation of the method of data-driven gaps presented in the referenced paper relies on an additional assumption, namely, that the conditional distribution of the training dataset given the learned model has identical data-point-specific marginals. To overcome this limitation, a generalized formulation of the method of data-driven gaps that does not rely on Lemma 5 and does not require the training samples to be independent or identically distributed is presented. Through this formulation, the applicability of the method of data-driven gaps is extended to a broader class of data distributions and randomized learning algorithms.</description>
+    </item>
+    <item>
+      <title>A Hyperplane Bound and Ward's Divisibility Conjecture</title>
+      <link>http://arxiv.org/abs/2610.26200v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26200v1</guid>
+      <pubDate>Mon, 19 Oct 2026 11:28:30 +0000</pubDate>
+      <description>Let $q=p^f$, where $p$ is prime. We prove that every $q$-ary linear code meeting the Griesmer bound, with positive dimension and minimum distance $d\ge1$, is $p^{\max\{0,ν_p(d)-f+1\}}$-divisible, as asserted in Ward's conjecture. Arbitrary projective column multiplicities are allowed. The geometric ingredient is a bound independent of dimension: a nonzero scalar-invariant function $F:\mathbb{F}_q^k\to\mathbb{F}_p$, with $F(0)=0$ and prime-field algebraic degree at most $(f+s)(p-1)$, vanishes identically on at most $p^s(q-1)$ linear hyperplanes when $0\le s&lt;f$. A truncated digit-sum inequality forces selected coefficient polynomials to be homogeneous of ordinary degree less than $q$. Weighted moments on a projective line then bound their linear factors, while a second-moment argument handles the complementary support configuration. An elementary finite-difference calculation supplies the degree bound for divided weight residues. Endpoint shortenings prove the basic divisibility layers; endpoint lifting, a surjective linear functional, and residual-code induction extend the argument to every valuation. We include the proofs of the classical ingredients, identify their sources, and distinguish the present argument from an earlier reported unpublished proof.</description>
+    </item>
+    <item>
+      <title>On the Adaptive Covering Complexity of Strings: Unifying Relative and Self-Referential Compression</title>
+      <link>http://arxiv.org/abs/2610.26021v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26021v1</guid>
+      <pubDate>Mon, 19 Oct 2026 08:45:15 +0000</pubDate>
+      <description>We introduce and study the adaptive covering complexity C adapt S (s), defined as the minimum number of contiguous factor blocks required to partition a string s when each block is either a factor of a fixed external dictionary S or a factor of the target's already decoded prefix. This hybrid admissibility model formalizes the structural interaction between static dictionary matching and dynamic nonoverlapping self-referencing. Our main theoretical result is the exact logarithmic law which is tight and proves that dynamic self-reference can reduce phrase count by at most an exponential factor over static dictionary covering alone. We establish structural equivalences showing that the measure bridges word-segmented Relative Lempel-Ziv and non-overlapping LZ77, and we prove exact preset-history LZ77 sandwich bounds. Furthermore, we establish the optimality of the longest-match greedy parse via an exchange lemma and present an optimal implementation based on dual suffix automata running in O(M + n) time and space for a constant alphabet. These analytical results are complemented by counting bounds, stationary-ergodic asymptotic invariance, a dictionaryselection NP-hardness result, and a concise empirical illustration.</description>
+    </item>
+    <item>
+      <title>Optimal Priors for Betting Tests with Bounded Payoffs: An Exact Efficiency Characterization</title>
+      <link>http://arxiv.org/abs/2610.25821v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.25821v1</guid>
+      <pubDate>Mon, 19 Oct 2026 05:34:19 +0000</pubDate>
+      <description>Testing by betting is a powerful framework that recasts hypothesis testing as a betting game. A popular approach uses an $F$-weighted portfolio with a predefined prior $F$. For suitable priors, this approach has recently been shown to achieve the optimal expected rejection time as the error probability goes to zero at a fixed alternative. Yet, the prior $F$ changes how the portfolio test behaves near the null. This motivates the question: Which prior should we use in testing-by-betting algorithms? We study bounded scalar payoffs and introduce an efficiency measure that allows the error probability and alternative to vary jointly. Under mild assumptions, we prove that efficiency equals a logarithmic decay index of the prior near zero. This gives a necessary and sufficient condition for optimality: Beta priors have infinite efficiency, whereas suitable Robbins-type priors attain efficiency 1. As an application, we consider testing a specified mean of a bounded random variable and describe an implementation of the portfolio algorithm with almost-linear computational complexity.</description>
+    </item>
+    <item>
+      <title>Optimal single-track Gray codes from Gray-ordered necklaces</title>
+      <link>http://arxiv.org/abs/2610.24758v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24758v1</guid>
+      <pubDate>Sat, 17 Oct 2026 15:55:59 +0000</pubDate>
+      <description>A single-track Gray code of length $n$ is a cyclic Gray code of $n$-bit words in which every column is a cyclic shift of the first. For prime $n$ the longest possible period is $2^n-2$. Whether it is attained for every prime has been open since Hiltgen, Paterson and Brandestini introduced these codes in 1996, and optimal codes were known for primes $n\le 19$. We show that a conjecture of Degni and Drisko (2007) on the reflected Gray code order of necklaces implies optimal single-track Gray codes for every prime. Their list of necklaces, conjecturally a Gray path for prime $n$, closes into a Hamilton cycle of the necklace graph after $(n-3)/2$ explicit Pósa rotations, and such a cycle lifts to an optimal code. This implication is formalized in Lean 4. Together with computation it gives optimal single-track Gray codes for every odd prime $n\le 47$: for $n\le 37$ explicit codes checked word by word by a program independent of the generator, and for $n=41$, $43$ and $47$ codes obtained from the implication after the Degni-Drisko property was verified at these lengths by two independently written programs.</description>
+    </item>
+    <item>
       <title>Four New Single-Error-Correcting Binary Codes</title>
       <link>http://arxiv.org/abs/2610.23626v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23626v1</guid>
@@ -17,6 +66,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23459v1</guid>
       <pubDate>Fri, 16 Oct 2026 13:40:55 +0000</pubDate>
       <description>In this paper, we construct MRD constacyclic codes of length $p$ over an inseparable field extension $L/K$, where $K$ has characteristic $p$. In particular, these codes cannot be obtained from known constructions.</description>
+    </item>
+    <item>
+      <title>New lower bounds for binary constant-weight codes from prescribed-automorphism search, and two quantum codes meeting their upper bounds</title>
+      <link>http://arxiv.org/abs/2610.24025v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.24025v1</guid>
+      <pubDate>Fri, 16 Oct 2026 03:59:57 +0000</pubDate>
+      <description>We give explicit binary constant-weight codes that raise the lower bounds on $A(n,6,w)$ in eight cells of Brouwer's table, all now listed there. The first round (9 October 2026) gave four values: $A(27,6,11)\ge 19305$, $A(27,6,12)\ge 24453$, $A(28,6,10)\ge 18642$ and $A(28,6,9)\ge 11154$, together with an explicit $A(24,6,12)$ code of 5566 words, now in the table's list of lost codes. The second round (14 October 2026) gave seven values, listed in the table since 15 October 2026: $A(29,6,10)\ge 27183$, $A(29,6,11)\ge 42042$, $A(29,6,9)\ge 14781$, $A(28,6,10)\ge 19110$, $A(27,6,12)\ge 24804$, $A(28,6,9)\ge 11388$ and $A(27,6,13)\ge 27783$, three of which replace first-round values. Every code is a union of orbits of the semilinear affine group $\mathrm{AΓL}(1,27)$, its index-2 subgroup, or $\mathrm{AGL}(1,23)$, acting on all but at most two coordinates. The orbits were chosen by maximum-weight independent set search on the orbit conflict graph: branch and bound in the first round, iterated local search in the second. Each code was checked by two separately written programs over all pairs of words and was regenerated from its generators and orbit representatives. We also report two qubit stabilizer codes, $[[20,11,4]]$ and $[[43,32,4]]$, which raise the lower bounds of 3 listed at codetables.de to the listed upper bound 4.</description>
     </item>
     <item>
       <title>Controlled-Memory Identification with Shared Generators: Dimension--Horizon Tradeoffs and Quantum--Classical Separation</title>
@@ -647,62 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.28459v2</guid>
       <pubDate>Wed, 23 Sep 2026 17:52:50 +0000</pubDate>
       <description>We introduce Sharper Transductive Local Complexity (STLC), a localized complexity method for transductive learning under uniform sampling without replacement. The construction starts from a Bernstein-type concentration inequality for the supremum of the test--train empirical process. Its proof uses the modified log-Sobolev inequality for the swap walk and a two-parameter entropy closure. A peeling argument with a surrogate localization functional then gives excess-risk bounds with the same fixed-point and confidence terms as the classical inductive local Rademacher-complexity bounds, without the additional logarithmic confidence factor in earlier transductive results. For realizable learning over a binary class of VC dimension $\dVC$, with training size $m$, test size $u$, and $u\ge m\ge\dVC$, STLC yields $\cO\{\dVC\log(me/\dVC)/m\}$. This matches the standard inductive rate and, when $m\ge9$, is within a logarithmic factor of the transductive minimax lower bound of order $\dVC/m$. For transductive kernel learning, STLC gives a spectrum-adaptive excess-risk bound without the multiplicative imbalance factors appearing in the earlier local-complexity bound.</description>
-    </item>
-    <item>
-      <title>Stochastic Domination of Gaussian Maxima by the Regular Simplex</title>
-      <link>http://arxiv.org/abs/2609.28452v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.28452v1</guid>
-      <pubDate>Wed, 23 Sep 2026 17:48:06 +0000</pubDate>
-      <description>Let $n\ge2$, and let $X=(X_1,\ldots,X_n)$ be a centered Gaussian vector with $\mathrm{Var}(X_i)=1$ for every $i$. Let $Z_1,\ldots,Z_n$ be independent standard Gaussians, and put $\overline{Z}=(Z_1+\cdots+Z_n)/n$. We prove $\mathbb{P}\{\max_i X_i\le t\}\ge\mathbb{P}\{\sqrt{n/(n-1)}\,\max_i(Z_i-\overline{Z})\le t\}$ for every $t\in\mathbb{R}$, and for each fixed $t&gt;0$ equality holds only when $\mathrm{Cov}(X_i,X_j)=-1/(n-1)$ for all $i\ne j$. The right side is the distribution function of the maximum of the regular simplex vector. Equivalently, among all simplices containing a given centered ball, the regular simplex circumscribed about the ball has the least standard Gaussian measure, as conjectured by Balitskiy, Karasev, and Tsigler. In our preceding paper we proved this comparison after both maxima are smoothed by independent Gaussian noise of variance $1/(n-1)$, which suffices for the Weak Simplex Conjecture; here we remove the smoothing, which is what probabilities at a single threshold require. As an application we consider $n$ equally likely signals of equal energy in Gaussian noise, where the transmitter may also send nothing. At every positive false-alarm level, and for every law of a common nonnegative random amplitude not concentrated at zero, the regular simplex uniquely maximizes the average probability of correct identification whenever the signal dimension is at least $n-1$. A Lean formalization is available at https://github.com/abhmul/full-simplex-conjecture-lean.</description>
-    </item>
-    <item>
-      <title>Diagnosing the Refuted Mismatched Decoding Converse for Binary-Input Channels</title>
-      <link>http://arxiv.org/abs/2609.28109v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.28109v1</guid>
-      <pubDate>Wed, 23 Sep 2026 13:43:06 +0000</pubDate>
-      <description>We revisit the claimed converse theorem for mismatched decoding over binary-input discrete memoryless channels (Balakirsky, 1995) and the subsequent work refuting this converse via a numerical counter-example (Scarlett, Somekh-Baruch, Martinez, and Guillén i Fàbregas, 2015). A notable gap in the existing understanding is that no concrete flaw was identified in Balakirsky's analysis. In this paper, Balakirsky's proof is "diagnosed", and it is demonstrated that (i) his permutation lemma is flawed regardless of the correctness of his combinatorial approximation lemma; (ii) there are at least two specific incorrect steps regarding restricted codes and selector sequences, and these appear to be unlikely to admit a local repair; and (iii) the proposition in which these incorrect steps are used is false in general.</description>
-    </item>
-    <item>
-      <title>Three Conjectures on Binary Channels for the Doubly Symmetric Binary Source</title>
-      <link>http://arxiv.org/abs/2609.27991v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27991v1</guid>
-      <pubDate>Wed, 23 Sep 2026 12:18:38 +0000</pubDate>
-      <description>We settle three conjectures concerning a doubly symmetric binary source $(X,Y)$ with crossover $p$. Consider Markov chains $U - X - Y - V$ with $U,V$ binary, and let $\mathcal{A}$ be the set of rate triples $(I(U;V),I(U;X),I(Y;V))$ attainable with arbitrary binary channels $X\to U$, $Y\to V$, and $\mathcal{B}$ the subset attainable with binary symmetric channels. The averaged BSC conjecture, Conjecture 5.2 of Pichler, Piantanida and Matz (2022), asserts $\operatorname{conv}\mathcal{A}=\operatorname{conv}\mathcal{B}$. We prove this for every $p\in[0,1]$. Two conjectures of Dikshtein, Ordentlich and Shamai (2022) concern the double-sided information bottleneck at $p=0$, where $Y=X$ and the two channels see the same source: their Conjecture 1 identifies the exact maximum of $I(U;V)$ at prescribed rates $I(U;X)$ and $I(Y;V)$, and their Conjecture 2 the exact minimum. We prove both for binary $U,V$: the two extrema are attained by the same pair of Z/S-channels, in opposite orientation for the maximum and in the same orientation for the minimum. The proofs were found with substantial AI assistance, and all three theorems are formalised in Lean 4 with Mathlib, depending only on the standard axioms. The development is available at https://github.com/g-pichler/bsc-averaging . The proof of Conjecture 1 of Dikshtein, Ordentlich and Shamai (2022) contains three certified computations, a polynomial bound, an interval sweep and a polynomial positivity certificate, all of which are checked in Lean.</description>
-    </item>
-    <item>
-      <title>A new upper bound for Sidon sets in $\mathbb{F}_2^{4k+3}$</title>
-      <link>http://arxiv.org/abs/2609.27731v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27731v1</guid>
-      <pubDate>Wed, 23 Sep 2026 11:45:54 +0000</pubDate>
-      <description>A subset $S \subseteq \mathbb{F}_2^n$ is called a Sidon set if no four distinct points of $S$ have zero sum. It is shown that if $n \geq 7$ and $n \equiv 3 \mod 4$, then $|S|\leq 2^{\frac{n+1}{2}}-3$. As a consequence, for any even $t \geq 4$, there does not exist a binary linear $[2^t-3,2^t-2t-2,5]$-code, strengthening a nonexistence result of Brouwer and Tolhuizen from 1993. As a second consequence, we also show that for an even integer $n \geq 4$, every almost perfect nonlinear (APN) function $F \colon \mathbb{F}_2^n \to \mathbb{F}_2^n$ has nonlinearity at least $3$.</description>
-    </item>
-    <item>
-      <title>Action-Directed Information for Distributed Control and Agentic Interaction</title>
-      <link>http://arxiv.org/abs/2609.27580v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27580v1</guid>
-      <pubDate>Wed, 23 Sep 2026 09:00:01 +0000</pubDate>
-      <description>Distributed intelligence concerns systems in which semi-autonomous components with local dynamics and partial observations coordinate through information exchange to maintain a shared function. This paper proposes an operational way to study such systems: measure information at the interface where a message changes a receiving action, then connect that measure to function by intervention and disturbance evaluation. We instantiate this proposal in DI-Walker, a two-dimensional four-limb embodied plant controlled by frozen Cross-Entropy-Method policies. We compare a controller using each limb's own realized-force sensor with one using the realized-force sensors of peer limbs. Under limb loss, limb slip, and weak central-control dropout, Peer-Sensor has lower late tracking error in several conditions. A corrected finite-history action-predictive estimator shows a substantially larger peer-message gain under compound failure. A future scalar functional-prediction estimator does not show the same stable advantage. We interpret this discrepancy as a methodological result: information useful for an intermediate control action can be hidden by later plant dynamics, redundancy, and context. The paper relates this result to Predictive Information, Transfer Entropy, Directed Information, information-to-go/IT-PAC ideas, empowerment, and the robust control data-rate perspective, while explicitly distinguishing operational predictive gains from exact Directed Information, channel capacity, and a formal data-rate theorem.</description>
-    </item>
-    <item>
-      <title>The Sharp Rényi and Tsallis Threshold in the Shepp--Olkin Concavity Problem</title>
-      <link>http://arxiv.org/abs/2609.27433v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27433v1</guid>
-      <pubDate>Wed, 23 Sep 2026 06:50:55 +0000</pubDate>
-      <description>Let $B_1,\ldots,B_n$ be independent Bernoulli random variables with parameters $p_1,\ldots,p_n$, and let $S=\sum_i B_i$. Hillion and Johnson proved that the Shannon entropy of $S$ is jointly concave in the parameter vector and proposed corresponding critical-order conjectures for R'enyi and Tsallis entropies, with predicted thresholds $2$ and approximately $3.65986$, respectively. We determine both thresholds exactly. For every $0&lt;q&lt;1$, the power sum $\sum_k \mathbb P(S=k)^q$ is jointly concave in $(p_1,\ldots,p_n)$, and strictly concave on the open parameter cube. Consequently, the R'enyi and Tsallis entropies of order $q$ are jointly concave. At $q=1$ this agrees with the Shannon theorem. For every $q&gt;1$, joint concavity fails already for the sum of two Bernoulli variables: a transverse interpolation in which the two parameters move in opposite directions gives strict local convexity for both entropies. Hence the universal joint-concavity range for both families is exactly $0&lt;q\leq 1$. Below order one, the proof combines the Hillion--Johnson transport inequality with an explicit nonlinear telescoping correction. The corrected local curvature reduces to a two-dimensional quadratic form. An exact Riccati identity, together with a one-sided zero-crossing argument, proves positivity of its determinant throughout the full range $0&lt;q&lt;1$.</description>
-    </item>
-    <item>
-      <title>The Risk-Sensitive Schrödinger Bridge: Is Not a KL Projection</title>
-      <link>http://arxiv.org/abs/2609.27250v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27250v1</guid>
-      <pubDate>Wed, 23 Sep 2026 02:35:39 +0000</pubDate>
-      <description>The Schrödinger bridge owes its computational power to a single structural fact: by Girsanov's theorem the controlled problem is a Kullback--Leibler (KL) projection onto a fixed reference measure, solvable by alternating projections. This letter shows that the fact does not survive risk sensitivity. When the expected path cost is replaced by the entropic risk measure and both endpoint marginals are kept as hard constraints, the resulting fixed-point bridge value $J_θ$ (the soft-problem value at the multiplier that enforces the terminal constraint) admits no representation as a constrained KL minimum against any fixed path-space reference with a regular endpoint law (a class strictly larger than the uniformly elliptic diffusion references: no Markov property is required), even allowing an additive normalisation depending on the initial marginal. Moreover, no single reference generates the one-parameter family in the risk parameter. The obstruction is computed in closed form: the Gaussian bridge value violates, by exactly $θ/2$, a heat equation that any Gaussian smoothing of a fixed endpoint density must obey. In place of the projection, the theory rests on a terminal-multiplier fixed point and an asymmetric factorisation penalising the score energy of the backward factor.</description>
-    </item>
-    <item>
-      <title>Lower Bounds for all List-Decodable Deletion Codes</title>
-      <link>http://arxiv.org/abs/2609.26650v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.26650v1</guid>
-      <pubDate>Tue, 22 Sep 2026 16:18:52 +0000</pubDate>
-      <description>A length-$n$ binary $k$-deletion code is a set of binary strings such that if we delete any $k$ bits of a string, leaving a length-$(n-k)$ binary string, we can uniquely recover the codeword. In this paper, we consider $t$-list decodable deletion codes, where after $k$ bits of a codeword are deleted, we can identify a list of size at most $t$ such that the original codeword lies in the list. We prove a lower bound of $Ω_k(2^n t\log^{1/t}n/n^{k+k/t})$ on the optimal size of a $t$-list decodable $k$-deletion code, giving a $\sqrt{\log n}$ improvement over the previously best known bounds for $2$-list decodable $2$-deletion codes [GH21] and providing the first nontrivial lower bound when $t&gt;2$ or $k&gt;2$. Our bound holds for all $t\leq n^k$, showing that $t=Ω(\log n)-$list decodable deletion codes have optimal size $Θ_k(2^n t/n^k)$, asymptotically matching the known upper bound. We also prove upper bounds on the number of common subsequences and common supersequences of a given length for any two binary strings.</description>
     </item>
   </channel>
 </rss>

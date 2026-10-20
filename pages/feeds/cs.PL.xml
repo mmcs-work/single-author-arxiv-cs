@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Polarized Scheme: duality of computation, delimited control, and continuation-passing macro Interleaving</title>
+      <link>http://arxiv.org/abs/2610.26266v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.26266v1</guid>
+      <pubDate>Mon, 19 Oct 2026 12:22:30 +0000</pubDate>
+      <description>Static type systems for Scheme have traditionally followed one of two paths: manifest type checking with multi-dispatch (Clifton and Leavens, 2005) or latent occurrence typing tailored for untyped interoperation (Tobin-Hochstadt and Felleisen, 2008). In this paper, we propose Polarized Scheme, a static foundation built upon polarized type theory and the duality of computation. In Polarized Scheme, values are positive data producers (A+) and continuations are negative observation consumers (~A+). Functions operate symmetrically under dual viewpoints: as forward value-transformers and as backward continuation-transformers. Computation exists exclusively at the interaction cut &lt;P|K&gt; executed on a focus-and-context abstract machine separating positive data focus from negative return contexts (R). Delimited control (shift/reset) and continuation marks are expressed directly as Return Stack frame operations parameterized by the prompt's ambient answer type without polluting producer data types. Furthermore, we formalize the hygienic macro system as an interleaved continuation-passing pipeline, where macro expansion erects its own continuation hierarchy nesting into runtime evaluation. We prove Subject Reduction, Progress with respect to prompt-delimited stacks, prove Duality Bisimilarity, characterize Return Stack reclamation for dynamic closures, and report on an executable reference implementation in a verified dialect of Go with a verified cut-elimination dispatcher</description>
+    </item>
+    <item>
       <title>FAOPs: Normal Forms and an Algebra for AI Agent Workflows</title>
       <link>http://arxiv.org/abs/2610.22061v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.22061v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.27805</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 -0000</pubDate>
       <description>Monads are a ubiquitous structure in functional programming used for modelling computational effects. For example, the state monad models the effect of a computation interacting with a memory system. Here we introduce the quantum instrument monad $\mathcal{I}_\mathcal{A}$, which models the effect of a computation interacting with a quantum system with algebra of observables $\mathcal{A}$. It can be thought of as a noncommutative generalization of the state monad. We construct this quantum instrument monad in two versions: a finitary version on the category of sets and a measure-theoretic version on the category of measurable spaces (the latter under the assumption that $\mathcal{A}$ is a type I von Neumann algebra with separable predual). Both versions are strong monads. The construction of the measure-theoretic version is based on a new notion of integral of a quantum-operation-valued function against a state-valued measure.</description>
-    </item>
-    <item>
-      <title>Beyond Objects</title>
-      <link>https://arxiv.org/abs/2606.27258</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.27258</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 -0000</pubDate>
-      <description>A core principle of object orientation -- that the functionality of a system can be partitioned amongst objects that correspond to individuals in the problem domain -- has influenced how software has been specified, designed and implemented for more than fifty years. Later developments in software engineering sought to build on this principle. But in fact this partitioning is neither natural nor straightforward, and the problems that these later developments sought to mitigate -- the fragmentation and conflation of functionality -- were often, in fact, the inevitable consequences of this founding principle. An easier path to addressing these problems therefore starts by going back, abandoning object orientation, and replacing it with an alternative approach that decouples the individuals of the problem domain from the modules that partition functionality.</description>
     </item>
   </channel>
 </rss>
