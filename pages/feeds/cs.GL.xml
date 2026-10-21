@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Michael Rabin's fingerprints across the theory of computation</title>
+      <link>http://arxiv.org/abs/2610.27314v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27314v1</guid>
+      <pubDate>Mon, 19 Oct 2026 21:36:28 +0000</pubDate>
+      <description>Michael O. Rabin was a major founder and leader of theoretical computer science. He died on April 14, 2026, at the age of 94. This paper aims to survey the wide scope and lasting impact of his research.</description>
+    </item>
+    <item>
       <title>OnBodyAI - Why the Next AI Needs a Body</title>
       <link>http://arxiv.org/abs/2610.21137v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.21137v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/cs/0602070</guid>
       <pubDate>Mon, 20 Feb 2006 00:00:00 -0000</pubDate>
       <description>The technical challenges of scaling websites with large and growing member bases, like social networking sites, are numerous. One of these challenges is how to evenly distribute the growing member base across all available resources. This paper will explore various methods that address this issue. The techniques used in this paper can be generalized and applied to various other problems that need to distribute data evenly amongst a finite amount of resources.</description>
-    </item>
-    <item>
-      <title>Emergence Explained</title>
-      <link>https://arxiv.org/abs/cs/0602045</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/cs/0602045</guid>
-      <pubDate>Sun, 12 Feb 2006 00:00:00 -0000</pubDate>
-      <description>Emergence (macro-level effects from micro-level causes) is at the heart of the conflict between reductionism and functionalism. How can there be autonomous higher level laws of nature (the functionalist claim) if everything can be reduced to the fundamental forces of physics (the reductionist position)? We cut through this debate by applying a computer science lens to the way we view nature. We conclude (a) that what functionalism calls the special sciences (sciences other than physics) do indeed study autonomous laws and furthermore that those laws pertain to real higher level entities but (b) that interactions among such higher-level entities is epiphenomenal in that they can always be reduced to primitive physical forces. In other words, epiphenomena, which we will identify with emergent phenomena, do real higher-level work. The proposed perspective provides a framework for understanding many thorny issues including the nature of entities, stigmergy, the evolution of complexity, phase transitions, supervenience, and downward entailment. We also discuss some practical considerations pertaining to systems of systems and the limitations of modeling.</description>
     </item>
   </channel>
 </rss>

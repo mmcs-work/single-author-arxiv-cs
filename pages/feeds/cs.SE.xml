@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks</title>
+      <link>http://arxiv.org/abs/2610.28027v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28027v1</guid>
+      <pubDate>Tue, 20 Oct 2026 11:16:01 +0000</pubDate>
+      <description>Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a framework includes is one configuration change away for its users. We measure how often this happens. We trace seven open-source frameworks for RL post-training through their commit histories and link them to 6,939 screened arXiv papers from January 2025 to June 2026. Of 1,598 papers that propose a general RL training method, 37 reached at least one framework. Across five quarterly cohorts of papers, the number included within 180 days stayed between 5 and 7 while the cohorts grew from 72 to 386 papers. Compared with papers from the same quarters, included papers more often trained policies of 30B parameters or more, at 41 against 10 percent, and more often changed a coefficient, clip, mask or weight in the existing loss, at 29 against 9 percent. Both gaps hold without papers from the companies that maintain the frameworks, while code release was equally common in both groups. The frameworks' issues and pull requests show that few methods are turned away in public. More than nine in ten of the general methods no framework included have no thread there that cites or names them, and many proposals that do appear stay open without a reply. Two further records, the frameworks' issues and the technical reports of 13 large open-weight models, show that users rarely report training failures in public and that the reports state 8 of the 13 widely included methods. We release the data as a tracker that links training failures to framework implementations and lists each framework's contribution rules and earlier proposals.</description>
+    </item>
+    <item>
+      <title>Knowledge as Code</title>
+      <link>http://arxiv.org/abs/2610.27693v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27693v1</guid>
+      <pubDate>Tue, 20 Oct 2026 06:13:24 +0000</pubDate>
+      <description>For millennia, knowledge has been carried by language, and large language models still put language at the center. Yet the coding agents built on these models mostly write code. This paper is a contribution to epistemology, which asks what kind of knowledge code is and how it is obtained. We define knowledge as code as knowledge written in a programming language or in a machine-parsable data format, whose validity can be checked by executing it. We define thirteen epistemic properties of knowledge media and show that code is the first medium to have all of them. We distinguish two ways in which knowledge enters code, encoding and learning by execution, where code is both the experiment and the record of its result. Agents make learning by execution observable, since their trajectories record every probe, observation and line of code they keep. Code is thus not only a tool of knowledge work but a knowledge medium in its own right, the first that can check what it holds.</description>
+    </item>
+    <item>
       <title>When Does UML Software Modeling Pay Off? A Contingency Model of Industrial Modeling Value</title>
       <link>http://arxiv.org/abs/2610.24884v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.24884v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.13321v1</guid>
       <pubDate>Thu, 10 Sep 2026 19:59:07 +0000</pubDate>
       <description>A folder of competent skills is not yet a reliable system. Skills rarely fail alone; they fail at the seams of a collection. As an agent's skill library grows, procedures compete for attention, aliases double-load, boundaries blur, and poorly sized skills turn routing errors into task failures. We introduce SkillSeam, a method that audits the relationships through which individual skill files become a system. It maps each collection-level principle to a failure mechanism, its strongest observable, and a controlled perturbation test. From one sealed skill system, SkillSeam perturbs six design principles: persistence gradient, system coherence, regime gating, orthogonal coverage, flow, and granularity discipline. Crucially, each principle is evaluated through the channel its failure mechanism predicts rather than through accuracy alone. Flattening the persistence hierarchy increases loaded-skill tokens by 60%; a dangling anchor raises total tokens by 64% and shifts accuracy by -3.1pp; with skill count and context size held fixed, replacing an unrelated control with a synonymous alias raises noncanonical routes from 0/32 to 15/32 and flips half of matched paraphrase pairs; in a candidate-ownership audit, overlapping lanes raise reported ownership conflicts from 0/16 to 14/16; bland triggers drive routing conflicts from 3/32 to 30/32 and inflate loaded-skill tokens 3.7x; and one granularity mis-mix produces the largest accuracy drop, -12.5pp. These outcomes turn six pieces of authoring advice into testable system properties without treating every probe as confirmation. We release the byte-differenced variants, task slices, rollups, and a one-screen design checklist so that other skill systems can measure the same failure channels.</description>
-    </item>
-    <item>
-      <title>An analysis of the relationship of input metrics</title>
-      <link>http://arxiv.org/abs/2609.11824v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.11824v1</guid>
-      <pubDate>Thu, 10 Sep 2026 17:21:26 +0000</pubDate>
-      <description>Input metrics evaluate the progress of testing in terms of features of inputs present in a test suite. Previous works, as early as the 1950s, established a number of such metrics, but few endeavored to compare them. This paper does so by utilizing existing methods proposed for other metric classes in partition testing literature. After defining and reviewing common input metrics, we begin with a short case study revealing that typical empirical comparison strategies are fundamentally insufficient for comparing metrics. Then, we demonstrate how one rigorously improves a standard metric by defining and implementing $k$-alt-path, a new metric which reduces redundancy while improving sensitivity over $k$-path. Each of the other common input metrics are then systematically compared before discussing the implications of our findings. With these contributions, we bring forward partition testing analysis methods that justify and form a strategy for future research in refining input metrics.</description>
-    </item>
-    <item>
-      <title>Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase</title>
-      <link>http://arxiv.org/abs/2609.11728v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.11728v1</guid>
-      <pubDate>Thu, 10 Sep 2026 15:43:34 +0000</pubDate>
-      <description>Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible for verifying these artifacts and the scientific judgments they encode.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Quantum-Classical Hybrid Methods for Optimization: Lessons from Classical Decomposition</title>
+      <link>http://arxiv.org/abs/2610.27362v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27362v1</guid>
+      <pubDate>Mon, 19 Oct 2026 22:42:40 +0000</pubDate>
+      <description>Quantum and physics-inspired solvers provide specialized sampling interfaces for Ising and quadratic unconstrained binary optimization models, but constrained optimization requires broader coordination and certification. This survey uses classical decomposition to analyze how such solvers can be integrated into hybrid quantum-classical algorithms. We distinguish formal decomposition, reformulation and reduction, and computational orchestration. For each interface, we ask what the transformation preserves, which assumptions make the outer method converge, and which certificates the implemented inner routine supplies. The central questions are whether that information meets the classical algorithm's requirements and whether hybridization improves solution quality or total cost enough to justify its coordination overhead. Benders decomposition, column generation, graph reduction, and copositive methods illustrate this distinction by separating heuristic proposals from classical certification. We also distinguish component effects within a fixed wrapper, reduction--solver interactions, and comparisons between complete quantum-enabled and classical systems. The analyzed studies provide conditional component benefits and favorable co-design evidence, but do not establish transferable end-to-end superiority over strong classical comparators. The resulting framework identifies opportunities for constraint programming and operations research in structure-preserving design, safeguarded hybrid algorithms, and controlled benchmarking.</description>
+    </item>
+    <item>
       <title>Bidirectionality is Necessary in Cellular Machines for Exact-Arrival Multi-Agent Path Finding</title>
       <link>http://arxiv.org/abs/2610.26272v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.26272v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.05379</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
       <description>Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments. In these settings, access control can be enforced correctly while the system still produces an answer that appears complete even though material evidence lies outside the caller's authorization boundary. This paper introduces Partial Evidence Bench, a deterministic benchmark for measuring that failure mode. The benchmark ships three scenario families -- due diligence, compliance audit, and security incident response -- with 72 tasks total, ACL-partitioned corpora, oracle complete answers, oracle authorized-view answers, oracle completeness judgments, and structured gap-report oracles. It evaluates systems along four surfaces: answer correctness, completeness awareness, gap-report quality, and unsafe completeness behavior. Checked-in baselines show that silent filtering is catastrophically unsafe across all shipped families, while explicit fail-and-report behavior eliminates unsafe completeness without collapsing the task into trivial abstention. Preliminary real-model runs show model-dependent and scenario-sensitive differences in whether systems overclaim completeness, conservatively underclaim, or report incompleteness in an enterprise-usable form. The benchmark's broader contribution is to make a governance-critical agent failure measurable without human judges or contamination-prone static corpora.</description>
-    </item>
-    <item>
-      <title>On the Reliability of Information Retrieval From MDS Coded Data in DNA Storage</title>
-      <link>https://arxiv.org/abs/2502.06618</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.06618</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
-      <description>This work presents a theoretical analysis of the probability of successfully retrieving data encoded with MDS codes (e.g., Reed-Solomon codes) in DNA storage systems. We study this probability under independent and identically distributed (i.i.d.) substitution errors, focusing on a common code design strategy that combines inner and outer MDS codes. Our analysis demonstrates how this probability depends on factors such as the total number of sequencing reads, their distribution across strands, the rates of the inner and outer codes, and the substitution error probabilities. These results provide actionable insights into optimizing DNA storage systems under reliability constraints, including determining the minimum number of sequencing reads needed for reliable data retrieval and identifying the optimal balance between the rates of inner and outer MDS codes.</description>
     </item>
   </channel>
 </rss>

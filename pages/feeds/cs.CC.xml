@@ -5,6 +5,69 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of $ω\le9/4$</title>
+      <link>http://arxiv.org/abs/2610.28627v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28627v1</guid>
+      <pubDate>Tue, 20 Oct 2026 17:59:14 +0000</pubDate>
+      <description>We give a self-contained constructive proof that the matrix multiplication exponent satisfies $ω\le9/4$. This bound was recently claimed by OpenAI~\cite{original} through non-constructive arguments in Strassen's asymptotic spectral framework, counting exact scalar arithmetic operations over the complex numbers. We explicitly construct a Strassen-style matrix multiplication identity and obtain the bound by ordinary block recursion. For every $γ&gt;0$, the resulting algorithm multiplies two $n\times n$ integer matrices using $O(n^{9/4+γ})$ integer arithmetic operations.</description>
+    </item>
+    <item>
+      <title>Hidden parabolic subgroups of $\mathrm{GL}_n$ over finite chain rings</title>
+      <link>http://arxiv.org/abs/2610.28368v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28368v1</guid>
+      <pubDate>Tue, 20 Oct 2026 15:27:54 +0000</pubDate>
+      <description>We give a bounded-error quantum polynomial-time algorithm for finding hidden parabolic subgroups of $\mathrm{GL}_n(R)$ over any effectively presented finite chain ring $R$. We call auxiliary group elements or subgroups used to extract information through oracle queries \emph{probes}. For chain length at least two, elementary abelian socle probes first recover the complete flag modulo the maximal ideal. When the residue field has size $q\ge3$, we reconstruct the flag recursively, lifting rank-one terminal members one digit at a time. The intermediate digits reduce to abelian hidden subgroup problems, while the final digit is a finite-field multiple-shift problem solved using learning from subset and Fourier sampling. For $q=2$, where distinct flags can have the same stabilizer, we instead lift the conjugate parabolic subgroup through the congruence filtration. A final linear system determines it modulo normalizer directions. The algorithm outputs generators with probability at least $1-ε$ in time $\mathrm{poly}(n,\log|R|,\log(1/ε))$. Consequences include $\mathrm{GL}_n(\mathbb{Z}/N\mathbb{Z})$ for every $N\ge2$ and, with an explicit maximal-order presentation, $\mathrm{GL}_n(\mathcal{O_K}/N\mathcal{O_K})$ for number fields $K$.</description>
+    </item>
+    <item>
+      <title>Lower Bounds for Minimal-Transversal Enumeration of Bounded-Dimension Hypergraphs and the maximum Minimal Hitting Set Problem</title>
+      <link>http://arxiv.org/abs/2610.28012v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28012v1</guid>
+      <pubDate>Tue, 20 Oct 2026 10:58:15 +0000</pubDate>
+      <description>We present lower bounds for the maximum minimal hitting set problem and for the problem of enumeration of minimal transversals in bounded-dimension hypergraphs. Our starting point is the recent reduction of Kobayashi, Kurita, and Wasa (2026), developed to establish ETH-based hardness of hypergraph dualization. Adapting their construction, we show that, under ETH, deciding whether a hypergraph $\mathcal{G}$ with $n$ vertices and $m$ hyperedges has a minimal transversal of size at least $k$ cannot be done in time $n^{f(k)}m^{o(k)}$, for an arbitrary computable $f$. We transfer this bound to the following decision problem: given a dimension-at-most-$r$ hypergraph and a family of $s$ of its minimal transversals, decide whether another exists. Under ETH, this problem admits no uniform algorithm with running time $n^{f(r)}(s+1)^{o(r)}$. Under SETH, for every fixed $t \geq 2$, it admits no algorithm with running time $\poly(|\mathcal{G}|)(s+1)^c$ for dimension at most $2t$ and any $c&lt;t$. As corollaries, the same exponent obstructions hold for the total time of any output-polynomial enumeration algorithm, with $s$ replaced by the total number of minimal transversals. In particular, polynomial delay is excluded under SETH already for dimension at most four.</description>
+    </item>
+    <item>
+      <title>A 55-Addition Rank-23 Scheme for $3\times3$ Matrix Multiplication via Exact Two-Sided Minimization</title>
+      <link>http://arxiv.org/abs/2610.27451v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27451v1</guid>
+      <pubDate>Tue, 20 Oct 2026 01:00:29 +0000</pubDate>
+      <description>We give a scheme that multiplies two $3\times3$ matrices with 23 multiplications and 55 additions over any ring, one addition below the previous record of 56 (Sun, 2026) and the first below 56 for exact non-commutative $3\times3$ multiplication without a change of basis. The scheme forms 13 signed combinations of the entries of A and 14 of B, takes 23 products, and recombines them with 28 further additions; its correctness is machine-checked in Lean 4. The previous records, from 60 down to 56, were obtained by greedy common-subexpression elimination, which only bounds each side of a scheme from above. We minimize both input sides exactly by chain covering, and the output side exactly through the transposition principle: the 9-by-23 output map costs its transpose plus 14, and the transpose is a 9-input map that the input-side minimizer solves exactly. Applied to Perminov's cn122 scheme (class i19w225c4efh, published at 58 additions) this gives 55 = 13 + 14 + 28, where greedy elimination reaches only 29 on the output side. The same method shows that Sun's representative is output-optimal at 56, and an exact orbit-wide computation over the Heule-Kauers-Seidl database shows that the record class is the only database class attaining 55.</description>
+    </item>
+    <item>
+      <title>Simple Strategy-Iteration with Dantzig's Rule is not Strongly Polynomial on Turn-Based Deterministic Games</title>
+      <link>http://arxiv.org/abs/2610.27386v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27386v1</guid>
+      <pubDate>Mon, 19 Oct 2026 23:19:32 +0000</pubDate>
+      <description>We study turn-based deterministic zero-sum games with discounted and long-run average costs. For discounted costs, we establish exponential and superpolynomial iteration lower bounds for the simple strategy-iteration method with Dantzig's rule under unrestricted costs and unit weights, respectively. To the best of our knowledge, this shows for the first time that the method is not strongly polynomial even when all action costs belong to $\{-1,0,1\}$. For long-run average costs, we establish an exponential iteration lower bound for termination of a Dantzig counterpart with unrestricted costs and prove that it admits a strongly polynomial implementation with unit weights.</description>
+    </item>
+    <item>
+      <title>On the Support Geometry and Complexity of LABS</title>
+      <link>http://arxiv.org/abs/2610.27329v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27329v1</guid>
+      <pubDate>Mon, 19 Oct 2026 21:45:22 +0000</pubDate>
+      <description>LABS are a fundamental combinatorial optimization problem arising in sequence design and statistical physics, yet the formal complexity of the standard fixed-geometry problem remains unresolved. We study how zero-energy complexity changes when support geometry is included as part of the input and then progressively restricted. For unary standard LABS, we establish membership in $\NP$ and a sparsity/Mahaney consequence: Karp NP-hardness would imply $\Ptime=\NP$. For Pair-Set-LABS and Masked-LABS, zero-energy feasibility is polynomial-time decidable when every pair group or masked row has at most three terms and is NP-complete when four terms are allowed. NP-completeness persists when active supports are restricted to contiguous intervals.</description>
+    </item>
+    <item>
+      <title>Small sums of roots of unity: polylogarithmic exceptional sets and conditional separation</title>
+      <link>http://arxiv.org/abs/2610.27231v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27231v1</guid>
+      <pubDate>Mon, 19 Oct 2026 19:59:28 +0000</pubDate>
+      <description>We prove a polylogarithmic exceptional-set estimate for symmetric five-term sums of roots of unity of arbitrary order. More precisely, at most $O((\log(2N))^{11})$ points of the $N$-grid satisfy $|1+2\cos(2πx)+2\cos(2πy)|&lt;\exp(-C(\log(2N))^{13})$. This implies the corresponding bound for small conjugates at the reduced conductor: outside polylogarithmically many real embeddings, every such sum is at least quasipolynomially large. The proof is unconditional and combines a polynomial-vector-field multiplicity estimate, arithmetic jet determinants, analytic propagation, and interpolation determinants for nearby grid points. As a companion result, assuming a uniform number-field $abc$ conjecture, we prove that every sum of a fixed number of distinct prime-order roots of unity has modulus at least $\exp(-\varepsilon p)$ for every $\varepsilon&gt;0$ and all sufficiently large primes $p$, uniformly in the exponents. That proof uses simultaneous compression of the exponents, discriminant estimates, and cyclic resultants.</description>
+    </item>
+    <item>
+      <title>A Short Note on Algorithms For The Noisy $k$-XOR Problem</title>
+      <link>http://arxiv.org/abs/2610.27147v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27147v1</guid>
+      <pubDate>Mon, 19 Oct 2026 18:41:45 +0000</pubDate>
+      <description>This mostly expository note studies the sample-noise regimes in which the testing problem for noisy $k$-XOR in dimension $n$ can be efficiently solved. Concretely, we ask what pairs $(β, δ)$ admit algorithms running in time $n^{O(k)}$ where $m = n^β, β\in [0,k]$ is the number of samples and $\mathsf{Bern}(n^{-δ}),δ\in (0,+\infty)$ is the noise distribution. The current state-of-the-art algorithms are: I. A folklore algorithm when $β&gt; 1, δ&gt;1$ based on Gaussian elimination; II. A folklore algorithm when $β\ge k/2$ based on the birthday paradox; III. A recent algorithm in the regime $β&gt; δ+ k(1-δ), δ\in (0,1)$ based on a reduction to the first algorithm [DJ24,CSZ24]. IV. Extending [AF09], we strictly improve the last regime to $β&gt; δ+ (k-1)(1-δ), δ\in (0,1).$ These algorithms correspond to efficiently finding short cycles in uniform hypergraphs and can be equivalently phrased as algorithmic Moore bounds.</description>
+    </item>
+    <item>
+      <title>Partitionability is NP-complete</title>
+      <link>http://arxiv.org/abs/2610.27083v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27083v1</guid>
+      <pubDate>Mon, 19 Oct 2026 18:00:04 +0000</pubDate>
+      <description>We show that the problem of deciding whether a simplicial complex is partitionable is NP-complete in dimensions two and higher, answering a 1995 question of Kleinschmidt and Onn.</description>
+    </item>
+    <item>
       <title>Bidirectionality is Necessary in Cellular Machines for Exact-Arrival Multi-Agent Path Finding</title>
       <link>http://arxiv.org/abs/2610.26272v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.26272v1</guid>
@@ -640,69 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.25765v1</guid>
       <pubDate>Tue, 22 Sep 2026 06:57:59 +0000</pubDate>
       <description>The Remote Point Problem (RPP) is an algorithmic problem that asks, given a linear subspace $L \subseteq \mathbb{F}^n$ of dimension $k$, to deterministically find a vector $v \in \mathbb{F}^n$ far in Hamming distance from $L$. This problem was introduced by Alon, Panigrahy and Yekhanin [APY09], motivated in part by the matrix rigidity approach for proving circuit lower bounds. An algorithm is said to achieve remoteness $d$ if it finds a vector $v$ whose Hamming distance from $L$ is at least $d$. We observe that over the rational numbers, the problem admits a deterministic polynomial-time algorithm that achieves optimal remoteness $n-k$. Over finite fields, we obtain a (modest) improvement of a result of Alon, Panigrahy and Yekhanin [APY09], and give an algorithm that achieves remoteness $Ω\left(\frac{n}{\max\{k, \log n\}} \log n\right)$.</description>
-    </item>
-    <item>
-      <title>Formalizing PARITY Circuit Lower Bounds in Lean</title>
-      <link>http://arxiv.org/abs/2609.24188v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.24188v1</guid>
-      <pubDate>Mon, 21 Sep 2026 07:00:51 +0000</pubDate>
-      <description>We formalize Hastad's PARITY lower bound in Lean using the switching lemma. For every fixed d &gt;= 2, formulas and DAG circuits of computation depth at most d computing PARITY on n inputs require size exp(Omega_d(n^(1/(d-1)))) for all sufficiently large n. This matches the classical upper bound up to constants in the exponent and implies that PARITY is not in nonuniform AC0. We also construct a polynomial-size, logarithmic-depth bounded-fan-in formula family for PARITY, providing a witness to NC1 is not a subset of AC0 for the formalized models. The Lean source code is available at https://github.com/formalcs/circuit-complexity and is checked with Lean 4.33.1 and mathlib 4.33.1.</description>
-    </item>
-    <item>
-      <title>An exponential lower bound for the bit pigeonhole principle in resolution over parities</title>
-      <link>http://arxiv.org/abs/2609.23015v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.23015v1</guid>
-      <pubDate>Sat, 19 Sep 2026 13:32:02 +0000</pubDate>
-      <description>Resolution over parities, $\mathrm{Res}(\oplus)$, is the characteristic-two version of resolution over linear equations: clauses are disjunctions of affine equations over $\mathbb F_2$. Superpolynomial size lower bounds were previously known only for restricted refutations: tree-like, regular, or of bounded depth. We prove that every DAG-like $\mathrm{Res} (\oplus)$ refutation of the bit pigeonhole principle with $n+1$ pigeons and $n=2^\ell$ holes has more than $\exp(n/(32768\ell^2))=2^{Ω(n/\log^2 n)}$ clauses, for every $\ell\ge32$, with no restriction on regularity or depth. The proof translates an arbitrary refutation with $S$ clauses into a polynomial calculus refutation of degree $O(\log n)$ over $O(S+n^2)$ groups of extension variables in the style of Buss, Impagliazzo, Krajicek, Pudlak, Razborov, and Sgall. One substitution then removes all extension variables at once and leaves a nonzero low-degree polynomial derived from the pigeonhole axioms alone at degree at most $n/2$; a degree lower bound in the style of Razborov, proved through the homology of chessboard complexes, shows that no such derivation exists. The argument also yields a general sufficient condition for $\mathrm{Res}(\oplus)$ size lower bounds. The main theorem, this condition, and all their dependencies are formalized in Lean 4, and every statement links to its formal proof. The proof was developed with substantial AI assistance within an open research framework described in the final section.</description>
-    </item>
-    <item>
-      <title>Metric Self-Dual Completion and Optimal Additive Hardness for Quantum and Graph-State Distance</title>
-      <link>http://arxiv.org/abs/2609.22669v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.22669v1</guid>
-      <pubDate>Sat, 19 Sep 2026 00:57:30 +0000</pubDate>
-      <description>We prove that the quantum code distance is NP-hard to approximate within an additive error of $c N$, for some constant $c &gt;0$, where $N$ is the number of qubits. Our reductions are deterministic. This improves the previous square-root additive gap to $Ω(N)$ and resolves the explicitly stated linear-gap question of Kapshikar and Kundu. Our result holds for CSS codes with identical $X$- and $Z$-check spaces, and with a constant rate and constant relative distance. For every fixed $λ&gt;1$, there is a constant $c&gt;0$ such that hardness still holds even when every nonidentity stabilizer has weight greater than $λ$ times the quantum distance. We also improve the hardness gap of graph state distance on $N$ vertices of Grigorescu, Jha, and Samperton from cube-root to $Ω(N)$, resolving their explicitly stated open question. Both hardness results are asymptotically optimal since both distances are at most $N$. Our graph state distance hardness result holds for balanced bipartite graphs with a binary adjacency matrix that is its own inverse (mod 2). Our main technique for both hardness bounds above is classical: we show how to convert any code $C$ of length $m$ into a self-dual code $A(C)$ of length $N=Θ(m)$ while exactly doubling the original coset metric. The conversion is deterministic and efficient. We call it the metric self-dual completion of $C$. It comes with a linear embedding $τ: \mathbb F_2^m \hookrightarrow \mathbb F_2^N$. The embedding doubles all Hamming distances between vectors in $\mathbb F_2^m$ and all pairwise distances between corresponding cosets. The embedding also guarantees that all codewords of $A(C)$ of weight at most $2m$ are exactly $τ(C)$.</description>
-    </item>
-    <item>
-      <title>Improved Separations between Quantum and Classical Communication Complexity of Total Functions</title>
-      <link>http://arxiv.org/abs/2609.16726v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.16726v1</guid>
-      <pubDate>Tue, 15 Sep 2026 06:56:34 +0000</pubDate>
-      <description>We refine Gavinsky's framework (arXiv:2608.18784) for exponential separations between quantum and randomized communication complexity of total functions and obtain larger separations: polylogarithmic quantum communication versus $\tildeΩ(\sqrt n)$ randomized communication with two quantum messages, and versus $Ω(n^{1-\varepsilon})$ for every fixed $0&lt;\varepsilon&lt;1$ with more quantum messages.</description>
-    </item>
-    <item>
-      <title>Euclidean SVP is NP-hard for Cyclic Lattices</title>
-      <link>http://arxiv.org/abs/2609.16711v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.16711v1</guid>
-      <pubDate>Tue, 15 Sep 2026 06:35:12 +0000</pubDate>
-      <description>We prove that exact Euclidean SVP is NP-hard under deterministic polynomial-time many-one reductions for full-rank cyclic integer lattices, equivalently full-rank ideals of $R_N:=\mathbb{Z}[X]/(X^N-1)$ in the coefficient norm. Hardness holds with $N=q-1$ for a varying odd prime $q$. As an application, we prove the same hardness for the algebraic class of NTRU-form lattices $\{(x,z)\in R_N^2:Hx\equiv z\pmod{QR_N}\}$, where $H,Q$ are unrestricted inputs. The decision problems are NP-complete, and the exact search problems are NP-hard under polynomial-time Turing reductions. No hardness claim is made for cryptographic NTRU parameter subclasses or key-generation distributions.</description>
-    </item>
-    <item>
-      <title>NP-hardness of ideal lattice problems</title>
-      <link>http://arxiv.org/abs/2609.15813v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.15813v1</guid>
-      <pubDate>Mon, 14 Sep 2026 16:20:35 +0000</pubDate>
-      <description>We establish the worst-case hardness of several ideal lattice problems (including SVP and CVP) in the $\ell_2$ norm by providing a dimension-preserving, deterministic polynomial time reduction from their generic lattice versions. The reduction constructs an ideal lattice in the canonical embedding of a number field that approximates some input lattice up to scaling and orthogonal transformation. The integers defining the ideal and the ambient number ring, in particular its discriminant, are all polynomial in bit length relative to the generic input lattice. Furthermore, the ideal is invertible, the ring is monogenic, and the number field is totally real. If the number ring is also required to be a full ring of integers, the reduction conjecturally succeeds in bounded-error quantum polynomial time.</description>
-    </item>
-    <item>
-      <title>The Exact Growth Rate of Space-Optimal Reversible Pebbling on Chains</title>
-      <link>http://arxiv.org/abs/2609.15062v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.15062v1</guid>
-      <pubDate>Mon, 14 Sep 2026 05:28:10 +0000</pubDate>
-      <description>We determine the exact time exponent of space-optimal reversible pebbling on chains as $1.331742379256310\ldots$. The growth rate of space-optimal reach exists as a limit and admits a variational formula. The same exponent governs complete computations at minimal space, uniformly in the chain length.</description>
-    </item>
-    <item>
-      <title>Nullstellensatz degree under Hajós joins and vertex identifications</title>
-      <link>http://arxiv.org/abs/2609.14865v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.14865v1</guid>
-      <pubDate>Mon, 14 Sep 2026 00:32:38 +0000</pubDate>
-      <description>We study the minimum coefficient degree $N_{k,\F}(G)$ of a Nullstellensatz certificate for Bayer's $k$-coloring equations, where the characteristic of $\F$ does not divide $k$. If $J$ is a \HJ\ join of non-$k$-colorable graphs $G,H$ and $m=\max\{N_{k,\F}(G),N_{k,\F}(H)\}$, then $N_{k,\F}(J)\leq m+k$. When deletion of the selected edge makes each input $k$-colorable, we also have $N_{k,\F}(J)\geq m$; the degree congruence then gives $N_{k,\F}(J)\in\{m,m+k\}$. This partially answers a question of Li, Lowenstein, and Omar. For three-coloring over $\F_2$, we construct an infinite $4$-critical family of exact degree seven, attaining the bound at input degree four. In contrast, every graph constructed from $K_4$ solely by \HJ\ joins has degree $O(\log n)$ and a certificate with polynomially many terms: joins preserve treewidth at most three, and balanced separators yield low-degree certificates. Additional vertex identifications are excluded from this obstruction. We classify all single identifications of the $25$-vertex base graph; exactly $36$ preserve degree seven, producing $24$-vertex $4$-critical graphs of treewidth four. A compressed self-join at adjacent true twins prevents degree loss and gives a repeatable rule adding four vertices per round. The rule does not establish degree amplification or preservation of criticality. Exact witnesses and standalone verification programs accompany the finite results.</description>
-    </item>
-    <item>
-      <title>Linear equations mod $n$ are pseudo-telepathic</title>
-      <link>http://arxiv.org/abs/2609.14632v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.14632v1</guid>
-      <pubDate>Sun, 13 Sep 2026 16:04:54 +0000</pubDate>
-      <description>We prove that the quantum monad in dimension $2n$ admits no natural transformation to the polymorphism clone of linear equations modulo $n$. Consequently, for every $n\geq 2$, there exists an unsatisfiable system of linear equations over $\mathbb{Z}_n$ whose constraint system game admits a perfect finite-dimensional quantum strategy. As a corollary, we completely characterise pseudo-telepathic constraint languages in finite dimension. The proof combines a result of Harding, Jager, and Smith on group-valued measures on subspaces of Hilbert spaces with the polymorphism-minion characterisation of quantum pseudo-telepathy.</description>
     </item>
   </channel>
 </rss>

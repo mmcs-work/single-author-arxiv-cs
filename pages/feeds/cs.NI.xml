@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Joint Freshness and Deadline Feasibility in Store-and-Forward Satellite IoT Networks</title>
+      <link>http://arxiv.org/abs/2610.27966v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27966v1</guid>
+      <pubDate>Tue, 20 Oct 2026 10:10:43 +0000</pubDate>
+      <description>3GPP Release 19 supports store-and-forward satel- lite access, where traffic accumulated during feeder-link outages must be forwarded through finite, geometry-limited windows. Static priority levels offer little discrimination among large backlogs and ignore the decay in packet value. We formulate QoS feasibility for status updates, measured by destination freshness, and deadline-constrained event reports over periodic two-hop contacts with finite onboard storage. For general calendars, we derive ordering-sensitive miss, cohort-capacity, delivery-rate, and freshness bounds, including an exact status-only characterization. For single status flow and single event class sharing a contact pair per period, a finite-state program gives exact joint feasibility for arbitrary integer age thresholds. Numerical results quantify tradeoffs among load, capacity, deadline, and freshness tolerance.</description>
+    </item>
+    <item>
+      <title>Semantic Communications: Principles, Architectures and Applications</title>
+      <link>http://arxiv.org/abs/2610.27544v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27544v1</guid>
+      <pubDate>Tue, 20 Oct 2026 02:58:05 +0000</pubDate>
+      <description>Conventional communication systems are designed to transmit data reliably, focusing on metrics such as bit error rate, throughput, and channel capacity. However, these traditional measures do not evaluate whether the received information is actually useful for a specific downstream task. To address this limitation, semantic communication has emerged as a promising paradigm that prioritizes the meaning, context, and task relevance of transmitted information rather than raw bit level reconstruction. This paper presents a comprehensive review of the theoretical foundations, system architectures, learning techniques, and evaluation practices in semantic communications. We classify existing state-of-the-art algorithms ranging from deep joint source-channel coding (Deep JSCC) and task-oriented feature transmission to generative diffusion models and contrast their operational trade offs against conventional baselines. Furthermore, we examine key application domains, including remote sensing, autonomous vehicles, and healthcare IoT, while addressing open challenges in security, privacy, robustness, and standardized evaluation.</description>
+    </item>
+    <item>
       <title>Connection Escrow: Holding AI-Agent Pod Egress in the Kernel Until an Isolated Verifier Rules</title>
       <link>http://arxiv.org/abs/2610.26501v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.26501v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.15952</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <description>The rapid expansion of Internet of Things (IoT) applications necessitates the effective deployment of base stations (BSs) to enable consistent connectivity across large geographic areas under interference-limited conditions. Existing techniques typically use distance-based or binary coverage models; however, these abstractions fail to account for the influence of co-channel interference on the quality of communication in dense deployments. In this paper, we investigate the Signal-to-Interference-plus-Noise Ratio (SINR)-aware Base Station Deployment (BSD) problem in wide-area IoT sensor networks. The objective is to determine a minimum-cost subset of BSs from a predefined set of candidate BSs such that every IoT sensor is covered by at least one BS and a target SINR threshold is satisfied. The problem is formulated as a combinatorial optimization problem, which is NP-hard. Theoretical analysis establishes that the proposed coverage function is monotone and submodular, enabling the SINR-aware greedy algorithm to achieve a (1-1/e)-approximation to the optimal solution while maintaining a polynomial-time computational complexity. Numerical evaluations on a real water distribution network dataset demonstrate that the proposed SINR-aware greedy algorithm achieves near-optimal base station deployment while significantly reducing computational effort. Compared with the Genetic Algorithm (GA) and Particle Swarm Optimization (PSO) algorithms, the proposed approach attains complete sensor coverage with deployment costs within 12.3% of the best-performing metaheuristic solution while requiring up to 190 times lower execution time.</description>
-    </item>
-    <item>
-      <title>Defending the Core: A Centrality-Based Protection Strategy for Supply Chain Security in npm Dependency Network</title>
-      <link>https://arxiv.org/abs/2606.14036</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.14036</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
-      <description>The modern software supply chain, taking Node Package Manager (npm) dependency network for example, relies heavily on shared open-source dependencies. While this promotes rapid development, it introduces systemic vulnerabilities as well. Concerning this potential risk, we analyze the npm dependency network by modeling 53,481 packages and 78,520 dependency edges, and classify the network as a scale-free topology. Thus, we demonstrate its inherent vulnerability to targeted attacks on high-degree hubs. To mitigate this, we propose and evaluate a dual-pronged defense strategy consisting of Centrality-Based Node-Hardening and Dependency Weight Warning system. Moreover, by simulating the network under various attack scenarios, we prove that applying strict security protocols to just the top 1% of nodes, combined with pruning 30% of structurally trivial edges, prevents catastrophic network collapse and neutralizes cascading malware infections. The source code can be found at https://github.com/5tarWhee1/Centrality-Based-Protection-Strategy-for-Supply-Chain-Security-in-npm-Dependency-Network.</description>
-    </item>
-    <item>
-      <title>The Internet of Agentic AI: Communication, Coordination, and Collective Intelligence at Scale</title>
-      <link>https://arxiv.org/abs/2606.12835</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.12835</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 -0000</pubDate>
-      <description>The rapid emergence of autonomous AI agents is transforming artificial intelligence from isolated model inference into distributed systems of reasoning, communication, and action. This paper develops the vision of the Internet of Agentic AI (IoAI): an open ecosystem in which heterogeneous agents discover one another, negotiate responsibilities, exchange context, invoke tools, and execute workflows across cloud, edge, device, organizational, and cyber-physical environments. We synthesize foundations from single-agent agentic AI, multi-agent systems, distributed computing, communication networks, game theory, and security engineering to characterize the architectures and mechanisms required for scalable agent ecosystems. The paper examines agent deployment models, workflow lifecycles, communication protocols, interoperability layers, resource-management challenges, and trust architectures, with case studies in adaptive manufacturing and distributed operational coordination. The resulting framework highlights the central research challenges of controlled emergence, semantic interoperability, secure identity, incentive-compatible coordination, resource-aware orchestration, and governance for large-scale networks of autonomous agents.</description>
     </item>
   </channel>
 </rss>

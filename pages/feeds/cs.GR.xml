@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Geometry Regularization for Vanilla NeRF via Self-Supervised Cross-Ray Consistency</title>
+      <link>http://arxiv.org/abs/2610.27776v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27776v1</guid>
+      <pubDate>Tue, 20 Oct 2026 07:40:14 +0000</pubDate>
+      <description>Neural Radiance Fields (NeRF) achieve high-quality novel-view synthesis by representing a scene as a continuous volumetric radiance field. However, the geometry encoded by the density field of vanilla NeRF can be noisy and inaccurate, since different combinations of shape and radiance may explain the same input images. To reduce this ambiguity, we augment vanilla NeRF with a geometry-optimization branch based on self-supervised cross-ray consistency. Specifically, this branch samples candidate surface points from the density field, generates virtual rays that intersect at each point from different directions, and renders their appearance using the NeRF network. Based on the visibility-weighted color consistency across these rays, we constrain the implicit geometry. We further regularize the implicit geometry by penalizing opacity at candidates with inconsistent appearance predictions and encouraging local normal smoothness. These geometric constraints are derived from the NeRF predictions and require no ground-truth depth or surface-normal supervision. Experiments on eight Replica scenes show that the proposed method reduces the mean Chamfer distance by 30.8% compared with vanilla NeRF.</description>
+    </item>
+    <item>
       <title>Colour-Field Based Particle Categorization for Residual Stress Detection and Reduction in Solid SPH Simulations</title>
       <link>http://arxiv.org/abs/2610.24210v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.24210v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.12053</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 -0000</pubDate>
       <description>We introduce Coordinate Condensation, a variant of coordinate descent that accelerates physics-based simulation by augmenting local coordinate updates with a Schur-complement-based subspace correction. Recent work by Lan et al. 2025 (JGS2) uses perturbation subspaces to augment local solves to account for global coupling, but their approach introduces damping that can degrade convergence. We reuse this subspace but solve for local and subspace displacements independently, eliminating this damping. For problems where the subspace adequately captures global coupling, our method achieves near-Newton convergence while retaining the efficiency and parallelism of coordinate descent. Through experiments across varying material stiffnesses and mesh resolutions, we show substantially faster convergence than both standard coordinate descent and JGS2. We also characterize when subspace-based coordinate methods succeed or fail, offering insights for future solver design.</description>
-    </item>
-    <item>
-      <title>Quantum Trigonometric Bézier Curves</title>
-      <link>https://arxiv.org/abs/2510.09336</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.09336</guid>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 -0000</pubDate>
-      <description>In order to construct quantum trigonometric Bézier curves with shape parameter, one parameter family of trigonometric Bernstein basis functions are introduced. We study the total positivity of the basis functions to analyze the shape preserving properties of the quantum trigonometric Bézier curves. We also showed that quantum trigonometric Bézier curves can be evaluated by two different recursive evaluation algorithms. Finally, we have defined rational counterpart of quantum trigonometric Bézier curves and show that the rational quantum trigonometric Bézier curves posses nice shape preserving properties.</description>
     </item>
   </channel>
 </rss>

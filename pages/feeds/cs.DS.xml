@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Birthday Estimators Are Uniformly Optimal for Renyi Entropy</title>
+      <link>http://arxiv.org/abs/2610.28581v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28581v1</guid>
+      <pubDate>Tue, 20 Oct 2026 17:37:30 +0000</pubDate>
+      <description>Collisions are a basic probe of unknown distributions, used for testing and for counting substructures in graphs, and they underlie Rényi entropy, a fundamental measure of uncertainty with applications in cryptography, machine learning, physics, and biology. Motivated by this, we study the natural birthday estimator. We prove Bernstein-type concentration for it and show that it is minimax optimal, uniformly and jointly in alphabet size, order, accuracy, and confidence, with no sample splitting, clipping, or median aggregation. This, in particular, settles the sample complexity of integer-order Rényi entropy estimation up to absolute constants in all regimes, closing the gap between the best known upper and lower bounds. Our concentration bound rests on a sensitivity analysis of collision count, and the matching lower bound on a sharp analysis of detecting a hidden spike in a plateau distribution.</description>
+    </item>
+    <item>
+      <title>Improved Approximation for Unsplittable Capacitated Vehicle Routing Using Quota Trees</title>
+      <link>http://arxiv.org/abs/2610.28501v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28501v1</guid>
+      <pubDate>Tue, 20 Oct 2026 16:43:00 +0000</pubDate>
+      <description>In the Unsplittable Capacitated Vehicle Routing Problem (UCVRP), we are given a set $V$ of $n$ clients with normalized demands $d_v \in (0,1]$, a depot $r$, a unit vehicle capacity, and symmetric metric travel costs $c$ on $V \cup \{r\}$. We seek a collection of routes of minimum total cost that start and end at $r$, serve each client's entire demand on a single route, and respect the unit capacity constraint $\sum_{v \in V(R)} d_v \le 1$ on every route $R$, where $V(R)$ denotes the clients served by $R$. This models deliveries from a common depot in which each customer's order must be delivered in a single trip. UCVRP generalizes the metric traveling salesman problem (TSP) and is therefore NP-hard. Capacity constraints add a packing difficulty: when all clients are colocated away from the depot, minimizing the route cost is equivalent to minimizing the number of bins in bin packing. Consequently, UCVRP admits no polynomial-time approximation ratio below $3/2$ unless $\textbf{P=NP}$ (Grandoni, Mathieu, and Zhou, 2023). The classical $3.5$-approximation has been improved through several recent advances; in particular, Zhao and Xiao (2026) recently obtained a $(2+\ln 2+\varepsilon)$-approximation. In this paper, we give a deterministic $(5/2+\varepsilon)$-approximation algorithm running in $n^{O(1/\varepsilon)}$ time for every rational $0&lt;\varepsilon\le1/9$, applicable to general capacity and arbitrary positive demands. Our algorithm uses local search to select routes through one client with large demand and clients with small demands. It constructs candidate routes using endpoint quota trees after rounding demands and creating vertex copies. We combine these routes with those obtained by matching and set packing, keeping their client sets disjoint. The remaining clients are served by partitioning a tour constructed using weighted graphic matroid parity.</description>
+    </item>
+    <item>
+      <title>A 55-Addition Rank-23 Scheme for $3\times3$ Matrix Multiplication via Exact Two-Sided Minimization</title>
+      <link>http://arxiv.org/abs/2610.27451v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27451v1</guid>
+      <pubDate>Tue, 20 Oct 2026 01:00:29 +0000</pubDate>
+      <description>We give a scheme that multiplies two $3\times3$ matrices with 23 multiplications and 55 additions over any ring, one addition below the previous record of 56 (Sun, 2026) and the first below 56 for exact non-commutative $3\times3$ multiplication without a change of basis. The scheme forms 13 signed combinations of the entries of A and 14 of B, takes 23 products, and recombines them with 28 further additions; its correctness is machine-checked in Lean 4. The previous records, from 60 down to 56, were obtained by greedy common-subexpression elimination, which only bounds each side of a scheme from above. We minimize both input sides exactly by chain covering, and the output side exactly through the transposition principle: the 9-by-23 output map costs its transpose plus 14, and the transpose is a 9-input map that the input-side minimizer solves exactly. Applied to Perminov's cn122 scheme (class i19w225c4efh, published at 58 additions) this gives 55 = 13 + 14 + 28, where greedy elimination reaches only 29 on the output side. The same method shows that Sun's representative is output-optimal at 56, and an exact orbit-wide computation over the Heule-Kauers-Seidl database shows that the record class is the only database class attaining 55.</description>
+    </item>
+    <item>
+      <title>A Short Note on Algorithms For The Noisy $k$-XOR Problem</title>
+      <link>http://arxiv.org/abs/2610.27147v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27147v1</guid>
+      <pubDate>Mon, 19 Oct 2026 18:41:45 +0000</pubDate>
+      <description>This mostly expository note studies the sample-noise regimes in which the testing problem for noisy $k$-XOR in dimension $n$ can be efficiently solved. Concretely, we ask what pairs $(β, δ)$ admit algorithms running in time $n^{O(k)}$ where $m = n^β, β\in [0,k]$ is the number of samples and $\mathsf{Bern}(n^{-δ}),δ\in (0,+\infty)$ is the noise distribution. The current state-of-the-art algorithms are: I. A folklore algorithm when $β&gt; 1, δ&gt;1$ based on Gaussian elimination; II. A folklore algorithm when $β\ge k/2$ based on the birthday paradox; III. A recent algorithm in the regime $β&gt; δ+ k(1-δ), δ\in (0,1)$ based on a reduction to the first algorithm [DJ24,CSZ24]. IV. Extending [AF09], we strictly improve the last regime to $β&gt; δ+ (k-1)(1-δ), δ\in (0,1).$ These algorithms correspond to efficiently finding short cycles in uniform hypergraphs and can be equivalently phrased as algorithmic Moore bounds.</description>
+    </item>
+    <item>
       <title>A Tight Oracle Threshold for \(k\)-Submodular Maximization</title>
       <link>http://arxiv.org/abs/2610.26677v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.26677v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.33493v1</guid>
       <pubDate>Sun, 27 Sep 2026 12:01:12 +0000</pubDate>
       <description>In offline temporary tasks assignment, each job has a time interval and a positive weight and is assigned to one of $r$ identical machines for its entire interval; the goal is to minimize the peak load, the largest total weight of jobs that are simultaneously active on one machine. For every fixed $r$, we give an efficient polynomial-time approximation scheme (EPTAS) with running time $f(r,1/\varepsilon)\cdot N^{O(1)}$, where $N$ is the input length. The previous approximation scheme, by Azar, Regev, Sgall, and Woeginger (2002), runs in time $n^{O(r^3\log r/\varepsilon^3)}$ on $n$ jobs. We also show that for every fixed $r\ge2$ the problem is strongly NP-hard, so it has no FPTAS unless P=NP, and that under the Exponential Time Hypothesis no deterministic $(1+\varepsilon)$-approximation runs in time $2^{o(1/\varepsilon)}\cdot N^{O(1)}$. The key idea is to bound the loads of each group of simultaneously active jobs by a few weighted intervals whose positions are fixed in advance; a dynamic program over the time line then only has to record which machine carries each interval.</description>
-    </item>
-    <item>
-      <title>On the Guo-Fang-Lu Algorithm for Komlos Discrepancy</title>
-      <link>http://arxiv.org/abs/2609.33215v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.33215v1</guid>
-      <pubDate>Sun, 27 Sep 2026 04:54:47 +0000</pubDate>
-      <description>We give an exposition of the recent polynomial time algorithm of Guo, Fang, and Lu for the Komlos problem. We simplify various arguments, and highlight the key new spectral potential idea and how the algorithm follows naturally from it.</description>
-    </item>
-    <item>
-      <title>Simpler Algorithms for Knapsack, Subset Sum, and Min-Plus Convolution</title>
-      <link>http://arxiv.org/abs/2609.37449v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.37449v1</guid>
-      <pubDate>Sun, 27 Sep 2026 04:11:32 +0000</pubDate>
-      <description>We simplify algorithms for Knapsack, output-sensitive Subset Sum, and near-convex min-plus convolution. For bounded Knapsack, we give a deterministic algorithm using $O(N+W^2\log^3(W+2))$ arithmetic and comparison operations, where $W$ is the maximum item weight and $N$ counts input records with binary-encoded multiplicities. Following Bringmann's approach, we partition the items and bound the weight added or removed within each part when correcting a greedy solution to an optimum. These bounds keep the dynamic-programming tables small. The same analysis gives the corresponding bound with maximum profit in place of weight. For multiple-choice Knapsack, we give a randomized $\widetilde O(N+w^2\min\{r,w\})$ algorithm, where $N$ counts alternatives, $r$ counts classes, and $w$ is the maximum within-class weight range. Randomly grouping classes exploits cancellation between positive and negative weight changes. For Subset Sum of $n$ nonnegative integer vectors in any fixed dimension $d$, we obtain expected time $\widetilde O(n+s\sqrt n)$, where $s$ counts attainable sums in the target box. With high probability, all sums are returned within the same bound. This improves the $\widetilde O(n+s n^{d/(d+1)})$ bound of Bringmann, Fischer, and Nakos for $d&gt;1$. The key step computes a sumset inside a box without generating the potentially much larger unrestricted sumset. Finally, we simplify the $\widetilde O(N(D+1))$ algorithm for min-plus convolution of integer arrays of total length $N$, where $D$ is the sum of their maximum deviations above convex arrays. The deviations can change the minimizing pairs substantially, but restrict relevant candidate values to short intervals.</description>
-    </item>
-    <item>
-      <title>Parity Tests under Ties: A One-Test Lifting Theorem</title>
-      <link>http://arxiv.org/abs/2609.32799v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.32799v1</guid>
-      <pubDate>Sat, 26 Sep 2026 17:21:08 +0000</pubDate>
-      <description>In the unrestricted polynomial decision-tree model, only the number of polynomial sign tests is charged. A parity test asks for the sign of a product of pairwise differences. Such tests underlie low-depth randomized algorithms for maximum finding and top-$k$ selection, but their usual analysis assumes distinct inputs because a tie makes the product vanish. We give a black-box lifting theorem that removes this assumption. After $O(\log n)$ polynomial tests determine the number of nonzero pairwise differences, every subsequent parity test is simulated by one polynomial test, consistently with a fixed lexicographic tie-breaking order. The simulator is an elementary symmetric polynomial in masked first and second powers of all pairwise differences. Thus a depth-$D$ parity-test tree on distinct inputs becomes a polynomial decision tree of depth $D+O(\log n)$ on arbitrary inputs, with no increase in randomized pointwise error for order-selection problems. We obtain maximum finding in depth $O(\log n[\log n+\log(1/δ)])$ with error $δ$, and top-$k$ selection in depth $O(\log^2 n+k\log n)$ with inverse-polynomial error, both without any promise on ties.</description>
-    </item>
-    <item>
-      <title>Near-Optimal Distributed Domination in Planar Graphs</title>
-      <link>http://arxiv.org/abs/2609.32736v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.32736v1</guid>
-      <pubDate>Sat, 26 Sep 2026 15:55:08 +0000</pubDate>
-      <description>We give a deterministic $(8+\varepsilon)$-approximation for minimum dominating set on planar graphs in a constant number of rounds of the LOCAL model, for every $\varepsilon&gt;0$. This improves the previous ratio $11+\varepsilon$ obtained by Heydt et al. The ratio is near-optimal in this model: its leading constant is only one above the known lower bound of $7$. Our result closes three quarters of the previous gap, reducing it from $4$ to $1$. Our main contribution is a sharp structural bound. For any dominating set $D$, assigning each vertex outside $D$ to a neighboring center gives disjoint owner blocks. If $k_x$ counts the other blocks containing a neighbor of $x$, then $\sum_{x\notin D}(k_x-2)^+\le(4|D|-12)^+$, where $z^+=\max\{z,0\}$. The bound holds for every such assignment, and equality holds for arbitrarily large minimum dominating sets. We use this bound in their three-phase framework, with new parameters and the same final linear-programming procedure. The algorithm requires neither a planar embedding nor the graph size, and its round bound depends only on $\varepsilon$. The transfer theorem of Bonamy et al. also gives a deterministic $(25+\varepsilon)$-approximation on graphs of bounded Euler genus, with a round bound depending only on $\varepsilon$ and the genus.</description>
     </item>
   </channel>
 </rss>

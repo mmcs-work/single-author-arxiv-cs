@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Rational polynomial solvability reduces to stratifiability of semilinear sets</title>
+      <link>http://arxiv.org/abs/2610.27482v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.27482v1</guid>
+      <pubDate>Tue, 20 Oct 2026 01:47:58 +0000</pubDate>
+      <description>A semilinear set is stratifiable if it is a finite union of linear sets whose periods have at most two nonzero coordinates, with no two periods in one component connecting alternating pairs of coordinates. We give a computable many-one reduction from the existence of a rational zero of an integer polynomial to deciding stratifiability. After the classical reduction to quadratic systems, we reduce rational solvability of these systems to a problem we call finite separation by Cartesian products of rational linear forms. Its input consists of rational subspaces $D_1,\ldots,D_k\le\mathbb Q^r\times\mathbb Q^r$. A separator is a map $(\boldsymbol x,\boldsymbol y)\mapsto(u(\boldsymbol x),v(\boldsymbol y))$, where $u,v\colon\mathbb Q^r\to\mathbb Q$ are nonzero rational linear forms. The problem asks whether finitely many separators suffice so that every pair outside $\bigcup_iD_i$ receives, from some separator, a value attained at no pair in that union. We then reduce this problem to stratifiability. Ginsburg and Spanier's characterization of letter-bounded context-free languages} also induces a reduction from rational polynomial solvability to context-freeness of letter-bounded languages specified by semilinear exponent sets. An OpenAI preprint claims undecidability of rational polynomial solvability; if correct, our result settles the decidability of general stratifiability, a problem open since 1966.</description>
+    </item>
+    <item>
       <title>Model Checking for Noisy Toric Words</title>
       <link>http://arxiv.org/abs/2610.23463v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23463v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.06384</guid>
       <pubDate>Sun, 07 Jun 2026 00:00:00 -0000</pubDate>
       <description>We introduce MinMax Recurrent Neural Cascades (MinMax RNCs), a class of recurrent neural networks built from a novel form of recurrence over the MinMax algebra. We show that MinMax RNCs enjoy key properties that are difficult to obtain simultaneously: strong formal expressivity, efficient evaluation, stable dynamics, and non-vanishing state gradients. First, their formal expressivity corresponds to the regular languages, arguably the maximal expressivity for finite-memory systems. Second, in addition to evaluation in recurrent form, they also admit parallel-scan evaluation with logarithmic depth and linear work in the input length. Third, their states and activations are uniformly bounded for all sequence lengths. Fourth, their loss gradients exist almost everywhere and are uniformly bounded for all sequence lengths. Fifth, they do not exhibit vanishing state gradients: the gradient of a state with respect to a past state can retain norm one independently of the temporal distance between the states. Empirically, we find that these theoretical properties translate into strong practical performance. MinMax RNCs solve the considered synthetic tasks perfectly, generalise to long sequences, and outperform the recurrent baselines considered in our experiments. We also train a 112M-parameter MinMax RNC for next-token prediction, obtaining competitive performance for its size and providing initial evidence that MinMax recurrence can scale to real-world sequence-modelling tasks.</description>
-    </item>
-    <item>
-      <title>A remark on diagnosability verification</title>
-      <link>https://arxiv.org/abs/2606.07701</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.07701</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 -0000</pubDate>
-      <description>We point out three inaccuracies in paper [M.V. Moreira, T.C. Jesus, and J.C. Basilio. Polynomial time verification of decentralized diagnosability of discrete event systems. IEEE Transactions on Automatic Control, 56(7):1679-1684, July 2011]. First, the authors wrongly claimed that their algorithm for verifying (co-)diagnosability of labeled finite-state automata (LFSAs) did not depend on assumptions. We give an LFSA that is not deadlock-free or divergence-free such that their algorithm cannot correctly verify its diagnosability. Because diagnosability is a special case of co-diagnosability, their algorithm cannot correctly verify co-diagnosability either when LFSAs are not deadlock-free or divergence-free. Second, they wrongly claimed that adding at each dead state an unobservable self-loop can help verifying diagnosability for an LFSA that is not deadlock-free or divergence-free, but this is wrong, because such a modification sometimes changes the diagnosability of an LFSA. Third, they wrongly claimed that their algorithm for verifying co-diagnosability ran in polynomial time. A polynomial-time algorithm unlikely exists, because the problem of verifying co-diagnosability of LFSAs is PSPACE-hard.</description>
     </item>
   </channel>
 </rss>
