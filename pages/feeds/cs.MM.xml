@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Resonance and Depth: Composing Timbral Identity and Spatial Form in an Artist-in-the-Loop Co-Creative Multi-Agent Percussive Performance</title>
+      <link>http://arxiv.org/abs/2610.29026v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.29026v1</guid>
+      <pubDate>Wed, 21 Oct 2026 00:59:14 +0000</pubDate>
+      <description>This research-creation artistic report presents Resonance and Depth, a 9-minute immersive electroacoustic/acousmatic performance that treats timbre and space as primary compositional materials. Built from live electronic percussion and a personal corpus recorded, curated, and composed by the author, the work investigates how timbral identity and musical form can emerge through real-time recombination, spatialisation, and performer-system interaction rather than conventional harmonic development. The performance is realised as an artist-in-the-loop co-creative multi-agent system integrating MACAT, MACataRT, a MIDI-based musical agent, a spatialisation layer, and a conductor agent. These components recombine and transform the performer's material through concatenative synthesis, audio mosaicing, symbolic mediation, physically inspired synthesis, and object-based spatialisation. The work approaches spatialisation as an active compositional process in which position, trajectory, depth, diffusion, width, and apparent size participate in musical phrasing and form. Through this practice-based framework, Resonance and Depth examines how performer identity can be retained, transformed, and redistributed across human, algorithmic, timbral, and spatial processes within an immersive co-creative performance ecology.</description>
+    </item>
+    <item>
       <title>Timing and Reliability Limits of Position-Assisted UWB Multicast Audio</title>
       <link>http://arxiv.org/abs/2610.28245v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.28245v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2412.17907</guid>
       <pubDate>Mon, 23 Dec 2024 00:00:00 -0000</pubDate>
       <description>Traditional psychological evaluations rely heavily on human observation and interpretation, which are prone to subjectivity, bias, fatigue, and inconsistency. To address these limitations, this work presents a multimodal emotion recognition system that provides a standardised, objective, and data-driven tool to support evaluators, such as psychologists, psychiatrists, and clinicians. The system integrates recognition of facial expressions, speech, spoken language, and body movement analysis to capture subtle emotional cues that are often overlooked in human evaluations. By combining these modalities, the system provides more robust and comprehensive emotional state assessment, reducing the risk of mis- and overdiagnosis. Preliminary testing in a simulated real-world condition demonstrates the system's potential to provide reliable emotional insights to improve the diagnostic accuracy. This work highlights the promise of automated multimodal analysis as a valuable complement to traditional psychological evaluation practices, with applications in clinical and therapeutic settings.</description>
-    </item>
-    <item>
-      <title>Lens Distortion Encoding System Version 1.0</title>
-      <link>https://arxiv.org/abs/2411.16946</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2411.16946</guid>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 -0000</pubDate>
-      <description>Lens Distortion Encoding System (LDES) allows for a distortion-accurate workflow, with a seamless interchange of high quality motion picture images regardless of the lens source. This system is similar in a concept to the Academy Color Encoding System (ACES), but for distortion. Presented solution is fully compatible with existing software/plug-in tools for STMapping found in popular production software like Adobe After Effects or DaVinci Resolve. LDES utilizes common distortion space and produces single high-quality, animatable STMap used for direct transformation of one view to another, neglecting the need of lens-swapping for each shoot. The LDES profile of a lens consist of two elements; View Map texture, and Footage Map texture, each labeled with the FOV value. Direct distortion mapping is produced by sampling of the Footage Map through the View Map. The result; animatable mapping texture, is then used to sample the footage to a desired distortion. While the Footage Map is specific to a footage, View Maps can be freely combined/transitioned and animated, allowing for effects like smooth shift from anamorphic to spherical distortion, previously impossible to achieve in practice. Presented LDES Version 1.0 uses common 32-bit STMap format for encoding, supported by most compositing software, directly or via plug-ins. The difference between standard STMap workflow and LDES is that it encodes absolute pixel position in the spherical image model. The main benefit of this approach is the ability to achieve a similar look of a highly expensive lens using some less expensive equipment in terms of distortion. It also provides greater artistic control and never seen before manipulation of footage.</description>
     </item>
   </channel>
 </rss>

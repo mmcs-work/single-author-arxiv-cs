@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An algorithmic construction of Nullstellensatz certificates for graph automorphism groups</title>
+      <link>http://arxiv.org/abs/2610.28928v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28928v1</guid>
+      <pubDate>Tue, 20 Oct 2026 21:05:10 +0000</pubDate>
+      <description>Solvers for graph isomorphism and related problems are widely used in both theoretical and applied domains, but their complexity often requires users to trust their correctness without verification. We present a certifying algorithm for computing a generating set of the automorphism group of a given graph, meaning that it produces an independently verifiable certificate that the output list of automorphisms generates the entirety of the automorphism group. The problem of constructing a certificate is reduced to certifying that a system of multivariate polynomial equations is infeasible. An individualization-refinement algorithm produces a derivation within an algebraic proof system, representing a Nullstellensatz certificate of infeasibility. We provide an implementation of both the certifying algorithm and a certificate verifier, and demonstrate their viability on graphs with hundreds of vertices.</description>
+    </item>
+    <item>
       <title>A 55-Addition Rank-23 Scheme for $3\times3$ Matrix Multiplication via Exact Two-Sided Minimization</title>
       <link>http://arxiv.org/abs/2610.27451v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.27451v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.26869</guid>
       <pubDate>Thu, 30 Oct 2025 00:00:00 -0000</pubDate>
       <description>Given finitely many consecutive terms of an infinite sequence, we discuss the construction of a polynomial difference equation that the sequence may satisfy. We also present a method to seek a candidate polynomial differential equation for its generating function. It appears that these methods often lead to effective D-algebraic operations.</description>
-    </item>
-    <item>
-      <title>Semantic Properties of Computations Defined by Elementary Inference Systems</title>
-      <link>https://arxiv.org/abs/2510.26429</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.26429</guid>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 -0000</pubDate>
-      <description>We consider sets/relations/computations defined by *Elementary Inference Systems* I, which are obtained from Smullyan's *elementary formal systems* using Gentzen's notation for inference rules, and proof trees for atoms P(t_1,...,t_n), where predicate P represents the considered set/relation/computation. A first-order theory Th(I), actually a set of definite Horn clauses, is given to I. Properties of objects defined by I are expressed as first-order sentences F, which are proved true or false by *satisfaction* M |= F of F in a *canonical* model M of Th(I). For this reason, we call F a *semantic property* of I. Since canonical models are, in general, incomputable, we show how to (dis)prove semantic properties by satisfiability in an *arbitrary* model A of Th(I). We apply these ideas to the analysis of properties of programming languages and systems whose computations can be described by means of an elementary inference system. In particular, rewriting-based systems.</description>
     </item>
   </channel>
 </rss>

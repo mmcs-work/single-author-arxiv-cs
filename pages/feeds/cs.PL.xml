@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Deciding Scale Placement in MXFP4 Dot Products with Integer Arithmetic</title>
+      <link>http://arxiv.org/abs/2610.29445v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.29445v1</guid>
+      <pubDate>Wed, 21 Oct 2026 09:05:50 +0000</pubDate>
+      <description>The Open Compute Project's microscaling (MX) family includes MXFP4, which stores 32 four-bit elements with a shared power-of-two scale. When lowering a dot-product reduction, a compiler can apply these scales before the reduction, or defer scaling until afterwards. Although equivalent over real numbers, these formulations can produce different IEEE binary32 results through overflow or underflow, with equivalence also depending on the reduction tree. We study the legality of compiler rewrites in either direction by deriving conditions under which the two formulations are bitwise equivalent. To decide rewrite legality, we construct an integer state machine that exploits the finite element alphabet and shared power-of-two scales, modeling overflow, NaN, and subnormal rounding. We prove its faithfulness under bounded scale codes and integer coefficients, yielding an exact encoding of the equivalence query in quantifier-free linear integer arithmetic (QF_LIA). For MXFP4, we derive a closed-form sufficient upper bound on the sum of scale exponents for any fixed binary reduction tree within the supported coefficient range. This bound depends on the size of the largest proper subtree. For four tree shapes at block lengths $k\in\{2,3,4,8,16,32\}$ and two shapes at $k=64$, SMT finds counterexamples when this upper bound is increased by one exponent step. Against the standard direct encoding in quantifier-free floating-point arithmetic (QF_FP), on matched queries cvc5 proves the integer version in seconds but reaches a configured one-CPU-hour limit on the floating-point proof even at $k=2$. The implementation was cross-checked using an independent floating-point encoding, exhaustive and stratified binary32 execution, and GPU replay of counterexamples. An MLIR lowering prototype demonstrates selection between the two formulations using the certified conditions as static or runtime guards.</description>
+    </item>
+    <item>
       <title>Polarized Scheme: duality of computation, delimited control, and continuation-passing macro Interleaving</title>
       <link>http://arxiv.org/abs/2610.26266v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.26266v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.30948</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 -0000</pubDate>
       <description>Time complexity typically assumes $O(1)$ cost per data access. This paper presents an analysis based on an abstract memory hierarchy. For a common class of applications, it shows that the data-access cost scales with the fourth root of data size, that is, as data size $N$ increases, the cost of each access increases at the rate of $N^\frac{1}{4}$. While the analysis does not predict performance, it predicts scalability. Specifically, the paper provides a precise analysis that shows the constant-factor difference between cases where the miss ratio follows a power law versus an exponential decay.</description>
-    </item>
-    <item>
-      <title>The quantum instrument monad</title>
-      <link>https://arxiv.org/abs/2606.27805</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.27805</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Monads are a ubiquitous structure in functional programming used for modelling computational effects. For example, the state monad models the effect of a computation interacting with a memory system. Here we introduce the quantum instrument monad $\mathcal{I}_\mathcal{A}$, which models the effect of a computation interacting with a quantum system with algebra of observables $\mathcal{A}$. It can be thought of as a noncommutative generalization of the state monad. We construct this quantum instrument monad in two versions: a finitary version on the category of sets and a measure-theoretic version on the category of measurable spaces (the latter under the assumption that $\mathcal{A}$ is a type I von Neumann algebra with separable predual). Both versions are strong monads. The construction of the measure-theoretic version is based on a new notion of integral of a quantum-operation-valued function against a state-valued measure.</description>
     </item>
   </channel>
 </rss>

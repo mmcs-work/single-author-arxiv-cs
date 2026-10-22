@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Tight Bounds on the Randomized Communication Complexity of Vector-in-Subspace</title>
+      <link>http://arxiv.org/abs/2610.30052v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.30052v1</guid>
+      <pubDate>Wed, 21 Oct 2026 17:12:19 +0000</pubDate>
+      <description>We prove that the randomized communication complexity of Vector-in-Subspace in $\mathbb R^n$ with error at most $1/3$ is $Θ(\sqrt n)$. Alice holds a unit vector $u$ and Bob holds an $n/2$-dimensional subspace $H$; they must distinguish $u\in H$ from $u\in H^\perp$. An exact one-way quantum protocol uses $O(\log n)$ qubits, making the problem a geometric example of an exponential quantum advantage over interactive classical communication. Our lower bound matches Raz's $O(\sqrt n)$ upper bound, improves the $Ω(n^{1/3})$ lower bound of Klartag and Regev, and removes the total-rank restriction in Grupel's $Ω(\sqrt n)$ result. The proof establishes a Gaussian moment bound over complete rectangle partitions. A complex Gaussian representation yields a vanishing even moment whose cancellation is preserved when averaging over the partition. We control the signed conditional moments around a real center by decomposing conditional Gaussian measures into fixed coordinates and sub-Gaussian components. Combining this estimate with spherical harmonic analysis gives the communication lower bound.</description>
+    </item>
+    <item>
+      <title>Dissipation Bounds and Hardness in Globally Asymptotically Stable Quadratic Systems</title>
+      <link>http://arxiv.org/abs/2610.29512v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.29512v1</guid>
+      <pubDate>Wed, 21 Oct 2026 10:01:45 +0000</pubDate>
+      <description>We study worst-case finite-time energy dissipation in quadratic systems with proved global asymptotic stability (GAS). Estimating the maximum retained energy fraction to any fixed positive additive error below $1/2$ is NP-hard, even when the input includes a strict quartic Lyapunov function and proof of strictness, both constructed in polynomial time. NP denotes nondeterministic polynomial time. For a partially damped family, the unit-sphere minimum norm of the coupling map equals the structured coefficient distance to loss of GAS. Positive distances at most $1/2$ give two-sided inverse-square halving-time bounds with explicit coefficient factors. Polynomial-factor approximation of the least dissipated fraction, halving time or coefficient distance is NP-hard. Additive hardness persists throughout an explicit coefficient neighborhood and under direct damping with exponential stability, a strict quadratic Lyapunov function and a Hurwitz Jacobian. Unless $\mathrm{P}=\mathrm{NP}$, where P denotes deterministic polynomial time, no polynomial-time algorithm attains these guarantees on all inputs.</description>
+    </item>
+    <item>
+      <title>Amplified Pruning and Path Selectors for Deterministic Radio Gossiping</title>
+      <link>http://arxiv.org/abs/2610.28930v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.28930v1</guid>
+      <pubDate>Tue, 20 Oct 2026 21:07:58 +0000</pubDate>
+      <description>We study deterministic gossiping in unknown strongly connected directed radio networks with $n$ vertices, $m$ arcs, and distinct identifiers in $\{1,\ldots,N\}$, where $N=n^{\mathcal O(1)}$. Messages are unrestricted; collision detection is unavailable. Our protocol combines amplified reception certificates, adaptive pruning, and permutation selectors. Each pruning iteration costs $\mathcal O(n\log^2n\log\log n)$ rounds. A two-step quadratic contraction limits each receiver and each class of identical closed in-neighborhoods to $\mathcal O(\log\log n)$ qualifying selections. Under an explicit degree-concentration condition, our protocol takes $\mathcal O(m\log^2n(\log\log n)^2)$ rounds. For directed regular graphs with common in- and out-degree $Δ$, our strategy achieves $\widetilde{\mathcal O}(\min\{n\sqrtΔ,n^2/Δ\})$, extending the identifier range of Wu and Chrobak and improving their high-degree bound. At completion entry, let $a\ge1$ count original sources not yet credited as globally disseminated. Permutation selectors reduce our balanced completion budget by a factor of $\log^{2/3}(a+1)$ relative to interleaved path selectors. Our geometric protocol attains $\widetilde{\mathcal O}(k^2+nτ+\min\{u^2,(nu)^{2/3}\})$ for an original path cover of scale $k$, weight $τ$, and $u$ exceptions. Every graph also admits $\widetilde{\mathcal O}(\min\{n^{4/3},N+(mn)^{3/5}\})$ rounds. Only $n,N$ are inputs. Within the stated graph classes and identifier ranges, these results answer the polynomial-identifier and average-degree questions of Wu and Chrobak. The unrestricted general-graph cases remain open.</description>
+    </item>
+    <item>
       <title>Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of $ω\le9/4$</title>
       <link>http://arxiv.org/abs/2610.28627v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.28627v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.25929v1</guid>
       <pubDate>Tue, 22 Sep 2026 09:34:22 +0000</pubDate>
       <description>We prove that deciding the Berry phase for parameterised 2-local qubit Hamiltonians is BQP-complete when presented with a classical description of a guiding state, promised to overlap with the ground state of the system. Our results extend to systems with weighted Heisenberg interactions and when restricted to a 2D square or triangular lattice geometry. The techniques we develop leverage the Schrieffer--Wolff transformation, typically used in the construction of perturbative gadget reductions for local Hamiltonian problems, extending it to parameterised families of Hamiltonians. We demonstrate that there exists a choice of parameterised simulator Hamiltonians whose Berry phase well-approximates that of a parameterised target family. Using the perturbative gadget reduction framework of Oliveira and Terhal and of Schuch and Verstraete, we adapt the arguments to parameterised interactions and demonstrate the error bounds in the resulting simulation can be controlled. Additionally, we provide an explicit proof that families of 1-local Hamiltonians have a Berry phase that can be efficiently computed to inverse-polynomial precision. This establishes a complexity transition between 1-local and 2-local Hamiltonian families.</description>
-    </item>
-    <item>
-      <title>Exponential Quantum Advantage in Testing Fourier Dimensionality</title>
-      <link>http://arxiv.org/abs/2609.25816v2</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.25816v2</guid>
-      <pubDate>Tue, 22 Sep 2026 07:45:23 +0000</pubDate>
-      <description>A boolean function $f$ has Fourier dimension $k$ if its nonzero Fourier coefficients span a subspace of dimension $k$. We consider the property testing task of determining whether a function has Fourier dimension at most $k$, or is $ε$-far from being so. We show that there is a $O(k/ε)$-query quantum property tester for this problem, which we show to be almost optimal. Combined with Gopalan et al.'s classical lower bound of $Ω(2^{k/2})$, this demonstrates an exponential quantum advantage for this task. We complement this result with a $\tilde{O}(2^{k/2}/ε)$ classical tester, giving a quadratic improvement over the previous best tester, and essentially settling the classical query complexity.</description>
-    </item>
-    <item>
-      <title>Latest Exact Match Attention</title>
-      <link>http://arxiv.org/abs/2609.25802v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.25802v1</guid>
-      <pubDate>Tue, 22 Sep 2026 07:36:00 +0000</pubDate>
-      <description>We introduce latest exact match attention (LEMA), an attention variant for transformers where queries and keys are binarized and each query attends only to the latest exactly matching key. We prove that LEMA transformers with chain of thought can simulate word-RAMs, as was recently shown for the less restrictive rightmost hard attention. In contrast to prior hard attention variants, the restriction to exact matches enables an efficient converse direction: word-RAMs can simulate LEMA transformers at a cost per token independent of the context length. Together, these results yield a close correspondence between the two computational models in terms of both compute and memory. Beyond the theory, we propose a training method for LEMA transformers that handles their non-differentiable operations with a straight-through estimator for the binarization and a soft attention surrogate annealed towards LEMA. On a synthetic associative recall task, LEMA models trained this way use their growing state to store and recall a large number of associations, outperforming gated DeltaNet (GDN) with its fixed state size. As a first scaling test, we train LEMA language models with up to 834 million parameters. They match softmax transformers of around half their size in loss and, on repeated rare phrases and a needle-retrieval task, remain behind softmax transformers but recall across longer distances than GDN models of comparable size. Finally, we implement dictionary-based inference for LEMA transformers and show constant generation speed comparable to GDN despite their growing state, with the dictionaries residing in main memory rather than VRAM. Code is available at https://github.com/moritzbroe/latest_exact_match_attention.</description>
-    </item>
-    <item>
-      <title>Improved Algorithms for the Remote Point Problem</title>
-      <link>http://arxiv.org/abs/2609.25765v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.25765v1</guid>
-      <pubDate>Tue, 22 Sep 2026 06:57:59 +0000</pubDate>
-      <description>The Remote Point Problem (RPP) is an algorithmic problem that asks, given a linear subspace $L \subseteq \mathbb{F}^n$ of dimension $k$, to deterministically find a vector $v \in \mathbb{F}^n$ far in Hamming distance from $L$. This problem was introduced by Alon, Panigrahy and Yekhanin [APY09], motivated in part by the matrix rigidity approach for proving circuit lower bounds. An algorithm is said to achieve remoteness $d$ if it finds a vector $v$ whose Hamming distance from $L$ is at least $d$. We observe that over the rational numbers, the problem admits a deterministic polynomial-time algorithm that achieves optimal remoteness $n-k$. Over finite fields, we obtain a (modest) improvement of a result of Alon, Panigrahy and Yekhanin [APY09], and give an algorithm that achieves remoteness $Ω\left(\frac{n}{\max\{k, \log n\}} \log n\right)$.</description>
     </item>
   </channel>
 </rss>

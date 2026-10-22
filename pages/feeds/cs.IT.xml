@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Capacity of Interactive Secure Summation</title>
+      <link>http://arxiv.org/abs/2610.29954v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.29954v1</guid>
+      <pubDate>Wed, 21 Oct 2026 16:14:31 +0000</pubDate>
+      <description>In secure summation, $K$ parties each hold an input, and the sum of the inputs is computed at one party, securely against at most $T$ colluding parties. Communication typically takes one hop: each party sends one message directly to the party that computes the sum, using correlated randomness that is independent of the inputs and held in advance. We consider interactive secure summation, where every pair of parties is connected by a secure link, so that each party can send messages to every other party, each party has only independent local randomness, and the messages may depend on the inputs and on earlier messages over multiple rounds. We characterize the capacity region, the set of achievable rates of communication, counting all messages exchanged among the parties over all rounds, and of the randomness of every party, counted in symbols per symbol of the sum. For $0\le T\le K-2$, the optimal communication rate is $K(K-1)/(K-T)$, and the randomness rates form a polyhedron with, up to a relabeling of the parties, a single extreme point: $T$ parties have the randomness rates $(K+T-2t)/(K-T)$, $t=1,\ldots,T$, and the others none. In particular, the optimal total randomness rate is $T(K-1)/(K-T)$. Linear schemes achieve every extreme point together with the optimal communication rate. The same techniques give the capacity region when every party recovers the sum and when the sum is computed at a server without input.</description>
+    </item>
+    <item>
+      <title>Linear Complementary Pairs of MDS Codes from Elliptic Curves</title>
+      <link>http://arxiv.org/abs/2610.29835v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.29835v1</guid>
+      <pubDate>Wed, 21 Oct 2026 14:57:26 +0000</pubDate>
+      <description>In this paper, we investigate the Linear Complementary Pairs (LCPs) of Maximum Distance Separable (MDS) codes that arise from elliptic curves. We establish geometric conditions for LCPs of elliptic codes and prove that they cannot consist entirely of MDS codes when evaluated over all rational points of the curve. To address this, we construct LCPs of MDS elliptic codes by restricting evaluation divisors to subgroup cosets. We apply this method to obtain explicit infinite families of LCPs of MDS codes over Mordell and supersingular elliptic curves, including large-length constructions over quadratic extensions.</description>
+    </item>
+    <item>
+      <title>Quantum f-divergences from retrodiction: a unifying classical variational principle</title>
+      <link>http://arxiv.org/abs/2610.29696v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.29696v1</guid>
+      <pubDate>Wed, 21 Oct 2026 13:09:11 +0000</pubDate>
+      <description>The same classical f-divergence admits inequivalent extensions to quantum states. The question is whether these extensions can be obtained from a common operational variational principle. Here we generalize Matsumoto's reverse-test optimization by introducing a reference prior state. More explicitly, we minimize the statistical distinguishability between a forward and a reverse prepare-and-measure process, related by retrodiction through the chosen reference and subject to prescribed quantum averages. Distinguishability is quantified by the classical f-divergence between their complete records. For faithful states in finite dimension, we prove that the same spectral implementation attains the minimum simultaneously for every operator-convex f. Varying the reference allows us to interpolate between standard and maximal quantum f-divergences of the prescribed states, passing through the geodesic family. More precisely, a flat reference yields the standard quantum f-divergences, thereby giving the Nussbaum-Szkoła distributions a variational characterization as optimal records. Choosing either prescribed state as reference recovers maximal quantum f-divergences and Matsumoto's reverse tests, while power references realize the geodesic interpolation. In the relative-entropy case, this gives the passage from Umegaki to Belavkin-Staszewski relative entropy by changing the prior for retrodiction.</description>
+    </item>
+    <item>
       <title>Birthday Estimators Are Uniformly Optimal for Renyi Entropy</title>
       <link>http://arxiv.org/abs/2610.28581v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.28581v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.33625v1</guid>
       <pubDate>Sun, 27 Sep 2026 14:40:48 +0000</pubDate>
       <description>We study the maximum sum rate of uniquely decodable code pairs. A weighted refinement of a complement-gluing construction yields an explicit code of length 672 and sum rate exceeding $1.318639029203$. An iterated projection argument, combined with a conditional entropy estimate and a justified continuous limit, gives an upper bound of $1.480063425539$.</description>
-    </item>
-    <item>
-      <title>Robust Reconstruction on Trees with a Growing Alphabet</title>
-      <link>http://arxiv.org/abs/2609.33263v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.33263v1</guid>
-      <pubDate>Sun, 27 Sep 2026 06:11:38 +0000</pubDate>
-      <description>We study robust reconstruction for the \(q\)-state Potts broadcast process on a Galton-Watson tree in the growing-alphabet regime \(q\to\infty\), with boundary depth growing sufficiently quickly in relation to \(q\). We show that, in the regime \(dλ&gt;1\), where \(d\) is the expected number of offspring and \(λ\) is the nontrivial eigenvalue of the Potts transition matrix, the root posterior is asymptotically unchanged by a broad class of noise channels applied independently to the boundary labels. This remains true even when the probability of retaining the true label at an individual boundary vertex tends to zero as \(q\to\infty\). More precisely, under suitable moment and noise assumptions, the noiseless and noisy root posteriors converge to one another in expected total variation, and hence have the same asymptotic Bayes-optimal reconstruction accuracy.</description>
-    </item>
-    <item>
-      <title>Optimal and minimal $p$-ary linear codes from generalized order ideals of hierarchical posets</title>
-      <link>http://arxiv.org/abs/2609.33128v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.33128v1</guid>
-      <pubDate>Sun, 27 Sep 2026 02:51:43 +0000</pubDate>
-      <description>Hyun, Kim, Wu and Yue constructed optimal and minimal binary linear codes from order ideals of hierarchical posets with two levels. Two different generalizations of the underlying antichain (simplicial complex) setting to odd characteristic are known: down-sets of $\mathbb{F}_p^n$ under the componentwise order, and support-closed subsets of $\mathbb{F}_q^m$. No generalization of the poset setting itself has appeared. We introduce generalized order ideals of a poset of order $p-1$, obtained by attaching multiplicities in ${0,\dots,p-1}$ to the elements of a poset, and study the two natural notions of order ideal that arise for hierarchical posets with two levels. Whenever the ideal meets the upper level, the resulting defining sets are neither down-sets nor support-closed. We determine the weight distributions of the associated complement codes, exhibit a family of Griesmer codes in which the upper element carries an arbitrary multiplicity, and, via the characteristic function of a generalized order ideal, obtain an infinite family of minimal $p$-ary codes of length $p^n-1$ and dimension $n+1$ violating the Ashikhmin--Barg condition.</description>
-    </item>
-    <item>
-      <title>An exponential strong converse for private communication over degradable quantum channels</title>
-      <link>http://arxiv.org/abs/2609.32515v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.32515v1</guid>
-      <pubDate>Sat, 26 Sep 2026 12:01:27 +0000</pubDate>
-      <description>We prove an exponential strong converse for the unassisted private capacity of every finite-dimensional degradable quantum channel. We use a single error criterion: the infidelity between the actual message-estimate-environment state and an ideal state consisting of uniformly distributed, perfectly correlated messages that are independent of the environment. At every rate strictly above the channel's maximum coherent information, the optimized fidelity to this ideal state decays exponentially in the number of channel uses. The same bound holds when the ideal environment state is fixed to the actual environment marginal. The proof applies to arbitrary mixed-state encoders and arbitrary collective decoders. Its main operator ingredient is an overlap bound for privacy tests: two receiver placements with a common subsystem of dimension $d_C$ have overlap at most $d_C/M$, where $M$ is the key size, independently of both shield dimensions. We combine this bound with the signed averaging construction presented in arXiv:2608.01308 and a single-filter reduction to symmetric states. A Gaussian filter replaces the common receiver subsystem by a system of controlled dimension from which the original correlations can be approximately recovered using quantum side information. The filter preserves exact exchange symmetry, and a uniform smooth-entropy estimate bounds its output dimension for arbitrary correlated channel inputs. We also obtain an exponential strong converse at zero for antidegradable channels under the same joint criterion and, consequently, for the private capacity of the quantum erasure channel throughout its parameter range.</description>
     </item>
   </channel>
 </rss>
