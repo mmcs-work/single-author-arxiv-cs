@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Near-Optimal Bounds for Testing k-Colorability</title>
+      <link>http://arxiv.org/abs/2610.31489v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31489v1</guid>
+      <pubDate>Thu, 22 Oct 2026 16:09:24 +0000</pubDate>
+      <description>We study the sample complexity of testing $k$-colorability in the dense graph model. A graph is $\varepsilon$-far from being $k$-colorable if at least $\varepsilon n^2$ edge deletions are required to make it $k$-colorable. We prove that, for every integer $k\ge 2$, a uniformly random induced subgraph on \[ O\!\left(\frac{k\log k}{\varepsilon}\right) \] vertices is non-$k$-colorable with probability at least $2/3$ whenever the original graph is $\varepsilon$-far from $k$-colorable. The proof introduces a trial coloring process based on nested palette systems and iteratively selected pivots. This yields an upper bound of $O(k\log k/\varepsilon)$, which is no worse than the previous state of the art $O(k\log(1/\varepsilon)/\varepsilon)$ throughout the nonvacuous parameter range, and is an improvement whenever $1/\varepsilon$ is superpolynomial in $k$. Moreover, for every fixed $k$, our bound matches the known lower bound, thereby establishing the optimal $Θ(1/\varepsilon)$ dependence on $\varepsilon$ and, to the best of our knowledge, achieving this optimal dependence for the first time.</description>
+    </item>
+    <item>
+      <title>Kempe Reachability with $k\geq 3$ Colors Is $\mathsf{PSPACE}$-Complete on Claw-Free Graphs</title>
+      <link>http://arxiv.org/abs/2610.31263v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31263v1</guid>
+      <pubDate>Thu, 22 Oct 2026 13:37:31 +0000</pubDate>
+      <description>A \emph{proper vertex coloring} assigns colors to vertices so that adjacent vertices have distinct colors. A \emph{Kempe change} in a proper vertex coloring exchanges two colors on one component of the subgraph induced by the vertices of those colors. For a fixed palette of $k$ colors, \textsc{Kempe Reachability} asks whether two given proper vertex colorings of the same graph are connected by a sequence of Kempe changes. This problem is known to be $\mathsf{PSPACE}$-complete for every fixed $k\geq 3$. A graph is \emph{claw-free} if no vertex has three pairwise nonadjacent neighbors. The \emph{line graph} of a graph has one vertex for each edge, with two vertices adjacent exactly when the corresponding edges share an end. Line graphs are claw-free, and their Kempe changes correspond to \emph{edge-Kempe changes} in the original graph, which exchange two colors on one component of the subgraph formed by the edges of those colors. A claw-free graph with a proper $k$-coloring has maximum degree at most $2k-2$, whereas for $k\geq 4$ all proper $k$-colorings of a graph of maximum degree at most $k$ are connected by Kempe changes. We show that, for every fixed $k\geq 3$, \textsc{Kempe Reachability} with $k$ colors is $\mathsf{PSPACE}$-complete even on line graphs of connected simple $k$-regular graphs, and hence even on connected $(2k-2)$-regular claw-free graphs. Equivalently, deciding whether two proper $k$-edge-colorings are connected by edge-Kempe changes is $\mathsf{PSPACE}$-complete even on connected simple $k$-regular graphs. ChatGPT 6 Pro and Claude Fable 5.1 were used to assist with developing and reviewing mathematical arguments and drafting and revising the paper. The author takes full responsibility for the correctness and content of the paper.</description>
+    </item>
+    <item>
+      <title>A Polynomial-Time Algorithm for $k$-Path Vertex Cover Reconfiguration on Trees under Token Sliding</title>
+      <link>http://arxiv.org/abs/2610.31261v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31261v1</guid>
+      <pubDate>Thu, 22 Oct 2026 13:36:46 +0000</pubDate>
+      <description>A $k$-path vertex cover ($k$-PVC) of a graph is a set of vertices meeting every path on $k$ vertices. In Token Sliding, one token occupies each vertex of a cover; a move slides one token along an edge to an unoccupied vertex, preserving the cover property. We study whether two covers of a tree are joined by such moves. The case $k=2$ admits a linear-time decision algorithm. For every integer $k\geq2$, we give an $O(kn^2)$-time decision algorithm on trees of order $n$, with $k$ part of the input. Two covers are reachable precisely when their rigid tokens, which never move, occupy the same set and every component remaining after their deletion has the same token count. The proof transforms configurations of equal size without rigid tokens into a canonical configuration built on properly rooted subtrees, whose paths on $k$ vertices pass through their roots. A rooted-subtree recurrence identifies movable candidate tokens. We also give a direct recursive construction between the supplied endpoints, returning at most $8n^2\,3^{\lceil n/2\rceil}$ slides in $O(n^{10}3^{n/2})$ time. ChatGPT 6 Pro and Claude Fable 5.1 were used to assist with developing and reviewing mathematical arguments and drafting and revising the paper. The author takes full responsibility for the correctness and content of the paper.</description>
+    </item>
+    <item>
+      <title>Almost tight distributed approximation for domination in sparse graph classes</title>
+      <link>http://arxiv.org/abs/2610.31203v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31203v1</guid>
+      <pubDate>Thu, 22 Oct 2026 12:50:27 +0000</pubDate>
+      <description>We study distributed approximation of Minimum Dominating Set in a very general class of sparse graphs, extending near-optimal approximation results from the minor-free setting to bounded expansion. In more detail, for fixed $d$ and $\varepsilon&gt;0$, we give a new deterministic constant-round LOCAL algorithm for Minimum Dominating Set on graphs of maximum average degree at most $d$ and bounded depth-one shallow-minor density. Its approximation ratio is $d+1+\varepsilon$, which is optimal up to $\varepsilon$ for every even integer $d\geq 2$. This improves on the recent results of Amiri and Siebertz by extending beyond proper minor-closed classes. From this algorithm, we derive almost-tight constant-round approximations for a number of graph classes. We get $(7+\varepsilon)$-approximations for planar graphs and graphs of bounded Euler genus, and $(5+\varepsilon)$-approximations for their triangle-free subclasses. This answers the $7+\varepsilon$ question of Wawrzyniak positively, and matches the recent results of Amiri and Siebertz. We also apply our algorithm to classes of bounded queue-number or stack-number, obtaining bounds that are tight up to $\varepsilon$. Additionally, we answer questions of Amiri and Siebertz about improving the dependence of the round complexity on $1/\varepsilon$ and obtaining polynomial local computation for fixed parameters, when comparing the output to the usual domination number.</description>
+    </item>
+    <item>
       <title>On Multi-label radio Labelings of Graphs</title>
       <link>http://arxiv.org/abs/2610.25863v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.25863v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.19468v1</guid>
       <pubDate>Wed, 19 Aug 2026 21:51:34 +0000</pubDate>
       <description>We prove that every finite point set of size at least $10^{11055931}$ has four collinear points or six points that pairwise see each other. This resolves the first open case of the big-line-big-clique conjecture of Kára, Pór, and Wood.</description>
-    </item>
-    <item>
-      <title>The Non-Cancelling-Intersections Conjecture Fails for Left-Linear Trees</title>
-      <link>http://arxiv.org/abs/2608.19414v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.19414v1</guid>
-      <pubDate>Wed, 19 Aug 2026 19:53:03 +0000</pubDate>
-      <description>First formulated by Amarilli, Monet, and Suciu (arXiv:2401.16210, 2024), the Non-Cancelling Intersections (NCI) conjecture is an open problem in combinatorics stating that any set union can be constructively built from its algebraically non-cancelling intersections using only disjoint unions and subset complements. In the same paper, two orthogonal possible strengthenings are proposed: using only left-linear trees, and using non-trivial intersections only positively or only negatively depending on the sign of their Möbius value. Here we show that using only left-linear trees, the conjecture is false (independent of the other strengthening). Our argument is non-constructive. We prove the existence of a counterexample, though it is of immense size.</description>
-    </item>
-    <item>
-      <title>Completing the Boundary Case of the Mahmoodian-Mirzakhani Conjecture and 117 New Computational 5-Cycle Decompositions of Complete Tripartite Graphs</title>
-      <link>http://arxiv.org/abs/2608.17227v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.17227v1</guid>
-      <pubDate>Tue, 18 Aug 2026 00:32:52 +0000</pubDate>
-      <description>Let $K_{r,s,t}$, with $r\le s\le t$, denote the complete tripartite graph whose partite sets have sizes $r,s,t$. Mahmoodian and Mirzakhani gave three necessary conditions for $K_{r,s,t}$ to admit a decomposition into 5-cycles and conjectured that these conditions are sufficient. One of the conditions is $t\le 4rs/(r+s)$. We prove the conjecture for every odd triple on the extremal boundary $t = 4rs/(r+s)$. The proof is constructive. After reducing an arbitrary odd boundary triple to $(r,s,t)=(hga,hgb,hab)$, $a+b=4g$, we give an explicit cyclic decomposition of $K_{ga,gb,ab}$ and use the Mahmoodian and Mirzakhani scaling theorem to supply the common factor $h$. Together with the previously known all-even result, this settles the conjecture for every triple satisfying the boundary condition with equality. We also report explicit computer-generated $C_5$-decompositions for 117 odd triples satisfying the necessary conditions, 116 of which are strict-interior cases. To the best of our knowledge, all 117 cases were previously unresolved: no decomposition for any of them had been reported, and none of the 117 triples is covered by earlier existence results, constructions, or their recursive consequences. Moreover, these 117 certificates together with the boundary construction settle every previously unresolved triple satisfying the necessary conditions with fewer than $4400$ edges. Each computation is supplied as a machine-readable cycle-list certificate and can be checked independently by a short Python verifier. We also give a complete human-readable edge-label-matrix certificate for $K_{9,19,23}$.</description>
-    </item>
-    <item>
-      <title>Towards discrete convex analysis over classical root systems</title>
-      <link>http://arxiv.org/abs/2608.16090v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.16090v1</guid>
-      <pubDate>Mon, 17 Aug 2026 04:31:39 +0000</pubDate>
-      <description>Discrete Convex Analysis (DCA) is a discrete analog of continuous convex analysis, originally proposed as a unified theoretical framework for efficiently solvable combinatorial optimization problems. Recently, DCA has proven to be a powerful tool across diverse fields, ranging from operations research to economics and pure mathematics. Motivated by the broad applicability of DCA, this paper establishes a unified theory of discrete convex analysis over discrete structures arising from classical root systems, extending the usual setting of the integer lattice, which essentially corresponds to type A. We adopt the vertex set of the Euclidean Coxeter complex as the primal discrete domain for L-convexity, and the root lattice as the dual discrete domain for M-convexity. Using the associated polyhedral structures, we formulate L- and M-convex functions together with notions of integrality determined by the root system. We show that local optimality guarantees global optimality for these functions. Furthermore, we establish that integral L-convex functions and integral M-convex functions correspond one-to-one via the discrete Fenchel--Legendre conjugate, thereby extending the conjugacy in the original DCA from type A to all classical root systems.</description>
-    </item>
-    <item>
-      <title>A counterexample to the Albertson-Berman conjecture about induced forests in planar graphs</title>
-      <link>http://arxiv.org/abs/2608.13964v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.13964v1</guid>
-      <pubDate>Fri, 14 Aug 2026 05:13:58 +0000</pubDate>
-      <description>For a graph $G$, denote by $a(G)$ the number of vertices in the largest induced forest in $G$. The Albertson-Berman conjecture, which had been open since 1979, states that $a(G) \geq \frac{n}{2}$ for every simple planar graph $G$ on $n$ vertices. Although the Albertson-Berman conjecture was recently resolved in the negative by constructing a counterexample with the help of AI, we independently found a counterexample to the Albertson-Berman conjecture without AI and present it in this article. Our counterexample is on $39$ vertices with $a(G)=19$. Finally, we indicate, without a full proof, a variant of this construction with a larger number of vertices, but with a slightly smaller ratio $\frac{a(G)}{n}=\frac{37}{76}$.</description>
     </item>
   </channel>
 </rss>

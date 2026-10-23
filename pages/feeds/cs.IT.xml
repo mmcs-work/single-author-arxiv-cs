@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Cheng-Murray Conjecture on Deep Holes of Full-Length Reed-Solomon Codes</title>
+      <link>http://arxiv.org/abs/2610.31531v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31531v1</guid>
+      <pubDate>Thu, 22 Oct 2026 16:38:26 +0000</pubDate>
+      <description>For full-length Reed--Solomon codes, every received word whose interpolation polynomial has degree equal to the code dimension is a deep hole. The Cheng--Murray conjecture asserts that these are the only deep holes in dimensions $3\le k\le q-2$, except when $q$ is even and $k=q-3$. Earlier results settled the conjecture over odd prime fields and in the high-dimensional range. We resolve the remaining cases $3\le k\le\lfloor q/2\rfloor$ over every finite field $\F_q$, thereby completing the classification in all nonexceptional dimensions. Our proof combines two complementary approaches. The tangent envelope of a marked arc yields differential constraints that settle the even-characteristic range $3\le k\le q/2$ and the odd-characteristic range $3\le k\le q/3$. In the remaining odd-characteristic range, local syndrome compatibility and combinatorial counting rule out additional deep holes.</description>
+    </item>
+    <item>
+      <title>Improved Bounds for the Entropic Central Limit Theorem in the Log-Concave Case</title>
+      <link>http://arxiv.org/abs/2610.31493v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31493v1</guid>
+      <pubDate>Thu, 22 Oct 2026 16:13:24 +0000</pubDate>
+      <description>Let $μ$ be a log-concave isotropic probability measure on $R^d$ , and let $μ^n$ denote the law of the normalized sum of $n$ independent random vectors with law $μ$. We prove that \[ H(μ^n|γ)\leq \frac{C}{n} \min\left\{1+\log(ed)^2H(μ|γ)\ ,\ d\right\}. \] Compared to the previous best known bound, our estimate replaces the polynomial dependence on the dimension by a polylogarithmic one. The proof relies on a new combination of the De Bruijn identity with Eldan's stochastic localization process.</description>
+    </item>
+    <item>
+      <title>Deep holes of full-length Reed--Solomon codes: uniform bounds and exact classifications</title>
+      <link>http://arxiv.org/abs/2610.31460v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31460v1</guid>
+      <pubDate>Thu, 22 Oct 2026 15:53:11 +0000</pubDate>
+      <description>Let $u$ be a received word for the full-length Reed--Solomon code $\operatorname{RS}_q(k)$, with interpolation polynomial $f_u$ of degree $k+m$. For each $m\in\{3,4,5,6,7\}$, we classify all such deep holes over every finite field, without a field-size hypothesis. None occur for odd $m$ in this range. At $m=4$ and $m=6$, the only exceptions are, respectively, the Segre sextic and Frobenius-power families; these occur only in dimension two over fields of characteristic two. For arbitrary $m\geqslant3$, we also establish two uniform bounds. If $\sqrt q\geqslant12(m+1)\log(2m+2)$, no word of interpolation degree $k+m$ is a deep hole when $q$ is odd, $k\geqslant3$, or $m$ is odd. If $q&gt;16(m+2)^4$, we obtain the corresponding complete classification at every admissible $k$, including the explicit dimension-two exceptions. Our proofs use an agreement criterion expressed in complete homogeneous symmetric functions, agreement-count estimates, finite geometry, permutation-polynomial restrictions, and subset constructions for solving the resulting symmetric-function equations. The remaining finite cases are settled by finite computations with supplied certificates and deterministic verification programs.</description>
+    </item>
+    <item>
+      <title>A local-to-global principle for $f$-divergence homogenization</title>
+      <link>http://arxiv.org/abs/2610.31164v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31164v1</guid>
+      <pubDate>Thu, 22 Oct 2026 12:22:03 +0000</pubDate>
+      <description>We study the effect of replacing a family of independent statistical experiments by independent repetitions of their average. We give a simple, complete characterization of the $f$-divergences for which this operation increases divergence by at most a constant depending only on the generator, uniformly in the number of observations and the underlying measurable space. The characterization is governed by a local-to-global principle: a comparison restricted to two observations on a binary alphabet already determines the validity of the general inequality. It admits an explicit scalar formulation, which simplifies further for symmetric divergences. The result applies to arbitrary convex generators and requires no differentiability or symmetry assumptions. It recovers the homogenization inequality for total variation and identifies exactly the admissible members of the power-divergence family. In particular, whenever uniform homogenization fails, the obstruction is already present in a family of binary experiments with two observations. Moreover, the global comparison constant is controlled uniformly over generators with a common bound in the local inequality.</description>
+    </item>
+    <item>
+      <title>Classification of binary, ternary and quaternary Hermitian LCD codes</title>
+      <link>http://arxiv.org/abs/2610.30561v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.30561v1</guid>
+      <pubDate>Thu, 22 Oct 2026 00:33:48 +0000</pubDate>
+      <description>We extend the complete classifications of linear complementary dual (LCD) codes from length 15 to length 19 in the binary case, from length 10 to length 15 in the ternary case and from length 12 to length 13 in the quaternary Hermitian case. The classification rests on a reduction of the monomial equivalence of LCD codes to graph isomorphism on the coordinates, combined with canonical augmentation.</description>
+    </item>
+    <item>
       <title>The Capacity of Interactive Secure Summation</title>
       <link>http://arxiv.org/abs/2610.29954v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.29954v1</guid>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.35714v1</guid>
       <pubDate>Mon, 28 Sep 2026 17:46:18 +0000</pubDate>
       <description>Bell and Cover showed that an investor who multiplies the initial unit of capital by an independent uniform random variable on $(0,2)$, and then uses the log-optimal portfolio, wins a head-to-head wealth comparison with probability at least one half against every independently randomized competitor. We explain very simply how this result transfers to testing by betting: for any composite null $\mathcal P$ and simple alternative $Q$, denoting $E^*$ as the corresponding numeraire e-variable, we show that $UE^*$ exceeds any other e-variable $E$ with probability at least half. Interestingly, we show that this competitive optimality result is actually equivalent to the numeraire inequality $\mathbb E_Q[E/E^*]\leq1$, and in general randomization only helps the numeraire and fails to improve the competitive advantage of an arbitrary e-variable. Under optional stopping with or without knowledge of $U$, we emphasize a key distinction between e-process validity and competitive optimality. We also show that competitive optimality comes at the price of expected log wealth and power: thresholding $UE^*$ at $1/α$ has sharp size at most $α/2$, but the factor of two actually disappears under optional stopping. Even after correcting for this factor of two, the test is dominated in conditional rejection probability by randomizing the testing threshold (randomized Markov's inequality). Thus, Bell-Cover randomization is optimal for a specific competitive objective, at the cost of others.</description>
-    </item>
-    <item>
-      <title>Bregman Consensus</title>
-      <link>http://arxiv.org/abs/2609.35930v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.35930v1</guid>
-      <pubDate>Mon, 28 Sep 2026 14:16:04 +0000</pubDate>
-      <description>Consider a community of agents who are seeking consensus on a set of parameters. The agents agree to use the same Bregman-type divergence to quantify disagreement between their individual estimates of the parameters but have varying confidence in each other's abilities. Each agent is happy to revise their estimate by moving to the weighted barycenter of all individual estimates with higher weights applied to more trusted agents. We show that such revisions naturally lead to an iterative algorithm which converges to a unique consensus estimate of the parameters. Furthermore, since the consensus estimate is itself a barycenter with computable weights, the group emerges as a collective super-agent with a well-formed opinion regarding the ability of each individual agent.</description>
-    </item>
-    <item>
-      <title>A proof of the Braun-Etzion-Vardy bound for binary subspace codes</title>
-      <link>http://arxiv.org/abs/2609.33719v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.33719v1</guid>
-      <pubDate>Sun, 27 Sep 2026 16:22:28 +0000</pubDate>
-      <description>The notion of a linear subspace code in a projective space was introduced by Braun, Etzion and Vardy (2013), who conjectured that a linear subspace code in the projective space has at most 2^n codewords. We resolve this conjecture. A novel character-theoretic argument is used to prove the conjecture and the proof is self-contained.</description>
-    </item>
-    <item>
-      <title>Non-Adaptive Learning of Sparse Erdős--Rényi Graphs via Affine Splitting</title>
-      <link>http://arxiv.org/abs/2609.33704v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.33704v1</guid>
-      <pubDate>Sun, 27 Sep 2026 16:07:15 +0000</pubDate>
-      <description>Graph learning from edge-detecting queries concerns the reconstruction of an unknown edge set on a known vertex set. Each query reports whether a specified vertex subset contains at least one edge. We study non-adaptive schemes, in which all queries are fixed before any outcomes are observed, with the goal of achieving exact recovery using few queries and fast decoding. For general graphs on $n$ vertices with at most $k$ edges, non-adaptive recovery requires $Ω(\min\{k^2\log n,n^2\})$ queries in the worst case, even when a small error probability is allowed. In this paper, we consider Erdős--Rényi ($\mathrm{ER}$) graphs $G\sim \mathrm{ER}(n,q)$, with expected edge count $\bar{k}=q\binom{n}{2}$. Our scheme uses $O(\bar{k}\log n)$ queries and achieves exact recovery in $O(\bar{k}\log n)$ decoding time with probability tending to one throughout the regime $\bar{k}\to\infty$ and $\bar{k}=o(n^2)$. This improves the previous $O(\bar{k}^{1+δ}\log n)$ decoding guarantee for any fixed $δ&gt;0$, while maintaining the same query order. The guarantee also extends beyond the previously studied regime $\bar{k}=Θ(n^{2θ})$ with fixed $θ\in(0,1)$. Our approach builds on the binary splitting method used in prior work, which organizes vertices into a hierarchy of successively smaller groups. We introduce three main changes: (i) we use random affine hash functions over a finite field to process each candidate pair in constant time; (ii) we apply the splitting procedure directly to the full graph, avoiding the need to combine solutions to multiple smaller graph-learning subproblems; and (iii) we bound the total decoding workload directly rather than deriving separate high-probability bounds on candidate counts at each level.</description>
-    </item>
-    <item>
-      <title>Geometric Inductive Biases for Semi-Supervised Equalization: The Constellation-Aware Transformer</title>
-      <link>http://arxiv.org/abs/2609.33695v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.33695v1</guid>
-      <pubDate>Sun, 27 Sep 2026 15:58:39 +0000</pubDate>
-      <description>Decoding signals over unknown channels with minimal pilot overhead is a critical challenge in next-generation communications. Existing deep learning approaches typically rely on generic encoders that struggle to model long-range temporal dependencies or efficiently capture the channel's physical properties from scarce data. We argue that standard architectures suffer from agnostic estimation gaps, as they must implicitly learn the constellation geometry that is already known. We introduce the Constellation-Aware Transformer (CAT), a novel architecture that explicitly injects geometric inductive biases into the equalization process. CAT is composed of a stack of custom TransFIRmer blocks, which use an "early interaction" paradigm to co-process received signals and ideal constellation symbols. Each block features a split Feed-Forward Network that applies a Finite Impulse Response (FIR)-inspired filter for deconvolution and a parallel MLP for geometric refinement. We show that this design is structurally aligned with the optimal linear (MIMO Wiener) receiver: its attention can implement a matched-filter bank, and its bidirectional FIR branch provides the non-causal filtering that block MMSE equalization requires. In the semi-supervised setting, CAT needs fewer pilots than VAE and standard Transformer baselines: on two of our three ISI channels, it reaches a lower SER with 64 pilots than they do with 128.</description>
-    </item>
-    <item>
-      <title>A Continuous Projection Converse and a Weighted Construction for Uniquely Decodable Code Pairs</title>
-      <link>http://arxiv.org/abs/2609.33625v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.33625v1</guid>
-      <pubDate>Sun, 27 Sep 2026 14:40:48 +0000</pubDate>
-      <description>We study the maximum sum rate of uniquely decodable code pairs. A weighted refinement of a complement-gluing construction yields an explicit code of length 672 and sum rate exceeding $1.318639029203$. An iterated projection argument, combined with a conditional entropy estimate and a justified continuous limit, gives an upper bound of $1.480063425539$.</description>
     </item>
   </channel>
 </rss>

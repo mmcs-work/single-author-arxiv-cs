@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>No Perfect Randomized Composition</title>
+      <link>http://arxiv.org/abs/2610.31638v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31638v1</guid>
+      <pubDate>Thu, 22 Oct 2026 17:52:26 +0000</pubDate>
+      <description>Does computing a composition of total Boolean functions require the product of the randomized query complexities of its factors? We give a negative answer. There are families of total functions $f,g$ such that $R(f\circ g) =Θ\!\left(\frac1{\log R(g)}\right)R(f)R(g)$ This result requires first separating linearized query complexity $\LR$, as well as noisy randomized query complexity $noisyR$, from standard randomized query complexity $R$. Both constructions essentially come from totalizing existing partial function separations, albeit via different techniques. By adapting these techniques, we also construct total functions separating every adjacent pair in the chain from sabotage $RS$, max-conflict $\barχ$, and linearised query complexity $LR$. We show that AND-of-ORs separates conflict $χ$ from max-conflict $\barχ$ complexity and makes conflict and sabotage incomparable. Finally, randomized complexity can be smaller than its composition limit $R^*$ by the maximal factor $Θ(\log R)$. The total--total composition separation is also formalized in Lean.</description>
+    </item>
+    <item>
+      <title>Near-Quadratic Time Multivariate Polynomial Interpolation</title>
+      <link>http://arxiv.org/abs/2610.30907v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.30907v1</guid>
+      <pubDate>Thu, 22 Oct 2026 08:30:46 +0000</pubDate>
+      <description>Let $\F$ be a finite field. Given $N$ distinct points $\bmα_1,\ldots,\bmα_N \in \F^m$ and associated values $β_1,\ldots,β_N \in \F$, we study the problem of computing an $m$-variate polynomial $f(\vy) \in \F[\vy]$ of individual degree less than $d$, with $d^m \ge N$, that satisfies $f(\bmα_i)=β_i$ for all $i\in[N]$, whenever such an $f$ exists. This is known as the\textit{ multivariate polynomial interpolation} problem. In this work, given $N=d^m$, we present a deterministic algorithm for multivariate polynomial interpolation over an arbitrary finite field $\F$ that runs in near-quadratic time $N^{2+o(1)}\poly(m,d,\log|\F|)$, assuming $d$ is $ω(1)$. This bound holds whenever the associated \emph{multivariate Vandermonde} matrix is nonsingular, has constant co-rank, or admits some special structure. In the general case, we give a randomized Las Vegas algorithm attaining the same near-quadratic running time, provided the finite field is sufficiently large and $d$ grows similar to the previous case. Unlike other multivariate interpolation strategies, we do not assume black-box access to the polynomial. In particular, we are not permitted to query arbitrary input points to obtain their evaluations. Our interpolation result follows by combining Wiedemann's classical approach~\cite{w86} for solving sparse linear systems with known bounds for fast \emph{multivariate multipoint evaluation} over finite fields~\cite{umans08, KU11, BGKM23, BGGKU24}. Specifically, our deterministic interpolation strategy relies on a deterministic variant of Wiedemann's approach, which is more commonly used in the randomized setting.</description>
+    </item>
+    <item>
       <title>Tight Bounds on the Randomized Communication Complexity of Vector-in-Subspace</title>
       <link>http://arxiv.org/abs/2610.30052v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.30052v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.26778v1</guid>
       <pubDate>Tue, 22 Sep 2026 17:55:06 +0000</pubDate>
       <description>Three-variable first-order logic (FO3) and the calculus of relations (CoR) define the same binary queries, an equivalence going back to Tarski in the 1940s. While the classical translation $\text{FO3} \Rightarrow \text{CoR}$ is exponential, we prove that this blow-up is unavoidable, resolving a long-standing open question. We construct positive formulas $\varphi$ with a single quantifier whose equivalent terms require size $2^{Ω(|\varphi|)}$, even over finite structures and circuit representations with subterm sharing. Our proof uses a preservation argument over a single finite structure. This approach applies beyond our primary question, establishing the lower bound even for size-specific circuits and bounded-error randomized circuits, and yielding an analogous exponential gap for the matrix query language MATLANG.</description>
-    </item>
-    <item>
-      <title>On the Complexity of Finding Decoherence Free Subspaces</title>
-      <link>http://arxiv.org/abs/2609.26769v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.26769v1</guid>
-      <pubDate>Tue, 22 Sep 2026 17:49:23 +0000</pubDate>
-      <description>Decoherence free subspaces are a steady-state structure of the open quantum system which preserves quantum coherence between the states lying with in it and thus has found a variety of applications throughout quantum information science and technology. In this paper we study the computational complexity of deciding whether an open quantum system admits a decoherence free subspace or not. More specifically we study this problem with in the context of Markovian open quantum systems, governed by the time-independent Lindblad master equation. Along the way we introduce the $k$-Local Lindbladian problem, which captures the difficulty of computing purity decay rates under Lindbladian dynamics. We show that both problems are hard for the complexity class Quantum Merlin Arthur (QMA) when the locality $k \geq 5$, with the first under perfect completeness and the second being complete for QMA. Our hardness construction generalizes Kitaev's clock Hamiltonian construction to the open quantum system setting by encoding the execution of a quantum circuit into the steady subspace of a Lindbladian containing both pure and mixed history states. This subspace is then mixed depending on the output of the encoded circuit. Our results suggest that deciding whether a generic Markovian open quantum system admits a decoherence free subspace is intractable even for quantum computation.</description>
-    </item>
-    <item>
-      <title>On the Computational Complexity of Guided Berry Phase Estimation</title>
-      <link>http://arxiv.org/abs/2609.25929v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.25929v1</guid>
-      <pubDate>Tue, 22 Sep 2026 09:34:22 +0000</pubDate>
-      <description>We prove that deciding the Berry phase for parameterised 2-local qubit Hamiltonians is BQP-complete when presented with a classical description of a guiding state, promised to overlap with the ground state of the system. Our results extend to systems with weighted Heisenberg interactions and when restricted to a 2D square or triangular lattice geometry. The techniques we develop leverage the Schrieffer--Wolff transformation, typically used in the construction of perturbative gadget reductions for local Hamiltonian problems, extending it to parameterised families of Hamiltonians. We demonstrate that there exists a choice of parameterised simulator Hamiltonians whose Berry phase well-approximates that of a parameterised target family. Using the perturbative gadget reduction framework of Oliveira and Terhal and of Schuch and Verstraete, we adapt the arguments to parameterised interactions and demonstrate the error bounds in the resulting simulation can be controlled. Additionally, we provide an explicit proof that families of 1-local Hamiltonians have a Berry phase that can be efficiently computed to inverse-polynomial precision. This establishes a complexity transition between 1-local and 2-local Hamiltonian families.</description>
     </item>
   </channel>
 </rss>

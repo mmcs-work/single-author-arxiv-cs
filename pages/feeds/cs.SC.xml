@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Near-Quadratic Time Multivariate Polynomial Interpolation</title>
+      <link>http://arxiv.org/abs/2610.30907v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.30907v1</guid>
+      <pubDate>Thu, 22 Oct 2026 08:30:46 +0000</pubDate>
+      <description>Let $\F$ be a finite field. Given $N$ distinct points $\bmα_1,\ldots,\bmα_N \in \F^m$ and associated values $β_1,\ldots,β_N \in \F$, we study the problem of computing an $m$-variate polynomial $f(\vy) \in \F[\vy]$ of individual degree less than $d$, with $d^m \ge N$, that satisfies $f(\bmα_i)=β_i$ for all $i\in[N]$, whenever such an $f$ exists. This is known as the\textit{ multivariate polynomial interpolation} problem. In this work, given $N=d^m$, we present a deterministic algorithm for multivariate polynomial interpolation over an arbitrary finite field $\F$ that runs in near-quadratic time $N^{2+o(1)}\poly(m,d,\log|\F|)$, assuming $d$ is $ω(1)$. This bound holds whenever the associated \emph{multivariate Vandermonde} matrix is nonsingular, has constant co-rank, or admits some special structure. In the general case, we give a randomized Las Vegas algorithm attaining the same near-quadratic running time, provided the finite field is sufficiently large and $d$ grows similar to the previous case. Unlike other multivariate interpolation strategies, we do not assume black-box access to the polynomial. In particular, we are not permitted to query arbitrary input points to obtain their evaluations. Our interpolation result follows by combining Wiedemann's classical approach~\cite{w86} for solving sparse linear systems with known bounds for fast \emph{multivariate multipoint evaluation} over finite fields~\cite{umans08, KU11, BGKM23, BGGKU24}. Specifically, our deterministic interpolation strategy relies on a deterministic variant of Wiedemann's approach, which is more commonly used in the randomized setting.</description>
+    </item>
+    <item>
       <title>An algorithmic construction of Nullstellensatz certificates for graph automorphism groups</title>
       <link>http://arxiv.org/abs/2610.28928v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.28928v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2511.02121</guid>
       <pubDate>Mon, 03 Nov 2025 00:00:00 -0000</pubDate>
       <description>We investigate the arithmetic nature of P-recursive sequences through the lens of their D-finite generating functions. Building on classical tools from differential algebra, we revisit the integrality criterion for Motzkin-type sequences due to Klazar and Luca, and propose a unified method for analysing global boundedness and algebraicity within a broader class of holonomic sequences. The central contribution is an algorithm that determines whether all, none, or a one-dimensional family of solutions to certain second-order recurrences are globally bounded. This approach generalizes earlier ad hoc methods and applies successfully to several well-known sequences from the On-Line Encyclopedia of Integer Sequences (OEIS).</description>
-    </item>
-    <item>
-      <title>D-algebraic Guessing</title>
-      <link>https://arxiv.org/abs/2510.26869</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.26869</guid>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 -0000</pubDate>
-      <description>Given finitely many consecutive terms of an infinite sequence, we discuss the construction of a polynomial difference equation that the sequence may satisfy. We also present a method to seek a candidate polynomial differential equation for its generating function. It appears that these methods often lead to effective D-algebraic operations.</description>
     </item>
   </channel>
 </rss>

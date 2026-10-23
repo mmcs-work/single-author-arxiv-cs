@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Reversible Intermediate Language L4, its Type System, and its Bidirectional Small-Step Semantics</title>
+      <link>http://arxiv.org/abs/2610.31201v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31201v1</guid>
+      <pubDate>Thu, 22 Oct 2026 12:47:06 +0000</pubDate>
+      <description>L4 is a generic, reversible, linearly-typed, low-level language intended as an intermediate language for compiling reversible programming languages to reversible machines. L4 is intended to replace and generalise RSSA, a reversible SSA form. Inspiration is drawn from other low-level reversible languages such as HSSA. In this paper, we define L4 first informally, and then give a formal type system and a bidirectional small-step semantics for L4: The rules have direction indicators to determine forwards or backwards execution, and the direction can be changed during execution.</description>
+    </item>
+    <item>
       <title>Deciding Scale Placement in MXFP4 Dot Products with Integer Arithmetic</title>
       <link>http://arxiv.org/abs/2610.29445v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.29445v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2409.14591</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 -0000</pubDate>
       <description>Guarded recursion is a framework allowing for a formalisation of streams in classical (as opposed to concurrent, probabilistic, quantum) programming languages. The latter take their semantics in cartesian closed categories. However, some programming paradigms do not take their semantics in a cartesian setting; this is the case for concurrency, reversible and quantum programming for example. In this paper, we focus on reversible programming through its categorical model in dagger categories, which are categories that contain an involutive operator on morphisms. We show how to introduce the framework of guarded recursion into dagger categories with sufficient structure for data types, also called dagger rig categories. First, given an arbitrary category, we build another category shown to be suitable for guarded recursion in multiple ways, via enrichment and fixed point theorems. We then study the interaction between this construction and the structure of dagger rig categories, aiming for reversible programming. Finally, we show that our construction is suitable as a model of higher-order reversible programming languages, such as symmetric pattern matching, to which we add guarded recursion features.</description>
-    </item>
-    <item>
-      <title>The Fourth-Root Complexity of Data Movement</title>
-      <link>https://arxiv.org/abs/2606.30948</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.30948</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Time complexity typically assumes $O(1)$ cost per data access. This paper presents an analysis based on an abstract memory hierarchy. For a common class of applications, it shows that the data-access cost scales with the fourth root of data size, that is, as data size $N$ increases, the cost of each access increases at the rate of $N^\frac{1}{4}$. While the analysis does not predict performance, it predicts scalability. Specifically, the paper provides a precise analysis that shows the constant-factor difference between cases where the miss ratio follows a power law versus an exponential decay.</description>
     </item>
   </channel>
 </rss>
