@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Linear Lower Bound for Convex Body Chasing in Every $\ell_p$ Norm</title>
+      <link>http://arxiv.org/abs/2610.32670v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.32670v1</guid>
+      <pubDate>Fri, 23 Oct 2026 14:12:52 +0000</pubDate>
+      <description>We establish an $Ω(d)$ lower bound on the competitive ratio of convex body chasing in $\mathbb{R}^d$ with $\ell_p$ movement costs for any $p \in [1, \infty)$. Previously, the best known lower bound for general $p$ was $Ω(\max\{\sqrt{d}, d^{1-1/p}\})$, established by Bubeck et al. (2019); a linear lower bound was known only for $p = \infty$, realized by the standard construction of chasing faces of a hypercube. Our lower bound strictly improves on the prior bound for every fixed $p \in [1, \infty)$ and shows that the functional Steiner point algorithm of Sellke (2023) - which has competitive ratio $O(d)$ - is asymptotically optimal for every $\ell_p$ norm. Our lower bound is based on the recursive construction of Bubeck, Coester, and Rabani (2023) for metrical service systems, which gives a lower bound of $Ω(r^2)$ for requests of size $O(r)$ in that setting. We show that requests in their construction, each comprising a set of discrete points in a graph metric, can be mapped to the vertices of convex requests in a $(2r+1)$-dimensional vector space while approximately preserving movement costs up to a factor of $O(r)$, which establishes the lower bound.</description>
+    </item>
+    <item>
+      <title>Two-colour crossing minimization in complete geometric graphs is NP-hard</title>
+      <link>http://arxiv.org/abs/2610.31719v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31719v1</guid>
+      <pubDate>Thu, 22 Oct 2026 08:22:45 +0000</pubDate>
+      <description>Given a fixed straight-line drawing of a complete graph, we seek a two-colouring of its edges that minimizes the number of monochromatic crossing pairs. We prove that the threshold decision problem is NP-complete, even when the vertices are in general position and have integer coordinates of polynomial binary length. Thus exact minimization is NP-hard, answering the complexity question posed at the Crossing Number Workshop in 2019. The reduction is from MaxCut on permutation graphs. Its main difficulty is to control the edges required by completeness, whose colours must remain free. We construct a large comparison grid with two stable colour phases and use additional points to assign costs to the edges that encode the source graph. A geometric separation eliminates one large class of unwanted crossings. The costs of all remaining edges are included in a computable baseline and bounded errors, with each unit of the source objective amplified beyond the total error. The construction is deterministic and has polynomial size and coordinate bit length.</description>
+    </item>
+    <item>
       <title>Visibility Sets, Empty Pentagons, and Sufficient Conditions for Hexagons</title>
       <link>http://arxiv.org/abs/2610.23553v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.23553v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.04111</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
       <description>We answer an open problem in the \emph{American Mathematical Monthly} about covering large triangles. Given a triangle $T$ of any triangular shape with a selected side length between $n \in \mathbb{N}$ and $n+1$, Baek and Lee proved that $T$ could not be covered with $n^2+1$ homothetic unit triangles (with the selected side of length 1). Letting $T_{n+d}$ denote a triangle with selected side length $n + d$ with $d \in (0, 1)$, Baek and Lee extended their proof to establish upper bounds for $d$ above which a $T_{n+d}$ cannot be covered with $n^2+2$ or $n^2+3$ homothetic unit triangles. Then, they showed that these bounds are tight based on analyses of a method by Conway and Soifer for the $n^2+2$ case and their own method for the $n^2+3$ case. Baek and Lee stated as an open problem the need to find tight upper bounds for the $n^2 + k$ cases for $4 \le k \le 2n$. We extend the Baek and Lee proof to establish upper bounds for those higher cases, and we show the upper bounds are tight by presenting two new triangle covering methods for the odd and even cases of $k$ that meet the upper bounds, as well as an optimal consolidated method that uses whichever of the two will cover a given $T_{n+d}$ with the fewest homothetic unit triangles.</description>
-    </item>
-    <item>
-      <title>A greedy maximal sweepline algorithm for a Jordan curve</title>
-      <link>https://arxiv.org/abs/2605.01861</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.01861</guid>
-      <pubDate>Sun, 03 May 2026 00:00:00 -0000</pubDate>
-      <description>We give a greedy sweepline algorithm for a Jordan curve and prove that it is maximal in the sense of [1]. Our proof uses Kőnig's lemma.</description>
-    </item>
-    <item>
-      <title>Exact Dynamic Programming for Solow--Polasky Diversity Subset Selection on Lines and Staircases</title>
-      <link>https://arxiv.org/abs/2604.26929</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.26929</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
-      <description>This paper studies exact fixed-cardinality Solow--Polasky diversity subset selection on ordered finite $\ell_1$ point sets, with monotone biobjective Pareto fronts and their higher-dimensional staircase analogues as central applications. Solow--Polasky diversity was introduced in biodiversity conservation, whereas the same inverse-matrix expression appears in metric geometry as magnitude: for a finite metric space $(X,d)$ with exponential similarity matrix $Z_{ij}=e^{-q d(x_i,x_j)}$, the quantity $\1^\top Z^{-1}\1$ is the magnitude of the scaled finite metric space $(X,qd)$ whenever the weighting is defined by the inverse matrix. Thus, in this finite exponential-kernel setting, Solow--Polasky diversity and magnitude are mathematically the same object viewed through different motivations. Building on the linear-chain magnitude formula of Leinster and Willerton, the paper gives a detailed proof of the scaled consecutive-gap identity $ \SP(X)=1+\sum_r \tanh(qg_r/2),$ where the $g_r$ are the gaps between consecutive selected points. It then proves an exact Bellman-recursion theorem for maximizing this value over all subsets of a prescribed cardinality, yielding an $O(kn^2)$ dynamic program for an ordered $n$-point candidate set and subset size $k$. Finally, the paper proves ordered $\ell_1$ reductions showing that the same algorithm applies to monotone biobjective Pareto-front approximations and, more generally, to finite coordinatewise monotone $\ell_1$ staircases in $\R^d$. These are precisely the ordered $\ell_1$ chains for which the $\ell_1$-distance becomes a line metric along the chosen order, so the one-dimensional dynamic program applies without modification. Keywords: Solow--Polasky diversity; magnitude; metric geometry; dynamic programming; ordered points; $\ell_1$ geometry; Pareto-front approximation.</description>
     </item>
   </channel>
 </rss>

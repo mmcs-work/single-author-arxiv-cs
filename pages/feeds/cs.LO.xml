@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Choosing What to Observe: Higher-Order Obstructions in Horn Abduction</title>
+      <link>http://arxiv.org/abs/2610.32805v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.32805v1</guid>
+      <pubDate>Fri, 23 Oct 2026 15:44:17 +0000</pubDate>
+      <description>An explanation may exist in every complete context yet be impossible to select from the information observed. We study this distinction in finite propositional Horn abduction with integrity constraints. Observations are sufficient when each report admits one hypothesis set that is consistent and entails the manifestation in every compatible context. We characterize sufficiency by minimal context families with no common explanation. Their variable spans form a canonical hypergraph whose transversals are exactly the sufficient observation sets. The characterization recovers classical discernibility for unique explanations and supports composition across independent components. Minimal obstructions have unbounded cardinality even for acyclic rules, while rectangular explanation families admit a tight bound given by their largest choice domain. With circuit-defined contexts, sufficiency is $Π_3^P$-complete and selecting at most $k$ observable variables is $Σ_4^P$-complete, already for unrestricted contexts and acyclic rules. The selection reduction makes observation choices enforce globally fixed existential commitments. Explicit contexts reduce both tasks to NP-complete problems; tabulated explanation families make sufficiency polynomial. These results connect explanatory choice, information requirements, and representation cost.</description>
+    </item>
+    <item>
       <title>Any colour you like, as long as it's UIP: Semi-simplicial types from weakenings and thinnings</title>
       <link>http://arxiv.org/abs/2610.29585v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.29585v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.06235v1</guid>
       <pubDate>Sat, 05 Sep 2026 19:29:12 +0000</pubDate>
       <description>We introduce \textsc{LatentGamma}, a differentiable operator on the unit cube $[0,1]^M$ designed as a smooth surrogate of Tarski's immediate consequence operator $\TP$ associated with a definite Horn program $P$ on $M$ atoms. The operator is built as a five-stage composition combining sigmoidal gating, softmax routing, and a residual update that enforces monotonicity by construction. We establish four theoretical results. First, the iterated sequence is coordinate-wise non-decreasing and bounded by $\ind$, hence converges to a fixed point of \textsc{LatentGamma}; the operator itself is lattice-monotone on $[0,1]^M$. Second, our \emph{constructive expressivity theorem} shows that for every definite Horn program $P$ there exists a closed-form parameter assignment $θ^*(P)$ and an explicit time bound $T_{\max}(P)$ such that the iterated sequence \emph{exactly} reproduces $\TPinf(F_0)$ for every initial fact set $F_0$ throughout the window $[D(P, F_0), T_{\max}(P)]$, where $D(P, F_0) \leq M$ is the derivation depth. The window $T_{\max}$ is large in practice ($\geq 10^5$ for sparse programs) and reflects the finite-time nature of computation by smooth sigmoidal gates. Third, the oracle is robust to Gaussian noise on its body and head logits, with explicit non-asymptotic bounds. Fourth, we prove a matching information-theoretic lower bound on the parameter count. We provide a complete numerical validation on programs ranging from $M = 33$ to $M = 504$ atoms: oracle accuracy reaches $1.0000$ on $2000$ test cases with zero false-positive and false-negative rates, and the empirical noise tolerance $σ_{\max}$ scales precisely as the union bound $RM \cdot Φ(-10/σ_η)$ predicts.</description>
-    </item>
-    <item>
-      <title>A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI</title>
-      <link>http://arxiv.org/abs/2609.04086v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.04086v1</guid>
-      <pubDate>Thu, 03 Sep 2026 16:53:22 +0000</pubDate>
-      <description>For every coherent and sufficiently expressive finite syntactic system S, we prove the existence of at least one theorem that S cannot produce autonomously. The result is a metatheorem: it proves the existence of a theorem, and applies to every finite syntactic system - security mechanisms, AI systems, formal verifiers, legal systems, economic models, and the formal system in which it is itself proved.</description>
     </item>
   </channel>
 </rss>

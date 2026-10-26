@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Translations in library catalogues: how to find them?</title>
+      <link>http://arxiv.org/abs/2610.32176v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.32176v1</guid>
+      <pubDate>Fri, 23 Oct 2026 05:20:57 +0000</pubDate>
+      <description>In library catalogues based on MARC21 bibliographic metadata schema there are about a dozen data elements that catalogers can utilize to record information about the different aspects of translations: whether or not the edition is a translation, source and target language, title of the original work, translator and other contributors, publication data of the original work, literary genre. Libraries however rarely explore the full arsenal, thus to find translation is not a trivial task. The paper describes these important MARC21 data elements, and shows a use case of finding translations in five catalogues (of the Norwegian, Croatian, Polish, Belgian and Dutch national libraries) explaining the differences among the practices, and the results.</description>
+    </item>
+    <item>
       <title>Journal Basket: Supporting Cross-Disciplinary Literature Searching and Methodological Transparency</title>
       <link>http://arxiv.org/abs/2610.30544v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.30544v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2602.12537</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 -0000</pubDate>
       <description>This study develops and evaluates a systematic methodology for constructing news datasets from Google News, combining automated web scraping, large language model (LLM)-based metadata extraction, and SCImago Media Rankings enrichment. Using the IFMIF-DONES fusion energy project as a case study, we implemented a five-stage data collection pipeline across 81 region-language combinations, yielding 1,482 validated records after a 56% noise reduction. Results are compared against two licensed press databases: MyNews (2,280 records) and ProQuest Newsstream Collection (148 records). Overlap analysis reveals high complementarity, with 76% of Google News records exclusive to this platform. The dataset captures content types absent from proprietary databases, including specialized outlets, institutional communications, and social media posts. However, significant methodological challenges emerge: temporal instability requiring synchronic collection, a 100-result cap per query demanding multi-stage strategies, and unexpected noise including academic PDFs, false positives, and pornographic content infiltrating results through black hat SEO techniques. LLM-assisted extraction proved effective for structured articles but exhibited systematic hallucination patterns requiring validation protocols. We conclude that Google News offers valuable complementary coverage for communication research but demands substantial methodological investment, multi-source triangulation, and robust filtering mechanisms to ensure dataset integrity.</description>
-    </item>
-    <item>
-      <title>Are Digital Humanities really committed to open? An exploratory study on the availability of methodological workflows and open peer review practices</title>
-      <link>https://arxiv.org/abs/2604.23827</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.23827</guid>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 -0000</pubDate>
-      <description>Open Science has become a central framework for promoting transparency, accessibility, and inclusiveness in scholarly research. While the Digital Humanities (DH) community has long embraced openness in terms of research outputs, less attention seems to have been paid to the openness of the methodological and evaluative processes underlying knowledge production. This paper presents an exploratory study that investigates the current state of openness in DH research practices, focusing specifically on research data management documentation and peer review processes. In particular, this study addresses two research questions: (1) to what extent DH publications that describe data explicitly reference external documentation detailing data creation and management processes; and (2) how widely open peer review practices are adopted across DH conferences and journals. The results revealed a limited adoption of open methodological practices. Only a small fraction of the analysed articles provided explicit, reusable documentation of data creation workflows, and no references to data management plans or formal research data management documentation were found. An even more critical picture emerges from the analysis of peer review practices: the vast majority of DH venues continue to rely on traditional single- or double-blind review models, with open peer review adopted in only a few isolated cases.</description>
     </item>
   </channel>
 </rss>

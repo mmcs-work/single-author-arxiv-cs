@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Identifying codes of Archimedean grids</title>
+      <link>http://arxiv.org/abs/2610.32192v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.32192v1</guid>
+      <pubDate>Fri, 23 Oct 2026 05:37:43 +0000</pubDate>
+      <description>An identifying code of a graph is a dominating set $C$ such that the sets $N[v]\cap C$ are pairwise distinct. The minimum density of an identifying code has been studied extensively for several infinite grids. It is known to be $1/4$ for the triangular grid and $7/20$ for the square grid, whereas for the hexagonal grid the problem is still open, between $5/12$ and $53/126$. These three grids are the regular members of the family of the eleven Archimedean grids. In this paper, we start a systematic study of identifying codes in this family. We determine the minimum density for five of the nine Archimedean grids for which it was not known: it is $2/3$ for the truncated hexagonal grid $3.12.12$, $3/7$ for the truncated square grid $4.8.8$, and $1/3$ for the trihexagonal (kagome) grid $3.6.3.6$, the elongated triangular grid $3^3.4^2$ and the snub hexagonal grid $3^4.6$. All lower bounds are proved by the discharging method. For the three remaining non-regular Archimedean grids, we also obtain some bounds: the minimum density lies between $3/7$ and $13/30$ for the truncated trihexagonal grid $4.6.12$, between $1/3$ and $11/30$ for the rhombitrihexagonal grid $3.4.6.4$, and between $2/7$ and $9/28$ for the snub square grid $3^2.4.3.4$.</description>
+    </item>
+    <item>
       <title>Near-Optimal Bounds for Testing k-Colorability</title>
       <link>http://arxiv.org/abs/2610.31489v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.31489v1</guid>
@@ -31,6 +38,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.31203v1</guid>
       <pubDate>Thu, 22 Oct 2026 12:50:27 +0000</pubDate>
       <description>We study distributed approximation of Minimum Dominating Set in a very general class of sparse graphs, extending near-optimal approximation results from the minor-free setting to bounded expansion. In more detail, for fixed $d$ and $\varepsilon&gt;0$, we give a new deterministic constant-round LOCAL algorithm for Minimum Dominating Set on graphs of maximum average degree at most $d$ and bounded depth-one shallow-minor density. Its approximation ratio is $d+1+\varepsilon$, which is optimal up to $\varepsilon$ for every even integer $d\geq 2$. This improves on the recent results of Amiri and Siebertz by extending beyond proper minor-closed classes. From this algorithm, we derive almost-tight constant-round approximations for a number of graph classes. We get $(7+\varepsilon)$-approximations for planar graphs and graphs of bounded Euler genus, and $(5+\varepsilon)$-approximations for their triangle-free subclasses. This answers the $7+\varepsilon$ question of Wawrzyniak positively, and matches the recent results of Amiri and Siebertz. We also apply our algorithm to classes of bounded queue-number or stack-number, obtaining bounds that are tight up to $\varepsilon$. Additionally, we answer questions of Amiri and Siebertz about improving the dependence of the round complexity on $1/\varepsilon$ and obtaining polynomial local computation for fixed parameters, when comparing the output to the usual domination number.</description>
+    </item>
+    <item>
+      <title>Links of minimum degree and exact covering numbers</title>
+      <link>http://arxiv.org/abs/2610.31696v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.31696v1</guid>
+      <pubDate>Wed, 21 Oct 2026 07:36:41 +0000</pubDate>
+      <description>The covering number $C(v,k,t)$ is the least number of $k$-subsets, called blocks, of a $v$-set such that every $t$-subset lies in one of them. We reduce the question whether a covering with $L$ blocks exists to the classification of links. If every point of such a covering lies in at least $r$ blocks and $(r+1)v&gt;kL$, some point lies in exactly $r$ blocks, and its link, the blocks through it with the point removed, is a $(v-1,k-1,t-1)$-covering with $r$ blocks. It then suffices to list these links up to isomorphism, to prove the list complete, and to show that no link in the list extends to a covering with $L$ blocks. Completeness is certified by one unsatisfiable formula that excludes the listed classes, so the program that lists the links need not be trusted. In general the last two steps are decided by propositional satisfiability (SAT) solving, with every formula written by two separately implemented encoders and every refutation checked by a formally verified proof checker. For links with four blocks and $t=3$ we give the classification by hand, under a condition on the parameters. As an application we determine twenty-five covering numbers with $t\in\{3,4,5\}$ in which the published lower bound was one less than the size of a known covering, among them $C(39,24,3)=9$.</description>
     </item>
     <item>
       <title>On Multi-label radio Labelings of Graphs</title>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.20036v1</guid>
       <pubDate>Thu, 20 Aug 2026 13:43:04 +0000</pubDate>
       <description>For a graph $ G = (V, E) $ with a vertex set $ V $ and an edge set $ E $, a function $ f : V \rightarrow \{0, 1, 2, . . . , diam(G)\} $ is called a \emph{broadcast} on $ G $. For each vertex $ u \in V $, if there exists a vertex $ v $ in $ G $ (possibly, $ u = v $) such that $ f (v) &gt; 0 $ and $ d(u, v) \leq f (v) $, then $ f $ is called a dominating broadcast on $ G $. The cost of the dominating broadcast $f$ is the quantity $ \sum_{v\in V}f(v) $. The minimum cost of a dominating broadcast is the broadcast domination number of $G$, denoted by $ γ_{b}(G) $. A multipacking is a set $ M \subseteq V $ in a graph $ G = (V, E) $ such that for every vertex $ v \in V $ and for every integer $ r \geq 1 $, the ball of radius $ r $ around $ v $ contains at most $ r $ vertices of $ M $, that is, there are at most $ r $ vertices in $ M $ at a distance at most $ r $ from $ v $ in $ G $. The multipacking number of $ G $ is the maximum cardinality of a multipacking of $ G $ and is denoted by $ mp(G) $. It is known that $mp(G)\leqγ_b(G)$. In 2014, Hartnell and Mynhardt proved that $γ_b(G)\leq 3mp(G)-2$ whenever $mp(G)\geq2$. In 2019, Beaudou, Brewster, and Foucaud improved this bound to $γ_b(G)\leq 2 mp(G)+3$ and conjectured that $γ_b(G)\leq 2 mp(G)$. We solve their conjecture by proving that $γ_b(G)\leq 2 mp(G)$ for every graph $G$. Our proof is constructive and yields a polynomial-time $2$-approximation algorithm for Maximum Multipacking problem which improves the earlier approximation factor $2+o(1)$.</description>
-    </item>
-    <item>
-      <title>Palette Sparsification for General Uniform Hypergraphs</title>
-      <link>http://arxiv.org/abs/2608.19623v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.19623v1</guid>
-      <pubDate>Thu, 20 Aug 2026 04:16:33 +0000</pubDate>
-      <description>We prove a palette sparsification theorem for general $r$-uniform hypergraphs. For all sufficiently large $n$, every $r\ge 3$, and every $α\ge 7.1$, we show that an $n$-vertex $r$-uniform hypergraph of maximum degree $Δ$ is w.h.p. colorable from independently sampled lists of size $O(\sqrt{\log n})$ drawn from an ambient palette of size $\lceil αΔ^{1/(r-1)}\rceil$. The $\sqrt{\log n}$ dependence is asymptotically tight.</description>
-    </item>
-    <item>
-      <title>Large Finite Point Sets Have 4 Collinear Points or a 6-Clique</title>
-      <link>http://arxiv.org/abs/2608.19468v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.19468v1</guid>
-      <pubDate>Wed, 19 Aug 2026 21:51:34 +0000</pubDate>
-      <description>We prove that every finite point set of size at least $10^{11055931}$ has four collinear points or six points that pairwise see each other. This resolves the first open case of the big-line-big-clique conjecture of Kára, Pór, and Wood.</description>
     </item>
   </channel>
 </rss>

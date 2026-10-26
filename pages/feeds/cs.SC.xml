@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Deterministic Root-Finding over Finite Fields with Elliptic Curves</title>
+      <link>http://arxiv.org/abs/2610.32508v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.32508v1</guid>
+      <pubDate>Fri, 23 Oct 2026 11:28:55 +0000</pubDate>
+      <description>Finding the roots of a polynomial over a finite field $\mathbb F_q$ in deterministic polynomial time is a long-standing open problem. Classical deterministic methods work in the multiplicative group $\mathbb F_q^\times$ and are efficient only when $q-1$ is smooth, which is rarely the case. We propose a method that replaces $\mathbb F_q^\times$ by the groups of rational points of an elliptic curve $E$ and of its quadratic twist $\widetilde E$. The computation splits into an offline phase, which depends only on $\mathbb F_q$ and outputs a short \emph{elliptic preprocessing datum} $\mathcal D$, and an online phase, which processes the input polynomial. Writing $Ξ(\mathcal D)$ for the largest prime factor of $\lvert E(\mathbb F_q)\rvert\cdot\lvert\widetilde E(\mathbb F_q)\rvert$, the online phase is deterministic and finds the roots of any $f\in\mathbb F_q[X]$ of degree $n$ within $\widetilde O(Ξ(\mathcal D)^2\,n\log^2 q+n^ω\log q+n\log^3 q)$ operations in $\mathbb F_q$. A precursor of our method is an algorithm by Rónyai, which recovers the roots through Galois computations over number fields, relies on GRH, and comes with a polynomial bound of unspecified degree; in contrast, our online phase works entirely over $\mathbb F_q$ and is unconditional. Moreover, $\mathcal D$ can be certified deterministically and unconditionally in time polynomial in $\log q$ and $Ξ(\mathcal D)$. We conjecture that every $\mathbb F_q$ of large enough characteristic admits a datum with $Ξ(\mathcal D)\leq(\log q)^{O(1)}$, and support this with a heuristic and with experiments. Constructing such a datum in polynomial time remains open.</description>
+    </item>
+    <item>
       <title>Near-Quadratic Time Multivariate Polynomial Interpolation</title>
       <link>http://arxiv.org/abs/2610.30907v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.30907v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2511.11872</guid>
       <pubDate>Fri, 14 Nov 2025 00:00:00 -0000</pubDate>
       <description>Constraint programming is a general and exact method based on constraint propagation and backtracking search. We provide a function decomposing a constraint network into a ternary constraint network (TCN) with a reduced number of operators. TCNs are not new and have been used since the inception of constraint programming, notably in constraint logic programming systems. This work aims to specify formally the decomposition function of discrete constraint network into TCN and its preprocessing. We aim to be self-contained and descriptive enough to serve as the basis of an implementation. Our primary usage of TCN is to obtain a regular data layout of constraints to efficiently execute propagators on graphics processing unit (GPU) hardware.</description>
-    </item>
-    <item>
-      <title>On the integrality of some P-recursive sequences</title>
-      <link>https://arxiv.org/abs/2511.02121</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.02121</guid>
-      <pubDate>Mon, 03 Nov 2025 00:00:00 -0000</pubDate>
-      <description>We investigate the arithmetic nature of P-recursive sequences through the lens of their D-finite generating functions. Building on classical tools from differential algebra, we revisit the integrality criterion for Motzkin-type sequences due to Klazar and Luca, and propose a unified method for analysing global boundedness and algebraicity within a broader class of holonomic sequences. The central contribution is an algorithm that determines whether all, none, or a one-dimensional family of solutions to certain second-order recurrences are globally bounded. This approach generalizes earlier ad hoc methods and applies successfully to several well-known sequences from the On-Line Encyclopedia of Integer Sequences (OEIS).</description>
     </item>
   </channel>
 </rss>
