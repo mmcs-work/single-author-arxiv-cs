@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Pythagoras Tree Grown from a Dodecahedron</title>
+      <link>http://arxiv.org/abs/2610.33975v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.33975v1</guid>
+      <pubDate>Sun, 25 Oct 2026 01:15:55 +0000</pubDate>
+      <description>The Pythagoras tree of A. E. Bosman (1942) is drawn with squares in the plane and, in the three-dimensional versions we know of, with cubes. This article documents a tree built instead from regular dodecahedra: each dodecahedron carries five smaller copies, one on each edge of a single pentagonal "crown" face, scaled by $g \approx 0.4346$ and twisted by $45^\circ$ about the edge. The construction first existed only as a pair of rendered images and two undocumented C++ programs. We recover its exact parameters from the original Blender scene, reformulate it as an iterated function system with condensation, and prove with a short computer-assisted argument that it never collides with itself: two of its dodecahedra overlap only when one is the parent of the other. A Pythagorean identity for the six face axes of the dodecahedron singles out the scale $1/\sqrt{5}$ and the twist $\arccos(1/\sqrt{5})$. With these values each child rests flat against a face of its parent, the five children together have exactly the parent's surface area, and the crown of the tree is a fractal of Hausdorff dimension exactly 2. Finally we ask whether the tree can grow on all twelve faces at once. A parity argument shows that at the artwork's proportions it cannot, but smaller scale factors admit certified clash-free all-faces trees.</description>
+    </item>
+    <item>
       <title>A Linear Lower Bound for Convex Body Chasing in Every $\ell_p$ Norm</title>
       <link>http://arxiv.org/abs/2610.32670v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.32670v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2504.14275</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 -0000</pubDate>
       <description>Discrete exterior calculus offers a coordinate--free discretization of exterior calculus especially suited for computations on meshes over curved manifolds. The discretization of the wedge product, that would be compatible with discrete exterior derivative, has been a challenging task. The cup product of cochains is traditionally considered to be an appropriate discrete wedge product. However, only the case of pure triangle or pure quadrilateral surface meshes has been studied thoroughly. In this work, we extend this tradition to general polygonal meshes. Specifically, we present explicit formulas for calculation of a cup/discrete wedge product on surface meshes that correspond to 2--dimensional pseudomanifolds, whose 2--dimensional faces are any simple polygons. We rigorously prove that the proposed product satisfies the definition of an abstract cup product; notably, we show that the product is compatible with the discrete exterior derivative in the sense that it satisfies the Leibniz product rule. Furthermore, the product is associative on the cohomology level, but not on the cochain level in general. We analyze the lack of associativity on the cochain level and prove that the error tends to zero under refinement of the mesh. We thus argue that the proposed product is an appropriate discretization of the wedge product of differential forms on general polygonal meshes.</description>
-    </item>
-    <item>
-      <title>Optimally Covering Large Triangles with Homothetic Unit Triangles</title>
-      <link>https://arxiv.org/abs/2605.04111</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.04111</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
-      <description>We answer an open problem in the \emph{American Mathematical Monthly} about covering large triangles. Given a triangle $T$ of any triangular shape with a selected side length between $n \in \mathbb{N}$ and $n+1$, Baek and Lee proved that $T$ could not be covered with $n^2+1$ homothetic unit triangles (with the selected side of length 1). Letting $T_{n+d}$ denote a triangle with selected side length $n + d$ with $d \in (0, 1)$, Baek and Lee extended their proof to establish upper bounds for $d$ above which a $T_{n+d}$ cannot be covered with $n^2+2$ or $n^2+3$ homothetic unit triangles. Then, they showed that these bounds are tight based on analyses of a method by Conway and Soifer for the $n^2+2$ case and their own method for the $n^2+3$ case. Baek and Lee stated as an open problem the need to find tight upper bounds for the $n^2 + k$ cases for $4 \le k \le 2n$. We extend the Baek and Lee proof to establish upper bounds for those higher cases, and we show the upper bounds are tight by presenting two new triangle covering methods for the odd and even cases of $k$ that meet the upper bounds, as well as an optimal consolidated method that uses whichever of the two will cover a given $T_{n+d}$ with the fewest homothetic unit triangles.</description>
     </item>
   </channel>
 </rss>

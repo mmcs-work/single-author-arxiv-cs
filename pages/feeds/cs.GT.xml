@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Envy-Free Allocations for Random Non-Additive Valuations</title>
+      <link>http://arxiv.org/abs/2610.34434v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34434v1</guid>
+      <pubDate>Sun, 25 Oct 2026 16:42:36 +0000</pubDate>
+      <description>Benade et al. (EC 2024) introduced a semi-random model for non-additive fair division in which each agent starts with an arbitrary base valuation over bundles of items and independently permutes the item names uniformly at random. While they proved that envy-free allocations exist with high probability as the number of items grows for $n = 2$ agents, they left open whether the same holds for $n &gt; 2$ agents. We resolve this open question in the affirmative: for any fixed number of agents $n$ and any number of items $m$ divisible by $n$, an envy-free allocation exists with probability $1 - o(1)$ as $m \to \infty$. Our proof combines the second moment method with a connection to the (small-set) expansion of generalized Johnson graphs, which may be of independent interest.</description>
+    </item>
+    <item>
       <title>Balanced Posted Prices in Stationary Two-Sided Markets</title>
       <link>http://arxiv.org/abs/2610.31153v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.31153v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.01814v1</guid>
       <pubDate>Tue, 01 Sep 2026 19:41:30 +0000</pubDate>
       <description>Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person accuracy can coexist with different portfolio values. Under a registered incremental-sharing protocol, a sharing step improves discovery exactly when pooled residual error contracts faster than an independent rescue attempt. Exact bounded registries exhibit compression, aggregation, neutral curves, and a bounded zero mixed class. In a two-agent Bayesian game with a hidden mixture of common and independent signal sources, the registered selected equilibrium yields a strict positive sharing interval at signal accuracy 3/5, while alternative equilibria show that the result is selection-dependent rather than universal. The models are synthetic and finite; no human or organizational data are used.</description>
-    </item>
-    <item>
-      <title>Weighted Fair Division of Indivisible Mixed Manna</title>
-      <link>http://arxiv.org/abs/2609.01580v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.01580v1</guid>
-      <pubDate>Tue, 01 Sep 2026 17:46:17 +0000</pubDate>
-      <description>We study weighted fair division of indivisible mixed manna under additive valuations. First, we resolve the general existence open question for weighted envy-freeness up to one item (WEF1), and show that every instance with arbitrary positive entitlements admits a complete WEF1 allocation computable in polynomial time. We then show that existence does not imply any welfare guarantee, i.e., the utilitarian price of WEF1 is infinite, even for two unweighted agents with normalized valuations, common item signs, and singleton values in a fixed four-value set; a welfare-maximizing WEF1 allocation in the construction is fractionally Pareto optimal. Second, suppose each agent $i$ has a number $a_i&gt;0$ such that their valuation for any item is $-a_i$, $0$, or $a_i$. Then, for arbitrary entitlements, a weighted maximin share (WMMS) allocation always exists, is computable in polynomial time, and can be chosen to be fractionally Pareto optimal. An exact formula for each WMMS value leads to a polynomial-time flow algorithm. In this class, every WEF1 allocation satisfies a best possible additive WMMS guarantee whose loss depends on the agent's entitlement relative to the largest entitlement. Thus maximum entitlement agents receive exact WMMS and, under equal entitlements, every WEF1 allocation is also MMS-fair. Allowing a second positive magnitude can violate exact WMMS, while unrestricted entitlement ratios rule out any fixed multiplicative WMMS guarantee compatible with WEF1 for chores.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Voice on the Line</title>
+      <link>http://arxiv.org/abs/2610.35272v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.35272v1</guid>
+      <pubDate>Mon, 26 Oct 2026 11:46:17 +0000</pubDate>
+      <description>A transcriber listening through one microphone also hears everyone near it. We train causal voice isolators: masking transformers of 140M, 243M and 374M parameters, 20 ms of latency, enrolling the caller from the call itself. Short evaluation windows hide two failures that real calls expose: forgetting the caller when another voice talks alone for a while, and damaging a caller who is alone. Long calls with turns, memory beyond the attention window, real headset crosstalk and drifting caller levels address both, but each trades one against the other. WavLM-Large's own weights, made causal and trained with the model, move the trade: M with them (555M parameters) lowers the error on our development sets from 11.44% to 10.55%; a student trained from scratch to imitate WavLM does not, and w2v-BERT 2.0 and Whisper's encoder, pre-trained on far more audio, help less or not at all. A lone caller loses most at the start of a recording: no training call opened with someone already talking. Training on windows cut from longer calls lowers the error on clean development calls from 3.92% to 2.96%; this is our release. Live, the release makes 16.13% word errors on 60 s AMI windows, against 23.66% for VoxLock, the strongest open isolator, and 10.19% on its own AMI windows, against 11.71%; it is level on Krisp's benchmark (5.74% against 5.63%), and a caller who is alone still loses more words than with VoxLock (5.58% against 2.92% on clean test calls). Distilled into 22.1M parameters without WavLM, it runs live on one CPU thread inside a LiveKit agent, at 33% of a core per call in 20 ms frames, with 10.66% error on our development sets (the release 10.49%). We open-source the release and this CPU model, with a LiveKit plugin, at https://huggingface.co/collections/Scicom-intl/voice-isolator.</description>
+    </item>
+    <item>
+      <title>JIT-MPE: Just-in-Time Multi-Pitch Estimation under Output Deadlines</title>
+      <link>http://arxiv.org/abs/2610.33113v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.33113v1</guid>
+      <pubDate>Fri, 23 Oct 2026 01:09:18 +0000</pubDate>
+      <description>Live pitch displays, score followers and accompaniment systems must know which pitches are sounding within tens of milliseconds, but instrument-agnostic multi-pitch estimation (MPE) has mainly been designed and evaluated offline. We present JIT-MPE, a causal MPE model of 86k parameters for mixed ensembles. It gives an immediate estimate of each 20 ms frame and re-estimates the same frame as 20, 40, 80 and 160 ms of further audio arrive, so that a live display can show pitches at once and then refine them. We score each output only at a deadline by which it can be computed from the audio that has arrived, on five development sets and four held-out sets evaluated only after all design choices were frozen. At a 50 ms deadline, which reads the update made with 40 ms of lookahead, JIT-MPE is significantly more accurate than five of six published offline MPE systems in 38 of 45 comparisons (15 of 20 on the held-out sets) and less accurate in only two, although these systems read the whole recording and all but one have 6 to 170 times as many parameters; the sixth, supervised on URMP, is higher on four of the nine sets. The deadline costs little: on the held-out sets, JIT-MPE at 50 ms is within $-1.27$ to $+0.60$ points of recording-level macro F1 of its own final output with 160 ms of lookahead and within $-2.08$ to $+0.79$ points of a bidirectional model of similar size. Waiting pays off where the immediate estimate is weakest: the update at 50 ms adds 1.7-3.6 points over it on the development data and three of the four held-out sets, and raises the recall of reference frames in the first 20 ms after a note onset from 9.8% to 38.4% on the held-out AAM set. The slowest measured frame takes at most 4.15 ms on one CPU thread. Code and trained weights are available at https://github.com/Frieve-A/jit-mpe.</description>
+    </item>
+    <item>
       <title>Synthetic-to-Real Code-Switched ASR: A Spontaneous Nepali-English Podcast Benchmark</title>
       <link>http://arxiv.org/abs/2610.30860v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.30860v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.07334</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
       <description>This revision updates an 11-genre chord-symbol adaptation report. The main 165-cell result is unchanged: all methods improve over the frozen pure-pop base, with no decisive method winner. v3 adds the ft-pop80-v2 multi-seed base-restoration note and corrects a few summary statistics for exact CSV faithfulness without changing conclusions.</description>
-    </item>
-    <item>
-      <title>Empirical Study of Pop and Jazz Mix Ratios for Genre-Adaptive Chord Generation</title>
-      <link>https://arxiv.org/abs/2605.04998</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.04998</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 -0000</pubDate>
-      <description>This revision updates a pop-to-jazz chord-generation rehearsal study. Best-epoch metrics still show that modest pop rehearsal preserves pop accuracy while improving jazz prediction, but v2 corrects released-checkpoint selection: the released F1 equals Phase 0, F2 had a transcription error, and ft-pop80-v2 restores a hash-distinct jazz-adapted F1 across 3 seeds.</description>
-    </item>
-    <item>
-      <title>Training-Free Model Selection and Domain-Aware Score Calibration for First-Shot Anomalous Sound Detection</title>
-      <link>https://arxiv.org/abs/2607.04526</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.04526</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 -0000</pubDate>
-      <description>First-shot anomalous sound detection in DCASE Challenge Task 2 must flag anomalies of unseen machine types with a single threshold, without knowing whether a test clip comes from the data-rich source domain (990 normal training clips) or the data-scarce target domain (10). Two organizer-reported problems remain open: source- and target-domain AUC are negatively correlated across systems, and development-set performance does not predict evaluation-set performance. We address both with a training-free post-hoc layer over frozen audio embeddings: (i) per-domain quantile calibration shrunk toward a pooled map by a prior strength m, tracing a source/target balance frontier, and (ii) a label-free cross-validated domain-balance criterion that ranks candidate configurations from training normals only, paired with a coarse development-labeled viability veto. On DCASE 2025, the criterion rank-predicts the official evaluation score across a 45-configuration grid (Spearman rho = +0.91; family-block bootstrap 95% CI [+0.83, +0.95]) while development score is uninformative (+0.06). Criterion-based selection raises the evaluation score from 55.83 to 59.34 (jackknife CI [2.2, 4.8]) and, on an extended grid, to 61.05 -- retrospectively fourth of 35 teams. Replicating on DCASE 2023 and 2024 bounds the claim: development score is uninformative in all three years and degenerate configurations recur (vetoed every time), but under family-clustered uncertainty the criterion's predictive evidence survives only in 2025; in both replication years a fixed full-equalization default matches or beats criterion-based selection. A DCASE 2026 forward test is frozen before the 2026 evaluation ground truth is released; all headline numbers are reproduced by the official evaluator.</description>
     </item>
   </channel>
 </rss>

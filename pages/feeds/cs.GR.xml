@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Blendshape Generation for Models with Disconnected Parts: Adding ARKit/MediaPipe Blendshapes to Anime-Style Character Models</title>
+      <link>http://arxiv.org/abs/2610.35076v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.35076v1</guid>
+      <pubDate>Mon, 26 Oct 2026 09:20:41 +0000</pubDate>
+      <description>Blendshape generation for 3D models has been extensively researched, but very few works address generating blendshapes for models with multiple disconnected parts. We present a case study of generating fixed facial expression blendshapes for commercial anime-style 3D character models with up to 11 parts per face. To make sure that our system can handle models in a way that is agnostic to topology, we train neural networks to generate deformation fields around the input meshes. We employ at least one network to independently process each part, and the relative positions of their outputs are coordinated by having each network also process the geometry of an anchor part. We use two mechanisms to improve accuracy: having the networks predict whether the output displacement is zero or not, and classifying blendshapes into different size groups and dedicating a network to each group. We also introduce a method to improve blendshape quality by enhancing bilateral symmetry. Our method is simpler than recent neural-network-based works and solves a real problem of the user community of these models.</description>
+    </item>
+    <item>
       <title>Geometry Regularization for Vanilla NeRF via Self-Supervised Cross-Ray Consistency</title>
       <link>http://arxiv.org/abs/2610.27776v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.27776v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.13303</guid>
       <pubDate>Wed, 15 Oct 2025 00:00:00 -0000</pubDate>
       <description>An automatic document classification system is presented that detects textual content in images and classifies documents into four predefined categories (Invoice, Report, Letter, and Form). The system supports both offline images (e.g., files on flash drives, HDDs, microSD) and real-time capture via connected cameras, and is designed to mitigate practical challenges such as variable illumination, arbitrary orientation, curved or partially occluded text, low resolution, and distant text. The pipeline comprises four stages: image capture and preprocessing, text detection [1] using a DBNet++ (Differentiable Binarization Network Plus) detector, and text classification [2] using a BART (Bidirectional and Auto-Regressive Transformers) classifier, all integrated within a user interface implemented in Python with PyQt5. The achieved results by the system for text detection in images were good at about 92.88% through 10 hours on Total-Text dataset that involve high resolution images simulate a various and very difficult challenges. The results indicate the proposed approach is effective for practical, mixed-source document categorization in unconstrained imaging scenarios.</description>
-    </item>
-    <item>
-      <title>Coordinate Condensation: Subspace-Accelerated Coordinate Descent for Physics-Based Simulation</title>
-      <link>https://arxiv.org/abs/2510.12053</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.12053</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 -0000</pubDate>
-      <description>We introduce Coordinate Condensation, a variant of coordinate descent that accelerates physics-based simulation by augmenting local coordinate updates with a Schur-complement-based subspace correction. Recent work by Lan et al. 2025 (JGS2) uses perturbation subspaces to augment local solves to account for global coupling, but their approach introduces damping that can degrade convergence. We reuse this subspace but solve for local and subspace displacements independently, eliminating this damping. For problems where the subspace adequately captures global coupling, our method achieves near-Newton convergence while retaining the efficiency and parallelism of coordinate descent. Through experiments across varying material stiffnesses and mesh resolutions, we show substantially faster convergence than both standard coordinate descent and JGS2. We also characterize when subspace-based coordinate methods succeed or fail, offering insights for future solver design.</description>
     </item>
   </channel>
 </rss>

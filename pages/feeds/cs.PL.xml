@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Inductive Grounded Arithmetic: Goodstein, the Hydra, and $Γ_0$</title>
+      <link>http://arxiv.org/abs/2610.34548v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34548v1</guid>
+      <pubDate>Sun, 25 Oct 2026 20:17:08 +0000</pubDate>
+      <description>What does a recursive definition mean when the logic is grounded, so a sentence is true only if a terminating process makes it so? Kripke's answer for the special case of truth was the least fixed point. This paper takes that answer as a rule. Reflective Grounded Arithmetic (RGA) already writes any recursive definition as one self-referential term, paradoxes included. Inductive Grounded Arithmetic (IGA) adds the elimination rule for every positive one, so that accessibility, the winning positions of a game, and grounded truth itself each come with their own induction principle. The rule is sound for the omega model and the system is consistent, both machine-checked in Isabelle/HOL. With the rule, IGA proves Goodstein's theorem outright, in a logic without implication at an undecided hypothesis, and the Kirby-Paris hydra game for primitive recursive strategies, both with every step of the arithmetic a grounded derivation. It proves the Cantor normal forms well-founded, from which the well-foundedness of the standard $\varepsilon_0$ notation system in HOL follows, and it certifies the Veblen notation as an ordinal below every $\varphi(n,0)$. It defines Kripke truth for RGA's own language as one fixed point that agrees with the omega model exactly. Two equivalences locate what the classical world has and the grounded one does not. IGA proves the whole Veblen notation well-founded exactly when it admits bivalence of accessibility for that order, and bivalence of accessibility for an order is sound exactly when the order is well-founded; so $Γ_0$ lies at most one instance of excluded middle away, at the accessibility predicate of the notation, and that instance, the well-foundedness sentence and one membership claim in a primitive-recursive form of Kleene's $\mathcal O$ are interderivable over IGA.</description>
+    </item>
+    <item>
       <title>The Reversible Intermediate Language L4, its Type System, and its Bidirectional Small-Step Semantics</title>
       <link>http://arxiv.org/abs/2610.31201v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.31201v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2311.03489</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 -0000</pubDate>
       <description>We present a new high-level synthesis methodology for using large language model tools to generate hardware designs. The methodology uses exclusively open-source tools excluding the large language model. As a case study, we use our methodology to generate a permuted congruential random number generator design with a wishbone interface. We verify the functionality and quality of the random number generator design using large language model-generated simulations and the Dieharder randomness test suite. We document all the large language model chat logs, Python scripts, Verilog scripts, and simulation results used in the case study. We believe that our method of hardware design generation coupled with the open source silicon 130 nm design tools will revolutionize application-specific integrated circuit design. Our methodology significantly lowers the bar to entry when building domain-specific computing accelerators for the Internet of Things and proof of concept prototypes for later fabrication in more modern process nodes.</description>
-    </item>
-    <item>
-      <title>Non-Cartesian Guarded Recursion with Daggers</title>
-      <link>https://arxiv.org/abs/2409.14591</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2409.14591</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Guarded recursion is a framework allowing for a formalisation of streams in classical (as opposed to concurrent, probabilistic, quantum) programming languages. The latter take their semantics in cartesian closed categories. However, some programming paradigms do not take their semantics in a cartesian setting; this is the case for concurrency, reversible and quantum programming for example. In this paper, we focus on reversible programming through its categorical model in dagger categories, which are categories that contain an involutive operator on morphisms. We show how to introduce the framework of guarded recursion into dagger categories with sufficient structure for data types, also called dagger rig categories. First, given an arbitrary category, we build another category shown to be suitable for guarded recursion in multiple ways, via enrichment and fixed point theorems. We then study the interaction between this construction and the structure of dagger rig categories, aiming for reversible programming. Finally, we show that our construction is suitable as a model of higher-order reversible programming languages, such as symmetric pattern matching, to which we add guarded recursion features.</description>
     </item>
   </channel>
 </rss>

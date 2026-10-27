@@ -5,6 +5,76 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Antimagic Labeling of Central Digraphs Constructed from Loops</title>
+      <link>http://arxiv.org/abs/2610.35419v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.35419v1</guid>
+      <pubDate>Mon, 26 Oct 2026 13:29:47 +0000</pubDate>
+      <description>Let $(T, \circ)$ be a loop of order $k \geq 3$ and $D_S^*$ the loopless central digraph obtained from the associated central digraph $D_S$ by removing the $k$ self-loops at the diagonal vertices. We construct an explicit arc-labeling $f$ of $D_S^*$ ordering all arcs lexicographically by $(\text{tail}, \text{head})$ and assigning labels $1, \ldots, m$ in that order and prove that $f$ is an antimagic labeling. Consequently, $D_S$ is antimagic for every loop of order $k \geq 3$, a property that depends only on $k$ and is invariant across all non-isomorphic loops of the same order.</description>
+    </item>
+    <item>
+      <title>Admissible sets of integers in imaginary quadratic fields of class number 1</title>
+      <link>http://arxiv.org/abs/2610.34556v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34556v1</guid>
+      <pubDate>Sun, 25 Oct 2026 20:34:32 +0000</pubDate>
+      <description>Let $\mathcal O_K$ be the ring of integers of a number field $K$. A finite subset $\mathcal H=\{η_1,\ldots,η_k\}\subset\mathcal O_K$ is said to be \emph{admissible} if for every prime ideal $\mathfrak p$ in $\mathcal O_K$, the reductions of the $η_i$ modulo $\mathfrak p$ do not represent every residue class. The diameter of a finite subset $S$ of $\mathcal O_K$ is defined to be \[\mathrm{diam}(S):= \max_{η_i,η_j\in S:η_i\neqη_j}|\mathcal N(η_i-η_j)|\] where $\mathcal N$ denotes the norm down to the rational field. This paper computationally investigates admissible subsets of rings of integers in imaginary quadratic fields of class number 1 (such as the Gaussian integers or the Eisenstein integers) that are large relative to their diameter. The motivation is twofold. Firstly, there is the improvement of results analogous to the question of an upper bound for the least gap between large rational primes, which has been one of the great number theoretic successes of the twenty-first century. A second motivation is that there is the opportunity to disprove a variation of the second Hardy-Littlewood conjecture. The calculations in the paper provide new records on the smallest distance between primes in the fields in question, and explicit counter-examples to a generalisation of the second Hardy-Littlewood conjecture in all bar one of the fields.</description>
+    </item>
+    <item>
+      <title>Online Discrepancy of Sparse Random Vectors over Long Horizons</title>
+      <link>http://arxiv.org/abs/2610.34410v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34410v1</guid>
+      <pubDate>Sun, 25 Oct 2026 16:10:03 +0000</pubDate>
+      <description>We study online vector balancing for independent sparse random vectors: each arrival is supported on a uniformly random set of $s$ of the $n$ coordinates, with nonzero entries equal to one (binary model) or independent random signs (signed model), and an online algorithm must sign each vector upon arrival. The prefix discrepancy is the largest $\ell_\infty$-norm of the signed sums up to the horizon $T$, the terminal discrepancy that of the sum at time $T$. For binary inputs with $2\le s\le n/2$ and $T=Θ(n)$, Altschuler and Tikhomirov showed that both are of order $\sqrt{s}+\log\log n$; they asked how the prefix discrepancy depends on the horizon and whether a matching terminal bound holds at every prescribed time. Over long horizons, the two differ. For every fixed $s\ge2$ and $c&gt;0$, every online algorithm, even a randomized one that knows the horizon, incurs with high probability prefix discrepancy $Ω(\log\log n+(\log T/\log n)^{α_s})$ for $n\le T\le e^{cn}$, where $α_s=(2^{s-1}-1)/(2^s-1)$. For $s=2$, quadratic Greedy matches this bound; for fixed $s\ge3$, we give an online algorithm with prefix discrepancy $O(\log\log n+(\log T/\log n)^{1/2})$. In contrast, a deterministic algorithm that knows neither the horizon nor the failure probability keeps the terminal discrepancy $O_k(\sqrt{s}+\log\log n)$ at each prescribed time, with failure probability $n^{-k}$ for every fixed $k$, for $2\le s\le n/2$ (binary model) and $2\le s\le n$ (signed model); for $s=2$, quadratic Greedy itself does so. This answers their terminal question, and the same order is optimal for prefixes at all polynomial horizons $T\ge n$. The lower bound uses a finite safety game realized within the input law; the upper bounds use moments of elementary symmetric polynomials and, at terminal times, a $\cosh$ potential or a translated gauge with a Foster inequality at every state.</description>
+    </item>
+    <item>
+      <title>Logarithmic asymptotics for polynomial threshold functions</title>
+      <link>http://arxiv.org/abs/2610.34378v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34378v1</guid>
+      <pubDate>Sun, 25 Oct 2026 15:34:19 +0000</pubDate>
+      <description>We count Boolean functions represented as the sign of a real polynomial of bounded degree on the $n$-dimensional cube. We prove that the logarithm of their number is asymptotic to that of the classical hyperplane-arrangement upper bound, uniformly over all degrees, with relative error $O((\log n)^2/n)$. We also obtain sharper additive and relative error estimates in particular degree ranges, including an additive error $O(n^2)$ between the logarithms throughout a small linear degree range and improved bounds just below the central degree. The proof combines probabilistic estimates for Reed--Muller codes with a deletion argument for sets of evaluation vectors, an entropy count, and a sharp-threshold estimate for expected rank deficiency.</description>
+    </item>
+    <item>
+      <title>A general algebraic characterization of extremal $Δ$-trees and $k$-cyclic graphs for degree-homogeneous VDB indices</title>
+      <link>http://arxiv.org/abs/2610.34361v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34361v1</guid>
+      <pubDate>Sun, 25 Oct 2026 15:14:03 +0000</pubDate>
+      <description>We present a general algebraic method for maximizing a vertex-degree-based (VDB) topological index $TI(G) = \sum_{uv \in E(G)} f(d(u),d(v))$ over the class of $n$-vertex trees with a prescribed maximum degree $Δ\ge 3$. By expressing the edge multiplicities of the basis $\mathcal{B} = \{(1,Δ), (Δ,Δ)\}$ via degree-sum identities, we reduce the maximization of $TI(T)$ to the minimization of an explicit discrete penalty function $G(x,y)$ over the non-basic edges. We formulate five analytical conditions on the weight function $f(x,y)$ that dictate the optimal edge distributions, yielding a complete characterization of the extremal trees across all congruence classes of $n \pmod{Δ- 1}$. Additionally, we provide their explicit construction by attaching leaves to a core of internal vertices. Applying this framework, we obtain the complete characterization of extremal $Δ$-trees for the Degree-Ratio Sombor ($DRSO$), Symmetric Division Deg ($SDD$), and Hyperbolic Sombor ($HSO$) indices for all $Δ\ge 3$. Furthermore, the analytical conditions identify the exact degree thresholds for the Arithmetic-Geometric ($AG$) and Diminished Sombor ($DSO$) indices, showing that the same extremal family maximizes $AG$ if and only if $3 \le Δ\le 8$, and $DSO$ if and only if $3 \le Δ\le 4$. Finally, since changing the edge count from $m = n - 1$ to $m = n - 1 + k$ affects only the constant term in the decomposition while leaving the penalty function $G(x,y)$ invariant, the method extends directly to connected $k$-cyclic graphs.</description>
+    </item>
+    <item>
+      <title>Three Quadratic Recurrences Modulo 3: What We Can Prove and What We Can Guess</title>
+      <link>http://arxiv.org/abs/2610.34300v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34300v1</guid>
+      <pubDate>Sun, 25 Oct 2026 13:59:30 +0000</pubDate>
+      <description>We study three innocent-looking recurrences modulo $3$, each built from squares of two earlier terms. One of them turns out to be secretly $\textit{linear}$, and we can compute its periods exactly. One is a $\textit{permutation}$ hiding a small, perfectly orderly piece inside a large, random-looking one. The third looks thoroughly random, but it still has a few provable features. Along the way we meet open problems that need nothing beyond a first course in abstract algebra to state. This paper is a starting point, not the final word in any sense.</description>
+    </item>
+    <item>
+      <title>Asymptotic Rank of Complete Graph Tensors</title>
+      <link>http://arxiv.org/abs/2610.34273v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34273v1</guid>
+      <pubDate>Sun, 25 Oct 2026 13:03:59 +0000</pubDate>
+      <description>Graph tensors extend the matrix multiplication tensor by placing a two-party identity tensor on every edge of a graph and keeping one tensor leg at every vertex. We study the asymptotic rank of the tensor associated with the complete graph. For every integer $n\geq 2$, over the complex numbers, we prove \[ \left\lfloor\frac{n^2}{4}\right\rfloor \leq \log_2\widetilde R\bigl(\mathsf{GT}_2(K_n)\bigr) \leq \frac{n^2}{4}. \] The upper bound matches the maximum-cut lower bound for every even $n$ and differs from it by only $1/4$ for every odd $n$. In particular, the exponent per edge is below $2/3$ for every $n\geq5$, answering a question of Christandl, Vrana, and Zuiddam. Our proof extends the polynomial multiplication approach underlying OpenAI's bound $ω\leq9/4$. The main step separates any fixed number of shared tensor legs simultaneously, using only linearly many direct-sum copies in the number of blocks. This yields an entropy inequality for higher-order tensors. We apply it to the tensor for multiplying $n-1$ polynomials, whose rank is linear in the input length. Discrete concavity and a shifted tripling inequality then force a lower bound on a symmetrized spectral profile. Comparing this growth with polynomial interpolation gives the stated upper bound while preserving all $n$ tensor legs. We also prove an operational barrier for these higher-order polynomial constructions. For $n\geq3$, the specified formal reduction rules cannot certify an exponent below $n^2/4$ for $\mathsf{GT}_2(K_n)$, even after taking tensor powers and allowing subexponential overhead and common auxiliary factors. This extends the symmetric three-leg barrier of Amanov, van den Berg, and Zuiddam and explains the remaining gap for odd complete graphs within this method.</description>
+    </item>
+    <item>
+      <title>Extremal diagonal-coherent binary codes: shortened Hamming cores, deep holes, and the 64 I-Ching hexagrams</title>
+      <link>http://arxiv.org/abs/2610.33676v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.33676v1</guid>
+      <pubDate>Sat, 24 Oct 2026 13:45:42 +0000</pubDate>
+      <description>Each of the 64 hexagrams of the I-Ching, or Book of Changes, is a stack of six Yin-Yang lines and is therefore a binary vector of length 6; the eight hexagrams formed by repeating a single trigram span a doubled-trigram subspace $Δ$. We ask which binary $[6,3,3]$ codes are compatible with this trigram structure. We show that a $[6,3,3]$ code meets $Δ$ in at most four codewords, that the four are then forced to be the doubled trigrams Earth, Fire, Wind and Lake, and that exactly two codes attain this bound: the shortened Hamming code $\mathcal C_A$ and its dual. Since $\mathcal C_A$ has covering radius 2, its eight codewords, their radius-one balls, and its eight deep holes together reconstruct all 64 hexagrams. In general, we call a binary code of length $2m$ with $d \ge 3$ diagonal-coherent if it contains the half of the diagonal subspace $\{(u,u)\}$ coming from even-weight vectors $u$ -- the largest part of that subspace a single-error-correcting code can contain -- and extremal if its dimension is as large as possible. For $m\ge2$ and $r=\lceil\log_2(2m+1)\rceil$, we determine the number $N(m)$ of extremal diagonal-coherent codes with parameters $[\,2m,\ 2m-r,\ \ge3\,]$, show that diagonal coherence entails no loss of redundancy, and determine their minimum distances. We also put these codes in a normal form, determine their hulls, and show that each has covering radius $2$ with exactly $2^r-1-2m$ deep-hole cosets. Finally we propose three open problems.</description>
+    </item>
+    <item>
+      <title>A proof of Wang's planar D-coloring conjecture</title>
+      <link>http://arxiv.org/abs/2610.33322v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.33322v1</guid>
+      <pubDate>Fri, 23 Oct 2026 21:49:55 +0000</pubDate>
+      <description>We prove Wang's planar D-coloring conjecture. A D-coloring of a graph is a proper edge coloring in which every subgraph isomorphic to $K_4$ minus an edge is rainbow. Wang conjectured that every planar graph of maximum degree $Δ$ has a D-coloring with 9 colors if $Δ=4$, 10 colors if $Δ=5$, and $2Δ-1$ colors if $Δ\ge 6$. Hu, Kong and Wang proved the cases $Δ\le 5$ and $Δ\ge 33$. We prove the sharp bound $2Δ-1$ for every $Δ\ge 6$, settling the remaining cases. The proof uses discharging; the case $Δ=6$ is computer-assisted.</description>
+    </item>
+    <item>
+      <title>Subgraph Isomorphism, Integer Linear Programming, and Lattices: A Linear Algebraic Framework</title>
+      <link>http://arxiv.org/abs/2610.33235v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.33235v1</guid>
+      <pubDate>Fri, 23 Oct 2026 19:37:49 +0000</pubDate>
+      <description>The subgraph isomorphism problem (SGI) asks a deceptively simple question: is a graph B found inside a parent graph A? Famously NP-complete and the subject of volumes of study, attempts to practically solve subgraph problems typically require specialized software or the focused application of problem-specific theoretical knowledge. Here we present a straightforward linear framework that neatly joins SGI to lattice theory and constrained satisfiability and, importantly, yields an easily implemented algorithm that naturally leverages consumer-grade hardware and off-the-shelf libraries to compete with state-of-the-art specialized solvers. We additionally show practical realizations in approachable settings, along with some benchmarks that reduce 6+ hour computations to seconds. Aimed at readability, we develop a series of computable algebraic invariants and demonstrate their application to familiar problems such as the Knight's Tour, with a focus on providing an accessible entry point for researchers in graph theory, abstract algebra, and students in general.</description>
+    </item>
+    <item>
       <title>Identifying codes of Archimedean grids</title>
       <link>http://arxiv.org/abs/2610.32192v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.32192v1</guid>
@@ -633,76 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30353v1</guid>
       <pubDate>Mon, 31 Aug 2026 07:09:24 +0000</pubDate>
       <description>Smith's conjecture asserts that in every $k$-connected graph with $k\geq 2$, any two longest cycles intersect in at least $k$ vertices. In this work, we establish an $Ω(k^{8/11})$ bound for this conjecture, improving upon the $Ω(k^{2/3})$ bound of Ma and Zhao. Our proof combines a Ramsey theoretic refinement of the traditional Turán-type approach with computer search.</description>
-    </item>
-    <item>
-      <title>Improved Subexponential Upper Bounds for $3$-Restricted Matching Vector Families</title>
-      <link>http://arxiv.org/abs/2608.27859v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.27859v1</guid>
-      <pubDate>Fri, 28 Aug 2026 03:08:39 +0000</pubDate>
-      <description>Matching Vector families (MVFs) are defined by two ordered lists of vectors in $\mathbb{Z}_m^n$ whose inner products satisfy specific residue patterns modulo an integer $m$. Most famously, restricted MVFs are used to construct the best-known constant-query Locally Decodable codes (LDCs). We prove an upper bound of $2^{O\left(\sqrt{n\log n \log m}\right)}$ on the size of $3$-restricted MVFs in $\mathbb{Z}_m^n$ for $m \leq \sqrt{n}$, substantially improving on the previous best bound of $2^{O(n/\log n)}$ by Bhowmick, Dvir and Lovett (STOC'13, SICOMP'14). Our proof relies on a new polynomial method argument that controls collisions in sumsets of matching vectors.</description>
-    </item>
-    <item>
-      <title>Refutation of the Non-Cancelling-Intersections Conjecture</title>
-      <link>http://arxiv.org/abs/2608.27416v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.27416v1</guid>
-      <pubDate>Thu, 27 Aug 2026 17:42:42 +0000</pubDate>
-      <description>The Non-Cancelling Intersections (NCI) conjecture of Amarilli, Monet and Suciu [arXiv:2401.16210] states that the union of a finite family of sets can always be built from its algebraically non-cancelling intersections using only disjoint unions and subset complements. In Wilhelm [arXiv:2608.19414] the conjecture was shown to fail when the witnessing dot-algebra expression is required to be left-linear. Here we remove that restriction and show that the conjecture is false in general: there is a finite lattice admitting no dot-algebra representation of its top element whatsoever. The counterexample is a lattice $P_{p,\mathfrak{m}}$ as in Wilhelm [arXiv:2608.19414], and the argument differs in only two ways. First, we replace the sequential "toggle game" of Wilhelm [arXiv:2608.19414] by a corresponding tree-shaped object, the plane tree, which stands to dot-algebra trees as the toggle game stands to left-linear ones. Second, we use a marked plane in which there is no admissible set of any size between $2p$ and $4p$, which also removes the need for the Erdős--Beck theorem and for the arithmetic Nullstellensatz. Consequently $p$ need not be astronomically large: every prime $p \ge 10^{5}$ works.</description>
-    </item>
-    <item>
-      <title>Five improved lower bounds for Zarankiewicz numbers z(m,n;3,3)</title>
-      <link>http://arxiv.org/abs/2608.26603v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.26603v1</guid>
-      <pubDate>Thu, 27 Aug 2026 04:38:08 +0000</pubDate>
-      <description>We record five improved lower bounds for Zarankiewicz numbers with s = t = 3: z(13,19;3,3) &gt;= 118, z(14,19;3,3) &gt;= 126, z(16,18;3,3) &gt;= 136, z(14,20;3,3) &gt;= 126, z(16,19;3,3) &gt;= 136. The first three are certified by explicit K_{3,3}-free 0/1 matrices; the last two follow from the second and third by monotone padding. Compared with the lower bounds compiled in Figure 2 of arXiv:2605.01120, namely 114, 121, 130, 125 and 132, the improvements are +4, +5, +6, +1 and +4 respectively. The three matrices were produced by a kicked-greedy local search operated autonomously by a discovery system and were verified exactly, by exhaustive inspection of every 3x3 row/column triple, in several mutually independent implementations; they were also re-verified independently by the authors of arXiv:2605.01120 using their own verifier in July 2026. All three witnesses are printed in full in Appendix A and accompany this note as machine-readable ancillary files together with standalone, dependency-free verifiers.</description>
-    </item>
-    <item>
-      <title>Homomorphic-core phase transition threshold in Erdős--Rényi random graphs</title>
-      <link>http://arxiv.org/abs/2608.24520v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.24520v1</guid>
-      <pubDate>Tue, 25 Aug 2026 13:09:38 +0000</pubDate>
-      <description>It is shown in this manuscript that a random graph $G$ drawn from the Erdős--Rényi model $\mathcal{G}(n,p)$ with \[ p=p(n)\leq 1/2, \qquad \lim_{n\to+\infty}(np-\log n-\log\log n)=+\infty, \] is a homomorphic core, i.e., every homomorphism from $G$ to itself is an automorphism. This implies tight ETH-based lower bounds of the subgraph isomorphism problem for almost all $k$-vertex patterns with polynomial average degree.</description>
-    </item>
-    <item>
-      <title>Hamilton Cycles in 10-Tough $(2P_2 \cup P_1)$-Free Graphs</title>
-      <link>http://arxiv.org/abs/2608.24047v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.24047v1</guid>
-      <pubDate>Tue, 25 Aug 2026 04:14:15 +0000</pubDate>
-      <description>A graph is called 10-tough and $(2P_2 \cup P_1)$-free if every vertex set whose deletion leaves at least two components has cardinality at least ten times the number of those components and if the graph has no induced subgraph consisting of two disjoint edges and an isolated vertex. We prove that every finite simple 10-tough $(2P_2 \cup P_1)$-free graph on at least three vertices is Hamiltonian. The proof splits according to whether some edge has joint neighbourhood of order at most $4n/11$. In the small-neighbourhood case, a matched path-cover is compressed to a prescribed matching. In the large-neighbourhood case, an asymmetric analysis of the two components left by a putative small cut yields the required connectivity bound. A Hamilton cycle through the prescribed edges is then expanded, and a cycle-extension lemma inserts the remaining vertices.</description>
-    </item>
-    <item>
-      <title>Quantitative Logarithmic Chowla Correlations Uniformly over Growing Shifts</title>
-      <link>http://arxiv.org/abs/2608.23500v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23500v1</guid>
-      <pubDate>Mon, 24 Aug 2026 17:03:54 +0000</pubDate>
-      <description>Let $λ(n)=(-1)^{Ω(n)}$ be the Liouville function. Pilatte proved a fixed power saving for the logarithmically weighted two-point correlation at shift one. More recently, Tao and Teräväinen obtained power-logarithmic two-point estimates uniform over polylogarithmically growing shifts and coefficients outside a common exceptional set of scales; their result in particular implies, after logarithmic integration, a growing-shift logarithmic estimate with some unspecified positive exponent. We give a direct all-scales logarithmic estimate with an explicit shift range. For every fixed $0&lt;κ&lt;1/700$, there are constants $c_κ&gt;0$ and $x_0(κ)$ such that $\displaystyle \sup_{1\le h\le(\log x)^κ}\left|\sum_{n\le x}\frac{λ(n)λ(n+h)}{n}\right|\ll_κ(\log x)^{1-c_κ}\qquad (x\ge x_0(κ)).$ The explicit endpoint is inherited from the $(\log N)^{-1/700}$ term in the short exponential-sum estimate of Matomäki, Radziwiłł and Tao. The key quantitative step is a scale-flexible version of Pilatte's circle-method uncentring: dilation by $h$ preserves the relevant fourth moment, while the short sums cost $h^{1/5}$. A flexible dyadic cutoff recovers every $κ&lt;1/700$. For completeness we also record, in the specialised notation needed here, a residue-uniform arbitrary-interval transfer for the centred non-backtracking operator; a more general decoupling statement appears in the work of Tao and Teräväinen. The result is logarithmically weighted and does not prove the ordinary Cesàro two-point Chowla conjecture.</description>
-    </item>
-    <item>
-      <title>Improved bounds for the smallest 4-chromatic graph of girth six</title>
-      <link>http://arxiv.org/abs/2608.23652v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23652v1</guid>
-      <pubDate>Mon, 24 Aug 2026 11:14:46 +0000</pubDate>
-      <description>For integers $k,g \ge 3$ let $n_g(k)$ denote the minimum order of a graph with chromatic number $k$ and girth at least $g$. Exoo and Goedgebeur (DMTCS 2019) proved $26 \le n_6(4) \le 66$; their 66-vertex witness has remained the smallest known 4-chromatic graph of girth 6. We improve both bounds to $29 \le n_6(4) \le 64$. The upper bound is witnessed by an explicit 4-chromatic graph of girth 6 on 64 vertices with 152 edges; it is vertex- and edge-critical, and its automorphism group is cyclic of order 8 and acts semiregularly. The lower bound is an exhaustive isomorph-free computation in the SAT modulo symmetries framework with co-certificate learning, driven by the Liu-Postle edge-density bound for 4-critical graphs of girth five; it re-derives $n_6(4) \ge 26$ by a disjoint method and is validated on the known values $n_4(4)=11$ and $n_5(4)=21$. We complement the bounds with structural obstructions: no smaller witness arises from either known witness by local modifications; no 4-chromatic Cayley graph of girth 6 exists on 54-63 vertices (for orders 59 and 61 no vertex-transitive witness exists at all); and no witness on at most 63 vertices admits a semiregular automorphism group with two or three vertex orbits, for any finite group. Since every known witness of an $n_g(4)$ record with $g \ge 6$ is a lift of a small base graph along a semiregular action, these results close the most symmetric part of that regime below 64 vertices. All properties of the new graph are verified by independent programs and formally certified in the Lean 4 proof assistant: the non-3-colourability is established inside Lean by a formally verified checker that re-validates a 219,532-node refutation certificate, with a machine-checked soundness theorem.</description>
-    </item>
-    <item>
-      <title>Domination versus edge domination in regular graphs of degree at least seven</title>
-      <link>http://arxiv.org/abs/2608.22498v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.22498v1</guid>
-      <pubDate>Sun, 23 Aug 2026 16:33:40 +0000</pubDate>
-      <description>Baste et al. (2020) conjectured that every regular graph of positive degree has domination number at most its edge domination number, the least size of a maximal matching. Combining published bounds settles the inequality for every degree at least nine. A reduction proves the inequality whenever one endpoint of each edge of a minimum maximal matching can be chosen to form a dominating set, and the Lovász Local Lemma shows such a choice exists for every degree at least seven, newly closing degrees seven and eight and leaving degrees three through six open. The reduction settles each open degree up to a bounded number of vertices, forty-eight for cubic graphs. At fifty vertices, however, the reduction meets an explicit cubic graph it cannot settle, though the inequality holds there too. The inequality cannot be tightened, since infinitely many cubic graphs have equal domination and edge domination numbers. The cubic case stays open, and even linear arguments from the local structure cannot close it. The middle degrees stay open beyond the graphs already settled.</description>
-    </item>
-    <item>
-      <title>Thermal Recurrence Orders of the Potts Model Partition Function in Grid Graphs</title>
-      <link>http://arxiv.org/abs/2608.21789v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.21789v1</guid>
-      <pubDate>Sat, 22 Aug 2026 06:00:34 +0000</pubDate>
-      <description>We study the linear recurrence order of the Potts model partition function on thermal 2D grid graphs. By restricting the transfer matrix (TM) to the real coupling axis, the physical operator maintains diagonalizability under the Spectral Theorem. We show that this thermal regularization allows the Krylov subspace to saturate the unconstrained planar state capacity, locking the recurrence order to the Dyck path up to reversal (OEIS A007123) for $q \ge 4$. Furthermore, the recurrence order collapses to height-restricted Dyck paths up to reversal (OEIS A001998) for $q=3$ due to finite-index Jones-Wenzl projections, and to the zero-magnetization conservation sector (OEIS A001405) for $q=2$. This framework bridges graph-theoretic combinatorics with the representation theory of physical loop gas models.</description>
-    </item>
-    <item>
-      <title>Broadcast Domination Number is at Most Twice the Multipacking Number</title>
-      <link>http://arxiv.org/abs/2608.20036v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.20036v1</guid>
-      <pubDate>Thu, 20 Aug 2026 13:43:04 +0000</pubDate>
-      <description>For a graph $ G = (V, E) $ with a vertex set $ V $ and an edge set $ E $, a function $ f : V \rightarrow \{0, 1, 2, . . . , diam(G)\} $ is called a \emph{broadcast} on $ G $. For each vertex $ u \in V $, if there exists a vertex $ v $ in $ G $ (possibly, $ u = v $) such that $ f (v) &gt; 0 $ and $ d(u, v) \leq f (v) $, then $ f $ is called a dominating broadcast on $ G $. The cost of the dominating broadcast $f$ is the quantity $ \sum_{v\in V}f(v) $. The minimum cost of a dominating broadcast is the broadcast domination number of $G$, denoted by $ γ_{b}(G) $. A multipacking is a set $ M \subseteq V $ in a graph $ G = (V, E) $ such that for every vertex $ v \in V $ and for every integer $ r \geq 1 $, the ball of radius $ r $ around $ v $ contains at most $ r $ vertices of $ M $, that is, there are at most $ r $ vertices in $ M $ at a distance at most $ r $ from $ v $ in $ G $. The multipacking number of $ G $ is the maximum cardinality of a multipacking of $ G $ and is denoted by $ mp(G) $. It is known that $mp(G)\leqγ_b(G)$. In 2014, Hartnell and Mynhardt proved that $γ_b(G)\leq 3mp(G)-2$ whenever $mp(G)\geq2$. In 2019, Beaudou, Brewster, and Foucaud improved this bound to $γ_b(G)\leq 2 mp(G)+3$ and conjectured that $γ_b(G)\leq 2 mp(G)$. We solve their conjecture by proving that $γ_b(G)\leq 2 mp(G)$ for every graph $G$. Our proof is constructive and yields a polynomial-time $2$-approximation algorithm for Maximum Multipacking problem which improves the earlier approximation factor $2+o(1)$.</description>
     </item>
   </channel>
 </rss>

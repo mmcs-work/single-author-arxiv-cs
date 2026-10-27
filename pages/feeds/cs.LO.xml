@@ -5,6 +5,62 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Undecidability of FO3 and the Calculus of Relations with Just One Binary Relation</title>
+      <link>http://arxiv.org/abs/2610.35770v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.35770v1</guid>
+      <pubDate>Mon, 26 Oct 2026 17:13:05 +0000</pubDate>
+      <description>The validity problem for first-order logic is a well-known undecidable problem. The undecidability also holds even for $\mathsf{FO}3$ and (equational formulas of) the calculus of relations. In this paper we tighten these undecidability results to the following: (1) $\mathsf{FO}3$ with just one binary relation is undecidable even without equality; and (2) the calculus of relations with just one character and with only composition, union, and complement is undecidable. Additionally we prove that the finite validity problem is also undecidable for the above two classes.</description>
+    </item>
+    <item>
+      <title>The Proof-Theoretic Foundations of the Principle of Reiteration in Natural Deduction</title>
+      <link>http://arxiv.org/abs/2610.35711v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.35711v1</guid>
+      <pubDate>Mon, 26 Oct 2026 16:33:20 +0000</pubDate>
+      <description>This paper investigates the proof-theoretic foundations of the principle of reiteration (R) in natural deduction, arguing that its legitimacy originates in the structural preservation of formulae within sequent calculus rather than in an independent logical rule. By examining singlesuccedent and multisuccedent sequent calculus, we demonstrate how logical operations transform principal formulae while preserving unaffected antecedent and succedent contexts. We subsequently analyse the schematic formulation of reiteration and compare natural deduction derivations with corresponding sequent calculus derivations. This comparison identifies two fundamental functions of reiteration, namely the reuse of previously employed formulae and the restoration of previously derived conclusions. We conclude that reiteration introduces no independent inferential content but explicitly represents the structural continuity of inferential dependencies already included into sequent calculus.</description>
+    </item>
+    <item>
+      <title>Inductive Grounded Arithmetic: Goodstein, the Hydra, and $Γ_0$</title>
+      <link>http://arxiv.org/abs/2610.34548v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34548v1</guid>
+      <pubDate>Sun, 25 Oct 2026 20:17:08 +0000</pubDate>
+      <description>What does a recursive definition mean when the logic is grounded, so a sentence is true only if a terminating process makes it so? Kripke's answer for the special case of truth was the least fixed point. This paper takes that answer as a rule. Reflective Grounded Arithmetic (RGA) already writes any recursive definition as one self-referential term, paradoxes included. Inductive Grounded Arithmetic (IGA) adds the elimination rule for every positive one, so that accessibility, the winning positions of a game, and grounded truth itself each come with their own induction principle. The rule is sound for the omega model and the system is consistent, both machine-checked in Isabelle/HOL. With the rule, IGA proves Goodstein's theorem outright, in a logic without implication at an undecided hypothesis, and the Kirby-Paris hydra game for primitive recursive strategies, both with every step of the arithmetic a grounded derivation. It proves the Cantor normal forms well-founded, from which the well-foundedness of the standard $\varepsilon_0$ notation system in HOL follows, and it certifies the Veblen notation as an ordinal below every $\varphi(n,0)$. It defines Kripke truth for RGA's own language as one fixed point that agrees with the omega model exactly. Two equivalences locate what the classical world has and the grounded one does not. IGA proves the whole Veblen notation well-founded exactly when it admits bivalence of accessibility for that order, and bivalence of accessibility for an order is sound exactly when the order is well-founded; so $Γ_0$ lies at most one instance of excluded middle away, at the accessibility predicate of the notation, and that instance, the well-foundedness sentence and one membership claim in a primitive-recursive form of Kleene's $\mathcal O$ are interderivable over IGA.</description>
+    </item>
+    <item>
+      <title>Propositional formula minimization is $Σ_2^p$-complete under many-one reductions</title>
+      <link>http://arxiv.org/abs/2610.34516v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34516v1</guid>
+      <pubDate>Sun, 25 Oct 2026 19:18:36 +0000</pubDate>
+      <description>The Minimum Equivalent Expression problem (MEE) asks, given a propositional formula $φ$ and an integer $k$, whether $φ$ is equivalent to a formula with at most $k$ occurrences of propositional variables. While the problem is clearly in $Σ_2^p$, its completeness under polynomial-time many-one reductions has remained open since at least 1979. Buchfuhrer and Umans showed in 2008 that it is $Σ_2^p$-complete under polynomial-time Turing reductions. In this note, we present a proof discovered by GPT-Sol-6.1 which establishes that MEE is $Σ_2^p$-complete also under polynomial-time many-one reductions.</description>
+    </item>
+    <item>
+      <title>A Lambda Calculus Based on Quantum Logic</title>
+      <link>http://arxiv.org/abs/2610.34266v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34266v1</guid>
+      <pubDate>Sun, 25 Oct 2026 12:53:46 +0000</pubDate>
+      <description>We propose a typed lambda calculus based on quantum logic. We first present a natural deduction system for quantum logic with the Sasaki hook as its implication operation and then formulate a typed lambda calculus connected to this system through the Curry-Howard correspondence. We prove soundness and completeness of the former with respect to orthomodular lattices and strong normalization of the latter. The resulting lambda calculus has the characteristic feature that only one assumption is available in the typing derivation that serves as the premise of $λ$-abstraction. Under this restriction, ordinary currying is not available in general, but it is still possible to perform $λ$-abstraction by combining multiple assumptions into a single argument of product type and to construct a term corresponding to a deduction using the Sasaki projection.</description>
+    </item>
+    <item>
+      <title>Unit: a type checker for dependent type theory</title>
+      <link>http://arxiv.org/abs/2610.34264v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.34264v1</guid>
+      <pubDate>Sun, 25 Oct 2026 12:50:42 +0000</pubDate>
+      <description>We present Unit, a type checker for dependent type theory with a module system in the tradition of Automath and a uniform treatment of definitions: two uses of a definition are compared by name and arguments before anything is unfolded, and otherwise the definition declared last is opened. There is no unification, no instance search, no tactics and no unfolding heuristic, so the work of checking can be observed and compared with the informal proof. With Unit we have checked a model of univalent type theory, synthetic algebraic geometry up to Châtelet's theorem, and synthetic Stone duality with its cohomology. These developments show that a small, uniform system supports substantial mathematics, and give concrete reasons to reconsider the complexity routinely accepted in proof assistants.</description>
+    </item>
+    <item>
+      <title>A Model-Theoretic Formalization of AlKhwaremis ilm alfaraid</title>
+      <link>http://arxiv.org/abs/2610.33629v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.33629v1</guid>
+      <pubDate>Sat, 24 Oct 2026 12:03:15 +0000</pubDate>
+      <description>This paper presents a model theoretic and computational formalization of AlKhwarizmis treatment of inheritance within the framework of Computational Fiqh. We first show that every inheritance configuration in a specified class is representable as a finite system of rational linear equalities and inequalities, and that such systems are decided exactly by Fourier Motzkin elimination over Q. We then define the fixed dimensional inheritance structure Vd with distinguished claimant coordinates, and prove that every admissible rational linear coordinate realization is isomorphic to Vd, this establishes the algebraic representation as canonical within that class. The complete first order theory Td of Vd is shown to be complete by construction and is explicitly distinguished from the decidability of the inheritance relevant fragment. The methodological principle is then related to a broader formalization of closed Fiqh domains via exhaustive case generation, Horn clause axiomatization, and terminating deduction, yielding domain relative computational completeness.</description>
+    </item>
+    <item>
+      <title>Two Uncertainties Are Not One: Disagreement versus Decision-Risk in Cheap Structured Content Moderation</title>
+      <link>http://arxiv.org/abs/2610.33258v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.33258v1</guid>
+      <pubDate>Fri, 23 Oct 2026 20:08:04 +0000</pubDate>
+      <description>Content moderation compresses a graded, contested human judgment into a binary act (leave up / take down) over billions of items, at a scale where running a frontier LLM on every post is uneconomical. A new class of frozen "System One" models returns typed, calibrated decisions instead of text at ~USD 0.000025 per call and ~100 ms. We run the first independent audit of one such model on 142,658 human-labeled comments, and benchmark it against 14 frontier reasoning models (the GPT-5.x, Claude, Gemini 3, and Grok families) on a shared probe set. Two findings stand out. First, the cheap model is accuracy-competitive: its zero-shot classification AUROC (0.83) is not statistically separable (paired bootstrap, n=56; a failure to reject parity, not proof of equivalence) from 13 of the 14 frontier systems while costing 1-3 orders of magnitude less, and it is no worse calibrated than several of them. Second, "confidence" conflates two uncertainties that come apart: human disagreement (where annotators split on satire and coded language) and decision risk (where the automatic action is costly-wrong). Under an asymmetric moderation loss these call for opposite escalation signals, so no single confidence number serves both. Because the model prices extra questions at nearly zero, decomposing the judgment into parallel sub-questions and reading their spread recovers a human-disagreement signal that the model's native confidence misses -- but this remedy is specific: it helps the weakest, disagreement-blind models and only when the decomposition aligns with the sources of disagreement; a specialist toxicity model and the strongest LLMs do not need it, and the effect is distribution-sensitive. We will release the instrument, the cached runs, and the analysis.</description>
+    </item>
+    <item>
       <title>Choosing What to Observe: Higher-Order Obstructions in Horn Abduction</title>
       <link>http://arxiv.org/abs/2610.32805v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.32805v1</guid>
@@ -647,62 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.10447v1</guid>
       <pubDate>Wed, 09 Sep 2026 16:58:50 +0000</pubDate>
       <description>Perhaps surprisingly, there are infinite types that can be exhaustively searched mechanically in finite time. We use ideas from topology to build plenty of them, referring to searchable types as compact types, and we use ordinals to measure their logical complexity. We consider two systems of ordinal notations under which a single notation denotes both a discrete ordinal and a compact one, with an embedding of the former into the latter whose image has empty complement. A boolean valued function decides which points in the image of the embedding are isolated and which are topological limit points. The first system consists of the traditional Brouwer codes and the second is an inductive-recursive universe generalizing them. The discrete ordinals so obtained are trichotomous, and the compact ones have the least element property for complemented subsets, but these two desirable properties cannot be fulfilled simultaneously in a constructive setting. The ordinals obtained from Brouwer codes further enjoy a boolean Leibniz principle, which has the notion of total separatedness as its topological counterpart. This extends previous work from Gödel's system T to intensional Martin-Löf type theory with univalent universes, and is formalized in Agda in the TypeTopology repository.</description>
-    </item>
-    <item>
-      <title>Fitting and Learning Basis-Restricted Propositional Formulas</title>
-      <link>http://arxiv.org/abs/2609.08961v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08961v1</guid>
-      <pubDate>Tue, 08 Sep 2026 16:15:00 +0000</pubDate>
-      <description>For a finite set $O$ of Boolean functions, we consider the class of propositional formulas built using the functions in $O$ as connectives. We determine, for each possible choice of $O$, the complexity of various fitting and learning problems. These include: finding a formula that fits a given labeled sample, finding a small one (an Occam algorithm), minimizing the number of misclassified examples when the sample is not realizable (empirical risk minimization), and several forms of PAC learning. Our results apply both to formulas (represented as trees) and to circuits. We also briefly discuss the status of the same questions for other kinds of propositional fragments.</description>
-    </item>
-    <item>
-      <title>Erased Postulates, Identity Types and Quotients</title>
-      <link>http://arxiv.org/abs/2609.08578v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08578v1</guid>
-      <pubDate>Tue, 08 Sep 2026 11:16:19 +0000</pubDate>
-      <description>This text is concerned with the question of whether, in type theory with erasure annotations, one can postulate that some type is inhabited and still have a guarantee that a program will not get stuck. Previous work has provided such guarantees for consistent erased postulates, i.e. postulates that are restricted to be used in erased contexts. Here those guarantees are extended to type theory with identity types. Similar ideas provide a simple way to support quotient types: it is shown that one can let things like "the equivalence classes for two related values are equal" be erased postulates and have an eliminator that only computes for the equivalence class constructor, and still get a guarantee that programs will compute correctly. Another question is whether programs compute correctly if one is allowed to transport (cast) using erased identity proofs. It is shown that this is safe in the absence of quotients and postulates, and in the presence of quotients and erased postulates that can be implemented using equality reflection. However, unrestricted transports of this kind are not compatible with erased, postulated univalence. For that reason the text includes a study of the function []-cong, which encapsulates a limited form of transport for erased identity proofs. The text is accompanied by machine-checked Agda proofs.</description>
-    </item>
-    <item>
-      <title>Width-Bounded Equational Derivations for Finite Graph Expressions</title>
-      <link>http://arxiv.org/abs/2609.08325v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08325v1</guid>
-      <pubDate>Tue, 08 Sep 2026 06:52:14 +0000</pubDate>
-      <description>Completeness of an equational presentation guarantees an equality path but need not control the resources used along it. For finite graph expressions we measure derivational space by the largest input-output interface of an intermediate raw term. For every finite doubly ranked edge alphabet $Σ$, we prove that equal closed expressions of pattern width at most $k$ are joined by a derivation in which every step applies an equation in either direction and every intermediate width is at most a computable $B_Σ(k)$, independently of graph size. The derivation uses only the structural magmoid laws and the fifteen finite-graphoid schemes. The construction compiles each expression through protected cores and finite routing windows to an encoding-canonical representative $\operatorname{NF}_k$ of width at most $4k+4$. We call this property bounded equational coherence. We also prove $\operatorname{bw}(F)\le\operatorname{patw}(F)\le4(\operatorname{tw}(F)+1)$ whenever the underlying simple graph has at least two edges, separate layered linear from branching expressions on cliques, and provide machine-checkable witnesses and finite invariants for the first five nontrivial clique values.</description>
-    </item>
-    <item>
-      <title>Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log</title>
-      <link>http://arxiv.org/abs/2609.08160v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08160v1</guid>
-      <pubDate>Tue, 08 Sep 2026 02:44:49 +0000</pubDate>
-      <description>Change-data capture (CDC) feeds downstream systems like caches, search indexes, and data warehouses from a database's log of committed row changes. When bootstrapping, adding a table, or repairing downstream data, a pipeline must also copy existing rows. Merging this copy with the active log introduces the copy-to-log handoff problem. Changes must not fall through a gap, and older copied state must not overwrite a newer logged update or resurrect a deleted row. DBLog, developed at Netflix, addressed this problem by reading tables in chunks and interleaving those reads with the live log. Watermarks identify the changes that overlap each read, and the log wins when a copied row is stale. Debezium and Flink CDC have since adapted this design. Earlier work proved that applying the original algorithm's copied rows and logged changes in their emitted order reconstructs the source's rows, including the effect of every logged insert, update, and delete processed. Generalized DBLog asks when the same result holds for variants of that design. We state the conditions the source and capture implementation must satisfy. Once copying and reconciliation are complete, we prove that the result holds across all selected tables and key ranges even when their rows were read at different times. A single database snapshot is not required for the copy. Further logged changes advance the reconstructed state one event at a time. We establish these guarantees for classic watermarking, Debezium's signal-table and read-only modes, Flink CDC's parallel chunks, reads and dumps tied to exact log positions, and engine-consistent backups whose log position lies within known bounds. The complete theory is machine-checked in Isabelle/HOL, its core independently verified in Lean 4, and the protocols are also examined by bounded model checking in TLA+.</description>
-    </item>
-    <item>
-      <title>Feasible disjunction for random resolution</title>
-      <link>http://arxiv.org/abs/2609.10602v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.10602v1</guid>
-      <pubDate>Mon, 07 Sep 2026 22:24:01 +0000</pubDate>
-      <description>We show that a (stronger) version of random resolution has the feasible disjunction property. This is the first instance of a proof system not known to have feasible interpolation, which nevertheless has the feasible disjunction property.</description>
-    </item>
-    <item>
-      <title>Automatic constraints with few subpowers and graphoid recognition</title>
-      <link>http://arxiv.org/abs/2609.07891v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.07891v1</guid>
-      <pubDate>Mon, 07 Sep 2026 18:56:03 +0000</pubDate>
-      <description>Finite automata can describe relations of unbounded arity that are exponentially larger than their descriptions. We prove that constraint satisfaction for such relations is solvable in polynomial time whenever their length slices are preserved by a common fixed edge operation on a finite domain. The algorithm computes compact representations of the complete solution relation and its projections. Its main ingredient is a polynomial-time compilation of nondeterministic finite automata into the fork witnesses and small projections required by the few-subpowers algorithm. In the Mal'tsev case, a direct proof is polynomial also when the domain and operation table are supplied as input, answering the Mal'tsev tractability question for automatic constraint satisfaction. We also characterize all invariant relations of a family of 3-edge algebras with neither Mal'tsev nor near-unanimity terms. Their normal forms combine Boolean activity constraints with affine value spaces and yield canonical quadratic-bit representations constructible from NFAs or arbitrary generators. For graphoid automata, these results give polynomial-time recognition without a graph-width restriction, effective boundary composition, and comparison of finite graph relations. The quadratic boundary bounds are optimal in the worst case. A fixed three-state example separates polynomial-time recognition from hard exact counting.</description>
-    </item>
-    <item>
-      <title>Tag-system computation using only powers and principal logarithms</title>
-      <link>http://arxiv.org/abs/2609.10592v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.10592v1</guid>
-      <pubDate>Sun, 06 Sep 2026 18:21:27 +0000</pubDate>
-      <description>I show that one exact step of any tag system can be written as a single fixed expression using only powers and logarithms. A tag state is represented as an integer; evaluating the expression yields the integer encoding of the next configuration, and feeding the answer back into the same expression follows the computation step by step. The discrete part of the update comes from leveraging the wraparound in the principal complex logarithm, which effectively serves the same purpose as floor, mod, or sin in comparable approaches. The iterating expressions use only $x^y$ and $\log_b a$: it turns out that these two binary operations are sufficient, with no need for constants. It follows that reachability below a fixed threshold is undecidable for one fixed expression. As a separate application, the same mechanism represents addition, $2^x$, and remainder with the convention $x\bmod0=x$, and hence every Kalmár elementary function.</description>
-    </item>
-    <item>
-      <title>Differentiable Horn Programs: A Constructive Expressivity Theorem for Latent Rule Operators</title>
-      <link>http://arxiv.org/abs/2609.06235v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.06235v1</guid>
-      <pubDate>Sat, 05 Sep 2026 19:29:12 +0000</pubDate>
-      <description>We introduce \textsc{LatentGamma}, a differentiable operator on the unit cube $[0,1]^M$ designed as a smooth surrogate of Tarski's immediate consequence operator $\TP$ associated with a definite Horn program $P$ on $M$ atoms. The operator is built as a five-stage composition combining sigmoidal gating, softmax routing, and a residual update that enforces monotonicity by construction. We establish four theoretical results. First, the iterated sequence is coordinate-wise non-decreasing and bounded by $\ind$, hence converges to a fixed point of \textsc{LatentGamma}; the operator itself is lattice-monotone on $[0,1]^M$. Second, our \emph{constructive expressivity theorem} shows that for every definite Horn program $P$ there exists a closed-form parameter assignment $θ^*(P)$ and an explicit time bound $T_{\max}(P)$ such that the iterated sequence \emph{exactly} reproduces $\TPinf(F_0)$ for every initial fact set $F_0$ throughout the window $[D(P, F_0), T_{\max}(P)]$, where $D(P, F_0) \leq M$ is the derivation depth. The window $T_{\max}$ is large in practice ($\geq 10^5$ for sparse programs) and reflects the finite-time nature of computation by smooth sigmoidal gates. Third, the oracle is robust to Gaussian noise on its body and head logits, with explicit non-asymptotic bounds. Fourth, we prove a matching information-theoretic lower bound on the parameter count. We provide a complete numerical validation on programs ranging from $M = 33$ to $M = 504$ atoms: oracle accuracy reaches $1.0000$ on $2000$ test cases with zero false-positive and false-negative rates, and the empirical noise tolerance $σ_{\max}$ scales precisely as the union bound $RM \cdot Φ(-10/σ_η)$ predicts.</description>
     </item>
   </channel>
 </rss>
