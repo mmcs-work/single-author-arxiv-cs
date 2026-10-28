@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Code uniqueness of 4-cell connected disjoint clusters in spatial chromatic model</title>
+      <link>http://arxiv.org/abs/2610.37395v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37395v1</guid>
+      <pubDate>Tue, 27 Oct 2026 15:16:32 +0000</pubDate>
+      <description>The spatial chromatic model (SCM) is a novel entity-oriented spatial data model proposed in recent years. Spatial tessellations formed by SCM have been applied in preliminary analyses of spatial point pattern recognition,spatial topology, and Voronoi diagram generation. Unlike previous spatial tessellation models, a key feature of SCM is that each subspace (cell) possesses a chromatic code, which serves as the foundation for various theoretical analyses and applications of SCM. The uniqueness of cell cluster codes in SCM constitutes an important property of the model. Previous studies have demonstrated the uniqueness of the chromatic codes of 2-cell and 3-cell connected disjoint clusters. Building on this analysis of connected cluster code characteristics, this paper proves the uniqueness of the chromatic codes of 4-cell connected disjoint clusters. The proof results and the new concepts introduced in this study help further refine the spatial chromatic model and provide a theoretical foundation for its subsequent applications.</description>
+    </item>
+    <item>
+      <title>On surfaces, that fill the space</title>
+      <link>http://arxiv.org/abs/2610.36766v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.36766v1</guid>
+      <pubDate>Tue, 27 Oct 2026 07:24:03 +0000</pubDate>
+      <description>The article is devoted to the construction of dimension-raising maps of cubes with the highest possible Holder exponent. In particular, a square-to-cube mapping with a Holder exponent of $2/3$ is constructed, which is a solution to the V.I.Arnold problem.</description>
+    </item>
+    <item>
       <title>A Pythagoras Tree Grown from a Dodecahedron</title>
       <link>http://arxiv.org/abs/2610.33975v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.33975v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.16697</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 -0000</pubDate>
       <description>We look at the problem of Ordered Front-To-Back Any-Hit Traversal (FTB); i.e., a traversal that iterates through successive hits along a ray in a guaranteed front to back-sorted order, and without skip- ping any intersections even if they occur at the same distance. We describe multiple different ways of solving this problem within the constraints of the existing ray tracing pipeline, and evaluate the different realizations.</description>
-    </item>
-    <item>
-      <title>Interactive Exploration of the Temporal $α$-Shape</title>
-      <link>https://arxiv.org/abs/2303.00878</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2303.00878</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 -0000</pubDate>
-      <description>Shape is a powerful tool to understand point sets. A formal notion of shape is given by $α$-shapes, which generalize the convex hull and provide adjustable level of detail. Many real-world point sets have an inherent temporal property as natural processes often happen over time, like lightning strikes during thunderstorms or moving animal swarms. To explore such point sets, where each point is associated with one timestamp, interactive applications may utilize $α$-shapes and allow the user to specify different time windows and $α$-values. We show how to compute the temporal $α$-shape $α_T$, a minimal description of all $α$-shapes over all time windows, in output-sensitive linear time. We also give complexity bounds on $|α_T|$. We use $α_T$ to interactively visualize $α$-shapes of user-specified time windows without having to constantly compute requested $α$-shapes. Experimental results suggest that our approach outperforms an existing approach by a factor of at least $\sim$52 and that the description we compute has reasonable size in practice. The basis for our algorithm is an existing algorithm which computes all Delaunay triangles over all time windows using $\mathcal{O}(1)$ time per triangle. Our approach generalizes to higher dimensions with the same runtime for fixed $d$.</description>
-    </item>
-    <item>
-      <title>A discrete wedge product on general polygonal meshes</title>
-      <link>https://arxiv.org/abs/2504.14275</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.14275</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 -0000</pubDate>
-      <description>Discrete exterior calculus offers a coordinate--free discretization of exterior calculus especially suited for computations on meshes over curved manifolds. The discretization of the wedge product, that would be compatible with discrete exterior derivative, has been a challenging task. The cup product of cochains is traditionally considered to be an appropriate discrete wedge product. However, only the case of pure triangle or pure quadrilateral surface meshes has been studied thoroughly. In this work, we extend this tradition to general polygonal meshes. Specifically, we present explicit formulas for calculation of a cup/discrete wedge product on surface meshes that correspond to 2--dimensional pseudomanifolds, whose 2--dimensional faces are any simple polygons. We rigorously prove that the proposed product satisfies the definition of an abstract cup product; notably, we show that the product is compatible with the discrete exterior derivative in the sense that it satisfies the Leibniz product rule. Furthermore, the product is associative on the cohomology level, but not on the cochain level in general. We analyze the lack of associativity on the cochain level and prove that the error tends to zero under refinement of the mesh. We thus argue that the proposed product is an appropriate discretization of the wedge product of differential forms on general polygonal meshes.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Re-Ordering the Generalized Hofstadter Functions G, H, and Beyond</title>
+      <link>http://arxiv.org/abs/2610.35994v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.35994v1</guid>
+      <pubDate>Mon, 26 Oct 2026 12:55:10 +0000</pubDate>
+      <description>Hofstadter's G function is recursively defined via G(0) = 0 and then G(n) = n-G(G(n -1)). Following Hofstadter, we vary the number k of nested recursive calls in this equation and obtain a family of functions (F\_k). In a previous article, we proved that this family is ordered pointwise: for all k and n, we have $F_k(n) $le$ F_{k+1}(n)$. Here we propose a much shorter proof of this theorem, without infinite morphic words. The key ingredient for this direct proof is a new formula expressing iterates of the preimages of $F_k$ . Thanks to this formula, we also prove several conjectures mentioned in our previous article. In particular we obtain that $F_k(n) &lt; F_{k+1}(n)$ when n &gt; (k + 1)(k + 6)/2. We provide a certified formalization of all these results in the Rocq proof assistant.</description>
+    </item>
+    <item>
       <title>Formal Grammars and Generating Functions: From Algebraic Structure to Non-Algebraic and Non-Derivable Series</title>
       <link>http://arxiv.org/abs/2610.33111v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.33111v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.19394</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 -0000</pubDate>
       <description>Hypergraphic automata are automata whose state sets and output symbol sets are hypergraphs invariant under the actions of the transition and output functions. Universally attracting objects in the category of such automata are called universal hypergraphic automata; their semigroups of input symbols are algebras of mappings whose properties are tightly linked to the algebraic structure of the automata themselves. This paper establishes a complete characterisation of epimorphisms of universal hypergraphic automata and of their semigroups of input symbols. A central contribution is the introduction of two distinct notions of epimorphism for hypergraphs including weak, strong and the proof that these notions diverge in general but necessarily coincide for the important subclass of $p^*$-hypergraphs, which includes automata whose state hypergraphs and output hypergraphs are projective or affine planes. The main results give necessary and sufficient conditions for a triple $(f, \mathbb{P}_s, g)$ to be an epimorphism of universal hypergraphic automata, expressed in terms of the component maps on the state and output hypergraphs.</description>
-    </item>
-    <item>
-      <title>Generalizing LCL Complexity Gaps to Unbounded Degree via Monadic Second-Order Properties</title>
-      <link>https://arxiv.org/abs/2606.10693</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.10693</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 -0000</pubDate>
-      <description>The last decade of research on the LOCAL model has seen tremendous progress in understanding locally checkable labeling (LCL) problems, culminating in an almost complete classification of the possible complexities LCL problems can exhibit. In particular, on undirected trees, Chang and Pettie showed that there is no LCL problem with complexity between $ω(\log n)$ and $n^{o(1)}$ and Chang showed that, for every positive integer $k$, there is no LCL problem with complexity between $ω(n^{1/(k+1)})$ and $o(n^{1/k})$; additionally, which side of each gap a problem is found on is decidable. While the class of LCL problems - which, roughly speaking, consists of problems for which the correctness of a solution can be described by a finite set of allowed node configurations, which in turn can be locally verified by a constant-time algorithm - includes many important problems, it has one major restriction: problems can be defined only on bounded degree graphs, which consequently restricts all the classification and gap results mentioned above. In this work, we propose a generalization of LCL problems to unbounded degree using Presburger monadic second-order (PMSO) formulas; more specifically, we consider what we call Local PMSO (LPMSO) problems, i.e., problems whose correct solutions are both finitely described by a PMSO formula and locally verifiable by a LOCAL algorithm in constant time - this class contains many of the important problems studied in the LOCAL model but defines them on unbounded degree graphs. As our main result we prove that, on unbounded degree rooted trees, the aforementioned $ω(\log n)$ - $n^{o(1)}$ and $ω(n^{1/(k+1)})$ - $o(n^{1/k})$ complexity gaps (and their decidability) extend to the class of LPMSO problems.</description>
     </item>
   </channel>
 </rss>

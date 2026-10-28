@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution</title>
+      <link>http://arxiv.org/abs/2610.37407v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37407v1</guid>
+      <pubDate>Tue, 27 Oct 2026 15:22:00 +0000</pubDate>
+      <description>Agentic Entity Resolution (ER) systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent confirmation. This paper proposes a Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI)-informed authorization boundary between evidence available for agent reasoning and evidence eligible to authorize persistent identity-changing mutations. A domain-governed constraint-binding function maps selected reconstruction-failure distinctions to explicit identity-preserving constraints. An abstract two-phase supervisor permits a commit only when claim-specific authorization-eligible evidence supports every required proposition, relevant conflicts are resolved, the operation remains within its authorized scope, and relevant state and policy versions remain valid. Admission as UNVERIFIED does not confer authorization eligibility. Separate claim-specific promotion governs evidentiary use; insufficient support or unresolved material conflict leads to deferral. The contribution is a specification connecting diagnostic-to-constraint mapping, evidence promotion, proposition coverage, conflict handling, scope binding, and commit-time version integrity. A proposed evaluation protocol is designed to assess the mapping's incremental value beyond generic authorization and conventional identifier rules. This is a conceptual architecture without implementation or empirical validation, not a theorem of semantic correctness. Its property depends on domain-policy adequacy, evidence promotion, and enforcement. It does not prevent erroneous hypotheses or hypothesis-conditioned retrieval; dependency-aware evidence flow remains future research.</description>
+    </item>
+    <item>
       <title>Recovering Business Rules as Cascade Lookups for Enterprise Field Prediction</title>
       <link>http://arxiv.org/abs/2610.34258v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.34258v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.02488</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
       <description>Several applications demand the timely detection of critical situations, such as threats to safety and transparency, over high-velocity streams of symbolic events. This demand has motivated the development of (i) event specification languages, which define composite events via temporal patterns over simpler events, and (ii) stream reasoning frameworks, evaluating patterns expressed in these languages. However, event specification languages are typically studied in isolation, complicating their comparison in terms of expressivity and obscuring the scope of their associated stream reasoners. To mitigate this issue, we map practical fragments of prominent event specification languages into Temporal Datalog-&gt;-, a temporal Datalog with stratified negation and no future dependencies. To support efficient stream reasoning over Temporal Datalog-&gt;-, we propose Streaming Trigger Graphs, an extension of a state-of-the-art technique for Datalog materialisation. Our approach yields a uniform composite event recognition mechanism that has the potential to generalise across a wide range of practical event specification languages.</description>
-    </item>
-    <item>
-      <title>Extending the (Elementary) Mathematical Data Model and MatBase with two new constraint types: inexistence and anti-existence</title>
-      <link>https://arxiv.org/abs/2605.24021</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.24021</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 -0000</pubDate>
-      <description>This research paper introduces two new constraint types and four subtypes of database constraints added to our (Elementary) Mathematical Data Model, which are the duals of the existence and non-existence ones. They are formally defined, characterized, and exemplified with real-life instances. The well-formedness, satisfiability, coherence, and minimality of sets of all 7 subtypes of existence constraints are studied. Corresponding SQL-embedded pseudocode algorithms for managing such sets are provided and proved to be of constant complexity, sound, complete, and optimal. Also provided are algorithms for enforcing these new types of constraints, called inexistence and anti-existence. Their characterization proves that they have linear complexity in the sum of the arities of the function (Cartesian product)s involved, and are sound, complete, and optimal as well. All these algorithms were implemented in both versions of our intelligent data and knowledge base management system prototype MatBase, which automatically generates code for enforcing all the 7 subtypes of existence constraints.</description>
     </item>
   </channel>
 </rss>

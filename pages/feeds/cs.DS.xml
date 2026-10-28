@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Approximate Counting for Mixed $p$-Spin Glasses in Weak External Fields via Cluster Expansion</title>
+      <link>http://arxiv.org/abs/2610.37630v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37630v1</guid>
+      <pubDate>Tue, 27 Oct 2026 17:51:50 +0000</pubDate>
+      <description>We give algorithms for approximating the partition function $Z_N$ of the Sherrington--Kirkpatrick (SK) model and finite mixed Ising $p$-spin models with $p\ge 3$. The algorithms apply at a fixed margin below the second-moment threshold $β_{\mathrm f}$ with homogeneous weak external fields $|h|\leqρ_0N^{-1/4}$, for fixed $ρ_0&gt;0$. For any accuracy $\varepsilon\in(0,1)$ and failure parameter $δ\in(0,1)$, they approximate $\log Z_N$ to additive error $\varepsilon$. The number of exact operations is polynomial jointly in $N$, $\varepsilon^{-1}$, and $δ^{-1}$. The disorder variables have i.i.d symmetric distribution with unit variance. The failure probability is at most $δ$ plus an explicit disorder tail bound. This tail bound tends to zero under a finite fourth moment condition. Our approach builds on the cluster expansions of Aizenman--Lebowitz--Ruelle~\cite{ALR87} and Dey--Wu~\cites{DW23,DW26}. For higher-order mixtures, we retain hypergraphs using few vertices and evaluate their total weight deterministically through local spin averages and inclusion--exclusion. For SK, we impose cutoffs on the number of vertices of degree at least three and on the total number of edges. We estimate the retained sum using randomized color coding~\cite{AYZ95}. A lower tail control based on reverse hypercontractivity~\cite{MOS13} converts the mean-square approximation of the normalized partition function into logarithmic accuracy.</description>
+    </item>
+    <item>
+      <title>Online Interval Selection with Binary Predictions: Optimal Consistency and a Continuous Robustness Tradeoff</title>
+      <link>http://arxiv.org/abs/2610.37361v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37361v1</guid>
+      <pubDate>Tue, 27 Oct 2026 14:56:43 +0000</pubDate>
+      <description>We study online interval selection with binary predictions of membership in a final optimal solution. Requests arrive in arbitrary order; accepted requests may be revoked, but rejected or revoked requests cannot be recovered. With rewards proportional to interval length, the best consistency under finite strict robustness is $d=(3+\sqrt5)/2$ when both guarantees hold almost surely on each fixed input, including for randomized algorithms. A continuous lower bound forces consistency strictly above $d$ at every robustness budget below $4\varphi+3\approx9.472$, whereas our deterministic algorithm attains $d$ with exact robustness $\varphi^5\approx11.090$, where $\varphi=(1+\sqrt5)/2$. Each held interval inherits a ledger recording positive prediction mass lost through irrevocable decisions. A tunable replacement cost gives a continuous family with exact consistency throughout and exact robustness on two parameter intervals, including $(C,R)=(25/9,10)$ and $(4,7)$. Randomization permits expected consistency approaching one with finite expected robustness, whereas almost-sure robustness forces expected consistency strictly above two at every finite budget.</description>
+    </item>
+    <item>
+      <title>Tight Bounds for Randomized Generalized $k$-Server on Uniform Metrics</title>
+      <link>http://arxiv.org/abs/2610.37192v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37192v1</guid>
+      <pubDate>Tue, 27 Oct 2026 13:12:58 +0000</pubDate>
+      <description>In the generalized $k$-server problem, each of $k$ servers moves in its own metric space, and a request $(r_1,\dots,r_k)$ is served once some server $i$ stands at the point $r_i$ of its space. We determine the randomized competitive ratio against an oblivious adversary when every space is a uniform metric. With unit distances the ratio is $Θ(k\log k)$: we give a $(k+1)\ln(2k)$-competitive algorithm and show that for large $k$ every algorithm has ratio at least $\frac{1}{20}k\ln k$, improving the bounds $O(k^2\log k)$ and $Ω(k)$ of Bienkowski, Jeż, and Schmidt. When server $i$ pays $w_i$ per move, the ratio is $\exp(Θ(k))$: we give a $20^k$-competitive algorithm, which also applies to weighted $k$-server on uniform metrics. This improves the $\exp(O(k^2))$ bound of Bijoy, Mondal, and Chiplunkar and matches the $Ω(2^k)$ lower bound of Ayyadevara and Chiplunkar up to the base of the exponent. Both algorithms follow normalized weights exactly, through couplings whose expected movement is controlled by the decrease of the logarithm of the total weight. The lower bound hides a random permutation among the solutions of random permutation constraints, which split into small, well-separated components, and then forbids one position to one server at a time.</description>
+    </item>
+    <item>
+      <title>Polynomial-Time Solvability of the Mixed Evacuation Problem</title>
+      <link>http://arxiv.org/abs/2610.37065v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37065v1</guid>
+      <pubDate>Tue, 27 Oct 2026 11:32:50 +0000</pubDate>
+      <description>The mixed evacuation problem is a variant of the dynamic transshipment problem where there exist two modes of transportation and we allocate supplies to each mode of transportation in such a way that we can send all the supplies from sources to sinks within a given time limit. It is known that this problem can be solved in polynomial time when the number of sources and sinks is small. In this paper, we prove that the mixed evacuation problem can be solved in polynomial time with the ellipsoid method.</description>
+    </item>
+    <item>
+      <title>Linear-Time FPT Rectilinear Planarity Testing of Series-Parallel Graphs</title>
+      <link>http://arxiv.org/abs/2610.37018v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37018v1</guid>
+      <pubDate>Tue, 27 Oct 2026 10:55:12 +0000</pubDate>
+      <description>A planar graph is rectilinear planar if it admits a planar orthogonal drawing without bends. For series-parallel graphs in the variable embedding setting the best known testing algorithm takes $O(n^2)$ time. We show that rectilinear planarity of a series-parallel graph with maximum degree four can be tested in $2^{O(k)}\cdot n$ time, where $k$ is the number of degree-4 vertices; the planar embedding is not fixed. In particular, the running time is subquadratic when $k=o(\log n)$. Each node of the SPQ$^*$-tree stores the set of its admissible spiralities; we show that this set is a union of $2^{O(k)}$ arithmetic progressions of step two. All proofs are in the paper and are additionally verified in Lean 4 with Mathlib.</description>
+    </item>
+    <item>
       <title>Tiny Suffix Arrays</title>
       <link>http://arxiv.org/abs/2610.35543v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.35543v1</guid>
@@ -668,41 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.04520v1</guid>
       <pubDate>Sat, 03 Oct 2026 13:34:45 +0000</pubDate>
       <description>A collage system is a grammar-based compression model that extends straight-line programs with repetition and substring truncation. Internal collage systems additionally require every nonterminal to be structurally reachable from the start symbol. Migita, Uehata, and I (CPM 2026) showed that any collage system of size $m$ can be converted into an internal one generating the same string with size at most $9m$, and left the improvement of this constant as an open problem. We show that a simple refinement of their top-down conversion reduces the bound to $5m$. The proof combines three elementary ideas: canonicalization of generated truncations that remain aligned with a target endpoint; a repetition decomposition that absorbs every complete copy of the repetition base into a maximal core; and monotonicity of structural reachability, which prevents an input truncation rule from both becoming structurally reachable and later acting as a hidden target at which endpoint alignment is lost. The conversion runs in deterministic $O(m^2)$ worst-case time in the stated unit-cost random-access machine model. Consequently, for every string, the minimum size of an internal collage system is at most five times the minimum size of a general collage system.</description>
-    </item>
-    <item>
-      <title>Exact Optimal Transport by Matching</title>
-      <link>http://arxiv.org/abs/2610.04085v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.04085v1</guid>
-      <pubDate>Fri, 02 Oct 2026 21:46:52 +0000</pubDate>
-      <description>Balanced discrete optimal transport between n sources and n targets of unit mass is exactly the minimum-cost assignment problem-a bipartite perfect matching-and is therefore solvable exactly by industrial matching engines in milliseconds to seconds. We ask when the exact approach beats the standard approximate alternatives, entropic Sinkhorn and its accelerated variant Greenkhorn, and make the sparse-exact side certified by a textbook LP dual-feasibility clip. Three contributions. (i) Measurement: on dense 2-D instances, exact matching (Jonker-Volgenant) is faster and strictly more accurate than either approximate method throughout the moderate-n regime (0.01 s at n=500 to 11.5 s at n=8000); reaching a 1% quality target on the same hardware requires roughly 10-80 min for Greenkhorn (factors 4e2-6e4 over exact; plain Sinkhorn is 20-650x slower still), a rough power-law projection beyond the measured range. Greenkhorn's measured speedup over plain Sinkhorn is only 1.0-1.5x on most converged cells. (ii) A simple kNN-pool gap certificate: given a pool matching and its Blossom dual, a one-pass O(n^2) clip produces a dense-feasible lower bound; combined with the Sinkhorn dual potential (valid at every iterate, not just at convergence), the bound is valid on all 45 measured configurations and tightens monotonically with k. (iii) A multi-robot task-allocation sanity check where the discrete plan is the deliverable: per-round exact assignment costs 0.1-68 ms, while a Sinkhorn-plus-hardening pipeline costs 0.12-15.9 s and accumulates 6-27% extra travel over 15 rounds. The Sinkhorn family's large-n dense regime is acknowledged and left untouched. Code, data, and results under MIT: https://github.com/dimkadimon/OT-Blossom.</description>
-    </item>
-    <item>
-      <title>Geometry-Dependent Approximation for Non-Monotone $k$-Submodular Maximization</title>
-      <link>http://arxiv.org/abs/2610.04049v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.04049v1</guid>
-      <pubDate>Fri, 02 Oct 2026 20:52:38 +0000</pubDate>
-      <description>We study nonnegative, non-monotone $k$-submodular maximization with $k\ge2$ labels under support constraints, and show how the certified approximation coefficient improves as the support region permits more uniform selection. For a compact convex down-closed support region $P\subseteq[0,1]^n$, the diagonal level $ζ(P)=\max\{t\in[0,1]:t {\bf 1} \in P\}$ ranges from $ζ=0$, which carries no geometric promise, to $ζ=1$, which is unrestricted support. Our main structural result is a comparator-uniform linearization of the multilinear extension, built from an objective-independent action and a comparator-independent update field. For $k\ge3$, its validity reduces, independently of the number of elements, to four polynomial inequalities of degree at most three in one or two variables, only one of which depends on $k$. Explicit parameter choices give a nondecreasing certified profile $\underlineα_k(ζ)$, in closed form on all of $[0,1]$ when $k=2$. At $ζ=0$ we certify $0.4456\ldots$ for $k=2$ and $0.4541\ldots$ for every $k\ge3$, improving the recent $\sqrt2-1$ guarantee for one matroid or one knapsack, as well as the $1/3$-type guarantees for a fixed number of budgets; at $ζ=1$ we certify $1/2$ for $k=2$, $(\sqrt{17}-3)/2$ for $k=3,4$, and $k/(2k-1)$ for $k\ge5$, whose excess over $1/2$ is of order $1/k$ rather than the previous $1/k^2$. Value-retaining rounding transfers these guarantees to matroid and knapsack constraints, and the same field yields $O(\sqrt T)$ approximate regret online under gradient or post-decision value feedback.</description>
-    </item>
-    <item>
-      <title>Network Speed Scaling with Competitive Ratios Independent of the Network</title>
-      <link>http://arxiv.org/abs/2610.03848v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.03848v1</guid>
-      <pubDate>Fri, 02 Oct 2026 16:47:16 +0000</pubDate>
-      <description>In network speed scaling, jobs arrive over time at a network of servers whose speeds can be tuned, every job must be processed by the servers along one of its allowed routes, and the goal is to minimize the total flow time plus the total energy. For stochastic arrivals, the competitive ratio of Vaze and Nair depends on the network, through the lengths of the routes it uses. We show that this dependence can be removed: we give an algorithm, which routes the jobs by solving a convex program and runs every server at a fixed speed, whose competitive ratio depends only on the power functions; for $P(s)=s^2$, it is at most the golden ratio $\varphi\approx1.618$. The key idea is a lower bound on the optimal cost which, like the cost of our algorithm, is a sum over the servers of a function of each server's load, so the analysis reduces to a single server. We also show that the routing rule of Vaze and Nair can be a factor $Ω(L)$ away from optimal, where $L$ is the length of the longest route.</description>
-    </item>
-    <item>
-      <title>Monge matrix searching for lot sizing with piecewise-concave production costs</title>
-      <link>http://arxiv.org/abs/2610.03277v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.03277v1</guid>
-      <pubDate>Fri, 02 Oct 2026 13:20:15 +0000</pubDate>
-      <description>We study single-item lot sizing with piecewise-concave production and holding--backlog costs over $T$ periods. Production has $m$ common positive finite breakpoints, and stock costs and domains have $K$ common finite boundary levels. For fixed $m,K$, we give an exact deterministic algorithm using $\OmK(T^{m+2}α(T+2))$ arithmetic operations and a Las Vegas algorithm using $\OmK(T^{m+2})$ expected operations, where $α$ is the inverse Ackermann function. The algorithms retain nonlinear concave cost pieces and cover backlogging, common-grid stock limits, and explicit terminal-stock policies. A structural decomposition at stock boundary levels yields breakpoint-only prefix and suffix tables. Batching transitions by a designated production period produces implicit matrices that are Monge double staircases on each production piece. Established matrix searches, merged state orders, and backward evaluation provide the bounds. A simpler rectangle/SMAWK variant requires $\OmK(T^{m+2}\log(T+2))$ operations. On 300 no-backlogging benchmark cases, its objectives agree exactly with the predecessor dynamic program and an inventory-state oracle. Geometric-mean paired time ratios are \GeoUncap\ for uncapacitated cases and \GeoCap\ for capacitated cases, with ratios above one favoring matrix searching. A 640-case base-model validation suite and a separate 624-case generalized-model suite pass. The timing study does not benchmark the generalized models or the stronger staircase routines. All bounds assume exact arithmetic, constant-time cost queries, and explicit closed-domain concavity conditions.</description>
-    </item>
-    <item>
-      <title>Simple analysis of an algorithm for multiple-source shortest paths in planar graphs</title>
-      <link>http://arxiv.org/abs/2610.02371v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.02371v1</guid>
-      <pubDate>Thu, 01 Oct 2026 18:48:53 +0000</pubDate>
-      <description>This paper addresses the following problem: given a planar embedding graph, compute a representation of the shortest-path trees rooted at all the boundary nodes of the graph. Klein gave an $O(n \log n)$ algorithm for this problem; the algorithm subsequently became an essential ingredient in dozens of algorithms, addressing problems ranging from distance oracles to edit distance. However, the correctness and analysis in that original paper is complicated and messy and hard to understand. In this paper, we give a simple and clear analysis.</description>
     </item>
   </channel>
 </rss>

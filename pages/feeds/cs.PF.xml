@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>DeepInfer-Mac: Running a 750B-Class MoE on a 24 GB Laptop</title>
+      <link>http://arxiv.org/abs/2610.36564v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.36564v1</guid>
+      <pubDate>Tue, 27 Oct 2026 03:14:07 +0000</pubDate>
+      <description>DeepInfer-Mac runs the 750B-class DeepSeek-V4.1-Flash model on a MacBook Air with 24 GB of unified memory. A mixed low-bit conversion occupies 338 GiB on the internal SSD. About 7.6 GiB of weights remain resident; routed experts and Engram rows are loaded when needed. This separation makes the model executable, but it leaves each generated token waiting for a succession of storage reads. We organize expert weights so that reads fill reusable GPU buffers directly, and couple cache allocation with the lifetime of those buffers. In end-to-end runs, the system generates English, Chinese and code at 0.21-0.72 tokens per second, with a largest sampled process footprint of 16.73 GiB across the tested requests. Matched decode comparisons show a 21.0% throughput gain from next-layer prefetching over resident-expert overlap alone, at the cost of additional reads. Longer prompts remain costly. We describe the design, provide the implementation and measurement scripts, and identify the limits of this operating point: a model far larger than memory can run locally, while storage and prefill still govern the user's wait.</description>
+    </item>
+    <item>
       <title>Speculative Decoding for Mixture-of-Experts Models: Expert Bytes, Kernel Bandwidth and the Best Draft Length</title>
       <link>http://arxiv.org/abs/2610.34440v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.34440v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.24616</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
       <description>Tokens have become the practical accounting unit for modern foundation model services, linking information processing, computation, memory use, energy expenditure, pricing, and economic value. This paper develops a framework for AI tokenomics: the study of how tokens are generated, consumed, priced, allocated, and optimized across AI systems. We connect token-level technical costs to workflow-level production functions, enterprise resource allocation, measurement and instrumentation methods, and emerging market-design questions. The framework shows that token expenditure and economic value are distinct: value depends on marginal productivity, workflow position, hidden reasoning activity, risk, and downstream propagation effects. The paper concludes by identifying open research directions in hidden-token measurement, empirical calibration, token productivity, dynamic allocation, and token-based markets.</description>
-    </item>
-    <item>
-      <title>The Brain That Goes Quiet: Serving a Large Model's Knowledge at 131 Tokens per Second on an 8 GB Laptop by Removing the Large Model from the Runtime Path</title>
-      <link>https://arxiv.org/abs/2606.12154</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.12154</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
-      <description>In earlier work I showed that a 35B-class Mixture-of-Experts model can be loaded and executed on a consumer laptop with 8 GB of GPU memory. That result solved a placement problem and immediately exposed a different one: even correctly placed, the large model needed roughly four seconds to answer, because it was still being invoked at every query. This paper documents what happened when I stopped invoking it. During an offline phase, the large model reads source documents and writes verified answer entries into a structured knowledge store; at runtime, only a lightweight router, a deterministic renderer, and a 1B-class model are active. On the same 8 GB laptop, end-to-end response time fell from approximately 4,465 ms to 518 ms, effective end-to-end throughput rose from 15.7 to 131 tokens per second, and the small model's streaming decode rate held at 226-237 tokens per second with a time-to-first-token of 29-62 ms. The bottleneck is structural: three different large models (Qwen, Gemma, and GLM class) all showed the same multi-second runtime cost, and all three produced usable knowledge stores offline. On a 563-entry store built from seventeen real documents, keyword routing collapsed to 1.5% top-1 accuracy while BM25-based routing reached 92.8% (99.4% top-3), and a confidence gate raised effective top-1 to 98.0% by escalating 12.3% of queries. Exact-match fidelity of the small model ranged from 9/9 to 0/9 across envelope formats carrying identical content. A 16-case verification gate blocked all ten corrupted entries while admitting all six supported ones.</description>
     </item>
   </channel>
 </rss>

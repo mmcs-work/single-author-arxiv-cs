@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Game-Theoretic Solvers with Bayesian Opponent Modeling and Moral Rhetoric Framing for GLEE</title>
+      <link>http://arxiv.org/abs/2610.37397v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.37397v1</guid>
+      <pubDate>Tue, 27 Oct 2026 15:17:04 +0000</pubDate>
+      <description>We describe the agent we submitted to the GLEE Competition, which plays bargaining, negotiation, and persuasion games against a shared pool of human and AI opponents. The agent is built around three central components: a classical game-theoretic solver to compute numeric moves, an online Bayesian layer to estimate opponent archetypes, and a language model to write accompanying messages. We utilize Rubinstein bargaining for bargaining, Faratin concession for negotiation, and Kamenica--Gentzkow disclosure for persuasion, and adapt those models to live opponents using two separate layers: a Bayesian estimate of the opponent's hidden discount factor, reservation value, or signaling reliability, and a Thompson sampling bandit over five moral-foundation framings coupled with an evidence-intuition spectrum to establish message register. Most of the development effort went into the recurring problem that theoretically optimal policies perform poorly in certain live settings; we report associated failure modes, guardrails we built, and our hypotheses. We additionally evaluate our model over 13,200 Monte Carlo games against 11 synthetic opponent archetypes, an ablation of the opponent-modeling layer, and an extensive analysis of 9,337 live-game messages in which moral rhetoric framing in the persuasion setting is strongly correlated with whether the buyer purchased ($χ^2=616.7$, $p \approx 3.7\times10^{-132}$), surviving controls for quality, round, and configuration.</description>
+    </item>
+    <item>
+      <title>Optimality and Impossibility in Multidimensional Strategyproof Facility Location</title>
+      <link>http://arxiv.org/abs/2610.36613v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.36613v1</guid>
+      <pubDate>Tue, 27 Oct 2026 04:17:39 +0000</pubDate>
+      <description>We study facility location in multidimensional normed spaces with the objective of minimizing social cost, the sum of agents' distances to their nearest facility. A deterministic mechanism selects $k$ facility locations based on the reports of $n$ agents and is strategyproof (SP) if no agent can reduce her distance by misreporting her location. We establish optimal approximation ratios and impossibility results. For a single facility in the Euclidean plane, we prove that the optimal approximation ratios among deterministic SP mechanisms are exactly those obtained by Goel and Hann-Caruthers [SCW 2023] for the coordinate-wise median (CM): $\frac{\sqrt{2(n^2+1)}}{n+1}$ for odd $n\ge3$ and $\sqrt{2}$ for even $n\ge4$. We remove the anonymity assumption from their optimality result. However, CM is not always optimal in non-Euclidean spaces: we give an SP mechanism that minimizes social cost exactly in $\ell_\infty^d$, whereas CM has a tight uniform approximation ratio of $2$ already in the plane. We then consider two facilities in $\ell_p$ spaces with $1&lt;p&lt;\infty$ and prove two impossibility results for every $n&gt;2$. In the plane, no deterministic SP mechanism has a finite approximation ratio. In higher dimensions, the same impossibility holds for anonymous deterministic SP mechanisms. Finally, a reduction using distant agents and a limiting argument extends both impossibility results to every $k&gt;2$ with $n&gt;k$.</description>
+    </item>
+    <item>
       <title>Envy-Free Allocations for Random Non-Additive Valuations</title>
       <link>http://arxiv.org/abs/2610.34434v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.34434v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.04497v1</guid>
       <pubDate>Thu, 03 Sep 2026 21:30:44 +0000</pubDate>
       <description>Core stability gives approval-based committee elections a strong form of coalitional proportionality, but deterministic existence is not known for an arbitrary number of seats. We prove that every finite election with nine seats has a deterministic Hare-quota core committee. Starting from an eight-seat committee that is both a global Proportional Approval Voting (PAV) maximizer and core stable, we suppose that all one-candidate extensions are blocked and extract an inclusion-minimal closed response system. Singleton responses are eliminated by exact equality rigidity. For the remaining responses, rational Farkas certificates bound every nonpositive PAV add-marginal drift below by $-n/189$ and force every successor drift above $n/126$. The uniform response chain is irreducible, so stationarity makes these bounds incompatible. The computer-assisted component comprises an exact pointwise check over 7,356 voter types, 36 one-blocker cells, and a symmetry-complete family of 19 two-blocker motifs. Exact certificate archives and standard-library verifiers support these checks. The theorem settles the nine-seat case but does not decide deterministic core existence for arbitrary committee size.</description>
-    </item>
-    <item>
-      <title>Game-Theoretic Drone Swarm Defense: A Case Study in Applied Differential Game Theory</title>
-      <link>http://arxiv.org/abs/2609.04394v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.04394v1</guid>
-      <pubDate>Thu, 03 Sep 2026 19:04:35 +0000</pubDate>
-      <description>This technical report is a study of the use of differential game (DG) theory to solve the target-assignment and midcourse guidance problems of drone swarms tasked with intercepting opposing swarms in defense of high-value assets. The game-theoretic tactics---which treat the intruder swarm as a rational agent and seek a Nash equilibrium between defenders and intruders---are compared against baseline tactics that model the defense problem as a unilateral optimization of the defenders' maneuvers. Monte Carlo simulation and Bayesian analysis show that the game-theoretic approach has a higher probability of successfully intercepting all intruders than the baseline techniques. This improvement in successful defense probability is most pronounced when the intruder swarm is capable of evasive maneuvers: relative to baseline optimization tactics, differential-game tactics increase estimated defense success from 94.6% to 96.8%, closing approximately 41% of the remaining gap to perfect defense. To add statistical credibility to this result, a paired-trial Bayesian analysis assigns a 99.9% posterior probability that differential-game tactics have a higher probability of successful asset defense than baseline tactics in this scenario.</description>
-    </item>
-    <item>
-      <title>When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection</title>
-      <link>http://arxiv.org/abs/2609.01814v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.01814v1</guid>
-      <pubDate>Tue, 01 Sep 2026 19:41:30 +0000</pubDate>
-      <description>Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person accuracy can coexist with different portfolio values. Under a registered incremental-sharing protocol, a sharing step improves discovery exactly when pooled residual error contracts faster than an independent rescue attempt. Exact bounded registries exhibit compression, aggregation, neutral curves, and a bounded zero mixed class. In a two-agent Bayesian game with a hidden mixture of common and independent signal sources, the registered selected equilibrium yields a strict positive sharing interval at signal accuracy 3/5, while alternative equilibria show that the result is selection-dependent rather than universal. The models are synthetic and finite; no human or organizational data are used.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Barik transform and Barik eliminant: a novel algebraic method to solve polynomial equations in the sine and cosine of one variable</title>
+      <link>http://arxiv.org/abs/2610.36985v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.36985v1</guid>
+      <pubDate>Tue, 27 Oct 2026 10:35:38 +0000</pubDate>
+      <description>Systems of trigonometric equations appear frequently in problems related to geometry, kinematics, computer graphics, robotics, and astronomy, among many other fields. Most often these are first converted to algebraic equations via the ``tangent half-angle'' substitution and solved subsequently using various algebraic methods, such as computation of resultants. In the process, parametric singularities are introduced in the equations, and their degrees are also doubled. In this article, a novel concept call the ``Barik transform'' is introduced, which can help solve such a system without encumbering these issues, albeit only in systems that contain {\em at least} one equation of the first degree in the sine and cosine of the variable to be eliminated. It is shown how Barik transform can produce extremely compact eliminants in the closed form, without resorting to any resultant computation.</description>
+    </item>
+    <item>
+      <title>Automatic Certified Differentiation in Lean</title>
+      <link>http://arxiv.org/abs/2610.36396v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.36396v1</guid>
+      <pubDate>Mon, 26 Oct 2026 23:21:21 +0000</pubDate>
+      <description>Automatic differentiation (the automatic computation of numerical function derivatives) has many applications, especially in scientific computing and machine learning. Several approaches to automate the calculation of derivatives have been presented. Common challenges facing those approaches include (1) having to define derivative rules for different classes of functions, (2) having to manipulate program symbols to understand the semantics of the function being differentiated, and construct the derivative function, and (3), more importantly, ensuring that the calculated derivative is correct. In this paper, we present an approach for automatic \emph{certified} differentiation using the Lean proof assistant. By certified, we mean a correctness certificate is computed together with the derivative function and a domain on which the derivative is guaranteed to be valid. Our approach leverages existing derivative theorems included in the Mathlib Lean library instead of having to define our own rules. We also utilize Lean metaprogramming to manipulate the symbolic structure of the input function, and to construct the derivative function. The correctness certificate is computed step-wise as we apply Mathlib theorems. To make the search efficient, we index the derivative theorems by the function they differentiate. We evaluate our approach on 500 randomly generated functions: with the index, all of them are differentiated, with a median time of 0.18\,s per function, 8.6 times faster than without the index.</description>
+    </item>
+    <item>
       <title>Deterministic Root-Finding over Finite Fields with Elliptic Curves</title>
       <link>http://arxiv.org/abs/2610.32508v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.32508v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.01355</guid>
       <pubDate>Mon, 01 Dec 2025 00:00:00 -0000</pubDate>
       <description>We establish the first complexity analysis for Krawczyk-based certified homotopy tracking. It consists of explicit a priori stepsize bounds ensuring the success of the Krawczyk test, and an iteration count bound proportional to the weighted length of the solution path. Our a priori bounds reduce the overhead of interval arithmetic, resulting in fewer iterations than previous methods. Experiments using a proof-of-concept implementation validate the results.</description>
-    </item>
-    <item>
-      <title>Fast Matrix Multiplication via Ternary Meta Flip Graphs</title>
-      <link>https://arxiv.org/abs/2511.20317</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.20317</guid>
-      <pubDate>Sat, 29 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Matrix multiplication optimization remains a fundamental challenge in computational mathematics. This work introduces a novel approach that discovers matrix multiplication schemes whose coefficients are restricted to the set $\{-1, 0, 1\}$ (denoted $Z_T$), minimizing naive additive complexity for efficient hardware implementation. The core of the method is a GPU-accelerated meta flip graph algorithm that maintains ternary safety through specialized arithmetic operations and sign symmetry breaking. Key results include new best ranks for the formats $4 \times 5 \times 12$, $5 \times 6 \times 10$, and $6 \times 7 \times 9$, the independent discovery of 32 schemes in $Z_T$ that match known optimal ranks (including 8 previously known only with rational coefficients), and 30 rank improvements in the binary field. The analysis of 164 known schemes shows that 92 admit a ternary-coefficient implementation, while 72 could not be found under this constraint, defining the current boundaries of the approach. All software, results, and discovered schemes are provided as open-source.</description>
-    </item>
-    <item>
-      <title>Decomposition and Preprocessing of Ternary Constraint Networks</title>
-      <link>https://arxiv.org/abs/2511.11872</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.11872</guid>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Constraint programming is a general and exact method based on constraint propagation and backtracking search. We provide a function decomposing a constraint network into a ternary constraint network (TCN) with a reduced number of operators. TCNs are not new and have been used since the inception of constraint programming, notably in constraint logic programming systems. This work aims to specify formally the decomposition function of discrete constraint network into TCN and its preprocessing. We aim to be self-contained and descriptive enough to serve as the basis of an implementation. Our primary usage of TCN is to obtain a regular data layout of constraints to efficiently execute propagators on graphics processing unit (GPU) hardware.</description>
     </item>
   </channel>
 </rss>

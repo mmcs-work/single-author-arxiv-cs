@@ -12,6 +12,13 @@
       <description>Let $(T, \circ)$ be a loop of order $k \geq 3$ and $D_S^*$ the loopless central digraph obtained from the associated central digraph $D_S$ by removing the $k$ self-loops at the diagonal vertices. We construct an explicit arc-labeling $f$ of $D_S^*$ ordering all arcs lexicographically by $(\text{tail}, \text{head})$ and assigning labels $1, \ldots, m$ in that order and prove that $f$ is an antimagic labeling. Consequently, $D_S$ is antimagic for every loop of order $k \geq 3$, a property that depends only on $k$ and is invariant across all non-isomorphic loops of the same order.</description>
     </item>
     <item>
+      <title>Re-Ordering the Generalized Hofstadter Functions G, H, and Beyond</title>
+      <link>http://arxiv.org/abs/2610.35994v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.35994v1</guid>
+      <pubDate>Mon, 26 Oct 2026 12:55:10 +0000</pubDate>
+      <description>Hofstadter's G function is recursively defined via G(0) = 0 and then G(n) = n-G(G(n -1)). Following Hofstadter, we vary the number k of nested recursive calls in this equation and obtain a family of functions (F\_k). In a previous article, we proved that this family is ordered pointwise: for all k and n, we have $F_k(n) $le$ F_{k+1}(n)$. Here we propose a much shorter proof of this theorem, without infinite morphic words. The key ingredient for this direct proof is a new formula expressing iterates of the preimages of $F_k$ . Thanks to this formula, we also prove several conjectures mentioned in our previous article. In particular we obtain that $F_k(n) &lt; F_{k+1}(n)$ when n &gt; (k + 1)(k + 6)/2. We provide a certified formalization of all these results in the Rocq proof assistant.</description>
+    </item>
+    <item>
       <title>Admissible sets of integers in imaginary quadratic fields of class number 1</title>
       <link>http://arxiv.org/abs/2610.34556v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.34556v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.30580v1</guid>
       <pubDate>Mon, 31 Aug 2026 10:53:52 +0000</pubDate>
       <description>Every fixed first-order sentence $\varphi$ determines an enumerative sequence $n\mapsto\mathrm{FOMC}(\varphi,n)$, counting its models on the labeled domain $[n]$. We study the complexity of these sequences when logical specifications may use genuine unary function symbols and hence nested terms $x,f(x),f^2(x),\ldots$. We first prove that, for every fixed sentence $\varphi\in\mathrm{C}^1_{=}[f]$, with one unary function and an arbitrary finite relational vocabulary, $\mathrm{FOMC}(\varphi,n)$ is computable in time polynomial in $n$. By contrast, permitting either a second variable or a second unary function already yields hardness. Without counting quantifiers, there is a fixed sentence in $\mathrm{FO}^2_{=}[f]$ whose model-counting function is $\#\mathrm{P}_1$-complete. With one variable and two unary functions, there is a fixed constant-free universal sentence in $\mathrm{FO}^1_{=}[f,g]$, using only unary predicates besides $f$ and $g$, whose model-counting function is again $\#\mathrm{P}_1$-complete. We also relate labeled and unlabeled enumeration exactly. For every relational sentence $\varphi$, we construct an extension $\varphi_{\mathrm{aut}}$ in which a unary function records an automorphism and $\mathrm{FOMC}(\varphi_{\mathrm{aut}},n)=n!\cdot\mathrm{UFOMC}(\varphi,n)$, where $\mathrm{UFOMC}(\varphi,n)$ denotes the number of $n$-element models of $\varphi$ up to isomorphism. Thus automorphism marking gives a one-query exact reduction from unlabeled to labeled model counting at the same domain size. Over relational vocabularies of maximum arity at most $k$, where $k\geq2$, eliminating the auxiliary function yields single-query reductions from unlabeled $\mathrm{FO}^k_{=}$ and $\mathrm{C}^k$ model counting to labeled $\mathrm{FO}^{k+1}_{=}$ and $\mathrm{C}^{k+1}$ model counting, respectively.</description>
-    </item>
-    <item>
-      <title>An Improved Bound for Smith's Longest Cycles Conjecture via a Forbidden Subdivision</title>
-      <link>http://arxiv.org/abs/2608.30353v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.30353v1</guid>
-      <pubDate>Mon, 31 Aug 2026 07:09:24 +0000</pubDate>
-      <description>Smith's conjecture asserts that in every $k$-connected graph with $k\geq 2$, any two longest cycles intersect in at least $k$ vertices. In this work, we establish an $Ω(k^{8/11})$ bound for this conjecture, improving upon the $Ω(k^{2/3})$ bound of Ma and Zhao. Our proof combines a Ramsey theoretic refinement of the traditional Turán-type approach with computer search.</description>
     </item>
   </channel>
 </rss>
