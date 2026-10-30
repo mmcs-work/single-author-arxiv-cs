@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Construction and formal verification of a special topology on {\mathbb{Z}}^{n}: characterization of connected subsets</title>
+      <link>http://arxiv.org/abs/2610.39354v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.39354v1</guid>
+      <pubDate>Thu, 29 Oct 2026 04:47:50 +0000</pubDate>
+      <description>We examine whether the integers admit a topology whose connected subsets are precisely the sets of consecutive integers. The main result gives a construction for every integer lattice {\mathbb{Z}}^{n}, n&gt;0; the answer for Z is then obtained as a corollary. We prove that the neighborhoods determined by the parity of the sum of the coordinates form a basis and that topological connectedness agrees exactly with accessibility by finite paths of unit lattice steps. We also present a deductive audit and the correspondence between this argument and a verification in Lean 4 and Mathlib, including the empty set and the independent formal characterization of integer intervals. The construction and mathematical result originate in Problem 5712, proposed by Dan Marcus and solved in 1970 by the Cleveland State University group; the present article contributes a detailed exposition and a report on formal verification.</description>
+    </item>
+    <item>
       <title>Barik transform and Barik eliminant: a novel algebraic method to solve polynomial equations in the sine and cosine of one variable</title>
       <link>http://arxiv.org/abs/2610.36985v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.36985v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2504.16771</guid>
       <pubDate>Thu, 18 Dec 2025 00:00:00 -0000</pubDate>
       <description>We study how a smooth irreducible algebraic variety $X$ of dimension $n$ embedded in $\mathbb{C} \mathbb{P}^{m}$ (with $m \geq n+2$), which degree is $d$, can be recovered using two projections from unknown points onto unknown hyperplanes. The centers and the hyperplanes of projection are unknown: the only input is the defining equations of each projected varieties. We show how both the projection operators and the variety in $\mathbb{C} \mathbb{P}^{m}$ can be recovered modulo some action of the group of projective transformations of $\mathbb{C} \mathbb{P}^{m}$. This configuration generalizes results obtained in the context of curves embedded in $\mathbb{C} \mathbb{P}^3$ and results concerning surfaces embedded in $\mathbb{C} \mathbb{P}^4$. We show how in a generic situation, a characteristic matrix of the pair of projections can be recovered. In the process we address dimensional issues and as a result establish a necessary condition, as well as a sufficient condition to compute this characteristic matrix up to a finite-fold ambiguity. These conditions are expressed as minimal values of the degree of the dual variety. Then we use this matrix to recover the class of the couple of projections and as a consequence to recover the variety. For a generic situation, two projections define a variety with two irreducible components. One component has degree $d(d-1)$ and the other has degree $d$, being the original variety.</description>
-    </item>
-    <item>
-      <title>A priori bounds for certified Krawczyk homotopy tracking</title>
-      <link>https://arxiv.org/abs/2512.01355</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.01355</guid>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 -0000</pubDate>
-      <description>We establish the first complexity analysis for Krawczyk-based certified homotopy tracking. It consists of explicit a priori stepsize bounds ensuring the success of the Krawczyk test, and an iteration count bound proportional to the weighted length of the solution path. Our a priori bounds reduce the overhead of interval arithmetic, resulting in fewer iterations than previous methods. Experiments using a proof-of-concept implementation validate the results.</description>
     </item>
   </channel>
 </rss>

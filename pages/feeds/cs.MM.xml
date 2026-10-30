@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Do Open-Source Video Ad Clients Follow VAST 4.3? An Empirical Study of Player Conformance</title>
+      <link>http://arxiv.org/abs/2610.39093v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.39093v1</guid>
+      <pubDate>Thu, 29 Oct 2026 00:34:03 +0000</pubDate>
+      <description>Context. Video ads reach streaming and connected-TV apps through VAST documents, and companies count ads from the HTTP requests the player's client library sends. A tracking error can leave playback intact and surface later as disagreeing counts. Objective. To measure how far open-source VAST clients meet the player duties of VAST 4.3, whether verdicts depend on the runtime, what generated inputs add, and when deviations were introduced. Method. A catalog of 108 requirements was extracted from the specification. Six open-source clients in eight configurations ran against 69 crafted test vectors and the IAB's sample tags, under Node.js and in five browsers on three engines, with every request recorded. Grids, fuzzing and a sweep over 36 releases extend the catalog; Google's closed IMA SDK is a comparison. Results. The open-source clients have 78 findings and 3 to 21 must-level deviations per configuration. None of the tested open-source clients that follow redirect (Wrapper) chains fills the required macros in a Wrapper's request; the archived IMA 3.794.0 configuration tested does. One library's timeout throws an exception no caller can catch, ending a Node.js process. In a pod (ads played back to back), one player credits a finishing ad's completion to the next ad, fixed in release 5.3.0. A library can conform under jsdom and deviate in every tested Chrome- and Safari-family browser. Conclusions. The tested clients diverge on the duties other companies use to count and diagnose ads. A shared conformance suite run in real browsers could expose most graded deviations; the harness and vectors are released.</description>
+    </item>
+    <item>
       <title>Resonance and Depth: Composing Timbral Identity and Spatial Form in an Artist-in-the-Loop Co-Creative Multi-Agent Percussive Performance</title>
       <link>http://arxiv.org/abs/2610.29026v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.29026v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2501.15721</guid>
       <pubDate>Mon, 27 Jan 2025 00:00:00 -0000</pubDate>
       <description>Music and language are structurally similar. Such structural similarity is often explained by generative processes. This paper describes the recent development of probabilistic generative models (PGMs) for language learning and symbol emergence in robotics. Symbol emergence in robotics aims to develop a robot that can adapt to real-world environments and human linguistic communications and acquire language from sensorimotor information alone (i.e., in an unsupervised manner). This is regarded as a constructive approach to symbol emergence systems. To this end, a series of PGMs have been developed, including those for simultaneous phoneme and word discovery, lexical acquisition, object and spatial concept formation, and the emergence of a symbol system. By extending the models, a symbol emergence system comprising a multi-agent system in which a symbol system emerges is revealed to be modeled using PGMs. In this model, symbol emergence can be regarded as collective predictive coding. This paper expands on this idea by combining the theory that ''emotion is based on the predictive coding of interoceptive signals'' and ''symbol emergence systems,'' and describes the possible hypothesis of the emergence of meaning in music.</description>
-    </item>
-    <item>
-      <title>A Multimodal Emotion Recognition System: Integrating Facial Expressions, Body Movement, Speech, and Spoken Language</title>
-      <link>https://arxiv.org/abs/2412.17907</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2412.17907</guid>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 -0000</pubDate>
-      <description>Traditional psychological evaluations rely heavily on human observation and interpretation, which are prone to subjectivity, bias, fatigue, and inconsistency. To address these limitations, this work presents a multimodal emotion recognition system that provides a standardised, objective, and data-driven tool to support evaluators, such as psychologists, psychiatrists, and clinicians. The system integrates recognition of facial expressions, speech, spoken language, and body movement analysis to capture subtle emotional cues that are often overlooked in human evaluations. By combining these modalities, the system provides more robust and comprehensive emotional state assessment, reducing the risk of mis- and overdiagnosis. Preliminary testing in a simulated real-world condition demonstrates the system's potential to provide reliable emotional insights to improve the diagnostic accuracy. This work highlights the promise of automated multimodal analysis as a valuable complement to traditional psychological evaluation practices, with applications in clinical and therapeutic settings.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Ignore the Writing: A Proposal for Peer Review in the Age of AI</title>
+      <link>http://arxiv.org/abs/2610.38062v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.38062v1</guid>
+      <pubDate>Tue, 27 Oct 2026 23:23:30 +0000</pubDate>
+      <description>The written paper has long stood in as proof of work: a fluent, well-structured manuscript was taken as evidence that good research lay behind it. Generative AI has broken that link. Polished manuscripts now cost nothing to produce, submissions are outgrowing what reviewers can absorb, and venues are turning to AI for help. The logical endpoint is a loop where AI writes the papers and AI reviews them. We argue that this loop is survivable, but only if it is given a reward function, and that human reviewing effort should become that reward function. We propose that submissions should consist of a 1500-word brief plus an unlimited, machine-verifiable appendix. Human reviewers judge whether a pursuit is worthwhile, models verify the experimental record in the appendix, and human curation decides where the field goes next.</description>
+    </item>
+    <item>
       <title>Is the arXiv Apocalypse upon us? A break in preprint growth coincident with agentic AI</title>
       <link>http://arxiv.org/abs/2610.34449v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.34449v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.27210</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
       <description>The exponential growth of scholarly publications requires automated tools for effective information synthesis. However, simple, single-shot prompting methods often lack the reliability and quality required for complex synthesis tasks. This paper introduces and empirically evaluates a multi-stage prompt chaining methodology as a more reliable architectural pattern for such tasks. This approach is implemented in our system, AI SciBrief, which automatically generates scholarly digests. We conducted a comparative experiment, measuring the performance of our prompt chaining method against a carefully optimized single-shot baseline. Both systems were evaluated against a human-authored "gold standard" report for the "Education" domain. The results demonstrate a significant difference in reliability: our prompt chaining method achieved a 100% success rate, whereas the optimized baseline failed in 50% of its runs. In terms of quality, the proposed method also demonstrated a clear advantage, achieving a superior ROUGE-L F1-score (0.507 vs. 0.486), driven primarily by higher precision. We conclude that prompt chaining is a more dependable and effective engineering approach for complex, multi-step generative tasks, significantly mitigating the risks of failure and inconsistency inherent in monolithic prompts.</description>
-    </item>
-    <item>
-      <title>SotA Lens: A Network-Augmented Methodology and Tool for Exploratory State-of-the-Art Reviews</title>
-      <link>https://arxiv.org/abs/2605.16333</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.16333</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
-      <description>Researchers often begin new projects by conducting a broad State-of-the-Art review before they are ready to define the narrow protocol required by a systematic review. This is especially common in multidisciplinary areas where terminology is unstable, communities are weakly connected, and relevant work is dispersed across technical and application domains. This paper presents SotA Lens, a network-augmented methodology and lightweight software toolkit for exploratory State-of-the-Art reviews. The approach combines documented seed search, DOI-level metadata resolution, bounded citation expansion, directed graph construction, community detection, ranking of authors and subject terms, and human labelling of research communities. It is designed to complement, not replace, established review protocols such as PRISMA, PRISMA-ScR, systematic mapping studies, and bibliometric science mapping. The method is demonstrated through a proof-of-concept review of Dynamic Projection-Mapping and Spatial Augmented Reality. Starting from approximately 200 seed search results, the workflow produced a citation graph with 2,198 DOI-level vertices and 8,249 reference edges; a filtered largest component for 2010-2023 contained 986 vertices, 2,693 edges, and sixteen labelled communities. The contribution is both methodological and practical: SotA Lens helps researchers map broad fields, identify clusters and gaps, and produce auditable review artifacts before committing to a narrower systematic review protocol. This paper is not intended as a domain survey of Dynamic Projection-Mapping or Spatial Augmented Reality; rather, it introduces and demonstrates an original review-support methodology and software artifact using that domain as a proof-of-concept case study.</description>
     </item>
   </channel>
 </rss>

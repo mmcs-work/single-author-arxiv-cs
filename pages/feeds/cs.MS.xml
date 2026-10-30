@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Beyond atol and rtol: Sound Test Oracles for Low-Precision GPU Kernels</title>
+      <link>http://arxiv.org/abs/2610.38983v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.38983v1</guid>
+      <pubDate>Wed, 28 Oct 2026 22:08:49 +0000</pubDate>
+      <description>Low-precision GPU kernels are commonly tested against a reference using hand-picked absolute and relative tolerances. Legitimate numerical error varies with the input, format and precision plan, so a fixed tolerance trades false alarms for missed faults. We present numoracle, which derives per-element acceptance regions from precision-annotated reference programs. Its calculus tracks shared rounding errors, provenance-ordered products, block-scaled quantizers and calibrated math-library errors. A rounding-interval check detects faulty stores that symmetric bounds can admit. Soundness is conditional on explicit rounding, hardware, domain and implementation assumptions; a fixed-input mode removes the zero-mean rounding assumption. We evaluate 13 Triton operators from Liger-Kernel, Unsloth and vLLM on two GPU generations. The main campaigns produce no false alarm on 33,960 correct-kernel and behavior-preserving-variant runs per GPU. Under input shift, the GPU campaigns record no false alarm while tuned tolerances flag up to 30% of correct runs; final-version reference checks identify inputs without complete finite-range certificates. On the RTX PRO 6000, numoracle kills 116 of 124 effective mutants, versus 59-83 for four fixed baselines. Among 400 tuned tolerance configurations, requiring at most 1% false alarms in every evaluated Liger input group permits at most 31 of 53 main-mutant kills, versus numoracle's 50. Historical replays expose accuracy faults in eight change pairs without rejecting their matched corrected controls; a ninth change concerns rounding parity.</description>
+    </item>
+    <item>
       <title>Automatic Certified Differentiation in Lean</title>
       <link>http://arxiv.org/abs/2610.36396v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.36396v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.11753</guid>
       <pubDate>Sun, 12 Oct 2025 00:00:00 -0000</pubDate>
       <description>This paper investigates the exponential Diophantine equation of the form $a^x+b=c^y$, where $a, b, c$ are given positive integers with $a,c \ge 2$, and $x,y$ are positive integer unknowns. We define this form as a "Type-I transcendental diophantine equation." A general solution to this problem remains an open question; however, the ABC conjecture implies that the number of solutions for any such equation is finite. This work introduces and implements an effective algorithm designed to solve these equations. The method first computes a strict upper bound for potential solutions given the parameters $(a, b, c)$ and then identifies all solutions via finite enumeration. While the universal termination of this algorithm is not theoretically guaranteed, its heuristic-based design has proven effective and reliable in large-scale numerical experiments. Crucially, for each instance it successfully solves, the algorithm is capable of generating a rigorous mathematical proof of the solution's completeness.</description>
-    </item>
-    <item>
-      <title>DGEMM without FP64 Arithmetic - Using FP64 Emulation and FP8 Tensor Cores with Ozaki Scheme</title>
-      <link>https://arxiv.org/abs/2508.00441</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2508.00441</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 -0000</pubDate>
-      <description>As the demand for AI computation rapidly increases, more hardware is being developed to efficiently perform the low-precision matrix multiplications required by such workloads. However, these operations are generally not directly applicable to scientific computations due to accuracy requirements. The Ozaki scheme - an accurate matrix multiplication method proposed by Ozaki et al. in 2012 - enables FP64 matrix multiplication (DGEMM) using low-precision matrix multiplication units, such as FP16 Tensor Cores. This approach has since been extended to utilize integer arithmetic, offering lower computational cost compared to floating-point-based implementations. In fact, it has achieved higher performance than hardware FP64 operations on GPUs equipped with fast INT8 Tensor Cores designed for AI workloads. However, recent AI-oriented processors trends have shifted toward improving the performance of low-precision floating-point operations, such as FP8, rather than integer operations. Motivated by this shift, this study revisits the use of low-precision floating-point operations in the Ozaki scheme. Specifically, we explore the use of FP8 Tensor Cores. In addition, for processors that support very slow or no hardware-based FP64 operations, we also consider FP64 arithmetic emulation based on integer arithmetic. This completely eliminates hardware FP64 instructions. Furthermore, we explore the use of blocking in the inner-product dimension to accelerate FP16-based implementations. We demonstrate the effectiveness of these methods by evaluating the performance on an NVIDIA RTX Blackwell architecture GPU.</description>
     </item>
   </channel>
 </rss>

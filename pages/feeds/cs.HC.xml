@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Towards fNIRS foundation models: A curated corpus of 67 public datasets with channel positions in MNI space</title>
+      <link>http://arxiv.org/abs/2610.40277v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40277v1</guid>
+      <pubDate>Thu, 29 Oct 2026 15:32:15 +0000</pubDate>
+      <description>Brain foundation models have transformed medical artificial intelligence and computational neuroscience by reducing the reliance on task-specific data through large-scale pretraining. While they have been successful with non-invasive neuroimaging data, their adoption in functional near-infrared spectroscopy (fNIRS) has lagged due to the limited size and heterogeneity of public datasets, which are collected under varying protocols, devices, and sensor configurations. In addition, no single fNIRS dataset is comparable in size to the largest datasets in functional magnetic resonance imaging (fMRI), electroencephalography (EEG), or magnetoencephalography (MEG). The fNIRS datasets are also spread across different platforms and often have insufficient information, or lack the protocols that would make them easier to use. Given the advances in EEG foundation models that enable flexible modeling across diverse EEG montages, we curated 1,955 hours of fNIRS data from 67 public datasets spanning 2,798 participants, representing the largest fNIRS curation effort to date. The curated data include oxygenated (HbO) and deoxygenated (HbR) hemoglobin signals along with the three-dimensional position of every channel in the standard space of the Montreal Neurological Institute (MNI), which makes positions comparable across datasets. We release dataloaders that handle each dataset automatically, along with the minimal preprocessing pipeline used to prepare the data, at https://github.com/sposso/fnirs-datasets. This work aims to facilitate the future development of foundation models for fNIRS.</description>
+    </item>
+    <item>
+      <title>Towards Audience-Driven Real-Time Data Storytelling</title>
+      <link>http://arxiv.org/abs/2610.39658v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.39658v1</guid>
+      <pubDate>Thu, 29 Oct 2026 09:12:25 +0000</pubDate>
+      <description>This paper introduces the concept of Audience-Driven Real-Time Data Storytelling (ADRDS), a framework that utilizes participatory and social sensing to enable audiences to actively shape the presentation of data stories. At its core, ADRDS employs a pre-authored decision tree, where the presenter defines the data story through a branching three-act arc (setup, conflict, and resolution). Each node contains a question, branching rules, thresholds for coverage, consensus, and confidence intervals, as well as one or more potential calls to action (CTAs). Audience members connect to the ADRDS framework via a URL on their mobile devices and answer questions in real time. ADRDS evaluates responses against the decision tree in real-time, following strong branches when thresholds are satisfied or activating fallback paths when signals are inconclusive. ADRDS then selects the final action consistent with the traversed path and the audience's demonstrated readiness, subject to fairness safeguards. ADRDS transforms presentations of data stories into audience-shaped decision processes, where live data actively drives the narrative. This work paves the way towards a new form of data storytelling, where the final data story depends on the audience's background and interests.</description>
+    </item>
+    <item>
+      <title>Decompose, Don't Expand: Capability-Independent AI Systems by Construction</title>
+      <link>http://arxiv.org/abs/2610.38144v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.38144v1</guid>
+      <pubDate>Wed, 28 Oct 2026 01:28:24 +0000</pubDate>
+      <description>A recurring design choice in building AI systems is whether, when a task is too hard for a model, to expand the model (make it larger, better-prompted, fine-tuned), or to decompose the task (extract the parts that admit a deterministic solution to a host, leaving the model only the irreducibly fuzzy residue). We make three claims. First, that many tasks commonly delegated whole to a model are in fact deterministic tasks with a small generative core. Second, and our central empirical result, that decomposing such a task yields a measurable and desirable property we call parity by construction: on the extracted sub-tasks the model-size performance curve becomes flat, because no model performs them at all. We measure this across nine models spanning a 494M-parameter local checkpoint to a frontier Opus-class model, a thirty-fold parameter range on the local family alone: once the host resolves the context, operation selection scores identically for all nine models and selector resolution for eight of nine, while the one task that does not decompose, labelling, remains sloped across the same range. Because the task leaves the model, a stock checkpoint suffices: no task-specific training and no fine-tuning. Third, that this is a general design discipline, not a domain trick: we show the same move recurring across physics setup, motion retargeting, and object-model editing, and in a Web-CLI tool family (same author, so not an independent replication). We give a method for locating the cut, the construction that makes a cut exist (a deterministic surface and a closed grammar over it), and a way to make the residue safe (resolve the deterministic context; verify the generative output), position the work against neuro-symbolic AI, tool-augmented language models, and generate-and-verify approaches, and are explicit about what is measured (one domain) versus illustrative (the rest).</description>
+    </item>
+    <item>
+      <title>Ignore the Writing: A Proposal for Peer Review in the Age of AI</title>
+      <link>http://arxiv.org/abs/2610.38062v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.38062v1</guid>
+      <pubDate>Tue, 27 Oct 2026 23:23:30 +0000</pubDate>
+      <description>The written paper has long stood in as proof of work: a fluent, well-structured manuscript was taken as evidence that good research lay behind it. Generative AI has broken that link. Polished manuscripts now cost nothing to produce, submissions are outgrowing what reviewers can absorb, and venues are turning to AI for help. The logical endpoint is a loop where AI writes the papers and AI reviews them. We argue that this loop is survivable, but only if it is given a reward function, and that human reviewing effort should become that reward function. We propose that submissions should consist of a 1500-word brief plus an unlimited, machine-verifiable appendix. Human reviewers judge whether a pursuit is worthwhile, models verify the experimental record in the appendix, and human curation decides where the field goes next.</description>
+    </item>
+    <item>
       <title>Translating Poetic Emotion into Dynamic Mathematical Visuals: A Strange Attractor-Based Approach</title>
       <link>http://arxiv.org/abs/2610.36698v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.36698v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2608.26089v1</guid>
       <pubDate>Wed, 26 Aug 2026 17:51:34 +0000</pubDate>
       <description>Generative AI is promoted as a way to enhance knowledge work, yet its benefits and drawbacks fall unevenly across the workforce. Freelance and gig workers, who commonly lack the upskilling pathways available to traditional employees, face heightened risks to both skill development and job security as AI adoption advances. We review empirical evidence on AI's impact on knowledge-worker workflows and upskilling, then predict the primary and downstream effects of AI adoption among clients and workers in the freelance economy. We anchor this in two cases of the same shift, machine-translation post-editing and software development. We argue that freelancers are the leading edge of a change that also reaches salaried HCI practitioners, and we close with questions for the platforms and clients that mediate this work, and for HCI researchers.</description>
-    </item>
-    <item>
-      <title>The Systems Paper is Dead. Long Live the Systems Paper</title>
-      <link>http://arxiv.org/abs/2608.25219v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.25219v1</guid>
-      <pubDate>Tue, 25 Aug 2026 23:18:32 +0000</pubDate>
-      <description>The way we structure, conduct, and write up interactive systems research in UIST papers rests on assumptions about constraints that may no longer hold today. What should an impactful UIST paper look like when building working systems is no longer hard? I argue that it should look different, and that we should ask more of our papers once implementation stops being a bottleneck.</description>
-    </item>
-    <item>
-      <title>Latent-surrealism: Revisiting surrealism and its aesthetics in relation to contemporary AI-Generated cultural production</title>
-      <link>http://arxiv.org/abs/2608.24367v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.24367v1</guid>
-      <pubDate>Tue, 25 Aug 2026 10:27:16 +0000</pubDate>
-      <description>This chapter examines AI-media objects - creative and artistic outputs generated through generative artificial intelligence in the form of text-to-X tools - in relation to three avant-garde movements of the twentieth century: Dadaism, Surrealism, and Conceptual Art. Drawing on Lewis Carroll's Through the Looking-Glass as an early precursor to these three movements and to anti-rationalist aesthetics, and on three case studies in AI-generated conceptual architecture - Matias del Campo's "Deep House" and Hassan Ragab's "Post-Pharaonic Architecture" and "A State of Decay" - the chapter develops the concept of latent-surrealism. Latent-surrealism includes a set of aesthetic and methodological conditions inherent to creative AI-media objects. These include the use of readymade datasets reassembled through collage-like processes, the absurd as an aesthetic quality of machine hallucinations, and the decoupling of craft from artistic value. The chapter further argues that AI-media objects represent a shift in the conditions of creative production: where earlier computational tools required graphical interfaces and programming literacy, natural language now functions as the operative medium. This repositions the prompt (as language-based instructions) in the center of the creative process, in continuity with the legacy of Conceptual Art, and signals a linguistic turn across creative fields that make (use of) AI-media objects.</description>
-    </item>
-    <item>
-      <title>Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation</title>
-      <link>http://arxiv.org/abs/2608.23966v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23966v1</guid>
-      <pubDate>Tue, 25 Aug 2026 01:45:02 +0000</pubDate>
-      <description>AI systems increasingly make joint recommendations for users with conflicting preferences. However, when reasonable aggregation rules support different actions, a further question arises: who may choose how those preferences are combined? We study this interaction-level problem as aggregation-rule authority. Using synthetic preference profiles and profiles constructed from empirical ratings, we conduct a controlled behavioral audit of three LLMs under three authority conditions: unspecified, explicitly retained by users, and delegated to the model. In cases where two witness rules supported different actions, models almost never committed when users retained authority, but committed in every delegated case. All three models executed both witness rules perfectly when directly instructed. Yet when authority was unspecified or delegated, their aggregation-consistent outcome distributions differed across models and preference settings. Together, these results separate rule-execution capability from aggregation-rule authority: delegation assigns the model discretion to resolve the aggregation choice, but does not determine which collective outcome follows.</description>
-    </item>
-    <item>
-      <title>The Ordinal Annotation Game: How Construct Abstraction Shapes Crowdsourced Consensus</title>
-      <link>http://arxiv.org/abs/2608.23727v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.23727v1</guid>
-      <pubDate>Mon, 24 Aug 2026 18:14:29 +0000</pubDate>
-      <description>Inter-annotator disagreement in real-time affect annotation is widely treated as stochastic noise. We challenge this view by modelling ordinal annotation as an implicit game-theoretic coordination process against an internalised population prior under a post-hoc majority vote. We present the Ordinal Annotation Game, a conceptual scaffold in which the mapping from individual effort to collective consensus is governed by the semantic abstraction of the target construct. We evaluate it across two experiments sharing identical interface software and a uniform sensitivity threshold: a controlled sensory tracking study and an in-the-wild engagement study. Sensory annotation yields a consensus-dominant regime where active updates reinforce agreement, whereas engagement annotation inverts into an effort-limited regime where more labelling penalises consensus. The payoff slope reverses sign under identical processing, showing that ordinal disagreement is a structured behavioural phenomenon, not a discretisation artefact or random error.</description>
     </item>
   </channel>
 </rss>

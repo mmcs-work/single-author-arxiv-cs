@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Optimal self-orthogonal binary linear codes</title>
+      <link>http://arxiv.org/abs/2610.39870v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.39870v1</guid>
+      <pubDate>Thu, 29 Oct 2026 11:44:24 +0000</pubDate>
+      <description>We complete the determination of the minimum possible length of eight-dimensional binary self-orthogonal codes with given minimum distance. For dimension nine we give exact values and bounds for minimum distance at most $64$. By exploiting the geometric reformulation of linear codes as multisets of points, we fully redo the classification for dimension at most seven in a simplified and computer-free manner. As a by-product we prove the non-existence of $[93,9,44]_2$ codes and show several divisibility results for putative optimal nine-dimensional binary codes.</description>
+    </item>
+    <item>
+      <title>Local Convergence of Triadic Closures of Sparse Random Graphs</title>
+      <link>http://arxiv.org/abs/2610.39535v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.39535v1</guid>
+      <pubDate>Thu, 29 Oct 2026 07:33:58 +0000</pubDate>
+      <description>Triadic closure is a natural mechanism for modeling the clustering phenomenon observed in many real-world networks. Given a possibly random undirected graph $H$, we consider pairs of non-adjacent vertices that have a common neighbor. Conditional on $H$, each such pair is joined by an edge independently and simultaneously, with a probability depending on the degrees of its endpoints and on the number of their common neighbors. The resulting graph is called a triadic closure of $H$. We study the effect of this operation on local convergence. More precisely, we prove that if a sequence of potentially random finite undirected graphs of $\left( H_n \right)_{n \in \mathbb{N}}$ converges locally in probability to a rooted graph $H^*$, then the corresponding sequence of triadic closures converges locally in probability to the same triadic closure of $H^*$. As a consequence, we obtain a general limit theorem for the clustering coefficients of triadic closures. In particular, we show that the triadic closures can have a strictly positive limiting clustering coefficients even when the limiting clustering coefficients of the parent graph sequence is zero. Finally, we apply our results to several classical sparse random graph models including Erdős-Rényi, configuration, preferential attachment models and compute the limiting clustering coefficients of their triadic closures.</description>
+    </item>
+    <item>
+      <title>Diameter-two graphs whose mutual-visibility chromatic number equals their chromatic number</title>
+      <link>http://arxiv.org/abs/2610.39430v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.39430v1</guid>
+      <pubDate>Thu, 29 Oct 2026 06:07:21 +0000</pubDate>
+      <description>A set $S$ of vertices of a graph $G$ is a mutual-visibility set if every pair of vertices of $S$ is joined by a shortest path whose internal vertices avoid $S$, and the mutual-visibility chromatic number $χ_μ(G)$ is the least number of mutual-visibility sets into which $V(G)$ can be partitioned. Klavžar, Kuziak, Valenzuela Tripodoro and Yero (2025) proved that $χ_μ(G)\leχ(G)$ whenever $G$ has diameter two, observed that equality holds for complete bipartite graphs, and asked whether there are any other diameter-two graphs attaining equality. We answer this question in the affirmative. We construct a graph $G_{11}$ of order 11 and diameter two with $χ_μ(G_{11})=χ(G_{11})=3$, and an infinite family of such graphs obtained from $G_{11}$ by replacing one vertex with pairwise non-adjacent copies of it.</description>
+    </item>
+    <item>
+      <title>Moments of Magic Squares: Line-Sum Conditions, a Permutation Threshold, and Random Energies</title>
+      <link>http://arxiv.org/abs/2610.38386v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.38386v1</guid>
+      <pubDate>Wed, 28 Oct 2026 07:23:32 +0000</pubDate>
+      <description>Every semi-magic square of order $n$ satisfies the axial moment identities $\sum_{i,j}s_{ij}j^m=\sum_{i,j}s_{ij}i^m=M(n)\sum_jj^m$ for all $m\ge1$, where $M(n)=n(n^2+1)/2$. For real matrices the converse requires $1\le m\le n-1$, whereas for arrangements of $\{1,\dots,n^2\}$ fewer moments suffice once $n\ge14$. We define the permutation threshold $k^*(n)$ as the least $k$ such that every arrangement satisfying these identities for $1\le m\le k$ is semi-magic. In terms of the column-sum deviations $γ_j$, the degree-$k$ conditions state that $\sum_jγ_jt^j$ is divisible by $(t-1)^{k+1}$, linking $k^*(n)$ to the Prouhet--Tarry--Escott problem. While Schur's bound on real zeros gives $k^*(n)\le\sqrt{2(n-1)\log(n^4/4)}$, we prove the converse realisability bound $k^*(n)\ge(\sqrt2-o(1))\sqrt n$ (and $k^*(n)\ge(\sqrt6-o(1))\sqrt n$ when $4\mid n$) by perturbing semi-magic squares with complementary row pairs via horizontal swaps. We also show that $k^*(n)=n-1$ for $3\le n\le13$, $k^*(n)=n-2$ for $14\le n\le17$, and $k^*(n)\le n-3$ for $n\ge18$, and determine $k^*(n)$ for $18\le n\le40$ with computer assistance. Finally, at the $k=1$ level of the hierarchy, we specialise the Mantel--Hubert quadratic assignment variance formula to obtain exact means, variances, and limit laws under a uniform random arrangement for the full line-sum energy $E_{\mathrm{full}}$, for the four-term energy $E_4$ combining the first moments and the two diagonals, and for Loly's moment of inertia, and find that $|L_4|=14{,}639{,}440$ arrangements of order $4$ satisfy $E_4=0$.</description>
+    </item>
+    <item>
       <title>Antimagic Labeling of Central Digraphs Constructed from Loops</title>
       <link>http://arxiv.org/abs/2610.35419v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.35419v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.02080v1</guid>
       <pubDate>Wed, 02 Sep 2026 04:09:29 +0000</pubDate>
       <description>The basis number $\mathrm{bn}(G)$ of a graph $G$ is the minimum edge-congestion of a basis of its cycle space. We prove that every finite $n$-vertex multigraph satisfies \[ \mathrm{bn}(G)=O(\log n), \] resolving, for simple graphs, a question of Bazargani, Biedl, Bose, Maheshwari and Miraftab, subsequently stated as a conjecture by Miraftab, Morin and Yuditsky. The argument also yields the cycle-rank refinement \[ \mathrm{bn}(G)=O(\log β(G)), \] where $β(G)$ is the dimension of the cycle space, and a reduction of Lehner and Miraftab, based on a theorem of Richter and Shank, then gives \[ \mathrm{bn}(G)=O(\log g) \] for graphs of Euler genus $g$. These orders are best possible.</description>
-    </item>
-    <item>
-      <title>A Counterexample to Teschner's Bondage-Number Conjecture</title>
-      <link>http://arxiv.org/abs/2609.04257v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.04257v1</guid>
-      <pubDate>Tue, 01 Sep 2026 19:57:46 +0000</pubDate>
-      <description>For a finite simple graph $G$ with at least one edge, the bondage number $b(G)$ is the least number of edges whose deletion increases the domination number $γ(G)$. Teschner conjectured that $b(G)\le \tfrac32Δ(G)$ for every graph $G$. We disprove this conjecture by giving a connected cubic bipartite graph on eighteen vertices with \[ γ(G)=6 \qquad\text{and}\qquad b(G)=5. \] The domination number is established by a complete counting argument across the bipartition. An explicit five-edge deletion raises the domination number from six to seven. For the matching lower bound, we give an exact finite certificate: the graph has 297 minimum dominating sets, and deleting any one of its $\binom{27}{4}=17{,}550$ four-edge subsets leaves at least one of those sets dominating. The enumeration is deterministic, uses only exact integer and set operations, and is reproduced by the complete standard-library verifier included in the appendix.</description>
-    </item>
-    <item>
-      <title>Albertson's Conjecture Holds for r at Most 26</title>
-      <link>http://arxiv.org/abs/2609.01682v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.01682v1</guid>
-      <pubDate>Tue, 01 Sep 2026 13:05:28 +0000</pubDate>
-      <description>Albertson conjectured that every graph with chromatic number r has crossing number at least cr(K_r). The conjecture was verified for r &lt;= 12 by Albertson, Cranston and Fox, for r &lt;= 16 by Bar'at and T'oth, for r &lt;= 18 by Ackerman, and recently for r &lt;= 24 by Cranston, who reduced the remaining cases r in {25, 26} to three orders. We settle those three orders, so that Albertson's Conjecture holds for all r &lt;= 26. Only published results are used, and an appendix reproves the range 19 &lt;= r &lt;= 24 so that the case r &lt;= 26 does not rest on unpublished work. We also show that if chi(G) = 27 and cr(G) &lt; cr(K_27), then G has a 27-critical subgraph of order 53 or 54 whose complement is connected.</description>
-    </item>
-    <item>
-      <title>Graphs with Long Pseudosimilarity Chains under Consecutive Vertex Deletions</title>
-      <link>http://arxiv.org/abs/2609.00394v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.00394v1</guid>
-      <pubDate>Mon, 31 Aug 2026 21:23:53 +0000</pubDate>
-      <description>Pseudosimilar vertices are vertices in distinct automorphism orbits whose deletions produce isomorphic graphs. Classical work has studied the existence, group-theoretic origin, and construction of large sets of such vertices. We ask a different recursive question: how long can one repeatedly delete a vertex that is pseudosimilar at the moment of deletion? We define the pseudosimilarity depth of a graph and construct connected graphs in which this process continues through all but a sublinear number of vertices. A two-clock construction gives a square-root deficit uniformly in the order, while a Chinese-remainder construction with many cyclic clocks yields an infinite family of asymmetric graphs with only a polylogarithmic number of vertices left outside the active chain. The mechanism realizes pseudosimilarity by breaking a long hidden automorphism orbit and enlarging the break one vertex at a time. Thus pseudosimilarity can persist through an asymptotically full sequence of vertex deletions, even though every graph encountered in the main construction is asymmetric.</description>
-    </item>
-    <item>
-      <title>Unary Functions, Automorphisms, and Unlabeled First-Order Model Counting</title>
-      <link>http://arxiv.org/abs/2608.30580v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2608.30580v1</guid>
-      <pubDate>Mon, 31 Aug 2026 10:53:52 +0000</pubDate>
-      <description>Every fixed first-order sentence $\varphi$ determines an enumerative sequence $n\mapsto\mathrm{FOMC}(\varphi,n)$, counting its models on the labeled domain $[n]$. We study the complexity of these sequences when logical specifications may use genuine unary function symbols and hence nested terms $x,f(x),f^2(x),\ldots$. We first prove that, for every fixed sentence $\varphi\in\mathrm{C}^1_{=}[f]$, with one unary function and an arbitrary finite relational vocabulary, $\mathrm{FOMC}(\varphi,n)$ is computable in time polynomial in $n$. By contrast, permitting either a second variable or a second unary function already yields hardness. Without counting quantifiers, there is a fixed sentence in $\mathrm{FO}^2_{=}[f]$ whose model-counting function is $\#\mathrm{P}_1$-complete. With one variable and two unary functions, there is a fixed constant-free universal sentence in $\mathrm{FO}^1_{=}[f,g]$, using only unary predicates besides $f$ and $g$, whose model-counting function is again $\#\mathrm{P}_1$-complete. We also relate labeled and unlabeled enumeration exactly. For every relational sentence $\varphi$, we construct an extension $\varphi_{\mathrm{aut}}$ in which a unary function records an automorphism and $\mathrm{FOMC}(\varphi_{\mathrm{aut}},n)=n!\cdot\mathrm{UFOMC}(\varphi,n)$, where $\mathrm{UFOMC}(\varphi,n)$ denotes the number of $n$-element models of $\varphi$ up to isomorphism. Thus automorphism marking gives a one-query exact reduction from unlabeled to labeled model counting at the same domain size. Over relational vocabularies of maximum arity at most $k$, where $k\geq2$, eliminating the auxiliary function yields single-query reductions from unlabeled $\mathrm{FO}^k_{=}$ and $\mathrm{C}^k$ model counting to labeled $\mathrm{FO}^{k+1}_{=}$ and $\mathrm{C}^{k+1}$ model counting, respectively.</description>
     </item>
   </channel>
 </rss>
