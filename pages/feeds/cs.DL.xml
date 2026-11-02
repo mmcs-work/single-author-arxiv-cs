@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>What It Costs to Trust a Source: A Reproducible Method for Institutional Assessment of Author Disambiguation</title>
+      <link>http://arxiv.org/abs/2610.40745v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40745v1</guid>
+      <pubDate>Thu, 29 Oct 2026 15:48:02 +0000</pubDate>
+      <description>Records of research outputs are curated with care by universities, and the effort is shaped by the external sources from which candidate records are drawn. The curation required before the author identities in such sources can be trusted is examined, and a reproducible method for estimating its cost is set out. Four tests are described; two can be run on public data alone, and two are conducted against an institution's own curated record, taken from Symplectic Elements Discovery portals. The method is demonstrated on OpenAlex and Dimensions across 30 institutions. Of the publications attributed to matched researchers, 50.4\% were confirmed by the institutional record for OpenAlex and 69.6\% for Dimensions, and fewer trusted researcher profiles were retained from OpenAlex at a matched confidence threshold in each of the 30 institutions. Carried through to effort, integrating OpenAlex requires 1.5 times the person-days of review and entry of Dimensions even when each feed is filtered at the threshold that minimises the amount of review required.</description>
+    </item>
+    <item>
       <title>Ignore the Writing: A Proposal for Peer Review in the Age of AI</title>
       <link>http://arxiv.org/abs/2610.38062v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.38062v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2409.05512</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 -0000</pubDate>
       <description>Metadata management for distributed data sources is a long-standing but ever-growing problem. To counter this challenge in a research-data and library-oriented setting, this work constructs a data architecture, derived from the data-lake: the metadata-lake. A proof-of-concept implementation of this proposed metadata aggregator is presented and briefly evaluated.</description>
-    </item>
-    <item>
-      <title>Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation</title>
-      <link>https://arxiv.org/abs/2607.27210</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.27210</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
-      <description>The exponential growth of scholarly publications requires automated tools for effective information synthesis. However, simple, single-shot prompting methods often lack the reliability and quality required for complex synthesis tasks. This paper introduces and empirically evaluates a multi-stage prompt chaining methodology as a more reliable architectural pattern for such tasks. This approach is implemented in our system, AI SciBrief, which automatically generates scholarly digests. We conducted a comparative experiment, measuring the performance of our prompt chaining method against a carefully optimized single-shot baseline. Both systems were evaluated against a human-authored "gold standard" report for the "Education" domain. The results demonstrate a significant difference in reliability: our prompt chaining method achieved a 100% success rate, whereas the optimized baseline failed in 50% of its runs. In terms of quality, the proposed method also demonstrated a clear advantage, achieving a superior ROUGE-L F1-score (0.507 vs. 0.486), driven primarily by higher precision. We conclude that prompt chaining is a more dependable and effective engineering approach for complex, multi-step generative tasks, significantly mitigating the risks of failure and inconsistency inherent in monolithic prompts.</description>
     </item>
   </channel>
 </rss>

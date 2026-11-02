@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Treedepth is NP-Hard on Planar Graphs of Maximum Degree 3</title>
+      <link>http://arxiv.org/abs/2610.42033v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.42033v1</guid>
+      <pubDate>Fri, 30 Oct 2026 17:00:35 +0000</pubDate>
+      <description>Treedepth is an important parameter in algorithmic graph theory. It is known that the problem of computing the treedepth of a graph is NP-hard. It has been an open problem whether treedepth can be computed in polynomial time when the input graph is restricted to be planar, or of bounded degree. Assuming $P \neq NP$, we answer both questions in the negative: Under polynomial-time Turing reductions, it is NP-hard to compute the treedepth of planar graphs with maximum degree 3. This degree bound is best possible, since treedepth can be computed efficiently on graphs of maximum degree 2.</description>
+    </item>
+    <item>
+      <title>Lowered crossover points of Anthropic's subexponential 3-SAT algorithm</title>
+      <link>http://arxiv.org/abs/2610.41622v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41622v1</guid>
+      <pubDate>Fri, 30 Oct 2026 11:58:32 +0000</pubDate>
+      <description>The October 2026 refutations of the Exponential Time Hypothesis count satisfying assignments in time $2^{o(n)}$, but an asymptotic bound does not say from which input size, the crossover point, they beat the best known algorithms. We make the #3-SAT recursion of Anthropic's algorithm explicit and lower its crossover points, computed from the main term of the proved bound, by proved changes. For the bound in the number $m$ of clauses, at clause density one, the crossover point drops to about $2^{420}$ clauses from $2^{33858}$; for general 3-SAT, in the number $n$ of variables, our estimate drops to $2^{8.6\cdot10^9}$ variables from $2^{2.2\cdot10^{12}}$. With integer tables the recursion counts, for every $j$, the assignments satisfying exactly $j$ clauses in time $2^{O(m/\sqrt{\log m})}$. We observe that this refutes the Sparse Max-3-SAT Hypothesis of Alman and Vassilevska Williams, which also follows from either refutation by the reduction of Impagliazzo, Paturi and Zane, and we lower the crossover point of this computation to about $2^{1016}$ clauses from $2^{68364}$. The distance is structural: we define a rewrite-and-merge class that contains the recursion and all our constructions, and prove that in the main-term model no grid algorithm in it can gain for general 3-SAT below about $2^{6000}$ variables. For two balanced homogeneous merges we prove with quantum functionals an exponent of at least $(\log_2K)^{-3}$ per edge bit, which excludes running times $2^{n^{1-c}}$. Independently of SAT, we formalise the algorithm as a model of computation, Signed Network Sums, which contains rank-one methods and contraction trees. On the complete graph with four nodes, one-level constructions contract the network in $N^{23/6}$ if $ω=2$ and in about $N^{3.93}$ on the current (preprint) matrix-multiplication curve, below the bound $N^4$ of every rank-one method or contraction tree.</description>
+    </item>
+    <item>
+      <title>Faster #PPM from faster #3SAT</title>
+      <link>http://arxiv.org/abs/2610.41048v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41048v1</guid>
+      <pubDate>Thu, 29 Oct 2026 22:35:50 +0000</pubDate>
+      <description>The counting variant (#PPM) of the permutation pattern matching (PPM) problem asks for the number of occurrences of a permutation pattern in a host permutation of length $n$. The problem admits faster algorithms than the trivial $O^*(2^n)$ time enumeration; the best known running time, for both PPM and #PPM, is $O(1.415^n)$ (Gawrychowski and Rzepecki). It is also known that PPM is ETH-hard: an algorithm with running time $2^{o(n/\log{n})}$ would imply a subexponential algorithm for 3SAT (Jelínek, Opler, and Pekárek). We give a reduction in the opposite direction, showing that an algorithm for counting satisfying assignments of a 3-CNF formula (#3SAT) in time $2^{O({n}/{f(n)})}$, where $n$ is the number of variables, yields an algorithm for #PPM with running time $2^{O({n \sqrt{\log{f(n)}/{f(n)}}})}$. In particular, the recently claimed refutation of ETH by OpenAI implies a #3SAT algorithm with an improvement factor $f(n) \in Ω(\sqrt{\log{n}}/\log\log{n})$ in the exponent; this yields, through our reduction, a subexponential algorithm for #PPM.</description>
+    </item>
+    <item>
+      <title>Clifford synthesis is NP-complete</title>
+      <link>http://arxiv.org/abs/2610.40886v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40886v1</guid>
+      <pubDate>Thu, 29 Oct 2026 19:06:37 +0000</pubDate>
+      <description>We show that the problem of synthesizing a quantum circuit for a given Clifford operator using at most a specified amount of resources is NP-complete for several resource models of practical interest. Specifically, we study synthesis of a given Clifford operator using single-qubit Clifford gates and two-qubit Clifford gates, with full qubit connectivity and no additional ancilla qubits. With single-qubit gates free and CNOT as the only two-qubit gate, we show that deciding whether a given target admits an implementation using at most a specified number of CNOT gates is NP-complete, and we show that the problem remains NP-complete when any two-qubit Clifford gate is allowed and the budget counts all such gates. Moreover, we show that both results continue to hold when SWAP gates may be inserted for free, and when single-qubit gates are also considered part of the budget. In each case, we build on recent work by Li and Guan and show that there are polynomial-time reductions from Hamiltonian path in grid graphs to these decision problems, using a number of qubits quadratic in the number of grid vertices.</description>
+    </item>
+    <item>
       <title>What Can Be Computed with Indefinite Causal Structure?</title>
       <link>http://arxiv.org/abs/2610.40573v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.40573v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.02565v1</guid>
       <pubDate>Thu, 01 Oct 2026 22:58:33 +0000</pubDate>
       <description>Constraint satisfaction problems (CSPs) with operator assignments to the variables provide a well-structured setting to study the decision complexity of the entangled value of classes of nonlocal games. Due to the CSP dichotomy theorem, the complexity of constraint satisfaction problems with classical assignments can be fully understood by studying the symmetries of the CSP, in terms of the polymorphisms of the underlying relational structure. In this work, we show that the polymorphism-based reductions between CSPs can be generalised to gap-preserving reductions between entangled CSPs based on an entangled analogue of the polymorphisms. This reduction allows us to show undecidability of entangled graph colouring with more than three colours, a problem that has proved resistant to prior hardness reductions based on commutativity gadgets.</description>
-    </item>
-    <item>
-      <title>Complexity, Bounds, and Exact Algorithms for Rainbow $k$-Domination in Regular Graphs</title>
-      <link>http://arxiv.org/abs/2610.06906v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.06906v1</guid>
-      <pubDate>Thu, 01 Oct 2026 10:22:55 +0000</pubDate>
-      <description>A rainbow $k$-dominating function assigns the empty set or exactly one of the colors $\{1\},\{2\},\ldots,\{k\}$ to each vertex of a simple graph in such a way that every vertex receiving $\emptyset$ sees all $k$ colors in its neighborhood. This model has several facility-location interpretations where colored vertices represent sites hosting different types of services, and uncolored vertices represent the beneficiaries of those services who must have access to all of them. In this paper we study this domination variant in regular graphs. First, we develop lower and upper bounds for this class of graphs, and explore their structural consequences. Then, we use those results to prove NP-completeness of a decision formulation of this problem. Additionally, we derive exact formulas for the rainbow $k$-domination number of cycles, Möbius ladders and prisms. Lastly, we develop a dynamic-programming algorithm for generalized Petersen graphs of the form $P(6t, t)$ and state two conjectures based on the output of its implementation and related integer linear programming computations.</description>
-    </item>
-    <item>
-      <title>Coloring 3-colorable graphs with $O(n^{4/23})$ colors via a Gaussian-cover recursion</title>
-      <link>http://arxiv.org/abs/2610.01071v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.01071v1</guid>
-      <pubDate>Thu, 01 Oct 2026 05:11:23 +0000</pubDate>
-      <description>We give a randomized polynomial-time algorithm that colors any promised $3$-colorable graph on $n$ vertices with $\smash{O(n^{4/23}) = O(n^{0.17391\ldots})}$ colors, improving on the recent bounds of $O(n^{0.19539})$ by Bansal, Huang, and Lee and Narang and Tang who obtained $O(n^{(13-\sqrt{97})/18+ε})=O(n^{0.17506\dots + ε})$ colors for every fixed $\smash{ε&gt;0}$. To prove our result, we start from a fixed-level semidefinite relaxation, where we use a finite-depth recursion on Gaussian covers. Fixing a root vertex, we group vertices by correlation with the root vector. Here, each step extends a cover of directions by one edge and transfers it to a successor group. Our key analytic ingredient is a variance bound for Gaussian maxima: for a maximum of $m\geq 2$ centered linear forms with coefficient norms at most $r$, mean $μ$, and variance $v$, we prove $v\leq r^2-μ^2/(2\log m)$ using Chen's Gaussian convexity theorem. Together with a variance-scale lower-tail estimate, this controls the threshold loss at each extension, which shows that root-conditioned vector colorings can either extract a large independent set from a group or bound its size, forcing a contradiction after constantly many steps. The resulting sparse-case guarantee combines with the dense progress bound of Kawarabayashi, Thorup, and Yoneda, and the recursion's numerical inequalities are verified via rational interval arithmetic.</description>
-    </item>
-    <item>
-      <title>Exact $T$-counts of Toffoli layers from an isotropy bound</title>
-      <link>http://arxiv.org/abs/2610.01024v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.01024v1</guid>
-      <pubDate>Thu, 01 Oct 2026 04:11:53 +0000</pubDate>
-      <description>The $T$-count is the dominant cost of fault-tolerant Clifford+$T$ computation. We prove that a layer of $m$ disjoint CCZ gates, the diagonal core of a parallel Toffoli layer, needs exactly $6m+1$ $T$ gates in every Hadamard-free Clifford+$T$ circuit with clean ancillas. Campbell and Howard gave the matching construction. To our knowledge this is the first proof that it is optimal for general $m$ (for $m=1$ the value $7$ is classical, and Campbell and Howard state the value $13$ at $m=2$). On every controlled unitary the same floor comes within one of their exact count, and it recovers their $4m+3$ for a fan-out of $m$ Toffolis from one control. The proof rests on an isotropy constraint: for a pure-cubic phase, the vectors recording which $T$ gates touch each qubit span a totally isotropic subspace. In general the constraint gives the isotropy floor $δ\ge2(n-d^{\ast})-r$ for every diagonal level-three gate, computed from the phase polynomial in polynomial time. The floor is never below stabilizer nullity $ν$, which equals $n-d^{\ast}$ on this class, and a separate parity argument raises it to $2ν+1$ on non-Clifford pure-cubic gates. On the output of the TODD optimizer for the $24$ benchmark circuits it completes, the floor certifies $193$ of its $311$ merged phase-polynomial blocks optimal for their Hadamard layering ($186$ to $193$ across five optimizer seeds), against $113$ for nullity. The floor also holds, under stated conditions, for circuits whose only internal Hadamards form unitarily uncomputed temporary AND blocks, while under adaptive feedforward only $t\geν$ is proved.</description>
-    </item>
-    <item>
-      <title>Beyond IP = PSPACE and QIP = PSPACE: Interactive Proofs in Arbitrary Physical Theories</title>
-      <link>http://arxiv.org/abs/2610.00847v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.00847v1</guid>
-      <pubDate>Thu, 01 Oct 2026 00:06:15 +0000</pubDate>
-      <description>The equalities IP = PSPACE and QIP = PSPACE, the latter achievable with three messages, raise a basic question: how much of an interactive proof's power comes from the underlying physical theory? We study interactive proofs in general probabilistic theories, which include classical and quantum theory. The answer depends on what the prover and verifier exchange and how the theory specifies efficient operations. When they exchange only classical messages, protocols in every theory satisfying our standard assumptions decide exactly PSPACE. For protocols with a quantum verifier and quantum messages, allowing a prover to use any theory containing quantum theory does not increase the maximum acceptance probability. Thus, the three-message PSPACE result remains valid against such provers. When messages may be arbitrary systems, the interactive-proof class can strictly exceed PSPACE.</description>
     </item>
   </channel>
 </rss>

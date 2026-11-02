@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Preconditioned Quantum Linear Solver for Periodic Two-Phase Heat Conduction with Mesh-Independent Condition Number</title>
+      <link>http://arxiv.org/abs/2610.41690v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41690v1</guid>
+      <pubDate>Fri, 30 Oct 2026 12:56:35 +0000</pubDate>
+      <description>We consider here computational homogenization of a periodic two-phase conduction problem. Quantum linear-system algorithms for its finite element discretization are limited by the condition number of the stiffness matrix. This condition number grows quadratically with the number of elements per side. Classically, preconditioning by the homogeneous (single-phase) operator bounds the condition number by the conductivity contrast, for every mesh size. On a quantum computer, however, a preconditioner encoded as a separate factor multiplies the subnormalizations, and the quadratic dependency returns. In this paper, we absorb the closed-form inverse square root of the homogeneous operator into the finite element factors. The preconditioned operator then becomes the product of a norm-preserving gradient operator $\mat{V}$, a diagonal matrix of scaled conductivities, and $\mat{V}^T$. Each factor has norm at most one. The block encoding therefore has subnormalization one, and its condition number is bounded by just the conductivity contrast, for every mesh size and in every dimension. The operator $\mat{V}$ is applied as a quantum Fourier transform, a small rotation at each wavenumber, and an inverse transform. Quantum singular value transformation then block-encodes the inverse of the preconditioned operator. We test the method numerically on three periodic cells with up to $10^6$ unknowns. The results confirm that the condition number does not depend on the mesh, and the energy-norm error of the inverse is below the polynomial tolerance at every mesh. On meshes of $4 \times 4$ and $8 \times 8$ elements, we also build the entire inverse as one Qiskit circuit and simulate it by state vector, with the rotation at each wavenumber built from uniformly controlled rotations. The output state agrees with the finite element solution to within the polynomial tolerance.</description>
+    </item>
+    <item>
       <title>PCM: A Proof-Carrying Message Protocol for Verifiable Multi-Agent Communication</title>
       <link>http://arxiv.org/abs/2610.39109v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.39109v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.12375</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
       <description>This work presents a finite element formulation for coupled chemo-mechano-thermodynamical large deformation contact. The formulation is based on the contact theory of Sauer et al. (2022) that contains six coupled (but separate) fields: the deformation and temperature of the two contacting bodies, as well as an interfacial bonding field and interfacial temperature. The latter is governed by the chemical and mechanical energy dissipation at the interface. Here the focus is placed on the evolution of bonding and debonding, and how it is coupled to the mechanical and thermal contact state. Several elementary models are proposed for this based on a quadratic contact potential. The resulting contact formulation becomes very general and versatile, which is illustrated by several challenging examples. They include pressure- and gap- depended bonding, exothermic bonding reactions, thermal hardening and thermal expansion, as well as simultaneous bonding and debonding. They are based on a monolithic finite element implementation using classical and isogeometric shape functions together with implicit time integration. Its full linearization, required for the Newton-Raphson solution method, is also provided. If bonding sites are material points, the bonding variable can be condensed-out locally.</description>
-    </item>
-    <item>
-      <title>A Computational Model for Measuring Adaptability Among U.S. Farmers: Evidence from 1997-2022</title>
-      <link>https://arxiv.org/abs/2606.11995</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.11995</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Agricultural crops are a type of cultural trait and the way farmers of US counties select them can itself result in county-level cultural traits. Using real-world data from 1997 to 2022, we have developed a systematic framework to study the selective mechanisms behind these traits. Our findings indicate that environmental payoff-biased selection has driven counties to adopt traits that maximize their adaptability and yield within their specific environments. These empirical results align with existing theoretical literature [3,16]. Additionally, a clear long-term selective trend is evident, showing that US counties are gradually developing a specific set of more complex combinatorial traits, which provide greater payoffs by enhancing the farmers' environmental adaptability. This study serves as a strong case for empirically modeling the cultural evolutionary processes among US farmers.</description>
     </item>
   </channel>
 </rss>

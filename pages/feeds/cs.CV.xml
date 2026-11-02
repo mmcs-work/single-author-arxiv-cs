@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>OpenVIO: A Versatile Open-Source Visual-Inertial Odometry System</title>
+      <link>http://arxiv.org/abs/2610.41671v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41671v1</guid>
+      <pubDate>Fri, 30 Oct 2026 12:40:10 +0000</pubDate>
+      <description>Visual-inertial odometry (VIO) is a fundamental topic in robotics research. Beyond research, VIO has been adopted in a wide range of products. In this manuscript, we present OpenVIO, an open-source VIO system for research and practical applications. It is released under the MIT license. OpenVIO supports pinhole and fisheye cameras and extends this support to stitched 360° images. We describe each part of the system together with its design considerations. We also report benchmark results with other open-source VIO systems on public datasets. OpenVIO is available as open source at https://github.com/93won/openvio.</description>
+    </item>
+    <item>
+      <title>An Empirical Study on Learning Rooftop Solar Potential from Satellite Imagery Directly Without Explicit Geometry</title>
+      <link>http://arxiv.org/abs/2610.41111v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41111v1</guid>
+      <pubDate>Fri, 30 Oct 2026 01:09:20 +0000</pubDate>
+      <description>Rooftop solar potential estimation often relies on LiDAR, digital surface models (DSMs), or pipelines that explicitly reconstruct roof geometry before estimating solar potential. We propose Direct Rooftop Solar Prediction (DRSP), an end-to-end formulation that maps satellite imagery and coarse regional sunlight information directly to application-level solar outputs. DRSP neither requires explicit geometric representations as input nor predicts roof orientation, slope, height, DSMs, or other geometric quantities as intermediate outputs, and therefore requires no geometric intermediate supervision. To enable large-scale study of this formulation, we develop a programmatic data-curation pipeline that converts per-panel information from the Google Solar API into usable-rooftop masks and spatial solar-energy targets, yielding two geographically distinct datasets containing approximately 60K rooftops from the U.S. Midwest and 87K from Texas. We demonstrate the feasibility of DRSP and systematically characterize the effects of geographic training distribution, model depth, image resolution, regional sunlight conditioning, and heatmap regression objectives. Overall, our results suggest that useful rooftop-scale solar information can be learned directly from 2D imagery without explicit geometric intermediate representations, offering a simpler path toward large-scale solar assessment. Our code and dataset are available at https://github.com/joshualee124/direct_rooftop_solar_prediction.</description>
+    </item>
+    <item>
       <title>Beyond Ground Truth: A Heuristic Unsupervised Quality Assurance Engine for Diagnosing Calibrational Blindness in Dental Segmentation</title>
       <link>http://arxiv.org/abs/2610.40587v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.40587v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.10607v1</guid>
       <pubDate>Wed, 07 Oct 2026 03:20:07 +0000</pubDate>
       <description>Immersive VR180 video is increasingly produced with professional stereo fisheye cameras, yet public VR180 research resources are mostly collected from online platforms such as YouTube: already stitched, projected and compressed by unknown pipelines, and without lens calibration. We present a firsthand-captured stereo VR180 dataset recorded with two Blackmagic URSA Cine Immersive cameras. It contains 1,211 samples -- 636 stereo video clips (2,220.8 s, mostly 90 fps) and 575 stereo stills -- each released as camera-native Blackmagic RAW, separate-eye native fisheye HEVC (8160x7200 per eye) and half-equirectangular HEVC (7200x7200 per eye), together with the factory lens calibration, portable fisheye/half-equirectangular conversion tools and AI-generated scene and visual-challenge annotations. Re-encoding the released fisheye and half-equirectangular renders with x265 over 24 clips, both eyes, four rate points and nine viewing directions, native-fisheye coding needed more bitrate than half-equirectangular coding at equal viewport quality for all 24 clips (median +38%), in every part of the field of view. Data: https://huggingface.co/datasets/lulinxuan/VR180 ; code: https://github.com/lulinxuan/vr180-dataset-tools</description>
-    </item>
-    <item>
-      <title>Closing the Loop on Contrail Avoidance with Satellite Verification</title>
-      <link>http://arxiv.org/abs/2610.09363v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.09363v1</guid>
-      <pubDate>Wed, 07 Oct 2026 03:18:29 +0000</pubDate>
-      <description>Contrails are the thin ice clouds that aircraft leave behind. They cause a large share of aviation's warming, and rerouting the few flights that produce them could avoid much of it. However, an avoided contrail only counts if a satellite can confirm that it never formed, and this check is hard: contrails are one to two pixels wide, cover only 0.18% of pixels, and look very similar to natural cirrus. We build a small diffusion model (8.4M parameters, trained on one GPU) that detects them, and we run a controlled study to find out which components matter. The model reaches 0.476 PR-AUC, compared with 0.414 for a DeepLabV3+ baseline and 0.119 for an adapted MedSegDiff. Doubling the input resolution of the CNN brings it to parity (0.499, p=0.07). Three lessons apply beyond contrails. First, check the input resolution before designing a new architecture. Second, simple flips and rotations more than double accuracy and matter more than any architectural choice we measured. Third, pretraining the model on contrail shapes is harmful: the model learns that thin strokes appear everywhere and paints them onto empty scenes. Precision collapses to 1% while recall-based metrics still rate the degraded model as excellent, and no threshold or guidance heuristic repairs this failure.</description>
-    </item>
-    <item>
-      <title>Data Leakage in Patch-Based Hyperspectral Image Classification: Quantifying the Impact of Spatial Overlap</title>
-      <link>http://arxiv.org/abs/2610.08770v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.08770v1</guid>
-      <pubDate>Tue, 06 Oct 2026 17:55:05 +0000</pubDate>
-      <description>Patch-based learning improves hyperspectral image (HSI) classification by exploiting local spectral-spatial information, but random train-test sampling from the same image can cause spatial patch overlap, leading to data leakage and optimistic performance estimates. This paper investigates same-class train-test spatial overlap in patch-based HSI classification using two measures: overlap percentage (OP), which quantifies the global amount of overlapped testing patch pixels, and average overlap ratio (AOR), which measures the local severity among affected testing patches. Experiments on the Pavia University dataset compare random and non-random spatial sampling using SVM, MLP, 2D-CNN, 3D-CNN, ViT, and MorpMamba. The results show that deep patch-based models achieve high accuracy under random sampling, with 3D-CNN reaching 96.17% Overall Accuracy (OA), but drop substantially under non-random spatial sampling, where 3D-CNN decreases to 55.20% and ViT and 2D-CNN drop by 40.71 and 38.81 percentage points (PP), respectively. Patch-size analysis further shows that increasing the patch size from 5x5 to 19x19 raises the random-sampling overlap percentage from 23.28% to 77.02%. These findings demonstrate that random patch-based evaluation can substantially inflate classification performance, especially for models that strongly exploit spatial context. The code associated with this paper is available at: https://github.com/mqalkhatib/Data_Leakage_in_HSI_Classification.</description>
     </item>
   </channel>
 </rss>

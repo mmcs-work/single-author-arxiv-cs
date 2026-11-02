@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Type classifiers</title>
+      <link>http://arxiv.org/abs/2610.41941v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41941v1</guid>
+      <pubDate>Fri, 30 Oct 2026 16:00:25 +0000</pubDate>
+      <description>We extend dependent type theory by type classifiers and construct an interpretation in the category of contextual categories with families. Type classifiers extend contexts by type variables, complementing the usual context extensions by term variables of specified types. This allows statements with arbitrary type parameters to be formulated without assuming a universe. We show that substituting isomorphic types induces isomorphisms between the resulting types even in extensional type theory, giving an analogue of the invariance supplied by the univalence axiom in homotopy type theory. Omitting function types from the theory, so that all type formers are covariant, extends this naturality to arbitrary, possibly noninvertible maps.</description>
+    </item>
+    <item>
+      <title>Tableaux Rules for Theories of Definite Descriptions in Positive Free Logic with Some Philosophical Remarks</title>
+      <link>http://arxiv.org/abs/2610.40830v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40830v1</guid>
+      <pubDate>Thu, 29 Oct 2026 18:12:12 +0000</pubDate>
+      <description>While Russell's theory of definite descriptions, expressions of the form 'the F', is almost incontrovertible in classical logic, in free logic matters stand differently. Several alternatives have been proposed. In Lambert's hierarchy, the weakest theory is his minimal free theory of definite descriptions (MFD), which only says that anything is the F iff it is the unique existing F, the strongest one is a chosen object theory in which all improper definite descriptions refer to the same object (FD2). Intermediate is Lambert's FD1, which adds ix(x = t) = t as an axiom to MFD. MFD is very weak. FD2 is very strong. One might hope to find intermediate systems in which ix(x = t) = t is provable from more fundamental principles. The present paper considers one avenue where one might hope to find them and closes it. Two theories, FDA and FDH, will be considered that are motivated by considerations from proof-theoretic semantics. The former turns out to be equivalent to FD2, the latter to have unreasonable consequences. A third theory, similarly motivated, is also not viable. The philosophical upshot of this is briefly discussed.</description>
+    </item>
+    <item>
+      <title>Arithmetical Characterizations of Two Intuitionistic Logical Principles</title>
+      <link>http://arxiv.org/abs/2610.40829v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40829v1</guid>
+      <pubDate>Thu, 29 Oct 2026 18:11:25 +0000</pubDate>
+      <description>This paper investigates the role of negation in arithmetic by analyzing subsystems based on subminimal logic. We introduce NA^PR, a system of subminimal arithmetic equipped with all primitive recursive functions, and answer the following four questions: (1) Can we develop reasonable arithmetic within NA^PR? (2) Can we characterize logical rules Absorption of Negation (An) and Ex Falso Quodlibet (ECQ) by arithmetical principles? (3) Are there strict differences in deductive power among NA^PR, MA^PR, and HA? (4) Do MA^PR and MA, and NA^PR and NA have a similar mutual interpretability relationship as HA? We show the following: First, Heyting Arithmetic (HA) is shown to be a conservative extension of NA^PR for positive formulas. Based on NA^PR, we prove that (ECQ) is equivalent to the definability of disjunction, and that (An) is equivalent to a variant of the least number principle. Furthermore, using the constant domain neighbourhood semantics, we show that the systems NA^PR, MA^PR (written as NA^PR+(An)) and HA (written as NA^PR+(An)+(ECQ)) form a strictly increasing hierarchy of strength. Finally, we demonstrate the essential role of primitive recursive functions in weak arithmetic using classical countermodels.</description>
+    </item>
+    <item>
+      <title>Normalisation for a Neutral Free Logic with Definite Descriptions</title>
+      <link>http://arxiv.org/abs/2610.40816v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40816v1</guid>
+      <pubDate>Thu, 29 Oct 2026 18:03:52 +0000</pubDate>
+      <description>In this paper, we present a natural deduction system for a strong Kleene-based neutral free logic with definite descriptions. The system combines a three-valued propositional basis with free quantification, identity, existence, and rules for definite descriptions. The main result is a normalisation theorem for a proof-theoretically equivalent restricted formulation of the system; we also establish a corresponding modified subformula property for its fragment.</description>
+    </item>
+    <item>
+      <title>Restricted Peirce's Law and Natural Deduction</title>
+      <link>http://arxiv.org/abs/2610.40813v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40813v1</guid>
+      <pubDate>Thu, 29 Oct 2026 18:03:12 +0000</pubDate>
+      <description>The constructive logic JP' is known to be the weakest logic between intuitionistic and minimal logic that satisfies Glivenko's theorem. In spite of this natural and desirable formal property, the motivation for its notion of negation remains rather elusive: it can be characterised by a restriction of Peirce's law or by the double negation of ex falso quodlibet, neither of which is very intuitive. In order to have an alternative perspective on this negation, we study in this paper a couple of natural deduction systems for JP'. We first present a system that is normalisable and satisfies a restricted form of the subformula property. Then a modification of this system is introduced, whose rules satisfy the separation of connectives and the full subformula property. Afterwards we turn our attention to a typed lambda-calculus, with respect to which our natural deduction enjoys the Curry-Howard correspondence, followed by a concluding discussion.</description>
+    </item>
+    <item>
+      <title>A Basic Modal Logic for the Abstract Treatment of Quantum Mixed States</title>
+      <link>http://arxiv.org/abs/2610.40803v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40803v1</guid>
+      <pubDate>Thu, 29 Oct 2026 18:01:52 +0000</pubDate>
+      <description>Quantum logic has developed in various directions since its inception. However, many existing logical approaches either focus only on pure states, or use Hilbert-space models in which the abstract relationship between pure states, mixed states, and probabilities is not made explicit. In this work, we introduce a model designed to handle quantum mixed states abstractly. Furthermore, we construct a proof system for the proposed logic and establish its completeness with respect to the intended semantics.</description>
+    </item>
+    <item>
+      <title>On Some Logics Intermediate Between S4.2 and S4.3 Defined by the Notion of Independence</title>
+      <link>http://arxiv.org/abs/2610.40800v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.40800v1</guid>
+      <pubDate>Thu, 29 Oct 2026 18:01:13 +0000</pubDate>
+      <description>Hamkins and Loewe described modal logic S4.2 through the notion of sets of independent buttons - statements that are possibly necessary - and switches - necessarily contingent statements. In this article we investigate logics intermediate between S4.2 and S4.3 that are defined through a different notion of independence. We provide an axiomatic description of such logics, state some basic facts and prove various completeness and decidability results.</description>
+    </item>
+    <item>
       <title>A Hierarchy of Composition Procedures for Logic-Based Workflow Patterns</title>
       <link>http://arxiv.org/abs/2610.40377v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.40377v1</guid>
@@ -654,55 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.23143v1</guid>
       <pubDate>Sat, 19 Sep 2026 17:19:24 +0000</pubDate>
       <description>The sets-as-trees interpretation of set theory in a dependent type theory with an impredicative universe of propositions validates Zermelo set theory, and it validates Replacement if the type theory has a choice or description operator, which turns a functional relation into a function. It has been natural to expect that without such an operator the strength of the type theory drops well below that of $\mathrm{ZF}$. We show that it does not. In the type theory of Lean with two predicative universes, from excluded middle as the only assumption and with no axiom (no choice, no propositional extensionality, no quotients), we prove the consistency of $\mathrm{ZF}$, stated outright for a first-order proof system. The proof is formalized. The mechanism is the large elimination of the accessibility predicate over a type as large as the type of sets: a recursion on accessibility whose recursive calls are guarded by propositions, and whose later calls are indexed by the value of an earlier call, computes as a term any ordinal that is specified by a proposition through a well-founded tree of a certain shape. We give a rule that produces such a tree for every ordinal, unless some $V_ρ$ is already a model of $\mathrm{ZF}$; the rule does not choose a cofinal map into a limit ordinal but takes all definable ones at once. In the first case the sets-as-trees satisfy Replacement for arbitrary propositional relations. Either way $\mathrm{ZF}$ has a model. Finally, the double negation of excluded middle suffices, and what remains of it is exactly that membership is not not well-founded in the stable reading of sets; this in turn implies the double negation of Markov's principle.</description>
-    </item>
-    <item>
-      <title>An exponential lower bound for the bit pigeonhole principle in resolution over parities</title>
-      <link>http://arxiv.org/abs/2609.23015v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.23015v1</guid>
-      <pubDate>Sat, 19 Sep 2026 13:32:02 +0000</pubDate>
-      <description>Resolution over parities, $\mathrm{Res}(\oplus)$, is the characteristic-two version of resolution over linear equations: clauses are disjunctions of affine equations over $\mathbb F_2$. Superpolynomial size lower bounds were previously known only for restricted refutations: tree-like, regular, or of bounded depth. We prove that every DAG-like $\mathrm{Res} (\oplus)$ refutation of the bit pigeonhole principle with $n+1$ pigeons and $n=2^\ell$ holes has more than $\exp(n/(32768\ell^2))=2^{Ω(n/\log^2 n)}$ clauses, for every $\ell\ge32$, with no restriction on regularity or depth. The proof translates an arbitrary refutation with $S$ clauses into a polynomial calculus refutation of degree $O(\log n)$ over $O(S+n^2)$ groups of extension variables in the style of Buss, Impagliazzo, Krajicek, Pudlak, Razborov, and Sgall. One substitution then removes all extension variables at once and leaves a nonzero low-degree polynomial derived from the pigeonhole axioms alone at degree at most $n/2$; a degree lower bound in the style of Razborov, proved through the homology of chessboard complexes, shows that no such derivation exists. The argument also yields a general sufficient condition for $\mathrm{Res}(\oplus)$ size lower bounds. The main theorem, this condition, and all their dependencies are formalized in Lean 4, and every statement links to its formal proof. The proof was developed with substantial AI assistance within an open research framework described in the final section.</description>
-    </item>
-    <item>
-      <title>Bluebirds and mockingbirds cannot produce a fixed-point combinator</title>
-      <link>http://arxiv.org/abs/2609.21765v2</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.21765v2</guid>
-      <pubDate>Fri, 18 Sep 2026 13:35:59 +0000</pubDate>
-      <description>Let $B$ be the bluebird combinator with reduction rule $Bxyz \to_{w} x\left(yz\right)$, let $M$ be the mockingbird combinator with reduction rule $Mx \to_{w} xx$, and let $I$ be the identity bird combinator with reduction rule $Ix \to_{w} x$. A fixed-point combinator, called a sage bird by Smullyan, is a closed term $Y$ such that, for a fresh variable $x$, $Yx$ is equivalent to $x\left(Yx\right)$ under these reduction rules. For a fixed variable $x$, we construct an invariant $\mathrm{Tr}_{x}\left(u\right)$ of a $BMI$-term $u$ with respect to $\to_{w}$. This invariant traces the occurrences of $x$ in the leftmost-innermost reduction sequence of $u$. We then prove that $\mathrm{Tr}_{x}\left(Yx\right) \neq \mathrm{Tr}_{x}\left(x^{r}\left( Yx \right)\right)$ for every $x$-free $BMI$-term $Y$ and every $r\geq 1$. Consequently, there exists no fixed-point combinator in $BMI$-combinatory logic. This provides a negative answer to the problem posed by Smullyan in 1985.</description>
-    </item>
-    <item>
-      <title>The Sources of Unknowability and Self-refutation in Epistemic and Dynamic Epistemic Logic</title>
-      <link>http://arxiv.org/abs/2609.21317v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.21317v1</guid>
-      <pubDate>Fri, 18 Sep 2026 04:51:24 +0000</pubDate>
-      <description>In this paper, we define a formula $\varphi$ to be unbelievable if $\Box\varphi$ is unsatisfiable, and unknowable if $\Box\varphi\land\varphi$ is unsatisfiable. We then analyze the sources of unknowability and unbelievability in different classes of frames K, KD, KD45, and S5. We first show that any unbelievable formula is a fixed point of the Moore function defined by $f(\varphi)=\varphi\land\lnot\Box\varphi.$ Our main result shows that in S5, the static notions of unknowability and unbelievability in epistemic logic, and the dynamic notions of always informativeness and eventual self-refutation in dynamic epistemic logic are all equivalent to ``Moorean phenomena.'' We also generalize the result to the multi-agent case, showing that although all unknowable formulas still manifest Moorean phenomena, new mechanisms arise due to their interactive nature. Finally, we briefly analyze whether the Brandenburger-Keisler paradox in epistemic game theory can be considered Moorean.</description>
-    </item>
-    <item>
-      <title>Forking in monadically NIP theories</title>
-      <link>http://arxiv.org/abs/2609.25068v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.25068v1</guid>
-      <pubDate>Thu, 17 Sep 2026 10:54:09 +0000</pubDate>
-      <description>We demonstrate that forking in monadically NIP theories satisfies a very strong form of triviality over arbitrary sets, generalizing Baldwin-Shelah in monadically stable theories and analogous to Shelah's result for finite satisfiability over models in monadically NIP theories. This implies in particular that strict non-forking independence is particularly well behaved, and that the forking relation induces a canonical semilinear partial order on singletons. We also give an example of an $ω$-categorical monadically NIP theory so that no finite set is an extension base.</description>
-    </item>
-    <item>
-      <title>On Models of the Planar Lambda Calculus</title>
-      <link>http://arxiv.org/abs/2609.16798v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.16798v1</guid>
-      <pubDate>Tue, 15 Sep 2026 08:04:30 +0000</pubDate>
-      <description>We construct an adjunction relating two approaches to modelling the planar lambda calculus: semi-closed operads and planar lambda-models. We use this to obtain a planar version of Scott's representation theorem.</description>
-    </item>
-    <item>
-      <title>Finite Dependence and Invariance Hierarchies for Finitely Supported Structures</title>
-      <link>http://arxiv.org/abs/2609.15879v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.15879v1</guid>
-      <pubDate>Mon, 14 Sep 2026 17:08:37 +0000</pubDate>
-      <description>Finite support indicates that the dependence is limited, but not how each finite context controls what can be observed. For a data symmetry G \leq Sym(A) and a finitely supported G-set X, we study the finite-dependence profile X^S = {x : Fix_G(S) fixes x}, indexed by finite contexts S \subseteq A. For relations on A^n this yields Boolean algebras B^{(n)}_{G,S} = Inv_n(Fix_G(S)), forming the invariance hierarchy. The hierarchy separates several nominal principles. Its meet law is the relation-algebra form of the Bojanczyk-Klin-Lasota least-support criterion, while level injectivity is fungibility. The independent join law governs composition across unions of contexts; it holds for locally oligomorphic automorphism groups of ultrahomogeneous structures in purely relational languages of arity at most two, but can fail for unary observations over ternary data. Freshness remains valid sort by sort, and its unrestricted some/any form characterizes full equality symmetry among closed groups. With least supports, orbit-finiteness implies finite context levels and a uniform support bound; under local oligomorphicity the converse also holds. Pointwise closure does not change the profile, and standard atomic-site presentations show that suitable ultrahomogeneous structures with the same age have equivalent action topoi, even though their material FSS universes may retain different external cardinal data. Contextual orientability gives a complementary pointed invariant whose threshold is the least support size of choice from unordered pairs. For countable omega-categorical structures with degenerate algebraic closure, the meet law is equivalent to weak elimination of imaginaries.</description>
-    </item>
-    <item>
-      <title>Protected tails and polynomial-time enumeration of permutations avoiding a direct sum of an increasing pattern and 231</title>
-      <link>http://arxiv.org/abs/2609.15642v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.15642v1</guid>
-      <pubDate>Mon, 14 Sep 2026 14:30:11 +0000</pubDate>
-      <description>We give an exact algorithm counting the permutations that avoid a fixed pattern from the following family: the direct sum of an increasing pattern and the pattern 231. The first members of the family are 1342 and 12453. For each member, the algorithm computes the number of avoiding permutations of every length up to a given bound using polynomially many arithmetic operations and polynomially many stored integers, with degrees that grow linearly in the length of the pattern. We first obtain an exact recurrence by reading a permutation from left to right and recording, at each step, the constraints that the letters read so far impose on those still unread. Its state space grows exponentially, so evaluating it directly takes exponential time. We then show that part of the state is protected: later steps carry it along unchanged and do not depend on it. Factoring the protected part out turns the recurrence into a dynamic program with polynomially many stored transfer entries, and this gives the polynomial bounds for every member of the family. For the pattern 12453, a translation symmetry sharpens the bounds to degree seven for the operations and degree four for the storage. Separately written implementations and exact Chinese-remainder certification determine the number of 12453-avoiding permutations of every length up to 150. The previously published series reached length 38. The same tables also generate uniformly random avoiders in polynomial time. We illustrate this with a heatmap of one million 12453-avoiding permutations of length 300 sampled with floating-point tables. The counting recurrences for 1342 and 12453 are verified in the Lean 4 proof assistant.</description>
     </item>
   </channel>
 </rss>

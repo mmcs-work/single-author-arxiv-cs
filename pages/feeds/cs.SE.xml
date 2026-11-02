@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification</title>
+      <link>http://arxiv.org/abs/2610.41276v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41276v1</guid>
+      <pubDate>Fri, 30 Oct 2026 05:26:42 +0000</pubDate>
+      <description>Architectural debt gates must distinguish an allowed change from an incompletely observed one. We study a decision contract separating observation qualification, prohibited relation identity, inherited debt and authorized baseline updates. Across 240 fixed files from four repositories, the current observer and programmatic reference jointly qualify 166 files (69.17%), all with exact reference-relative edge agreement; 74 remain reference-UNKNOWN. Coverage varies from 13/60 to 59/60 by repository. On 480 constructed state scenarios sharing 60 source anchors, both the candidate ratchet and mature dependency-cruiser baseline match every expected outcome, whereas static and count-only baselines match 420 and 360. These results do not establish candidate superiority. Preserved failures include nine additional false-PASS probes and 120 unqualified full-tree timing attempts. A subsequent generic binding layer rejects 54 specified mismatches, accepts 54 current controls and permits legal repetition. Two bounded package scopes support 40 scenarios and 48 fresh-process functional checks; their costs remain tied to the measured implementations. Diagnostics explain residual uncertainty through type/runtime relations, installation context and generated-artifact provenance. TypeScript 5.9.3 and 6.0.2 yield identical outputs on ten paired emission witnesses, but neither that agreement nor verified release provenance changes the frozen UNKNOWN labels. The contribution is a controlled account of evidence-qualified enforcement and its limits, not language completeness, natural maintenance effectiveness or a new shrinking-baseline algorithm.</description>
+    </item>
+    <item>
       <title>Omission-Safe Conditional Contracts for Evidence-Closed CI Qualification</title>
       <link>http://arxiv.org/abs/2610.39241v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.39241v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.30186v1</guid>
       <pubDate>Thu, 24 Sep 2026 17:30:32 +0000</pubDate>
       <description>Vision-language models (VLMs) have become a common foundation for autonomous mobile GUI agents, but most existing systems rely on the VLM for both planning and action grounding at nearly every interaction step, leading to substantial latency and model-serving cost. We introduce Jev-Mobile, which shifts this paradigm to low-frequency VLM planning and high-frequency lightweight execution: the VLM specifies local goals, the accessibility tree defines a structured executable action space, and Jev, a fast typed decision model, repeatedly selects actions within this space. This design allows multiple GUI actions to be executed under a single VLM decision, reducing expensive VLM inference while preserving adaptive interaction. On the full AndroidWorld task suite, Jev-Mobile achieves 79% task success, compared with 78% for SeeAct-V and 84% for a Step-wise VLM baseline. Among successful trajectories, it reduces mean end-to-end execution time by 32.7% and mean model API cost by 73.4% relative to Step-wise VLM. These results show that decoupling high-level VLM reasoning from low-level action execution can substantially improve mobile GUI agent efficiency while maintaining competitive task performance.</description>
-    </item>
-    <item>
-      <title>Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase</title>
-      <link>http://arxiv.org/abs/2609.29744v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.29744v1</guid>
-      <pubDate>Thu, 24 Sep 2026 12:59:20 +0000</pubDate>
-      <description>We present: (i) a new dataset consisting of the full development history of a 21,000-line Python tool built entirely by Claude AI, with no human-authored code or tests, (ii) two code-provenance tracing tools, (iii) three taxonomies for instruction intent, commit provenance, and response reliability, (iv) application of these to analyse the dataset. We find that: (i) user coding agent CLI instructions differ in kind from IDE-chat instructions, with a greater focus on comprehension, planning and consultation, (ii) code development is mainly proactive, (iii) 14.3% of AI code-generation events contain a real error later caught by the AI-authored test suite, (iv) roughly 1 in 4-5 of the AI's interactive responses contains one or more factual errors.</description>
     </item>
   </channel>
 </rss>

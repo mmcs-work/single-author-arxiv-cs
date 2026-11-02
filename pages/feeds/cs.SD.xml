@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A General Theoretical Framework for Transformed Geometric Pattern Matching in Music</title>
+      <link>http://arxiv.org/abs/2610.42095v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.42095v1</guid>
+      <pubDate>Fri, 30 Oct 2026 17:39:51 +0000</pubDate>
+      <description>In this paper, we present a framework of concepts, terminology and notation for geometric pattern matching, centred around the idea of a {\em transformation class}. After formally defining the concept of a transformation class, we provide detailed definitions of a number of specific transformation classes that are particularly relevant to pattern matching and pattern discovery in music, which is the primary application domain within which the framework has been developed. We then provide formal definitions of the notions of {\em match}, {\em occurrence}, {\em maximal match\/} and {\em maximal occurrence\/} and prove some results relating to these concepts. We then define and explore in detail the idea of an {\em occurrence set\/} and the more general notion of a {\em heterogeneous occurrence set}. Finally, we explore in detail the concept of {\em transformational equivalence}, including a consideration of {\em transformation groups}, along with the group-theoretic and transformational equivalence properties of selected transformation classes.</description>
+    </item>
+    <item>
       <title>Symmetric Structure and Motivic Transformation in Melodies, Phrases, and Themes</title>
       <link>http://arxiv.org/abs/2610.40303v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.40303v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.03496</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 -0000</pubDate>
       <description>How much does a vocalization change over the course of development? We propose trajectory variance, a per-vocalization plasticity score that answers this question without type labels. A displacement model learns to predict age-conditioned shifts in autoencoder latent space; the variance of its predictions across target ages quantifies how much each vocalization would change if produced at different developmental stages. Evaluated on three zebra finches (183K-274K vocalizations, 40-101 days post-hatch), trajectory variance separates learned song syllables from innate calls (Cohen's d = 0.29-0.57, AUC = 0.58-0.67, after controlling for duration), while no nonparametric baseline achieves consistent separation. Trajectory variance also correlates with spectral flatness across all three birds (r = -0.48 to -0.75): more plastic vocalizations tend to have more tonal, structured spectra.</description>
-    </item>
-    <item>
-      <title>Structural Bottlenecks on Frequency Representation in End-to-End Audio Models</title>
-      <link>https://arxiv.org/abs/2607.08545</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.08545</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 -0000</pubDate>
-      <description>End-to-end neural audio models achieve high-fidelity compression and generation. We might read that performance as evidence they directly represent interpretable features such as pitch and timbre, but a model can produce plausible outputs without doing so. A model may encode these features in any reachable basis, but regardless of which, the features are well described as compositions of time-frequency-localized primitives. Whether state-of-the-art encoders preserve access to these primitives, and thus to compositions of them, remains unclear. Through theoretical analysis and controlled experiments, we show that several state-of-the-art strided convolutional encoders impose two structural bottlenecks, both predictable from architecture and signal structure, on access to these primitives: (1) they collapse primitives into alias equivalence classes, establishing a bound on representational capacity, and (2) they limit the frequency resolution available to learned filters, restricting separability. For well structured data, we find collapse rates of 31-35% and filter bandwidths 10-35x above the theoretical resolution bound, confirming that both bottlenecks arise under realistic signal conditions. We then introduce Gabor Latent Refactorization (GLRF), a lightweight post-hoc intervention that re-expresses encoder latents in a frequency-localized basis, reducing filter bandwidths from 10-35x to 1.5-3x of the theoretical resolution bound while preserving reconstruction fidelity and improving control over attributes like pitch. These results show that the encoders in question predictably degrade access to frequency-localized primitives, entangling the features that depend on them, and that a lightweight, retraining-free intervention can recover much of that access, improving steerability and interpretability.</description>
     </item>
   </channel>
 </rss>

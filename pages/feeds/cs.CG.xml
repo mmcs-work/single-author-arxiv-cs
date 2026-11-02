@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A General Theoretical Framework for Transformed Geometric Pattern Matching in Music</title>
+      <link>http://arxiv.org/abs/2610.42095v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.42095v1</guid>
+      <pubDate>Fri, 30 Oct 2026 17:39:51 +0000</pubDate>
+      <description>In this paper, we present a framework of concepts, terminology and notation for geometric pattern matching, centred around the idea of a {\em transformation class}. After formally defining the concept of a transformation class, we provide detailed definitions of a number of specific transformation classes that are particularly relevant to pattern matching and pattern discovery in music, which is the primary application domain within which the framework has been developed. We then provide formal definitions of the notions of {\em match}, {\em occurrence}, {\em maximal match\/} and {\em maximal occurrence\/} and prove some results relating to these concepts. We then define and explore in detail the idea of an {\em occurrence set\/} and the more general notion of a {\em heterogeneous occurrence set}. Finally, we explore in detail the concept of {\em transformational equivalence}, including a consideration of {\em transformation groups}, along with the group-theoretic and transformational equivalence properties of selected transformation classes.</description>
+    </item>
+    <item>
+      <title>Optimal Average Distortion for Non-Expansive Embeddings of Euclidean Metrics into the Line: With applications to cut-matching games and vertex expansion</title>
+      <link>http://arxiv.org/abs/2610.41945v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.41945v1</guid>
+      <pubDate>Fri, 30 Oct 2026 16:03:57 +0000</pubDate>
+      <description>We show that any $n$-point Euclidean metric admits a non-expansive embedding into the line with average distortion at most $O\left(\sqrt{\frac{\log n}{\log\log n}}\right)$, matching a known lower bound. We also present two applications of this result. First, we give a cut-player strategy with an optimal spectral guarantee for the undirected cut-matching game. Second, we give an improved spectral approximation for vertex expansion in high-degree graphs.</description>
+    </item>
+    <item>
       <title>Witnessed Boolean Contracts: Sound Local Distance Guarantees for Approximate Implicit CSG</title>
       <link>http://arxiv.org/abs/2610.39650v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.39650v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.19809</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 -0000</pubDate>
       <description>We present a deterministic polynomial-time algorithm for estimating the volume of a hypercube intersected by a fixed number of constraints of the type $f(x) \leq b$, where $f$ is the sum of univariate functions that are each nonnegative, monotone, and convex. Such constraints include knapsack and norm-ball constraints. The case of the unit hypercube truncated by a single linear constraint (halfspace) is already #P-hard. Given $k$ such constraints in dimension $n$, with total input length of at most $L$ bits, total output length of at most $L_o$ bits, and an error parameter $\varepsilon &gt; 0$, our algorithm computes a $(1 + \varepsilon)$-multiplicative approximation of the volume of their intersection with the unit hypercube $[0,1]^n$ in time poly$_k(n, 1/\varepsilon, L,L_o)$.</description>
-    </item>
-    <item>
-      <title>Euclidean Embedding of Data Using Local Distances</title>
-      <link>https://arxiv.org/abs/2605.19243</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.19243</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 -0000</pubDate>
-      <description>We study the problem of recovering a globally consistent Euclidean embedding of data, given only a local distance graph and propose a method that optimally represents these distances. The method operates solely on a neighborhood graph weighted by pairwise distances, without requiring any prior vector representation of the data. The embedding is obtained by solving a variational problem that matches local, on-graph distances to the Euclidean metric, induced by the differentials of the embedding functions. The resulting Euler-Lagrange equations are derived in a coordinate-free form, enabling direct evaluation of all operators from the distance graph alone. Though non-linear and missing an explicit expression for their non-linearity, these equations are shown to be resolved as an iteratively updated sparse linear problem. The main contributions of the proposed approach are (a) the derivation of the functional equations governing the optimal Euclidean embedding in the continuum, (b) a representation-free formulation that requires only a neighborhood distance graph and no feature vectors and (c) an estimation procedure based exclusively on local graph operations. We experimentally evaluate the resulting non-parametric algorithm on synthetic manifolds and real datasets, demonstrating consistent preservation of local metric structure and neighboring relations, while approximating the global isometric embedding.</description>
-    </item>
-    <item>
-      <title>A Scaling-Parameter Framework for Perimeter and Area in Self-Similar Planar Fractals</title>
-      <link>https://arxiv.org/abs/2605.19128</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.19128</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 -0000</pubDate>
-      <description>The Koch snowflake is a classical example of a planar curve with infinite perimeter enclosing a finite, positive area. Although such examples are well known individually, classical treatments typically analyze each construction in isolation and classify them by similarity dimension. This paper develops a unified parameter-space representation for a class of self-similar planar constructions, organized by two integers -- the number of self-similar pieces $N$ and the inverse linear scale factor $r$ -- together with two derived growth ratios $α= N/r$ and $β= N/r^2$, governing perimeter and area scaling respectively. The $(N,r)$ parameter space is partitioned into three regimes -- $N \le r$, $r &lt; N &lt; r^2$, and $N \ge r^2$ -- corresponding to qualitatively distinct asymptotic behaviors of perimeter and area jointly. Within the intermediate regime $r &lt; N &lt; r^2$, a construction-class refinement distinguishes additive constructions (region bounded by the iterated curve), which yield positive finite asymptotic area under a stated non-overlap assumption, from subtractive constructions (iterated set itself), which yield zero asymptotic area. This records a structural non-equivalence inside the same dimension class that is not visible from $D = \log N / \log r$ alone. Four worked examples illustrate the framework -- the Sierpinski triangle, Sierpinski carpet, Koch snowflake, and a Koch-style construction on a square invented by the author -- and four further constructions are analyzed predictively to demonstrate that diagnostic outputs follow from $(N, r, \text{construction class})$ without re-derivation. The contribution lies in formulation and synthesis: the paper consolidates several classical results into a single diagnostic representation in which, given $(N, r)$ and construction class, the asymptotic behavior of perimeter and area can be inferred directly.</description>
     </item>
   </channel>
 </rss>

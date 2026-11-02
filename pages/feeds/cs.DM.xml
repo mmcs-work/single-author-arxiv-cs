@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Treedepth is NP-Hard on Planar Graphs of Maximum Degree 3</title>
+      <link>http://arxiv.org/abs/2610.42033v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.42033v1</guid>
+      <pubDate>Fri, 30 Oct 2026 17:00:35 +0000</pubDate>
+      <description>Treedepth is an important parameter in algorithmic graph theory. It is known that the problem of computing the treedepth of a graph is NP-hard. It has been an open problem whether treedepth can be computed in polynomial time when the input graph is restricted to be planar, or of bounded degree. Assuming $P \neq NP$, we answer both questions in the negative: Under polynomial-time Turing reductions, it is NP-hard to compute the treedepth of planar graphs with maximum degree 3. This degree bound is best possible, since treedepth can be computed efficiently on graphs of maximum degree 2.</description>
+    </item>
+    <item>
+      <title>The C-3PO Framework: Algorithms for $\#\mathrm{BIS}$-Hard Problems on Graphs with Low Threshold Rank or High Girth</title>
+      <link>http://arxiv.org/abs/2610.42011v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2610.42011v1</guid>
+      <pubDate>Fri, 30 Oct 2026 16:48:33 +0000</pubDate>
+      <description>We give approximate counting and sampling algorithms for spin models on graphs of low threshold rank or high girth. Given any $n$-vertex graph $G$, let $k_η= k_η(G)$ count normalized-Laplacian eigenvalues strictly below $η$. For $\varepsilon &gt; 0$, an $\varepsilon$-approximate counting algorithm outputs an estimate $\widehat Z$ of the partition function $Z$ satisfying $(1-\varepsilon)Z\le\widehat Z\le(1+\varepsilon)Z$ with probability at least $3/4$. An $\varepsilon$-approximate sampling algorithm outputs a configuration whose distribution is within total variation distance $\varepsilon$ of the target distribution. We give the following results: (a) Ferromagnetic Potts. Fix $q\ge2$ and $η\in(0,1]$. There exists $β_0(q,η)$ such that, for every inverse temperature $β\geβ_0$, the zero-field $q$-state Potts model admits approximate counting and sampling algorithms: (i) On arbitrary graphs in time $\exp(O(k_η))\operatorname{poly}(n,1/\varepsilon).$ (ii) Fix $Δ\ge 3$. On $Δ$-regular graphs of girth $g$ in time $\exp(O(n e^{-g})) \operatorname{poly}(n,1/\varepsilon).$ (b) Bipartite hard-core. Fix $Δ\ge3$ and $η\in(0,1]$. There exists $λ_0(Δ,η)$ such that, for every fugacity $λ\geλ_0$, the hard-core model admits approximate counting and sampling: (i) On $Δ$-regular vertex-transitive bipartite graphs in time $\exp(O (k_η))\operatorname{poly}(n,1/\varepsilon).$ (ii) On $Δ$-regular bipartite graphs of girth $g$ in $\exp(O(n e^{- g}))\operatorname{poly}(n,1/\varepsilon).$ All four results follow from verifying the hypotheses of a new framework we call C-3PO. At a high level, the C-3PO algorithm proceeds by enumerating small cuts and reconstructing the original measure through cluster expansions. Underlying the algorithm is an improvement of subspace enumeration methods via active regression.</description>
+    </item>
+    <item>
       <title>Optimal self-orthogonal binary linear codes</title>
       <link>http://arxiv.org/abs/2610.39870v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.39870v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.02585v1</guid>
       <pubDate>Wed, 02 Sep 2026 13:30:10 +0000</pubDate>
       <description>Although almost all graphs are asymmetric -- having no nontrivial global automorphisms -- they may still possess local symmetries in the form of isomorphisms between induced subgraphs, i.e., partial automorphisms. We study such local symmetries via asymmetric depth, defined in terms of the maximum rank of a nontrivial partial automorphism. We prove a tight upper bound on asymmetric depth in the class of planar graphs and identify the extremal graphs: duals of IPR fullerenes attain the maximum already on $47$ vertices. Our main structural result concerns the IPR fullerenes that are neither maximally asymmetric nor symmetric. In such a cage no purely local action realises a low asymmetric depth, and we show that the map which does realise it cannot be confined to a small part of the cage either: neither to a single face, nor behind an interface of at most $5-k$ edges, $k \le 3$ being the deficiency. A cage of asymmetric depth $2$ or $3$ is therefore not asymmetric in one place; it carries a broken symmetry invisible to its automorphism group. Such cages are rare -- under $2\%$ of the asymmetric IPR fullerenes at $n = 118$. In all $727$ of them the largest partial automorphism is a near-mirror reflection, which we state as an explicit conjecture. We also extend the asymmetric depth bound to graphs of higher genus.</description>
-    </item>
-    <item>
-      <title>The Class Edge-Reconstruction Number of a Maximal Planar Graph Is One or Two</title>
-      <link>http://arxiv.org/abs/2609.02389v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.02389v1</guid>
-      <pubDate>Wed, 02 Sep 2026 10:01:41 +0000</pubDate>
-      <description>An edge card of a graph is obtained by deleting one edge, and a class edge-reconstruction number asks for the fewest carefully selected cards that identify the graph when its class is known. We determine the sharp universal bound for maximal planar graphs. Two selected cards always suffice, and the octahedral graph shows that two can be necessary; some maximal planar graphs are already identified by one card. The argument exploits the fact that deleting a flippable edge leaves a single quadrilateral whose two diagonals give the only possible maximal-planar completions. Degree information then rules out the competing completion, with a separate argument for graphs containing a vertex of degree three. This settles a problem posed in a 2010 survey on reconstruction numbers.</description>
-    </item>
-    <item>
-      <title>Logarithmic basis number of graphs</title>
-      <link>http://arxiv.org/abs/2609.02080v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.02080v1</guid>
-      <pubDate>Wed, 02 Sep 2026 04:09:29 +0000</pubDate>
-      <description>The basis number $\mathrm{bn}(G)$ of a graph $G$ is the minimum edge-congestion of a basis of its cycle space. We prove that every finite $n$-vertex multigraph satisfies \[ \mathrm{bn}(G)=O(\log n), \] resolving, for simple graphs, a question of Bazargani, Biedl, Bose, Maheshwari and Miraftab, subsequently stated as a conjecture by Miraftab, Morin and Yuditsky. The argument also yields the cycle-rank refinement \[ \mathrm{bn}(G)=O(\log β(G)), \] where $β(G)$ is the dimension of the cycle space, and a reduction of Lehner and Miraftab, based on a theorem of Richter and Shank, then gives \[ \mathrm{bn}(G)=O(\log g) \] for graphs of Euler genus $g$. These orders are best possible.</description>
     </item>
   </channel>
 </rss>
