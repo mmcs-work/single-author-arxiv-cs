@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Classification of non-Leibnizian Strings</title>
+      <link>http://arxiv.org/abs/2611.01625v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.01625v1</guid>
+      <pubDate>Sun, 01 Nov 2026 06:18:23 +0000</pubDate>
+      <description>Leibnizian ideas in foundations of physics has enjoyed a renewed interest. Cyclic string ontology in Wolfram Model multiway rewriting systems has been found to encode finite dimensional quantum systems where what are called as Leibnizian strings have been employed. It has then become important to classify strings in terms of their ability to correspond to a monadic interpretation à la Leibniz. The definition of Leibnizian strings are rather quite non-linear and for that purpose we classify non-Leibnizian strings for which there is a simpler criterion on maximal neighborhoods of characters. If a string is not non-Leibnizian then it must be Leibnizian. We found out three canonical forms of non-Leibnizian strings and noted that two of them are context-free languages whereas one is not.</description>
+    </item>
+    <item>
+      <title>On Small Universal Reversible Turing Machines</title>
+      <link>http://arxiv.org/abs/2611.00153v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.00153v1</guid>
+      <pubDate>Fri, 30 Oct 2026 07:19:13 +0000</pubDate>
+      <description>A reversible Turing machine (RTM) is a Turing machine in which every instantaneous description has at most one predecessor. Writing URTM(m,n) for a universal RTM with m states and n symbols, we construct URTM(3,600), URTM(4,41), URTM(5,37), URTM(6,30), URTM(7,28), URTM(8,21), and URTM(85,2); each of them has fewer states or fewer symbols than each of the nine URTMs in Morita's book (2017). They come from improved versions of Morita's conversions to three states, to four states, and to two symbols; for example, the improved conversion to three states uses O(mn^2) symbols instead of O(m^2n^3). We also show that the halting problem of RTMs with at most two states is decidable for finite instantaneous descriptions, so that no RTM with at most two states is universal under any notion of universality that reduces the halting problem of Turing machines to it by a computable encoding into finite instantaneous descriptions; in particular, there is no URTM with at most two states in our formalization of Morita's definition. We also show that no three-state, two-symbol RTM is universal in that formalization.</description>
+    </item>
+    <item>
       <title>Re-Ordering the Generalized Hofstadter Functions G, H, and Beyond</title>
       <link>http://arxiv.org/abs/2610.35994v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.35994v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.27399</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 -0000</pubDate>
       <description>Business Process Management (BPM) is concerned with the systematic design, execution, monitoring, and improvement of business processes. Formal grammars have emerged as a particularly fruitful formalism for BPM, offering generative, declarative, and analytical capabilities that are uniquely well-suited to process-oriented concerns. This paper presents a systematic literature review of 34 primary studies at the intersection of formal grammars and BPM. We identify seven research streams: (i) process grammars for organizational process design; (ii) process modeling languages evaluated as grammars under the Bunge-Wand-Weber ontological framework; (iii) production-rule grammars for process structural specification and variant management; (iv) attribute grammars for the declarative specification and distributed execution of workflows; (v) graph grammars for the transformation, generation, and semantic analysis of process models; (vi) grammatical inference for process mining and discovery; and (vii) process algebras as grammar-like compositional frameworks for behavioral specification and verification. For each stream, we synthesize contributions, formalisms employed, and limitations. The review reveals that formal grammars have influenced BPM across every lifecycle phase (from organizational design to formal verification and data-driven discovery) yet the seven streams have developed largely in parallel, without cross-stream synthesis. We identify five corpus-grounded open challenges and argue that a deeper, unified exploitation of grammatical theory holds significant promise for advancing the state of the art in BPM.</description>
-    </item>
-    <item>
-      <title>Token Complexity of Certifying Stochastic-Oracle Reliability</title>
-      <link>https://arxiv.org/abs/2606.24074</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.24074</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Wang~\cite{Wang2026} introduced the Stochastic-Oracle Turing Machine (SOTM) framework and defined token complexity as the minimum expected cost of interacting with a stochastic oracle needed to attain a specified solution quality for a task. This paper develops an analogous notion for certifying the reliability of a stochastic oracle on a given domain. Certification token complexity is the minimum expected token cost required, with controlled error probability, to distinguish oracles that meet a target reliability level from those that fall below a lower reliability threshold. We construct an SPRT-based certification SOTM that queries the oracle, computes binary correctness scores, and stops when the accumulated log-likelihood evidence crosses a decision threshold. The SOTM halts almost surely, satisfies the desired two-sided error guarantee over the reliability regions to be certified, and yields an explicit upper bound on certification token complexity in terms of the reliability thresholds, the error bound, and the expected per-turn token cost. We then establish a matching information-theoretic lower bound: even with adaptive queries, every error-bounded certification SOTM must incur the same leading-order expected token cost as the SPRT-based construction as the prescribed error bound tends to zero. Together, these bounds characterize the leading-order certification token complexity in the small-error regime.</description>
-    </item>
-    <item>
-      <title>On Epimorphisms of Hypergraphic Automata and Input Symbol Semigroups</title>
-      <link>https://arxiv.org/abs/2606.19394</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.19394</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Hypergraphic automata are automata whose state sets and output symbol sets are hypergraphs invariant under the actions of the transition and output functions. Universally attracting objects in the category of such automata are called universal hypergraphic automata; their semigroups of input symbols are algebras of mappings whose properties are tightly linked to the algebraic structure of the automata themselves. This paper establishes a complete characterisation of epimorphisms of universal hypergraphic automata and of their semigroups of input symbols. A central contribution is the introduction of two distinct notions of epimorphism for hypergraphs including weak, strong and the proof that these notions diverge in general but necessarily coincide for the important subclass of $p^*$-hypergraphs, which includes automata whose state hypergraphs and output hypergraphs are projective or affine planes. The main results give necessary and sufficient conditions for a triple $(f, \mathbb{P}_s, g)$ to be an epimorphism of universal hypergraphic automata, expressed in terms of the component maps on the state and output hypergraphs.</description>
     </item>
   </channel>
 </rss>

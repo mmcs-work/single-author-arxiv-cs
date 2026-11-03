@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Pair-Relative Partial Equivariance for Rotation-Robust Keypoint Descriptor Matching</title>
+      <link>http://arxiv.org/abs/2611.02751v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.02751v1</guid>
+      <pubDate>Mon, 02 Nov 2026 08:38:12 +0000</pubDate>
+      <description>Learned keypoint descriptors trained on upright imagery often fail under large in-plane rotation. Steerers address this by applying a single exact SO(2) representation to the descriptor space, but this global group constraint can be too rigid for keypoint descriptors, whose angular responses need not follow a single group representation. We propose pair-relative partial equivariance, which measures equivariance under the empirical distribution of relative rotations in image pairs, and PaSteer, a relaxed descriptor-steering framework that allows the steering map to leave the exact representation manifold while retaining the lightweight, backbone-free design of steering. PaSteer instantiates this relaxation with two variants: an identity-preserving residual steerer (PaSteer-soft) and a free-form Fourier steerer (PaSteer-free). We show that the per-angle optimal linear steerer for a fixed non-equivariant descriptor generally does not obey the group composition law, explaining why exact representations can be suboptimal in the frozen-descriptor regime. On Roto-360, MegaDepth-1500, AIMS, and IMC-PT, PaSteer consistently improves rotation-robust matching over an exact steerer on frozen DeDoDe descriptors, especially under large relative rotations, with minimal upright degradation.</description>
+    </item>
+    <item>
+      <title>On Guarding Line Arrangements</title>
+      <link>http://arxiv.org/abs/2611.02046v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.02046v1</guid>
+      <pubDate>Sun, 01 Nov 2026 16:49:47 +0000</pubDate>
+      <description>We study the problem of guarding a set of straight lines in the plane by selecting a minimum-cardinality set of points such that every line contains at least one selected point. This problem is known to be strongly NP-hard \cite{megiddo}. We investigate approximation algorithms for the problem and analyze their performance guarantees under various structural assumptions on the underlying line arrangement. In particular, we present approximation schemes based on set-cover techniques, relaxation methods, and properties of maximal lines. We establish constant-factor bounds on the approximation ratio for several classes of arrangements and derive relationships between the guarding number and the incidence parameters of the arrangement. Connections with Dirac-type incidence results are also explored.</description>
+    </item>
+    <item>
+      <title>Every $k$-Quasi-Planar Graph Has Linearly Many Edges</title>
+      <link>http://arxiv.org/abs/2611.01509v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.01509v1</guid>
+      <pubDate>Sun, 01 Nov 2026 03:42:37 +0000</pubDate>
+      <description>For every fixed integer $k\ge2$, we prove that every simple graph on $n$ vertices drawn in the plane with no $k$ pairwise crossing edges has at most $C_kn$ edges, where $C_k$ depends only on $k$. We allow any finite number of proper crossings between two edges, including edges with a common endpoint. For $n\ge3$, removing a small disk around each vertex turns the drawing into a family of arcs on a sphere with $n$ boundary circles. Each arc joins two different boundary circles, and different edges have different unordered pairs of endpoint circles. The arcs are therefore essential and pairwise nonhomotopic, with endpoints allowed to move along their boundary circles during a homotopy. Any family of pairwise intersecting lifts to the universal cover projects to distinct graph edges that cross pairwise. Its size is consequently at most $k-1$. Beeker and Lazarovich's theorem on surface patterns then bounds the number of arcs. Their estimate is linear in the size of a triangulation, and an explicit triangulation of the $n$-holed sphere has linearly many edges and triangles.</description>
+    </item>
+    <item>
       <title>A General Theoretical Framework for Transformed Geometric Pattern Matching in Music</title>
       <link>http://arxiv.org/abs/2610.42095v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.42095v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2605.29290</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
       <description>Online change point detection in dynamic graphs requires comparing graphs as they arrive, in time linear in the number of edges, without parametric assumptions. Recent spectral methods address scale via the Kernel Polynomial Method (KPM): SCPD computes Chebyshev moments of the normalized Laplacian, discretizes them into a density-of-states histogram, and scores the histogram with SVD plus cosine similarity. We introduce SWORD, which computes the same moments and instead compares their mean across two adjacent time windows by their $L_1$ distance. On three real-world benchmarks (MIT Reality, AskUbuntu, Enron), this lifts mean $F_1$ from SCPD's $0.27$ to $0.79$, with SCPD failing to detect any change on Enron. A controlled cascading ablation attributes the gap to two design choices: the two-window mean structure (dominant on MIT) and the $L_1$ metric on those mean vectors (dominant on Enron). A bin-width sweep rules out histogram discretization -- SCPD's most visible architectural choice -- as the driver. SWORD inherits SCPD's KPM core, so per-graph cost is $O(KRm)$ with no eigendecomposition, scaling to $86{,}000$-node networks. With per-dataset tuning it matches the offline TIRE autoencoder on mean $F_1$ and attains the highest precision among online methods ($0.91$, only $2$ false positives across the three benchmarks).</description>
-    </item>
-    <item>
-      <title>Embeddings of $k$-complexes in $2k$-manifolds and minimum rank of partial symmetric matrices</title>
-      <link>https://arxiv.org/abs/2112.06636</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2112.06636</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 -0000</pubDate>
-      <description>Let $K$ be a $k$-dimensional simplicial complex having $n$ faces of dimension $k$, and $M$ a closed $(k-1)$-connected PL $2k$-dimensional manifold. We prove that for $k\ge3$ odd $K$ embeds into $M$ if and only if there are $\bullet$ a skew-symmetric $n\times n$-matrix $A$ with integer entries, whose rank over $\mathbb Q$ does not exceed $rk H_k(M;\mathbb Z)$, $\bullet$ a general position PL map $f:K\to\mathbb R^{2k}$, and $\bullet$ orientations on $k$-faces of $K$ such that for any nonadjacent $k$-faces $σ,τ$ of $K$ the entry $A_{σ,τ}$ equals to the algebraic intersection of $fσ$ and $fτ$. We prove some analogues of this result (for any parity of $k$), including those for $\mathbb Z_2$- and $\mathbb Z$-embeddability. Our results generalize the Bikeev-Fulek-Kyn\v cl criteria for the $\mathbb Z_2$- and $\mathbb Z$-embeddability of graphs to surfaces, and are related to the Harris-Krushkal-Johnson-Paták-Tancer criteria for the embeddability of $k$-complexes into $2k$-manifolds. The main novelty of this paper is passing from the cohomology condition of Paták-Tancer to the simpler extendability of some intersection function to a low-rank matrix (defined in the paper using the idea of Fulek-Kyn\v cl).</description>
-    </item>
-    <item>
-      <title>Sloan's Analytical Gömböc at Published $β$: A Strict-Convexity-Constrained Reanalysis</title>
-      <link>https://arxiv.org/abs/2604.17120</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.17120</guid>
-      <pubDate>Sat, 23 May 2026 00:00:00 -0000</pubDate>
-      <description>Varkonyi and Domokos (2006) proved that convex homogeneous bodies with exactly one stable and one unstable equilibrium point exist. Sloan (2023) gave the first analytical parameterization, with radial function $R(θ,ϕ)$ having exactly two critical points on $S^2$. This is the v2 amendment-of-record of arXiv:2604.17120. v1 claimed Sloan's parameterization does not produce mono-monostatic bodies and reported a 13-member catalog of Fourier/radial extensions certified at ECS=1 via mesh-vertex drainage-basin analysis. Following correspondence with P. L. Varkonyi (BME), an analytical verification suite was built around the Varkonyi-Gauss identity. Finding 1: Sloan's parameterization does produce mono-monostatic bodies in a strictly-convex sub-regime ($β\lesssim 0.036$), where $K_{\min} &gt; 0$ and the identity certifies ECS=1. v1 missed this because its mesh-vertex oracle over-counted on shallow COM-height landscapes. At Sloan's published $β=0.05$, strict convexity is lost ($K_{\min}=-0.569$; $K&lt;0$ over 4.01% of surface); the identity's precondition fails. v1's "global surface information" mechanism is replaced by the strict-convexity precondition. Finding 2: Of v1's 13 catalog instances only Phase-1 ($β=0.023149$, $a_1=0.234433$, $k=1$) survives identity-based verification; the remaining twelve were per-$k$ optimizer extrema overshooting the strict-convex boundary. Probing the regime interior verifies further mono-monostatic bodies in $k=2$ and $k=3$ sub-families: the verified set is an open regime in $(β, a_1, k)$, not a discrete list. Finding 3: v1's ECS=1 readings for the 9 radial-family members reflected drainage-basin merging; the $r=0.9993$ gentleness-robustness correlation is retracted.</description>
-    </item>
-    <item>
-      <title>Deterministic Volume Estimation of Truncated Hypercubes</title>
-      <link>https://arxiv.org/abs/2605.19809</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.19809</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 -0000</pubDate>
-      <description>We present a deterministic polynomial-time algorithm for estimating the volume of a hypercube intersected by a fixed number of constraints of the type $f(x) \leq b$, where $f$ is the sum of univariate functions that are each nonnegative, monotone, and convex. Such constraints include knapsack and norm-ball constraints. The case of the unit hypercube truncated by a single linear constraint (halfspace) is already #P-hard. Given $k$ such constraints in dimension $n$, with total input length of at most $L$ bits, total output length of at most $L_o$ bits, and an error parameter $\varepsilon &gt; 0$, our algorithm computes a $(1 + \varepsilon)$-multiplicative approximation of the volume of their intersection with the unit hypercube $[0,1]^n$ in time poly$_k(n, 1/\varepsilon, L,L_o)$.</description>
     </item>
   </channel>
 </rss>

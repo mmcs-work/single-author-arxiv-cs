@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Boosted Physics-Informed Neural Networks for Solving Homogeneous and Non-Homogeneous Lane-Emden Type Equations</title>
+      <link>http://arxiv.org/abs/2611.00701v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.00701v1</guid>
+      <pubDate>Sat, 31 Oct 2026 06:51:14 +0000</pubDate>
+      <description>The Lane-Emden Equation is a class of nonlinear differential equations commonly used to model phenomena in astrophysics and mathematical physics, such as stellar structure and thermal behavior in polytropic gas spheres. This study presents a novel hybrid framework that integrates Physics-Informed Neural Networks (PINNs) with boosting methods to enhance the accuracy and robustness of solutions for Lane-Emden type differential equations. Standard PINNs leverage physical laws encoded within the loss function, but their predictive performance can be constrained by optimization challenges and approximation errors. To address this, we introduce a post-processing boosting stage where the residual errors from the PINN prediction are modeled using some regression algorithms - including LightGBM, Random Forest, XGBoost, and Support Vector Regression (SVR). The outputs from these boosted models are aggregated to generate a corrected, high-fidelity prediction. The proposed methodology is systematically validated through quantitative metrics and comparative analysis against the standard PINN baseline. The results demonstrate that the boosted PINN framework significantly reduces prediction error, and improves generalization, offering a powerful and flexible approach for solving scientific and engineering problems governed by differential equations.</description>
+    </item>
+    <item>
       <title>Memory and Recall of Color Images Using Neural Networks-1 - The Cue-Ball Model based on the Associative Memory Mechanism -</title>
       <link>http://arxiv.org/abs/2610.41108v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.41108v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.21631</guid>
       <pubDate>Sat, 18 Jul 2026 00:00:00 -0000</pubDate>
       <description>Biological evolution sustains complex dynamics without any fitness function, yet virtually all evolutionary algorithms depend on one. Genesis is an open-source platform designed to test, empirically, what an artificial system needs to sustain evolutionary dynamics after complete fitness removal. Evolution in Genesis is governed by physical constraints, relational dominance, and adaptive regulation - no scalar fitness, no designer-specified objectives. Across experiments totalling over one million evolutionary generations, Genesis has: (i) shown that constraint-driven selection can sustain evolutionary activity after complete fitness removal (7/12 runs; Wilson 95% CI [30.2%, 82.5%]; p&lt;0.01, Cohen's d=1.47 vs. baselines); (ii) produced a sham-controlled negative result demonstrating that niche construction alone does not break the complexity plateau; and (iii) provided preliminary evidence that speciation-protected niche construction initiates structural diversification that unprotected secretion cannot. These findings establish empirical boundaries for fitness-free evolution and open a new direction: meta-evolution of physics, in which the laws governing an evolutionary system are themselves evolved.</description>
-    </item>
-    <item>
-      <title>Evolving Self-Organising Agents Without Fitness: Three Falsifiable Experiments from Constraint-Driven Selection to Developmental Encoding</title>
-      <link>https://arxiv.org/abs/2607.21630</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.21630</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Can evolutionary dynamics characteristic of biological development arise without a designer-specified fitness function? We present Genesis, a platform in which agents inhabit a Gray-Scott reaction-diffusion substrate and evolve under physical constraints alone. Three successive experimental cycles, each testing one falsifiable hypothesis, show: (1) constraint-driven selection sustains evolutionary activity after complete fitness removal but reaches a hard phenotypic complexity ceiling; (2) agent-mediated niche construction via chemical secretion is real but causally insufficient to break that ceiling; and (3) replacing the fixed-alphabet genome with a Compositional Pattern Producing Network (CPPN) indirect encoding, protected by NEAT-style speciation, produces the first evidence of progressive structural complexification in a fitness-free system. Null results are treated as precise, informative answers rather than failures, yielding reusable diagnostic tools and a sham-control protocol applicable to any open-ended evolution evaluation pipeline.</description>
     </item>
   </channel>
 </rss>

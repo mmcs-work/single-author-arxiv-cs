@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>High-Throughput Private Information Retrieval with on-CPU Accelerators</title>
+      <link>http://arxiv.org/abs/2611.02376v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.02376v1</guid>
+      <pubDate>Mon, 02 Nov 2026 01:43:11 +0000</pubDate>
+      <description>Private information retrieval (PIR) hides which record a client retrieves by scanning the entire database, and batching is an effective technique to improve throughput by sharing this scan across queries. However, existing CPU-based solutions gain little from batching because each query still requires its own multiplications, and vector instructions perform only a few at a time. GPUs and other discrete accelerators can accelerate these computations, but require extra hardware and can constrain database size due to their limited memory capacity. In this paper, we present AltoPIR, the first PIR system that leverages on-CPU matrix accelerators such as Intel AMX. AltoPIR keeps the accelerator fed from the CPU caches, reading each database byte from memory once for all queries in a batch and never writing intermediate products to memory. This enables high-performance PIR through efficient batching without requiring discrete accelerators. Our evaluation shows that AltoPIR achieves up to 50.1x higher throughput than existing CPU-based solutions and serves databases larger than a GPU's memory.</description>
+    </item>
+    <item>
       <title>Tracekit Box: Running AI Agents in Micro-VMs Where Every Way Out Is Decided and Signed</title>
       <link>http://arxiv.org/abs/2610.38458v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.38458v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1905.09543</guid>
       <pubDate>Thu, 23 May 2019 00:00:00 -0000</pubDate>
       <description>Windows OS kernel memory is one of the main targets of cyber-attacks. By launching such attacks, hackers are succeeding in process privilege escalation and tampering with users data by accessing kernel mode memory. This paper considers a new example of such an attack, which results in access to the files opened in an exclusive mode. Windows built-in security features prevent such legal access, but attackers can circumvent them by patching dynamically allocated objects. The research shows that the Windows 10, version 1809 x64 is vulnerable to this attack. The paper provides an example of using MemoryRanger, a hypervisor-based solution to prevent such attack by running kernel-mode drivers in isolated kernel memory enclaves.</description>
-    </item>
-    <item>
-      <title>A Survey on Tiering and Caching in High-Performance Storage Systems</title>
-      <link>https://arxiv.org/abs/1904.11560</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1904.11560</guid>
-      <pubDate>Thu, 25 Apr 2019 00:00:00 -0000</pubDate>
-      <description>Although every individual invented storage technology made a big step towards perfection, none of them is spotless. Different data store essentials such as performance, availability, and recovery requirements have not met together in a single economically affordable medium, yet. One of the most influential factors is price. So, there has always been a trade-off between having a desired set of storage choices and the costs. To address this issue, a network of various types of storing media is used to deliver the high performance of expensive devices such as solid state drives and non-volatile memories, along with the high capacity of inexpensive ones like hard disk drives. In software, caching and tiering are long-established concepts for handling file operations and moving data automatically within such a storage network and manage data backup in low-cost media. Intelligently moving data around different devices based on the needs is the key insight for this matter. In this survey, we discuss some recent pieces of research that have been done to improve high-performance storage systems with caching and tiering techniques.</description>
     </item>
   </channel>
 </rss>

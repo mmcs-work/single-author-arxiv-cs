@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>GPU-Native Real-Time Textured Mesh Reconstruction with Seam-Aware Multi-View Radiometric Correction</title>
+      <link>http://arxiv.org/abs/2611.03033v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.03033v1</guid>
+      <pubDate>Mon, 02 Nov 2026 12:30:21 +0000</pubDate>
+      <description>We present a GPU-native volumetric-video system for real-time reconstruction of graphics-compatible textured triangle meshes from multiple RGB-D sensors. Existing TSDF systems accelerate fusion and mesh extraction, but extending them to per-frame textured meshing adds CPU mesh processing, CPU-side texturing work, or extra CPU-GPU transfers between stages. After input staging, our method keeps the reconstruction and texturing stages (TSDF fusion, Marching Cubes, connected-component noise removal, view-based texture mapping, inpainting, and radiometric seam correction) resident on the GPU; no intermediate mesh or image data returns to the host between these stages. A fixed-size-array representation of mesh topology gives constant-time neighbor access on the GPU and makes the downstream mesh-level operations data-parallel. Because we texture each face from a single camera, exposure seams that vary smoothly across each image remain; we estimate a per-camera low-frequency gain field and bake it into the atlas on the GPU. On the CMU Panoptic dataset, our method is faster than the baselines at every tested voxel resolution and number of sensors, achieves peak speedups of more than an order of magnitude over CUDA-accelerated nvblox and CPU-based Open3D, and approaches an offline textured-meshing baseline in perceptual re-rendering quality.</description>
+    </item>
+    <item>
       <title>Blendshape Generation for Models with Disconnected Parts: Adding ARKit/MediaPipe Blendshapes to Anime-Style Character Models</title>
       <link>http://arxiv.org/abs/2610.35076v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.35076v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.21785</guid>
       <pubDate>Sat, 18 Oct 2025 00:00:00 -0000</pubDate>
       <description>Pose estimation is essential for many applications within computer vision and robotics. Despite its uses, few works provide rigorous uncertainty quantification for poses under dense or learned models. We derive a closed-form lower bound on the covariance of camera pose estimates by treating a differentiable renderer as a measurement function. Linearizing image formation with respect to a small pose perturbation on the manifold yields a render-aware Cramér-Rao bound. Our approach reduces to classical bundle-adjustment uncertainty, ensuring continuity with vision theory. It also naturally extends to multi-agent settings by fusing Fisher information across cameras. Our statistical formulation has downstream applications for tasks such as cooperative perception and novel view synthesis without requiring explicit keypoint correspondences.</description>
-    </item>
-    <item>
-      <title>Automated document processing system for government agencies using DBNET++ and BART models</title>
-      <link>https://arxiv.org/abs/2510.13303</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.13303</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 -0000</pubDate>
-      <description>An automatic document classification system is presented that detects textual content in images and classifies documents into four predefined categories (Invoice, Report, Letter, and Form). The system supports both offline images (e.g., files on flash drives, HDDs, microSD) and real-time capture via connected cameras, and is designed to mitigate practical challenges such as variable illumination, arbitrary orientation, curved or partially occluded text, low resolution, and distant text. The pipeline comprises four stages: image capture and preprocessing, text detection [1] using a DBNet++ (Differentiable Binarization Network Plus) detector, and text classification [2] using a BART (Bidirectional and Auto-Regressive Transformers) classifier, all integrated within a user interface implemented in Python with PyQt5. The achieved results by the system for text detection in images were good at about 92.88% through 10 hours on Total-Text dataset that involve high resolution images simulate a various and very difficult challenges. The results indicate the proposed approach is effective for practical, mixed-source document categorization in unconstrained imaging scenarios.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Deployment-constrained key estimation with a DSP-guided transformer reranker</title>
+      <link>http://arxiv.org/abs/2611.02408v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.02408v1</guid>
+      <pubDate>Mon, 02 Nov 2026 02:29:39 +0000</pubDate>
+      <description>Local music applications estimate key during library import and benefit from an analyzer that is small, fast, and runs in-process. We start from a compact chroma-template key analyzer that fits this budget but lags behind learned references. Learned systems reach higher accuracy, but their installed model and runtime dependencies can occupy tens to hundreds of megabytes. We present key lime, a 21.5k-parameter DSP-guided transformer reranker with a 115 KB model artifact and a 76.7 MB installed footprint, including the extracted ONNX Runtime. It adds 0.32 ms per track to deterministic DSP scoring. Trained from labels on 4,040 FMAK tracks, with 449 tracks for validation and 1,000 disjoint FMAKv2 tracks held out for evaluation, it improves MIREX from 61.08 to 73.55 +/- 0.46 and exact accuracy from 52.30 to 67.07 +/- 0.65 over three seeds (mean +/- population SD). It approaches a same-manifest local madmom KeyCNN reference at 74.16 MIREX. A 12-parameter circular input stage matches the accuracy range of a 468-parameter linear input projection.</description>
+    </item>
+    <item>
+      <title>8 Bits to End the Loudness War: Lossless Floating-Point Compression for Audio Streams</title>
+      <link>http://arxiv.org/abs/2611.00732v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.00732v1</guid>
+      <pubDate>Sat, 31 Oct 2026 08:18:42 +0000</pubDate>
+      <description>We present a native extension to the Free Lossless Audio Codec (FLAC) providing lossless compression for IEEE 754 single-precision (binary32) floating-point audio, alongside a survey and empirical benchmark of existing floating-point compression methods. While professional recording hardware increasingly adopts 32-bit float converters and digital audio workstations process sound exclusively in floating-point math, consumer distribution remains constrained to fixed-point integer PCM. Through Dynamic Positional Alignment (DPA), our implementation achieves approximately 44.1% compression ratios on natural multi-stage ADC recordings--matching the storage footprint of standard 24-bit integer FLAC--and approximately 60.2% on complex digital workstation masters. By preserving dynamic peaks beyond 0 dBFS, the format also allows listeners to undo clipping, providing a practical technical path away from the loudness war with virtually no storage overhead. We do not claim to introduce a fundamentally new compression paradigm; our approach is conceptually similar to the floating-point mechanism in WavPack (which remains undocumented in published literature). Instead, this paper compares existing methods, provides theoretical grounding for why they succeed or fail, benchmarks current codec implementations, and contributes a reference implementation of a proven method within the FLAC ecosystem.</description>
+    </item>
+    <item>
       <title>A General Theoretical Framework for Transformed Geometric Pattern Matching in Music</title>
       <link>http://arxiv.org/abs/2610.42095v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.42095v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.12517</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
       <description>A common intuition holds that a region's music mirrors the temperament of its people, so that melancholic melodies mark melancholic populations. We test the measurable half of that intuition and reject the inferential half. Using the Essen Folksong Collection, a corpus of thousands of notated folk melodies, we extract real melodic and affect-related features from 2393 deduplicated melodies spanning 16 countries and 7 geographic regions, with the analysis performed on symbolic scores rather than audio. The mode of each melody is computed with a key-finding algorithm rather than read from the file, because the collection's own documentation warns its major and minor labels are unreliable. Cross-country differences in melodic structure are large and highly significant. All 8 tested features differ across countries at p&lt;0.001, with the leap-related features reaching p&lt;10^-90, and China carries a distinctive wide-leap, high-activity signature (arousal composite +1.24 standard deviations, mean absolute interval 2.77 semitones against Germany's 2.17). We then test the inferential half. We correlate the regional musical-affect measures with two published, validated national indices, the World Happiness Report ladder score and the Hofstede individualism index. None of the 6 correlations is significant (0 of 6). The geography of musical affect is real and measurable, but it does not predict how happy or how individualist a population is, and any claim that it does is an ecological fallacy. We release the full extraction and analysis pipeline, and a fail-closed checker re-derives every number in this paper from the data.</description>
-    </item>
-    <item>
-      <title>An introduction to pitch strength in contemporary popular music analysis and production</title>
-      <link>https://arxiv.org/abs/2506.07473</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.07473</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Music information retrieval distinguishes between low- and high-level descriptions of music. Current generative AI models rely on text descriptions that are higher level than the controls familiar to studio musicians. Pitch strength, a low-level perceptual parameter of contemporary popular music, may be one feature that could make such AI models more suited to music production. Signal and perceptual analyses suggest that pitch strength (1) varies significantly across and inside songs; (2) contributes to both small- and large-scale structure; (3) contributes to the handling of polyphonic dissonance; and (4) may be a feature of upper harmonics made audible in a perspective of perceptual richness.</description>
-    </item>
-    <item>
-      <title>Trajectory Variance: An Unsupervised Measure of Developmental Vocal Plasticity in Birdsong</title>
-      <link>https://arxiv.org/abs/2607.03496</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.03496</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 -0000</pubDate>
-      <description>How much does a vocalization change over the course of development? We propose trajectory variance, a per-vocalization plasticity score that answers this question without type labels. A displacement model learns to predict age-conditioned shifts in autoencoder latent space; the variance of its predictions across target ages quantifies how much each vocalization would change if produced at different developmental stages. Evaluated on three zebra finches (183K-274K vocalizations, 40-101 days post-hatch), trajectory variance separates learned song syllables from innate calls (Cohen's d = 0.29-0.57, AUC = 0.58-0.67, after controlling for duration), while no nonparametric baseline achieves consistent separation. Trajectory variance also correlates with spectral flatness across all three birds (r = -0.48 to -0.75): more plastic vocalizations tend to have more tonal, structured spectra.</description>
     </item>
   </channel>
 </rss>

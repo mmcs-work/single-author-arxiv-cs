@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Constructing an Artworld Influencers Network by Mining Social Media</title>
+      <link>http://arxiv.org/abs/2611.02657v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.02657v1</guid>
+      <pubDate>Mon, 02 Nov 2026 07:16:12 +0000</pubDate>
+      <description>The author shows a methodology for constructing a network map of the artworld. The tweets posted by a manually comprised set of exemplar artworld actors and Natural Language Processing (NLP) methods are used to identify significant artworld actors, including those that do not own a Twitter account. Identified artworld actors form communities detected with the Louvain method, and their authority is evaluated with the HITS centrality method. The resulting artworld network exhibits the ability, starting with a small set of exemplar actors, to identify new artworld actors and provides a wealth of data that would be very hard to collect otherwise.</description>
+    </item>
+    <item>
+      <title>Theoretical relations between basic centrality measures in real-world networks</title>
+      <link>http://arxiv.org/abs/2611.01957v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.01957v1</guid>
+      <pubDate>Sun, 01 Nov 2026 14:44:38 +0000</pubDate>
+      <description>We establish new relationships among several fundamental measures of real-world networks, including the average clustering coefficient, the global clustering coefficient, the average shortest-path length and degree centrality, closeness centrality, betweenness centrality and ksi-centrality. We further develop the theory of $j$-neighborhood centrality, which encompasses degree centrality and ksi-centrality as special cases.</description>
+    </item>
+    <item>
+      <title>Similarity-Weighted Leiden-CPM Clustering of a 7.4-Million-Node Biomedical Citation Graph: Weight Alignment, Scale, and Sparsity</title>
+      <link>http://arxiv.org/abs/2611.01049v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.01049v1</guid>
+      <pubDate>Sat, 31 Oct 2026 15:42:33 +0000</pubDate>
+      <description>Clustering citation networks into research communities supports science mapping, research evaluation, and the analysis of funding portfolios. Biomedical articles also carry metadata, such as MeSH terms, publication year, and abstracts, that can be turned into similarity-based edge weights for Leiden clustering under the Constant Potts Model (CPM). Studies of hybrid relatedness compare the accuracy of such clusterings, but how the weights interact with the CPM resolution parameter on a large graph is less clear. Here it is shown that, on a citation network derived from the cell biology research literature (7.4 million nodes, 57.5 million edges), the effect of the weights is governed mainly by their scale and by edges of weight zero, and that, once these are controlled, weighting gives modestly more coherent clusters. Edges were weighted with seven topological and semantic similarity features and clustered with Leiden-CPM, using a method updated to fix a bug in how earlier code attached weights to edges. Mean weights of 0.0015 to 0.23 raised the effective resolution 4- to 650-fold; dividing by the mean restored most of the coverage, except for topological weightings, in which the 47% of edges with weight zero hold most of it. At equal coverage, weighted clusters were more coherent than unweighted ones, also on features outside the weight. For weighted CPM clustering, weights should therefore be attached to edges by key, normalized or reported with their effective resolution, and checked for zero-weight edges.</description>
+    </item>
+    <item>
+      <title>Building Weighted PubMed Citation Graphs at Scale: A Pipeline and an Audit of Edge-Similarity Features</title>
+      <link>http://arxiv.org/abs/2611.01044v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.01044v1</guid>
+      <pubDate>Sat, 31 Oct 2026 15:34:51 +0000</pubDate>
+      <description>Studies of scientific literature often combine citation links with article metadata, but the data preparation needed to do so at the scale of millions of papers is laborious and error-prone. This paper describes a pipeline that turns PubMed metadata and a citation network into a graph whose edges carry seven similarity features: bibliographic coupling and co-citation (each as a count and as a Jaccard coefficient), publication-year proximity, MeSH-term similarity, and similarity of MedCPT title-abstract embeddings. Applied to a citation network derived from the cell biology research literature, the pipeline yields 7,445,898 nodes and 57,512,086 edges with complete year, MeSH, title, and abstract metadata. The paper reports how nodes are matched across sources, how duplicate identifiers are resolved, and which intermediate tables grew to hundreds of gigabytes. An audit of the full feature table shows that 47.2% of the edges share neither references nor citing documents, so their topological features are zero, and that the MeSH feature is nonzero on only 0.28% of edges. Where both kinds of signal exist, they agree: edges with higher coupling also have more similar abstracts and closer publication years. In a pilot, replacing the median by a mean or best-match aggregation makes the MeSH feature nonzero on nearly all article pairs, and near-identical texts point to possible duplicate records that identifier checks miss. The parsing, graph-construction, and feature code are public; the paper states which data are released and which are not. A companion paper uses the resulting weighted graph for clustering.</description>
+    </item>
+    <item>
       <title>Serial Rug-Pull-Like Exits on Pump.fun: Team-Level Evidence and Its Sensitivity to Team Construction</title>
       <link>http://arxiv.org/abs/2610.41597v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.41597v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.05954</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
       <description>Understanding the processes behind the evolution of complex networks is a key objective in network science. An effective framework for tackling this challenge is network model selection, which involves finding the model from a set of candidates that best explains a given network. This book is a systematic review of methods for this purpose. Each method is outlined in three parts: its core principle (used to organize methods into four categories), other relevant details including my own observations, and software availability. The book provides a comprehensive overview of the state-of-the-art in network model selection and concludes by exploring future directions. A unified, optimal method could identify the mechanisms that shape real-world networks more precisely than any current approach. This work represents the first step toward developing such an optimal method. It will be a valuable resource for students and researchers in network science.</description>
-    </item>
-    <item>
-      <title>Missing Links in Public Email and Covert Networks: A Comparative Evaluation of Link Prediction, Hyperlink Prediction, and ERGM Estimation</title>
-      <link>https://arxiv.org/abs/2605.22606</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.22606</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
-      <description>We study missing-link inference in partially observed networks by systematically comparing dyadic link prediction (LP) with hyperlink prediction (HP) and an estimation-based ERGM comparator. LP serves as the primary baseline, using classical heuristics computed on the observed graph. HP extends this framework by scoring candidate higher-order structures (cliques) via lifted dyadic scores and via the CHEbyshev Spectral HyperlInk pREdictor (CHESHIRE). All methods are evaluated under a common masking protocol that removes dyadic evidence induced by held-out hyperlinks to ensure comparability. Across public email and covert-network datasets, LP remains strong for dyadic recovery, while HP -- particularly CHESHIRE -- provides gains when the inferential target is higher-order group structure. ERGMs offer an interpretable dependence-based complement through conditional tie probabilities. The contribution is a comparative, reproducible evaluation clarifying when LP, HP, and ERGM estimation are most appropriate under network missingness.</description>
-    </item>
-    <item>
-      <title>Two-Path Operators, Triadic Decompositions, and Majorized Quotients for Ego-Centered Network Compression</title>
-      <link>https://arxiv.org/abs/2603.10258</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2603.10258</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Two-paths (wedges) are the elementary combinatorial objects behind clustering, triadic closure, redundancy, and brokerage. Motivated by a two-path formalism that links Burt's structural holes to node-centered ego networks, we develop an operator viewpoint in which wedge incidence induces a canonical ``two-walk'' matrix and a unique decomposition into an edge--supported (triadic) part and a nonedge-supported (open) part. We then study quotient/contraction constructions designed to compress collections of dominating ego networks together with selected ``traversing'' nodes, and we prove a two--walk transfer theorem under contraction, establishing an inequality with an explicit nonnegative error term and an equality characterization in terms of a wedge--equitable partition. Finally, we illustrate the theory on ten benchmark graphs and their ego-traversing contractions using table-driven diagnostics.</description>
-    </item>
-    <item>
-      <title>Bernoulli CUSUM and Bayes-Optimal Detection Ceilings for Trust Fraud in Sparse Rating Networks</title>
-      <link>https://arxiv.org/abs/2606.05090</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.05090</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Sequential trust detection in rating networks relies on continuous observation models that fail on real data. On Bitcoin-OTC, 56\% of ratings take a single value under standard mapping, breaking the distributional assumptions that parametric detectors require. This paper makes three contributions. It derives a Bayes-optimal F1 detection ceiling for per-node sequential detectors using empirically measured observation parameters. At Bitcoin-OTC's median in-degree of 2, this ceiling falls to 0.451 for strategic attacks, explaining why unsupervised methods cluster near $F1 \approx 0.4$. The analysis shows that detector-model matching, not information content, determines performance: binary models retain 86\% of mutual information while enabling exact parametric fit. A dual-regime architecture is presented where Bernoulli CUSUM detects behavioral shifts and triggers asymmetric scoring. Ablation reveals a co-design constraint: the modulation mechanism improves AUC by 0.030 on binary observations but degrades it by 0.094 on continuous observations. The combined system achieves AUC 0.749 on Bitcoin-OTC and 0.796 on Bitcoin-Alpha, beating GaaSTrust on all 8 attacks ($p &lt; 0.003$), with founder-label AUC of 0.999.</description>
-    </item>
-    <item>
-      <title>Structural properties of the implicit function defined by an integral self-consistency equation</title>
-      <link>https://arxiv.org/abs/2606.04243</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.04243</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
-      <description>We study the integral equation $\int_0^m ηρ(η)/(C-η)\,dη= 1$ with $C&gt;m$, where $ρ$ is a $C^1$ probability density on $[0,M]$ vanishing polynomially at $η=M$. Setting $\mathcal{I}^+(m) := \lim_{C \downarrow m}\int_0^m ηρ(η)/(C-η)\,dη$ and $Ω:= \{m \in (0,M) : \mathcal{I}^+(m) &gt; 1\}$, the equation determines $C$ implicitly as a function of $m$ on $Ω$, and our object of study is the dimensionless ratio $β(m) := C(m)/m$. Writing $h(η) := ηρ(η)$, our main theorem establishes openness of $Ω$, $C^1$-smoothness of $β$, a sign formula identifying $β'(m)$ with a positively-weighted integral of $dh/d\lnη$, transfer of monotonicity from $h$ to $β$, and existence of an interior critical point of $β$ when $h$ is unimodal and two technical hypotheses hold. Numerically, $β$ has a single critical point in seven log-concave test densities (mostly Beta-type), in support of a separate uniqueness conjecture. A bimodal density that violates both unimodality and log-concavity exhibits three critical points; this shows that dropping the two hypotheses jointly admits multiple critical points, but does not separate their roles.</description>
     </item>
   </channel>
 </rss>
