@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Parallel Sparse Identification of Nonlinear Dynamics in Python: Task- and Data-Parallel SINDy with Numba, OpenMP, Threads and Multiprocessing for the Lorenz and Rössler Systems</title>
+      <link>http://arxiv.org/abs/2611.05215v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05215v1</guid>
+      <pubDate>Tue, 03 Nov 2026 17:01:26 +0000</pubDate>
+      <description>The sparse identification of nonlinear dynamics (SINDy) recovers interpretable governing equations from time-series data by sparse regression over a library of candidate functions. As data sets, candidate libraries and the number of repeated fits grow, the cost of SINDy becomes dominated by the evaluation of the library matrix and its least-squares problems. We present an open-source Python implementation of SINDy in which a single set of loop-based kernels is just-in-time compiled with Numba and executed on a shared-memory multicore node by four interchangeable back ends: Numba prange, OpenMP directives through PyOMP, Python threads that release the global interpreter lock, and multiprocessing with shared memory. The normal equations are accumulated in one cache-blocked pass over the data, with an automatic fallback to a tall-skinny QR reduction for ill-conditioned problems. Two decompositions are studied on the Lorenz and Rössler systems: an ensemble (task-parallel) workload of 960 independent identifications and a library (data-parallel) workload of one trajectory with $2\times10^7$ samples and a fifth-order library of 56 candidate terms. All back ends recover the exact sparsity pattern in every identification, with coefficient errors identical to PySINDy. On a dual-socket Intel Xeon E5-2650 v4 node of the University of Houston-Downtown HPC cluster (24 cores, 48 hardware threads), the compiled serial code is 4.3-5.6x faster than PySINDy, the parallel back ends reach speed-ups of 14.8-20.3 on 24 cores (parallel efficiency 0.61-0.84), and the overall time to solution is reduced by up to 117x with respect to PySINDy. We analyse the differences between the back ends, the effect of the two sockets and of hyper-threading, and give practical recommendations.</description>
+    </item>
+    <item>
       <title>Beyond atol and rtol: Sound Test Oracles for Low-Precision GPU Kernels</title>
       <link>http://arxiv.org/abs/2610.38983v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.38983v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.13427</guid>
       <pubDate>Wed, 15 Oct 2025 00:00:00 -0000</pubDate>
       <description>Sparse matrix vector multiplication (SpMV) is a fundamental kernel in scientific codes that rely on iterative solvers. In this first part of our work, we present both a sequential and a basic MPI parallel implementations of SpMV, aiming to provide a challenge problem for the scientific software verification community. The implementations are described in the context of the PETSc library.</description>
-    </item>
-    <item>
-      <title>An Effective Method for Solving a Class of Transcendental Diophantine Equations</title>
-      <link>https://arxiv.org/abs/2510.11753</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.11753</guid>
-      <pubDate>Sun, 12 Oct 2025 00:00:00 -0000</pubDate>
-      <description>This paper investigates the exponential Diophantine equation of the form $a^x+b=c^y$, where $a, b, c$ are given positive integers with $a,c \ge 2$, and $x,y$ are positive integer unknowns. We define this form as a "Type-I transcendental diophantine equation." A general solution to this problem remains an open question; however, the ABC conjecture implies that the number of solutions for any such equation is finite. This work introduces and implements an effective algorithm designed to solve these equations. The method first computes a strict upper bound for potential solutions given the parameters $(a, b, c)$ and then identifies all solutions via finite enumeration. While the universal termination of this algorithm is not theoretically guaranteed, its heuristic-based design has proven effective and reliable in large-scale numerical experiments. Crucially, for each instance it successfully solves, the algorithm is capable of generating a rigorous mathematical proof of the solution's completeness.</description>
     </item>
   </channel>
 </rss>

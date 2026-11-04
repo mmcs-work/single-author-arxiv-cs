@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Solving the Nonlinear Westervelt Equation in Ultrasound Propagation Using Physics-Informed Neural Networks</title>
+      <link>http://arxiv.org/abs/2611.05130v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05130v1</guid>
+      <pubDate>Tue, 03 Nov 2026 16:14:10 +0000</pubDate>
+      <description>Modeling the nonlinear acoustic wave propagation in biological tissues needs accuracy, especially in ultrasound imaging and therapeutic applications. The 1D Westervelt equation, \( p_{xx} - p_{tt} + γ\, p_{ttt} + η\,(p^{2})_{tt}=0, \) could be used to describe a finite-amplitude ultrasound propagation in these tissues. This equation accounts for nonlinearity, \(η\), and attenuation, \(γ\). To solve this equation, we observe that traditional solvers may struggle to do so correctly. This is due to the difficulties arising from the nonlinear nature of the equation. We solve the equation by defining three synthetic cases - linear (\(η=0.001\), \(γ=10^{-6}\)), shock-dominated (\(η=0.02\), \(γ=10^{-6}\)), and dissipation-dominated (\(η=0.01\), \(γ=5\times10^{-4}\)) - and using Physics-Informed Neural Networks (PINNs) to showcase the solution. A sinusoidal activation function is used to capture the oscillatory behavior of the problem. The results of our study, with PDE residual converging to at least \(10^{-6}\), boundary condition loss to \(10^{-5}\), and the PINN loss converging to \(10^{-5}\) for each case at \(30,000\) epochs, show that \(γ\) scales the rate of amplitude decay, while \(η\) governs frequency-dependent phase speeds.</description>
+    </item>
+    <item>
       <title>Boosted Physics-Informed Neural Networks for Solving Homogeneous and Non-Homogeneous Lane-Emden Type Equations</title>
       <link>http://arxiv.org/abs/2611.00701v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.00701v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2405.12410</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
       <description>Sometimes local search algorithms cannot efficiently find even local peaks. To understand why, I look at the structure of ascents in fitness landscapes from valued constraint satisfaction problems (VCSPs) parameterized by the treedepth of their constraint graphs. There are existing constructions of VCSPs with logarithm treedepth that represent fitness landscapes where all ascents are exponential from some initial assignment. I improve these bounds by showing that with loglog treedepth, superpolynomial ascents exist; and for polylog treedepth, there are initial assignments from which all ascents are superpolynomial. My hope is that these examples of sparse VCSPs can help us better understand the barriers to efficient local search.</description>
-    </item>
-    <item>
-      <title>Genesis: An Empirical Platform for Studying Open-Ended Evolution Without Fitness Functions</title>
-      <link>https://arxiv.org/abs/2607.21631</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.21631</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Biological evolution sustains complex dynamics without any fitness function, yet virtually all evolutionary algorithms depend on one. Genesis is an open-source platform designed to test, empirically, what an artificial system needs to sustain evolutionary dynamics after complete fitness removal. Evolution in Genesis is governed by physical constraints, relational dominance, and adaptive regulation - no scalar fitness, no designer-specified objectives. Across experiments totalling over one million evolutionary generations, Genesis has: (i) shown that constraint-driven selection can sustain evolutionary activity after complete fitness removal (7/12 runs; Wilson 95% CI [30.2%, 82.5%]; p&lt;0.01, Cohen's d=1.47 vs. baselines); (ii) produced a sham-controlled negative result demonstrating that niche construction alone does not break the complexity plateau; and (iii) provided preliminary evidence that speciation-protected niche construction initiates structural diversification that unprotected secretion cannot. These findings establish empirical boundaries for fitness-free evolution and open a new direction: meta-evolution of physics, in which the laws governing an evolutionary system are themselves evolved.</description>
     </item>
   </channel>
 </rss>

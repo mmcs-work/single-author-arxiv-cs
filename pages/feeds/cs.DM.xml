@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Path Decompositions of Sparse Graphs via Gaussian Sweeps and Faster Exponential Algorithms</title>
+      <link>http://arxiv.org/abs/2611.05146v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05146v1</guid>
+      <pubDate>Tue, 03 Nov 2026 16:21:47 +0000</pubDate>
+      <description>Using the bisection bound of Monien and Preis, Fomin and Høie proved in 2006 that every graph of maximum degree 3 on $n$ vertices has pathwidth at most $n/6+o(n)$. We prove that the pathwidth, bisection width and cutwidth of these graphs are at most $c_3 n+o(n)$, where $c_3=\frac{3}{4π}\arccos\frac56\approx0.1398$. For bisection width this improves the bound $n/6+o(n)$ of Monien and Preis (2006) and extends to all such graphs the bound that Lichev and Mitsche (2023) obtained for random cubic graphs. For maximum degree 4, we prove that bisection width and cutwidth are at most $n/3+o(n)$, improving the bound $2n/5+o(n)$ of Monien and Preis for 4-regular graphs, and that pathwidth is at most $0.2458n$, improving the bound $n/3$ of Fomin, Gaspers, Saurabh and Stepanov (2009). We show that every graph with $m$ edges has pathwidth at most $7m/48+o(n)$, improving the bound $13m/75$ of Scott and Sorkin (2007), and we give further bounds of the form $\sum_{d\ge3}a_d n_d+o(n)$ with $a_d&lt;1$, where $n_d$ is the number of vertices of degree $d$. The path decompositions, and linear orderings of the stated cutwidth, can be computed in polynomial time. Instead of deriving pathwidth bounds from bisection width, we give each vertex a Gaussian label, a weighted sum of independent standard normal variables over a ball around it, and sweep a threshold through the labels; the bags are frontiers, the vertices above the threshold with a neighbor below it. We bound the probability that a vertex lies in a frontier by comparison with an explicit Gaussian model of a vertex and its neighbors. Faster exact algorithms follow: for feedback vertex set and the traveling salesperson problem on graphs of bounded maximum or average degree, and on general graphs for minimum weight dominating set (by branching until the instance is sparse), Max 2-CSP and counting subgraphs with $k$ edges (by the bound in $m$).</description>
+    </item>
+    <item>
+      <title>Glauber Dynamics for Sampling Colorings: Rapid Mixing above $(1+1/\mathrm{e})Δ$ via Hidden Hard-Core Models</title>
+      <link>http://arxiv.org/abs/2611.04699v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.04699v1</guid>
+      <pubDate>Tue, 03 Nov 2026 11:22:01 +0000</pubDate>
+      <description>We show that for every $γ&gt;0$ and every sufficiently large $Δ$, the Glauber dynamics for proper $q$-colorings of any $n$-vertex graph of maximum degree $Δ$ has spectral gap $Ω_γ(1/n)$, and hence mixing time $O_γ(n^2\log q)$, whenever $q\ge(1+1/\mathrm{e}+γ)Δ$. Our proof establishes a Bochner-type inequality by exploiting the spectral gaps of hard-core models hidden in the color classes. The constant $1+1/\mathrm{e}\approx1.368$ comes from the uniqueness threshold $\approx\mathrm{e}/Δ$ of the hard-core model on the infinite $Δ$-regular tree.</description>
+    </item>
+    <item>
+      <title>Mixing Time of the Random-Pair Monte Shuffle</title>
+      <link>http://arxiv.org/abs/2611.03959v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.03959v1</guid>
+      <pubDate>Mon, 02 Nov 2026 20:59:08 +0000</pubDate>
+      <description>In the random-pair Monte shuffle on $n$ cards, each step chooses two positions independently and uniformly and exchanges their cards with probability $1/2$. The chosen positions are public; the decisions to exchange cards remain hidden. We prove that the mixing time in expected conditional total variation distance is $2n\log n+O(n)$, with an exact leading constant and an $O(n)$ cutoff window. To our knowledge, this is the first public-schedule Monte shuffle whose full-permutation mixing time has been determined up to an additive $O(n)$ term. The upper bound follows by comparing two executions with the same public schedule to a classical random-transposition walk. For the lower bound, we construct a schedule-dependent test function and estimate its variance using a matrix-averaging operator. Combined with the depth bound of Czumaj and Lingas, the mixing estimate gives public switching networks with at most $2n\log n+O(n)$ switches and $O(\log n)$ depth for fixed error and failure probabilities. The author obtained this result through interaction with GPT-6 Astra.</description>
+    </item>
+    <item>
+      <title>Proper Conflict-Free Coloring on Structured Graph Classes: Bounds, Exact Algorithms, and Hardness</title>
+      <link>http://arxiv.org/abs/2611.03906v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.03906v1</guid>
+      <pubDate>Mon, 02 Nov 2026 20:12:06 +0000</pubDate>
+      <description>A proper conflict-free coloring is a proper vertex coloring in which every non-isolated vertex has a neighbor whose color appears exactly once in its open neighborhood. We study this coloring on chordal and ordered bipartite graph classes. For well-partitioned chordal graphs, we prove the tight bound $ω(G)\leq\pcf(G)\leqω(G)+1$ and give an $O(n^2)$ construction from a partition tree. Every assignment of lists of at least $ω(G)+1$ colors also admits a PCF coloring that respects the lists. Deciding whether $ω(G)$ colors suffice is NP-complete, even when the partition tree is a star. This also proves NP-completeness on chordal graphs when the number of colors is part of the input. For interval graphs, we prove that lists of size $ω(G)+1$ always suffice, improving the previous ordinary-coloring bound of $ω(G)+2$. We use matchings to characterize when $ω(G)$ colors suffice and give an endpoint algorithm taking $2^{O(ω(G)^2)}n^{O(1)}$ time. We also characterize the exact value when the clique number is at most three and give a linear-time algorithm from sorted interval endpoints. For biconvex graphs, we prove a tight five-color bound and give a direct exact algorithm taking $O(n^{33})$ time. For bipartite permutation graphs, a smaller dynamic program gives an exact $O(n^{17})$ algorithm. Finally, if a bipartite graph is convex over an ordered shore $X$, we prove the sharp bound $\pcf(G)\leq\lceil\log_2(|X|+1)\rceil+3$ and construct a coloring in linear time from the order.</description>
+    </item>
+    <item>
       <title>Adjacency Labeling Schemes of Size $\log n+O(\log\log^* n)$ for Graphs of Bounded Treewidth</title>
       <link>http://arxiv.org/abs/2611.03620v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.03620v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.13419v1</guid>
       <pubDate>Fri, 11 Sep 2026 18:33:01 +0000</pubDate>
       <description>In a 2021 paper, Jankiewicz, Norin, and Wise asked whether there exists a finite $4$-connected graph of girth at least four and nonnegative Charney--Davis curvature such that no $4$-connected ordinary subgraph admits a legal system. We construct such a graph by starting from the hexagonal prism and attaching three $K_{3,4}$-based caps along pairwise disjoint induced $4$-cycles. The key structural input is a restriction theorem showing that a legal system on an induced-$4$-cycle amalgam restricts to each side, so the obstruction carried by the negatively curved prism survives the attachments. The resulting $33$-vertex graph is $4$-regular and $4$-connected, has girth four and Charney--Davis curvature one, and, by $4$-regularity, is its own unique $4$-connected ordinary subgraph.</description>
-    </item>
-    <item>
-      <title>On the Critical Window for Adaptable 2-Colorability</title>
-      <link>http://arxiv.org/abs/2609.12214v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12214v1</guid>
-      <pubDate>Thu, 10 Sep 2026 21:14:23 +0000</pubDate>
-      <description>We determine a sharp threshold for the adaptable 2-colorability of a random graph equipped with a uniformly random, not necessarily proper, red/blue coloring of the edges. To accomplish this, we characterize a family of subgraphs along with edge colorings whose inclusion or exclusion determines adaptable $2$-colorability. We further show that above the threshold, a long path with alternating edge colors is formed. We use this path to prove the existence of such a subgraph in the supercritical regime. We then provide and prove symmetric bounds on the critical window for $2$-adaptable colorability. Particularly, we prove bounds matching that of the critical windows for the giant component in the Erd$ő$s-R$é$nyi random graph model as well as the satisfiability of a random $2$-SAT instance. Finally, we show that below the critical window, the solution space of adaptable $2$-colorings remains connected, that is one can travel from one adaptable $2$-coloring to another by a sequence of $2$-colorings which differ on $O(\log{n})$ many vertices.</description>
-    </item>
-    <item>
-      <title>Testing the Binary Rank with Polynomial Query Complexity</title>
-      <link>http://arxiv.org/abs/2609.10496v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.10496v1</guid>
-      <pubDate>Wed, 09 Sep 2026 17:34:01 +0000</pubDate>
-      <description>We provide an adaptive two-sided error testing algorithm for the binary rank of a $0,1$ matrix $M$ with query complexity $O(d^3\log(d+1)/ε^2)$, where $d$ is the tested binary rank bound and $ε$ is the distance parameter. This answers an open question posed by Parnas, Ron and Shraibman~\cite{parnas2021property}, who asked whether the binary rank can be tested with query complexity polynomial in $d$ and $1/ε$. Furthermore, our testing algorithm can be used to find an approximate binary decomposition of $M$ with an additional $d(n+m)$ queries. That is, under the promise that the binary rank of $M$ is at most $d$, we show how to find, with probability at least $5/6$, two $0,1$ matrices $A',B'$ such that $M' = A' \cdot B'$ is a $0,1$ matrix which differs from $M$ on at most an $O(ε)$ fraction of its entries.</description>
-    </item>
-    <item>
-      <title>The exact asymptotic constant in the metric dimension of Jaccard space</title>
-      <link>http://arxiv.org/abs/2609.09146v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.09146v1</guid>
-      <pubDate>Tue, 08 Sep 2026 17:58:36 +0000</pubDate>
-      <description>Let $X$ be a finite set with $|X|=n$ and let $\mathrm{Jac}(a,b)=|a\,\triangle\, b|/|a\cup b|$ be the Jaccard distance on the power set $2^X$. Lladser and Paradise recently proved that the metric dimension of $(2^X,\mathrm{Jac})$ is $Θ(n/\ln n)$, with the constant left open; their bounds are $(\ln 2)\,n/\ln n\lesssim β(2^X,\mathrm{Jac})\lesssim 2\ln(2e)\,n/\ln n$. We determine the constant: \[ β(2^X,\mathrm{Jac})=\frac{2n}{\log_2 n}\,(1+o(1))=(2\ln 2)\,\frac{n}{\ln n}\,(1+o(1)). \] The proof identifies the problem, on each ``slice'' of subsets of fixed cardinality, with the Erdős--Rényi coin-weighing problem for a spring scale (the problem of \emph{detecting matrices}). The lower bound is the Erdős--Rényi entropy argument applied to the middle slice; the upper bound follows from the explicit detecting families of Lindström and of Cantor and Mills, augmented by a single extra landmark that reveals cardinality.</description>
-    </item>
-    <item>
-      <title>Abelian Cayley High-Dimensional Expanders with Polylogarithmic Degree</title>
-      <link>http://arxiv.org/abs/2609.08937v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.08937v1</guid>
-      <pubDate>Tue, 08 Sep 2026 16:00:26 +0000</pubDate>
-      <description>We construct an explicit infinite family of simple two-dimensional Cayley complexes over $\mathbb{F}_2^n$ whose degree is polynomial in $n$ and whose nontrivial vertex-link eigenvalues lie in $[-λ,λ]$ for every fixed $λ&gt;0$. For every fixed $d\ge2$, we also obtain an explicit infinite family of weighted $d$-dimensional Cayley complexes over $\mathbb{F}_2^n$ with codimension-two local spectral norm at most $1/d$ and Cayley degree $Θ_d(n)$. Our two-dimensional construction uses evaluation at rational points of algebraic curves to produce projective direction sets and many functions affine along these directions, which may be useful for further constructions and improvements.</description>
     </item>
   </channel>
 </rss>
