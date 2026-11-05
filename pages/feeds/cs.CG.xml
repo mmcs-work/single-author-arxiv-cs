@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Fixed-Radius Neighbourhoods in Three-Dimensional Unit-Cube Graphs</title>
+      <link>http://arxiv.org/abs/2611.06747v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06747v1</guid>
+      <pubDate>Wed, 04 Nov 2026 16:25:46 +0000</pubDate>
+      <description>We prove Conjecture 4 of Chan, Chang, Gao, Kisfaludi-Bak, Le, and Zheng (SoCG 2026): for every fixed integer $r\ge0$, the radius-$r$ neighbourhoods of a unit-cube graph in $\mathbb{R}^3$ have bounded VC-dimension. Our bound is $2^{2^{O(r)}}$, independent of the number of vertices. The main ingredient is a VC-dimension bound for reachability through arbitrary fixed-length sequences of three-dimensional generalized dominance relations. Its proof uses groups ordered in two coordinates, with neighbouring groups acting as barriers that preserve this invariant when one layer is removed. Combining these bounds with the existing interval-representation framework, we obtain a Las Vegas algorithm that, for every fixed integer $Δ\ge1$, decides whether a graph given by $n$ cube centres has diameter at most $Δ$ in expected $O_Δ(n^{2-\varepsilon_Δ})$ time, for an explicit constant $\varepsilon_Δ&gt;0$. Finally, for every integer $r\ge7$, we construct unit-cube graphs with rational centres whose radius-$r$ neighbourhoods have VC-dimension $Ω(r^3)$.</description>
+    </item>
+    <item>
       <title>Pair-Relative Partial Equivariance for Rotation-Robust Keypoint Descriptor Matching</title>
       <link>http://arxiv.org/abs/2611.02751v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.02751v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.18268</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
       <description>With the popularity of drone technologies, aerial photography has become prevalent in many daily scenarios such as environment monitoring, structure inspection, law enforcement etc. A central challenge in this domain is the efficient coverage of a target area with photographs that can entirely capture the region, while respecting constraints such as the image resolution, and limited number of pictures that can be taken. This work investigates the computational complexity of covering a simple planar polygon using squares and circles. Specifically, it shows inapproximability gaps of $1.165$ (for squares) and $1.25$ (for restricted square centers) and develops a $2.828$-optimal approximation algorithm, demonstrating that these problems are computationally intractable to approximate. The intuitions of this work can extend beyond aerial photography to broader applications such as pesticide spraying and strategic sensor placement.</description>
-    </item>
-    <item>
-      <title>SWORD: Spectral Wasserstein Online Regime Detection in Dynamic Networks</title>
-      <link>https://arxiv.org/abs/2605.29290</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2605.29290</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 -0000</pubDate>
-      <description>Online change point detection in dynamic graphs requires comparing graphs as they arrive, in time linear in the number of edges, without parametric assumptions. Recent spectral methods address scale via the Kernel Polynomial Method (KPM): SCPD computes Chebyshev moments of the normalized Laplacian, discretizes them into a density-of-states histogram, and scores the histogram with SVD plus cosine similarity. We introduce SWORD, which computes the same moments and instead compares their mean across two adjacent time windows by their $L_1$ distance. On three real-world benchmarks (MIT Reality, AskUbuntu, Enron), this lifts mean $F_1$ from SCPD's $0.27$ to $0.79$, with SCPD failing to detect any change on Enron. A controlled cascading ablation attributes the gap to two design choices: the two-window mean structure (dominant on MIT) and the $L_1$ metric on those mean vectors (dominant on Enron). A bin-width sweep rules out histogram discretization -- SCPD's most visible architectural choice -- as the driver. SWORD inherits SCPD's KPM core, so per-graph cost is $O(KRm)$ with no eigendecomposition, scaling to $86{,}000$-node networks. With per-dataset tuning it matches the offline TIRE autoencoder on mean $F_1$ and attains the highest precision among online methods ($0.91$, only $2$ false positives across the three benchmarks).</description>
     </item>
   </channel>
 </rss>

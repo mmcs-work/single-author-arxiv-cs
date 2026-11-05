@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Where models of minimal height are hard to find: cubic rational maps with a multiple fixed point</title>
+      <link>http://arxiv.org/abs/2611.05514v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05514v1</guid>
+      <pubDate>Tue, 03 Nov 2026 19:11:54 +0000</pubDate>
+      <description>Given a rational point of the moduli space of cubic rational maps, we seek a map in its class with the smallest integer coefficients. A recent algorithm (Shaska, arXiv:2610.33990) combines an exact descent and minimisation of the resultant with a reduction and a local search; it is nearly exact where the minimal height is known. Beyond that range, a certified deeper search shows that the instances in which a smaller model lies beyond its reach are not random: a classifier predicts them from the six invariants of the point, and asking what it relies on leads to an exact algebraic surface, the maps with a triple fixed point. Invariant theory and the stability hypothesis of reduction theory (Hutz and Stoll, 2019) then identify the larger locus that contains it: the hypersurface $ξ_1^3=6ξ_2^2$ of maps with a multiple fixed point, on which the fixed-point quartic is not stable. It holds most of the hard instances. On it the two invariants of the fixed-point quartic are $(ξ_1,ξ_2)=(6m^2,6m^3)$ for an integer $m\ge0$; we parametrise the integer points of the surface, and show that on its generic part the sign of $ξ_5$ is the sign of the cubic coefficient at the parabolic fixed point. A covariant defined on the locus, added to the reduction, resolves only a minority of the hard instances: they appear to be mainly a matter of the search's reach. These findings lead to a certified structured search that never returns a larger model than the original algorithm and finds most of the smaller models within reach, also at heights not used to design it, at a small multiple of its running time.</description>
+    </item>
+    <item>
       <title>Construction and formal verification of a special topology on {\mathbb{Z}}^{n}: characterization of connected subsets</title>
       <link>http://arxiv.org/abs/2610.39354v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2610.39354v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.16342</guid>
       <pubDate>Thu, 18 Dec 2025 00:00:00 -0000</pubDate>
       <description>Rigorous modelling of natural and industrial systems still conveys various challenges related to abstractions, methods to proceed with and easy-to-use tools to build, compose and reason on models. Operads are mathematical structures that provide such abstractions to compose various objects and garanteeing well-formedness. Concrete implementations of operads will offer practical means to exploit operads and to use them for various technical applications. Going from the mathematical structures, we develop with Event-B a complete refinement chain that implements algebraic operads and their basic operations. The result of this work, can be used from the methodological point of view to handle similar implementations for symbolic computation questions, and also to reason on symbolic computation applications supported by operads structures.</description>
-    </item>
-    <item>
-      <title>Projective Variety Recovery from Unknown Linear Projections</title>
-      <link>https://arxiv.org/abs/2504.16771</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.16771</guid>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 -0000</pubDate>
-      <description>We study how a smooth irreducible algebraic variety $X$ of dimension $n$ embedded in $\mathbb{C} \mathbb{P}^{m}$ (with $m \geq n+2$), which degree is $d$, can be recovered using two projections from unknown points onto unknown hyperplanes. The centers and the hyperplanes of projection are unknown: the only input is the defining equations of each projected varieties. We show how both the projection operators and the variety in $\mathbb{C} \mathbb{P}^{m}$ can be recovered modulo some action of the group of projective transformations of $\mathbb{C} \mathbb{P}^{m}$. This configuration generalizes results obtained in the context of curves embedded in $\mathbb{C} \mathbb{P}^3$ and results concerning surfaces embedded in $\mathbb{C} \mathbb{P}^4$. We show how in a generic situation, a characteristic matrix of the pair of projections can be recovered. In the process we address dimensional issues and as a result establish a necessary condition, as well as a sufficient condition to compute this characteristic matrix up to a finite-fold ambiguity. These conditions are expressed as minimal values of the degree of the dual variety. Then we use this matrix to recover the class of the couple of projections and as a consequence to recover the variety. For a generic situation, two projections define a variety with two irreducible components. One component has degree $d(d-1)$ and the other has degree $d$, being the original variety.</description>
     </item>
   </channel>
 </rss>

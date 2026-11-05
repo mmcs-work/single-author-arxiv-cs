@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes</title>
+      <link>http://arxiv.org/abs/2611.06879v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06879v1</guid>
+      <pubDate>Wed, 04 Nov 2026 18:35:35 +0000</pubDate>
+      <description>The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget, past improvement or features fitted to one benchmark, and few test an optimizer's implicit assumptions online. AMM (Adaptive Multi Mode) routes a known budget among quasi-Newton, trust-region, coordinate, multistart and evolution-strategy optimization engines with online probes of curvature, plateaus, separability, kinks, basins and fractal structure. Each probe has a default, a dimension-by-budget validity range and a cost charged to the budget. In its pre-registered development loop on bbob, 32 of 36 predictions held over the last 16 confirmations. AMM was then tested once on held-out bbob instances 101-110 (D=2-40, 10*D-1000*D) against up to seven competitors. It has the highest target share in 382 of 600 function-dimension-budget cells (236 outright, 146 tied) and, by a descriptive posterior rule, is credibly behind in 35, mostly at 10*D and 30*D. At every budget it also leads the controls built from its own engines (the best engine alone, the best engine per dimension and budget, and a greedy schedule), narrowly at 10*D and 30*D, and nevergrad's NgIohTuned. In pre-registered runs its lead over IPOP-CMA-ES holds under affine and box transformations, on box-constrained bbob and, pooled, on rotated f2-f4, but rotating the separable f3 and f4 removes most of the lead there. On held-out MA-BBOB its final share at 2000*D is level with IPOP-CMA-ES's and its anytime area lower. We published AMM as an open-source Python package (pip install amm-optimizer; https://github.com/BjBodner/amm-optimizer).</description>
+    </item>
+    <item>
+      <title>Neural networks and games</title>
+      <link>http://arxiv.org/abs/2611.05706v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05706v1</guid>
+      <pubDate>Tue, 03 Nov 2026 22:34:21 +0000</pubDate>
+      <description>Hopfield neural networks and noncooperative games provide seemingly different approaches to understanding how collective outcomes emerge from local interactions. In a neural network, individual units adjust their states according to local signals; in a game, players choose actions to maximise individual payoffs. I establish an exact equivalence between symmetric binary Hopfield networks and binary-action games that admit a quadratic potential. The equivalence identifies stable network configurations with pure-strategy Nash equilibria, and asynchronous neural updating with best-response dynamics. More broadly, the storage and retrieval of memories in neural networks correspond, respectively, to the design and selection of equilibria in games.</description>
+    </item>
+    <item>
       <title>Solving the Nonlinear Westervelt Equation in Ultrasound Propagation Using Physics-Informed Neural Networks</title>
       <link>http://arxiv.org/abs/2611.05130v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.05130v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2607.22748</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 -0000</pubDate>
       <description>Modern neural networks primarily adapt through parameter modification within predefined computational structures. While recent methods introduce modularity, conditional computation, and parameter-efficient adaptation, they generally do not distinguish computational capability from computational accessibility as separate adaptive variables. This work introduces Accessibility Plasticity, a principle of adaptive computation in which systems adapt not only by changing what computation exists, but also by reorganizing which existing computations can interact and participate. We formalize Accessibility Plasticity through a relationship-based operational realization and establish a reuse-first hierarchy of adaptation, where accessibility modification precedes more costly capability and structural changes. A proof-of-concept evaluation on sequential learning tasks shows that accessibility adaptation can reduce capability modification while maintaining comparable task performance. These results suggest accessibility as a distinct adaptive dimension and provide a foundation for future dynamic neural systems whose computational relationships evolve with changing environments.</description>
-    </item>
-    <item>
-      <title>The Giant Hippocampus: From Structural Monoculture to a System of Systems</title>
-      <link>https://arxiv.org/abs/2607.19973</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2607.19973</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>AI researchers describe state-of-the-art models as one thing repeated at scale: the Transformer, wired identically for text, pixels, or speech. Neuroscientists describe the cortex as a mosaic - dense Layer 4 in visual cortex for spatial encoding, thick Layers 5/6 in motion cortex for temporal integration - different jobs solved by different structures. This paper argues the gap is a structural error, not a stylistic one, and is measurable. A century of cytoarchitecture, from Brodmann to single-cell Patch-seq, shows distinct cognitive functions are implemented by qualitatively different structures, not by rescaling one template. The convolutional neural network is the field's own proof: local receptive fields and hierarchical depth encoded this prior directly, reaching strong image recognition on far less data than later architectures needed. The paper traces how this lesson was discarded: the "Hardware Lottery" made the Transformer the path of least resistance, not the principled choice, and Mixture-of-Experts, often cited as diversity, in fact partitions parameters among identical experts. A functionalist analysis shows the Transformer is best understood as a functional analog of the hippocampal formation, not a general-purpose cortex - the same mistake as treating cortex as one giant Broca's area, except the field has now standardized on a giant hippocampus, applied to tasks it was never built for: audition, executive gating, working memory. The paper closes with an alternative: a Heterogeneous Topological Network, a System of Systems in which distinct modules keep the inductive bias their computation demands and communicate through standardized interfaces. This is a design discipline for AI architects, not cognitive science: specify modularity before training, using structural evidence as a design input rather than reverse-engineering architecture from a trained model's behavior.</description>
-    </item>
-    <item>
-      <title>Local search for valued constraint satisfaction parameterized by treedepth</title>
-      <link>https://arxiv.org/abs/2405.12410</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2405.12410</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 -0000</pubDate>
-      <description>Sometimes local search algorithms cannot efficiently find even local peaks. To understand why, I look at the structure of ascents in fitness landscapes from valued constraint satisfaction problems (VCSPs) parameterized by the treedepth of their constraint graphs. There are existing constructions of VCSPs with logarithm treedepth that represent fitness landscapes where all ascents are exponential from some initial assignment. I improve these bounds by showing that with loglog treedepth, superpolynomial ascents exist; and for polylog treedepth, there are initial assignments from which all ascents are superpolynomial. My hope is that these examples of sparse VCSPs can help us better understand the barriers to efficient local search.</description>
     </item>
   </channel>
 </rss>

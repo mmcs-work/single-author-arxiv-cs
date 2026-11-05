@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>One Strategic Woman: Sharp Ranks and a Persistent Core</title>
+      <link>http://arxiv.org/abs/2611.06175v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06175v1</guid>
+      <pubDate>Wed, 04 Nov 2026 08:55:57 +0000</pubDate>
+      <description>In a balanced random stable-marriage market, one fixed woman manipulates men-proposing deferred acceptance to obtain her best attainable partner. We prove that the women's expected average true partner rank is asymptotic to $(\ln n)^2$, improving the previous $O((\ln n)^4)$ bound, while the men's is asymptotic to $n/(2\ln n)$. The men's and women's average ranks, normalized by $n/\ln n$ and $\ln n$, converge jointly in distribution to $(U,U^{-1})$, where $U$ is uniform on $(0,1)$. Under optimal truthful truncation, the span of women's average ranks within the reported stable core, divided by $\ln n$, converges in distribution to $U^{-1}-1$.</description>
+    </item>
+    <item>
+      <title>Neural networks and games</title>
+      <link>http://arxiv.org/abs/2611.05706v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05706v1</guid>
+      <pubDate>Tue, 03 Nov 2026 22:34:21 +0000</pubDate>
+      <description>Hopfield neural networks and noncooperative games provide seemingly different approaches to understanding how collective outcomes emerge from local interactions. In a neural network, individual units adjust their states according to local signals; in a game, players choose actions to maximise individual payoffs. I establish an exact equivalence between symmetric binary Hopfield networks and binary-action games that admit a quadratic potential. The equivalence identifies stable network configurations with pure-strategy Nash equilibria, and asynchronous neural updating with best-response dynamics. More broadly, the storage and retrieval of memories in neural networks correspond, respectively, to the design and selection of equilibria in games.</description>
+    </item>
+    <item>
       <title>Sharp Bounds for Truthful-in-Expectation Scheduling</title>
       <link>http://arxiv.org/abs/2611.05134v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.05134v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.13037v1</guid>
       <pubDate>Fri, 11 Sep 2026 16:37:01 +0000</pubDate>
       <description>Recent work shows that LLM-based pricing agents can produce supracompetitive outcomes in repeated oligopoly environments without being explicitly instructed to collude. We reproduce the qualitative prompt-sensitivity effect of Fish et al. using DeepSeek-V3.1: the P1 prompt produces significantly higher prices and profits than P2, although our outcomes are less monopoly-like than the original GPT-4 results. We then evaluate three regulatory interventions: a prompt-only warning, a Harrington-inspired expected-damages payoff regulator, and an active random entrant. The prompt-only regulator reduces but does not eliminate above-Nash pricing. The Harrington regulator brings P1 outcomes close to the duopoly Nash benchmark and removes the statistically significant P1--P2 gap. The active entrant produces the strongest effect, pushing both prompts below the appropriate random-entrant Nash benchmark. Overall, our experiments provide preliminary evidence that interventions that alter incentives or market participation can reduce supracompetitive pricing more effectively than prompt warnings alone.</description>
-    </item>
-    <item>
-      <title>The possibility of solving a 3x3 Rubik's Cube under 2 seconds - Optimizing block building</title>
-      <link>http://arxiv.org/abs/2609.12946v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12946v1</guid>
-      <pubDate>Fri, 11 Sep 2026 15:06:56 +0000</pubDate>
-      <description>Block building is an essential skill in speedcubing competitions. However, there is currently no systematic method to understand or analyze block-building techniques. Rewatching gameplay reveals only the outcome, not the underlying mechanism. This paper presents a systematic approach, the "AK-cubie method" (or "cubie method" for short), for constructing near-optimal block-building move sequences within a short computation time. Speedcubers can use the accompanying software to train their look-ahead and block-building skills. We hope this work will contribute to breaking the 2-second world record in the near future.</description>
-    </item>
-    <item>
-      <title>MicroHasTEE: Bare-Metal Haskell for Type-Level Peripheral Ownership on Armv8-M</title>
-      <link>http://arxiv.org/abs/2609.12580v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.12580v1</guid>
-      <pubDate>Fri, 11 Sep 2026 08:34:10 +0000</pubDate>
-      <description>Arm TrustZone for Armv8-M isolates Secure and Non-secure software, but developers must still coordinate peripheral attribution, interrupt routing, initialization, and gateway interfaces across separately built firmware images. Inconsistent assumptions between these images can compile successfully and emerge only as faults on the target device. We present MicroHasTEE, a multiparty programming framework that expresses both firmware applications as participants in one typed Haskell program. MicroHasTEE represents peripheral authority with type-level capability ledgers and uses indexed setup computations to track resource acquisition, configuration, transfer, and finalization. Domain-specific effect types restrict peripheral operations and interrupt callbacks to the participant that holds the corresponding authority, while typed callable handles describe the Secure services available to Non-secure code. MicroHs compiles the shared program twice to produce separate bare-metal Secure and Non-secure firmware images. We implement MicroHasTEE for an STM32U5 Nucleo board, including TrustZone configuration, peripheral drivers, and a serialized gateway for cross-domain Haskell calls. For programs expressed through its interface, MicroHasTEE rejects inconsistent resource use, attribution changes after configuration, callbacks in the wrong domain, and calls to unregistered Secure services. A door-lock case study demonstrates feasibility, with firmware images occupying 232.7 KiB and 228.4 KiB of flash and approximately 220 KiB of SRAM per domain.</description>
     </item>
   </channel>
 </rss>

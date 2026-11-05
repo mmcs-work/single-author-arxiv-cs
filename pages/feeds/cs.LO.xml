@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>From Certified Pairs to a Certified Hub: Reasoner-Checked Crosswalks for the Information Exchange Standard</title>
+      <link>http://arxiv.org/abs/2611.06628v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06628v1</guid>
+      <pubDate>Wed, 04 Nov 2026 15:12:05 +0000</pubDate>
+      <description>A national digital twin was conceived as an ecosystem of twins connected through mappings to a common foundation, but the roadmap that promises to confirm those mappings are valid never says what valid means. We give the test a precise form, coherence and conservativity of the merged ontology, borrowed from logic-based alignment repair, and apply it to the Information Exchange Standard (IES), first pair by pair and then to whole hubs. Crosswalks from IES into thirteen ontologies across seven sector groups, anchored on the building ontologies BOT, Brick, and SAREF4BLDG, pass through separate stages of matching, human review, certification of each SKOS correspondence against the two class hierarchies, and reasoning with HermiT. Pair by pair, the stages catch different failures: certification alone removed all 526 conservativity violations of the raw crosswalks, review alone left 73, and together they made eleven of twelve overlapping pairs coherent and conservative. Pairwise certification does not compose. Merging the three certified building crosswalks into one hub made five Brick classes unsatisfiable, through a homonym between the IES and Brick notions of a floor that only BOT's disjointness axioms expose; rejecting that one row gave a coherent and conservative hub that entails 290 cross-ontology links nobody wrote down. The core hub is inconsistent before any crosswalk is added, because two published standards, the Open Energy Ontology and BFO 2020, contradict each other; with either one left out it is coherent and conservative. A hub, not a pair, is the unit an ecosystem of twins has to certify.</description>
+    </item>
+    <item>
+      <title>How to prove equations using diagrams: A categorical and operational semantics for e-graphs</title>
+      <link>http://arxiv.org/abs/2611.05924v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05924v1</guid>
+      <pubDate>Wed, 04 Nov 2026 04:15:37 +0000</pubDate>
+      <description>E-graphs are a powerful algorithmic technique for automated equational reasoning but have resisted a conceptual understanding independent of issues of presentation and implementation. We propose an operational semantics for e-graphs based on the fundamental category-theoretic concepts of diagrams, limits, and initial functors. We illustrate the formalism through numerous example calculations and establish its soundness and completeness. Technical prerequisites are kept to a minimum in the main text; less standard elements of the mathematical theory are developed in two appendices.</description>
+    </item>
+    <item>
+      <title>ProofStudio: Five Proof Assistants in the Browser</title>
+      <link>http://arxiv.org/abs/2611.05540v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05540v1</guid>
+      <pubDate>Tue, 03 Nov 2026 19:32:16 +0000</pubDate>
+      <description>Recent advances in AI-assisted proof automation are extending the use of proof assistants in software verification and mathematics. However, greater proof automation does not remove users' responsibility to assess whether formal statements capture their intended requirements, making education in formal specification and reasoning essential. To lower the installation and learning barriers associated with mature proof assistants, we present ProofStudio, a browser-based environment integrating Isabelle/HOL, Lean, Rocq, HOL4, and HOL Light with corresponding worked examples, preconfigured proof search, and contextual AI assistance. With ProofStudio, users can explore formal specifications and proofs across five systems without local installation, inspecting native prover feedback and experimenting with automation through a common interface.</description>
+    </item>
+    <item>
       <title>Sketchpad: certified exact arithmetic with a small vision-language model</title>
       <link>http://arxiv.org/abs/2611.04434v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.04434v1</guid>
@@ -52,6 +73,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2611.01837v1</guid>
       <pubDate>Sun, 01 Nov 2026 12:14:41 +0000</pubDate>
       <description>Boolean circuits abstract away from physical implementation details to capture the logical structure and computational behaviour of digital components. Despite their long history of study, their compositional foundations have received comparatively little attention. Building on the theoretical foundations of computons introduced in previous work, we develop a concrete and operationally defined model of computation for control-driven Boolean circuits. We introduce colimit-based operators for composing circuits into sequential, parallel, branching and iterative structures, supported by concrete operational semantics grounded in particular abstract computing devices. The framework refines the semantics of composition, establishes the algebraic properties of its operators and introduces atomic circuits to support more expressive computation units. We demonstrate the applicability of the proposed framework through examples from propositional logic, biomedicine and electronics, and establish an operational equivalence with respect to classical Boolean circuits through a systematic transformation that accommodates gates of arbitrary arity. By this equivalence, we show that control-driven Boolean circuits are at least as powerful as their classical counterpart. That is, they are capable of non-uniformly computing any Boolean function over inputs of arbitrary length. Implementations in Idris and Java demonstrate the practical realisability of the framework.</description>
+    </item>
+    <item>
+      <title>The Scope Grammar of Natural-Language Rules: Counting and Enumerating Readings modulo Logical Equivalence</title>
+      <link>http://arxiv.org/abs/2611.01825v2</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.01825v2</guid>
+      <pubDate>Sun, 01 Nov 2026 11:45:13 +0000</pubDate>
+      <description>A rule written for people fixes its atomic conditions and connectives but leaves open how the connectives are bracketed, and each bracketing is a different logical reading that an autoformalizer must resolve or expose. We study the scope grammar, a deliberately ambiguous context-free grammar whose derivation trees are the readings of a connective skeleton and whose quotient by logical equivalence is what matters downstream. A skeleton with $k$ binary connectives has $C_k$ derivation trees, the $k$-th Catalan number, but far fewer logically distinct readings. For the positive, repetition-free fragment we make the gap exact: through the uniqueness of the read-once normal form we characterize the realizable normal forms by lowest common ancestors and count them with a two-label recurrence over the operator word, verified against exhaustive enumeration up to eleven atoms. The count is invariant under reversal and $\wedge/\vee$ duality; a skeleton is ambiguous if and only if it uses both $\wedge$ and $\vee$, a one-pass test; and the number of classes is at least $2^{\lfloor n/3\rfloor}$. Up to fifteen atoms the alternating pattern is the worst case; its count has a cubic generating function, is the 3-Schröder sequence (OEIS A137842), and grows with base $\varphi^{5/2}\approx3.330$, below the Catalan base 4. We reduce maximality to an inequality on increments, verified to sixteen atoms, and explain why local exchange arguments cannot prove it. We also treat negation, exceptions, and background axioms, where normal-form uniqueness still decides equivalence but counting is open.</description>
     </item>
     <item>
       <title>Order-Invariant CFO Contains Local-Order-Invariant FO</title>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.28102v1</guid>
       <pubDate>Wed, 23 Sep 2026 13:33:04 +0000</pubDate>
       <description>A graph is biplanar if it is the union of two planar graphs on the same vertex set. The largest chromatic number of a biplanar graph is known to lie between 9 and 12. The lower bound comes from Sulanke's graph, which has independence number 2, and a biplanar graph on 19 vertices with independence number 2 would have chromatic number at least 10. Gethner and Sulanke asked in 2009 whether such a graph exists. We show that it does not, and more generally that every biplanar graph with independence number at most 2 is 9-colorable. The proof embeds a hypothetical counterexample in the union of two sphere triangulations, enumerates with SAT modulo symmetries the 3271 graphs that pass a necessary filter for the complement of such a union, and shows with a SAT solver that none of them is such a complement; a matching argument reduces the general statement to this computation and one further case on 18 vertices. The computational part of the proof, including the completeness of the enumeration and every refutation, is checked in Lean 4, assuming three classical facts about planar graphs. The Lean development, the SAT instances, and the enumeration certificates are available on Zenodo.</description>
-    </item>
-    <item>
-      <title>Substantive Agency and Computational Non-Anticipability: An Axiomatic Route to a Conditional Separation of P and N P</title>
-      <link>http://arxiv.org/abs/2609.28040v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.28040v1</guid>
-      <pubDate>Wed, 23 Sep 2026 13:00:40 +0000</pubDate>
-      <description>This paper characterises substantive agency and identifies the additional bridges under which it has a standard complexity-theoretic consequence: conditionally, P __ = N P . The constitutive core separates coherent plurality, causal openness, anticipatory non-pointing, act-level singularisation, and endogenous sourcehood. Its temporal claim yields a two-sided modal result: exact passive pre-act selection is incompatible with jointly retaining singularising priority and invariance under causally inert informational extension. If every standard polynomial procedure is deployable in that passive form, the actualisation map $α$ has no polynomial-time selector. On an effective presentation, $α$ is therefore either computable outside FP or noncomputable. A separate certifiedactualisation protocol supplies polynomially bounded, polynomially verifiable traces with extensional unique projection. This is the constructive interface that turns historical actualisation into a total standard search relation; combined with the modal result, it places that relation in TFNP search \ FP search , from which a self-contained search argument yields P __ = N P . The result is a domain-relative conditional transfer theorem: it neither assumes polynomial non-anticipability in the definition of agency nor proves that human decision-making satisfies the bridge and certification premises.</description>
-    </item>
-    <item>
-      <title>The Complexity of Interference: When Rely/Guarantee Does Not Work</title>
-      <link>http://arxiv.org/abs/2609.27392v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27392v1</guid>
-      <pubDate>Wed, 23 Sep 2026 05:47:00 +0000</pubDate>
-      <description>Rely/Guarantee is a well-known verification technique for reasoning about concurrent programs. However, for some algorithms, devising suitable rely and guarantee conditions is challenging, due to the strong interference exhibited in these algorithms. The Ben-Ari concurrent garbage collector is an algorithm where the complex interactions between the components prevent the construction of compositional rely and guarantee conditions. This paper investigates an approach for verifying the Ben-Ari algorithm, which enables reasoning to be performed in a more compositional manner in cases where compositional reasoning would not otherwise be possible. This is accomplished by reasoning that a given property holds for all instances of a particular variable and then instantiating the variable to the local variable required. As well as providing a reasoning approach which is more compositional, the result is the identification of the core property required of a component, thus enabling a deeper understanding about the reasons why the algorithm works correctly. This helps to reveal the reasons why the rely/guarantee approach does not work directly for some problems.</description>
-    </item>
-    <item>
-      <title>Fine Selection for Intuitionistic Modal Logic</title>
-      <link>http://arxiv.org/abs/2609.27078v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.27078v1</guid>
-      <pubDate>Tue, 22 Sep 2026 21:18:56 +0000</pubDate>
-      <description>We extend Fine's selection method to the setting of intuitionistic modal logic and use it to provide a model-theoretic proof that Fischer Servi-style intuitionistic $\sf K4$ has the finite model property.</description>
-    </item>
-    <item>
-      <title>An Exponential Succinctness Gap between Three-Variable Logic and the Calculus of Relations</title>
-      <link>http://arxiv.org/abs/2609.26778v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.26778v1</guid>
-      <pubDate>Tue, 22 Sep 2026 17:55:06 +0000</pubDate>
-      <description>Three-variable first-order logic (FO3) and the calculus of relations (CoR) define the same binary queries, an equivalence going back to Tarski in the 1940s. While the classical translation $\text{FO3} \Rightarrow \text{CoR}$ is exponential, we prove that this blow-up is unavoidable, resolving a long-standing open question. We construct positive formulas $\varphi$ with a single quantifier whose equivalent terms require size $2^{Ω(|\varphi|)}$, even over finite structures and circuit representations with subterm sharing. Our proof uses a preservation argument over a single finite structure. This approach applies beyond our primary question, establishing the lower bound even for size-specific circuits and bounded-error randomized circuits, and yielding an analogous exponential gap for the matrix query language MATLANG.</description>
     </item>
   </channel>
 </rss>

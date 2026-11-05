@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An Engineering Reading of the Bounded Halting Problem and Observable Properties of a Universal Machine</title>
+      <link>http://arxiv.org/abs/2611.06303v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06303v1</guid>
+      <pubDate>Wed, 04 Nov 2026 10:36:39 +0000</pubDate>
+      <description>The halting problem asks whether a program eventually halts, with unrestricted resources. Engineering systems instead certify bounded halting: given a program, an input, and a step budget T, decide whether the program halts within T steps. This paper studies two of its uses. First, it defines an exact finite-budget problem, placing the simulated program and the checker on the same unit-cost timescale, so the checker can be embedded in an adversarial program. A diagonal argument with explicit additive overhead shows that no fixed deterministic checker decides every instance within any fixed fraction of T below one, for large T. In the nondeterministic case, T bounds the branch depth allowed for a stable observable decision. Second, bounded-halting instances give adversarial tests for finitary universality, since a universal model must support arbitrary finite computations as T grows. The tests check resource growth with T, the absence of a fixed deliberation bound, and later access to intermediate data. They separate a fixed model with extendable external resources, a model family that grows with T, and a larger system built around a fixed component. For machine-learning systems, this identifies the resource growth a universality claim assumes and whether it fails for deployed models.</description>
+    </item>
+    <item>
+      <title>Quadratic reset bounds for finite maximal prefix codes</title>
+      <link>http://arxiv.org/abs/2611.05675v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05675v1</guid>
+      <pubDate>Tue, 03 Nov 2026 22:01:42 +0000</pubDate>
+      <description>Let $C$ be a finite maximal prefix code of maximum codeword length $k\ge2$. We prove that, whenever the literal decoder of $C$ is synchronizing, it has a reset word of length at most $(k-1)(4k-5)$. The bound is independent of the alphabet and the number of decoder states. Its main ingredient is a short-detection theorem: a linear observation of the decoder, with terminal weight constant on states of depth $k-1$, is either identically zero or nonzero on a word of length at most $2k-3$. The proof uses a first-return decomposition in noncommuting variables and cancellation of a highest-degree coefficient. For codes whose codeword lengths are $k-1$ and $k$, we prove the sharper bound $2(k-1)^2-1$ and characterize equality. The binary code with the single short word $a^{k-1}$ attains this bound for every $k\ge2$; an age representation and a potential on circular arcs give the matching lower bound. Both upper bounds yield polynomial-time constructions in the explicit code size. The mathematical results and the algorithms are formalized in Lean, with polynomial work bounds in a specified binary cost model.</description>
+    </item>
+    <item>
+      <title>The Scope Grammar of Natural-Language Rules: Counting and Enumerating Readings modulo Logical Equivalence</title>
+      <link>http://arxiv.org/abs/2611.01825v2</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.01825v2</guid>
+      <pubDate>Sun, 01 Nov 2026 11:45:13 +0000</pubDate>
+      <description>A rule written for people fixes its atomic conditions and connectives but leaves open how the connectives are bracketed, and each bracketing is a different logical reading that an autoformalizer must resolve or expose. We study the scope grammar, a deliberately ambiguous context-free grammar whose derivation trees are the readings of a connective skeleton and whose quotient by logical equivalence is what matters downstream. A skeleton with $k$ binary connectives has $C_k$ derivation trees, the $k$-th Catalan number, but far fewer logically distinct readings. For the positive, repetition-free fragment we make the gap exact: through the uniqueness of the read-once normal form we characterize the realizable normal forms by lowest common ancestors and count them with a two-label recurrence over the operator word, verified against exhaustive enumeration up to eleven atoms. The count is invariant under reversal and $\wedge/\vee$ duality; a skeleton is ambiguous if and only if it uses both $\wedge$ and $\vee$, a one-pass test; and the number of classes is at least $2^{\lfloor n/3\rfloor}$. Up to fifteen atoms the alternating pattern is the worst case; its count has a cubic generating function, is the 3-Schröder sequence (OEIS A137842), and grows with base $\varphi^{5/2}\approx3.330$, below the Catalan base 4. We reduce maximality to an inequality on increments, verified to sixteen atoms, and explain why local exchange arguments cannot prove it. We also treat negation, exceptions, and background axioms, where normal-form uniqueness still decides equivalence but counting is open.</description>
+    </item>
+    <item>
       <title>Classification of non-Leibnizian Strings</title>
       <link>http://arxiv.org/abs/2611.01625v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.01625v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.26684</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 -0000</pubDate>
       <description>Parallel Communicating Finite Automata (PCFA) are systems of several finite automata that can communicate by requesting the state of another automaton. As an attempt to make PCFA as defined in [8] and [2] more realistic, the non-forgetting model is introduced where automata retain their own states while querying. As in previous publications, several variants of these automata systems are considered. The computational capacity of the non-forgetting model is investigated and compared to ''forgetting'' systems and multi-head finite automata. It is shown that most variants of non-forgetting PCFA are as powerful as multi-head automata in the deterministic and nondeterministic cases where the number of automata equals the number of heads. The only exception is the special case of deterministic centralized systems in non-returning mode. Here, a strict inclusion is proved. In the course of this proving, a proof from [2] is completed. With that, this paper answers some questions for nfPCFA that are open for the classical ''forgetting'' case.</description>
-    </item>
-    <item>
-      <title>How Long Can the Escaping Ant Be Confined?</title>
-      <link>https://arxiv.org/abs/2606.26677</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.26677</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Langton's ant is a simple two-dimensional cellular automaton whose long-term behavior exhibits remarkable complexity. While it is known that the ant eventually escapes any finite connected region of the grid, the quantitative aspects of this escape remain poorly understood. In this paper, we study the escaping time of Langton's ant, defined as the maximum number of steps the ant can perform within a finite connected domain before leaving it. We establish general upper bounds on the escaping time as a function of the domain size, and derive improved bounds for rectangular domains. In particular, we obtain a factorial upper bound for square domains via an inductive decomposition argument. We also obtain linear upper bounds for rectangular domains of height two and three via a column-by-column analysis. More generally, for rectangular domains with a fixed height, we establish a polynomial upper bound in the number of columns. These results are complemented by exact values computed through an optimized simulation algorithm that exploits the geometric symmetries of the grid and employs a backtracking branching strategy to avoid exhaustive search over all color configurations. We also provide lower-bound constructions, proving that the linear upper bounds for rectangular domains of heights two and three are asymptotically optimal.</description>
-    </item>
-    <item>
-      <title>Order-2 bygone-state opacity of labeled finite-state automata</title>
-      <link>https://arxiv.org/abs/2606.26503</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.26503</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 -0000</pubDate>
-      <description>In this paper, we formulate a scenario that an agent can never be sure that another agent can uniquely determine the state of a finite-state automaton based on its observations to the automaton at the current and any past time as the property of order-2 bygone-state opacity. Based on our concurrent composition and the classical observer, we derive a tool to verify this property in doubly exponential time. The interest of this result lies in that we extend inference of finite automata from a single agent to two ordered agents.</description>
-    </item>
-    <item>
-      <title>Formal Grammars in Business Process Management: A Systematic Literature Review</title>
-      <link>https://arxiv.org/abs/2606.27399</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.27399</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Business Process Management (BPM) is concerned with the systematic design, execution, monitoring, and improvement of business processes. Formal grammars have emerged as a particularly fruitful formalism for BPM, offering generative, declarative, and analytical capabilities that are uniquely well-suited to process-oriented concerns. This paper presents a systematic literature review of 34 primary studies at the intersection of formal grammars and BPM. We identify seven research streams: (i) process grammars for organizational process design; (ii) process modeling languages evaluated as grammars under the Bunge-Wand-Weber ontological framework; (iii) production-rule grammars for process structural specification and variant management; (iv) attribute grammars for the declarative specification and distributed execution of workflows; (v) graph grammars for the transformation, generation, and semantic analysis of process models; (vi) grammatical inference for process mining and discovery; and (vii) process algebras as grammar-like compositional frameworks for behavioral specification and verification. For each stream, we synthesize contributions, formalisms employed, and limitations. The review reveals that formal grammars have influenced BPM across every lifecycle phase (from organizational design to formal verification and data-driven discovery) yet the seven streams have developed largely in parallel, without cross-stream synthesis. We identify five corpus-grounded open challenges and argue that a deeper, unified exploitation of grammatical theory holds significant promise for advancing the state of the art in BPM.</description>
     </item>
   </channel>
 </rss>

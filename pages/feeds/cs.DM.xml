@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Classifying K-Geodetic Graphs Via Combinatorial Designs and Distance-regularity</title>
+      <link>http://arxiv.org/abs/2611.05762v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.05762v1</guid>
+      <pubDate>Wed, 04 Nov 2026 00:06:31 +0000</pubDate>
+      <description>The classification of K-geodetic graphs is a fundamental problem in graph theory concerning the number of shortest paths connecting pairs of vertices. A graph is called K-geodetic if every pair of distinct vertices is joined by at most K geodesics, where a geodesic is a shortest path between two vertices. The cases K=1,2,3 correspond, respectively, to geodetic, bigeodetic, and trigeodetic graphs. Despite substantial progress in the study of their structural properties, a comprehensive classification of these graph families remains elusive. This paper develops a research framework for investigating the classification problems by combining metric graph theory, distance-regular graphs, algebraic graph theory, and combinatorial design theory. Particular attention is given to distance-regular graphs, for which the number of geodesics between vertices at a fixed distance is determined by the intersection numbers of the graph. This property converts the K-geodetic condition into a finite collection of arithmetic inequalities. We establish the resulting necessary conditions for K=1,2,3, discuss representative examples, and distinguish these conditions from the stronger requirements needed to prove the existence and classification of graphs with a given intersection array. The paper also investigates the potential role of balanced incomplete block designs (BIBDs) in constructing and organizing families of K-geodetic graphs. Finally, it proposes a computational research methodology based on constraint satisfaction, graph-isomorphism testing, exhaustive enumeration, and machine-assisted conjecture generation.</description>
+    </item>
+    <item>
       <title>Path Decompositions of Sparse Graphs via Gaussian Sweeps and Faster Exponential Algorithms</title>
       <link>http://arxiv.org/abs/2611.05146v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.05146v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.14484v1</guid>
       <pubDate>Sun, 13 Sep 2026 12:49:22 +0000</pubDate>
       <description>A perfect matching in an ordered graph is nonnested if no edge lies strictly inside another. We classify the smallest edge sets meeting every nonnested perfect matching on $2k$ ordered vertices. For $k\ge2$, these blockers have $k$ edges and belong to three explicit families, with $2^k+k-2$ members in total. The proof uses a minimum spanning tree of an auxiliary interval cut; its equality case also classifies the minimum blockers for concatenations of crossing matchings. The argument gives a deterministic algorithm that, from at most $k$ deleted edges, returns a minimum blocker description or an avoiding nonnested perfect matching in $O(k^2)$ word operations and $O(k)$ auxiliary words. We also give an injection from one of the blocker families into minimum blockers of $123$-avoiding permutation matrices. Beyond the perfect case, an explicit construction gives graphs with $(k-1)n+1$ edges and no nonnested $k$-matching for every $k\ge5$ and $n\ge2k+1$.</description>
-    </item>
-    <item>
-      <title>A Four-Connected Graph without a Legal System</title>
-      <link>http://arxiv.org/abs/2609.13419v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.13419v1</guid>
-      <pubDate>Fri, 11 Sep 2026 18:33:01 +0000</pubDate>
-      <description>In a 2021 paper, Jankiewicz, Norin, and Wise asked whether there exists a finite $4$-connected graph of girth at least four and nonnegative Charney--Davis curvature such that no $4$-connected ordinary subgraph admits a legal system. We construct such a graph by starting from the hexagonal prism and attaching three $K_{3,4}$-based caps along pairwise disjoint induced $4$-cycles. The key structural input is a restriction theorem showing that a legal system on an induced-$4$-cycle amalgam restricts to each side, so the obstruction carried by the negatively curved prism survives the attachments. The resulting $33$-vertex graph is $4$-regular and $4$-connected, has girth four and Charney--Davis curvature one, and, by $4$-regularity, is its own unique $4$-connected ordinary subgraph.</description>
     </item>
   </channel>
 </rss>
