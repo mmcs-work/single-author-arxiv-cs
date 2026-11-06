@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Hardness of integer linear feasibility with cyclic support</title>
+      <link>http://arxiv.org/abs/2611.08304v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.08304v1</guid>
+      <pubDate>Thu, 05 Nov 2026 17:06:59 +0000</pubDate>
+      <description>We prove that integer linear feasibility is strongly $NP$-complete even when the constraint matrix has exactly two nonzero entries in every row and column, with its support forming a single cycle. This holds already for monotone systems (one positive and one negative coefficient in each inequality) with nonzero coefficients of absolute value $2$ or $3$ and right-hand sides in $\{-1,0,1,2\}$. No variable bounds are supplied separately from the system. For systems in which each inequality involves at most two variables, this strengthens known hardness results by restricting all numerical data to fixed finite sets. For systems in which each variable occurs in at most two inequalities, this establishes, to the best of our knowledge, the first $NP$-hardness result for feasibility. We also give negative answers, unless $P=NP$, to questions on polynomial-time solvability of integer programs with bounded coefficients and bounded totally $Δ$-modular treewidth, and on fixed-parameter tractability of integer bound propagation with respect to coefficient and right-hand-side magnitudes.</description>
+    </item>
+    <item>
       <title>Classifying K-Geodetic Graphs Via Combinatorial Designs and Distance-regularity</title>
       <link>http://arxiv.org/abs/2611.05762v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.05762v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.15591v1</guid>
       <pubDate>Mon, 14 Sep 2026 13:57:45 +0000</pubDate>
       <description>We construct a finite connected simple cubic graph $F$ such that every signing of its edges yields an adjacency matrix with an eigenvalue outside $[-2\sqrt2,2\sqrt2]$. This disproves the Bilu--Linial signing conjecture for general regular graphs. The proof is elementary, using a four-vertex calculation and a scalar recurrence.</description>
-    </item>
-    <item>
-      <title>Minimum blockers for nonnested perfect matchings</title>
-      <link>http://arxiv.org/abs/2609.14484v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.14484v1</guid>
-      <pubDate>Sun, 13 Sep 2026 12:49:22 +0000</pubDate>
-      <description>A perfect matching in an ordered graph is nonnested if no edge lies strictly inside another. We classify the smallest edge sets meeting every nonnested perfect matching on $2k$ ordered vertices. For $k\ge2$, these blockers have $k$ edges and belong to three explicit families, with $2^k+k-2$ members in total. The proof uses a minimum spanning tree of an auxiliary interval cut; its equality case also classifies the minimum blockers for concatenations of crossing matchings. The argument gives a deterministic algorithm that, from at most $k$ deleted edges, returns a minimum blocker description or an avoiding nonnested perfect matching in $O(k^2)$ word operations and $O(k)$ auxiliary words. We also give an injection from one of the blocker families into minimum blockers of $123$-avoiding permutation matrices. Beyond the perfect case, an explicit construction gives graphs with $(k-1)n+1$ edges and no nonnested $k$-matching for every $k\ge5$ and $n\ge2k+1$.</description>
     </item>
   </channel>
 </rss>

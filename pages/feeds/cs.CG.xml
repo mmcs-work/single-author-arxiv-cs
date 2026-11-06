@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>K-subareas partitioning subject to coinciding boundary segments of neighboring subareas</title>
+      <link>http://arxiv.org/abs/2611.07701v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07701v1</guid>
+      <pubDate>Thu, 05 Nov 2026 09:23:28 +0000</pubDate>
+      <description>A method for the problem of partitioning an area into K subareas subject to coinciding boundary segments of neighboring subareas is presented. The given area may be non-convex and may additionally include obstacle areas. The proposed hierarchical method involves three steps: repeated bisection splitting, merging and the solution of traveling salesman problems. Geographic real-world outdoors areas data is used for the evaluation of the method. The benefit of computational simplicity at the cost of imbalanced subarea sizes is highlighted.</description>
+    </item>
+    <item>
+      <title>Resolving Tusnády's Problem</title>
+      <link>http://arxiv.org/abs/2611.06998v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06998v1</guid>
+      <pubDate>Wed, 04 Nov 2026 18:58:56 +0000</pubDate>
+      <description>We prove a lower bound of $Ω_d((\log N)^{d-1/2})$ for the worst-case combinatorial discrepancy of $N$-point sets with respect to anchored boxes in every fixed dimension $d\ge3$. Together with Nikolov's upper bound of the same order and Wei's planar lower bound, this settles Tusnády's problem: the discrepancy of axis-parallel boxes is $Θ_d((\log N)^{d-1/2})$ in every fixed dimension $d\ge2$. The proof combines smoothed product test functions, sampling discretization, and an entropy argument for conditioned Gaussian vectors.</description>
+    </item>
+    <item>
       <title>Fixed-Radius Neighbourhoods in Three-Dimensional Unit-Cube Graphs</title>
       <link>http://arxiv.org/abs/2611.06747v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.06747v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2606.06400</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
       <description>The extension of the analytic fractal curve trees of (2601.17490} to analytic surface patch trees reveals a new geometric structure: branch points are replaced by interface curves that transmit the full analytical state of parent patches to their children. These interfaces prove to be central in determining the topology of the surface patch trees, including for the conditions for self-similarity of the interfaces, the patches and thus the trees. We establish the analytic conditions for the integrability and well-posedness of the surface patch trees and introduce further restrictions for conformality. We demonstrate that patch trees have a natural foliation that slices the trees into one dimensional curve trees, each of which has their own Hausdorff dimension, jointly creating a smooth dimension field. We extend the two dimensional surface model to arbitrary dimensions $n$ where $n-1$ interface manifolds transport the $n$ field state of the parent patches to their child branches. We note that the balance or discrepancy between patch field dimension and the dimensions in which the branches may evolve, determine the analytical regime from essentially geometrical to essentially operational.</description>
-    </item>
-    <item>
-      <title>Efficient Mean Curvature Computation on High-Dimensional Data Manifolds</title>
-      <link>https://arxiv.org/abs/2606.06329</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2606.06329</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
-      <description>Estimating local mean curvature at each point of a high-dimensional dataset is a key ingredient of geometry-aware machine learning algorithms, such as the Mean Curvature Boundary Points (MCBP) method. The naive implementation of this computation, based on a local shape operator approximated from k-nearest neighbor patches, involves an explicit construction of a matrix $H$ whose trace form yields an $O(m^4)$ cost per point, rendering the approach intractable for datasets with more than a few dozen features. This paper introduces two complementary contributions that together reduce this cost by several orders of magnitude. The first contribution is an exact algebraic identity. This identity, derived from the orthogonality of the eigenvectors of the covariance matrix and the cyclicity of the trace operator, eliminates $H$ entirely and reduces the per-point cost to $O(m^2)$ after the eigendecomposition. The second contribution addresses the remaining $O(m^3)$ bottleneck of the full eigendecomposition. Since the local covariance matrix has rank at most $k-1 \ll m$, we replace it with a truncated SVD of the $k \times m$ centered data matrix, an $O(k^2 m)$ operation, and derive an analytical approximation for the contribution of the null-space eigenvectors based on the expected value of their outer product under the Haar measure. The resulting estimator has total cost $O(k^2 m + k m p^2)$, where $p = k-1$. Experiments on real-world datasets confirm speedups of 50 to 300 times relative to the original implementation, with negligible loss when the fast estimator is used to replace the original version. By providing a scalable and data-driven estimate of local curvature, the proposed method establishes curvature as a practical geometric feature for a broad range of machine learning tasks, from classical to modern deep learning pipelines.</description>
-    </item>
-    <item>
-      <title>On The Computational Complexity of Minimum Aerial Photographs for Planar Region Coverage</title>
-      <link>https://arxiv.org/abs/2512.18268</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.18268</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
-      <description>With the popularity of drone technologies, aerial photography has become prevalent in many daily scenarios such as environment monitoring, structure inspection, law enforcement etc. A central challenge in this domain is the efficient coverage of a target area with photographs that can entirely capture the region, while respecting constraints such as the image resolution, and limited number of pictures that can be taken. This work investigates the computational complexity of covering a simple planar polygon using squares and circles. Specifically, it shows inapproximability gaps of $1.165$ (for squares) and $1.25$ (for restricted square centers) and develops a $2.828$-optimal approximation algorithm, demonstrating that these problems are computationally intractable to approximate. The intuitions of this work can extend beyond aerial photography to broader applications such as pesticide spraying and strategic sensor placement.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Typed Knowledge over Constructive Institutions</title>
+      <link>http://arxiv.org/abs/2611.07432v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07432v1</guid>
+      <pubDate>Thu, 05 Nov 2026 04:28:30 +0000</pubDate>
+      <description>Type theories designed for mathematics or program verification need only that a proposition holds; proof irrelevance in conversion erases, at the kernel level, how a claim was established. A persistent knowledge store, by contrast, must retain that record: who established a claim, by which derivation or external tool, and under which assumptions. This volume presents the theory of Eigenius---a store of typed knowledge over constructive institutions---and develops its metatheory from that requirement. The kernel theory is a dependent type theory with cumulative universes, an impredicative universe of propositions, inductive families, and an intensional identity type. Proof irrelevance is an axiom with an explicit witness rather than a conversion rule, so proofs of a proposition are provably equal yet remain distinct terms. Definitional equality is joinability under an orthogonal rewriting system---confluent, injective on type formers, and decidable by a type-free test---while a separate subsumption judgment covers universe cumulativity, codomain-covariant function types, and declared class inclusions. We prove consistency via a set-theoretic model; develop a justification logic over the kernel's propositions to track evidence and support; organize environments as an institution so that store extensions are signature morphisms and external verdicts enter via comorphisms; formulate a typed knowledge-graph theory with records, classes, and refinements; and prove the correctness of conversion, normalization by evaluation, and bidirectional type checking relative to termination. A Lean 4 formalization accompanies the volume.</description>
+    </item>
+    <item>
+      <title>Frustration-freeness is decidable but unprovable</title>
+      <link>http://arxiv.org/abs/2611.07337v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07337v1</guid>
+      <pubDate>Thu, 05 Nov 2026 02:22:16 +0000</pubDate>
+      <description>The frustration-free property is valuable in quantum many-body systems, which states that its ground states simultaneously minimize all local interaction terms, even when these terms act on overlapping degrees of freedom. Prominent examples include the AKLT model and Kitaev's toric code model, which serve as paradigmatic models of symmetry-protected topological phases and topological order, respectively. A fundamental question is whether a given Hamiltonian is frustration-free for all system sizes. Here we establish two seemingly contradictory results concerning this decision problem. First, we prove that frustration-freeness is decidable for any fixed local Hilbert space dimension. Specifically, there exists a finite, Hamiltonian-independent system-size cutoff such that frustration-freeness at this cutoff size guarantees frustration-freeness at all system sizes. Second, on the other hand, we also show that there exists a frustration-free Hamiltonian whose frustration-freeness cannot be proved within the standard axioms of mathematics (ZFC). We reconcile these seemingly contradictory results by showing that the cutoff, although finite for each local Hilbert space dimension, is uncomputable as a function of that dimension. Our findings reveal an unexpected fundamental distinction between decidability and provability arising in quantum many-body physics.</description>
+    </item>
+    <item>
+      <title>Degree profiles of uniform polynomial consequences: Linear lower bounds for Nullstellensatz and Polynomial Calculus</title>
+      <link>http://arxiv.org/abs/2611.07280v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07280v1</guid>
+      <pubDate>Thu, 05 Nov 2026 01:01:49 +0000</pubDate>
+      <description>This paper proves asymptotically optimal linear degree lower bounds for Nullstellensatz and Polynomial Calculus, yielding a four-way polynomial-versus-exponential proof-size classification for uniform polynomial consequences over fields of positive characteristic. The size bounds use full, explicit coefficient lists, including zeros. Apart from a fixed finite initial range, exactly one of four cases occurs: $\mathrm T_1$, bounded degree; $\mathrm T_2$, degree at least linear in the universe size $n$; $\mathrm T_3$, constant degree on some residue classes and at least linear degree on the others; or $\mathrm T_4$, infinitely many recurring finite degrees, with bounded-degree subsequences and finite $Ω(n)$ peaks at arbitrarily large sizes. Thus the size patterns are polynomial bounds, exponential lower bounds, a periodic mixture, or polynomial subsequences with finite exponential peaks, respectively. Underivable targets have degree $\infty$, and both proof systems assign the same type. The result strengthens my 2008--2009 refutation classification and extends it to uniform consequences. The proof uses degree-preserving lifting with onset and period bounds linear in the degree. A common $p$-adic hardness spectrum describes the four types topologically. Distinguishing any two types is undecidable already for refutations. The linear degree bounds, four-way classification and pairwise undecidability results have been formalised and verified in Lean. The Lean formalisation, verification records and an accompanying tutorial are available in the supporting materials (https://doi.org/10.5281/zenodo.23965838).</description>
+    </item>
+    <item>
       <title>From Certified Pairs to a Certified Hub: Reasoner-Checked Crosswalks for the Information Exchange Standard</title>
       <link>http://arxiv.org/abs/2611.06628v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.06628v1</guid>
@@ -682,27 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2609.31146v1</guid>
       <pubDate>Fri, 25 Sep 2026 11:37:38 +0000</pubDate>
       <description>The existence of polyhedral inductive invariants suitable for proving that a given control location is unreachable is undecidable for programs using only linear arithmetic over Z or Q, by reduction from 2-counter machines.</description>
-    </item>
-    <item>
-      <title>A constructive ATLAS of finite simple groups in Lean</title>
-      <link>http://arxiv.org/abs/2609.35847v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.35847v1</guid>
-      <pubDate>Fri, 25 Sep 2026 04:51:06 +0000</pubDate>
-      <description>We present a constructive atlas of finite simple groups with proofs of their orders, simplicity, and structural properties. The eight completed families are cyclic groups of prime order, alternating groups, the classical series $A_r(q)$, $B_r(q)$, $C_r(q)$, $D_r(q)$, and the exceptional series $G_2(q)$ and the small Ree groups $ {}^2G_2(3^{2m+1})$, $m\geq1$. The fifteen sporadic entries are $M_{11}$, $M_{12}$, $M_{22}$, $M_{23}$, $M_{24}$, $\mathrm{Co}_1$, $\mathrm{Co}_2$, $\mathrm{Co}_3$, $\mathrm{McL}$, $\mathrm{HS}$, $\mathrm{Suz}$, $J_2$, and $\mathrm{Fi}_{22}$, $\mathrm{Fi}_{23}$, $\mathrm{Fi}_{24}'$. The simple parameter ranges and exceptional cases are stated explicitly. The models arise from codes, lattices, forms, algebras, and finite geometries, including the split octonions and the Conway--Parker algebra. They retain natural actions, stabilizers, central quotients, and comparison maps for subsequent group theory. Several classical comparison isomorphisms relate the models, while involution-class counts distinguish the equal-order orthogonal and symplectic families in odd characteristic and rank at least three. Drawing on classical sources and companion mathematical work, the project develops the construction side of finite simple group theory, not the exhaustiveness proof of the classification. The completed models and stated proofs are formalized in Lean for verification and reuse.</description>
-    </item>
-    <item>
-      <title>Two applications of the point-free coderivative</title>
-      <link>http://arxiv.org/abs/2609.29436v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.29436v1</guid>
-      <pubDate>Thu, 24 Sep 2026 11:55:36 +0000</pubDate>
-      <description>We present two new applications of Simmons' point-free Cantor-Bendixson coderivative operator in intuitionistic logic. First, we use it to give a simplified proof of the recent result of Xu and Ye that the free Heyting algebra on two generators does not occur as the Heyting algebra of subterminal objects in any elementary topos. Then we use it to prove that complete Heyting algebra semantics is not strongly complete for intuitionistic second-order propositional logic: semantic consequence from an arbitrary set of assumptions does not coincide with ordinary syntactic consequence.</description>
-    </item>
-    <item>
-      <title>Biplanar graphs with independence number two are 9-colorable</title>
-      <link>http://arxiv.org/abs/2609.28102v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2609.28102v1</guid>
-      <pubDate>Wed, 23 Sep 2026 13:33:04 +0000</pubDate>
-      <description>A graph is biplanar if it is the union of two planar graphs on the same vertex set. The largest chromatic number of a biplanar graph is known to lie between 9 and 12. The lower bound comes from Sulanke's graph, which has independence number 2, and a biplanar graph on 19 vertices with independence number 2 would have chromatic number at least 10. Gethner and Sulanke asked in 2009 whether such a graph exists. We show that it does not, and more generally that every biplanar graph with independence number at most 2 is 9-colorable. The proof embeds a hypothetical counterexample in the union of two sphere triangulations, enumerates with SAT modulo symmetries the 3271 graphs that pass a necessary filter for the complement of such a union, and shows with a SAT solver that none of them is such a complement; a matching argument reduces the general statement to this computation and one further case on 18 vertices. The computational part of the proof, including the completeness of the enumeration and every refutation, is checked in Lean 4, assuming three classical facts about planar graphs. The Lean development, the SAT instances, and the enumeration certificates are available on Zenodo.</description>
     </item>
   </channel>
 </rss>

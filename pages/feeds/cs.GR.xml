@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Hierarchical Incremental Beta Splatting for Online Reconstruction</title>
+      <link>http://arxiv.org/abs/2611.08288v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.08288v1</guid>
+      <pubDate>Thu, 05 Nov 2026 16:52:46 +0000</pubDate>
+      <description>Online 3D Gaussian Splatting reconstructs a scene during capture: each keyframe spawns primitives once and refines them for only a few dozen iterations, leaving little chance to fix poor initialization or missing detail. Gaussians are also inherently soft, needing many overlaps for solid surfaces. We present Hierarchical Incremental Beta Splatting (HIBS), which brings beta kernels to incremental reconstruction. Their shape parameter interpolates between a soft, Gaussian-like profile and a flat-topped, near-opaque surfel, acting as a confidence dial for geometry. Our confidence-aware spawning uses geometric observability and multi-view depth agreement to initialize both opacity and shape, producing solid primitives where geometry is verifiable and soft, correctable primitives where it is not. As online densification, error-driven relocation recycles stale primitives into photometric-error hotspots. Bounded beta kernel support enables exact tile culling and faster rasterization, and a closed-form, shape-preserving merging formulation provides a level-of-detail (LOD) hierarchy for fast optimization and real-time rendering. On Mip-NeRF 360 in the on-the-fly protocol, HIBS improves PSNR by up to 0.8 dB while reducing optimization time by up to 40%. Project page: https://linus-franke.com/hibs/</description>
+    </item>
+    <item>
+      <title>Structure from Collision via Hypothesis-Space Reasoning</title>
+      <link>http://arxiv.org/abs/2611.07900v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07900v1</guid>
+      <pubDate>Thu, 05 Nov 2026 12:20:11 +0000</pubDate>
+      <description>Knowledge of the hidden interior structure of an object, including the presence and location of cavities, is essential for predictive simulation, robotic manipulation, and nondestructive inspection. However, such cavities leave no direct signature on the static visible surface, making collision-induced deformation one of the few cues used to infer their presence. Structure from Collision (SfC) addresses this problem by recovering the hidden interior structure of an object from multiview observations of a collision event. SfC is challenging for two reasons: hidden cavities are only indirectly observable through surface motion, and voids correspond to the absence of material, making direct optimization using standard density representations difficult. The density-based SfC baseline inherits both difficulties. Surface-matching gradients do not directly indicate the cavity location, while density gradients can be weak or uninformative inside or near void regions. Therefore, we reformulate SfC as hypothesis-space reasoning, representing hidden cavities as explicit structural hypotheses whose variables encode available structural assumptions rather than relying on implicit density updates. A global stage performs gradient-free optimization over this hypothesis space using forward-only material point method (MPM) simulation. A local stage then refines the selected hypothesis as a Lagrangian particle system through gradient-based optimization using differentiable MPM simulation. On the SfC benchmark, our method improves hidden-structure reconstruction and future prediction over the density-based SfC baseline. Interior-topology stress tests and robustness analyses characterize its scope and limitations. The project page is available at https://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/sfc-hypothesis/.</description>
+    </item>
+    <item>
       <title>GPU-Native Real-Time Textured Mesh Reconstruction with Seam-Aware Multi-View Radiometric Correction</title>
       <link>http://arxiv.org/abs/2611.03033v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.03033v1</guid>
@@ -689,20 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.26694</guid>
       <pubDate>Thu, 30 Oct 2025 00:00:00 -0000</pubDate>
       <description>Since its introduction, 3D Gaussian Splatting (3DGS) has rapidly transformed the landscape of 3D scene representations, inspiring an extensive body of associated research. Follow-up work includes analyses and contributions that enhance the efficiency, scalability, and real-world applicability of 3DGS. In this summary, we present an overview of several key directions that have emerged in the wake of 3DGS. We highlight advances enabling resource-efficient training and rendering, the evolution toward dynamic (or four-dimensional, 4DGS) representations, and deeper exploration of the mathematical foundations underlying its appearance modeling and rendering process. Furthermore, we examine efforts to bring 3DGS to mobile and virtual reality platforms, its extension to massive-scale environments, and recent progress toward near-instant radiance field reconstruction via feed-forward or distributed computation. Collectively, these developments illustrate how 3DGS has evolved from a breakthrough representation into a versatile and foundational tool for 3D vision and graphics.</description>
-    </item>
-    <item>
-      <title>Optimizing Feature Ordering in Radar Charts for Multi-Profile Comparison</title>
-      <link>https://arxiv.org/abs/2510.20738</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.20738</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 -0000</pubDate>
-      <description>Radar charts are widely used to visualize multivariate data and compare multiple profiles across features. However, the visual clarity of radar charts can be severely compromised when feature values alternate drastically in magnitude around the circle, causing areas to collapse, which misrepresents relative differences. In the present work we introduce a permutation optimization strategy that reorders features to minimize polygon ``spikiness'' across multiple profiles simultaneously. The method is combinatorial (exhaustive search) for moderate numbers of features and uses a lexicographic minimax criterion that first considers overall smoothness (mean jump) and then the largest single jump as a tie-breaker. This preserves more global information and produces visually balanced arrangements. We discuss complexity, practical bounds, and relations to existing approaches that either change the visualization (e.g., OrigamiPlot) or learn orderings (e.g., Versatile Ordering Network). An example with two profiles and $p=6$ features (before/after ordering) illustrates the qualitative improvement. Keywords: data visualization, radar charts, combinatorial optimization, minimax optimization, feature ordering</description>
-    </item>
-    <item>
-      <title>Multi-Agent Pose Uncertainty: A Differentiable Rendering Cramér-Rao Bound</title>
-      <link>https://arxiv.org/abs/2510.21785</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.21785</guid>
-      <pubDate>Sat, 18 Oct 2025 00:00:00 -0000</pubDate>
-      <description>Pose estimation is essential for many applications within computer vision and robotics. Despite its uses, few works provide rigorous uncertainty quantification for poses under dense or learned models. We derive a closed-form lower bound on the covariance of camera pose estimates by treating a differentiable renderer as a measurement function. Linearizing image formation with respect to a small pose perturbation on the manifold yields a render-aware Cramér-Rao bound. Our approach reduces to classical bundle-adjustment uncertainty, ensuring continuity with vision theory. It also naturally extends to multi-agent settings by fusing Fisher information across cameras. Our statistical formulation has downstream applications for tasks such as cooperative perception and novel view synthesis without requiring explicit keypoint correspondences.</description>
     </item>
   </channel>
 </rss>

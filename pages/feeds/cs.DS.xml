@@ -5,6 +5,69 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Tusnády's problem and online two-sample thinning</title>
+      <link>http://arxiv.org/abs/2611.08455v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.08455v1</guid>
+      <pubDate>Thu, 05 Nov 2026 18:47:43 +0000</pubDate>
+      <description>We determine the sharp order of discrepancy in Tusnády's problem in every fixed dimension $d\ge 2$. The largest combinatorial discrepancy of $N$ points in $\mathbb{R}^d$ with respect to axis-parallel boxes is $Θ_d((\log N)^{d-1/2})$, extending Wei's planar result and matching Nikolov's upper bound. More strongly, with high probability, this lower bound holds simultaneously for every subset obtained by deleting at most a sufficiently small fixed fraction of a uniform $N$-point sample. We apply this geometric estimate to online thinning of two independent samples of size $n$ from an unknown common distribution, where observations must be kept or discarded upon arrival. For every fixed dimension $k\ge 1$ and expected deletion budget $ρn$, with $0&lt;ρ&lt;2$, we prove that the minimax expected prefix discrepancy over lower orthants is $Θ_{k,ρ}((\log n)^{k+1/2})$. In dimension one, the optimal terminal discrepancy is instead $Θ_ρ((\log\log n)^{3/2})$, giving a sharp separation between the prefix and terminal objectives. For $k\ge 2$, we obtain terminal bounds differing by a factor of $\log n$. The lower bounds are based on Gaussian small-ball estimates for box-incidence matrices, while the upper bounds use stationary Metropolis thinning and, in one dimension, a terminal cancellation procedure.</description>
+    </item>
+    <item>
+      <title>Minimum-Cost $k$-Arborescence Packing in $\tilde O(km+k^4 n)$ Time</title>
+      <link>http://arxiv.org/abs/2611.08256v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.08256v1</guid>
+      <pubDate>Thu, 05 Nov 2026 16:32:13 +0000</pubDate>
+      <description>We give a deterministic, strongly polynomial algorithm running in $\tilde{O}(km+k^4n)$ time that finds $k$ arc-disjoint arborescences of minimum total cost in a directed multigraph with $n$ vertices and $m$ arcs. This significantly improves upon the state of the art for $k \ge 2$ with $k=n^{o(1)}$: the prior fastest weakly polynomial and strongly polynomial algorithms take $\tilde{O}(km\sqrt{n}\log C)$ and $\tilde{O}(kmn)$ time (Gabow and Xu, 1989; Gabow, 1995), respectively. Roughly, our technique can be viewed as a way to apply a linear number of \emph{shortest} augmenting paths in near-linear total time for the special case of the weighted matroid intersection problem between the $k$-fold graphic matroid and the indegree partition matroid. This was previously done in the unweighted case by Gabow (1995), but our approach is different. As an extension, we also obtain a deterministic $\tilde{O}(km^{1+o(1)}+k^5n)$-time algorithm for minimum-cost maximum-cardinality packing of $k$ forests in undirected graphs. In particular, this finds $k$ edge-disjoint spanning trees of minimum total cost, if they exist. The previous fastest algorithm takes $\tilde{O}(kn^2+m)$ time (Gabow and Westermann, 1992).</description>
+    </item>
+    <item>
+      <title>All minimum cuts of symmetric submodular functions</title>
+      <link>http://arxiv.org/abs/2611.08253v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.08253v1</guid>
+      <pubDate>Thu, 05 Nov 2026 16:28:28 +0000</pubDate>
+      <description>We compute Cunningham's canonical decomposition of a symmetric submodular function on $n$ elements in $O(n^3)$ time. The decomposition represents all minimum cuts in linear space. For the pair $s,t$ produced by Queyranne's algorithm, we construct in $O(n^2)$ time a digraph representing exactly the minimum $st$-cuts of the function. Using this construction in Chekuri and Xu's decomposition algorithm gives the cubic bound.</description>
+    </item>
+    <item>
+      <title>Solving Linear Programs in the Matrix Multiplication Time</title>
+      <link>http://arxiv.org/abs/2611.07980v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07980v1</guid>
+      <pubDate>Thu, 05 Nov 2026 13:10:00 +0000</pubDate>
+      <description>We give a randomized algorithm for feasible bounded-box linear programs with $n$ variables and $d\le n=O(d)$ linearly independent equality constraints. For additive accuracy $ε$, its expected running time is $O((n^ω+n^2\log n)\log(1/ε))$, where $ω$ is the matrix multiplication exponent. This answers the matrix-multiplication-time open question posted in Song's Ph.D. thesis [Son19] in this setting.</description>
+    </item>
+    <item>
+      <title>Approximate Hamming Convolution via Rectangular Matrix Multiplication</title>
+      <link>http://arxiv.org/abs/2611.07622v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07622v1</guid>
+      <pubDate>Thu, 05 Nov 2026 08:05:55 +0000</pubDate>
+      <description>We study $(1 \pm ε)$-approximate text-to-pattern Hamming distance: given a length-$N$ pattern and a length-$2N$ text, compute the Hamming distance at every alignment to relative error $ε$. For every fixed $a \ge 0$ and $ε= N^{-a}$, we give a randomized algorithm with simultaneous high-probability correctness on a logarithmic-word RAM and expected running time $\widetilde{O}(N^{ω(4a)/2})$, where $\widetilde{O}$ suppresses subpolynomial factors and $ω(k)$ is the exponent for multiplying an $n \times n^k$ matrix by an $n^k \times n$ matrix. With a recent rectangular bound, this improves the published bounds [CGK+20, FKN26] for $1/12 &lt; a &lt; (3 + \sqrt{3})/16$. In particular, the algorithm runs in expected time $\widetilde{O}(N)$ for $0 \le a \le 1/8$, extending the previous near-linear guarantee through $a = 1/12$.</description>
+    </item>
+    <item>
+      <title>Sharp Limits of Graph-Based Nearest Neighbor Search on the Sphere</title>
+      <link>http://arxiv.org/abs/2611.07603v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07603v1</guid>
+      <pubDate>Thu, 05 Nov 2026 07:53:11 +0000</pubDate>
+      <description>We study the degree needed for greedy graph search to find the exact nearest neighbor from every starting point on graphs of $n$ independent data points on the unit sphere in $\mathbb R^d$. For uniform data, we determine an explicit sublinear degree threshold when $d$ is proportional to $\log n$, and the threshold $2^{d/2+o(d)}$ in the dense regime $\sqrt{\log n}\ll d\ll\log n$. Above these thresholds by fixed exponent gaps, the nearest-neighbor graph succeeds from every entry for most uniform queries with high probability, with evaluation cost on the same exponential scale as its degree. Matching lower bounds hold for every graph designed after observing the sample. For nonuniform data in the dense regime, local density variation shifts the critical degree. Under explicit local regularity conditions and within a specified range of density variation, we derive a sharp worst-case degree curve and show that the nearest-neighbor graph attains it. We construct sampling densities and query distributions for which, with high probability, every graph whose degree lies below this curve by a fixed exponent gap has failing entries for most queries. Allowing fresh uniform random entries reduces the cost of exact recovery. For uniform data in the dense regime, we determine the exact exponent for the number of distinct distance evaluations over a range of degrees below the critical threshold. Independent restarts on a single graph joining points within a prescribed radius attain this exponent with high probability. Matching lower bounds hold for adaptive local exploration on threshold and nearest-neighbor graphs using entries independent of the data. Optimizing within this degree range lowers the exponent from $\frac12\log2\approx0.347$ for success from every entry to approximately $0.243$.</description>
+    </item>
+    <item>
+      <title>A Simple Discrete Newton Method for the Quickest Transshipment Problem</title>
+      <link>http://arxiv.org/abs/2611.07369v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07369v1</guid>
+      <pubDate>Thu, 05 Nov 2026 03:15:06 +0000</pubDate>
+      <description>The quickest transshipment problem is a problem defined in a dynamic network with multiple sources and multiple sinks. The goal of this problem is to send all the supplies from sources to sinks as quickly as possible. It is known that this problem can be solved in polynomial time. In particular, Schlöter, Skutella, and Tran proposed a strongly polynomial-time discrete Newton method for this problem. In this paper, we propose a simple polynomial-time discrete Newton method for the quickest transshipment problem.</description>
+    </item>
+    <item>
+      <title>Quadratic-Time Barriers from Self-Referential SAT</title>
+      <link>http://arxiv.org/abs/2611.07308v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07308v1</guid>
+      <pubDate>Thu, 05 Nov 2026 01:50:04 +0000</pubDate>
+      <description>Under the self-referential $K$-SAT exhaustive-search hypothesis (SRK-ESH), no uniform deterministic algorithm computes exact longest common subsequence or standard edit distance on binary strings in $O(n^{2-η})$ time for any fixed $η&gt;0$, where $n$ is the longer sequence length. The same exclusion holds for one-dimensional dynamic time warping on $\{0,1,2,4,8\}$ with absolute-difference cost and for five-symbol dynamic time warping with the discrete metric. We derive Orthogonal Vectors hardness in polylogarithmic dimension by splitting the variables of the logarithmic-width source formula into two halves. Existing sequence reductions have polynomial overhead in the dimension. Their output lengths and construction times allow a fixed saving in the target exponent to yield a fixed proportional saving in the source exponent.</description>
+    </item>
+    <item>
+      <title>Resolving Tusnády's Problem</title>
+      <link>http://arxiv.org/abs/2611.06998v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06998v1</guid>
+      <pubDate>Wed, 04 Nov 2026 18:58:56 +0000</pubDate>
+      <description>We prove a lower bound of $Ω_d((\log N)^{d-1/2})$ for the worst-case combinatorial discrepancy of $N$-point sets with respect to anchored boxes in every fixed dimension $d\ge3$. Together with Nikolov's upper bound of the same order and Wei's planar lower bound, this settles Tusnády's problem: the discrepancy of axis-parallel boxes is $Θ_d((\log N)^{d-1/2})$ in every fixed dimension $d\ge2$. The proof combines smoothed product test functions, sampling discretization, and an entropy argument for conditioned Gaussian vectors.</description>
+    </item>
+    <item>
       <title>Single-Exponential FPT Algorithms for Minimum Bisection and Matching Cut via a New Unbreakable Decomposition</title>
       <link>http://arxiv.org/abs/2611.05982v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.05982v1</guid>
@@ -38,6 +101,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2611.05669v1</guid>
       <pubDate>Tue, 03 Nov 2026 21:57:02 +0000</pubDate>
       <description>The online $k$-server problem is one of the most fundamental problems in online algorithms. In this problem, $k$ servers are located in a metric space and serve a sequence of requests at points in the metric space by moving a server there. The Harmonic algorithm is a very natural algorithm: it chooses a server with probability inversely proportional to its distance from the request. It is also highly efficient, being memoryless and answering each request in $O(k)$ time. However, its competitive ratio has remained unsettled between the $O(2^k \log k)$ upper bound (Bartal and Grove, JACM 2000) and the $k(k+1)/2$ lower bound (Raghavan and Snir, 1994, IBM J. Res. Dev.). We prove that Harmonic is $2k^4$-competitive on every metric space against adaptive online adversaries. Our analysis uses a potential combining corrected electrical energy with the distances of online servers to their assigned adversary locations.</description>
+    </item>
+    <item>
+      <title>A Sharp Additive Bound for the Threshold Rule in Repeated Rent-or-Buy</title>
+      <link>http://arxiv.org/abs/2611.06955v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.06955v1</guid>
+      <pubDate>Tue, 03 Nov 2026 21:36:52 +0000</pubDate>
+      <description>Motivated by context management in LLM agents, we study a repeated rent-or-buy model with schedule-independent history growth and a fixed reset price $K$, a discrete form of dynamic TCP acknowledgment: every call pays as rent the history accumulated since the last reset, and a reset clears it. The classical threshold rule is $2$-competitive, and no deterministic rule guarantees a smaller ratio. We show that, measured additively, its loss is governed by the changes in the growth: if the growth is constant on $P$ runs, the threshold rule, knowing neither the runs nor the horizon, pays at most $(2P-1)K$ more than the optimal schedule chosen with hindsight, and the coefficient $2P-1$ is sharp. If the growth is only within a factor $1+\varepsilon$ of $P$ runs, the bound holds up to a factor $1+\varepsilon$ and an extra $\varepsilon K$. The proof is a potential argument built from the relative value functions of the single-rate problems. On two runs no deterministic rule guarantees a loss below $2K$. A rule that also resets when the growth decreases guarantees $2K$, while the threshold rule can lose arbitrarily close to $3K$.</description>
     </item>
     <item>
       <title>Fast Quantum Byzantine Agreement with Nearly Linear Quantum Communication</title>
@@ -633,76 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.30625v1</guid>
       <pubDate>Thu, 22 Oct 2026 02:41:45 +0000</pubDate>
       <description>We study the mixing time of two local Markov chains for uniformly sampling proper edge colorings of trees. For a tree with $n$ vertices and maximum degree $Δ$, we establish optimal mixing-time bounds for the single-edge Glauber dynamics when $q\geΔ+2$ and for the neighboring-edge heat-bath dynamics when $q\geΔ+1$. Both chains mix in $O_Δ(n(\log n+\log(1/\varepsilon)))$ steps, uniformly over the number of colors $q$. These bounds are tight in their dependence on $n$ for fixed $Δ$. Our proof establishes log-Sobolev inequalities through local color release, reusable recoloring buffers, and component entropy mixing. The two dynamics require different local constructions: a two-spare-color buffer for single-edge updates and a second-layer controller for neighboring-edge updates. The resulting entropy analysis applies to general bounded-degree trees, including regimes where worst-case spatial mixing fails.</description>
-    </item>
-    <item>
-      <title>The Cost of Missed States: Online Tracking with Current-Observation Resets</title>
-      <link>http://arxiv.org/abs/2610.30505v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.30505v1</guid>
-      <pubDate>Wed, 21 Oct 2026 22:37:03 +0000</pubDate>
-      <description>An online tracker retains one state and may reset only to the current observation, although its complete observed history is available. Offline knows the future and obeys the same reset rule. Under a hard discrepancy radius, for every horizon $T\ge5$ and every feasible randomized causal policy, a fixed path on a known five-point metric requires at least $(T+1)/2$ expected refreshes, against exactly two offline refreshes with a strict radius margin. Missing the useful prefix center forces a refresh at every suffix observation. The path visits four values, with resolution fixed as $T$ grows. Write $J_λ$ for cumulative discrepancy plus a charge $λ&gt;0$ per refresh, and $V_T$ for the sum of successive observation distances. A candidate prefix adapts Bienkowski and Schmid's randomized lower bound to this objective under current resets, even with a known horizon and $V_T&lt;3λ$. This construction needs finer grids; a fixed finite metric with positive minimum separation instead admits a competitive policy for penalized tracking. An anytime policy satisfies $J_λ\leλ+4\sqrt{λTV_T}$ without knowing the horizon or final variation. Clipping for a known horizon gives $J_λ\leλT$ and a factor-three comparison with the minimum of three analytical bounds, without knowing final variation. Current-value diameter and readout sensitivity give same-input output bounds for mixtures, including squared-distance softmax.</description>
-    </item>
-    <item>
-      <title>Amplified Pruning and Path Selectors for Deterministic Radio Gossiping</title>
-      <link>http://arxiv.org/abs/2610.28930v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.28930v1</guid>
-      <pubDate>Tue, 20 Oct 2026 21:07:58 +0000</pubDate>
-      <description>We study deterministic gossiping in unknown strongly connected directed radio networks with $n$ vertices, $m$ arcs, and distinct identifiers in $\{1,\ldots,N\}$, where $N=n^{\mathcal O(1)}$. Messages are unrestricted; collision detection is unavailable. Our protocol combines amplified reception certificates, adaptive pruning, and permutation selectors. Each pruning iteration costs $\mathcal O(n\log^2n\log\log n)$ rounds. A two-step quadratic contraction limits each receiver and each class of identical closed in-neighborhoods to $\mathcal O(\log\log n)$ qualifying selections. Under an explicit degree-concentration condition, our protocol takes $\mathcal O(m\log^2n(\log\log n)^2)$ rounds. For directed regular graphs with common in- and out-degree $Δ$, our strategy achieves $\widetilde{\mathcal O}(\min\{n\sqrtΔ,n^2/Δ\})$, extending the identifier range of Wu and Chrobak and improving their high-degree bound. At completion entry, let $a\ge1$ count original sources not yet credited as globally disseminated. Permutation selectors reduce our balanced completion budget by a factor of $\log^{2/3}(a+1)$ relative to interleaved path selectors. Our geometric protocol attains $\widetilde{\mathcal O}(k^2+nτ+\min\{u^2,(nu)^{2/3}\})$ for an original path cover of scale $k$, weight $τ$, and $u$ exceptions. Every graph also admits $\widetilde{\mathcal O}(\min\{n^{4/3},N+(mn)^{3/5}\})$ rounds. Only $n,N$ are inputs. Within the stated graph classes and identifier ranges, these results answer the polynomial-identifier and average-degree questions of Wu and Chrobak. The unrestricted general-graph cases remain open.</description>
-    </item>
-    <item>
-      <title>Birthday Estimators Are Uniformly Optimal for Renyi Entropy</title>
-      <link>http://arxiv.org/abs/2610.28581v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.28581v1</guid>
-      <pubDate>Tue, 20 Oct 2026 17:37:30 +0000</pubDate>
-      <description>Collisions are a basic probe of unknown distributions, used for testing and for counting substructures in graphs, and they underlie Rényi entropy, a fundamental measure of uncertainty with applications in cryptography, machine learning, physics, and biology. Motivated by this, we study the natural birthday estimator. We prove Bernstein-type concentration for it and show that it is minimax optimal, uniformly and jointly in alphabet size, order, accuracy, and confidence, with no sample splitting, clipping, or median aggregation. This, in particular, settles the sample complexity of integer-order Rényi entropy estimation up to absolute constants in all regimes, closing the gap between the best known upper and lower bounds. Our concentration bound rests on a sensitivity analysis of collision count, and the matching lower bound on a sharp analysis of detecting a hidden spike in a plateau distribution.</description>
-    </item>
-    <item>
-      <title>Improved Approximation for Unsplittable Capacitated Vehicle Routing Using Quota Trees</title>
-      <link>http://arxiv.org/abs/2610.28501v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.28501v1</guid>
-      <pubDate>Tue, 20 Oct 2026 16:43:00 +0000</pubDate>
-      <description>In the Unsplittable Capacitated Vehicle Routing Problem (UCVRP), we are given a set $V$ of $n$ clients with normalized demands $d_v \in (0,1]$, a depot $r$, a unit vehicle capacity, and symmetric metric travel costs $c$ on $V \cup \{r\}$. We seek a collection of routes of minimum total cost that start and end at $r$, serve each client's entire demand on a single route, and respect the unit capacity constraint $\sum_{v \in V(R)} d_v \le 1$ on every route $R$, where $V(R)$ denotes the clients served by $R$. This models deliveries from a common depot in which each customer's order must be delivered in a single trip. UCVRP generalizes the metric traveling salesman problem (TSP) and is therefore NP-hard. Capacity constraints add a packing difficulty: when all clients are colocated away from the depot, minimizing the route cost is equivalent to minimizing the number of bins in bin packing. Consequently, UCVRP admits no polynomial-time approximation ratio below $3/2$ unless $\textbf{P=NP}$ (Grandoni, Mathieu, and Zhou, 2023). The classical $3.5$-approximation has been improved through several recent advances; in particular, Zhao and Xiao (2026) recently obtained a $(2+\ln 2+\varepsilon)$-approximation. In this paper, we give a deterministic $(5/2+\varepsilon)$-approximation algorithm running in $n^{O(1/\varepsilon)}$ time for every rational $0&lt;\varepsilon\le1/9$, applicable to general capacity and arbitrary positive demands. Our algorithm uses local search to select routes through one client with large demand and clients with small demands. It constructs candidate routes using endpoint quota trees after rounding demands and creating vertex copies. We combine these routes with those obtained by matching and set packing, keeping their client sets disjoint. The remaining clients are served by partitioning a tour constructed using weighted graphic matroid parity.</description>
-    </item>
-    <item>
-      <title>A 55-Addition Rank-23 Scheme for $3\times3$ Matrix Multiplication via Exact Two-Sided Minimization</title>
-      <link>http://arxiv.org/abs/2610.27451v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.27451v1</guid>
-      <pubDate>Tue, 20 Oct 2026 01:00:29 +0000</pubDate>
-      <description>We give a scheme that multiplies two $3\times3$ matrices with 23 multiplications and 55 additions over any ring, one addition below the previous record of 56 (Sun, 2026) and the first below 56 for exact non-commutative $3\times3$ multiplication without a change of basis. The scheme forms 13 signed combinations of the entries of A and 14 of B, takes 23 products, and recombines them with 28 further additions; its correctness is machine-checked in Lean 4. The previous records, from 60 down to 56, were obtained by greedy common-subexpression elimination, which only bounds each side of a scheme from above. We minimize both input sides exactly by chain covering, and the output side exactly through the transposition principle: the 9-by-23 output map costs its transpose plus 14, and the transpose is a 9-input map that the input-side minimizer solves exactly. Applied to Perminov's cn122 scheme (class i19w225c4efh, published at 58 additions) this gives 55 = 13 + 14 + 28, where greedy elimination reaches only 29 on the output side. The same method shows that Sun's representative is output-optimal at 56, and an exact orbit-wide computation over the Heule-Kauers-Seidl database shows that the record class is the only database class attaining 55.</description>
-    </item>
-    <item>
-      <title>A Short Note on Algorithms For The Noisy $k$-XOR Problem</title>
-      <link>http://arxiv.org/abs/2610.27147v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.27147v1</guid>
-      <pubDate>Mon, 19 Oct 2026 18:41:45 +0000</pubDate>
-      <description>This mostly expository note studies the sample-noise regimes in which the testing problem for noisy $k$-XOR in dimension $n$ can be efficiently solved. Concretely, we ask what pairs $(β, δ)$ admit algorithms running in time $n^{O(k)}$ where $m = n^β, β\in [0,k]$ is the number of samples and $\mathsf{Bern}(n^{-δ}),δ\in (0,+\infty)$ is the noise distribution. The current state-of-the-art algorithms are: I. A folklore algorithm when $β&gt; 1, δ&gt;1$ based on Gaussian elimination; II. A folklore algorithm when $β\ge k/2$ based on the birthday paradox; III. A recent algorithm in the regime $β&gt; δ+ k(1-δ), δ\in (0,1)$ based on a reduction to the first algorithm [DJ24,CSZ24]. IV. Extending [AF09], we strictly improve the last regime to $β&gt; δ+ (k-1)(1-δ), δ\in (0,1).$ These algorithms correspond to efficiently finding short cycles in uniform hypergraphs and can be equivalently phrased as algorithmic Moore bounds.</description>
-    </item>
-    <item>
-      <title>A Tight Oracle Threshold for \(k\)-Submodular Maximization</title>
-      <link>http://arxiv.org/abs/2610.26677v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.26677v1</guid>
-      <pubDate>Mon, 19 Oct 2026 16:25:37 +0000</pubDate>
-      <description>We prove that, for every \(\varepsilon&gt;0\), a \((\frac{k}{2k-1}+\varepsilon)\)-approximation algorithm for maximizing monotone \(k\)-submodular functions requires exponentially many value-oracle queries. This improves the \(\frac{k+1}{2k}\) oracle bound of Iwata, Tanigawa, and Yoshida. Their \(\frac{k}{2k-1}\)-approximation algorithm therefore gives the exact threshold in the monotone setting. For \(k\ge5\), our bound also matches, up to an arbitrarily small loss, Aggarwal's recent approximation guarantee for non-monotone \(k\)-submodular maximization.</description>
-    </item>
-    <item>
-      <title>Exact minimum Birkhoff decompositions of doubly stochastic matrices with finite precision</title>
-      <link>http://arxiv.org/abs/2610.25837v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.25837v1</guid>
-      <pubDate>Mon, 19 Oct 2026 05:49:20 +0000</pubDate>
-      <description>The minimum Birkhoff decomposition problem asks for a representation of a doubly stochastic matrix as a convex combination of as few permutation matrices as possible. This NP-hard problem arises in the scheduling of switches in data centers and satellite systems, in random assignments in economics and in the statistics of rankings. We consider doubly stochastic matrices whose entries are given with a fixed number of decimal digits and look for exact decompositions whose weights have the same precision. We propose a parallel method with three parts. For matrices built from few permutation matrices, the first part reads the weights from the frequencies of the entries and places them on the matrix positions by a rule that, given the correct weights, never fixes a position wrongly. The second part computes lower bounds from pairs of rows or columns, which remain valid for real weights, and from certificates of a satisfiability solver. For matrices built from many permutation matrices, the third part runs a beam search over steps that each make at least one entry zero. On 375 test instances with up to 100 rows, the method proves optimality for 208 instances, and 197 of these proofs also hold for real weights. Of the 190 instances built from few permutation matrices, 187 are solved to proven optimality, 180 of them within one second. Compared with the best exact decompositions known before, the new decompositions are shorter for 278 instances and never longer.</description>
-    </item>
-    <item>
-      <title>Approximating Independent Sets Using Additive Combinatorics</title>
-      <link>http://arxiv.org/abs/2610.25047v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.25047v1</guid>
-      <pubDate>Sun, 18 Oct 2026 06:09:59 +0000</pubDate>
-      <description>We give a deterministic quasi-polynomial time algorithm for approximating the largest independent set in a graph. We show that if an $N$-vertex graph contains an independent set of size $2^{-t} N$, then we can find an independent set of size $2^t$ in quasi-polynomial time, for all $t$ up to a constant factor of $(\log N)^{1/3}$. This gives an approximation factor of $N / \exp((\log N)^{1/3})$, which has the same shape as known hardness results for quasi-polynomial time algorithms, up to a different exponent of the logarithm. The algorithm builds on a structural principle: a graph containing a large independent set must also contain a large sparse structured set, and such a set can be found efficiently. A greedy algorithm then extracts an independent set from it. Our proof draws on tools in additive combinatorics, in particular spreadness and sifting, to obtain the combinatorial structural results. We then convert these to efficient algorithms using pseudo-marginals obtained by semidefinite programming.</description>
-    </item>
-    <item>
-      <title>Enumerating Small Potential Maximal Cliques with Fixed-Parameter Delay</title>
-      <link>http://arxiv.org/abs/2610.24856v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.24856v1</guid>
-      <pubDate>Sat, 17 Oct 2026 20:15:34 +0000</pubDate>
-      <description>A potential maximal clique (PMC) of a graph $G$ is a nonempty vertex set that forms a maximal clique in some minimal triangulation of $G$. Listing the PMCs of a graph is a key step in exact algorithms for computing treewidth, minimum fill-in, and related graph parameters. We present a deterministic algorithm that enumerates all PMCs of cardinality at most $k$ in an $n$-vertex graph $G$, without repetition, with delay $2^{O(k^3)}n^4\log n$. This bound also covers the preprocessing time before the first output, the time from the last output to termination, and the total running time when no such PMC exists. At the core of our enumeration algorithm is a procedure that solves the following constrained search problem within the same time bound: given sets of required and excluded vertices $I,O\subseteq V(G)$, find a PMC $Ω$ of size at most $k$ satisfying $I\subseteqΩ$ and $Ω\cap O=\emptyset$, or determine that none exists. Our enumeration algorithm directly supports these inclusion and exclusion constraints as well. Our approach builds on the \emph{recursive understanding} technique of Chitnis et al.~\cite{chitnis2016} and the reduction to unbreakable graphs of Lokshtanov et al.~\cite{lokshtanov2018}. A graph is $(q,k)$-unbreakable if no removal of at most $k$ vertices leaves two disjoint unions of connected components that each contain more than $q$ vertices. We first solve constrained PMC search on $(q,k)$-unbreakable graphs, and then apply this procedure to replace separated subgraphs with graphs of size $2^{O(k^2)}$ that preserve the existence of a constrained solution for every graph attached along the shared boundary.</description>
     </item>
   </channel>
 </rss>

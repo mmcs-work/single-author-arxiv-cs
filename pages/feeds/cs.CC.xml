@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On computing the determinant over a ring</title>
+      <link>http://arxiv.org/abs/2611.07786v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07786v1</guid>
+      <pubDate>Thu, 05 Nov 2026 10:26:54 +0000</pubDate>
+      <description>An algorithm is presented for computing the determinant and the characteristic polynomial of a matrix $A$ over an arbitrary commutative ring R. The algorithm uses $O(n^ω)$ ring additions, subtractions and multiplications, where $ω&gt;2$ is a feasible exponent for matrix multiplication, that is, such that two $n\times n$ matrices over R can be multiplied using $O(n^ω)$ ring operations. The algorithm involves no division and no zero test, and its control depends only on $n$: for each $n$ it is a straight-line program. The approach combines a polynomial matrix point of view and a block Krylov point of view on the characteristic polynomial, which makes Strassen's elimination of divisions efficient. A bivariate matrix $λI-L(t)$, obtained from $A$ by a homotopy, is compressed in $\log n$ steps, each of which halves the dimension while only doubling the degree in $λ$. The cost of the homotopy is controlled by truncating the power series in $t$ at an order that only grows with the compression steps, from a constant to $n$.</description>
+    </item>
+    <item>
+      <title>Randomized Parallel Complexity of Weakly Convex Optimization</title>
+      <link>http://arxiv.org/abs/2611.07675v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07675v1</guid>
+      <pubDate>Thu, 05 Nov 2026 09:04:17 +0000</pubDate>
+      <description>We study the minimum number of query rounds needed to find approximate stationary points of nonsmooth weakly convex functions, measured by the gradient of the Moreau envelope. Each round permits multiple simultaneous queries. In the stated parameter regime, the standard subgradient rate is optimal in sufficiently high dimensions, even for randomized algorithms making polynomially many parallel queries per round. We then show how the order structure of the real line enables faster search: a deterministic algorithm using only function values achieves logarithmic round complexity, with a further reduction through parallel queries. Matching lower bounds hold even when each query returns the entire subdifferential. Together, these results clarify the role of dimension in determining the benefits of parallel queries for weakly convex optimization.</description>
+    </item>
+    <item>
+      <title>Asymptotic advantage of quantum one-way and SMP communication for total functions</title>
+      <link>http://arxiv.org/abs/2611.07318v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07318v1</guid>
+      <pubDate>Thu, 05 Nov 2026 02:05:39 +0000</pubDate>
+      <description>We exhibit a total Boolean function on n input bits whose bounded-error quantum simultaneous-message (and hence one-way) communication complexity is in O(\sqrt n), whereas its randomised one-way (and hence simultaneous-message) communication complexity is in Ω(n). The same function admits a classical simultaneous-message protocol of cost O(\sqrt n) when the players share O(\sqrt n) EPR pairs.</description>
+    </item>
+    <item>
+      <title>Degree profiles of uniform polynomial consequences: Linear lower bounds for Nullstellensatz and Polynomial Calculus</title>
+      <link>http://arxiv.org/abs/2611.07280v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07280v1</guid>
+      <pubDate>Thu, 05 Nov 2026 01:01:49 +0000</pubDate>
+      <description>This paper proves asymptotically optimal linear degree lower bounds for Nullstellensatz and Polynomial Calculus, yielding a four-way polynomial-versus-exponential proof-size classification for uniform polynomial consequences over fields of positive characteristic. The size bounds use full, explicit coefficient lists, including zeros. Apart from a fixed finite initial range, exactly one of four cases occurs: $\mathrm T_1$, bounded degree; $\mathrm T_2$, degree at least linear in the universe size $n$; $\mathrm T_3$, constant degree on some residue classes and at least linear degree on the others; or $\mathrm T_4$, infinitely many recurring finite degrees, with bounded-degree subsequences and finite $Ω(n)$ peaks at arbitrarily large sizes. Thus the size patterns are polynomial bounds, exponential lower bounds, a periodic mixture, or polynomial subsequences with finite exponential peaks, respectively. Underivable targets have degree $\infty$, and both proof systems assign the same type. The result strengthens my 2008--2009 refutation classification and extends it to uniform consequences. The proof uses degree-preserving lifting with onset and period bounds linear in the degree. A common $p$-adic hardness spectrum describes the four types topologically. Distinguishing any two types is undecidable already for refutations. The linear degree bounds, four-way classification and pairwise undecidability results have been formalised and verified in Lean. The Lean formalisation, verification records and an accompanying tutorial are available in the supporting materials (https://doi.org/10.5281/zenodo.23965838).</description>
+    </item>
+    <item>
       <title>The determinantal complexity of the 4*4 permanent is 15</title>
       <link>http://arxiv.org/abs/2611.06658v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.06658v1</guid>
@@ -675,34 +703,6 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2610.15377v1</guid>
       <pubDate>Sun, 11 Oct 2026 06:03:40 +0000</pubDate>
       <description>Strong direct-sum theorems relate the information needed to solve many independent instances of a communication problem to the information needed for one instance. For Gap-Majority composition, an optimal information bound was previously known, but preserving the number of communication rounds incurred an additional logarithmic loss. We prove a round-preserving Gap-Majority lemma with constant additive information loss, independent of both the number of instances and the number of rounds. More generally, we establish a variance direct-sum theorem for additive square-integrable observables over product distributions. For protocols with a bounded number of terminal answer values, the extracted single-coordinate protocols preserve the round budget, and their average information cost is at most the original information cost divided by the number of coordinates, plus a term depending only on the answer alphabet and the allowed variance loss. The proof uses centered counterfactual conditional means and a global variance amortization argument. Rather than encoding absolute conditional means for every possible terminal answer, we encode the information not already determined by the common view. The total squared innovation is controlled by a telescoping variance potential, yielding an information loss independent of the number of coordinates. We also derive same-round mean-square estimation bounds for arbitrary terminal outputs.</description>
-    </item>
-    <item>
-      <title>A Factor-Two Lower Bound for Complementing Two-Way Deterministic Finite Automata</title>
-      <link>http://arxiv.org/abs/2610.18897v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.18897v1</guid>
-      <pubDate>Sat, 10 Oct 2026 18:58:47 +0000</pubDate>
-      <description>For every $n\ge22$, we construct a language over a fixed three-letter alphabet whose two-way deterministic state complexity is $n$ and whose complement has state complexity $2n$. Acceptance is at the left endmarker, and infinite computations reject. The lower bound holds for arbitrary deterministic recognizers. The proof uses the group of transformations induced by the witness to constrain the behavior of a smaller recognizer, then derives a contradiction from a permutation query problem. A matching halting complement follows from a $2n$-state construction for sources whose destination states determine the direction of each transition. Splitting states by incoming direction gives a $2n+2b$ upper bound for general sources, where $b$ counts states entered in both directions. In the acceptance-anywhere model of Geffert, Mereghetti, and Pighizzini, the same family has exact complexities $N$ and $2N-1$ for every $N\ge23$.</description>
-    </item>
-    <item>
-      <title>How far is Kolmogorov-Loveland randomness from Martin-Löf randomness?</title>
-      <link>http://arxiv.org/abs/2610.13585v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.13585v1</guid>
-      <pubDate>Fri, 09 Oct 2026 13:36:43 +0000</pubDate>
-      <description>We'll call a map from basic to clopen sets of binary sequences an \textit{encoding} if it preserves uniform Lebesgue measure and the disjointedness relation. For some notion of randomness $R$ we can ask if there is a computable encoding $E$ such that for every non-Martin-Löf-random (non-MLR) sequence $α$, the sequences in $E(α)$ are non-$R$. Thus we can use $E$ and randomness test for $R$ to construct a randomness test for MLR. We show that there is no such $E$ for partial computable randomness (PCR), but there is one for Kolmogorov-Loveland randomness. Indeed, there is a total computable $E$ and a pair of total computable non-monotonic betting strategies such that on every sequence in $E(α)$ at least one of the strategies wins whenever $α$ is non-MLR.</description>
-    </item>
-    <item>
-      <title>The Complexity of Finding Additional Solutions</title>
-      <link>http://arxiv.org/abs/2610.12804v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.12804v1</guid>
-      <pubDate>Thu, 08 Oct 2026 23:20:45 +0000</pubDate>
-      <description>We study the difficulty of finding a new solution when a list of distinct solutions is already supplied. For any fixed finite collection of list lengths, we can prescribe the additional-solution degrees while preserving a given $1$-paddable domain and first-solution degree. We also prove an exact compatibility condition for prescribing an arbitrary positive-list degree at the same time: it must dominate every prescribed fixed-level degree, and this condition suffices. All degrees use polynomial-time reductions with at most one oracle query and correct behavior on empty fibers; the realization needs no assumption about P versus NP. The combined construction gives each underlying witness exponentially many short counter copies. A list that exhausts these copies is long enough to pay for exhaustive search through the underlying witness bound. Separately, we construct a total problem whose first-solution task and every fixed-length additional-solution task are polynomial-time solvable, while its arbitrary-list task is FNP-complete. Assuming P differs from NP, the domain, first degree, and entire fixed-level degree sequence therefore do not determine the arbitrary-list degree. A constant fiber cap restores determination by finitely many fixed levels. The constructions change witness sets and do not prescribe an infinite sequence of degrees or enumerate all remaining solutions.</description>
-    </item>
-    <item>
-      <title>A Catalytic Algorithm for Transposing Unknown Qutrit Unitaries with Tight Query Bounds</title>
-      <link>http://arxiv.org/abs/2610.12664v1</link>
-      <guid isPermaLink="true">http://arxiv.org/abs/2610.12664v1</guid>
-      <pubDate>Thu, 08 Oct 2026 19:42:10 +0000</pubDate>
-      <description>We construct exact deterministic circuits for transposing and inverting an unknown qutrit unitary $U\in\mathrm{SU}(3)$ using only forward queries. Three queries prepare a catalyst independently of the input state. Four further queries implement transposition while returning the catalyst unchanged and uncorrelated with the output. Two uses within an antisymmetric encoding implement inversion with eight processing queries and return the same catalyst. Reusing the catalyst implements $m$ transpositions or inversions with $3+4m$ or $3+8m$ total queries, respectively. More generally, we prove that exact transposition and inversion of an unknown $U\in\mathrm{SU}(d)$, $d\ge2$, require at least $d+1$ and $d^2-1$ processing queries, respectively, in fixed causal order. These processing bounds hold for any program state prepared independently of the input state using finitely many forward queries, even if that state is consumed during processing. Both our catalytic qutrit algorithms attain their respective bounds. Moreover, exact qutrit transposition with four processing queries requires at least three preparation queries, and our construction attains this bound.</description>
     </item>
   </channel>
 </rss>

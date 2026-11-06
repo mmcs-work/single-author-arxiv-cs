@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On computing the determinant over a ring</title>
+      <link>http://arxiv.org/abs/2611.07786v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.07786v1</guid>
+      <pubDate>Thu, 05 Nov 2026 10:26:54 +0000</pubDate>
+      <description>An algorithm is presented for computing the determinant and the characteristic polynomial of a matrix $A$ over an arbitrary commutative ring R. The algorithm uses $O(n^ω)$ ring additions, subtractions and multiplications, where $ω&gt;2$ is a feasible exponent for matrix multiplication, that is, such that two $n\times n$ matrices over R can be multiplied using $O(n^ω)$ ring operations. The algorithm involves no division and no zero test, and its control depends only on $n$: for each $n$ it is a straight-line program. The approach combines a polynomial matrix point of view and a block Krylov point of view on the characteristic polynomial, which makes Strassen's elimination of divisions efficient. A bivariate matrix $λI-L(t)$, obtained from $A$ by a homotopy, is compressed in $\log n$ steps, each of which halves the dimension while only doubling the degree in $λ$. The cost of the homotopy is controlled by truncating the power series in $t$ at an order that only grows with the compression steps, from a constant to $n$.</description>
+    </item>
+    <item>
       <title>Where models of minimal height are hard to find: cubic rational maps with a multiple fixed point</title>
       <link>http://arxiv.org/abs/2611.05514v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.05514v1</guid>
@@ -696,13 +703,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.13365</guid>
       <pubDate>Sun, 21 Dec 2025 00:00:00 -0000</pubDate>
       <description>This paper presents a parallel random-search method for reducing additive complexity in fast matrix multiplication algorithms with ternary coefficients $\{-1,0,1\}$. The approach replaces expensive exact evaluation with fast heuristic scoring, including the new Greedy-Intersections strategy. The method runs many independent common subexpression elimination processes in parallel, exploring the search space through random pair substitutions and diverse selection strategies while sharing promising partial solutions. Tested on 149 ternary-coefficient schemes, the method achieves lower addition counts than the state-of-the-art Greedy-Potential on 102 schemes (including 57 new best-known results for optimal-rank schemes), matches it on 45, and is outperformed on only 2. For most schemes, it provides equal or better results while being significantly faster, making it practical for algorithm exploration. All software and results are open source.</description>
-    </item>
-    <item>
-      <title>Mechanizing Operads with Event-B</title>
-      <link>https://arxiv.org/abs/2512.16342</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.16342</guid>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 -0000</pubDate>
-      <description>Rigorous modelling of natural and industrial systems still conveys various challenges related to abstractions, methods to proceed with and easy-to-use tools to build, compose and reason on models. Operads are mathematical structures that provide such abstractions to compose various objects and garanteeing well-formedness. Concrete implementations of operads will offer practical means to exploit operads and to use them for various technical applications. Going from the mathematical structures, we develop with Event-B a complete refinement chain that implements algebraic operads and their basic operations. The result of this work, can be used from the methodological point of view to handle similar implementations for symbolic computation questions, and also to reason on symbolic computation applications supported by operads structures.</description>
     </item>
   </channel>
 </rss>
