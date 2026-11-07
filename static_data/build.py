@@ -39,7 +39,7 @@ def write_feed(path, title, records):
     ET.SubElement(channel, "title").text = title
     ET.SubElement(channel, "link").text = SITE_URL
     ET.SubElement(channel, "description").text = "Single-author arXiv papers."
-    for record in sort(records)[:100]:
+    for record in sort(records)[:1000]:
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = record["title"]
         ET.SubElement(item, "link").text = record["arxiv_url"]
