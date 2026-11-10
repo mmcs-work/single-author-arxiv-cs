@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Tight B-Trees for Adjacency Labeling</title>
+      <link>http://arxiv.org/abs/2611.11444v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11444v1</guid>
+      <pubDate>Sun, 08 Nov 2026 15:12:27 +0000</pubDate>
+      <description>We show that planar graphs admit adjacency labels of size $\log n+O(\log\log n)$: every vertex gets a label of this many bits, and the adjacency of two vertices is decided from their labels alone, in constant time. This improves the $\log n+O(\sqrt{\log n\log\log n})$ of Dujmović et al. (J. ACM 2021) and the $\log n+O(\sqrt{\log n})$ of Gawrychowski and Janczewski (SOSA 2022). Equivalently, $n$-vertex planar graphs have an induced-universal graph with $n(\log n)^{O(1)}$ vertices, down from $n2^{O(\sqrt{\log n})}$. The same holds for graphs of bounded genus, apex-minor-free graphs and $k$-planar graphs. For every proper minor-closed class we get $\log n+O(\sqrt{\log n\log\log n})$, down from the $\log n+O((\log n)^{3/4})$ of Dujmović et al. (2026). Both results come from tight B-trees: nodes are split into parts of nearly equal size, so every node but the topmost stays within a factor $1\pm O(1/\log n)$ of its target size, and a root-to-leaf path loses only $O(\log\log n)$ bits.</description>
+    </item>
+    <item>
+      <title>Positivity Proofs for Third-Order Holonomic Sequences via Differences Scaled by Rational Functions</title>
+      <link>http://arxiv.org/abs/2611.10920v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.10920v1</guid>
+      <pubDate>Sat, 07 Nov 2026 19:18:31 +0000</pubDate>
+      <description>We study the positivity of sequences $f$ that satisfy a third-order holonomic recurrence $f(n+3)= P_2(n) f(n+2) + P_1(n) f(n+1) + P_0(n) f(n)$ whose coefficients $P_0$, $P_1$ and $P_2$ are rational functions in $\R(x)$. We provide a sufficient condition on $P_0$, $P_1$ and $P_2$ for the recurrence to admit a solution all but finitely many terms of which are positive, and whose positivity is robust under small perturbations of the initial values. This sufficient condition is also a necessary condition for a subclass of the recurrences. By developing the proof of this sufficient condition, for another subclass of the recurrences, we show that it is decidable whether all the terms of a given sequence are positive for any initial values outside an exceptional plane. It is common to construct a positivity certificate, which guarantees the positivity of a solution, to show this kind of decidability. In this paper, we construct a new type of positivity certificate via the $S$-scaled difference $f(n+1) - S(n) f(n)$ for a suitable $S \in \R(x)$. This result partially improves the work by Ibrahim and Salvy.</description>
+    </item>
+    <item>
+      <title>Weighted Matroid Intersection under Minimum Rank Oracle</title>
+      <link>http://arxiv.org/abs/2611.10701v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.10701v1</guid>
+      <pubDate>Sat, 07 Nov 2026 12:41:26 +0000</pubDate>
+      <description>We consider matroid intersection under the minimum rank oracle model, in which two matroids are accessible only through an oracle that returns the minimum of the ranks of a given set in the two matroids. By Edmonds' theorem, this oracle determines the matroid intersection polytope, although it does not reveal the exchangeability graphs on which classical algorithms rely. Recent work by Bárász, Bérczi, Király, Oki, Yamaguchi, and Yokoi (2025) showed that unweighted matroid intersection is polynomially solvable in this model. In this paper, we present a strongly polynomial-time algorithm for weighted matroid intersection in this model. The key to our algorithm is a polynomial-size extended formulation of tangent cones of common base polytopes that can be constructed using the minimum rank oracle. We also give min-max theorems in terms of the minimum rank function via 1/3-submodularity, and present a strongly polynomial-time algorithm to compute an optimal dual solution.</description>
+    </item>
+    <item>
+      <title>Up or down by half: a family of Collatz-type maps</title>
+      <link>http://arxiv.org/abs/2611.10311v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.10311v1</guid>
+      <pubDate>Fri, 06 Nov 2026 23:19:08 +0000</pubDate>
+      <description>Each Collatz step changes a positive integer by roughly half: odd inputs go up and even inputs go down. We vary the directions while keeping the step size. Write x=2^m k (k odd), and let S be a set of positive integers. Define T_S(x)=(3x+1)/2 if m=0, 3x/2 if m is in S, and k otherwise. The map T_S^- differs only at odd x, which it sends to (x+1)/2. The usual Collatz map is T_emptyset. Assuming the independence of 2-adic valuations along odd-to-odd steps yields random-walk models with drifts (1+rho(S))log_2(3)-2 for T_S and rho(S)log_2(3)-2 for T_S^-, where rho(S) is an explicit series. Every T_S^- is contracting; T_S is contracting exactly when rho(S)&lt;log_3(4/3), approximately 0.2619. We prove density results, classify interval sets S, and give a criterion ensuring every T_S^- orbit reaches 1 or (2,3). For seven contracting maps T_S, three with rho(S)=1/4 just below the threshold, computations show that every n&lt;2^34 (n&lt;1.668*10^10 for S={1}) reaches one of at most five cycles; stopping-time statistics match the model to 3-5 digits. We study branching maps, where any member of a family may be applied at each step. Boundedness of a family implies boundedness of each member; in particular, boundedness of {T_emptyset,T_{3}} would imply that no Collatz orbit diverges. For {T_emptyset,T_{1}}, a rule depending only on x mod 32 has positive drift (10/17)log_2(9/8) for almost every 2-adic starting point. Thus almost all n have reachable sets containing values larger than n^1.05; residues modulo 2^L, L&lt;=10, cannot prove unboundedness. Finally, we define unified maps in which valuations also determine the direction at odd inputs. The cases x=1 mod 4 govern their behavior: if they go down, every block is dominated by the corresponding Collatz map (and a census finds only the cycles (1), (2, 3) and (3, 5) with smallest element below 10^9); if they go up, the maps behave like T_S.</description>
+    </item>
+    <item>
+      <title>The satisfiability conjecture for random k-SAT formulas. Human-friendly exposition of the recent OpenAI resolution</title>
+      <link>http://arxiv.org/abs/2611.10139v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.10139v1</guid>
+      <pubDate>Fri, 06 Nov 2026 19:05:13 +0000</pubDate>
+      <description>The satisfiability conjecture was one of the most important open problems in discrete probability. It was resolved recently first by Carenini~\cite{GCarenini}, and shortly after by OpenAI~\cite{k-sat-OpenAI}, among other 370 problems solved by its internal model. The conjecture concerned the satisfiability property of random instances of the k-SAT problem. It posits the existence of a fixed value for the clause-to-variables ratio around which the probability that the formula is satisfiable drops sharply from nearly one to nearly zero as the ratio increases. While the case of large constant $k$ was resolved a decade ago by Ding, Sly and Sun~\cite{ding2015proof,ding2022proof} using the heavy machinery of the second moment method, the case of general $k$ eluded proof until ~\cite{GCarenini} and~\cite{k-sat-OpenAI}. In this short note we provide a ''human-friendly'' and detailed exposition of the OpenAI's resolution of the conjecture.</description>
+    </item>
+    <item>
       <title>Reconfiguration of Time-Bounded Descriptions</title>
       <link>http://arxiv.org/abs/2611.09020v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.09020v1</guid>
@@ -6968,41 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2304.12893</guid>
       <pubDate>Tue, 25 Apr 2023 00:00:00 -0000</pubDate>
       <description>We consider semigroup algorithmic problems in finitely generated metabelian groups. Our paper focuses on three decision problems introduced by Choffrut and Karhumäki (2005): the Identity Problem (does a semigroup contain a neutral element?), the Group Problem (is a semigroup a group?) and the Inverse Problem (does a semigroup contain the inverse of a generator?). We show that all three problems are decidable for finitely generated sub-semigroups of finitely generated metabelian groups. In particular, we establish a correspondence between polynomial semirings and sub-semigroups of metabelian groups using an interaction of graph theory, convex polytopes, algebraic geometry and number theory. Since the Semigroup Membership problem (does a semigroup contain a given element?) is known to be undecidable in finitely generated metabelian groups, our result completes the decidability characterization of semigroup algorithmic problems in metabelian groups.</description>
-    </item>
-    <item>
-      <title>A note on local search for hitting sets</title>
-      <link>https://arxiv.org/abs/2304.12789</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2304.12789</guid>
-      <pubDate>Tue, 25 Apr 2023 00:00:00 -0000</pubDate>
-      <description>Let $π$ be a property of pairs $(G,Z)$, where $G$ is a graph and $Z\subseteq V(G)$. In the \emph{minimum $π$-hitting set problem}, given an input graph $G$, we want to find a smallest set $X\subseteq V(G)$ such that $X$ intersects every set $Z\subseteq V(G)$ such that $(G,Z)$ has the property $π$. An important special case is that $π$ is satisfied by $(G,Z)$ exactly if $G[Z]$ is isomorphic to one of graphs in a finite set $\mathcal{F}$; in this \emph{minimum $\mathcal{F}$-hitting set} problem, $X$ needs to hit all appearances of the graphs from $\mathcal{F}$ as induced subgraphs of $G$. In this note, we show that the local search argument of Har-Peled and Quanrud gives a PTAS for the minimum $\mathcal{F}$-hitting set problem for graphs from any class with polynomial expansion. Moreover, we argue that the local search argument applies more generally to all properties $π$ such that one can test whether $X$ is a $π$-hitting set in polynomial time and $G[Z]$ has bounded diameter whenever $(G,Z)$ satisfies $π$; this is a common generalization of the minimum $\mathcal{F}$-hitting set problem and minimum $r$-dominating set problem. Finaly, we note that the analogous claim also holds for the dual problem of finding the maximum number of disjoint sets $Z$ such that $(G,Z)$ has the property $π$; this generalizes maximum $F$-matching, maximum induced $F$-matching, and maximum $r$-independent set problems.</description>
-    </item>
-    <item>
-      <title>Second-order moments of the size of randomly induced subgraphs of given order</title>
-      <link>https://arxiv.org/abs/2304.11423</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2304.11423</guid>
-      <pubDate>Sat, 22 Apr 2023 00:00:00 -0000</pubDate>
-      <description>For a graph $G$ and a positive integer $c$, let $M_c(G)$ be the size of a subgraph of $G$ induced by a randomly sampled subset of $c$ vertices. Second-order moments of $M_c(G)$ encode part of the structure of $G$. We use this fact, coupled to classical moment inequalities, to prove graph theoretical results, to give combinatorial identities, to bound the size of the $c$-densest subgraph from below and the size of the $c$-sparsest subgraph from above, and to provide bounds for approximate enumeration of trivial subgraphs.</description>
-    </item>
-    <item>
-      <title>Optimal Codes Detecting Deletions in Concatenated Binary Strings Applied to Trace Reconstruction</title>
-      <link>https://arxiv.org/abs/2304.09839</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2304.09839</guid>
-      <pubDate>Wed, 19 Apr 2023 00:00:00 -0000</pubDate>
-      <description>Consider two or more strings $\mathbf{x}^1,\mathbf{x}^2,\ldots,$ that are concatenated to form $\mathbf{x}=\langle \mathbf{x}^1,\mathbf{x}^2,\ldots \rangle$. Suppose that up to $δ$ deletions occur in each of the concatenated strings. Since deletions alter the lengths of the strings, a fundamental question to ask is: how much redundancy do we need to introduce in $\mathbf{x}$ in order to recover the boundaries of $\mathbf{x}^1,\mathbf{x}^2,\ldots$? This boundary problem is equivalent to the problem of designing codes that can detect the exact number of deletions in each concatenated string. In this work, we answer the question above by first deriving converse results that give lower bounds on the redundancy of deletion-detecting codes. Then, we present a marker-based code construction whose redundancy is asymptotically optimal in $δ$ among all families of deletion-detecting codes, and exactly optimal among all block-by-block decodable codes. To exemplify the usefulness of such deletion-detecting codes, we apply our code to trace reconstruction and design an efficient coded reconstruction scheme that requires a constant number of traces.</description>
-    </item>
-    <item>
-      <title>A Cheeger Inequality for Small Set Expansion</title>
-      <link>https://arxiv.org/abs/2304.07612</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2304.07612</guid>
-      <pubDate>Tue, 18 Apr 2023 00:00:00 -0000</pubDate>
-      <description>The discrete Cheeger inequality, due to Alon and Milman (J. Comb. Theory Series B 1985), is an indispensable tool for converting the combinatorial condition of graph expansion to an algebraic condition on the eigenvalues of the graph adjacency matrix. We prove a generalization of Cheeger's inequality, giving an algebraic condition equivalent to small set expansion. This algebraic condition is the p-to-q hypercontractivity of the top eigenspace for the graph adjacency matrix. Our result generalizes a theorem of Barak et al (STOC 2012) to the low small set expansion regime, and has a dramatically simpler proof; this answers a question of Barak (2014).</description>
-    </item>
-    <item>
-      <title>Magnitude of arithmetic scalar and matrix categories</title>
-      <link>https://arxiv.org/abs/2304.08334</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2304.08334</guid>
-      <pubDate>Mon, 17 Apr 2023 00:00:00 -0000</pubDate>
-      <description>We develop tools for explicitly constructing categories enriched over generating data and that compose via ordinary scalar and matrix arithmetic arithmetic operations. We characterize meaningful size maps, weightings, and magnitude that reveal features analogous to outliers that these same notions have previously been shown to reveal in the context of metric spaces. Throughout, we provide examples of such "outlier detection" relevant to the analysis of computer programs, neural networks, cyber-physical systems, and networks of communications channels.</description>
     </item>
   </channel>
 </rss>

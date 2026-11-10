@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Polynomial-Space Quantum Algorithms from Classical Branching: Colouring, Domination and Monotone Local Search</title>
+      <link>http://arxiv.org/abs/2611.12714v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.12714v1</guid>
+      <pubDate>Mon, 09 Nov 2026 17:03:54 +0000</pubDate>
+      <description>We give quantum algorithms for exponential-time problems on $n$ vertices or elements, with bounded error, polynomial space and no quantum random access memory. Our results are these. (1) 4-Colouring in quantum time $O(1.3032^n)$, from a polynomial-space branching algorithm with polynomial-space terminal algorithms; with the branching algorithm alone, $O(1.3100^n)$. The previous best bound in this model, to our knowledge, is $O(1.3231^n)$. (2) $k$-Colouring below the previous best bound for $k \in \{5, 7, 8, 9, 10, 11\}$ and $13 \le k \le 18$, from $O(1.4518^n)$ for $k = 5$ to $O(1.9233^n)$ for $k = 18$. (3) Dominating Set in $O(1.2235^n)$, against the previous $O(2^{n/2})$, Independent Dominating Set in $O(1.1583^n)$, and Edge Dominating Set and Minimum Maximal Matching in $O(1.1501^n)$. (4) A quantum form of monotone local search: if the extension problem has a backtracking tree with $c^k$ nodes up to polynomial factors, the problem is solved in quantum time $(2 - 1/c)^{n/2}$ up to polynomial factors. This gives Feedback Vertex Set in $O(1.3081^n)$, Subset and Group Feedback Vertex Set in $O(1.3229^n)$, Cluster Vertex Deletion in $O(1.2033^n)$, 3-Hitting Set in $O(1.2405^n)$, Proper Interval Vertex Deletion in $O(1.3541^n)$, Multicut on Trees in $O(1.1647^n)$ and Min-Ones $d$-SAT in $O^*((2-1/d)^{n/2})$. (5) Quantum exponential-time approximations below the quantum exact bounds, such as a 1.1-approximation for Vertex Cover in $O(1.0555^n)$ and for Feedback Vertex Set in $O(1.2161^n)$. The colouring exponents for $k \ge 6$ come from an evaluation of a known reduction recursion, computed in floating point with a margin.</description>
+    </item>
+    <item>
+      <title>Type-logical grammars and formal languages</title>
+      <link>http://arxiv.org/abs/2611.12618v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.12618v1</guid>
+      <pubDate>Mon, 09 Nov 2026 16:01:49 +0000</pubDate>
+      <description>We show that type-logical grammars with the standard rules for product, associativity, extraction and infixation have an NP-complete fixed recognition problem, adapting a construction for first-order linear logic from Pshenitsyn (2025), who already showed that grammars in first-order linear logic are closed under intersection and therefore not semilinear and not mildly context-sensitive. We strengthen these results and shown that grammars in first-order linear logic can simulate the quasi-linear grammars of Book \&amp; Greibach (1970), the grammars recognised in non-deterministic linear time (NSPACE(n) or. NLIN). I argue that NLIN is an interesting class of formal languages as well, and a useful upper bound on the time complexity of formalisms used for natural language, just like LOGCFL is a useful upper bound on the space complexity. Taken together this means that first-order linear logic can be seen as the logic of non-deterministic linear-time string languages, graph languages and automata.</description>
+    </item>
+    <item>
+      <title>Polynomial Sample Complexity of Noninteractive Simulation over Finite Alphabets</title>
+      <link>http://arxiv.org/abs/2611.11974v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11974v1</guid>
+      <pubDate>Mon, 09 Nov 2026 06:58:40 +0000</pubDate>
+      <description>We study noninteractive simulation from a finite correlated source. Alice and Bob observe independent copies of the source and generate outputs without communication. We give a quantitative construction for arbitrary finite output alphabets: for every fixed source, a joint law that is simulable with arbitrarily many samples can be approximated using a number of samples polynomial jointly in the output alphabet sizes and the inverse accuracy. We first study binary outputs. A one-sided Wright--Fisher comparison gives a source-dependent explicit exponent and a finite-head Gaussian-threshold representation. We then handle arbitrary finite output alphabets through averaged influence regularity, simplex-preserving Gaussian moment lifting, and a common Gaussian projection for all correlated-prefix states. The sample exponent is independent of the output alphabet sizes. For a concrete biased binary source we certify an explicit exponent below $19$.</description>
+    </item>
+    <item>
+      <title>Closing the Complexity Gap for Wheeler Graph Recognition on $d$-NFAs</title>
+      <link>http://arxiv.org/abs/2611.11572v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11572v1</guid>
+      <pubDate>Sun, 08 Nov 2026 19:34:29 +0000</pubDate>
+      <description>Wheeler graph recognition asks whether a directed graph whose arcs are labeled by symbols from a totally ordered alphabet admits a Wheeler order, a total order on its vertices compatible with the labels of arcs and the order of their tails. A $d$-NFA is a nondeterministic finite automaton in which at most $d$ transitions with any given label leave each state. For Wheeler graph recognition on $d$-NFAs, Alanko et al. gave a polynomial-time algorithm for $d \leq 2$, whereas Gibney and Thankachan proved NP-completeness for every fixed $d \geq 5$. The computational complexity for $d = 3$ and $d = 4$ remained open. We resolve both open cases by extending the reduction of Gibney and Thankachan with a new encoding of clauses of Not-All-Equal 3-SAT. Specifically, we prove that recognition is NP-complete even for directed acyclic graphs over an ordered binary alphabet with a unique source reaching every vertex and total out-degree at most three at every vertex. Consequently, Wheeler graph recognition on $d$-NFAs is NP-complete for every fixed $d \geq 3$.</description>
+    </item>
+    <item>
+      <title>Amortized Cell-Probe Lower Bounds for Dynamic Boolean Problems</title>
+      <link>http://arxiv.org/abs/2611.11508v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11508v1</guid>
+      <pubDate>Sun, 08 Nov 2026 17:29:54 +0000</pubDate>
+      <description>We prove the first unconditional amortized $Ω\big((\log N/\log\log N)^2\big)$ cell-probe lower bound for a Boolean dynamic problem. For insert-only multiphase Disjointness with $N$ query sets over $[N]$ and word size $w=Θ(\log N)$, a fixed distribution of interleaved insertions and queries forces this expected average cost per operation, excluding preprocessing. The bound allows sufficiently small constant error for each query of every fixed legal sequence and imposes no restriction on individual operation costs. It transfers to incremental directed reachability, incremental subgraph connectivity, and fully dynamic triangle detection. We also prove $t_q=Ω\big((\log N/\log(t_uw))^2\big)$ for amortized insertion time $1\le t_u=N^{o(1)}$ and expected query time $t_q$, when the number of insertions before the final query is not announced in advance. We reach the quadratic-logarithmic scale with bounded error by combining interleaving with the 2.5-round communication framework [Ko26a, Ko26b] and controlling errors among accepted simulations.</description>
+    </item>
+    <item>
+      <title>A note on exact external information complexity</title>
+      <link>http://arxiv.org/abs/2611.11488v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11488v1</guid>
+      <pubDate>Sun, 08 Nov 2026 16:29:50 +0000</pubDate>
+      <description>We study the prior-free zero-error private-coin external information complexity $B(f)$ of finite two-party functions, with correctness on every input. An elementary rectangle/entropy argument gives $B(\mathsf{AND})=\log_2 3$. A complete classification of Boolean $3\times3$ matrices leaves, up to input permutations and output complementation, only the two-overlapping-rectangles function $F$ without an exact value. An entropy potential and a finite rational protocol give $2.1212661667060486842\ldots\le B(F)&lt;2.130998318$. We also determine its deterministic external information and zero-error communication costs. A separate product-prior certificate and internal-information additivity yield $R_0^{\mathrm{pub}}(F^{\times t})\ge2.021991187178562\ldots\,t$, strictly exceeding the fractional-cover rate $2t$.</description>
+    </item>
+    <item>
       <title>A proof of the Aaronson-Ambainis conjecture</title>
       <link>http://arxiv.org/abs/2611.09773v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.09773v1</guid>
@@ -6961,48 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2111.04335</guid>
       <pubDate>Mon, 28 Aug 2023 00:00:00 -0000</pubDate>
       <description>This paper presents a new foundational approach to information theory based on the concept of the information efficiency of a recursive function, which is defined as the difference between the information in the input and the output. The theory allows us to study planar representations of various infinite domains. Dilation theory studies the information effects of recursive operations in terms of topological deformations of the plane. I show that the well-known class of finite sets of natural numbers behaves erratically under such transformations. It is subject to phase transitions that in some cases have a fractal nature. The class is \emph{semi-countable}: there is no intrinsic information theory for this class and there are no efficient methods for systematic search. There is a relation between the information efficiency of the function and the time needed to compute it: a deterministic computational process can destroy information in linear time, but it can only generate information at logarithmic speed. Checking functions for problems in $NP$ are information discarding. Consequently, when we try to solve a decision problem based on an efficiently computable checking function, we need exponential time to reconstruct the information destroyed by such a function. At the end of the paper I sketch a systematic taxonomy for problems in $NP$.</description>
-    </item>
-    <item>
-      <title>Average-Hard Attention Transformers are Constant-Depth Uniform Threshold Circuits</title>
-      <link>https://arxiv.org/abs/2308.03212</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2308.03212</guid>
-      <pubDate>Mon, 21 Aug 2023 00:00:00 -0000</pubDate>
-      <description>Transformers have emerged as a widely used neural network model for various natural language processing tasks. Previous research explored their relationship with constant-depth threshold circuits, making two assumptions: average-hard attention and logarithmic precision for internal computations relative to input length. Merrill et al. (2022) prove that average-hard attention transformers recognize languages that fall within the complexity class TC0, denoting the set of languages that can be recognized by constant-depth polynomial-size threshold circuits. Likewise, Merrill and Sabharwal (2023) show that log-precision transformers recognize languages within the class of uniform TC0. This shows that both transformer models can be simulated by constant-depth threshold circuits, with the latter being more robust due to generating a uniform circuit family. Our paper shows that the first result can be extended to yield uniform circuits as well.</description>
-    </item>
-    <item>
-      <title>Explaining Emergence</title>
-      <link>https://arxiv.org/abs/2308.10912</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2308.10912</guid>
-      <pubDate>Sun, 20 Aug 2023 00:00:00 -0000</pubDate>
-      <description>Emergence is a pregnant property in various fields. It is the fact for a phenomenon to appear surprisingly and to be such that it seems at first sight that it is not possible to predict its apparition. That is the reason why it has often been said that emergence is a subjective property relative to the observer. Some mathematical systems having very simple and deterministic rules nevertheless show emergent behavior. Studying these systems shed a new light on the subject and allows to define a new concept, computational irreducibility, which deals with behaviors that even though they are totally deterministic cannot be predicted without simulating them. Computational irreducibility is then a key for understanding emergent phenomena from an objective point of view that does not need the mention of any observer.</description>
-    </item>
-    <item>
-      <title>Real-time Regular Expression Matching</title>
-      <link>https://arxiv.org/abs/2308.10208</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2308.10208</guid>
-      <pubDate>Sun, 20 Aug 2023 00:00:00 -0000</pubDate>
-      <description>This paper is devoted to finite state automata, regular expression matching, pattern recognition, and the exponential blow-up problem, which is the growing complexity of automata exponentially depending on regular expression length. This paper presents a theoretical and hardware solution to the exponential blow-up problem for some complicated classes of regular languages, which caused severe limitations in Network Intrusion Detection Systems work. The article supports the solution with theorems on correctness and complexity.</description>
-    </item>
-    <item>
-      <title>Approximation Algorithms for Min-max-min Robust Optimization and K-Adaptability under Objective Uncertainty</title>
-      <link>https://arxiv.org/abs/2106.03107</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2106.03107</guid>
-      <pubDate>Tue, 15 Aug 2023 00:00:00 -0000</pubDate>
-      <description>In this work we investigate the min-max-min robust optimization problem and the k-adaptability robust optimization problem for binary problems with uncertain costs. The idea of the first approach is to calculate a set of k feasible solutions which are worst-case optimal if in each possible scenario the best of the k solutions is implemented. It is known that the min-max-min robust problem can be solved efficiently if k is at least the dimension of the problem, while it is theoretically and computationally hard if k is small. However, nothing is known about the intermediate case, i.e. k lies between one and the dimension of the problem. We approach this open question and present an approximation algorithm which achieves good problem-specific approximation guarantees for the cases where k is close to or where k is a fraction of the dimension. The derived bounds can be used to show that the min-max-min robust problem is solvable in oracle-polynomial time under certain conditions even if k is smaller than the dimension. We extend the previous results to the robust k-adaptability problem. As a consequence we can provide bounds on the number of necessary second-stage policies to approximate the exact two-stage robust problem. We derive an approximation algorithm for the k-adaptability problem which has similar guarantees as for the min-max-min problem. Finally, we test both algorithms on knapsack and shortest path problems and related two-stage variants. The experiments show that both algorithms calculate solutions with relatively small optimality gap in seconds.</description>
-    </item>
-    <item>
-      <title>On the Complexity of Lombardi Graph Drawing</title>
-      <link>https://arxiv.org/abs/2306.02649</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.02649</guid>
-      <pubDate>Fri, 11 Aug 2023 00:00:00 -0000</pubDate>
-      <description>In a Lombardi drawing of a graph the vertices are drawn as points and the edges are drawn as circular arcs connecting their respective endpoints. Additionally, all vertices have perfect angular resolution, i.e., all angles incident to a vertex $v$ have size $2π/\mathrm{deg}(v)$. We prove that it is $\exists\mathbb{R}$-complete to determine whether a given graph admits a Lombardi drawing respecting a fixed cyclic ordering of the incident edges around each vertex. In particular, this implies NP-hardness. While most previous work studied the (non-)existence of Lombardi drawings for different graph classes, our result is the first on the computational complexity of finding Lombardi drawings of general graphs.</description>
-    </item>
-    <item>
-      <title>Three Candidate Plurality is Stablest for Correlations at most 1/10</title>
-      <link>https://arxiv.org/abs/2306.03312</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.03312</guid>
-      <pubDate>Wed, 09 Aug 2023 00:00:00 -0000</pubDate>
-      <description>We prove the three candidate Plurality is Stablest Conjecture of Khot-Kindler-Mossel-O'Donnell from 2005 for correlations $ρ$ satisfying $-1/43&lt;ρ&lt;1/10$: the Plurality function is the most noise stable three candidate election method with small influences, when the corrupted votes have correlation $-1/43&lt;ρ&lt;1/10$ with the original votes. The previous best result of this type only achieved positive correlations at most $10^{-10^{10}}$. Our result follows by solving the three set Standard Simplex Conjecture of Isaksson-Mossel from 2011 for all correlations $-1/43&lt;ρ&lt;1/10$. The Gaussian Double Bubble Theorem corresponds to the case $ρ\to1^{-}$, so in some sense, our result is a generalization of the Gaussian Double Bubble Theorem. Our result is also notable since it is the first result for any $ρ&lt;0$, which is the only relevant case for computational hardness of MAX-3-CUT. In fact, assuming the Unique Games Conjecture, we show that MAX-3-CUT is NP-hard to approximate within a multiplicative factor of $.98937$, which improves on the known (unconditional) NP-hardness of approximation within a factor of $1-(1/102)$, proven in 1997. As an additional corollary, we conclude that three candidate Borda Count is stablest for all $-1/43&lt;ρ&lt;1/10$.</description>
     </item>
   </channel>
 </rss>

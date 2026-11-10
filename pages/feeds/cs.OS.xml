@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Why Kubernetes Cannot Contain a Full Lazy-Pulling Cache: Two Impossibility Results and a Bounded, Honest Design for Model Serving</title>
+      <link>http://arxiv.org/abs/2611.11739v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11739v1</guid>
+      <pubDate>Mon, 09 Nov 2026 01:27:50 +0000</pubDate>
+      <description>Lazy container-image pulling makes cold starts of autoscaled model-serving fleets on Kubernetes nearly independent of model size, but it moves the model's bytes into a node-level cache that the platform neither bounds nor accounts for. This article establishes, by experiment, two impossibility results for that cache. A monitoring-side remedy cannot catch its failure: a sentinel readiness probe stays green while 272 of 280 files are unreadable. A platform-side remedy cannot contain it: kubelet, given full disk-pressure visibility, frees 0 bytes and evicts 26 bystander pods, because its reclamation actuator is keyed to an accounting that does not know the cache exists. The article then eliminates the failure class inside the component that owns the bytes, with no change to kubelet or the container runtime interface, by two design rules: a byte budget whose pressure signal is keyed to filesystem truth, so that a never-blocking, lossy accounting still enforces a hard bound (held against about 301,000 dropped updates), and pass-through semantics under which a failed cache write never becomes a failed read, with the coupling traced to a single io.MultiWriter. Across six pre-specified campaigns on AWS, upstream stargz-snapshotter fails 273 of 280 model files at 90% cache pre-fill; the proposed system reads all 150.3 GB with zero errors at +18.5% completion cost and holds the budget under a live read, co-tenancy, and a three-node fleet. A source audit shows the missing bound generalizes to SOCI and Nydus. The implementation is open source and has been proposed upstream.</description>
+    </item>
+    <item>
       <title>High-Throughput Private Information Retrieval with on-CPU Accelerators</title>
       <link>http://arxiv.org/abs/2611.02376v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.02376v1</guid>
@@ -703,6 +710,538 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1905.09543</guid>
       <pubDate>Thu, 23 May 2019 00:00:00 -0000</pubDate>
       <description>Windows OS kernel memory is one of the main targets of cyber-attacks. By launching such attacks, hackers are succeeding in process privilege escalation and tampering with users data by accessing kernel mode memory. This paper considers a new example of such an attack, which results in access to the files opened in an exclusive mode. Windows built-in security features prevent such legal access, but attackers can circumvent them by patching dynamically allocated objects. The research shows that the Windows 10, version 1809 x64 is vulnerable to this attack. The paper provides an example of using MemoryRanger, a hypervisor-based solution to prevent such attack by running kernel-mode drivers in isolated kernel memory enclaves.</description>
+    </item>
+    <item>
+      <title>A Survey on Tiering and Caching in High-Performance Storage Systems</title>
+      <link>https://arxiv.org/abs/1904.11560</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1904.11560</guid>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 -0000</pubDate>
+      <description>Although every individual invented storage technology made a big step towards perfection, none of them is spotless. Different data store essentials such as performance, availability, and recovery requirements have not met together in a single economically affordable medium, yet. One of the most influential factors is price. So, there has always been a trade-off between having a desired set of storage choices and the costs. To address this issue, a network of various types of storing media is used to deliver the high performance of expensive devices such as solid state drives and non-volatile memories, along with the high capacity of inexpensive ones like hard disk drives. In software, caching and tiering are long-established concepts for handling file operations and moving data automatically within such a storage network and manage data backup in low-cost media. Intelligently moving data around different devices based on the needs is the key insight for this matter. In this survey, we discuss some recent pieces of research that have been done to improve high-performance storage systems with caching and tiering techniques.</description>
+    </item>
+    <item>
+      <title>Processor in Non-Volatile Memory (PiNVSM): Towards to Data-centric Computing in Decentralized Environment</title>
+      <link>https://arxiv.org/abs/1903.03701</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1903.03701</guid>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 -0000</pubDate>
+      <description>The AI problem has no solution in the environment of existing hardware stack and OS architecture. CPU-centric model of computation has a huge number of drawbacks that originate from memory hierarchy and obsolete architecture of the computing core. The concept of mixing memory and logic has been around since 1960s. However, the concept of Processor-In-Memory (PIM) is unable to resolve the critical issues of the CPU-centric computing model because of inevitable replication of von Neumann architecture's drawbacks. The next generation of NVM/SCM memory is able to give the second birth to the data-centric computing paradigm. This paper presents a concept of Processor in Non-Volatile Memory (PiNVSM) architecture. The basis of PiNVSM architecture is the concept of DPU that contains the NVM memory and dedicated PU. All necessary PU's registers can be implemented in the space of NVM memory. NVM memory of DPU is the single space for storing and transformation of data. In the basis of PiNVSM architecture lies the DPU array is able to overcome the limitations as Turing machine model as von Neumann architecture. The DPU array hasn't a centralized computing core. Every data portion has dedicated computing core that excludes the necessity to transfer data to the place of data processing. Every DPU contains data portion that is associated with the set of keywords. Any complex data structure can be split on elementary items that can be stored into independent DPU with dedicated computing core(s). One DPU is able to apply the elementary transformation on one item. But the DPU array is able to make the transformation of complex structure by means of concurrent execution of elementary transformations in different DPUs. The PiNVSM architecture suggests a principally new architecture of the computing core that creates a new opportunity for data self-organization, data and code synthesis.</description>
+    </item>
+    <item>
+      <title>The Lustre Storage Architecture</title>
+      <link>https://arxiv.org/abs/1903.01955</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1903.01955</guid>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 -0000</pubDate>
+      <description>This lengthy document often referred to as the "Lustre Book", contains a detailed outline of Lustre file system architecture, as it was created between 2001 and 2005, in accordance with the requirements from various users. Now, in 2019, most features have been implemented, but some only recently, and some along different lines of thought.</description>
+    </item>
+    <item>
+      <title>File System in Data-Centric Computing</title>
+      <link>https://arxiv.org/abs/1901.01340</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1901.01340</guid>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 -0000</pubDate>
+      <description>The moving computation on the edge or near to data is the new trend that can break the bandwidth wall and to unleash the power of next generation NVM or SCM memory. File system is the important OS subsystem that plays the role of mediator between the user-space application and storage device. The key goal of the file system is to represent the file abstraction and to build the files' namespace. In the current paradigm the file system needs to copy the metadata and user data in the DRAM of the host with the goal to access and to modify the user data on the host side. The DAX approach doesn't change the concept but to build the way to bypass the page cache via the direct access to file's content in persistent memory. Generally speaking, for the case of data-centric computing, the file system needs to solve the opposite task not to copy data into page cache but to deliver the processing activity near data on the storage device side.</description>
+    </item>
+    <item>
+      <title>Divide et Impera: MemoryRanger Runs Drivers in Isolated Kernel Spaces</title>
+      <link>https://arxiv.org/abs/1812.09920</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1812.09920</guid>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 -0000</pubDate>
+      <description>One of the main issues in the OS security is to provide trusted code execution in an untrusted environment. During executing, kernel-mode drivers allocate and process memory data: OS internal structures, users private information, and sensitive data of third-party drivers. All this data and the drivers code can be tampered with by kernel-mode malware. Microsoft security experts integrated new features to fill this gap, but they are not enough: allocated data can be stolen and patched and the drivers code can be dumped without any security reaction. The proposed hypervisor-based system (MemoryRanger) tackles this issue by executing drivers in separate kernel enclaves with specific memory attributes. MemoryRanger protects code and data using Intel VT-x and EPT features with low performance degradation on Windows 10 x64.</description>
+    </item>
+    <item>
+      <title>Formalising Filesystems in the ACL2 Theorem Prover: an Application to FAT32</title>
+      <link>https://arxiv.org/abs/1810.04309</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1810.04309</guid>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 -0000</pubDate>
+      <description>In this work, we present an approach towards constructing executable specifications of existing filesystems and verifying their functional properties in a theorem proving environment. We detail an application of this approach to the FAT32 filesystem. We also detail the methodology used to build up this type of executable specification through a series of models which incrementally add features of the target filesystem. This methodology has the benefit of allowing the verification effort to start from simple models which encapsulate features common to many filesystems and which are thus suitable for reuse.</description>
+    </item>
+    <item>
+      <title>Fast &amp; Flexible IO : A Compositional Approach to Storage Construction for High-Performance Devices</title>
+      <link>https://arxiv.org/abs/1807.09696</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1807.09696</guid>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 -0000</pubDate>
+      <description>Building storage systems has remained the domain of systems experts for many years. They are complex and difficult to implement. Extreme care is needed to ensure necessary guarantees of performance and operational correctness. Furthermore, because of restrictions imposed by kernel-based designs, many legacy implementations have traded software flexibility for performance. Their implementation is restricted to compiled languages such as C and assembler, and reuse tends to be difficult or constrained. Nevertheless, storage systems are implicitly well-suited to software reuse and compositional software construction. There are many logical functions, such as block allocation, caching, partitioning, metadata management and so forth, that are common across most variants of storage. In this paper, we present Comanche, an open-source project that considers, as first-class concerns, both compositional design and reuse, and the need for high-performance.</description>
+    </item>
+    <item>
+      <title>User Manual for the Apple CoreCapture Framework</title>
+      <link>https://arxiv.org/abs/1808.07353</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1808.07353</guid>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 -0000</pubDate>
+      <description>CoreCapture is Apple's primary logging and tracing framework for IEEE 802.11 on iOS and macOS. It allows users and developers to create comprehensive debug output for analysis by Apple. In this manual, we provide an overview into the concepts, show in detail how CoreCapture logs can be created on iOS and macOS, and introduce the first CoreCapture dissector for Wireshark.</description>
+    </item>
+    <item>
+      <title>Parallel Architecture Hardware and General Purpose Operating System Co-design</title>
+      <link>https://arxiv.org/abs/1807.03546</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1807.03546</guid>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 -0000</pubDate>
+      <description>Because most optimisations to achieve higher computational performance eventually are limited, parallelism that scales is required. Parallelised hardware alone is not sufficient, but software that matches the architecture is required to gain best performance. For decades now, hardware design has been guided by the basic design of existing software, to avoid the higher cost to redesign the latter. In doing so, however, quite a variety of superior concepts is excluded a priori. Consequently, co-design of both hardware and software is crucial where highest performance is the goal. For special purpose application, this co-design is common practice. For general purpose application, however, a precondition for usability of a computer system is an operating system which is both comprehensive and dynamic. As no such operating system has ever been designed, a sketch for a comprehensive dynamic operating system is presented, based on a straightforward hardware architecture to demonstrate how design decisions regarding software and hardware do coexist and harmonise.</description>
+    </item>
+    <item>
+      <title>Mirrored and Hybrid Disk Arrays: Organization, Scheduling, Reliability, and Performance</title>
+      <link>https://arxiv.org/abs/1801.08873</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1801.08873</guid>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 -0000</pubDate>
+      <description>Basic mirroring (BM) classified as RAID level 1 replicates data on two disks, thus doubling disk access bandwidth for read requests. RAID1/0 is an array of BM pairs with balanced loads due to striping. When a disk fails the read load on its pair is doubled, which results in halving the maximum attainable bandwidth. We review RAID1 organizations which attain a balanced load upon disk failure, but as shown by reliability analysis tend to be less reliable than RAID1/0. Hybrid disk arrays which store XORed instead of replicated data tend to have a higher reliability than mirrored disks, but incur a higher overhead in updating data. Read request response time can be improved by processing them at a higher priority than writes, since they have a direct effect on application response time. Shortest seek distance and affinity based routing both shorten seek time. Anticipatory arm placement places arms optimally to minimize the seek distance. The analysis of RAID1 in normal, degraded, and rebuild mode is provided to quantify RAID1/0 performance. We compare the reliability of mirrored disk organizations against each other and hybrid disks and erasure coded disk arrays.</description>
+    </item>
+    <item>
+      <title>Implementation of an Android Framework for USB storage access without root rights</title>
+      <link>https://arxiv.org/abs/1711.08139</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1711.08139</guid>
+      <pubDate>Wed, 22 Nov 2017 00:00:00 -0000</pubDate>
+      <description>This bachelor thesis describes the implementation of an Android framework to access mass storage devices over the USB interface of a smartphone. First the basics of USB (i.e. interfaces, endpoints and USB On the go) and accessing USB devices via the official Android API are discussed. Next the USB mass storage class is explained, which was de- signed by the USB-IF to access mobile mass storage like USB pen drives or external HDDs. For communication with mass storage devices, most important are the bulk-only transfer and the SCSI transparent command set. Furthermore file systems, for accessing directo- ries and files, are described. This thesis focuses on the FAT32 file system from Microsoft, because it is the most commonly used file system on such devices. After the theory part it is time to look at the implementation of the framework. In this section, the first concern is the purpose in general. Then the architecture of the framework and the actual implementation are presented. Important parts are discussed in detail. The thesis finishes with an overview of the test results on various Android devices, a short conclusion and an outlook to future developments. Moreover the current status of the developed framework is visualized.</description>
+    </item>
+    <item>
+      <title>Optimizations of Management Algorithms for Multi-Level Memory Hierarchy</title>
+      <link>https://arxiv.org/abs/1707.07161</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1707.07161</guid>
+      <pubDate>Sat, 22 Jul 2017 00:00:00 -0000</pubDate>
+      <description>In the near future the SCM is predicted to modify the form of new programs, the access form to storage, and the way that storage devices themselves are built. Therefore, a combination between the SCM and a designated Memory Allocation Manager (MAM) that will allow the programmer to manually control the different memories in the memory hierarchy will be likely to achieve a new level of performance for memory-aware data structures. Although the manual MAM seems to be the optimal approach for multi-level memory hierarchy management, this technique is still very far from being realistic, and the chances that it would be implemented in current codes using High Performance Computing (HPC) platforms is quite low. This premise means that the most reasonable way to introduce the SCM into any usable and popular memory system would be by implementing an automated version of the MAM using the fundamentals of paging algorithms, as used for two-level memory hierarchy. Our hypothesis is that achieving appropriate transferability between memory levels may be possible using ideas of algorithms employed in current virtual memory systems, and that the adaptation of those algorithms from a two-level memory hierarchy to an N-level memory hierarchy is possible. In order to reach the conclusion that our hypothesis is correct, we investigated various paging algorithms, and found the ones that could be adapted successfully from two-level memory hierarchy to an N-level memory hierarchy. We discovered that using an adaptation of the Aging paging algorithm to an N-level memory hierarchy results in the best performances in terms of Hit/Miss ratio. In order to verify our hypothesis we build a simulator called "DeMemory simulator" for analyzing our algorithms as well as for other algorithms that will be devised in the future.</description>
+    </item>
+    <item>
+      <title>Study and Analysis of MAC/IPAD Lab Configuration</title>
+      <link>https://arxiv.org/abs/1707.05405</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1707.05405</guid>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 -0000</pubDate>
+      <description>This paper is about three virtualization modes: VMware, Parallels, and Boot Camping. The trade off of their testing is the hardware requirements. The main question is, among the three, which is the most suitable? The answer actually varies from user to user. It depends on the user needs. Moreover, it is necessary to consider its performance, graphics, efficiency and reliability, and interoperability, and that is our major scope. In order to take the final decision in choosing one of the modes it is important to run some tests, which costs a lot in terms of money, complexity, and time consumption. Therefore, in order to overcome this trade off, most of the research has been done through online benchmarking and my own anticipation. The final solution was extracted after comparing all previously mentioned above and after rigorous testing made which will be introduced later in this document.</description>
+    </item>
+    <item>
+      <title>Tackling Diversity and Heterogeneity by Vertical Memory Management</title>
+      <link>https://arxiv.org/abs/1704.01198</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1704.01198</guid>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 -0000</pubDate>
+      <description>Existing memory management mechanisms used in commodity computing machines typically adopt hardware based address interleaving and OS directed random memory allocation to service generic application requests. These conventional memory management mechanisms are challenged by contention at multiple memory levels, a daunting variety of workload behaviors, and an increasingly complicated memory hierarchy. Our ISCA-41 paper proposes vertical partitioning to eliminate shared resource contention at multiple levels in the memory hierarchy. Combined with horizontal memory management policies, our framework supports a flexible policy space for tackling diverse application needs in production environment and is suitable for future heterogeneous memory systems.</description>
+    </item>
+    <item>
+      <title>Virtualization technology for distributed time sensitive domains</title>
+      <link>https://arxiv.org/abs/1703.08469</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1703.08469</guid>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 -0000</pubDate>
+      <description>This paper reports on the state of the art of virtualization technology for both general purpose domains as well as real-time domains. There exits no entirely instantaneous data transmission/transfer. There always exist a delay while transmitting data, either in the processing or in the medium itself. However most systems are designed to function appropriately with a delay tolerance. This delay, inevitably, is affected when operating with an extra layer, the virtualization. For real time systems it is crucial to know the temporal limits in order not to surpass them. Introducing virtualization in the real-time domain therefore requires deeper analysis by making use of techniques that will offer results with deterministic execution times. The study of time in systems and its behaviour under various possible circumstances is hence a key for properly assessing this technology applied to both domains, especially the real-time domain.</description>
+    </item>
+    <item>
+      <title>Practical Data Compression for Modern Memory Hierarchies</title>
+      <link>https://arxiv.org/abs/1609.02067</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1609.02067</guid>
+      <pubDate>Wed, 07 Sep 2016 00:00:00 -0000</pubDate>
+      <description>In this thesis, we describe a new, practical approach to integrating hardware-based data compression within the memory hierarchy, including on-chip caches, main memory, and both on-chip and off-chip interconnects. This new approach is fast, simple, and effective in saving storage space. A key insight in our approach is that access time (including decompression latency) is critical in modern memory hierarchies. By combining inexpensive hardware support with modest OS support, our holistic approach to compression achieves substantial improvements in performance and energy efficiency across the memory hierarchy. Using this new approach, we make several major contributions in this thesis. First, we propose a new compression algorithm, Base-Delta-Immediate Compression (BDI), that achieves high compression ratio with very low compression/decompression latency. BDI exploits the existing low dynamic range of values present in many cache lines to compress them to smaller sizes using Base+Delta encoding. Second, we observe that the compressed size of a cache block can be indicative of its reuse. We use this observation to develop a new cache insertion policy for compressed caches, the Size-based Insertion Policy (SIP), which uses the size of a compressed block as one of the metrics to predict its potential future reuse. Third, we propose a new main memory compression framework, Linearly Compressed Pages (LCP), that significantly reduces the complexity and power cost of supporting main memory compression. We demonstrate that any compression algorithm can be adapted to fit the requirements of LCP, and that LCP can be efficiently integrated with the existing cache compression designs, avoiding extra compression/decompression.</description>
+    </item>
+    <item>
+      <title>Compatible and Usable Mandatory Access Control for Good-enough OS Security</title>
+      <link>https://arxiv.org/abs/1609.00875</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1609.00875</guid>
+      <pubDate>Sat, 03 Sep 2016 00:00:00 -0000</pubDate>
+      <description>OS compromise is one of the most serious computer security problems today, but still not being resolved. Although people proposed different kinds of methods, they could not be accepted by most users who are non-expert due to the lack of compatibility and usability. In this paper, we introduce a kind of new mandatory access control model, named CUMAC, that aims to achieve good-enough security, high compatibility and usability. It has two novel features. One is access control based on tracing potential intrusion that can reduce false negatives and facilitate security configuration, in order to improve both compatibility and usability; the other is automatically figuring out all of the compatibility exceptions that usually incurs incompatible problems. The experiments performed on the prototype show that CUMAC can defense attacks from network, mobile disk and local untrustable users while keeping good compatibility and usability.</description>
+    </item>
+    <item>
+      <title>Suspicious-Taint-Based Access Control for Protecting OS from Network Attacks</title>
+      <link>https://arxiv.org/abs/1609.00100</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1609.00100</guid>
+      <pubDate>Sat, 03 Sep 2016 00:00:00 -0000</pubDate>
+      <description>Today, security threats to operating systems largely come from network. Traditional discretionary access control mechanism alone can hardly defeat them. Although traditional mandatory access control models can effectively protect the security of OS, they have problems of being incompatible with application software and complex in administration. In this paper, we propose a new model, Suspicious-Taint-Based Access Control (STBAC) model, for defeating network attacks while being compatible, simple and maintaining good system performance. STBAC regards the processes using Non-Trustable-Communications as the starting points of suspicious taint, traces the activities of the suspiciously tainted processes by taint rules, and forbids the suspiciously tainted processes to illegally access vital resources by protection rules. Even in the cases when some privileged processes are subverted, STBAC can still protect vital resources from being compromised by the intruder. We implemented the model in the Linux kernel and evaluated it through experiments. The evaluation showed that STBAC could protect vital resources effectively without significant impact on compatibility and performance.</description>
+    </item>
+    <item>
+      <title>The Design of the NetBSD I/O Subsystems</title>
+      <link>https://arxiv.org/abs/1605.05810</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1605.05810</guid>
+      <pubDate>Thu, 19 May 2016 00:00:00 -0000</pubDate>
+      <description>This book describes the source code of the NetBSD Operating System Release 1.6 in SUN UltraSPARC 64-bit platform by annotating related excerpts from references and user manuals on the NetBSD Operating System. The goal of this book is to provide necessary information to understand the operation and the implementation of I/O subsystems in the kernel as well as to design and implement a new filesystem on the NetBSD platform.</description>
+    </item>
+    <item>
+      <title>Research on Scalability of Operating Systems on Multicore Processors</title>
+      <link>https://arxiv.org/abs/1512.06908</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1512.06908</guid>
+      <pubDate>Mon, 21 Dec 2015 00:00:00 -0000</pubDate>
+      <description>Large number of cores and hardware resource sharing are two characteristics on multicore processors, which bring new challenges for the design of operating systems. How to locate and analyze the speedup restrictive factors in operating systems, how to simulate and avoid the phenomenon that speedup decreases with the number of cores because of lock contention (i.e., lock thrashing) and how to avoid the contention of shared resources such as the last level cache are key challenges for the operating system scalability research on multicore systems.</description>
+    </item>
+    <item>
+      <title>Multitasking Programming of OBDH Satellite Based On PC-104</title>
+      <link>https://arxiv.org/abs/1510.02552</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1510.02552</guid>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 -0000</pubDate>
+      <description>On Board Data Handling (OBDH) has functions to monitor, control, acquire, analyze, take a decision, and execute the command. OBDH should organize the task between sub system. OBDH like a heart which has a vital function. Because the function is seriously important therefore designing and implementing the OBDH should be carefully, in order to have a good reliability. Many OBDHs have been made to support the satellite mission using primitive programming. In handling the data from various input, OBDH should always be available to all sub systems, when the tasks are many, it is not easy to program using primitive programming. Sometimes the data become corrupt because the data which come to the OBDH is in the same time. Therefore it is required to have a way to handle the data safely and also easy in programming perspective. In this research, OBDH is programmed using multi tasking programming perspective has been created. The Operating System (OS) has been implemented so that can run the tasks simultaneously. The OS is prepared by configuring the Linux Kernel for the specific processor, creating Root File System (RFS), installing the BusyBox. In order to do the above method, preparing the environment in our machine has been done, they are installing the Cross Tool Chain, U-Boot, GNU-Linux Kernel Source etc. After that, programming using c code with multitasking programming can be implemented. By using above method, it is found that programming is easier and the corruption data because of reentrancy can be minimized. Keywords- Operating System, PC-104, Kernel, C Programming</description>
+    </item>
+    <item>
+      <title>Folding a Tree into a Map</title>
+      <link>https://arxiv.org/abs/1509.07694</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1509.07694</guid>
+      <pubDate>Fri, 25 Sep 2015 00:00:00 -0000</pubDate>
+      <description>Analysis of the retrieval architecture of the highly influential UNIX file system (\cite{Ritchie}\cite{multicsfs}) provides insight into design methods, constraints, and possible alternatives. The basic architecture can be understood in terms of function composition and recursion by anyone with some mathematical maturity. Expertise in operating system coding or in any specialized "formal method" is not required.</description>
+    </item>
+    <item>
+      <title>Taking back control of HPC file systems with Robinhood Policy Engine</title>
+      <link>https://arxiv.org/abs/1505.01448</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1505.01448</guid>
+      <pubDate>Wed, 06 May 2015 00:00:00 -0000</pubDate>
+      <description>Today, the largest Lustre file systems store billions of entries. On such systems, classic tools based on namespace scanning become unusable. Operations such as managing file lifetime, scheduling data copies, and generating overall filesystem statistics become painful as they require collecting, sorting and aggregating information for billions of records. Robinhood Policy Engine is an open source software developed to address these challenges. It makes it possible to schedule automatic actions on huge numbers of filesystem entries. It also gives a synthetic understanding of file systems contents by providing overall statistics about data ownership, age and size profiles. Even if it can be used with any POSIX filesystem, Robinhood supports Lustre specific features like OSTs, pools, HSM, ChangeLogs, and DNE. It implements specific support for these features, and takes advantage of them to manage Lustre file systems efficiently.</description>
+    </item>
+    <item>
+      <title>Improving Block-level Efficiency with scsi-mq</title>
+      <link>https://arxiv.org/abs/1504.07481</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1504.07481</guid>
+      <pubDate>Tue, 28 Apr 2015 00:00:00 -0000</pubDate>
+      <description>Current generation solid-state storage devices are exposing a new bottlenecks in the SCSI and block layers of the Linux kernel, where IO throughput is limited by lock contention, inefficient interrupt handling, and poor memory locality. To address these limitations, the Linux kernel block layer underwent a major rewrite with the blk-mq project to move from a single request queue to a multi-queue model. The Linux SCSI subsystem rework to make use of this new model, known as scsi-mq, has been merged into the Linux kernel and work is underway for dm-multipath support in the upcoming Linux 4.0 kernel. These pieces were necessary to make use of the multi-queue block layer in a Lustre parallel filesystem with high availability requirements. We undertook adding support of the 3.18 kernel to Lustre with scsi-mq and dm-multipath patches to evaluate the potential of these efficiency improvements. In this paper we evaluate the block-level performance of scsi-mq with backing storage hardware representative of a HPC-targerted Lustre filesystem. Our findings show that SCSI write request latency is reduced by as much as 13.6%. Additionally, when profiling the CPU usage of our prototype Lustre filesystem, we found that CPU idle time increased by a factor of 7 with Linux 3.18 and blk-mq as compared to a standard 2.6.32 Linux kernel. Our findings demonstrate increased efficiency of the multi-queue block layer even with disk-based caching storage arrays used in existing parallel filesystems.</description>
+    </item>
+    <item>
+      <title>Executing the same binary on several operating systems</title>
+      <link>https://arxiv.org/abs/cs/0612079</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0612079</guid>
+      <pubDate>Sun, 12 Apr 2015 00:00:00 -0000</pubDate>
+      <description>We notice a way to execute a binary file on Windows and ELF-based systems. It can be used to create software installers and other applications not exceeding 64 kilo bytes.</description>
+    </item>
+    <item>
+      <title>An Enhanced Multi-Pager Environment Support for Second Generation Microkernels</title>
+      <link>https://arxiv.org/abs/1404.1637</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1404.1637</guid>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 -0000</pubDate>
+      <description>The main objective of this paper is to present a mechanism of enhanced paging support for the second generation microkernels in the form of explicit support of multi-pager environment for the tasks running in the system. Proposed mechanism is based on the intra-kernel high granularity pagers assignments per virtual address space, which allow efficient and simple dispatching of page faults to the appropriate pagers. The paging is one of the major features of the virtual memory, which is extensively used by advanced operating systems to provide an illusion of elastic memory. Original and present second generation microkernels provide only limited, inflexible and unnatural support for paging. Furthermore, facilities provided by current solutions for multi-pager support on the runtime level introduce an overhead in terms of mode switches and thread context switches which can be significantly reduced. Limited paging support limits the attractiveness of the second generation microkernel based systems use in real-life applications, in which processes usually have concurrent servicing of multiple paging servers. The purpose of this paper is to present a facilities for the efficient and flexible support of multi-pager environments for the second generation microkernels. A comparison of the proposed solution to the present architecture L4 + L4Re has been made and overhead of the page fault handling critical path has been evaluated. Proposed solution is simple enough and provides a natural and flexible support of multi-pager environments for second generation microkernels in efficient way. It introduces a third less overhead in terms of the mode switches and thread context switches in comparison to the present L4 + L4Re solution implemented in the Fiasco.OC.</description>
+    </item>
+    <item>
+      <title>File System Design Approaches</title>
+      <link>https://arxiv.org/abs/1403.5976</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1403.5976</guid>
+      <pubDate>Fri, 21 Mar 2014 00:00:00 -0000</pubDate>
+      <description>In this article, the file system development design approaches are discussed. The selection of the file system design approach is done according to the needs of the developers what are the needed requirements and specifications for the new design. It allowed us to identify where our proposal fitted in with relation to current and past file system development. Our experience with file system development is limited so the research served to identify the different techniques that can be used. The variety of file systems encountered show what an active area of research file system development is. The file systems may be from one of the two fundamental categories. In one category, the file system is developed in user space and runs as a user process. Another file system may be developed in the kernel space and runs as a privileged process. Another one is the mixed approach in which we can take the advantages of both aforesaid approaches. Each development option has its own pros and cons. In this article, these design approaches are discussed.</description>
+    </item>
+    <item>
+      <title>Formal Description of Components in Operating Systems</title>
+      <link>https://arxiv.org/abs/1402.4929</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1402.4929</guid>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 -0000</pubDate>
+      <description>The contemporary development of hardware components is a prerequisite for increasing the concentration of computing power. System software is developing at a much slower pace. To use available resources efficiently modeling is required. Formalization of elements, present in the material, provides the basis for modeling. Examples are presented to demonstrate the efficiency of the concept.</description>
+    </item>
+    <item>
+      <title>Impacting the bioscience progress by backporting software for Bio-Linux</title>
+      <link>https://arxiv.org/abs/1310.1588</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1310.1588</guid>
+      <pubDate>Sun, 06 Oct 2013 00:00:00 -0000</pubDate>
+      <description>In year 2006 Bio-Linux with the work of Tim Booth and team gives its rising and provide an operating system that was and still specialized in providing a bioinformatic specific software environment for the working needs in this corner of bioscience. It is shown that Bio-Linux is affected by a 2 year release cycle and with this the final releases of Bio-Linux will not have the latest bioinformatic software on board. The paper shows how to get around this huge time gap and bring new software for Bio-Linux on board through a process that is called backporting. A summary of within the work to this paper just backported bioinformatic tools is given. A describtion of a workflow for continuously integration of the newest bioinformatic tools gives an outlook to further concrete planned developments and the influence of speeding up scientific progress.</description>
+    </item>
+    <item>
+      <title>Intensional view of General Single Processor Operating Systems</title>
+      <link>https://arxiv.org/abs/1308.1199</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1308.1199</guid>
+      <pubDate>Tue, 06 Aug 2013 00:00:00 -0000</pubDate>
+      <description>Operating systems are currently viewed ostensively. As a result they mean different things to different people. The ostensive character makes it is hard to understand OSes formally. An intensional view can enable better formal work, and also offer constructive support for some important problems, e.g. OS architecture. This work argues for an intensional view of operating systems. It proposes to overcome the current ostensive view by defining an OS based on formal models of computation, and also introduces some principles. Together these are used to develop a framework of algorithms of single processor OS structure using an approach similar to function level programming. In this abridged paper we illustrate the essential approach, discuss some advantages and limitations and point out some future possibilities.</description>
+    </item>
+    <item>
+      <title>The Unix KISS: A Case Study</title>
+      <link>https://arxiv.org/abs/cs/0701021</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0701021</guid>
+      <pubDate>Fri, 05 Jul 2013 00:00:00 -0000</pubDate>
+      <description>In this paper we show that the initial philosophy used in designing and developing UNIX in early times has been forgotten due to "fast practices". We question the leitmotif that microkernels, though being by design adherent to the KISS principle, have a number of context switches higher than their monolithic counterparts, running a test suite and verify the results with standard statistical validation tests. We advocate a wiser distribution of shared libraries by statistically analyzing the weight of each shared object in a typical UNIX system, showing that the majority of shared libraries exist in a common space for no real evidence of need. Finally we examine the UNIX heritage with an historical point of view, noticing how habits swiftly replaced the intents of the original authors, moving the focus from the earliest purpose of is avoiding complications, keeping a system simple to use and maintain.</description>
+    </item>
+    <item>
+      <title>Paging with dynamic memory capacity</title>
+      <link>https://arxiv.org/abs/1304.6007</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1304.6007</guid>
+      <pubDate>Mon, 22 Apr 2013 00:00:00 -0000</pubDate>
+      <description>We study a generalization of the classic paging problem that allows the amount of available memory to vary over time - capturing a fundamental property of many modern computing realities, from cloud computing to multi-core and energy-optimized processors. It turns out that good performance in the "classic" case provides no performance guarantees when memory capacity fluctuates: roughly speaking, moving from static to dynamic capacity can mean the difference between optimality within a factor 2 in space and time, and suboptimality by an arbitrarily large factor. More precisely, adopting the competitive analysis framework, we show that some online paging algorithms, despite having an optimal (h,k)-competitive ratio when capacity remains constant, are not (3,k)-competitive for any arbitrarily large k in the presence of minimal capacity fluctuations. In this light it is surprising that several classic paging algorithms perform remarkably well even if memory capacity changes adversarially - even without taking those changes into explicit account! In particular, we prove that LFD still achieves the minimum number of faults, and that several classic online algorithms such as LRU have a "dynamic" (h,k)-competitive ratio that is the best one can achieve without knowledge of future page requests, even if one had perfect knowledge of future capacity fluctuations (an exact characterization of this ratio shows it is almost, albeit not quite, equal to the "classic" ratio k/(k-h+1)). In other words, with careful management, knowing/predicting future memory resources appears far less crucial to performance than knowing/predicting future data accesses.</description>
+    </item>
+    <item>
+      <title>Schedulability Analysis of Distributed Real-Time Applications under Dependence and Several Latency Constraints</title>
+      <link>https://arxiv.org/abs/1301.4800</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1301.4800</guid>
+      <pubDate>Mon, 21 Jan 2013 00:00:00 -0000</pubDate>
+      <description>This paper focuses on the analysis of real-time non preemptive multiprocessor scheduling with precedence and several latency constraints. It aims to specify a schedulability condition which enables a designer to check a priori -without executing or simulating- if its scheduling of tasks will hold the precedences between tasks as well as several latency constraints imposed on determined pairs of tasks. It is shown that the required analysis is closely linked to the topological structure of the application graph. More precisely, it depends on the configuration of tasks paths subject to latency constraints. As a result of the study, a sufficient schedulability condition is introduced for precedences and latency constraints in the hardest configuration in term of complexity with an optimal number of processors in term of applications parallelism. In addition, the proposed conditions provides a practical lower bounds for general cases. Performances results and comparisons with an optimal approach demonstrate the effectiveness of the proposed approach.</description>
+    </item>
+    <item>
+      <title>Dynamic Transparent General Purpose Process Migration For Linux</title>
+      <link>https://arxiv.org/abs/1301.2649</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1301.2649</guid>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 -0000</pubDate>
+      <description>Process migration refers to the act of transferring a process in the middle of its execution from one machine to another in a network. In this paper, we proposed a process migration framework for Linux OS. It is a multilayer architecture to confine every functionality independent section of the system in separate layer. This architecture is capable of supporting diverse applications due to generic user space interface and dynamic structure that can be modified according to demands.</description>
+    </item>
+    <item>
+      <title>Adaptive Scheduling in Real-Time Systems Through Period Adjustment</title>
+      <link>https://arxiv.org/abs/1212.3502</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1212.3502</guid>
+      <pubDate>Fri, 14 Dec 2012 00:00:00 -0000</pubDate>
+      <description>Real time system technology traditionally developed for safety critical systems, has now been extended to support multimedia systems and virtual reality. A large number of real-time application, related to multimedia and adaptive control system, require more flexibility than classical real-time theory usually permits. This paper proposes an efficient adaptive scheduling framework in real-time systems based on period adjustment. Under this model periodic task can change their execution rates based on their importance value to keep the system underloaded. We propose Period_Adjust algorithm, which consider the tasks whose periods are bounded as well as the tasks whose periods are not bounded.</description>
+    </item>
+    <item>
+      <title>Multicore Dynamic Kernel Modules Attachment Technique for Kernel Performance Enhancement</title>
+      <link>https://arxiv.org/abs/1211.4840</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1211.4840</guid>
+      <pubDate>Tue, 20 Nov 2012 00:00:00 -0000</pubDate>
+      <description>Traditional monolithic kernels dominated kernel structures for long time along with small sized kernels,few hardware companies and limited kernel functionalities. Monolithic kernel structure was not applicable when the number of hardware companies increased and kernel services consumed by different users for many purposes. One of the biggest disadvantages of the monolithic kernels is the inflexibility due to the need to include all the available modules in kernel compilation causing high time consuming. Lately, new kernel structure was introduced through multicore operating systems. Unfortunately, many multicore operating systems such as barrelfish and FOS are experimental. This paper aims to simulate the performance of multicore hybrid kernels through dynamic kernel module customized attachment/ deattachment for multicore machines. In addition, this paper proposes a new technique for loading dynamic kernel modules based on the user needs and machine capabilities.</description>
+    </item>
+    <item>
+      <title>An Insight View of Kernel Visual Debugger in System Boot up</title>
+      <link>https://arxiv.org/abs/1211.4839</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1211.4839</guid>
+      <pubDate>Tue, 20 Nov 2012 00:00:00 -0000</pubDate>
+      <description>For many years, developers could not figure out the mystery of OS kernels. The main source of this mystery is the interaction between operating systems and hardware while system's boot up and kernel initialization. In addition, many operating system kernels differ in their behavior toward many situations. For instance, kernels act differently in racing conditions, kernel initialization and process scheduling. For such operations, kernel debuggers were designed to help in tracing kernel behavior and solving many kernel bugs. The importance of kernel debuggers is not limited to kernel code tracing but also, they can be used in verification and performance comparisons. However, developers had to be aware of debugger commands thus introducing some difficulties to non-expert programmers. Later, several visual kernel debuggers were presented to make it easier for programmers to trace their kernel code and analyze kernel behavior. Nowadays, several kernel debuggers exist for solving this mystery but only very few support line-by-line debugging at run-time. In this paper, a generic approach for operating system source code debugging in graphical mode with line-by-line tracing support is proposed. In the context of this approach, system boot up and evaluation of two operating system schedulers from several points of views will be discussed.</description>
+    </item>
+    <item>
+      <title>Windows And Linux Operating Systems From A Security Perspective</title>
+      <link>https://arxiv.org/abs/1204.0197</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1204.0197</guid>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 -0000</pubDate>
+      <description>Operating systems are vital system software that, without them, humans would not be able to manage and use computer systems. In essence, an operating system is a collection of software programs whose role is to manage computer resources and provide an interface for client applications to interact with the different computer hardware. Most of the commercial operating systems available today on the market have buggy code and they exhibit security flaws and vulnerabilities. In effect, building a trusted operating system that can mostly resist attacks and provide a secure computing environment to protect the important assets of a computer is the goal of every operating system manufacturer. This paper deeply investigates the various security features of the two most widespread and successful operating systems, Microsoft Windows and Linux. The different security features, designs, and components of the two systems are to be covered elaborately, pin-pointing the key similarities and differences between them. In due course, a head-to-head comparison is to be drawn for each security aspect, exposing the advantage of one system over the other.</description>
+    </item>
+    <item>
+      <title>What is an OS?</title>
+      <link>https://arxiv.org/abs/1112.4451</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1112.4451</guid>
+      <pubDate>Fri, 17 Feb 2012 00:00:00 -0000</pubDate>
+      <description>While the engineering of operating systems is well understood, their formal structure and properties are not. The latter needs a clear definition of the purpose of an OS and an identification of the core. In this paper I offer definitions of the OS, processes and files, and present a few useful principles. The principles allow us to identify work like closure and continuation algorithms, in programming languages that is useful for the OS problem. The definitions and principles should yield a symbolic, albeit semiquantitative, framework that encompasses practice. Towards that end I specialise the definitions to describe conventional OSes and identify the core operations for a single computer OS that can be used to express their algorithms. The assumptions underlying the algorithms offer the design space framework. The paging and segmentation algorithms for conventional OSes are extracted from the framework as a check. Among the insights the emerge is that an OS is a constructive proof of equivalence between models of computation. Clear and useful definitions and principles are the first step towards a fully quantitative structure of an OS.</description>
+    </item>
+    <item>
+      <title>A Characterization of the SPARC T3-4 System</title>
+      <link>https://arxiv.org/abs/1106.2992</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1106.2992</guid>
+      <pubDate>Wed, 15 Jun 2011 00:00:00 -0000</pubDate>
+      <description>This technical report covers a set of experiments on the 64-core SPARC T3-4 system, comparing it to two similar AMD and Intel systems. Key characteristics as maximum integer and floating point arithmetic throughput are measured as well as memory throughput, showing the scalability of the SPARC T3-4 system. The performance of POSIX threads primitives is characterized and compared in detail, such as thread creation and mutex synchronization. Scalability tests with a fine grained multithreaded runtime are performed, showing problems with atomic CAS operations on such physically highly parallel systems.</description>
+    </item>
+    <item>
+      <title>User Mode Memory Page Management: An old idea applied anew to the memory wall problem</title>
+      <link>https://arxiv.org/abs/1105.1815</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1105.1815</guid>
+      <pubDate>Mon, 09 May 2011 00:00:00 -0000</pubDate>
+      <description>It is often said that one of the biggest limitations on computer performance is memory bandwidth (i.e."the memory wall problem"). In this position paper, I argue that if historical trends in computing evolution (where growth in available capacity is exponential and reduction in its access latencies is linear) continue as they have, then this view is wrong - in fact we ought to be concentrating on reducing whole system memory access latencies wherever possible, and by "whole system" I mean that we ought to look at how software can be unnecessarily wasteful with memory bandwidth due to legacy design decisions. To this end I conduct a feasibility study to determine whether we ought to virtualise the MMU for each application process such that it has direct access to its own MMU page tables and the memory allocated to a process is managed exclusively by the process and not the kernel. I find under typical conditions that nearly scale invariant performance to memory allocation size is possible such that hundreds of megabytes of memory can be allocated, relocated, swapped and deallocated in almost the same time as kilobytes (e.g. allocating 8Mb is 10x quicker under this experimental allocator than a conventional allocator, and resizing a 128Kb block to 256Kb block is 4.5x faster). I find that first time page access latencies are improved tenfold; moreover, because the kernel page fault handler is never called, the lack of cache pollution improves whole application memory access latencies increasing performance by up to 2x. Finally, I try binary patching existing applications to use the experimental allocation technique, finding almost universal performance improvements without having to recompile these applications to make better use of the new facilities.</description>
+    </item>
+    <item>
+      <title>User Mode Memory Page Allocation: A Silver Bullet For Memory Allocation?</title>
+      <link>https://arxiv.org/abs/1105.1811</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1105.1811</guid>
+      <pubDate>Mon, 09 May 2011 00:00:00 -0000</pubDate>
+      <description>This paper proposes a novel solution: the elimination of paged virtual memory and partial outsourcing of memory page allocation and manipulation from the operating system kernel into the individual process' user space - a user mode page allocator - which allows an application to have direct, bare metal access to the page mappings used by the hardware Memory Management Unit (MMU) for its part of the overall address space. A user mode page allocator based emulation of the mmap() abstraction layer of dlmalloc is then benchmarked against the traditional kernel mode implemented mmap() in a series of synthetic Monte-Carlo and real world application settings. Given the superb synthetic and positive real world results from the profiling conducted, this paper proposes that with proper operating system and API support one could gain a further order higher performance again while keeping allocator performance invariant to the amount of memory being allocated or freed i.e. a 100x performance improvement or more in some common use cases. It is rare that through a simple and easy to implement API and operating system structure change one can gain a Silver Bullet with the potential for a second one.</description>
+    </item>
+    <item>
+      <title>Efficient and Playful Tools to Teach Unix to New Students</title>
+      <link>https://arxiv.org/abs/1103.1717</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1103.1717</guid>
+      <pubDate>Wed, 09 Mar 2011 00:00:00 -0000</pubDate>
+      <description>Teaching Unix to new students is a common tasks in many higher schools. This paper presents an approach to such course where the students progress autonomously with the help of the teacher. The traditional textbook is complemented with a wiki, and the main thread of the course is a game, in the form of a treasure hunt. The course finishes with a lab exam, where students have to perform practical manipulations similar to the ones performed during the treasure hunt. The exam is graded fully automatically. This paper discusses the motivations and advantages of the approach, and gives an overall view of the tools we developed. The tools are available from the web, and open-source, hence re-usable outside the Ensimag.</description>
+    </item>
+    <item>
+      <title>Perbandingan Shell Unix</title>
+      <link>https://arxiv.org/abs/1006.2104</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1006.2104</guid>
+      <pubDate>Thu, 10 Jun 2010 00:00:00 -0000</pubDate>
+      <description>Is it possible for an Information Technology [IT] product to be both mature and state-of-theart at the same time? In the case of the UNIX system, the answer is an unqualified "Yes." The UNIX system has continued to develop over the past twenty-five years. In millions of installations running on nearly every hardware platform made, the UNIX system has earned its reputation for stability and scalability. Over the years, UNIX system suppliers have steadily assimilated new technologies so that UNIX systems today provide more functionality as any other operating system.</description>
+    </item>
+    <item>
+      <title>File Managing and Program Execution in Web Operating Systems</title>
+      <link>https://arxiv.org/abs/1005.5045</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1005.5045</guid>
+      <pubDate>Thu, 27 May 2010 00:00:00 -0000</pubDate>
+      <description>Web Operating Systems can be seen as an extension of traditional Operating Systems where the addresses used to manage files and execute programs (via the basic load/execution mechanism) are extended from local filesystem path-names to URLs. A first consequence is that, similarly as in traditional web technologies, executing a program at a given URL, can be done in two modalities: either the execution is performed client-side at the invoking machine (and relative URL addressing in the executed program set to refer to the invoked URL) or it is performed server-side at the machine addressed by the invoked URL (as, e.g., for a web service). Moreover in this context, user identification for access to programs and files and workflow-based composition of service programs is naturally based on token/session-like mechanisms. We propose a middleware based on client-server protocols and on a set primitives, for managing files/resources and executing programs (in the form of client-side/server-side components/services) in Web Operating Systems. We formally define the semantics of such middleware via a process algebraic approach.</description>
+    </item>
+    <item>
+      <title>Searching publications on operating systems</title>
+      <link>https://arxiv.org/abs/1003.5525</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1003.5525</guid>
+      <pubDate>Mon, 29 Mar 2010 00:00:00 -0000</pubDate>
+      <description>This note concerns a search for publications in which one can find statements that explain the concept of an operating system, reasons for introducing operating systems, a formalization of the concept of an operating system or theory about operating systems based on such a formalization. It reports on the way in which the search has been carried out and the outcome of the search. The outcome includes not only what the search was meant for, but also some added bonuses.</description>
+    </item>
+    <item>
+      <title>A distributed file system for a wide-area high performance computing infrastructure</title>
+      <link>https://arxiv.org/abs/1001.0196</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/1001.0196</guid>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 -0000</pubDate>
+      <description>We describe our work in implementing a wide-area distributed file system for the NSF TeraGrid. The system, called XUFS, allows private distributed name spaces to be created for transparent access to personal files across over 9000 computer nodes. XUFS builds on many principles from prior distributed file systems research, but extends key design goals to support the workflow of computational science researchers. Specifically, XUFS supports file access from the desktop to the wide-area network seamlessly, survives transient disconnected operations robustly, and demonstrates comparable or better throughput than some current high performance file systems on the wide-area network.</description>
+    </item>
+    <item>
+      <title>Process Description of COM Object Life Cycle</title>
+      <link>https://arxiv.org/abs/0912.4062</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0912.4062</guid>
+      <pubDate>Sun, 20 Dec 2009 00:00:00 -0000</pubDate>
+      <description>The objective of this article is to provide for the reader a basic description of all the steps involved in the COM object life-cycle process. COM is a software technology and process performer. The first section briefly introduces the Component Object Model (COM), considering the process of the COM object life cycle as the baseline of all COM issues. The second part describes in detail the basic steps of the process - client request, server location, object creation, interaction, and disconnection. A brief description is given for the components involved in each step. Finally, the third section provides a brief conclusion summarizing all the process steps.</description>
+    </item>
+    <item>
+      <title>Sharp utilization thresholds for some real-time scheduling problems</title>
+      <link>https://arxiv.org/abs/0912.3852</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0912.3852</guid>
+      <pubDate>Sat, 19 Dec 2009 00:00:00 -0000</pubDate>
+      <description>Scheduling policies for real-time systems exhibit threshold behavior that is related to the utilization of the task set they schedule, and in some cases this threshold is sharp. For the rate monotonic scheduling policy, we show that periodic workload with utilization less than a threshold $U_{RM}^{*}$ can be scheduled almost surely and that all workload with utilization greater than $U_{RM}^{*}$ is almost surely not schedulable. We study such sharp threshold behavior in the context of processor scheduling using static task priorities, not only for periodic real-time tasks but for aperiodic real-time tasks as well. The notion of a utilization threshold provides a simple schedulability test for most real-time applications. These results improve our understanding of scheduling policies and provide an interesting characterization of the typical behavior of policies. The threshold is sharp (small deviations around the threshold cause schedulability, as a property, to appear or disappear) for most policies; this is a happy consequence that can be used to address the limitations of existing utilization-based tests for schedulability. We demonstrate the use of such an approach for balancing power consumption with the need to meet deadlines in web servers.</description>
+    </item>
+    <item>
+      <title>Virtual-Threading: Advanced General Purpose Processors Architecture</title>
+      <link>https://arxiv.org/abs/0910.4052</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0910.4052</guid>
+      <pubDate>Wed, 21 Oct 2009 00:00:00 -0000</pubDate>
+      <description>The paper describes the new computers architecture, the main features of which has been claimed in the Russian Federation patent 2312388 and in the US patent application 11/991331. This architecture is intended to effective support of the General Purpose Parallel Computing (GPPC), the essence of which is extremely frequent switching of threads between states of activity and states of viewed in the paper the algorithmic latency. To emphasize the same impact of the architectural latency and the algorithmic latency upon GPPC, is introduced the new notion of the generalized latency and is defined its quantitative measure - the Generalized Latency Tolerance (GLT). It is shown that a well suited for GPPC implementation architecture should have high level of GLT and is described such architecture, which is called the Virtual-Threaded Machine. This architecture originates a processor virtualization in the direction of activities virtualization, which is orthogonal to the well-known direction of memory virtualization. The key elements of the architecture are 1) the distributed fine grain representation of the architectural register file, which elements are hardware swapped through levels of a microarchitectural memory, 2) the prioritized fine grain direct hardware multiprogramming, 3) the access controlled virtual addressing and 4) the hardware driven semaphores. The composition of these features lets to introduce new styles of operating system (OS) programming, which is free of interruptions, and of applied programming with a very rare using the OS services.</description>
+    </item>
+    <item>
+      <title>A Conceivable Origin of Machine Consciousness in the IDLE process</title>
+      <link>https://arxiv.org/abs/0909.5064</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0909.5064</guid>
+      <pubDate>Mon, 28 Sep 2009 00:00:00 -0000</pubDate>
+      <description>In this short paper, we would like to call professional community's attention to a daring idea that is surely unhelpful, but is exciting for programmers and anyway conflicts with the trend of energy consumption in computer systems.</description>
+    </item>
+    <item>
+      <title>The meaning of concurrent programs</title>
+      <link>https://arxiv.org/abs/0810.1316</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0810.1316</guid>
+      <pubDate>Tue, 07 Oct 2008 00:00:00 -0000</pubDate>
+      <description>The semantics of assignment and mutual exclusion in concurrent and multi-core/multi-processor systems is presented with attention to low level architectural features in an attempt to make the presentation realistic. Recursive functions on event sequences are used to define state dependent functions and variables in ordinary (non-formal-method) algebra.</description>
+    </item>
+    <item>
+      <title>(m,k)-firm constraints and DBP scheduling: impact of the initial k-sequence and exact schedulability test</title>
+      <link>https://arxiv.org/abs/0805.0200</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0805.0200</guid>
+      <pubDate>Mon, 08 Sep 2008 00:00:00 -0000</pubDate>
+      <description>In this paper we study the scheduling of (m,k)-firm synchronous periodic task systems using the Distance Based Priority (DBP) scheduler. We first show three phenomena: (i) choosing, for each task, the initial k-sequence 1^k is not optimal, (ii) we can even start the scheduling from a (fictive) error state (in regard to the initial k-sequence) and (iii) the period of feasible DBP-schedules is not necessarily the task hyper-period. We then show that any feasible DBP-schedule is periodic and we upper-bound the length of that period. Lastly, based on our periodicity result we provide an exact schedulability test.</description>
+    </item>
+    <item>
+      <title>A Distributed and Deterministic TDMA Algorithm for Write-All-With-Collision Model</title>
+      <link>https://arxiv.org/abs/0808.0920</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0808.0920</guid>
+      <pubDate>Wed, 06 Aug 2008 00:00:00 -0000</pubDate>
+      <description>Several self-stabilizing time division multiple access (TDMA) algorithms are proposed for sensor networks. In addition to providing a collision-free communication service, such algorithms enable the transformation of programs written in abstract models considered in distributed computing literature into a model consistent with sensor networks, i.e., write all with collision (WAC) model. Existing TDMA slot assignment algorithms have one or more of the following properties: (i) compute slots using a randomized algorithm, (ii) assume that the topology is known upfront, and/or (iii) assign slots sequentially. If these algorithms are used to transform abstract programs into programs in WAC model then the transformed programs are probabilistically correct, do not allow the addition of new nodes, and/or converge in a sequential fashion. In this paper, we propose a self-stabilizing deterministic TDMA algorithm where a sensor is aware of only its neighbors. We show that the slots are assigned to the sensors in a concurrent fashion and starting from arbitrary initial states, the algorithm converges to states where collision-free communication among the sensors is restored. Moreover, this algorithm facilitates the transformation of abstract programs into programs in WAC model that are deterministically correct.</description>
+    </item>
+    <item>
+      <title>OS Debugging Method Using a Lightweight Virtual Machine Monitor</title>
+      <link>https://arxiv.org/abs/0710.4635</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0710.4635</guid>
+      <pubDate>Thu, 25 Oct 2007 00:00:00 -0000</pubDate>
+      <description>Demands for implementing original OSs that can achieve high I/O performance on PC/AT compatible hardware have recently been increasing, but conventional OS debugging environments have not been able to simultaneously assure their stability, be easily customized to new OSs and new I/O devices, and assure efficient execution of I/O operations. We therefore developed a novel OS debugging method using a lightweight virtual machine. We evaluated this debugging method experimentally and confirmed that it can transfer data about 5.4 times as fast as the conventional virtual machine monitor.</description>
+    </item>
+    <item>
+      <title>Practical Multiwriter Lock-Free Queues for "Hard Real-Time" Systems without CAS</title>
+      <link>https://arxiv.org/abs/0709.4558</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0709.4558</guid>
+      <pubDate>Fri, 28 Sep 2007 00:00:00 -0000</pubDate>
+      <description>FIFO queues with a single reader and writer can be insufficient for "hard real-time" systems where interrupt handlers require wait-free guarantees when writing to message queues. We present an algorithm which elegantly and practically solves this problem on small processors that are often found in embedded systems. The algorithm does not require special CPU instructions (such as atomic CAS), and therefore is more robust than many existing methods that suffer the ABA problem associated with swing pointers. The algorithm gives "first-in, almost first-out" guarantees under pathological interrupt conditions, which manifests as arbitrary "shoving" among nearly-simultaneous arrivals at the end of the queue.</description>
+    </item>
+    <item>
+      <title>Virtualization: A double-edged sword</title>
+      <link>https://arxiv.org/abs/0705.2786</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/0705.2786</guid>
+      <pubDate>Sat, 19 May 2007 00:00:00 -0000</pubDate>
+      <description>Virtualization became recently a hot topic once again, after being dormant for more than twenty years. In the meantime, it has been almost forgotten, that virtual machines are not so perfect isolating environments as it seems, when looking at the principles. These lessons were already learnt earlier when the first virtualized systems have been exposed to real life usage. Contemporary virtualization software enables instant creation and destruction of virtual machines on a host, live migration from one host to another, execution history manipulation, etc. These features are very useful in practice, but also causing headaches among security specialists, especially in current hostile network environments. In the present contribution we discuss the principles, potential benefits and risks of virtualization in a deja vu perspective, related to previous experiences with virtualization in the mainframe era.</description>
+    </item>
+    <item>
+      <title>Unmanaged Internet Protocol: Taming the Edge Network Management Crisis</title>
+      <link>https://arxiv.org/abs/cs/0603075</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0603075</guid>
+      <pubDate>Sat, 18 Mar 2006 00:00:00 -0000</pubDate>
+      <description>Though appropriate for core Internet infrastructure, the Internet Protocol is unsuited to routing within and between emerging ad-hoc edge networks due to its dependence on hierarchical, administratively assigned addresses. Existing ad-hoc routing protocols address the management problem but do not scale to Internet-wide networks. The promise of ubiquitous network computing cannot be fulfilled until we develop an Unmanaged Internet Protocol (UIP), a scalable routing protocol that manages itself automatically. UIP must route within and between constantly changing edge networks potentially containing millions or billions of nodes, and must still function within edge networks disconnected from the main Internet, all without imposing the administrative burden of hierarchical address assignment. Such a protocol appears challenging but feasible. We propose an architecture based on self-certifying, cryptographic node identities and a routing algorithm adapted from distributed hash tables.</description>
+    </item>
+    <item>
+      <title>Checkbochs: Use Hardware to Check Software</title>
+      <link>https://arxiv.org/abs/cs/0601068</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0601068</guid>
+      <pubDate>Sat, 14 Jan 2006 00:00:00 -0000</pubDate>
+      <description>In this paper, we present a system called Checkbochs, a machine simulator that checks rules about its guest operating system and applications at the hardware level. The properties to be checked can be implemented as `plugins' in the Checkbochs simulator. Some of the properties that were checked using Checkbochs include null-pointer checks, format-string vulnerabilities, user/kernel pointer checks, and race-conditions. On implementing these checks, we were able to uncover previously-unknown bugs in widely used Linux distributions. We also tested our tools on undergraduate coursework, and found numerous bugs.</description>
+    </item>
+    <item>
+      <title>A Survey of Virtualization Techniques Focusing on Secure On-Demand Cluster Computing</title>
+      <link>https://arxiv.org/abs/cs/0511010</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0511010</guid>
+      <pubDate>Wed, 02 Nov 2005 00:00:00 -0000</pubDate>
+      <description>Virtualization, a technique once used to multiplex the resources of high-priced mainframe hardware, is seeing a resurgence in applicability with the increasing computing power of commodity computers. By inserting a layer of software between the machine and traditional operating systems, this technology allows access to a shared computing medium in a manner that is secure, resource-controlled, and efficient. These properties are attractive in the field of on-demand computing, where the fine-grained subdivision of resources provided by virtualized systems allows potentially higher utilization of computing resources. It this work, we survey a number of virtual machine systems with the goal of finding an appropriate candidate to serve as the basis for the On-Demand Secure Cluster Computing project at the National Center for Supercomputing Applications. Contenders are reviewed on a number of desirable properties including portability and security. We conclude with a comparison and justification of our choice.</description>
+    </item>
+    <item>
+      <title>Disks, Partitions, Volumes and RAID Performance with the Linux Operating System</title>
+      <link>https://arxiv.org/abs/cs/0508063</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0508063</guid>
+      <pubDate>Fri, 12 Aug 2005 00:00:00 -0000</pubDate>
+      <description>Block devices in computer operating systems typically correspond to disks or disk partitions, and are used to store files in a filesystem. Disks are not the only real or virtual device which adhere to the block accessible stream of bytes block device model. Files, remote devices, or even RAM may be used as a virtual disks. This article examines several common combinations of block device layers used as virtual disks in the Linux operating system: disk partitions, loopback files, software RAID, Logical Volume Manager, and Network Block Devices. It measures their relative performance using different filesystems: Ext2, Ext3, ReiserFS, JFS, XFS,NFS.</description>
+    </item>
+    <item>
+      <title>Markets are Dead, Long Live Markets</title>
+      <link>https://arxiv.org/abs/cs/0502027</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0502027</guid>
+      <pubDate>Fri, 04 Feb 2005 00:00:00 -0000</pubDate>
+      <description>Researchers have long proposed using economic approaches to resource allocation in computer systems. However, few of these proposals became operational, let alone commercial. Questions persist about the economic approach regarding its assumptions, value, applicability, and relevance to system design. The goal of this paper is to answer these questions. We find that market-based resource allocation is useful, and more importantly, that mechanism design and system design should be integrated to produce systems that are both economically and computationally efficient.</description>
+    </item>
+    <item>
+      <title>A Shared Write-protected Root Filesystem for a Group of Networked Clients</title>
+      <link>https://arxiv.org/abs/cs/0410007</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0410007</guid>
+      <pubDate>Sun, 09 Jan 2005 00:00:00 -0000</pubDate>
+      <description>A method to boot a cluster of diskless network clients from a single write-protected NFS root file system is shown. The problems encountered when first implementing the setup and their solution are discussed. Finally, the setup is briefly compared to using a kernel-embedded root file system.</description>
+    </item>
+    <item>
+      <title>Threats of Human Error in a High-Performance Storage System: Problem Statement and Case Study</title>
+      <link>https://arxiv.org/abs/cs/0412074</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0412074</guid>
+      <pubDate>Fri, 17 Dec 2004 00:00:00 -0000</pubDate>
+      <description>System administration is a difficult, often tedious, job requiring many skilled laborers. The data that is protected by system administrators is often valued at or above the value of the institution maintaining that data. A number of ethnographic studies have confirmed the skill of these operators, and the difficulty of providing adequate tools. In an effort to minimize the maintenance costs, an increasing portion of system administration is subject to automation - particularly simple, routine tasks such as data backup. While such tools reduce the risk of errors from carelessness, the same tools may result in reduced skill and system familiarity in experienced workers. Care should be taken to ensure that operators maintain system awareness without placing the operator in a passive, monitoring role.</description>
+    </item>
+    <item>
+      <title>Securing Data in Storage: A Review of Current Research</title>
+      <link>https://arxiv.org/abs/cs/0409034</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0409034</guid>
+      <pubDate>Fri, 17 Sep 2004 00:00:00 -0000</pubDate>
+      <description>Protecting data from malicious computer users continues to grow in importance. Whether preventing unauthorized access to personal photographs, ensuring compliance with federal regulations, or ensuring the integrity of corporate secrets, all applications require increased security to protect data from talented intruders. Specifically, as more and more files are preserved on disk the requirement to provide secure storage has increased in importance. This paper presents a survey of techniques for securely storing data, including theoretical approaches, prototype systems, and existing systems currently available. Due to the wide variety of potential solutions available and the variety of techniques to arrive at a particular solution, it is important to review the entire field prior to selecting an implementation that satisfies particular requirements. This paper provides an overview of the prominent characteristics of several systems to provide a foundation for making an informed decision. Initially, the paper establishes a set of criteria for evaluating a storage solution based on confidentiality, integrity, availability, and performance. Then, using these criteria, the paper explains the relevant characteristics of select storage systems and provides a comparison of the major differences.</description>
+    </item>
+    <item>
+      <title>Predictable Software -- A Shortcut to Dependable Computing ?</title>
+      <link>https://arxiv.org/abs/cs/0403013</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0403013</guid>
+      <pubDate>Thu, 11 Mar 2004 00:00:00 -0000</pubDate>
+      <description>Many dependability techniques expect certain behaviors from the underlying subsystems and fail in chaotic ways if these expectations are not met. Under expected circumstances, however, software tends to work quite well. This paper suggests that, instead of fixing elusive bugs or rewriting software, we improve the predictability of conditions faced by our programs. This approach might be a cheaper and faster way to improve dependability of software. After identifying some of the common triggers of unpredictability, the paper describes three engineering principles that hold promise in combating unpredictability, suggests a way to benchmark predictability, and outlines a brief research agenda.</description>
+    </item>
+    <item>
+      <title>The combinatorics of resource sharing</title>
+      <link>https://arxiv.org/abs/cs/0309044</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0309044</guid>
+      <pubDate>Tue, 23 Sep 2003 00:00:00 -0000</pubDate>
+      <description>We discuss general models of resource-sharing computations, with emphasis on the combinatorial structures and concepts that underlie the various deadlock models that have been proposed, the design of algorithms and deadlock-handling policies, and concurrency issues. These structures are mostly graph-theoretic in nature, or partially ordered sets for the establishment of priorities among processes and acquisition orders on resources. We also discuss graph-coloring concepts as they relate to resource sharing.</description>
+    </item>
+    <item>
+      <title>The Weaves Reconfigurable Programming Framework</title>
+      <link>https://arxiv.org/abs/cs/0210031</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0210031</guid>
+      <pubDate>Thu, 31 Oct 2002 00:00:00 -0000</pubDate>
+      <description>This research proposes a language independent intra-process framework for object based composition of unmodified code modules. Intuitively, the two major programming models, threads and processes, can be considered as extremes along a sharing axis. Multiple threads through a process share all global state, whereas instances of a process (or independent processes) share no global state. Weaves provide the generalized framework that allows arbitrary (selective) sharing of state between multiple control flows through a process. The Weaves framework supports multiple independent components in a single process, with flexible state sharing and scheduling, all of which is achieved without requiring any modification to existing code bases. Furthermore, the framework allows dynamic instantiation of code modules and control flows through them. In effect, weaves create intra-process modules (similar to objects in OOP) from code written in any language. The Weaves paradigm allows objects to be arbitrarily shared, it is a true superset of both processes as well as threads, with code sharing and fast context switching time similar to threads. Weaves does not require any special support from either the language or application code, practically any code can be weaved. Weaves also include support for fast automatic checkpointing and recovery with no application support. This paper presents the elements of the Weaves framework and results from our implementation that works by reverse-analyzing source-code independent ELF object files. The current implementation has been validated over Sweep3D, a benchmark for 3D discrete ordinates neutron transport [Koch et al., 1992], and a user-level port of the Linux 2.4 family kernel TCP/IP protocol stack.</description>
+    </item>
+    <item>
+      <title>Open Source Real Time Operating Systems Overview</title>
+      <link>https://arxiv.org/abs/cs/0111035</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0111035</guid>
+      <pubDate>Sat, 10 Nov 2001 00:00:00 -0000</pubDate>
+      <description>Modern control systems applications are often built on top of a real time operating system (RTOS) which provides the necessary hardware abstraction as well as scheduling, networking and other services. Several open source RTOS solutions are publicly available, which is very attractive, both from an economic (no licensing fees) as well as from a technical (control over the source code) point of view. This contribution gives an overview of the RTLinux and RTEMS systems (architecture, development environment, API etc.). Both systems feature most popular CPUs, several APIs (including Posix), networking, portability and optional commercial support. Some performance figures are presented, focusing on interrupt latency and context switching delay.</description>
+    </item>
+    <item>
+      <title>UNIX Resource Managers: Capacity Planning and Resource Issues</title>
+      <link>https://arxiv.org/abs/cs/0006015</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0006015</guid>
+      <pubDate>Tue, 13 Jun 2000 00:00:00 -0000</pubDate>
+      <description>The latest implementations of commercial UNIX to offer mainframe style capacity management on enterprise servers include: AIX Workload Manager (WLM), HP-UX Process Resource Manager (PRM), Solaris Resource Manager (SRM), as well as SGI and Compaq. The ability to manage server capacity is achieved by making significant modifications to the standard UNIX operating system so that processes are inherently tied to specific users. Those users, in turn, are granted only a certain fraction of system resources. Resource usage is monitored and compared with each users grant to ensure that the assigned entitlement constraints are met. In this paper, we begin by clearing up some of the confusion that has surrounded the motivation and the terminology behind the new technology. The common theme across each of the commercial implementations is the introduction of the fair-share scheduler. After reviewing some potential performance pitfalls, we present capacity planning guidelines for migrating to automated UNIX resource management.</description>
+    </item>
+    <item>
+      <title>Solaris System Resource Manager: All I Ever Wanted Was My Unfair Advantage (And Why You Can't Have It!)</title>
+      <link>https://arxiv.org/abs/cs/0006014</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0006014</guid>
+      <pubDate>Thu, 08 Jun 2000 00:00:00 -0000</pubDate>
+      <description>Traditional UNIX time-share schedulers attempt to be fair to all users by employing a round-robin style algorithm for allocating CPU time. Unfortunately, a loophole exists whereby the scheduler can be biased in favor of a greedy user running many short CPU-time processes. This loophole is not a defect but an intrinsic property of the round-robin scheduler that ensures responsiveness to the short CPU demands associated with multiple interactive users. A new generation of UNIX system resource management software constrains the scheduler to be equitable to all users regardless of the number of processes each may be running. This "fair-share" scheduling draws on the concept of pro rating resource "shares" across users and groups and then dynamically adjusting CPU usage to meet those share proportions. The simple notion of statically allocating these shares, however, belies the potential consequences for performance as measured by user response time and service level targets. We demonstrate this point by modeling several simple share allocation scenarios and analyzing the corresponding performance effects. A brief comparison of commercial system resource management implementations from HP, IBM, and SUN is also given.</description>
+    </item>
+    <item>
+      <title>A network file system over HTTP: remote access and modification of files and "files"</title>
+      <link>https://arxiv.org/abs/cs/0003064</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/0003064</guid>
+      <pubDate>Wed, 15 Mar 2000 00:00:00 -0000</pubDate>
+      <description>The goal of the present HTTPFS project is to enable access to remote files, directories, and other containers through an HTTP pipe. HTTPFS system permits retrieval, creation and modification of these resources as if they were regular files and directories on a local filesystem. The remote host can be any UNIX or Win9x/WinNT box that is capable of running a Perl CGI script and accessible either directly or via a web proxy or a gateway. HTTPFS runs entirely in user space. The current implementation fully supports reading as well as creating, writing, appending, and truncating of files on a remote HTTP host. HTTPFS provides an isolation level for concurrent file access stronger than the one mandated by POSIX file system semantics, closer to that of AFS. Both an API with familiar open(), read(), write(), close(), etc. calls, and an interactive interface, via the popular Midnight Commander file browser, are provided.</description>
+    </item>
+    <item>
+      <title>After Compilers and Operating Systems : The Third Advance in Application Support</title>
+      <link>https://arxiv.org/abs/cs/9908002</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/9908002</guid>
+      <pubDate>Tue, 03 Aug 1999 00:00:00 -0000</pubDate>
+      <description>After compilers and operating systems, TSIAs are the third advance in application support. A compiler supports a high level application definition in a programming language. An operating system supports a high level interface to the resources used by an application execution. A Task System and Item Architecture (TSIA) provides an application with a transparent reliable, distributed, heterogeneous, adaptive, dynamic, real-time, interactive, parallel, secure or other execution. In addition to supporting the application execution, a TSIA also supports the application definition. This run-time support for the definition is complementary to the compile-time support of a compiler. For example, this allows a language similar to Fortran or C to deliver features promised by functional computing. While many TSIAs exist, they previously have not been recognized as such and have served only a particular type of application. Existing TSIAs and other projects demonstrate that TSIAs are feasible for most applications. As the next paradigm for application support, the TSIA simplifies and unifies existing computing practice and research. By solving many outstanding problems, the TSIA opens many, many new opportunities for computing.</description>
+    </item>
+    <item>
+      <title>DRAFT : Task System and Item Architecture (TSIA)</title>
+      <link>https://arxiv.org/abs/cs/9905002</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/9905002</guid>
+      <pubDate>Wed, 05 May 1999 00:00:00 -0000</pubDate>
+      <description>During its execution, a task is independent of all other tasks. For an application which executes in terms of tasks, the application definition can be free of the details of the execution. Many projects have demonstrated that a task system (TS) can provide such an application with a parallel, distributed, heterogeneous, adaptive, dynamic, real-time, interactive, reliable, secure or other execution. A task consists of items and thus the application is defined in terms of items. An item architecture (IA) can support arrays, routines and other structures of items, thus allowing for a structured application definition. Taking properties from many projects, the support can extend through to currying, application defined types, conditional items, streams and other definition elements. A task system and item architecture (TSIA) thus promises unprecedented levels of support for application execution and definition.</description>
+    </item>
+    <item>
+      <title>ODP channel objects that provide services transparently for distributing processing systems</title>
+      <link>https://arxiv.org/abs/cs/9904020</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/9904020</guid>
+      <pubDate>Mon, 26 Apr 1999 00:00:00 -0000</pubDate>
+      <description>This paper describes an architecture for a distributing processing system that would allow remote procedure calls to invoke other services as messages are passed between clients and servers. It proposes that an additional class of data processing objects be located in the software communications channel. The objects in this channel would then be used to enforce protocols on client-server applications without any additional effort by the application programmers. For example, services such as key-management, time-stamping, sequencing and encryption can be implemented at different levels of the software communications stack to provide a complete authentication service. A distributing processing environment could be used to control broadband network data delivery. Architectures and invocation semantics are discussed, Example classes and interfaces for channel objects are given in the Java programming language.</description>
+    </item>
+    <item>
+      <title>A Flit Level Simulator for Wormhole Routing</title>
+      <link>https://arxiv.org/abs/cs/9903004</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/cs/9903004</guid>
+      <pubDate>Thu, 01 Apr 1999 00:00:00 -0000</pubDate>
+      <description>Wormhole routing, the latest switching technique to be utilized by massively parallel computers, enjoys the distinct advantage of a low latency when compared to other switching techniques. This low latency is due to the nearly distance insensitive routing traits in the absence of channel contention. The low latency of wormhole routing brings about a liability of this switching technique, a chance of deadlock. Deadlock is a concern in wormhole routed networks due to the fact a message does not release its allocated resources until all flits of a message have completely traversed the router in which these resources are associated. The deadlock condition is addressed in the routing algorithm. Simulation tools are currently needed that will aid in the size and number of resources necessary to obtain the optimum utilization of network resources for an algorithm. Some of these resources include the topology of the network along with the number of nodes for the topology, the size of the message, and the number and size of buffers at each router.</description>
     </item>
   </channel>
 </rss>

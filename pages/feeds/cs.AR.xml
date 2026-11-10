@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Silinx: An Open, Browser-Based HDL Design Platform for Teaching Digital Systems on FPGA Boards</title>
+      <link>http://arxiv.org/abs/2611.11741v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11741v1</guid>
+      <pubDate>Mon, 09 Nov 2026 01:28:43 +0000</pubDate>
+      <description>Many digital systems courses teach on FPGA boards whose vendor tool is no longer maintained: the Digilent Basys2 and Nexys2 (Xilinx Spartan-3E) and Nexys3 and Atlys (Spartan-6) need Xilinx ISE 14.7, discontinued since 2013 and hard to install on the computers and tablets students use today. The author presents Silinx, a free (AGPL-3.0) HDL design platform for teaching that keeps ISE's Project Navigator workflow but runs in a web browser with nothing to install. A module can be written in VHDL or Verilog, in C or C++ through Silinx HLS, which is compatible with AMD's Vitis HLS and passes all 73 of its introductory examples, or drawn as a schematic, an ASM chart, a state diagram, a Boolean function with its Karnaugh map, or a Petri net, from which its HDL is generated. Designs are checked with explanations written for beginners, simulated, run on an emulated board, built, and programmed onto a real board over WebUSB. The implementation flow is open and runs in the browser: Yosys and nextpnr compiled to WebAssembly, with Silinx's own device data, timing model and bitstream writer for the Spartan-3E and Spartan-6, built by black-box observation of ISE's documented tools; Lattice iCE40 boards use the existing open iCE40 tools, and further families are planned. ISE is the oracle: Silinx's bitstreams are byte-identical to those ISE writes for the same placed and routed design, and pass ISE's design rule check. Against ISE at the same optimization goal, the open flow uses 15% fewer slices with 14% shorter critical paths when optimizing for area, and 21% fewer slices with 8% shorter critical paths when optimizing for speed (geometric means over 45 open-source designs built by both flows). The author also describes how the platform was developed with AI coding agents under test-first project rules.</description>
+    </item>
+    <item>
       <title>Memory as a Temporal Resource: Lifetime Contracts for Multi-Retention Systems</title>
       <link>http://arxiv.org/abs/2611.09518v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.09518v1</guid>

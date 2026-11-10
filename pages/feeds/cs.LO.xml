@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Type-logical grammars and formal languages</title>
+      <link>http://arxiv.org/abs/2611.12618v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.12618v1</guid>
+      <pubDate>Mon, 09 Nov 2026 16:01:49 +0000</pubDate>
+      <description>We show that type-logical grammars with the standard rules for product, associativity, extraction and infixation have an NP-complete fixed recognition problem, adapting a construction for first-order linear logic from Pshenitsyn (2025), who already showed that grammars in first-order linear logic are closed under intersection and therefore not semilinear and not mildly context-sensitive. We strengthen these results and shown that grammars in first-order linear logic can simulate the quasi-linear grammars of Book \&amp; Greibach (1970), the grammars recognised in non-deterministic linear time (NSPACE(n) or. NLIN). I argue that NLIN is an interesting class of formal languages as well, and a useful upper bound on the time complexity of formalisms used for natural language, just like LOGCFL is a useful upper bound on the space complexity. Taken together this means that first-order linear logic can be seen as the logic of non-deterministic linear-time string languages, graph languages and automata.</description>
+    </item>
+    <item>
+      <title>Properties of Public Announcements as Operators: Commutativity, Monotonicity, Idempotence, Fixed Points, and Stabilization</title>
+      <link>http://arxiv.org/abs/2611.11911v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11911v1</guid>
+      <pubDate>Mon, 09 Nov 2026 05:32:31 +0000</pubDate>
+      <description>For each formula $\varphi$, we introduce the public announcement operator $U_\varphi$, which maps every model to its updated model under the public announcement of $\varphi$. We then study its algebraic and dynamic properties with a particular focus on commutativity, monotonicity, idempotence, fixed points, and stabilization. Among many results, we show the following. First, monotonicity of $U_\varphi$ is characterized by a family of preservation conditions and equivalence to an existential formula. Second, there exists a formula that achieves every nonzero ordinal as a stabilization rank---the first stage at which a model stabilizes---of some model. Finally and unexpectedly, extinction of every model under iterated announcements of $\varphi$ is equivalent to common unknowability, being always informative when true, and a fixed point view of the Moore sentence. Over S5, those are further equivalent to common unbelievability and being always informative. Other results include characterizations of commutativity and strong commutativity, idempotence as success, properties of fixed points, and finite and $ω$-stabilization. For analysis, we use PAL (state elimination) and BPAL (arrow elimination), clarifying their subtle differences.</description>
+    </item>
+    <item>
+      <title>Decidability of Elementary Modal Logics is Undecidable</title>
+      <link>http://arxiv.org/abs/2611.11199v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11199v1</guid>
+      <pubDate>Sun, 08 Nov 2026 07:27:35 +0000</pubDate>
+      <description>We study the decidability of modal satisfiability over classes of Kripke frames defined by universal first-order sentences. Although some such classes yield undecidable satisfiability problems, decidability is guaranteed for wide families of frame conditions, including universal Horn sentences and universal sentences implying transitivity. A more than decade-old open problem asks a natural question: can decidable and undecidable cases be distinguished algorithmically? We prove that this is impossible, already for equality-free universal frame conditions over a single binary relation. More precisely, there is no algorithm that, given such a condition, decides whether its associated local modal satisfiability problem is decidable. We first establish the result for conditions with equality and then eliminate equality by passing to quotients of worlds with identical incoming and outgoing edges.</description>
+    </item>
+    <item>
+      <title>Extending DBLog-Based Incremental Snapshots to Handle Orphan Rows in CDC Pipelines</title>
+      <link>http://arxiv.org/abs/2611.10810v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.10810v1</guid>
+      <pubDate>Sat, 07 Nov 2026 15:43:02 +0000</pubDate>
+      <description>Applications use heterogeneous datastores where a source feeds sinks such as search indexes or data warehouses via change data capture (CDC). As transaction logs have limited retention, CDC alone cannot bootstrap sinks, and traditional approaches either stall source writes or hold back log events. DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, read tables in chunks interleaved with the log without blocking writes or long log stalls and resume where they stopped. After the initial bootstrap, a sink can drift when losing change events or receiving unintended writes. Even a repeated bootstrap can leave orphan rows that exist in the sink and not at the source. A common remedy is to populate a new empty sink, but repairing an existing sink avoids parallel pipelines, a switch and serving traffic from a drifted sink until the new sink is ready. In DBLog's original design, each chunk only emits the latest state of the rows the table still contains, so it does not handle orphan rows. We extend DBLog to delete them using what a chunk read already knows, namely the keys that the range select did not return, emitting a new kind of event that sinks apply as deletes. We also add a repair request that an external process calls with orphan candidates, which the connector checks with its own read, emitting these events for keys confirmed absent. This enables three modes. In the fully integrated mode, every chunk pass removes the orphans it finds during full or periodic repairs. In the second mode, an external drift process hands suspected orphans to the connector. The third mode combines both and is what we recommend. Together, they turn DBLog into a complete data synchronization engine whether a sink catches up on live changes or missing rows, holds wrong column values, or contains orphan rows. Their safety and convergence are formally verified in Isabelle/HOL and Lean 4.</description>
+    </item>
+    <item>
       <title>On Positive Computation</title>
       <link>http://arxiv.org/abs/2611.09622v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.09622v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2502.15316</guid>
       <pubDate>Fri, 21 Feb 2025 00:00:00 -0000</pubDate>
       <description>We study trees where each successor set is equipped with some additional structure. We introduce a family of automaton models for such trees and prove their equivalence to certain fixed-point logics. As a consequence we obtain characterisations of various variants of monadic second-order logic in terms of automata and fixed-point logics. Finally, we use our machinery to give a simplified proof of the Theorem of Muchnik and we derive several variants of this theorem for other logics.</description>
-    </item>
-    <item>
-      <title>A modal logic translation of the AGM axioms for belief revision</title>
-      <link>https://arxiv.org/abs/2502.14176</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.14176</guid>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 -0000</pubDate>
-      <description>Building on the analysis of Bonanno (Artificial Intelligence, 2025) we introduce a simple modal logic containing three modal operators: a unimodal belief operator, a bimodal conditional operator and the unimodal global operator. For each AGM axiom for belief revision, we provide a corresponding modal axiom. The correspondence is as follows: each AGM axiom is characterized by a property of the Kripke-Lewis frames considered in Bonanno (Artificial Intelligence, 2025) and, in turn, that property characterizes the proposed modal axiom.</description>
-    </item>
-    <item>
-      <title>The Formal Theory of Monads, Univalently</title>
-      <link>https://arxiv.org/abs/2212.08515</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2212.08515</guid>
-      <pubDate>Tue, 18 Feb 2025 00:00:00 -0000</pubDate>
-      <description>We develop the formal theory of monads, as established by Street, in univalent foundations. This allows us to formally reason about various kinds of monads on the right level of abstraction. In particular, we define the bicategory of monads internal to a bicategory, and prove that it is univalent. We also define Eilenberg-Moore objects, and we show that both Eilenberg-Moore categories and Kleisli categories give rise to Eilenberg-Moore objects. Finally, we relate monads and adjunctions in arbitrary bicategories. Our work is formalized in Coq using the UniMath library.</description>
-    </item>
-    <item>
-      <title>Reliable Conversational Agents under ASP Control that Understand Natural Language</title>
-      <link>https://arxiv.org/abs/2502.09237</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.09237</guid>
-      <pubDate>Thu, 13 Feb 2025 00:00:00 -0000</pubDate>
-      <description>Efforts have been made to make machines converse like humans in the past few decades. The recent techniques of Large Language Models (LLMs) make it possible to have human-like conversations with machines, but LLM's flaws of lacking understanding and reliability are well documented. We believe that the best way to eliminate this problem is to use LLMs only as parsers to translate text to knowledge and vice versa and carry out the conversation by reasoning over this knowledge using the answer set programming. I have been developing a framework based on LLMs and ASP to realize reliable chatbots that "understand" human conversation. This framework has been used to develop task-specific chatbots as well as socialbots. My future research is focused on making these chatbots scalable and trainable.</description>
-    </item>
-    <item>
-      <title>Early Validation of High-level Requirements on Cyber-Physical Systems</title>
-      <link>https://arxiv.org/abs/2502.09236</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.09236</guid>
-      <pubDate>Thu, 13 Feb 2025 00:00:00 -0000</pubDate>
-      <description>The overarching, broad topic of my research are advancements in the area of safety-critical, cyber-physical systems (CPS) development with emphasis on validation and verification. The particular focus of my research is the early validation of high-level requirements on CPS. My current approach for tackling this problem is transforming the requirements into Event Calculus and subsequently reasoning about them using ASP solvers such as the grounding-free s(CASP). Below, I discuss my research, its current state, and the open issues that are still left to tackle. The first results of my work will be presented in a paper that was accepted for ICLP'24, which is my first paper in this area.</description>
     </item>
   </channel>
 </rss>

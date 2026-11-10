@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Retrospective Analysis of Team-Following Trading Profitability in Pumpfun Meme Coins Using Funding Networks</title>
+      <link>http://arxiv.org/abs/2611.11436v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.11436v1</guid>
+      <pubDate>Sun, 08 Nov 2026 14:58:58 +0000</pubDate>
+      <description>If the right token-creation teams had been known, how much could following them have returned, and what is left when only information available before each launch is used? We study ten separately recorded Pumpfun windows (April 2024 to September 2026), each reconstructed independently from real-SOL reserve states and finite-capital accounts that start with one SOL. Teams are directed funding groups ranked in hindsight. When every team exits at its own best reserve threshold, chosen in hindsight, the main account ends above one SOL in all 8 windows that have a qualifying team (1.10 to 11.32 SOL), but free cash exceeds one SOL in only 5, and marks of positions that never reached their threshold make up 17--94% of equity. If teams are recognised online, from tokens whose first hour has completed, 9 of 19 teams become identifiable only after their last launch; the remaining 10 end above one SOL in 10 cases, with free cash above one SOL in 7; funding links in this step still come from the full window, so even these results are not a fully realisable signal. A large model balance, a result above random cohorts that repeat the threshold search, and a statistical rejection in the selection-matched nulls (3 of 40 tests after Holm adjustment) are three different statements, and these nulls condition on the discovered funding graph, so they do not calibrate the whole selection procedure. Midpoint tests describe a further source of apparent opportunity. A detailed analysis of the best and the worst window, with every analysis parameter varied, shows that the worst result, which is close to break-even, rises several-fold with a stop rule or another funding-graph construction. The results are conditional retrospective model accounts, not executable profits, and not evidence of a causal effect of the SOL price.</description>
+    </item>
+    <item>
+      <title>Do links to retracted papers predict future retractions? An out-of-sample test on the open biomedical citation graph</title>
+      <link>http://arxiv.org/abs/2611.10474v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.10474v1</guid>
+      <pubDate>Sat, 07 Nov 2026 04:51:22 +0000</pubDate>
+      <description>Tools that screen manuscripts for research-integrity problems flag papers that cite retracted work, and retrospective studies report that such papers are retracted more often. This study tests the signal prospectively on open data. Predictors were computed on the January 2024 OpenCitations graph using the retractions known at that date, frozen, and compared with retractions in the Retraction Watch database from February 2024 to October 2026. The design was pre-specified. Among 10.5 million biomedical papers published 2015-2023, 2.1% cited a paper already retracted, and 4,323 were retracted later (0.041%). Citing a retracted paper raised the later retraction rate from 0.035% to 0.27% with one such reference; excluding reviews (post hoc), it rose to 2.3% with five or more. Within journal and publication year the odds ratio was 2.99 (95% CI 2.73-3.27), and 3.03 when reference-list length was also held fixed (post hoc), so the signal is not explained by retraction waves in journals or by long reference lists. As a screen it is weak: 0.9% of the 1,000 highest-ranked papers were retracted later (2.2% with reviews set aside, post hoc), and 84% of later retractions cite no retracted paper. When the time point was moved into the late-2023 retraction wave, the journal's own retraction rate became the far better screen. NIH-funded papers cited already-retracted work as often as other papers in the same journal and year. Links to retracted papers are a useful flag but not a screen on their own.</description>
+    </item>
+    <item>
+      <title>Can open citation data detect citation stacking? An audit against Clarivate's journal suppressions</title>
+      <link>http://arxiv.org/abs/2611.10471v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.10471v1</guid>
+      <pubDate>Sat, 07 Nov 2026 04:41:54 +0000</pubDate>
+      <description>Clarivate suppresses journals from the Journal Citation Reports when self-citations or concentrated citations from another journal ("citation stacking") distort their Journal Impact Factor. Its data are closed. Yearly journal citation networks were built from the OpenCitations snapshot of January 2024 (1.96 billion citations; 85,437 journals) and compared with Clarivate's suppression lists for data years 2015-2023, collected from primary sources. Where reference lists are present, open data reproduce Clarivate's published self-citation shares within ten points for 36 of 50 journals. The failures follow publishers that do not deposit references with Crossref, which also hides several stacking donors. Biodiversity data downloads registered with DataCite inflate naive impact-factor numerators of taxonomy journals. The leading open method, CIDRE, detects none of 15 named Clarivate pairs: it drops large donor journals, and lowering its donor threshold merges the pairs into large groups. A recipient-centric reading of CIDRE's own test flags stacking-listed journals 6 to 14 times more often than other journals, depending on consensus level, and 5 to 7 times more often than size-matched controls, sometimes years before the listing. At equal flag rate it finds more listed journals than a plain 43% donor-share rule (10 vs 3 of 28), and about as many as a rule with a citation floor. A prospective check on the 2024-2025 lists agrees in direction but is not significant (one of six). Flagged pairs show more citations per citing paper and weaker topical similarity than matched pairs. Open audits are feasible if coverage gaps are reported.</description>
+    </item>
+    <item>
       <title>RoleWalk: training-free structural embeddings for directed graphs that transfer across graphs</title>
       <link>http://arxiv.org/abs/2611.09189v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.09189v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2009.01185</guid>
       <pubDate>Sat, 29 Aug 2020 00:00:00 -0000</pubDate>
       <description>We study the community detection problem on a Gaussian mixture model, in which vertices are divided into $k\geq 2$ distinct communities. The major difference in our model is that the intensities for Gaussian perturbations are different for different entries in the observation matrix, and we do not assume that every community has the same number of vertices. We explicitly find the threshold for the exact recovery of the maximum likelihood estimation. Applications include the community detection on hypergraphs.</description>
-    </item>
-    <item>
-      <title>Complicating the Social Networks for Better Storytelling: An Empirical Study of Chinese Historical Text and Novel</title>
-      <link>https://arxiv.org/abs/2008.10835</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2008.10835</guid>
-      <pubDate>Tue, 25 Aug 2020 00:00:00 -0000</pubDate>
-      <description>Digital humanities is an important subject because it enables developments in history, literature, and films. In this paper, we perform an empirical study of a Chinese historical text, Records of the Three Kingdoms (\textit{Records}), and a historical novel of the same story, Romance of the Three Kingdoms (\textit{Romance}). We employ natural language processing techniques to extract characters and their relationships. Then, we characterize the social networks and sentiments of the main characters in the historical text and the historical novel. We find that the social network in \textit{Romance} is more complex and dynamic than that of \textit{Records}, and the influence of the main characters differs. These findings shed light on the different styles of storytelling in the two literary genres and how the historical novel complicates the social networks of characters to enrich the literariness of the story.</description>
-    </item>
-    <item>
-      <title>A Robust Gradient Tracking Method for Distributed Optimization over Directed Networks</title>
-      <link>https://arxiv.org/abs/2003.13980</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2003.13980</guid>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 -0000</pubDate>
-      <description>In this paper, we consider the problem of distributed consensus optimization over multi-agent networks with directed network topology. Assuming each agent has a local cost function that is smooth and strongly convex, the global objective is to minimize the average of all the local cost functions. To solve the problem, we introduce a robust gradient tracking method (R-Push-Pull) adapted from the recently proposed Push-Pull/AB algorithm. R-Push-Pull inherits the advantages of Push-Pull and enjoys linear convergence to the optimal solution with exact communication. Under noisy information exchange, R-Push-Pull is more robust than the existing gradient tracking based algorithms; the solutions obtained by each agent reach a neighborhood of the optimum in expectation exponentially fast under a constant stepsize policy. We provide a numerical example that demonstrate the effectiveness of R-Push-Pull.</description>
-    </item>
-    <item>
-      <title>Training Sensitivity in Graph Isomorphism Network</title>
-      <link>https://arxiv.org/abs/2008.09020</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2008.09020</guid>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 -0000</pubDate>
-      <description>Graph neural network (GNN) is a popular tool to learn the lower-dimensional representation of a graph. It facilitates the applicability of machine learning tasks on graphs by incorporating domain-specific features. There are various options for underlying procedures (such as optimization functions, activation functions, etc.) that can be considered in the implementation of GNN. However, most of the existing tools are confined to one approach without any analysis. Thus, this emerging field lacks a robust implementation ignoring the highly irregular structure of the real-world graphs. In this paper, we attempt to fill this gap by studying various alternative functions for a respective module using a diverse set of benchmark datasets. Our empirical results suggest that the generally used underlying techniques do not always perform well to capture the overall structure from a set of graphs.</description>
     </item>
   </channel>
 </rss>
