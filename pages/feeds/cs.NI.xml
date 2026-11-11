@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
+      <link>http://arxiv.org/abs/2611.13224v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13224v1</guid>
+      <pubDate>Mon, 09 Nov 2026 20:53:05 +0000</pubDate>
+      <description>We study the metric data placement problem with site-capacity constraints and fixed installation costs, aiming to minimize the total cost of placing data (resources) and accessing their nearest copies. We develop a deterministic polynomial-time approximation algorithm based on a natural linear programming relaxation of the problem. Starting from an optimal fractional solution, we construct multiscale metric-ball partitions independently for each resource and connect overlapping balls at consecutive levels to form a flow network. The resource layers are then coupled through shared site-capacity arcs, allowing us to obtain an integral placement by minimizing a surrogate cost over a single min-cost circulation. By optimizing the choice of ball radii, we establish an approximation factor of $1+2e\approx 6.44$. To our knowledge, this is the best approximation guarantee for the metric data placement problem since its introduction by Baev and Rajaraman in 2001.</description>
+    </item>
+    <item>
       <title>Perception-Limited UAV Positioning: On the Reliability of Line-of-Sight Constraints in Sensing-Driven Aerial Networks</title>
       <link>http://arxiv.org/abs/2611.12639v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.12639v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1712.03455</guid>
       <pubDate>Sun, 10 Dec 2017 00:00:00 -0000</pubDate>
       <description>The scalable, low overhead attributes of Peer-to-Peer (P2P) Internet protocols and networks lend themselves well to being exploited by criminals to execute a large range of cybercrimes. The types of crimes aided by P2P technology include copyright infringement, sharing of illicit images of children, fraud, hacking/cracking, denial of service attacks and virus/malware propagation through the use of a variety of worms, botnets, malware, viruses and P2P file sharing. This project is focused on study of active P2P nodes along with the analysis of the undocumented communication methods employed in many of these large unstructured networks. This is achieved through the design and implementation of an efficient P2P monitoring and crawling toolset. The requirement for investigating P2P based systems is not limited to the more obvious cybercrimes listed above, as many legitimate P2P based applications may also be pertinent to a digital forensic investigation, e.g, voice over IP, instant messaging, etc. Investigating these networks has become increasingly difficult due to the broad range of network topologies and the ever increasing and evolving range of P2P based applications. In this work we introduce the Universal P2P Network Investigation Framework (UP2PNIF), a framework which enables significantly faster and less labour intensive investigation of newly discovered P2P networks through the exploitation of the commonalities in P2P network functionality. In combination with a reference database of known network characteristics, it is envisioned that any known P2P network can be instantly investigated using the framework, which can intelligently determine the best investigation methodology and greatly expedite the evidence gathering process. A proof of concept tool was developed for conducting investigations on the BitTorrent network.</description>
-    </item>
-    <item>
-      <title>Software Defined Applications in Cellular and Optical Networks</title>
-      <link>https://arxiv.org/abs/1712.02951</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1712.02951</guid>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 -0000</pubDate>
-      <description>Small wireless cells have the potential to overcome bottlenecks in wireless access through the sharing of spectrum resources. A novel access backhaul network architecture based on a Smart Gateway (Sm-GW) between the small cell base stations, e.g., LTE eNBs, and the conventional backhaul gateways, e.g., LTE Servicing/Packet Gateways (S/P-GWs) has been introduced to address the bottleneck. The Sm-GW flexibly schedules uplink transmissions for the eNBs. Based on software defined networking (SDN) a management mechanism that allows multiple operator to flexibly inter-operate via multiple Sm-GWs with a multitude of small cells has been proposed. This dissertation also comprehensively survey the studies that examine the SDN paradigm in optical networks. Along with the PHY functional split improvements, the performance of Distributed Converged Cable Access Platform (DCCAP) in the cable architectures especially for the Remote-PHY and Remote-MACPHY nodes has been evaluated. In the PHY functional split, in addition to the re-use of infrastructure with a common FFT module for multiple technologies, a novel cross functional split interaction to cache the repetitive QAM symbols across time at the remote node to reduce the transmission rate requirement of the fronthaul link has been proposed.</description>
     </item>
   </channel>
 </rss>

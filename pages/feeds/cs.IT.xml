@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>New linear codes over GF(7), GF(8) and GF(9) from quasi-cyclic codes and Construction X</title>
+      <link>http://arxiv.org/abs/2611.14433v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14433v1</guid>
+      <pubDate>Tue, 10 Nov 2026 18:06:27 +0000</pubDate>
+      <description>We present linear codes with parameters [88,8,64] and [90,8,65] over GF(7), [98,7,75] and [97,8,72] over GF(8), and [44,7,31] over GF(9). Each has a minimum distance one larger than the lower bound listed in Grassl's tables of best known linear codes; codes with parameters [89,8,64] over GF(7) and [96,8,71], [95,8,70], [94,8,69] over GF(8) follow. Four of the five codes are obtained from a quasi-cyclic code and a vector that is constant on each block, by Construction X with a repetition code. The remaining one, the [90,8,65] code, is obtained from the first by appending two coordinates. The parameters and all weight counts were obtained by exhaustive enumeration, and a short program that repeats these computations is included.</description>
+    </item>
+    <item>
+      <title>Asymptotically good codes from Siegel modular varieties</title>
+      <link>http://arxiv.org/abs/2611.14125v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14125v1</guid>
+      <pubDate>Tue, 10 Nov 2026 14:13:27 +0000</pubDate>
+      <description>We construct asymptotically good codes by evaluating Siegel modular forms at superspecial points on congruence towers of Siegel modular varieties. For every genus $g\ge2$ and every fixed weight $w\ge g+1$, the construction gives such a family in sufficiently large characteristic, over a finite field which is independent of the level of the tower. The towers can be chosen so that this field is $\mathbb{F}_{p^2}$. We give an explicit lower bound for the asymptotic rate. The lower bound for the relative minimum distance follows from the Pieri formula on the space of flags in the Hodge bundle and an intersection argument along its strata. We also prove that, for $p\ge5$ and $0\le w\le p+1$, the kernel of evaluation in every genus consists precisely of the multiples of the ordinary Hasse invariant. For $g=2,3$, the geometry of the supersingular locus gives explicit bounds for the relative minimum distance and recovery sets whose sizes are bounded independently of the level.</description>
+    </item>
+    <item>
+      <title>Third-Order Asymptotics for Fixed-Length Lossy Compression of Discrete Memoryless Sources</title>
+      <link>http://arxiv.org/abs/2611.13573v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13573v1</guid>
+      <pubDate>Tue, 10 Nov 2026 04:40:20 +0000</pubDate>
+      <description>This paper determines the third-order asymptotics of the logarithm of the minimum codebook size for fixed-length lossy compression of discrete memoryless sources. For an excess-distortion probability constraint $\varepsilon\in(0,1)$ and every interior distortion level, we establish a third-order correction of $\frac12\log n+O(1)$, where $n$ is the blocklength. This sharpens the general bounds of Kostina and Verdú [IEEE Trans. Inf. Theory, 2012]. The main technical innovation lies in the converse for positive dispersion. Under a reverse change of measure, we retain the exponential weights associated with tilted information and distortion slack and control them jointly using the multivariate weighted-strip estimate of Scarlett, Martinez, and Guillén i Fàbregas [Proc. IEEE ISIT, 2015]. A pairing argument verifies the required covariance nondegeneracy uniformly over all reconstruction words whose distortion balls meet a typical set, yielding the matching converse.</description>
+    </item>
+    <item>
+      <title>The Optimal Constant for One-Shot Channel Simulation and Strong Functional Representation Lemma</title>
+      <link>http://arxiv.org/abs/2611.13397v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13397v1</guid>
+      <pubDate>Tue, 10 Nov 2026 00:18:11 +0000</pubDate>
+      <description>We prove a tight bound for one-shot channel simulation via a stronger version of the strong functional representation lemma: for any random variables $X,Y$, there exists a random variable $Z$ with $I(Z;X)=H(Y|X,Z)=0$ and $H(Y|Z)\le I+\log I+(1-γ)\log e-\log\log e+O(I^{-1}\log I)$, where $I=I(X;Y)$ and $γ$ is the Euler-Mascheroni constant. A more convenient bound is $H(Y|Z)&lt;I+\log(I+2)+1$. The first bound is notable in the sense that the constant term $(1-γ)\log e-\log\log e$ is optimal, and cannot be improved for any bound stated only in terms of $I$. Hence, this is the tightest form of the strong functional representation lemma up to the third order. We also prove that the Poisson functional representation is almost optimal up to a constant gap, and provide a simple finite-blocklength achievability bound that implies the $(1/2)\log n$ redundancy of the simulation of memoryless non-singular channel. These are proved via a generalization of the functional information, in particular, the exponential functional information, which closely approximates the cost of one-shot channel simulation.</description>
+    </item>
+    <item>
       <title>Quantum Robustness via Sandwiched Rényi Divergences</title>
       <link>http://arxiv.org/abs/2611.12738v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.12738v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2510.11737</guid>
       <pubDate>Thu, 16 Oct 2025 00:00:00 -0000</pubDate>
       <description>We prove that an effective temperature naturally emerges from the algorithmic structure of a regular universal Turing machine (UTM), without introducing any external physical parameter. In particular, the redundancy growth of the machine's wrapper language induces a Boltzmann--like exponential weighting over program lengths, yielding a canonical ensemble interpretation of algorithmic probability. This establishes a formal bridge between algorithmic information theory and statistical mechanics, in which the adopted UTM determines the intrinsic ``algorithmic temperature.'' We further show that this temperature approaches its maximal limit under the universal mixture (Solomonoff distribution), and discuss its epistemic meaning as the resolution level of an observer.</description>
-    </item>
-    <item>
-      <title>The syzygy distinguisher</title>
-      <link>https://arxiv.org/abs/2407.15740</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2407.15740</guid>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 -0000</pubDate>
-      <description>We present a new distinguisher for alternant and Goppa codes, whose complexity is subexponential in the error-correcting capability, hence better than that of generic decoding algorithms. Moreover it does not suffer from the strong regime limitations of the previous distinguishers or structure recovery algorithms: in particular, it applies to the codes used in the Classic McEliece candidate for postquantum cryptography standardization. The invariants that allow us to distinguish are graded Betti numbers of the homogeneous coordinate ring of a shortening of the dual code. Since its introduction in 1978, this is the first time an analysis (in the CPA model) of the McEliece cryptosystem breaks the exponential barrier.</description>
-    </item>
-    <item>
-      <title>The Algorithmic Regulator</title>
-      <link>https://arxiv.org/abs/2510.10300</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.10300</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 -0000</pubDate>
-      <description>The regulator theorem states that, under certain conditions, any optimal controller must embody a model of the system it regulates, grounding the idea that controllers embed, explicitly or implicitly, internal models of the controlled. This principle underpins neuroscience and predictive brain theories like the Free-Energy Principle or Kolmogorov/Algorithmic Agent theory. However, the theorem is only proven in limited settings. Here, we treat the deterministic, closed, coupled world-regulator system $(W,R)$ as a single self-delimiting program $p$ via a constant-size wrapper that produces the world output string~$x$ fed to the regulator. We analyze regulation from the viewpoint of the algorithmic complexity of the output, $K(x)$. We define $R$ to be a \emph{good algorithmic regulator} if it \emph{reduces} the algorithmic complexity of the readout relative to a null (unregulated) baseline $\varnothing$, i.e., \[ Δ= K\big(O_{W,\varnothing}\big) - K\big(O_{W,R}\big) &gt; 0. \] We then prove that the larger $Δ$ is, the more world-regulator pairs with high mutual algorithmic information are favored. More precisely, a complexity gap $Δ&gt; 0$ yields \[ \Pr\big((W,R)\mid x\big) \le C\,2^{\,M(W{:}R)}\,2^{-Δ}, \] making low $M(W{:}R)$ exponentially unlikely as $Δ$ grows. This is an AIT version of the idea that ``the regulator contains a model of the world.'' The framework is distribution-free, applies to individual sequences, and complements the Internal Model Principle. Beyond this necessity claim, the same coding-theorem calculus singles out a \emph{canonical scalar objective} and implicates a \emph{planner}. On the realized episode, a regulator behaves \emph{as if} it minimized the conditional description length of the readout.</description>
-    </item>
-    <item>
-      <title>On the Optimal Representation Efficiency of Barlow Twins: An Information-Geometric Interpretation</title>
-      <link>https://arxiv.org/abs/2510.10980</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.10980</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 -0000</pubDate>
-      <description>Self-supervised learning (SSL) has achieved remarkable success by learning meaningful representations without labeled data. However, a unified theoretical framework for understanding and comparing the efficiency of different SSL paradigms remains elusive. In this paper, we introduce a novel information-geometric framework to quantify representation efficiency. We define representation efficiency $η$ as the ratio between the effective intrinsic dimension of the learned representation space and its ambient dimension, where the effective dimension is derived from the spectral properties of the Fisher Information Matrix (FIM) on the statistical manifold induced by the encoder. Within this framework, we present a theoretical analysis of the Barlow Twins method. Under specific but natural assumptions, we prove that Barlow Twins achieves optimal representation efficiency ($η= 1$) by driving the cross-correlation matrix of representations towards the identity matrix, which in turn induces an isotropic FIM. This work provides a rigorous theoretical foundation for understanding the effectiveness of Barlow Twins and offers a new geometric perspective for analyzing SSL algorithms.</description>
-    </item>
-    <item>
-      <title>Quantum Relative Entropy Decay Composition Yields Shallow, Unstructured k-Designs</title>
-      <link>https://arxiv.org/abs/2510.08537</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.08537</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 -0000</pubDate>
-      <description>A major line of questions in quantum information and computing asks how quickly locally random circuits converge to resemble global randomness. In particular, approximate k-designs are random unitary ensembles that resemble random circuits up to their first k moments. It was recently shown that on n qudits, random circuits with slightly structured architectures converge to k-designs in depth O(log n), even on one-dimensional connectivity. It has however remained open whether the same shallow depth applies more generally among random circuit architectures and connectivities, or if the structure is truly necessary. We recall the study of exponential relative entropy decay, another topic with a long history in quantum information theory. We show that a constant number of layers of a parallel random circuit on a family of architectures including one-dimensional `brickwork' has O(1/logn) per-layer multiplicative entropy decay. We further show that on general connectivity graphs of bounded degree, randomly placed gates achieve O(1/nlogn)-decay (consistent with logn depth). Both of these results imply that random circuit ensembles with O(polylog(n)) depth achieve approximate k-designs in diamond norm. Hence our results address the question of whether extra structure is truly necessary for sublinear-depth convergence. Furthermore, the relative entropy recombination techniques might be of independent interest.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Gödel's Incompleteness Theorems in Grounded Arithmetic</title>
+      <link>http://arxiv.org/abs/2611.13697v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13697v1</guid>
+      <pubDate>Tue, 10 Nov 2026 07:43:34 +0000</pubDate>
+      <description>Reflective Grounded Arithmetic (RGA) is a paracomplete arithmetic in which every term is a program and truth is grounded evaluation. RGA discharges a hypothesis only when it proves the hypothesis decided. This paper shows, in a machine-checked Isabelle/HOL development, how Gödel's incompleteness theorems hold for RGA and for systems built on it. RGA's implication is material and RGA has the disjunction property, so the implications the textbook proof of the second theorem uses fail while its entailments and rules hold: Gödel's proof survives as entailments. RGA does not prove its consistency sentence Con, and RGA derives its own second theorem as the entailment $\mathit{Con}\vdash\neg\mathit{Pr}(\ulcorner\mathit{Con}\urcorner)$ and as one sentence quantified over proofs. The second theorem is then proved once, for every Gödel extension of RGA: an entailment relation on RGA's language, closed under RGA's rules, with a checker that meets three structural conditions, NEC, D3 and EXPL as proof transformers, D1 as closed acceptance, and consistency. D2 is not among the conditions. RGA with its checker is one instance. Inductive Grounded Arithmetic (IGA), RGA with ground induction, is another, its checker adding one rule detector, and IGA does not derive its consistency sentence for it. Adoption, a reflection rule whose premise is a derived warrant that the checker accepts computed proofs of every instance of a universal, gives consistent extensions RGA$^+$ and IGA$^+$. RGA$^+$ derives RGA's consistency sentence and IGA$^+$ derives RGA's and IGA's, so each strictly extends its base, and IGA$^+$ both. The second theorem holds at every adopted notation claim, and adopting Turing's code for that claim's checker derives its consistency sentence, so no claim certifies itself. Whether IGA alone derives RGA's consistency sentence is open, and the paper names what two routes to an answer need.</description>
+    </item>
+    <item>
+      <title>The Left Ripple of Byte-Pair Encoding: Certified Lookbehind for Every Dictionary</title>
+      <link>http://arxiv.org/abs/2611.13061v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13061v1</guid>
+      <pubDate>Mon, 09 Nov 2026 17:48:27 +0000</pubDate>
+      <description>Berglund and van der Merwe formalized byte-pair encoding and bounded how far an appended string can change a tokenization, leaving the converse open: how far can a string prepended on the left change it, which dictionaries make that ripple infinite, and can it be computed efficiently when finite? We answer all three for every dictionary. The origin radius, how far a prepend can change covering spans, is decided with radius certificates by a product of two runs of the automaton that guesses the final tokens, in time polynomial in the dictionary written out, and it is infinite exactly when one periodic word has two canonical tilings with no common boundary. Under their ordering condition it is infinite exactly when some rule (t, t) finds its two copies adjacent at its own stage, and such a rule makes any dictionary infinite. A finite radius makes every window of a width read off the radii have a cut, and the radius is finite exactly when such cuts are dense. The token machine completes for every dictionary, and the tokenization is subsequential, extending what Berglund, Martens and van der Merwe proved for proper ones under one pass per rule. A streaming tokenizer emits after every symbol exactly the tokens that no continuation changes, in polynomial time, answering a question of Dalirrooyfard and Ye. Boundedness of the label measure, the edit distance of the token sequences, is decided for every dictionary in polynomial time as well, and under the ordering condition the largest distance one edit causes over dictionaries of m rules lies asymptotically between m^2/10 and m^2/2. GPT-2's merge table carries 244 effective self-pairs, so its origin radius is infinite from the forty-second merge on, and that of cl100k, o200k and Llama 3 from their first. Every measured number is its program's output, and what is not executed is named.</description>
+    </item>
+    <item>
       <title>Beating Rytter's Bound: All-Pairs CFL Reachability in $O(n^3(\log\log n)^2/(\log n)^2)$ Time</title>
       <link>http://arxiv.org/abs/2611.12315v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.12315v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1810.09610</guid>
       <pubDate>Tue, 23 Oct 2018 00:00:00 -0000</pubDate>
       <description>We present a theory of lazy imperative timing.</description>
-    </item>
-    <item>
-      <title>Canonicity and normalisation for Dependent Type Theory</title>
-      <link>https://arxiv.org/abs/1810.09367</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1810.09367</guid>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 -0000</pubDate>
-      <description>We show canonicity and normalization for dependent type theory with a cumulative sequence of universes and a type of Boolean. The argument follows the usual notion of reducibility, going back to Godel's Dialectica interpretation and the work of Tait. A key feature of our approach is the use of a proof relevant notion of reducibility.</description>
-    </item>
-    <item>
-      <title>Generation and analysis of lamplighter programs</title>
-      <link>https://arxiv.org/abs/1707.02652</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1707.02652</guid>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 -0000</pubDate>
-      <description>We consider a programming language based on the lamplighter group that uses only composition and iteration as control structures. We derive generating functions and counting formulas for this language and special subsets of it, establishing lower and upper bounds on the growth rate of semantically distinct programs. Finally, we show how to sample random programs and analyze the distribution of runtimes induced by such sampling.</description>
     </item>
   </channel>
 </rss>

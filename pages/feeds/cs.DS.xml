@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Directed Singular-Value Sparsifiers with $O(n \log n/ε^2)$ Arcs</title>
+      <link>http://arxiv.org/abs/2611.14342v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14342v1</guid>
+      <pubDate>Tue, 10 Nov 2026 17:08:04 +0000</pubDate>
+      <description>Given an unweighted directed graph, a sparsifier is a nonnegative reweighting of original arcs that preserves every in-degree and out-degree exactly. In this work, we study singular-value sparsifiers, which are generalizations of spectral sparsifiers. Singular-value sparsifiers find a number of applications in theoretical computer science, such as maintaining directed cuts and flows, speeding up directed Laplacian solvers, and sparsifying dense weight matrices in neural networks. Strong singular-value (SV) approximation supports sparse representations of directed random walks with guarantees that remain stable under products, and controls bilinear error in the left and right Schur-complement metrics. We prove that every unweighted directed graph on $n$ vertices admits an $\varepsilon$-SV sparsifier with $O(n\log(2n)/\varepsilon^2)$ arcs, improving the $O(n\log^5 n/\varepsilon^2)$ support bound of Lau, Wang, and Zhou. The sparsifier is a nonnegative reweighting of original arcs and preserves every in-degree and out-degree exactly. We also give a randomized construction with $\tilde{O}(m+n)$ real-arithmetic running time, where $m$ is the input support size, and the output has the same support bound and rational weights of polynomial bit length.</description>
+    </item>
+    <item>
+      <title>Nonadaptive One-Sided Testing of Binary Rank</title>
+      <link>http://arxiv.org/abs/2611.14163v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14163v1</guid>
+      <pubDate>Tue, 10 Nov 2026 14:47:06 +0000</pubDate>
+      <description>The binary rank of a binary matrix is the minimum number of disjoint all-one rectangles that partition its one-entries. We study entry-query testing of binary rank at most $d$, with one-sided error and nonadaptive queries. We give a tester using $\tilde O(d^4/ε^2)$ queries, independent of the matrix dimensions and a general lower bound of $\tilde Ω(d^{3/2}/ε)$.</description>
+    </item>
+    <item>
+      <title>Mixed-integer dual network problems are solvable in strongly polynomial time</title>
+      <link>http://arxiv.org/abs/2611.14045v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14045v1</guid>
+      <pubDate>Tue, 10 Nov 2026 13:13:02 +0000</pubDate>
+      <description>In this paper we show that mixed-integer linear programming is solvable in strongly polynomial time if the constraint matrix is totally unimodular with at most two nonzero entries in every row. This is done by reducing the problem to an instance of minimization of an $L$-convex function.</description>
+    </item>
+    <item>
+      <title>Bounded Weighted Edit Distance with Metric Costs</title>
+      <link>http://arxiv.org/abs/2611.13984v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13984v1</guid>
+      <pubDate>Tue, 10 Nov 2026 12:29:25 +0000</pubDate>
+      <description>We give a deterministic $O(n+k^2)$-time algorithm for bounded weighted edit distance when the input costs form an integer metric on the alphabet extended by a gap symbol. Here $n$ is the total input length and $k$ is the given threshold on the distance. If the distance is at most $k$, the algorithm returns it with an optimal alignment. Otherwise, it reports that the distance exceeds $k$. The running time matches the classical unit-cost bound and is independent of the alphabet size and of the largest cost. The algorithm keeps only the farthest-reaching prefix alignment for each cost and each difference between the total gap costs of the aligned prefixes. For real metrics whose nonzero costs are at least one, scaling and upward rounding give a $(1+\varepsilon)$-approximation for the bounded problem in $\widetilde{O}(n+(k/\varepsilon)^2)$ time. If insertions and deletions have integer costs, the running time improves to $\widetilde{O}(n+k^2/\varepsilon)$.</description>
+    </item>
+    <item>
+      <title>Online Network Design with Maximum Delay and Stochastic Arrivals</title>
+      <link>http://arxiv.org/abs/2611.13865v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13865v1</guid>
+      <pubDate>Tue, 10 Nov 2026 10:24:28 +0000</pubDate>
+      <description>We study online network services that combine pending requests into batches. Each batch pays for its spatial service and for the waiting time of its oldest request. The objective is the sum of these costs over all batches. Thus requests can share both a spatial purchase and one maximum-delay charge. We assume independent Poisson arrivals of known rates, while actual requests are revealed only upon arrival. For stateless services, suppose that each type has an attainable minimum cost when served alone, that every batch costs at least the stand-alone minimum of each type it contains, and that one finite-cost action can serve any batch, regardless of its request multiplicities. We give a deterministic algorithm with long-run ratio of expectations $e/(e-1)$ against an unrestricted offline optimum. This factor is optimal, even allowing randomization, already at one request location. The key comparison measures the union of time intervals associated with requests. The theorem applies directly to multi-root and pair aggregation on trees. We also study facility location, where each request pays its own connection distance and the bounded-action assumption can fail. A deterministic policy gives a ratio $3$ for arbitrary nonnegative opening costs. It immediately serves a finite initial set of requests, computes an assignment from their observed arrival gaps, and then keeps that assignment fixed. Its analysis combines Poisson insertion with a time-slice packing bound on the offline optimum. Every guarantee includes the full cost of completing finite inputs without an end-of-input signal.</description>
+    </item>
+    <item>
+      <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
+      <link>http://arxiv.org/abs/2611.13224v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13224v1</guid>
+      <pubDate>Mon, 09 Nov 2026 20:53:05 +0000</pubDate>
+      <description>We study the metric data placement problem with site-capacity constraints and fixed installation costs, aiming to minimize the total cost of placing data (resources) and accessing their nearest copies. We develop a deterministic polynomial-time approximation algorithm based on a natural linear programming relaxation of the problem. Starting from an optimal fractional solution, we construct multiscale metric-ball partitions independently for each resource and connect overlapping balls at consecutive levels to form a flow network. The resource layers are then coupled through shared site-capacity arcs, allowing us to obtain an integral placement by minimizing a surrogate cost over a single min-cost circulation. By optimizing the choice of ball radii, we establish an approximation factor of $1+2e\approx 6.44$. To our knowledge, this is the best approximation guarantee for the metric data placement problem since its introduction by Baev and Rajaraman in 2001.</description>
+    </item>
+    <item>
+      <title>The Left Ripple of Byte-Pair Encoding: Certified Lookbehind for Every Dictionary</title>
+      <link>http://arxiv.org/abs/2611.13061v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13061v1</guid>
+      <pubDate>Mon, 09 Nov 2026 17:48:27 +0000</pubDate>
+      <description>Berglund and van der Merwe formalized byte-pair encoding and bounded how far an appended string can change a tokenization, leaving the converse open: how far can a string prepended on the left change it, which dictionaries make that ripple infinite, and can it be computed efficiently when finite? We answer all three for every dictionary. The origin radius, how far a prepend can change covering spans, is decided with radius certificates by a product of two runs of the automaton that guesses the final tokens, in time polynomial in the dictionary written out, and it is infinite exactly when one periodic word has two canonical tilings with no common boundary. Under their ordering condition it is infinite exactly when some rule (t, t) finds its two copies adjacent at its own stage, and such a rule makes any dictionary infinite. A finite radius makes every window of a width read off the radii have a cut, and the radius is finite exactly when such cuts are dense. The token machine completes for every dictionary, and the tokenization is subsequential, extending what Berglund, Martens and van der Merwe proved for proper ones under one pass per rule. A streaming tokenizer emits after every symbol exactly the tokens that no continuation changes, in polynomial time, answering a question of Dalirrooyfard and Ye. Boundedness of the label measure, the edit distance of the token sequences, is decided for every dictionary in polynomial time as well, and under the ordering condition the largest distance one edit causes over dictionaries of m rules lies asymptotically between m^2/10 and m^2/2. GPT-2's merge table carries 244 effective self-pairs, so its origin radius is infinite from the forty-second merge on, and that of cl100k, o200k and Llama 3 from their first. Every measured number is its program's output, and what is not executed is named.</description>
+    </item>
+    <item>
       <title>Polynomial-Space Quantum Algorithms from Classical Branching: Colouring, Domination and Monotone Local Search</title>
       <link>http://arxiv.org/abs/2611.12714v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.12714v1</guid>
@@ -6954,55 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2406.05162</guid>
       <pubDate>Mon, 02 Jun 2025 00:00:00 -0000</pubDate>
       <description>This article compares the performance of the AVL tree to the performance of the bottom-up, top-down, and left-leaning red-black trees. The bottom-up red-black tree is faster than the AVL tree for insertion and deletion of randomly ordered keys. The AVL tree is faster than the bottom-up red-black tree for insertion but slower for deletion of consecutively ordered keys. The top-down red-black tree is faster than the bottom-up red-black tree for insertion but slower for deletion of randomly ordered keys, and slower for insertion and deletion of consecutively ordered keys. The left-leaning red-black tree is slower than the three other trees for insertion and deletion of randomly and consecutively ordered keys. An alternative deletion algorithm, which reduces the number of rebalancing operations required by deletion, is analyzed.</description>
-    </item>
-    <item>
-      <title>Fast Isotropic Median Filtering</title>
-      <link>https://arxiv.org/abs/2505.22938</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.22938</guid>
-      <pubDate>Wed, 28 May 2025 00:00:00 -0000</pubDate>
-      <description>Median filtering is a cornerstone of computational image processing. It provides an effective means of image smoothing, with minimal blurring or softening of edges, invariance to monotonic transformations such as gamma adjustment, and robustness to noise and outliers. However, known algorithms have all suffered from practical limitations: the bit depth of the image data, the size of the filter kernel, or the kernel shape itself. Square-kernel implementations tend to produce streaky cross-hatching artifacts, and nearly all known efficient algorithms are in practice limited to square kernels. We present for the first time a method that overcomes all of these limitations. Our method operates efficiently on arbitrary bit-depth data, arbitrary kernel sizes, and arbitrary convex kernel shapes, including circular shapes.</description>
-    </item>
-    <item>
-      <title>PtrHash: Minimal Perfect Hashing at RAM Throughput</title>
-      <link>https://arxiv.org/abs/2502.15539</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.15539</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 -0000</pubDate>
-      <description>Given a set $K$ of $n$ keys, a minimal perfect hash function (MPHF) is a collision-free bijective map $\mathsf{H_{mphf}}$ from $K$ to $\{0, \dots, n-1\}$. This work presents a (minimal) perfect hash function that first prioritizes query throughput, while also allowing efficient construction for $10^9$ or more elements using 2.4 bits of memory per key. Both PTHash and PHOBIC first map all $n$ keys to $n/λ&lt; n$ buckets. Then, each bucket stores a pilot that controls the final hash value of the keys mapping to it. PtrHash builds on this by using 1) fixed-width (uncompressed) 8-bit pilots, 2) a construction algorithm similar to cuckoo-hashing to find suitable pilot values. Further, it 3) uses the same number of buckets and slots for each part, with 4) a single remap table to map intermediate positions $\geq n$ to $&lt;n$, 5) encoded using per-cacheline Elias-Fano coding. Lastly, 6) PtrHash support streaming queries, where we use prefetching to answer a stream of multiple queries more efficiently than one-by-one processing. With default parameters, PtrHash takes 2.0 bits per key. On 300 million string keys, PtrHash is as fast or faster to build than other MPHFs, and at least $2.1\times$ faster to query. When streaming multiple queries, this improves to $3.3\times$ speedup over the fastest alternative, while also being significantly faster to construct. When using $10^9$ integer keys instead, query times are as low as 12 ns/key when iterating in a for loop, or even down to 8 ns/key when using the streaming approach, just short of the 7.4 ns inverse throughput of random memory accesses.</description>
-    </item>
-    <item>
-      <title>Performance report of heuristic algorithm that cracked the largest Gset Ising problems (G81 cut=14060)</title>
-      <link>https://arxiv.org/abs/2505.18508</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.18508</guid>
-      <pubDate>Sat, 24 May 2025 00:00:00 -0000</pubDate>
-      <description>For the past 25 years, the Gset benchmark problems have challenged all manner of Ising and Max-Cut solvers. The largest of these problems have remained unsolved by any heuristic algorithm. In this report we provide data showing dramatically better speed and accuracy on these large sparse problems. Our newly discovered heuristic algorithm called Cosm reaches high (99.9% of best) solution quality orders of magnitude faster than the previous best heuristic solver results. Additionally, when afforded enough steps Cosm attains higher cuts than ever previously reported, specifically on instances G72 (cut=7008), G77 (cut=9940), and the 20,000-variable G81 (cut=14060). This report includes solution bitstrings so that the cuts can be independently validated. Remarkably, the new best solutions appear to be optimal. We believe the results are an early hint of disruptive opportunities for unconventional, hardware-centric approaches to algorithm discovery.</description>
-    </item>
-    <item>
-      <title>Simpler and Faster Directed Low-Diameter Decompositions</title>
-      <link>https://arxiv.org/abs/2505.10244</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.10244</guid>
-      <pubDate>Sat, 24 May 2025 00:00:00 -0000</pubDate>
-      <description>We present a simpler and faster algorithm for low-diameter decompositions on directed graphs, matching the $O(\log n\log\log n)$ loss factor from Bringmann, Fischer, Haeupler, and Latypov (ICALP 2025) and improving the running time to $O((m+n\log\log n)\log^2n)$.</description>
-    </item>
-    <item>
-      <title>Tight analysis of the primal-dual method for edge-covering pliable set families</title>
-      <link>https://arxiv.org/abs/2504.03910</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.03910</guid>
-      <pubDate>Sat, 24 May 2025 00:00:00 -0000</pubDate>
-      <description>A classic result of Williamson, Goemans, Mihail, and Vazirani [STOC 1993: 708-717] states that the problem of covering an uncrossable set family by a min-cost edge set admits approximation ratio $2$, by a primal-dual algorithm with a reverse delete phase. Bansal, Cheriyan, Grout, and Ibrahimpur [ICALP 2023: 15:1-15:19] showed that this algorithm achieves approximation ratio $16$ for a larger class of so called $γ$-pliable set families, that have much weaker uncrossing properties. The approximation ratio $16$ was improved to $10$ by the author [WAOA 2025: 151-166]. Recently, Bansal [arXiv:2308.15714] stated approximation ratio $8$ for $γ$-pliable families and an improved approximation ratio $5$ for an important particular case of the family of cuts of size $&lt;k$ of a graph $H$, but his proof has an error. We will improve the approximation ratio to $7$ for the former case and give a simple proof of approximation ratio $6$ for the latter case. Furthermore, if $H$ is $λ$-edge-connected then we will show a slightly better approximation ratio $6-\frac{1}{β+1}$, where $β=\left\lfloor\frac{k-1}{\lceil(λ+1)/2\rceil}\right\rfloor$. Our analysis is supplemented by examples showing that these approximation ratios are tight for the primal-dual algorithm.</description>
-    </item>
-    <item>
-      <title>A Quantum Approximation Scheme for k-Means</title>
-      <link>https://arxiv.org/abs/2308.08167</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2308.08167</guid>
-      <pubDate>Sat, 24 May 2025 00:00:00 -0000</pubDate>
-      <description>We give a quantum approximation scheme (i.e., $(1 + \varepsilon)$-approximation for every $\varepsilon &gt; 0$) for the classical $k$-means clustering problem in the QRAM model with a running time that has only polylogarithmic dependence on the number of data points. More specifically, given a dataset $V$ with $N$ points in $\mathbb{R}^d$ stored in QRAM data structure, our quantum algorithm runs in time $\tilde{O} \left( 2^{\tilde{O}(\frac{k}{\varepsilon})} η^2 d\right)$ and with high probability outputs a set $C$ of $k$ centers such that $cost(V, C) \leq (1+\varepsilon) \cdot cost(V, C_{OPT})$. Here $C_{OPT}$ denotes the optimal $k$-centers, $cost(.)$ denotes the standard $k$-means cost function (i.e., the sum of the squared distance of points to the closest center), and $η$ is the aspect ratio (i.e., the ratio of maximum distance to minimum distance). This is the first quantum algorithm with a polylogarithmic running time that gives a provable approximation guarantee of $(1+\varepsilon)$ for the $k$-means problem. Also, unlike previous works on unsupervised learning, our quantum algorithm does not require quantum linear algebra subroutines and has a running time independent of parameters (e.g., condition number) that appear in such procedures.</description>
-    </item>
-    <item>
-      <title>Linear-space LCS enumeration with quadratic-time delay for two strings</title>
-      <link>https://arxiv.org/abs/2504.05742</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.05742</guid>
-      <pubDate>Thu, 22 May 2025 00:00:00 -0000</pubDate>
-      <description>Suppose we want to seek the longest common subsequences (LCSs) of two strings as informative patterns that explain the relationship between the strings. The dynamic programming algorithm gives us a table from which all LCSs can be extracted by traceback. However, the need for quadratic space to hold this table can be an obstacle when dealing with long strings. A question that naturally arises in this situation would be whether it is possible to exhaustively search for all LCSs one by one in a time-efficient manner using only a space linear in the LCS length, where we treat read-only memory for storing the strings as excluded from the space consumed. As a part of the answer to this question, we propose an $O(L)$-space algorithm that outputs all distinct LCSs of the strings one by one each in $O(n^2)$ time, where the strings are both of length $n$ and $L$ is the LCS length of the strings.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
+      <link>http://arxiv.org/abs/2611.13224v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13224v1</guid>
+      <pubDate>Mon, 09 Nov 2026 20:53:05 +0000</pubDate>
+      <description>We study the metric data placement problem with site-capacity constraints and fixed installation costs, aiming to minimize the total cost of placing data (resources) and accessing their nearest copies. We develop a deterministic polynomial-time approximation algorithm based on a natural linear programming relaxation of the problem. Starting from an optimal fractional solution, we construct multiscale metric-ball partitions independently for each resource and connect overlapping balls at consecutive levels to form a flow network. The resource layers are then coupled through shared site-capacity arcs, allowing us to obtain an integral placement by minimizing a surrogate cost over a single min-cost circulation. By optimizing the choice of ball radii, we establish an approximation factor of $1+2e\approx 6.44$. To our knowledge, this is the best approximation guarantee for the metric data placement problem since its introduction by Baev and Rajaraman in 2001.</description>
+    </item>
+    <item>
+      <title>Elicitation of the parameters of a multi-criteria sorting model</title>
+      <link>http://arxiv.org/abs/2611.13062v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13062v1</guid>
+      <pubDate>Mon, 09 Nov 2026 17:49:26 +0000</pubDate>
+      <description>Multiple-criteria decision aiding (MCDA) proposes models and methods for different types of decision problems such as choice, ranking or sorting. Such models involve various parameters that must be elicited. In the elicitation process, all necessary information has to be taken from the decision-maker. For this, several direct and indirect elicitation methods are suggested in the literature. In this work, we concentrate on direct elicitation: we aim at providing a rigorous elicitation procedure for the parameters of the Non-Compensatory Sorting model (NCS), which has been characterized by an axiomatic analysis. A basic version of the NCS model is considered, i.e., a model with two categories and no vetoes. The parameters are the set of sufficient coalitions of criteria and the profile separating the two categories. Regarding the sufficient coalitions, we propose several questioning algorithms that engraft questions on classical graph exploration algorithms such as depth-first search. Such algorithms are implemented and evaluated by simulation. For eliciting the limit profile, we design a questioning algorithm using dichotomy. Questioning algorithms can be optimal in the worst case or on average. An optimal algorithm in the worst case has been proposed by Hansel in the framework of monotone Boolean functions. We implement and evaluate this algorithm as a variant of the depth-first search approaches. Regarding optimal questioning strategies on average, we evaluate decision trees for up to four criteria. On the other hand, we assess how more general is NCS as compared to MR-Sort, a particular case of the NCS model in which sufficient coalitions can be represented by additive weights.</description>
+    </item>
+    <item>
       <title>Is Recursive Self-Improvement Safe?</title>
       <link>http://arxiv.org/abs/2611.10261v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.10261v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2107.09901</guid>
       <pubDate>Mon, 26 Jul 2021 00:00:00 -0000</pubDate>
       <description>Envy-freeness is one of the most widely studied notions in fair division. Since envy-free allocations do not always exist when items are indivisible, several relaxations have been considered. Among them, possibly the most compelling concept is envy-freeness up to any item (EFX). We study the existence of EFX allocations for general valuations. The existence of EFX allocations is a major open problem. For general valuations, it is known that an EFX allocation always exists (i) when $n=2$ or (ii) when all agents have identical valuations, where $n$ is the number of agents. it is also known that an EFX allocation always exists when one can leave at most $n-1$ items unallocated. We develop new techniques and extend some results of additive valuations to general valuations on the existence of EFX allocations. We show that an EFX allocation always exists (i) when all agents have one of two general valuations or (ii) when the number of items is at most $n+3$. We also show that an EFX allocation always exists when one can leave at most $n-2$ items unallocated. In addition to the positive results, we construct an instance with $n=3$ in which an existing approach does not work as it is.</description>
-    </item>
-    <item>
-      <title>Strategy Proof Mechanisms for Facility Location at Limited Locations</title>
-      <link>https://arxiv.org/abs/2009.07982</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2009.07982</guid>
-      <pubDate>Wed, 21 Jul 2021 00:00:00 -0000</pubDate>
-      <description>Facility location problems often permit facilities to be located at any position. But what if this is not the case in practice? What if facilities can only be located at particular locations like a highway exit or close to a bus stop? We consider here the impact of such constraints on the location of facilities on the performance of strategy proof mechanisms for locating facilities.We study four different performance objectives: the total distance agents must travel to their closest facility, the maximum distance any agent must travel to their closest facility, and the utilitarian and egalitarian welfare.We show that constraining facilities to a limited set of locations makes all four objectives harder to approximate in general.</description>
-    </item>
-    <item>
-      <title>How Likely Are Large Elections Tied?</title>
-      <link>https://arxiv.org/abs/2011.03791</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2011.03791</guid>
-      <pubDate>Mon, 19 Jul 2021 00:00:00 -0000</pubDate>
-      <description>Understanding the likelihood for an election to be tied is a classical topic in many disciplines including social choice, game theory, political science, and public choice. Despite a large body of literature and the common belief that ties are rare, little is known about how rare ties are in large elections except for a few simple positional scoring rules under the i.i.d. uniform distribution over the votes, known as the Impartial Culture (IC) in social choice. In particular, little progress was made after Marchant explicitly posed the likelihood of k-way ties under IC as an open question in 2001. We give an asymptotic answer to the open question for a wide range of commonly studied voting rules under a model that is much more general and realistic than i.i.d. models (especially IC) -- the smoothed social choice framework by Xia that was inspired by the celebrated smoothed complexity analysis by Spielman and Teng. We prove dichotomy theorems on the smoothed likelihood of ties under positional scoring rules, edge-order-based rules, and some multi-round score-based elimination rules, which include commonly studied voting rules such as plurality, Borda, veto, maximin, Copeland, ranked pairs, Schulze, STV, and Coombs as special cases. We also complement the theoretical results by experiments on synthetic data and real-world rank data on Preflib. Our main technical tool is an improved dichotomous characterization on the smoothed likelihood for a Poisson multinomial variable to be in a polyhedron, which is proved by exploring the interplay between the V-representation and the matrix representation of polyhedra and might be of independent interest.</description>
     </item>
   </channel>
 </rss>

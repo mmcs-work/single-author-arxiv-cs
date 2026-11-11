@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Directed Singular-Value Sparsifiers with $O(n \log n/ε^2)$ Arcs</title>
+      <link>http://arxiv.org/abs/2611.14342v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14342v1</guid>
+      <pubDate>Tue, 10 Nov 2026 17:08:04 +0000</pubDate>
+      <description>Given an unweighted directed graph, a sparsifier is a nonnegative reweighting of original arcs that preserves every in-degree and out-degree exactly. In this work, we study singular-value sparsifiers, which are generalizations of spectral sparsifiers. Singular-value sparsifiers find a number of applications in theoretical computer science, such as maintaining directed cuts and flows, speeding up directed Laplacian solvers, and sparsifying dense weight matrices in neural networks. Strong singular-value (SV) approximation supports sparse representations of directed random walks with guarantees that remain stable under products, and controls bilinear error in the left and right Schur-complement metrics. We prove that every unweighted directed graph on $n$ vertices admits an $\varepsilon$-SV sparsifier with $O(n\log(2n)/\varepsilon^2)$ arcs, improving the $O(n\log^5 n/\varepsilon^2)$ support bound of Lau, Wang, and Zhou. The sparsifier is a nonnegative reweighting of original arcs and preserves every in-degree and out-degree exactly. We also give a randomized construction with $\tilde{O}(m+n)$ real-arithmetic running time, where $m$ is the input support size, and the output has the same support bound and rational weights of polynomial bit length.</description>
+    </item>
+    <item>
+      <title>Local Modifications of Nearest-Neighbor and Min-Plus Representations</title>
+      <link>http://arxiv.org/abs/2611.13787v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13787v1</guid>
+      <pubDate>Tue, 10 Nov 2026 09:22:21 +0000</pubDate>
+      <description>We study how changing a Boolean-valued function at $d$ inputs affects the size and precision of its exact representations. Starting from a representation of size $m$, we prove four bounds, two for nearest-neighbor (NN) representations and two for integer min-plus representations. (i) For NN representations on a finite subset of $\mathbb{R}^n$ with $n\ge2$, at most $m+2d$ anchors suffice. The coefficient $2$ is optimal: on a three-point domain, changing one value can increase the minimum number of anchors from one to three. (ii) For NN representations on the Boolean cube with rational anchors, let $R$ be the maximum original coordinate bit length, and let $Δ$ be the maximum bit length of the least common denominator of any one original anchor's coordinates. We construct a representation with at most $m+3d$ anchors on a common dyadic grid and coordinate bit length $O(R+Δ+\log(n+1))$. (iii) For integer min-plus representations on the Boolean cube, we give a construction that keeps the original $m$ forms and their labels and adds at most $d$ new forms. Its maximum weight is at most $W+2n$, where $W$ is the largest absolute original coefficient, including constant terms. (iv) For integer min-plus representations on a finite rational domain $X\subset\mathbb{Q}^n$, at most $m+2d$ forms suffice. Their maximum weight is polynomially bounded in $m,d,W,n,|X|$, the coordinate bound, and the common denominator of $X$. The coefficient $2$ is again optimal: on a three-point domain, changing one value can increase the minimum number of forms from one to three. These bounds imply stability under polynomially many changes on the cube for polynomial-size representations, including those with polynomially bounded NN coordinate bit length or min-plus weight.</description>
+    </item>
+    <item>
+      <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
+      <link>http://arxiv.org/abs/2611.13224v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13224v1</guid>
+      <pubDate>Mon, 09 Nov 2026 20:53:05 +0000</pubDate>
+      <description>We study the metric data placement problem with site-capacity constraints and fixed installation costs, aiming to minimize the total cost of placing data (resources) and accessing their nearest copies. We develop a deterministic polynomial-time approximation algorithm based on a natural linear programming relaxation of the problem. Starting from an optimal fractional solution, we construct multiscale metric-ball partitions independently for each resource and connect overlapping balls at consecutive levels to form a flow network. The resource layers are then coupled through shared site-capacity arcs, allowing us to obtain an integral placement by minimizing a surrogate cost over a single min-cost circulation. By optimizing the choice of ball radii, we establish an approximation factor of $1+2e\approx 6.44$. To our knowledge, this is the best approximation guarantee for the metric data placement problem since its introduction by Baev and Rajaraman in 2001.</description>
+    </item>
+    <item>
       <title>Tight B-Trees for Adjacency Labeling</title>
       <link>http://arxiv.org/abs/2611.11444v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.11444v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1708.00743</guid>
       <pubDate>Thu, 11 May 2023 00:00:00 -0000</pubDate>
       <description>The Straightness is a measure designed to characterize a pair of vertices in a spatial graph. It is defined as the ratio of the Euclidean distance to the graph distance between these vertices. It is often used as an average, for instance to describe the accessibility of a single vertex relatively to all the other vertices in the graph, or even to summarize the graph as a whole. In some cases, one needs to process the Straightness between not only vertices, but also any other points constituting the graph of interest. Suppose for instance that our graph represents a road network and we do not want to limit ourselves to crossroad-to-crossroad itineraries, but allow any street number to be a starting point or destination. In this situation, the standard approach consists in: 1) discretizing the graph edges, 2) processing the vertex-to-vertex Straightness considering the additional vertices resulting from this discretization, and 3) performing the appropriate average on the obtained values. However, this discrete approximation can be computationally expensive on large graphs, and its precision has not been clearly assessed. In this article, we adopt a continuous approach to average the Straightness over the edges of spatial graphs. This allows us to derive 5 distinct measures able to characterize precisely the accessibility of the whole graph, as well as individual vertices and edges. Our method is generic and could be applied to other measures designed for spatial graphs. We perform an experimental evaluation of our continuous average Straightness measures, and show how they behave differently from the traditional vertex-to-vertex ones. Moreover, we also study their discrete approximations, and show that our approach is globally less demanding in terms of both processing time and memory usage. Our R source code is publicly available under an open source license.</description>
-    </item>
-    <item>
-      <title>The Park-Pham Theorem with Optimal Convergence Rate</title>
-      <link>https://arxiv.org/abs/2210.03691</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2210.03691</guid>
-      <pubDate>Fri, 05 May 2023 00:00:00 -0000</pubDate>
-      <description>Park and Pham's recent proof of the Kahn-Kalai conjecture was a major breakthrough in the field of graph and hypergraph thresholds. Their result gives an upper bound on the threshold at which a probabilistic construction has a $1-ε$ chance of achieving a given monotone property. While their bound in other parameters is optimal up to constant factors for any fixed $ε$, it does not have the optimal dependence on $ε$ as $ε\rightarrow 0$. In this short paper, we prove a version of the Park-Pham Theorem with optimal $ε$-dependence.</description>
-    </item>
-    <item>
-      <title>A New Berry-Esseen Theorem for Expander Walks</title>
-      <link>https://arxiv.org/abs/2212.08134</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2212.08134</guid>
-      <pubDate>Thu, 04 May 2023 00:00:00 -0000</pubDate>
-      <description>We prove that the sum of $t$ boolean-valued random variables sampled by a random walk on a regular expander converges in total variation distance to a discrete normal distribution at a rate of $O(λ/t^{1/2-o(1)})$, where $λ$ is the second largest eigenvalue of the random walk matrix in absolute value. To the best of our knowledge, among known Berry-Esseen bounds for Markov chains, our result is the first to show convergence in total variation distance, and is also the first to incorporate a linear dependence on expansion $λ$. In contrast, prior Markov chain Berry-Esseen bounds showed a convergence rate of $O(1/\sqrt{t})$ in weaker metrics such as Kolmogorov distance. Our result also improves upon prior work in the pseudorandomness literature, which showed that the total variation distance is $O(λ)$ when the approximating distribution is taken to be a binomial distribution. We achieve the faster $O(λ/t^{1/2-o(1)})$ convergence rate by generalizing the binomial distribution to discrete normals of arbitrary variance. We specifically construct discrete normals using a random walk on an appropriate 2-state Markov chain. Our bound can therefore be viewed as a regularity lemma that reduces the study of arbitrary expanders to a small class of particularly simple expanders.</description>
-    </item>
-    <item>
-      <title>Semigroup algorithmic problems in metabelian groups</title>
-      <link>https://arxiv.org/abs/2304.12893</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2304.12893</guid>
-      <pubDate>Tue, 25 Apr 2023 00:00:00 -0000</pubDate>
-      <description>We consider semigroup algorithmic problems in finitely generated metabelian groups. Our paper focuses on three decision problems introduced by Choffrut and Karhumäki (2005): the Identity Problem (does a semigroup contain a neutral element?), the Group Problem (is a semigroup a group?) and the Inverse Problem (does a semigroup contain the inverse of a generator?). We show that all three problems are decidable for finitely generated sub-semigroups of finitely generated metabelian groups. In particular, we establish a correspondence between polynomial semirings and sub-semigroups of metabelian groups using an interaction of graph theory, convex polytopes, algebraic geometry and number theory. Since the Semigroup Membership problem (does a semigroup contain a given element?) is known to be undecidable in finitely generated metabelian groups, our result completes the decidability characterization of semigroup algorithmic problems in metabelian groups.</description>
     </item>
   </channel>
 </rss>

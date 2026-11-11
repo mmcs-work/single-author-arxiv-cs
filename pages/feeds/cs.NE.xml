@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Oscillatory Processing Units as a computing substrate for biomimetic intelligence</title>
+      <link>http://arxiv.org/abs/2611.13840v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13840v1</guid>
+      <pubDate>Tue, 10 Nov 2026 10:03:14 +0000</pubDate>
+      <description>Biological intelligence emerges from neural activity that connects sensation, memory and action. Synaptic plasticity, neuronal assemblies and oscillations provide principles for biomimetic computing, but translating them into reusable operations requires a defined computational unit. We introduce Oscillatory Processing Units (OPUs), groups of synthetic neurons sharing a rhythm. Their directed interactions transform incoming activity and prior receiving state into an Oscillatory Occupancy Space (OOS), which becomes available to subsequent computation. We show that source--receiver conditions and oscillatory organization shape these transformations, including their geometry, persistence and historical accessibility. An Atlas of measured relationships supports prospective composition with predicted response classes. Configured circuits perform logical and numerical operations, express associative recall and generate closed-loop decisions with fixed synaptic weights. OPUs and OOS establish a computing substrate for biomimetic intelligence in which experience remains part of the state through which new input becomes action.</description>
+    </item>
+    <item>
+      <title>A Functional Preservation Score for Auditing Connectome Operations: Compression, Alignment, Transport, and Local-Rule Writing</title>
+      <link>http://arxiv.org/abs/2611.13681v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.13681v1</guid>
+      <pubDate>Tue, 10 Nov 2026 07:30:42 +0000</pubDate>
+      <description>We introduce the Functional Preservation Score (FPS), a null-normalised, behaviourally grounded measure of how much of a neural network's input-output function survives a structural operation, and use it to audit the operations underlying speculative "mind-migration" pipelines on public data that runs on a single laptop. Across five pre-registered studies on the C. elegans connectome, whole-brain calcium activity, and hippocampal replay, FPS yields two positive characterisations and a three-part negative. Low-bit quantisation of a real connectome exhibits a structure-dependent sparsity floor: uniform int4/ternary quantisation is forced to roughly 73%/98% effective sparsity because heavy-tailed integer synaptic weights round to zero, while mixed-precision protection of hub neurons lowers these floors to about 27%/32%. Decoded hippocampal replay sequences compress heavily yet remain identifiable at a cross-validated top-1 accuracy of 0.69 (95% CI [0.63, 0.74]; chance 0.125; permutation p &lt; 1e-3) from latents of order 10-50 bits per event, and a bounded incremental store shows a graceful-versus-cliff capacity trade-off. The migration pipeline fails in simulation at each stage for largely independent reasons: the putative "identity payload" is not a functionally separable module (p &gt;= 0.16 at every tested size); cross-individual functional transport via Gromov-Wasserstein collapses once the target's wiring is respected (fidelity 1.00 to 0.40, [0.31, 0.49], p &lt; 1e-3) or alignment is imperfect (0.06, [0.00, 0.13]); and biologically plausible local plasticity cannot reach the function the target topology provably admits (gap 0.45, [0.27, 0.64], p &lt; 1e-3, d = 2.0). We release FPS, the data loaders, and all operations as a toolkit. All results are at nematode / small-network scale and concern coherence in simulation, not the feasibility of reading or writing a living brain.</description>
+    </item>
+    <item>
       <title>Attention Is Only as Good as Its Witnesses: When Higher-Order Layers Help, and When They Do Not</title>
       <link>http://arxiv.org/abs/2611.11937v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.11937v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2110.08966</guid>
       <pubDate>Tue, 19 Oct 2021 00:00:00 -0000</pubDate>
       <description>Some elements of the theory and algorithmics corresponding to the computation of semilinear sparse models for discrete-time signals are presented. In this study, we will focus on approximately eventually periodic discrete-time signals, that is, signals that can exhibit an aperiodic behavior for an initial amount of time, and then become approximately periodic afterwards. The semilinear models considered in this study are obtained by combining sparse representation methods, linear autoregressive models and GRU neural network models, initially fitting each block model independently using some reference data corresponding to some signal under consideration, and then fitting some mixing parameters that are used to obtain a signal model consisting of a linear combination of the previously fitted blocks using the aforementioned reference data, computing sparse representations of some of the matrix parameters of the resulting model along the process. Some prototypical computational implementations are presented as well.</description>
-    </item>
-    <item>
-      <title>Bias-Variance Tradeoffs in Single-Sample Binary Gradient Estimators</title>
-      <link>https://arxiv.org/abs/2110.03549</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.03549</guid>
-      <pubDate>Fri, 15 Oct 2021 00:00:00 -0000</pubDate>
-      <description>Discrete and especially binary random variables occur in many machine learning models, notably in variational autoencoders with binary latent states and in stochastic binary networks. When learning such models, a key tool is an estimator of the gradient of the expected loss with respect to the probabilities of binary variables. The straight-through (ST) estimator gained popularity due to its simplicity and efficiency, in particular in deep networks where unbiased estimators are impractical. Several techniques were proposed to improve over ST while keeping the same low computational complexity: Gumbel-Softmax, ST-Gumbel-Softmax, BayesBiNN, FouST. We conduct a theoretical analysis of bias and variance of these methods in order to understand tradeoffs and verify the originally claimed properties. The presented theoretical results allow for better understanding of these methods and in some cases reveal serious issues.</description>
-    </item>
-    <item>
-      <title>Improving the Search by Encoding Multiple Solutions in a Chromosome</title>
-      <link>https://arxiv.org/abs/2110.11239</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.11239</guid>
-      <pubDate>Wed, 13 Oct 2021 00:00:00 -0000</pubDate>
-      <description>We investigate the possibility of encoding multiple solutions of a problem in a single chromosome. The best solution encoded in an individual will represent (will provide the fitness of) that individual. In order to obtain some benefits the chromosome decoding process must have the same complexity as in the case of a single solution in a chromosome. Three Genetic Programming techniques are analyzed for this purpose: Multi Expression Programming, Linear Genetic Programming, and Infix Form Genetic Programming. Numerical experiments show that encoding multiple solutions in a chromosome greatly improves the search process.</description>
     </item>
   </channel>
 </rss>
