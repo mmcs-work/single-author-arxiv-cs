@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU</title>
+      <link>http://arxiv.org/abs/2611.16422v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16422v1</guid>
+      <pubDate>Thu, 12 Nov 2026 07:31:42 +0000</pubDate>
+      <description>Whole-body motion tracking lets a humanoid robot follow reference motions, but training a tracking policy for a library of motions has usually taken hours of GPU time. SuperMimic showed that the policy can instead be trained by backpropagating through a world model learned from parallel simulation, and InstantTrack added Muon updates, a residual policy around the reference and an averaged deployed policy. We build on both and present BlinkMimic, a recipe that makes this training faster. On a simulated Unitree G1, BlinkMimic trains one policy for all 40 LAFAN1 clips in 3.4 minutes on a single RTX 4090, measured until three consecutive checkpoints reach a normalized return of at least 0.82 with no failed clip (mean of three seeds). We split training time into the cost of an iteration, the iterations needed to fit the motions, and the iterations needed to remove the last failures, and assign each component, inherited or new, to one of these terms. The new components are a step size that decreases once training has progressed, resets directed by failures of the deployed policy under deployment conditions, and GPU graph capture of the whole iteration. A leave-one-out ablation with three seeds per component shows which term each component affects, and further measurements of the gradient, the update rule and the failure cases explain these effects. Code and per-seed results are available at https://github.com/fuyichen0725/blinkmimic.</description>
+    </item>
+    <item>
+      <title>BWM-Forge: Agentic World Programming for Embodied Intelligence</title>
+      <link>http://arxiv.org/abs/2611.16221v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16221v1</guid>
+      <pubDate>Thu, 12 Nov 2026 03:14:48 +0000</pubDate>
+      <description>Generating diverse robot videos requires control over scene geometry, robot motion, and viewpoints. End-to-end video generation offers limited direct access to these variables, making targeted edits and reuse across tasks difficult. We present BWM-Forge, a code-driven framework for controllable video generation in robotics. Given robot assets and a task description, the framework accepts an initial image, an image with motion data, or a human demonstration video. A coding agent constructs editable Blender scene programs that specify objects, robot motion, and cameras. The resulting proxy videos provide structural and motion references for a video generation model, which adds visual detail. A multi-agent harness coordinates input processing, scene construction, review, and rendering. Automated evaluation and user feedback support iterative refinement, while an experience repository stores and retrieves reusable modeling and rendering rules. This design supports multiple robot embodiments, synchronized viewpoints, and appearance variation from a shared scene program. We evaluate the framework on 15 tasks covering five robot types. Compared with LingBot-World Base Cam on these tasks, BWM-Forge achieves higher aesthetic quality, imaging quality, subject and background consistency, motion smoothness, and RoboJudge-9B physical adherence and instruction alignment scores. The baseline scores higher in dynamic degree. Qualitative cases illustrate viewpoint control, scene variation, feedback-driven edits, and experience reuse across scenes. These results demonstrate a practical approach to generating controllable robot videos through editable, executable scene representations.</description>
+    </item>
+    <item>
+      <title>What World Model Does Active Object Search Need? A Study under Imperfect Detection</title>
+      <link>http://arxiv.org/abs/2611.15689v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.15689v1</guid>
+      <pubDate>Wed, 11 Nov 2026 16:28:48 +0000</pubDate>
+      <description>In active object search, a robot must decide where to look and when to stop. Imperfect detection complicates both decisions: a non-detection may indicate occlusion, an out-of-view target, or a false negative, while a detection may be a false positive. This raises the question of which representations a world model needs to support reliable search under imperfect detection. We introduce Bayesian Active Miss-aware Object Search (BAMOS) to investigate how target belief, occupancy belief, and detector errors affect search decisions. Through comprehensive ablations in Isaac Sim and HSSD houses, we examine the roles of these representations and their update mechanisms across different detector configurations. Notably, target belief and its update mechanisms are critical to search performance, with their contribution generally increasing as detection errors become more prevalent. These findings highlight the importance of maintaining and updating target beliefs to support reliable active search under uncertain detector observations, providing insights into the design of world models for embodied agents. Code is available in https://github.com/gokyeongryeol/BAMOS.</description>
+    </item>
+    <item>
+      <title>Prediction or Persistence? What Future-Prediction Scores Miss About World Models</title>
+      <link>http://arxiv.org/abs/2611.15082v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.15082v1</guid>
+      <pubDate>Wed, 11 Nov 2026 05:56:50 +0000</pubDate>
+      <description>Pretrained video world models are compared and chosen as components for robot learning largely by future-prediction scores. On its own, such a score cannot be read as evidence of prediction, because it mixes encoder quality, the near future's resemblance to the recent past, and the predictor's own contribution. We separate the three with a matched control. On 27,000 future-retrieval trials from household egocentric video, a model must pick the true continuation of a clip among eleven candidates from the same video (chance 0.091), ranked zero-shot by its own training criterion. Each model is paired with a persistence control, an identical copy whose predictor is never invoked, so the paired difference isolates the predictor. Score and contribution dissociate within the native-video V-JEPA family alone: the predictor adds +0.291 top-1 for V-JEPA 2.1 but +0.03 to +0.04 for V-JEPA 2 on the identical trials. Across five models the contribution ranges from +0.291 to negative, and it is negative only for the two action-conditioned models, which we evaluate outside their training regime. Persistence alone recovers the encoder ordering expected from pretraining, a sign that the probe tracks real signal. We suggest reporting each future-prediction score together with its persistence baseline. The gap between them, not the score, is what makes the number interpretable: a necessary check costing one forward pass. Establishing downstream usefulness is a separate matter, for a planning or control evaluation.</description>
+    </item>
+    <item>
       <title>Oscillatory Processing Units as a computing substrate for biomimetic intelligence</title>
       <link>http://arxiv.org/abs/2611.13840v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.13840v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2401.08054</guid>
       <pubDate>Tue, 16 Jan 2024 00:00:00 -0000</pubDate>
       <description>This paper proposes a novel positioning technique suitable for use in mobile robots in urban environments in which large global navigation satellite system (GNSS) positioning errors occur because of multipath signals. During GNSS positioning, the GNSS satellites that are obstructed by buildings emit reflection and diffraction signals, which are called non-line-of-sight (NLOS) multipath signals. These multipath signals cause major positioning errors. The key concept considered in this paper is the estimation of a user's position using the likelihood of the position hypotheses computed from the GNSS pseudoranges, consisting only of LOS signals based on the analysis of the pseudorange residuals. To determine the NLOS GNSS signals from the pseudorange residuals at the user's position, it is necessary to accurately determine the position before the computation of the pseudorange residuals. This problem is solved using a particle filter. We propose a likelihood estimation method using the Mahalanobis distance between the hypotheses of the user's position computed from only the LOS pseudoranges and the particles. To confirm the effectiveness of the proposed technique, a positioning test was performed in a real-world urban environment. The results demonstrated that the proposed method is effective for accurately estimating the user's position in urban canyons.</description>
-    </item>
-    <item>
-      <title>AMC'24 "A Novel Stiffness Modulation Mechanism for Energy Efficient Variable Stiffness Actuators"</title>
-      <link>https://arxiv.org/abs/2401.07430</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.07430</guid>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 -0000</pubDate>
-      <description>This paper presents a new stiffness modulation mechanism that enables infinite-range stiffness modulation in a fast manner. The proposed stiffness modulation mechanism can help improve many robot environment interaction applications such as human-robot collaboration and robotic rehabilitation.</description>
-    </item>
-    <item>
-      <title>The Multi-fingered Kinematic Model for Dual-arm Manipulation</title>
-      <link>https://arxiv.org/abs/2401.07201</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.07201</guid>
-      <pubDate>Sun, 14 Jan 2024 00:00:00 -0000</pubDate>
-      <description>Bimanual manipulation needs robots to be sensitive on the grasp force which is hard to be accurately detected. This paper proposes RL framework for enhancing the grasp quality during the bimanual manipulation. This framework is based on finger configurations and its feedback. After that, the grasp quality is evaluated by the reward mechanism for the hands to determine strategies. There are 2 strategies, simultaneous and interleaved strategies, which will be determined in this framework to manipulate objects. In this paper, the contour and centroid of objects to the robot are unknown. Through the RL framework, robots can perceive hand-object relation and then optimize fingers configurations. The simulations and experiments showed that this framework can improve the success rates and finger motion accuracy.</description>
-    </item>
-    <item>
-      <title>The Hand-object Kinematic Model for Bimanual Manipulation</title>
-      <link>https://arxiv.org/abs/2401.06610</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.06610</guid>
-      <pubDate>Fri, 12 Jan 2024 00:00:00 -0000</pubDate>
-      <description>This paper addresses the planar finger kinematics for seeking optimized manipulation strategies. The first step is to model based on geometric features of linear and rotation motion so that the robot can select the fingers configurations. This kinematic model considers the motion between hands and object. Based on 2-finger manipulation cases, this model can output the strategies for bimanual manipulation. For executing strategies, the second step is to seek the appropriate values of finger joints according to the ending orientation of fingers. The simulation shows that the computed solutions can complete the relative rotation and linear motion of unknown objects.</description>
-    </item>
-    <item>
-      <title>Transferability of HRI Research: Potential and Challenges</title>
-      <link>https://arxiv.org/abs/2401.05802</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.05802</guid>
-      <pubDate>Thu, 11 Jan 2024 00:00:00 -0000</pubDate>
-      <description>With advancement of robotics and artificial intelligence, applications for robotics are flourishing. Human-robot interaction (HRI) is an important area of robotics as it allows robots to work closer to humans (with them or for them). One crucial factor for the success of HRI research is transferability, which refers to the ability of research outputs to be adopted by industry and provide benefits to society. In this paper, we explore the potentials and challenges of transferability in HRI research. Firstly, we examine the current state of HRI research and identify various types of contributions that could lead to successful outcomes. Secondly, we discuss the potential benefits for each type of contribution and identify factors that could facilitate industry adoption of HRI research. However, we also recognize that there are several challenges associated with transferability, such as the diversity of well-defined job/skill-sets required from HRI practitioners, the lack of industry-led research, and the lack of standardization in HRI research methods. We discuss these challenges and propose potential solutions to bridge the gap between industry expectations and academic research in HRI.</description>
     </item>
   </channel>
 </rss>

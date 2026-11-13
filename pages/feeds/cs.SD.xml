@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>MusicRWKV: A Multimodal RWKV Framework for Music Representation Learning</title>
+      <link>http://arxiv.org/abs/2611.16718v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16718v1</guid>
+      <pubDate>Thu, 12 Nov 2026 12:34:08 +0000</pubDate>
+      <description>Recent music foundation models have achieved remarkable progress in music representation learning, yet most existing approaches rely on Transformer architectures whose quadratic attention complexity introduces substantial computational and memory overhead when modeling long-duration music recordings. In this work, we propose MusicRWKV, a multimodal music representation learning framework built upon the RWKV architecture. MusicRWKV jointly models waveform, spectrogram, and metadata information within a unified self-supervised learning framework. To improve efficiency for long musical sequences, we introduce an invertible compression module that reduces sequence length while preserving reconstruction capability. A FiLM-based conditioning strategy is employed to facilitate modality-aware representation learning without introducing expensive cross-attention operations. We further investigate the integration of Soft ROSA as a differentiable retrieval mechanism for neural-symbolic interaction. Experimental evaluation across a diverse collection of Music Information Retrieval (MIR) benchmarks demonstrates that the proposed RWKV-based architecture can be effectively adapted to heterogeneous music understanding tasks. A controlled pretraining ablation shows that Soft ROSA improves validation performance, while layer-wise telemetry analysis reveals a progressive transition from distributed retrieval to selective retrieval in deeper network layers. These results suggest that RWKV provides a promising architectural alternative to Transformer-based models for multimodal music understanding.</description>
+    </item>
+    <item>
       <title>Earlybird: Predictive Streaming Speech Recognition in 29M Parameters</title>
       <link>http://arxiv.org/abs/2611.14421v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.14421v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1609.04301</guid>
       <pubDate>Tue, 11 Apr 2017 00:00:00 -0000</pubDate>
       <description>TristouNet is a neural network architecture based on Long Short-Term Memory recurrent networks, meant to project speech sequences into a fixed-dimensional euclidean space. Thanks to the triplet loss paradigm used for training, the resulting sequence embeddings can be compared directly with the euclidean distance, for speaker comparison purposes. Experiments on short (between 500ms and 5s) speech turn comparison and speaker change detection show that TristouNet brings significant improvements over the current state-of-the-art techniques for both tasks.</description>
-    </item>
-    <item>
-      <title>An algorithm to assign musical prime commas to every prime number and construct a universal and compact free Just Intonation musical notation</title>
-      <link>https://arxiv.org/abs/1612.01860</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1612.01860</guid>
-      <pubDate>Tue, 28 Mar 2017 00:00:00 -0000</pubDate>
-      <description>Musical frequencies in Just Intonation are comprised of rational numbers. The structure of rational numbers is determined by prime factorisations. Just Intonation frequencies can be split into two components. The larger component uses only integer powers of the first two primes, 2 and 3. The smaller component decomposes into a series of microtonal adjustments, one for each prime number 5 and above present in the original frequency. The larger 3-limit component can be notated using scientific pitch notation modified to use Pythagorean tuning. The microtonal adjustments can be notated using rational commas which are built up from prime commas. This gives a notation system for the whole of free-JI, called Rational Comma Notation. RCN is compact since all microtonal adjustments can be represented by a single notational unit based on a rational number. RCN has different versions depending on the choice of algorithm to assign a prime comma to each prime number. Two existing algorithms SAG and KG2 are found in the literature. A novel algorithm DR is developed based on discussion of mathematical and musical criteria for algorithm design. Results for DR are presented for primes below 1400. Some observations are made about these results and their applications, including shorthand notation and pitch class lattices. Results for DR are compared with those for SAG and KG2. Translation is possible between any two free-JI notations and any two versions of RCN since they all represent the same underlying set of rational numbers.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Beyond Symmetry: Asymmetric Matching with Transformers for Collective Entity Resolution</title>
+      <link>http://arxiv.org/abs/2611.15185v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.15185v1</guid>
+      <pubDate>Wed, 11 Nov 2026 08:34:43 +0000</pubDate>
+      <description>A core assumption of entity resolution (ER) is its symmetric nature, which rests on a principle so self-evident it borders on tautology: if a refers to the same object as b, then b must also refer to the same object as a. However, this global property of symmetry does not necessarily extend to each of the complex decision processes within ER systems. In cases involving vague or ambiguous information, enforcing symmetry can be detrimental to performance, an issue exemplified by the ``bad triplet problem''. This paper investigates the effects of input-order asymmetry within a collective ER framework that integrates distinct matching and clustering stages. The input order-aware matching stage utilizes pre-trained transformers to explicitly model and exploit asymmetry, making it possible to evaluate its effect on clustering performance across multiple benchmark datasets. Our results demonstrate that asymmetry is not only measurable but also introduces a significant skew in the final entity clusters, highlighting the need to re-evaluate supervised training methodologies for matchers, particularly the development of direction-aware training paradigms that can preserve, rather than neutralize, the inherent asymmetry in matching tasks.</description>
+    </item>
+    <item>
+      <title>Beyond Foreign-Key Connectivity: Semantic Relationship Representation for Relational Deep Learning</title>
+      <link>http://arxiv.org/abs/2611.14706v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14706v1</guid>
+      <pubDate>Tue, 10 Nov 2026 20:13:30 +0000</pubDate>
+      <description>Relational databases encode information through tables and primary--foreign key constraints. Although recent Relational Deep Learning (RDL) approaches represent these databases as heterogeneous graphs, a foreign-key connection primarily specifies structural connectivity between records. Its semantic interpretation may involve additional information that is not explicitly represented by connectivity alone. This paper introduces a conceptual framework for constructing relationship-aware representations from relational databases. The framework distinguishes three complementary aspects: (i) schema-defined relationship semantics, including endpoint types and foreign-key roles; (ii) association entities and explicitly available relationship-level attributes; and (iii) contextual information describing the temporal and structural circumstances of a connection. We formulate a Relationship Representation Construction (RRC) protocol that maps relational schema elements and database records to node representations, relationship descriptors, and contextual representations. A key principle of the protocol is semantic ownership: attributes are assigned to records, relationships, or context according to their meaning, rather than merely their physical location in a database table. Ambiguous attributes are not automatically promoted to relationship features. The resulting representations can be incorporated into existing relational graph learning architectures through relationship-conditioned message passing. The proposed framework is complementary to recent work on relational message passing, graph transformers, and task-dependent graph construction. We discuss its conceptual foundations, illustrate the construction protocol using a multi-table database, and identify research questions and empirical evaluations required to establish its potential benefits.</description>
+    </item>
+    <item>
       <title>Causal Resolution of Undefined Answers in Datalog with Negation</title>
       <link>http://arxiv.org/abs/2611.11756v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.11756v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1209.3054</guid>
       <pubDate>Thu, 13 Sep 2012 00:00:00 -0000</pubDate>
       <description>This paper, the first step to connect relational databases with systems consequence (Kent: "System Consequence" 2009), is concerned with the semantics of relational databases. It aims to to study system consequence in the logical/semantic system of relational databases. The paper, which was inspired by and which extends a recent set of papers on the theory of relational database systems (Spivak: "Functorial Data Migration" 2012), is linked with work on the Information Flow Framework (IFF) [http://suo.ieee.org/IFF/] connected with the ontology standards effort (SUO), since relational databases naturally embed into first order logic. The database semantics discussed here is concerned with the conceptual level of database architecture. We offer both an intuitive and technical discussion. Corresponding to the notions of primary and foreign keys, relational database semantics takes two forms: a distinguished form where entities are distinguished from relations, and a unified form where relations and entities coincide. The distinguished form corresponds to the theory presented in (Spivak: "Simplicial databases" 2009)[arXiv:0904.2012]. The unified form, a special case of the distinguished form, corresponds to the theory presented in (Spivak: "Functorial Data Migration" 2012). A later paper will discuss various formalisms of relational databases, such as relational algebra and first order logic, and will complete the description of the relational database logical environment.</description>
-    </item>
-    <item>
-      <title>Shadow Theory, data model design for data integration</title>
-      <link>https://arxiv.org/abs/1209.2647</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1209.2647</guid>
-      <pubDate>Wed, 12 Sep 2012 00:00:00 -0000</pubDate>
-      <description>For data integration in information ecosystems, semantic heterogeneity is a known difficulty. In this paper, we propose Shadow Theory as the philosophical foundation to address this issue. It is based on the notion of shadows in Plato's Allegory of the Cave. What we can observe are just shadows, and meanings of shadows are mental entities that only exist in viewers' cognitive structures. With enterprise customer data integration example, we proposed six design principles and algebra to support required operations.</description>
-    </item>
-    <item>
-      <title>MapReduce is Good Enough? If All You Have is a Hammer, Throw Away Everything That's Not a Nail!</title>
-      <link>https://arxiv.org/abs/1209.2191</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1209.2191</guid>
-      <pubDate>Tue, 11 Sep 2012 00:00:00 -0000</pubDate>
-      <description>Hadoop is currently the large-scale data analysis "hammer" of choice, but there exist classes of algorithms that aren't "nails", in the sense that they are not particularly amenable to the MapReduce programming model. To address this, researchers have proposed MapReduce extensions or alternative programming models in which these algorithms can be elegantly expressed. This essay espouses a very different position: that MapReduce is "good enough", and that instead of trying to invent screwdrivers, we should simply get rid of everything that's not a nail. To be more specific, much discussion in the literature surrounds the fact that iterative algorithms are a poor fit for MapReduce: the simple solution is to find alternative non-iterative algorithms that solve the same problem. This essay captures my personal experiences as an academic researcher as well as a software engineer in a "real-world" production analytics environment. From this combined perspective I reflect on the current state and future of "big data" research.</description>
     </item>
   </channel>
 </rss>

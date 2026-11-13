@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>ISLA: A Coordinate-Free, Measure-Weighted Transformer for Boundary-Driven PDEs</title>
+      <link>http://arxiv.org/abs/2611.17141v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17141v1</guid>
+      <pubDate>Thu, 12 Nov 2026 17:30:03 +0000</pubDate>
+      <description>A foundational principle of physics is that all coordinate systems are equally valid: the behavior of a PDE-governed system does not depend on the origin or orientation of the frame, nor on the units or mesh used to write it down, and neither should a surrogate model. Yet the neural surrogates with the lowest errors on today's aerodynamics benchmarks lack these invariances and fail under simple transformations of the same problem: for models trained on PDEs of cars in one pose (i.e., translation and rotation) and from one mesher, rotating the full PDE raises the surface-pressure error from 4% to more than 100%, and re-sampling its boundary raises it to about 30%. We introduce ISLA (Invariant Slice Attention), a slice-attention transformer for steady, boundary-driven PDEs in which no learned operation receives a coordinate and every sum over the boundary is a quadrature. Positions enter only as distances and relative angles to learned slice anchors, lengths are measured in a unit computed from the boundary, and interior points query the boundary through a tree-accelerated learned kernel without influencing one another. With every boundary cell a token and an exact boundary read, ISLA is equivariant to rigid motions and reflections, invariant to the units of its declared data, and consistent under mesh refinement, while at every setting each query is independent of all other queries. On AeroZoo, 2,816 flows that vary in shape, size, speed, and boundary conditions, its mean reference-scaled velocity and pressure errors are at least 3.1 and 3.3 times lower than any baseline's. On AirfRANS its errors are second only to those of a boundary-integral model (GLOBE) and at least 1.6 times lower than those of Transolver and GeoTransolver.</description>
+    </item>
+    <item>
+      <title>The Distributed Run Manager A C++ Library for Distributed Processing</title>
+      <link>http://arxiv.org/abs/2611.15924v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.15924v1</guid>
+      <pubDate>Wed, 11 Nov 2026 19:18:07 +0000</pubDate>
+      <description>The DistributedRunManager (DRM) is a C++ library for distributing a computing task among a number of computer systems for parallel processing on a network. The library was originally designed to accelerate synthetic image production for tomographic images, but is also a general solution for distributing a software task across diverse, multiple hardware platforms. The DRM self-configures using a novel C++ class, the ElectionManager. This class selects a server cooperatively at runtime and eliminates the need for a priori distribution configuration. All communication, logging, and fault-tolerance mechanisms are encapsulated by the DRM, providing a "black-box" interface to the application developer.</description>
+    </item>
+    <item>
       <title>Input and Horizon Dependent Structural Fidelity in Chunk Coupled Spiking Networks</title>
       <link>http://arxiv.org/abs/2611.12813v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.12813v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/0712.2255</guid>
       <pubDate>Thu, 13 Dec 2007 00:00:00 -0000</pubDate>
       <description>Licklider advocated in 1960 the construction of computers capable of working symbiotically with humans to address problems not easily addressed by humans working alone. Since that time, many of the advances that he envisioned have been achieved, yet the time spent by human problem solvers in mundane activities remains large. I propose here four areas in which improved tools can further advance the goal of enhancing human intellect: services, provenance, knowledge communities, and automation of problem-solving protocols.</description>
-    </item>
-    <item>
-      <title>Adaptive Investment Strategies For Periodic Environments</title>
-      <link>https://arxiv.org/abs/0709.4464</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0709.4464</guid>
-      <pubDate>Wed, 28 Nov 2007 00:00:00 -0000</pubDate>
-      <description>In this paper, we present an adaptive investment strategy for environments with periodic returns on investment. In our approach, we consider an investment model where the agent decides at every time step the proportion of wealth to invest in a risky asset, keeping the rest of the budget in a risk-free asset. Every investment is evaluated in the market via a stylized return on investment function (RoI), which is modeled by a stochastic process with unknown periodicities and levels of noise. For comparison reasons, we present two reference strategies which represent the case of agents with zero-knowledge and complete-knowledge of the dynamics of the returns. We consider also an investment strategy based on technical analysis to forecast the next return by fitting a trend line to previous received returns. To account for the performance of the different strategies, we perform some computer experiments to calculate the average budget that can be obtained with them over a certain number of time steps. To assure for fair comparisons, we first tune the parameters of each strategy. Afterwards, we compare the performance of these strategies for RoIs with different periodicities and levels of noise.</description>
-    </item>
-    <item>
-      <title>Report on "American Option Pricing and Hedging Strategies"</title>
-      <link>https://arxiv.org/abs/0711.4324</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0711.4324</guid>
-      <pubDate>Tue, 27 Nov 2007 00:00:00 -0000</pubDate>
-      <description>This paper mainly discusses the American option's hedging strategies via binomialmodel and the basic idea of pricing and hedging American option. Although the essential scheme of hedging is almost the same as European option, small differences may arise when simulating the process for American option holder has more rights, spelling that the option can be exercised at anytime before its maturity. Our method is dynamic-hedging method.</description>
     </item>
   </channel>
 </rss>

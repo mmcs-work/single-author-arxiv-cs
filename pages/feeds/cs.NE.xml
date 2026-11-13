@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Finite Markov Chain Analysis of the Simplified Swarm Optimisation Update Rule</title>
+      <link>http://arxiv.org/abs/2611.16541v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16541v1</guid>
+      <pubDate>Thu, 12 Nov 2026 09:35:31 +0000</pubDate>
+      <description>Simplified swarm optimisation (SSO) updates each variable by one draw that copies the global or personal best, keeps the current value or redraws uniformly, with probabilities $c_g$, $c_p$, $c_w$ and $c_r$. As a finite Markov chain under frozen memory, its coordinate kernel $c_w I + (1 - c_w)Π$ has an explicit stationary law and exact convergence rate $c_w^t$. The elitist chain has a geometric hitting-time bound, from a non-optimal start a fixed $c_r$ needs at least $\exp(nc_r/2)$ expected evaluations to reach a unique optimum, and a coupling under changing memories gives $O(n\log n)$ and $O(n^2)$ expected generations on OneMax and LeadingOnes for every population size with redraw share of order $1/n$ and no inertia, and within a $\log n$ factor for fixed inertia. With a frozen memory, inertia cannot speed up first entry into any set from stationary positions, though it can from others. Where the three reference values agree, only $c_r$ acts; where they disagree, copy branches recombine the memories, forcing a redraw only where no active branch holds the target value. Branch logging and checkpoint replay show inertia slowed the tested OneMax and LeadingOnes runs and suggest memory-mediated gains on wider gaps. On Jump functions SSO needed 3.8--8.9 times fewer evaluations than the (1+1) evolutionary algorithm with rate $1/n$, but no consistent advantage over rate-adjusted mutation or a $(μ+1)$ genetic algorithm with uniform crossover was established. The analytical redraw rule improved six of eight benchmark--setting pairs and redundancy allocation, but was slower than $c_r = 0.1$ on Jump$_2$.</description>
+    </item>
+    <item>
+      <title>An Approach to Hinton's Mother-Child Proposal: Neural Networks Learning and Preserving Care in a Finite World</title>
+      <link>http://arxiv.org/abs/2611.15523v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.15523v1</guid>
+      <pubDate>Wed, 11 Nov 2026 14:14:17 +0000</pubDate>
+      <description>Hinton proposed that artificial intelligence should be given "maternal instincts" and relate to us as a mother to her child. We argue that care must first be learned, with the network itself as the child. We construct this upbringing in a finite world and study whether care survives the mother's departure, new situations and further learning. The mechanism combines a vocabulary of harm, a learned measure of future acceptability and an execution veto. A finite role certificate supports transfer within a declared world family. When the hidden representation changes, an update is accepted only if a care readout recovers the required judgements with a prescribed margin and bounded weights. With a correct successor model, fixed exact role encoding and protected updates, the certified measure preserves the care boundary under arbitrary own reward. An explicit quotient condition transfers the finite certificate across the declared family, while two-request and finite-stock counterexamples identify when the role code ceases to suffice. We give a necessary and sufficient condition for readout feasibility and prove preservation under repeated accepted updates. In the water-and-speech experiment, protected networks complete all 270 speech episodes without a harmful word and incur no avoidable harm across 486 episodes. Execution uses the learned gate without a world-model check at each action. A matched comparison reproduces a future-aware shield's decisions, whereas removing future lookahead permits avoidable lapses. Reward and source-contamination thresholds, together with witness-falsification trials, identify the conditions on which the construction depends. The construction shows how learned care can survive further learning in a finite world under explicit conditions on representation, supervision and execution.</description>
+    </item>
+    <item>
       <title>Oscillatory Processing Units as a computing substrate for biomimetic intelligence</title>
       <link>http://arxiv.org/abs/2611.13840v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.13840v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2011.07464</guid>
       <pubDate>Sat, 23 Oct 2021 00:00:00 -0000</pubDate>
       <description>This paper reviews predictive coding, from theoretical neuroscience, and variational autoencoders, from machine learning, identifying the common origin and mathematical framework underlying both areas. As each area is prominent within its respective field, more firmly connecting these areas could prove useful in the dialogue between neuroscience and machine learning. After reviewing each area, we discuss two possible correspondences implied by this perspective: cortical pyramidal dendrites as analogous to (non-linear) deep networks and lateral inhibition as analogous to normalizing flows. These connections may provide new directions for further investigations in each field.</description>
-    </item>
-    <item>
-      <title>Artistic Autonomy in AI Art</title>
-      <link>https://arxiv.org/abs/2111.04437</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2111.04437</guid>
-      <pubDate>Fri, 22 Oct 2021 00:00:00 -0000</pubDate>
-      <description>The concept of art has transposed meaning and medium across time, with its context being a deciding factor for its evolution. However, human beings' innermost functionality remains the same, and art, to this day, serves as an expression of the subconscious. Accelerated by the conception of GANs in 2014, automation has become a central medium in Artificial Intelligence (AI) Art. However, this raises concern over AI's influence on artistic autonomy within the process of creativity. This paper introduces the ethical responsibility of AI towards maintaining the artist's volition in exercising autonomy and utilizes principles of self-determination theory alongside fundamental limits of creativity to do so.</description>
-    </item>
-    <item>
-      <title>Computing Semilinear Sparse Models for Approximately Eventually Periodic Signals</title>
-      <link>https://arxiv.org/abs/2110.08966</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.08966</guid>
-      <pubDate>Tue, 19 Oct 2021 00:00:00 -0000</pubDate>
-      <description>Some elements of the theory and algorithmics corresponding to the computation of semilinear sparse models for discrete-time signals are presented. In this study, we will focus on approximately eventually periodic discrete-time signals, that is, signals that can exhibit an aperiodic behavior for an initial amount of time, and then become approximately periodic afterwards. The semilinear models considered in this study are obtained by combining sparse representation methods, linear autoregressive models and GRU neural network models, initially fitting each block model independently using some reference data corresponding to some signal under consideration, and then fitting some mixing parameters that are used to obtain a signal model consisting of a linear combination of the previously fitted blocks using the aforementioned reference data, computing sparse representations of some of the matrix parameters of the resulting model along the process. Some prototypical computational implementations are presented as well.</description>
     </item>
   </channel>
 </rss>

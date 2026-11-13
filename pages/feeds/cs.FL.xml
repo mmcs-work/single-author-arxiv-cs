@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models</title>
+      <link>http://arxiv.org/abs/2611.17235v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17235v1</guid>
+      <pubDate>Thu, 12 Nov 2026 18:23:56 +0000</pubDate>
+      <description>This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Automata (FSA). We establish a formal computational hierarchy, demonstrating that restricting formalization to finite propositional Horn theories guarantees decidability and constant time (O(1)) verdict extraction after offline compilation. The framework formally proves that hierarchical compositions of sub-chapter FSAs preserve this O(1) complexity, and that temporal juristic requirements, such as Tartib (order), are deterministically flattened into static ontological states, preserving the memoryless property of the automaton. To generate human-readable juristic summaries, Al Ghasali incorporates Large Language Models (LLMs) via an architecture where the deterministic FSA strictly controls the probabilistic LLM. Crucially, the paper formulates sufficient design safety conditions for this FSA LLM integration, ensuring strict adherence to the epistemological boundaries of Usul al Fiqh. To neutralize the risk of LLM hallucination, the system employs a Grammar Guided Constrained Decoding mechanism. We formally define the mapping function that dynamically constructs unambiguous right linear grammars from the FSA execution history. The paper mathematically proves that this architecture, augmented by a Bounded Neutral Lexicon and Valence Locking, guarantees the absolute absence of Decisional Hallucination, Juristic Factual Hallucination, and Semantic Inversion reducing the LLM to a pure linguistic transformer of deterministic juristic facts</description>
+    </item>
+    <item>
       <title>The Left Ripple of Byte-Pair Encoding: Certified Lookbehind for Every Dictionary</title>
       <link>http://arxiv.org/abs/2611.13061v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.13061v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1403.3972</guid>
       <pubDate>Mon, 15 Feb 2016 00:00:00 -0000</pubDate>
       <description>We present a strongly exponential lower bound that applies both to the subset synchronization threshold for binary deterministic automata and to the careful synchronization threshold for binary partial automata. In the later form, the result finishes the research initiated by Martyugin (2013). Moreover, we show that both the thresholds remain strongly exponential even if restricted to strongly connected binary automata. In addition, we apply our methods to computational complexity. Existence of a subset reset word is known to be PSPACE-complete; we show that this holds even under the restriction to strongly connected binary automata. The results apply also to the corresponding thresholds in two more general settings: D1- and D3-directable nondeterministic automata and composition sequences over finite domains.</description>
-    </item>
-    <item>
-      <title>Decidable Horn Systems with Difference Constraints Arithmetic</title>
-      <link>https://arxiv.org/abs/1503.00258</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1503.00258</guid>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 -0000</pubDate>
-      <description>This paper tackles the problem of the existence of solutions for recursive systems of Horn clauses with second-order variables interpreted as integer relations, and harnessed by quantifier-free difference bounds arithmetic. We start by proving the decidability of the problem "does the system have a solution ?" for a simple class of Horn systems with one second-order variable and one non-linear recursive rule. The proof relies on a construction of a tree automaton recognizing all cycles in the weighted graph corresponding to every unfolding tree of the Horn system. We constrain the tree to recognize only cycles of negative weight by adding a Presburger formula that harnesses the number of times each rule is fired, and reduce our problem to the universality of a Presburger-constrained tree automaton. We studied the complexity of this problem and found it to be in \textsc{NEXPtime} with an \textsc{EXPtime}-hard lower bound. Second, we drop the univariate restriction and consider multivariate second-order Horn systems with a structural restriction, called \emph{flatness}. This more general class of Horn systems is found to be decidable, within the same complexity bounds. Finally, we encode the reachability problem for Alternating Branching Vector Addition Systems (ABVASS) using Horn systems and prove that, for flat ABVASS, this problem is in co-\textsc{NEXPtime}.</description>
     </item>
   </channel>
 </rss>

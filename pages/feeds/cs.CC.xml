@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Weak Composition Theorems for Randomized Communication</title>
+      <link>http://arxiv.org/abs/2611.16192v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16192v1</guid>
+      <pubDate>Thu, 12 Nov 2026 02:31:33 +0000</pubDate>
+      <description>We present two results towards the randomized communication complexity of composed functions. Our contributions include: - \textbf{Lifting-by-Influence.} For any binary function $f$ and any outer gadget $g:\{0,1\}^n \rightarrow \mathbb{R}$, we show that up to additive terms, computing $g \circ f^n$ information-theoretically requires solving at least $\operatorname{Inf}(g)$ instances of $f$, where $\operatorname{Inf}(g)$ denotes the total influence of $g$. To our knowledge, this is the first composition lower bound for randomized communication that applies to \emph{every} choice of $f$ and $g$. - \textbf{Symmetric Composition.} When $g$ is a symmetric function with a value transition at Hamming weight $d$, we strengthen the number of required instances to $\min\{d,n+1-d\}$. As an implication, this recovers the previously known direct-sum theorem, XOR lemma, and majority lemma. Our proofs develop novel and distinctive usages of the classical \emph{input embedding} argument of Barak, Braverman, Chen, and Rao (SICOMP 2013). As an additional ingredient, we introduce a new public sampling framework that avoids auxiliary communication during the recovery phase of the protocol, ultimately reducing the extra cost from $O(n)$ bits of information to just $O(1)$.</description>
+    </item>
+    <item>
+      <title>Two-Stage Mixed-Integer Quadratic Programming in Polynomial Time</title>
+      <link>http://arxiv.org/abs/2611.14837v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14837v1</guid>
+      <pubDate>Tue, 10 Nov 2026 23:39:39 +0000</pubDate>
+      <description>Lenstra showed that mixed-integer linear programming can be solved in polynomial time when the number of integer variables is fixed and the number of continuous variables is arbitrary. Mixed-integer quadratic programming (MIQP) can be solved in polynomial time when the total number of variables is fixed. However, since MIQP is NP-hard already without integer variables, the analog of Lenstra's result fails unless P = NP. Hence, polynomial-time algorithms for MIQP with an arbitrary number of continuous variables must exploit additional structure. We study MIQPs with two-stage structure, which underlies Benders decomposition and two-stage stochastic programming. A few linking variables, including all integer variables, are coupled with many blocks of continuous variables that interact only through them, both in the constraints and in the objective. We give a polynomial-time algorithm for MIQP with an arbitrary quadratic objective when the number of linking variables and the block size are fixed, while the number of blocks, and hence the number of variables, is arbitrary. The case with no blocks is MIQP in fixed dimension. None of our assumptions can be dropped. Unless P = NP, the number of linking variables and the block size must both be fixed, the blocks cannot interact or contain integer variables, and large blocks cannot be allowed even if their objective is linear. Unless FPT = W[1], the exponent of the running time must depend on both the number of linking variables and the block size.</description>
+    </item>
+    <item>
       <title>Solomonoff Induction with Reflective Oracles</title>
       <link>http://arxiv.org/abs/2611.14454v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.14454v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2309.02768</guid>
       <pubDate>Wed, 06 Sep 2023 00:00:00 -0000</pubDate>
       <description>Tree-controlled grammars are context-free grammars where the derivation process is controlled in such a way that every word on a level of the derivation tree must belong to a certain control language. We investigate the generative capacity of such tree-controlled grammars where the control languages are special regular sets, especially strictly locally testable languages or languages restricted by resources of the generation (number of non-terminal symbols or production rules) or acceptance (number of states). Furthermore, the set theoretic inclusion relations of these subregular language families themselves are studied.</description>
-    </item>
-    <item>
-      <title>How to Compress the Solution</title>
-      <link>https://arxiv.org/abs/2303.05616</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2303.05616</guid>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 -0000</pubDate>
-      <description>Using derandomization, we provide an upper bound on the compression size of solutions to the graph coloring problem. In general, if solutions to a combinatorial problem exist with high probability and the probability is simple, then there exists a simple solution to the problem. Otherwise the problem instance has high mutual information with the halting problem.</description>
-    </item>
-    <item>
-      <title>Variational Quantum Search with Shallow Depth for Unstructured Database Search</title>
-      <link>https://arxiv.org/abs/2212.09505</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2212.09505</guid>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 -0000</pubDate>
-      <description>With the advent of powerful quantum computers, the quest for more efficient quantum algorithms becomes crucial in attaining quantum supremacy over classical counterparts in the noisy intermediate-scale quantum era. While Grover's search algorithm and its generalization, quantum amplitude amplification, offer quadratic speedup in solving various important scientific problems, their exponential time complexity limits scalability as the quantum circuit depths grow exponentially with the number of qubits. To overcome this challenge, we propose Variational Quantum Search (VQS), a novel algorithm based on variational quantum algorithms and parameterized quantum circuits. We show that a depth-10 Ansatz can amplify the total probability of $k$ ($k \geq 1$) good elements, out of $2^n$ elements represented by $n$+1 qubits, from $k/2^n$ to nearly 1, as verified for $n$ up to 26, and that the maximum depth of quantum circuits in the VQS increases linearly with the number of qubits. Our experimental results have validated the efficacy of VQS and its exponential advantage over Grover's algorithm in circuit depth for up to 26 qubits. We demonstrate that a depth-56 circuit in VQS can replace a depth-270,989 circuit in Grover's algorithm. Envisioning its potential, VQS holds promise to accelerate solutions to critical problems.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Learning Dynamics of the Influencer's Game in Resource Landscapes</title>
+      <link>http://arxiv.org/abs/2611.17148v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17148v1</guid>
+      <pubDate>Thu, 12 Nov 2026 17:33:27 +0000</pubDate>
+      <description>Across domains as varied as ecology, economics, and online platforms, individuals are incentivized to position themselves within resource-rich strategy spaces. In this work we introduce a new spatial game framework called the influencer's game. Within this new framework players' strategies are represented as positions within a trait space. Players then receive a share of a portion of a resource based on their relative influence at that resource's points traits. For the influencer's game, we show that there is a unique symmetric Nash equilibrium that exists under strict log-concavity of the influence kernel. Using the unique equilibrium we show that the stability of the system depends on the influence kernel's parameters, number of players, and the resource distribution shape. For any dimension we demonstrate a stability threshold that depends on both the scatter and curvature of the players. When this threshold is crossed, the symmetric equilibrium destabilizes and gives way to a variety of bifurcation types; including, specialist clusters, limit cycles, and sub-games that reproduce the larger game's structure. We ground these results using real-world data for resources as a demonstration of the game's application. Finally we extend the game dynamics to use multi-agent reinforcement learning and further show that the predicted bifurcation structure persists under partial observability and discretized strategy spaces. In all, the influencer's game provides a novel framework for predicting when competitive pressure drives convergence versus fragmentation with possible applications across domains.</description>
+    </item>
+    <item>
+      <title>Tight Bounds for Downward-Closed Prophet and Secretary Problems</title>
+      <link>http://arxiv.org/abs/2611.16880v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16880v1</guid>
+      <pubDate>Thu, 12 Nov 2026 14:44:56 +0000</pubDate>
+      <description>We study online selection problems subject to arbitrary downward-closed feasibility constraints, under different arrival orders, with different distributional assumptions. We establish the following bounds: (1) $Θ(\log^2 n / \log \log n)$ for the standard (adversarial-order) prophet problem, (2) $Ω(\log n)$ for the (Bayesian, random-order) prophet secretary problem, and by extension, for the standard (prior-free, random-order) secretary problem, and (3) $O(\log n / \log \log n)$ for the free-order prophet problem. Together with complementary bounds established in prior work, these results pin down the asymptotically tight competitive ratios for all these variants of prophet and secretary problems subject to downward-closed constraints. Our results refine and reinforce the big-decisions-first principle by Rubinstein and Singla [2026], establishing a superconstant separation between the random-order and free-order models.</description>
+    </item>
+    <item>
+      <title>Regime-Uncertain Data Transactions: A Game-Theoretic Framework for Self-Adapting and Self-Diagnosing Multi-ML-Agent Systems</title>
+      <link>http://arxiv.org/abs/2611.16603v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16603v1</guid>
+      <pubDate>Thu, 12 Nov 2026 10:38:21 +0000</pubDate>
+      <description>Autonomous ML agents in large organizations exchange data and model outputs across organizational and legal boundaries. Which rules bind a given exchange is not fixed. It depends on where the data subjects live, where the agents run, who owns them, whom they target, and which version of each rule is in force. Tags that describe the data can be noisy, and a counterparty can overclaim its safeguards. We model one exchange as a \emph{regime-uncertain transfer game} between two ML agents, with an enforcer as a third player. Rules enter as hard constraints with a strictest-wins structure. Agents hold a Bayesian belief over which rules apply, can pay to unlock safeguards or verify claims, and then bargain over the remaining legal bundles.Our method, Legally-Constrained Nash Bargaining (\LCNB), implements this with a Monotonic Concession Protocol using Zeuthen's rule. We prove four properties of the model and test it in a synthetic simulator with GDPR, DPDP, CCPA/CPRA and a stylised stricter regime. In two of three stress cases where residence and citizenship differ, a citizenship-based rule violates in 21--37\% of shared records, and \LCNB{} in under 1\%. The results also show limits. With our default economics, \LCNB{} shares almost only aggregates, and its low violation rate follows partly from that. Violation tolerance, tag noise and enforcement strength matter more than the choice of bargaining solution.</description>
+    </item>
+    <item>
+      <title>How to Defeat a Mafia (of Size 1)</title>
+      <link>http://arxiv.org/abs/2611.16496v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16496v1</guid>
+      <pubDate>Thu, 12 Nov 2026 09:02:28 +0000</pubDate>
+      <description>The game "Mafia'' is a social deduction game where $n$ players attempt to uncover a covert coalition of $m$ players among the $n$. Typically, $d=1$ of the non-coalition players are labelled ``Detective'' and have special abilities. Most game-theoretic analysis considers, however, only the variant without a Detective. Once the Detective role is introduced, extremely complex strategies can be employed, for which reason only upper and lower bounds for winning have been established, namely by considering specific strategies. We analyse the case $m=d=1$, providing a first example where an explicit, provably-optimal strategy can be described beyond $d=0$.</description>
+    </item>
+    <item>
+      <title>Accuracy Is Not Welfare: Evaluating AI Buyers under Strategic Price Complexity in a Synthetic Duopoly</title>
+      <link>http://arxiv.org/abs/2611.16471v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16471v1</guid>
+      <pubDate>Thu, 12 Nov 2026 08:28:49 +0000</pubDate>
+      <description>AI buying agents may alter sellers' incentives as well as consumers' decisions. In a synthetic duopoly, we evaluate price-comparison pipelines on a fixed menu and in empirical correlated-equilibrium games. Calculator assistance selects an optimal offer 84.00% of the time, versus 68.57% under verified-total disclosure, yet disclosure has a 20.14-unit higher consumer-worst equilibrium surplus. A frozen-strategy holdout comparison favors disclosure, while re-solving equilibria under scenario resampling produces a range spanning zero. These model-based results show why accuracy, loss severity, seller incentives, and welfare incidence require separate measurement.</description>
+    </item>
+    <item>
+      <title>Designing Information in a Forest: Algorithmic Aspects</title>
+      <link>http://arxiv.org/abs/2611.16327v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.16327v1</guid>
+      <pubDate>Thu, 12 Nov 2026 05:49:55 +0000</pubDate>
+      <description>The Bayesian persuasion framework models strategic information revelation by a sender to one or more receivers. We study an intricate version of the multi-receiver persuasion setting in which the communication hierarchy is a forest - i.e., some receivers observe more informative signals than others, and the partial ordering of the receivers according to the information they get is represented by a pre-specified directed forest. This model naturally captures interactions in hierarchical organizations, and it lies in between the two most commonly studied versions of Bayesian persuasion: private persuasion and public persuasion. Inspired by the classic model of private persuasion, we focus on a setting with a binary state of nature and binary-action heterogeneous receivers s.t. the sender's utility is a monotone function of the set of receivers taking a specific desirable action. We extend the computational tractability result for symmetric sender's utility from private persuasion to the forest hierarchy framework using methodology inspired by optimal transport theory. We further provide a polynomial-time algorithm when the sender's utility is modular. On the negative side, we show that, unlike in private persuasion, the case of a supermodular sender's utility function leads to an NP-hard optimization problem which further does not admit an FPTAS unless P=NP; this result holds even when each tree component of the forest is a chain of 3 receivers. To complement the hardness result, we provide a simple approximation algorithm with the approximation ratio depending linearly on the depth of the forest hierarchy. We further provide an analogous algorithm for the submodular utility case. Finally, beyond forest communication hierarchies, we rule out an FPTAS for the sender's optimal utility even in the symmetric utility case, unless P=NP.</description>
+    </item>
+    <item>
+      <title>Finite-Cadence Refresh Equilibria for Streaming Prior-Anchored Ridge: A Closed-Form Forgetting Window and Spectral Correction</title>
+      <link>http://arxiv.org/abs/2611.14586v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.14586v1</guid>
+      <pubDate>Tue, 10 Nov 2026 06:42:46 +0000</pubDate>
+      <description>Recursive estimators on drifting streams must forget stale data fast enough to track the target, yet slowly enough to average out noise. In prior-anchored ridge regression, this trade-off admits a closed-form spectral decomposition in which each eigen-direction interpolates between the data solution and the prior with pull weight $s_i = ρ/ (μ_i + ρ)$. When the anchor is refreshed every $k$ steps, we show that the moving-frame offset converges to a finite-cadence equilibrium that lags the pure-leaky path by an explicit $Δ_k(s)$ while reducing estimation variance by a factor $Ψ(s, r_k)$. Minimizing the cycle-averaged risk gives $ω^* = (4ν^2 Σ/ c')^{1/3}$, $c' = σ^2 d_{\mathrm{eff}}(ρ)$, and the plug-in strength $ρ^* = σ^2 / (nδ^2)$. A random-matrix deterministic equivalent extends both laws to finite dimension, renormalizing the anchor to $ρ_{\mathrm{eff}} = ρ(e^{ζq} - 1) / (ζq)$; it matches simulation within 5% at fixed operating points and within 13% at the method's own, and rank-deficient populations reduce exactly to their active subspace. The resulting method, SPAR, calibrates window and strength online from residuals. On a 27-configuration grid the calibrated window opens on drift without divergence, and the grid defaults transfer to an hourly electricity stream and to BCI IV 2b. The core algebra, refresh chain, and regret bounds are formalized in Lean 4.</description>
+    </item>
+    <item>
       <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
       <link>http://arxiv.org/abs/2611.13224v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.13224v1</guid>
@@ -6954,55 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2012.02671</guid>
       <pubDate>Thu, 19 Aug 2021 00:00:00 -0000</pubDate>
       <description>We consider a scenario in which two reinforcement learning agents repeatedly play a matrix game against each other and update their parameters after each round. The agents' decision-making is transparent to each other, which allows each agent to predict how their opponent will play against them. To prevent an infinite regress of both agents recursively predicting each other indefinitely, each agent is required to give an opponent-independent response with some probability at least epsilon. Transparency also allows each agent to anticipate and shape the other agent's gradient step, i.e. to move to regions of parameter space in which the opponent's gradient points in a direction favourable to them. We study the resulting dynamics experimentally, using two algorithms from previous literature (LOLA and SOS) for opponent-aware learning. We find that the combination of mutually transparent decision-making and opponent-aware learning robustly leads to mutual cooperation in a single-shot prisoner's dilemma. In a game of chicken, in which both agents try to manoeuvre their opponent towards their preferred equilibrium, converging to a mutually beneficial outcome turns out to be much harder, and opponent-aware learning can even lead to worst-case outcomes for both agents. This highlights the need to develop opponent-aware learning algorithms that achieve acceptable outcomes in social dilemmas involving an equilibrium selection problem.</description>
-    </item>
-    <item>
-      <title>Mislearning from Censored Data: The Gambler's Fallacy and Other Correlational Mistakes in Optimal-Stopping Problems</title>
-      <link>https://arxiv.org/abs/1803.08170</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1803.08170</guid>
-      <pubDate>Thu, 19 Aug 2021 00:00:00 -0000</pubDate>
-      <description>I study endogenous learning dynamics for people who misperceive intertemporal correlations in random sequences. Biased agents face an optimal-stopping problem. They are uncertain about the underlying distribution and learn its parameters from predecessors. Agents stop when early draws are "good enough," so predecessors' experiences contain negative streaks but not positive streaks. When agents wrongly expect systematic reversals (the "gambler's fallacy"), they understate the likelihood of consecutive below-average draws, converge to over-pessimistic beliefs about the distribution's mean, and stop too early. Agents uncertain about the distribution's variance overestimate it to an extent that depends on predecessors' stopping thresholds. I also analyze how other misperceptions of intertemporal correlation interact with endogenous data censoring.</description>
-    </item>
-    <item>
-      <title>An Optimal Control Framework for Online Job Scheduling with General Cost Functions</title>
-      <link>https://arxiv.org/abs/1906.02644</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1906.02644</guid>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 -0000</pubDate>
-      <description>We consider the problem of online job scheduling on a single machine or multiple unrelated machines with general job/machine-dependent cost functions. In this model, each job $j$ has a processing requirement (length) $v_{ij}$ and arrives with a nonnegative nondecreasing cost function $g_{ij}(t)$ if it has been dispatched to machine $i$, and this information is revealed to the system upon arrival of job $j$ at time $r_j$. The goal is to dispatch the jobs to the machines in an online fashion and process them preemptively on the machines so as to minimize the generalized completion time $\sum_{j}g_{i(j)j}(C_j)$. Here $i(j)$ refers to the machine to which job $j$ is dispatched, and $C_j$ is the completion time of job $j$ on that machine. It is assumed that jobs cannot migrate between machines and that each machine can work on a single job at any time instance. In particular, we are interested in finding an online scheduling policy whose objective cost is competitive with respect to a slower optimal offline benchmark, i.e., the one that knows all the job specifications a priori and is slower than the online algorithm. We first show that for the case of a single machine and special cost functions $g_j(t)=w_jg(t)$, with nonnegative nondecreasing $g(t)$, the highest-density-first rule is optimal for the generalized fractional completion time. We then extend this result by giving a speed-augmented competitive algorithm for the general nondecreasing cost functions $g_j(t)$ by utilizing a novel optimal control framework. This approach provides a principled method for identifying dual variables in different settings of online job scheduling with general cost functions. Using this method, we also provide a speed-augmented competitive algorithm for multiple unrelated machines with convex functions $g_{ij}(t)$, where the competitive ratio depends on the curvature of cost functions $g_{ij}(t)$.</description>
-    </item>
-    <item>
-      <title>Sophisticated Students in Boston Mechanism and Gale-Shapley Algorithm for School Choice Problem</title>
-      <link>https://arxiv.org/abs/2108.05951</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2108.05951</guid>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 -0000</pubDate>
-      <description>We present our experimental results of simulating the school choice problem which deals with the assignment of students to schools based on each group's complete preference list for the other group using two algorithms: Boston mechanism and student-proposing Gale-Shapley algorithm. We compare the effects of sophisticated students altering their preference lists with regards to these two algorithms. Our simulation results show that sophisticated students can benefit more in Boston mechanism compared to Gale-Shapley algorithm based on multiple evaluation metrics.</description>
-    </item>
-    <item>
-      <title>Belief-Averaged Relative Utilitarianism</title>
-      <link>https://arxiv.org/abs/2005.03693</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2005.03693</guid>
-      <pubDate>Wed, 11 Aug 2021 00:00:00 -0000</pubDate>
-      <description>We consider social welfare functions when the preferences of individual agents and society maximize subjective expected utility in the tradition of Savage. A system of axioms is introduced whose unique solution is the social welfare function that averages the agents' beliefs and sums up their utility functions, normalized to have the same range. The first distinguishing axiom requires positive association of society's preferences with the agents' preferences for acts about which beliefs agree. The second is a weakening of Arrow's independence of irrelevant alternatives that only applies to non-redundant acts.</description>
-    </item>
-    <item>
-      <title>Augmented Reality for Education: A Review</title>
-      <link>https://arxiv.org/abs/2109.02386</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2109.02386</guid>
-      <pubDate>Sat, 07 Aug 2021 00:00:00 -0000</pubDate>
-      <description>Augmented Reality, or simply AR, is the incorporation of information in digital format that includes live footage of a certain user's real-time environment. Also now, various universities are using Augmented Reality. Applying the technology in the education sector can result in having a smart campus. In line with that, this paper will discuss how Augmented Reality is being used now in different learning areas.</description>
-    </item>
-    <item>
-      <title>Augmented Reality and Gamification: A Framework for Developing Supplementary Learning Tool</title>
-      <link>https://arxiv.org/abs/2108.03487</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2108.03487</guid>
-      <pubDate>Sat, 07 Aug 2021 00:00:00 -0000</pubDate>
-      <description>The main purpose of the study is to develop a supplementary learning tool framework by the use of a dynamic mobile application using Unity AR and Vuforia for Senior High School (SHS) students and teachers to help the learning process in SHS Earth Science. The researchers will be using the Software Development Life Cycle (SDLC) Model of methodology to ensure the quality of the software as well as the correctness of the development process. The expected result of the study is that Augmented Reality and Gamification will now be used as a supplementary learning tool in SHS Earth Science. Augmented Reality and Gamification can now be used as a supplementary learning tool in SHS Earth Science using the designed framework. Future studies will focus on the development of the framework and the mobile application. Since the system has a lot of potential in the education sector and due to the effects of COVID-19, the software will serve as a pioneer to show that a supplementary tool will help students learn logically and entertainingly especially since schools nowadays are transitioning with either distance learning or blended learning.</description>
-    </item>
-    <item>
-      <title>Extension of Additive Valuations to General Valuations on the Existence of EFX</title>
-      <link>https://arxiv.org/abs/2107.09901</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.09901</guid>
-      <pubDate>Mon, 26 Jul 2021 00:00:00 -0000</pubDate>
-      <description>Envy-freeness is one of the most widely studied notions in fair division. Since envy-free allocations do not always exist when items are indivisible, several relaxations have been considered. Among them, possibly the most compelling concept is envy-freeness up to any item (EFX). We study the existence of EFX allocations for general valuations. The existence of EFX allocations is a major open problem. For general valuations, it is known that an EFX allocation always exists (i) when $n=2$ or (ii) when all agents have identical valuations, where $n$ is the number of agents. it is also known that an EFX allocation always exists when one can leave at most $n-1$ items unallocated. We develop new techniques and extend some results of additive valuations to general valuations on the existence of EFX allocations. We show that an EFX allocation always exists (i) when all agents have one of two general valuations or (ii) when the number of items is at most $n+3$. We also show that an EFX allocation always exists when one can leave at most $n-2$ items unallocated. In addition to the positive results, we construct an instance with $n=3$ in which an existing approach does not work as it is.</description>
     </item>
   </channel>
 </rss>
