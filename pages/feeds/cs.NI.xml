@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Who sets the consent signal? Platform defaults and crawl coverage in measuring opt-outs from AI training</title>
+      <link>http://arxiv.org/abs/2611.18213v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.18213v1</guid>
+      <pubDate>Fri, 13 Nov 2026 14:18:25 +0000</pubDate>
+      <description>Web data used in social research and in the training of AI models increasingly carry consent signals, but who sets these signals is rarely measured. This paper attributes opt-outs from AI training to the party that set them. The complete lists of Polish, Czech, Slovak, Hungarian and German domains recorded by Common Crawl, with 3,445,751 reachable sites, were crawled in October 2026 together with a random sample of 10,000 Slovak registry domains. Each signal was matched against vendor templates and identical files. Four exploratory hypotheses were examined with logistic models. Between 0.70% and 3.82% of the listed sites opt out. Platform and hosting defaults set 15% to 78% of the opt-outs. Settings active by default reach 60% to 95% of a vendor's sites, while settings that owners switch on reach at most 2.1%. Most of the higher Czech and Slovak rates compared with Germany are statistically attributable to platforms. Lists derived from Common Crawl miss about a third of the Slovak opt-outs because they exclude sites that block its crawler. The results describe delegated consent, a signal that a platform sets on behalf of its users, which measurements of consent on the web must consider.</description>
+    </item>
+    <item>
       <title>What Does It Cost to Force-Close a Lightning Channel? Evidence from 974,000 Channel Closes, 2018-2026</title>
       <link>http://arxiv.org/abs/2611.16311v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.16311v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1712.09724</guid>
       <pubDate>Sat, 23 Dec 2017 00:00:00 -0000</pubDate>
       <description>The 3rd Generation Partnership Project (3GPP) is in the process of developing the next generation radio access technology, named New Radio (NR), which will be proposed as a candidate technology for IMT-2020. This article outlines the wide bandwidth operation of NR, among other new features being considered, based on the up-to-date discussions and decisions made in 3GPP standardization meetings. The much wider channel bandwidth of NR, compared to LTE, enables more efficient use of resources than the existing carrier aggregation framework at lower control overhead. The support of multiple sub-carrier spacing options allows NR to operate in a wide range of carrier frequency from sub-6 GHz band to mmWave band with appropriate handling of multi-path delay spread and phase noise depending on the carrier frequency. In addition, the introduction of the new bandwidth part concept allows to flexibly and dynamically configure User Equipment's (UE's) operating bandwidth, which will make NR an energy efficient solution despite the support of wide bandwidth. Other NR wideband operation related issues, such as the support of UEs with limited radio frequency (RF) capability and frequency domain resource indexing, are also explained in this article.</description>
-    </item>
-    <item>
-      <title>COOJA Network Simulator: Exploring the Infinite Possible Ways to Compute the Performance Metrics of IOT Based Smart Devices to Understand the Working of IOT Based Compression &amp; Routing Protocols</title>
-      <link>https://arxiv.org/abs/1712.08303</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1712.08303</guid>
-      <pubDate>Fri, 22 Dec 2017 00:00:00 -0000</pubDate>
-      <description>This paper demonstrates the scheme regarding Internet of Things (IOT) which is well thought-out the next generation of Internet. IOT explicitly elaborates the assimilation of human beings and physical systems, as they can cooperate with each other so leading towards a sort of encroachment in networking by interconnecting things together while making use of wireless embedded systems, said to be the building blocks of IOT, that are capable to be given an IP address and thus making them part of the global internet. Several essential approaches that entail in IOT and supports this innovation are being argued in this paper. 6LoWPAN (IPV6 Low Power Personal Area Networks) is a protocol used to appropriately and efficiently use IPV6 addresses. Control messages of RPL routing protocol for low power devices are discussed to understand the working of RPL protocol. In the end Contiki OS based COOJA Network simulator is used to demonstrate the working of how these routing and compression protocol works in real time simulation.</description>
     </item>
   </channel>
 </rss>

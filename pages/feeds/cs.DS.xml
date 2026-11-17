@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Exact-Quota Facility Location: A Transfer Framework and Three Approximation Guarantees</title>
+      <link>http://arxiv.org/abs/2611.18262v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.18262v1</guid>
+      <pubDate>Fri, 13 Nov 2026 14:57:14 +0000</pubDate>
+      <description>Facility location with outliers asks which facilities to open and which clients to serve, subject to a prescribed service quota. We give a framework for transferring facility-location cost certificates to this exact-quota setting. The framework yields deterministic polynomial-time approximation guarantees of $571/376&lt;1.52$ for metric facility location with outliers, strictly less than $1.853$ for priority facility location with outliers, and $2.16995&lt;2.17$ for squared-metric facility location with outliers. Each algorithm serves the prescribed number of clients and pays the original facility-opening costs. The framework separates initialization from improvement. A growth process is stopped when it first reaches the quota; deleting excess clients from its last batch leaves a payment deficit supported on a bounded number of facilities. Greedy additions then reoptimize the served client set. A threshold-coverage representation makes the resulting service cost supermodular and allows the usual density analysis to compare different client sets. Finally, enumerating and prepaying a constant number of expensive facilities absorbs the exceptional costs. A transfer theorem states exactly which initialization certificate is sufficient and how many prepaid facilities it requires. The three applications supply this certificate in different ways. The metric case uses a quota prefix of reassigning JMS; the priority case uses persistent contributions and a cleanup ordered by service level; and the squared-metric case uses a local factor-revealing certificate valid for arbitrary client subsets of the same run. We provide complete finite proofs of the numerical interfaces, including an exact rational certificate for the squared-metric bound.</description>
+    </item>
+    <item>
       <title>Dynamic $k$-Median with Worst-Case Update Time and Recourse</title>
       <link>http://arxiv.org/abs/2611.17296v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17296v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2406.11628</guid>
       <pubDate>Mon, 23 Jun 2025 00:00:00 -0000</pubDate>
       <description>We present a simple, self-contained, linear reduction from 3-SAT to Treewidth. Specifically, it shows that 1.00005-approximating Treewidth is NP-hard, and solving Treewidth exactly requires $2^{Ω(n)}$ time, unless the Exponential-Time Hypothesis fails. We further derive, under the latter assumption, that there are some constants $δ&gt; 1$ and $c&gt;0$ such that $δ$-approximating Treewidth requires time $2^{Ω(n/\log^c n)}$.</description>
-    </item>
-    <item>
-      <title>Adaptive Hybrid Sort: Dynamic Strategy Selection for Optimal Sorting Across Diverse Data Distributions</title>
-      <link>https://arxiv.org/abs/2506.20677</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2506.20677</guid>
-      <pubDate>Sun, 22 Jun 2025 00:00:00 -0000</pubDate>
-      <description>Sorting is an essential operation in computer science with direct consequences on the performance of large scale data systems, real-time systems, and embedded computation. However, no sorting algorithm is optimal under all distributions of data. The new adaptive hybrid sorting paradigm proposed in this paper is the paradigm that automatically selects the most effective sorting algorithm Counting Sort, Radix Sort, or QuickSort based on real-time monitoring of patterns in input data. The architecture begins by having a feature extraction module to compute significant parameters such as data volume, value range and entropy. These parameters are sent to a decision engine involving Finite State Machine and XGBoost classifier to aid smart and effective in choosing the optimal sorting strategy. It implements Counting Sort on small key ranges, Radix Sort on large range structured input with low-entropy keys and QuickSort on general purpose sorting. The experimental findings of both synthetic and real life dataset confirm that the proposed solution is actually inclined to excel significantly by comparison in execution time, flexibility and the efficiency of conventional static sorting algorithms. The proposed framework provides a scalable, high perhaps and applicable to a wide range of data processing operations like big data analytics, edge computing, and systems with hardware limitations.</description>
     </item>
   </channel>
 </rss>

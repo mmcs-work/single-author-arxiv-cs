@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Marimba: A System One Model for Speech</title>
+      <link>http://arxiv.org/abs/2611.18330v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.18330v1</guid>
+      <pubDate>Fri, 13 Nov 2026 15:44:18 +0000</pubDate>
+      <description>Speech applications require decisions about term presence, turn completion, and language within an audio window. We present Marimba, an interface for typed speech decisions built on frozen Qwen3-ASR 0.6B features. Lexical questions use zero-shot scoring of ASR transcripts; non-lexical questions use a question-conditioned head and a separate layer-18 turn-end readout. Language identification uses the ASR model's own language scores. On private conversational test sets, decoder AUROC is 0.80-0.92; on public read speech it is 0.92-0.97. Speech Commands four-way accuracy is 0.93; binary lexical ECE is at most 0.08. Personal-information detection, which passes the greedy transcript to a private, curated PII pipeline, reaches item-level F1 0.904 on synthetic Brazilian Portuguese speech (1.000 on reference transcripts). Layer-12 speaker readouts detect speaker change with AUROC 0.966-0.980 on AMI and VoxConverse, above an ECAPA baseline, and count speakers (0, 1, 2, or 3+) more accurately than pyannote 3.1. The turn-end readout reaches AUROC 0.930 versus Smart Turn v3.2 at 0.982 on Smart Turn's own test set. On a subset of ICSI meetings labeled by next speaker, AUROC is 0.716 versus 0.712; the paired confidence interval includes zero.</description>
+    </item>
+    <item>
+      <title>CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais</title>
+      <link>http://arxiv.org/abs/2611.17573v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17573v1</guid>
+      <pubDate>Thu, 12 Nov 2026 22:51:31 +0000</pubDate>
+      <description>Cameroon Pidgin English (a West African Pidgin English variety) and Camfranglais are widely used in Cameroon, yet to our knowledge, neither has a dedicated spoken Natural Language Inference (NLI) resource. We introduce CamSpokenNLI, a pilot dataset of 114 scenario-matched spoken NLI items in each variety (228 in total), recorded by one native speaker from Buea. Each item pairs premise audio and text with a hypothesis, an NLI label, and English glosses. The author assigned labels, so the dataset is an exploratory resource rather than a mature benchmark. The NLI experiments use the reference text; the audio is evaluated separately. XLM-RoBERTa baselines with five-fold item-level cross-validation reach 44.7% on Pidgin and 46.2% on Camfranglais (chance 33.3%). Still, neither is statistically distinguishable from hypothesis-only input, so hypothesis wording may account for much of the accuracy. Under disjoint-item cross-variety transfer, where a test item's counterpart is never seen in training, accuracy is 40.1% (Pidgin to Camfranglais) and 45.6% (Camfranglais to Pidgin). A counterpart-leak audit raises this to 60-64%, illustrating how counterpart leakage can overstate transfer. Zero-shot Whisper transcription of the recordings performs poorly: the best word error rates are 66.6% for Pidgin and 45.5% for Camfranglais, and with automatic language identification, Whisper Large-v3 labels 93 of 114 Pidgin recordings as Yoruba or Swahili. Together, the results suggest that such resources need disjoint-item evaluation and hypothesis-only controls, and that speech recognition must be adapted to these varieties before spoken NLI can be tested end to end.</description>
+    </item>
+    <item>
       <title>MusicRWKV: A Multimodal RWKV Framework for Music Representation Learning</title>
       <link>http://arxiv.org/abs/2611.16718v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.16718v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1704.03939</guid>
       <pubDate>Wed, 12 Apr 2017 00:00:00 -0000</pubDate>
       <description>Speaker Identification process is to identify a particular vocal cord from a set of existing speakers. In the speaker identification processes, unknown speaker voice sample targets each of the existing speakers present in the system and gives a predication. The predication may be more than one existing known speaker voice and is very close to the unknown speaker voice. The model is a Gaussian mixture model built by the extracted acoustic feature vectors from voice. The i-vector based dimension compression mapping function of the channel depended speaker, and super vector give better predicted scores according to cosine distance scoring associated with the order pair of speakers. In the order pair, the first coordinate is the unknown speaker i.e. test speaker, and the second coordinates is the existing known speaker i.e. target speaker. This paper presents the enhancement of the prediction based on i- vector in compare to the normalized set of predicted score. In the simulation, known speaker voices are collected through different channels and in different languages. In the testing, the GMM voice models, and GMM based i-Vector speaker voice models of the known speakers are used among the numbers of clusters in the test data set.</description>
-    </item>
-    <item>
-      <title>i Vector used in Speaker Identification by Dimension Compactness</title>
-      <link>https://arxiv.org/abs/1704.03934</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1704.03934</guid>
-      <pubDate>Wed, 12 Apr 2017 00:00:00 -0000</pubDate>
-      <description>The automatic speaker identification procedure is used to extract features that help to identify the components of the acoustic signal by discarding all the other stuff like background noise, emotion, hesitation, etc. The acoustic signal is generated by a human that is filtered by the shape of the vocal tract, including tongue, teeth, etc. The shape of the vocal tract determines and produced, what signal comes out in real time. The analytically develops shape of the vocal tract, which exhibits envelop for the short time power spectrum. The ASR needs efficient way of extracting features from the acoustic signal that is used effectively to makes the shape of the individual vocal tract. To identify any acoustic signal in the large collection of acoustic signal i.e. corpora, it needs dimension compactness of total variability space by using the GMM mean super vector. This work presents the efficient way to implement dimension compactness in total variability space and using cosine distance scoring to predict a fast output score for small size utterance.</description>
-    </item>
-    <item>
-      <title>TristouNet: Triplet Loss for Speaker Turn Embedding</title>
-      <link>https://arxiv.org/abs/1609.04301</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1609.04301</guid>
-      <pubDate>Tue, 11 Apr 2017 00:00:00 -0000</pubDate>
-      <description>TristouNet is a neural network architecture based on Long Short-Term Memory recurrent networks, meant to project speech sequences into a fixed-dimensional euclidean space. Thanks to the triplet loss paradigm used for training, the resulting sequence embeddings can be compared directly with the euclidean distance, for speaker comparison purposes. Experiments on short (between 500ms and 5s) speech turn comparison and speaker change detection show that TristouNet brings significant improvements over the current state-of-the-art techniques for both tasks.</description>
     </item>
   </channel>
 </rss>

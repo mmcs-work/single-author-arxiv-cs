@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Meta Build Systems as Logic Programs</title>
+      <link>http://arxiv.org/abs/2611.17672v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17672v1</guid>
+      <pubDate>Fri, 13 Nov 2026 02:36:21 +0000</pubDate>
+      <description>Meta build systems such as CMake, Meson and Bazel derive command graphs from project descriptions, user choices and machine facts. Imperative scripts, search paths and special cases make routine decisions interact poorly: search order can choose compatible packages without an explicit project choice, packagers must patch author flag preferences, and cross-builds need annotations or nested build trees for tools run during the build. Our central insight is to express configuration as relational inference: objects follow from sources, flags and libraries from dependencies, and language standards from transitive requirements. We introduce buildlog, a meta build system whose stratified logical core isolates build derivation from impure environmental probes. It rejects ambiguity in toolchain or package selection and explains derived facts through provenance. Author constraints and user preferences use distinct, statically checked input relations. Libraries can ship consumer rules, including Qt's moc/rcc rules, using the same facts for installed and built code. Using a compiled program in a build rule lets buildlog infer its build-machine configuration. We evaluate buildlog on eleven case studies of ten projects, validating configurations through execution and artifact checks while reporting remaining flag differences and platform limits. In Halide, generators link an LLVM-based compiler and run during the build to emit WebAssembly or Android code; where CMake requires nested builds, buildlog derives build-machine and target-platform configurations in one graph. A supporting formal account establishes termination, within-round probe-order independence, and agreement between fresh and validated cached runs under explicit finiteness and probe obligations. The results show that confining impurity to fact discovery yields a small, uniform and explainable configuration semantics.</description>
+    </item>
+    <item>
+      <title>User-Schedulable Approximations for Quantized Tensor Programs</title>
+      <link>http://arxiv.org/abs/2611.17526v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17526v1</guid>
+      <pubDate>Thu, 12 Nov 2026 21:25:11 +0000</pubDate>
+      <description>Quantization lets language models run on edge devices, but it sharply increases the number of tensor kernels a library must maintain: every weight format must be paired with every activation format on every instruction set and GPU, with an encoder and a decoder that agree on the stored bytes. In GGML, the tensor library used by llama.cpp, these kernels are written by hand, and only 8 of the 54 weight-activation pairs it runs on our Arm CPU have a tiled matrix-multiplication kernel. We extend Halide's separation of algorithm and schedule to the representation of values. Each approximation is a codec, an encoder paired with a decoder, composed from reusable units: quantizers, integer representations, bit packers and layouts. A new directive, approximate_by, applies a codec to one stage of a program and returns the encoder and decoder as ordinary stages that Halide can schedule, so both decoders fuse into the register tiles of a matrix product. Optional contracts, such as a round-trip law, are checked by property tests; the law exposed an inconsistent block sum in GGML's q8_1. One algorithm and one schedule library generate 347 kernels for 31 of GGML's and KleidiAI's formats on Arm CPUs and Apple GPUs, covering 38 weight-activation pairs for which GGML has no kernel, in 3.7x less code than GGML and KleidiAI. On an Apple M3 Max, our kernels reach at least 95% of the speed of GGML's format-specific kernels in 91.0% of the cases that have one, with a median speedup of 1.13x, and are faster still where GGML falls back to blocked dot products. Counting Apple's BLAS library, which is usually faster for larger f32 products, we still reach that threshold in 86.9% of CPU cases. A port to x86 with Intel's AMX adds 793 lines of code and matches GGML in 83.5% of its cases.</description>
+    </item>
+    <item>
       <title>Gödel's Incompleteness Theorems in Grounded Arithmetic</title>
       <link>http://arxiv.org/abs/2611.13697v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.13697v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1810.11673</guid>
       <pubDate>Sat, 27 Oct 2018 00:00:00 -0000</pubDate>
       <description>The correctness of a structured program is, at best, plausible. Though this is a step forward compared to what came before, it falls short of verified correctness. To verify a structured program according to Hoare's method one is faced with the problem of finding assertions to fit existing code. In 1971 this mode of verification was declared by Dijkstra as too hard to be of practical use---he advised that proof and code were to grow together. A method for doing this was independently published by Reynolds in 1978 and by van Emden in 1979. The latter was further developed to attain the form of matrix code. This form of code not only obviates the need of fitting assertions to existing code, but helps in discovering an algorithm that reaches a given postcondition from a fixed precondition. In this paper a keyboard-editable version of matrix code is presented that uses E.W. Dijkstra's guarded commands as starting point. The result is reached by using Floyd's method rather than Hoare's as starting point.</description>
-    </item>
-    <item>
-      <title>Some Challenges of Specifying Concurrent Program Components</title>
-      <link>https://arxiv.org/abs/1810.09611</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1810.09611</guid>
-      <pubDate>Tue, 23 Oct 2018 00:00:00 -0000</pubDate>
-      <description>The purpose of this paper is to address some of the challenges of formally specifying components of shared-memory concurrent programs. The focus is to provide an abstract specification of a component that is suitable for use both by clients of the component and as a starting point for refinement to an implementation of the component. We present some approaches to devising specifications, investigating different forms suitable for different contexts. We examine handling atomicity of access to data structures, blocking operations and progress properties, and transactional operations that may fail and need to be retried.</description>
-    </item>
-    <item>
-      <title>A Theory of Lazy Imperative Timing</title>
-      <link>https://arxiv.org/abs/1810.09610</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1810.09610</guid>
-      <pubDate>Tue, 23 Oct 2018 00:00:00 -0000</pubDate>
-      <description>We present a theory of lazy imperative timing.</description>
     </item>
   </channel>
 </rss>

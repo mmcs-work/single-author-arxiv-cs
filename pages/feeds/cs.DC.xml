@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Multi-GPU Tridiagonal Partition Algorithm</title>
+      <link>http://arxiv.org/abs/2611.18111v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.18111v1</guid>
+      <pubDate>Fri, 13 Nov 2026 12:35:41 +0000</pubDate>
+      <description>This paper presents a multi-GPU version and a multi-GPU recursive version of the parallel partition method for systems of linear algebraic equations with tridiagonal coefficient matrices and their implementations in CUDA. Computational experiments on one and two GPU cards, for different system sizes and with different number of recursive steps are conducted. The results are analyzed and discussed.</description>
+    </item>
+    <item>
       <title>Locality Meets Interference: Structure and Scheduling in Radio Multicasting</title>
       <link>http://arxiv.org/abs/2611.16844v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.16844v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2305.06507</guid>
       <pubDate>Wed, 02 Aug 2023 00:00:00 -0000</pubDate>
       <description>Nearly thirty years ago, it was shown that $Ω(\sqrt{n})$ registers are needed to solve obstruction-free consensus among $n$ processes. This lower bound was improved to $n$ registers in 2018, which exactly matches the best upper bound. The $Ω(\sqrt{n})$ space complexity lower bound actually applies to a class of objects called historyless objects, which includes registers, test-and-set objects, and readable swap objects. However, every known $n$-process obstruction-free consensus algorithm from historyless objects uses $Ω(n)$ objects. We give the first $Ω(n)$ space complexity lower bounds on consensus algorithms for two kinds of historyless objects. First, we show that any obstruction-free consensus algorithm from swap objects uses at least $n-1$ objects. More generally, we prove that any obstruction-free $k$-set agreement algorithm from swap objects uses at least $\lceil \frac{n}{k}\rceil - 1$ objects. This is the first non-constant lower bound on the space complexity of solving $k$-set agreement with swap objects when $k &gt; 1$. We also present an obstruction-free $k$-set agreement algorithm from $n-k$ swap objects, exactly matching our lower bound when $k=1$. Second, we show that any obstruction-free binary consensus algorithm from readable swap objects with domain size $b$ uses at least $\frac{n-2}{3b+1}$ objects. Since any historyless object can be simulated by a readable swap object with the same domain, our results imply that any obstruction-free consensus algorithm from historyless objects with domain size $b$ uses at least $\frac{n-2}{3b+1}$ objects. For $b = 2$, we show a slightly better lower bound of $n-2$. The best known obstruction-free binary consensus algorithm from readable swap objects with domain size $2$ uses $2n-1$ objects, asymptotically matching our lower bound.</description>
-    </item>
-    <item>
-      <title>Checking Presence Reachability Properties on Parameterized Shared-Memory Systems</title>
-      <link>https://arxiv.org/abs/2306.17476</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.17476</guid>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 -0000</pubDate>
-      <description>We consider the verification of distributed systems composed of an arbitrary number of asynchronous processes. Processes are identical finite-state machines that communicate by reading from and writing to a shared memory. Beyond the standard model with finitely many registers, we tackle round-based shared-memory systems with fresh registers at each round. In the latter model, both the number of processes and the number of registers are unbounded, making verification particularly challenging. The properties studied are generic presence reachability objectives, which subsume classical questions such as safety or synchronization by expressing the presence or absence of processes in some states. In the more general round-based setting, we establish that the parameterized verification of presence reachability properties is PSPACE-complete. Moreover, for the roundless model with finitely many registers, we prove that the complexity drops down to NP-complete and we provide several natural restrictions that make the problem solvable in polynomial time.</description>
     </item>
   </channel>
 </rss>

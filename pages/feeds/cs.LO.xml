@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On Structure-Aware SAT Solving</title>
+      <link>http://arxiv.org/abs/2611.18017v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.18017v1</guid>
+      <pubDate>Fri, 13 Nov 2026 10:43:42 +0000</pubDate>
+      <description>Although modern SAT solvers have made remarkable progress, they still exploit formula structure only to a limited extent. We present two techniques that make SAT solving more structure-aware and provide experimental results showing their promise. The first technique ``$\mathit{melts}$'' the formula by reducing interaction between its parts. This is achieved by adding new variables, using existential quantifiers, and applying a procedure called partial quantifier elimination. The second technique exploits the notion of a $\mathit{local}$ $\mathit{proof}$. The latter establishes that a formula is unsatisfiable by proving that certain literals of its clauses are redundant. We show that using local proofs makes SAT solving more formula-specific.</description>
+    </item>
+    <item>
+      <title>Analysing Busy Beaver Machines (Or How to Find Ossified Ocelots)</title>
+      <link>http://arxiv.org/abs/2611.17742v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17742v1</guid>
+      <pubDate>Fri, 13 Nov 2026 04:54:33 +0000</pubDate>
+      <description>The busy beaver problem involves working with machines which can produce very large numbers, both for the output of certain Turing machines and for the number of steps taken to execute them. Given that these numbers can involve thousands of digits, it is crucial to have a means of proving properties of the relevant machines which allow manipulation of such large numbers. In this paper we introduce the notion of \textit{shape computations} as a means of isolating key properties that allow efficient execution of the relevant Turing machines based on verifiable properties of state transitions. In particular, this notion allows us to provide an analytical result which demonstrates the quadratic relationship between the size of the output and the number of steps required to generate it. We have also developed an initial implementation of our approach, and we provide empirical evaluation of it on a suite of 240 example machines.</description>
+    </item>
+    <item>
       <title>Propositional Dynamic Logic without tests does not have Craig Interpolation</title>
       <link>http://arxiv.org/abs/2611.16759v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.16759v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2503.02672</guid>
       <pubDate>Tue, 04 Mar 2025 00:00:00 -0000</pubDate>
       <description>Generalized trees, we call them O-trees, are defined as hierarchical partial orders, i.e., such that the elements larger than any one are linearly ordered. Quasi-trees are, roughly speaking, undirected O-trees. For O-trees and quasi-trees, we define relational structures on their leaves that characterize them up to isomorphism. These structures have characterizations by universal first-order sentences. Furthermore, we consider cases where O-trees and quasi-trees can be reconstructed from their leaves by CMSO-transductions. These transductions are transformations of relational structures defined by monadic second-order (MSO) formulas. The letter "C" for counting refers to the use of set predicates that count cardinalities of finite sets modulo fixed integers. O-trees and quasi-trees make it possible to define respectively, the modular decomposition and the rank-width of a countable graph. Their constructions from their leaves by transductions of different types apply to rank-decompositions, and to modular decomposition and to other canonical graph decompositions.</description>
-    </item>
-    <item>
-      <title>A Note On Square-free Sequences and Anti-unification Type</title>
-      <link>https://arxiv.org/abs/2412.10307</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2412.10307</guid>
-      <pubDate>Mon, 03 Mar 2025 00:00:00 -0000</pubDate>
-      <description>Error: Peer-review process exposed an error in Theorem 1 that, unfourtunately, is not repairable. Idempotent semigroups are always finite. See Green and Rees [1952], Siekmann and Szabó [1981] for details Anti-unification is a fundamental operation used for inductive inference. It is abstractly defined as a process deriving from a set of symbolic expressions a new symbolic expression possessing certain commonalities shared between its members. We consider anti-unification over term algebras where some function symbols are interpreted as associative-idempotent $(f (x, f (y, z)) = f (f (x, y), z)$ and $f (x, x) = x$, respectively) and show that there exists generalization problems for which a minimal complete set of solutions does not exist (Nullary), that is every complete set must contain comparable elements with respect to the generality relation. In contrast to earlier techniques for showing the nullarity of a generalization problem, we exploit combinatorial properties of complete sets of solutions to show that comparable elements are not avoidable. We show that every complete set of solutions contains an infinite chain of comparable generalizations whose structure is isomorphic to a subsequence of an infinite square-free sequence over three symbols.</description>
-    </item>
-    <item>
-      <title>Proof systems for partial incorrectness logic (partial reverse Hoare logic)</title>
-      <link>https://arxiv.org/abs/2502.21053</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.21053</guid>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 -0000</pubDate>
-      <description>Partial incorrectness logic (partial reverse Hoare logic) has recently been introduced as a new Hoare-style logic that over-approximates the weakest pre-conditions of a program and a post-condition. It is expected to verify systems where the final state must guarantee its initial state, such as authentication, secure communication tools and digital signatures. However, the logic has only been given semantics. This paper defines two proof systems for partial incorrectness logic (partial reverse Hoare logic): ordinary and cyclic proof systems. They are sound and relatively complete. The relative completeness of our ordinary proof system is proved by showing that the weakest pre-condition of a while loop and a post-condition is its loop invariant. The relative completeness of our cyclic proof system is also proved by providing a way to transform any cyclic proof into an ordinary proof.</description>
     </item>
   </channel>
 </rss>

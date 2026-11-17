@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Analysing Busy Beaver Machines (Or How to Find Ossified Ocelots)</title>
+      <link>http://arxiv.org/abs/2611.17742v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.17742v1</guid>
+      <pubDate>Fri, 13 Nov 2026 04:54:33 +0000</pubDate>
+      <description>The busy beaver problem involves working with machines which can produce very large numbers, both for the output of certain Turing machines and for the number of steps taken to execute them. Given that these numbers can involve thousands of digits, it is crucial to have a means of proving properties of the relevant machines which allow manipulation of such large numbers. In this paper we introduce the notion of \textit{shape computations} as a means of isolating key properties that allow efficient execution of the relevant Turing machines based on verifiable properties of state transitions. In particular, this notion allows us to provide an analytical result which demonstrates the quadratic relationship between the size of the output and the number of steps required to generate it. We have also developed an initial implementation of our approach, and we provide empirical evaluation of it on a suite of 240 example machines.</description>
+    </item>
+    <item>
       <title>Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models</title>
       <link>http://arxiv.org/abs/2611.17235v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17235v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1602.05555</guid>
       <pubDate>Tue, 23 Feb 2016 00:00:00 -0000</pubDate>
       <description>We prove the NP-hardness of the problem whether a given word can be derived from a given regular grammar without repeated occurrence of any nonterminal.</description>
-    </item>
-    <item>
-      <title>Subset Synchronization and Careful Synchronization of Binary Finite Automata</title>
-      <link>https://arxiv.org/abs/1403.3972</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1403.3972</guid>
-      <pubDate>Mon, 15 Feb 2016 00:00:00 -0000</pubDate>
-      <description>We present a strongly exponential lower bound that applies both to the subset synchronization threshold for binary deterministic automata and to the careful synchronization threshold for binary partial automata. In the later form, the result finishes the research initiated by Martyugin (2013). Moreover, we show that both the thresholds remain strongly exponential even if restricted to strongly connected binary automata. In addition, we apply our methods to computational complexity. Existence of a subset reset word is known to be PSPACE-complete; we show that this holds even under the restriction to strongly connected binary automata. The results apply also to the corresponding thresholds in two more general settings: D1- and D3-directable nondeterministic automata and composition sequences over finite domains.</description>
     </item>
   </channel>
 </rss>

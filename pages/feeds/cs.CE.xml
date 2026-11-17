@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Certificate-Based Verification of Pulsed Field Ablation Models</title>
+      <link>http://arxiv.org/abs/2611.18148v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.18148v1</guid>
+      <pubDate>Fri, 13 Nov 2026 13:22:35 +0000</pubDate>
+      <description>Computational models of pulsed field ablation predict the lesion as the tissue where the electric field exceeds a lethal threshold. Their numerical error is rarely bounded, and automated pipelines increasingly run them without an expert checking each result. To verify each run, we separate the question "was the stated model solved correctly?" from the solver that answers it. An untrusted solver returns with its answer a certificate, consisting of a potential with the correct electrode and ground values and an exactly charge-conserving current. A small independent checker verifies the certificate against a written specification of the physics. Using the Prager-Synge hypercircle theorem evaluated in ball arithmetic, it turns the certificate into guaranteed two-sided bounds on the impedance and on the root-mean-square field of every tile of a lesion map, also over a range of blood/tissue conductivity ratios. A vectorized version of the checker takes about a tenth of the solve time. For a focal electrode in contact, the tile-resolved depth at 1000 V and 700 V/cm is proven to lie in 3.50-3.75 mm for every ratio from 1.7 to 3.75. For a bipolar catheter, certified depths overlap published in-vivo depths. Where they differ from a published reference model, the certificates prove that the difference is not numerical error in our computation. We compare the certificate with a grid convergence study on the same solver. On graded grids the study is sharper for local fields but remains an estimate. On uniform grids it fails to converge at the electrode edge, where the certificate still gives a valid bracket. Solvers that deliberately solve equations other than the specified ones pass the grid convergence study, but the certificates refute their claims or leave them unsupported.</description>
+    </item>
+    <item>
       <title>ISLA: A Coordinate-Free, Measure-Weighted Transformer for Boundary-Driven PDEs</title>
       <link>http://arxiv.org/abs/2611.17141v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17141v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/0707.0336</guid>
       <pubDate>Fri, 21 Dec 2007 00:00:00 -0000</pubDate>
       <description>In this note, we develop stock option price approximations for a model which takes both the risk o default and the stochastic volatility into account. We also let the intensity of defaults be influenced by the volatility. We show that it might be possible to infer the risk neutral default intensity from the stock option prices. Our option price approximation has a rich implied volatility surface structure and fits the data implied volatility well. Our calibration exercise shows that an effective hazard rate from bonds issued by a company can be used to explain the implied volatility skew of the implied volatility of the option prices issued by the same company.</description>
-    </item>
-    <item>
-      <title>Human-Machine Symbiosis, 50 Years On</title>
-      <link>https://arxiv.org/abs/0712.2255</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0712.2255</guid>
-      <pubDate>Thu, 13 Dec 2007 00:00:00 -0000</pubDate>
-      <description>Licklider advocated in 1960 the construction of computers capable of working symbiotically with humans to address problems not easily addressed by humans working alone. Since that time, many of the advances that he envisioned have been achieved, yet the time spent by human problem solvers in mundane activities remains large. I propose here four areas in which improved tools can further advance the goal of enhancing human intellect: services, provenance, knowledge communities, and automation of problem-solving protocols.</description>
     </item>
   </channel>
 </rss>
