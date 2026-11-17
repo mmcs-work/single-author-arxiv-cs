@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>How Can Size, Ceiling, and Time Bounds Affect the Complexity of Nonuniform Automata Families?</title>
+      <link>http://arxiv.org/abs/2611.20999v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20999v1</guid>
+      <pubDate>Mon, 16 Nov 2026 12:26:44 +0000</pubDate>
+      <description>In the past literature, families of two-way finite automata and pushdown automata having limited resource-bounded complexity have been studied in direct connection to (mainstream) space-bounded complexity classes equipped with Karp-Lipton style advice of limited size when all inputs given to the automata have bounded length. We acknowledge three major factors--size, ceiling, and time--of such families, which have a significant impact on the computational/descriptional complexity of finite and pushdown automata families, where the "size" refers to the (stack-)state complexity, the "ceiling" refers to the maximum input length, and the "time" refers to the execution time of underlying automata. In this line of study, we further explore these effects caused by different sizes and ceilings. We exploit automata-based reducibility and translatability to space-bounded advised Turing machines and auxiliary automata.</description>
+    </item>
+    <item>
+      <title>Copying along Arithmetic Progressions Cannot Simulate Interleaving with Polylogarithmic Loss</title>
+      <link>http://arxiv.org/abs/2611.20980v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20980v1</guid>
+      <pubDate>Mon, 16 Nov 2026 12:14:55 +0000</pubDate>
+      <description>Two classical ways to compress a word are straight-line programs (SLPs), which build it by concatenating smaller pieces, and the Lempel-Ziv 77 (LZ77) factorisation, which copies earlier parts of it; their sizes are measures of repetitiveness. LZ77 approximates the smallest SLP efficiently: it has no more factors than a smallest SLP has size, and yields an SLP at most a logarithmic factor larger in near-linear time. Motivated by online prediction, Kosoy introduced zipline programs, which are analogous to SLPs but interleave their pieces round-robin instead of concatenating them. Her generalisation of LZ77, the arithmetic repetition system, describes a word by copies from one arithmetic progression of positions to a later one. Do arithmetic repetition systems approximate the smallest zipline program as well? Kosoy proved that the least size $\mathrm{ARC}(x)$ of an arithmetic repetition system for a word $x$ of length $n$ is at most a factor $O(n^{1/3})$ larger than the least size $\mathrm{ZLC}(x)$ of a zipline program for it, and asked whether this factor is tight. Her polynomial-time next-letter predictor makes $O(\mathrm{ARC}(x)\log n)$ mistakes, so a polylogarithmic factor would bound its mistakes by $\mathrm{ZLC}(x)\,\mathrm{polylog}(n)$, which no known polynomial-time predictor achieves. We show that the optimal exponent is $1/4$, not $1/3$: $\mathrm{ARC}(x) \le 2n^{1/4}\,\mathrm{ZLC}(x)$ for every word $x$, and at every large enough length $n$ some binary word has $\mathrm{ARC}(x) \ge n^{1/4-o(1)}\,\mathrm{ZLC}(x)$.</description>
+    </item>
+    <item>
+      <title>Lengths and Counting of Palindromic Prefixes of Standard Sturmian Words</title>
+      <link>http://arxiv.org/abs/2611.20221v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20221v1</guid>
+      <pubDate>Sun, 15 Nov 2026 19:42:45 +0000</pubDate>
+      <description>Every standard Sturmian word $c_\mathbf{d}$ is determined by a directive sequence $\mathbf{d}=(d_i)_{i\ge 1}$ of positive integers, and its palindromic prefixes are obtained by iterated palindromic closure. We describe the lengths of these prefixes by the numbers $j\,\ell_{i-1}+\ell_{i-2}-2$, where $\ell_n$ is the length of the $n$-th standard word and $1\le j\le d_i$, and we show that each nonzero length is attained by exactly one pair $(i,j)\neq(1,1)$. For a purely periodic directive sequence of period $k$ we then prove that the number $π_\mathbf{d}(N)$ of nonempty palindromic prefixes of length at most $N$ satisfies \[ π_\mathbf{d}(N)\sim\frac{d_1+\cdots+d_k}{\logλ_\mathbf{d}}\,\log N, \] where $λ_\mathbf{d}$ is the largest eigenvalue of the matrix $M(d_1)\cdots M(d_k)$. For the Fibonacci word this gives $π_\mathbf{d}(N)\sim\log N/\log\varphi$, where $\varphi=(1+\sqrt5)/2$.</description>
+    </item>
+    <item>
       <title>Analysing Busy Beaver Machines (Or How to Find Ossified Ocelots)</title>
       <link>http://arxiv.org/abs/2611.17742v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17742v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1603.01058</guid>
       <pubDate>Thu, 03 Mar 2016 00:00:00 -0000</pubDate>
       <description>A word w is rich if it has |w|+1 many distinct palindromic factors, including the empty word. A word is square-free if it does not have a factor uu, where u is a non-empty word. Pelantová and Starosta (Discrete Math. 313 (2013)) proved that every infinite rich word contains a square. We will give another proof for that result. Pelantová and Starosta denoted by r(n) the length of a longest rich square-free word on an alphabet of size n. The exact value of r(n) was left as an open question. We will give an upper and a lower bound for r(n), and make a conjecture that our lower bound is exact. We will also generalize the notion of repetition threshold for a limited class of infinite words. The repetition thresholds for episturmian and rich words are left as an open question.</description>
-    </item>
-    <item>
-      <title>Compositional model checking of concurrent systems, with Petri nets</title>
-      <link>https://arxiv.org/abs/1603.00976</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.00976</guid>
-      <pubDate>Thu, 03 Mar 2016 00:00:00 -0000</pubDate>
-      <description>Compositionality and process equivalence are both standard concepts of process algebra. Compositionality means that the behaviour of a compound system relies only on the behaviour of its components, i.e. there is no emergent behaviour. Process equivalence means that the explicit statespace of a system takes a back seat to its interaction patterns: the information that an environment can obtain though interaction. Petri nets are a classical, yet widely used and understood, model of concurrency. Nevertheless, they have often been described as a non-compositional model, and tools tend to deal with monolithic, globally-specified models. This tutorial paper concentrates on Petri Nets with Boundaries (PNB): a compositional, graphical algebra of 1-safe nets, and its applications to reachability checking within the tool Penrose. The algorithms feature the use of compositionality and process equivalence, a powerful combination that can be harnessed to improve the performance of checking reachability and coverability in several common examples where Petri nets model realistic concurrent systems.</description>
-    </item>
-    <item>
-      <title>Alternating Set Quantifiers in Modal Logic</title>
-      <link>https://arxiv.org/abs/1602.08971</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1602.08971</guid>
-      <pubDate>Mon, 29 Feb 2016 00:00:00 -0000</pubDate>
-      <description>We establish the strictness of several set quantifier alternation hierarchies that are based on modal logic, evaluated on various classes of finite graphs. This extends to the modal setting a celebrated result of Matz, Schweikardt and Thomas (2002), which states that the analogous hierarchy of monadic second-order logic is strict. Thereby, the present paper settles a question raised by van Benthem (1983), revived by ten Cate (2006), and partially answered by Kuusisto (2008, 2015).</description>
-    </item>
-    <item>
-      <title>Repetition-Free Derivability from a Regular Grammar is NP-Hard</title>
-      <link>https://arxiv.org/abs/1602.05555</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1602.05555</guid>
-      <pubDate>Tue, 23 Feb 2016 00:00:00 -0000</pubDate>
-      <description>We prove the NP-hardness of the problem whether a given word can be derived from a given regular grammar without repeated occurrence of any nonterminal.</description>
     </item>
   </channel>
 </rss>

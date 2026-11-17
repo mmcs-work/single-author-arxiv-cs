@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Restoring Fair Hrtick Re-arming After Same-Task Repicks in the Linux EEVDF Scheduler</title>
+      <link>http://arxiv.org/abs/2611.19893v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19893v1</guid>
+      <pubDate>Sun, 15 Nov 2026 09:16:49 +0000</pubDate>
+      <description>Linux uses one-shot high-resolution scheduler ticks (hrticks) to request rescheduling at fair-class execution boundaries. We analyze a gap in the dispatch path in which an expired fair hrtick is not restarted when the fair scheduler selects the current task again. The gap arises because the same-task fast path bypasses set_next_task_fair(), the location that normally records the next fair hrtick delay. We introduce SNT_REPICK, an explicit same-task activation type for struct sched_class. For fair tasks, it preserves the fast path while restarting the hrtick from refreshed EEVDF state. For SCHED_DEADLINE, it deliberately performs no hrtick restart because the corresponding runtime state is not refreshed on a repick. The implementation was merged into the mainline Linux kernel as commit c72945693b. We give a conditional timing analysis for systems on which the periodic scheduler tick remains active and report validation from two platforms. Functional tests on an 80-core Ampere Altra exercised fair hrtick, deadline hrtick, and the CONFIG_HIGH_RES_TIMERS=n fallback. Independently, Intel's 0-Day Kernel Test Service reported a 34.2% increase in its stress-ng.rawudp.packets_32_bytes_received_per_sec metric on a 192-thread Intel Xeon 6740E under the documented test configuration. We distinguish this reported benchmark result from causal claims that require separate scheduler and network instrumentation.</description>
+    </item>
+    <item>
+      <title>Predicting, Fast and Slow: SSD Already Knows Which Guess Is Wrong</title>
+      <link>http://arxiv.org/abs/2611.19457v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19457v1</guid>
+      <pubDate>Sat, 14 Nov 2026 15:25:49 +0000</pubDate>
+      <description>Heimdall, a learned controller, calls slow on 52% of an SSD's reads when 30% are slow. Uncertainty estimators, the remedy prescribed for its wrong guesses, cannot find them: nine of them do no better than a coin. The drive can. On one trace, 2% of the reads of 4 to 8 KiB that found less than 4 KiB outstanding while the drive was answering came back slow, and Heimdall called 96% of them slow. A 4,096-entry table of how the drive's recent reads came back, untrained and 21 ns a decision, ranks the wrong guesses at a median AUROC of 0.68 on 57 held-out traces, where the nine sit at 0.46 to 0.52, and it predicts slow reads better than Heimdall itself.</description>
+    </item>
+    <item>
       <title>Towards Runtime-Aware Observability for Java Virtual Threads</title>
       <link>http://arxiv.org/abs/2611.14999v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.14999v1</guid>

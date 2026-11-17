@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Self-Evolving Agent Runs Like a Gas: Describing and Predicting Its Evolution with Fluid Dynamics</title>
+      <link>http://arxiv.org/abs/2611.20584v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20584v1</guid>
+      <pubDate>Mon, 16 Nov 2026 06:06:20 +0000</pubDate>
+      <description>A self-evolving LLM agent improves in service by rewriting its own plugin library under a validation gate. Agent engineering is converging on exactly such agents: single systems in continuous operation, carrying populations of runtime instances (plugins, skills, tools) past the point where anyone can read the library and still predict what the system will do. Yet the run itself, the aggregate motion of that population across hundreds of edit rounds, is unstudied: no theory says whether it relaxes, oscillates, or freezes. A recent kinetic theory supplies the missing level: under four architectural properties, the plugin instances of one agent behave as identical hard spheres whose density obeys a master equation, and the theory is candid that its gate injects and drains credit, momentum is not conserved, and waves are excluded by construction. We argue the boundary is architectural; keeping the four safety theorems, we stack conservation axioms on top. A closed-credit ledger makes credit a collision invariant and unlocks acoustic waves at a measurable, engineerable speed; a zero-sum projection gate conserves centroid momentum unconditionally, for any proposal stream. Both layers are proven and executed: the axis total is conserved to the digit over 66 interventions under a live gate, and the pre-registered decisive probe returns the theory's directional verdict: linear wavefronts where the ledger holds, dissipation where it does not, replicated across two population sizes. For agents that must never stop, the gas description is not a metaphor: it is the measurement interface through which their future becomes readable.</description>
+    </item>
+    <item>
+      <title>RemeshingAgent: An Iterative Agent for Repair-Based Decimation of Generated Building Meshes</title>
+      <link>http://arxiv.org/abs/2611.20533v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20533v1</guid>
+      <pubDate>Mon, 16 Nov 2026 05:08:27 +0000</pubDate>
+      <description>Aggressively simplifying a generated high-poly building mesh to 0.5-1% of its faces confronts a hard limit. The surface looks complete, yet the mesh is topologically shattered: 10^3-10^4 connected components and non-manifold thin walls. Below a certain budget, every practical decimator "melts": it deletes parts, welds thin walls, or breaks the error tolerance. We attribute this to instance-specific pathology: which components are significant and where the cliff sits vary from mesh to mesh, so no single fixed algorithm suffices, and decimation becomes an iterative loop of cleaning, simplifying, and verifying. We present RemeshingAgent, an agent that turns this loop into a validated process. The melting follows from a triangle-budget decomposition into curvature, crease, component, and genus terms: below the component floor, no output satisfies the repair contract, and cleaning first is the theory-mandated response. At a 0.5% budget the agent stays topology-clean where QEM and vertex clustering melt, matches a commercial remesher on 20 unseen city buildings, and on the 24 training buildings a nine-participant single-workstation blind study prefers our outputs 168:48 (p = 0.0195, subject-level sign test). The trained skill deploys as retrieval replay: 11.7 seconds per mesh on CPU, with no LLM calls.</description>
+    </item>
+    <item>
+      <title>From XR Sketches to CAD: Preserving Design Intent with AI</title>
+      <link>http://arxiv.org/abs/2611.20245v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20245v1</guid>
+      <pubDate>Sun, 15 Nov 2026 20:57:48 +0000</pubDate>
+      <description>Extended reality (XR) allows designers to sketch shapes directly in 3D, but converting these sketches into editable, feature-based CAD requires interpreting their intent. A sketch may contain drawing errors, intended features, and design choices that remain open. Correcting every irregularity risks erasing intended features, while automatic completion may impose choices the designer has not made. We argue that AI should add precision without overriding design intent, considering both the resulting shape and how the CAD model behaves during later edits. To guide this process, we propose a conceptual framework that distinguishes errors from intentions in individual sketch properties and relates them to correction, preservation, and exploration in editable CAD. We also outline five research directions for sketch interpretation, CAD construction, and evaluation, with testable hypotheses for selected questions.</description>
+    </item>
+    <item>
       <title>Action Transfer Across Character Body Plans in Latent-Action World Models: An Empirical Study of Animated Characters</title>
       <link>http://arxiv.org/abs/2611.10523v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.10523v1</guid>

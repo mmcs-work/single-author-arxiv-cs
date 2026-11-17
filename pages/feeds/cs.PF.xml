@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Predicting, Fast and Slow: SSD Already Knows Which Guess Is Wrong</title>
+      <link>http://arxiv.org/abs/2611.19457v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19457v1</guid>
+      <pubDate>Sat, 14 Nov 2026 15:25:49 +0000</pubDate>
+      <description>Heimdall, a learned controller, calls slow on 52% of an SSD's reads when 30% are slow. Uncertainty estimators, the remedy prescribed for its wrong guesses, cannot find them: nine of them do no better than a coin. The drive can. On one trace, 2% of the reads of 4 to 8 KiB that found less than 4 KiB outstanding while the drive was answering came back slow, and Heimdall called 96% of them slow. A 4,096-entry table of how the drive's recent reads came back, untrained and 21 ns a decision, ranks the wrong guesses at a median AUROC of 0.68 on 57 held-out traces, where the nine sit at 0.46 to 0.52, and it predicts slow reads better than Heimdall itself.</description>
+    </item>
+    <item>
+      <title>A predictive, per-engine energy roofline of the Apple Neural Engine</title>
+      <link>http://arxiv.org/abs/2611.19101v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19101v1</guid>
+      <pubDate>Sat, 14 Nov 2026 02:24:31 +0000</pubDate>
+      <description>The Apple Neural Engine (ANE) is in over a billion devices, but is characterized indirectly via CoreML. Using a CoreML-free fused-graph dispatch path, we measure the ANE, along with the Apple GPU and CPU on the same device, with per-engine energy accounting. The consumer-available roofline does not predict the ANE in practice. A critical correction is that the ANE sees two effective memory bandwidths: a slow activation path and a fast weight-stream path. Two roofline ridges follow, and the weight-stream ridge is below that of the GPU. The ANE single-operand compute peak decreases instead of plateauing. Its weight stream is byte-bound in fp16 but limited by the dequantizer's element rate in int8. As a result, int8 compression saves energy at unchanged throughput and an int4 lookup-table stream raises throughput and efficiency at a cost of 2.55 points of ImageNet top-1. The corrected roofline identifies the lower-energy ANE paths and bounds it from below. A constructed device map reproduces across four unique ANE generations. Results show that operators should be placed by arithmetic intensity and fused for optimal performance.</description>
+    </item>
+    <item>
       <title>User-Schedulable Approximations for Quantized Tensor Programs</title>
       <link>http://arxiv.org/abs/2611.17526v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17526v1</guid>

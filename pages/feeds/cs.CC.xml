@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Separations Between Randomized and Exact Quantum Query Complexity for Boolean Functions</title>
+      <link>http://arxiv.org/abs/2611.21189v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21189v1</guid>
+      <pubDate>Mon, 16 Nov 2026 14:44:49 +0000</pubDate>
+      <description>We construct a family of total Boolean functions $F_{\mathrm{tot}}$ whose randomized and exact quantum query complexities satisfy $R(F_{\mathrm{tot}}) \ge Q_E(F_{\mathrm{tot}})^{2-o(1)}$. Chiruvella, Kayal, Mittal, Paraashar, and Saurabh (2026) also obtained a nearly quadratic separation for total functions in the query model by a different method. For every fixed $\varepsilon \in (0,1)$, we construct a family of partial Boolean functions $F_{\mathrm{par}}$ on $n$ bits satisfying $Q_E(F_{\mathrm{par}})=O_\varepsilon(1)$ and $R(F_{\mathrm{par}})=Ω_\varepsilon(n^{1-\varepsilon})$. This matches the asymptotic separation previously obtained with bounded error (STOC 2021; SICOMP 2023). Lifting yields a family of partial communication functions $G_{\mathrm{par}}$ with $Q_E^{\mathrm{cc}}(G_{\mathrm{par}})=O_\varepsilon(\log n)$ and $R^{\mathrm{pub,cc}}(G_{\mathrm{par}})=Ω_\varepsilon(n^{1-\varepsilon})$, where $n$ is the total number of input bits held by the two parties.</description>
+    </item>
+    <item>
+      <title>How Can Size, Ceiling, and Time Bounds Affect the Complexity of Nonuniform Automata Families?</title>
+      <link>http://arxiv.org/abs/2611.20999v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20999v1</guid>
+      <pubDate>Mon, 16 Nov 2026 12:26:44 +0000</pubDate>
+      <description>In the past literature, families of two-way finite automata and pushdown automata having limited resource-bounded complexity have been studied in direct connection to (mainstream) space-bounded complexity classes equipped with Karp-Lipton style advice of limited size when all inputs given to the automata have bounded length. We acknowledge three major factors--size, ceiling, and time--of such families, which have a significant impact on the computational/descriptional complexity of finite and pushdown automata families, where the "size" refers to the (stack-)state complexity, the "ceiling" refers to the maximum input length, and the "time" refers to the execution time of underlying automata. In this line of study, we further explore these effects caused by different sizes and ceilings. We exploit automata-based reducibility and translatability to space-bounded advised Turing machines and auxiliary automata.</description>
+    </item>
+    <item>
       <title>Weak Composition Theorems for Randomized Communication</title>
       <link>http://arxiv.org/abs/2611.16192v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.16192v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1907.04776</guid>
       <pubDate>Sun, 10 Sep 2023 00:00:00 -0000</pubDate>
       <description>The combined universal probability $\mathbf{m}(D)$ of strings $x$ in sets $D$ is close to max $\mathbf{m}(x)$ over $x$ in $D$: their logs differ by at most $D$'s information $\mathbf{I}(D:\mathcal{H})$ about the halting sequence $\mathcal{H}$.</description>
-    </item>
-    <item>
-      <title>Superpositioner -- A non-logical computation model</title>
-      <link>https://arxiv.org/abs/2309.08618</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.08618</guid>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 -0000</pubDate>
-      <description>We have been striving to exceed computational complexity, and in the process, we have come to realize the dilemma of classical computing, and in turn we realize that superpositioner may be a way to solve. A superpositioner is a model formed by several Boolean functions that their variables and function values are feeding back to each other. The component of the superpositioner is the reentry function, which can be fully described by classical logic and can be calculated by classical computation, but the superpositioner as a whole is a non-logical entity, and it is impossible for classical computation to fully compute it. In this article, we present the concept of a superpositioner and discuss its basic properties. We find that the superpositioner + dispositioner will form a new type of computation model whose capabilities can surpass Turing computation. We envision that this new model will help implement these functions in the intelligent agent: a whole new way of programming and a whole new way of learning, endogenous feelings, analogies and associations, forming understanding, dynamic action, participating in the formation of subjectivity, and more. We will also discuss how to implement superpositioner in the most preliminary way.</description>
-    </item>
-    <item>
-      <title>Strictly Locally Testable and Resources Restricted Control Languages in Tree-Controlled Grammars</title>
-      <link>https://arxiv.org/abs/2309.02768</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.02768</guid>
-      <pubDate>Wed, 06 Sep 2023 00:00:00 -0000</pubDate>
-      <description>Tree-controlled grammars are context-free grammars where the derivation process is controlled in such a way that every word on a level of the derivation tree must belong to a certain control language. We investigate the generative capacity of such tree-controlled grammars where the control languages are special regular sets, especially strictly locally testable languages or languages restricted by resources of the generation (number of non-terminal symbols or production rules) or acceptance (number of states). Furthermore, the set theoretic inclusion relations of these subregular language families themselves are studied.</description>
     </item>
   </channel>
 </rss>

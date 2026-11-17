@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Two-Robot Evacuation from a Unit Disk in the Segment Visibility Model</title>
+      <link>http://arxiv.org/abs/2611.19992v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19992v1</guid>
+      <pubDate>Sun, 15 Nov 2026 13:06:39 +0000</pubDate>
+      <description>Under segment visibility, two robots discover a target as soon as it belongs to the segment joining their positions, even if neither robot has physically reached it. We study two unit-speed robots starting at the center of a unit disk that must both reach an exit (target) placed at an unknown point of its boundary. In our model robots are permitted to leave the disk while searching. We give a three-phase tangent-and-arc algorithm whose exact worst-case evacuation time is 2\sqrt{3}+π/3 \approx 4.511299$. We also prove a matching lower bound for the class of descending horizontal full-slice sweeps, allowing asymmetric robot trajectories. The proof uses an exterior path-length inequality and a feasible minimum-half-width symmetrization. Determining the optimal time over all segment-visibility algorithms remains open.</description>
+    </item>
+    <item>
       <title>Multi-GPU Tridiagonal Partition Algorithm</title>
       <link>http://arxiv.org/abs/2611.18111v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.18111v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2308.04006</guid>
       <pubDate>Tue, 08 Aug 2023 00:00:00 -0000</pubDate>
       <description>Fake products are items that are marketed and sold as genuine, high-quality products but are counterfeit or low-quality knockoffs. These products are often designed to closely mimic the appearance and branding of the genuine product to deceive consumers into thinking they are purchasing the real thing. Fake products can range from clothing and accessories to electronics and other goods and can be found in a variety of settings, including online marketplaces and brick-and-mortar stores. Blockchain technology can be used to help detect fake products in a few different ways. One of the most common ways is through the use of smart contracts, which are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. This allows for a high level of transparency and traceability in supply chain transactions, making it easier to identify and prevent the sale of fake products and the use of unique product identifiers, such as serial numbers or QR codes, that are recorded on the blockchain. This allows consumers to easily verify the authenticity of a product by scanning the code and checking it against the information recorded on the blockchain. In this study, we will use smart contracts to detect fake products and will evaluate based on Gas cost and ethers used for each implementation.</description>
-    </item>
-    <item>
-      <title>The Space Complexity of Consensus from Swap</title>
-      <link>https://arxiv.org/abs/2305.06507</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2305.06507</guid>
-      <pubDate>Wed, 02 Aug 2023 00:00:00 -0000</pubDate>
-      <description>Nearly thirty years ago, it was shown that $Ω(\sqrt{n})$ registers are needed to solve obstruction-free consensus among $n$ processes. This lower bound was improved to $n$ registers in 2018, which exactly matches the best upper bound. The $Ω(\sqrt{n})$ space complexity lower bound actually applies to a class of objects called historyless objects, which includes registers, test-and-set objects, and readable swap objects. However, every known $n$-process obstruction-free consensus algorithm from historyless objects uses $Ω(n)$ objects. We give the first $Ω(n)$ space complexity lower bounds on consensus algorithms for two kinds of historyless objects. First, we show that any obstruction-free consensus algorithm from swap objects uses at least $n-1$ objects. More generally, we prove that any obstruction-free $k$-set agreement algorithm from swap objects uses at least $\lceil \frac{n}{k}\rceil - 1$ objects. This is the first non-constant lower bound on the space complexity of solving $k$-set agreement with swap objects when $k &gt; 1$. We also present an obstruction-free $k$-set agreement algorithm from $n-k$ swap objects, exactly matching our lower bound when $k=1$. Second, we show that any obstruction-free binary consensus algorithm from readable swap objects with domain size $b$ uses at least $\frac{n-2}{3b+1}$ objects. Since any historyless object can be simulated by a readable swap object with the same domain, our results imply that any obstruction-free consensus algorithm from historyless objects with domain size $b$ uses at least $\frac{n-2}{3b+1}$ objects. For $b = 2$, we show a slightly better lower bound of $n-2$. The best known obstruction-free binary consensus algorithm from readable swap objects with domain size $2$ uses $2n-1$ objects, asymptotically matching our lower bound.</description>
     </item>
   </channel>
 </rss>

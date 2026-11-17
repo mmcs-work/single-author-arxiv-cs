@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?</title>
+      <link>http://arxiv.org/abs/2611.21155v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21155v1</guid>
+      <pubDate>Mon, 16 Nov 2026 14:21:54 +0000</pubDate>
+      <description>After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces the effort of user review and feedback. We formalize this task as edit recommendation and build EditRecBench, a benchmark for evaluating the performance of LLMs on this task, from real-world conversation logs in WildChat-4.8M. Through benchmarking and failure analysis, we identify a practical challenge that some cases are inherently difficult to predict in real-world settings. To address this, we introduce decision model-based gating to filter out cases where predictions are unlikely to be correct before they are presented to the user. Our trained model outperforms existing decision models and raises pass@5 among shown suggestions by 12--25 points at a gating threshold. Our code is available at https://github.com/ntt-dkiku/llm-edit-recommendation.</description>
+    </item>
+    <item>
+      <title>Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework</title>
+      <link>http://arxiv.org/abs/2611.20926v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20926v1</guid>
+      <pubDate>Mon, 16 Nov 2026 11:36:13 +0000</pubDate>
+      <description>Human-centric artificial intelligence and data science (HCAD) systems increasingly involve human-in-the-loop (HITL) interventions to overcome the limitations of fully automated machine learning algorithms, such as automation bias and the inability to incorporate tacit domain knowledge, and continuously improve predictive performance. Data transformations, feature selection, feature weighting, and model selection usually require laborious human involvement across iterations of artificial intelligence and data science (AI&amp;DS) pipelines, making development a challenging and time-consuming process. The Cognitive Pairwise Comparison (CPC) framework is proposed as a human-centric methodology to elicit preferences and priorities in a structured format. To establish essential facets of human-centricity, this research advances the CPC methodology so that user preference elicitation can be systematically quantified in these challenging AI&amp;DS tasks. To demonstrate the usability and validity of these facets, this study presents several applications within movie recommender systems using the MovieLens dataset. It exemplifies how the extended CPC framework can facilitate interactions between human judgments and data across supervised learning, dimensionality reduction, and unsupervised learning algorithms.</description>
+    </item>
+    <item>
+      <title>Injectra: Retrofitting Extensibility into Web-Based Desktop Applications</title>
+      <link>http://arxiv.org/abs/2611.20713v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20713v1</guid>
+      <pubDate>Mon, 16 Nov 2026 08:20:25 +0000</pubDate>
+      <description>Large language models can generate code based on natural language prompts, opening up new possibilities for users to customize software and extend its functionality. This paper proposes and implements Injectra, a general-purpose code injection and feature enhancement system for existing desktop clients, suitable for applications whose user interfaces are built using embedded browser engines (such as Electron) or system WebViews (such as Tauri). Injectra decouples the host integration logic from the upper-layer enhancement code. Combining both runtime integration and pre-launch bootstrap mechanisms, it injects JavaScript, HTML, and CSS into the application's internal Web runtime environment through a unified execution channel, thereby enabling modifications to interface rendering, adjustments to interactive behaviors, and client-side functionality extensions. The system uses a command-line interface (CLI) as a unified entry point, allowing external tools, AI agents, and MCP integration layers to reuse its injection and enhancement capabilities. We tested 38 desktop applications already installed on our macOS machine; code injection was successfully completed for all of them. We demonstrated the system's capability to extend functionality through various enhanced use cases and also successfully validated the Windows version. Based on Injectra, we further developed an LLM-powered enhancement tool driven by selection and annotation: users select interface objects within the original application and describe their modification requirements; the large language model then generates the enhancement code, which is injected, executed, and rendered by Injectra. The system's source code has now been released as open source: https://github.com/sqmw/injectra.</description>
+    </item>
+    <item>
+      <title>From XR Sketches to CAD: Preserving Design Intent with AI</title>
+      <link>http://arxiv.org/abs/2611.20245v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20245v1</guid>
+      <pubDate>Sun, 15 Nov 2026 20:57:48 +0000</pubDate>
+      <description>Extended reality (XR) allows designers to sketch shapes directly in 3D, but converting these sketches into editable, feature-based CAD requires interpreting their intent. A sketch may contain drawing errors, intended features, and design choices that remain open. Correcting every irregularity risks erasing intended features, while automatic completion may impose choices the designer has not made. We argue that AI should add precision without overriding design intent, considering both the resulting shape and how the CAD model behaves during later edits. To guide this process, we propose a conceptual framework that distinguishes errors from intentions in individual sketch properties and relates them to correction, preservation, and exploration in editable CAD. We also outline five research directions for sketch interpretation, CAD construction, and evaluation, with testable hypotheses for selected questions.</description>
+    </item>
+    <item>
+      <title>Are Average Estimates in Line Graphs Biased Toward Areas of Higher Variability?</title>
+      <link>http://arxiv.org/abs/2611.19601v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19601v1</guid>
+      <pubDate>Sat, 14 Nov 2026 20:15:43 +0000</pubDate>
+      <description>When estimating the average value of a data series in line graphs, do viewers systematically overweight regions of higher variability? This is the question that Moritz et al. [14] set out to answer, and across two preregistered experiments they reported evidence for a bias they termed variability overweighting. Using their released data and code, I first reproduce their reported analysis, then ask whether their inference survives an equally valid analytic choice: measuring estimation error against the average of the displayed marks of each stimulus, rather than against a reference series that, for one mark type, is never shown. Under this alternative operationalization, the effect is substantially reduced and, for one mark type, reverses. Splitting the analysis by whether variability appears in the upper or lower region of the graph further reveals an asymmetry that the original direction-corrected analysis collapses away. I argue that the deeper issue is what verbal theories leave unspecified. When a theory is silent about which operationalization it requires, the metric ends up doing the theory's arguing for it. I close with a discussion of what reproduction and reanalysis are for: not verdicts on truth, but instruments for making analytic contingency visible and for forcing theories to say more.</description>
+    </item>
+    <item>
       <title>Uneven Self-Reported AI Use: An Embedded Case Study Across Eleven Teams in a Software Organization</title>
       <link>http://arxiv.org/abs/2611.14154v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.14154v1</guid>
@@ -6968,41 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2503.14714</guid>
       <pubDate>Wed, 26 Mar 2025 00:00:00 -0000</pubDate>
       <description>This paper revises aesthetics theory through the lens of authenticity and investigates practical applications using a co-design approach. We encourage designers to include ordinary clients as co-creators in the co-design process, guiding them in expressing their aesthetics, values, and preferences while stimulating their creativity. This paper proposes a bespoke design process framework for authenticity aesthetics that incorporates empathy, defining, ideating, prototyping, and testing. This framework delineates the roles and responsibilities of clients and designers at different phases and highlights evolving material mediums that enable their communication. The paper concludes by reflecting on consumerist aesthetics, advocating for designers to focus on the insights of ordinary clients, design for their authentic uniqueness, and recognize the broad prospects of bespoke design methods.</description>
-    </item>
-    <item>
-      <title>A Survey of Large Language Model Agents for Question Answering</title>
-      <link>https://arxiv.org/abs/2503.19213</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.19213</guid>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 -0000</pubDate>
-      <description>This paper surveys the development of large language model (LLM)-based agents for question answering (QA). Traditional agents face significant limitations, including substantial data requirements and difficulty in generalizing to new environments. LLM-based agents address these challenges by leveraging LLMs as their core reasoning engine. These agents achieve superior QA results compared to traditional QA pipelines and naive LLM QA systems by enabling interaction with external environments. We systematically review the design of LLM agents in the context of QA tasks, organizing our discussion across key stages: planning, question understanding, information retrieval, and answer generation. Additionally, this paper identifies ongoing challenges and explores future research directions to enhance the performance of LLM agent QA systems.</description>
-    </item>
-    <item>
-      <title>Two Types of Data Privacy Controls</title>
-      <link>https://arxiv.org/abs/2503.18729</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.18729</guid>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 -0000</pubDate>
-      <description>Users share a vast amount of data while using web and mobile applications. Most service providers such as email and social media providers provide users with privacy controls, which aim to give users the means to control what, how, when, and with whom, users share data. Nevertheless, it is not uncommon to hear users say that they feel they have lost control over their data on the web. This article aims to shed light on the often overlooked difference between two main types of privacy from a control perspective: privacy between a user and other users, and privacy between a user and institutions. We argue why this difference is important and what we need to do from here.</description>
-    </item>
-    <item>
-      <title>Manipulation and the AI Act: Large Language Model Chatbots and the Danger of Mirrors</title>
-      <link>https://arxiv.org/abs/2503.18387</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.18387</guid>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 -0000</pubDate>
-      <description>Large Language Model chatbots are increasingly taking the form and visage of human beings, adapting human faces, names, voices, personalities, and quirks, including those of celebrities and well-known political figures. Personifying AI chatbots could foreseeably increase their trust with users. However, it could also make them more capable of manipulation, by creating the illusion of a close and intimate relationship with an artificial entity. The European Commission has finalized the AI Act, with the EU Parliament making amendments banning manipulative and deceptive AI systems that cause significant harm to users. Although the AI Act covers harms that accumulate over time, it is unlikely to prevent harms associated with prolonged discussions with AI chatbots. Specifically, a chatbot could reinforce a person's negative emotional state over weeks, months, or years through negative feedback loops, prolonged conversations, or harmful recommendations, contributing to a user's deteriorating mental health.</description>
-    </item>
-    <item>
-      <title>How to Capture and Study Conversations Between Research Participants and ChatGPT: GPT for Researchers (g4r.org)</title>
-      <link>https://arxiv.org/abs/2503.18303</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.18303</guid>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 -0000</pubDate>
-      <description>As large language models (LLMs) like ChatGPT become increasingly integrated into our everyday lives--from customer service and education to creative work and personal productivity--understanding how people interact with these AI systems has become a pressing issue. Despite the widespread use of LLMs, researchers lack standardized tools for systematically studying people's interactions with LLMs. To address this issue, we introduce GPT for Researchers (G4R), or g4r.org, a free website that researchers can use to easily create and integrate a GPT Interface into their studies. At g4r.org, researchers can (1) enable their study participants to interact with GPT (such as ChatGPT), (2) customize GPT Interfaces to guide participants' interactions with GPT (e.g., set constraints on topics or adjust GPT's tone or response style), and (3) capture participants' interactions with GPT by downloading data on messages exchanged between participants and GPT. By facilitating study participants' interactions with GPT and providing detailed data on these interactions, G4R can support research on topics such as consumer interactions with AI agents or LLMs, AI-assisted decision-making, and linguistic patterns in human-AI communication. With this goal in mind, we provide a step-by-step guide to using G4R at g4r.org.</description>
-    </item>
-    <item>
-      <title>The Effect of Explainable AI-based Decision Support on Human Task Performance: A Meta-Analysis</title>
-      <link>https://arxiv.org/abs/2504.13858</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.13858</guid>
-      <pubDate>Sat, 22 Mar 2025 00:00:00 -0000</pubDate>
-      <description>The desirable properties of explanations in information systems have fueled the demands for transparency in artificial intelligence (AI) outputs. To address these demands, the field of explainable AI (XAI) has put forth methods that can support human decision-making by explaining AI outputs. However, current empirical works present inconsistent findings on whether such explanations help to improve users' task performance in decision support systems (DSS). In this paper, we conduct a meta-analysis to explore how XAI affects human performance in classification tasks. Our results show an improvement in task performance through XAI-based decision support, though explanations themselves are not the decisive driver for this improvement. The analysis reveals that the studies' risk of bias moderates the effect of explanations in AI, while the explanation type appears to play only a negligible role. Our findings contribute to the human computer interaction field by enhancing the understanding of human-XAI collaboration in DSS.</description>
     </item>
   </channel>
 </rss>

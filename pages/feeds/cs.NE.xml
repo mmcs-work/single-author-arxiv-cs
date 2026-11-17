@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Simulated Annealing with Topological Spatial Chunking for De Novo Protein Sequence Design</title>
+      <link>http://arxiv.org/abs/2611.19158v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19158v1</guid>
+      <pubDate>Sat, 14 Nov 2026 04:50:41 +0000</pubDate>
+      <description>The inverse protein folding problem, designing a discrete amino acid sequence that spontaneously folds into a predefined macroscopic structure, remains a phenomenally demanding combinatorial challenge central to synthetic drug discovery. While algorithms like SA offer a baseline approach for navigating dense biomolecular energy landscapes, applying SA heuristics to large sequences is inherently frustrated by exponentially large search spaces and deep local energy minima. This study proposes a scalable sequence design architecture, Topological Spatial Chunking Simulated Annealing, based on a localized, exact-solving heuristic embedded within a global simulated-annealing wrapper. To fundamentally circumvent exponential scaling walls, we deploy a dynamic solver that segments the global molecular target into shallow, k-variable algorithmic windows. Crucially, rather than partitioning natively by sequential 1D chronology, we introduce topological spatial chunking, which dynamically groups discrete variables based on Euclidean spatial proximity to preserve critical non-local thermodynamic correlations. The spatially localized sub-problems are solved deterministically via exact enumeration, while the global traversal is securely regulated by an exterior simulated annealing governor augmented by dynamic reheating and continuous elitism caching. We comprehensively benchmarked this classical architecture on the standard HP biophysical lattice against targeted 20-merA, 25-mer, 50-mer, and 64-mer geometries. Most notably, when evaluating the computationally exhaustive 50-mer and 64-mer topologies, the framework successfully bypassed widely accepted heuristic boundaries. By leveraging deterministic exact solving to vault classical energy traps, the system algorithmically resolved a novel, ultra-dense sequence-packing configuration for the 50-mer, defining a new theoretical global optimum.</description>
+    </item>
+    <item>
       <title>A Finite Markov Chain Analysis of the Simplified Swarm Optimisation Update Rule</title>
       <link>http://arxiv.org/abs/2611.16541v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.16541v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2110.12838</guid>
       <pubDate>Mon, 25 Oct 2021 00:00:00 -0000</pubDate>
       <description>This paper investigates the application of machine learning when training a credit decision model over real, publicly available data whilst accounting for "bias objectives". We use the term "bias objective" to describe the requirement that a trained model displays discriminatory bias against a given groups of individuals that doesn't exceed a prescribed level, where such level can be zero. This research presents an empirical study examining the tension between competing model training objectives which in all cases include one or more bias objectives. This work is motivated by the observation that the parties associated with creditworthiness models have requirements that can not certainly be fully met simultaneously. The research herein seeks to highlight the impracticality of satisfying all parties' objectives, demonstrating the need for "trade-offs" to be made. The results and conclusions presented by this paper are of particular importance for all stakeholders within the credit scoring industry that rely upon artificial intelligence (AI) models as part of the decision-making process when determining the creditworthiness of individuals. This paper provides an exposition of the difficulty of training AI models that are able to simultaneously satisfy multiple bias objectives whilst maintaining acceptable levels of accuracy. Stakeholders should be aware of this difficulty and should acknowledge that some degree of discriminatory bias, across a number of protected characteristics and formulations of bias, cannot be avoided.</description>
-    </item>
-    <item>
-      <title>Predictive Coding, Variational Autoencoders, and Biological Connections</title>
-      <link>https://arxiv.org/abs/2011.07464</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2011.07464</guid>
-      <pubDate>Sat, 23 Oct 2021 00:00:00 -0000</pubDate>
-      <description>This paper reviews predictive coding, from theoretical neuroscience, and variational autoencoders, from machine learning, identifying the common origin and mathematical framework underlying both areas. As each area is prominent within its respective field, more firmly connecting these areas could prove useful in the dialogue between neuroscience and machine learning. After reviewing each area, we discuss two possible correspondences implied by this perspective: cortical pyramidal dendrites as analogous to (non-linear) deep networks and lateral inhibition as analogous to normalizing flows. These connections may provide new directions for further investigations in each field.</description>
     </item>
   </channel>
 </rss>

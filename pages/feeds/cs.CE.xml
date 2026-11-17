@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Hierarchically Compressed Immittance Operator Formulation for Fast Statics-to-Full-Wave Electromagnetic Simulation with the Boundary Element Method</title>
+      <link>http://arxiv.org/abs/2611.21063v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21063v1</guid>
+      <pubDate>Mon, 16 Nov 2026 13:13:22 +0000</pubDate>
+      <description>The boundary element method allows the electromagnetic simulation of three-dimensional problems with a two-dimensional discretization, using a surface integral representation of Maxwell's equations. For applications involving broadband simulations or multiscale geometries, the well-known low-frequency breakdown of conventional integral equation formulations must be addressed, while ensuring that dielectric, semiconducting, and lossy metallic regions are modeled rigorously, including the skin effect. In this work, a new boundary element formulation based on an immittance operator is proposed, where the underlying integral equations are inherently valid from statics to the full-wave regime. To enable efficient matrix assembly and solution, a hierarchical matrix compression strategy is devised, leveraging fast direct factorization as an intermediate step, and fast matrix-vector products for the iterative solution of the final system of equations. The proposed formulation is capable of electrostatic, magnetostatic, quasistatic, and full-wave simulations of dielectrics, semiconductors, and lossy metals. Representative numerical examples drawn from a variety of applications demonstrate the accuracy and efficiency of the proposed method.</description>
+    </item>
+    <item>
+      <title>PopulationBalanceModels.jl: An Extensible Framework for Deploying Population Balance Models</title>
+      <link>http://arxiv.org/abs/2611.19445v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19445v1</guid>
+      <pubDate>Sat, 14 Nov 2026 15:04:22 +0000</pubDate>
+      <description>Population balance models (PBMs) are used to describe a diverse range of processes that have a distribution over one or more intrinsic properties. However, implementing PBMs for a new application often requires developing and verifying application-specific code for numerical solution and analysis. In this work, we present PopulationBalanceModels.jl, an open-source Julia package designed to make PBMs easy to implement. Users construct models from individual physical terms and select the numerical methods separately. Common solver and observation interfaces allow the same model to be used for simulation, Bayesian parameter estimation, and uncertainty quantification. The package currently supports various model types such as coupled and/or multi-dimensional PBMs, coupling of a PBM to a bulk mass/energy balance, and transport in an axially-dispersed plug flow reactor. While a broad range of physical terms and corresponding numerical methods are already implemented, the package is designed to support extensibility in both aspects, enabling users to incorporate new mechanisms and numerical methods into existing workflows.</description>
+    </item>
+    <item>
+      <title>Simulated Annealing with Topological Spatial Chunking for De Novo Protein Sequence Design</title>
+      <link>http://arxiv.org/abs/2611.19158v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19158v1</guid>
+      <pubDate>Sat, 14 Nov 2026 04:50:41 +0000</pubDate>
+      <description>The inverse protein folding problem, designing a discrete amino acid sequence that spontaneously folds into a predefined macroscopic structure, remains a phenomenally demanding combinatorial challenge central to synthetic drug discovery. While algorithms like SA offer a baseline approach for navigating dense biomolecular energy landscapes, applying SA heuristics to large sequences is inherently frustrated by exponentially large search spaces and deep local energy minima. This study proposes a scalable sequence design architecture, Topological Spatial Chunking Simulated Annealing, based on a localized, exact-solving heuristic embedded within a global simulated-annealing wrapper. To fundamentally circumvent exponential scaling walls, we deploy a dynamic solver that segments the global molecular target into shallow, k-variable algorithmic windows. Crucially, rather than partitioning natively by sequential 1D chronology, we introduce topological spatial chunking, which dynamically groups discrete variables based on Euclidean spatial proximity to preserve critical non-local thermodynamic correlations. The spatially localized sub-problems are solved deterministically via exact enumeration, while the global traversal is securely regulated by an exterior simulated annealing governor augmented by dynamic reheating and continuous elitism caching. We comprehensively benchmarked this classical architecture on the standard HP biophysical lattice against targeted 20-merA, 25-mer, 50-mer, and 64-mer geometries. Most notably, when evaluating the computationally exhaustive 50-mer and 64-mer topologies, the framework successfully bypassed widely accepted heuristic boundaries. By leveraging deterministic exact solving to vault classical energy traps, the system algorithmically resolved a novel, ultra-dense sequence-packing configuration for the 50-mer, defining a new theoretical global optimum.</description>
+    </item>
+    <item>
+      <title>A predictive, per-engine energy roofline of the Apple Neural Engine</title>
+      <link>http://arxiv.org/abs/2611.19101v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19101v1</guid>
+      <pubDate>Sat, 14 Nov 2026 02:24:31 +0000</pubDate>
+      <description>The Apple Neural Engine (ANE) is in over a billion devices, but is characterized indirectly via CoreML. Using a CoreML-free fused-graph dispatch path, we measure the ANE, along with the Apple GPU and CPU on the same device, with per-engine energy accounting. The consumer-available roofline does not predict the ANE in practice. A critical correction is that the ANE sees two effective memory bandwidths: a slow activation path and a fast weight-stream path. Two roofline ridges follow, and the weight-stream ridge is below that of the GPU. The ANE single-operand compute peak decreases instead of plateauing. Its weight stream is byte-bound in fp16 but limited by the dequantizer's element rate in int8. As a result, int8 compression saves energy at unchanged throughput and an int4 lookup-table stream raises throughput and efficiency at a cost of 2.55 points of ImageNet top-1. The corrected roofline identifies the lower-energy ANE paths and bounds it from below. A constructed device map reproduces across four unique ANE generations. Results show that operators should be placed by arithmetic intensity and fused for optimal performance.</description>
+    </item>
+    <item>
       <title>Certificate-Based Verification of Pulsed Field Ablation Models</title>
       <link>http://arxiv.org/abs/2611.18148v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.18148v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/0806.2312</guid>
       <pubDate>Fri, 13 Jun 2008 00:00:00 -0000</pubDate>
       <description>We report on the progress of the software effort in the QCD Application Area of SciDAC. In particular, we discuss how the software developed under SciDAC enabled the aggressive exploitation of leadership computers, and we report on progress in the area of QCD software for multi-core architectures.</description>
-    </item>
-    <item>
-      <title>A Pyramidal Evolutionary Algorithm with Different Inter-Agent Partnering Strategies for Scheduling Problems</title>
-      <link>https://arxiv.org/abs/0801.3209</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0801.3209</guid>
-      <pubDate>Mon, 03 Mar 2008 00:00:00 -0000</pubDate>
-      <description>This paper combines the idea of a hierarchical distributed genetic algorithm with different inter-agent partnering strategies. Cascading clusters of sub-populations are built from bottom up, with higher-level sub-populations optimising larger parts of the problem. Hence higher-level sub-populations search a larger search space with a lower resolution whilst lower-level sub-populations search a smaller search space with a higher resolution. The effects of different partner selection schemes amongst the agents on solution quality are examined for two multiple-choice optimisation problems. It is shown that partnering strategies that exploit problem-specific knowledge are superior and can counter inappropriate (sub-) fitness measurements.</description>
-    </item>
-    <item>
-      <title>Identifying Small Mean Reverting Portfolios</title>
-      <link>https://arxiv.org/abs/0708.3048</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0708.3048</guid>
-      <pubDate>Tue, 26 Feb 2008 00:00:00 -0000</pubDate>
-      <description>Given multivariate time series, we study the problem of forming portfolios with maximum mean reversion while constraining the number of assets in these portfolios. We show that it can be formulated as a sparse canonical correlation analysis and study various algorithms to solve the corresponding sparse generalized eigenvalue problems. After discussing penalized parameter estimation procedures, we study the sparsity versus predictability tradeoff and the impact of predictability in various markets.</description>
-    </item>
-    <item>
-      <title>TRUST-TECH based Methods for Optimization and Learning</title>
-      <link>https://arxiv.org/abs/0712.4126</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0712.4126</guid>
-      <pubDate>Tue, 25 Dec 2007 00:00:00 -0000</pubDate>
-      <description>Many problems that arise in machine learning domain deal with nonlinearity and quite often demand users to obtain global optimal solutions rather than local optimal ones. Optimization problems are inherent in machine learning algorithms and hence many methods in machine learning were inherited from the optimization literature. Popularly known as the initialization problem, the ideal set of parameters required will significantly depend on the given initialization values. The recently developed TRUST-TECH (TRansformation Under STability-reTaining Equilibria CHaracterization) methodology systematically explores the subspace of the parameters to obtain a complete set of local optimal solutions. In this thesis work, we propose TRUST-TECH based methods for solving several optimization and machine learning problems. Two stages namely, the local stage and the neighborhood-search stage, are repeated alternatively in the solution space to achieve improvements in the quality of the solutions. Our methods were tested on both synthetic and real datasets and the advantages of using this novel framework are clearly manifested. This framework not only reduces the sensitivity to initialization, but also allows the flexibility for the practitioners to use various global and local methods that work well for a particular problem of interest. Other hierarchical stochastic algorithms like evolutionary algorithms and smoothing algorithms are also studied and frameworks for combining these methods with TRUST-TECH have been proposed and evaluated on several test systems.</description>
-    </item>
-    <item>
-      <title>Pricing Options on Defaultable Stocks</title>
-      <link>https://arxiv.org/abs/0707.0336</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0707.0336</guid>
-      <pubDate>Fri, 21 Dec 2007 00:00:00 -0000</pubDate>
-      <description>In this note, we develop stock option price approximations for a model which takes both the risk o default and the stochastic volatility into account. We also let the intensity of defaults be influenced by the volatility. We show that it might be possible to infer the risk neutral default intensity from the stock option prices. Our option price approximation has a rich implied volatility surface structure and fits the data implied volatility well. Our calibration exercise shows that an effective hazard rate from bonds issued by a company can be used to explain the implied volatility skew of the implied volatility of the option prices issued by the same company.</description>
     </item>
   </channel>
 </rss>

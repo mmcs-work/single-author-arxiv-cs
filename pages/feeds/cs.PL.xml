@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Do Apple M-Series Processors Enforce the Compound Memory Model? Sequential and Parallel Composition of Arm and TSO</title>
+      <link>http://arxiv.org/abs/2611.21406v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21406v1</guid>
+      <pubDate>Mon, 16 Nov 2026 17:00:02 +0000</pubDate>
+      <description>Apple's M-series processors can run each thread under the Arm memory model or under a TSO model, and threads of both kinds can share memory. This raises two questions of composition that Apple has not answered. Across threads, how does the machine behave as a whole? Within a thread, which Arm instructions play the roles of TSO's loads, stores and atomic read-modify-writes, and how are they ordered between themselves and across other Arm instructions? We propose that both answers are compositions of preserved program order. Across threads, each thread keeps the preserved program order of its own model: a parallel composition. Within a TSO thread, every Arm instruction keeps TSO's order and adds Arm's, and every atomic memory operation (AMO) is locked, as x86's read-modify-writes are: a sequential composition. We test both on an Apple M1 and an Apple M2 running Linux, with 936 litmus tests chosen from the two models' preserved program order, each run 6x10^8 times on each machine. Arm-mode threads follow Arm's official model, TSO-mode threads follow x86-TSO and the sequential composition, and programs that mix the two modes follow the compound model: neither machine shows an outcome these models forbid. Both machines also preserve three orders that these models do not require, and a compare-and-swap whose comparison fails behaves as if it writes back the value it read, which the Arm model does not require. All three orders held in runs up to 40 times longer.</description>
+    </item>
+    <item>
+      <title>From Strong Normalization to WhatsApp: the Journey of an Axiom</title>
+      <link>http://arxiv.org/abs/2611.20943v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20943v1</guid>
+      <pubDate>Mon, 16 Nov 2026 11:55:51 +0000</pubDate>
+      <description>Twenty years ago, Mariangiola Dezani-Ciancaglini, Daniele Varacca and I showed that Milner's classic encoding of functions into processes does not respect one of the laws of intersection types, the one stating that $(σ\toτ)\land(σ\toρ)$ is a subtype of $σ\to(τ\landρ)$, which Barendregt, Coppo and Dezani-Ciancaglini had stated in 1983 for their filter $λ$-model. In this essay I show that this observation is the key to closing what a colleague at Meta calls ``the main typing gap in Erlang''---the language in which the servers of WhatsApp are written: the type of the function that implements a server is not related to the type of the server, so that a client may expect from the server a reply that the server will never send. Actually, closing this gap is just an excuse to follow the journey of the law above, and of some of its relatives, from the study of strong normalization in the $λ$-calculus to the type systems of Elixir and Erlang: a journey that shows how much the practical typing of these languages owes to the work of Mario Coppo, Mariangiola Dezani-Ciancaglini and Simona Ronchi Della Rocca, to whom this essay is dedicated for their eightieth birthdays.</description>
+    </item>
+    <item>
+      <title>GraphPass: A Study of Graph Neural Networks for Compiler Pass Selection</title>
+      <link>http://arxiv.org/abs/2611.19821v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19821v1</guid>
+      <pubDate>Sun, 15 Nov 2026 06:04:39 +0000</pubDate>
+      <description>Compiler pass selection is usually governed by fixed pipelines (-O2, -O3) or hand-written heuristics. We study whether a graph neural network (GNN) over a program's control-flow graph (CFG) can select among a fixed menu of five pass sequences in a single forward pass. GraphPass encodes each CFG with a graph attention (GAT) or graph convolutional (GCN) encoder and classifies it into one of the five sequences. On a synthetic benchmark of 5,000 generated CFGs in five program families, both encoders agree with the benchmark's reference label on about 92% of held-out programs, versus 68.4% for a hand-written rule-based heuristic and 85% for a flat MLP. An edge ablation indicates that this gain comes from per-block processing rather than from CFG edges: a GCN given the same basic-block features with all edges removed scores 95.0%, versus 92.2% with the true CFG. In this benchmark the label is determined by the program family, so the task amounts to family recognition. Real-compiler speedup is not measured. Inference costs O(|V| + |E|) per CFG, measured at 1.7 ms for a typical program and about 0.8 s for a 100,000-block graph on one CPU core.</description>
+    </item>
+    <item>
+      <title>Latency-Preserving Rewrites and Translation Validation for Dynamic Quantum Circuits</title>
+      <link>http://arxiv.org/abs/2611.19618v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19618v1</guid>
+      <pubDate>Sat, 14 Nov 2026 20:59:56 +0000</pubDate>
+      <description>A dynamic quantum circuit measures qubits during a run and chooses later operations from the outcomes. These branches make the qubits wait: the outcome must reach the classical controller, and the controller must decide. We present qlin, a compiler that reduces this waiting time. qlin moves operations out of branches without delaying the program, a property proved in Lean 4. For error-correction decoders, which branch on syndromes that are almost always zero, qlin compiles the likely syndromes into one multiway branch and keeps the original program for the rest. A cost model decides when a classically controlled gate should become a quantum-controlled gate instead. On all benchmarks, qlin checks that the compiled program computes what its source computes, and the checker is proved sound in Lean 4. At the published per-decision cost of the QICK controller (42 ns), 10 of 65 programs run at least 10% faster than the best baseline in our cost model, up to 91.2%, mostly because one multiway branch replaces a long chain of if statements. On the register-transfer logic of the QubiC controller, a compiled distance-5 repetition decoder selects its correction in 21.3 instead of 151.1 expected cycles. Timing runs on an IBM device were too noisy to confirm or reject the model's ranking.</description>
+    </item>
+    <item>
       <title>Meta Build Systems as Logic Programs</title>
       <link>http://arxiv.org/abs/2611.17672v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17672v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1811.05307</guid>
       <pubDate>Sun, 18 Nov 2018 00:00:00 -0000</pubDate>
       <description>Suenaga and Hasuo introduced a nonstandard programming language ${\bf While}^{\bf dt}$ which models hybrid systems. We demonstrate why ${\bf While}^{\bf dt}$ is not suitable for modeling actual computations.</description>
-    </item>
-    <item>
-      <title>Modalities, Cohesion, and Information Flow</title>
-      <link>https://arxiv.org/abs/1809.07897</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1809.07897</guid>
-      <pubDate>Thu, 08 Nov 2018 00:00:00 -0000</pubDate>
-      <description>It is informally understood that the purpose of modal type constructors in programming calculi is to control the flow of information between types. In order to lend rigorous support to this idea, we study the category of classified sets, a variant of a denotational semantics for information flow proposed by Abadi et al. We use classified sets to prove multiple noninterference theorems for modalities of a monadic and comonadic flavour. The common machinery behind our theorems stems from the the fact that classified sets are a (weak) model of Lawvere's theory of axiomatic cohesion. In the process, we show how cohesion can be used for reasoning about multi-modal settings. This leads to the conclusion that cohesion is a particularly useful setting for the study of both information flow, but also modalities in type theory and programming languages at large.</description>
-    </item>
-    <item>
-      <title>Guided Unfoldings for Finding Loops in Standard Term Rewriting</title>
-      <link>https://arxiv.org/abs/1808.05065</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1808.05065</guid>
-      <pubDate>Thu, 08 Nov 2018 00:00:00 -0000</pubDate>
-      <description>In this paper, we reconsider the unfolding-based technique that we have introduced previously for detecting loops in standard term rewriting. We improve it by guiding the unfolding process, using distinguished positions in the rewrite rules. This results in a depth-first computation of the unfoldings, whereas the original technique was breadth-first. We have implemented this new approach in our tool NTI and compared it to the previous one on a bunch of rewrite systems. The results we get are promising (better times, more successful proofs).</description>
-    </item>
-    <item>
-      <title>Syntax and Typing for Cedille Core</title>
-      <link>https://arxiv.org/abs/1811.01318</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1811.01318</guid>
-      <pubDate>Sun, 04 Nov 2018 00:00:00 -0000</pubDate>
-      <description>This document specifies a core version of the type theory implemented in the Cedille tool. Cedille is a language for dependently typed programming and computer-checked proof. Cedille can elaborate source programs down to Cedille Core, which can be checked in a straightforward way by a small checker (a reference implementation included with Cedille is under 1000 lines of Haskell). Other tools could also target Cedille Core as an expressive backend type theory. The document describes syntax and typing rules for Cedille Core.</description>
-    </item>
-    <item>
-      <title>Beyond Structured Programming</title>
-      <link>https://arxiv.org/abs/1810.11673</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1810.11673</guid>
-      <pubDate>Sat, 27 Oct 2018 00:00:00 -0000</pubDate>
-      <description>The correctness of a structured program is, at best, plausible. Though this is a step forward compared to what came before, it falls short of verified correctness. To verify a structured program according to Hoare's method one is faced with the problem of finding assertions to fit existing code. In 1971 this mode of verification was declared by Dijkstra as too hard to be of practical use---he advised that proof and code were to grow together. A method for doing this was independently published by Reynolds in 1978 and by van Emden in 1979. The latter was further developed to attain the form of matrix code. This form of code not only obviates the need of fitting assertions to existing code, but helps in discovering an algorithm that reaches a given postcondition from a fixed precondition. In this paper a keyboard-editable version of matrix code is presented that uses E.W. Dijkstra's guarded commands as starting point. The result is reached by using Floyd's method rather than Hoare's as starting point.</description>
     </item>
   </channel>
 </rss>

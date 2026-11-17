@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>From Strong Normalization to WhatsApp: the Journey of an Axiom</title>
+      <link>http://arxiv.org/abs/2611.20943v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20943v1</guid>
+      <pubDate>Mon, 16 Nov 2026 11:55:51 +0000</pubDate>
+      <description>Twenty years ago, Mariangiola Dezani-Ciancaglini, Daniele Varacca and I showed that Milner's classic encoding of functions into processes does not respect one of the laws of intersection types, the one stating that $(σ\toτ)\land(σ\toρ)$ is a subtype of $σ\to(τ\landρ)$, which Barendregt, Coppo and Dezani-Ciancaglini had stated in 1983 for their filter $λ$-model. In this essay I show that this observation is the key to closing what a colleague at Meta calls ``the main typing gap in Erlang''---the language in which the servers of WhatsApp are written: the type of the function that implements a server is not related to the type of the server, so that a client may expect from the server a reply that the server will never send. Actually, closing this gap is just an excuse to follow the journey of the law above, and of some of its relatives, from the study of strong normalization in the $λ$-calculus to the type systems of Elixir and Erlang: a journey that shows how much the practical typing of these languages owes to the work of Mario Coppo, Mariangiola Dezani-Ciancaglini and Simona Ronchi Della Rocca, to whom this essay is dedicated for their eightieth birthdays.</description>
+    </item>
+    <item>
+      <title>Coalgebra for True Concurrency</title>
+      <link>http://arxiv.org/abs/2611.19736v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19736v1</guid>
+      <pubDate>Sun, 15 Nov 2026 02:43:58 +0000</pubDate>
+      <description>We give the coalgebra for true concurrency along the way paved by traditional coalgebra based on bisimulation. This coalgebra is based on truly concurrent bisimulation, and we give its definition and a simple truly concurrent process algebra.</description>
+    </item>
+    <item>
+      <title>A simplified temporal logic completeness proof</title>
+      <link>http://arxiv.org/abs/2611.19699v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.19699v1</guid>
+      <pubDate>Sun, 15 Nov 2026 01:06:43 +0000</pubDate>
+      <description>A temporal logic discussed in the author's book "Logics of Time and Computation" is given a simpler proof of semantic completeness, eliminating some flaws in the original.</description>
+    </item>
+    <item>
       <title>On Structure-Aware SAT Solving</title>
       <link>http://arxiv.org/abs/2611.18017v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.18017v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2503.07130</guid>
       <pubDate>Mon, 10 Mar 2025 00:00:00 -0000</pubDate>
       <description>In this report, we introduce observation algebras, constructed by considering the downclosed subsets of a coherence space ordered by reverse inclusion. These may be interpreted as specifications of sets of events via some predicates with some extra structure. We provide syntax for these algebras, as well as axiomatisations. We establish completeness of these axiomatisations in two cases: when the syntax is that of bounded distributive lattices (conjunction, disjunction, top, and bottom), and when the syntax also includes an implication operator (in the sense of Heyting algebra), but the underlying coherence space satisfies some tractability condition. We also provide a product construction to combine graphs and their axiomatisations, yielding a sound and complete composite system. This development has been fully formalised in Rocq.</description>
-    </item>
-    <item>
-      <title>Establishing tool support for a concept DSL</title>
-      <link>https://arxiv.org/abs/2503.05849</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.05849</guid>
-      <pubDate>Fri, 07 Mar 2025 00:00:00 -0000</pubDate>
-      <description>The quality of software products tends to correlate with the quality of the abstractions adopted early in the design process. Acknowledging this tendency has led to the development of various tools and methodologies for modeling systems thoroughly before implementing them. However, creating effective abstract models of domain problems is difficult, especially if the models are also expected to exhibit qualities such as intuitiveness, being seamlessly integrable with other models, or being easily translatable into code. This thesis describes Conceptual, a DSL for modeling the behavior of software systems using self-contained and highly reusable units of functionally known as concepts. The language's syntax and semantics are formalized based on previous work. Additionally, the thesis proposes a strategy for mapping language constructs from Conceptual into the Alloy modeling language. The suggested strategy is then implemented with a simple compiler, allowing developers to access and utilize Alloy's existing analysis tools for program reasoning. The utility and expressiveness of Conceptual is demonstrated qualitatively through several practical case studies. Using the implemented compiler, a few erroneous specifications are identified in the literature. Moreover, the thesis establishes preliminary tool support in the Visual Studio Code IDE.</description>
-    </item>
-    <item>
-      <title>The Fertile Steppe: Computability Logic and the decidability of one of its fragments</title>
-      <link>https://arxiv.org/abs/2503.05826</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.05826</guid>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 -0000</pubDate>
-      <description>The present work is devoted to Computability Logic (CoL), the young and volcanic research-project developed by Giorgi Japaridze. Our main goal is to provide the reader with a clear panoramic view of this vast new land, starting from its core knots and making our way towards the outer threads, in a somewhat three-dimensional, spacial gait. Furthermore, through the present work, we provide a tentative proof for the decidability of one of CoL's numerous axiomatisations, namely CL15. Thus, our expedition initially takes off for an aerial, perusal overview of this fertile steppe. The first chapter introduces CoL in a philosophical fashion, exposing and arguing its main key points. We then move over to unfold its semantics and syntax profiles, allowing the reader to become increasingly more familiar with this new environment. Landing on to the second chapter, we thoroughly introduce Cirquent Calculus, the new deductive system Japaridze has developed in order to axiomatise Computability Logic. Indeed, this new proof-system can also be a useful tool for many other logics. We then review each of the 17 axiomatisations found so far. The third chapter zooms-in on CL15, in order to come up with a possible solution to its open problem. We outline its soundness and completeness proofs; then provide some few deductive examples; and, finally, build a tentative proof of its decidability. Lastly, the fourth chapter focuses on the potential and actual applications of Computability Logic, both in arithmetic (clarithmetic) and in Artificial Intelligence systems (meaning knowledgebase and planning-and-action ones). We close our journey with some final remarks on the richness of this framework and, hence, the research-worthiness it entails.</description>
-    </item>
-    <item>
-      <title>On describing trees and quasi-trees from their leaves</title>
-      <link>https://arxiv.org/abs/2503.02672</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2503.02672</guid>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 -0000</pubDate>
-      <description>Generalized trees, we call them O-trees, are defined as hierarchical partial orders, i.e., such that the elements larger than any one are linearly ordered. Quasi-trees are, roughly speaking, undirected O-trees. For O-trees and quasi-trees, we define relational structures on their leaves that characterize them up to isomorphism. These structures have characterizations by universal first-order sentences. Furthermore, we consider cases where O-trees and quasi-trees can be reconstructed from their leaves by CMSO-transductions. These transductions are transformations of relational structures defined by monadic second-order (MSO) formulas. The letter "C" for counting refers to the use of set predicates that count cardinalities of finite sets modulo fixed integers. O-trees and quasi-trees make it possible to define respectively, the modular decomposition and the rank-width of a countable graph. Their constructions from their leaves by transductions of different types apply to rank-decompositions, and to modular decomposition and to other canonical graph decompositions.</description>
     </item>
   </channel>
 </rss>

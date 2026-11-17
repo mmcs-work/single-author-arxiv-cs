@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Polynomial-Time Algorithm for Constant-Factor EFX Allocations of Chores</title>
+      <link>http://arxiv.org/abs/2611.21387v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21387v1</guid>
+      <pubDate>Mon, 16 Nov 2026 16:46:47 +0000</pubDate>
+      <description>We study the fair division of indivisible chores among agents with additive disutilities, focusing on the central fairness notion of envy-freeness up to any chore (EFX), and its multiplicative approximations. Although the existence of constant-factor approximations to EFX are known, computing such an allocation in polynomial time remained open. We resolve this question by giving an algorithm that, for every $\varepsilon\in(0,1)$, computes a $(3+\varepsilon)$-EFX allocation in time polynomial in the input length and $1/\varepsilon$. Our result relies on two algorithmic contributions. First, we give a fully polynomial-time approximation scheme (FPTAS) for earning-restricted (ER) equilibria with equal earning requirements and arbitrary feasible chore earning limits. We develop a new nonconvex program with chore payouts and money-flow variables, and prove that every local maximum yields an exact ER equilibrium. We then give a mirror-ascent algorithm for this program and prove that it converges to an approximate ER equilibrium in polynomial time. Second, we give a new procedure that converts the approximate equilibrium into a $(3+\varepsilon)$-EFX-friendly allocation, a suitable starting point for the chore-swap framework of Garg and Murhekar (2026). The procedure uses a flexible price threshold to choose swap chores and their recipients together, overcoming a factor-four bottleneck in the earlier approaches while accommodating approximate earnings. We expect these ideas to be useful more broadly in fair division, including for goods and other fairness notions.</description>
+    </item>
+    <item>
+      <title>Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity</title>
+      <link>http://arxiv.org/abs/2611.21262v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21262v1</guid>
+      <pubDate>Mon, 16 Nov 2026 15:34:18 +0000</pubDate>
+      <description>A network in which every bank pays in full can nevertheless admit a self-fulfilling settlement freeze under the same balance-sheet fundamentals. Thus, observing full repayment does not establish the uniqueness or robustness of the payment equilibrium. We derive this result from a precautionary-liquidity choice: banks may delay otherwise feasible payments to insure an interim funding need, trading a positive settlement-discipline cost against the marginal value of retained cash. The optimal reserve is a critical quantile of future liquidity requirements, and the repayment rule nests Eisenberg-Noe maximal feasible clearing exactly. Counterparty underpayment both reduces current cash and raises desired reserves. We characterise network amplification and the conditions for coexistence, including a homogeneous two-bank GPD frontier in which interbank exposure and maximum funding pass-through enter through one dimensionless index. A two-date settlement accounting rule distinguishes payment timing from ultimate default. The main result concerns equilibrium coexistence; the conditional best-response adjustment diagnostic does not assign selection probabilities.</description>
+    </item>
+    <item>
+      <title>Payoff-Based Certificates for Convergence to Pure Nash Equilibria under Replicator Dynamics</title>
+      <link>http://arxiv.org/abs/2611.20407v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.20407v1</guid>
+      <pubDate>Mon, 16 Nov 2026 02:08:37 +0000</pubDate>
+      <description>For finite bimatrix games, we give a payoff-based sufficient condition $E&gt;0$ for an interior initial state to converge to a specified strict pure Nash equilibrium under replicator dynamics. The construction combines lower bounds on the growth rates of log probability ratios between target and alternative actions with a first integral of a two-dimensional comparison system. It allows one player's payoff advantage to compensate for the other's disadvantage, certifying convergence even when a target action initially loses probability. For rational inputs and integration base points with algebraic exponentials, we give a finite exact test. We obtain closed-form box probabilities and, when all nontarget actions are included, closed-form upper bounds on convergence time. In two-action coordination games, choosing the base points at the sign thresholds recovers the full basin of attraction. Experiments on random games show that basin coverage shrinks rapidly with the number of actions. For $n=4,5,6$, median entry times are approximately 70% of median box-entry times without shifts and 40% for a union over 16 shift choices. Extensions cover multiplayer games through cooperative comparison systems and explicit boxes, and discrete-time exponential-weights learning under explicit step-size conditions.</description>
+    </item>
+    <item>
+      <title>Rank Functions of Flag Matroids with Applications to Order-Neutral Submodular Valuations</title>
+      <link>http://arxiv.org/abs/2611.18989v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.18989v1</guid>
+      <pubDate>Fri, 13 Nov 2026 22:35:34 +0000</pubDate>
+      <description>We provide a rank function axiomatization for flag matroids and show that it is cryptomorphic to the definition of flag matroids as a sequence of matroid quotients. Afterwards, we present some applications of flag matroid rank functions by providing solutions to selected problems. In particular, we discuss connections between flag matroids and submodular valuations in computational economics by showing that rank functions of flag matroids of length $k$ are precisely the same as $\{0, 1, \dots, k\}$-order-neutral submodular valuations. We then prove that $v:2^E\to \mathbb{R}$ is an order-neutral submodular valuation if and only if $v$ can be written as $v(X) = b|X| + \sum_{i=1}^l c_ir_{N_i}(X), \quad b \in \mathbb{R}, c_i &gt; 0$, where $N_{i+1}$ is a quotient of $N_i$. Doing so allows us to prove that every order-neutral submodular valuation is a gross-substitute valuation and that not every order-neutral submodular valuation is a Rado valuation. Furthermore, we prove that if $|E|\geq 3$, then a set $A$ is a Sidon set if and only if all $A$-submodular valuations are order-neutral, if and only if all $A$-submodular valuations are gross-substitute valuations.</description>
+    </item>
+    <item>
       <title>Learning Dynamics of the Influencer's Game in Resource Landscapes</title>
       <link>http://arxiv.org/abs/2611.17148v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17148v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2109.04976</guid>
       <pubDate>Fri, 10 Sep 2021 00:00:00 -0000</pubDate>
       <description>An irreducible stochastic matrix with rational entries has a stationary distribution given by a vector of rational numbers. We give an upper bound on the lowest common denominator of the entries of this vector. Bounds of this kind are used to study the complexity of algorithms for solving stochastic mean payoff games. They are usually derived using the Hadamard inequality, but this leads to suboptimal results. We replace the Hadamard inequality with the Markov chain tree formula in order to obtain optimal bounds. We also adapt our approach to obtain bounds on the absorption probabilities of finite Markov chains and on the gains and bias vectors of Markov chains with rewards.</description>
-    </item>
-    <item>
-      <title>Concurrent matching logic</title>
-      <link>https://arxiv.org/abs/2109.00319</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2109.00319</guid>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 -0000</pubDate>
-      <description>Abstract. Matching logic cannot handle concurrency. We introduce concurrent matching logic (CML) to reason about fault-free partial correctness of shared-memory concurrent programs. We also present a soundness proof for concurrent matching logic (CML) in terms of operational semantics. Under certain assumptions, the assertion of CSL can be transformed into the assertion of CML. Hence, CSL can be seen as an instance of CML.</description>
-    </item>
-    <item>
-      <title>Open-Loop Equilibrium Strategies for Dynamic Influence Maximization Game Over Social Networks</title>
-      <link>https://arxiv.org/abs/2107.05138</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.05138</guid>
-      <pubDate>Mon, 30 Aug 2021 00:00:00 -0000</pubDate>
-      <description>We consider the problem of budget allocation for competitive influence maximization over social networks. In this problem, multiple competing parties (players) want to distribute their limited advertising resources over a set of social individuals to maximize their long-run cumulative payoffs. It is assumed that the individuals are connected via a social network and update their opinions based on the classical DeGroot model. The players must decide the budget distribution among the individuals at a finite number of campaign times to maximize their overall payoff given as a function of individuals' opinions. We show that i) the optimal investment strategy for the case of a single-player can be found in polynomial time by solving a concave program, and ii) the open-loop equilibrium strategies for the multiplayer dynamic game can be computed efficiently by following natural regret minimization dynamics. Our results extend the earlier work on the static version of the problem to a dynamic multistage game.</description>
-    </item>
-    <item>
-      <title>Self-Adaptive Swarm System (SASS)</title>
-      <link>https://arxiv.org/abs/2106.04679</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2106.04679</guid>
-      <pubDate>Fri, 20 Aug 2021 00:00:00 -0000</pubDate>
-      <description>Distributed artificial intelligence (DAI) studies artificial intelligence entities working together to reason, plan, solve problems, organize behaviors and strategies, make collective decisions and learn. This Ph.D. research proposes a principled Multi-Agent Systems (MAS) cooperation framework -- Self-Adaptive Swarm System (SASS) -- to bridge the fourth level automation gap between perception, communication, planning, execution, decision-making, and learning.</description>
-    </item>
-    <item>
-      <title>Learning in two-player games between transparent opponents</title>
-      <link>https://arxiv.org/abs/2012.02671</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2012.02671</guid>
-      <pubDate>Thu, 19 Aug 2021 00:00:00 -0000</pubDate>
-      <description>We consider a scenario in which two reinforcement learning agents repeatedly play a matrix game against each other and update their parameters after each round. The agents' decision-making is transparent to each other, which allows each agent to predict how their opponent will play against them. To prevent an infinite regress of both agents recursively predicting each other indefinitely, each agent is required to give an opponent-independent response with some probability at least epsilon. Transparency also allows each agent to anticipate and shape the other agent's gradient step, i.e. to move to regions of parameter space in which the opponent's gradient points in a direction favourable to them. We study the resulting dynamics experimentally, using two algorithms from previous literature (LOLA and SOS) for opponent-aware learning. We find that the combination of mutually transparent decision-making and opponent-aware learning robustly leads to mutual cooperation in a single-shot prisoner's dilemma. In a game of chicken, in which both agents try to manoeuvre their opponent towards their preferred equilibrium, converging to a mutually beneficial outcome turns out to be much harder, and opponent-aware learning can even lead to worst-case outcomes for both agents. This highlights the need to develop opponent-aware learning algorithms that achieve acceptable outcomes in social dilemmas involving an equilibrium selection problem.</description>
     </item>
   </channel>
 </rss>
