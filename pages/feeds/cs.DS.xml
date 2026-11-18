@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Heap-type permutation generation with a prescribed final arrangement</title>
+      <link>http://arxiv.org/abs/2611.22780v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22780v1</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:49 +0000</pubDate>
+      <description>Heap's algorithm generates all permutations of an array of n items, obtaining each one from its predecessor by a single swap. We determine the net permutation applied to the array by every complete recursive call: a transposition when the number of items is odd and at least three, and a cycle through all items when it is even. We show that the output of each call is a concatenation of right cosets of the symmetric group on one item fewer, and we prove a general formula: the order in which the items are parked at the last position may be chosen freely, every such order corresponds to exactly one valid schedule, and it determines the net permutation of the call. Two variants follow. In the cyclic variant a complete sweep over an even number of items rotates the array by one position. In the extremal variant, for even n, a sweep started from the identity ends in the lexicographically largest arrangement that any single-swap enumeration can leave; by a parity argument this is the reversal exactly when n is congruent to 2 modulo 4. The construction of the extremal variant is proved correct when n is divisible by 4 and verified by computer for all even n up to 10000.</description>
+    </item>
+    <item>
+      <title>A faster algorithm for commutator length in free groups</title>
+      <link>http://arxiv.org/abs/2611.22303v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22303v1</guid>
+      <pubDate>Tue, 17 Nov 2026 07:01:13 +0000</pubDate>
+      <description>We compute the commutator length $\cl(w)$ of a reduced word $w\in[F,F]$ of length $M$ in a free group. Given a target $g\ge1$, a deterministic algorithm decides $\cl(w)\le g$ and, when it holds, returns a decomposition into at most $g$ commutators, in $O(M^{3g})$ steps; trying $g=1,2,\dots$ gives $\cl(w)$ in $O(M^{3\cl(w)})$ steps. For $g=1$ the same test takes $O(M)$ expected steps on a uniformly random reduced input in $[F,F]$. All bounds are in the unit-cost model.</description>
+    </item>
+    <item>
       <title>Reducing Asymmetric Path TSP to Asymmetric TSP</title>
       <link>http://arxiv.org/abs/2611.21453v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21453v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2410.08825</guid>
       <pubDate>Thu, 03 Jul 2025 00:00:00 -0000</pubDate>
       <description>We revisit weight-balanced trees, also known as trees of bounded balance. This class of binary search trees was invented by Nievergelt and Reingold in 1972. Such trees are obtained by assigning a weight to each node and requesting that the weight of each node should be quite larger than the weights of its children, the precise meaning of ``quite larger'' depending on a real-valued parameter~$γ$. Blum and Mehlhorn then showed how to maintain these trees in a recursive (bottom-up) fashion when~$2/11 \leqslant γ\leqslant 1-1/\sqrt{2}$, their algorithm requiring only an amortised constant number of tree rebalancing operations per update (insertion or deletion). Later, in 1993, Lai and Wood proposed a top-down procedure for updating these trees when~$2/11 \leqslant γ\leqslant 1/4$. Our contribution is two-fold. First, we strengthen the requirements of Nievergelt and Reingold, by also requesting that each node should have a substantially larger weight than its grand-children, thereby obtaining what we call grand-children balanced trees. Grand-children balanced trees are not harder to maintain than weight-balanced trees, but enjoy a smaller node depth, both in the worst case (with a 6~\% decrease) and on average (with a 1.6~\% decrease). In particular, unlike standard weight-balanced trees, all grand-children balanced trees with $n$ nodes are of height less than $2 \log_2(n)$. Second, we adapt the algorithm of Lai and Wood to all weight-balanced trees, i.e., to all parameter values~$γ$ such that~$2/11 \leqslant γ\leqslant 1-1/\sqrt{2}$. More precisely, we adapt it to all grand-children balanced trees for which~$1/4 &lt; γ\leqslant 1 - 1/\sqrt{2}$. Finally, we show that, except in critical cases, all these algorithms result in making a constant amortised number of tree rebalancing operations per tree update.</description>
-    </item>
-    <item>
-      <title>A Computational Proof of the Highest-Scoring Boggle Board</title>
-      <link>https://arxiv.org/abs/2507.02117</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.02117</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 -0000</pubDate>
-      <description>Finding all the words on a Boggle board is a classic computer programming problem. With a fast Boggle solver, local optimization techniques such as hillclimbing and simulated annealing can be used to find particularly high-scoring boards. The sheer number of possible Boggle boards has historically prevented an exhaustive search for the global optimum board. We apply Branch and Bound and a decision diagram-like data structure to perform the first such search. We find that the highest-scoring boards found via hillclimbing are, in fact, the global optima.</description>
-    </item>
-    <item>
-      <title>A Deterministic Partition Tree and Applications</title>
-      <link>https://arxiv.org/abs/2507.01775</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.01775</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 -0000</pubDate>
-      <description>In this paper, we present a deterministic variant of Chan's randomized partition tree [Discret. Comput. Geom., 2012]. This result leads to numerous applications. In particular, for $d$-dimensional simplex range counting (for any constant $d \ge 2$), we construct a data structure using $O(n)$ space and $O(n^{1+ε})$ preprocessing time, such that each query can be answered in $o(n^{1-1/d})$ time (specifically, $O(n^{1-1/d} / \log^{Ω(1)} n)$ time), thereby breaking an $Ω(n^{1-1/d})$ lower bound known for the semigroup setting. Notably, our approach does not rely on any bit-packing techniques. We also obtain deterministic improvements for several other classical problems, including simplex range stabbing counting and reporting, segment intersection detection, counting and reporting, ray-shooting among segments, and more. Similar to Chan's original randomized partition tree, we expect that additional applications will emerge in the future, especially in situations where deterministic results are preferred.</description>
     </item>
   </channel>
 </rss>

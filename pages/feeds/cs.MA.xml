@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News</title>
+      <link>http://arxiv.org/abs/2611.22177v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22177v1</guid>
+      <pubDate>Tue, 17 Nov 2026 04:13:18 +0000</pubDate>
+      <description>Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before news whose date is known, such as earnings announcements, and after bad news, if the market's fall went too far. However, studies of LLMs and earnings read documents published with or after the announcement, and studies of reversal sort monthly portfolios, so neither tells whether an agent can trade these moments after costs. In this paper, we test LLM agents at both moments on the same look-ahead-free benchmark, before 598 earnings announcements and after 409 bad-news drops of large US stocks. Every input is cut at the decision close, staged agents are compared with single calls, simple rules and a logistic regression, and every decision is made with and without the stock's name. Across five models from four vendors, no agent beat the simple bets. Before earnings, the agents mostly bought and earned what buying before every announcement earned, and after bad news, a Gemini-based agent called almost every fall an overreaction while no agent picked better dips than buying them all. The only gains came from what the models had memorized in training. Given only the ticker and the dates, a GPT-based model called the direction of 59.2% of the announcements before its training cutoff and 53.3% after it. Agent builders should therefore compare an event agent with the simple bet and test it blind after the training cutoff.</description>
+    </item>
+    <item>
       <title>Hivemind: A Federated Protocol for AI-Mediated Tacit Knowledge Sharing in Organisations</title>
       <link>http://arxiv.org/abs/2611.20988v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.20988v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2002.11507</guid>
       <pubDate>Sun, 23 Feb 2020 00:00:00 -0000</pubDate>
       <description>In addition to seamless connectivity and smartness, the objects in the Internet of Things (IoT) are expected to have the social capabilities -- these objects are termed as ``social objects''. In this paper, an intuitive paradigm of social interactions between these objects are argued and modeled. The impact of social behavior on the interaction pattern of social objects is studied taking Peer-to-Peer (P2P) resource sharing as an example application. The model proposed in this paper studies the implications of competitive vs. cooperative social paradigm, while peers attempt to attain the shared resources / services. The simulation results divulge that the social capabilities of the peers impart a significant increase in the quality of interactions between social objects. Through an agent-based simulation study, it is proved that cooperative strategy is more efficient than competitive strategy. Moreover, cooperation with an underpinning on real-life networking structure and mobility does not negatively impact the efficiency of the system at all; rather it helps.</description>
-    </item>
-    <item>
-      <title>Toward dynamical crowd control to prevent hazardous situations</title>
-      <link>https://arxiv.org/abs/2002.10860</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2002.10860</guid>
-      <pubDate>Sun, 23 Feb 2020 00:00:00 -0000</pubDate>
-      <description>It is common for large crowds to gather to attend games, exhibitions, political rallies, and other events. Thus, careful designs and operational plans are made to ensure the safe, secure, and efficient movement of people in these crowded environments. However, the congestion created by large crowds has resulted in hazardous incidents across the world. Developments in information technology can provide new means to disseminate public information, thus changing human behavior in situations of danger and duress. In this paper, we propose a crowd control and evacuation guidance management system using digital promotional signage to demonstrate the effects of crowd control via simulations.</description>
     </item>
   </channel>
 </rss>

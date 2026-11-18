@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Linear-Size Well-Separated Pair Decomposition for Unit Disk Graphs</title>
+      <link>http://arxiv.org/abs/2611.22049v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22049v1</guid>
+      <pubDate>Tue, 17 Nov 2026 01:17:42 +0000</pubDate>
+      <description>Given a metric space $(X, d)$ a $c$-well separated pair decomposition (WSPD) is a collection of `dumbbell' pairs of subsets $(A, B)$, $A, B\subseteq X$, where the distance between the two sets is at least $c$ times the diameter of each set and every pair of points in $X$ is covered by one such pair. It is known that for a weighted unit disk graph metric of $n$ points, there is a WSPD of size $O(n\log n)$. But it is open whether this bound can be improved to $O(n)$. In this note, we answer this question affirmatively and provide an algorithm that yields a linear-size WSPD for unit disk graphs.</description>
+    </item>
+    <item>
       <title>Bounded Knapsack in Truly Subquadratic Time</title>
       <link>http://arxiv.org/abs/2611.15792v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.15792v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1412.6985</guid>
       <pubDate>Mon, 22 Dec 2014 00:00:00 -0000</pubDate>
       <description>Higher dimensional graphs can be used to colour two-dimensional geometric graphs. If G the boundary of a three dimensional graph H for example, we can refine the interior until it is colourable with 4 colours. The later goal is achieved if all interior edge degrees are even. Using a refinement process which cuts the interior along surfaces we can adapt the degrees along the boundary of that surface. More efficient is a self-cobordism of G with itself with a host graph discretizing the product of G with an interval. It follows from the fact that Euler curvature is zero everywhere for three dimensional geometric graphs, that the odd degree edge set O is a cycle and so a boundary if H is simply connected. A reduction to minimal colouring would imply the four colour theorem. The method is expected to give a reason "why 4 colours suffice" and suggests that every two dimensional geometric graph of arbitrary degree and orientation can be coloured by 5 colours: since the projective plane can not be a boundary of a 3-dimensional graph and because for higher genus surfaces, the interior H is not simply connected, we need in general to embed a surface into a 4-dimensional simply connected graph in order to colour it. This explains the appearance of the chromatic number 5 for higher degree or non-orientable situations, a number we believe to be the upper limit. For every surface type, we construct examples with chromatic number 3,4 or 5, where the construction of surfaces with chromatic number 5 is based on a method of Fisk. We have implemented and illustrated all the topological aspects described in this paper on a computer. So far we still need human guidance or simulated annealing to do the refinements in the higher dimensional host graph.</description>
-    </item>
-    <item>
-      <title>Shallow Packings in Geometry</title>
-      <link>https://arxiv.org/abs/1412.5215</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1412.5215</guid>
-      <pubDate>Tue, 16 Dec 2014 00:00:00 -0000</pubDate>
-      <description>We refine the bound on the packing number, originally shown by Haussler, for shallow geometric set systems. Specifically, let $\V$ be a finite set system defined over an $n$-point set $X$; we view $\V$ as a set of indicator vectors over the $n$-dimensional unit cube. A $δ$-separated set of $\V$ is a subcollection $\W$, s.t. the Hamming distance between each pair $\uu, \vv \in \W$ is greater than $δ$, where $δ&gt; 0$ is an integer parameter. The $δ$-packing number is then defined as the cardinality of the largest $δ$-separated subcollection of $\V$. Haussler showed an asymptotically tight bound of $Θ((n/δ)^d)$ on the $δ$-packing number if $\V$ has VC-dimension (or \emph{primal shatter dimension}) $d$. We refine this bound for the scenario where, for any subset, $X' \subseteq X$ of size $m \le n$ and for any parameter $1 \le k \le m$, the number of vectors of length at most $k$ in the restriction of $\V$ to $X'$ is only $O(m^{d_1} k^{d-d_1})$, for a fixed integer $d &gt; 0$ and a real parameter $1 \le d_1 \le d$ (this generalizes the standard notion of \emph{bounded primal shatter dimension} when $d_1 = d$). In this case when $\V$ is "$k$-shallow" (all vector lengths are at most $k$), we show that its $δ$-packing number is $O(n^{d_1} k^{d-d_1}/δ^d)$, matching Haussler's bound for the special cases where $d_1=d$ or $k=n$. As an immediate consequence we conclude that set systems of halfspaces, balls, and parallel slabs defined over $n$ points in $d$-space admit better packing numbers when $k$ is smaller than $n$. Last but not least, we describe applications to (i) spanning trees of low total crossing number, and (ii) geometric discrepancy, based on previous work by the author.</description>
     </item>
   </channel>
 </rss>

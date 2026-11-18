@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Integral Tensor Isomorphism via Cubic Rings and Lattice Methods</title>
+      <link>http://arxiv.org/abs/2611.23186v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23186v1</guid>
+      <pubDate>Tue, 17 Nov 2026 18:30:53 +0000</pubDate>
+      <description>We prove that isomorphism of integral $2\times3\times3$ tensors under $\mathrm{GL}_2(\mathbb{Z})\times\mathrm{GL}_3(\mathbb{Z})\times\mathrm{GL}_3(\mathbb{Z})$ is decidable in bounded-error quantum polynomial time. For a tensor $T=(A,B)$ with nonzero determinant form $\det(xA-yB)$, we use the parametrization of Wood by balanced modules to reduce the isomorphism problem to principality tests for compatible lattices, and use the algorithms of Bley, Hofmann, and Johnston to solve this in BQP. When the determinant form vanishes identically, we get either an integral $2\times2\times2$ core, or a polynomial kernel vector of degree one or two. The linear-kernel case yields another compatible lattice problem, while the quadratic-kernel case reduces to a fixed system of polynomial congruences and unimodular lifting. A quantifier-elimination argument decides these congruences in deterministic polynomial time given the prime factorization of the modulus, which quantum integer factorization supplies. Finally, we show that zero padding preserves integral $2\times2\times2$ tensor isomorphism, yielding a polynomial-time reduction from real-quadratic principality to the identically singular $2\times3\times3$ problem.</description>
+    </item>
+    <item>
+      <title>Inapproximability of L1-&gt;L2 Subspace Distortion</title>
+      <link>http://arxiv.org/abs/2611.22531v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22531v1</guid>
+      <pubDate>Tue, 17 Nov 2026 10:22:01 +0000</pubDate>
+      <description>We show, assuming NP is not contained in randomized quasipolynomial time, almost polynomial factor inapproximability for maximizing the $\ell_2/\ell_1$ ratio over a real subspace -- a problem also known as subspace distortion. This is a central problem in compressed sensing but also has connections to many areas such as real error correcting codes, dictionary learning, hypercontractive operator norms, small-set expansion, quantum information and random matrix theory. Distortion seems to be at the heart of building inapproximability theory for continuous optimization. Extending our results to the case of $\ell_2/\ell_p$ for all $p&lt;2$ would lead to a near characterization of the convex sets over which one can efficiently and approximately maximize an arbitrary quadratic form. A recurring obstruction appears in hardness considerations of distortion -- how does one use a sparsity measure to test proximity to an exponential sized discrete set over the reals? This issue also appears in a host of other problems that involve measures of sparsity, shortness, density or expansion. We believe hardness of distortion is an intermediate step to understanding the complexity of small-set expansion and quantum separability, both of which are important directions of research. The main insight in our hardness reduction is the construction of a randomized affine linear map $T:\mathbb{R}^n\to \mathbb{R}^m$ such that the distortion of $Tx$ measures proximity to the hypercube $\{\pm 1\}^{n}$. Crucial to our construction is subsampling $x$ at *all* dyadic sample sizes, which gives an inverse polylogarithmic gap. This is a highly non-local tester, and thus departs from the local testing paradigm in PCP theory. Our reduction is also quite succinct, and so it suggests a rather simple distribution of subspaces for which approximately finding a planted sparse vector is intractable.</description>
+    </item>
+    <item>
+      <title>An alternate proof of the QMA lower bound for set-size estimation</title>
+      <link>http://arxiv.org/abs/2611.21994v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21994v1</guid>
+      <pubDate>Mon, 16 Nov 2026 23:26:55 +0000</pubDate>
+      <description>In the set-size estimation query task, a query algorithm decides whether an $N$-bit input has Hamming weight $\ge B$ or $\le A$ (with $\ge B$ as the yes instances and $\le A$ as the no instances). When $B = 2A$, this is sometimes called approximate counting. The query complexity for this problem with a quantum witness (i.e., $\mathsf{QMA}$ query bounds) was resolved by Aaronson, Kothari, Kretschmer, and Thaler (CCC 2020) and proved using Laurent polynomials. Here we give a morally similar but distinct proof of the lower bound using the polynomial method.</description>
+    </item>
+    <item>
+      <title>Complexity and precision in quantum associative retrieval</title>
+      <link>http://arxiv.org/abs/2611.21941v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21941v1</guid>
+      <pubDate>Mon, 16 Nov 2026 22:04:19 +0000</pubDate>
+      <description>We show that efficient and high-precision quantum associative retrieval is possible with an exponential complexity advantage with respect to the classical brute force approach and with a polynomial capacity advantage with respect to classical neural network implementations for any number of patterns scaling polynomially in the number of qubits. Both classical neural and quantum associative memories store the patterns in a Hamiltonian; in the classical case the dynamics is irreversible relaxation toward attractors, in the quantum case it is unitary transformations generating an effective thermal distribution, followed by a measurement.</description>
+    </item>
+    <item>
       <title>Separations Between Randomized and Exact Quantum Query Complexity for Boolean Functions</title>
       <link>http://arxiv.org/abs/2611.21189v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21189v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2309.10943</guid>
       <pubDate>Tue, 19 Sep 2023 00:00:00 -0000</pubDate>
       <description>In this article we survey recent progress in the algorithmic theory of matrix semigroups. The main objective in this area of study is to construct algorithms that decide various properties of finitely generated subsemigroups of an infinite group $G$, often represented as a matrix group. Such problems might not be decidable in general. In fact, they gave rise to some of the earliest undecidability results in algorithmic theory. However, the situation changes when the group $G$ satisfies additional constraints. In this survey, we give an overview of the decidability and the complexity of several algorithmic problems in the cases where $G$ is a low-dimensional matrix group, or a group with additional structures such as commutativity, nilpotency and solvability.</description>
-    </item>
-    <item>
-      <title>Quantum speedup of leverage score sampling and its application</title>
-      <link>https://arxiv.org/abs/2301.06107</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2301.06107</guid>
-      <pubDate>Sat, 16 Sep 2023 00:00:00 -0000</pubDate>
-      <description>Leverage score sampling is crucial to the design of randomized algorithms for large-scale matrix problems, while the computation of leverage scores is a bottleneck of many applications. In this paper, we propose a quantum algorithm to accelerate this useful method. The speedup is at least quadratic and could be exponential for well-conditioned matrices. We also prove some quantum lower bounds, which suggest that our quantum algorithm is close to optimal. As an application, we propose a new quantum algorithm for rigid regression problems with vector solution outputs. It achieves polynomial speedups over the best classical algorithm known. In this process, we give an improved randomized algorithm for rigid regression.</description>
-    </item>
-    <item>
-      <title>Merging two Hierarchies of Internal Contextual Grammars with Subregular Selection</title>
-      <link>https://arxiv.org/abs/2309.08724</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.08724</guid>
-      <pubDate>Fri, 15 Sep 2023 00:00:00 -0000</pubDate>
-      <description>In this paper, we continue the research on the power of contextual grammars with selection languages from subfamilies of the family of regular languages. In the past, two independent hierarchies have been obtained for external and internal contextual grammars, one based on selection languages defined by structural properties (finite, monoidal, nilpotent, combinational, definite, ordered, non-counting, power-separating, suffix-closed, commutative, circular, or union-free languages), the other one based on selection languages defined by resources (number of non-terminal symbols, production rules, or states needed for generating or accepting them). In a previous paper, the language families of these hierarchies for external contextual grammars were compared and the hierarchies merged. In the present paper, we compare the language families of these hierarchies for internal contextual grammars and merge these hierarchies.</description>
-    </item>
-    <item>
-      <title>Derandomization under Different Resource Constraints</title>
-      <link>https://arxiv.org/abs/2211.14640</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2211.14640</guid>
-      <pubDate>Tue, 12 Sep 2023 00:00:00 -0000</pubDate>
-      <description>We provide another proof to the EL Theorem. We show the tradeoff between compressibility of codebooks and their communication capacity. A resource bounded version of the EL Theorem is proven. This is used to prove three instances of resource bounded derandomization. This paper is in support of the general claim that if the existence of an object can be proven with the probabilistic method, then bounds on its Kolmogorov complexity can be proven as well.</description>
-    </item>
-    <item>
-      <title>The EL Theorem</title>
-      <link>https://arxiv.org/abs/1907.04776</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1907.04776</guid>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 -0000</pubDate>
-      <description>The combined universal probability $\mathbf{m}(D)$ of strings $x$ in sets $D$ is close to max $\mathbf{m}(x)$ over $x$ in $D$: their logs differ by at most $D$'s information $\mathbf{I}(D:\mathcal{H})$ about the halting sequence $\mathcal{H}$.</description>
     </item>
   </channel>
 </rss>

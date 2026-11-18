@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Mechanism Design and Active Systems Theory: 60 Years of Parallel Development</title>
+      <link>http://arxiv.org/abs/2611.21803v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21803v1</guid>
+      <pubDate>Mon, 16 Nov 2026 19:18:53 +0000</pubDate>
+      <description>The survey compares two research traditions within the mathematical theory of designing the rules of interaction (mechanisms) for purposeful participants: mechanism design, together with contract theory and implementation theory, and the theory of active systems created by V.N. Burkov and developed into the theory of control in organizations (TCO) by D.A. Novikov's school; the main results of Yu.B. Germeier's school and of the domestic schools adjacent to active systems theory (AST) are covered as well. The problem statements and principal results of 2006-2026 are presented: for mechanism design (MD) - robust and dynamic mechanism design, multidimensional screening, information design, simplicity of mechanisms and credibility of the designer, market design, algorithmic and learning-based design, mechanisms for AI agents, and robust, relational, dynamic and algorithmic contracts; for AST and TCO - a general typology of control, strategy-proof and incentive-compatible planning mechanisms, decomposition of the agents' game, systems with distributed control and coalitional interaction, reflexive games and informational control, control of staff and structure, dynamic active systems, and project management. A correspondence between the classical results is established (the fair play principle and the revelation principle, the serial resource allocation mechanism and the uniform rule, active expertise mechanisms and generalized median schemes, quasi-compensatory incentive schemes and contracts under observable actions), and priorities are delineated by uniform rules; the areas where the two traditions diverge are identified, as are the dimensions of the problem (staff, structure, institutions, awareness, agents' beliefs) covered only by TCO.</description>
+    </item>
+    <item>
       <title>A Polynomial-Time Algorithm for Constant-Factor EFX Allocations of Chores</title>
       <link>http://arxiv.org/abs/2611.21387v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21387v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2109.05145</guid>
       <pubDate>Sat, 11 Sep 2021 00:00:00 -0000</pubDate>
       <description>Equilibrium notions for games with unawareness in the literature cannot be interpreted as steady-states of a learning process because players may discover novel actions during play. In this sense, many games with unawareness are "self-destroying" as a player's representation of the game may change after playing it once. We define discovery processes where at each state there is an extensive-form game with unawareness that together with the players' play determines the transition to possibly another extensive-form game with unawareness in which players are now aware of actions that they have discovered. A discovery process is rationalizable if players play extensive-form rationalizable strategies in each game with unawareness. We show that for any game with unawareness there is a rationalizable discovery process that leads to a self-confirming game that possesses a self-confirming equilibrium in extensive-form rationalizable conjectures. This notion of equilibrium can be interpreted as steady-state of both a discovery and learning process.</description>
-    </item>
-    <item>
-      <title>Optimal bounds for bit-sizes of stationary distributions in finite Markov chains</title>
-      <link>https://arxiv.org/abs/2109.04976</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2109.04976</guid>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 -0000</pubDate>
-      <description>An irreducible stochastic matrix with rational entries has a stationary distribution given by a vector of rational numbers. We give an upper bound on the lowest common denominator of the entries of this vector. Bounds of this kind are used to study the complexity of algorithms for solving stochastic mean payoff games. They are usually derived using the Hadamard inequality, but this leads to suboptimal results. We replace the Hadamard inequality with the Markov chain tree formula in order to obtain optimal bounds. We also adapt our approach to obtain bounds on the absorption probabilities of finite Markov chains and on the gains and bias vectors of Markov chains with rewards.</description>
     </item>
   </channel>
 </rss>

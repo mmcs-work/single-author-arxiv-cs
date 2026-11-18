@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Statically Typed Purely Functional Definitional Interpreters for {\it Essentials of Programming Languages}</title>
+      <link>http://arxiv.org/abs/2611.22748v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22748v1</guid>
+      <pubDate>Tue, 17 Nov 2026 13:16:39 +0000</pubDate>
+      <description>Definitional interpreters provide an executable and pedagogically effective way to explain programming language semantics. However, when implemented in a dynamically typed and effectful metalanguage, semantic components such as stores, continuations, handlers, substitutions, and scheduling states may remain implicit in the host-language implementation, making it harder to see how language extensions affect interpreter structure. This paper reconstructs the family of interpreters from \textit{Essentials of Programming Languages} (EOPL) in Haskell, a statically typed and purely functional metalanguage, for pedagogical use. We preserve the object languages, examples, and tests of EOPL while making their semantic components explicit through algebraic data types, evaluator signatures, and explicit semantic domains. Across 15 interpreters and 6 type checkers, language extensions are exposed as systematic type-directed changes. The reconstruction is currently used in undergraduate and graduate programming language courses, where students learn interpreter construction through incremental and test-driven development. We further illustrate its pedagogical use through three case studies that progressively extend students' experience: composing mutable state and exception handling, deriving an actor-based interpreter from the typed structure of the EOPL thread interpreter, and translating the CHECKED interpreter and type checker into Rocq to mechanize type safety. Together, the classroom experience and case studies suggest that the reconstruction provides a concrete bridge from learning programming language concepts through executable interpreters to language design and mechanized reasoning.</description>
+    </item>
+    <item>
       <title>Do Apple M-Series Processors Enforce the Compound Memory Model? Sequential and Parallel Composition of Arm and TSO</title>
       <link>http://arxiv.org/abs/2611.21406v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21406v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1812.01099</guid>
       <pubDate>Sun, 18 Nov 2018 00:00:00 -0000</pubDate>
       <description>Mariana trench is the deepest place on the Earth. It crosses four tectonic plates of the Pacific Ocean: Mariana, Caroline, Pacific and Philippine. The formation of the trench is caused by the complex interconnection of various environmental factors. The aim of this study was to describe and characterize various impact factors affecting formation of the Mariana trench geomorphology and continental margin environments using R programming language and mathematical algorithms of correlation methods written on R code. To record the system of geological, tectonic, geographic, oceanological and bathymetric features affecting Mariana trench , a combination of statistical methods, GIS and R programming codes were applied. The questions answered are as follows: which factors are the most influencing for the Mariana trench morphology, and to what extend do they affect its development? Is sedimental thickness of the ocean trench basement more important factors for the trench formation comparing to the steepness slope angle and aspect degree? Three methods of computing were tested: Pearson correlation, Spearman correlation, Kendall correlation, numerical correlogram, correlation matrix and cross-correlatios to analyze environmental impact factors. The correlogram matrices are computed and visualized by R scripting libraries. Complex usage of programming tools, mathematical statistics and geospatial analysis enabled to get a differentiated understandings of the hadal environments of the Mariana trench. The results revealed following three types of factors having the highest score: geometric (tg° slope angle), geologic (sedimental thickness) and tectonic structure. The results furthermore indicated that tectonic plates, sedimental thickness of the trench basement and igneous volcanic areas causing earthquakes play the most essential role in the geomorphology of the trench.</description>
-    </item>
-    <item>
-      <title>On the extreme power of nonstandard programming languages</title>
-      <link>https://arxiv.org/abs/1811.05307</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1811.05307</guid>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 -0000</pubDate>
-      <description>Suenaga and Hasuo introduced a nonstandard programming language ${\bf While}^{\bf dt}$ which models hybrid systems. We demonstrate why ${\bf While}^{\bf dt}$ is not suitable for modeling actual computations.</description>
     </item>
   </channel>
 </rss>

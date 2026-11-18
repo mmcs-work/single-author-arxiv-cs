@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On Traffic Characterization in Time-Sensitive Networking and Deterministic Networking</title>
+      <link>http://arxiv.org/abs/2611.22744v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22744v1</guid>
+      <pubDate>Tue, 17 Nov 2026 13:12:55 +0000</pubDate>
+      <description>The traffic of an audio/video stream in IEEE Time-Sensitive Networking (TSN) or an asynchronous traffic flow in IETF Deterministic Networking is specified by three parameters: an observation time interval, a maximum packet size, and a maximum number of packets in the interval. This traffic specification (TSpec) triggers three fundamental questions for TSN and DetNet: (1) if and how the traffic of a flow can be specified by these parameters after it traverses a system, (2) how to specify the traffic of a flow aggregate using the three parameters, and (3) how to use it in performance guarantee analysis. Among them, the literature has focused on (3), leaving the other two little investigated and largely open. This paper is intended to bridge the gap. Specifically, we introduce an equivalent traffic characterization for TSN TSpec, which is simple in representation and simplifies analytical development. Based on this result, we establish an output characterization property for (1) and show that the output of a TSN flow traversing a bounded-delay system can be characterized by the TSN TSpec with updated parameters. For (2) we study the superposition of TSN flows and derive TSN traffic characterizations for the aggregate of multiple TSN flows. For (3), based on a relationship between the TSN traffic characterization and the well-known token-bucket traffic characterization, backlog and delay bounds are derived. Together, these results form a calculus for TSN traffic characterization.</description>
+    </item>
+    <item>
+      <title>Critical heavy traffic and diffusion limits for shortest-of-d dynamic routing</title>
+      <link>http://arxiv.org/abs/2611.22569v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22569v1</guid>
+      <pubDate>Tue, 17 Nov 2026 10:56:33 +0000</pubDate>
+      <description>We study shortest-of-$d$ routing, with fixed $d\ge2$, in $N$ parallel queues with independent finite-state Markov service environments switching at rate $κ_N$. At the critical load $ρ_N=1-1/N$, the empirical measure of the centered queue lengths, under stationarity, converges in distribution to a random probability measure determined by its mean. We identify the mean's density and the conditional independence of fixed finite collections of centered queues in the limit. On time scales of order $N$, the centered empirical mean converges to a diffusion with explicit drift and constant diffusion coefficient. These limits hold when $κ_N/N\to\infty$, along subsequences with convergent lattice phase. The diffusion limit extends to centered initial empirical measures tight in the first Wasserstein topology, with means converging in law. A short initial layer prepares the limiting family while preserving the limiting mean. Empirical approximation holds in time-integrated Wasserstein distance.</description>
+    </item>
+    <item>
       <title>Predicting, Fast and Slow: SSD Already Knows Which Guess Is Wrong</title>
       <link>http://arxiv.org/abs/2611.19457v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.19457v1</guid>

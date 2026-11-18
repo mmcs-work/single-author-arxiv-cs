@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Where Should the Lamp Go? Ambient-Aware Lamp Placement for Portraits</title>
+      <link>http://arxiv.org/abs/2611.22005v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22005v1</guid>
+      <pubDate>Mon, 16 Nov 2026 23:37:51 +0000</pubDate>
+      <description>Portraits shape first impressions, and lighting is an important factor. Prior work, such as lighting estimation and portrait relighting, edits lighting after capture but does not guide where to place a light before the shot. This leaves an open question: where should a light go to best light a face? Therefore, we propose LightMatch, a preference-grounded inverse lighting framework that disentangles the controllable light from ambient illumination and optimizes its placement. We first learn a Bradley-Terry quality model from pairwise human judgments. A perception head then regresses spherical-harmonic lighting from frozen self-supervised features via cross-attention. Finally, a placement solver isolates the light via spherical-harmonic linearity and optimizes its reachable position. On held-out environments, LightMatch attains 87.8% of the oracle improvement, outperforming the conventional solver that ignores ambient light by a relative 28.4% and the same pipeline with the widely used DPR estimator by a relative 70.5%. It reaches 73.2% on real OLAT faces of unseen identities and, on our real captures, cuts lamp-direction error by 37.7%.</description>
+    </item>
+    <item>
       <title>A Self-Evolving Agent Runs Like a Gas: Describing and Predicting Its Evolution with Fluid Dynamics</title>
       <link>http://arxiv.org/abs/2611.20584v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.20584v1</guid>

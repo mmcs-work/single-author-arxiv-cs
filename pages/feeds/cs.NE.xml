@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Complexity and precision in quantum associative retrieval</title>
+      <link>http://arxiv.org/abs/2611.21941v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21941v1</guid>
+      <pubDate>Mon, 16 Nov 2026 22:04:19 +0000</pubDate>
+      <description>We show that efficient and high-precision quantum associative retrieval is possible with an exponential complexity advantage with respect to the classical brute force approach and with a polynomial capacity advantage with respect to classical neural network implementations for any number of patterns scaling polynomially in the number of qubits. Both classical neural and quantum associative memories store the patterns in a Hamiltonian; in the classical case the dynamics is irreversible relaxation toward attractors, in the quantum case it is unitary transformations generating an effective thermal distribution, followed by a measurement.</description>
+    </item>
+    <item>
       <title>Simulated Annealing with Topological Spatial Chunking for De Novo Protein Sequence Design</title>
       <link>http://arxiv.org/abs/2611.19158v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.19158v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2107.01729</guid>
       <pubDate>Mon, 01 Nov 2021 00:00:00 -0000</pubDate>
       <description>Deep learning networks generally use non-biological learning methods. By contrast, networks based on more biologically plausible learning, such as Hebbian learning, show comparatively poor performance and difficulties of implementation. Here we show that Hebbian learning in hierarchical, convolutional neural networks can be implemented almost trivially with modern deep learning frameworks, by using specific losses whose gradients produce exactly the desired Hebbian updates. We provide expressions whose gradients exactly implement a plain Hebbian rule (dw ~= xy), Grossberg's instar rule (dw ~= y(x-w)), and Oja's rule (dw ~= y(x-yw)). As an application, we build Hebbian convolutional multi-layer networks for object recognition. We observe that higher layers of such networks tend to learn large, simple features (Gabor-like filters and blobs), explaining the previously reported decrease in decoding performance over successive layers. To combat this tendency, we introduce interventions (denser activations with sparse plasticity, pruning of connections between layers) which result in sparser learned features, massively increase performance, and allow information to increase over successive layers. We hypothesize that more advanced techniques (dynamic stimuli, trace learning, feedback connections, etc.), together with the massive computational boost offered by modern deep learning frameworks, could greatly improve the performance and biological relevance of multi-layer Hebbian networks.</description>
-    </item>
-    <item>
-      <title>Debiasing Credit Scoring using Evolutionary Algorithms</title>
-      <link>https://arxiv.org/abs/2110.12838</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.12838</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 -0000</pubDate>
-      <description>This paper investigates the application of machine learning when training a credit decision model over real, publicly available data whilst accounting for "bias objectives". We use the term "bias objective" to describe the requirement that a trained model displays discriminatory bias against a given groups of individuals that doesn't exceed a prescribed level, where such level can be zero. This research presents an empirical study examining the tension between competing model training objectives which in all cases include one or more bias objectives. This work is motivated by the observation that the parties associated with creditworthiness models have requirements that can not certainly be fully met simultaneously. The research herein seeks to highlight the impracticality of satisfying all parties' objectives, demonstrating the need for "trade-offs" to be made. The results and conclusions presented by this paper are of particular importance for all stakeholders within the credit scoring industry that rely upon artificial intelligence (AI) models as part of the decision-making process when determining the creditworthiness of individuals. This paper provides an exposition of the difficulty of training AI models that are able to simultaneously satisfy multiple bias objectives whilst maintaining acceptable levels of accuracy. Stakeholders should be aware of this difficulty and should acknowledge that some degree of discriminatory bias, across a number of protected characteristics and formulations of bias, cannot be avoided.</description>
     </item>
   </channel>
 </rss>

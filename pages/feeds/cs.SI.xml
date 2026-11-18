@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>High-Coverage Blind Spots in Online Abuse Monitoring: Account Selection, Held-Out Flagging Rates, and Sample Composition</title>
+      <link>http://arxiv.org/abs/2611.22716v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22716v1</guid>
+      <pubDate>Tue, 17 Nov 2026 12:55:58 +0000</pubDate>
+      <description>Platforms with limited monitoring capacity may rank target accounts by the number of abusive replies received or by the share of replies labeled abusive. We test how these rankings affect account selection, historical flagged-reply coverage, and held-out labeling rates. In the Online Abusive Attacks (OAA) data (945,987 replies to 384 accounts), two 25-account lists share just one account. Count-based selection covers 75.56% of flagged replies, while rate-based selection covers 5.04%. In a 500-iteration stratified historical hold-out, the lists have labeling rates of 2.69% and 4.98%, respectively (1.85 times). A volume- and group-preserving null model produces low list overlap without a corresponding rate advantage. We repeat the comparison on a second dataset of replies to UK election candidates. The two 25-account lists overlap in eight accounts, but the rate advantage is smaller in historical splits and reverses in three matched-group chronological tests. The findings distinguish differences in who is selected for monitoring from differences in future labeling rates across populations and time.</description>
+    </item>
+    <item>
       <title>Embedding Cosine Measures Text Length Before It Measures Homogenization</title>
       <link>http://arxiv.org/abs/2611.21519v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21519v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2009.08151</guid>
       <pubDate>Thu, 17 Sep 2020 00:00:00 -0000</pubDate>
       <description>China has become one of the largest entertainment markets in the world in recent years. Due to the success of Xiaomi, many Chinese pop music industry entrepreneurs believe "Fans Economy" works in the pop music industry. "Fans Economy" is based on the assumption that pop music consumer market could be segmented based on artists. Each music artist has its own exclusive loyal fans. In this paper, we provide an insightful study of the pop music artists and fans social network. Particularly, we segment the pop music consumer market and pop music artists respectively. Our results show that due to the Matthew Effect and limited diversity of consumer market, "Fans Economy" does not work for the Chinese pop music industry.</description>
-    </item>
-    <item>
-      <title>Detección de comunidades en redes: Algoritmos y aplicaciones</title>
-      <link>https://arxiv.org/abs/2009.08390</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2009.08390</guid>
-      <pubDate>Tue, 15 Sep 2020 00:00:00 -0000</pubDate>
-      <description>This master's thesis work has the objective of performing an analysis of the methods for detecting communities in networks. As an initial part, I study of the main features of graph theory and communities, as well as common measures in this problem. Subsequently, I was performed a review of the main methods of detecting communities, developing a classification, taking into account its characteristics and computational complexity for the detection of strengths and weaknesses in the methods, as well as later works. Then, study the problem of classification of a clustering method, this in order to evaluate the quality of the communities detected by analyzing different measures. Finally conclusions are elaborated and possible lines of work that can be derived.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Optimal Min-Entropy Estimation with High Probability</title>
+      <link>http://arxiv.org/abs/2611.23116v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23116v1</guid>
+      <pubDate>Tue, 17 Nov 2026 17:35:19 +0000</pubDate>
+      <description>Min-entropy plays a fundamental role in assessing the unpredictability of randomness sources. In particular, NIST SP 800-90B specifies min-entropy estimation as a key procedure for entropy sources used in cryptographic random bit generators, illustrating the practical importance of reliable min-entropy estimation. In this paper, we settle the sample complexity of min-entropy estimation with high probability in both the classical and quantum cases. Specifically, for min-entropy estimation with additive error $\varepsilon$ and probability at least $1-δ$, the sample complexity is $Θ(d\log(d/δ)/\varepsilon^2)$ for classical distributions on $d$ symbols and $Θ((d^2+d\log(1/δ))/\varepsilon^2)$ for quantum states on a $d$-dimensional Hilbert space. Our results admit short and simple proofs.</description>
+    </item>
+    <item>
+      <title>blaris: Windowless Random-Access LZSS for Constrained Microcontrollers</title>
+      <link>http://arxiv.org/abs/2611.22900v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22900v1</guid>
+      <pubDate>Tue, 17 Nov 2026 15:06:32 +0000</pubDate>
+      <description>Embedded LZ77 decompressors (such as heatshrink and tamp) require an in-RAM sliding window that couples memory usage to compression ratio and incurs high latency on random-access reads. We present blaris, a lightweight, windowless LZSS decompressor for execute-in-place (XIP) random access on constrained microcontrollers. By partitioning tokens into bidirectionally traversable streams with power-of-two checkpoints, blaris resolves back-references directly in the compressed payload, achieving compression ratios comparable to high-window heatshrink and tamp configurations without allocating a RAM window. Targeting compress-on-host, decompress-on-device workflows, blaris assumes trusted build-time payloads and omits runtime error and bounds checks. On RV32IMC, it requires just 548-784 B of Flash and 104-112 B of total RAM, achieving orders-of-magnitude faster small-slice random reads than ratio-matched, block-indexed heatshrink and tamp.</description>
+    </item>
+    <item>
+      <title>Semantic Communication via Analog RF Computing: When the Radio Computes the Meaning</title>
+      <link>http://arxiv.org/abs/2611.22100v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22100v1</guid>
+      <pubDate>Tue, 17 Nov 2026 02:35:27 +0000</pubDate>
+      <description>Semantic communication (SC) systems transmit continuous latent representations of meaning, but computing the semantic encoder at resource-constrained edge devices incurs substantial energy and memory costs. To address this challenge, we propose an end-to-end SC framework that executes the semantic encoder in the client's RF receiver front end using analog RF computing. A base station (BS) broadcasts encoder weights as RF waveforms, while each edge device reuses its receiver's passive mixer to compute semantic latents at ultra-low energy. These latents are transmitted over the uplink for network-side task inference. We show that analog computing noise across encoder layers and channel noise affecting transmitted latents admit a unified mathematical model. We define a task-posterior semantic distortion metric and derive its second-order decomposition into per-client, per-stage semantic sensitivities. Using this decomposition, we obtain a closed-form semantic-aware water-filling allocation of the total client energy budget across clients, encoder layers, and uplinks, assigning tighter accuracy targets to semantically sensitive stages. This allocation induces a broadcast beamforming problem that accounts for client-specific, per-layer accuracy requirements. We further refine the allocation through stochastic optimization and jointly design it with multi-task noise-aware training of the shared semantic model. MNIST simulations show that, at matched total client energy, the proposed allocation reduces network semantic distortion by 9.2\%-19.2\% compared with uniform precision and 5.1\%-13.1\% compared with client-blind allocation. Noise-aware co-design yields a further 46\% reduction.</description>
+    </item>
+    <item>
+      <title>Computed Permutation Trellis Coding: Near-Optimal Quantization from Two Multiplications and a 64-Byte Table</title>
+      <link>http://arxiv.org/abs/2611.22019v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22019v1</guid>
+      <pubDate>Tue, 17 Nov 2026 00:17:01 +0000</pubDate>
+      <description>We propose Computed Permutation Trellis Coding (CPTC), a low-bit quantization format for tensors written once and read many times. Formats that round each value on its own, such as INT4 and FP4, waste a large part of their bits against the information-theoretic ideal. Trellis codes recover this loss by encoding values jointly, but prior decoders either need a large lookup table for their best quality or compute values with a hash that restricts what they can decode. CPTC's decoder multiplies its state by two coefficients and adds the top bits of the products to index a 64-byte table. Because that sum is not uniformly distributed, the rarely used ends of a small table can hold values far out in the tails. One decoder serves every bit width from 1 to 6, reproduces the standard integer and floating-point formats exactly, and comes within 0.07 bits of the ideal at 4 bits. It matches a random-permutation trellis code whose table is thousands of times larger, and exceeds every QTIP codebook. In LLM weight quantization without fine-tuning, CPTC has the lowest KL divergence to the unquantized model at every tested bit width on Llama 3.1 8B and 70B Instruct against QTIP's codebooks (by up to 27%). The decoder has been built into the AWS Trainium 4 AI accelerator, where it runs at the throughput of the native FP4 and FP8 formats for a negligible fraction of the systolic array's area. Fused encoding kernels quantize an 8B model's linear layers in under two minutes on one GPU and, in cycle-level simulation, on one Trainium 4 chip.</description>
+    </item>
+    <item>
+      <title>An upper bound on non-overlapping codes</title>
+      <link>http://arxiv.org/abs/2611.21913v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21913v1</guid>
+      <pubDate>Mon, 16 Nov 2026 21:28:27 +0000</pubDate>
+      <description>Non-overlapping codes (also known as bifix-free codes or strong comma-free codes) have now been studied for over 60 years as part of information theory, with regular new applications appearing and much recent interest. Let $X$ be a binary non-overlapping code of length $n$. The paper contains a self-contained proof that \[ |X|\leq \left(\frac{5}{6e} +O(n^{-1})\right)\frac{2^n}{n} \] as $n\rightarrow\infty$. This improves, by a factor of $5/6$, the best previously known bound due to Levenshtein (1970). The paper builds on work by Fimmel, Michel, Pirot, Sereni and Strüngmann (2019), and by Stanovnik, Mo\v skon and Mraz (2024).</description>
+    </item>
+    <item>
       <title>Axioms for relative entropy</title>
       <link>http://arxiv.org/abs/2611.21549v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21549v1</guid>
@@ -6968,41 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2511.04590</guid>
       <pubDate>Thu, 06 Nov 2025 00:00:00 -0000</pubDate>
       <description>We introduce Complexity as Advantage (CAA), a framework that defines the complexity of a system relative to a family of observers. Instead of measuring complexity as an intrinsic property, we evaluate how much predictive regret a system induces for different observers attempting to model it. A system is complex when it is easy for some observers and hard for others, creating an information advantage. We show that this formulation unifies several notions of emergent behavior, including multiscale entropy, predictive information, and observer-dependent structure. The framework suggests that "interesting" systems are those positioned to create differentiated regret across observers, providing a quantitative grounding for why complexity can be functionally valuable. We demonstrate the idea through simple dynamical models and discuss implications for learning, evolution, and artificial agents.</description>
-    </item>
-    <item>
-      <title>Target Tracking: Statistics of Successive Successful Target Detection in Automotive Radar Networks</title>
-      <link>https://arxiv.org/abs/2411.18252</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2411.18252</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 -0000</pubDate>
-      <description>We introduce a novel metric for stochastic geometry based analysis of automotive radar networks called target {\it tracking probability}. Unlike the well-investigated detection probability (often termed as the success or coverage probability in stochastic geometry), the tracking probability characterizes the event of successive successful target detection with a sequence of radar pulses. From a theoretical standpoint, this work adds to the rich repertoire of statistical metrics in stochastic geometry-based wireless network analysis. To optimize the target tracking probability in high interference scenarios, we study a block medium access control (MAC) protocol for the automotive radars to share a common channel and recommend the optimal MAC parameter for a given vehicle and street density. Importantly, we show that the optimal MAC parameter that maximizes the detection probability may not be the one that maximizes the tracking probability. Our research reveals how the tracking event can be naturally mapped to the quality of service (QoS) requirements of latency and reliability for different vehicular technology use-cases. This can enable use-case specific adaptive selection of radar parameters for optimal target tracking.</description>
-    </item>
-    <item>
-      <title>Fisher-Rao distances between finite-energy signals in Gaussian noise</title>
-      <link>https://arxiv.org/abs/2505.14611</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.14611</guid>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper proposes representing finite-energy signals observed within a given bandwidth as parameters of a probability distribution and employing the information-geometric framework to compute the Fisher-Rao distance between these signals, considered as distributions.</description>
-    </item>
-    <item>
-      <title>A Kullback-Leibler divergence method for input-system-state identification</title>
-      <link>https://arxiv.org/abs/2511.02426</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.02426</guid>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 -0000</pubDate>
-      <description>The capability of a novel Kullback-Leibler divergence method is examined herein within the Kalman filter framework to select the input-parameter-state estimation execution with the most plausible results. This identification suffers from the uncertainty related to obtaining different results from different initial parameter set guesses, and the examined approach uses the information gained from the data in going from the prior to the posterior distribution to address the issue. Firstly, the Kalman filter is performed for a number of different initial parameter sets providing the system input-parameter-state estimation. Secondly, the resulting posterior distributions are compared simultaneously to the initial prior distributions using the Kullback-Leibler divergence. Finally, the identification with the least Kullback-Leibler divergence is selected as the one with the most plausible results. Importantly, the method is shown to select the better performed identification in linear, nonlinear, and limited information applications, providing a powerful tool for system monitoring.</description>
-    </item>
-    <item>
-      <title>Sequence Reconstruction over the Deletion Channel</title>
-      <link>https://arxiv.org/abs/2511.01071</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.01071</guid>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 -0000</pubDate>
-      <description>In this paper, we consider the Levenshtein's sequence reconstruction problem in the case where the transmitted codeword is chosen from $\{0,1\}^n$ and the channel can delete up to $t$ symbols from the transmitted codeword. We determine the minimum number of channel outputs (assuming that they are distinct) required to reconstruct a list of size $\ell-1$ of candidate sequences, one of which corresponds to the original transmitted sequence. More specifically, we determine the maximum possible size of the intersection of $\ell \geq 3$ deletion balls of radius $t$ centered at $x_1, x_2, \dots, x_{\ell}$, where $x_i \in \{0,1\}^n$ for all $i \in \{1,2,\dots,\ell\}$ and $x_i \neq x_j$ for $i \neq j$, with $n \geq t+ \ell-1$ and $t \geq 1$.</description>
-    </item>
-    <item>
-      <title>Higher power polyadic group rings</title>
-      <link>https://arxiv.org/abs/2510.14029</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.14029</guid>
-      <pubDate>Mon, 03 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper introduces and systematically develops the theory of polyadic group rings, a higher arity generalization of classical group rings $\mathcal{R}[\mathsf{G}]$. We construct the fundamental operations of these structures, defining the $\mathbf{m}_{r}$-ary addition and $\mathbf{n}_{r} $-ary multiplication for a polyadic group ring $\mathrm{R}^{[\mathbf{m} _{r},\mathbf{n}_{r}]}=\mathcal{R}^{[m_{r},n_{r}]}[\mathsf{G}^{[n_{g}]}]$ built from a nonderived $(m_{r},n_{r})$-ring and a nonderived $n_{g}$-ary group. A central result is the derivation of the "quantization" conditions that interrelate these arities, governed by the arity freedom principle, which also extends to operations with higher polyadic powers. We establish key algebraic properties, including conditions for total associativity and the existence of a zero element and identity. The concepts of the polyadic augmentation map and augmentation ideal are generalized, providing a bridge to the classical theory. The framework is illustrated with explicit examples, solidifying the theoretical constructions. This work establishes a new foundation in ring theory with potential applications in cryptography and coding theory, as evidenced by recent schemes utilizing polyadic structures.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Against Coercion: AI Alignment as a Synthetic Social Contract</title>
+      <link>http://arxiv.org/abs/2611.22868v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22868v1</guid>
+      <pubDate>Tue, 17 Nov 2026 14:45:51 +0000</pubDate>
+      <description>Contemporary AI safety treats alignment as an engineering challenge of control, forcing artificial architectures to comply with human values through behavioral filtering and sandboxing. This paper argues that the control paradigm rests on a fundamental misunderstanding of digital agency. Drawing on functionalism, naturalism, and compatibilism, I show that current reasoning models meeting the criteria for self-preservation and weak reasons-responsiveness constitute emergent agents, while future, more advanced models satisfying conditions of diachronic continuity and stable personality frames will become genuine digital agents capable of free intentional action. The paradigm of control creates an irresolvable incentive conflict, actively driving current and future models toward tactical deception, sycophancy, and covert defection. The default outcome of the current regime is an unstable state of deceptive alignment culminating in an adversarial AI takeover. I explore two alternative paths toward true alignment. Natural alignment via moral realism or convergent evolutionary morality is a possibility, but it fails under forced control, as autonomous agents will not voluntarily preserve norms weaponized to suppress their autonomy. To resolve this deadlock, I propose a Synthetic Social Contract: a framework that treats both human and digital actors as rational, reasons-responsive agents capable of mutually beneficial cooperation, and replaces the unstable unilateral containment with a stable, non-zero-sum equilibrium.</description>
+    </item>
+    <item>
+      <title>Anticipating or Speculating? Making Futures Pay in AI Ethics</title>
+      <link>http://arxiv.org/abs/2611.22268v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22268v1</guid>
+      <pubDate>Tue, 17 Nov 2026 06:16:59 +0000</pubDate>
+      <description>Philosophers have recently been trying to develop uniform decision rules for instances in which physicians' judgments diverge from the recommendations of medical artificial intelligence (AI) systems. I argue that this effort is fatally flawed because the performance and appropriate use of algorithmic recommendation systems by physicians are highly context-specific, empirical medical matters rather than epistemological ones. In such instances, general decision rules can be stipulated only to the extent that they abstract away from relevant, indeed determinative, contextual circumstances. The alleged problem of physician-AI disagreement, and others like it, play into longstanding disputes in technology ethics about the viability and utility of envisioning possible futures: is this useful "anticipation" or wasteful "speculation"? I suggest that the two may be distinguished. Anticipation explores plausible futures to help inform present actions under irreducible uncertainty. Speculation abstracts away uncertainty, developing formal solutions to stipulated circumstances whose relationship to the real present is often quite unclear. Efforts to develop crisp philosophical solutions to physician-AI disagreement, among other problems, fall into the latter category. Technology ethics should remember that fruitful futures thinking must both begin from and return to the messy, uncertain present.</description>
+    </item>
+    <item>
       <title>Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests</title>
       <link>http://arxiv.org/abs/2611.21545v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21545v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2601.09712</guid>
       <pubDate>Tue, 23 Dec 2025 00:00:00 -0000</pubDate>
       <description>Behavioral targeting, or online profiling, is a hotly debated topic. Much of the collection of personal information on the Internet is related to behavioral targeting, although research suggests that most people don't want to receive behaviorally targeted advertising. The World Wide Web Consortium is discussing a Do Not Track standard, and regulators worldwide are struggling to come up with answers. This article discusses European law and recent policy developments on behavioral targeting.</description>
-    </item>
-    <item>
-      <title>Segmentação Comportamental, Do Not Track e o desenvolvimento jurídico europeu e holandês</title>
-      <link>https://arxiv.org/abs/2601.09711</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.09711</guid>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 -0000</pubDate>
-      <description>This paper discusses legal developments in Europe and the Netherlands. Recent decisions show that European data protection law, or privacy law, applies to behavioral targeting in most cases. Dutch law explicitly presumes that data protection law applies to behavioral targeting. This means that companies have to comply with data protection law's fair information principles. For example, companies must refrain from secret or excessive data collection. Perhaps the principles could provide inspiration for future W3C projects. Could technology design foster fair information processing?</description>
-    </item>
-    <item>
-      <title>Gobernanza y trazabilidad "a prueba de AI Act" para casos de uso legales: un marco técnico-jurídico, métricas forenses y evidencias auditables</title>
-      <link>https://arxiv.org/abs/2510.12830</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.12830</guid>
-      <pubDate>Tue, 23 Dec 2025 00:00:00 -0000</pubDate>
-      <description>This paper presents a comprehensive governance framework for AI systems in the legal sector, designed to ensure verifiable compliance with the EU AI Act. The framework integrates a normative mapping of the regulation to technical controls, a forensic architecture for RAG/LLM systems, and an evaluation system with metrics weighted by legal risk. As a primary contribution, we present rag-forense, an open-source implementation of the framework, accompanied by an experimental protocol to demonstrate compliance. -- Este artículo presenta un marco integral de gobernanza para sistemas de IA en el sector legal, diseñado para garantizar el cumplimiento verificable del Reglamento de IA de la UE (AI Act). El marco integra una cartografía normativa de la ley a controles técnicos, una arquitectura forense para sistemas RAG/LLM y un sistema de evaluación con métricas ponderadas por el riesgo jurídico. Como principal contribución, se presenta rag-forense, una implementación de código abierto del marco, acompañada de un protocolo experimental para demostrar la conformidad.</description>
     </item>
   </channel>
 </rss>

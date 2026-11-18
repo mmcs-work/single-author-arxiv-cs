@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Operator Precedence Tree Automata</title>
+      <link>http://arxiv.org/abs/2611.22792v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22792v1</guid>
+      <pubDate>Tue, 17 Nov 2026 13:55:10 +0000</pubDate>
+      <description>Operator-precedence tree automata (OPTA) separate the construction of a word's syntactic structure from its recognition: an operator-precedence (OP) matrix determines a canonical tree, which is evaluated by a finite bottom-up automaton with regular horizontal transition languages. OPTA define exactly the operator-precedence languages. For a fixed matrix and language, a tree-context congruence yields an effectively constructible canonical complete deterministic exact recognizer, minimal in the number of vertical states and unique up to isomorphism. For acyclic OP matrices, we characterize balanced non-counting by aperiodicity of the context transition monoid of the canonical minimal ranked tree recognizer. Combined with existing characterizations of OP languages, this gives an equivalence with first-order definability over OP words, definability in Precedence-Oriented Temporal Logic (POTL), and star-free operator-precedence expressions for acyclic matrices.</description>
+    </item>
+    <item>
+      <title>Efficient Nominal Automata Computation with Strong Nominal Sets</title>
+      <link>http://arxiv.org/abs/2611.22327v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22327v1</guid>
+      <pubDate>Tue, 17 Nov 2026 07:23:41 +0000</pubDate>
+      <description>Nominal automata and register automata are expressively equivalent models of computation over infinite alphabets, yet an algorithmic gap separates them in practice: dedicated algorithms decide language equivalence of deterministic register automata in polynomial time by working orbit-wise, while general-purpose nominal-computation tools that rely on SMT solvers hide the orbit structure and degrade rapidly even on small instances. We trace this gap to non-trivial local symmetries in nominal sets and observe that the configuration spaces of register automata correspond to strong nominal sets, whose elements carry only trivial local symmetries. We characterize strong nominal sets categorically, consolidating known and new equivalences, and derive a constraint-free array representation of orbit-finite strong nominal sets and equivariant maps; we further prove the existence of projective covers, guaranteeing that every nominal set admits a strong approximation preserving both orbit count and dimensions, computable for quotients of strong nominal sets. Building on these results, we develop concrete algorithms for language equivalence, minimization, and active learning, bridging the algorithmic gap for equivalence (in polynomial time for a fixed alphabet dimension) and extending the orbit-wise approach to minimization and learning. Finally, our implementation Namae, based on the array representation, outperforms existing nominal-computation tools and, at scale, stays within a small constant factor of a dedicated register-automaton equivalence tool.</description>
+    </item>
+    <item>
+      <title>Boxes in Infinite Words: Complexity, Automata, and Point Modules</title>
+      <link>http://arxiv.org/abs/2611.21772v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.21772v1</guid>
+      <pubDate>Mon, 16 Nov 2026 19:04:27 +0000</pubDate>
+      <description>Motivated by the geometry of point modules over monomial algebras, we introduce a box-counting function associated to a right-infinite word over a finite alphabet. An extendable box is a family of finite words obtained by choosing letters independently at each position, subject to the condition that all choices admit a common infinite right continuation in the associated subshift. We prove several results for these functions for words of linearly bounded complexity. For $k$-automatic words, we show using techniques from first-order logic that the total box-counting function is $k$-regular. Finally, we apply our results to prove eventual affine growth of the number of positive-dimensional irreducible components in finite projections of point-module spaces associated to semiprime monomial algebras of at most quadratic growth.</description>
+    </item>
+    <item>
       <title>How Can Size, Ceiling, and Time Bounds Affect the Complexity of Nonuniform Automata Families?</title>
       <link>http://arxiv.org/abs/2611.20999v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.20999v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1603.02928</guid>
       <pubDate>Wed, 09 Mar 2016 00:00:00 -0000</pubDate>
       <description>We present a general framework to define an application-dependent weight measure on terms that subsumes e.g. total simplification orderings, and an O(n log n) algorithm for the simultaneous computation of the minimal weight of a term in the language of each nonterminal of a regular tree grammar, based on Barzdins' liquid-flow technique.</description>
-    </item>
-    <item>
-      <title>Prediction of Infinite Words with Automata</title>
-      <link>https://arxiv.org/abs/1603.02597</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.02597</guid>
-      <pubDate>Tue, 08 Mar 2016 00:00:00 -0000</pubDate>
-      <description>In the classic problem of sequence prediction, a predictor receives a sequence of values from an emitter and tries to guess the next value before it appears. The predictor masters the emitter if there is a point after which all of the predictor's guesses are correct. In this paper we consider the case in which the predictor is an automaton and the emitted values are drawn from a finite set; i.e., the emitted sequence is an infinite word. We examine the predictive capabilities of finite automata, pushdown automata, stack automata (a generalization of pushdown automata), and multihead finite automata. We relate our predicting automata to purely periodic words, ultimately periodic words, and multilinear words, describing novel prediction algorithms for mastering these sequences.</description>
-    </item>
-    <item>
-      <title>Minimization of Büchi Automata using Fair Simulation</title>
-      <link>https://arxiv.org/abs/1603.01107</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.01107</guid>
-      <pubDate>Thu, 03 Mar 2016 00:00:00 -0000</pubDate>
-      <description>We present an algorithm, which reduces the size of Büchi automata using fair simulation. Its time complexity is $\mathcal{O}(|Q|^4 \cdot |Δ|^2)$, the space complexity is $\mathcal{O}(|Q| \cdot |Δ|)$. Simulation is a common approach for minimizing $ω$-automata such as Büchi automata. Direct simulation, delayed simulation and fair simulation are different types of simulation. As we will show, minimization based on direct or delayed simulation is conceptually simple. Whereas the algorithm based on fair simulation is more complex. However, fair simulation allows a stronger minimization of the automaton. Further, we illustrate the theory behind the algorithm, cover optimizations useful in practice, give experimental results and compare our technique to other minimization strategies.</description>
-    </item>
-    <item>
-      <title>Rich square-free words</title>
-      <link>https://arxiv.org/abs/1603.01058</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.01058</guid>
-      <pubDate>Thu, 03 Mar 2016 00:00:00 -0000</pubDate>
-      <description>A word w is rich if it has |w|+1 many distinct palindromic factors, including the empty word. A word is square-free if it does not have a factor uu, where u is a non-empty word. Pelantová and Starosta (Discrete Math. 313 (2013)) proved that every infinite rich word contains a square. We will give another proof for that result. Pelantová and Starosta denoted by r(n) the length of a longest rich square-free word on an alphabet of size n. The exact value of r(n) was left as an open question. We will give an upper and a lower bound for r(n), and make a conjecture that our lower bound is exact. We will also generalize the notion of repetition threshold for a limited class of infinite words. The repetition thresholds for episturmian and rich words are left as an open question.</description>
     </item>
   </channel>
 </rss>

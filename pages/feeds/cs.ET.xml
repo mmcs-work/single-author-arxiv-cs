@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Countering Anion Inhibition of Laccase Electron Transfer: Electrostatic Design, Charge-Transfer Dynamics on a Superconducting Quantum Processor, and Its Limits</title>
+      <link>http://arxiv.org/abs/2611.22813v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.22813v1</guid>
+      <pubDate>Tue, 17 Nov 2026 14:03:54 +0000</pubDate>
+      <description>Hydroxide at neutral-to-alkaline pH and halides inhibit fungal laccases and limit their use in wastewater treatment. From GFN2-xTB cluster models of Trametes versicolor laccase (PDB 1GYC) we build a four-site Hubbard model of the His454-T3A-T3B-His452 junction of the trinuclear copper cluster and execute its charge-transfer dynamics on the Euro-Q-Exa quantum computer (IQM, 8 qubits, Trotterized circuits with Pauli twirling; 726 jobs). The charge-transfer frequency is measured to 3-5 meV, reproducibly over nine days and across changes of the device qubit map: hydroxide raises the charge-transfer energy of the crystal-geometry model by 92.0 +/- 2.2 meV (exact 87) and exceeds fluoride by 10.1 +/- 1.8 meV. A screen of charged probes in three dielectric models identifies Y116E; in the probe model the hardware resolves a reduction of the hydroxide penalty by 74 +/- 7 meV and of the halide penalty by 64 +/- 5 meV, acting on the site-energy gap rather than on the coupling. A real Glu116 (five conformers) with PROPKA protonation states and the coupled Asp456 gives a realistic reduction of 10-30 meV, with the same sign in 28 of 28 model combinations; the direction and ordering are the prediction, rate factors only an illustration. Scanning the on-site repulsion reverses the sign of the hydroxide effect, and a one-electron Hartree model reproduces the reversal: the measured dynamics is effectively single-particle. On a Fermi-Hubbard benchmark the hardware does not resolve electron correlation; it would need a contrast loss below 0.13 percent per CZ gate instead of the measured 0.34-0.54 percent.</description>
+    </item>
+    <item>
       <title>Shallow Clifford circuits on square lattices</title>
       <link>http://arxiv.org/abs/2611.19671v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.19671v1</guid>
