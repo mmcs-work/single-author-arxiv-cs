@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Partial Homogenization and the Structure of Optimal Algebraic Algorithms</title>
+      <link>http://arxiv.org/abs/2611.23622v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23622v1</guid>
+      <pubDate>Tue, 17 Nov 2026 23:34:18 +0000</pubDate>
+      <description>A quadratic map, such as the product of two polynomials, two complex numbers or two matrices, is classically computed by products of two linear forms. By Strassen's homogenization, their least number is also the least number of product gates of fan-in two. With unbounded fan-in, terms of higher degree can cancel, so the classical lower bounds and classifications do not apply. We ask whether unbounded fan-in beats fan-in two, and what the optimal circuits are. Our tool is constant-free partial homogenization, which keeps the terms of higher degree. Let a quadratic map have $K$ independent outputs. We prove that, under a mild condition, unbounded fan-in needs as many product gates as fan-in two whenever fan-in two needs at most $K+2$. For $2\times2$ matrix multiplication, we classify all optimal circuits with fan-in two and arbitrary constants. We prove that none of them nests products, and that their quadratic parts are Strassen's algorithm, one new algorithm, the Waksman-type algorithms, or a one-parameter family. Over $\mathbb{R}$, we prove that unbounded fan-in needs at least $6$ product gates, and approximate circuits exactly $5$. Below the threshold $K+2$, we prove that optimal circuits are rigid, for every fan-in. Every optimal circuit for polynomial multiplication is Toom-Cook at unisolvent points, up to constant scalings and shifts. Every optimal circuit for a tubal ring over $\mathbb{C}$ applies its transform. Every optimal circuit for complex multiplication over $\mathbb{R}$ is Gauss's algorithm at three real points, after a rotation. In at least two variables, every optimal division-free homogeneous component extractor is Ben-Or's construction with shifted points. Above the threshold, for $c\ge2$ complex products over $\mathbb{R}$, we prove that fan-in two needs exactly $3c$ product gates, unbounded fan-in at least $2c+2$, and approximate circuits exactly $2c+1$.</description>
+    </item>
+    <item>
       <title>Positivity Proofs for Third-Order Holonomic Sequences via Differences Scaled by Rational Functions</title>
       <link>http://arxiv.org/abs/2611.10920v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.10920v1</guid>

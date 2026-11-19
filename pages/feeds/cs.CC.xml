@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Sharp Quadratic Bound for the Advice Complexity of Selectors</title>
+      <link>http://arxiv.org/abs/2611.24913v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24913v1</guid>
+      <pubDate>Wed, 18 Nov 2026 18:47:20 +0000</pubDate>
+      <description>A language is P-selective if a polynomial-time algorithm, given two strings, picks one that belongs to the language whenever either does. Ko showed in 1983 that every P-selective language is recognized in polynomial time with quadratic advice; his argument uses $n^2+n$ bits, and for polynomial-time recognition the leading constant has stood since. We show that the right constant is $1/4$. In the selector-query model the answer is unconditional. A single computable decoder recognizes every legal cut on $n$-bit strings with $n^2/4+O(n)$ advice bits and $n$ nonadaptive comparisons. Conversely, every randomized decoder making polynomially many queries needs $n^2/4-O(n\log n)$ bits at error $1/3$, even when its queries are adaptive evaluations of individual-degree-two extensions of the selector table. The degree matters: with multilinear extensions, $n+1$ bits suffice and are optimal. Under the hypothesis that $\mathrm E$ requires exponential-size circuits with SAT gates, every P-selective language has a polynomial-time decoder with $n^2/4+O(n)$ advice bits. From this hypothesis no relativizing argument, and no argument that algebrizes with degree-two extensions, can lower the constant: one oracle satisfies the hypothesis and carries a selective language that needs $n^2/4-o(n^2)$ bits against randomized decoders with degree-two access. The cost is set by the two strong components of the selector tournament adjacent to the cut. If the smaller has $2^v$ vertices, the cost is $u(n-u)\pm O(n\log n)$ with $u=\min\{v,n/2\}$. When $\log n\ll v=o(n)$ this is $(1+o(1))nv$, attained in polynomial time with no hypothesis. The upper bounds rest on a fixed-point distribution on the vertices of a tournament. Its power moment shows that $2^{r^2-O(r)}$ different $r$-tuples cover any side, for a suitable $r$.</description>
+    </item>
+    <item>
+      <title>From a finite subgroup of $SO(3)$:$C_2$ leads to a Holant dichotomy</title>
+      <link>http://arxiv.org/abs/2611.24236v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24236v1</guid>
+      <pubDate>Wed, 18 Nov 2026 11:13:14 +0000</pubDate>
+      <description>Counting complexity within the Holant framework has been extensively studied through complexity dichotomy theorems. While substantial progress has been achieved for various restricted settings, the general complex-valued even-arity case without auxiliary unary signatures remains largely open. This paper studies a fundamental case in this program where the binary signatures induce a group structure satisfying \(M(B(\mathcal{F}))\cong C_2\). It is observed that projective equivalence classes of binary signature matrices naturally embed into finite subgroups of \(SO(3)\), providing an algebraic viewpoint for structural classification. This paper further identifies two fundamentally different regimes for the \(C_2\) case, namely the normal and isotropic cases, and analyzes their complexity behavior separately. Combining gadget constructions, decomposition techniques, interpolation arguments, and a realnumberization approach that transforms the complex-valued setting into an equivalent real-structured framework, this paper establishes a complete dichotomy theorem: for every even-arity signature set \(\mathcal{F}\) satisfying \(M(\B(\mathcal{F}))\cong C_2\), the problem \(\mathrm{Holant}(\mathcal{F})\) is either polynomial-time computable or \#P-hard. A Pauli-basis representation for signatures is further introduced as an algebraically natural language for organizing realizable signatures and revealing structural relations that are less transparent in the standard basis.</description>
+    </item>
+    <item>
+      <title>On the Complexity of Envy Cycle Elimination</title>
+      <link>http://arxiv.org/abs/2611.24167v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24167v1</guid>
+      <pubDate>Wed, 18 Nov 2026 10:08:54 +0000</pubDate>
+      <description>The envy cycle elimination (ECE) algorithm is a fundamental algorithm for the fair allocation of indivisible goods, guaranteeing an allocation that is envy-free up to one good under arbitrary monotone utilities. We show that the ECE algorithm can be implemented in $O(nm)$ time for $n$ agents and $m$ goods, and establish the tightness of this bound.</description>
+    </item>
+    <item>
+      <title>Vanilla Adiabatic Quantum Optimization Can Have Subexponential Advantage</title>
+      <link>http://arxiv.org/abs/2611.24035v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24035v1</guid>
+      <pubDate>Wed, 18 Nov 2026 08:24:27 +0000</pubDate>
+      <description>We construct a family of objective functions $f \colon \{0,1\}^n \to \mathbb{R}$ for which vanilla adiabatic quantum optimization along $H(s) = -(1-s)\sum_{i=1}^n X_i + s\sum_x f(x)\lvert x\rangle\!\langle x\rvert$ finds the global minimizer in $\operatorname{poly}(n)$ time, whereas any classical algorithm requires $\exp(n^{Ω(1)})$ time to do so in the black-box model. Our result is achieved by replacing the linearization technique in an earlier work of Leng et al. (arXiv:2504.14841), which establishes a similar subexponential quantum speedup using a transverse field Ising mixer rather than $-\sum_{i=1}^n X_i$.</description>
+    </item>
+    <item>
+      <title>Separating QMA from the QCMA Hierarchy via a Switching Lemma for Polynomials</title>
+      <link>http://arxiv.org/abs/2611.23693v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23693v1</guid>
+      <pubDate>Wed, 18 Nov 2026 01:35:33 +0000</pubDate>
+      <description>We construct a classical oracle relative to which QMA is not contained in the QCMA hierarchy. Our main technical contribution is a switching lemma for bounded polynomials, which provides a new conceptual viewpoint on earlier sampler-based arguments separating QMA and QCMA. Crucially, the parameters of this switching lemma are independent of the number of input variables. The separation builds on the code intersection subset size problem of Bostanci, Huang, and Vaikuntanathan (FOCS 2026). We also construct a classical oracle relative to which QCMA collapses to P but QMA does not, and another relative to which QMA collapses to P but PP does not.</description>
+    </item>
+    <item>
+      <title>Optimal Joint Bounds for Sparse Ground-State Energy Estimation and Ground-State Preparation</title>
+      <link>http://arxiv.org/abs/2611.23387v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23387v1</guid>
+      <pubDate>Tue, 17 Nov 2026 19:00:05 +0000</pubDate>
+      <description>Ground-state energy estimation (GSEE) and ground-state preparation (GSP) are fundamental problems in quantum computing. Given a Hamiltonian $H$ with $\|H\|\le1$ and a guiding state $|ψ\rangle$ with overlap at least $γ&gt;0$ with the ground space of $H$, the goal in GSEE is to estimate the ground-state energy of $H$ to additive error $δ$ with failure probability at most $\varepsilon$, while in GSP it is to prepare a state with ground-space weight at least $1-\varepsilon$, given a gap lower bound $Δ$. Their costs are measured by quantum query complexity, i.e., the number of oracle calls needed to access $H$. Recent work proved optimal bounds $Θ(\log(1/\varepsilon)/(γδ))$ for GSEE and $Θ(\log(1/\varepsilon)/(γΔ))$ for GSP in the time-evolution and block-encoding models. However, these models do not directly account for the sparsity of $H$, measured by the maximum number $s$ of nonzero entries in any row or column. In the sparse-access model, oracles instead return the locations and values of these entries. This introduces the additional parameter $s$, and it remained open how query complexity depends jointly on $s$, $γ$, $δ$ or $Δ$, and $\varepsilon$. We resolve this by proving sparse-query lower bounds $Ω(\sqrt{s}\log(1/\varepsilon)/(γδ))$ for GSEE and $Ω(\sqrt{s}\log(1/\varepsilon)/(γΔ))$ for GSP, even for stoquastic Hamiltonians. We also show that these constructions recover the earlier time-evolution and block-encoding lower-bound scalings. We then give matching upper-bound algorithms in the reversible in-place sparse-location model. Thus, we obtain $Θ(\sqrt{s}\log(1/\varepsilon)/(γδ))$ for GSEE and $Θ(\sqrt{s}\log(1/\varepsilon)/(γΔ))$ for GSP, showing that $\sqrt{s}$ is necessary and sufficient and completing the joint dependence on all problem parameters.</description>
+    </item>
+    <item>
       <title>Integral Tensor Isomorphism via Cubic Rings and Lattice Methods</title>
       <link>http://arxiv.org/abs/2611.23186v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.23186v1</guid>
@@ -6961,48 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2309.17042</guid>
       <pubDate>Fri, 29 Sep 2023 00:00:00 -0000</pubDate>
       <description>This habilitation thesis is intended to be a good introduction to enumeration, the problem of listing solutions. It focuses on the different ways of measuring complexity in enumeration, with a particular emphasis on my contributions to the field.</description>
-    </item>
-    <item>
-      <title>The subpower membership problem of 2-nilpotent algebras</title>
-      <link>https://arxiv.org/abs/2309.16549</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.16549</guid>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 -0000</pubDate>
-      <description>The subpower membership problem SMP(A) of a finite algebraic structure A asks whether a given partial function from A^k to A can be interpolated by a term operation of A, or not. While this problem can be EXPTIME-complete in general, Willard asked whether it is always solvable in polynomial time if A is a Mal'tsev algebras. In particular, this includes many important structures studied in abstract algebra, such as groups, quasigroups, rings, Boolean algebras. In this paper we give an affirmative answer to Willard's question for a big class of 2-nilpotent Mal'tsev algebras. We furthermore develop tools that might be essential in answering the question for general nilpotent Mal'tsev algebras in the future.</description>
-    </item>
-    <item>
-      <title>A computing machinery using a continuous memory tape</title>
-      <link>https://arxiv.org/abs/2401.02420</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.02420</guid>
-      <pubDate>Wed, 27 Sep 2023 00:00:00 -0000</pubDate>
-      <description>By considering a discrete tape where each cell corresponds to an integer, thus to a possible sum, a pseudo-polynomial solution can be given to subset sum problem, which is an NP-complete problem and a cornerstone application for this study, using shifts and element-wise summations. This machinery can be extended symbolically to continuous case by thinking each possible sum as a single frequency impulse on the frequency band. Multiplication with a cosine in this case corresponds to the shifting operation as modulation in communication systems. Preliminary experimentation suggests that signal generation thus solution space calculation can be done in polynomial time. However, reading the value at a specific frequency (sum value) is problematic, namely cannot be simulated in polynomial time currently. Dedicated hardware implementation might be a solution, where both circuit-based and wireless versions might be tried out. A polynomial representation is also given that is claimed to be analogous to a tape of a Turing machine. Both rational and real number versions of the subset sum problem are also discussed, where the rational version of the problem is mapped to 0-1 range with specific patterns of True values. Although this machinery may not be totally equivalent to a non-deterministic Turing machine, it may be helpful for non-deterministic universal Turing machine actualization. It may pave way to both theoretical and practical considerations that can help computing machinery, information processing, and pattern recognition domains in various ways.</description>
-    </item>
-    <item>
-      <title>Extended Nullstellensatz proof systems</title>
-      <link>https://arxiv.org/abs/2301.10617</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2301.10617</guid>
-      <pubDate>Wed, 27 Sep 2023 00:00:00 -0000</pubDate>
-      <description>For a finite set $\cal F$ of polynomials over fixed finite prime field of size $p$ containing all polynomials $x^2 - x$ a Nullstellensatz proof of the unsolvability of the system $$ f = 0\ ,\ \mbox{ all } f \in {\cal F} $$ in the field is a linear combination $\sum_{f \in {\cal F}} \ h_f \cdot f$ that equals to $1$ in the ring of polynomails. The measure of complexity of such a proof is its degree: $\max_f deg(h_f f)$. We study the problem to establish degree lower bounds for some {\em extended} NS proof systems: these systems prove the unsolvability of $\cal F$ by proving the unsolvability of a bigger set ${\cal F}\cup {\cal E}$, where set $\cal E$ may use new variables $r$ and contains all polynomials $r^p - r$, and satisfies the following soundness condition: -- - Any $0,1$-assignment $\overline a$ to variables $\overline x$ can be appended by an assignment $\overline b$ to variables $\overline r$ such that for all $g \in {\cal E}$ it holds that $g(\overline a, \overline b) = 0$. We define a notion of pseudo-solutions of $\cal F$ and prove that the existence of pseudo-solutions with suitable parameters implies lower bounds for two extended NS proof systems ENS and UENS defined in Buss et al. (1996/97). Further we give a combinatorial example of $\cal F$ and candidate pseudo-solutions based on the pigeonhole principle.</description>
-    </item>
-    <item>
-      <title>Planted Random Number Partitioning Problem</title>
-      <link>https://arxiv.org/abs/2309.15115</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.15115</guid>
-      <pubDate>Tue, 26 Sep 2023 00:00:00 -0000</pubDate>
-      <description>We consider the random number partitioning problem (\texttt{NPP}): given a list $X\sim \mathcal{N}(0,I_n)$ of numbers, find a partition $σ\in\{-1,1\}^n$ with a small objective value $H(σ)=\frac{1}{\sqrt{n}}\left|\langle σ,X\rangle\right|$. The \texttt{NPP} is widely studied in computer science; it is also closely related to the design of randomized controlled trials. In this paper, we propose a planted version of the \texttt{NPP}: fix a $σ^*$ and generate $X\sim \mathcal{N}(0,I_n)$ conditional on $H(σ^*)\le 3^{-n}$. The \texttt{NPP} and its planted counterpart are statistically distinguishable as the smallest objective value under the former is $Θ(\sqrt{n}2^{-n})$ w.h.p. Our first focus is on the values of $H(σ)$. We show that, perhaps surprisingly, planting does not induce partitions with an objective value substantially smaller than $2^{-n}$: $\min_{σ\ne \pm σ^*}H(σ) = \widetildeΘ(2^{-n})$ w.h.p. Furthermore, we completely characterize the smallest $H(σ)$ achieved at any fixed distance from $σ^*$. Our second focus is on the algorithmic problem of efficiently finding a partition $σ$, not necessarily equal to $\pmσ^*$, with a small $H(σ)$. We show that planted \texttt{NPP} exhibits an intricate geometrical property known as the multi Overlap Gap Property ($m$-OGP) for values $2^{-Θ(n)}$. We then leverage the $m$-OGP to show that stable algorithms satisfying a certain anti-concentration property fail to find a $σ$ with $H(σ)=2^{-Θ(n)}$. Our results are the first instance of the $m$-OGP being established and leveraged to rule out stable algorithms for a planted model. More importantly, they show that the $m$-OGP framework can also apply to planted models, if the algorithmic goal is to return a solution with a small objective value.</description>
-    </item>
-    <item>
-      <title>Computing all monomials of degree $n-1$ using $2n-3$ AND gates</title>
-      <link>https://arxiv.org/abs/2307.07424</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.07424</guid>
-      <pubDate>Fri, 22 Sep 2023 00:00:00 -0000</pubDate>
-      <description>We consider the vector-valued Boolean function $f:\{0,1\}^n\rightarrow \{0,1\}^n$ that outputs all $n$ monomials of degree $n-1$, i.e., $f_i(x)=\bigwedge_{j\neq i}x_j$, for $n\geq 3$. Boyar and Find have shown that the multiplicative complexity of this function is between $2n-3$ and $3n-6$. Determining its exact value has been an open problem that we address in this paper. We present an AND-optimal implementation of $f$ over the gate set $\{\text{AND},\text{XOR},\text{NOT}\}$, thus establishing that the multiplicative complexity of $f$ is exactly $2n-3$.</description>
-    </item>
-    <item>
-      <title>Recent advances in algorithmic problems for semigroups</title>
-      <link>https://arxiv.org/abs/2309.10943</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.10943</guid>
-      <pubDate>Tue, 19 Sep 2023 00:00:00 -0000</pubDate>
-      <description>In this article we survey recent progress in the algorithmic theory of matrix semigroups. The main objective in this area of study is to construct algorithms that decide various properties of finitely generated subsemigroups of an infinite group $G$, often represented as a matrix group. Such problems might not be decidable in general. In fact, they gave rise to some of the earliest undecidability results in algorithmic theory. However, the situation changes when the group $G$ satisfies additional constraints. In this survey, we give an overview of the decidability and the complexity of several algorithmic problems in the cases where $G$ is a low-dimensional matrix group, or a group with additional structures such as commutativity, nilpotency and solvability.</description>
     </item>
   </channel>
 </rss>

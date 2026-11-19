@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Inapproximability of Euclidean Steiner Tree</title>
+      <link>http://arxiv.org/abs/2611.24611v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24611v1</guid>
+      <pubDate>Wed, 18 Nov 2026 15:31:35 +0000</pubDate>
+      <description>We consider the Euclidean Steiner Tree problem of connecting $n$ given points in $\mathbb{R}^d$ by a shortest network allowing the addition of Steiner points anywhere in the space. Arora [FOCS'96/'97, J. ACM'98] gave a polynomial-time approximation scheme (PTAS) for Euclidean Steiner Tree and TSP in every fixed dimension, and Trevisan [STOC'97, SICOMP'00] proved that Euclidean TSP is APX-hard in $O(\log n)$ dimensions. They left open whether Euclidean Steiner Tree admits a PTAS in high dimension. Our first contribution settles this thirty-year-old question by proving APX-hardness in $O(\log n)$ dimensions. Assuming that not all problems in NP can be solved in subexponential time (NP $\not\subseteq $SUBEXP), we also rule out a PTAS for Euclidean Steiner Tree in $O(\log\log n)$ dimensions. This dimension bound is tight up to a factor of $O(\log\log\log n)$, since Arora's scheme is a PTAS in up to $\log\log n/\log\log\log n$ dimensions. In fixed dimension, Kisfaludi-Bak, Nederlof, and Węgrzycki [FOCS'21, J. ACM'25] obtained approximation schemes running in time $2^{O_d(\varepsilon^{-(d-1)})}n\log n$ and proved matching Gap-ETH lower bounds for Euclidean TSP and Rectilinear Steiner Tree, but left a corresponding lower bound for Euclidean Steiner Tree as an open question. Our second contribution answers this question with a nearly tight lower bound on the dependence on accuracy for Euclidean Steiner Tree. However, given the recent claimed refutations of ETH and hence Gap-ETH by OpenAI and Anthropic, we use the weaker assumption that 3SAT has no truly subexponential-time algorithm, that is, no $2^{n^γ}$-time algorithm on formulas of size $n$ for any constant $γ&lt;1$ (a hypothesis one might call weak ETH). Under this assumption, we prove that no $(1+\varepsilon)$-approximation algorithm runs in time $2^{O(\varepsilon^{-γ(d-1)})} poly(n)$ for any such $γ$.</description>
+    </item>
+    <item>
       <title>A Linear-Size Well-Separated Pair Decomposition for Unit Disk Graphs</title>
       <link>http://arxiv.org/abs/2611.22049v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22049v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1404.0169</guid>
       <pubDate>Fri, 26 Dec 2014 00:00:00 -0000</pubDate>
       <description>It is proved that there are triangle-free intersection graphs of line segments in the plane with arbitrarily small ratio between the maximum size of an independent set and the total number of vertices.</description>
-    </item>
-    <item>
-      <title>Coloring graphs using topology</title>
-      <link>https://arxiv.org/abs/1412.6985</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1412.6985</guid>
-      <pubDate>Mon, 22 Dec 2014 00:00:00 -0000</pubDate>
-      <description>Higher dimensional graphs can be used to colour two-dimensional geometric graphs. If G the boundary of a three dimensional graph H for example, we can refine the interior until it is colourable with 4 colours. The later goal is achieved if all interior edge degrees are even. Using a refinement process which cuts the interior along surfaces we can adapt the degrees along the boundary of that surface. More efficient is a self-cobordism of G with itself with a host graph discretizing the product of G with an interval. It follows from the fact that Euler curvature is zero everywhere for three dimensional geometric graphs, that the odd degree edge set O is a cycle and so a boundary if H is simply connected. A reduction to minimal colouring would imply the four colour theorem. The method is expected to give a reason "why 4 colours suffice" and suggests that every two dimensional geometric graph of arbitrary degree and orientation can be coloured by 5 colours: since the projective plane can not be a boundary of a 3-dimensional graph and because for higher genus surfaces, the interior H is not simply connected, we need in general to embed a surface into a 4-dimensional simply connected graph in order to colour it. This explains the appearance of the chromatic number 5 for higher degree or non-orientable situations, a number we believe to be the upper limit. For every surface type, we construct examples with chromatic number 3,4 or 5, where the construction of surfaces with chromatic number 5 is based on a method of Fisk. We have implemented and illustrated all the topological aspects described in this paper on a computer. So far we still need human guidance or simulated annealing to do the refinements in the higher dimensional host graph.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A combinatorial proof of a symmetric joint distribution on strict binary trees</title>
+      <link>http://arxiv.org/abs/2611.24504v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24504v1</guid>
+      <pubDate>Wed, 18 Nov 2026 14:30:25 +0000</pubDate>
+      <description>Nonplanar strict binary trees on $2n+1$ vertices are enumerated by the reduced tangent numbers $T_{2n+1}/2^n$, whose entries are refined by Poupard's triangle. Poupard defined the end of the minimal chain ($\mathrm{eoc}$) and the parent of the maximum leaf ($\mathrm{pom}$) on these trees, proving that $\mathrm{eoc}$ and $\mathrm{pom}+1$ share this triangular distribution. Foata and Han subsequently showed via tree calculus and partial difference equations that the joint distribution of $(\mathrm{eoc}, 2n+1-\mathrm{pom})$ is symmetric. By introducing an auxiliary tree statistic dual to $\mathrm{eoc}$, we give a bijective proof of this symmetry. Our proof composes a recursive bijection on strict binary trees, a bijection to alternating André permutations, and the reverse-complement involution on permutations.</description>
+    </item>
+    <item>
+      <title>An additive-square-free word over an alphabet of size 6</title>
+      <link>http://arxiv.org/abs/2611.24441v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24441v1</guid>
+      <pubDate>Wed, 18 Nov 2026 13:55:56 +0000</pubDate>
+      <description>An additive square over $\mathbb{N}$ is two consecutive nonempty blocks of the same length and same sum. For example, 1423 is an additive square, since 14 and 23 both have length 2 and sum 5. Solving a problem that has been open for more than 50 years, we give an example of an infinite word over a 6-letter subset of N that avoids additive squares.</description>
+    </item>
+    <item>
+      <title>From a finite subgroup of $SO(3)$:$C_2$ leads to a Holant dichotomy</title>
+      <link>http://arxiv.org/abs/2611.24236v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24236v1</guid>
+      <pubDate>Wed, 18 Nov 2026 11:13:14 +0000</pubDate>
+      <description>Counting complexity within the Holant framework has been extensively studied through complexity dichotomy theorems. While substantial progress has been achieved for various restricted settings, the general complex-valued even-arity case without auxiliary unary signatures remains largely open. This paper studies a fundamental case in this program where the binary signatures induce a group structure satisfying \(M(B(\mathcal{F}))\cong C_2\). It is observed that projective equivalence classes of binary signature matrices naturally embed into finite subgroups of \(SO(3)\), providing an algebraic viewpoint for structural classification. This paper further identifies two fundamentally different regimes for the \(C_2\) case, namely the normal and isotropic cases, and analyzes their complexity behavior separately. Combining gadget constructions, decomposition techniques, interpolation arguments, and a realnumberization approach that transforms the complex-valued setting into an equivalent real-structured framework, this paper establishes a complete dichotomy theorem: for every even-arity signature set \(\mathcal{F}\) satisfying \(M(\B(\mathcal{F}))\cong C_2\), the problem \(\mathrm{Holant}(\mathcal{F})\) is either polynomial-time computable or \#P-hard. A Pauli-basis representation for signatures is further introduced as an algebraically natural language for organizing realizable signatures and revealing structural relations that are less transparent in the standard basis.</description>
+    </item>
+    <item>
       <title>Heap-type permutation generation with a prescribed final arrangement</title>
       <link>http://arxiv.org/abs/2611.22780v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22780v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2106.07744</guid>
       <pubDate>Sun, 11 Jun 2023 00:00:00 -0000</pubDate>
       <description>Partial Rejection Sampling is an algorithmic approach to obtaining a perfect sample from a specified distribution. The objects to be sampled are assumed to be represented by a number of random variables. In contrast to classical rejection sampling, in which all variables are resampled until a feasible solution is found, partial rejection sampling aims at greater efficiency by resampling only a subset of variables that `go wrong'. Partial rejection sampling is closely related to Moser and Tardos' algorithmic version of the Lovász Local Lemma, but with the additional requirement that a specified output distribution should be met. This article provides a largely self-contained account of the basic form of the algorithm and its analysis.</description>
-    </item>
-    <item>
-      <title>Colouring planar graphs with a precoloured induced cycle</title>
-      <link>https://arxiv.org/abs/2306.04944</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.04944</guid>
-      <pubDate>Thu, 08 Jun 2023 00:00:00 -0000</pubDate>
-      <description>Let $C$ be a cycle and $f : V(C) \rightarrow \{c_1,c_2,\ldots,c_k\}$ a proper $k$-colouring of $C$ for some $k \ge 4$. We say the colouring $f$ is safe if for any planar graph $G$ in which $C$ is an induced cycle, there exists a proper $k$-colouring $f'$ of $G$ such that $f'(v) = f(v)$ for all $v \in V(C)$. The only safe $4$-colouring is any proper colouring of a triangle. We give a simple necessary condition for a $k$-colouring of a cycle to be safe and conjecture that it is sufficient for all $k \ge 4$. The sufficiency for $k=4$ follows from the four colour theorem and we prove it for $k = 5$, independent of the four colour theorem. We show that a stronger condition is sufficient for all $k \ge 4$. As a consequence, it follows that any proper $k$-colouring of a cycle that uses at most $k-3$ distinct colours is safe. Also, any proper $k$-colouring of a cycle of length at most $2k-5$ that uses at most $k-1$ distinct colours is safe.</description>
-    </item>
-    <item>
-      <title>Barriers for the performance of graph neural networks (GNN) in discrete random structures. A comment on~\cite{schuetz2022combinatorial},\cite{angelini2023modern},\cite{schuetz2023reply}</title>
-      <link>https://arxiv.org/abs/2306.02555</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.02555</guid>
-      <pubDate>Mon, 05 Jun 2023 00:00:00 -0000</pubDate>
-      <description>Recently graph neural network (GNN) based algorithms were proposed to solve a variety of combinatorial optimization problems, including Maximum Cut problem, Maximum Independent Set problem and similar other problems~\cite{schuetz2022combinatorial},\cite{schuetz2022graph}. The publication~\cite{schuetz2022combinatorial} stirred a debate whether GNN based method was adequately benchmarked against best prior methods. In particular, critical commentaries~\cite{angelini2023modern} and~\cite{boettcher2023inability} point out that simple greedy algorithm performs better than GNN in the setting of random graphs, and in fact stronger algorithmic performance can be reached with more sophisticated methods. A response from the authors~\cite{schuetz2023reply} pointed out that GNN performance can be improved further by tuning up the parameters better. We do not intend to discuss the merits of arguments and counter-arguments in~\cite{schuetz2022combinatorial},\cite{angelini2023modern},\cite{boettcher2023inability},\cite{schuetz2023reply}. Rather in this note we establish a fundamental limitation for running GNN on random graphs considered in these references, for a broad range of choices of GNN architecture. These limitations arise from the presence of the Overlap Gap Property (OGP) phase transition, which is a barrier for many algorithms, both classical and quantum. As we demonstrate in this paper, it is also a barrier to GNN due to its local structure. We note that at the same time known algorithms ranging from simple greedy algorithms to more sophisticated algorithms based on message passing, provide best results for these problems \emph{up to} the OGP phase transition. This leaves very little space for GNN to outperform the known algorithms, and based on this we side with the conclusions made in~\cite{angelini2023modern} and~\cite{boettcher2023inability}.</description>
-    </item>
-    <item>
-      <title>Lacon-, Shrub- and Parity-Decompositions: Characterizing Transductions of Bounded Expansion Classes</title>
-      <link>https://arxiv.org/abs/2104.10446</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2104.10446</guid>
-      <pubDate>Mon, 05 Jun 2023 00:00:00 -0000</pubDate>
-      <description>The concept of bounded expansion provides a robust way to capture sparse graph classes with interesting algorithmic properties. Most notably, every problem definable in first-order logic can be solved in linear time on bounded expansion graph classes. First-order interpretations and transductions of sparse graph classes lead to more general, dense graph classes that seem to inherit many of the nice algorithmic properties of their sparse counterparts. In this paper, we show that one can encode graphs from a class with structurally bounded expansion via lacon-, shrub- and parity-decompositions from a class with bounded expansion. These decompositions are useful for lifting properties from sparse to structurally sparse graph classes.</description>
     </item>
   </channel>
 </rss>

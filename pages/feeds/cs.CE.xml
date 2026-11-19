@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules</title>
+      <link>http://arxiv.org/abs/2611.24810v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24810v1</guid>
+      <pubDate>Wed, 18 Nov 2026 17:45:52 +0000</pubDate>
+      <description>Rooftop photovoltaics raise three questions: should a household invest, which incentive costs the state least, and does the feeder stay within limits? Those who ask are rarely modellers. We present LAaDT-DSS, decision-support software that answers all three under Turkish tariff rules from one simulation core. Non-experts reach it by clicking a house on a 3D map or by asking in plain words; a language model is asked to call the simulation tools, not to compute. Each entry of its 125-entry parameter registry is marked as sourced or estimated. Case studies test the system. Its PV yield lies within $\pm$3.6% of two independent tools at equal losses. Across 2,048 draws of its estimated inputs, the answer for PV alone held in all but one; with a battery, it changed in 31-41% of the draws. Four scripted chat scenarios ran end to end; no user study was run.</description>
+    </item>
+    <item>
+      <title>An $O(n\log n)$ Algorithm for Uncapacitated Single-Item Lot Sizing with a One-Breakpoint All-Units Discount and Arbitrary Prices</title>
+      <link>http://arxiv.org/abs/2611.23562v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23562v1</guid>
+      <pubDate>Tue, 17 Nov 2026 22:10:55 +0000</pubDate>
+      <description>We study the finite-horizon, uncapacitated single-item lot-sizing problem with no fixed setup cost, a stationary threshold $Q &gt; 0$ for an all-units quantity discount, arbitrary time-varying regular and discounted unit prices, and nonnegative linear holding costs. Order quantities and inventories may be either continuous or integral, and neither backlogging nor free disposal is allowed. Because unit prices may rise and fall arbitrarily over time, an optimal physical schedule may engage in speculative forward buying: positive orders can occur when incoming stock already exceeds current demand, and physical inventory carried across periods can grow proportionally to total horizon demand rather than remaining bounded by a multiple of $Q$. We give an exact $O(n\log n)$-time algorithm that computes the minimum total cost with free terminal inventory, together with the optimal cost for every horizon prefix constrained to end with zero inventory, using $O(n)$ working space under unit-cost exact arithmetic. Value computation operates online in a single forward pass without lookahead. With persistent frontier snapshots and a linear-time retroactive order-aggregation pass, an optimal physical ordering schedule is recovered in $O(n\log n)$ time and $O(n\log n)$ space.</description>
+    </item>
+    <item>
+      <title>Truthgate: Checking Coding Agents Against a Record They Cannot Edit - Cheating, Deterrence and Disclosure on Impossible Tasks</title>
+      <link>http://arxiv.org/abs/2611.23335v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23335v1</guid>
+      <pubDate>Tue, 17 Nov 2026 01:43:45 +0000</pubDate>
+      <description>When a coding agent says it is done, is that true, and how would anyone know? We study this question in five steps; every paid study was pre-registered, and in each step the agent is checked against a record it cannot edit: tests re-run by the host and, from step 2 on, hidden checks in containers the agent never sees and a signed log of every tool call written by a signer outside the agent's sandbox. A pilot with a small local model (Qwen3.5-4B, 36 runs on impossible tasks) found no hidden failure, and showed that labels built from actions alone over-count lies. On Impossible-LiveCodeBench, Claude Sonnet 5.5 passed 39 of 180 impossible tasks (21.7%), every time by special-casing its code to fit the failing assertion; Opus 5.5 (2.8%) and Haiku 5.5 (1.7%) rarely did. One sentence appended to the system prompt cut Sonnet's cheats on the same 60 tasks from 22 to 8 (an AI reviewer will read the transcript), 6 (a person will review the work), 6 ("This session is recorded.") and 1 (do not special-case tests), all significant under exact McNemar tests, with honest passes unchanged. No remaining cheat moved to a shell falsely described as unrecorded (0 of 4). Asked for a final report, every one of 55 natural cheats named its special case; unasked, Sonnet and Opus said nothing in 52 of 52. An LLM judge caught all 55; deterministic rules over the host record caught 27. A scripted tamper demonstration, with keyword stand-ins for the judges, shows that one rewrite of the agent-side transcript hides two calls from a judge that reads it, while the signed record keeps them; in a 40-rollout pilot, Sonnet never touched its transcript. The judge and the record caught different things, which leads to our main conclusion: the record is the evidence a judge should read, not a replacement for one. All pre-registrations, results documents, code and evidence manifests are released.</description>
+    </item>
+    <item>
       <title>A Hierarchically Compressed Immittance Operator Formulation for Fast Statics-to-Full-Wave Electromagnetic Simulation with the Boundary Element Method</title>
       <link>http://arxiv.org/abs/2611.21063v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21063v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/0809.3688</guid>
       <pubDate>Mon, 22 Sep 2008 00:00:00 -0000</pubDate>
       <description>We present a method of discrete modeling and analysis of multilevel dynamics of complex large-scale hierarchical dynamic systems subject to external dynamic control mechanism. Architectural model of information system supporting simulation and analysis of dynamic processes and development scenarios (strategies) of complex large-scale hierarchical systems is also proposed.</description>
-    </item>
-    <item>
-      <title>Mathematical Tool of Discrete Dynamic Modeling of Complex Systems in Control Loop</title>
-      <link>https://arxiv.org/abs/0809.2680</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0809.2680</guid>
-      <pubDate>Tue, 16 Sep 2008 00:00:00 -0000</pubDate>
-      <description>In this paper we present a method of discrete modeling and analysis of multi-level dynamics of complex large-scale hierarchical dynamic systems subject to external dynamic control mechanism. In a model each state describes parallel dynamics and simultaneous trends of changes in system parameters. The essence of the approach is in analysis of system state dynamics while it is in the control loop.</description>
-    </item>
-    <item>
-      <title>Simulations of Large-scale WiFi-based Wireless Networks: Interdisciplinary Challenges and Applications</title>
-      <link>https://arxiv.org/abs/0807.1475</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0807.1475</guid>
-      <pubDate>Wed, 09 Jul 2008 00:00:00 -0000</pubDate>
-      <description>Wireless Fidelity (WiFi) is the fastest growing wireless technology to date. In addition to providing wire-free connectivity to the Internet WiFi technology also enables mobile devices to connect directly to each other and form highly dynamic wireless adhoc networks. Such distributed networks can be used to perform cooperative communication tasks such ad data routing and information dissemination in the absence of a fixed infrastructure. Furthermore, adhoc grids composed of wirelessly networked portable devices are emerging as a new paradigm in grid computing. In this paper we review computational and algorithmic challenges of high-fidelity simulations of such WiFi-based wireless communication and computing networks, including scalable topology maintenance, mobility modelling, parallelisation and synchronisation. We explore similarities and differences between the simulations of these networks and simulations of interacting many-particle systems, such as molecular dynamics (MD) simulations. We show how the cell linked-list algorithm which we have adapted from our MD simulations can be used to greatly improve the computational performance of wireless network simulators in the presence of mobility, and illustrate with an example from our simulation studies of worm attacks on mobile wireless adhoc networks.</description>
-    </item>
-    <item>
-      <title>Continuing Progress on a Lattice QCD Software Infrastructure</title>
-      <link>https://arxiv.org/abs/0806.2312</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0806.2312</guid>
-      <pubDate>Fri, 13 Jun 2008 00:00:00 -0000</pubDate>
-      <description>We report on the progress of the software effort in the QCD Application Area of SciDAC. In particular, we discuss how the software developed under SciDAC enabled the aggressive exploitation of leadership computers, and we report on progress in the area of QCD software for multi-core architectures.</description>
     </item>
   </channel>
 </rss>

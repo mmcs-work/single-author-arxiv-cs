@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Dual-SOM Learner Model of Instructional Efficiency within Cognitive Load Theory</title>
+      <link>http://arxiv.org/abs/2611.23795v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23795v1</guid>
+      <pubDate>Wed, 18 Nov 2026 04:00:21 +0000</pubDate>
+      <description>This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments. By representing curriculum content as a directed acyclic graph of topic dependencies, the proposed model captures collective learning behaviour across two core dimensions: academic performance and subjective/introspective mental effort. During SOM training, representative data sets of successful learner trajectories are compressed into two topologically ordered, identically structured neural networks: PSOM (performance space) and ESOM (mental effort space). By pairing these behavioural maps, the model serves as a decision-support tool that enables instructors to simultaneously pinpoint structural instructional design defects, such as hidden topic prerequisites, and evaluate collective cognitive load profiles. The implementation and performance of the PSOM component (and, by extension, its symmetrical twin, ESOM) is linked to an earlier modelling study employing a SOM with identical structure and encoding semantics situated in the same domain (i.e., a learning environment). This paper combines the study of behavioural phenomena with theoretical work on human cognitive architecture via SOM neurocomputational cognitive behavioural modelling.</description>
+    </item>
+    <item>
       <title>Complexity and precision in quantum associative retrieval</title>
       <link>http://arxiv.org/abs/2611.21941v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21941v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2111.02557</guid>
       <pubDate>Wed, 03 Nov 2021 00:00:00 -0000</pubDate>
       <description>Continual learning is the ability to acquire new knowledge without forgetting the previously learned one, assuming no further access to past training data. Neural network approximators trained with gradient descent are known to fail in this setting as they must learn from a stream of data-points sampled from a stationary distribution to converge. In this work, we replace the standard neuron by a meta-learned neuron model whom inference and update rules are optimized to minimize catastrophic interference. Our approach can memorize dataset-length sequences of training samples, and its learning capabilities generalize to any domain. Unlike previous continual learning methods, our method does not make any assumption about how tasks are constructed, delivered and how they relate to each other: it simply absorbs and retains training samples one by one, whether the stream of input data is time-correlated or not.</description>
-    </item>
-    <item>
-      <title>Hebbian learning with gradients: Hebbian convolutional neural networks with modern deep learning frameworks</title>
-      <link>https://arxiv.org/abs/2107.01729</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.01729</guid>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 -0000</pubDate>
-      <description>Deep learning networks generally use non-biological learning methods. By contrast, networks based on more biologically plausible learning, such as Hebbian learning, show comparatively poor performance and difficulties of implementation. Here we show that Hebbian learning in hierarchical, convolutional neural networks can be implemented almost trivially with modern deep learning frameworks, by using specific losses whose gradients produce exactly the desired Hebbian updates. We provide expressions whose gradients exactly implement a plain Hebbian rule (dw ~= xy), Grossberg's instar rule (dw ~= y(x-w)), and Oja's rule (dw ~= y(x-yw)). As an application, we build Hebbian convolutional multi-layer networks for object recognition. We observe that higher layers of such networks tend to learn large, simple features (Gabor-like filters and blobs), explaining the previously reported decrease in decoding performance over successive layers. To combat this tendency, we introduce interventions (denser activations with sparse plasticity, pruning of connections between layers) which result in sparser learned features, massively increase performance, and allow information to increase over successive layers. We hypothesize that more advanced techniques (dynamic stimuli, trace learning, feedback connections, etc.), together with the massive computational boost offered by modern deep learning frameworks, could greatly improve the performance and biological relevance of multi-layer Hebbian networks.</description>
     </item>
   </channel>
 </rss>

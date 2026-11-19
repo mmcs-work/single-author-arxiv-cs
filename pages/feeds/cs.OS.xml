@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Benchmarking Linux CGroup and Schedule Idle</title>
+      <link>http://arxiv.org/abs/2611.23655v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23655v1</guid>
+      <pubDate>Wed, 18 Nov 2026 00:21:16 +0000</pubDate>
+      <description>cgroups are a Linux kernel primitive that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O) of a collection of processes. Many provider-side serverless systems (Mitosis, gVisor, Havest VM, FAASM) leverage linux containers based around cgroups/namespaces for their performance isolation. However, how well does this primitive map to the needs of serverless platforms? How does the linux CFS scheduler deal with cgroups and SCHED IDLE and what are the core sources of high tail latency? Would a new primitive design fit the needs of serverless isolation better? In this work we take the first step to answering these questions by profiling the current behavior of cgroups and a sched idle policy via a thorough benchmarking study. We emulate the setting of Performance-Critical (LC) server in the presence of an intensive background (BE) process and note the impact of each primitive on the performance of the server. We show it is non-trivial to balance the potential tail-latency impact on a LC server with the throughput of BE tasks. Furthermore, there are many variables to adjust for the developer between hard maximum bandwidth limits, weighted cpu shares, the presence of the sched idle policy, or additionally "niceness" priority in the scheduling policy.</description>
+    </item>
+    <item>
       <title>Restoring Fair Hrtick Re-arming After Same-Task Repicks in the Linux EEVDF Scheduler</title>
       <link>http://arxiv.org/abs/2611.19893v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.19893v1</guid>

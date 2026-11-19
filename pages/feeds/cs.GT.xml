@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On the Complexity of Envy Cycle Elimination</title>
+      <link>http://arxiv.org/abs/2611.24167v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24167v1</guid>
+      <pubDate>Wed, 18 Nov 2026 10:08:54 +0000</pubDate>
+      <description>The envy cycle elimination (ECE) algorithm is a fundamental algorithm for the fair allocation of indivisible goods, guaranteeing an allocation that is envy-free up to one good under arbitrary monotone utilities. We show that the ECE algorithm can be implemented in $O(nm)$ time for $n$ agents and $m$ goods, and establish the tightness of this bound.</description>
+    </item>
+    <item>
+      <title>Temporal Fair Division: Simultaneous Guarantees for Goods and Chores</title>
+      <link>http://arxiv.org/abs/2611.23782v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23782v1</guid>
+      <pubDate>Wed, 18 Nov 2026 03:39:21 +0000</pubDate>
+      <description>We study temporal fair division of indivisible items in both the goods and chores settings, with $n \ge 2$ agents and nonnegative additive values or costs. Items arrive one at a time and must be assigned immediately and irrevocably. The arrival order and all agents' values or costs are known in advance, and the cumulative allocation must satisfy the fairness requirements after each arrival. For goods, we give a polynomial-time algorithm that simultaneously achieves exact temporal proportionality up to one item (TPROP1), a $1/n$ approximation to temporal maximin share (TMMS), and a $1/(n-1)$ approximation to temporal envy-freeness up to one item (TEF1). The TMMS factor is optimal. For chores, we give a polynomial-time algorithm that simultaneously achieves exact TPROP1 and a $2-1/n$ approximation to TMMS. Classical scheduling lower bounds based on fixed sequences carry over to chores TMMS, establishing the optimality of this factor for $n=2,3$. For every $n \ge 2$, we further show that $2-1/n$ is the optimal TMMS factor subject to exact TPROP1. For every fixed $n \ge 3$ and every finite $β\ge 1$, we construct an instance of chores admitting no $β$-TEF1 allocation.</description>
+    </item>
+    <item>
       <title>Mechanism Design and Active Systems Theory: 60 Years of Parallel Development</title>
       <link>http://arxiv.org/abs/2611.21803v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21803v1</guid>
@@ -31,6 +45,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2611.20407v1</guid>
       <pubDate>Mon, 16 Nov 2026 02:08:37 +0000</pubDate>
       <description>For finite bimatrix games, we give a payoff-based sufficient condition $E&gt;0$ for an interior initial state to converge to a specified strict pure Nash equilibrium under replicator dynamics. The construction combines lower bounds on the growth rates of log probability ratios between target and alternative actions with a first integral of a two-dimensional comparison system. It allows one player's payoff advantage to compensate for the other's disadvantage, certifying convergence even when a target action initially loses probability. For rational inputs and integration base points with algebraic exponentials, we give a finite exact test. We obtain closed-form box probabilities and, when all nontarget actions are included, closed-form upper bounds on convergence time. In two-action coordination games, choosing the base points at the sign thresholds recovers the full basin of attraction. Experiments on random games show that basin coverage shrinks rapidly with the number of actions. For $n=4,5,6$, median entry times are approximately 70% of median box-entry times without shifts and 40% for a union over 16 shift choices. Extensions cover multiplayer games through cooperative comparison systems and explicit boxes, and discrete-time exponential-weights learning under explicit step-size conditions.</description>
+    </item>
+    <item>
+      <title>Human-AI Mutualism Is Unstable under Capability Asymmetry</title>
+      <link>http://arxiv.org/abs/2611.23322v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.23322v1</guid>
+      <pubDate>Sun, 15 Nov 2026 17:13:07 +0000</pubDate>
+      <description>One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining guarantees each side only what it would get if bargaining failed. For humans, this can be less than they had before AI. In a simple game-theoretic model, humans stay as well off as before AI without alignment only while they have leverage over the AI: either the AI depends on what they supply, or they can impose costs on the AI that are large relative to what the AI can produce. Once humans have neither kind of leverage, they stay as well off as before AI only if the AI is aligned with them. If the AI's goals are insatiable, the alignment required approaches perfect alignment as AI capability grows. Thus, mutualism is not a substitute for alignment. And when AI variants that keep more resources spread faster, alignment lasts only while misaligned variants are reliably sanctioned. In these two senses, human-AI mutualism is unstable.</description>
     </item>
     <item>
       <title>Rank Functions of Flag Matroids with Applications to Order-Neutral Submodular Valuations</title>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2107.14578</guid>
       <pubDate>Sun, 19 Sep 2021 00:00:00 -0000</pubDate>
       <description>Ransomware is a growing threat to individuals and enterprises alike, constituting a major factor in cyber insurance and in the security planning of every organization. Although the game theoretic lens often frames the game as a competition between equals -- a profit maximizing attacker and a loss minimizing defender -- the reality of many situations is that ransomware organizations are not playing a non-cooperative game, they are playing a lottery. The wanton behavior of attackers creates a situation where many victims are hit more than once by ransomware operators, sometimes even by the same group. If defenders wish to combat malware, they must then seek to remove the incentives of it. In this work, we construct an expected value model based on data from actual ransomware attacks and identify three variables: the value of payments, the cost of an attack, and the probability of payment. Using this model, we consider the potential to manipulate these variables to reduce the profit motive associated with ransomware attack. Based on the model, we present mitigations to encourage an environment that is hostile to ransomware operators. In particular, we find that off-site backups and government incentives for their adoption are the most fruitful avenue for combating ransomware.</description>
-    </item>
-    <item>
-      <title>JUBILEE: Secure Debt Relief and Forgiveness</title>
-      <link>https://arxiv.org/abs/2109.07267</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2109.07267</guid>
-      <pubDate>Wed, 15 Sep 2021 00:00:00 -0000</pubDate>
-      <description>JUBILEE is a securely computed mechanism for debt relief and forgiveness in a frictionless manner without involving trusted third parties, leading to more harmonious debt settlements by incentivising the parties to truthfully reveal their private information. JUBILEE improves over all previous methods: - individually rational, incentive-compatible, truthful/strategy-proof, ex-post efficient, optimal mechanism for debt relief and forgiveness with private information - by the novel introduction of secure computation techniques to debt relief, the "blessing of the debtor" is hereby granted for the first time: debt settlements with higher expected profits and a higher probability of success than without using secure computation A simple and practical implementation is included for "The Secure Spreadsheet". Another implementation is realised using Raziel smart contracts on a blockchain with Pravuil consensus.</description>
-    </item>
-    <item>
-      <title>Completeness of Unbounded Best-First Game Algorithms</title>
-      <link>https://arxiv.org/abs/2109.09468</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2109.09468</guid>
-      <pubDate>Sat, 11 Sep 2021 00:00:00 -0000</pubDate>
-      <description>In this article, we prove the completeness of the following game search algorithms: unbounded best-first minimax with completion and descent with completion, i.e. we show that, with enough time, they find the best game strategy. We then generalize these two algorithms in the context of perfect information multiplayer games. We show that these generalizations are also complete: they find one of the equilibrium points.</description>
-    </item>
-    <item>
-      <title>Discovery and Equilibrium in Games with Unawareness</title>
-      <link>https://arxiv.org/abs/2109.05145</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2109.05145</guid>
-      <pubDate>Sat, 11 Sep 2021 00:00:00 -0000</pubDate>
-      <description>Equilibrium notions for games with unawareness in the literature cannot be interpreted as steady-states of a learning process because players may discover novel actions during play. In this sense, many games with unawareness are "self-destroying" as a player's representation of the game may change after playing it once. We define discovery processes where at each state there is an extensive-form game with unawareness that together with the players' play determines the transition to possibly another extensive-form game with unawareness in which players are now aware of actions that they have discovered. A discovery process is rationalizable if players play extensive-form rationalizable strategies in each game with unawareness. We show that for any game with unawareness there is a rationalizable discovery process that leads to a self-confirming game that possesses a self-confirming equilibrium in extensive-form rationalizable conjectures. This notion of equilibrium can be interpreted as steady-state of both a discovery and learning process.</description>
     </item>
   </channel>
 </rss>
