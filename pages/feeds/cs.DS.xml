@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Running-Time Lower Bounds under FPT $\neq$ W[1]</title>
+      <link>http://arxiv.org/abs/2611.26080v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26080v1</guid>
+      <pubDate>Thu, 19 Nov 2026 13:22:14 +0000</pubDate>
+      <description>We revisit running-time lower bounds historically based on the Exponential Time Hypothesis. Our case study asks how much of their quantitative content can be recovered under the assumption FPT $\neq$ W[1]. The reductions encode the choice of a clique in few bits and control the target parameter in terms of that encoding. This makes a sufficiently fast algorithm for the target problem yield a fixed-parameter algorithm for deciding whether a graph has a clique of the requested size. We obtain twelve lower bounds for deterministic algorithms across graph, string, and integer feasibility problems, including bounds that hold under structural restrictions. In several cases the same function of the parameter appears in the exponent as in the historical bound, with the additional requirement that the cutoff for any prescribed saving in the exponent be computable.</description>
+    </item>
+    <item>
+      <title>Guided Cuckoo Filter: Full-Pipeline Insertion Optimization</title>
+      <link>http://arxiv.org/abs/2611.26053v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26053v1</guid>
+      <pubDate>Thu, 19 Nov 2026 12:59:28 +0000</pubDate>
+      <description>Cuckoo filters are widely deployed as space-efficient alternatives to Bloom filters, supporting fast lookups, insertions, and deletions. However, their insertion cost grows steeply at high load factors because the standard insertion procedure is entirely unguided: it places each fingerprint into whichever candidate bucket happens to be tried first, and when both candidates are full, it displaces a random victim in a random walk. These blind random choices occur at two distinct stages of the insertion pipeline, the initial placement decision and the eviction victim selection, yet each stage can be independently replaced with a guided, informed decision. We propose the \emph{Guided Cuckoo Filter}, which optimizes the entire insertion pipeline by steering both stages. At the placement stage, the filter compares the occupancy of both candidate buckets and inserts into the less loaded one, applying the power-of-two-choice principle to reduce how often eviction chains are triggered. At the eviction stage, the filter preferentially displaces the most recently inserted element, whose alternate bucket carries latent randomness that shortens the resulting chain. Because these two guided decisions target orthogonal bottlenecks, eviction frequency and eviction chain length, their benefits compose multiplicatively. Experiments on cuckoo filters with $2^{22}$ slots confirm that the fully guided insertion reduces per-insertion kicks by up to $3.1\times$ at 96\% load and cumulative total kicks by 63\% at the practical capacity ceiling of 95\% load, with negligible computational overhead.</description>
+    </item>
+    <item>
+      <title>Sorting by block-reversals: closing the gap</title>
+      <link>http://arxiv.org/abs/2611.25842v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25842v1</guid>
+      <pubDate>Thu, 19 Nov 2026 09:57:11 +0000</pubDate>
+      <description>In block-reversal sorting an elementary operation is to reverse the order of a contiguous block in a sequence, at cost proportional to the length of the block. In SODA 2004, Bender, Ge, He, Hu, Pinter, Skiena, and Swidan showed that every sequence of length $n$ can be sorted at cost $O(n\log^2{n})$ and some sequences can only be sorted at cost $Ω(n\log{n})$. In block-partition sorting, an elementary operation is to partition the sequence into contiguous blocks, and simultaneously reverse all blocks. The model was introduced in SODA 2024 by Jelínek, Opler, and Pekárek, who showed that every sequence can be sorted in $O(\log^2{n})$ steps and some sequences require $Ω(\log{n})$ steps. We close both gaps, showing that the upper bounds are tight, and the $\log^2{n}$ factors are unavoidable.</description>
+    </item>
+    <item>
+      <title>Planning Width Is Hard to Approximate Even Given the Unique Optimal Plan</title>
+      <link>http://arxiv.org/abs/2611.25484v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25484v1</guid>
+      <pubDate>Thu, 19 Nov 2026 04:19:23 +0000</pubDate>
+      <description>For each fixed $k$, iterative-width search finds optimal plans in polynomial time on tasks of bounded tuple-chain width, but the approximability of planning width has remained open even when an optimal plan is supplied. When all optimal plans visit the same state sequence, we characterize set and chain width as hitting numbers of competing states. We construct positive-precondition STRIPS tasks with a supplied unique optimal plan, a single reachable goal state, binary branching, and constant-size actions. Every reachable state lies on a goal-reaching execution at most one action longer than optimal, yet distinguishing width $1$ from $Θ(N)$, where $N$ is the number of atoms, is NP-hard for set, chain, and goal-admissible width. Unless $\mathrm{P}=\mathrm{NP}$, no polynomial-time algorithm achieves a one-sided approximation factor $o(N)$ or a symmetric factor $o(\sqrt{N})$, and simple estimates attain both orders. For positive-precondition tasks with a supplied unique optimal plan of length at least two, testing set or chain width against a threshold $k\geq 1$ is coNP-complete for each fixed $k$ and $Σ_2^{\mathrm{P}}$-complete when $k$ is part of the input. Both results also hold for goal-admissible width if only one goal state is reachable. On an explicit state graph, a greedy algorithm approximates set width within a logarithmic factor even when optimal plans branch. Thus, knowing an optimal plan does not eliminate the difficulty of certifying substantially smaller width.</description>
+    </item>
+    <item>
+      <title>Subexponential Algorithms for Continuous Euclidean $k$-Means in Subpolylogarithmic Dimension</title>
+      <link>http://arxiv.org/abs/2611.25305v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25305v1</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:11 +0000</pubDate>
+      <description>Given $n$ points in $\mathbb{Q}^d$ and an integer $k$, the continuous Euclidean $k$-means problem asks for $k$ centers in $\mathbb{R}^d$ that minimize the sum of squared distances from the input points to their nearest centers. In one dimension, the problem can be solved in polynomial time by dynamic programming. In higher dimensions, the algorithm of Inaba, Katoh, and Imai [SoCG 1994] runs in polynomial time when both $k$ and $d$ are fixed. Mahajan, Nimbhorkar, and Varadarajan [TCS 2012] showed that the problem is NP-hard even in the plane when $k$ is part of the input, answering a question of Dasgupta [2008]. In this paper, we give a deterministic exact algorithm for continuous Euclidean $k$-means. For arbitrary $k$ and $d=(\log n)^{o(1)}$, the algorithm runs in $O^*(2^{o(n)})$ time and uses polynomial space. Aman, Karthik C. S., and Punna [ESA 2024] asked whether the $2^n$ time bound for Euclidean $k$-means can be improved in high dimensions. Our result gives an affirmative answer to the corresponding question in subpolylogarithmic dimension.</description>
+    </item>
+    <item>
       <title>SotSort: a stable quicksort with a tunable buffer</title>
       <link>http://arxiv.org/abs/2611.24786v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.24786v1</guid>
@@ -6968,41 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2507.05809</guid>
       <pubDate>Tue, 08 Jul 2025 00:00:00 -0000</pubDate>
       <description>The so-called blockchain trilemma asserts the impossibility of simultaneously achieving scalability, security, and decentralisation within a single blockchain protocol. In this paper, we formally refute that proposition. Employing predicate logic, formal automata theory, computational complexity analysis, and graph-theoretic measures of relay topology--specifically Baran's model of network path redundancy--we demonstrate that the trilemma constitutes a category error, conflates distinct analytical domains, and relies upon unproven causal assumptions. We further expose its reliance on composition fallacies drawn from flawed system implementations. A constructive counterexample is presented: a blockchain protocol exhibiting unbounded transaction throughput, cryptographic security under adversarial load, and multipath decentralised propagation. This example is not hypothetical but grounded in protocol design enabled by compact block relay, SPV verification, and IPv6 multicast. The trilemma is revealed not as a law of protocol architecture, but as a heuristic fallacy sustained by imprecision and design defeatism.</description>
-    </item>
-    <item>
-      <title>Online Metric TSP</title>
-      <link>https://arxiv.org/abs/2504.17716</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2504.17716</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 -0000</pubDate>
-      <description>In the online metric traveling salesperson problem, $n$ points of a metric space arrive one by one and have to be placed (immediately and irrevocably) into empty cells of a size-$n$ array. The goal is to minimize the sum of distances between consecutive points in the array. This problem was introduced by Abrahamsen, Bercea, Beretta, Klausen, and Kozma [ESA'24] as a generalization of the online sorting problem, which was introduced by Aamand, Abrahamsen, Beretta, and Kleist [SODA'23] as a tool in their study of online geometric packing problems. Online metric TSP has been studied for a range of fixed metric spaces. For 1-dimensional Euclidean space, the problem is equivalent to online sorting, where an optimal competitive ratio of $Θ(\sqrt n)$ is known. For $d$-dimensional Euclidean space, the best-known upper bound is $O(2^{d} \sqrt{dn\log n})$, leaving a gap to the $Ω(\sqrt n)$ lower bound. Finally, for the uniform metric, where all distances are 0 or 1, the optimal competitive ratio is known to be $Θ(\log n)$. We study the problem for a general metric space, presenting an algorithm with competitive ratio $O(\sqrt n)$. In particular, we close the gap for $d$-dimensional Euclidean space, completely removing the dependence on dimension. One might hope to simultaneously guarantee competitive ratio $O(\sqrt n)$ in general and $O(\log n)$ for the uniform metric, but we show that this is impossible.</description>
-    </item>
-    <item>
-      <title>Sharp Thresholds for the Overlap Gap Property: Ising $p$-Spin Glass and Random $k$-SAT</title>
-      <link>https://arxiv.org/abs/2309.09913</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.09913</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 -0000</pubDate>
-      <description>The Ising $p$-spin glass and random $k$-SAT are two canonical examples of disordered systems that play a central role in understanding the link between geometric features of optimization landscapes and computational tractability. Both models exhibit hard regimes where all known polynomial-time algorithms fail and possess the multi Overlap Gap Property ($m$-OGP), an intricate geometrical property that rigorously rules out a broad class of algorithms exhibiting input stability. We establish that, in both models, the symmetric $m$-OGP undergoes a sharp phase transition, and we pinpoint its exact threshold. For the Ising $p$-spin glass, our results hold for all sufficiently large $p$; for the random $k$-SAT, they apply to all $k$ growing mildly with the number of Boolean variables. Notably, our findings yield qualitative insights into the power of OGP-based arguments. A particular consequence for the Ising $p$-spin glass is that the strength of the $m$-OGP in establishing algorithmic hardness grows without bound as $m$ increases. These are the first sharp threshold results for the $m$-OGP. Our analysis hinges on a judicious application of the second moment method, enhanced by concentration. While a direct second moment calculation fails, we overcome this via a refined approach that leverages an argument of~\cite{frieze1990independence} and exploiting concentration properties of carefully constructed random variables.</description>
-    </item>
-    <item>
-      <title>Decremental Greedy Polygons and Polyhedra Without Sharp Angles</title>
-      <link>https://arxiv.org/abs/2507.04538</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.04538</guid>
-      <pubDate>Sun, 06 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We show that the max-min-angle polygon in a planar point set can be found in time $O(n\log n)$ and a max-min-solid-angle convex polyhedron in a three-dimensional point set can be found in time $O(n^2)$. We also study the maxmin-angle polygonal curve in 3d, which we show to be $\mathsf{NP}$-hard to find if repetitions are forbidden but can be found in near-cubic time if repeated vertices or line segments are allowed, by reducing the problem to finding a bottleneck cycle in a graph. We formalize a class of problems on which a decremental greedy algorithm can be guaranteed to find an optimal solution, generalizing our max-min-angle and bottleneck cycle algorithms, together with a known algorithm for graph degeneracy.</description>
-    </item>
-    <item>
-      <title>Compact enumeration for scheduling one machine</title>
-      <link>https://arxiv.org/abs/2103.09900</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2103.09900</guid>
-      <pubDate>Sun, 06 Jul 2025 00:00:00 -0000</pubDate>
-      <description>A Variable Parameter (VP) analysis, that we introduce here, aims to give a precise algorithm time complexity expression in which an exponent appears solely in terms of a variable parameter. A variable parameter is the number of objects with specific problem-dependent properties. Here we describe two VP-algorithms, an implicit enumeration algorithm and a polynomial-time approximation scheme for a strongly $NP$-hard problem of scheduling $n$ independent jobs with release and due times on one machine to minimize the maximum job lateness. For the problem considered, a variable parameter is the number of a special kind of the so-called ``emerging'' jobs. A partial solution without these jobs is constructed in a low degree polynomial time, and an exponential time procedure (in the number of variable parameters) is carried out to augment it to a complete optimal solution. In the alternative time complexity expressions that we derive, the exponential dependence is solely on some job parameters. Applying the fixed parameter analysis to these estimations, a purely polynomial-time dependence is obtained. Both, the intuitive probabilistic estimation and an extensive experimental study support an intuitively evident conjecture that the total number of the variable parameters is far less than $n$. In particular, its ratio to $n$ asymptotically converges to 0.</description>
-    </item>
-    <item>
-      <title>Towards Efficient Contrastive PAC Learning</title>
-      <link>https://arxiv.org/abs/2502.15962</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.15962</guid>
-      <pubDate>Sat, 05 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We study contrastive learning under the PAC learning framework. While a series of recent works have shown statistical results for learning under contrastive loss, based either on the VC-dimension or Rademacher complexity, their algorithms are inherently inefficient or not implying PAC guarantees. In this paper, we consider contrastive learning of the fundamental concept of linear representations. Surprisingly, even under such basic setting, the existence of efficient PAC learners is largely open. We first show that the problem of contrastive PAC learning of linear representations is intractable to solve in general. We then show that it can be relaxed to a semi-definite program when the distance between contrastive samples is measured by the $\ell_2$-norm. We then establish generalization guarantees based on Rademacher complexity, and connect it to PAC guarantees under certain contrastive large-margin conditions. To the best of our knowledge, this is the first efficient PAC learning algorithm for contrastive learning.</description>
     </item>
   </channel>
 </rss>

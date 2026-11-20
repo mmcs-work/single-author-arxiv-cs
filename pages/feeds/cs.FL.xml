@@ -12,6 +12,13 @@
       <description>HyperLTL extends LTL with quantification over traces. AUtoHyper is the de facto explicit-state model checker for HyperLTL, complete for an arbitrary quantifier prefix: it eliminates quantifiers through products of the formula's omega-automaton with the systems, complementing on quantifier alternations. However, it suffers from state explosion, as it fully materializes input systems and intermediate automata. We present OmegaHyper, an overhaul of AutoHyper that keeps its algorithm but decomposes and reduces the size of the processed automata, and integrates the Kofola omega-automaton complementation tool. We compare OmegaHyper with existing explicit-state and symbolic HyperLTL model checkers, on 120 benchmarks from their published suites. OmegaHyper improves the performance of explicit-state HyperLTL model checking by up to orders of magnitude; bounded symbolic tools still reach further on violated instances with short counterexamples, as expected.</description>
     </item>
     <item>
+      <title>Axioms of Phyllotaxis</title>
+      <link>http://arxiv.org/abs/2611.24978v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24978v1</guid>
+      <pubDate>Tue, 17 Nov 2026 17:30:42 +0000</pubDate>
+      <description>Observations of simultaneous occurrence of new objects in the early developmental stage of flower heads challenge the classical model of phyllotaxis. Prusinkiewicz (2026) applies Lindenmayer's axiomatic approach to a model of the initial expansion stage and explains the origin of the divergence angle 137.5°, a characteristic by which the classical model consistently demonstrates its validity. This paper proposes a generalised axiomatic model of initial expansion and applies it to a handful of relevant divergence angles.</description>
+    </item>
+    <item>
       <title>Operator Precedence Tree Automata</title>
       <link>http://arxiv.org/abs/2611.22792v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22792v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1603.00361</guid>
       <pubDate>Thu, 10 Mar 2016 00:00:00 -0000</pubDate>
       <description>A regular language is $k$-piecewise testable if it is a finite boolean combination of languages of the form $Σ^* a_1 Σ^* \cdots Σ^* a_n Σ^*$, where $a_i\inΣ$ and $0\le n \le k$. Given a DFA $A$ and $k\ge 0$, it is an NL-complete problem to decide whether the language $L(A)$ is piecewise testable and, for $k\ge 4$, it is coNP-complete to decide whether the language $L(A)$ is $k$-piecewise testable. It is known that the depth of the minimal DFA serves as an upper bound on $k$. Namely, if $L(A)$ is piecewise testable, then it is $k$-piecewise testable for $k$ equal to the depth of $A$. In this paper, we show that some form of nondeterminism does not violate this upper bound result. Specifically, we define a class of NFAs, called ptNFAs, that recognize piecewise testable languages and show that the depth of a ptNFA provides an (up to exponentially better) upper bound on $k$ than the minimal DFA. We provide an application of our result, discuss the relationship between $k$-piecewise testability and the depth of NFAs, and study the complexity of $k$-piecewise testability for ptNFAs.</description>
-    </item>
-    <item>
-      <title>A ternary square-free sequence avoiding factors equivalent to $abcacba$</title>
-      <link>https://arxiv.org/abs/1603.03059</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.03059</guid>
-      <pubDate>Wed, 09 Mar 2016 00:00:00 -0000</pubDate>
-      <description>We solve a problem of Petrova, finalizing the classification of letter patterns avoidable by ternary square-free words; we show that there is a ternary square-free word avoiding letter pattern $xyzxzyx$. In fact, we: (1) characterize all the (two-way) infinite ternary square-free words avoiding letter pattern $xyzxzyx$ (2) characterize the lexicographically least (one-way) infinite ternary square-free word avoiding letter pattern $xyzxzyx$ (3) show that the number of ternary square-free words of length $n$ avoiding letter pattern $xyzxzyx$ grows exponentially with $n$.</description>
     </item>
   </channel>
 </rss>

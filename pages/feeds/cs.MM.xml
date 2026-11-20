@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Passing NPCR Without Diffusion: Exact Signatures, a Detection Benchmark and an Audit of Published Image Ciphers</title>
+      <link>http://arxiv.org/abs/2611.25561v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25561v1</guid>
+      <pubDate>Thu, 19 Nov 2026 06:06:55 +0000</pubDate>
+      <description>NPCR, the share of ciphertext bytes changed by a one-pixel plaintext change, is reported for nearly every image cipher as evidence of diffusion, with 99.61% the target. Several mechanisms produce values near it, and the mean does not say which. We separate three regimes: no propagation, one round of forward and backward chaining linear over addition or XOR, and independent ciphertexts. For the second an exact count applies. After a least-significant-bit change its mean asymptotically matches the independent-ciphertext reference, while its spread without cancellation is about five to twenty times larger. In simulation, the one-sided NPCR test of Wu, Noonan and Agaian flags one-round additive, mixed and S-box chaining in 2-4% of papers; read in both directions, the same five values flag at least 99.9%. Two-sided testing does the detecting; the spread and the other signatures help diagnose the structure. We then audit twenty-one published schemes. The count matches a reimplementation of one published diffusion layer on every trial and accounts for its reported table, the signatures show two schemes whose printed specifications cannot produce their reported values, and find that three of our own report plain-versus-cipher values and fall to two chosen images; ten more change their encryption material with the plaintext or per encryption, so their NPCR mostly reflects that change. A released checker applies the signatures to published tables, showing what a table measures within stated assumptions; it does not certify security.</description>
+    </item>
+    <item>
       <title>Sequential Semantic-Non-Semantic Watermarking: Robustness Against UnMarker Attacks</title>
       <link>http://arxiv.org/abs/2611.20115v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.20115v1</guid>

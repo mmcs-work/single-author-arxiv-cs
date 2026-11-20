@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Convex splitting by binary quantum hypothesis testing</title>
+      <link>http://arxiv.org/abs/2611.25496v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25496v1</guid>
+      <pubDate>Thu, 19 Nov 2026 04:39:43 +0000</pubDate>
+      <description>How many independent quantum systems does it take to hide one system that is correlated with a reference? An observer can measure all the systems together with the reference to detect the correlation. We turn any such measurement into binary tests on a single system and the reference. For each test we bound the probability of declaring a signal when an independent pair was prepared. Averaging the largest signal acceptance probabilities allowed by these bounds controls the normalized trace distance in the convex-split lemma. A second bound gives a sufficient number of systems by minimizing the hypothesis-testing relative entropy over the state of the reference. Both bounds hold for density operators on separable Hilbert spaces. Comparing two distributions for the location of the hidden system gives one-shot bounds for private communication and one-way secret key distillation, including the public information available to an eavesdropper. For a fixed finite-alphabet model with separable quantum outputs and positive information advantage and variances, we recover the known Gaussian corrections to the attainable number of private or key bits from $n$ independent repetitions and bound the remaining loss by $\log_2 n+O(1)$ at fixed errors. The position-based key distillation protocol attains this bound with $O(n)$ public bits.</description>
+    </item>
+    <item>
+      <title>Entanglement Geometry Beyond Polygons: Graph-Theoretic Entanglement Inequalities</title>
+      <link>http://arxiv.org/abs/2611.25019v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25019v1</guid>
+      <pubDate>Wed, 18 Nov 2026 19:00:01 +0000</pubDate>
+      <description>Entanglement entropies of pure multipartite states can be constrained by organizing subsystem cuts as edges (hyperedges) of graphs (hypergraphs). Starting from the one-party entanglement polygon inequality, we derive these constraints from strong subadditivity and pure-state complementarity, with optimal coefficients and explicit equality conditions. Our central result determines, for a distinguished two-party cut and an arbitrary weighted family of cuts, the optimal polygon coefficient: the smallest total weight of the cuts separating a member of the distinguished pair from a remaining party. A refinement involving three mutual information terms gives the exact minimum of the weighted sum at fixed entropies of the two parties and of their union, attained by at most three independent bipartite pure states. This criterion recovers the cycle and complete-graph inequalities and shows that uniform incidence parity, which we prove sufficient for polygon inequalities on hypergraphs, is not necessary. Averaging strong subadditivity over both sides of a bipartition gives a sharp $k$-marginal inequality with coefficient $2\binom{n-2}{k-1}$, and we determine uniformly optimal coefficients for collective hyperstar inequalities. For paths and overlapping hyperchains, the deficits are exact sums of conditional mutual information terms; genuinely multipartite entangled cluster states saturate the hyperchain inequality while the chain inequality remains strict. We characterize pure chain equality states, bound the trace distance to cycle equality states independently of the number of parties and local dimensions, and obtain bond-dimension bounds for matrix product states and sequential-recovery error estimates.</description>
+    </item>
+    <item>
       <title>Relative Entropy under Ordered Chi-Squared Constraints: Exact Bounds and Extremizers</title>
       <link>http://arxiv.org/abs/2611.24607v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.24607v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2511.13601</guid>
       <pubDate>Mon, 17 Nov 2025 00:00:00 -0000</pubDate>
       <description>This paper presents a large-scale computational study on the dimensional properties of twisted Goppa codes. Through the systematic analysis of over 50,000 parameter sets, we uncover a remarkable deterministic regularity: the actual dimension k of a twisted Goppa code is uniquely determined by a set of macro-parameters (q,m,t,b,u). Specifically, when the order of the finite field q, the extension degree m, the degree t of the Goppa polynomial, the translation parameter b of the automorphism, and the order u of the transformation are fixed, the dimension k of the generated code remains constant.</description>
-    </item>
-    <item>
-      <title>Generalized Spectral Bound for Quasi-Twisted Codes</title>
-      <link>https://arxiv.org/abs/2511.10066</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.10066</guid>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Semenov and Trifonov [22] developed a spectral theory for quasi-cyclic codes and formulated a BCH-like minimum distance bound. Their approach was generalized by Zeh and Ling [24], by using the HT bound. The first spectral bound for quasi-twisted codes appeared in [7], which generalizes Semenov-Trifonov and Zeh-Ling bounds, but its overall performance was observed to be worse than the Jensen bound. More recently, an improved spectral bound for quasi-cyclic codes was proposed in [15], which outperforms the Jensen bound in many cases. In this paper, we adopt this approach to quasi-twisted case and we show that this new generalized spectral bound provides tighter lower bounds on the minimum distance compared to the Jensen and Ezerman et. al. bounds.</description>
-    </item>
-    <item>
-      <title>Formalising Propositional Information via Implication Hypergraphs</title>
-      <link>https://arxiv.org/abs/2502.00186</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.00186</guid>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This work introduces a framework for quantifying the information content of logical propositions through the use of implication hypergraphs. We posit that a proposition's informativeness is primarily determined by its relationships with other propositions; specifically, the extent to which it implies or derives other propositions. To formalize this notion, we develop a framework based on implication hypergraphs, that seeks to capture these relationships. Within this framework, we define propositional information, derive some key properties, and illustrate the concept through examples. While the approach is broadly applicable, mathematical propositions emerge as an ideal domain for its application due to their inherently rich and interconnected structure. We provide several examples to illustrate this and subsequently discuss the limitations of the framework, along with suggestions for potential refinements.</description>
     </item>
   </channel>
 </rss>

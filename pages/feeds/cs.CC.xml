@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Running-Time Lower Bounds under FPT $\neq$ W[1]</title>
+      <link>http://arxiv.org/abs/2611.26080v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26080v1</guid>
+      <pubDate>Thu, 19 Nov 2026 13:22:14 +0000</pubDate>
+      <description>We revisit running-time lower bounds historically based on the Exponential Time Hypothesis. Our case study asks how much of their quantitative content can be recovered under the assumption FPT $\neq$ W[1]. The reductions encode the choice of a clique in few bits and control the target parameter in terms of that encoding. This makes a sufficiently fast algorithm for the target problem yield a fixed-parameter algorithm for deciding whether a graph has a clique of the requested size. We obtain twelve lower bounds for deterministic algorithms across graph, string, and integer feasibility problems, including bounds that hold under structural restrictions. In several cases the same function of the parameter appears in the exponent as in the historical bound, with the additional requirement that the cutoff for any prescribed saving in the exponent be computable.</description>
+    </item>
+    <item>
+      <title>Fundamentals for Binary Classification Under Label Noise</title>
+      <link>http://arxiv.org/abs/2611.25372v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25372v1</guid>
+      <pubDate>Thu, 19 Nov 2026 02:11:34 +0000</pubDate>
+      <description>This chapter surveys fundamental results for binary classification under label noise. Binary classification under label noise involves training models on datasets where class labels are partially incorrect, leading to degraded performance and misclassification. We distinguish poisoning attacks from noise processes and formalize random classification noise, Massart noise, and malicious classification noise within the probably approximately correct (PAC) framework. These models capture different adversarial strengths and data-generation realities. We then highlight some core ideas and representative results. In particular, we explain why random classification noise preserves the expected ordering of hypotheses and thus supports learning using the empirical risk minimization (ERM) principle, how sample complexity depends on the noise rate, and why learning algorithms often require an upper bound on the corruption level, as well as how such a bound may be estimated from data in the case of random classification noise. We also discuss computational aspects of ERM under noise and present a canonical negative result technique -- the method of induced distributions -- within the malicious noise model where the adversary has more power and may affect not only the label of an example but also the instance. We conclude with pointers to related work and a taxonomy that organizes classical label-noise models using the NCAR/NAR/NNAR lens.</description>
+    </item>
+    <item>
+      <title>Convexity is overrated: Shortest paths on 4-polytopes are hard to compute</title>
+      <link>http://arxiv.org/abs/2611.25164v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25164v1</guid>
+      <pubDate>Wed, 18 Nov 2026 20:40:14 +0000</pubDate>
+      <description>We prove that computing geodesic distance on the boundary of a rational convex $4$-polytope is NP-hard. We then construct rational $4$-polytopes with two rational points joined by exponentially many shortest paths of equal rational length, disproving several conjectures along the way. For the same problem, we also prove SQRTSUM-hardness under deterministic polynomial-time Turing reductions. By a separate argument, we show that the square of the geodesic distance between distinct rational boundary points of a rational convex polytope is a totally positive multiquadratic number.</description>
+    </item>
+    <item>
       <title>A Sharp Quadratic Bound for the Advice Complexity of Selectors</title>
       <link>http://arxiv.org/abs/2611.24913v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.24913v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2301.09966</guid>
       <pubDate>Wed, 11 Oct 2023 00:00:00 -0000</pubDate>
       <description>Sequences of numbers (either natural integers, or integers or rational) of level $k \in \mathbb{N}$ have been defined in \cite{Fra05,Fra-Sen06} as the sequences which can be computed by deterministic pushdown automata of level $k$. This definition has been extended to sequences of {\em words} indexed by {\em words} in \cite{Sen07,Fer-Mar-Sen14}. We characterise here the sequences of level 3 as the compositions of two HDT0L-systems. Two applications are derived: - the sequences of rational numbers of level 3 are characterised by polynomial recurrences - the equality problem for sequences of rational numbers of level 3 is decidable.</description>
-    </item>
-    <item>
-      <title>Where do hard problems really exist?</title>
-      <link>https://arxiv.org/abs/2309.16253</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.16253</guid>
-      <pubDate>Tue, 03 Oct 2023 00:00:00 -0000</pubDate>
-      <description>This chapter delves into the realm of computational complexity, exploring the world of challenging combinatorial problems and their ties with statistical physics. Our exploration starts by delving deep into the foundations of combinatorial challenges, emphasizing their nature. We will traverse the class P, which comprises problems solvable in polynomial time using deterministic algorithms, contrasting it with the class NP, where finding efficient solutions remains an enigmatic endeavor, understanding the intricacies of algorithmic transitions and thresholds demarcating the boundary between tractable and intractable problems. We will discuss the implications of the P versus NP problem, representing one of the profoundest unsolved enigmas of computer science and mathematics, bearing a tantalizing reward for its resolution. Drawing parallels between combinatorics and statistical physics, we will uncover intriguing interconnections that shed light on the nature of challenging problems. Statistical physics unveils profound analogies with complexities witnessed in combinatorial landscapes. Throughout this chapter, we will discuss the interplay between computational complexity theory and statistical physics. By unveiling the mysteries surrounding challenging problems, we aim to deepen understanding of the very essence of computation and its boundaries. Through this interdisciplinary approach, we aspire to illuminate the intricate tapestry of complexity underpinning the mathematical and physical facets of hard problems.</description>
-    </item>
-    <item>
-      <title>The Recursive Arrival Problem</title>
-      <link>https://arxiv.org/abs/2310.01004</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2310.01004</guid>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 -0000</pubDate>
-      <description>We study an extension of the Arrival problem, called Recursive Arrival, inspired by Recursive State Machines, which allows for a family of switching graphs that can call each other in a recursive way. We study the computational complexity of deciding whether a Recursive Arrival instance terminates at a given target vertex. We show this problem is contained in NP \cap coNP, and we show that a search version of the problem lies in UEOPL, and hence in EOPL = PLS \cap PPAD. Furthermore, we show P-hardness of the Recursive Arrival decision problem. By contrast, the current best-known hardness result for Arrival is PL-hardness.</description>
-    </item>
-    <item>
-      <title>Enumeration Complexity: Incremental Time, Delay and Space</title>
-      <link>https://arxiv.org/abs/2309.17042</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.17042</guid>
-      <pubDate>Fri, 29 Sep 2023 00:00:00 -0000</pubDate>
-      <description>This habilitation thesis is intended to be a good introduction to enumeration, the problem of listing solutions. It focuses on the different ways of measuring complexity in enumeration, with a particular emphasis on my contributions to the field.</description>
     </item>
   </channel>
 </rss>

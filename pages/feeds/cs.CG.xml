@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Sharp topological overlap in every dimension</title>
+      <link>http://arxiv.org/abs/2611.26229v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26229v1</guid>
+      <pubDate>Thu, 19 Nov 2026 15:04:17 +0000</pubDate>
+      <description>For a positive integer $d$ let $c_d^{\mathrm{top}}$ (resp. $c_d^{\mathrm{aff}}$) be the maximum $c$ such that, for every continuous (resp. affine) map from the $n$-dimensional simplex $Δ^n$ to $\mathbb{R}^d$, some point of $\mathbb{R}^d$ lies in the images of at least $(c-o(1))\binom{n+1}{d+1}$ of the $d$-dimensional faces, as $n\to\infty$. We show that \[ c_d^{\mathrm{top}}=c_d^{\mathrm{aff}}=\frac{(d+1)!}{(d+1)^{d+1}}. \] The second equality confirms a conjecture of Bukh, Matoušek, and Nivasch, who established the upper bound. The proof was found by GPT-6 Astra, following the directions of the author.</description>
+    </item>
+    <item>
+      <title>Subexponential Algorithms for Continuous Euclidean $k$-Means in Subpolylogarithmic Dimension</title>
+      <link>http://arxiv.org/abs/2611.25305v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25305v1</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:11 +0000</pubDate>
+      <description>Given $n$ points in $\mathbb{Q}^d$ and an integer $k$, the continuous Euclidean $k$-means problem asks for $k$ centers in $\mathbb{R}^d$ that minimize the sum of squared distances from the input points to their nearest centers. In one dimension, the problem can be solved in polynomial time by dynamic programming. In higher dimensions, the algorithm of Inaba, Katoh, and Imai [SoCG 1994] runs in polynomial time when both $k$ and $d$ are fixed. Mahajan, Nimbhorkar, and Varadarajan [TCS 2012] showed that the problem is NP-hard even in the plane when $k$ is part of the input, answering a question of Dasgupta [2008]. In this paper, we give a deterministic exact algorithm for continuous Euclidean $k$-means. For arbitrary $k$ and $d=(\log n)^{o(1)}$, the algorithm runs in $O^*(2^{o(n)})$ time and uses polynomial space. Aman, Karthik C. S., and Punna [ESA 2024] asked whether the $2^n$ time bound for Euclidean $k$-means can be improved in high dimensions. Our result gives an affirmative answer to the corresponding question in subpolylogarithmic dimension.</description>
+    </item>
+    <item>
+      <title>Convexity is overrated: Shortest paths on 4-polytopes are hard to compute</title>
+      <link>http://arxiv.org/abs/2611.25164v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25164v1</guid>
+      <pubDate>Wed, 18 Nov 2026 20:40:14 +0000</pubDate>
+      <description>We prove that computing geodesic distance on the boundary of a rational convex $4$-polytope is NP-hard. We then construct rational $4$-polytopes with two rational points joined by exponentially many shortest paths of equal rational length, disproving several conjectures along the way. For the same problem, we also prove SQRTSUM-hardness under deterministic polynomial-time Turing reductions. By a separate argument, we show that the square of the geodesic distance between distinct rational boundary points of a rational convex polytope is a totally positive multiquadratic number.</description>
+    </item>
+    <item>
       <title>Inapproximability of Euclidean Steiner Tree</title>
       <link>http://arxiv.org/abs/2611.24611v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.24611v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1412.5034</guid>
       <pubDate>Tue, 20 Jan 2015 00:00:00 -0000</pubDate>
       <description>We describe new methods for the construction of spiral toolpaths for high-speed machining. In the simplest case, our method takes a polygon as input and a number $δ&gt;0$ and returns a spiral starting at a central point in the polygon, going around towards the boundary while morphing to the shape of the polygon. The spiral consists of linear segments and circular arcs, it is $G^1$ continuous, it has no self-intersections, and the distance from each point on the spiral to each of the neighboring revolutions is at most $δ$. Our method has the advantage over previously described methods that it is easily adjustable to the case where there is an island in the polygon to be avoided by the spiral. In that case, the spiral starts at the island and morphs the island to the outer boundary of the polygon. It is shown how to apply that method to make significantly shorter spirals in polygons with no islands. Finally, we show how to make a spiral in a polygon with multiple islands by connecting the islands into one island.</description>
-    </item>
-    <item>
-      <title>Visibility in Proximal Delaunay Meshes</title>
-      <link>https://arxiv.org/abs/1501.02357</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1501.02357</guid>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 -0000</pubDate>
-      <description>This paper introduces a visibility relation $v$ (and the strong visibility relation $\mathop{v}\limits^{\doublewedge}$) on proximal Delaunay meshes. A main result in this paper is that the visibility relation $v$ is equivalent to Wallman proximity. In addition, a Delaunay triangulation region endowed with the visibility relation $v$ has a local Leader uniform topology.</description>
-    </item>
-    <item>
-      <title>Derivative coordinates for analytic tree fractals and fractal engineering</title>
-      <link>https://arxiv.org/abs/1501.01675</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1501.01675</guid>
-      <pubDate>Wed, 07 Jan 2015 00:00:00 -0000</pubDate>
-      <description>We introduce an alternative coordinate system based on derivative polar and spherical coordinate functions and construct a root-to-canopy analytic formulation for tree fractals. We develop smooth tree fractals and demonstrate the equivalence of their canopies with iterative straight lined tree fractals. We then consider implementation and application of the analytic formulation from a computational perspective. Finally we formulate the basis for concatenation and composition of fractal trees as a basis for fractal engineering of which we provide some examples.</description>
-    </item>
-    <item>
-      <title>Triangle-free geometric intersection graphs with no large independent sets</title>
-      <link>https://arxiv.org/abs/1404.0169</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1404.0169</guid>
-      <pubDate>Fri, 26 Dec 2014 00:00:00 -0000</pubDate>
-      <description>It is proved that there are triangle-free intersection graphs of line segments in the plane with arbitrarily small ratio between the maximum size of an independent set and the total number of vertices.</description>
     </item>
   </channel>
 </rss>

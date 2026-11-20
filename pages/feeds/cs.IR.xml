@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis</title>
+      <link>http://arxiv.org/abs/2611.25606v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25606v1</guid>
+      <pubDate>Thu, 19 Nov 2026 06:54:22 +0000</pubDate>
+      <description>Text-based generative recommenders can go beyond ranking existing items by directly generating item titles or other textual representations. In the news domain, this raises a societal concern that models may repeatedly surface already popular articles and thereby narrow the diversity of information to which users are exposed. We investigate training-data memorization as one mechanism behind this concentration. Using approximately 20 million browsing sessions from a Japanese news service, we continually trained an instruction-tuned Llama 3 8B model to generate the next article title in a session. The generated-title distribution was more concentrated and less diverse than the distribution of titles observed in the browsing logs. Frequently repeated target titles exhibited greater verbatim and approximate memorization, and more strongly memorized titles were generated in response to a wider range of prompts. These findings support a pathway in which popularity in behavioral logs becomes repeated training text, is preferentially memorized, and is subsequently reproduced by a generative recommender. An exploratory target-level deduplication condition reduced both memorization and output concentration, while substantially reducing the training-set size and recommendation accuracy. Our results suggest that popularity bias in generative recommendation may arise not only from user preferences or ranking objectives, but also from the model's tendency to reproduce frequently encountered strings, with important implications for information diversity on news platforms.</description>
+    </item>
+    <item>
       <title>When the tail is earned by its companions: measuring label dependence in long-tailed multi-label classification</title>
       <link>http://arxiv.org/abs/2611.22859v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22859v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2207.13443</guid>
       <pubDate>Mon, 12 Sep 2022 00:00:00 -0000</pubDate>
       <description>These lecture notes focus on the recent advancements in neural information retrieval, with particular emphasis on the systems and models exploiting transformer networks. These networks, originally proposed by Google in 2017, have seen a large success in many natural language processing and information retrieval tasks. While there are many fantastic textbook on information retrieval and natural language processing as well as specialised books for a more advanced audience, these lecture notes target people aiming at developing a basic understanding of the main information retrieval techniques and approaches based on deep learning. These notes have been prepared for a IR graduate course of the MSc program in Artificial Intelligence and Data Engineering at the University of Pisa, Italy.</description>
-    </item>
-    <item>
-      <title>SlateFree: a Model-Free Decomposition for Reinforcement Learning with Slate Actions</title>
-      <link>https://arxiv.org/abs/2209.01876</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2209.01876</guid>
-      <pubDate>Mon, 05 Sep 2022 00:00:00 -0000</pubDate>
-      <description>We consider the problem of sequential recommendations, where at each step an agent proposes some slate of $N$ distinct items to a user from a much larger catalog of size $K&gt;&gt;N$. The user has unknown preferences towards the recommendations and the agent takes sequential actions that optimise (in our case minimise) some user-related cost, with the help of Reinforcement Learning. The possible item combinations for a slate is $\binom{K}{N}$, an enormous number rendering value iteration methods intractable. We prove that the slate-MDP can actually be decomposed using just $K$ item-related $Q$ functions per state, which describe the problem in a more compact and efficient way. Based on this, we propose a novel model-free SARSA and Q-learning algorithm that performs $N$ parallel iterations per step, without any prior user knowledge. We call this method \texttt{SlateFree}, i.e. free-of-slates, and we show numerically that it converges very fast to the exact optimum for arbitrary user profiles, and that it outperforms alternatives from the literature.</description>
     </item>
   </channel>
 </rss>

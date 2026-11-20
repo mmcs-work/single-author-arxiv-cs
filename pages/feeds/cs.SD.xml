@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Blind tests of a simple-body model of submarine target strength on open benchmarks</title>
+      <link>http://arxiv.org/abs/2611.25977v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25977v1</guid>
+      <pubDate>Thu, 19 Nov 2026 12:01:33 +0000</pubDate>
+      <description>Finite-element and boundary-element models of a submarine's sonar echo need a mesh and a solver, and their cost grows quickly with frequency. SSR-Sim takes an analytical route. The hull is cut into a few simple bodies, the echo of each is a closed-form result of geometrical acoustics or of the Kirchhoff approximation, the surface enters through a plane-wave reflection coefficient, and the echoes add in energy. This paper describes the method, including the reduction of a hull and its sail to simple bodies, and tests it on three open cases. (1) The reflection coefficient of a 50 mm rubber tile on steel plating, computed with finite elements by Yang et al., is reproduced to 0.02 rms or better at incidence angles from 0° to 75° once the layer is allowed to refract. (2) For the rigid full-scale BeTSSi submarine at 1 kHz, a prediction fixed before the reference was opened agrees with the boundary-element results of Venås and Kvamsdal to within 0.7 dB in every aspect sector from the bow to 150°; in the stern sector it is 5 dB high. (3) For a 1:15 BeTSSi model with 10 mm tiles measured in a lake, a second blind prediction is within -3.1, +1.4 and -0.5 dB of the measured level over aspects 0-120° at 5, 15 and 20 kHz, against -3.1, +3.1 and +3.5 dB for the Kirchhoff-finite-element computation published with the measurement. At 10 kHz, on a resonance of the tile, the prediction is 6.9 dB low, and in the bow sector it is 7 dB or more low at every frequency. The tests cover the specular component and the coating model only. The failures show what such a model lacks: edge diffraction and the returns that set the off-beam floor of a real model.</description>
+    </item>
+    <item>
+      <title>The landscape of AI speech generation and deepfake detection</title>
+      <link>http://arxiv.org/abs/2611.24993v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.24993v1</guid>
+      <pubDate>Wed, 18 Nov 2026 13:55:38 +0000</pubDate>
+      <description>Synthetic speech has reached a level of naturalness that can deceive listeners into believing they are hearing natural speech. This opens up the possibility of using synthetic speech deepfakes to mislead both human listeners and automated systems. One response to this threat is to attempt to automatically detect deepfakes. This report offers the reader a self-contained overview of the landscape of synthetic speech generation and speech deepfake detection. It is intended to be accessible to a general audience and therefore includes brief histories of both fields, definitions of all acronyms, a glossary of technical terms, and an extensive bibliography for those who wish to read more.</description>
+    </item>
+    <item>
       <title>Marimba: A System One Model for Speech</title>
       <link>http://arxiv.org/abs/2611.18330v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.18330v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1705.10385</guid>
       <pubDate>Mon, 29 May 2017 00:00:00 -0000</pubDate>
       <description>We show that a Modular Neural Network (MNN) can combine various speech enhancement modules, each of which is a Deep Neural Network (DNN) specialized on a particular enhancement job. Differently from an ordinary ensemble technique that averages variations in models, the propose MNN selects the best module for the unseen test signal to produce a greedy ensemble. We see this as Collaborative Deep Learning (CDL), because it can reuse various already-trained DNN models without any further refining. In the proposed MNN selecting the best module during run time is challenging. To this end, we employ a speech AutoEncoder (AE) as an arbitrator, whose input and output are trained to be as similar as possible if its input is clean speech. Therefore, the AE can gauge the quality of the module-specific denoised result by seeing its AE reconstruction error, e.g. low error means that the module output is similar to clean speech. We propose an MNN structure with various modules that are specialized on dealing with a specific noise type, gender, and input Signal-to-Noise Ratio (SNR) value, and empirically prove that it almost always works better than an arbitrarily chosen DNN module and sometimes as good as an oracle result.</description>
-    </item>
-    <item>
-      <title>Riddim: A Rhythm Analysis and Decomposition Tool Based On Independent Subspace Analysis</title>
-      <link>https://arxiv.org/abs/1705.04792</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1705.04792</guid>
-      <pubDate>Sat, 13 May 2017 00:00:00 -0000</pubDate>
-      <description>The goal of this thesis was to implement a tool that, given a digital audio input, can extract and represent rhythm and musical time. The purpose of the tool is to help develop better models of rhythm for real-time computer based performance and composition. This analysis tool, Riddim, uses Independent Subspace Analysis (ISA) and a robust onset detection scheme to separate and detect salient rhythmic and timing information from different sonic sources within the input. This information is then represented in a format that can be used by a variety of algorithms that interpret timing information to infer rhythmic and musical structure. A secondary objective of this work is a "proof of concept" as a non-real-time rhythm analysis system based on ISA. This is a necessary step since ultimately it is desirable to incorporate this functionality in a real-time plug-in for live performance and improvisation.</description>
-    </item>
-    <item>
-      <title>Speaker Identification by GMM based i Vector</title>
-      <link>https://arxiv.org/abs/1704.03939</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1704.03939</guid>
-      <pubDate>Wed, 12 Apr 2017 00:00:00 -0000</pubDate>
-      <description>Speaker Identification process is to identify a particular vocal cord from a set of existing speakers. In the speaker identification processes, unknown speaker voice sample targets each of the existing speakers present in the system and gives a predication. The predication may be more than one existing known speaker voice and is very close to the unknown speaker voice. The model is a Gaussian mixture model built by the extracted acoustic feature vectors from voice. The i-vector based dimension compression mapping function of the channel depended speaker, and super vector give better predicted scores according to cosine distance scoring associated with the order pair of speakers. In the order pair, the first coordinate is the unknown speaker i.e. test speaker, and the second coordinates is the existing known speaker i.e. target speaker. This paper presents the enhancement of the prediction based on i- vector in compare to the normalized set of predicted score. In the simulation, known speaker voices are collected through different channels and in different languages. In the testing, the GMM voice models, and GMM based i-Vector speaker voice models of the known speakers are used among the numbers of clusters in the test data set.</description>
     </item>
   </channel>
 </rss>

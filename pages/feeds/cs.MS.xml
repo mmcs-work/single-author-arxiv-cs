@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Certified pandigital approximations of $π$, $γ$, $δ$ and $e$</title>
+      <link>http://arxiv.org/abs/2611.25358v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25358v1</guid>
+      <pubDate>Thu, 19 Nov 2026 01:56:42 +0000</pubDate>
+      <description>In 2004 Erich Friedman asked for the best approximations of $π$, $e$, the Euler-Mascheroni constant $γ$ and Feigenbaum's constant $δ$ that use each of the digits $1,\dots,n$ exactly once, with addition, subtraction, multiplication, division, exponentiation, parentheses and the decimal point. We determine the optimal expressions for $π$, $γ$ and $δ$ for every $n \le 9$, with the digits in any order and in increasing order, and for $e$ when $n \le 6$. The optima are found by exhaustive search and certified by an independent algorithm that encloses every expression rigorously and decides each candidate with Arb and exact arithmetic; a second certified computation covers intermediate values of any size. Twenty-one entries improve the published records; for $π$ with the digits 1-9 the optimal error is $2.81\cdot 10^{-14}$. For $e$, whose records come from identities between power towers, we prove that Bamberger's formula is optimal within the natural family of such identities. All code and certificates are public.</description>
+    </item>
+    <item>
       <title>Red-Blue Hamiltonian Tomography via the Operator Lightcone Wavemap</title>
       <link>http://arxiv.org/abs/2611.17555v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.17555v1</guid>

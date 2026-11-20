@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>When Objectives and Evaluators Disagree: Evaluating Transfer for Post-hoc Demographic Framing Mitigation</title>
+      <link>http://arxiv.org/abs/2611.25258v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25258v1</guid>
+      <pubDate>Wed, 18 Nov 2026 22:42:03 +0000</pubDate>
+      <description>Post-hoc rewriting is used to reduce demographic disparities in LLM-generated text when the source model is inaccessible. A rewrite can look successful merely because it improved its own target or satisfied its selector. We study this as a transfer problem on 660 gender pairs and 1,980 age contrasts of demographic-conditioned climate messages. A rewriter proposes edits, a selection model chooses among constraint-satisfying candidates, and an independent evaluator uninvolved in either rates pairwise framing disparity. A fixed policy that always targets the message with the lower Persuasion Bias Index (PBI) transfers inconsistently across axes and outcome aggregations. An adaptive policy that proposes edits on both sides but accepts at most one significantly improves on that rule, applied to the same candidates, in seven of eight comparisons across two evaluator families, mostly by editing more pairs, not by guided direction choice, at higher preservation risk. A policy editing both messages gives the largest point reductions on fewer pairs. These two policies reduce disparity across a preservation-threshold sweep; absolute ratings vary across evaluator families and prompts. Shrinking the PBI gap increases dimension-mean disparity under both evaluator families. Mitigation should be reported as transfer across objectives, evaluators and their prompts, and editing policies.</description>
+    </item>
+    <item>
       <title>High-Coverage Blind Spots in Online Abuse Monitoring: Account Selection, Held-Out Flagging Rates, and Sample Composition</title>
       <link>http://arxiv.org/abs/2611.22716v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22716v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2009.08631</guid>
       <pubDate>Fri, 18 Sep 2020 00:00:00 -0000</pubDate>
       <description>"Kompromat" (the Russian word for "compromising material") has been efficiently used to harass Russian political and business elites since the days of the USSR. Online crowdsourcing projects such as "RuCompromat" made it possible to catalog and analyze kompromat using quantitative techniques -- namely, social network analysis. In this paper, we constructed a social network of 11,000 Russian and foreign nationals affected by kompromat in Russia in 1991 -- 2020. The network has an excellent modular structure with 62 dense communities. One community contains prominent American officials, politicians, and entrepreneurs (including President Donald Trump) and appears to concern Russia's controversial interference in the 2016 U.S. presidential elections. Various network centrality measures identify seventeen most central kompromat figures, with President Vladimir Putin solidly at the top. We further reveal four types of communities dominated by entrepreneurs, politicians, bankers, and law enforcement officials ("siloviks"), the latter disjointed from the first three.</description>
-    </item>
-    <item>
-      <title>Does "Fans Economy" Work for Chinese Pop Music Industry?</title>
-      <link>https://arxiv.org/abs/2009.08151</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2009.08151</guid>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 -0000</pubDate>
-      <description>China has become one of the largest entertainment markets in the world in recent years. Due to the success of Xiaomi, many Chinese pop music industry entrepreneurs believe "Fans Economy" works in the pop music industry. "Fans Economy" is based on the assumption that pop music consumer market could be segmented based on artists. Each music artist has its own exclusive loyal fans. In this paper, we provide an insightful study of the pop music artists and fans social network. Particularly, we segment the pop music consumer market and pop music artists respectively. Our results show that due to the Matthew Effect and limited diversity of consumer market, "Fans Economy" does not work for the Chinese pop music industry.</description>
     </item>
   </channel>
 </rss>

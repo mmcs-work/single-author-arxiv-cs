@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent Runtimes</title>
+      <link>http://arxiv.org/abs/2611.26480v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26480v1</guid>
+      <pubDate>Thu, 19 Nov 2026 17:40:09 +0000</pubDate>
+      <description>LLM agents spend nearly all their time waiting for the model. On Amazon Bedrock AgentCore, our agents waited a median of 2.7 seconds for each model reply, then computed for an estimated 5 to 40 milliseconds. AgentCore does not charge for CPU during the wait. But it reserves a separate environment, a virtual machine with its own memory, for every conversation, and keeps it reserved until the conversation is closed. So 1,000 conversations reserve 1,000 environments to do the work of 2 to 15 processor cores. A service runs out of environments long before it runs out of processing power. The shortage has two causes, and each has a fix. An environment stays reserved after its conversation ends: in the customer-service benchmark we ran, a conversation lasts 33 seconds on average, but its environment is held for 15 minutes more unless the client closes it. And an environment serves only one conversation, which is mostly waiting: in our simulation, 64 conversations sharing one environment need 59 times fewer environments, and 99 of every 100 replies are delayed by at most 40 milliseconds. The milliseconds are an estimate because they are hard to measure: a stubbed model, a timer around the model call, and steps run back to back each gave a plausible number that was too low. We show how to avoid all three. Of the two fixes, closing needs only the client. Sharing needs the platform, and of the agent runtimes we surveyed only one allows it, in part. They keep conversations apart because an agent runs tools, and sometimes code, chosen by a model. The open problem is to keep them apart without reserving an environment for each while it waits.</description>
+    </item>
+    <item>
       <title>On Traffic Characterization in Time-Sensitive Networking and Deterministic Networking</title>
       <link>http://arxiv.org/abs/2611.22744v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22744v1</guid>

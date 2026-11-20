@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Crisis Governance at the Joints. Mapping the Ethical and Societal Territory of Crisis Management Technologies: The Case of Human-Swarm Teaming</title>
+      <link>http://arxiv.org/abs/2611.25202v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25202v1</guid>
+      <pubDate>Wed, 18 Nov 2026 21:25:32 +0000</pubDate>
+      <description>Crisis and disaster governance increasingly relies on technologies that sense, classify and act faster than humans can. Drone swarms coordinated with human operators, known as human-swarm teaming, provide a productive case to review the field of crisis governance. They promise better situational awareness in disaster response, but they also raise questions about human control, responsibility, surveillance, triage, dual use and public legitimacy. This report maps the ethical and societal territory that HST opens up. It unpacks this territory with a 3i-framework, the Interface, where operators and swarms work together, the Infrastructure, where organisations distribute tasks, decisions and blame, and the Imaginary, where law, policy and shared societal assumptions define what a crisis is and which interventions it justifies. The central claim is that these concerns cannot be addressed one level at a time. Many of the most pressing problems, such as responsibility gaps and the erosion of meaningful human control, arise at the joints between levels, through four translations, habits harden, routines become stories, principles become procedures, and procedures become prompts. Drawing on a critical review of literature across philosophy of technology, political theory, moral psychology, philosophy of mind, AI ethics, and critical disaster and security studies, the report develops this framework, illustrates it with two worked examples, and derives design and governance implications and a set of questions for developers, emergency organisations and policymakers.</description>
+    </item>
+    <item>
       <title>Countering Anion Inhibition of Laccase Electron Transfer: Electrostatic Design, Charge-Transfer Dynamics on a Superconducting Quantum Processor, and Its Limits</title>
       <link>http://arxiv.org/abs/2611.22813v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22813v1</guid>

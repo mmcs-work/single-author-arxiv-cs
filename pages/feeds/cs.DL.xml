@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era</title>
+      <link>http://arxiv.org/abs/2611.26286v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26286v1</guid>
+      <pubDate>Thu, 19 Nov 2026 15:45:51 +0000</pubDate>
+      <description>Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in 2027, against 6.12 in 2026. We apply MELD, a detector of LLM-generated text, to all reviews. Within a paper, two reviews that MELD flags overlap more than two unflagged reviews: by 3.0 points at ICLR in 2024-2025, by 4.5 points in 2026-2027, and by 5.4 points across five journal sources. These results provide evidence that LLM-flagged reviews of one paper are less distinct from each other than unflagged reviews, and suggest that the diversity of critiques among reviews of a single paper is falling.</description>
+    </item>
+    <item>
       <title>Do Embedding-Map Distances Guide LLM Ideation? Four Tests Against What Came Next</title>
       <link>http://arxiv.org/abs/2611.21408v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.21408v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1209.2664</guid>
       <pubDate>Wed, 12 Sep 2012 00:00:00 -0000</pubDate>
       <description>Our cultural discourse is increasingly carried in the web. With the initial emergence of the web many years ago, there was a period where conventional mediums (e.g., music, movies, books, scholarly publications) were primary and the web was a supplementary channel. This has now changed, where the web is often the primary channel, and other publishing mechanisms, if present at all, supplement the web. Unfortunately, the technology for publishing information on the web always outstrips our technology for preservation. My concern is less that we will lose data of known importance (e.g., scientific data, census data), but rather that we will lose data that we do not yet know is important. In this paper I review some of the issues and, where appropriate, proposed solutions for increasing the archivability of the web.</description>
-    </item>
-    <item>
-      <title>Semantic web applications with regard to math and environment</title>
-      <link>https://arxiv.org/abs/1209.2097</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1209.2097</guid>
-      <pubDate>Fri, 07 Sep 2012 00:00:00 -0000</pubDate>
-      <description>The following is an outline of possible strategies in using semantic web techniques and math with regard to environmental issues. The article uses concrete examples and applications and provides partially a rather basic treatment of semantic web techniques and math in order to adress a broader audience.</description>
     </item>
   </channel>
 </rss>

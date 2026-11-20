@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An asymptotic bound for Yuster's independent transversal factor conjecture</title>
+      <link>http://arxiv.org/abs/2611.26259v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26259v1</guid>
+      <pubDate>Thu, 19 Nov 2026 15:32:17 +0000</pubDate>
+      <description>An $[r,n,1]$-graph has $r$ independent parts of size $n$, with a matching between each pair of parts. Yuster conjectured in 2021 that every such graph has a partition into independent transversals whenever $n\ge 2\lceil r/2\rceil$. We prove that there is an absolute constant $A&gt;0$ such that, for all sufficiently large $r$, this partition exists whenever $n\ge\lceil r+A r^{20/21}\rceil$. Thus $f(r)\le r+O(r^{20/21})$, where $f(r)$ is the least $n_0$ such that every $[r,n,1]$-graph has such a partition whenever $n\ge n_0$. In particular, $f(r)/r\to1$, giving an asymptotic form of the conjecture.</description>
+    </item>
+    <item>
+      <title>Beyond geometric lattices: pseudo-atoms and redundant join representations in the face lattice of the permutohedron</title>
+      <link>http://arxiv.org/abs/2611.25741v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25741v1</guid>
+      <pubDate>Thu, 19 Nov 2026 08:50:03 +0000</pubDate>
+      <description>We study the lattice obtained from the poset of ordered set partitions (the Fubini poset), ordered by merging adjacent blocks, by adjoining a bottom element of rank -1. It is the face lattice of the permutohedron. We look at it from the point of view of geometric lattices: it is graded, atomic and coatomic in the strong sense that every element is a meet of coatoms, but it is not semimodular. Its atoms are the $n!$ permutations, and its elements of rank one, which we call pseudo-atoms, are the edges of the permutohedron. Describing ordered set partitions by chains of subsets, the cuts, we show that the rank is modular whenever the meet is above $\bot$, while the join of two distant atoms can have large rank, so that the rank of the join is a metric on permutations. An element has a unique representation as a join of atoms only up to rank one; above it, irredundant representations have sizes ranging from two to the rank, and the redundancy of an element is its number of atoms minus two. The Möbius function is that of an Eulerian lattice, the Whitney numbers are the face numbers of the permutohedron, and the characteristic polynomial has the alternating coefficients of the geometric case, but only $\bot$ and $\top$ are left-modular, so the lattice is not supersolvable. We show that it is CL-shellable, we exhibit EL-labelings for $n\le5$, and we compare the independent sets of Raz arXiv:2307.05005 (v3, Jan. 2026) with irredundant families and with the matroid of the vertices of the permutohedron. Replacing ordered set partitions by partial flags of subspaces of $\mathbb F_q^n$ gives a $q$-analogue, whose Möbius function is $(-1)^{\mathrm{rk}+1}q^κ$, with $κ$ the number of pairs of elements in a common block at $q=1$, and whose characteristic polynomial and Betti numbers are polynomials in $q$.</description>
+    </item>
+    <item>
+      <title>New lower bounds for six small hypergraph Ramsey numbers</title>
+      <link>http://arxiv.org/abs/2611.25143v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.25143v1</guid>
+      <pubDate>Wed, 18 Nov 2026 20:23:23 +0000</pubDate>
+      <description>Let $R(k,l;t)$ denote the least $n$ such that every colouring of the $t$-subsets of an $n$-set with two colours has $k$ points all of whose $t$-subsets have the first colour, or $l$ points all of whose $t$-subsets have the second. We give explicit colourings proving $R(4,5;3)\ge 38$, $R(4,6;3)\ge 71$, $R(5,5;3)\ge 99$, $R(5,6;4)\ge 201$, $R(6,6;4)\ge 601$ and $R(6,6;5)\ge 84$. The first three improve the bounds 35, 63 and 88 listed in Radziszowski's dynamic survey. The last three improve the listed bounds 67, 133 and 72, and for the two 4-uniform numbers also the values 159 and 317 of a recent data deposit. The colourings of 3-subsets are invariant under groups of affine maps $x\mapsto ax+b$ of $\mathbb{Z}_n$, for $n=37$, 69 and 97, in the last two cases with one further fixed point. Those of 4-subsets live on the projective line over $\mathbb{F}_q$, for $q=199$ and $q=599$, and are invariant under $\mathrm{PSL}(2,q)$ or $\mathrm{PGL}(2,q)$, so each is given by a table of $q$ entries. For 5-subsets we show that, for every prime $q\ge 5$, invariance under $\mathrm{PGL}(2,q)$ forces six points all of whose 5-subsets have the same colour; our colouring is invariant under all affine maps of $\mathbb{Z}_{83}$. By known constructions the bounds give $R(5,5,5;3)\ge 9605$ and $R_k(5;3)\ge 98^{2^{k-2}}+1$, and $R(6,7;4)\ge 2001$, $R(7,7;4)\ge 12001$ and $R(8,8;4)\ge 588001$. The colourings, and programs that verify them, accompany the paper as ancillary files.</description>
+    </item>
+    <item>
       <title>A combinatorial proof of a symmetric joint distribution on strict binary trees</title>
       <link>http://arxiv.org/abs/2611.24504v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.24504v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2306.10072</guid>
       <pubDate>Thu, 15 Jun 2023 00:00:00 -0000</pubDate>
       <description>We consider Shor's quantum factoring algorithm in the setting of noisy quantum gates. Under a generic model of random noise for (controlled) rotation gates, we prove that the algorithm does not factor integers of the form $pq$ when the noise exceeds a vanishingly small level in terms of $n$ -- the number of bits of the integer to be factored, where $p$ and $q$ are from a well-defined set of primes of positive density. We further prove that with probability $1 - o(1)$ over random prime pairs $(p,q)$, Shor's factoring algorithm does not factor numbers of the form $pq$, with the same level of random noise present.</description>
-    </item>
-    <item>
-      <title>Decomposition by Approximation with Pulse Waves Allowing Further Research on Sources of Voltage Fluctuations</title>
-      <link>https://arxiv.org/abs/2302.03310</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2302.03310</guid>
-      <pubDate>Thu, 15 Jun 2023 00:00:00 -0000</pubDate>
-      <description>Voltage fluctuations are common disturbances in power grids. Initially, it is necessary to selectively identify individual sources of voltage fluctuations to take actions to minimize the effects of voltage fluctuations. Selective identification of disturbing loads is possible by using a signal chain consisting of demodulation, decomposition, and assessment of the propagation of component signals. The accuracy of such an approach is closely related to the applied decomposition method. The paper presents a new method for decomposition by approximation with pulse waves. The proposed method allows for an correct identification of selected parameters, that is, the frequency of changes in the operating state of individual sources of voltage fluctuations and the amplitude of voltage changes caused by them. The article presents results from numerical simulation studies and laboratory experimental studies, based on which the estimation errors of the indicated parameters were determined by the proposed decomposition method and other empirical decomposition methods available in the literature. The real states that occur in power grids were recreated in the research. The metrological interpretation of the results obtained from the numerical simulation and experimental research is discussed.</description>
-    </item>
-    <item>
-      <title>Counting Markov Equivalent Directed Acyclic Graphs Consistent with Background Knowledge</title>
-      <link>https://arxiv.org/abs/2206.06744</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2206.06744</guid>
-      <pubDate>Tue, 13 Jun 2023 00:00:00 -0000</pubDate>
-      <description>A polynomial-time exact algorithm for counting the number of directed acyclic graphs in a Markov equivalence class was recently given by Wienöbst, Bannach, and Liśkiewicz (AAAI 2021). In this paper, we consider the more general problem of counting the number of directed acyclic graphs in a Markov equivalence class when the directions of some of the edges are also fixed (this setting arises, for example, when interventional data is partially available). This problem has been shown in earlier work to be complexity-theoretically hard. In contrast, we show that the problem is nevertheless tractable in an interesting class of instances, by establishing that it is ``fixed-parameter tractable''. In particular, our counting algorithm runs in time that is bounded by a polynomial in the size of the graph, where the degree of the polynomial does \emph{not} depend upon the number of additional edges provided as input.</description>
-    </item>
-    <item>
-      <title>Fundamentals of Partial Rejection Sampling</title>
-      <link>https://arxiv.org/abs/2106.07744</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2106.07744</guid>
-      <pubDate>Sun, 11 Jun 2023 00:00:00 -0000</pubDate>
-      <description>Partial Rejection Sampling is an algorithmic approach to obtaining a perfect sample from a specified distribution. The objects to be sampled are assumed to be represented by a number of random variables. In contrast to classical rejection sampling, in which all variables are resampled until a feasible solution is found, partial rejection sampling aims at greater efficiency by resampling only a subset of variables that `go wrong'. Partial rejection sampling is closely related to Moser and Tardos' algorithmic version of the Lovász Local Lemma, but with the additional requirement that a specified output distribution should be met. This article provides a largely self-contained account of the basic form of the algorithm and its analysis.</description>
     </item>
   </channel>
 </rss>
