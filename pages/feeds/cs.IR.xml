@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The abc index: Exact Retrieval for Learned Sparse Representations</title>
+      <link>http://arxiv.org/abs/2611.28555v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28555v1</guid>
+      <pubDate>Sat, 21 Nov 2026 04:21:29 +0000</pubDate>
+      <description>In learned sparse retrieval (LSR), queries have tens of terms with learned weights, on which classic dynamic pruning is believed to fail, and approximate indexes such as Seismic and HNSW are considered faster than exact ones. We challenge this view with abc, an exact index built only from standard IR techniques: term-at-a-time (TAAT) evaluation, Block-Max MaxScore, binary packing and doc-id reordering. They are combined in a new design and engineered for modern CPUs. On MS MARCO encoded with four LSR models, the abc index is the fastest exact index at every k: 6.5-84x faster than the exact search of Qdrant, 13-55x faster than that of Lucene, and 2.9-18x faster than BMP with an index 5-7x smaller. Against approximate indexes, it takes 1.5-3.6x less space, and its latency grows much more slowly with k: they are up to 4.3x faster at k=10, but at k=1000 it overtakes them, by up to 7.4x. Exactness comes with an extra benefit: there are no parameters to tune.</description>
+    </item>
+    <item>
+      <title>Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval</title>
+      <link>http://arxiv.org/abs/2611.27490v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27490v1</guid>
+      <pubDate>Fri, 20 Nov 2026 11:36:19 +0000</pubDate>
+      <description>Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge. We introduce Doppeldwarf-306: 1,691 openly licensed photographs of 306 bronze dwarf statues in Wrocław, Poland, many made in themed series that share one style, with the photographer of each image recorded. With no training, nearest-neighbour search over frozen DINOv2 features names the right statue first for 93.1% of leave-one-out queries, and the best of thirteen backbones from seven pretraining paradigms reaches 94.7%. Accuracy falls slowly as candidates are added: for DINOv2, by about 0.8 points each time their number doubles. A natural design for a phone guide compares a photograph only with statues near the user. In simulation this helps, but less than an equal number of randomly chosen statues does, so random subsampling overstates its value; a permutation test ties the penalty to the real layout (p = 0.005). Used as a weight instead of a filter, location raises DINOv2 from 93.4% to 98.7% for a simulated user 25 m from the statue. With the query's photographer withheld, learned local-feature matching raises DINOv2 accuracy from 81.8% to 85.5% and also improves DINOv3. Comparing the two best candidates cuts DINOv2's false acceptance of unknown statues from 38.3% to 19.6% at 90% known acceptance.</description>
+    </item>
+    <item>
       <title>Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis</title>
       <link>http://arxiv.org/abs/2611.25606v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.25606v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2209.08369</guid>
       <pubDate>Sat, 17 Sep 2022 00:00:00 -0000</pubDate>
       <description>End users' awareness about the data they share, the purpose of sharing that data, and their control over it, is key to establishing trust and eradicating privacy concerns. We experimented on personal data management by prototyping a Point-of-Interest recommender system in which data collected on the user can be viewed, edited, deleted, and shared via elements in the User Interface. Based on our qualitative findings, in this paper we discuss "The ostrich policy" adopted by end users who do not want to manage their personal data. We sound a waking whistle to design and model for personal data management by understanding end users' perceptions towards data transparency and control.</description>
-    </item>
-    <item>
-      <title>Inclusive Ethical Design for Recommender Systems</title>
-      <link>https://arxiv.org/abs/2209.13021</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2209.13021</guid>
-      <pubDate>Tue, 13 Sep 2022 00:00:00 -0000</pubDate>
-      <description>Recommender systems are becoming increasingly central as mediators of information with the potential to profoundly influence societal opinion. While approaches are being developed to ensure these systems are designed in a responsible way, adolescents in particular, represent a potentially vulnerable user group requiring explicit consideration. This is especially important given the nature of their access and use of recommender systems but also their role as providers of content. This paper proposes core principles for the ethical design of recommender systems and evaluates whether current approaches to ensuring adherence to these principles are sufficiently inclusive of the particular needs and potential vulnerabilities of adolescent users.</description>
-    </item>
-    <item>
-      <title>Lecture Notes on Neural Information Retrieval</title>
-      <link>https://arxiv.org/abs/2207.13443</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2207.13443</guid>
-      <pubDate>Mon, 12 Sep 2022 00:00:00 -0000</pubDate>
-      <description>These lecture notes focus on the recent advancements in neural information retrieval, with particular emphasis on the systems and models exploiting transformer networks. These networks, originally proposed by Google in 2017, have seen a large success in many natural language processing and information retrieval tasks. While there are many fantastic textbook on information retrieval and natural language processing as well as specialised books for a more advanced audience, these lecture notes target people aiming at developing a basic understanding of the main information retrieval techniques and approaches based on deep learning. These notes have been prepared for a IR graduate course of the MSc program in Artificial Intelligence and Data Engineering at the University of Pisa, Italy.</description>
     </item>
   </channel>
 </rss>

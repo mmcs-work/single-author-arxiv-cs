@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>SafeJIT: A Speculating JIT Engine Verified Down to the Machine Code</title>
+      <link>http://arxiv.org/abs/2611.28436v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28436v1</guid>
+      <pubDate>Sat, 21 Nov 2026 00:17:56 +0000</pubDate>
+      <description>JIT compilers are among the most attacked components of modern software. They compile attacker-chosen programs, speculate on attacker-influenced type feedback, and run the result at full native privilege. A single wrongly eliminated guard or a missing deoptimization becomes memory corruption. We present SafeJIT, a small JavaScript engine with a speculating baseline JIT, together with a machine-checked proof in Lean 4 that its statically linked RISC-V and x86-64 executables never crash, on any input, in a model of a Linux user process. The theorem is about the shipped binaries, executed instruction by instruction on Sail ISA models (for RISC-V, the official one), and it covers everything in them: the parser and bytecode compiler, the interpreter and its type-feedback recording, the JIT compiler, all machine code the JIT can generate for any program and any feedback (type guards, guard elimination, loop type facts, register allocation with deoptimization metadata, inline caches, deoptimization and on-stack replacement), a mark-sweep garbage collector, the runtime, and a freestanding libc. The C compiler, assembler and linker are not trusted, and neither is floating-point arithmetic. The proof uses separation logic (iris-lean) over a model of a Linux user process whose stuck states are exactly the ways a process can crash, including fetching code that has not been made executable or whose instruction cache has not been flushed.</description>
+    </item>
+    <item>
       <title>Hereditary permutations for simple types revisited: A baby case for University Algebra</title>
       <link>http://arxiv.org/abs/2611.26507v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26507v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1812.01069</guid>
       <pubDate>Thu, 06 Dec 2018 00:00:00 -0000</pubDate>
       <description>We show that the problem of determining the existence of an inductive invariant in the language of quantifier free linear integer arithmetic (QFLIA) is undecidable, even for transition systems and safety properties expressed in QFLIA.</description>
-    </item>
-    <item>
-      <title>Debugging Smart Contract's Business Logic Using Symbolic Model-Checking</title>
-      <link>https://arxiv.org/abs/1812.00619</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1812.00619</guid>
-      <pubDate>Mon, 03 Dec 2018 00:00:00 -0000</pubDate>
-      <description>Smart contracts are a special type of programs running inside a blockchain. Immutable and transparent, they provide means to implement fault-tolerant and censorship-resistant services. Unfortunately, its immutability causes a serious challenge of ensuring that a business logic and implementation is correct upfront, before publishing in a blockchain. Several big accidents have indeed shown that users of this technology need special tools to verify smart contract correctness. Existing automated checkers are able to detect only well known implementation bugs, leaving the question of business logic correctness far aside. In this work, we present a symbolic model-checking technique along with a formal specification method for a subset of Solidity programming language that is able to express both state properties and trace properties; the latter constitutes a weak analogy of temporal properties. We evaluate the proposed technique on the MiniDAO smart contract, a young brother of notorious TheDAO. Our Proof-of-Concept was able to detect a non-trivial error in the business logic of this smart contract in a few seconds.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Moonshine Conjecture Formalized</title>
+      <link>http://arxiv.org/abs/2611.27001v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27001v1</guid>
+      <pubDate>Fri, 20 Nov 2026 02:31:15 +0000</pubDate>
+      <description>The celebrated and intimidating Moonshine Conjecture has now been formalized in Lean. This achievement might suggest that, once a sufficiently large library compiles, the principal mathematical work is complete. This paper tells a less optimistic story. During our formalization project, we repeatedly encountered two problems that a formally checked proof alone does not settle: (1) whether the formal statements actually express the mathematics we humans expect, and (2) how that meaning survives as the repositories and their dependencies evolve. We argue that there is no magic pill that turns a large agent-produced library into mathematics a community can trust. Even after the proofs are checked by the Lean kernel, someone must judge whether the definitions and statements express the intended mathematics and whether future updates preserve that meaning. This work, even when done, can only be trusted. We must therefore return to the usual trust model: relying on the mathematical judgment of maintainers and expert communities. But semantic review is expensive, making it tempting to keep producing code and take successful kernel checks as sufficient grounds for trust. This shortcut accumulates semantic debt: definitions and results with unchecked mathematical interpretations are reused as foundations for further work. A library may keep compiling and produce the desired formal theorem while users lose track of which mathematical claims they can responsibly rely on. Reliable reuse is also a prerequisite for Terence Tao's vision of formal mathematics as something people can navigate, explain, learn from, and build with. This paper takes our work connecting the VOA and CFSG repositories for the Moonshine Conjecture as a case study of the challenges of reliable reuse as formal developments scale.</description>
+    </item>
+    <item>
       <title>Hereditary permutations for simple types revisited: A baby case for University Algebra</title>
       <link>http://arxiv.org/abs/2611.26507v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26507v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2503.20413</guid>
       <pubDate>Wed, 26 Mar 2025 00:00:00 -0000</pubDate>
       <description>We present a framework for tree-based proof search, called Zippy. Unlike existing proof search tools, Zippy is largely independent of concrete search tree representations, search-algorithms, states and effects. It is designed to create analysable and navigable proof searches that are open to customisation and extensions by users. Zippy is founded on concepts from functional programming theory, particularly zippers, arrows, monads, and lenses. We implemented the framework in Isabelle's metaprogramming language Isabelle/ML.</description>
-    </item>
-    <item>
-      <title>Limits with Signed Digit Streams</title>
-      <link>https://arxiv.org/abs/1807.10492</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1807.10492</guid>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 -0000</pubDate>
-      <description>We work with the signed digit representation of abstract real numbers, which roughly is the binary representation enriched by the additional digit -1. The main objective of this paper is an algorithm which takes a sequence of signed digit representations of reals and returns the signed digit representation of their limit, if the sequence converges. As a first application we use this algorithm together with Heron's method to build up an algorithm which converts the signed digit representation of a non-negative real number into the signed digit representation of its square root. Instead of writing the algorithms first and proving their correctness afterwards, we work the other way round, in the tradition of program extraction from proofs. In fact we first give constructive proofs, and from these proofs we then compute the extracted terms, which is the desired algorithm. The correctness of the extracted term follows directly by the Soundness Theorem of program extraction. In order to get the extracted term from some proofs which are often quite long, we use the proof assistant Minlog. However, to apply the extracted terms, the programming language Haskell is useful. Therefore after each proof we show a notation of the extracted term, which can be easily rewritten as a definition in Haskell.</description>
     </item>
   </channel>
 </rss>

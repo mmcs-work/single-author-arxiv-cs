@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>How Much of a Calculation-Error Rate Is Not Arithmetic: Auditing the FinReason Cup 2026 Task 3 Metric with a Deterministic Rule System</title>
+      <link>http://arxiv.org/abs/2611.27192v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27192v1</guid>
+      <pubDate>Fri, 20 Nov 2026 06:24:55 +0000</pubDate>
+      <description>Task 3 of the FinReason Cup 2026 scores a system on two values per case, the one an XBRL filing reports and the one its own calculation relationships imply, and labels each failure as structural, extraction or calculation. This report shows that the calculation-error rate so defined does not count arithmetic failures, and bounds how far it is from one using the published board alone. One of the three rules behind the benchmark, DQC_US_0015, has an answer that is the negation of the reported value (in all 110 published practice cases, against 1 of 120 and 6 of 102 for the other two), so a calculation label on such a case records a wrong fact or a wrong route, not a wrong sum. Subtracting the available structural and extraction labels from each entry's error count on that rule gives a floor: the bound is positive for 22 of the 23 ranked entries, and at the top it is sharpest, with at least 11 of 12 and 12 of 13 calculation errors of the two joint-first entries falling on cases where no arithmetic remained. The calculation-error rate of the best systems on this task is almost entirely not arithmetic. The vehicle for that result is an entry that reconstructs the three data-quality rules the benchmark is drawn from, DQC_US_0015, DQC_US_0117 and DQC_US_0126, as a deterministic system with no learned parameters, no training step and no external service, running all 680 cases in 1.4 seconds. It scores 96.62% under the offline judge on development and 95.29% on the published test set, and its residual error concentrates in cases where a concept carries several equally flagged facts and the question names no dimensional member. Reading those error classes against the per-rule accuracies is what exposed the metric, which is why both are reported here.</description>
+    </item>
+    <item>
       <title>LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules</title>
       <link>http://arxiv.org/abs/2611.24810v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.24810v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/math/0702116</guid>
       <pubDate>Wed, 10 Dec 2008 00:00:00 -0000</pubDate>
       <description>In this pedagogical article, we present a simple direct matrix method for analytically computing the Jacobian of nonlinear algebraic equations that arise from the discretization of nonlinear integro-differential equations. The method is based on a formulation of the discretized equations in vector form using only matrix-vector products and component-wise operations. By applying simple matrix-based differentiation rules, the matrix form of the analytical Jacobian can be calculated with little more difficulty than that required when computing derivatives in single-variable calculus. After describing the direct matrix method, we present numerical experiments demonstrating the computational performance of the method, discuss its connection to the Newton-Kantorovich method, and apply it to illustrative 1D and 2D example problems. MATLAB code is provided to demonstrate the low code complexity required by the method.</description>
-    </item>
-    <item>
-      <title>Mathematical and computer tools of discrete dynamic modeling and analysis of complex systems in control loop</title>
-      <link>https://arxiv.org/abs/0809.3688</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0809.3688</guid>
-      <pubDate>Mon, 22 Sep 2008 00:00:00 -0000</pubDate>
-      <description>We present a method of discrete modeling and analysis of multilevel dynamics of complex large-scale hierarchical dynamic systems subject to external dynamic control mechanism. Architectural model of information system supporting simulation and analysis of dynamic processes and development scenarios (strategies) of complex large-scale hierarchical systems is also proposed.</description>
     </item>
   </channel>
 </rss>

@@ -5,11 +5,60 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Note on polychromatic coloring of hereditary hypergraph families III</title>
+      <link>http://arxiv.org/abs/2611.28664v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28664v1</guid>
+      <pubDate>Sat, 21 Nov 2026 08:44:53 +0000</pubDate>
+      <description>For every integer $h\ge4$ we construct a hereditary family of hypergraphs with $m_2=h$ and \[ m_3\ge 2(h-1)+2\left\lfloor\frac{h-1}{3}\right\rfloor+1 \approx \frac{8}{3}m_2. \] This improves the lower bound $m_3\ge 2m_2$ from the preceding notes for every $m_2\ge4$. We also show that the worst-case integrality gap of the weighted transversal problem over hereditary families with $m_2\le h$ is between $h-1$ and $5000h$. As a consequence, every such family admits strong $\varepsilon$-nets of size at most $5000h/\varepsilon$.</description>
+    </item>
+    <item>
+      <title>The Gerards-Schrijver conjecture on the Edmonds-Johnson property is false</title>
+      <link>http://arxiv.org/abs/2611.28580v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28580v1</guid>
+      <pubDate>Sat, 21 Nov 2026 05:23:50 +0000</pubDate>
+      <description>An integral matrix $A$ has the Edmonds-Johnson property if, for all integral vectors $b,c,l,u$, the first Chvátal closure of $\{x: b\le Ax\le c,\ l\le x\le u\}$ equals its integer hull. Gerards and Schrijver conjectured that a totally half-modular matrix has the Edmonds-Johnson property if and only if it has no minor equal to one of two specific matrices, of size $3\times3$ and $3\times4$. We disprove this conjecture. We give a totally half-modular $5\times6$ matrix that does not have the Edmonds-Johnson property and has no minor equal to either matrix. It is a minimal obstruction: every proper minor has the Edmonds-Johnson property. The proofs work on a graph whose edges are the rows and bounds of the matrix, and on which the minor operations act by deleting, contracting and halving edges. For minimality, we reduce every proper minor to two classes of matrices known to have the Edmonds-Johnson property.</description>
+    </item>
+    <item>
+      <title>Additive cubes are avoidable by a non-uniform morphism of length $6$ over $\{0,a,b\}$ (with $b \ge 4$ and $\gcd(a,b) = 1$)</title>
+      <link>http://arxiv.org/abs/2611.27519v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27519v1</guid>
+      <pubDate>Fri, 20 Nov 2026 12:09:53 +0000</pubDate>
+      <description>We prove that additive cubes are avoidable over every ternary alphabet $\{0, a, b\}$ with $1 \le a &lt; b$, $\gcd(a, b) = 1$, and $b \ge 4$, thereby solving and extending Rao's~(2015) conjecture from $b \ge 6$ down to $b \ge 4$. Our construction applies a single dual pair of parameterized non-uniform morphisms of image length at most~$6$ to the additive-cube-free word $\mathbf{w}$ of Cassaigne et al.~(2014). For $b \ge 10$, we prove that every additive square in the image is an abelian square, reducing additive cubes to abelian cubes; the absence of abelian cubes and the $24$ finite cases with $4 \le b \le 9$ are then certified via the finite-graph method of Jamet and Rosenfeld~(2026).</description>
+    </item>
+    <item>
+      <title>Decision trees for subword-closed languages over arbitrary finite alphabets</title>
+      <link>http://arxiv.org/abs/2611.27454v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27454v1</guid>
+      <pubDate>Fri, 20 Nov 2026 10:54:51 +0000</pubDate>
+      <description>Moshkov classified binary subword-closed languages $L$ by the minimum depth of decision trees that recognize the words of length $n$ in $L$, or decide membership in $L$, using queries that return the $i$th letter of the input word. We extend this classification to alphabets with $k \ge 2$ letters. With the homogeneity and heterogeneity dimensions defined via pairs of different letters, the classification is the same as for $k = 2$: the deterministic recognition depth is bounded, logarithmic, or linear in $n$, the other three depths are bounded or linear, and there are five complexity classes. Since Moshkov's two-block structure lemma fails for $k \ge 3$, we prove a structure lemma with up to $k$ blocks. Our bounds are polynomial in $k$ and the two dimensions; in the bounded case they replace the exponential constant of the binary case by a linear one. We also show that the complexity class (one of the five) of a language given by a finite set of forbidden subwords can be computed in polynomial time. For several ternary languages we prove exact formulas for all four depths and check them by computation for small $n$.</description>
+    </item>
+    <item>
+      <title>Polynomial sequences of Simplex pivots on 0/1-polytopes</title>
+      <link>http://arxiv.org/abs/2611.26830v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26830v1</guid>
+      <pubDate>Thu, 19 Nov 2026 21:29:35 +0000</pubDate>
+      <description>We study the number of Simplex pivots needed to solve linear programs over $0/1$-polytopes, starting from an arbitrary feasible basis and counting degenerate pivots. It has been known since the 1990s that from any extreme point of a 0/1-polytope there exists a monotone path of linear length to an optimal one. However, translating this into a polynomial sequence of Simplex pivots, i.e., improving basis exchanges, has remained an open question. We here provide an affirmative answer, showing that for every 0/1-polytope $\mathcal P \subseteq \mathbb R^d$, an optimal basis can be reached with $O(d^3)$ Simplex pivots, independently of the number of inequalities and of the size of the coefficients.</description>
+    </item>
+    <item>
+      <title>Avoiding squares over words with lists of size three</title>
+      <link>http://arxiv.org/abs/2611.26768v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26768v1</guid>
+      <pubDate>Thu, 19 Nov 2026 20:03:09 +0000</pubDate>
+      <description>We prove that every sequence of lists of size three admits an infinite square-free word, establishing that the Thue choice number of the path is three. More precisely, the number of compatible square-free words of length $n$ is at least $c(5/4)^n$, where $c&gt;0$ is an absolute constant. The proof combines a computer-assisted construction of weights with the weighted counting method previously introduced by the author. We first consider words avoiding only squares of bounded period and use a finite state model to certify a uniform lower bound on their growth. The counting argument then controls the loss caused by excluding longer squares. The main new ingredient is a coarser description of the states, which makes the computation feasible without restricting the union of the lists. The same computation yields a deterministic polynomial-time strategy for constructing an infinite square-free word when each list is chosen adversarially after the preceding letters have been fixed.</description>
+    </item>
+    <item>
       <title>An asymptotic bound for Yuster's independent transversal factor conjecture</title>
       <link>http://arxiv.org/abs/2611.26259v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26259v1</guid>
       <pubDate>Thu, 19 Nov 2026 15:32:17 +0000</pubDate>
       <description>An $[r,n,1]$-graph has $r$ independent parts of size $n$, with a matching between each pair of parts. Yuster conjectured in 2021 that every such graph has a partition into independent transversals whenever $n\ge 2\lceil r/2\rceil$. We prove that there is an absolute constant $A&gt;0$ such that, for all sufficiently large $r$, this partition exists whenever $n\ge\lceil r+A r^{20/21}\rceil$. Thus $f(r)\le r+O(r^{20/21})$, where $f(r)$ is the least $n_0$ such that every $[r,n,1]$-graph has such a partition whenever $n\ge n_0$. In particular, $f(r)/r\to1$, giving an asymptotic form of the conjecture.</description>
+    </item>
+    <item>
+      <title>Cohomological $k$-Equivalence Does Not Capture Graph Isomorphism</title>
+      <link>http://arxiv.org/abs/2611.26672v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26672v1</guid>
+      <pubDate>Thu, 19 Nov 2026 14:35:37 +0000</pubDate>
+      <description>Ó Conghaile introduced cohomological $k$-equivalence $\equiv^{\mathbb{Z}}_k$, a refinement of equivalence in $k$-variable counting logic that is decidable in polynomial time for each fixed $k$: the local isomorphisms that survive must extend, in both directions, to compatible families of integer combinations of local isomorphisms. He asked whether, for every finite relational signature $σ$, some $k$ makes $\equiv^{\mathbb{Z}}_k$ coincide with isomorphism of $σ$-structures (Question 14 of his MFCS 2022 paper). We show that the answer is negative already for graphs: for every $k\ge 1$ there are finite simple graphs $A_k\not\cong B_k$ with $A_k\equiv^{\mathbb{Z}}_k B_k$. Every isomorphism of the pair would induce a permutation $g$ of a common index set $D$. One part of the graphs, over $\mathbb{F}_3$, admits exactly the even permutations, because $g$ acts by its sign on a nonzero class in the cokernel of the unsigned boundary map on subsets of $D$. A second part, over $\mathbb{F}_2$ and built on the Johnson graph $J(|D|,2)$, admits exactly the odd permutations. No set of at most $k$ vertices detects the parity: every local isomorphism of a common family is realised, with the same images, by permutations of both parities. We complement the main result with three observations. For the pair built from an index set of size $n$, the least width at which cohomological equivalence distinguishes the two graphs is $\log_4 n+O(1)$; so within this construction the doubly exponential size is unavoidable. The pairs are nevertheless distinguished in polynomial time by an explicit invariant that combines the class of the part over $\mathbb{F}_3$ with the parity of the part over $\mathbb{F}_2$. Finally, cohomological $2$-equivalence already distinguishes the coloured graphs with which Berkholz and Grohe show that no level of the Diophantine relaxation decides isomorphism.</description>
     </item>
     <item>
       <title>Beyond geometric lattices: pseudo-atoms and redundant join representations in the face lattice of the permutohedron</title>
@@ -6954,55 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2306.16389</guid>
       <pubDate>Fri, 30 Jun 2023 00:00:00 -0000</pubDate>
       <description>The problem of finding the connected components of a graph is considered. The algorithms addressed to solve the problem are used to solve such problems on graphs as problems of finding points of articulation, bridges, maximin bridge, etc. A natural approach to solving this problem is a breadth-first search, the implementations of which are presented in software libraries designed to maximize the use of the capabi\-lities of modern computer architectures. We present an approach using perturbations of adjacency matrix of a graph. We check wether the graph is connected or not by comparing the solutions of the two systems of linear algebraic equations (SLAE): the first SLAE with a perturbed adjacency matrix of the graph and the second SLAE with~unperturbed matrix. This approach makes it possible to use effective numerical implementations of SLAE solution methods to solve connectivity problems on graphs. Iterations of iterative numerical methods for solving such SLAE can be considered as carrying out a graph traversal. Generally speaking, the traversal is not equivalent to the traversal that is carried out with breadth-first search. An algorithm for finding the connected components of a graph using such a traversal is presented. For any instance of the problem, this algorithm has no greater computational complexity than breadth-first search, and for~most individual problems it has less complexity.</description>
-    </item>
-    <item>
-      <title>Ore- and Pósa-type conditions for partitioning $2$-edge-coloured graphs into monochromatic cycles</title>
-      <link>https://arxiv.org/abs/2202.06388</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2202.06388</guid>
-      <pubDate>Mon, 26 Jun 2023 00:00:00 -0000</pubDate>
-      <description>In 2019, Letzter confirmed a conjecture of Balogh, Barát, Gerbner, Gyárfás and Sárközy, proving that every large $2$-edge-coloured graph $G$ on $n$ vertices with minimum degree at least $3n/4$ can be partitioned into two monochromatic cycles of different colours. Here, we propose a weaker condition on the degree sequence of $G$ to also guarantee such a partition and prove an approximate version. This resembles a similar generalisation to an Ore-type condition achieved by Barát and Sárközy. Continuing work by Allen, Böttcher, Lang, Skokan and Stein, we also show that if $\operatorname{deg}(u) + \operatorname{deg}(v) \geq 4n/3 + o(n)$ holds for all non-adjacent vertices $u,v \in V(G)$, then all but $o(n)$ vertices can be partitioned into three monochromatic cycles.</description>
-    </item>
-    <item>
-      <title>Exploring two concepts: branch decomposition and weak ultrafilter on connectivity system</title>
-      <link>https://arxiv.org/abs/2306.14147</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.14147</guid>
-      <pubDate>Sun, 25 Jun 2023 00:00:00 -0000</pubDate>
-      <description>This paper explores two fundamental concepts: branch width and weak ultrafilter. Branch width is a significant graph width parameter that measures the degree of connectivity in a graph using a branch decomposition and a symmetric submodular function. Weak ultrafilter, introduced as a weakened definition of an ultrafilter, plays a vital role in interpreting defaults in logic. We introduce the concept of Weak Ultrafilter on the connectivity system (X, f) and demonstrate its duality with branch decomposition. This study enhances our understanding of these concepts in graph combinatorial and logical contexts.</description>
-    </item>
-    <item>
-      <title>Recognizing Series-Parallel Matrices in Linear Time</title>
-      <link>https://arxiv.org/abs/2111.07628</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2111.07628</guid>
-      <pubDate>Sat, 24 Jun 2023 00:00:00 -0000</pubDate>
-      <description>A series-parallel matrix is a binary matrix that can be obtained from an empty matrix by successively adjoining rows or columns that are parallel to an existing row/column or have at most one 1-entry. Equivalently, series-parallel matrices are representation matrices of graphic matroids of series-parallel graphs, which can be recognized in linear time. We propose an algorithm that, for an m-by-n matrix A with k nonzeros, determines in expected $\mathcal{O}(m + n + k)$ time whether A is series-parallel, or returns a minimal non-series-parallel submatrix of A. We complement the developed algorithm by an efficient implementation and report about computational results.</description>
-    </item>
-    <item>
-      <title>Don't Treat the Symptom, Find the Cause! Efficient Artificial-Intelligence Methods for (Interactive) Debugging</title>
-      <link>https://arxiv.org/abs/2306.12850</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.12850</guid>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 -0000</pubDate>
-      <description>In the modern world, we are permanently using, leveraging, interacting with, and relying upon systems of ever higher sophistication, ranging from our cars, recommender systems in e-commerce, and networks when we go online, to integrated circuits when using our PCs and smartphones, the power grid to ensure our energy supply, security-critical software when accessing our bank accounts, and spreadsheets for financial planning and decision making. The complexity of these systems coupled with our high dependency on them implies both a non-negligible likelihood of system failures, and a high potential that such failures have significant negative effects on our everyday life. For that reason, it is a vital requirement to keep the harm of emerging failures to a minimum, which means minimizing the system downtime as well as the cost of system repair. This is where model-based diagnosis comes into play. Model-based diagnosis is a principled, domain-independent approach that can be generally applied to troubleshoot systems of a wide variety of types, including all the ones mentioned above, and many more. It exploits and orchestrates i.a. techniques for knowledge representation, automated reasoning, heuristic problem solving, intelligent search, optimization, stochastics, statistics, decision making under uncertainty, machine learning, as well as calculus, combinatorics and set theory to detect, localize, and fix faults in abnormally behaving systems. In this thesis, we will give an introduction to the topic of model-based diagnosis, point out the major challenges in the field, and discuss a selection of approaches from our research addressing these issues.</description>
-    </item>
-    <item>
-      <title>The Identity Problem in $\mathbb{Z} \wr \mathbb{Z}$ is decidable</title>
-      <link>https://arxiv.org/abs/2302.05939</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2302.05939</guid>
-      <pubDate>Tue, 20 Jun 2023 00:00:00 -0000</pubDate>
-      <description>We consider semigroup algorithmic problems in the wreath product $\mathbb{Z} \wr \mathbb{Z}$. Our paper focuses on two decision problems introduced by Choffrut and Karhumäki (2005): the Identity Problem (does a semigroup contain the neutral element?) and the Group Problem (is a semigroup a group?) for finitely generated sub-semigroups of $\mathbb{Z} \wr \mathbb{Z}$. We show that both problems are decidable. Our result complements the undecidability of the Semigroup Membership Problem (does a semigroup contain a given element?) in $\mathbb{Z} \wr \mathbb{Z}$ shown by Lohrey, Steinberg and Zetzsche (ICALP 2013), and contributes an important step towards solving semigroup algorithmic problems in general metabelian groups.</description>
-    </item>
-    <item>
-      <title>Directed Graph Hashing</title>
-      <link>https://arxiv.org/abs/2002.06653</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2002.06653</guid>
-      <pubDate>Mon, 19 Jun 2023 00:00:00 -0000</pubDate>
-      <description>This paper presents several algorithms for hashing directed graphs. The algorithms given are capable of hashing entire graphs as well as assigning hash values to specific nodes in a given graph. The notion of node symmetry is made precise via computation of vertex orbits and the graph automorphism group, and nodes that are symmetrically identical are assigned equal hashes. We also present a novel Merkle-style hashing algorithm that seeks to fulfill the recursive principle that a hash of a node should depend only on the hash of its neighbors. This algorithm works even in the presence of cycles, which would not be possible with a naive approach. Structurally hashing trees has seen widespread use in blockchain, source code version control, and web applications. Despite the popularity of tree hashing, directed graph hashing remains unstudied in the literature. Our algorithms open new possibilities to hashing both directed graphs and more complex data structures that can be reduced to directed graphs such as hypergraphs.</description>
-    </item>
-    <item>
-      <title>Shor's Algorithm Does Not Factor Large Integers in the Presence of Noise</title>
-      <link>https://arxiv.org/abs/2306.10072</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2306.10072</guid>
-      <pubDate>Thu, 15 Jun 2023 00:00:00 -0000</pubDate>
-      <description>We consider Shor's quantum factoring algorithm in the setting of noisy quantum gates. Under a generic model of random noise for (controlled) rotation gates, we prove that the algorithm does not factor integers of the form $pq$ when the noise exceeds a vanishingly small level in terms of $n$ -- the number of bits of the integer to be factored, where $p$ and $q$ are from a well-defined set of primes of positive density. We further prove that with probability $1 - o(1)$ over random prime pairs $(p,q)$, Shor's factoring algorithm does not factor numbers of the form $pq$, with the same level of random noise present.</description>
     </item>
   </channel>
 </rss>

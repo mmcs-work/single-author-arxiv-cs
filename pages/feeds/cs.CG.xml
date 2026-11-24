@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Homotopic Kuratowski Theorem</title>
+      <link>http://arxiv.org/abs/2611.28401v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28401v1</guid>
+      <pubDate>Fri, 20 Nov 2026 23:09:43 +0000</pubDate>
+      <description>We prove that if a map from a graph G to a compact orientable surface, possibly with boundary, cannot be deformed so as to remove all crossings, then neither can its restriction to some subgraph of G with at most 72 vertices of degree other than two. On the sphere, this is Kuratowski's theorem; in contrast, minimal obstructions to embeddability in a surface grow with its genus. Our proof reduces the problem to planarity in a disk with order constraints, and identifies a condition under which this problem has small obstructions. Our main tool is a homotopic version of depth-first search trees, which underlie classical planarity tests and the extraction of Kuratowski subgraphs.</description>
+    </item>
+    <item>
       <title>Sharp topological overlap in every dimension</title>
       <link>http://arxiv.org/abs/2611.26229v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26229v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1409.1064</guid>
       <pubDate>Thu, 22 Jan 2015 00:00:00 -0000</pubDate>
       <description>The metaphor between physical light and inner light has a long history that permeates diverse languages and cultures. This paper outlines a system for using basic principles from optics to visually represent psychological states and processes such as ideation, enlightenment, mindfulness, and fragmentation versus integrity, as well as situations that occur between people involving phenomena such as honest versus deceptive communication, and understanding versus misunderstanding. The paper summarizes two ongoing projects based on this system: The Light and Enlightenment art installation project, and the Soultracker virtual reality project. These projects enable people to depict their inner lives and external worlds including situations and relationships with others, both as they are and as they could be, and explore alternative paths for navigating challenges and living to their fullest potential. The projects aim to be of clinical value as therapeutic tools, as well as of pedagogical value by providing a concrete language for depicting aspects of human nature that can otherwise seem elusive and intangible.</description>
-    </item>
-    <item>
-      <title>Spiral Toolpaths for High-Speed Machining of 2D Pockets with or without Islands</title>
-      <link>https://arxiv.org/abs/1412.5034</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1412.5034</guid>
-      <pubDate>Tue, 20 Jan 2015 00:00:00 -0000</pubDate>
-      <description>We describe new methods for the construction of spiral toolpaths for high-speed machining. In the simplest case, our method takes a polygon as input and a number $δ&gt;0$ and returns a spiral starting at a central point in the polygon, going around towards the boundary while morphing to the shape of the polygon. The spiral consists of linear segments and circular arcs, it is $G^1$ continuous, it has no self-intersections, and the distance from each point on the spiral to each of the neighboring revolutions is at most $δ$. Our method has the advantage over previously described methods that it is easily adjustable to the case where there is an island in the polygon to be avoided by the spiral. In that case, the spiral starts at the island and morphs the island to the outer boundary of the polygon. It is shown how to apply that method to make significantly shorter spirals in polygons with no islands. Finally, we show how to make a spiral in a polygon with multiple islands by connecting the islands into one island.</description>
     </item>
   </channel>
 </rss>

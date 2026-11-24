@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>On Monotonic Hamming Sphere Landscapes</title>
+      <link>http://arxiv.org/abs/2611.28510v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28510v1</guid>
+      <pubDate>Sat, 21 Nov 2026 02:54:52 +0000</pubDate>
+      <description>Monotonic Hamming Sphere Landscapes (MHSL) are introduced: binary landscapes whose fitness is nonincreasing with Hamming distance from a unique global optimum, while points on the same Hamming sphere may be ordered arbitrarily. The class includes OneMax, every nondecreasing unitation function with a unique optimum, and positive linear functions with sufficiently balanced weights. The one-to-one MHSL, called Hamming sphere encodings (HSE), are counted in total and up to hypercube symmetry and shown to be a vanishing fraction of all landscapes. For the elitist (1+1) EA, every MHSL in which no two spheres share a fitness value has the optimization-time distribution of OneMax, which with known results makes these landscapes the easiest for mutation rates below one half. The same equivalence and optimality are proved for a two-member genetic algorithm with tournament selection and no crossover, whose hitting time on these landscapes reduces to a chain with quadratically many states. All 40,320 one-to-one three-bit landscapes are then evaluated for the (1+1) EA and the two-member genetic algorithm under eight mutation rates, three crossover operators and two selection schemes. Below one half, the easiest symmetry classes are all and only the HSE; above one half they are the hardest. Differences among HSE are small and stem from selection and from the hypercube symmetries respected by mutation and crossover. Targeted five-bit experiments likewise find their fastest landscapes within the HSE class.</description>
+    </item>
+    <item>
+      <title>Recurrent Amplification and Exact Nonexpansiveness Criteria for Query-Driven Erasure</title>
+      <link>http://arxiv.org/abs/2611.27109v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27109v1</guid>
+      <pubDate>Fri, 20 Nov 2026 04:33:22 +0000</pubDate>
+      <description>The Query-derived Erase Direction (QED) augments a rank-one linear attention update with a key-orthogonal query component. Under scalar decay, this correction leaves the eigenvalues of each homogeneous state transition unchanged, while the propagation of an initial perturbation depends on the ordered product of these transitions. We construct a periodic token sequence with fixed key and query projections for which every one-step spectral radius is below one but the spectral radius of the period product exceeds one. The same construction yields a sufficient condition for mean-square growth under independent uniform token sampling. For rank-one erasure with channel-wise decay, we derive a necessary and sufficient spectral-norm test for one-step nonexpansiveness that can be evaluated in $O(d)$ time. The test agrees with direct singular value decomposition on all 1,800 operators evaluated. In a counterfactual replay of a selected head of Qwen3.5-0.8B-Base, the terminal gain on a 4,096-token repeated-text sequence increased from 0.99938 to 1.3977 with the feature and checkpoint gate trajectories held fixed.</description>
+    </item>
+    <item>
       <title>How to Effectively Manage the Energy in Residential Systems: Development and Comparison of Methods</title>
       <link>http://arxiv.org/abs/2611.26412v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26412v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2111.06768</guid>
       <pubDate>Fri, 12 Nov 2021 00:00:00 -0000</pubDate>
       <description>Spiking neural networks (SNN) are considered as a perspective basis for performing all kinds of learning tasks - unsupervised, supervised and reinforcement learning. Learning in SNN is implemented through synaptic plasticity - the rules which determine dynamics of synaptic weights depending usually on activity of the pre- and post-synaptic neurons. Diversity of various learning regimes assumes that different forms of synaptic plasticity may be most efficient for, for example, unsupervised and supervised learning, as it is observed in living neurons demonstrating many kinds of deviations from the basic spike timing dependent plasticity (STDP) model. In the present paper, we formulate specific requirements to plasticity rules imposed by unsupervised learning problems and construct a novel plasticity model generalizing STDP and satisfying these requirements. This plasticity model serves as main logical component of the novel supervised learning algorithm called SCoBUL (Spike Correlation Based Unsupervised Learning) proposed in this work. We also present the results of computer simulation experiments confirming efficiency of these synaptic plasticity rules and the algorithm SCoBUL.</description>
-    </item>
-    <item>
-      <title>Does Comma Selection Help To Cope With Local Optima</title>
-      <link>https://arxiv.org/abs/2004.01274</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2004.01274</guid>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 -0000</pubDate>
-      <description>One hope when using non-elitism in evolutionary computation is that the ability to abandon the current-best solution aids leaving local optima. To improve our understanding of this mechanism, we perform a rigorous runtime analysis of a basic non-elitist evolutionary algorithm (EA), the $(μ,λ)$ EA, on the most basic benchmark function with a local optimum, the jump function. We prove that for all reasonable values of the parameters and the problem, the expected runtime of the $(μ,λ)$~EA is, apart from lower order terms, at least as large as the expected runtime of its elitist counterpart, the $(μ+λ)$~EA (for which we conduct the first runtime analysis on jump functions to allow this comparison). Consequently, the ability of the $(μ,λ)$~EA to leave local optima to inferior solutions does not lead to a runtime advantage. We complement this lower bound with an upper bound that, for broad ranges of the parameters, is identical to our lower bound apart from lower order terms. This is the first runtime result for a non-elitist algorithm on a multi-modal problem that is tight apart from lower order terms.</description>
-    </item>
-    <item>
-      <title>The Global Structure of Codimension-2 Local Bifurcations in Continuous-Time Recurrent Neural Networks</title>
-      <link>https://arxiv.org/abs/2111.04547</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2111.04547</guid>
-      <pubDate>Mon, 08 Nov 2021 00:00:00 -0000</pubDate>
-      <description>If we are ever to move beyond the study of isolated special cases in theoretical neuroscience, we need to develop more general theories of neural circuits over a given neural model. The present paper considers this challenge in the context of continuous-time recurrent neural networks (CTRNNs), a simple but dynamically-universal model that has been widely utilized in both computational neuroscience and neural networks. Here we extend previous work on the parameter space structure of codimension-1 local bifurcations in CTRNNs to include codimension-2 local bifurcation manifolds. Specifically, we derive the necessary conditions for all generic local codimension-2 bifurcations for general CTRNNs, specialize these conditions to circuits containing from one to four neurons, illustrate in full detail the application of these conditions to example circuits, derive closed-form expressions for these bifurcation manifolds where possible, and demonstrate how this analysis allows us to find and trace several global codimension-1 bifurcation manifolds that originate from the codimension-2 bifurcations.</description>
     </item>
   </channel>
 </rss>

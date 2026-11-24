@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Federated KPI Aggregation with Local Privacy Constraints and Coordinated OLAP Roll-Ups</title>
+      <link>http://arxiv.org/abs/2611.26709v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26709v1</guid>
+      <pubDate>Thu, 19 Nov 2026 19:09:11 +0000</pubDate>
+      <description>Cross-organizational KPI analysis can require aggregated results from independently administered data warehouses without centralizing detailed records. To limit disclosure from small local groups, a site can require a minimum number of contributing records before releasing a KPI value for a group. If each site applies this rule independently, different local contributions may be suppressed and the combined KPI can become incomplete. This paper investigates whether OLAP granularity can be coordinated before local query results are released so that all sites satisfy their local minimum-cohort rules and contribute at the same analytical level. The proposed method selects the least-generalized common roll-up accepted by every site. Site agents coordinate current capabilities and approved local execution across independently administered sites, with privacy checks and aggregate computation remaining deterministic local functions. In a four-site prototype, coordinated roll-up retained all contributions and reproduced the corresponding centralized result, compared with 78.3% retained under independent suppression. A capability-change experiment showed fewer candidate checks and replies and no unsupported requests when current site-agent state was used. The results demonstrate the feasibility of federated KPI aggregation under local privacy constraints through coordinated granularity selection and agent-based coordination.</description>
+    </item>
+    <item>
       <title>Beyond Symmetry: Asymmetric Matching with Transformers for Collective Entity Resolution</title>
       <link>http://arxiv.org/abs/2611.15185v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.15185v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1209.3943</guid>
       <pubDate>Tue, 18 Sep 2012 00:00:00 -0000</pubDate>
       <description>Generating a huge number of association rules reduces their utility in the decision making process, done by domain experts. In this context, based on the theory of Formal Concept Analysis, we propose to extend the notion of Formal Concept through the generalization of the notion of itemset in order to consider the itemset as an intent, its support as the cardinality of the extent and its relevance which is related to the confidence of rule. Accordingly, we propose a new approach to extract interesting itemsets through the concept coverage. This approach uses a new quality-criteria of a rule: the relevance bringing a semantic added value to formal concept analysis approach to discover association rules.</description>
-    </item>
-    <item>
-      <title>Database Semantics</title>
-      <link>https://arxiv.org/abs/1209.3054</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1209.3054</guid>
-      <pubDate>Thu, 13 Sep 2012 00:00:00 -0000</pubDate>
-      <description>This paper, the first step to connect relational databases with systems consequence (Kent: "System Consequence" 2009), is concerned with the semantics of relational databases. It aims to to study system consequence in the logical/semantic system of relational databases. The paper, which was inspired by and which extends a recent set of papers on the theory of relational database systems (Spivak: "Functorial Data Migration" 2012), is linked with work on the Information Flow Framework (IFF) [http://suo.ieee.org/IFF/] connected with the ontology standards effort (SUO), since relational databases naturally embed into first order logic. The database semantics discussed here is concerned with the conceptual level of database architecture. We offer both an intuitive and technical discussion. Corresponding to the notions of primary and foreign keys, relational database semantics takes two forms: a distinguished form where entities are distinguished from relations, and a unified form where relations and entities coincide. The distinguished form corresponds to the theory presented in (Spivak: "Simplicial databases" 2009)[arXiv:0904.2012]. The unified form, a special case of the distinguished form, corresponds to the theory presented in (Spivak: "Functorial Data Migration" 2012). A later paper will discuss various formalisms of relational databases, such as relational algebra and first order logic, and will complete the description of the relational database logical environment.</description>
     </item>
   </channel>
 </rss>

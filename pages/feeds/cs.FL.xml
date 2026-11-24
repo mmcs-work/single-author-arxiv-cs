@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Additive cubes are avoidable by a non-uniform morphism of length $6$ over $\{0,a,b\}$ (with $b \ge 4$ and $\gcd(a,b) = 1$)</title>
+      <link>http://arxiv.org/abs/2611.27519v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27519v1</guid>
+      <pubDate>Fri, 20 Nov 2026 12:09:53 +0000</pubDate>
+      <description>We prove that additive cubes are avoidable over every ternary alphabet $\{0, a, b\}$ with $1 \le a &lt; b$, $\gcd(a, b) = 1$, and $b \ge 4$, thereby solving and extending Rao's~(2015) conjecture from $b \ge 6$ down to $b \ge 4$. Our construction applies a single dual pair of parameterized non-uniform morphisms of image length at most~$6$ to the additive-cube-free word $\mathbf{w}$ of Cassaigne et al.~(2014). For $b \ge 10$, we prove that every additive square in the image is an abelian square, reducing additive cubes to abelian cubes; the absence of abelian cubes and the $24$ finite cases with $4 \le b \le 9$ are then certified via the finite-graph method of Jamet and Rosenfeld~(2026).</description>
+    </item>
+    <item>
+      <title>Decision trees for subword-closed languages over arbitrary finite alphabets</title>
+      <link>http://arxiv.org/abs/2611.27454v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27454v1</guid>
+      <pubDate>Fri, 20 Nov 2026 10:54:51 +0000</pubDate>
+      <description>Moshkov classified binary subword-closed languages $L$ by the minimum depth of decision trees that recognize the words of length $n$ in $L$, or decide membership in $L$, using queries that return the $i$th letter of the input word. We extend this classification to alphabets with $k \ge 2$ letters. With the homogeneity and heterogeneity dimensions defined via pairs of different letters, the classification is the same as for $k = 2$: the deterministic recognition depth is bounded, logarithmic, or linear in $n$, the other three depths are bounded or linear, and there are five complexity classes. Since Moshkov's two-block structure lemma fails for $k \ge 3$, we prove a structure lemma with up to $k$ blocks. Our bounds are polynomial in $k$ and the two dimensions; in the bounded case they replace the exponential constant of the binary case by a linear one. We also show that the complexity class (one of the five) of a language given by a finite set of forbidden subwords can be computed in polynomial time. For several ternary languages we prove exact formulas for all four depths and check them by computation for small $n$.</description>
+    </item>
+    <item>
       <title>OmegaHyper: Explicit-State HyperLTL Model Checking on an omega-Automaton Diet</title>
       <link>http://arxiv.org/abs/2611.24210v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.24210v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1603.05072</guid>
       <pubDate>Wed, 16 Mar 2016 00:00:00 -0000</pubDate>
       <description>Two traditional paradigms are often used to describe the behavior of agents in multi-agent complex systems. In the first one, agents are considered to be fully rational and systems are seen as multi-player games. In the second one, agents are considered to be fully stochastic processes and the system itself is seen as a large stochastic process. From the standpoint of a particular agent - having to choose a strategy, the choice of the paradigm is crucial: the most adequate strategy depends on the assumptions made on the other agents. In this paper, we focus on two-player games and their application to the automated synthesis of reliable controllers for reactive systems - a field at the crossroads between computer science and mathematics. In this setting, the reactive system to control is a player, and its environment is its opponent, usually assumed to be fully antagonistic or fully stochastic. We illustrate several recent developments aiming to breach this narrow taxonomy by providing formal concepts and mathematical frameworks to reason about richer behavioral models. The interest of such models is not limited to reactive system synthesis but extends to other application fields of game theory. The goal of our contribution is to give a high-level presentation of key concepts and applications, aimed at a broad audience. To achieve this goal, we illustrate those rich behavioral models on a classical challenge of the everyday life: planning a journey in an uncertain environment.</description>
-    </item>
-    <item>
-      <title>A short proof that $O_2$ is an MCFL</title>
-      <link>https://arxiv.org/abs/1603.03610</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.03610</guid>
-      <pubDate>Fri, 11 Mar 2016 00:00:00 -0000</pubDate>
-      <description>We present a new proof that $O_2$ is a multiple context-free language. It contrasts with a recent proof by Salvati (2015) in its avoidance of concepts that seem specific to two-dimensional geometry, such as the complex exponential function. Our simple proof creates realistic prospects of widening the results to higher dimensions. This finding is of central importance to the relation between extreme free word order and classes of grammars used to describe the syntax of natural language.</description>
-    </item>
-    <item>
-      <title>Piecewise Testable Languages and Nondeterministic Automata</title>
-      <link>https://arxiv.org/abs/1603.00361</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.00361</guid>
-      <pubDate>Thu, 10 Mar 2016 00:00:00 -0000</pubDate>
-      <description>A regular language is $k$-piecewise testable if it is a finite boolean combination of languages of the form $Σ^* a_1 Σ^* \cdots Σ^* a_n Σ^*$, where $a_i\inΣ$ and $0\le n \le k$. Given a DFA $A$ and $k\ge 0$, it is an NL-complete problem to decide whether the language $L(A)$ is piecewise testable and, for $k\ge 4$, it is coNP-complete to decide whether the language $L(A)$ is $k$-piecewise testable. It is known that the depth of the minimal DFA serves as an upper bound on $k$. Namely, if $L(A)$ is piecewise testable, then it is $k$-piecewise testable for $k$ equal to the depth of $A$. In this paper, we show that some form of nondeterminism does not violate this upper bound result. Specifically, we define a class of NFAs, called ptNFAs, that recognize piecewise testable languages and show that the depth of a ptNFA provides an (up to exponentially better) upper bound on $k$ than the minimal DFA. We provide an application of our result, discuss the relationship between $k$-piecewise testability and the depth of NFAs, and study the complexity of $k$-piecewise testability for ptNFAs.</description>
     </item>
   </channel>
 </rss>

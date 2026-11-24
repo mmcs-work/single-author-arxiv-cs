@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Kidney Exchange in Deterministic $O^*(4^{t+o(t)})$ Time</title>
+      <link>http://arxiv.org/abs/2611.27841v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.27841v1</guid>
+      <pubDate>Fri, 20 Nov 2026 16:57:52 +0000</pubDate>
+      <description>Kidney exchange admits a randomized $O^*(4^t)$ algorithm parameterized by the target number $t$ of transplants, but the best previous deterministic algorithm requires $O^*(6.855^t)$ time. We nearly close this gap by developing a deterministic $O^*(4^{t+o(t)})$ algorithm. Our approach uses Dynamic Representative Sets to execute the semi-feasible packing recurrence under a global cardinality budget of $2t$, exploiting a residual extension-budget invariant to avoid repeated static representative-family compression. To handle admissible cycles containing at least $t$ vertices, we establish a deterministic $O^*(4^{k+o(k)})$ algorithm for finding a shortest simple directed cycle of length at least $k$. Beyond feasibility, our framework supports additive optimization, yielding the same running-time bound for maximizing arc utility among packings with exactly $t$ transplants. Consequently, a packing that lexicographically maximizes the number of transplants and then additive utility can be computed deterministically in $O^*(4^{τ+o(τ)})$ time, where $τ$ is the maximum achievable number of transplants.</description>
+    </item>
+    <item>
       <title>Closing Gaps in Temporal Fair Division for Chores</title>
       <link>http://arxiv.org/abs/2611.25892v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.25892v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2109.14294</guid>
       <pubDate>Wed, 29 Sep 2021 00:00:00 -0000</pubDate>
       <description>For nearly three decades, spatial games have produced a wealth of insights to the study of behavior and its relation to population structure. However, as different rules and factors are added or altered, the dynamics of spatial models often become increasingly complicated to interpret. To tackle this problem, we introduce persistent homology as a rigorous framework that can be used to both define and compute higher-order features of data in a manner which is invariant to parameter choices, robust to noise, and independent of human observation. Our work demonstrates its relevance for spatial games by showing how topological features of simulation data that persist over different spatial scales reflect the stability of strategies in 2D lattice games. To do so, we analyze the persistent homology of scenarios from two games: a Prisoner's Dilemma and a SIRS epidemic model. The experimental results show how the method accurately detects features that correspond to real aspects of the game dynamics. Unlike other tools that study dynamics of spatial systems, persistent homology can tell us something meaningful about population structure while remaining neutral about the underlying structure itself. Regardless of game complexity, since strategies either succeed or fail to conform to shapes of a certain topology there is much potential for the method to provide novel insights for a wide variety of spatially extended systems in biology, social science, and physics.</description>
-    </item>
-    <item>
-      <title>DiRe Committee : Diversity and Representation Constraints in Multiwinner Elections</title>
-      <link>https://arxiv.org/abs/2107.07356</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.07356</guid>
-      <pubDate>Fri, 24 Sep 2021 00:00:00 -0000</pubDate>
-      <description>The study of fairness in multiwinner elections focuses on settings where candidates have attributes. However, voters may also be divided into predefined populations under one or more attributes (e.g., "California" and "Illinois" populations under the "state" attribute), which may be same or different from candidate attributes. The models that focus on candidate attributes alone may systematically under-represent smaller voter populations. Hence, we develop a model, DiRe Committee WinnerDetermination (DRCWD), which delineates candidate and voter attributes to select a committee by specifying diversity and representation constraints and a voting rule. We analyze its computational complexity, inapproximability, and parameterized complexity. We develop a heuristic-based algorithm, which finds the winning DiRe committee in under two minutes on 63% of the instances of synthetic datasets and on 100% of instances of real-world datasets. We present an empirical analysis of the running time, feasibility, and utility traded-off. Overall, DRCWD motivates that a study of multiwinner elections should consider both its actors, namely candidates and voters, as candidate-specific models can unknowingly harm voter populations, and vice versa. Additionally, even when the attributes of candidates and voters coincide, it is important to treat them separately as diversity does not imply representation and vice versa. This is to say that having a female candidate on the committee, for example, is different from having a candidate on the committee who is preferred by the female voters, and who themselves may or may not be female.</description>
     </item>
   </channel>
 </rss>

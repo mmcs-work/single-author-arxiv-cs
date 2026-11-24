@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Semi-regular admixed arrays: asymptotic enumeration and when information is additive</title>
+      <link>http://arxiv.org/abs/2611.26990v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.26990v1</guid>
+      <pubDate>Fri, 20 Nov 2026 02:20:06 +0000</pubDate>
+      <description>In genomic data analysis, admixed arrays are pairs of matrices recording the local ancestry and the allele at each position of the haplotypes of admixed individuals. We study two-way diploid admixed arrays with $N$ individuals and $P$ loci under two families of constraints: local ancestry tallies, which fix the number of ancestry assignments per individual, and ancestry-specific sums, which fix the allele count per locus and ancestry. These two constraint families correspond to summaries of admixed genetic data investigated in biomedical and genomic applications. In the semi-regular regime, where all tallies and sums are uniform, we use complex martingale techniques to derive asymptotic formulas for the number of doubly constrained arrays as $N$ and $P$ grow with bounded ratio, over the whole feasible region. The leading term is governed by the Shannon entropy of the frequencies of the four possible pairs of entries at a position of the two matrices; on the boundary one or two of them vanish, changing the Gaussian correction. We then ask whether the two families carry information additively, that is, whether an independence heuristic predicts the doubly constrained count up to a bounded factor. Measured against the smallest set of arrays defined by a constraint that each family implies on its own, additivity holds only on a set of measure zero. It includes an edge of the feasible region with correction factor $e^{-1/4}$, extending our earlier result at the symmetric point. Thus, how far the two summaries jointly narrow down individual-level ancestry and genotype configurations cannot generally be predicted from how far each does on its own.</description>
+    </item>
+    <item>
       <title>Convex splitting by binary quantum hypothesis testing</title>
       <link>http://arxiv.org/abs/2611.25496v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.25496v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2511.19446</guid>
       <pubDate>Mon, 17 Nov 2025 00:00:00 -0000</pubDate>
       <description>This paper presents a novel class of information-theoretic strategies for solving the game of Mastermind, achieving state-of-the-art performance among known heuristic methods. The core contribution is the application of a weighted entropy heuristic, based on the Belis-Guias, u framework, which assigns context-dependent utility values to each of the possible feedback types. A genetic algorithm optimization approach discovers interpretable weight patterns that reflect strategic game dynamics. First, I demonstrate that a single, fixed vector of optimized weights achieves a remarkable 4.3565 average guesses with a maximum of 5. Building upon this, I introduce a stage-weighted heuristic with distinct utility vectors for each turn, achieving 4.3488 average guesses with a maximum of 6, approaching the theoretical optimum of 4.3403 by less than 0.2%. The method retains the computational efficiency of classical one-step-ahead heuristics while significantly improving performance through principled information valuation. A complete implementation and all optimized parameters are provided for full reproducibility.</description>
-    </item>
-    <item>
-      <title>A Deterministic Dimension Property of Twisted Goppa Codes</title>
-      <link>https://arxiv.org/abs/2511.13601</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.13601</guid>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper presents a large-scale computational study on the dimensional properties of twisted Goppa codes. Through the systematic analysis of over 50,000 parameter sets, we uncover a remarkable deterministic regularity: the actual dimension k of a twisted Goppa code is uniquely determined by a set of macro-parameters (q,m,t,b,u). Specifically, when the order of the finite field q, the extension degree m, the degree t of the Goppa polynomial, the translation parameter b of the automorphism, and the order u of the transformation are fixed, the dimension k of the generated code remains constant.</description>
     </item>
   </channel>
 </rss>
