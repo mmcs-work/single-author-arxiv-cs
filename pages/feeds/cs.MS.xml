@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Accurate Products, Inaccurate Inverse: Emulated FP64 BLAS in Blocked Triangular Inversion</title>
+      <link>http://arxiv.org/abs/2611.31030v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31030v1</guid>
+      <pubDate>Mon, 23 Nov 2026 17:07:11 +0000</pubDate>
+      <description>FP64 emulation on integer tensor units now ships in cuBLAS and GEMMul8, and each emulated matrix product can be checked against an accuracy grade. We ask if a routine built from such products inherits their accuracy, and show that blocked triangular inversion, the core of LAPACK's inverse of a symmetric positive definite matrix, does not. Under fixed-precision emulation every product passes the grade-B error bound of Demmel et al., yet the inverse errs at 7.1e-2, against 2.0e-15 natively. The matrices are well conditioned after diagonal scaling, but the scaling spans 64 binades. The cause is one product, T = X22 L21, whose summed index carries both the diagonal scaling and its inverse, which a grade-B bound does not absorb. Computing those products natively restores native accuracy; leaving any one of them emulated does not. The pattern holds on four GPUs, and on real covariance matrices the fixed-precision routes lose up to about four orders of accuracy. Equilibration, a solve-based association and cuBLAS's automatic dynamic precision avoid the loss, and an exact error recurrence audits a completed run. On an RTX 4090 the fastest accurate emulated inversion takes 0.40 of cuSOLVER's time. Where each product's scaling falls decides if per-product accuracy carries over to a composite routine, and that is what builders of emulated libraries need to check.</description>
+    </item>
+    <item>
+      <title>Portable Extended-Precision Floating-Point Arithmetic for Scientific Computing Kernels</title>
+      <link>http://arxiv.org/abs/2611.28959v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28959v1</guid>
+      <pubDate>Sat, 21 Nov 2026 17:49:16 +0000</pubDate>
+      <description>Many scientific computations need more accuracy than IEEE double precision, but arbitrary precision is often too costly on CPUs and GPUs. Multi-float arithmetic fills this gap by representing each value as an unevaluated sum of IEEE numbers. Existing implementations are generally confined to a CPU, CUDA, or language-specific programming model. We present MultiFloats.cpp, a header-only C++17 library that uses Kokkos to compile the same extended-precision kernels for Serial, OpenMP, CUDA, and HIP. The library supports Float64x2 through Float64x4 (106--212 bits) and the corresponding Float32-based types. We evaluate it using seven SHOC-style kernels and compare against QD, CAMPARY, MPFR, and Julia MultiFloats.jl on A100, GH200, and AMD RX 780M systems. On A100, Float64x4 addition sustains 15,700 MOps/s, or 1.5 times CAMPARY; on CPU, vectorized Float64x4 operations are 4.2--6.6 times faster than QD's qd_real. Addition and multiplication produce 0 ULP error over 10,000 inputs, while Float64x4 division and square root remain within 1.71 and 17.9 ULP, respectively. Thus, extended precision can remain practical and portable without separate backend implementations.</description>
+    </item>
+    <item>
       <title>Certified pandigital approximations of $π$, $γ$, $δ$ and $e$</title>
       <link>http://arxiv.org/abs/2611.25358v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.25358v1</guid>

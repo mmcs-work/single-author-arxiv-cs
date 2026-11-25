@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates</title>
+      <link>http://arxiv.org/abs/2611.31211v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31211v1</guid>
+      <pubDate>Mon, 23 Nov 2026 18:55:06 +0000</pubDate>
+      <description>Physics simulation outputs increasingly come from solvers that no expert inspects, such as third-party packages in automated pipelines, programs written by large language models (LLMs), and learned surrogates. In earlier work on cardiac pulsed field ablation, we proposed that solvers return a certificate with their answers. The certificate consists of an admissible potential and an exactly charge-conserving current, and a small independent checker turns it into guaranteed error bounds against a written specification of the physics. Here, the same checker verifies the outputs of other solvers on the same problem. Specifically, FEniCSx computes both fields and receives the same bounds as our own solver. Five plausible bugs in a correct solver, one of them about 0.2% from the true impedance, all converge and pass a grid convergence study, yet the certificate rejects or refutes all five. Of three solvers written by LLMs, one is correct and certified to 0.1%, and one never solves the equation but converges. Neural networks that predict the coefficients of a reduced basis emit admissible fields and receive valid per-prediction bounds, at most 0.0021% wide inside their training range and 0.3-25% wide outside it, where 90% conformal intervals cover none of 14 tests. Untuned Fourier neural operators with free nodal outputs receive valid but uninformative bounds. On a uniform grid, interpolation onto the certificate grid limits them, and on the certificate grid, thin cells turn small nodal errors into large energy errors. Energy-norm training narrows the certified interval tenfold, and projecting the nodal-loss outputs onto the reduced basis narrows it by two to four orders of magnitude, still uninformative. The guarantee concerns the stated model and holds for any output, wherever its input lies. It is informative only when the output is accurate in energy on a grid that resolves the problem.</description>
+    </item>
+    <item>
       <title>How Much of a Calculation-Error Rate Is Not Arithmetic: Auditing the FinReason Cup 2026 Task 3 Metric with a Deterministic Rule System</title>
       <link>http://arxiv.org/abs/2611.27192v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.27192v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/0812.4523</guid>
       <pubDate>Wed, 24 Dec 2008 00:00:00 -0000</pubDate>
       <description>We consider the basic features of complex dynamic and control systems, including systems having hierarchical structure. Special attention is paid to the problems of design and synthesis of complex systems and control models, and to the development of simulation techniques and systems. A model of complex system is proposed and briefly analyzed.</description>
-    </item>
-    <item>
-      <title>A Direct Matrix Method for Computing Analytical Jacobians of Discretized Nonlinear Integro-differential Equations</title>
-      <link>https://arxiv.org/abs/math/0702116</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/math/0702116</guid>
-      <pubDate>Wed, 10 Dec 2008 00:00:00 -0000</pubDate>
-      <description>In this pedagogical article, we present a simple direct matrix method for analytically computing the Jacobian of nonlinear algebraic equations that arise from the discretization of nonlinear integro-differential equations. The method is based on a formulation of the discretized equations in vector form using only matrix-vector products and component-wise operations. By applying simple matrix-based differentiation rules, the matrix form of the analytical Jacobian can be calculated with little more difficulty than that required when computing derivatives in single-variable calculus. After describing the direct matrix method, we present numerical experiments demonstrating the computational performance of the method, discuss its connection to the Newton-Kantorovich method, and apply it to illustrative 1D and 2D example problems. MATLAB code is provided to demonstrate the low code complexity required by the method.</description>
     </item>
   </channel>
 </rss>

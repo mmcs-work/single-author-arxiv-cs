@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Zarc: Exact Nearest Neighbors over a Billion Vectors in Seconds</title>
+      <link>http://arxiv.org/abs/2611.29252v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29252v1</guid>
+      <pubDate>Sun, 22 Nov 2026 05:45:22 +0000</pubDate>
+      <description>Exact k-nearest-neighbor vector search lies on the critical path of machine learning systems, from sparse attention in the latest large language models (LLMs) to long-context memories and training-data deduplication. Exhaustive GPU search scans the whole dataset for every query, while approximate indexes return inexact neighbors. Recent methods skip almost every vector with a cheap half-precision proof that it lies too far away, but only on one GPU that holds the whole dataset. Our insight is to keep only the short rows of these proofs in GPU memory and to fetch the few remaining full vectors from host memory. Our system, Zarc, answers Euclidean, cosine, inner-product, and filtered queries exactly under updates. On four H100 GPUs, it answers 10,000 exact queries over one billion vectors in 1.1 seconds instead of five minutes. On eleven open LLMs, it retrieves the exact top-10 attention keys 2.2x to 13.1x faster than exhaustive search. In sparse attention over one million tokens, it runs 3.1x faster than bf16 selection with FlashInfer, which misses the exact top-64 for most queries.</description>
+    </item>
+    <item>
+      <title>Mind the Trap As LLMs Guess the Data Model: Grain-Aware Guards Against Fan-out in Text-to-SQL and Its Benchmarks</title>
+      <link>http://arxiv.org/abs/2611.29009v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29009v1</guid>
+      <pubDate>Sat, 21 Nov 2026 19:39:56 +0000</pubDate>
+      <description>Text-to-SQL systems built on large language models (LLMs) often aggregate over one-to-many and many-to-many joins, a classic trap: when the joined rows repeat an entity, a SUM or COUNT counts it more than once, yet the query runs and returns a plausible number. We characterize these fan-out errors by one condition on the relation an aggregate reads, which depends on two facts a schema does not show: each measure's grain, and how many rows a join on each key repeats. An audit that tests the condition on the data finds distorted gold answers for 4.2% of the dev questions of BIRD, a widely used benchmark, and BIRD's later, independent revision changed 44% of the answers the audit flags as definite fan-out, against 16% of unflagged ones. We release BIRD-FanOut, 486 BIRD questions with reviewed gold, and GrainTraps, synthetic questions that set this trap and related ones. Across eight LLM agents, functional dependencies (FDs) computed from the data help no more than per-column statistics on GrainTraps, but grain-aware FDs, which also state each measure's grain and the repetition per key, cut fan-out errors on BIRD from 18.4% of runs to about 13%, also on held-out questions and without LLM judges. Accuracy rises less, because most remaining errors are not fan-out and BIRD's hints often prescribe the over-count. Text-to-SQL models should be given the grain of the data, and benchmark gold should be audited on the data. Code, data and benchmarks are available at https://github.com/ahmed-mahran/misqal</description>
+    </item>
+    <item>
       <title>Federated KPI Aggregation with Local Privacy Constraints and Coordinated OLAP Roll-Ups</title>
       <link>http://arxiv.org/abs/2611.26709v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26709v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1209.4257</guid>
       <pubDate>Wed, 19 Sep 2012 00:00:00 -0000</pubDate>
       <description>A widely used approach to clustering a single data stream is the two-phased approach in which the online phase creates and maintains micro-clusters while the off-line phase generates the macro-clustering from the micro-clusters. We use this approach to propose a distributed framework for clustering streaming data. Our proposed framework consists of fundamen- tal processes: one coordinator-site process and many remote-site processes. Remote-site processes can directly communicate with the coordinator-process but cannot communicate the other remote site processes. Every remote-site process generates and maintains micro- clusters that represent cluster information summary, from its local data stream. Remote sites send the local micro-clusterings to the coordinator by the serialization technique, or the coordinator invokes the remote methods in order to get the local micro-clusterings from the remote sites. After the coordinator receives all the local micro-clusterings from the remote sites, it generates the global clustering by the macro-clustering method. Our theoretical and empirical results show that, the global clustering generated by our distributed framework is similar to the clustering generated by the underlying centralized algorithm on the same data set. By using the local micro-clustering approach, our framework achieves high scalability, and communication-efficiency.</description>
-    </item>
-    <item>
-      <title>Cyclic Association Rules Mining under Constraints</title>
-      <link>https://arxiv.org/abs/1209.3944</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1209.3944</guid>
-      <pubDate>Tue, 18 Sep 2012 00:00:00 -0000</pubDate>
-      <description>Several researchers have explored the temporal aspect of association rules mining. In this paper, we focus on the cyclic association rules, in order to discover correlations among items characterized by regular cyclic variation overtime. The overview of the state of the art has revealed the drawbacks of proposed algorithm literatures, namely the excessive number of generated rules which are not meeting the expert's expectations. To overcome these restrictions, we have introduced our approach dedicated to generate the cyclic association rules under constraints through a new method called Constraint-Based Cyclic Association Rules CBCAR. The carried out experiments underline the usefulness and the performance of our new approach.</description>
-    </item>
-    <item>
-      <title>Formal Concept Analysis Based Association Rules Extraction</title>
-      <link>https://arxiv.org/abs/1209.3943</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1209.3943</guid>
-      <pubDate>Tue, 18 Sep 2012 00:00:00 -0000</pubDate>
-      <description>Generating a huge number of association rules reduces their utility in the decision making process, done by domain experts. In this context, based on the theory of Formal Concept Analysis, we propose to extend the notion of Formal Concept through the generalization of the notion of itemset in order to consider the itemset as an intent, its support as the cardinality of the extent and its relevance which is related to the confidence of rule. Accordingly, we propose a new approach to extract interesting itemsets through the concept coverage. This approach uses a new quality-criteria of a rule: the relevance bringing a semantic added value to formal concept analysis approach to discover association rules.</description>
     </item>
   </channel>
 </rss>

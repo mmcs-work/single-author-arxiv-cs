@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Recent Reversal in Single-Authored Papers</title>
+      <link>http://arxiv.org/abs/2611.30189v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30189v1</guid>
+      <pubDate>Mon, 23 Nov 2026 07:34:37 +0000</pubDate>
+      <description>The number of authors per scientific paper has risen for decades, and the share of single-authored papers has correspondingly declined, a pattern long documented across fields. This study shows that on arXiv.org this decline has recently reversed. Findings indicate that for submissions between 2015 and early 2026, after falling steadily for a decade, the single-author share rose from 10.9% in 2024 to 11.2% in 2025, and in the first quarter it rose from 10.7% in 2025 to 12.9% in 2026. This is the largest single year-over-year first-quarter change in the studied window, and the first increase in the first-quarter series. In 2025, for the first time in the studied period, the number of single-authored papers grew faster year-over-year than the number of multi-authored papers, reversing the long-standing pattern. This reversal is notable because it is broad, rising within all eight top-level arXiv categories, and because it reflects a genuine change in authoring practice within fields rather than the shifting disciplinary composition of arXiv submissions. A comparison of five arXiv snapshots spanning 2022 to 2026 confirms that the finding is not an artifact of incomplete or revised author metadata in recent submissions. As robustness checks, article-type records from OpenAlex, a database covering a broader range of disciplines, and an arXiv snapshot extended through September 2026 both confirm these findings. This latest snapshot shows the share still rising, to 14.1% in Q2 and 17.0% in Q3 of 2026, compared with 10.5% and 11.1% in the same quarters of 2025.</description>
+    </item>
+    <item>
       <title>Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era</title>
       <link>http://arxiv.org/abs/2611.26286v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26286v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1209.2807</guid>
       <pubDate>Thu, 13 Sep 2012 00:00:00 -0000</pubDate>
       <description>In computer science, conferences and journals conduct peer review in order to decide what to publish. Many have pointed out the inherent weaknesses in peer review, including those of bias, quality, and accountability. Many have suggested and adopted refinements of peer review, for instance, double blind peer review with author rebuttals. In this essay, I argue that peer review as currently practiced conflates the sensible idea of getting comments on a paper with the irrevocably-flawed one that we either accept or reject the paper, which I term gatekeeping. If we look at the two separately, then it is clear that the ills associated with current peer review systems are not due to the practice of getting comments, but due to the practice of gatekeeping. True peer review constitutes my proposal for replacing existing peer review systems. It embraces the idea of open debate on the merits of a paper; however, it rejects unequivocally the exercise of gatekeeping. True peer review offers all the benefits of current peer review systems but has none of its weaknesses. True peer review will lead to a truly engaged community of researchers and therefore better science.</description>
-    </item>
-    <item>
-      <title>A Plan For Curating "Obsolete Data or Resources"</title>
-      <link>https://arxiv.org/abs/1209.2664</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1209.2664</guid>
-      <pubDate>Wed, 12 Sep 2012 00:00:00 -0000</pubDate>
-      <description>Our cultural discourse is increasingly carried in the web. With the initial emergence of the web many years ago, there was a period where conventional mediums (e.g., music, movies, books, scholarly publications) were primary and the web was a supplementary channel. This has now changed, where the web is often the primary channel, and other publishing mechanisms, if present at all, supplement the web. Unfortunately, the technology for publishing information on the web always outstrips our technology for preservation. My concern is less that we will lose data of known importance (e.g., scientific data, census data), but rather that we will lose data that we do not yet know is important. In this paper I review some of the issues and, where appropriate, proposed solutions for increasing the archivability of the web.</description>
     </item>
   </channel>
 </rss>

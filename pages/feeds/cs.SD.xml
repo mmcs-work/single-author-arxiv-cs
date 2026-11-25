@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>What Do Sound Event Embeddings Reveal? Auditing Speaker Leakage in Audio Representations</title>
+      <link>http://arxiv.org/abs/2611.31043v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31043v1</guid>
+      <pubDate>Mon, 23 Nov 2026 17:13:27 +0000</pubDate>
+      <description>Pretrained audio embeddings are increasingly used as intermediate representations for sound event detection (SED) and other always-on acoustic sensing tasks. While these representations are selected for their utility on downstream tasks, they may also retain sensitive information unrelated to their intended purpose, creating privacy risks even when raw audio is not exposed. In this work, we present an empirical framework for auditing privacy leakage from pretrained audio embeddings using two complementary approaches. First, we quantify representation-level leakage by measuring statistical dependence between an audio embedding and a representation specialized for encoding sensitive information. Second, we measure attack-level leakage by training lightweight adversarial probes to recover sensitive attributes directly from the embedding. We apply this framework to four widely used audio representations (CLAP, PANNs, AST, and YAMNet) and evaluate leakage of speaker identity and gender. We found that speaker identification balanced accuracy ranges from $0.43$ to $0.72$, while gender information is also strongly recoverable. Moreover, representation-level and attack-based measurements exhibit consistent trends, with CLAP leaking the most and YAMNet leaking the lest speaker identity. These results demonstrate that intermediate audio representations are not inherently privacy-preserving interfaces and motivate privacy leakage as an explicit criterion, alongside downstream utility, when selecting representations for acoustic sensing systems.</description>
+    </item>
+    <item>
+      <title>Scoring L2 Pronunciation Without Synthesis: Counterfactual Velocity Contrast in Frozen Flow-Matching TTS</title>
+      <link>http://arxiv.org/abs/2611.29985v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29985v1</guid>
+      <pubDate>Mon, 23 Nov 2026 03:48:08 +0000</pubDate>
+      <description>Flow-matching text-to-speech (TTS) models learn how native speakers realize a text, yet this knowledge is used only for synthesis. We show that a frozen TTS model can score non-native (L2) pronunciation without generating audio. For a learner utterance, we compare the model's velocity-prediction error under the target text with its error under a counterfactual text (dropped or swapped) on the same noised input; the difference behaves like a generative goodness-of-pronunciation score. The signal is confined to a narrow band of high-noise timesteps, which a native-speech criterion locates and a closed-form rule transfers across backbones. On speaker-disjoint speechocean762, four frozen TTS models reach $r{=}0.58$--$0.63$ with human scores, within the range of zero-shot ASR and phone-level baselines, and adding them to those baselines in a label-free fusion raises $r$ from $0.698$ to $0.757$. Cached frame scores also flag word-level errors at no extra TTS cost.</description>
+    </item>
+    <item>
+      <title>PAWP-TTS: Phoneme-Aware Weight Programming for Compact Bilingual English-Nepali Speech Synthesis</title>
+      <link>http://arxiv.org/abs/2611.29455v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29455v1</guid>
+      <pubDate>Sun, 22 Nov 2026 12:54:38 +0000</pubDate>
+      <description>This paper presents PAWP-TTS, a compact non-autoregressive text-to-speech system for English, Nepali, and English-Nepali code-mixed speech at 24 kHz, with no language model at inference. Deterministic pronunciation knowledge lives in a rule- and lexicon-based bilingual frontend that preserves native Nepali contrasts and avoids Hindi phonology, so the network only models acoustics. Counting every learned inference tensor, including the waveform decoder, PAWP-1.5M (1,490,390 parameters, 5.98 MB) reaches 1.50% English and 1.75% Nepali character error rate under a single ASR recognizer, and 5.04% / 4.02% Nepali / English phoneme error rate (PER) on 600 untouched test utterances. Decoder-centric 281K-parameter models (1.1 MB) stay intelligible across three independent seeds, with equal-budget dense models (5.53 +/- 0.08% NE, 5.34 +/- 0.28% EN PER) outperforming K=2 cross-layer shared-basis models (6.35 +/- 0.11% NE, 6.57 +/- 0.47% EN PER). Fixing a frontend/label version mismatch nearly halved Nepali PER, more than any architectural or weight-level change. The paper then studies weight-space programming: inspection-guided, zero-training weight edits. Under strict controls (validation-only selection, one-shot test, paired bootstrap, matched random and same-parameter gradient baselines), edits show real selectivity (27:1 on word-boundary pauses with 96 weights; zero cross-lingual collateral inside language-gated residuals) but no accuracy gain beyond controls. Two apparent targets proved to be label or phonology artifacts. Code, ONNX graphs, and CC BY 4.0 weights are released.</description>
+    </item>
+    <item>
+      <title>Training speech deepfake detectors against worst-case filters: Gains, Costs and Limits</title>
+      <link>http://arxiv.org/abs/2611.28718v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28718v1</guid>
+      <pubDate>Sat, 21 Nov 2026 10:23:07 +0000</pubDate>
+      <description>Speech deepfake detectors make few errors on standard benchmarks, yet a simple attack defeats them: the attacker passes fake speech through one short filter, tuned against the detector, and many fakes then pass as real. Training with random filters does not stop this attack, because the attacker uses the worst filter, not a random one. We therefore train the detector against the worst case: during training, a small set of filters is updated to fool the current detector, at about the cost of random filters. In a preregistered study, this made the detector more robust to filter attacks on real-world recordings than random filters did. It also lowered the in-domain attack error of the standard detector, and beat one-step adversarial training with additive noise on real-world recordings. The price is a higher error on unfiltered speech, and a validation study shows that choosing the checkpoint on held-out spoofing systems made the standard detector about as robust.</description>
+    </item>
+    <item>
       <title>Blind tests of a simple-body model of submarine target strength on open benchmarks</title>
       <link>http://arxiv.org/abs/2611.25977v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.25977v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1706.09558</guid>
       <pubDate>Thu, 29 Jun 2017 00:00:00 -0000</pubDate>
       <description>Presented is a method of generating a full drum kit part for a provided kick-drum sequence. A sequence to sequence neural network model used in natural language translation was adopted to encode multiple musical styles and an online survey was developed to test different techniques for sampling the output of the softmax function. The strongest results were found using a sampling technique that drew from the three most probable outputs at each subdivision of the drum pattern but the consistency of output was found to be heavily dependent on style.</description>
-    </item>
-    <item>
-      <title>Machine listening intelligence</title>
-      <link>https://arxiv.org/abs/1706.09557</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1706.09557</guid>
-      <pubDate>Thu, 29 Jun 2017 00:00:00 -0000</pubDate>
-      <description>This manifesto paper will introduce machine listening intelligence, an integrated research framework for acoustic and musical signals modelling, based on signal processing, deep learning and computational musicology.</description>
-    </item>
-    <item>
-      <title>Impulsive Sound Detection by a Novel Energy Formula and its Usage for Gunshot Recognition</title>
-      <link>https://arxiv.org/abs/1706.08759</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1706.08759</guid>
-      <pubDate>Tue, 27 Jun 2017 00:00:00 -0000</pubDate>
-      <description>There are many methods proposed for the detection of impulsive sounds in literature. Most of them are complex and require adaptation to ambient noise. In this paper we propose a very simple and efficient method to detect impulsive sounds. Although we use energy like most of the others to determine impulsive sounds, the way we calculate the energy is quite different. Also our calculation is immune to ambient noise and does not require any limit or adaptation. We could detect impulsive sounds embedded in various kinds of noises by using this formula. As our ultimate aim is to detect gunshots, next phase of impulsive sound detection is gunshot recognition phase. Detected impulsive sounds are fed into recognition phase in which we can decide on gunshots with high success rate.</description>
-    </item>
-    <item>
-      <title>Between Homomorphic Signal Processing and Deep Neural Networks: Constructing Deep Algorithms for Polyphonic Music Transcription</title>
-      <link>https://arxiv.org/abs/1706.08231</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1706.08231</guid>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 -0000</pubDate>
-      <description>This paper presents a new approach in understanding how deep neural networks (DNNs) work by applying homomorphic signal processing techniques. Focusing on the task of multi-pitch estimation (MPE), this paper demonstrates the equivalence relation between a generalized cepstrum and a DNN in terms of their structures and functionality. Such an equivalence relation, together with pitch perception theories and the recently established rectified-correlations-on-a-sphere (RECOS) filter analysis, provide an alternative way in explaining the role of the nonlinear activation function and the multi-layer structure, both of which exist in a cepstrum and a DNN. To validate the efficacy of this new approach, a new feature designed in the same fashion is proposed for pitch salience function. The new feature outperforms the one-layer spectrum in the MPE task and, as predicted, it addresses the issue of the missing fundamental effect and also achieves better robustness to noise.</description>
-    </item>
-    <item>
-      <title>Collaborative Deep Learning for Speech Enhancement: A Run-Time Model Selection Method Using Autoencoders</title>
-      <link>https://arxiv.org/abs/1705.10385</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1705.10385</guid>
-      <pubDate>Mon, 29 May 2017 00:00:00 -0000</pubDate>
-      <description>We show that a Modular Neural Network (MNN) can combine various speech enhancement modules, each of which is a Deep Neural Network (DNN) specialized on a particular enhancement job. Differently from an ordinary ensemble technique that averages variations in models, the propose MNN selects the best module for the unseen test signal to produce a greedy ensemble. We see this as Collaborative Deep Learning (CDL), because it can reuse various already-trained DNN models without any further refining. In the proposed MNN selecting the best module during run time is challenging. To this end, we employ a speech AutoEncoder (AE) as an arbitrator, whose input and output are trained to be as similar as possible if its input is clean speech. Therefore, the AE can gauge the quality of the module-specific denoised result by seeing its AE reconstruction error, e.g. low error means that the module output is similar to clean speech. We propose an MNN structure with various modules that are specialized on dealing with a specific noise type, gender, and input Signal-to-Noise Ratio (SNR) value, and empirically prove that it almost always works better than an arbitrarily chosen DNN module and sometimes as good as an oracle result.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Closed-Form Formula for $d_{\mathrm{critical}}(a_0)$ in Large Fully Connected Power Grids</title>
+      <link>http://arxiv.org/abs/2611.30922v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30922v1</guid>
+      <pubDate>Mon, 23 Nov 2026 16:15:00 +0000</pubDate>
+      <description>Kadloor and Santhi (arXiv:1011.4098) modeled cascading failures in a large fully connected power grid by a coupled four-variable recursion for the minimum surviving load $a_n$, the mean failed load $μ_{n-1}$, the redistributed load $\mathcal{D}_n$, and the stagewise failure probability $p_n$. They noted that the recursion was not tractable and identified the critical disturbance $d_{\mathrm{critical}}$ by simulation. We show that the recursion telescopes exactly into a one-dimensional monotone map $a_{n+1} = g(a_n)$. This yields the threshold in closed form: $1 - a_0 = d_{\mathrm{critical}}\,(1 + \ln(1 + 1/d_{\mathrm{critical}}))$, or explicitly in terms of the lower branch $W_{-1}$ of the Lambert W function. We prove a sharp dichotomy. For $d_m \le d_{\mathrm{critical}}$ the cascade halts with limiting load $a_0 + d_{\mathrm{critical}}$ at criticality and surviving fraction $1/(1 + d_{\mathrm{critical}})$. For $d_m &gt; d_{\mathrm{critical}}$ a complete outage occurs in finitely many steps.</description>
+    </item>
+    <item>
+      <title>Two Rounds Are Already Hard for Loop-Free Updates of Routing Trees</title>
+      <link>http://arxiv.org/abs/2611.29695v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29695v1</guid>
+      <pubDate>Sun, 22 Nov 2026 18:56:19 +0000</pubDate>
+      <description>Updating a routing tree can create loops even when the old and new trees lead to the same destination. A controller chooses which routers update in each round, but their updates may finish in any order. Strong loop freedom therefore requires every partial completion to be acyclic. We show that deciding whether two rounds suffice is NP-complete, even when a safe three-round schedule is supplied. The proof is a linear-size reduction from 3-SAT with one old clause spine and four routers per variable. Three types of mixed cycles enforce consistent literal choices and clause satisfaction. For every nonempty input formula, the constructed instance needs exactly two rounds if the formula is satisfiable and exactly three otherwise.</description>
+    </item>
+    <item>
       <title>On Traffic Characterization in Time-Sensitive Networking and Deterministic Networking</title>
       <link>http://arxiv.org/abs/2611.22744v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.22744v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1801.00280</guid>
       <pubDate>Sun, 31 Dec 2017 00:00:00 -0000</pubDate>
       <description>Mobile networks are intriguing in recent years due to their practical implications. Previous routing strategies for improving transport efficiency have little attention what order should the packets be forwarded, just simply used first-in-first-out queue discipline. Here we apply priority queueing discipline to shortest distance routing strategy on mobile networks. Numerical experiments show it not only remarkably improves network throughput and the packet arriving rate, but also reduces average end-to-end delay and the rate of queueing delay. Our work may be helpful in routing strategy designing on mobile networks.</description>
-    </item>
-    <item>
-      <title>Randomized Communication in Radio Networks</title>
-      <link>https://arxiv.org/abs/1801.00074</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1801.00074</guid>
-      <pubDate>Sat, 30 Dec 2017 00:00:00 -0000</pubDate>
-      <description>A communication network is called a radio network if its nodes exchange messages in the following restricted way. First, a send operation performed by a node delivers copies of the same message to all directly reachable nodes. Secondly, a node can successfully receive an incoming message only if exactly one of its neighbors sent a message in that step. It is this semantics of how ports at nodes send and receive messages that defines the networks rather than the fact that only radio waves are used as a medium of communication; but if that is the case then just a single frequency is used. We discuss algorithmic aspects of exchanging information in such networks, concentrating on distributed randomized protocols. Specific problems and solutions depend a lot on the topology of the underlying reachability graph and how much the nodes know about it. In single-hop networks each pair of nodes can communicate directly. This kind of networks is also known as the multiple access channel. Popular broadcasting protocols used on such channels are Aloha and the exponential backoff. Multi-hop networks may have arbitrary topology and packets need to be routed hopping through a sequence of adjacent nodes. Distributed protocols run by such networks are usually robust enough not to expect the nodes to know their neighbors. These ad-hoc networks and protocols model the situation when nodes are mobile and do not rely on a fixed infrastructure.</description>
-    </item>
-    <item>
-      <title>Cuckoo++ Hash Tables: High-Performance Hash Tables for Networking Applications</title>
-      <link>https://arxiv.org/abs/1712.09624</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1712.09624</guid>
-      <pubDate>Wed, 27 Dec 2017 00:00:00 -0000</pubDate>
-      <description>Hash tables are an essential data-structure for numerous networking applications (e.g., connection tracking, firewalls, network address translators). Among these, cuckoo hash tables provide excellent performance by allowing lookups to be processed with very few memory accesses (2 to 3 per lookup). Yet, for large tables, cuckoo hash tables remain memory bound and each memory access impacts performance. In this paper, we propose algorithmic improvements to cuckoo hash tables allowing to eliminate some unnecessary memory accesses; these changes are conducted without altering the properties of the original cuckoo hash table so that all existing theoretical analysis remain applicable. On a single core, our hash table achieves 37M lookups per second for positive lookups (i.e., when the key looked up is present in the table), and 60M lookups per second for negative lookups, a 50% improvement over the implementation included into the DPDK. On a 18-core, with mostly positive lookups, our implementation achieves 496M lookups per second, a 45% improvement over DPDK.</description>
     </item>
   </channel>
 </rss>

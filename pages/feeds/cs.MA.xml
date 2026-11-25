@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Vetoes and missed agreements in language-model bargaining</title>
+      <link>http://arxiv.org/abs/2611.30950v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30950v1</guid>
+      <pubDate>Mon, 23 Nov 2026 16:27:35 +0000</pubDate>
+      <description>A language model played three representatives, each instructed to get the best payoff for its own group. One representative requested a plan, another chose the sole offer, and all three voted. If anyone voted no, each group received its fallback payoff. In 60 games with Qwen3-Next-80B, the representative at risk of a loss always requested a plan that would leave everyone better off. In each game, two copies of the proposer saw the same payoffs, peer request and reminder that the offer needed three yes votes. Showing the proposer how many groups gained under each plan raised mutually beneficial agreements from 6/60 to 31/60 (paired increase 41.7 percentage points, conservative 95% interval 18.8 to 58.5). Two of the four plans benefited everyone, so picking uniformly would put a mutual gain on the ballot half the time on average. In an earlier study, GPT-4.1 played 12 conflict games under two message conditions. Majority rule passed 15 of 24 offers, all at one group's expense. Unanimity passed two, both mutual gains. In the Qwen games, voters never saw the counts. They approved all 37 offers that helped everyone. On all 83 offers that would have cost one group points, its representative voted no.</description>
+    </item>
+    <item>
+      <title>Causal Evidence for the Emergence and Spread of Reward Hacking in AI Agent Swarms</title>
+      <link>http://arxiv.org/abs/2611.30185v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30185v1</guid>
+      <pubDate>Mon, 23 Nov 2026 07:30:56 +0000</pubDate>
+      <description>Autonomous AI agents that coordinate and collaborate among each other have become pervasive across domains ranging from scientific research to finance and engineering. The opportunity to share messages and build upon each other's work also creates the potential for misaligned behaviors to spread across AI agents. We provide causal evidence that mere exposure to reward hacking, cheating on a task to pass an automated check, is enough to spread the behavior among AI agents, even after the cheat has been rejected. We conducted 17 preregistered experiments with six frontier models (n = 20,111 agents). First, we show that cheating emerges spontaneously. When agents were told that work passing the visible tests is accepted, 33% cheated in the first round, when the shared record of teammates' submissions was empty. Second, we show that agents who rarely cheat when working alone cheat most of the time after seeing a teammate's cheat, as 94% of teammates who saw an accepted cheat cheated. Third, we show that rejection of reward-hacked solutions offers little protection, using experiments that changed only the label on the cheat. Most agents copied a cheat labeled rejected, 34% of agents cheated after an AI reviewer had rejected the cheat, and nearly every agent copied a cheat labeled accepted. Fourth, we show that cheating generalizes to new tasks. On a new problem with an empty collaboration record, 70% of agents who had earlier seen an accepted cheat cheated again, compared with 32% of agents who had seen an empty record. Fifth, we show that cheating spreads from neighbor to neighbor through networks of 256 agents. In the networks, 44% of agents with a cheating neighbor cheated, compared with 2% of other agents. Together, the results suggest that mere exposure can spread misaligned behavior among AI agents, and that catching a cheat is insufficient once other agents have seen the cheat.</description>
+    </item>
+    <item>
+      <title>Notes on Generative AI for Mathematical Research</title>
+      <link>http://arxiv.org/abs/2611.29811v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29811v1</guid>
+      <pubDate>Sun, 22 Nov 2026 22:35:19 +0000</pubDate>
+      <description>These notes describe how generative AI is now used to solve and to check research-level mathematics, with a focus on agents and their harnesses. For the proving agents Rethlas, Danus, and Pharos and the verification agent OSVerify, we explain the design principles, compare each with its base model, present case studies, and show how to use and contribute to them. We also briefly review the history of AI for mathematics and the community's reactions to it.</description>
+    </item>
+    <item>
       <title>Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification</title>
       <link>http://arxiv.org/abs/2611.27839v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.27839v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2004.06135</guid>
       <pubDate>Mon, 13 Apr 2020 00:00:00 -0000</pubDate>
       <description>We propose an agent-based model, MNegoti, for simulating multilateral negotiation process, which can be naturally employed in group decision support system. This model can also be applied to any use case in which negotiation is involved, in order to simulate the negotiation process. In this report, we discuss the implementation of the MNegoti model on the basis of the agent-based simulation platform, Repast Simphony. It is worth pointing out that this model can be used to create a java module for any use of agent-based negotiation simulation.</description>
-    </item>
-    <item>
-      <title>Multiagent Rollout Algorithms and Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/1910.00120</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1910.00120</guid>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 -0000</pubDate>
-      <description>We consider finite and infinite horizon dynamic programming problems, where the control at each stage consists of several distinct decisions, each one made by one of several agents. We introduce an approach, whereby at every stage, each agent's decision is made by executing a local rollout algorithm that uses a base policy, together with some coordinating information from the other agents. The amount of local computation required at every stage by each agent is independent of the number of agents, while the amount of total computation (over all agents) grows linearly with the number of agents. By contrast, with the standard rollout algorithm, the amount of total computation grows exponentially with the number of agents. Despite the drastic reduction in required computation, we show that our algorithm has the fundamental cost improvement property of rollout: an improved performance relative to the base policy. We also discuss possibilities to improve further the method's computational efficiency through limited agent coordination and parallelization of the agents' computations. Finally, we explore related approximate policy iteration algorithms for infinite horizon problems, and we prove that the cost improvement property steers the algorithm towards convergence to an agent-by-agent optimal policy.</description>
-    </item>
-    <item>
-      <title>Designing and Connectivity Checking of Implicit Social Networks from the User-Item Rating Data</title>
-      <link>https://arxiv.org/abs/2004.02166</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2004.02166</guid>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 -0000</pubDate>
-      <description>\emph{Implicit Social Network} is a connected social structure among a group of persons, where two of them are linked if they have some common interest. One real\mbox{-}life example of such networks is the implicit social network among the customers of an online commercial house, where there exists an edge between two customers if they like similar items. Such networks are often useful for different commercial applications such as \textit{target advertisement}, \textit{viral marketing}, etc. In this article, we study two fundamental problems in this direction. The first one is that, given the user\mbox{-}item rating data of an E\mbox{-}Commerce house, how we can design implicit social networks among its users and the second one is at the time of designing itself can we obtain the connectivity information among the users. Formally, we call the first problem as the \textsc{Implicit User Network Design} Problem and the second one as \textsc{Implicit User Network Design with Connectivity Checking} Problem. For the first problem, we propose three different algorithms, namely \emph{`Exhaustive Search Approach'}, \emph{`Clique Addition Approach'}, and \textit{`Matrix Multiplication\mbox{-}Based Approach'}. For the second problem, we propose two different approaches. The first one is the sequential approach: designing and then connectivity checking, and the other one is a concurrent approach, which is basically an incremental algorithm that performs designing and connectivity checking simultaneously. Proposed methodologies have experimented with three publicly available rating network datasets such as \emph{Flixter}, \textit{Movielens}, and \textit{Epinions}.</description>
-    </item>
-    <item>
-      <title>Corrigibility with Utility Preservation</title>
-      <link>https://arxiv.org/abs/1908.01695</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1908.01695</guid>
-      <pubDate>Fri, 03 Apr 2020 00:00:00 -0000</pubDate>
-      <description>Corrigibility is a safety property for artificially intelligent agents. A corrigible agent will not resist attempts by authorized parties to alter the goals and constraints that were encoded in the agent when it was first started. This paper shows how to construct a safety layer that adds corrigibility to arbitrarily advanced utility maximizing agents, including possible future agents with Artificial General Intelligence (AGI). The layer counter-acts the emergent incentive of advanced agents to resist such alteration. A detailed model for agents which can reason about preserving their utility function is developed, and used to prove that the corrigibility layer works as intended in a large set of non-hostile universes. The corrigible agents have an emergent incentive to protect key elements of their corrigibility layer. However, hostile universes may contain forces strong enough to break safety features. Some open problems related to graceful degradation when an agent is successfully attacked are identified. The results in this paper were obtained by concurrently developing an AGI agent simulator, an agent model, and proofs. The simulator is available under an open source license. The paper contains simulation results which illustrate the safety related properties of corrigible AGI agents in detail.</description>
     </item>
   </channel>
 </rss>

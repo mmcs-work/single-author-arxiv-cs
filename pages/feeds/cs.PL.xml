@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>What Field Enumeration Costs to Compile in C++26: Native Reflection, Structured-Binding Packs, Reflection Libraries and Hand-Written Serializers on GCC 16</title>
+      <link>http://arxiv.org/abs/2611.30250v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30250v1</guid>
+      <pubDate>Mon, 23 Nov 2026 08:17:22 +0000</pubDate>
+      <description>C++26 adds standard ways to enumerate a struct's fields, among them static reflection (P2996, with P3394 annotations) and structured-binding packs (P1061), alongside hand-written code, X-macros and libraries (Boost.PFR, reflect-cpp, Glaze) that now ship pre-C++26 and C++26 paths. We time each in a struct serializer with byte-identical output on GCC 16.2.0, at the front end and at -O2, in randomized interleaved rounds with code-level checks of every single-factor contrast. At the front end, inline native enumeration in the form used in several of P2996's own examples, an expansion statement over the std::span of define_static_array, costs about as much per struct of 16 scalar fields as Boost.PFR and 7.96x a P1061 pack, itself about as cheap as hand-written code. The same loop over a constant array costs 0.47x as much: about half of the span form's cost comes with the span. The ratio to P1061 shrinks on a heterogeneous type graph and at -O2. In a whole translation unit at the front end the library outweighs the mechanism: 200 structs take 0.59 s with inline native enumeration, 0.56 s with Boost.PFR and 3.86-4.13 s with the C++26 paths of reflect-cpp and Glaze, whose visitors also compute field names. Per type, each library's C++26 path is cheaper than its pre-C++26 path at 16 fields, but Glaze's gain reverses at 128 fields (pinned release v9.1.0); Boost.PFR's C++17 path grows almost quadratically with the number of types. Hand-written serializers sharing one overloaded name grow superlinearly with the number of types. The -freflection flag alone makes reflection-free code up to 1.264x costlier per type on GCC 16.2.0 and up to 2.578x on 16.1.0, so comparisons between mechanisms depend on the point release. Part of the span form's cost grows with the number of structs, which we trace to GCC registering block-scope statics in quadratic time (reported as GCC PR128928).</description>
+    </item>
+    <item>
+      <title>StatClaim: Study Designs as Types, Protocols as Programs and Statistical Claims as Proof Obligations</title>
+      <link>http://arxiv.org/abs/2611.30021v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30021v1</guid>
+      <pubDate>Mon, 23 Nov 2026 04:23:56 +0000</pubDate>
+      <description>Statistical guarantees depend on the compatibility of a study's model, hypotheses, sampling plan and analysis. StatClaim is a declarative domain-specific language for encoding research protocols and statistical analysis plans as programs built from objects whose types encode their statistical roles within the study design. The compiler checks type compatibility and applies contracts to check additional requirements on the values and relationships of these objects. When verification is requested, StatClaim's backend constructs and checks proofs of supported statistical claims using Lean under stated assumptions. These claims concern Type I error, familywise error, power and interval coverage, including supported combinations of analyses and procedures with planned stopping rules. Reports distinguish formally proved, conditional, cited and author-declared guarantees and provide replayable certificates for verified claims. The same specification supports sample-size searches, power calculations and interval-precision assessment using exact calculations, analytical approximations or reproducible simulation. A command-line interface, editor integration and graphical block editor use a shared compiler and execution layer. Validation reproduces 102 optimal and minimax two-stage designs from Simon's published tables and verifies their error and power bounds in Lean. A clinical trial case study illustrates partial encoding of a published analysis plan using cited methods and conditional proofs. The open-source implementation includes runnable tutorials and examples for specifying and checking study designs before outcomes are collected.</description>
+    </item>
+    <item>
       <title>SafeJIT: A Speculating JIT Engine Verified Down to the Machine Code</title>
       <link>http://arxiv.org/abs/2611.28436v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.28436v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1812.08278</guid>
       <pubDate>Wed, 19 Dec 2018 00:00:00 -0000</pubDate>
       <description>Coroutines are non-preemptive concurrent subroutines that, unlike preemptive threads, voluntarily transfer control between each others. Introduced in the 60s before loosing in popularity in the 80s, they have seen a regain of interest in recent years, thanks to how elegantly they can solve numerous algorithmic problems. Unfortunately, some mainstream languages still lack support for coroutines, hence requiring either the use of non-standard interpreter/compilers, or elaborate hacks in thrid-party libraries. In this short paper, we propose a very simple way to implement coroutine-like components on the top of any language that support or can emulate higher order functions. We accompany our explanations with a handful of examples in JavaScript.</description>
-    </item>
-    <item>
-      <title>Exposing A Customizable, Decentralized Cryptoeconomy as a Data Type</title>
-      <link>https://arxiv.org/abs/1812.08073</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1812.08073</guid>
-      <pubDate>Wed, 19 Dec 2018 00:00:00 -0000</pubDate>
-      <description>Purposely modular, this protocol enables customization of several protocol properties, including the consensus properties implemented, blockchain type, the roots used, and virtual machine opcodes, among others. These modules enable implementing parties to control the behavior of their economy, with a minimal amount of effort, and no sacrifice in participant cryptoeconomic quality. This work also demonstrates the simplification of the developer experience by abstracting away all technological details, except basic CRUD-based operations, using various programming languages. We demonstrate the mechanism design approach taken, and formalize a process for deploying populations of blockchain economies at scale. The framework shown includes adequate tooling for simulation, development, deployment, maintenance, and analytic-based decision making. Lastly, we introduce an expressive programming language for the purpose of creating, and interacting with the cryptoeconomy designed by the implementing developer.</description>
-    </item>
-    <item>
-      <title>Undecidability of Inferring Linear Integer Invariants</title>
-      <link>https://arxiv.org/abs/1812.01069</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1812.01069</guid>
-      <pubDate>Thu, 06 Dec 2018 00:00:00 -0000</pubDate>
-      <description>We show that the problem of determining the existence of an inductive invariant in the language of quantifier free linear integer arithmetic (QFLIA) is undecidable, even for transition systems and safety properties expressed in QFLIA.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,41 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Optimal Regret Lower Bounds in Matrix Games</title>
+      <link>http://arxiv.org/abs/2611.31149v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31149v1</guid>
+      <pubDate>Mon, 23 Nov 2026 18:17:28 +0000</pubDate>
+      <description>We study learning in two-player zero-sum games, also known as matrix games, in which two players with $m$ and $n$ actions repeatedly select mixed strategies for $T$ rounds. The learning dynamics based on optimistic Hedge guarantee regrets of $O(\log(mn))$, which improve to $O(\sqrt{\log m\log n})$ if each player knows the number of actions of the opponent, whereas matching regret lower bounds have been known only for specific learning dynamics. We prove that, for every deterministic learning dynamic, there exists a payoff matrix for which the maximum individual regret is $Ω(\sqrt{\log m\log n})$ for a wide range of $m$ and $n$. Together with the upper bound $O(\sqrt{\log m\log n})$, this lower bound shows that the minimax regret of deterministic learning dynamics in matrix games is $Θ(\sqrt{\log m\log n})$ in this regime. For all $m$, $n$, and $T$, we also prove the lower bound $Ω(\min\{T,\log\min\{m,n\}\})$. These lower bounds hold even if each player also observes the strategies and the feedback of the opponent. Our main technical contribution is an adaptive construction of the payoff matrix. While running the algorithms of the two players, we add in each round a rank-one matrix that keeps the feedback of the previous rounds unchanged and increases a lower bound on the sum of the regrets of the two players. As by-products, we obtain lower bounds on the rate at which the average strategies converge to a Nash equilibrium and on the query complexity of matrix-vector products that deterministic algorithms need to compute an approximate Nash equilibrium.</description>
+    </item>
+    <item>
+      <title>Principal Revelations of the Revelation Principle</title>
+      <link>http://arxiv.org/abs/2611.30612v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30612v1</guid>
+      <pubDate>Mon, 23 Nov 2026 12:49:09 +0000</pubDate>
+      <description>I prove a converse to the revelation principle, arguing that it is a principle of optimism: if it must hold for all environments (in fact, even just those with private values and independent types) the principal must assume her favorite equilibrium is played by the agents. When the principal knows only that the prior lies in some set, she must additionally assume it is her favorite one. With private values, independent types, and quasilinear payoffs, however, unrestricted transfers allow the principal to approximate any mechanism's equilibrium payoff via a direct mechanism whose unique equilibrium is truthful.</description>
+    </item>
+    <item>
+      <title>A Deterministic Polynomial-Query Protocol for Envy-Free Cake Cutting</title>
+      <link>http://arxiv.org/abs/2611.30002v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30002v1</guid>
+      <pubDate>Mon, 23 Nov 2026 04:08:21 +0000</pubDate>
+      <description>We give a deterministic protocol that divides a heterogeneous cake completely and without envy among $n$ agents using $O(n^6\log n)$ Robertson--Webb queries in the worst case. Valuations may be arbitrary nonnegative, nonatomic measures, and bundles may be disconnected. The protocol makes $O(n)$ calls to certified trimming, which uses $O(n^5\log n)$ queries on $n$ pieces. In a certified trim, each agent receives the end part, or suffix, of a different piece without envy, and every shortened piece has a witness tie leading back to a whole piece. At each step, the witness values the shortened suffix exactly as much as her own. For pieces of positive interval length with strictly increasing suffix values, the retained suffix lengths are unique, although their holders may differ. Candidate assignments share a table of value and cut queries. If the coordinatewise median of their value estimates fails a matching test, the test identifies an agent whose value is underestimated, ruling out at least half the remaining assignments. A weighted median of cut marks lets one repair step remove a small envy while allocating almost all of the residue. For complete envy-free chore allocation, the query bound is $O(n^7\log n)$.</description>
+    </item>
+    <item>
+      <title>Finding Integral Stable Matchings is PPAD-Complete: Unimodular Hypergraphs, Network $b$-Matchings, and Kernels in Perfect Graphs</title>
+      <link>http://arxiv.org/abs/2611.28976v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28976v1</guid>
+      <pubDate>Sat, 21 Nov 2026 18:22:54 +0000</pubDate>
+      <description>Polyhedral integrality guarantees integral stable solutions in several classical stability problems: stable matchings in normal hypergraphs, stable $b$-matchings in unimodular hypergraphs, and kernels in clique-acyclic orientations of perfect graphs. Whether they can be computed efficiently has been a long-standing open question; for kernels in perfect graphs it has been open since the existence theorem of Boros and Gurvich in 1996. We show that, unless $PPAD\subseteq FP$, they cannot. Finding a stable matching is $PPAD$-complete already in linear unimodular hypergraphs with hyperedges of size at most three and vertex degrees at most three. Consequently, finding a kernel in a clique-acyclic orientation of a perfect graph is $PPAD$-hard even if all cliques have at most three vertices, answering an open question of Pass-Lanneau, Igarashi and Meunier, and stable matchings are $PPAD$-hard to find in balanced and in normal hypergraphs. This contrasts with the polynomial algorithm of Chandrasekaran and Kalathur for network hypergraphs. With capacities, even network hypergraphs are hard: University Dual Admission is $PPAD$-complete with capacities at most nine, so stable $b$-matching is $PPAD$-complete on network hypergraphs with hyperedges of size three. This yields $PPAD$-completeness for a natural class of hospitals/residents markets with couples where stable matchings always exist, and $PPAD$-hardness of computing the near-feasible stable matchings, where capacities are flexible. Both reductions are from PURE CIRCUIT with constant-size gadgets. For unit capacities we use a dual-rail encoding, a symmetry-breaking gadget made of two coupled $2\times2$ stable marriage markets, and a parity criterion on the bipartite incidence graph that certifies total unimodularity. We expect these tools to be useful for further hardness results about problems with guaranteed integral solutions.</description>
+    </item>
+    <item>
+      <title>Stackelberg Games with Convex Risk Measures</title>
+      <link>http://arxiv.org/abs/2611.28974v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28974v1</guid>
+      <pubDate>Sat, 21 Nov 2026 18:18:50 +0000</pubDate>
+      <description>Stackelberg games have important real-world applications in which reliable commitments require accounting for multiple sources of uncertainty. We study finite Stackelberg games in which environmental uncertainty makes each mixed strategy profile induce a random reward, and each player evaluates that reward with a convex monetary risk criterion. In reward form, it is a concave, monotone, translation-equivariant utility and also represented as penalized expected reward over distributions of environmental outcomes. We provide two conditions under which the follower has a unique continuous mixed response, which leads to inducible optimistic equilibrium. We show that even approximate equilibrium computation is NP Hard. We then derive an exact mathematical program with equilibrium constraints for the problem. We also develop an action entropy smoothed implicit-gradient method and prove an end-to-end additive approximation guarantee under the assumption that the gradient method reaches global optimality. We validate our scalability and other results with experiments on synthetic and real data.</description>
+    </item>
+    <item>
       <title>Kidney Exchange in Deterministic $O^*(4^{t+o(t)})$ Time</title>
       <link>http://arxiv.org/abs/2611.27841v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.27841v1</guid>
@@ -6968,41 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2110.02482</guid>
       <pubDate>Wed, 06 Oct 2021 00:00:00 -0000</pubDate>
       <description>We introduce a generalization of zero-sum network multiagent matrix games and prove that alternating gradient descent converges to the set of Nash equilibria at rate $O(1/T)$ for this set of games. Alternating gradient descent obtains this convergence guarantee while using fixed learning rates that are four times larger than the optimistic variant of gradient descent. Experimentally, we show with 97.5% confidence that, on average, these larger learning rates result in time-averaged strategies that are 2.585 times closer to the set of Nash equilibria than optimistic gradient descent.</description>
-    </item>
-    <item>
-      <title>Feature Selection by a Mechanism Design</title>
-      <link>https://arxiv.org/abs/2110.02419</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.02419</guid>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 -0000</pubDate>
-      <description>In constructing an econometric or statistical model, we pick relevant features or variables from many candidates. A coalitional game is set up to study the selection problem where the players are the candidates and the payoff function is a performance measurement in all possible modeling scenarios. Thus, in theory, an irrelevant feature is equivalent to a dummy player in the game, which contributes nothing to all modeling situations. The hypothesis test of zero mean contribution is the rule to decide a feature is irrelevant or not. In our mechanism design, the end goal perfectly matches the expected model performance with the expected sum of individual marginal effects. Within a class of noninformative likelihood among all modeling opportunities, the matching equation results in a specific valuation for each feature. After estimating the valuation and its standard deviation, we drop any candidate feature if its valuation is not significantly different from zero. In the simulation studies, our new approach significantly outperforms several popular methods used in practice, and its accuracy is robust to the choice of the payoff function.</description>
-    </item>
-    <item>
-      <title>An Approximation Algorithm for Maximum Stable Matching with Ties and Constraints</title>
-      <link>https://arxiv.org/abs/2107.03076</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.03076</guid>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 -0000</pubDate>
-      <description>We present a polynomial-time $\frac{3}{2}$-approximation algorithm for the problem of finding a maximum-cardinality stable matching in a many-to-many matching model with ties and laminar constraints on both sides. We formulate our problem using a bipartite multigraph whose vertices are called workers and firms, and edges are called contracts. Our algorithm is described as the computation of a stable matching in an auxiliary instance, in which each contract is replaced with three of its copies and all agents have strict preferences on the copied contracts. The construction of this auxiliary instance is symmetric for the two sides, which facilitates a simple symmetric analysis. We use the notion of matroid-kernel for computation in the auxiliary instance and exploit the base-orderability of laminar matroids to show the approximation ratio. In a special case in which each worker is assigned at most one contract and each firm has a strict preference, our algorithm defines a $\frac{3}{2}$-approximation mechanism that is strategy-proof for workers.</description>
-    </item>
-    <item>
-      <title>A Recursive Algorithm for Solving Simple Stochastic Games</title>
-      <link>https://arxiv.org/abs/2110.01030</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.01030</guid>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 -0000</pubDate>
-      <description>We present two recursive strategy improvement algorithms for solving simple stochastic games. First we present an algorithm for solving SSGs of degree $d$ that uses at most $O\left(\left\lfloor(d+1)^2/2\right\rfloor^{n/2}\right)$ iterations, with $n$ the number of MAX vertices. Then, we focus on binary SSG and propose an algorithm that has complexity $O\left(φ^nPoly(N)\right)$ where $φ= (1 + \sqrt{5})/2$ is the golden ratio. To the best of our knowledge, this is the first deterministic strategy improvement algorithm that visits $2^{cn}$ strategies with $c &lt; 1$.</description>
-    </item>
-    <item>
-      <title>Information Elicitation Meets Clustering</title>
-      <link>https://arxiv.org/abs/2110.00952</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.00952</guid>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 -0000</pubDate>
-      <description>In the setting where we want to aggregate people's subjective evaluations, plurality vote may be meaningless when a large amount of low-effort people always report "good" regardless of the true quality. "Surprisingly popular" method, picking the most surprising answer compared to the prior, handle this issue to some extent. However, it is still not fully robust to people's strategies. Here in the setting where a large number of people are asked to answer a small number of multi-choice questions (multi-task, large group), we propose an information aggregation method that is robust to people's strategies. Interestingly, this method can be seen as a rotated "surprisingly popular". It is based on a new clustering method, Determinant MaxImization (DMI)-clustering, and a key conceptual idea that information elicitation without ground-truth can be seen as a clustering problem. Of independent interest, DMI-clustering is a general clustering method that aims to maximize the volume of the simplex consisting of each cluster's mean multiplying the product of the cluster sizes. We show that DMI-clustering is invariant to any non-degenerate affine transformation for all data points. When the data point's dimension is a constant, DMI-clustering can be solved in polynomial time. In general, we present a simple heuristic for DMI-clustering which is very similar to Lloyd's algorithm for k-means. Additionally, we also apply the clustering idea in the single-task setting and use the spectral method to propose a new aggregation method that utilizes the second-moment information elicited from the crowds.</description>
-    </item>
-    <item>
-      <title>Persistent homology and the shape of evolutionary games</title>
-      <link>https://arxiv.org/abs/2109.14294</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2109.14294</guid>
-      <pubDate>Wed, 29 Sep 2021 00:00:00 -0000</pubDate>
-      <description>For nearly three decades, spatial games have produced a wealth of insights to the study of behavior and its relation to population structure. However, as different rules and factors are added or altered, the dynamics of spatial models often become increasingly complicated to interpret. To tackle this problem, we introduce persistent homology as a rigorous framework that can be used to both define and compute higher-order features of data in a manner which is invariant to parameter choices, robust to noise, and independent of human observation. Our work demonstrates its relevance for spatial games by showing how topological features of simulation data that persist over different spatial scales reflect the stability of strategies in 2D lattice games. To do so, we analyze the persistent homology of scenarios from two games: a Prisoner's Dilemma and a SIRS epidemic model. The experimental results show how the method accurately detects features that correspond to real aspects of the game dynamics. Unlike other tools that study dynamics of spatial systems, persistent homology can tell us something meaningful about population structure while remaining neutral about the underlying structure itself. Regardless of game complexity, since strategies either succeed or fail to conform to shapes of a certain topology there is much potential for the method to provide novel insights for a wide variety of spatially extended systems in biology, social science, and physics.</description>
     </item>
   </channel>
 </rss>

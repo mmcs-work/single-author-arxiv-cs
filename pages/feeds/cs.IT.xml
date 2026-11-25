@@ -5,6 +5,62 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Optimal XOR Lemmas for Information Complexity</title>
+      <link>http://arxiv.org/abs/2611.30432v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30432v1</guid>
+      <pubDate>Mon, 23 Nov 2026 10:25:59 +0000</pubDate>
+      <description>Information complexity studies how much information the parties to a communication protocol must reveal to each other about their inputs to accomplish a given task. For a Boolean-valued communication problem $F$, let ${\rm IC}_ε(F)$ denote its information complexity with error $ε$, and let $F^{\oplus n}$ denote the XOR of $n$ independent instances of $F$. A fundamental question is whether information complexity obeys an XOR lemma, ${\rm IC}_{1/3}(F^{\oplus n})=Ω(n\cdot{\rm IC}_{1/(3n)}(F))$, which would match the trivial upper bound. Previous work either established the $n$-fold increase in information cost without the $n$-fold decrease in error (Bar-Yossef et al., FOCS 2002) or proved a lower bound with a subtracted penalty proportional to the input length of $F$ (Sawettamalya and Yu, STOC 2025). In particular, the question has remained open even for the XOR of $n$ or fewer copies of a function $F:\{0,1\}^n\times\{0,1\}^n\to\{0,1\}$. We completely resolve the question of XOR lemmas for information complexity, for every error $0\leε\le1/3$. For total functions $F$, we prove that ${\rm IC}_ε(F^{\oplus n})=Θ(n\cdot{\rm IC}_{ε/n}(F))$ unless $F$ has the degenerate form $F(x,y)=a(x)\oplus b(y)$, in which case ${\rm IC}_ε(F^{\oplus n})=O(1)$. For the richer class of partial functions, we obtain the characterization ${\rm IC}_ε(F^{\oplus n})=Θ({\rm IC}_ε(F)+n\cdot{\rm SIC}_{ε/n}(F))$, where ${\rm SIC}$ is the information complexity of protocols in which Alice and Bob privately output bits whose XOR is the answer. Finally, we prove an optimal distributional XOR lemma, for every function $F$ and every distribution. We obtain an optimal direct sum theorem to accompany each of our XOR lemmas. All implicit constants are absolute. Our work contributes a novel combination of information-theoretic and geometric techniques.</description>
+    </item>
+    <item>
+      <title>Quantum Subentropy: Subadditivity and Sharp Bounds on Discrimination Error</title>
+      <link>http://arxiv.org/abs/2611.30220v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30220v1</guid>
+      <pubDate>Mon, 23 Nov 2026 07:52:05 +0000</pubDate>
+      <description>Subentropy gives a tight spectral lower bound on the accessible information of ensembles of pure states. We prove its subadditivity for arbitrary bipartite states in finite dimensions and derive a sharp relation between conditional subentropy and the minimum discrimination error. This relation strengthens a conjectured comparison with conditional min-entropy. Its inverse gives the strongest universal lower bound on the error determined only by conditional subentropy and the number of labels. Both main results follow from a comparison of conditional subentropy with the average subentropy of measurement posteriors, valid for mixed signal states and every finite measurement. We characterize all equality cases in these two results and bound posterior deviations near equality. We also determine the optimal Lipschitz constant in trace distance for conditional subentropy on classical-quantum states, including the exact constant when the quantum marginal is fixed. A determinant inequality strengthens subadditivity and proves strong subadditivity for classical distributions, while an exact counterexample shows that strong subadditivity fails for quantum states. Lean 4 proofs of all theoretical results are available at https://pratikpatil.io/lean/subentropy/</description>
+    </item>
+    <item>
+      <title>On Self-orthogonal MDS Codes</title>
+      <link>http://arxiv.org/abs/2611.30048v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30048v1</guid>
+      <pubDate>Mon, 23 Nov 2026 04:54:53 +0000</pubDate>
+      <description>Both self-orthogonal codes and MDS codes are of great interest for coding and combinatorial theory. In this paper we consider the existence problem of self-orthogonal MDS codes, i.e, codes satisfying self-orthogonality and achieving the Singleton bound. More precisely, we investigate for which length $n$ and dimension $k$, there exist $q$-ary $[n,k]$ self-orthogonal MDS codes. We completely solve this problem for even prime power $q$ except for the case where $[n,k]=[q+2,3]$. For odd prime power $q$, we solve this problem for the cases where $n=q+1$, $n|q$ or $n|(q-1)$ except for two cases where (i) $[n,k]=[q+1, (q-1)/2]$; and (ii) $[n,k]=[q-1,(q-1)/2]$ and $q\equiv 1\pmod{4}$. Furthermore, we conjecture nonexistence of self-orthogonal MDS code for the first case. For odd $q$, we also show existence of self-orthogonal MDS codes for some other cases. Note that in general a self-orthogonal MDS code can not be derived from self-dual MDS codes (see the detailed discussion in Section 1). Our technique is to make use of the language of algebraic geometry codes. An advantage of using the language of algebraic geometry codes is that the Euclidean dual code of a functional algebraic geometry code is a differential code which can be turn into a functional code again. Thus, by choosing an appropriate differential, one can give an explicit construction of self-orthogonal MDS codes.</description>
+    </item>
+    <item>
+      <title>Optimal odd unimodular lattices in dimensions $49$ through $59$</title>
+      <link>http://arxiv.org/abs/2611.29304v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29304v1</guid>
+      <pubDate>Sun, 22 Nov 2026 07:50:19 +0000</pubDate>
+      <description>It is shown that the largest minimum norm among unimodular lattices is $4$ in dimension $49$ and $5$ in dimensions $50$, $51$, $57$ and $58$. We also study the theta series of optimal unimodular lattices in every dimension from $49$ through $59$. In dimensions $50$, $51$ and $57$, the first known examples of unimodular lattices with minimum norm $5$ are obtained from self-dual codes by Construction~A. There exist at least $25$, $2$, $3$, $7$ and $12$ nonisomorphic optimal unimodular lattices in dimensions $49$, $55$, $57$, $58$ and $59$, respectively.</description>
+    </item>
+    <item>
+      <title>From Footprints to Service Regions: Modeling and Analysis of Dense LEO Satellite Networks Using an Orbit-Aware Cox Point Process</title>
+      <link>http://arxiv.org/abs/2611.29119v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29119v1</guid>
+      <pubDate>Sun, 22 Nov 2026 00:48:05 +0000</pubDate>
+      <description>In dense low Earth orbit (LEO) satellite networks, several accessible satellites cover the same location. A footprint therefore identifies where communication is feasible but does not determine which satellite serves each user. The service region of a satellite, namely the set of locations it serves, governs satellite load, resource sharing, and user throughput. Using an orbit-aware Cox point process on a common orbital shell, we model each service region as the intersection of a satellite's spherical-cap footprint and its spherical Voronoi cell under nearest-satellite association. We then use Palm calculus to derive exact expressions for the mean area and perimeter and a coverage--load identity. After coverage saturates, mean area and load decrease inversely with population. In contrast, adding satellites along existing orbits leaves a positive limiting mean perimeter. We connect this geometry to an approximate noise-limited user rate. Along the tested densification paths, the increase in user rate comes mainly from the decrease in mean satellite load rather than from the improvement of the serving link. We also compare the model with Walker constellations with Starlink-type parameters, using Cox parameters matched to the local orbit and satellite densities at each latitude. The model reproduces the mean area and perimeter of these constellations over broad latitude ranges, with larger differences near component maximum latitudes. These results show that service-region geometry, and hence satellite load and user rate, depend not only on the total satellite population but also on its allocation across orbital planes.</description>
+    </item>
+    <item>
+      <title>Increasing Quantum LDPC Code Distance through Explicit Extensions</title>
+      <link>http://arxiv.org/abs/2611.28847v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28847v1</guid>
+      <pubDate>Sat, 21 Nov 2026 14:59:08 +0000</pubDate>
+      <description>We give an explicit construction of quantum low-density parity-check (LDPC) codes without searching for candidates at each size. A fixed pair partition (PP) and fixed integer parameters determine the parity-check matrices at a specified size. Using affine permutation matrices (APMs), we construct a $[[3072,772,32]]$ code with column weight 3 and check weight 8 in each of the X and Z parity-check matrices. A construction based on circulant permutation matrices (CPMs) gives $[[1270,260,\ge34]]$, with column weight 4 and check weight 10. We prove that the construction yields commuting checks and verify the resulting distances using exhaustive search and logical operators. For the main construction, we conjecture the existence of a finite structural distance upper bound and distance improvement toward that bound as the size increases.</description>
+    </item>
+    <item>
+      <title>A Proof of Blackburn's Conjecture on Non-Overlapping Codes</title>
+      <link>http://arxiv.org/abs/2611.28776v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28776v1</guid>
+      <pubDate>Sat, 21 Nov 2026 12:39:26 +0000</pubDate>
+      <description>A code is non-overlapping if no nonempty proper prefix of a codeword is a suffix of a codeword. Let $S_n(q)$ be the largest size of a non-overlapping code of length $n$ over an alphabet of size $q$. Levenshtein proved that $S_n(q)\le c_nq^n$, where $c_n=(1/n)\bigl((n-1)/n\bigr)^{n-1}$. The codes $I^{n-1}J$, where $I$ and $J$ partition the alphabet, attain this bound when $n$ divides $q$, and Blackburn conjectured that for every $n$ and all sufficiently large $q$, the best such code is a maximum non-overlapping code. We prove this conjecture. The proof uses generating functions for the nested partitions that describe maximal non-overlapping codes. We also show that only the codes $I^{n-1}J$ with $|I|=(n-1)q/n$ and their reversals meet Levenshtein's bound.</description>
+    </item>
+    <item>
+      <title>The Complexity of Oracle-Efficient Realizable Transductive Learning</title>
+      <link>http://arxiv.org/abs/2611.28757v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.28757v1</guid>
+      <pubDate>Sat, 21 Nov 2026 11:59:53 +0000</pubDate>
+      <description>In realizable transductive online learning, the learner knows the entire sequence of $T$ instances in advance, and the labels are consistent with one of $N$ hypotheses. With explicit access to the hypothesis class, the halving algorithm makes at most $\log_2 N$ mistakes. Can a comparable guarantee be achieved using only polynomially many empirical risk minimization (ERM) queries? We answer this question negatively, even for a weighted-ERM oracle that optimizes arbitrary real-valued linear objectives and returns a complete maximizing hypothesis. For every fixed $β\in(0,1)$ and every randomized learner making polynomially many oracle queries, there exists a fixed realizable instance with exactly $N=2^{\lfloor T^β\rfloor}$ hypotheses on which the learner makes $Ω_β(\sqrt{T\log N})$ mistakes in expectation. This matches the agnostic-rate upper bound achieved by random playout using $O(T)$ oracle calls. The separation persists for much smaller classes as well: along a sequence with $\log N=Θ((\log T)^2)$, we establish a mistake lower bound of $\exp(Ω(\log T/\log\log T))$. Our main technical contribution is a composition lemma that combines two realizable prediction problems such that their mistake lower bounds add, up to a small loss, while their hypothesis class sizes grow only additively. Iterating this lemma yields a family of hard instances spanning the desired parameter regimes, establishing a sharp separation between information-theoretic and oracle-efficient mistake guarantees.</description>
+    </item>
+    <item>
       <title>Semi-regular admixed arrays: asymptotic enumeration and when information is additive</title>
       <link>http://arxiv.org/abs/2611.26990v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26990v1</guid>
@@ -6947,62 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2511.17389</guid>
       <pubDate>Fri, 21 Nov 2025 00:00:00 -0000</pubDate>
       <description>We investigate Frobenius-driven revivals in prime-modulus Laplacian cellular automata, a phenomenon in which long chaotic transients collapse into exact, multi-tile replicas of an initial seed at algebraically prescribed times $t=p^m$. The mechanism follows directly from the Frobenius identity $(I+B)^{p^m}=I+B^{p^m}$, which eliminates all mixed binomial terms and enforces deterministic reappearance of the seed after dispersion. We provide a detailed numerical and analytical characterisation of these revivals across several moduli, examining entropy dynamics, spatial organisation, and local stability under perturbations. The revival structure yields several useful features: predictable transitions between chaotic and ordered phases, intrinsic spatial redundancy, and robust reconstruction via replica consensus in the presence of weak additive noise. We further show that composing Laplacian operators modulo multiple primes generates significantly extended periodic orbits while preserving exact reversibility. Building on these observations, we propose an explicit reversible encoding scheme based on chaotic transients and Frobenius returns, together with practical separation conditions and noise-tolerance estimates. Potential applications include reversible steganography, structured pseudorandomness, error-tolerant information representation, and procedural pattern synthesis. The results highlight an interplay between algebraic combinatorics and cellular-automaton dynamics, suggesting further avenues for theoretical and applied development.</description>
-    </item>
-    <item>
-      <title>Asymptotic evaluation of the information processing capacity in reservoir computing</title>
-      <link>https://arxiv.org/abs/2502.15769</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2502.15769</guid>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Reservoir computing (RC) is becoming increasingly important because of its short training time. The squared error normalized by the target output is called the information processing capacity (IPC) and is used to evaluate the performance of an RC system. Since RC aims to learn the relationship between input and output time series, we should evaluate the IPC for infinitely long data rather than the IPC for finite-length data. However, a method for estimating it has not been established. We evaluated the IPC for infinitely long data using the asymptotic expansion of the IPC and weighted least-squares fitting. Then, we showed the validity of our method by numerical simulations. This work makes the performance evaluation of RC more evident.</description>
-    </item>
-    <item>
-      <title>Overlapped-repetition Shor codes achieving fourfold asymptotic rate</title>
-      <link>https://arxiv.org/abs/2510.21030</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2510.21030</guid>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Introducing controlled overlap among a few repetition blocks yields a fourfold asymptotic rate improvement while preserving an average stabilizer weight of \(4\). Substituting the overlapped outer layer with an LDPC code further produces a family of constructions with asymptotic rate \(2/d\). We also describe a constant-excitation variant that suppresses collective coherent errors without additional overhead, as well as a bosonic generalization that extends the framework to oscillator encodings. The resulting family achieves a code rate intermediate between that of the rotated surface code (average stabilizer weight \(4\)) and the BB code (average stabilizer weight \(6\)), while remaining free of the performance degradation typical of iterative decoders.</description>
-    </item>
-    <item>
-      <title>Information Efficiency of Scientific Automation</title>
-      <link>https://arxiv.org/abs/2511.15671</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.15671</guid>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Scientific discovery can be framed as a thermodynamic process in which an agent invests physical work to acquire information about an environment under a finite work budget. Using established results about the thermodynamics of computing, we derive finite-budget bounds on information gain over rounds of sequential Bayesian learning. We also propose a metric of information-work efficiency, and compare unpartitioned and federated learning strategies under matched work budgets. The presented results offer guidance in the form of bounds and an information efficiency metric for efforts in scientific automation at large.</description>
-    </item>
-    <item>
-      <title>An Information-Theoretic Route to Isoperimetric Inequalities via Heat Flow and Entropy Dissipation</title>
-      <link>https://arxiv.org/abs/2511.15356</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.15356</guid>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 -0000</pubDate>
-      <description>We develop an information-theoretic approach to isoperimetric inequalities based on entropy dissipation under heat flow. By viewing diffusion as a noisy information channel, we measure how mutual information about set membership decays over time. This decay rate is shown to be determined by the boundary measure of the set, leading to a new proof of the Euclidean isoperimetric inequality with its sharp constant. The method extends to Riemannian manifolds satisfying curvature-dimension conditions, yielding Levy-Gromov and Gaussian isoperimetric results within a single analytic principle. Quantitative and stability bounds follow from refined entropy inequalities linking information loss to geometric rigidity. The approach connects geometric analysis and information theory, revealing how entropy dissipation encodes the geometry of diffusion and boundary.</description>
-    </item>
-    <item>
-      <title>RLS Framework with Segmentation of the Forgetting Profile and Low Rank Updates</title>
-      <link>https://arxiv.org/abs/2511.15273</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.15273</guid>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This report describes a new regularization approach based on segmentation of the forgetting profile in sliding window least squares estimation. Each segment is designed to enforce specific desirable properties of the estimator such as rapidity, desired condition number of the information matrix, accuracy, numerical stability, etc. The forgetting profile is divided in three segments, where the speed of estimation is ensured by the first segment, which employs rapid exponential forgetting of recent data.The second segment features a decline in the profile and marks the transition to the third segment, characterized by slow exponential forgetting to reduce the condition number of the information matrix using more distant data. Condition number reduction mitigates error propagation, thereby enhancing accuracy and stability. This approach facilitates the incorporation of a priori information regarding signal characteristics (i.e., the expected behavior of the signal) into the estimator. Recursive and computationally efficient algorithm with low rank updates based on new matrix inversion lemma for moving window associated with this regularization approach is developed. New algorithms significantly improve the approximation accuracy of low resolution daily temperature measurements obtained at the Stockholm Old Astronomical Observatory, thereby enhancing the reliability of temperature predictions.</description>
-    </item>
-    <item>
-      <title>Beyond the "G" Frontier: A Time Traveler's Century-Long Vision for Wireless Intelligence</title>
-      <link>https://arxiv.org/abs/2511.14906</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.14906</guid>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This article travels one century into the future--from 2025 to 2125--through the analytical lens of the Information--Curvature Efficiency Law (ICEL). It contends that wireless evolution will not proceed through incremental generations such as 6G or 7G, but through a curvature-managed integration of electromagnetics, biology, thermodynamics, and cognition. The resulting infrastructure will constitute a global ecology of self-aware information flow, where geometry and communication converge to sustain both technological and biological life.</description>
-    </item>
-    <item>
-      <title>Monimial Matrix Analogue of Yoshida's theorem</title>
-      <link>https://arxiv.org/abs/2511.14480</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.14480</guid>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 -0000</pubDate>
-      <description>In this paper, we study variants of weight enumerators of linear codes over $\mathbb{F}_q$. We generalize the concept of average complete joint weight enumerators of two linear codes over $\mathbb{F}_q$. We also give its MacWilliams type identities. Then we establish a monomial analogue of Yoshida's theorem for this average complete joint weight enumerators. Finally, we present the generalized representation for average of $g$-fold complete joint weight enumerators for $\mathbb{F}_q$-linear codes and establish a monomial matrix analogue of Yoshida's theorem for average $g$-fold complete joint weight enumerators.</description>
-    </item>
-    <item>
-      <title>The Quality of Information: A Weighted Entropy Approach to Near-Optimal Mastermind</title>
-      <link>https://arxiv.org/abs/2511.19446</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.19446</guid>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper presents a novel class of information-theoretic strategies for solving the game of Mastermind, achieving state-of-the-art performance among known heuristic methods. The core contribution is the application of a weighted entropy heuristic, based on the Belis-Guias, u framework, which assigns context-dependent utility values to each of the possible feedback types. A genetic algorithm optimization approach discovers interpretable weight patterns that reflect strategic game dynamics. First, I demonstrate that a single, fixed vector of optimized weights achieves a remarkable 4.3565 average guesses with a maximum of 5. Building upon this, I introduce a stage-weighted heuristic with distinct utility vectors for each turn, achieving 4.3488 average guesses with a maximum of 6, approaching the theoretical optimum of 4.3403 by less than 0.2%. The method retains the computational efficiency of classical one-step-ahead heuristics while significantly improving performance through principled information valuation. A complete implementation and all optimized parameters are provided for full reproducibility.</description>
     </item>
   </channel>
 </rss>

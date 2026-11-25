@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Approximate Minimum Triangle Partitions</title>
+      <link>http://arxiv.org/abs/2611.31146v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31146v1</guid>
+      <pubDate>Mon, 23 Nov 2026 18:16:29 +0000</pubDate>
+      <description>Let $ρ(P)$ be the minimum number of triangles in a partition of a simple polygon $P$ with $n$ vertices where triangle corners may be arbitrary points (Steiner points). It is not known whether $ρ(P)$ can be computed in polynomial time. We do not assume general position: when vertices of $P$ are collinear, a triangle side may pass through several vertices, and good partitions exploit this. Every vertex of $P$ is a corner of some triangle of every partition, so $ρ(P) \ge n/3$, and any triangulation, with $n-2$ triangles, is a 3-approximation that can be computed in $O(n)$ time. This is the best factor known. We improve it in two steps. First, let $ρ_0(P)$ be the minimum number of triangles over partitions whose corners are all vertices of $P$, which can be computed in $O(n^3)$ time (Asano, Asano, and Pinter, 1986). We prove that $ρ_0(P) \le 2ρ(P)-2$ unless $P$ is a triangle, which is tight. Thus Steiner points save at most half of the triangles and $ρ_0(P)$ is a 2-approximation, computed in $O(n^3)$ time. Second, we break the factor-2 barrier of Steiner-free partitions. We observe that $ρ_0(P)$ is close to $2ρ(P)$ only if optimal partitions have few Steiner points, each with many triangles around it. We handle this case by a dynamic program over partitions in which every Steiner point in the interior of $P$ is joined to a vertex of $P$ by a straight run of triangle sides, giving a 5/3-approximation in $O(n^{12})$ time.</description>
+    </item>
+    <item>
+      <title>Toward Open Room-Scale Scanning with Consumer LiDAR via Depth-Inertial Odometry</title>
+      <link>http://arxiv.org/abs/2611.30166v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.30166v1</guid>
+      <pubDate>Mon, 23 Nov 2026 07:12:35 +0000</pubDate>
+      <description>Room scanning with consumer LiDAR today depends on ARKit, whose tracking and map update are a black box: an application receives depth and poses but cannot inspect how they were produced, so an error in a scan cannot be traced to its cause. This paper examines whether an open alternative, one whose every stage can be inspected, is feasible on the device. Mobile-LIO is a depth-inertial odometry pipeline that uses the phone's depth and inertial data and no ARKit poses. On seven ScanNet++ iPhone recordings it completed every scene with 0.2-2.0 m deviation from the ARKit-derived reference, where six open-source LiDAR-inertial estimators run as configured for dedicated scanners had at least 4.46 m in 41 of 42 runs (two of the six also failed a noise-free adapter check, and Mobile-LIO has a speed cap they lack; the comparison is not controlled and does not rone 15 Pro Max, a buildwith corrected phone code kept up with the sensor in 14 of 15 replay runs of three 7-13 s recordings; e estimator before thosecorrections. Laser-scanned meshes give the accuracy. Within 3 m, recorded depth differed from the m on three held-out scenes,maps fused with ARKit poses that the dataset scales and aligns to the mesh la a median 1.8-2.3 cm from 17 cm. Because thepipeline is open, the gap could be examined: in the scene with the largest error, noise-free renderefrom 1.97 m to 0.04 m, sorecorded depth, whose error reached 20-54 cm at 5-7 m, contributed alongside the estimator. An open de tracked on phone depth and kept up with the sensor in short phone replays, but it is not yet as accurate as ARKit-pose maps, whicheach only the coarsestUSIBD accuracy level (LOA10); its accuracy on the device was not measured.</description>
+    </item>
+    <item>
+      <title>Sharp Volume Contraction of a Centrally Cut John Ellipsoid</title>
+      <link>http://arxiv.org/abs/2611.29323v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29323v1</guid>
+      <pubDate>Sun, 22 Nov 2026 08:35:45 +0000</pubDate>
+      <description>For a convex body $K\subset\mathbb R^n$ in positive dimension, let $w(K)$ be the volume of its maximum-volume inscribed ellipsoid. For a closed halfspace $H$ whose boundary passes through the center of that ellipsoid, we prove \[ w(K\cap H)\le R_nw(K),\qquad R_1=\frac12,\qquad R_n=\frac12\left(\frac n{n-1}\right)^{(n-1)/2}\quad(n\ge2), \] with equality attained in every fixed dimension. This refines the optimal dimension-independent bound from the author's earlier work on [Khachiyan's ellipsoid conjecture](https://arxiv.org/abs/2609.28447). We characterize the full equality family, including nonsimplex extremizers, and establish an exact volume-deficit identity that yields dimension-independent stability of the new ellipsoid and its weighted contact geometry in John coordinates. The proof reduces the problem to finite John contacts and constructs an explicit conic certificate by a transformation of contact directions and a common polar rotation. Its determinant is controlled by a nonnegative contact defect. The sharp contraction theorem, equality classification, stability estimates, and supporting results have been formally verified in Lean 4 using mathlib.</description>
+    </item>
+    <item>
+      <title>Improved Lower Bound on the Hadwiger-Debrunner Numbers</title>
+      <link>http://arxiv.org/abs/2611.29166v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29166v1</guid>
+      <pubDate>Sun, 22 Nov 2026 02:52:46 +0000</pubDate>
+      <description>The celebrated $(p,q)$-theorem of Alon and Kleitman asserts that for any $d \in \mathbb{N}$ and any $p \geq q \geq d+1$, every family of convex sets in $\mathbb{R}^d$ in which among any $p$ sets, some $q$ intersect, can be pierced by $c(p,q,d)$ points. The minimum numbers $c(p,q,d)$ are called the Hadwiger-Debrunner numbers and denoted $\mathrm{HD}_d(p,q)$ and determining them is a longstanding open problem. We prove that for any $d \geq 2$, $\mathrm{HD}_d(p,d+1) \geq p^{d-o(1)}$, and more generally, $\mathrm{HD}_d(p,q) \geq p^{\frac{q-1}{q-d}-o(1)}$. Our bound is obtained by a family of parallelotopes, and is tight up to polylogarithmic factors among all families that have a bounded VC dimension. The proof uses the hypergraph container method.</description>
+    </item>
+    <item>
       <title>A Homotopic Kuratowski Theorem</title>
       <link>http://arxiv.org/abs/2611.28401v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.28401v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1407.4640</guid>
       <pubDate>Mon, 09 Feb 2015 00:00:00 -0000</pubDate>
       <description>A determined algorithm is presented for solving the rSUM problem for any natural r with a sub-quadratic assessment of time complexity in some cases. In terms of an amount of memory used the obtained algorithm is the nlog^3(n) order. The idea of the obtained algorithm is based not considering integer numbers, but rather k (is a natural) successive bits of these numbers in the binary numeration system. It is shown that if a sum of integer numbers is equal to zero, then the sum of numbers presented by any k successive bits of these numbers must be sufficiently "close" to zero. This makes it possible to discard the numbers, which a fortiori, do not establish the solution.</description>
-    </item>
-    <item>
-      <title>The Theory of the Interleaving Distance on Multidimensional Persistence Modules</title>
-      <link>https://arxiv.org/abs/1106.5305</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1106.5305</guid>
-      <pubDate>Mon, 02 Feb 2015 00:00:00 -0000</pubDate>
-      <description>In 2009, Chazal et al. introduced $ε$-interleavings of persistence modules. $ε$-interleavings induce a pseudometric $d_I$ on (isomorphism classes of) persistence modules, the interleaving distance. The definitions of $ε$-interleavings and $d_I$ generalize readily to multidimensional persistence modules. In this paper, we develop the theory of multidimensional interleavings, with a view towards applications to topological data analysis. We present four main results. First, we show that on 1-D persistence modules, $d_I$ is equal to the bottleneck distance $d_B$. This result, which first appeared in an earlier preprint of this paper, has since appeared in several other places, and is now known as the isometry theorem. Second, we present a characterization of the $ε$-interleaving relation on multidimensional persistence modules. This expresses transparently the sense in which two $ε$-interleaved modules are algebraically similar. Third, using this characterization, we show that when we define our persistence modules over a prime field, $d_I$ satisfies a universality property. This universality result is the central result of the paper. It says that $d_I$ satisfies a stability property generalizing one which $d_B$ is known to satisfy, and that in addition, if $d$ is any other pseudometric on multidimensional persistence modules satisfying the same stability property, then $d\leq d_I$. We also show that a variant of this universality result holds for $d_B$, over arbitrary fields. Finally, we show that $d_I$ restricts to a metric on isomorphism classes of finitely presented multidimensional persistence modules.</description>
-    </item>
-    <item>
-      <title>GPU Programming - Speeding Up the 3D Surface Generator VESTA</title>
-      <link>https://arxiv.org/abs/1501.06364</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1501.06364</guid>
-      <pubDate>Mon, 26 Jan 2015 00:00:00 -0000</pubDate>
-      <description>The novel "Volume-Enclosing Surface exTraction Algorithm" (VESTA) generates triangular isosurfaces from computed tomography volumetric images and/or three-dimensional (3D) simulation data. Here, we present various benchmarks for GPU-based code implementations of both VESTA and the current state-of-the-art Marching Cubes Algorithm (MCA). One major result of this study is that VESTA runs significantly faster than the MCA.</description>
-    </item>
-    <item>
-      <title>Statistical topological data analysis using persistence landscapes</title>
-      <link>https://arxiv.org/abs/1207.6437</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1207.6437</guid>
-      <pubDate>Fri, 23 Jan 2015 00:00:00 -0000</pubDate>
-      <description>We define a new topological summary for data that we call the persistence landscape. Since this summary lies in a vector space, it is easy to combine with tools from statistics and machine learning, in contrast to the standard topological summaries. Viewed as a random variable with values in a Banach space, this summary obeys a strong law of large numbers and a central limit theorem. We show how a number of standard statistical tests can be used for statistical inference using this summary. We also prove that this summary is stable and that it can be used to provide lower bounds for the bottleneck and Wasserstein distances.</description>
-    </item>
-    <item>
-      <title>Physical Light as a Metaphor for Inner Light</title>
-      <link>https://arxiv.org/abs/1409.1064</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1409.1064</guid>
-      <pubDate>Thu, 22 Jan 2015 00:00:00 -0000</pubDate>
-      <description>The metaphor between physical light and inner light has a long history that permeates diverse languages and cultures. This paper outlines a system for using basic principles from optics to visually represent psychological states and processes such as ideation, enlightenment, mindfulness, and fragmentation versus integrity, as well as situations that occur between people involving phenomena such as honest versus deceptive communication, and understanding versus misunderstanding. The paper summarizes two ongoing projects based on this system: The Light and Enlightenment art installation project, and the Soultracker virtual reality project. These projects enable people to depict their inner lives and external worlds including situations and relationships with others, both as they are and as they could be, and explore alternative paths for navigating challenges and living to their fullest potential. The projects aim to be of clinical value as therapeutic tools, as well as of pedagogical value by providing a concrete language for depicting aspects of human nature that can otherwise seem elusive and intangible.</description>
     </item>
   </channel>
 </rss>

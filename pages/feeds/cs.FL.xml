@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A detailed verification of Neary's PCP(5) construction</title>
+      <link>http://arxiv.org/abs/2611.29559v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.29559v1</guid>
+      <pubDate>Sun, 22 Nov 2026 15:38:04 +0000</pubDate>
+      <description>Neary proved that the Post correspondence problem remains undecidable for instances with five pairs of words. We give a detailed verification of his construction. We first verify the undecidability of the restricted binary tag-system halting problem used in the reduction. We then prove both directions of the reduction to the five-pair problem, using the longer closing pair proposed by Rote. In particular, we show that every solution of the constructed PCP instance yields a halting computation of the simulated tag system.</description>
+    </item>
+    <item>
       <title>Additive cubes are avoidable by a non-uniform morphism of length $6$ over $\{0,a,b\}$ (with $b \ge 4$ and $\gcd(a,b) = 1$)</title>
       <link>http://arxiv.org/abs/2611.27519v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.27519v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1603.05426</guid>
       <pubDate>Thu, 17 Mar 2016 00:00:00 -0000</pubDate>
       <description>We in this paper show that omega regular languages are not closed under infinite union and intersection. As an attempt, we propose to add step variables and quantifiers to temporal logics to enhance the expressiveness of the underlying logic. We also show that doing this would cause undecidability in satisfiability, even if for a rather limited fragment of temporal logic.</description>
-    </item>
-    <item>
-      <title>Reconciling Rationality and Stochasticity: Rich Behavioral Models in Two-Player Games</title>
-      <link>https://arxiv.org/abs/1603.05072</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.05072</guid>
-      <pubDate>Wed, 16 Mar 2016 00:00:00 -0000</pubDate>
-      <description>Two traditional paradigms are often used to describe the behavior of agents in multi-agent complex systems. In the first one, agents are considered to be fully rational and systems are seen as multi-player games. In the second one, agents are considered to be fully stochastic processes and the system itself is seen as a large stochastic process. From the standpoint of a particular agent - having to choose a strategy, the choice of the paradigm is crucial: the most adequate strategy depends on the assumptions made on the other agents. In this paper, we focus on two-player games and their application to the automated synthesis of reliable controllers for reactive systems - a field at the crossroads between computer science and mathematics. In this setting, the reactive system to control is a player, and its environment is its opponent, usually assumed to be fully antagonistic or fully stochastic. We illustrate several recent developments aiming to breach this narrow taxonomy by providing formal concepts and mathematical frameworks to reason about richer behavioral models. The interest of such models is not limited to reactive system synthesis but extends to other application fields of game theory. The goal of our contribution is to give a high-level presentation of key concepts and applications, aimed at a broad audience. To achieve this goal, we illustrate those rich behavioral models on a classical challenge of the everyday life: planning a journey in an uncertain environment.</description>
     </item>
   </channel>
 </rss>
