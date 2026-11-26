@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>topAC99: A compact MATLAB implementation of filter-free Allen--Cahn topology optimization with matrix-free field transfer</title>
+      <link>http://arxiv.org/abs/2611.31885v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31885v1</guid>
+      <pubDate>Tue, 24 Nov 2026 03:44:45 +0000</pubDate>
+      <description>This paper presents topAC99, a self-contained, toolbox-free 99-line MATLAB kernel for filter-free Allen--Cahn topology optimization via the Augmented Lagrangian method on structured quadrilateral meshes. The software architecture combines three compact numerical components: (i) a lumped nodal discretization with a 7-line Kronecker-sum 5-point Laplacian that enforces homogeneous Neumann conditions at width-invariant sparse memory cost; (ii) matrix-free node-to-element averaging and adjoint backpropagation via two-dimensional convolutions (conv2); and (iii) an inlined 18-line 1D-dual bisection Method of Moving Asymptotes (MMA) solver for signed sensitivities. Benchmarks from 60x40 to 300x200 meshes (121,002 degrees of freedom) against convolution- and PDE-filtered SIMP baselines show that Allen--Cahn residual and adjoint evaluations add only 0.7%--1.2% per-step overhead while converging in 78--92 iterations on fine grids. Minimal-line extensions to a symmetric force inverter compliant mechanism and a passive-deck highway arch bridge further demonstrate the versatility of the 99-line kernel.</description>
+    </item>
+    <item>
+      <title>Stopping criteria in structural reliability analysis: An overview</title>
+      <link>http://arxiv.org/abs/2611.31706v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31706v1</guid>
+      <pubDate>Mon, 23 Nov 2026 23:55:03 +0000</pubDate>
+      <description>Stopping criteria have become a crucial component of probabilistic and statistical methods in structural reliability analysis, helping prevent structural defects and failures, as well as inaccurate evaluations of existing structures. Over time, these rules have evolved in both concept and application, whereas their treatment in the literature remains fragmented. They are often developed and presented in connection with specific models or analytical frameworks, obscuring their broader applicability across diverse models and methodologies. On this basis, the aim of this article is twofold. First, it overviews a wide range of stopping rules, drawing on concepts from applied probability and statistics. These strategies include classical methods based on error estimates or variance, and stability detection. While many of these ideas were developed in other fields, they have the potential to offer useful tools for structural reliability tasks like managing sampling, improving surrogate models, and checking for convergence. Second, this article introduces a structured framework to organize past and recent developments in this area. It brings together various stopping criteria, clarifies their conceptual roles, explains their theoretical foundations, and compares their practical strengths and limitations. By relating these methods to common modeling and methodological practices, and by incorporating a systematic comparison of performance aspects such as accuracy, computational cost, and robustness, we aim to identify dominant strategies, highlight shared challenges, and point to directions for further progress.</description>
+    </item>
+    <item>
       <title>Verifying the Outputs of PDE Solvers: From Finite Elements to Neural Surrogates</title>
       <link>http://arxiv.org/abs/2611.31211v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31211v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/0901.2954</guid>
       <pubDate>Mon, 19 Jan 2009 00:00:00 -0000</pubDate>
       <description>A strategy for computing upper code-length limits of AC Huffman codes for an 8x8 block in JPEG Baseline coding is developed. The method is based on a geometric interpretation of the DCT, and the calculated limits are as close as 14% to the maximum code-lengths. The proposed strategy can be adapted to other transform coding methods, e.g., MPEG 2 and 4 video compressions, to calculate close upper code length limits for the respective processing blocks.</description>
-    </item>
-    <item>
-      <title>A Density Matrix-based Algorithm for Solving Eigenvalue Problems</title>
-      <link>https://arxiv.org/abs/0901.2665</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0901.2665</guid>
-      <pubDate>Sat, 17 Jan 2009 00:00:00 -0000</pubDate>
-      <description>A new numerical algorithm for solving the symmetric eigenvalue problem is presented. The technique deviates fundamentally from the traditional Krylov subspace iteration based techniques (Arnoldi and Lanczos algorithms) or other Davidson-Jacobi techniques, and takes its inspiration from the contour integration and density matrix representation in quantum mechanics. It will be shown that this new algorithm - named FEAST - exhibits high efficiency, robustness, accuracy and scalability on parallel architectures. Examples from electronic structure calculations of Carbon nanotubes (CNT) are presented, and numerical performances and capabilities are discussed.</description>
-    </item>
-    <item>
-      <title>System Theoretic Viewpoint on Modeling of Complex Systems: Design, Synthesis, Simulation, and Control</title>
-      <link>https://arxiv.org/abs/0812.4523</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/0812.4523</guid>
-      <pubDate>Wed, 24 Dec 2008 00:00:00 -0000</pubDate>
-      <description>We consider the basic features of complex dynamic and control systems, including systems having hierarchical structure. Special attention is paid to the problems of design and synthesis of complex systems and control models, and to the development of simulation techniques and systems. A model of complex system is proposed and briefly analyzed.</description>
     </item>
   </channel>
 </rss>

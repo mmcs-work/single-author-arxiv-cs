@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Field Life: Particle Life as Interacting Chemical Fields</title>
+      <link>http://arxiv.org/abs/2611.32844v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32844v1</guid>
+      <pubDate>Tue, 24 Nov 2026 15:53:30 +0000</pubDate>
+      <description>Field Life is a cellular automaton inspired by the interaction dynamics of Particle Life. In Particle Life, each particle has a colour, and an interaction matrix sets how strongly each colour attracts or repels each other colour. In Field Life, each colour is a channel of the automaton, and each cell holds a concentration of every colour. One step of the rule has three parts. Each colour is convolved with a ring-shaped kernel, which measures how much of that colour surrounds a cell. The interaction matrix combines these measurements into an attraction for each colour. The mass of each colour then moves toward higher attraction, in a way that conserves mass. A random matrix and a random initial state are usually enough to produce moving structure: bodies that glide, bodies that shed diffuse clouds, and gliders that break up into smaller gliders. We sample rules at random, keep the rules that move and form structure, and describe the patterns that appear: colours that sort into regions, colours that form stripes, and gliders, compact bodies that travel across the grid. The simulation and 120 saved rules, which we call worlds, are released.</description>
+    </item>
+    <item>
+      <title>The Self-Assembling Brain: Emergent Routing and Its Open Challenges</title>
+      <link>http://arxiv.org/abs/2611.31629v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31629v1</guid>
+      <pubDate>Mon, 23 Nov 2026 22:17:08 +0000</pubDate>
+      <description>Biologically inspired alternatives to backpropagation, such as feedback alignment, relax the requirement for exact synaptic weight symmetry but still presuppose a fixed, pre-wired correspondence between forward and feedback pathways, an impasse Liao et al. (PNAS, 2026) term "architectural circularity." This commentary examines their Self-Assembling Motif (SAM), which reframes credit assignment as a self-organizing process driven by local synaptic rules. By linking ascending inference and descending feedback streams through initially random cross-stream connections, SAM supports local bridge alignment and emergent pathway alignment during stable training without fixed neuron-to-neuron pairing. Its resulting learning dynamics also exhibit adaptive preconditioning. The commentary highlights the algorithmic, biophysical, and temporal challenges that define the next research frontier: loss of neuron-specific nonlinear gating under straight-through approximation, compounding routing errors in deeper hierarchies, low-dimensional routing bottlenecks, the cortical implementation of non-driving modulatory connections, and the shift from alternating inference-update phases to continuous sensory processing.</description>
+    </item>
+    <item>
       <title>On Monotonic Hamming Sphere Landscapes</title>
       <link>http://arxiv.org/abs/2611.28510v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.28510v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2111.07680</guid>
       <pubDate>Fri, 19 Nov 2021 00:00:00 -0000</pubDate>
       <description>The minimisation of cost functions is crucial in various optimisation fields. However, identifying their global minimum remains challenging owing to the huge computational cost incurred. This work analytically expresses the computational cost to identify an approximate global minimum for a class of cost functions defined under a high-dimensional discrete state space. Then, we derive an optimal global search scheme that minimises the computational cost. Mathematical analyses demonstrate that a combination of the gradient descent algorithm and the selection and crossover algorithm--with a biased crossover weight--maximises the search efficiency. Remarkably, its computational cost is of the square root order in contrast to that of the conventional gradient descent algorithms, indicating a quadratic speedup of global search. We corroborate this proposition using numerical analyses of the travelling salesman problem. The simple computational architecture and minimal computational cost of the proposed scheme are highly desirable for biological organisms and neuromorphic hardware.</description>
-    </item>
-    <item>
-      <title>Generative Deep Learning for Virtuosic Classical Music: Generative Adversarial Networks as Renowned Composers</title>
-      <link>https://arxiv.org/abs/2101.00169</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2101.00169</guid>
-      <pubDate>Sat, 13 Nov 2021 00:00:00 -0000</pubDate>
-      <description>Current AI-generated music lacks fundamental principles of good compositional techniques. By narrowing down implementation issues both programmatically and musically, we can create a better understanding of what parameters are necessary for a generated composition nearly indistinguishable from that of a master composer.</description>
-    </item>
-    <item>
-      <title>A Spiking Neuron Synaptic Plasticity Model Optimized for Unsupervised Learning</title>
-      <link>https://arxiv.org/abs/2111.06768</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2111.06768</guid>
-      <pubDate>Fri, 12 Nov 2021 00:00:00 -0000</pubDate>
-      <description>Spiking neural networks (SNN) are considered as a perspective basis for performing all kinds of learning tasks - unsupervised, supervised and reinforcement learning. Learning in SNN is implemented through synaptic plasticity - the rules which determine dynamics of synaptic weights depending usually on activity of the pre- and post-synaptic neurons. Diversity of various learning regimes assumes that different forms of synaptic plasticity may be most efficient for, for example, unsupervised and supervised learning, as it is observed in living neurons demonstrating many kinds of deviations from the basic spike timing dependent plasticity (STDP) model. In the present paper, we formulate specific requirements to plasticity rules imposed by unsupervised learning problems and construct a novel plasticity model generalizing STDP and satisfying these requirements. This plasticity model serves as main logical component of the novel supervised learning algorithm called SCoBUL (Spike Correlation Based Unsupervised Learning) proposed in this work. We also present the results of computer simulation experiments confirming efficiency of these synaptic plasticity rules and the algorithm SCoBUL.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Measuring Counterfactual Credit in a Replayable Wildfire-Suppression Benchmark</title>
+      <link>http://arxiv.org/abs/2611.31499v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31499v1</guid>
+      <pubDate>Mon, 23 Nov 2026 20:09:38 +0000</pubDate>
+      <description>In cooperative multi-agent reinforcement learning, learned critics are usually evaluated by how well they predict the team's return. Yet predicting a team's return and assigning credit to individual actions are distinct tasks. To test credit directly, we introduce FLARE (Fireline Learning Agents in a Replayable Environment), a stochastic wildfire suppression benchmark in which any moment of a fire can be replayed with different actions under the same random events. Replaying one step measures the immediate effect of each agent's suppression, which we call simulator credit and use for training. Replaying to the end of the episode measures the effect of each action, which we use for grading critics. In a comparison over eight seeds with multi-agent proximal policy optimization (MAPPO), simulator credit reduces the interquartile mean burn score (each cell's burning time, capped and averaged over the map; lower is better) from 26.6% with shared reward to 20.9%. Learned credit from a centralized COMA-style critic does no better than the shared reward. Four trained critics predict the team's return well, yet the credit they assign is 9 to 42 times larger than the credit measured by replay. The critics also give heterogeneous agents nearly identical action rankings. These results show that a good fit to the team's return is a weak test of a critic's credit.</description>
+    </item>
+    <item>
       <title>Vetoes and missed agreements in language-model bargaining</title>
       <link>http://arxiv.org/abs/2611.30950v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.30950v1</guid>
@@ -24,6 +31,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2611.29811v1</guid>
       <pubDate>Sun, 22 Nov 2026 22:35:19 +0000</pubDate>
       <description>These notes describe how generative AI is now used to solve and to check research-level mathematics, with a focus on agents and their harnesses. For the proving agents Rethlas, Danus, and Pharos and the verification agent OSVerify, we explain the design principles, compare each with its base model, present case studies, and show how to use and contribute to them. We also briefly review the history of AI for mathematics and the community's reactions to it.</description>
+    </item>
+    <item>
+      <title>Evolutionary AI Control: Population-Level Safety Under Reproduction, Heredity, and Selection</title>
+      <link>http://arxiv.org/abs/2611.31312v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31312v1</guid>
+      <pubDate>Sun, 22 Nov 2026 19:17:03 +0000</pubDate>
+      <description>An AI agent can satisfy every individual safety check and still give rise to a population that violates a collective safety limit. This risk arises in open multi-agent systems, where agents copy themselves, modify their successors, and change system membership during a run. Selection then shifts the population toward traits outside the developers' optimization targets. We prove conditions under which safety guarantees persist through reproduction, inheritance, and selection, and we characterize how they fail. Four counterexamples illustrate these failures. Unauthorized copies, which violate a specified reproductive restriction, can each leave fewer than one successor on average while their expected number grows without bound under continued production from an expanding authorized population. Two lineages can each decline in isolation yet grow exponentially when they interact. Alternating between reproductive rules can drive growth even when each rule, applied alone, suppresses it. Selection can raise the population's average rate of unauthorized reproduction above a certified limit even though every agent's rate remains fixed. Whereas existing verification methods assume fixed or registered membership, we prove safety certificates, under stated assumptions, for populations whose agents create successors during a run. The main result bounds the expected cumulative harm over a run, including when a scheduler adapts the reproductive rules to the observed history. Further conditions cover every population state reachable through evolution and preserve reproductive restrictions as descendants inherit modifications. Drawing on the mechanisms by which multicellular organisms control cell reproduction, the framework enables developers to specify and verify these controls before deployment.</description>
     </item>
     <item>
       <title>Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification</title>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2004.12661</guid>
       <pubDate>Mon, 27 Apr 2020 00:00:00 -0000</pubDate>
       <description>The explicit link between Promise Theory and Information Theory, while perhaps obvious, is laid out explicitly here. It's shown how causally related observations of promised behaviours relate to the probabilistic formulation of causal information in Shannon's theory, and thus clarify the meaning of autonomy or causal independence, and further the connection between information and causal sets. Promise Theory helps to make clear a number of assumptions which are commonly taken for granted in causal descriptions. The concept of a promise is hard to escape. It serves as proxy for intent, whether a priori or by inference, and it is intrinsic to the interpretations of observations in the latter.</description>
-    </item>
-    <item>
-      <title>On the Optimal Interaction Range for Multi-Agent Systems Under Adversarial Attack</title>
-      <link>https://arxiv.org/abs/2004.06562</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2004.06562</guid>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 -0000</pubDate>
-      <description>Consider a consensus-driven multi-agent dynamic system. The interaction range, which defines the set of neighbors for each agent, plays a key role in influencing connectivity of the underlying network. In this paper, we assume the system is under attack by a predator and explore the question of finding the optimal interaction range that facilitates the most-efficient escape trajectories for the group of agents. We find that for many cases of interest the optimal interaction range is one that forces the network to break up into a handful of disconnected graphs, each containing a subset of agents, thus outperforming the two extreme cases corresponding to fully-connected and fully-disconnected networks. In other words, the results indicate that some connectivity among the agents is helpful because information is effectively transmitted from the agents closest to the predator to others slightly farther away, but also that too much connectivity can be detrimental to the agility of the group, thus hampering efficient and rapid escape.</description>
-    </item>
-    <item>
-      <title>An agent-based negotiation model and its implementation in Repast</title>
-      <link>https://arxiv.org/abs/2004.06135</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2004.06135</guid>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 -0000</pubDate>
-      <description>We propose an agent-based model, MNegoti, for simulating multilateral negotiation process, which can be naturally employed in group decision support system. This model can also be applied to any use case in which negotiation is involved, in order to simulate the negotiation process. In this report, we discuss the implementation of the MNegoti model on the basis of the agent-based simulation platform, Repast Simphony. It is worth pointing out that this model can be used to create a java module for any use of agent-based negotiation simulation.</description>
     </item>
   </channel>
 </rss>

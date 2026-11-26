@@ -5,11 +5,25 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Polynomial-Time Learning of Random Automata from One Label per Word</title>
+      <link>http://arxiv.org/abs/2611.32959v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32959v1</guid>
+      <pubDate>Tue, 24 Nov 2026 16:57:58 +0000</pubDate>
+      <description>We study a binary deterministic finite automaton whose $2n$ transitions are chosen independently and uniformly from its $n$ states. The learner observes independent uniform words of length $m$, each labeled with a single bit indicating acceptance. For every fixed $β&gt;0$ we give a polynomial-time algorithm that works outside a set of transition tables of probability $o(n^{-β})$. On each remaining table, for any start state and accepting set, the predictor has error at most $ε$ on fresh uniform words of length $m$ with probability at least $1-γ$ over the training sample and the learner's random choices. Its sample size and running time are polynomial in $n$, $m$, $1/ε$ and $\log(2/γ)$, with degree depending only on $β$. Although each word reveals only one output, comparing label moments at two consecutive history lengths lets us estimate the expected product of the signed outputs of two continuations from the same hidden state. We also refute Conjecture 4 of Fish and Reyzin on meeting times. For two distinct states fixed before the table is drawn and every fixed $c&gt;0$, the fraction of words of length $\lfloor cn\rfloor$ that send them to different states converges in probability to $e^{-c}$. On a typical table, driving this fraction down to $1/n$ takes asymptotically $n\log n$ letters. Selected proof steps are formalized in Lean.</description>
+    </item>
+    <item>
       <title>A detailed verification of Neary's PCP(5) construction</title>
       <link>http://arxiv.org/abs/2611.29559v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.29559v1</guid>
       <pubDate>Sun, 22 Nov 2026 15:38:04 +0000</pubDate>
       <description>Neary proved that the Post correspondence problem remains undecidable for instances with five pairs of words. We give a detailed verification of his construction. We first verify the undecidability of the restricted binary tag-system halting problem used in the reduction. We then prove both directions of the reduction to the five-pair problem, using the longer closing pair proposed by Rote. In particular, we show that every solution of the constructed PCP instance yields a halting computation of the simulated tag system.</description>
+    </item>
+    <item>
+      <title>Copying versus self-construction in cellular automata: an algorithmic-information approach to self-reproduction</title>
+      <link>http://arxiv.org/abs/2611.31293v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31293v1</guid>
+      <pubDate>Fri, 20 Nov 2026 21:09:01 +0000</pubDate>
+      <description>What distinguishes an object that reproduces itself from one that is merely copied by its environment? We propose an answer based on algorithmic information and interventions, in cellular automata. Copies of an object are identified by the algorithmic information they share with it. Its code and its machine are identified by perturbations: changes to the code are inherited by the offspring, changes to the machine are not, since the offspring's machine is rebuilt from the code. An object is a self-reproducer if it proliferates, admits such a decomposition, its machine can be decoded from its code, and removing the machine stops the code from being copied. The definition uses only counts, interventions and upper bounds on information, so it is not undermined by exhaustive search. We prove that it excludes trivial "infection" dynamics and rules that copy every pattern, and reduce the claim that it includes the construction of von Neumann and Burks, but not its constituents, to explicit hypotheses. We measure the amount of self-reproduction by the length of the shortest proof, in a fixed formal theory, that some machinery can stand in for the object's machine; its lower bounds are decidable and immune to search. In an abstract model of reproduction we show that both ingredients are necessary: no criterion computed from the observed run alone distinguishes a machine built from its description from one that is copied, and criteria that ignore the dynamical law attribute to the object information the law supplies. We also show that conditional Kolmogorov complexity is, up to logarithmic terms, the only effective notion of determination compatible with counting and with charging re-encodings by their description length. Finally, we show that separate weak dependence of a function on its arguments implies joint weak dependence only non-effectively, with a loss governed by the halting problem.</description>
     </item>
     <item>
       <title>Additive cubes are avoidable by a non-uniform morphism of length $6$ over $\{0,a,b\}$ (with $b \ge 4$ and $\gcd(a,b) = 1$)</title>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1601.02014</guid>
       <pubDate>Wed, 30 Mar 2016 00:00:00 -0000</pubDate>
       <description>We present a method for predicting the large-scale evolution of a tag system from its production rules. A tag system's evolution is first divided into stages called `epochs' in which the tag system evolves monotonously. The distribution of symbols in the queue at the beginning of each epoch determines the tag system's large-scale properties, including growth rate and string densities, during that epoch. We derive the symbol distribution for the next epoch from the distribution for the current one, using this to make predictions over multiple successive epochs. Finally, we compare predictions that were obtained with this method to computer simulations and find that it retains great accuracy over several epochs.</description>
-    </item>
-    <item>
-      <title>An Incremental Learner for Language-Based Anomaly Detection in XML</title>
-      <link>https://arxiv.org/abs/1603.07924</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.07924</guid>
-      <pubDate>Fri, 25 Mar 2016 00:00:00 -0000</pubDate>
-      <description>The Extensible Markup Language (XML) is a complex language, and consequently, XML-based protocols are susceptible to entire classes of implicit and explicit security problems. Message formats in XML-based protocols are usually specified in XML Schema, and as a first-line defense, schema validation should reject malformed input. However, extension points in most protocol specifications break validation. Extension points are wildcards and considered best practice for loose composition, but they also enable an attacker to add unchecked content in a document, e.g., for a signature wrapping attack. This paper introduces datatyped XML visibly pushdown automata (dXVPAs) as language representation for mixed-content XML and presents an incremental learner that infers a dXVPA from example documents. The learner generalizes XML types and datatypes in terms of automaton states and transitions, and an inferred dXVPA converges to a good-enough approximation of the true language. The automaton is free from extension points and capable of stream validation, e.g., as an anomaly detector for XML-based protocols. For dealing with adversarial training data, two scenarios of poisoning are considered: a poisoning attack is either uncovered at a later time or remains hidden. Unlearning can therefore remove an identified poisoning attack from a dXVPA, and sanitization trims low-frequent states and transitions to get rid of hidden attacks. All algorithms have been evaluated in four scenarios, including a web service implemented in Apache Axis2 and Apache Rampart, where attacks have been simulated. In all scenarios, the learned automaton had zero false positives and outperformed traditional schema validation.</description>
-    </item>
-    <item>
-      <title>A Short Note on Infinite Union/Intersection of Omega Regular Languages</title>
-      <link>https://arxiv.org/abs/1603.05426</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1603.05426</guid>
-      <pubDate>Thu, 17 Mar 2016 00:00:00 -0000</pubDate>
-      <description>We in this paper show that omega regular languages are not closed under infinite union and intersection. As an attempt, we propose to add step variables and quantifiers to temporal logics to enhance the expressiveness of the underlying logic. We also show that doing this would cause undecidability in satisfiability, even if for a rather limited fragment of temporal logic.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Strongly Subquadratic Algorithm for Unique Assembly Verification in the Abstract Tile Assembly Model</title>
+      <link>http://arxiv.org/abs/2611.32980v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32980v1</guid>
+      <pubDate>Tue, 24 Nov 2026 17:13:50 +0000</pubDate>
+      <description>We show, for the first time, a strongly sub-quadratic algorithm for Unique Assembly Verification (UAV) in the 2D Abstract Tile Assembly Model (aTAM) with any constant temperature. UAV in the 2D aTAM is solvable in $\widetilde{O}(n^{71/36})$. Further, in 3D, we give a logarithmic improvement for UAV to $O(n^2/\sqrt{\log(n+2)})$, and then show that even for assemblies with a constant height of two in 3D (barely 3D), no strongly sub-quadratic algorithm can exist under the Orthogonal Vectors Conjecture (OVC) by showing it is coOV-hard. Further, we show that UAV for barely 3D assemblies is P-complete and analyze the result with relation to Circuit-SETH. We show that for UAV, any 3D aTAM system can be simulated by a barely 3D aTAM system. This provides a clear conditional separation between the 2D and 3D problems (even with only two layers), and improves the time complexity for one of the most fundamental problems in algorithmic self-assembly in both 2D and 3D.</description>
+    </item>
+    <item>
+      <title>Even Quartets and the Maximum Density of a Simplical 3-Cocycle</title>
+      <link>http://arxiv.org/abs/2611.32833v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32833v1</guid>
+      <pubDate>Tue, 24 Nov 2026 15:48:04 +0000</pubDate>
+      <description>Colour the triples of an $n$-element set red or blue, and call a four-set even if it contains an even number of red triples. We prove that the minimum number of even four-sets is $\frac5{16}\binom n4-Θ(n^3)$. In particular, the maximum asymptotic density of a simplicial $3$-cocycle over the field of two elements is $11/16$. The classical two-part matrix construction attains the limiting bound. We prove that it also determines the unique limiting distribution of quartet parities on every fixed number of vertices. Writing $m_n$ for the minimum density, we bound the limit inferior and limit superior of $n(5/16-m_n)$ between $0.75$ and $0.752427$. The lower bound on even quartets follows from an exact rational inequality on eight vertices. A perturbation of the construction explains all $72$ cases of equality in this finite inequality, of which only $22$ survive in an extremal limit.</description>
+    </item>
+    <item>
       <title>Approximate Minimum Triangle Partitions</title>
       <link>http://arxiv.org/abs/2611.31146v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31146v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1502.06175</guid>
       <pubDate>Sun, 22 Feb 2015 00:00:00 -0000</pubDate>
       <description>A universal representation theorem is derived that shows any graph is the intersection graph of one chordal graph, a number of co-bipartite graphs, and one unit interval graph. Central to the the result is the notion of the clique cover width which is a generalization of the bandwidth parameter. Specifically, we show that any planar graph is the intersection graph of one chordal graph, four co-bipartite graphs, and one unit interval graph. Equivalently, any planar graph is the intersection graph of a chordal graph and a graph that has {clique cover width} of at most seven. We further describe the extensions of the results to graphs drawn on surfaces and graphs excluding a minor of crossing number of at most one.</description>
-    </item>
-    <item>
-      <title>The number of non-crossing perfect plane matchings is minimized (almost) only by point sets in convex position</title>
-      <link>https://arxiv.org/abs/1502.05332</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1502.05332</guid>
-      <pubDate>Wed, 18 Feb 2015 00:00:00 -0000</pubDate>
-      <description>It is well-known that the number of non-crossing perfect matchings of $2k$ points in convex position in the plane is $C_k$, the $k$th Catalan number. García, Noy, and Tejel proved in 2000 that for any set of $2k$ points in general position, the number of such matchings is at least $C_k$. We show that the equality holds only for sets of points in convex position, and for one exceptional configuration of $6$ points.</description>
-    </item>
-    <item>
-      <title>A new algorithm for solving the rSUM problem</title>
-      <link>https://arxiv.org/abs/1407.4640</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1407.4640</guid>
-      <pubDate>Mon, 09 Feb 2015 00:00:00 -0000</pubDate>
-      <description>A determined algorithm is presented for solving the rSUM problem for any natural r with a sub-quadratic assessment of time complexity in some cases. In terms of an amount of memory used the obtained algorithm is the nlog^3(n) order. The idea of the obtained algorithm is based not considering integer numbers, but rather k (is a natural) successive bits of these numbers in the binary numeration system. It is shown that if a sum of integer numbers is equal to zero, then the sum of numbers presented by any k successive bits of these numbers must be sufficiently "close" to zero. This makes it possible to discard the numbers, which a fortiori, do not establish the solution.</description>
     </item>
   </channel>
 </rss>

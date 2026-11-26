@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Blow-up size for the noncommutative rank of linear symbolic matrices with low-rank coefficients</title>
+      <link>http://arxiv.org/abs/2611.31963v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31963v1</guid>
+      <pubDate>Tue, 24 Nov 2026 05:12:32 +0000</pubDate>
+      <description>The noncommutative rank (nc-rank) of a linear symbolic matrix $A = A_0 x_0 + A_1 x_1 + \dots + A_m x_m$ is the supremum of $1/k$ times the rank of the $k$-th blow-up $\sum_i A_i \otimes X_i$ of $A$, where $X_i$ are $k \times k$ matrices consisting of distinct variables. In this paper, we show that the blow-up size needed to attain the nc-rank is bounded by the ranks of the coefficient matrices. More precisely, if $A_1, \dots, A_m$ have rank at most $r$, with no restriction on $A_0$, then the $k$-th blow-up attains the nc-rank for every $k \geq r$. This holds for rectangular matrices over an arbitrary field, and unifies and extends the known results that $k = 1$ suffices for rank-one coefficients (Lovász, 1989; Ivanyos, Karpinski, and Saxena, 2010) and that $k = 2$ suffices for skew-symmetric coefficients of rank two (Oki and Soma, 2025). We present two applications. First, if $r$ is a constant, then the nc-rank of an $n \times n$ linear symbolic matrix can be computed by a randomized algorithm with $O(m n^2 + n^ω)$ arithmetic operations over a sufficiently large field, where $ω$ is the matrix multiplication exponent. Second, the hierarchy of polytopes introduced by Hirai (2026), which converges to the nc-independent set polytope, stabilizes at the $r$-th level; this is based on a counterpart of our main result for the degree of the Dieudonné determinant.</description>
+    </item>
+    <item>
       <title>Cop-Win Edge Completion: Hardness, Structure, and Parameterized Algorithm</title>
       <link>http://arxiv.org/abs/2611.31191v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31191v1</guid>
@@ -17,6 +24,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2611.29672v1</guid>
       <pubDate>Sun, 22 Nov 2026 18:24:47 +0000</pubDate>
       <description>In online coloring, the vertices of a graph arrive one at a time with their edges to earlier vertices, and each vertex must be colored irrevocably on arrival. For graphs promised to be $k$-colorable, with $k\ge 3$ fixed, the best deterministic algorithms use $n^{1-Θ(1/k^2)}$ colors, while the best lower bound was Vishwanathan's $Ω(\log^{k-1}n)$ from 1990 until Li recently proved $2^{Ω((\log n)^{1/3}(\log\log n)^{2/3})}$. For every fixed $k\ge 3$ and all sufficiently large $n$, we prove a lower bound of $n^{1/(\log^*n+3)}$ colors for deterministic online algorithms on $n$-vertex $k$-colorable graphs, and the same lower bound in expectation for randomized online algorithms. Both bounds hold on a single triangle-free $3$-colorable graph: even an algorithm that is shown this graph in advance, but is not told which of its vertices each arriving vertex is, can be forced to use this many colors by a suitable arrival order. The hard instances are iterated blow-ups of a clique, in which every vertex becomes a block of independent vertices and every edge a private server in the earlier block; each blow-up keeps the forced colors and replaces the chromatic number $χ$ by about $\logχ$, so about $\log^*n$ blow-ups bring it down to $k$. We also show that deterministic lower bounds for different values of $k\ge 3$ are polynomially equivalent, and that no adversary presenting such iterated blow-ups can force more than $n^{1/(\log^*n-O(1))}$ colors. All numbered results are formalized in Lean 4.</description>
+    </item>
+    <item>
+      <title>Concave Run Budgets and Restart Width</title>
+      <link>http://arxiv.org/abs/2611.31310v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31310v1</guid>
+      <pubDate>Sun, 22 Nov 2026 16:38:26 +0000</pubDate>
+      <description>A source-to-target path in an edge-labelled DAG uses each label in some number of maximal runs, with a label used in \(r\) runs charged according to a nondecreasing concave rational tariff \(f(r)\). We seek a path of total charge at most \(B\), or a shortest such path. We parameterize by restart width \(\wr\), the maximum number of labels that have already appeared and can still begin a new run at some vertex. It is at most live width but can be arbitrarily smaller. Let \(J_f(T)\) denote the number of distinct marginal rates of \(f\) up to horizon \(T\). A lazy-commitment dynamic program solves minimum charge and feasibility in \(J_f(T)^{\wr}\poly(N)\) time, allowing arbitrary per-label tariffs and unbounded charge magnitudes. Thus the problem is FPT whenever \(J_f\) is effectively subpolynomial. Conversely, for every fixed tariff with \(J_f(T)\ge T^δ\) eventually, feasibility is NP-complete and W[1]-hard in \(\wr\), even on planar bipartite DAGs of maximum degree three and treewidth two whose paths have equal length, and admits no \(g(\wr)N^{o(\wr)}\) algorithm under ETH. The reduction uses positive pairwise Jensen-gap charges, requires no denominator assumption, and covers harmonic, geometric, and power-law tariffs. A \(k\)-colour clique instance has width at most \(2k+1\), improved to \(k+1\) for polynomially bounded denominators. We further exhibit arbitrarily close tariffs with opposite parameterized complexity, give an FPT budget-relaxing scheme and accuracy obstruction, establish few-label hardness and W[P]-membership, and identify separate hardness from binary-encoded lengths. Oscillating plan growth and non-effective subpolynomial bounds remain open.</description>
     </item>
     <item>
       <title>Towards a faster parameterized algorithm for Chordal Vertex Deletion</title>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2307.07433</guid>
       <pubDate>Fri, 14 Jul 2023 00:00:00 -0000</pubDate>
       <description>The multi allocation p-hub median problem (MApHM), the multi allocation uncapacitated hub location problem (MAuHLP) and the multi allocation p-hub location problem (MApHLP) are common hub location problems with several practical applications. HLPs aim to construct a network for routing tasks between different locations. Specifically, a set of hubs must be chosen and each routing must be performed using one or two hubs as stopovers. The costs between two hubs are discounted. The objective is to minimize the total transportation cost in the MApHM and additionally to minimize the set-up costs for the hubs in the MAuHLP and MApHLP. In this paper, an approximation algorithm to solve these problems is developed, which improves the approximation bound for MApHM to 3.451, for MAuHLP to 2.173 and for MApHLP to 4.552 when combined with the algorithm of Benedito &amp; Pedrosa. The proposed algorithm is capable of solving much bigger instances than any exact algorithm in the literature. New benchmark instances have been created and published for evaluation, such that HLP algorithms can be tested and compared on huge instances. The proposed algorithm performs on most instances better than the algorithm of Benedito &amp; Pedrosa, which was the only known approximation algorithm for these problems by now.</description>
-    </item>
-    <item>
-      <title>Graph Search Trees and Their Leaves</title>
-      <link>https://arxiv.org/abs/2307.07279</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.07279</guid>
-      <pubDate>Fri, 14 Jul 2023 00:00:00 -0000</pubDate>
-      <description>Graph searches and their respective search trees are widely used in algorithmic graph theory. The problem whether a given spanning tree can be a graph search tree has been considered for different searches, graph classes and search tree paradigms. Similarly, the question whether a particular vertex can be visited last by some search has been studied extensively in recent years. We combine these two problems by considering the question whether a vertex can be a leaf of a graph search tree. We show that for particular search trees, including DFS trees, this problem is easy if we allow the leaf to be the first vertex of the search ordering. We contrast this result by showing that the problem becomes hard for many searches, including DFS and BFS, if we forbid the leaf to be the first vertex. Additionally, we present several structural and algorithmic results for search tree leaves of chordal graphs.</description>
-    </item>
-    <item>
-      <title>The road problem and homomorphisms of directed graphs</title>
-      <link>https://arxiv.org/abs/2201.12942</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2201.12942</guid>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 -0000</pubDate>
-      <description>We make progress on a generalization of the road (colouring) problem. The road problem was posed by Adler-Goodwyn-Weiss and solved by Trahtman. The generalization was posed, and solved in certain special cases, by Ashley-Marcus-Tuncel. We resolve two new families of cases, of which one generalizes the road problem and follows Trahtman's solution, and the other generalizes a result of Ashley-Marcus-Tuncel with a proof quite different from theirs. Along the way, we prove a universal property for the fiber product of certain graph homomorphisms, which may be of independent interest. We provide polynomial-time algorithms for relevant constructions and decision problems.</description>
     </item>
   </channel>
 </rss>

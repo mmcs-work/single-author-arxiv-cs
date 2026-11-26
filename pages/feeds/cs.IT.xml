@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Koashi--Imoto Criterion for Holevo-Rate Visible Compression</title>
+      <link>http://arxiv.org/abs/2611.33129v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33129v1</guid>
+      <pubDate>Tue, 24 Nov 2026 18:52:33 +0000</pubDate>
+      <description>For a finite memoryless quantum source whose encoder knows the sequence of classical labels, we determine when the Holevo rate is achievable with shared classical randomness and no shared entanglement. In the maximal Koashi--Imoto decomposition of the signal ensemble, this occurs exactly when each signal is pure on the quantum part of every sector it occupies. For qubits, this means that the signals are all pure or commute pairwise. If any occupied quantum part is mixed, every code with sufficiently small mean local error has rate bounded away from the Holevo information, uniformly in blocklength. To prove the converse, we apply Fawzi--Renner recovery to a hypothetical sequence of visible codes approaching the Holevo rate at vanishing local error, then invoke a decoupling bound of Baghali Khanian and Winter for blind compression.</description>
+    </item>
+    <item>
+      <title>When Is Product Decoding of ECOC MAP-Consistent? Pair Structure and the n-vs-Rest Codes</title>
+      <link>http://arxiv.org/abs/2611.33044v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33044v1</guid>
+      <pubDate>Tue, 24 Nov 2026 17:54:18 +0000</pubDate>
+      <description>Error-Correcting Output Codes (ECOC) combine binary classifiers by the sum decoder, which totals probabilities, or the product decoder, which totals log-likelihoods. In the noiseless setting, where the binary classifiers output the true posteriors, we ask on which code matrices each decoder always agrees with the Bayes-optimal (MAP) class. For the sum decoder the answer is known: the code must be equidistant (James and Hastie, 1998). We answer the question for the product decoder. Two classes are compared through the votes of the columns on which they differ: the sum decoder decides by their sample mean, the product decoder by an M-estimator with influence function artanh, and each vote is the MAP margin plus a bias determined by the other classes alone. Our main theorem states that the product decoder is MAP-consistent if and only if, for every class pair, the columns on which the two classes differ are matched with the columns obtained by swapping the two classes (or their complements), and equivalently if and only if the code is a union of n-vs-Rest codes. Efficient equidistant codes are therefore excluded: Hadamard codes ($M\ge 8$), which meet the Plotkin bound with $M-1$ columns, have no such pairs, and for the Sylvester type the reversal margin can be at least a constant 0.0182 independent of $M$. All theorems are machine-checked in Lean 4. On six real datasets with estimated probabilities, the product decoder is slightly more accurate when each column is calibrated, and the sum decoder is better when the calibration error differs across columns; in either case the decoders disagree only near ties.</description>
+    </item>
+    <item>
+      <title>The Capacity of Conference Key Agreement over GHZ Networks</title>
+      <link>http://arxiv.org/abs/2611.32886v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32886v1</guid>
+      <pubDate>Tue, 24 Nov 2026 16:19:06 +0000</pubDate>
+      <description>$K$ users share independent GHZ states, each held by a subset of the users, and want a common secret key, using local operations and public classical communication (LOCC). We show that the conference key capacity, the largest number of secret key bits per copy of the resource, equals the key capacity of the classical source obtained by measuring every GHZ state. Measuring first is therefore optimal, even when the users keep quantum memory and communicate over any number of rounds. The capacity also equals the GHZ distillation capacity, the largest number of GHZ states shared by all users obtainable per copy.</description>
+    </item>
+    <item>
+      <title>Ordering Information in Multispecies Long-Range Swap Processes</title>
+      <link>http://arxiv.org/abs/2611.32766v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32766v1</guid>
+      <pubDate>Tue, 24 Nov 2026 15:04:12 +0000</pubDate>
+      <description>We measure how much the left-to-right species order $W_t$ of interacting particles on the integer lattice reveals about their initial configuration. For distinct species under long-range swaps, deleting stronger particles gives coordinates with independent Poisson increments. For a finitely supported initial law, the mutual information between any function $U$ of the initial configuration and $W_t$ is $C_U/t+O(t^{-3/2})$ as $t\to\infty$, where $C_U$, which may vanish, is determined by the means of Gaussian order statistics and the conditional means of the initial compressed coordinates given $U$. On consecutive sites with a uniform initial order, we compute the coefficient of the $t\log(1/t)$ term in the short-time information loss for arbitrary species counts. For three particles in this setting, repeating the weaker rather than the stronger species triples the long-time $t^{-1}$ coefficient, although both compositions have the same composition entropy and initial-order entropy. These long-time coefficients are the same whether equal particles block or push each other, but the nonuniform limiting output law is reversed. In the ordinary multispecies totally asymmetric simple exclusion process (TASEP), two distinct particles at fixed sites with a uniform initial order instead give $t^{-1/2}$ decay.</description>
+    </item>
+    <item>
+      <title>Lossless Re-Encoding of Vorbis and Opus Audio Files</title>
+      <link>http://arxiv.org/abs/2611.32641v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32641v1</guid>
+      <pubDate>Tue, 24 Nov 2026 14:01:01 +0000</pubDate>
+      <description>We present Balrogg, a lossless recompressor that replaces the entropy coding of Ogg Vorbis and Ogg Opus files with adaptive context mixing models. For Vorbis, we write each represent each codebook entry as a tuple of small signed integers (digits), binarized in five stages, and mixed with a direct context model, a bit-history model, and a match model, with weights selected by the neighboring digits and the previous residue pass. For Opus, each symbol is coded by an adaptive context model initialized with the codec's probability tables as priors, and the pyramid vector quantizer (PVQ) indices of the CELT layer are split recursively into pulse counts. At the default level, Balrogg reduces Vorbis music by 16.2\%, Vorbis speech by 10.6%, and Opus speech by 5.4%; xz, zstd, ZPAQ, and bzip3 save at most 4.1% on the same files. Over 48 encoder configurations, files shrink to 66.5--96.1% of their size. Encoding and decoding are symmetric, run at 1.8--3.2~MB/s per core, and use less than 12~MiB of memory.</description>
+    </item>
+    <item>
+      <title>Sequences for Flat-Top Beams</title>
+      <link>http://arxiv.org/abs/2611.32418v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32418v1</guid>
+      <pubDate>Tue, 24 Nov 2026 11:21:57 +0000</pubDate>
+      <description>Flat-top beams have numerous applications in radar and communication systems. Sequences with diverging merit factors can approach the ideal omnidirectional beams but do not directly apply to flat-top beams, which require simultaneous control of passband ripple and stopband leakage. To bridge this gap, we study the asymptotic behavior of both quantities of flat-top beams by using tools of Fourier analysis. We establish contrasting results for sequences with finite or infinite alphabets. For sequences with finite alphabet, including binary and quaternary ones, their passband ripple and stopband leakage cannot simultaneously vanish as the sequence length grows to infinity. For sequences with infinite alphabet, however, both requirements are satisfied simultaneously by the generalized step-chirp (GSC) sequences if and only if the length-bandwidth product $Nγ$ goes to infinity and the distance of the step size $a$ from $\{0,1,\tfrac12,\tfrac13,\ldots\}$ goes to zero. Besides, both quantities vanish at rate $O((Nγ)^{-1/2})$ if $a\in \{1,\tfrac12,\tfrac13,\ldots\}$.These results broaden the scope of classical sequence design beyond full-band spectral flatness and provide a theoretical foundation for flat-top beam synthesis.</description>
+    </item>
+    <item>
+      <title>Ternary Perfect $2$-Burst-Correcting Codes</title>
+      <link>http://arxiv.org/abs/2611.31328v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31328v1</guid>
+      <pubDate>Mon, 23 Nov 2026 11:07:12 +0000</pubDate>
+      <description>A construction for a ternary perfect linear $2$-burst-correcting code is presented for every redundancy $r \geq 5$. The construction is recursive with seeds given for $5 \leq r \leq 7$. The construction of redundancy $r \geq 8$ is derived from a code of redundancy $r-3$ and it distinguishes between codes of even and odd length.</description>
+    </item>
+    <item>
       <title>Optimal XOR Lemmas for Information Complexity</title>
       <link>http://arxiv.org/abs/2611.30432v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.30432v1</guid>
@@ -59,6 +108,13 @@
       <guid isPermaLink="true">http://arxiv.org/abs/2611.28757v1</guid>
       <pubDate>Sat, 21 Nov 2026 11:59:53 +0000</pubDate>
       <description>In realizable transductive online learning, the learner knows the entire sequence of $T$ instances in advance, and the labels are consistent with one of $N$ hypotheses. With explicit access to the hypothesis class, the halving algorithm makes at most $\log_2 N$ mistakes. Can a comparable guarantee be achieved using only polynomially many empirical risk minimization (ERM) queries? We answer this question negatively, even for a weighted-ERM oracle that optimizes arbitrary real-valued linear objectives and returns a complete maximizing hypothesis. For every fixed $β\in(0,1)$ and every randomized learner making polynomially many oracle queries, there exists a fixed realizable instance with exactly $N=2^{\lfloor T^β\rfloor}$ hypotheses on which the learner makes $Ω_β(\sqrt{T\log N})$ mistakes in expectation. This matches the agnostic-rate upper bound achieved by random playout using $O(T)$ oracle calls. The separation persists for much smaller classes as well: along a sequence with $\log N=Θ((\log T)^2)$, we establish a mistake lower bound of $\exp(Ω(\log T/\log\log T))$. Our main technical contribution is a composition lemma that combines two realizable prediction problems such that their mistake lower bounds add, up to a small loss, while their hypothesis class sizes grow only additively. Iterating this lemma yields a family of hard instances spanning the desired parameter regimes, establishing a sharp separation between information-theoretic and oracle-efficient mistake guarantees.</description>
+    </item>
+    <item>
+      <title>Predictive Self-Entropy in Dirichlet Universal Coding: A Factor-Two Central Limit Theorem and a Markov Extension</title>
+      <link>http://arxiv.org/abs/2611.31297v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31297v1</guid>
+      <pubDate>Sat, 21 Nov 2026 08:14:59 +0000</pubDate>
+      <description>Sequential universal coders produce both a realized log-loss and, before each symbol is observed, a predictive distribution with its own Shannon entropy. We compare the realized arithmetic code length with the cumulative predictive self-entropy, the prequential sum of the self-expected logarithmic scores of the issued forecasts. This forecast-only quantity is neither a plug-in entropy estimate nor a posterior entropy functional. For finite-alphabet memoryless sources and Dirichlet (add-$α$) sequential predictors, we prove a joint central limit theorem for the two normalized quantities. They have the same first-order entropy limit but different second-order fluctuations: for every nonuniform i.i.d. source, cumulative predictive self-entropy has exactly twice the leading asymptotic variance of realized code length, and the ordinary mean-square-error ratio converges to two. We also give its logarithmic bias coefficient. For fixed finite-order Markov sources with context-wise Dirichlet predictors, the factor-two result becomes a context/innovation covariance decomposition, recovering the i.i.d. factor two when only the innovation component contributes.</description>
     </item>
     <item>
       <title>Semi-regular admixed arrays: asymptotic enumeration and when information is additive</title>
@@ -6947,62 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2511.22649</guid>
       <pubDate>Thu, 27 Nov 2025 00:00:00 -0000</pubDate>
       <description>This paper explains why internal and external validity cannot be simultaneously maximised. It introduces "evidential states" to represent the information available for causal inference and shows that routine study operations (restriction, conditioning, and intervention) transform these states in ways that do not commute. Because each operation removes or reorganises information differently, changing their order yields evidential states that support different causal claims. This non-commutativity creates a structural trade-off: the steps that secure precise causal identification also eliminate the heterogeneity required for generalisation. Small model, observational and experimental examples illustrate how familiar failures of transportability arise from this order dependence. The result is a concise structural account of why increasing causal precision necessarily narrows the world to which findings apply.</description>
-    </item>
-    <item>
-      <title>Maximum Entropy and Bayesian Conditioning Under Extended Space</title>
-      <link>https://arxiv.org/abs/2511.22375</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.22375</guid>
-      <pubDate>Thu, 27 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper examines the conditions under which Bayesian conditioning aligns with Maximum Entropy. Specifically, I address cases in which newly learned information does not correspond to an event in the probability space defined on the sample space of outcomes. To facilitate Bayesian conditioning in such cases, one must therefore extend the probability space so that the new information becomes an event in this expanded space. Skyrms (1985) argues that Bayesian conditioning in an extended probability space on a product space of outcomes aligns precisely with the solution from Maximum Entropy. In contrast, Seidenfeld (1986) uses Friedman and Shimony's (1971) result to criticize Skyrms' approach as trivial, suggesting that alignment holds only under a degenerate probability model. Here, I argue that Friedman and Shimony's result must either (1) be a benign consequence of Skyrms' approach, or (2) pose a universal challenge to any method of extending spaces. Accepting (2) would imply that Bayesian conditioning is incapable of accommodating information beyond the probability space defined on the original outcome space.</description>
-    </item>
-    <item>
-      <title>One-Shot Coding and Applications</title>
-      <link>https://arxiv.org/abs/2511.19556</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.19556</guid>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 -0000</pubDate>
-      <description>One-shot information theory addresses scenarios in source coding and channel coding where the signal blocklength is assumed to be 1. In this case, each source and channel can be used only once, and the sources and channels are arbitrary and not required to be memoryless or ergodic. We study the achievability part of one-shot information theory, i.e., we consider explicit coding schemes in the oneshot scenario. The objective is to derive one-shot achievability results that can imply existing (first-order and second-order) asymptotic results when applied to memoryless sources and channels, or applied to systems with memory that behave ergodically. Poisson functional representation was first proposed as a one-shot channel simulation technique by Li and El Gamal [118] for proving a strong functional representation lemma. It was later extended to the Poisson matching lemma by Li and Anantharam [117], which provided a unified one-shot coding scheme for a broad class of information-theoretic problems. The main contribution of this thesis is to extend the applicability of Poisson functional representation to various more complicated scenarios, where the original version cannot be applied directly and further extensions must be developed.</description>
-    </item>
-    <item>
-      <title>The Semiotic Channel Principle: Measuring the Capacity for Meaning in LLM Communication</title>
-      <link>https://arxiv.org/abs/2511.19550</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.19550</guid>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper proposes a novel semiotic framework for analyzing Large Language Models (LLMs), conceptualizing them as stochastic semiotic engines whose outputs demand active, asymmetric human interpretation. We formalize the trade-off between expressive richness (semiotic breadth) and interpretive stability (decipherability) using information-theoretic tools. Breadth is quantified as source entropy, and decipherability as the mutual information between messages and human interpretations. We introduce a generative complexity parameter (lambda) that governs this trade-off, as both breadth and decipherability are functions of lambda. The core trade-off is modeled as an emergent property of their distinct responses to $λ$. We define a semiotic channel, parameterized by audience and context, and posit a capacity constraint on meaning transmission, operationally defined as the maximum decipherability by optimizing lambda. This reframing shifts analysis from opaque model internals to observable textual artifacts, enabling empirical measurement of breadth and decipherability. We demonstrate the framework's utility across four key applications: (i) model profiling; (ii) optimizing prompt/context design; (iii) risk analysis based on ambiguity; and (iv) adaptive semiotic systems. We conclude that this capacity-based semiotic approach offers a rigorous, actionable toolkit for understanding, evaluating, and designing LLM-mediated communication.</description>
-    </item>
-    <item>
-      <title>Misinformation Dynamics in Social Networks</title>
-      <link>https://arxiv.org/abs/2511.18733</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.18733</guid>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Information transmitted across modern communication platforms is degraded not only by intentional manipulation (disinformation) but also by intrinsic cognitive decay and topology-dependent social averaging (misinformation). We develop a continuous-fidelity field theory on multiplex networks with distinct layers representing private chats, group interactions, and broadcast channels. Our analytic solutions reveal three universal mechanisms controlling information quality: (i) groupthink blending, where dense group coupling drives fidelity to the initial group mean; (ii) bridge-node bottlenecks, where cross-community flow produces irreversible dilution; and (iii) a network-wide fidelity landscape set by a competition between broadcast truth-injection and structural degradation pathways. These results demonstrate that connectivity can reduce information integrity and establish quantitative control strategies to enhance fidelity in large-scale communication systems.</description>
-    </item>
-    <item>
-      <title>The isotopy classes of Petit division algebras</title>
-      <link>https://arxiv.org/abs/2511.18451</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.18451</guid>
-      <pubDate>Sun, 23 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Let $R=K[t;σ]$ be a skew polynomial ring, where $K$ is a cyclic Galois field extension of degree $n$ with Galois group generated by $σ$. We show that two irreducible similar skew polynomials $f,g\in R$ are similar if and only if they have the same bound. We prove that for two irreducible similar skew polynomials $f,g\in R$ the nonassociative Petit division algebras $R/Rf$ and $R/Rg$ are isotopic. We then refine this result and demonstrate that $f$ and $g$ also yield two isotopic nonassociative Petit algebras $R/Rf$ and $R/Rg$, when the two irreducible polynomials in $F[x]$ that define the minimal central left multiples of $f$ and $g$ have identical degree and lie in the same orbit of some group $G$. For finite field we explicitly compute the upper bound for the number of non-isotopic algebras $R/Rf$ obtained by Lavrauw and Sheekey.</description>
-    </item>
-    <item>
-      <title>Newton-Flow Particle Filters based on Generalized Cramér Distance</title>
-      <link>https://arxiv.org/abs/2509.00182</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.00182</guid>
-      <pubDate>Sun, 23 Nov 2025 00:00:00 -0000</pubDate>
-      <description>We propose a recursive particle filter for high-dimensional problems that inherently never degenerates. The state estimate is represented by deterministic low-discrepancy particle sets. We focus on the measurement update step, where a likelihood function is used for representing the measurement and its uncertainty. This likelihood is progressively introduced into the filtering procedure by homotopy continuation over an artificial time. A generalized Cramér distance between particle sets is derived in closed form that is differentiable and invariant to particle order. A Newton flow then continually minimizes this distance over artificial time and thus smoothly moves particles from prior to posterior density. The new filter is surprisingly simple to implement and very efficient. It just requires a prior particle set and a likelihood function, never estimates densities from samples, and can be used as a plugin replacement for classic approaches.</description>
-    </item>
-    <item>
-      <title>Cramér-Rao Bound Analysis and Near-Optimal Performance of the Synchronous Nyquist-Folding Generalized Eigenvalue Method (SNGEM) for Sub-Nyquist Multi-Tone Parameter Estimation</title>
-      <link>https://arxiv.org/abs/2601.20866</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.20866</guid>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 -0000</pubDate>
-      <description>The synchronous Nyquist folding generalized eigenvalue method (SNGEM) realizes full frequency/amplitude/phase estimation of multitone signals at extreme sub-Nyquist rates by jointly processing the original signals and their time derivatives. In this paper, accurate Cramer-Rao bounds for amplitude ratio parameter R=A/B=1/(2\pif) are derived for two channels with equal SNR. Monte-Carlo simulations confirm that SNGEM achieves machine accuracy in noise-free conditions and closely approaches the derived CRB at all SNR levels, even at 10- 20x compression, whereas classical compressive sensing OMP exhibits irreducible error flattening due to DFT grid bias and aliasing noise. These results establish SNGEM as a statistically nearly optimal deterministic sub-Nyquist parameter spectrum analysis</description>
-    </item>
-    <item>
-      <title>Frobenius Revivals in Laplacian Cellular Automata: Chaos, Replication, and Reversible Encoding</title>
-      <link>https://arxiv.org/abs/2511.17389</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.17389</guid>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 -0000</pubDate>
-      <description>We investigate Frobenius-driven revivals in prime-modulus Laplacian cellular automata, a phenomenon in which long chaotic transients collapse into exact, multi-tile replicas of an initial seed at algebraically prescribed times $t=p^m$. The mechanism follows directly from the Frobenius identity $(I+B)^{p^m}=I+B^{p^m}$, which eliminates all mixed binomial terms and enforces deterministic reappearance of the seed after dispersion. We provide a detailed numerical and analytical characterisation of these revivals across several moduli, examining entropy dynamics, spatial organisation, and local stability under perturbations. The revival structure yields several useful features: predictable transitions between chaotic and ordered phases, intrinsic spatial redundancy, and robust reconstruction via replica consensus in the presence of weak additive noise. We further show that composing Laplacian operators modulo multiple primes generates significantly extended periodic orbits while preserving exact reversibility. Building on these observations, we propose an explicit reversible encoding scheme based on chaotic transients and Frobenius returns, together with practical separation conditions and noise-tolerance estimates. Potential applications include reversible steganography, structured pseudorandomness, error-tolerant information representation, and procedural pattern synthesis. The results highlight an interplay between algebraic combinatorics and cellular-automaton dynamics, suggesting further avenues for theoretical and applied development.</description>
     </item>
   </channel>
 </rss>

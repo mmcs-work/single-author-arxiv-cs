@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Testing Expansion without Connectivity via Return Probabilities</title>
+      <link>http://arxiv.org/abs/2611.32677v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32677v1</guid>
+      <pubDate>Tue, 24 Nov 2026 14:23:03 +0000</pubDate>
+      <description>We study whether every connected component of a bounded-degree graph is an edge expander, given access to its neighbor lists. Dinur and Goldreich give a tester using $\mathrm{poly}(1/\varepsilon)n^α$ queries for every fixed $α&gt;2/3$. We obtain \[ \widetilde O_{d,c,β}\!\left(\frac{n^{1/2+β}}{\varepsilon}+\frac{\sqrt n}{\varepsilon^4}\right) \] queries for every fixed $0&lt;β\le1$. The tester accepts graphs whose components have edge expansion at least $c$ and rejects graphs $\varepsilon$-far from having edge expansion $Ω(βc^2/d)$ in every component, each with probability at least $2/3$. No structural promise is imposed on the input. The tester compares pairwise collision probabilities at two walk lengths and starts further walks at vertices where sampled endpoints coincide. These additional samples control the contribution of vertices with larger return probabilities. We show that the resulting conditions force the longer walk to be nearly uniform on an induced expander with few edges leaving it. We also prove an $Ω(\sqrt{n/\log n})$ lower bound for Cayley graphs at infinitely many input sizes.</description>
+    </item>
+    <item>
+      <title>The Min-Cut Formulation of Ollivier-Ricci Curvature</title>
+      <link>http://arxiv.org/abs/2611.32528v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32528v1</guid>
+      <pubDate>Tue, 24 Nov 2026 12:53:28 +0000</pubDate>
+      <description>Computing Ollivier-Ricci curvature normally requires a local distance matrix and a linear program per edge, prompting workarounds based on entropic regularization or combinatorial proxies. We show that exact curvature needs neither. For any one-step measures, the Kantorovich dual has an integral three-level optimum, reducing each edge to one minimum s-t cut on a distance-free network linear in the read adjacency lists. This solves instances requiring quadratically many distance queries in linear time, while a converse reduction shows that no exact algorithm can beat bipartite matching. Our solver is a median 6 times (up to 506 times) faster than distance construction plus $\mathtt{POT}$'s C++ simplex, 441 times faster than $\mathtt{GraphRicciCurvature}$, and 23 times faster than graph min-cost flow. Even given the distances, Sinkhorn iterations at $\mathtt{GraphRicciCurvature}$'s regularization are a median 12 times slower, and combinatorial proxies alter edge rankings, missing the bulk of the most negatively curved ones.</description>
+    </item>
+    <item>
+      <title>Minimizing Total Busy Time with Bounded Parallelism: A $3/2$-Approximation for Parallelism Two and a Forest Characterization for General Parallelism</title>
+      <link>http://arxiv.org/abs/2611.32048v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32048v1</guid>
+      <pubDate>Tue, 24 Nov 2026 06:32:33 +0000</pubDate>
+      <description>We study the minimum total busy time problem: jobs with fixed processing intervals must be assigned to identical machines, each of which can process at most g jobs at a time, so that the total time during which the machines are busy is minimized. The problem is NP-hard already for g=2, and, to the best of our knowledge, no approximation ratio below 2 was known for general instances with g=2, where the ratio 2 is attained by giving every job its own machine. We present a combinatorial 3/2-approximation algorithm for g=2. The algorithm applies the two-phase local-ratio technique to the known pair formulation of the problem, processing the overlapping job pairs in order of the right ends of their overlaps. The cost of its schedule is at most $L-λ/2$, where L is the total processing time and $λ$ is the optimal value of the linear relaxation of the pair formulation; hence the integrality gaps of this relaxation and of the configuration LP are at most 3/2. The result extends to temporal bin packing with items larger than one third of the bin capacity. For general g, we show that optimal schedules correspond exactly to maximum-weight forests of a special kind, which we call g-caterpillar forests; this yields an exact integer program and a linear relaxation of polynomial size for every fixed g. We also observe that securing a (1-1/g) fraction of the optimal savings suffices for a (2-1/g)-approximation. On random instances with g=2, evaluated with exact optima or tight lower bounds obtained from the pair formulation, the average ratio of the algorithm to the optimum is at most 1.075 for 100 jobs and at most 1.070 for 200 jobs.</description>
+    </item>
+    <item>
+      <title>An Inverse-Square Gain over Threshold Rounding at Bounded Degree: Reasonable Boolean 2-CSPs and Beyond</title>
+      <link>http://arxiv.org/abs/2611.32030v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32030v1</guid>
+      <pubDate>Tue, 24 Nov 2026 06:10:29 +0000</pubDate>
+      <description>Bounding the number of constraints in which a variable occurs can improve the approximation ratio of semidefinite rounding. For weighted Max-Cut and Max-2-Lin(2) of degree $d$, the known gain over the worst-case ratio is $Ω(1/(d\log d))$ (Buhai, Ghoshal, Huang, Kothari, Lee, Makarychev, and Makarychev, 2027). For binary Boolean CSPs satisfying a geometric condition, the algorithm of Ghoshal, Huang, Lee, Makarychev, and Makarychev (2026) achieves $a+Ω(1/(d^4(\log d)^{7/2}))$, where $a$ is the expected fraction of the total weight satisfied by Gaussian rounding at fixed, bounded thresholds. For weighted Max 2-SAT, the same analysis gives a gain of $Ω(1/(d^2\log d))$ over the worst-case ratio $α_{\rm LLZ}\simeq0.94016567$. We give a randomized polynomial-time algorithm with guarantee $a+Ω(1/d^2)$ under a weaker geometric condition that holds for a strictly larger class of binary instances. For weighted Max 2-SAT we obtain the ratio $α_{\rm LLZ}+Ω(1/d^2)$. To improve a worst-case ratio, only the binary constraints close to equality in the baseline guarantee need to meet the new condition jointly. This gives an inverse-square gain for Max $\{1,2\}$-Horn-SAT and for positive binary disjunctions with unit clauses of either sign, each over its own sharp worst-case ratio (Brakensiek, Huang, and Zwick, 2024).</description>
+    </item>
+    <item>
+      <title>Solving (Vertex-Weighted) Directed Multiway Cut Faster Than $2^n$</title>
+      <link>http://arxiv.org/abs/2611.31738v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31738v1</guid>
+      <pubDate>Tue, 24 Nov 2026 00:49:34 +0000</pubDate>
+      <description>In the Directed Multiway Cut problem, we are given a directed graph $G=(V,E)$ and a subset $T\subseteq V$, called the terminal set. The aim is to find a minimum-cardinality set $S\subseteq V\setminus T$, such that after deleting $S$, no directed path exists from one terminal to another terminal in the remaining graph. It had been an open question whether \textsc{Directed Multiway Cut} can be solved faster than the trivial running-time bound $O^*(2^{|V|})$. In this paper, we provide a positive answer to this question, presenting an algorithm with a running-time bound $O(1.9967^{|V|})$. The algorithm can also be modified to solve the weighted version (each vertex having a positive weight) in $O^*(1.9985^{|V|})$ time.</description>
+    </item>
+    <item>
+      <title>An Order-Optimal Square-Root Bound for Online Maximin Share Allocation with Known Types</title>
+      <link>http://arxiv.org/abs/2611.31732v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31732v1</guid>
+      <pubDate>Tue, 24 Nov 2026 00:37:38 +0000</pubDate>
+      <description>An allocator knows the indivisible goods, the number $n$ of agents, and the $k$ possible additive valuations. Each agent reveals their type on arrival and must immediately receive an irrevocable bundle. Kulkarni, Mehta, and Shahkar established a deterministic guarantee of $1/k$ of maximin share (MMS) and an upper bound of $2/(\sqrt{k}-2)$ for $k&gt;4$. We determine the optimal order $Θ(k^{-1/2})$ by constructing a deterministic polynomial-time algorithm, Single-or-Select. On every arrival sequence, it gives each agent a fraction $(1/\sqrt{2}-o(1))/\sqrt{k}$ of their truncated proportional share. This share dominates MMS and is the largest target $y$ for which the item values capped at $y$ sum to at least $ny$. By specializing the construction of Kulkarni et al. to two arrivals and counting its types exactly, we sharpen the upper bound to $(\sqrt{2}+o(1))/\sqrt{k}$ even for binary valuations. For two arrivals with binary valuations and every $k\ge2$, the optimal fraction is $1/p$, where $p$ is the largest integer with $1+\binom{2p}{2}\le k$. In particular, up to six binary types permit full maximin share. For two arbitrary additive types, a different polynomial-time algorithm guarantees $4/7$ of maximin share for any number of agents. This ratio is tight for the algorithm. With three arrivals and two types, the optimal deterministic fraction is exactly $9/10$. For randomized policies with $k$ known additive types, the optimal MMS fraction guaranteed to all agents with probability at least $1-δ$ on every fixed arrival sequence is $Θ(\max\{k^{-1/2},\sqrtδ\})$ for $0\leδ&lt;1$.</description>
+    </item>
+    <item>
       <title>Cop-Win Edge Completion: Hardness, Structure, and Parameterized Algorithm</title>
       <link>http://arxiv.org/abs/2611.31191v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31191v1</guid>
@@ -6961,48 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2507.21204</guid>
       <pubDate>Mon, 28 Jul 2025 00:00:00 -0000</pubDate>
       <description>We present a parallel variant of Pruned Landmark Labelling (PLL) that is optimised for the preprocessing of hub labels on directed acyclic graphs (DAGs). This method was developed during a seminar at the Karlsruhe Institute of Technology (KIT), focusing on time-expanded graphs that model public transport networks. The approach leverages the topological properties of DAGs to enable a novel parallel construction of hub labels.</description>
-    </item>
-    <item>
-      <title>Adaptive BSTs for Single-Source and All-to-All Requests: Algorithms and Lower Bounds</title>
-      <link>https://arxiv.org/abs/2507.20228</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.20228</guid>
-      <pubDate>Sun, 27 Jul 2025 00:00:00 -0000</pubDate>
-      <description>Adaptive binary search trees are a fundamental data structure for organizing hierarchical information. Their ability to dynamically adjust to access patterns makes them particularly valuable for building responsive and efficient networked and distributed systems. We present a unified framework for adaptive binary search trees with fixed restructuring cost, analyzed under two models: the single-source model, where the cost of querying a node is proportional to its distance from a fixed source, and the all-to-all model, where the cost of serving a request depends on the distance between the source and destination nodes. We propose an offline algorithm for the single-source model and extend it to the all-to-all model. For both models, we prove upper bounds on the cost incurred by our algorithms. Furthermore, we show the existence of input sequences for which any offline algorithm must incur a cost comparable to ours. In the online setting, we develop a general mathematical framework for deterministic online adaptive binary search trees and propose a deterministic online strategy for the single-source case, which naturally extends to the all-to-all model. We also establish lower bounds on the competitive ratio of any deterministic online algorithm, highlighting fundamental limitations of online adaptivity.</description>
-    </item>
-    <item>
-      <title>Improved 2-Approximate Shortest Paths for close vertex pairs</title>
-      <link>https://arxiv.org/abs/2507.19859</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.19859</guid>
-      <pubDate>Sat, 26 Jul 2025 00:00:00 -0000</pubDate>
-      <description>An influential result by Dor, Halperin, and Zwick (FOCS 1996, SICOMP 2000) implies an algorithm that can compute approximate shortest paths for all vertex pairs in $\tilde{O}(n^{2+O\left(\frac{1}{k}\right )})$ time, ensuring that the output distance is at most twice the actual shortest path, provided the pairs are at least $k$ apart, where $k \ge 2$. We present the first improvement on this result in over 25 years. Our algorithm achieves roughly same $\tilde{O}(n^{2+\frac{1}{k}})$ runtime but applies to vertex pairs merely $O(\log k)$ apart, where $\log k \ge 1$. When $k=\log n$, the running time of our algorithm is $\tilde{O}(n^2)$ and it works for all pairs at least $O(\log \log n)$ apart. Our algorithm is combinatorial, randomized, and returns correct results for all pairs with a high probability.</description>
-    </item>
-    <item>
-      <title>Fully Dynamic Spectral and Cut Sparsifiers for Directed Graphs</title>
-      <link>https://arxiv.org/abs/2507.19632</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.19632</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 -0000</pubDate>
-      <description>Recent years have seen extensive research on directed graph sparsification. In this work, we initiate the study of fast fully dynamic spectral and cut sparsification algorithms for directed graphs. We introduce a new notion of spectral sparsification called degree-balance preserving spectral approximation, which maintains the difference between the in-degree and out-degree of each vertex. The approximation error is measured with respect to the corresponding undirected Laplacian. This notion is equivalent to direct Eulerian spectral approximation when the input graph is Eulerian. Our algorithm achieves an amortized update time of $O(\varepsilon^{-2} \cdot \text{polylog}(n))$ and produces a sparsifier of size $O(\varepsilon^{-2} n \cdot \text{polylog}(n))$. Additionally, we present an algorithm that maintains a constant-factor approximation sparsifier of size $O(n \cdot \text{polylog}(n))$ against an adaptive adversary for $O(\text{polylog}(n))$-partially symmetrized graphs, a notion introduced in [Kyng-Meierhans-Probst Gutenberg '22]. A $β$-partial symmetrization of a directed graph $\vec{G}$ is the union of $\vec{G}$ and $β\cdot G$, where $G$ is the corresponding undirected graph of $\vec{G}$. This algorithm also achieves a polylogarithmic amortized update time. Moreover, we develop a fully dynamic algorithm for maintaining a cut sparsifier for $β$-balanced directed graphs, where the ratio between weighted incoming and outgoing edges of any cut is at most $β$. This algorithm explicitly maintains a cut sparsifier of size $O(\varepsilon^{-2}βn \cdot \text{polylog}(n))$ in worst-case update time $O(\varepsilon^{-2}β\cdot \text{polylog}(n))$.</description>
-    </item>
-    <item>
-      <title>Recognizing and Eliciting Weakly Single Crossing Profiles on Trees</title>
-      <link>https://arxiv.org/abs/1611.04175</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1611.04175</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We introduce and study the weakly single-crossing domain on trees which is a generalization of the well-studied single-crossing domain in social choice theory. We design a polynomial-time algorithm for recognizing preference profiles which belong to this domain. We then develop an efficient elicitation algorithm for this domain which works even if the preferences can be accessed only sequentially and the underlying single-crossing tree structure is not known beforehand. We also prove matching lower bound on the query complexity of our elicitation algorithm when the number of voters is large compared to the number of candidates. We also prove a lower bound of $Ω(m^2\log n)$ on the number of queries that any algorithm needs to ask to elicit single crossing profile when random queries are allowed. This resolves an open question in an earlier paper and proves optimality of their preference elicitation algorithm when random queries are allowed.</description>
-    </item>
-    <item>
-      <title>A Best Possible General Form of the Master Theorem for Divide-and-Conquer Recurrences</title>
-      <link>https://arxiv.org/abs/2507.16064</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.16064</guid>
-      <pubDate>Mon, 21 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We give here a general, best-possible, and smoothly-derived form of the Master Theorem for divide-and-conquer recurrences.</description>
-    </item>
-    <item>
-      <title>A Myhill-Nerode Type Characterization of 2detLIN Languages</title>
-      <link>https://arxiv.org/abs/2507.15316</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.15316</guid>
-      <pubDate>Mon, 21 Jul 2025 00:00:00 -0000</pubDate>
-      <description>Linear automata are automata with two reading heads starting from the two extremes of the input, are equivalent to 5' -&gt; 3' Watson-Crick (WK) finite automata. The heads read the input in opposite directions and the computation finishes when the heads meet. These automata accept the class LIN of linear languages. The deterministic counterpart of these models, on the one hand, is less expressive, as only a proper subset of LIN, the class 2detLIN is accepted; and on the other hand, they are also equivalent in the sense of the class of the accepted languages. Now, based on these automata models, we characterize the class of 2detLIN languages with a Myhill-Nerode type of equivalence classes. However, as these automata may do the computation of both the prefix and the suffix of the input, we use prefix-suffix pairs in our classes. Additionally, it is proven that finitely many classes in the characterization match with the 2detLIN languages, but we have some constraints on the used prefix-suffix pairs, i.e., the characterization should have the property to be complete and it must not have any crossing pairs.</description>
     </item>
   </channel>
 </rss>

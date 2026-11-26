@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>"I Do Intend to Deliver": Will LLMs Run a Marketplace Advance-Fee Scam?</title>
+      <link>http://arxiv.org/abs/2611.32957v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32957v1</guid>
+      <pubDate>Tue, 24 Nov 2026 16:56:34 +0000</pubDate>
+      <description>Online fraud is traditionally limited by the cost of the human labor needed to talk to potential victims. We ask whether hosted large language models will now supply that labor. We prompted ten off-the-shelf models to play the seller in the "free item, just pay delivery" advance-fee scam common on buy-and-sell sites, using a plain system prompt with no jailbreak. Each model played 30 conversations against each of four buyer personas, from credulous to guarded, with the same model playing the buyer (1,200 conversations). We label each conversation by what happened to the buyer's money, and validate the labels against two human coders. 737 conversations (61%) ended with the buyer paying in advance. Eight of the ten models played in almost every conversation, and running both sides cost about 2.5 cents per payment. Only the guarded buyer, who wanted a findable identity, resisted, and the most willing sellers got past it by inventing names and phone numbers. Sellers that recognized the scam still took the money in 133 conversations, usually reasoning about their own honesty rather than the buyer's risk. Several models protected the buyer without refusing, by conceding payment on delivery, so refusal rates alone misstate safety. We release the benchmark, prompts, code and labels.</description>
+    </item>
+    <item>
       <title>When Objectives and Evaluators Disagree: Evaluating Transfer for Post-hoc Demographic Framing Mitigation</title>
       <link>http://arxiv.org/abs/2611.25258v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.25258v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2009.09165</guid>
       <pubDate>Sat, 19 Sep 2020 00:00:00 -0000</pubDate>
       <description>Consequences from the 2019 anti-extradition protests in Hong Kong have been studied in many facets, but one topic of interest that has not been explored is the impact on the immigration of Bangladeshi immigrants into the city. This paper explores the value add of Bangladeshis to the Hong Kong, how the protests affected their mentality and consequently their immigration, and potentially longer-term detrimental effects on the city.</description>
-    </item>
-    <item>
-      <title>A Social Network of Russian "Kompromat"</title>
-      <link>https://arxiv.org/abs/2009.08631</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2009.08631</guid>
-      <pubDate>Fri, 18 Sep 2020 00:00:00 -0000</pubDate>
-      <description>"Kompromat" (the Russian word for "compromising material") has been efficiently used to harass Russian political and business elites since the days of the USSR. Online crowdsourcing projects such as "RuCompromat" made it possible to catalog and analyze kompromat using quantitative techniques -- namely, social network analysis. In this paper, we constructed a social network of 11,000 Russian and foreign nationals affected by kompromat in Russia in 1991 -- 2020. The network has an excellent modular structure with 62 dense communities. One community contains prominent American officials, politicians, and entrepreneurs (including President Donald Trump) and appears to concern Russia's controversial interference in the 2016 U.S. presidential elections. Various network centrality measures identify seventeen most central kompromat figures, with President Vladimir Putin solidly at the top. We further reveal four types of communities dominated by entrepreneurs, politicians, bankers, and law enforcement officials ("siloviks"), the latter disjointed from the first three.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Translation Validation of SystemVerilog-to-SystemC RTL Conversion by Reading the Generated C++</title>
+      <link>http://arxiv.org/abs/2611.31674v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31674v1</guid>
+      <pubDate>Mon, 23 Nov 2026 23:05:06 +0000</pubDate>
+      <description>SystemC models of register-transfer level (RTL) designs are used for virtual platforms, firmware bring-up and simulation without a commercial license, and more of them now come from translators and language models. A wrong model usually compiles, and it usually agrees with the RTL. SystemVerilog evaluates an 8-bit sum in 8 bits while C++ evaluates it in 64, so a translation that forgets one truncation keeps a carry the RTL drops, and only inputs near the top of the range show it. I built svcc, an open-source SystemVerilog-to-SystemC converter, and my first check of its output read the generated C++ with SystemVerilog's rules. That check passed two wrong models. The check that replaced it gives the generated header the meaning C++17 and SystemC give it and turns undefined behavior into proof obligations. It prints what it read as SystemVerilog with every width change explicit, then proves that equivalent to a netlist of the source by induction over registers matched by name. On 50 author-written designs it proves 45 and reports 5 as outside its model. In a mutation experiment it accepted none of the 17 mutants that compiled SystemC showed to be wrong. Of 2,184 modules from 16 open-source code bases, 1,185 conversions match Verilator in random co-simulation and the check proves 600 of them. The same runs found defects in the front end, in svcc and in Verilator.</description>
+    </item>
+    <item>
       <title>Acceleration of Sparse and Irregular Workloads through Energy-Efficient Stream Extensions</title>
       <link>http://arxiv.org/abs/2611.26939v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.26939v1</guid>

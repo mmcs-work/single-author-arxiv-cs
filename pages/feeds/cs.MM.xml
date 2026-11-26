@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Lossless Re-Encoding of Vorbis and Opus Audio Files</title>
+      <link>http://arxiv.org/abs/2611.32641v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.32641v1</guid>
+      <pubDate>Tue, 24 Nov 2026 14:01:01 +0000</pubDate>
+      <description>We present Balrogg, a lossless recompressor that replaces the entropy coding of Ogg Vorbis and Ogg Opus files with adaptive context mixing models. For Vorbis, we write each represent each codebook entry as a tuple of small signed integers (digits), binarized in five stages, and mixed with a direct context model, a bit-history model, and a match model, with weights selected by the neighboring digits and the previous residue pass. For Opus, each symbol is coded by an adaptive context model initialized with the codec's probability tables as priors, and the pyramid vector quantizer (PVQ) indices of the CELT layer are split recursively into pulse counts. At the default level, Balrogg reduces Vorbis music by 16.2\%, Vorbis speech by 10.6%, and Opus speech by 5.4%; xz, zstd, ZPAQ, and bzip3 save at most 4.1% on the same files. Over 48 encoder configurations, files shrink to 66.5--96.1% of their size. Encoding and decoding are symmetric, run at 1.8--3.2~MB/s per core, and use less than 12~MiB of memory.</description>
+    </item>
+    <item>
       <title>Passing NPCR Without Diffusion: Exact Signatures, a Detection Benchmark and an Audit of Published Image Ciphers</title>
       <link>http://arxiv.org/abs/2611.25561v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.25561v1</guid>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>An Order-Optimal Square-Root Bound for Online Maximin Share Allocation with Known Types</title>
+      <link>http://arxiv.org/abs/2611.31732v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.31732v1</guid>
+      <pubDate>Tue, 24 Nov 2026 00:37:38 +0000</pubDate>
+      <description>An allocator knows the indivisible goods, the number $n$ of agents, and the $k$ possible additive valuations. Each agent reveals their type on arrival and must immediately receive an irrevocable bundle. Kulkarni, Mehta, and Shahkar established a deterministic guarantee of $1/k$ of maximin share (MMS) and an upper bound of $2/(\sqrt{k}-2)$ for $k&gt;4$. We determine the optimal order $Θ(k^{-1/2})$ by constructing a deterministic polynomial-time algorithm, Single-or-Select. On every arrival sequence, it gives each agent a fraction $(1/\sqrt{2}-o(1))/\sqrt{k}$ of their truncated proportional share. This share dominates MMS and is the largest target $y$ for which the item values capped at $y$ sum to at least $ny$. By specializing the construction of Kulkarni et al. to two arrivals and counting its types exactly, we sharpen the upper bound to $(\sqrt{2}+o(1))/\sqrt{k}$ even for binary valuations. For two arrivals with binary valuations and every $k\ge2$, the optimal fraction is $1/p$, where $p$ is the largest integer with $1+\binom{2p}{2}\le k$. In particular, up to six binary types permit full maximin share. For two arbitrary additive types, a different polynomial-time algorithm guarantees $4/7$ of maximin share for any number of agents. This ratio is tight for the algorithm. With three arrivals and two types, the optimal deterministic fraction is exactly $9/10$. For randomized policies with $k$ known additive types, the optimal MMS fraction guaranteed to all agents with probability at least $1-δ$ on every fixed arrival sequence is $Θ(\max\{k^{-1/2},\sqrtδ\})$ for $0\leδ&lt;1$.</description>
+    </item>
+    <item>
       <title>Optimal Regret Lower Bounds in Matrix Games</title>
       <link>http://arxiv.org/abs/2611.31149v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31149v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2110.04161</guid>
       <pubDate>Fri, 08 Oct 2021 00:00:00 -0000</pubDate>
       <description>I explain how faculty members could exploit a method to allocate travel funds and how to use game theory to design a method that cannot be manipulated.</description>
-    </item>
-    <item>
-      <title>$O\left(1/T\right)$ Time-Average Convergence in a Generalization of Multiagent Zero-Sum Games</title>
-      <link>https://arxiv.org/abs/2110.02482</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.02482</guid>
-      <pubDate>Wed, 06 Oct 2021 00:00:00 -0000</pubDate>
-      <description>We introduce a generalization of zero-sum network multiagent matrix games and prove that alternating gradient descent converges to the set of Nash equilibria at rate $O(1/T)$ for this set of games. Alternating gradient descent obtains this convergence guarantee while using fixed learning rates that are four times larger than the optimistic variant of gradient descent. Experimentally, we show with 97.5% confidence that, on average, these larger learning rates result in time-averaged strategies that are 2.585 times closer to the set of Nash equilibria than optimistic gradient descent.</description>
     </item>
   </channel>
 </rss>
