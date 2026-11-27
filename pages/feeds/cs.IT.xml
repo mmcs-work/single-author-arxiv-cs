@@ -5,6 +5,34 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Bound Entanglement with Negative Partial Transpose Exists</title>
+      <link>http://arxiv.org/abs/2611.34921v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34921v1</guid>
+      <pubDate>Wed, 25 Nov 2026 18:58:48 +0000</pubDate>
+      <description>We show that the Werner state $ρ= (23 I - 3\,\mathrm{SWAP})/1448$ on $\mathbb{C}^8 \otimes \mathbb{C}^8$ has a negative partial transpose and is bound entangled: no LOCC protocol can distill entanglement from any number of copies of $ρ$, and even with separable operations the fidelity of a two-qubit output with a Bell state never exceeds $(1+\sqrt{2})/4 \approx 0.604$. It follows that distillable entanglement is neither additive nor convex.</description>
+    </item>
+    <item>
+      <title>Certified Outage Bounds for RIS-Assisted NOMA with Source-Side Thermal Energy Harvesting</title>
+      <link>http://arxiv.org/abs/2611.33986v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33986v1</guid>
+      <pubDate>Wed, 25 Nov 2026 08:42:19 +0000</pubDate>
+      <description>Gaussian useful-gain and mean-interference approximations can cause opposite power-sizing errors in reconfigurable intelligent surface (RIS)-assisted non-orthogonal multiple access (NOMA). We extend a source-side thermal energy harvesting model with Poisson interference and certify two-sided outage bounds. In a tested environment, the combined required signal-to-noise ratio error has opposite signs at 20 and 24 elements per user. Under another power convention, mean or moment-matched Gamma-distributed interference can predict false feasibility with exact useful gain. In the Gamma case, the Gaussian gain approximation can mask this false feasibility. Propagated Chernoff bounds give sufficient designs. Results concern the specified model and tested regimes.</description>
+    </item>
+    <item>
+      <title>Universal Work Extraction from Individual Sequences by Finite--State Information Engines</title>
+      <link>http://arxiv.org/abs/2611.33984v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33984v1</guid>
+      <pubDate>Wed, 25 Nov 2026 08:41:13 +0000</pubDate>
+      <description>We consider information engines that interact with a heat bath at temperature $T$, a work reservoir, and a tape carrying an individual (deterministic) sequence $x$ over a finite alphabet $\X$. An engine is a cascade of autonomous ratchets with fixed energy levels and detailed--balance dynamics, each processing segments of $m$ tape cells and having finitely many internal states. We prove a converse bound on the extractable work in terms of the empirical block entropies of $x$,and show that it is achievable \emph{universally}, by engines whose energy levels do not depend on $x$. The maximal work per symbol is $kT[\ln|\X|-\bar H(x)]$, where $k$ is Boltzmann's constant and $\bar H(x)$ is the asymptotic normalized aligned block entropy of $x$, which equals its block Lempel--Ziv complexity, and the minimal work needed to erase $x$ is $kT\bar H(x)$ per symbol. Underlying these results is a two--way correspondence with universal coding: energy levels define a code, and a suitably operated cascade extracts $kT$ times $\ln|\X|$ per symbol minus the code length; conversely, a fluctuation identity shows that every engine fixed in advance defines a code. Hence, converses of universal coding apply verbatim to engines; e.g., the optimal redundancy of memoryless universal engines is given by the Shtarkov sum.</description>
+    </item>
+    <item>
+      <title>Exact Minimum Distances of Primitive Narrow-Sense BCH Codes: At and Beyond the Bose Distance</title>
+      <link>http://arxiv.org/abs/2611.33613v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33613v1</guid>
+      <pubDate>Wed, 25 Nov 2026 01:39:02 +0000</pubDate>
+      <description>We determine the exact minimum distances of two families of primitive narrow-sense BCH codes of length $q^m-1$, where $q$ is a prime power and $m\geq 4$. For $1\leq i\leq\lfloor m/2\rfloor$, codes with designed distance $q^m-q^{m-1}-q^{m-1-i}-1$ have minimum distance and Bose distance both equal to their designed distance. Furthermore, for integers $\ell, i, s$ satisfying $3\leq\ell&lt;m-1$ and $\lfloor m/(\ell+1)\rfloor\leq i\leq s&lt;\lfloor(m-1)/\ell\rfloor$, codes with designed distance $q^m-q^{m-1}-q^{m-1-i}-q^s-1$ have Bose distance equal to their designed distance and minimum distance $q^m-q^{m-1}-q^{m-1-i}-1$. Consequently, the gap between the minimum distance and the Bose distance in this family is exactly $q^s$ and grows without bound as $m$ increases, with fixed $\ell$.The proofs proceed by constructing good zero-sets from quadratic forms for the first family, and by combining upper bounds provided by the first family with lower bounds derived from the divisibility of codeword weights in punctured generalized Reed--Muller codes for the second. We also derive explicit dimension formulas by counting cyclotomic cosets.</description>
+    </item>
+    <item>
       <title>A Koashi--Imoto Criterion for Holevo-Rate Visible Compression</title>
       <link>http://arxiv.org/abs/2611.33129v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.33129v1</guid>
@@ -6975,34 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2512.00480</guid>
       <pubDate>Sat, 29 Nov 2025 00:00:00 -0000</pubDate>
       <description>Retrieving up-to-date information from a publicly accessible database poses significant threats to the user's privacy. {\em Private information retrieval} (PIR) protocols allow a user to retrieve any entry from a database, without revealing the identity of the entry being retrieved to the server(s). Such protocols have found numerous applications in both theoretical studies and real-life scenarios. The existing PIR constructions mainly give multi-server {\em information-theoretic} PIR (IT-PIR) protocols or single-server computational PIR (CPIR) protocols. Compared with CPIR, IT-PIR protocols are computationally more efficient and secure in the presence of unbounded servers. The most classical and challenging problem in the realm of IT-PIR is constructing protocols with lower {\em communication complexity}. In this review, we introduce a new discrete structure called {\em families of orthogonal arrays with span capability} (FOASC) and propose a unified framework for constructing IT-PIR protocols. We show how the most influential IT-PIR protocols in the literature can be captured by the framework. We also put forward several interesting open problems concerning FOASC, whose solutions may result in innovative IT-PIR protocols.</description>
-    </item>
-    <item>
-      <title>The Information Theory of Similarity</title>
-      <link>https://arxiv.org/abs/2512.00378</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.00378</guid>
-      <pubDate>Sat, 29 Nov 2025 00:00:00 -0000</pubDate>
-      <description>We establish a precise mathematical equivalence between witness-based similarity systems (REWA) and Shannon's information theory. We prove that witness overlap is mutual information, that REWA bit complexity bounds arise from channel capacity limitations, and that ranking-preserving encodings obey rate-distortion constraints. This unification reveals that fifty years of similarity search research -- from Bloom filters to locality-sensitive hashing to neural retrieval -- implicitly developed information theory for relational data. We derive fundamental lower bounds showing that REWA's $O(Δ^{-2} \log N)$ complexity is optimal: no encoding scheme can preserve similarity rankings with fewer bits. The framework establishes that semantic similarity has physical units (bits of mutual information), search is communication (query transmission over a noisy channel), and retrieval systems face fundamental capacity limits analogous to Shannon's channel coding theorem.</description>
-    </item>
-    <item>
-      <title>Polynomial Order Selection for Savitzky-Golay Smoothers via N-fold Cross-Validation (extended version)</title>
-      <link>https://arxiv.org/abs/2512.00171</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2512.00171</guid>
-      <pubDate>Fri, 28 Nov 2025 00:00:00 -0000</pubDate>
-      <description>Savitzky-Golay (SG) smoothers are noise suppressing filters operating on the principle of projecting noisy input onto the subspace of polynomials. A poorly selected polynomial order results in over- or under-smoothing which shows as either bias or excessive noise at the output. In this study, we apply the N-fold cross-validation technique (also known as leave-one-out cross-validation) for model order selection and show that the inherent analytical structure of the SG filtering problem, mainly its minimum norm formulation, enables an efficient and effective order selection solution. More specifically, a novel connection between the total prediction error and SG-projection spaces is developed to reduce the implementation complexity of cross-validation method. The suggested solution compares favorably with the state-of-the-art Bayesian Information Criterion (BIC) rule in non-asymptotic signal-to-noise ratio (SNR) and sample size regimes. MATLAB codes reproducing the numerical results are provided.</description>
-    </item>
-    <item>
-      <title>Efficient Estimation of Sum-Parameters for Multi-Component Complex Exponential Signals with Theoretical Cramer-Rao Bound Analysis</title>
-      <link>https://arxiv.org/abs/2511.23318</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.23318</guid>
-      <pubDate>Fri, 28 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper addresses the challenging problem of parameter estimation for multicomponent complex exponential signals, commonly known as sums of cisoids. Traditional approaches that estimate individual component parameters face significant difficulties when the number of components is large, including permutation ambiguity, computational complexity from high-dimensional Fisher information matrix inversion, and model order selection issues. We introduce a novel framework based on low-dimensional sum-parameters that capture essential global characteristics of the signal ensemble. These parameters include the sum of amplitudes, the power-weighted frequency, and the phase-related sum. These quantities possess clear physical interpretations representing total signal strength, power-weighted average frequency, and composite phase information, while completely avoiding permutation ambiguities. We derive exact closed-form Cramer-Rao bounds for these sum-parameters under both deterministic and stochastic signal models. Our analysis reveals that the frequency sumparameter achieves statistical efficiency comparable to single-component estimators while automatically benefiting from power pooling across all signal components. The proposed Efficient Global Estimation Method (EGEM) demonstrates asymptotic efficiency across a wide range of signal-to-noise ratios, significantly outperforming established techniques such as Zoom-Interpolated FFT and Root-MUSIC in both long- and short-sample regimes. Extensive numerical simulations involving 2000 Monte-Carlo trials confirm that EGEM closely approaches the theoretical performance bounds even with relatively small sample sizes of 250 observations.</description>
-    </item>
-    <item>
-      <title>The Causal Uncertainty Principle</title>
-      <link>https://arxiv.org/abs/2511.22649</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2511.22649</guid>
-      <pubDate>Thu, 27 Nov 2025 00:00:00 -0000</pubDate>
-      <description>This paper explains why internal and external validity cannot be simultaneously maximised. It introduces "evidential states" to represent the information available for causal inference and shows that routine study operations (restriction, conditioning, and intervention) transform these states in ways that do not commute. Because each operation removes or reorganises information differently, changing their order yields evidential states that support different causal claims. This non-commutativity creates a structural trade-off: the steps that secure precise causal identification also eliminate the heterogeneity required for generalisation. Small model, observational and experimental examples illustrate how familiar failures of transportability arise from this order dependence. The result is a concise structural account of why increasing causal precision necessarily narrows the world to which findings apply.</description>
     </item>
   </channel>
 </rss>

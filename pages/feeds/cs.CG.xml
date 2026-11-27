@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Square-root comparison, Turnpike, and exact semidefinite feasibility</title>
+      <link>http://arxiv.org/abs/2611.34535v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34535v1</guid>
+      <pubDate>Wed, 25 Nov 2026 15:18:28 +0000</pubDate>
+      <description>Given positive integers $a_i,K$, put $S=\sum_{i=1}^k\sqrt{a_i}$. We construct a realizable Turnpike instance in which the minimum spacing of distinct distances and the smallest nonzero addition residual are both at most $|S-K|$ when $S\ne K$. With approximation oracles, one three-distance realizability query decides $S\le K$. For unordered lists of radical sums with nonnegative rational coefficients, a polynomial-time substitution by integers preserves every normalized ruler. We give the classical reduction of square-root comparison to exact semidefinite feasibility in both threshold directions. The comparison enters through numerical separation and marked sorting; the integer recoding needs no such comparison for unordered reconstruction.</description>
+    </item>
+    <item>
+      <title>Representing and Animating Piano-Hinged Solids as Non-Manifold Cell Complexes: The Magic Photo Cube</title>
+      <link>http://arxiv.org/abs/2611.33505v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33505v1</guid>
+      <pubDate>Tue, 24 Nov 2026 22:25:59 +0000</pubDate>
+      <description>Piano-hinged solids are articulated structures consisting of rigid solid components connected along edges, allowing relative rotations while preserving their connectivity. We propose representing such structures as a class of edge-connected non-manifold cell complexes, in which the components and their hinge relationships are encoded through cell incidences rather than separate geometric hinge elements. This representation provides a unified framework for describing the geometry, connectivity, and admissible motions of articulated solids. We demonstrate the approach using the magic photo cube, an assembly of eight cubical cells connected by eight edge hinges. Each cell maintains a persistent identity and local coordinate frame, while successive folding operations transport hinge axes through rigid transformations. We reconstruct two distinct three-stage folding sequences and analyze their resulting configurations. Although the sequences produce compact cubes at different positions and orientations in a fixed reference frame, numerical analysis demonstrates that their terminal configurations are rigidly equivalent as labeled, oriented assemblies under a single proper rigid transformation. The example illustrates how an edge-connected non-manifold representation can support geometric modeling, animation, and configuration analysis while preserving the identities and incidence relationships of the constituent cells. An accompanying interactive web-based simulator, implemented in JavaScript and WebGL, is publicly available at https://people.tamu.edu/~ergun/software/magic_cube.</description>
+    </item>
+    <item>
       <title>A Strongly Subquadratic Algorithm for Unique Assembly Verification in the Abstract Tile Assembly Model</title>
       <link>http://arxiv.org/abs/2611.32980v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.32980v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1502.07790</guid>
       <pubDate>Sun, 08 Mar 2015 00:00:00 -0000</pubDate>
       <description>This thesis studies range-based WSN localization problem in 3D environments that induce coplanarity. In most real-world applications, even though the environment is 3D, the grounded sensor nodes are usually deployed on 2D planar surfaces. Examples of these surfaces include structures seen in both indoor (e.g. floors, doors, walls, tables etc.) and outdoor (e.g. mountains, valleys, hills etc.) environments. In such environments, sensor nodes typically appear as coplanar node clusters. We refer to this type of a deployment as a planar deployment. When there is a planar deployment, the coplanarity causes difficulties to the traditional range-based multilateration algorithms because a node cannot be unambiguously localized if the distance measurements to that node are from coplanar nodes. Thus, many already localized groups of nodes are rendered ineffective in the process just because they are coplanar. We, therefore propose an algorithm called Coplanarity Based Localization (CBL) that can be used as an extension of any localization algorithm to avoid most flips caused by coplanarity. CBL first performs a 2D localization among the nodes that are clustered on the same surface, and then finds the positions of these clusters in 3D. We have carried out experiments using trilateration for 2D localization, and quadrilateration for 3D localization, and experimentally verified that exploiting the clustering information leads to a more precise localization than mere quadrilateration. We also propose a heuristic to extract the clustering information in case it is not available, which is yet to be improved in the future.</description>
-    </item>
-    <item>
-      <title>New separation theorems and sub-exponential time algorithms for packing and piercing of fat objects</title>
-      <link>https://arxiv.org/abs/1502.06176</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1502.06176</guid>
-      <pubDate>Sun, 22 Feb 2015 00:00:00 -0000</pubDate>
-      <description>For $\cal C$ a collection of $n$ objects in $R^d$, let the packing and piercing numbers of $\cal C$, denoted by $Pack({\cal C})$, and $Pierce({\cal C})$, respectively, be the largest number of pairwise disjoint objects in ${\cal C}$, and the smallest number of points in $R^d$ that are common to all elements of ${\cal C}$, respectively. When elements of $\cal C$ are fat objects of arbitrary sizes, we derive sub-exponential time algorithms for the NP-hard problems of computing ${Pack}({\cal C})$ and $Pierce({\cal C})$, respectively, that run in $n^{O_d({{Pack}({\cal C})}^{d-1\over d})}$ and $n^{O_d({{Pierce}({\cal C})}^{d-1\over d})}$ time, respectively, and $O(n\log n)$ storage. Our main tool which is interesting in its own way, is a new separation theorem. The algorithms readily give rise to polynomial time approximation schemes (PTAS) that run in $n^{O({({1\overε})}^{d-1})}$ time and $O(n\log n)$ storage. The results favorably compare with many related best known results. Specifically, our separation theorem significantly improves the splitting ratio of the previous result of Chan, whereas, the sub-exponential time algorithms significantly improve upon the running times of very recent algorithms of Fox and Pach for packing of spheres.</description>
-    </item>
-    <item>
-      <title>New representation results for planar graphs</title>
-      <link>https://arxiv.org/abs/1502.06175</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1502.06175</guid>
-      <pubDate>Sun, 22 Feb 2015 00:00:00 -0000</pubDate>
-      <description>A universal representation theorem is derived that shows any graph is the intersection graph of one chordal graph, a number of co-bipartite graphs, and one unit interval graph. Central to the the result is the notion of the clique cover width which is a generalization of the bandwidth parameter. Specifically, we show that any planar graph is the intersection graph of one chordal graph, four co-bipartite graphs, and one unit interval graph. Equivalently, any planar graph is the intersection graph of a chordal graph and a graph that has {clique cover width} of at most seven. We further describe the extensions of the results to graphs drawn on surfaces and graphs excluding a minor of crossing number of at most one.</description>
     </item>
   </channel>
 </rss>

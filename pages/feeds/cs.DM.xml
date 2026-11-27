@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Hall's condition between adjacent levels of the face lattice of the permutohedron</title>
+      <link>http://arxiv.org/abs/2611.34537v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34537v1</guid>
+      <pubDate>Wed, 25 Nov 2026 15:19:16 +0000</pubDate>
+      <description>Let $\OP$ be the poset of ordered set partitions of $[n]$, ordered by merging adjacent blocks; with a bottom element adjoined it is the face lattice of the permutohedron. Whether it has the Sperner property is open. We show that for every pair of adjacent levels, the smaller one can be matched into the larger one by parent--child pairs, except possibly for the pairs $(j,j+1)$ with $(28n-36)/39&lt;j&lt;(13n+5)/18$ (for small $n$ the window is slightly smaller still). This window has width about $n/234\approx0.0043\,n$. The largest level lies near $n/(2\ln2)\approx0.7213\,n$, which we prove using the law of the block sizes of a uniformly random ordered set partition of $[n]$, and for $n$ large it falls inside the window. Since the level sizes are log-concave, Hall's condition for all pairs would make $\OP$ Sperner. The proofs use explicit weights on the parent--child pairs; they reduce to a finite inequality between pairs of adjacent blocks. We explain why the simplest weights fail exactly at the boundary of a much larger window, and report computations supporting Hall's condition inside the window: exactly for $n\le14$, and by equalizing flows for every window pair with $n\le25$.</description>
+    </item>
+    <item>
+      <title>Counting Classical Fullerenes VII: Arithmetic Unranking of Fullerene Isomers</title>
+      <link>http://arxiv.org/abs/2611.34434v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34434v1</guid>
+      <pubDate>Wed, 25 Nov 2026 14:19:07 +0000</pubDate>
+      <description>Given a vertex number $2m$ and a rank, we construct the corresponding ordinary fullerene as a planar adjacency list. Choosing the rank uniformly therefore samples ordinary isomorphism classes exactly from the vertex number alone. We select an integral period by counting lattice points on a quadratic level in polytopes with fixed facet directions. For a fixed positive semidefinite integral form on a box of radius $H$, with a linear term of coefficients $O(H)$, the algorithm computes all level counts simultaneously in $O(H^2\operatorname{polylog}(2m))$ bit operations when $H=O(\sqrt m)$ and the facet offsets have $O(\log(2m))$ bits. A signed decomposition into orthogonal simplices gives this bound. For fullerenes we use deterministic $O(m^2\operatorname{polylog}(2m))$ bit work to construct an index of $O(m\log(2m))$ bits. With this index a rank costs $O(m\operatorname{polylog}(2m))$ bit work, uniformly in the rank. Two families of recuts let energy descent escape self-contacts in the slit polygon. The decoder then writes the graph from its selected period in $O(m)$ arithmetic word operations.</description>
+    </item>
+    <item>
+      <title>The $k$-disjoint paths problem for group-labelled graphs</title>
+      <link>http://arxiv.org/abs/2611.34307v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34307v1</guid>
+      <pubDate>Wed, 25 Nov 2026 13:00:07 +0000</pubDate>
+      <description>A $Γ$-labelled graph is an oriented graph with edge labels in a group $Γ$. Fix a finite abelian group $Γ$ and a positive integer $k$. We give a polynomial-time algorithm that finds $k$ vertex-disjoint paths joining prescribed pairs with a prescribed gain on each path, or determines that none exist. The result previously appeared only in the author's 2009 PhD thesis. This proof uses a reduction to unbreakable graphs and recent structure theorems for graphs drawn on a surface, and was found with the help of AI.</description>
+    </item>
+    <item>
+      <title>Algebraic Diversity of Switching Functions</title>
+      <link>http://arxiv.org/abs/2611.33938v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33938v1</guid>
+      <pubDate>Wed, 25 Nov 2026 07:57:22 +0000</pubDate>
+      <description>Algebraic Diversity generalizes averaging over many observations to averaging one observation over a group of transformations matched to its structure. This paper develops the framework on the Boolean cube $\mathbb{F}_2^n$ for the translations, the coordinate permutations, the hyperoctahedral group, and the general linear and affine groups. It determines the commutant of each action and gives closed forms for the group-averaged second-order statistic of one truth table, which collapses to the Walsh periodogram for the translations, to per-weight averages for the hyperoctahedral group, and to the weight up to complementation for the affine group. Bent functions are exactly those whose translation average is white, the Haar transform along an input order is the multiplexer tree of Shannon's expansion, and higher-order averages see only the weight below a first informative order, two for the translations and four for the affine group. A matched stabilizer stands in for repeated observations, since a vote over orbits of $s$ points divides by $s$ the number of noisy truth tables a target error requires. The same viewpoint gives the affine hull of a function as matched coordinates, an exact variance identity for XOR hashing, and matched hashes whose variance never exceeds that of a pairwise independent hash. Applications on public benchmarks include hash choice for approximate model counting, the decision of parity-structured formulas and the refutation of counting formulas modulo 3 and 4 from the spectra of clause blocks, separation of NPN classes by canonical spectra, tested on ISCAS-85 cut functions and all five-input classes, correction of noisy truth tables and protection of lookup tables by voting over symmetries, blind group matching, and an analog of the CLEAN algorithm that writes a truth table as the XOR of atoms in the fixed spaces of groups. All proofs are given in full.</description>
+    </item>
+    <item>
+      <title>Extension complexity is not additive under Cartesian products</title>
+      <link>http://arxiv.org/abs/2611.33631v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33631v1</guid>
+      <pubDate>Wed, 25 Nov 2026 02:00:23 +0000</pubDate>
+      <description>We prove that the linear extension complexity of a Cartesian product of polytopes can be strictly smaller than the sum of the extension complexities of its factors. This disproves Conjecture 1.2 of Grande, Padrol and Sanyal. We construct a rational 24-dimensional polytope $P$ with 50 facets and 150 vertices such that $P$ has extension complexity 40 and $P \times P$ has extension complexity exactly 79. We also prove that the saving can be arbitrarily large, even in a Cartesian square: for every $t$ there is a rational polytope $R_t$ whose square needs at least $t$ fewer inequalities than two separate copies of $R_t$. For two different factors, we construct a family whose product saves at least $\lceil 5n/27 \rceil$ inequalities while the two separate complexities sum to $O(n)$, so that the saving is a constant fraction of the total. The proofs rest on a transfer theorem: wedging over the omitted facets of a polytope turns a gap between the nonnegative ranks of partial slack matrices into a gap between extension complexities. The unbounded squares come from intersecting families of sets on successively larger alphabets. In the square the two copies of each coordinate share generators, while a counting lemma determines the exact cost of a single factor.</description>
+    </item>
+    <item>
+      <title>Fast Algorithms for Permanents of Permutationally-Dominant Matrices</title>
+      <link>http://arxiv.org/abs/2611.33485v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33485v1</guid>
+      <pubDate>Tue, 24 Nov 2026 22:02:54 +0000</pubDate>
+      <description>We establish a fast algorithm for approximating the permanent of permutationally-dominant matrices. In particular, we obtain a fully polynomial randomised approximation scheme whose runtime is quadratic in both the dimension of the matrix and the inverse of the approximation error. Our approach is based on a polymer model representation of the permanent and importance sampling of the logarithm of its partition function via the theory of heaps of pieces of Viennot.</description>
+    </item>
+    <item>
       <title>Blow-up size for the noncommutative rank of linear symbolic matrices with low-rank coefficients</title>
       <link>http://arxiv.org/abs/2611.31963v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31963v1</guid>
@@ -6961,48 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2107.10777</guid>
       <pubDate>Sat, 22 Jul 2023 00:00:00 -0000</pubDate>
       <description>Motivated by recent insights into the online bipartite matching problem (\textsc{OBM}), our goal was to extend the optimal algorithm for it, namely \textsc{Ranking}, all the way to the special case of adwords problem, called \textsc{Small}, in which bids are small compared to budgets; the latter has been of considerable practical significance in ad auctions \cite{MSVV}. The attractive feature of our approach was that it would yield a {\em budget-oblivious algorithm}, i.e., the algorithm would not need to know budgets of advertisers and therefore could be used in autobidding platforms. We were successful in obtaining an optimal, budget-oblivious algorithm for \textsc{Single-Valued}, under which each advertiser can make bids of one value only. However, our next extension, to \textsc{Small}, failed because of a fundamental reason, namely failure of the {\em No-Surpassing Property}. Since the probabilistic ideas underlying our algorithm are quite substantial, we have stated them formally, after assuming the No-Surpassing Property, and we leave the open problem of removing this assumption. With the help of two undergrads, we conducted extensive experiments on our algorithm on randomly generated instances. Our findings are that the No-Surpassing Property fails less than $2\%$ of the time and that the performance of our algorithms for \textsc{Single-Valued} and \textsc{Small} are comparable to that of \cite{MSVV}. If further experiments confirm this, our algorithm may be useful as such in practice, especially because of its budget-obliviousness.</description>
-    </item>
-    <item>
-      <title>The clique graphs of the hexagonal lattice -- an explicit construction and a short proof of divergence</title>
-      <link>https://arxiv.org/abs/2307.11238</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.11238</guid>
-      <pubDate>Thu, 20 Jul 2023 00:00:00 -0000</pubDate>
-      <description>We present a new, explicit and very geometric construction for the iterated clique graphs of the hexagonal lattice $\mathrm{Hex}$ which makes apparent its clique-divergence and sheds light on some previous observations, such as the boundedness of the degrees and clique sizes of $k^n \mathrm{Hex}$ as $n\to\infty$.</description>
-    </item>
-    <item>
-      <title>On Restricted Intersections and the Sunflower Problem</title>
-      <link>https://arxiv.org/abs/2307.01374</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.01374</guid>
-      <pubDate>Wed, 19 Jul 2023 00:00:00 -0000</pubDate>
-      <description>A sunflower with $r$ petals is a collection of $r$ sets over a ground set $X$ such that every element in $X$ is in no set, every set, or exactly one set. Erdős and Rado \cite{er} showed that a family of sets of size $n$ contains a sunflower if there are more than $n!(r-1)^n$ sets in the family. Alweiss et al. \cite{alwz} and subsequently Rao~\cite{rao} and Bell et al.~\cite{bcw} improved this bound to $(O(r \log(n))^n$. We study the case where the pairwise intersections of the set family are restricted. In particular, we improve the best-known bound for set families when the size of the pairwise intersections of any two sets is in a set $L$. We also present a new bound for the special case when the set $L$ is the nonnegative integers less than or equal to $d$ using the techniques of Alweiss et al. \cite{alwz}.</description>
-    </item>
-    <item>
-      <title>Monitoring edge-geodetic sets: hardness and graph products</title>
-      <link>https://arxiv.org/abs/2210.08955</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2210.08955</guid>
-      <pubDate>Wed, 19 Jul 2023 00:00:00 -0000</pubDate>
-      <description>Foucaud, Krishna and Lekshmi recently introduced the concept of monitoring edge-geodetic sets in graphs, and a related graph invariant. These are sets of vertices such that the removal of any edge changes the distance between some pair of vertices in the set. They studied the minimum possible size of such a set in a given graph, which we call the monitoring edge-geodetic number. We show that the decision problem for the monitoring edge-geodetic number is NP-complete. We also give best-possible upper and lower bounds for the Cartesian and strong products of two graphs. These bounds establish the exact value in many cases, including many new examples of graphs whose only monitoring edge-geodetic set is the whole vertex set.</description>
-    </item>
-    <item>
-      <title>Combinatorial Approach for Factorization of Variance and Entropy in Spin Systems</title>
-      <link>https://arxiv.org/abs/2307.08212</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.08212</guid>
-      <pubDate>Mon, 17 Jul 2023 00:00:00 -0000</pubDate>
-      <description>We present a simple combinatorial framework for establishing approximate tensorization of variance and entropy in the setting of spin systems (a.k.a. undirected graphical models) based on balanced separators of the underlying graph. Such approximate tensorization results immediately imply as corollaries many important structural properties of the associated Gibbs distribution, in particular rapid mixing of the Glauber dynamics for sampling. We prove approximate tensorization by recursively establishing block factorization of variance and entropy with a small balanced separator of the graph. Our approach goes beyond the classical canonical path method for variance and the recent spectral independence approach, and allows us to obtain new rapid mixing results. As applications of our approach, we show that: 1. On graphs of treewidth $t$, the mixing time of the Glauber dynamics is $n^{O(t)}$, which recovers the recent results of Eppstein and Frishberg with improved exponents and simpler proofs; 2. On bounded-degree planar graphs, strong spatial mixing implies $\tilde{O}(n)$ mixing time of the Glauber dynamics, which gives a faster algorithm than the previous deterministic counting algorithm by Yin and Zhang.</description>
-    </item>
-    <item>
-      <title>On the Possibility of a Connection between the Construction of a Class of Bigeodetic Blocks and the Existence Problem for Biplanes</title>
-      <link>https://arxiv.org/abs/2307.10133</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.10133</guid>
-      <pubDate>Sat, 15 Jul 2023 00:00:00 -0000</pubDate>
-      <description>Graph theory and enumerative combinatorics are two branches of mathematical sciences that have developed astonishingly over the past one hundred years. It is especially important to point out that graph theory employs combinatorial techniques to solve key problems of characterization, construction, enumeration and classification of an enormous set of different families of graphs. This paper describes the construction of two classes of bigeodetic blocks using balanced incomplete block designs (BIBDs). On the other hand, even though graph theory and combinatorics have a close relationship, the opposite problem, that is, considering certain graph constructions when solving problems of combinatorics is not common, but possible. The construction of the second class of bigeodetic blocks described in this paper represents an example of how graph theory could somehow give a clue to the description of a problem of existence in combinatorics. We refer to the problem of existence for biplanes. A connection between the mentioned construction, the Bruck-Ryser-Chowla theorem and the problem of existence for biplanes is considered.</description>
-    </item>
-    <item>
-      <title>An Approximation Algorithm for Multi Allocation Hub Location Problems</title>
-      <link>https://arxiv.org/abs/2307.07433</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.07433</guid>
-      <pubDate>Fri, 14 Jul 2023 00:00:00 -0000</pubDate>
-      <description>The multi allocation p-hub median problem (MApHM), the multi allocation uncapacitated hub location problem (MAuHLP) and the multi allocation p-hub location problem (MApHLP) are common hub location problems with several practical applications. HLPs aim to construct a network for routing tasks between different locations. Specifically, a set of hubs must be chosen and each routing must be performed using one or two hubs as stopovers. The costs between two hubs are discounted. The objective is to minimize the total transportation cost in the MApHM and additionally to minimize the set-up costs for the hubs in the MAuHLP and MApHLP. In this paper, an approximation algorithm to solve these problems is developed, which improves the approximation bound for MApHM to 3.451, for MAuHLP to 2.173 and for MApHLP to 4.552 when combined with the algorithm of Benedito &amp; Pedrosa. The proposed algorithm is capable of solving much bigger instances than any exact algorithm in the literature. New benchmark instances have been created and published for evaluation, such that HLP algorithms can be tested and compared on huge instances. The proposed algorithm performs on most instances better than the algorithm of Benedito &amp; Pedrosa, which was the only known approximation algorithm for these problems by now.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Same Seed, Different Top Prediction: Cross-Platform Reproducibility of AlphaFold 3 Inference on TPUs, GPUs, and CPUs</title>
+      <link>http://arxiv.org/abs/2611.34462v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34462v1</guid>
+      <pubDate>Wed, 25 Nov 2026 14:35:24 +0000</pubDate>
+      <description>AlphaFold 3 returns the highest-ranked of several sampled structures and computes each prediction on one device. Computing centers may schedule them on different GPU types or CPU nodes. Floating-point results can differ between devices, so the same input and seed may return another structure. Neither AlphaFold 3's documentation nor its outputs warn of this. We measure how often the device changes the returned structure, and tell users what to report and how to make devices agree. We used identical inputs, weights, seeds, and settings on two Google tensor processing unit (TPU) generations (v5e, v6e), three NVIDIA GPUs (L4, A100, H100), and an Intel Xeon CPU. On 60 protein-ligand complexes, with five seeds each, switching TPU generations changed the top-ranked sample in 18.0% of 300 predictions. Recompiling never changed it on either TPU, but did so in 7.3% on the L4 GPU. Yet the structures barely moved. The top-ranked pose switched between correct and incorrect in 3.3% to 3.7% of predictions, against about 10% for a new seed. These switches nearly always came from one validity check, with the ligand within 2 angstroms. Follow-ups found the effect again on 72 new targets and between the TPUs and the CPU. Between the A100 and H100 it exceeded recompilation, although AlphaFold 3's developers verified its numerical accuracy on both. An exploratory analysis links the changes to near-tied candidates. We recommend reporting the device and every near-tied sample. A float32 trunk with full-precision matrix products made all five accelerators agree on nearly every prediction.</description>
+    </item>
+    <item>
       <title>Energy as a Service-Level Objective: Transaction-Level Energy Attribution</title>
       <link>http://arxiv.org/abs/2611.32731v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.32731v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2309.11337</guid>
       <pubDate>Wed, 20 Sep 2023 00:00:00 -0000</pubDate>
       <description>In an anonymous shared memory system, all inter-process communications are via shared objects; however, unlike in standard systems, there is no a priori agreement between processes on the names of shared objects [14,15]. Furthermore, the algorithms are required to be symmetric; that is, the processes should execute precisely the same code, and the only way to distinguish processes is by comparing identifiers for equality. For such a system, read/write registers are called anonymous registers. It is known that symmetric deadlock-free mutual exclusion is solvable for any finite number of processes using anonymous registers [1]. The main question left open in [14,15] is the existence of starvation-free mutual exclusion algorithms for two or more processes. We resolve this open question for memoryless algorithms, in which a process that tries to enter its critical section does not use any information about its previous attempts. Almost all known mutual exclusion algorithms are memoryless. We show that (1) there is a symmetric memoryless starvation-free mutual exclusion algorithm for two processes using $m \geq 7$ anonymous registers if and only if $m$ is odd; and (2) there is no symmetric memoryless starvation-free mutual exclusion algorithm for $n\geq 3$ processes using (any number of) anonymous registers. Our impossibility result is the only example of a system with fault-free processes, where global progress (i.e., deadlock-freedom) can be ensured, while individual progress to each process (i.e., starvation-freedom) cannot. It complements a known result for systems with failure-prone processes, that there are objects with lock-free implementations but without wait-free implementations [2,5].</description>
-    </item>
-    <item>
-      <title>Fast Triangle Counting</title>
-      <link>https://arxiv.org/abs/2309.09064</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2309.09064</guid>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 -0000</pubDate>
-      <description>Listing and counting triangles in graphs is a key algorithmic kernel for network analyses including community detection, clustering coefficients, k-trusses, and triangle centrality. We design and implement a new serial algorithm for triangle counting that performs competitively with the fastest previous approaches on both real and synthetic graphs, such as those from the Graph500 Benchmark and the MIT/Amazon/IEEE Graph Challenge. The experimental results use the recently-launched Intel Xeon Platinum 8480+ and CPU Max 9480 processors.</description>
     </item>
   </channel>
 </rss>

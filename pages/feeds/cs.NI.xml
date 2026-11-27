@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>A Nationwide Snapshot of Starlink Affordability</title>
+      <link>http://arxiv.org/abs/2611.34050v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34050v1</guid>
+      <pubDate>Wed, 25 Nov 2026 09:30:11 +0000</pubDate>
+      <description>Starlink positions itself as "fast affordable Internet" that can provide service to nearly every household in the United States, and is slated to be responsible for providing the only broadband service to a significant number of US households via the NTIA's BEAD program. However, neither the FCC's National Broadband Map nor Starlink's own availability map captures what service costs. We present the first national census of Starlink's residential broadband pricing. We first identify that Starlink's offers are uniform within H3 resolution 6 grid cells, allowing us to collect plans and prices for every populated cell in the United States, more than 162,000 addresses, in October 2026. We find that while Starlink's service prices are fairly consistent, the effective price of the most affordable plan varies across the country, driven by restricting sales of less expensive plans as well as "demand surcharges" ranging between \$100 and \$1,500. Using a common affordability threshold of 2% of monthly income, we find that service restrictions or surcharges make Starlink unaffordable for approximately 4.3 million households, and in total nearly a quarter of all US households (roughly 25.5 million) cannot afford Starlink. Finally, approximately 80% of locations where Starlink is slated to receive BEAD funding face no constrained pricing today.</description>
+    </item>
+    <item>
       <title>Closed-Form Formula for $d_{\mathrm{critical}}(a_0)$ in Large Fully Connected Power Grids</title>
       <link>http://arxiv.org/abs/2611.30922v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.30922v1</guid>
@@ -6996,13 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1801.05309</guid>
       <pubDate>Fri, 05 Jan 2018 00:00:00 -0000</pubDate>
       <description>In recent years, computer networks have become more and more advanced in terms of size, applications, complexity and level of heterogeneity. Moreover, availability and performance are important issues for end users. New types of cyber-attacks that can affect and damage network performance and availability are constantly emerging and some threats, such as Distributed Denial of Service (DDoS) attacks, can be very dangerous and cannot be easily prevented. In this study, we present a novel hybrid approach to detecting a DDoS attack by means of monitoring abnormal traffic in the network. This approach reads traffic data and from that it is possible to build a model, by means of which future data may be predicted and compared with observed data, in order to detect any abnormal traffic. This approach combines two methods: traffic prediction and changing detection. To the best of our knowledge, such a combination has never been used in this area before. The approach achieved a highly significant accuracy rate of 98.3% and sensitivity was 100%, which means that all potential attacks are detected and prevented from penetrating the network system.</description>
-    </item>
-    <item>
-      <title>Efficient priority queueing routing strategy on mobile networks</title>
-      <link>https://arxiv.org/abs/1801.00280</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1801.00280</guid>
-      <pubDate>Sun, 31 Dec 2017 00:00:00 -0000</pubDate>
-      <description>Mobile networks are intriguing in recent years due to their practical implications. Previous routing strategies for improving transport efficiency have little attention what order should the packets be forwarded, just simply used first-in-first-out queue discipline. Here we apply priority queueing discipline to shortest distance routing strategy on mobile networks. Numerical experiments show it not only remarkably improves network throughput and the packet arriving rate, but also reduces average end-to-end delay and the rate of queueing delay. Our work may be helpful in routing strategy designing on mobile networks.</description>
     </item>
   </channel>
 </rss>

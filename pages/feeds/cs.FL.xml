@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Product-Linear POSIX Parsing</title>
+      <link>http://arxiv.org/abs/2611.34904v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34904v1</guid>
+      <pubDate>Wed, 25 Nov 2026 18:53:43 +0000</pubDate>
+      <description>POSIX regular-expression matching reports capture spans determined by the parse tree that its disambiguation rules select. Thompson's classical construction decides whether an expression $E$ matches a text $w$ in product-linear time, $O(|E|\,|w|)$. Whether the POSIX parse can also be computed in product-linear time has remained open since the rules were standardized in 1992. For instance, the algorithm of Okui and Suzuki takes $O(|E|^2|w|)$ time after precomputation. We give, to our knowledge, the first algorithm that computes the POSIX parse and all capture spans in product-linear total time, $O(|E|\,|w|)$. It uses $O(|E|+|w|)$ working space and supports full matching, longest-prefix matching, and leftmost-longest search. The algorithm scans the text backward and keeps one preferred continuation per traversal state. It implements POSIX selection with lists of end positions of the open subexpressions, which it compares and updates in constant time.</description>
+    </item>
+    <item>
+      <title>Higher-Dimensional Automata in Geometric Logic</title>
+      <link>http://arxiv.org/abs/2611.33838v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33838v1</guid>
+      <pubDate>Wed, 25 Nov 2026 06:07:06 +0000</pubDate>
+      <description>What does the topos of a higher-dimensional automaton know about its infinite behaviour that its language does not? We write partial HDAs with an infinite run as models of a geometric theory over an intuitionistic metatheory with no choice. The topos of a machine is that of sheaves on its prefixes. The label word of a prefix records the shape and acceptance bit of each cell with the ipomset of each step. Under unique choice these words give a geometric morphism to the label topos of sheaves on label words, which thus records the shapes and acceptance bits that the Büchi language forgets. Machines sharing their Büchi language and their frames can differ over the label topos. The bouquet of two squares shares its frame and its Büchi language with the interleaved square; each accepted run of either reads the two events in parallel forever. Only the interleaved square has runs through cells of shape a, and the geometric sequent excluding such runs separates the two over the label topos. Over alphabets with decidable equality, finite rigid machines are unambiguous exactly when their label maps are inclusions of locales, and their equivalence over the label topos is decided whenever either is unambiguous. Equivalences of frames over the label topos transport points with their labels, and the invariants of fibres and of the language of points follow from this transport. On finite partial HDAs over alphabets with decidable equality, Muller and Büchi acceptance coincide exactly under a weak form of excluded middle.</description>
+    </item>
+    <item>
       <title>Polynomial-Time Learning of Random Automata from One Label per Word</title>
       <link>http://arxiv.org/abs/2611.32959v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.32959v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/1605.00817</guid>
       <pubDate>Tue, 03 May 2016 00:00:00 -0000</pubDate>
       <description>Regular languages are closed under a wealth of formal language operators. Incorporating such operators in regular expressions leads to concise language specifications, but the transformation of such enhanced regular expressions to finite automata becomes more involved. We present an approach that enables the direct construction of finite automata from regular expressions enhanced with further operators that preserve regularity. Our construction is based on an extension of the theory of derivatives for regular expressions. To retain the standard results about derivatives, we develop a derivability criterion for the compatibility of the extra operators with derivatives. Some derivable operators do not preserve regularity. Derivatives provide a decision procedure for the word problem of regular expressions enhanced with such operators.</description>
-    </item>
-    <item>
-      <title>Logic for Unambiguous Context-Free Languages</title>
-      <link>https://arxiv.org/abs/1604.04139</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1604.04139</guid>
-      <pubDate>Wed, 13 Apr 2016 00:00:00 -0000</pubDate>
-      <description>We give in this paper a logical characterization for unambiguous Context Free Languages, in the vein of descriptive complexity. A fragment of the logic characterizing context free languages given by Lautemann, Schwentick and Thérien [18] based on implicit definability is used for this aim. We obtain a new connection between two undecidable problems, a logical one and a language theoretical one.</description>
-    </item>
-    <item>
-      <title>Predicting the large-scale evolution of tag systems</title>
-      <link>https://arxiv.org/abs/1601.02014</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1601.02014</guid>
-      <pubDate>Wed, 30 Mar 2016 00:00:00 -0000</pubDate>
-      <description>We present a method for predicting the large-scale evolution of a tag system from its production rules. A tag system's evolution is first divided into stages called `epochs' in which the tag system evolves monotonously. The distribution of symbols in the queue at the beginning of each epoch determines the tag system's large-scale properties, including growth rate and string densities, during that epoch. We derive the symbol distribution for the next epoch from the distribution for the current one, using this to make predictions over multiple successive epochs. Finally, we compare predictions that were obtained with this method to computer simulations and find that it retains great accuracy over several epochs.</description>
     </item>
   </channel>
 </rss>

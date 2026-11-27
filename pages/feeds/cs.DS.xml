@@ -5,6 +5,48 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Min-Plus Products and Dynamic Programming with Few Violations of the Adjacent Monge Inequalities</title>
+      <link>http://arxiv.org/abs/2611.34733v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34733v1</guid>
+      <pubDate>Wed, 25 Nov 2026 17:15:38 +0000</pubDate>
+      <description>Local rewards can introduce negative adjacent mixed differences into a convex transition cost. If a cost array $B$ has $s(B)$ such differences, we express it as a Monge array minus $s(B)$ weighted rectangles and sweep its columns, maintaining the lower envelope of the active rows. For explicit finite $n\times n$ matrices $A,B$ and $L=\lceil\log_2(n+1)\rceil$, we compute $A\otimes B$ and the smallest minimizing index for every entry in $\mathcal{O}(n^2L+ns(B)L^3)$ time and $\mathcal{O}(n^2)$ space, giving near-quadratic time for arbitrary $A$ when $s(B)=\mathcal{O}(n)$, including right factors with $Θ(n^2)$ positive differences. For block costs given by a constant-time Monge oracle and $r$ signed rectangle corrections, the sweep activates each row when its prefix optimum becomes available and computes an optimal contiguous partition in $\mathcal{O}((n+r)L^3)$ time and $\mathcal{O}(n+r)$ working space. The sweep handles convex transitions with interval rules and assigns one rectangle to each internal edge or hyperedge reward in a convex block cost, giving near-linear exact algorithms on sparse inputs for ordered graph modularity, weighted contiguous cluster editing, all-or-nothing HyperLam, and bounded-rank strict hypergraph modularity. Let $c_{\mathrm{APSP}}$ denote the deterministic exponent of all-pairs shortest paths with polynomially bounded integer weights. For fixed $3-c_{\mathrm{APSP}}&lt;α\le1$, any deterministic $\mathcal{O}(n^β)$-time min-plus product algorithm for polynomially bounded integer matrices with $s(B)\le n^{1+α}$ satisfies $β\ge c_{\mathrm{APSP}}-1+α$. The reduction from general integer min-plus multiplication uses right factors obtained from $(j-k)^2$ by at most $n^{1+α}$ interval discounts, with $Θ(n^2)$ positive differences and all remaining differences negative.</description>
+    </item>
+    <item>
+      <title>Uniform Guarded Bootstrapping for Topology-Sensitive Directed Shortest Paths</title>
+      <link>http://arxiv.org/abs/2611.34600v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34600v1</guid>
+      <pubDate>Wed, 25 Nov 2026 15:57:35 +0000</pubDate>
+      <description>On a source star, every leaf distance is an input weight. Thus computing labeled distances need not reveal their order. For a rooted directed topology, let $K$ be the least worst-case sum of comparisons and additions among finite deterministic programs specialized to that topology and correct for every nonnegative weighting. We give one deterministic program that takes the graph as input. This graph-input-uniform algorithm has total comparison-addition RAM time $O(m+n+KΦ(K)\exp(O(\log_2^*(K+2))))$, where $n$ and $m$ count vertices and arcs, and $Φ$ is a regularized product of successive logarithms. An active core is the small graph remaining after directly recoverable distances are separated. The algorithm chooses its parameters from the core size. Frozen entry ceilings let each interrupted local call be replayed on a small completion, whose complete-run bound controls the stopped work. The cost coefficient satisfies a linear one-step recurrence, yielding at most exponential growth in the number of generations. This permits a depth chosen from the measured core size. For $m=O(n)$, the solver gives $O(n\sqrt{\log n}(\log\log n)^{1/4+o(1)})$ time, improving the sparse directed bound of Duan, Mao, Shu, and Yin. A complementary result uses reusable dominator calibration for changing seed vectors on a fixed weighted graph.</description>
+    </item>
+    <item>
+      <title>Square-root comparison, Turnpike, and exact semidefinite feasibility</title>
+      <link>http://arxiv.org/abs/2611.34535v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34535v1</guid>
+      <pubDate>Wed, 25 Nov 2026 15:18:28 +0000</pubDate>
+      <description>Given positive integers $a_i,K$, put $S=\sum_{i=1}^k\sqrt{a_i}$. We construct a realizable Turnpike instance in which the minimum spacing of distinct distances and the smallest nonzero addition residual are both at most $|S-K|$ when $S\ne K$. With approximation oracles, one three-distance realizability query decides $S\le K$. For unordered lists of radical sums with nonnegative rational coefficients, a polynomial-time substitution by integers preserves every normalized ruler. We give the classical reduction of square-root comparison to exact semidefinite feasibility in both threshold directions. The comparison enters through numerical separation and marked sorting; the integer recoding needs no such comparison for unordered reconstruction.</description>
+    </item>
+    <item>
+      <title>Improved Quantum Algorithms for TSP and More</title>
+      <link>http://arxiv.org/abs/2611.33730v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33730v1</guid>
+      <pubDate>Wed, 25 Nov 2026 03:51:27 +0000</pubDate>
+      <description>The traveling salesman problem (TSP) is a canonical NP-hard optimization problem. For general edge weights, the classical dynamic programs of Bellman and of Held and Karp solve TSP on $n$ cities in $O^*(2^n)$ time. To date, no $\Oh(c^n)$-time classical algorithm is known for any $c&lt;2$. Combining Grover search with the dynamic programming technique, Ambainis et al. (SODA 2019) introduced a quantum algorithm with running time $O^*(1.7274^n)$, which is still the best known quantum time bound. In this work, we improve the running time to $O^*(1.70961^n)$. The core idea of our algorithm is to combine the framework of Ambainis et al. with the extremal set-system framework, which was recently used for classical space-time tradeoffs of TSP by Jabal Ameli, Nederlof and Wang (FOCS 2026) and Dallant and Kozma (FOCS 2026). To obtain our upper bound, we decompose the optimal tour into four consecutive subpaths of different sizes, for which, based on the idea of set-systems, the optimal values are computed using dynamic programming with small success probability and use amplitude amplification. Using the same idea, we also give a new quantum space-time tradeoff for TSP, improving the previous results of Caroppo et al. (ESA 2026) and Dallant (arXiv:2607.12374). Finally, we obtain the same quantum upper bounds for several other related problems.</description>
+    </item>
+    <item>
+      <title>SAT-Driven Exact Treewidth via Safe Separators and Structure-Aware Encodings</title>
+      <link>http://arxiv.org/abs/2611.33695v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33695v1</guid>
+      <pubDate>Wed, 25 Nov 2026 03:02:47 +0000</pubDate>
+      <description>Treewidth is a standard measure of graph structure, but computing it exactly is NP-hard. SAT- and MaxSAT-based approaches provide a uniform way to solve treewidth by encoding it in conjunctive normal form and delegating the search to modern Boolean solvers, thus directly benefiting from continued progress in SAT technology. This report studies how to strengthen such SAT-driven solvers with structural reasoning and low-overhead guidance, both at the meta-algorithmic level and within the encoding itself. Starting from a baseline SAT/MaxSAT formulation, we investigate structure-based simplifications that reduce solver effort while preserving exactness, and we evaluate practical heuristic enhancements (fast upper/lower bounds and solver guidance) within iterative SAT and MaxSAT workflows. Experiments show consistent speedups on instances with exploitable structure, and clarify where SAT-based approaches remain limited.</description>
+    </item>
+    <item>
+      <title>Fast Algorithms for Permanents of Permutationally-Dominant Matrices</title>
+      <link>http://arxiv.org/abs/2611.33485v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33485v1</guid>
+      <pubDate>Tue, 24 Nov 2026 22:02:54 +0000</pubDate>
+      <description>We establish a fast algorithm for approximating the permanent of permutationally-dominant matrices. In particular, we obtain a fully polynomial randomised approximation scheme whose runtime is quadratic in both the dimension of the matrix and the inverse of the approximation error. Our approach is based on a polymer model representation of the permanent and importance sampling of the logarithm of its partition function via the theory of heaps of pieces of Viennot.</description>
+    </item>
+    <item>
       <title>Testing Expansion without Connectivity via Return Probabilities</title>
       <link>http://arxiv.org/abs/2611.32677v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.32677v1</guid>
@@ -6961,48 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2508.01649</guid>
       <pubDate>Sun, 03 Aug 2025 00:00:00 -0000</pubDate>
       <description>Consider graphs of n nodes, and use a Bloom filter of length 2 log3 n bits. An edge between nodes i and j, with i &lt; j, turns on a certain bit of the Bloom filter according to a hash function on i and j. Pick a set of log n nodes and turn on all the bits of the Bloom filter required for these log n nodes to form a clique. As a result, the Bloom filter implies the existence of certain other edges, those edges (x, y), with x &lt; y, such that all the bits selected by applying the hash functions to x and y happen to have been turned on due to hashing the clique edges into the Bloom filter. Constructing the graph consisting of the clique-selected edges and those edges mapped to the turned-on bits of the Bloom filter can be performed in polynomial time in n. Choosing a large enough polylogarithmic in n Bloom filter yields that the graph has only one clique of size log n, the planted clique. When the hash function is black-boxed, finding that clique is intractable and, therefore, inverting the function that maps log n nodes to a graph is not (likely to be) possible in polynomial time.</description>
-    </item>
-    <item>
-      <title>Location-Restricted Stable Matching</title>
-      <link>https://arxiv.org/abs/2505.03680</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2505.03680</guid>
-      <pubDate>Sat, 02 Aug 2025 00:00:00 -0000</pubDate>
-      <description>Motivated by group-project distribution, we introduce and study stable matching under the constraint of applicants needing to share a location to be matched with the same institute, which we call the Location-Restricted Stable Matching problem (LRSM). We show that finding a feasible matching is NP-hard, making finding a feasible and stable matching automatically NP-hard. We then analyze the subproblem where all the projects have the same capacity, and the applicant population of each location is a multiple of the universal project capacity, which mimics more realistic constraints and makes finding a feasible matching in P. Even under these conditions, a stable matching (a matching without blocking pairs) may not exist, so we look for a matching that minimizes the number of blocking pairs. We find that the blocking pair minimization problem for this subproblem is inapproximable within $|A|^{1-ε}$ for $|A|$ agents and provide an $|A|$-approximation algorithm to show this result is almost tight. We extend this result to show that the problem of minimizing the number of agents in blocking pairs is also inapproximable within $|A|^{1-ε}$, and since there are only $|A|$ agents, this result is also almost tight.</description>
-    </item>
-    <item>
-      <title>The Overlap Gap Property limits limit swapping in the QAOA</title>
-      <link>https://arxiv.org/abs/2404.06087</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2404.06087</guid>
-      <pubDate>Sat, 02 Aug 2025 00:00:00 -0000</pubDate>
-      <description>The Quantum Approximate Optimization Algorithm (QAOA) is a quantum algorithm designed for Combinatorial Optimization Problem (COP). We show that if a local algorithm is limited in performance at logarithmic depth for a spin glass type COP with an underlying Erdös--Rényi hypergraph, then a random regular hypergraph is similarly limited in performance as well. As such, we re-derived the fact that the average-case value obtained by the QAOA for even $q\ge 4$, Max-$q$-XORSAT is bounded away from optimality when optimised using asymptotic analysis due to the Overlap Gap Property (OGP). While this result was proven before, the proof is rather technical compared to ours. In addition, we show that the earlier result implicitly also implies limitation at logarithmic depth $p \le ε\log n$ providing an improvement over limitation at constant depth. Furthermore, the extension to logarithmic depth leads to a tightening of the upper bound that the QAOA outputs at logarithmic depth for MaxCUT and Max-$q$-XORSAT problems. We also provide some numerical evidence the limitation should be extended to odd $q$ by showing that the OGP exists for the Max-$3$-XORSAT on random regular graphs.</description>
-    </item>
-    <item>
-      <title>Computational Verification of the Buratti--Horak--Rosa Conjecture for Small Integers and Inductive Approaches</title>
-      <link>https://arxiv.org/abs/2507.00059</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.00059</guid>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 -0000</pubDate>
-      <description>This paper presents a comprehensive computational approach to verify and inductively construct Hamiltonian paths for the Buratti--Horak--Rosa (BHR) Conjecture. The conjecture posits that for any multiset $L$ of $p-1$ positive integers not exceeding $\lfloor p/2 \rfloor$, there exists a Hamiltonian path in the complete graph $K_p$ with vertex-set $\{0, 1, \dots, p-1\}$ whose edge lengths (under the cyclic metric) match $L$, if and only if for every divisor $d$ of $p$, the number of multiples of $d$ appearing in $L$ is at most $p - d$. Building upon prior computational work by Mariusz Meszka, which verified the conjecture for all primes up to $p=23$, our Python program extends this verification significantly. We approach the problem by systematically generating frequency partitions (FPs) of edge lengths and employing a recursive backtracking algorithm. We report successful computational verification for all frequency partitions for integers $p &lt; 32$, specifically presenting results for $p=31$ and a composite $p=26$. For the composite number $p=30$, the Python code took approximately 11 hours to verify on a Lenovo laptop. For $p=16$, $167,898$ valid multisets were processed, taking around 20 hours on Google Colab Pro+. Furthermore, we introduce and implement two constructive, inductive strategies for building Hamiltonian paths: (1) increasing the multiplicity of an existing edge length, and (2) adding a new edge length. These methods, supported by a reuse-insertion heuristic and backtracking search, demonstrate successful constructions for evolving FPs up to $p=40$. Through these empirical tests and performance metrics, we provide strong computational evidence for the validity of the BHR conjecture within the scope tested, and outline the scalability of our approach for higher integer values.</description>
-    </item>
-    <item>
-      <title>A Simple $(1-ε)$-Approximation Semi-Streaming Algorithm for Maximum (Weighted) Matching</title>
-      <link>https://arxiv.org/abs/2307.02968</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2307.02968</guid>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We present a simple semi-streaming algorithm for $(1-ε)$-approximation of bipartite matching in $O(\log{\!(n)}/ε)$ passes. This matches the performance of state-of-the-art "$ε$-efficient" algorithms -- the ones with much better dependence on $ε$ albeit with some mild dependence on $n$ -- while being considerably simpler. The algorithm relies on a direct application of the multiplicative weight update method with a self-contained primal-dual analysis that can be of independent interest. To show case this, we use the same ideas, alongside standard tools from matching theory, to present an equally simple semi-streaming algorithm for $(1-ε)$-approximation of weighted matchings in general (not necessarily bipartite) graphs, again in $O(\log{\!(n)}/ε)$ passes.</description>
-    </item>
-    <item>
-      <title>Min cost flow on unit capacity networks and convex cost K-flow are as easy as the assignment problem with All-Min-Cuts algorithm</title>
-      <link>https://arxiv.org/abs/1610.04012</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/1610.04012</guid>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We explore here surprising links between the time-cost-tradeoff problem and the minimum cost flow problem that lead to fast, strongly polynomial, algorithms for both problems. One of the main results is a new algorithm for the unit capacity min cost flow that matches the complexity of the fastest strongly polynomial algorithm known for the assignment problem. The time cost tradeoff (TCT) problem in project management is to expedite the durations of activities, subject to precedence constraints, in order to achieve a target project completion time at minimum expediting costs, or, to maximize the net benefit from a reward associated with project completion time reduction. Each activity is associated with integer normal duration, minimum duration, and expediting cost per unit reduction in duration. We devise here the {\em all-min-cuts} procedure, which for a given maximum flow, is capable of generating all minimum cuts (equivalent to minimum cost expediting) of equal value very efficiently. Equivalently, the procedure identifies all solutions that reside on the TCT curve between consecutive breakpoints in average $O(m+n \log n)$ time, where $m$ and $n$ are the numbers of arcs and nodes in the network. The all-min-cuts procedure implies faster algorithms for certain TCT problems and for certain min cost flow problem with a significantly different approach from the ones known.</description>
-    </item>
-    <item>
-      <title>Parallel PLL on DAGs</title>
-      <link>https://arxiv.org/abs/2507.21204</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2507.21204</guid>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 -0000</pubDate>
-      <description>We present a parallel variant of Pruned Landmark Labelling (PLL) that is optimised for the preprocessing of hub labels on directed acyclic graphs (DAGs). This method was developed during a seminar at the Karlsruhe Institute of Technology (KIT), focusing on time-expanded graphs that model public transport networks. The approach leverages the topological properties of DAGs to enable a novel parallel construction of hub labels.</description>
     </item>
   </channel>
 </rss>

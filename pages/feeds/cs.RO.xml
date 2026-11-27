@@ -5,6 +5,27 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Hetero-Associative Visuomotor Memory: Soft Recall as a Base for Learned Residuals in Few-Demonstration Imitation</title>
+      <link>http://arxiv.org/abs/2611.34014v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34014v1</guid>
+      <pubDate>Wed, 25 Nov 2026 09:03:48 +0000</pubDate>
+      <description>Retrieve-and-correct policies typically refine the nearest retrieved demonstration chunk, the readout that works best when executed directly. We study what a demonstration memory should supply to the corrector instead and find that a smooth, softmax-weighted recall over the whole memory is a much better base. On ALOHA cube transfer (40 human demonstrations), soft recall is no better to execute alone than the nearest chunk; however, with keys, candidates, and training fixed, correcting it raises success by 22.4 points on fresh resets with new encoders and by 7.4 against a closed-loop-tuned top-1 corrector. On robomimic Square, it leads by 7.9 points with the two better operators and by 6.7 on a label-free draw of equal size. This gain holds on sparse, varied demonstrations under an action-aware key and leave-one-demonstration-out training, and fades or slightly reverses on dense, scripted, or generated data. Building on this finding, our hetero-associative visuomotor memory (HAVM, 14M parameters) trains offline in about five minutes, including a learned retrieval temperature $β$, and runs in 1.1 ms. Across six fresh ALOHA encoders, it reaches 76.4% within 24 s, comparable to a 264M Diffusion Policy trained for 6.7 h (78.8%) and ahead of ACT (71.7%) and fine-tuned VLAs (65.2-75.2%), while leading every 40-demonstration baseline within the benchmark's 8 s limit (74.6%; +6.5 over Diffusion Policy, +15.1 over ACT). On LIBERO, one 40-task memory reaches 92.2% and loses far less than SmolVLA to rewording; on a real SO-101 arm, it sustains 30 Hz control without stalling. Unlike pretrained foundation policies aimed at zero-shot generalization to unseen tasks and workspaces, HAVM trades broad out-of-distribution generalization for rapid adaptation to the available demonstrations.</description>
+    </item>
+    <item>
+      <title>Measuring the Value of One Shared Image at Robot Handoffs in Vision-and-Language Navigation</title>
+      <link>http://arxiv.org/abs/2611.33865v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33865v1</guid>
+      <pubDate>Wed, 25 Nov 2026 06:43:54 +0000</pubDate>
+      <description>When the lead robot cannot continue, what should it send the teammate that must finish the route? We replay a frozen receiver at each contact under alternative messages. Across 3,920 autonomous departures in 106 environments, adding the view before the lead's last action block to its executed actions raised success by 7.51 percentage points (pp) per RxR handoff and 8.54 pp per SAGE handoff. Per departure the gains were 2.23 and 1.44 pp, respectively. The lead continuing in simulation defines the empirical full-history ceiling (Solo). At contact, the lead had accumulated a median of 41 frames. Sending one frame when available recovered 24% of the full-history advantage over actions alone in SAGE and 30% in RxR. Over an estimated progress cue in SAGE, the image rescued 100 routes and reversed 54 successes. Near-goal receivers finished outside less often (63.1% to 51.7%, post hoc). In secondary comparisons the earlier view outperformed the contact view by 6-7 pp per handoff. Exact-route specificity and image gains at controlled starts with mostly unknown progress or outside the goal region remained unresolved. Gains were detectable from about 7 kB per handoff. Random transmission matched within size bins nearly equaled the learned sender's team success. At a required handoff, a view of the approach to the last maneuver helps the receiver finish.</description>
+    </item>
+    <item>
+      <title>Model Predictive Control of a Multirotor UAV with a Cable-Suspended Payload: A Comparison of Shifted and Transformer-Based Warm Starts</title>
+      <link>http://arxiv.org/abs/2611.33514v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33514v1</guid>
+      <pubDate>Tue, 24 Nov 2026 22:45:03 +0000</pubDate>
+      <description>This study investigates model predictive control (MPC) of a multirotor drone (unmanned aerial vehicle, UAV) carrying a cable-suspended payload, comparing conventional shifted initialization with Transformer-based warm starting of a sequential convex programming (SCP) optimizer. The controller uses a coupled mechanical model with an elastic cable and a double-pendulum representation of the suspended load. Its formulation includes move-blocked control inputs, finite-difference sensitivities, constrained quadratic subproblems, and input-feasibility projection. A Transformer trained on expert SCP solutions predicts an initial control sequence, which is subsequently refined by the same optimizer used for the conventional methods. Numerical experiments compare zero, shifted, and Transformer initialization under identical controller settings. For independently solved MPC problems, Transformer initialization reduces computation time relative to zero initialization. In sequential closed-loop simulations, however, shifting the preceding optimized control sequence provides the lowest computation time, while all three methods produce similar tracking behavior. These findings emphasize the importance of comparing learned warm starts with conventional initialization methods that reuse previous MPC solutions. The measured optimization times exceed the control sampling period; consequently, real-time implementation is not demonstrated. Keywords: Model predictive control; sequential convex programming; Transformer; warm start; cable-suspended payload; multirotor drone.</description>
+    </item>
+    <item>
       <title>Supply Geometry, Learn Execution: Screw Attention for Zero-Shot Policy Transfer in Robot Manipulation</title>
       <link>http://arxiv.org/abs/2611.32797v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.32797v1</guid>
@@ -6982,27 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2405.00698</guid>
       <pubDate>Fri, 12 Apr 2024 00:00:00 -0000</pubDate>
       <description>This paper addresses the challenge of co-designing morphology and control in soft robots via a novel neural network evolution approach. We propose an innovative method to implicitly dual-encode soft robots, thus facilitating the simultaneous design of morphology and control. Additionally, we introduce the large language model to serve as the control center during the evolutionary process. This advancement considerably optimizes the evolution speed compared to traditional soft-bodied robot co-design methods. Further complementing our work is the implementation of Gaussian positional encoding - an approach that augments the neural network's comprehension of robot morphology. Our paper offers a new perspective on soft robot design, illustrating substantial improvements in efficiency and comprehension during the design and evolutionary process.</description>
-    </item>
-    <item>
-      <title>Point cloud obstacle detection with the map filtration</title>
-      <link>https://arxiv.org/abs/2404.07730</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2404.07730</guid>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 -0000</pubDate>
-      <description>Obstacle detection is one of the basic tasks of a robot movement in an unknown environment. The use of a LiDAR (Light Detection And Ranging) sensor allows one to obtain a point cloud in the vicinity of the sensor. After processing this data, obstacles can be found and recorded on a map. For this task, I present a pipeline capable of detecting obstacles even on a computationally limited device. The pipeline was also tested on a real robot and qualitatively evaluated on a dataset, which was collected in Brno University of Technology lab. Time consumption was recorded and compared with 3D object detectors.</description>
-    </item>
-    <item>
-      <title>Potentials of the Metaverse for Robotized Applications in Industry 4.0 and Industry 5.0</title>
-      <link>https://arxiv.org/abs/2404.00783</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2404.00783</guid>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 -0000</pubDate>
-      <description>As a digital environment of interconnected virtual ecosystems driven by measured and synthesized data, the Metaverse has so far been mostly considered from its gaming perspective that closely aligns with online edutainment. Although it is still in its infancy and more research as well as standardization efforts remain to be done, the Metaverse could provide considerable advantages for smart robotized applications in the industry.Workflow efficiency, collective decision enrichment even for executives, as well as a natural, resilient, and sustainable robotized assistance for the workforce are potential advantages. Hence, the Metaverse could consolidate the connection between Industry 4.0 and Industry 5.0. This paper identifies and puts forward potential advantages of the Metaverse for robotized applications and highlights how these advantages support goals pursued by the Industry 4.0 and Industry 5.0 visions. Keywords: Robotics, Metaverse, Digital Twin, VR/AR, AI/ML, Foundation Model;</description>
-    </item>
-    <item>
-      <title>Local Observability of VINS and LINS</title>
-      <link>https://arxiv.org/abs/2404.00066</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2404.00066</guid>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 -0000</pubDate>
-      <description>This work analyzes unobservable directions of Vision-aided Inertial Navigation System (VINS) and Lidar-aided Inertial Navigation System (LINS) nonlinear model. Under the assumption that there exist two features observed by the camera without occlusion, the unobservable directions of VINS are uniformly globally translation and global rotations about the gravity vector. The unobservable directions of LINS are same as VINS, while only one feature need to be observed. Also, a constraint in Observability-Constrained VINS (OC-VINS) is proved.</description>
     </item>
   </channel>
 </rss>

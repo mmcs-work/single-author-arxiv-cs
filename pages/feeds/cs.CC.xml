@@ -5,6 +5,55 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>Bound Entanglement with Negative Partial Transpose Exists</title>
+      <link>http://arxiv.org/abs/2611.34921v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34921v1</guid>
+      <pubDate>Wed, 25 Nov 2026 18:58:48 +0000</pubDate>
+      <description>We show that the Werner state $ρ= (23 I - 3\,\mathrm{SWAP})/1448$ on $\mathbb{C}^8 \otimes \mathbb{C}^8$ has a negative partial transpose and is bound entangled: no LOCC protocol can distill entanglement from any number of copies of $ρ$, and even with separable operations the fidelity of a two-qubit output with a Bell state never exceeds $(1+\sqrt{2})/4 \approx 0.604$. It follows that distillable entanglement is neither additive nor convex.</description>
+    </item>
+    <item>
+      <title>Deterministic Verification and Computation of Real Matrix Products Have the Same Arithmetic Exponent</title>
+      <link>http://arxiv.org/abs/2611.34814v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34814v1</guid>
+      <pubDate>Wed, 25 Nov 2026 18:01:25 +0000</pubDate>
+      <description>Given three $n\times n$ real matrices $A,B,C$, we ask whether $AB=C$. In an exact real arithmetic model that charges one step for each addition, subtraction, multiplication, division, comparison, or sign test, we prove that deterministic exact verification requires $Ω(n^{ω_{\mathbb{C}}})$ steps and has the same optimal arithmetic exponent $ω_{\mathbb{C}}$ as matrix multiplication. Assuming the value $ω_{\mathbb{C}}=9/4$ and the fixed-size border-rank lower bound stated in the OpenAI preprint of November 24, 2026, deterministic verification requires $Ω(n^{9/4})$ steps, whereas Freivalds' randomized test uses $O(n^2)$ steps with one-sided error. More generally, if a tree of cost $s$ correctly decides $y=T(u,v)$ on all real inputs, the bilinear map $T$ is a coefficientwise limit of tensors of real rank $O(s)$.</description>
+    </item>
+    <item>
+      <title>Unitary Synthesis with a Unary Tracker</title>
+      <link>http://arxiv.org/abs/2611.34740v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34740v1</guid>
+      <pubDate>Wed, 25 Nov 2026 17:19:01 +0000</pubDate>
+      <description>This manuscript studies general unitary synthesis using unary-encoded ancillary register. Our first construction focuses on the $T$-cost of unitary synthesis. We maintain a unary register that coherently tracks the computational-basis label of the data. This allows Boolean lookups to use only CNOTs and shares the precision-dependent synthesis cost across the branches of each cosine-sine decomposition (CSD) factor. For a classically specified $n$-qubit unitary with $K$ mixing branches in its CSD, we obtain $T$-count $O(K+NL)$ using $N+O(L)$ clean ancillas, where $N=2^n$ and $L=n+\log(1/ε)$. We also give a related construction that directly applies the unitary onto a unary register to implement disjoint branches in parallel. Combining this with the quantum Shannon decomposition gives space-depth volume $O(N^2)$ using arbitrary single-qubit gates and CNOTs, which matches the asymptotically optimal bound.</description>
+    </item>
+    <item>
+      <title>From NP-Hardness to Exact Tractability Through Sample Abundance</title>
+      <link>http://arxiv.org/abs/2611.34734v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34734v1</guid>
+      <pubDate>Wed, 25 Nov 2026 17:16:26 +0000</pubDate>
+      <description>Additional observations can make exact optimization tractable without changing the objective or feasible set. We establish this phenomenon for noisy parity fitting, a worst-case NP-hard problem, with uniformly sampled rank-one sign tensor entries, independent fair factor signs and independent errors. For fixed interaction order $k\ge3$, $n$ signs per block, logarithmic mean degree and known channel biases, $O(n/(\log n)^{1/(k-2)})$ further readings of the same source suffice with high probability for exact optimization in $O(n\log^2 n)$ worst-case work. The leading coefficient is sharp for weak recovery by depth-$O(\log\log n)$ local estimators with independent reading marks. A common signed-field law determines the gain over the generating source, the number of tied optima and the dimension needed for later reweightings. The geometry of the remaining coordinates determines the sharp radius of local verification for high-scoring assignments with high probability.</description>
+    </item>
+    <item>
+      <title>Deterministic integer factorization from abundance decisions</title>
+      <link>http://arxiv.org/abs/2611.34242v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34242v1</guid>
+      <pubDate>Wed, 25 Nov 2026 12:06:26 +0000</pubDate>
+      <description>We prove that deciding whether a positive integer is abundant is equivalent to complete integer factorization under deterministic polynomial-time Turing reductions. In particular, abundance can be decided in deterministic polynomial time if and only if integers can be factored in deterministic polynomial time. Our reduction uses carefully chosen coprime multipliers to recover exact divisor sums from abundance queries, and then extracts the complete prime factorization of an integer $n$ deterministically from the divisor sums of $O(\log n)$ consecutive powers of $n$. Altogether, factoring $n$ requires $O((\log n)^4)$ adaptive abundance queries, each at an integer of $O((\log n)^6)$ binary digits.</description>
+    </item>
+    <item>
+      <title>On the Hardness of Optimal CNOT Circuits</title>
+      <link>http://arxiv.org/abs/2611.34138v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34138v1</guid>
+      <pubDate>Wed, 25 Nov 2026 10:38:25 +0000</pubDate>
+      <description>This note revisits the computational problem of optimal CNOT synthesis: given an invertible binary matrix $A\in \mathsf{GL}(d,2)$ over the field of two elements and a budget $K$, decide if $A$ can be implemented with $\leq K$ CNOT gates. The $\mathsf{NP}$-completeness of this problem was recently published independently by Acuaviva, Acuaviva, and Acuaviva (arXiv:2608.03825) and by Li and Guan (arXiv:2609.04160). This note gives a new proof, with three features. First, $\mathsf{NP}$-completeness holds even over linear oracles, i.e., matrices of the form $(\mathbf{x},\mathbf{y})\mapsto(\mathbf{x},\mathbf{y}+F\mathbf{x})$, which are the standard reversible embedding of a linear function $F$. These are involutions, and seemingly simpler than the families of the two previous works, which both have order four. Second, hardness persists when SWAP gates are free and qubits may be permuted (and this holds under any connected topology). Third, the exposition is arguably simpler to follow. Along the way, it gives a proof of the XOR-circuit lower bound of Boyar, Matthews, and Peralta [J. Cryptology 26 (2013)] that is, perhaps, simpler than existing ones.</description>
+    </item>
+    <item>
+      <title>Fast Algorithms for Permanents of Permutationally-Dominant Matrices</title>
+      <link>http://arxiv.org/abs/2611.33485v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33485v1</guid>
+      <pubDate>Tue, 24 Nov 2026 22:02:54 +0000</pubDate>
+      <description>We establish a fast algorithm for approximating the permanent of permutationally-dominant matrices. In particular, we obtain a fully polynomial randomised approximation scheme whose runtime is quadratic in both the dimension of the matrix and the inverse of the approximation error. Our approach is based on a polymer model representation of the permanent and importance sampling of the logarithm of its partition function via the theory of heaps of pieces of Viennot.</description>
+    </item>
+    <item>
       <title>A note on input-oblivious unambiguous hierarchies</title>
       <link>http://arxiv.org/abs/2611.33126v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.33126v1</guid>
@@ -6954,55 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2311.09979</guid>
       <pubDate>Thu, 16 Nov 2023 00:00:00 -0000</pubDate>
       <description>Nonuniform families of polynomial-size finite automata, which are series of indexed finite automata having polynomially many inner states, are used in the past literature to solve nonuniform families of promise decision problems. Among such nonuniform families of finite automata, we focus our attention, in particular, on the variants of nondeterministic finite automata, which have at most "one" (unambiguous), "polynomially many" (few) accepting computation paths, or unambiguous/few computation paths leading to each fixed configuration. When such machines are limited to make only one-way head moves, we can prove with no unproven hardness assumptions that some of these variants are different in computational power from each other. As for two-way machines restricted to instances of polynomially-bounded length, families of two-way polynomial-size nondeterministic finite automata are equivalent in power to families of polynomial-size unambiguous finite automata.</description>
-    </item>
-    <item>
-      <title>P not equal to NP</title>
-      <link>https://arxiv.org/abs/2401.15079</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2401.15079</guid>
-      <pubDate>Tue, 14 Nov 2023 00:00:00 -0000</pubDate>
-      <description>This article finds the answer to the question: for any problem from which a non-deterministic algorithm can be derived which verifies whether an answer is correct or not in polynomial time (complexity class NP), is it possible to create an algorithm that finds the right answer to the problem in polynomial time (complexity class P)? For this purpose, this article shows a decision problem and analyzes it to demonstrate that this problem does not belong to the complexity class P, but it belongs to the class NP; doing so it will be proved that it exists at least one problem that belongs to class NP but not to class P, which means that this article will prove that not all NP problems are P.</description>
-    </item>
-    <item>
-      <title>An Improved Composition Theorem of a Universal Relation and Most Functions via Effective Restriction</title>
-      <link>https://arxiv.org/abs/2310.07422</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2310.07422</guid>
-      <pubDate>Sun, 12 Nov 2023 00:00:00 -0000</pubDate>
-      <description>Recently, Ivan Mihajlin and Alexander Smal proved a composition theorem of a universal relation and some function via so called xor composition, that is there exists some function $f:\{0,1\}^n \rightarrow \{0,1\}$ such that $\textsf{CC}(\text{U}_n \diamond \text{KW}_f) \geq 1.5n-o(n)$ where $\textsf{CC}$ denotes the communication complexity of the problem. In this paper, we significantly improve their result and present an asymptotically tight and much more general composition theorem of a universal relation and most functions, that is for most functions $f:\{0,1\}^n \rightarrow \{0,1\}$ we have $\textsf{CC}(\text{U}_m \diamond \text{KW}_f) \geq m+ n -O(\sqrt{m})$ when $m=ω(\log^2 n),n =ω(\sqrt{m})$. This is done by a direct proof of composition theorem of a universal relation and a multiplexor in the partially half-duplex model avoiding the xor composition. And the proof works even when the multiplexor only contains a few functions. One crucial ingredient in our proof involves a combinatorial problem of constructing a tree of many leaves and every leaf contains a non-overlapping set of functions. For each leaf, there is a set of inputs such that every function in the leaf takes the same value, that is all functions are restricted. We show how to choose a set of good inputs to effectively restrict these functions to force that the number of functions in each leaf is as small as possible while maintaining the total number of functions in all leaves. This results in a large number of leaves.</description>
-    </item>
-    <item>
-      <title>On Baker-Gill-Solovay Oracle Turing Machines and Relativization Barrier</title>
-      <link>https://arxiv.org/abs/2112.03677</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2112.03677</guid>
-      <pubDate>Sun, 12 Nov 2023 00:00:00 -0000</pubDate>
-      <description>This work analyses the so-called "Relativization Barrier" with respect to the Baker-Gill-Solovay oracle Turing machine. We show that the {\em diagonalization} technique is a valid mathematical proof technique, but it has some prerequisites when referring to the "relativization barrier."</description>
-    </item>
-    <item>
-      <title>Agnostic Membership Query Learning with Nontrivial Savings: New Results, Techniques</title>
-      <link>https://arxiv.org/abs/2311.06690</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2311.06690</guid>
-      <pubDate>Sat, 11 Nov 2023 00:00:00 -0000</pubDate>
-      <description>(Abridged) Designing computationally efficient algorithms in the agnostic learning model (Haussler, 1992; Kearns et al., 1994) is notoriously difficult. In this work, we consider agnostic learning with membership queries for touchstone classes at the frontier of agnostic learning, with a focus on how much computation can be saved over the trivial runtime of 2^n$. This approach is inspired by and continues the study of ``learning with nontrivial savings'' (Servedio and Tan, 2017). To this end, we establish multiple agnostic learning algorithms, highlighted by: 1. An agnostic learning algorithm for circuits consisting of a sublinear number of gates, which can each be any function computable by a sublogarithmic degree k polynomial threshold function (the depth of the circuit is bounded only by size). This algorithm runs in time 2^{n -s(n)} for s(n) \approx n/(k+1), and learns over the uniform distribution over unlabelled examples on \{0,1\}^n. 2. An agnostic learning algorithm for circuits consisting of a sublinear number of gates, where each can be any function computable by a \sym^+ circuit of subexponential size and sublogarithmic degree k. This algorithm runs in time 2^{n-s(n)} for s(n) \approx n/(k+1), and learns over distributions of unlabelled examples that are products of k+1 arbitrary and unknown distributions, each over \{0,1\}^{n/(k+1)} (assume without loss of generality that k+1 divides n).</description>
-    </item>
-    <item>
-      <title>Word Linear Complexity of sequences and Local Inversion of maps over finite fields</title>
-      <link>https://arxiv.org/abs/2311.06574</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2311.06574</guid>
-      <pubDate>Sat, 11 Nov 2023 00:00:00 -0000</pubDate>
-      <description>This paper develops the notion of \emph{Word Linear Complexity} ($WLC$) of vector valued sequences over finite fields $\ff$ as an extension of Linear Complexity ($LC$) of sequences and their ensembles. This notion of complexity extends the concept of the minimal polynomial of an ensemble (vector valued) sequence to that of a matrix minimal polynomial and shows that the matrix minimal polynomial can be used with iteratively generated vector valued sequences by maps $F:\ff^n\rightarrow\ff^n$ at a given $y$ in $\ff^n$ for solving the unique local inverse $x$ of the equation $y=F(x)$ when the sequence is periodic. The idea of solving a local inverse of a map in finite fields when the iterative sequence is periodic and its application to various problems of Cryptanalysis is developed in previous papers \cite{sule322, sule521, sule722,suleCAM22} using the well known notion of $LC$ of sequences. $LC$ is the degree of the associated minimal polynomial of the sequence. The generalization of $LC$ to $WLC$ considers vector valued (or word oriented) sequences such that the word oriented recurrence relation is obtained by matrix vector multiplication instead of scalar multiplication as considered in the definition of $LC$. Hence the associated minimal polynomial is matrix valued whose degree is called $WLC$. A condition is derived when a nontrivial matrix polynomial associated with the word oriented recurrence relation exists when the sequence is periodic. It is shown that when the matrix minimal polynomial exists $n(WLC)=LC$. Finally it is shown that the local inversion problem is solved using the matrix minimal polynomial when such a polynomail exists hence leads to a word oriented approach to local inversion.</description>
-    </item>
-    <item>
-      <title>On the existence of strong proof complexity generators</title>
-      <link>https://arxiv.org/abs/2208.11642</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2208.11642</guid>
-      <pubDate>Thu, 09 Nov 2023 00:00:00 -0000</pubDate>
-      <description>Cook and Reckhow 1979 pointed out that NP is not closed under complementation iff there is no propositional proof system that admits polynomial size proofs of all tautologies. Theory of proof complexity generators aims at constructing sets of tautologies hard for strong and possibly for all proof systems. We focus at a conjecture from K.2004 in foundations of the theory that there is a proof complexity generator hard for all proof systems. This can be equivalently formulated (for p-time generators) without a reference to proof complexity notions as follows: * There exist a p-time function $g$ stretching each input by one bit such that its range intersects all infinite NP sets. We consider several facets of this conjecture, including its links to bounded arithmetic (witnessing and independence results), to time-bounded Kolmogorov complexity, to feasible disjunction property of propositional proof systems and to complexity of proof search. We argue that a specific gadget generator from K.2009 is a good candidate for $g$. We define a new hardness property of generators, the $\bigvee$-hardness, and shows that one specific gadget generator is the $\bigvee$-hardest (w.r.t. any sufficiently strong proof system). We define the class of feasibly infinite NP sets and show, assuming a hypothesis from circuit complexity, that the conjecture holds for all feasibly infinite NP sets.</description>
-    </item>
-    <item>
-      <title>Logspace Reducibility From Secret Leakage Planted Clique</title>
-      <link>https://arxiv.org/abs/2107.11886</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2107.11886</guid>
-      <pubDate>Wed, 08 Nov 2023 00:00:00 -0000</pubDate>
-      <description>The planted clique problem is well-studied in the context of observing, explaining, and predicting interesting computational phenomena associated with statistical problems. When equating computational efficiency with the existence of polynomial time algorithms, the computational hardness of (some variant of) the planted clique problem can be used to infer the computational hardness of a host of other statistical problems. Is this ability to transfer computational hardness from (some variant of) the planted clique problem to other statistical problems robust to changing our notion of computational efficiency to space efficiency? We answer this question affirmatively for three different statistical problems, namely Sparse PCA, submatrix detection, and testing almost k-wise independence. The key challenge is that space efficient randomized reductions need to repeatedly access the randomness they use. Known reductions to these problems are all randomized and need polynomially many random bits to implement. Since we can not store polynomially many random bits in memory, it is unclear how to implement these existing reductions space efficiently. There are two ideas involved in circumventing this issue and implementing known reductions to these problems space efficiently. 1. When solving statistical problems, we can use parts of the input itself as randomness. 2. Secret leakage variants of the planted clique problem with appropriate secret leakage can be more useful than the standard planted clique problem when we want to use parts of the input as randomness. (abstract shortened due to arxiv constraints)</description>
     </item>
   </channel>
 </rss>

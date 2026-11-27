@@ -5,6 +5,13 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The involute function and its inverse in IEEE 754 double precision: measured and proved accuracy, and its effect on gear inspection</title>
+      <link>http://arxiv.org/abs/2611.33251v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33251v1</guid>
+      <pubDate>Tue, 24 Nov 2026 16:13:09 +0000</pubDate>
+      <description>Almost every spur and helical gear calculation uses the involute function inv(a) = tan(a) - a or its inverse. Near a = 0 the two terms almost cancel: at a = 10^-3 the textbook formula in binary64 keeps about 9 correct digits, and far fewer in binary32, binary16 or fixed point, and the result can depend on the platform's tan. We report the accuracy of a proprietary implementation that avoids these problems. On 50,000 committed test angles the forward function's largest error against an 80-digit reference is 0.4999681 ulp, so every tested result is correctly rounded (measured, not proved). The inverse is proved faithfully rounded, with error at most 0.6 ulp, for 10^-200 &lt;= y &lt; 2, using interval arithmetic and the SMT solvers z3 and cvc5 with a short, named list of trusted inputs; its largest measured error on 50,000 points is 0.5555115 ulp. A separate bracket around the root is proved to contain it for 0 &lt; y &lt;= 10^6, and did so at all 47,083 test points. Both functions return identical bits on x86-64 and aarch64 Linux, Apple-silicon macOS, AWS Lambda and an NVIDIA DGX Spark, in Python and Node.js, on every finite test input. Against public inverse methods on nine runtimes, our inverse returned the same bits on all of them and stayed within 0.54 ulp on 12,017 targets from 0.5 to 60 degrees, while textbook Newton iterations differed between runtimes on up to about 10% of inputs and kept only 12 correct digits. For external and internal spur gears with 5 to 500 teeth and pressure angles from 14.5 to 30 degrees, all inputs fall inside the tested and proved ranges. Against ISO 1328-1 tolerance classes, we give in micrometres the errors that shortcut inverses cause in pin measurement and centre distance, and how far circular-arc CAD teeth (SolidWorks Toolbox) depart from the involute. Drawing an involute is easy; accuracy matters in inspection.</description>
+    </item>
+    <item>
       <title>Accurate Products, Inaccurate Inverse: Emulated FP64 BLAS in Blocked Triangular Inversion</title>
       <link>http://arxiv.org/abs/2611.31030v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31030v1</guid>

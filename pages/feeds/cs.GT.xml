@@ -5,6 +5,20 @@
     <link>https://mmcs-work.github.io/single-author-arxiv-cs</link>
     <description>Single-author arXiv papers.</description>
     <item>
+      <title>The Weak Negotiation Function</title>
+      <link>http://arxiv.org/abs/2611.34442v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.34442v1</guid>
+      <pubDate>Wed, 25 Nov 2026 14:24:08 +0000</pubDate>
+      <description>Subgame-perfect equilibria (SPEs) constitute a refinement of Nash equilibria, where the players are not allowed to resort to non-credible threats to discourage deviations. In graph games equipped with a broad class of objectives, SPEs are captured by a tool called the negotiation function. After giving a quick overview of what has already been achieved using this tool, we define a variant of it: the weak negotiation function. We show that weak SPEs, a standard relaxation of SPEs, can be captured by the weak negotiation function exactly like SPEs are captured by the negotiation function. This characterisation yields a new computational result: deciding whether a given game contains a weak SPE where each player's payoff lies in a given interval is an NP-complete problem if the game has mean-payoff objectives. We also provide a new proof that the same problem in Büchi games is in P. The proofs reuse many arguments from their SPE counterpart, demonstrating the robustness of the tool. We also use the weak negotiation function to present a new proof, significantly shorter than the known one, of the existence of weak SPEs in mean-payoff games. We argue that those new techniques should be reusable in other settings, in particular to prove an open conjecture about the existence of randomised $ε$-SPEs in mean-payoff games.</description>
+    </item>
+    <item>
+      <title>Beyond the Limits of Welfarism: An Affordable Proportional Approval Voting Rule</title>
+      <link>http://arxiv.org/abs/2611.33521v1</link>
+      <guid isPermaLink="true">http://arxiv.org/abs/2611.33521v1</guid>
+      <pubDate>Tue, 24 Nov 2026 22:53:14 +0000</pubDate>
+      <description>Two of the most widely studied voting rules in approval-based multiwinner elections are Proportional Approval Voting (PAV), which maximizes a welfare score over committees of a fixed size, and the Method of Equal Shares (MES), which gives voters equal budgets and selects candidates whose supporters can pay for them. MES guarantees priceability and laminar proportionality, both of which can fail for PAV. Can PAV offer similar guarantees without giving voters budgets? To answer this question, we go beyond the limits of welfarism by allowing PAV to select committees of varying size, while penalizing larger committees. Both our exact rule and its polynomial-time local-search variant produce outcomes that admit a priceable completion and, on laminar instances, a laminar-proportional one. Our analysis carefully separates the roles of two marginal stability conditions. At suitable thresholds, addition stability gives a strong proportionality guarantee in the form of EJR+, while deletion stability limits overrepresentation and ensures affordability. We use these conditions to derive welfare and coverage guarantees for different completions of our rules. The same welfare comparison also improves the best known lower bound on the utilitarian ratio of standard PAV.</description>
+    </item>
+    <item>
       <title>An Order-Optimal Square-Root Bound for Online Maximin Share Allocation with Known Types</title>
       <link>http://arxiv.org/abs/2611.31732v1</link>
       <guid isPermaLink="true">http://arxiv.org/abs/2611.31732v1</guid>
@@ -6989,20 +7003,6 @@
       <guid isPermaLink="true">https://arxiv.org/abs/2110.04835</guid>
       <pubDate>Sun, 10 Oct 2021 00:00:00 -0000</pubDate>
       <description>Two player zero sum simultaneous action games are common in video games, financial markets, war, business competition, and many other settings. We first introduce the fundamental concepts of reinforcement learning in two player zero sum simultaneous action games and discuss the unique challenges this type of game poses. Then we introduce two novel agents that attempt to handle these challenges by using joint action Deep Q-Networks (DQN). The first agent, called the Best Response AgenT (BRAT), builds an explicit model of its opponent's policy using imitation learning, and then uses this model to find the best response to exploit the opponent's strategy. The second agent, Meta-Nash DQN, builds an implicit model of its opponent's policy in order to produce a context variable that is used as part of the Q-value calculation. An explicit minimax over Q-values is used to find actions close to Nash equilibrium. We find empirically that both agents converge to Nash equilibrium in a self-play setting for simple matrix games, while also performing well in games with larger state and action spaces. These novel algorithms are evaluated against vanilla RL algorithms as well as recent state of the art multi-agent and two agent algorithms. This work combines ideas from traditional reinforcement learning, game theory, and meta learning.</description>
-    </item>
-    <item>
-      <title>The GKK Algorithm is the Fastest over Simple Mean-Payoff Games</title>
-      <link>https://arxiv.org/abs/2110.04533</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.04533</guid>
-      <pubDate>Sat, 09 Oct 2021 00:00:00 -0000</pubDate>
-      <description>We study the algorithm of Gurvich, Khachyian and Karzanov (GKK algorithm) when it is ran over mean-payoff games with no simple cycle of weight zero. We propose a new symmetric analysis, lowering the $O(n^2 N)$ upper-bound of Pisaruk on the number of iterations down to $N + Ep + Em$, which is smaller than $nN$, where $n$ is the number of vertices, $N$ is the largest absolute value of a weight, and $Ep$ and $Em$ are respectively the largest finite energy and dual-energy values of the game. Since each iteration is computed in $O(m)$, this improves on the state of the art pseudopolynomial $O(mnN)$ runtime bound of Brim, Chaloupka, Doyen, Gentilini and Raskin, by taking into account the structure of the game graph. We complement our result by showing that the analysis of Dorfman, Kaplan and Zwick also applies to the GKK algorithm, which is thus also subject to the state of the art combinatorial runtime bound of $O(m 2^{n/2})$.</description>
-    </item>
-    <item>
-      <title>A Mechanism Design Approach to Allocating Travel Funds</title>
-      <link>https://arxiv.org/abs/2110.04161</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2110.04161</guid>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 -0000</pubDate>
-      <description>I explain how faculty members could exploit a method to allocate travel funds and how to use game theory to design a method that cannot be manipulated.</description>
     </item>
   </channel>
 </rss>
